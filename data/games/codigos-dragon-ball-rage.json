@@ -1,16 +1,43 @@
 {
   "slug": "codigos-dragon-ball-rage",
   "name": "Dragon Ball Rage",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-991a72e111a3badfce0e7836ea1301fc/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Dragon Ball Rage en Roblox",
   "metaTitle": "Códigos Dragon Ball Rage (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dragon Ball Rage en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Dragon Ball Rage en Roblox. Consigue Zeni, XP y Dragon Balls gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 3805,
+  "totalVisits": 953950258,
+  "likes": 606004,
+  "genre": "RPG",
+  "activeCodes": [
+    { "code": "600KLikesCapsules", "reward": "5 Capsules" },
+    { "code": "600KLIKES", "reward": "5.000 Zeni" },
+    { "code": "Sorry4Delay", "reward": "5.000 Zeni" },
+    { "code": "HaveSomeExp", "reward": "2x EXP 20 minutos" },
+    { "code": "4KSIGNUPS", "reward": "1 Dragon Ball" },
+    { "code": "TRICKorZENI", "reward": "5.000 Zeni" },
+    { "code": "HaveABall", "reward": "1 Dragon Ball gratis" },
+    { "code": "NEXT_WEEK", "reward": "2.000 Zeni" },
+    { "code": "CodeBreaker", "reward": "Título Code Breaker" },
+    { "code": "550K", "reward": "2.000 Zeni" },
+    { "code": "2MILLION", "reward": "5.000 Zeni" },
+    { "code": "2MILFAVS", "reward": "1 Dragon Ball aleatoria" },
+    { "code": "500KLIKES", "reward": "2x XP 20 minutos" },
+    { "code": "L0LN0C0D3S", "reward": "2x XP 5 minutos" }
+  ],
+  "expiredCodes": [
+    { "code": "Sorry4Datastores", "reward": "3x XP 15 min + Dragon Ball" },
+    { "code": "Sorry4Restart", "reward": "Recompensas gratis" },
+    { "code": "SummerIsHere2024", "reward": "Recompensas gratis" },
+    { "code": "Sub2Acausal", "reward": "Recompensas gratis" },
+    { "code": "750MIL!!", "reward": "Recompensas gratis" },
+    { "code": "Ralex4ev3r", "reward": "2x XP 1 hora" },
+    { "code": "Sub2Metalizer", "reward": "1.000.000 de stats" }
+  ],
   "howToRedeem": [
     "Abre Dragon Ball Rage en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el botón de menú en pantalla",
+    "Escribe el código en la caja de texto y pulsa Canjear"
   ]
 }

@@ -2,15 +2,31 @@
   "slug": "codigos-stumble-guys",
   "name": "Stumble Guys",
   "thumbnail": "",
-  "description": "Todos los códigos activos para Stumble Guys en Roblox",
+  "description": "Todos los códigos de creador activos para Stumble Guys",
   "metaTitle": "Códigos Stumble Guys (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Stumble Guys en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos de creador para Stumble Guys. Apoya a tus creadores favoritos.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "activeCodes": [
+    { "code": "Reyju", "reward": "Código de creador" },
+    { "code": "Mangyellow", "reward": "Código de creador" },
+    { "code": "Coral", "reward": "Código de creador" },
+    { "code": "Revo", "reward": "Código de creador" },
+    { "code": "Cortus11", "reward": "Código de creador" },
+    { "code": "BABYYODA", "reward": "Código de creador" },
+    { "code": "sparx", "reward": "Código de creador" },
+    { "code": "MADALIN", "reward": "Código de creador" }
+  ],
+  "expiredCodes": [
+    { "code": "Alpharad", "reward": "Código de creador" },
+    { "code": "TEAMLUKAS", "reward": "Código de creador" },
+    { "code": "CREATIVE", "reward": "Código de creador" },
+    { "code": "EMPER", "reward": "Código de creador" },
+    { "code": "RaxoR", "reward": "Código de creador" }
+  ],
   "howToRedeem": [
-    "Abre Stumble Guys en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Stumble Guys en tu dispositivo",
+    "Ve a Ajustes desde el menú principal",
+    "Busca la sección de códigos de creador",
+    "Escribe el código y confirma"
   ]
 }

@@ -1,16 +1,37 @@
 {
   "slug": "codigos-pls-donate",
-  "name": "Pls Donate",
-  "thumbnail": "",
-  "description": "Todos los códigos activos para Pls Donate en Roblox",
-  "metaTitle": "Códigos Pls Donate (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Pls Donate en Roblox. Consigue recompensas gratis.",
+  "name": "PLS DONATE",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-bb37e52cff1866a8eb294413697b8b8e/512/512/Image/Png/noFilter",
+  "description": "Todos los códigos activos para PLS DONATE en Roblox",
+  "metaTitle": "Códigos PLS DONATE (Febrero 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para PLS DONATE en Roblox. Consigue Giftbux y booths gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 17917,
+  "totalVisits": 4819480855,
+  "likes": 3448970,
+  "genre": "Social",
+  "activeCodes": [
+    { "code": "haunted", "reward": "30 Giftbux" },
+    { "code": "Eagle_15", "reward": "15 Giftbux" },
+    { "code": "hazem", "reward": "50 Giftbux" },
+    { "code": "pixel", "reward": "Pixel Booth gratis" },
+    { "code": "plsdonate2", "reward": "20 Giftbux" },
+    { "code": "quataun", "reward": "50 Giftbux" },
+    { "code": "lazarbeam", "reward": "Lazarbeam Booth gratis" },
+    { "code": "PLSDONATENEWS15", "reward": "15 Giftbux" }
+  ],
+  "expiredCodes": [
+    { "code": "glass", "reward": "Contest Winning Booth" },
+    { "code": "pd2024", "reward": "Booth 2024 gratis" },
+    { "code": "iloveeagleeyes10", "reward": "Recompensas gratis" },
+    { "code": "ggliquate10", "reward": "Recompensas gratis" },
+    { "code": "projectsupreme50", "reward": "Recompensas gratis" },
+    { "code": "plsdonatenews10", "reward": "Recompensas gratis" },
+    { "code": "STEAK15", "reward": "Recompensas gratis" }
+  ],
   "howToRedeem": [
-    "Abre Pls Donate en Roblox",
-    "Busca el icono de códigos en el menú",
+    "Abre PLS DONATE en Roblox",
+    "Pulsa el icono de Twitter/códigos en la pantalla",
     "Escribe el código y pulsa Canjear"
   ]
 }

@@ -2,15 +2,25 @@
   "slug": "codigos-arena-breakout",
   "name": "Arena Breakout",
   "thumbnail": "",
-  "description": "Todos los códigos activos para Arena Breakout en Roblox",
+  "description": "Todos los códigos activos para Arena Breakout en móvil",
   "metaTitle": "Códigos Arena Breakout (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Arena Breakout en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Arena Breakout. Consigue diamantes, skins y recompensas gratis.",
   "lastUpdated": "2026-02-21",
   "activeCodes": [],
-  "expiredCodes": [],
+  "expiredCodes": [
+    { "code": "BLACKOUT1011NOW", "reward": "Objetos gratis" },
+    { "code": "RENOIR1011VICTORY", "reward": "Objetos gratis" },
+    { "code": "922ARMORCHECK", "reward": "Objetos de armadura" },
+    { "code": "ABGL2023", "reward": "Objetos gratis" },
+    { "code": "825ARMORCHECK", "reward": "Objetos de armadura" },
+    { "code": "728GOLDCHECK", "reward": "Oro gratis" },
+    { "code": "AB0714", "reward": "Objetos gratis" }
+  ],
   "howToRedeem": [
-    "Abre Arena Breakout en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Tu cuenta debe ser Nivel 5 o superior",
+    "Abre Arena Breakout y pulsa el botón Eventos",
+    "Toca en Canjear Código",
+    "Escribe el código y pulsa SUBMIT",
+    "Revisa tu correo del juego para las recompensas"
   ]
 }

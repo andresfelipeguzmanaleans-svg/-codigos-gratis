@@ -1,16 +1,35 @@
 {
   "slug": "codigos-southwest-florida",
   "name": "Southwest Florida",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-6c6e4fd5a34acce3cf41760765f001e7/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Southwest Florida en Roblox",
   "metaTitle": "Códigos Southwest Florida (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Southwest Florida en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Southwest Florida en Roblox. Consigue cash y vehículos gratis.",
   "lastUpdated": "2026-02-21",
+  "playerCount": 2708,
+  "totalVisits": 754014639,
+  "likes": 722071,
+  "genre": "Simulation",
   "activeCodes": [],
-  "expiredCodes": [],
+  "expiredCodes": [
+    { "code": "2024", "reward": "$100.000 Cash + BMW M4 SWFL" },
+    { "code": "HALLOWEEN2024", "reward": "$100.000 Cash" },
+    { "code": "HALLOWEEN", "reward": "$200.000 Cash" },
+    { "code": "JOJE", "reward": "$50.000 Cash" },
+    { "code": "CONN", "reward": "$50.000 Cash" },
+    { "code": "WANNY", "reward": "$50.000 Cash" },
+    { "code": "MRGAMER", "reward": "$50.000 Cash" },
+    { "code": "TURKEY", "reward": "$100.000 Cash" },
+    { "code": "FALL", "reward": "$50.000 Cash + Hayunai Sonata" },
+    { "code": "100MIL", "reward": "Ford Mustang + Cash" },
+    { "code": "JULY4", "reward": "$150.000 Cash" },
+    { "code": "SORRY", "reward": "$300.000 Cash" },
+    { "code": "REVAMP", "reward": "$50.000 Cash" }
+  ],
   "howToRedeem": [
     "Abre Southwest Florida en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el icono de Ajustes a la izquierda",
+    "Ve a la sección Code Redeem",
+    "Escribe el código y pulsa REDEEM"
   ]
 }

@@ -1,16 +1,40 @@
 {
   "slug": "codigos-dragon-soul",
   "name": "Dragon Soul",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-f7a47f56bfcdd17cdf1a1ebf966d483f/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Dragon Soul en Roblox",
   "metaTitle": "Códigos Dragon Soul (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dragon Soul en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Dragon Soul en Roblox. Consigue Dragon Balls, Zeni y boosts gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 5238,
+  "totalVisits": 240100720,
+  "likes": 458197,
+  "genre": "RPG",
+  "activeCodes": [
+    { "code": "valentine", "reward": "7 Dragon Balls" },
+    { "code": "devluck", "reward": "2x Luck" },
+    { "code": "GODREWORK", "reward": "7 Dragon Balls" },
+    { "code": "exclusive", "reward": "Legendary Soul + 7 Dragon Balls" },
+    { "code": "dragon", "reward": "4 Dragon Balls" },
+    { "code": "300klikes", "reward": "10-30 Shattered Orbs" },
+    { "code": "shatteredorbs", "reward": "30 Shattered Orbs" },
+    { "code": "100milplays", "reward": "20 Shattered Orbs" },
+    { "code": "Beast", "reward": "1 Bound Legendary Soul" },
+    { "code": "JAPAN", "reward": "1 Bound Legendary Soul" },
+    { "code": "200k", "reward": "50% luck, mastery, XP y Zeni 30 min" },
+    { "code": "souls", "reward": "2.000 Zeni + 50% boosts 30 min" },
+    { "code": "DRAGONSOUL", "reward": "50% XP boost 30 min" },
+    { "code": "boostspack", "reward": "30% luck, mastery, XP y Zeni 1 hora" },
+    { "code": "GARO", "reward": "1 Sansu Bean" }
+  ],
+  "expiredCodes": [
+    { "code": "8KLIKES", "reward": "Recompensas gratis" },
+    { "code": "20kLIKES", "reward": "Recompensas gratis" },
+    { "code": "XPGRIND", "reward": "XP boost" }
+  ],
   "howToRedeem": [
     "Abre Dragon Soul en Roblox",
-    "Busca el icono de códigos en el menú",
+    "Pulsa el icono de códigos en el menú",
     "Escribe el código y pulsa Canjear"
   ]
 }
