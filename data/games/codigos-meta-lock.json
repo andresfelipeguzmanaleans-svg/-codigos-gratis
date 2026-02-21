@@ -1,16 +1,44 @@
 {
   "slug": "codigos-meta-lock",
   "name": "Meta Lock",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-d1fccc9509846f3bb30532cc8aac13b0/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Meta Lock en Roblox",
   "metaTitle": "Códigos Meta Lock (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Meta Lock en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Meta Lock en Roblox. Consigue Spins y Talent Spins gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 296,
+  "totalVisits": 115697152,
+  "likes": 77102,
+  "genre": "Sports",
+  "placeId": 13641922937,
+  "activeCodes": [
+    { "code": "BlindSpotTrait", "reward": "Spins gratis" },
+    { "code": "FreestyleTalent", "reward": "Spins gratis" },
+    { "code": "AlarmClockTalent", "reward": "Spins gratis" },
+    { "code": "SpinCodeSpinCodeFr", "reward": "Spins gratis" },
+    { "code": "SorryForShutdownNelIsagi2", "reward": "30 Spins" },
+    { "code": "SorryForShutdownNelIsagi", "reward": "30 Spins" },
+    { "code": "NELIsagi", "reward": "30 Spins" },
+    { "code": "AdaptabilityGenius", "reward": "15 Talent Spins" },
+    { "code": "delaydelaydelaydelaylaylaylay", "reward": "20 Spins + 20 Talent Spins" },
+    { "code": "HAPPY_NEW_YEAR_2026", "reward": "Spins gratis" },
+    { "code": "PANTHERUPDATE", "reward": "Spins gratis" },
+    { "code": "6V6MODE", "reward": "Spins gratis" },
+    { "code": "RinRework", "reward": "Spins gratis" },
+    { "code": "ReflexWeapon", "reward": "Spins gratis" },
+    { "code": "bonuscode1", "reward": "Spins gratis" }
+  ],
+  "expiredCodes": [
+    { "code": "SUMMERUPDATE", "reward": "Spins gratis" },
+    { "code": "100KLIKES", "reward": "Spins por hito" }
+  ],
+  "introText": "Meta Lock es un juego de fútbol de Roblox inspirado en Blue Lock, creado por Reydmundo con más de 115 millones de visitas. Construyes tu propio delantero, dominas estilos de juego potentes y compites en partidos intensos contra rivales. Personaliza tu estilo de juego, desbloquea habilidades únicas y despierta tu verdadero potencial para convertirte en el delantero número 1 del mundo.",
+  "whatAreCodes": "Los códigos de Meta Lock te dan Spins y Talent Spins gratis para obtener nuevos rasgos, talentos y habilidades para tu personaje. Algunos códigos otorgan hasta 30 Spins de golpe, lo que te permite rerollear tus stats y conseguir builds más potentes sin gastar recursos.",
+  "howToGetCodes": "Reydmundo publica nuevos códigos en el grupo de Roblox de Meta Lock y en su servidor de Discord. Los códigos suelen llegar con cada actualización grande como Nel Isagi, Panther Update y reworks de personajes.",
   "howToRedeem": [
     "Abre Meta Lock en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el botón Locker en el menú",
+    "Selecciona Build y luego pulsa Codes en la parte inferior",
+    "Escribe el código y pulsa Enter"
   ]
 }

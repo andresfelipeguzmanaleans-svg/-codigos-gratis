@@ -1,16 +1,42 @@
 {
   "slug": "codigos-jailbreak",
   "name": "Jailbreak",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-1d608ebaef2c42b8efeb036c95f0e659/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Jailbreak en Roblox",
   "metaTitle": "Códigos Jailbreak (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Jailbreak en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Jailbreak en Roblox. Consigue cash, crates y boosters gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 3608,
+  "totalVisits": 7797583059,
+  "likes": 5722024,
+  "genre": "Action",
+  "placeId": 606849621,
+  "activeCodes": [
+    { "code": "20KCASH4U", "reward": "20.000 Cash" },
+    { "code": "BigMac8241", "reward": "555 Cash" },
+    { "code": "apr7", "reward": "555 Cash" },
+    { "code": "YoutubeHelloItsVG", "reward": "Sticker HelloItsVG para neumáticos" },
+    { "code": "YoutubeNoobFreak", "reward": "Sticker NoobFreak para neumáticos" },
+    { "code": "1MILJAILBIRD", "reward": "1 Regular Crate + 1 Experience Booster" },
+    { "code": "THANKSFORWAITING", "reward": "200 Credits + 1 Regular Crate" },
+    { "code": "JAILBIRDSTARTER", "reward": "Experience Booster" },
+    { "code": "spring23", "reward": "12.500 Cash" },
+    { "code": "Jailbird", "reward": "500 Cash" }
+  ],
+  "expiredCodes": [
+    { "code": "rich100rich", "reward": "100K Cash (limitado)" },
+    { "code": "25pass50", "reward": "Season Pass gratis (limitado)" },
+    { "code": "NTW_IS_COOL", "reward": "10.000 Cash" },
+    { "code": "hyperchrome", "reward": "3.000 Cash" },
+    { "code": "balance", "reward": "5.000 Cash" }
+  ],
+  "introText": "Jailbreak es uno de los juegos más icónicos de Roblox, creado por Badimo (asimo3089 y badcc) con casi 7.800 millones de visitas y 5,7 millones de likes. Puedes elegir ser policía o criminal: organiza robos a bancos, joyerías y trenes, o persigue a los delincuentes por un enorme mapa abierto con decenas de vehículos.",
+  "whatAreCodes": "Los códigos de Jailbreak te dan Cash para comprar vehículos y personalización, Regular Crates con objetos aleatorios, Experience Boosters que aceleran tu progreso en la Season y stickers exclusivos para los neumáticos de tus coches.",
+  "howToGetCodes": "Badimo publica nuevos códigos en su Twitter oficial (@asimo3089 y @badaboron) y dentro del juego en los ATMs. Los códigos suelen llegar con nuevas temporadas, actualizaciones y colaboraciones con creadores de contenido de YouTube.",
   "howToRedeem": [
     "Abre Jailbreak en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Busca cualquier ATM en el mapa (bancos, comisaría, etc.)",
+    "Interactúa con el ATM y selecciona la opción de código",
+    "Escribe el código y pulsa Redeem"
   ]
 }

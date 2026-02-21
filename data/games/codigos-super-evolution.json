@@ -1,16 +1,36 @@
 {
   "slug": "codigos-super-evolution",
   "name": "Super Evolution",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-d602f2bbe3b2c4dbf402477e5d3acede/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Super Evolution en Roblox",
   "metaTitle": "Códigos Super Evolution (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Super Evolution en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Super Evolution en Roblox. Consigue boosts de coins, orbs y fuerza gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 460,
+  "totalVisits": 166782225,
+  "likes": 199758,
+  "genre": "Simulator",
+  "placeId": 6312753269,
+  "activeCodes": [
+    { "code": "STATBOOST?", "reward": "x3 Coin Boost 10 min + x3 Orb Boost 5 min + x2 Strength Boost 15 min" }
+  ],
+  "expiredCodes": [
+    { "code": "100MIL!", "reward": "Boosts por hito 100M visitas" },
+    { "code": "COINS!", "reward": "Boost de coins" },
+    { "code": "30KLIKES", "reward": "Boosts por hito" },
+    { "code": "60KLIKES", "reward": "Boosts por hito" },
+    { "code": "250K", "reward": "Boosts por hito" },
+    { "code": "BOOSTER", "reward": "Boost temporal" },
+    { "code": "GAMERELEASE", "reward": "Boost de lanzamiento" },
+    { "code": "10KLIKES", "reward": "Boosts por hito" }
+  ],
+  "introText": "Super Evolution es un simulador de entrenamiento de Roblox inspirado en Dragon Ball, creado por InnoVision con más de 166 millones de visitas y 199K likes. Entrenas Fuerza, Resistencia, Energía y Agilidad para convertirte en el Saiyan más poderoso del universo. Desbloqueas transformaciones como Ultra Instinct y compites en los leaderboards.",
+  "whatAreCodes": "Los códigos de Super Evolution te dan boosts temporales que multiplican tus ganancias de Coins, Orbs y Strength. El código STATBOOST? otorga x3 en Coins y Orbs además de x2 en Strength, acelerando enormemente tu progreso de entrenamiento.",
+  "howToGetCodes": "InnoVision publica nuevos códigos en su cuenta de Twitter/X (@InnoVisionGames) y en el servidor de Discord de InnoVision. Los códigos suelen aparecer cuando el juego alcanza hitos de likes o visitas.",
   "howToRedeem": [
     "Abre Super Evolution en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa la pestaña Codes en el lateral izquierdo",
+    "Escribe el código en el campo ENTER CODE",
+    "Pulsa el botón azul Confirm para activar el boost"
   ]
 }

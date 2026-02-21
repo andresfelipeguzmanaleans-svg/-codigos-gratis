@@ -1,16 +1,39 @@
 {
   "slug": "codigos-jujutsu-infinite",
   "name": "Jujutsu Infinite",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-c72c9480ba4546c2f73bfb7c816b6da4/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Jujutsu Infinite en Roblox",
   "metaTitle": "Códigos Jujutsu Infinite (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Jujutsu Infinite en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Jujutsu Infinite en Roblox. Consigue Spins gratis para técnicas malditas.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 30225,
+  "totalVisits": 626751864,
+  "likes": 1514403,
+  "genre": "RPG",
+  "placeId": 10450270085,
+  "activeCodes": [
+    { "code": "1M_MEMBERS", "reward": "200 Spins" },
+    { "code": "WINTER_EVENT_OUT", "reward": "100 Spins" },
+    { "code": "LUNAR_2026", "reward": "50 Spins" },
+    { "code": "LUNAR_SOON", "reward": "50 Spins" },
+    { "code": "WINTER_END", "reward": "50 Spins" },
+    { "code": "1M_LIKES", "reward": "50 Spins" },
+    { "code": "96_PERCENT", "reward": "50 Spins" },
+    { "code": "2M_FAVS", "reward": "50 Spins" },
+    { "code": "SHOWDOWN_SORRY!", "reward": "50 Spins" }
+  ],
+  "expiredCodes": [
+    { "code": "900K_LIKES", "reward": "50 Spins" },
+    { "code": "CHRISTMAS_2025", "reward": "100 Spins" },
+    { "code": "500K_LIKES", "reward": "50 Spins" }
+  ],
+  "introText": "Jujutsu Infinite es un RPG de mundo abierto en Roblox inspirado en Jujutsu Kaisen, creado por Awesome Ninja Games con más de 626 millones de visitas y 1,5 millones de likes. Exploras un vasto mundo abierto, exterminas espíritus malditos, luchas contra otros hechiceros y desbloqueas un amplio arsenal de técnicas malditas. Disponible en PC, móvil y consola.",
+  "whatAreCodes": "Los códigos de Jujutsu Infinite te dan Spins gratis para obtener nuevas técnicas malditas, rasgos y habilidades. El código más generoso da 200 Spins de golpe, lo que te permite probar múltiples builds y conseguir técnicas raras sin necesidad de farmear.",
+  "howToGetCodes": "Awesome Ninja Games publica nuevos códigos en su Twitter/X (@awsninjagames) y en su servidor de Discord. Los códigos aparecen con actualizaciones, eventos como el Lunar New Year y cuando el juego alcanza hitos de likes, favoritos o miembros del grupo. Los códigos suelen durar 2-4 semanas.",
   "howToRedeem": [
     "Abre Jujutsu Infinite en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Ve a la pestaña Customize desde el menú principal",
+    "Escribe el código en el campo Redeem Code Here",
+    "Pulsa el botón '>' para canjear los Spins"
   ]
 }

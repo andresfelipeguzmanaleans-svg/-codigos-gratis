@@ -1,16 +1,34 @@
 {
   "slug": "codigos-survive-the-killer",
   "name": "Survive the Killer",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-fbce7cb58dc9b42feed70a9df6e53f55/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Survive the Killer en Roblox",
   "metaTitle": "Códigos Survive the Killer (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Survive the Killer en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Survive the Killer en Roblox. Consigue Slycers y armas gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 5774,
+  "totalVisits": 2549223949,
+  "likes": 978458,
+  "genre": "Horror",
+  "placeId": 4580204640,
+  "activeCodes": [
+    { "code": "luckyduck", "reward": "Easter Event Slycer" },
+    { "code": "vote1m", "reward": "Valentine's Day Slycer" },
+    { "code": "GHOSTS", "reward": "Zombie Candy Slycer" },
+    { "code": "MINING", "reward": "Charcoal Slycer + receta Motherlode Slycer" }
+  ],
+  "expiredCodes": [
+    { "code": "SPOOKY2024", "reward": "Slycer de Halloween" },
+    { "code": "XMAS2024", "reward": "Slycer navideño" },
+    { "code": "VALENTINE", "reward": "Slycer de San Valentín" }
+  ],
+  "introText": "Survive the Killer es un juego de terror y supervivencia de Roblox creado por Slyce Entertainment con más de 2.500 millones de visitas y casi 1 millón de likes. Los supervivientes deben esconderse del asesino, rescatar a sus compañeros y escapar juntos antes de que se acabe el tiempo, mientras el killer intenta eliminar a todos los jugadores.",
+  "whatAreCodes": "Los códigos de Survive the Killer te dan Slycers, que son armas cosméticas exclusivas con diseños temáticos como Zombie Candy, Valentine's Day y Easter. Algunos códigos también desbloquean recetas de crafteo para crear Slycers aún más raros.",
+  "howToGetCodes": "Slyce Entertainment publica nuevos códigos en su Twitter oficial y en su servidor de Discord. Los códigos aparecen durante eventos de temporada como Halloween, Navidad, San Valentín y Pascua, así como cuando el juego alcanza hitos de votos.",
   "howToRedeem": [
     "Abre Survive the Killer en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Ve al área del campamento (hub central)",
+    "Busca al NPC llamado Cody (camisa verde con icono de Twitter)",
+    "Interactúa con él, escribe el código y pulsa Redeem"
   ]
 }

@@ -1,16 +1,43 @@
 {
   "slug": "codigos-pull-a-sword",
   "name": "Pull a Sword",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-98266af2d32c8be75fd978d7a151971e/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Pull a Sword en Roblox",
   "metaTitle": "Códigos Pull a Sword (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Pull a Sword en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Pull a Sword en Roblox. Consigue pociones, boosts y recompensas gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 1226,
+  "totalVisits": 374576750,
+  "likes": 1332178,
+  "genre": "Simulator",
+  "placeId": 13827198708,
+  "activeCodes": [
+    { "code": "VALENTINES", "reward": "Pociones" },
+    { "code": "ENCHANTED", "reward": "Pociones" },
+    { "code": "LUNAR", "reward": "50 Lantern" },
+    { "code": "NEWYEARNEWJOURNEY", "reward": "5 Ice Strength Potion" },
+    { "code": "2026", "reward": "5 Ice Strength Potion + 3 EXP Boost" },
+    { "code": "Hotfix", "reward": "10 Mega Potion" },
+    { "code": "HAPPYNEWYEAR", "reward": "5 Ice Strength Potion" },
+    { "code": "SEASONXX", "reward": "5 Mega Potion" },
+    { "code": "DelayAWorld", "reward": "Recompensas gratis" },
+    { "code": "Leaderboard", "reward": "Recompensas gratis" },
+    { "code": "Workshop", "reward": "Recompensas gratis" },
+    { "code": "QOL", "reward": "Recompensas gratis" },
+    { "code": "SORRYFORBUGS", "reward": "Recompensas gratis" }
+  ],
+  "expiredCodes": [
+    { "code": "HALLOWEEN", "reward": "Pociones de Halloween" },
+    { "code": "SEASON10", "reward": "5 Mega Potion" },
+    { "code": "100MVISITS", "reward": "Recompensas por hito" }
+  ],
+  "introText": "Pull a Sword es un simulador de Roblox creado por xFrozen Obbys con más de 374 millones de visitas y 1,3 millones de likes. Entrenas fuerza para ser capaz de extraer espadas cada vez más poderosas, coleccionas mascotas y compites contra otros jugadores. El juego añade nuevas fases a diario.",
+  "whatAreCodes": "Los códigos de Pull a Sword te dan pociones como Ice Strength Potion y Mega Potion que potencian tu fuerza temporalmente, EXP Boosts para subir de nivel más rápido y recursos especiales como Lanterns para eventos de temporada. El juego tiene más de 150 códigos activos en total.",
+  "howToGetCodes": "El desarrollador i2Perfect publica nuevos códigos constantemente en el canal #help de su servidor de Discord y en su canal de YouTube. Los códigos se lanzan con cada nueva actualización, fase nueva y evento especial como San Valentín o Año Nuevo Lunar.",
   "howToRedeem": [
     "Abre Pull a Sword en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el botón Codes en el lateral derecho de la pantalla",
+    "Escribe o pega el código en el campo de texto",
+    "Pulsa Enter para canjear la recompensa"
   ]
 }

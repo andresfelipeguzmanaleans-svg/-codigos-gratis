@@ -1,16 +1,40 @@
 {
   "slug": "codigos-zombie-hunters",
   "name": "Zombie Hunters",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-3c7c4a4cd0c82f392bea5e222071bcff/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Zombie Hunters en Roblox",
   "metaTitle": "Códigos Zombie Hunters (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Zombie Hunters en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Zombie Hunters en Roblox. Consigue gemas y boosts gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 14,
+  "totalVisits": 34030765,
+  "likes": 48632,
+  "genre": "Adventure",
+  "placeId": 15015142084,
+  "activeCodes": [
+    { "code": "OMGYT", "reward": "100 Gems" },
+    { "code": "Valentines", "reward": "1.000 Gems" },
+    { "code": "Z-CODE", "reward": "500 Gems" },
+    { "code": "Mechanic", "reward": "100 Gems" },
+    { "code": "Creepy", "reward": "200 Gems" },
+    { "code": "16KLikesTY", "reward": "100 Gems" },
+    { "code": "ILoveGem", "reward": "100 Gems" },
+    { "code": "Welcome", "reward": "50 Gems" },
+    { "code": "OMG", "reward": "50 Gems" },
+    { "code": "ZombieSlayer", "reward": "Boost" },
+    { "code": "ZombieHunters", "reward": "50 Gems" },
+    { "code": "DiscordMembers", "reward": "77 Gems" }
+  ],
+  "expiredCodes": [
+    { "code": "SorryEveryone", "reward": "Recompensas gratis" }
+  ],
+  "introText": "Zombie Hunters es un shooter cooperativo de Roblox desarrollado por OMG - One More Games donde sobrevives a un mundo apocalíptico lleno de zombis. Con más de 34 millones de visitas, el juego te permite elegir entre una gran variedad de armas y habilidades para derrotar oleadas de zombis cada vez más peligrosos, recoger loot y avanzar por distintas fases.",
+  "whatAreCodes": "Los códigos de Zombie Hunters te dan Gems gratis, la moneda principal del juego que necesitas para desbloquear armas, habilidades y mejoras en la tienda. Algunos códigos también otorgan boosts temporales que te ayudan a farmear más rápido durante las partidas.",
+  "howToGetCodes": "El equipo de OMG - One More Games publicaba nuevos códigos en su grupo de Roblox y en su servidor de Discord. Actualmente los desarrolladores han dejado de actualizar el juego, así que no se esperan nuevos códigos, pero los existentes siguen funcionando.",
   "howToRedeem": [
     "Abre Zombie Hunters en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Busca el botón de Codes en el menú lateral",
+    "Escribe el código exactamente como aparece",
+    "Pulsa Redeem para recibir tu recompensa"
   ]
 }

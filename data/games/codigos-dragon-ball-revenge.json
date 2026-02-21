@@ -1,16 +1,38 @@
 {
   "slug": "codigos-dragon-ball-revenge",
   "name": "Dragon Ball Revenge",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-b543174804cbe66c2dd45e66e445e16e/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Dragon Ball Revenge en Roblox",
   "metaTitle": "Códigos Dragon Ball Revenge (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dragon Ball Revenge en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Dragon Ball Revenge en Roblox. Consigue stats, Zeni y boosts gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
+  "playerCount": 37,
+  "totalVisits": 23590818,
+  "likes": 18079,
+  "genre": "Fighting",
+  "placeId": 7196626850,
+  "activeCodes": [
+    { "code": "Freeboost", "reward": "45M Stats" },
+    { "code": "BirthdayEvent", "reward": "20M Stats" },
+    { "code": "70kM3mbeRs", "reward": "7M Stats + 10K Zeni" },
+    { "code": "N3wM0des", "reward": "5M Stats + 10K Zeni" },
+    { "code": "Sub2Axthrius", "reward": "5M Stats + Zeni gratis" },
+    { "code": "REVENGEFORM", "reward": "Recompensas gratis" },
+    { "code": "60kM3mbeRs", "reward": "Recompensas gratis" },
+    { "code": "TikTokIkariS4int", "reward": "Recompensas gratis" },
+    { "code": "CLANWAR", "reward": "Recompensas gratis" },
+    { "code": "CASUALPLAYER", "reward": "Recompensas gratis" },
+    { "code": "Omnigogito", "reward": "Stats + Zeni mejorados" },
+    { "code": "2MVisits", "reward": "Stats + Zeni mejorados" }
+  ],
   "expiredCodes": [],
+  "introText": "Dragon Ball Revenge es un juego de lucha de Roblox inspirado en el universo de Dragon Ball, creado por AbstroGames. Con más de 23 millones de visitas, entrenas tus estadísticas de combate, desbloqueas transformaciones legendarias como Ultra Instinct y luchas contra otros jugadores o NPCs en batallas aéreas estilo anime.",
+  "whatAreCodes": "Los códigos de Dragon Ball Revenge te dan millones de puntos de Stats para potenciar fuerza, energía y resistencia de tu personaje, además de Zeni (la moneda del juego) para comprar equipamiento. El código más potente da hasta 45M de Stats de golpe, un impulso enorme para nuevos jugadores.",
+  "howToGetCodes": "AbstroGames publica nuevos códigos en su grupo de Discord (Dragon Ball Revenge Fan Club) y cuando el juego alcanza hitos de miembros o visitas. Los códigos son case-sensitive, así que es importante escribirlos exactamente como aparecen.",
   "howToRedeem": [
     "Abre Dragon Ball Revenge en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Busca el botón de Codes en el menú lateral",
+    "Escribe el código respetando mayúsculas y minúsculas",
+    "Pulsa Submit para recibir tu recompensa"
   ]
 }

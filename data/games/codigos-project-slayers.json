@@ -1,16 +1,31 @@
 {
   "slug": "codigos-project-slayers",
   "name": "Project Slayers",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-f71e9da041d76bbc685d3035ed2e9a31/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Project Slayers en Roblox",
   "metaTitle": "Códigos Project Slayers (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Project Slayers en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Project Slayers en Roblox. Consigue spins y recompensas gratis.",
   "lastUpdated": "2026-02-21",
+  "playerCount": 488,
+  "totalVisits": 669656015,
+  "likes": 759475,
+  "genre": "RPG",
+  "placeId": 5956785391,
   "activeCodes": [],
-  "expiredCodes": [],
+  "expiredCodes": [
+    { "code": "Slayersmassiveupdate!", "reward": "Spins gratis" },
+    { "code": "Projectslayers300k!", "reward": "Spins por hito" },
+    { "code": "SubToRazorfish", "reward": "Spins gratis" },
+    { "code": "SubToCyber", "reward": "Spins gratis" },
+    { "code": "100kactivePS!", "reward": "Spins por hito" }
+  ],
+  "introText": "Project Slayers es un RPG de mundo abierto en Roblox inspirado en Demon Slayer, creado por el grupo Project Slayers con más de 669 millones de visitas y 759K likes. Exploras desde pequeños pueblos hasta ciudades y bosques tenebrosos, eligiendo entre ser un cazador de demonios o unirte al lado oscuro. El combate incluye combos aéreos y habilidades especiales.",
+  "whatAreCodes": "Los códigos de Project Slayers te dan Spins gratuitos para rerollear tu raza, estilo de respiración y Blood Demon Art. Estos spins son muy valiosos ya que conseguir la habilidad perfecta puede cambiar completamente tu experiencia de juego.",
+  "howToGetCodes": "El equipo de Project Slayers publica nuevos códigos en su servidor de Discord y en su Trello oficial. Los códigos suelen aparecer con actualizaciones grandes y cuando el juego alcanza hitos de jugadores. Actualmente no hay códigos activos, pero se esperan nuevos con futuras updates.",
   "howToRedeem": [
     "Abre Project Slayers en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el icono de regalo en el lateral izquierdo",
+    "Escribe el código en el campo de texto",
+    "Pulsa Submit Code para canjear"
   ]
 }

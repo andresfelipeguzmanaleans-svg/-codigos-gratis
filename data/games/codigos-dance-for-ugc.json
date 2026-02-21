@@ -1,16 +1,31 @@
 {
   "slug": "codigos-dance-for-ugc",
-  "name": "Dance for Ugc",
-  "thumbnail": "",
-  "description": "Todos los códigos activos para Dance for Ugc en Roblox",
-  "metaTitle": "Códigos Dance for Ugc (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dance for Ugc en Roblox. Consigue recompensas gratis.",
+  "name": "Dance for UGC",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-15c841159753d7f5e37a614a7222cc52/512/512/Image/Png/noFilter",
+  "description": "Todos los códigos activos para Dance for UGC en Roblox",
+  "metaTitle": "Códigos Dance for UGC (Febrero 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Dance for UGC en Roblox. Consigue Fame Points y limiteds UGC gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 512,
+  "totalVisits": 65940698,
+  "likes": 112303,
+  "genre": "Simulation",
+  "placeId": 15792006934,
+  "activeCodes": [
+    { "code": "SnowVeil", "reward": "29.000 Fame Points" }
+  ],
+  "expiredCodes": [
+    { "code": "TrickCandy", "reward": "Fame Points" },
+    { "code": "SummerDance", "reward": "Fame Points" },
+    { "code": "SpringVibes", "reward": "Fame Points" }
+  ],
+  "introText": "Dance for UGC es un juego de Roblox presentado por Lily (LILY & LIFFY) con más de 65 millones de visitas y 112K likes. Bailas para acumular fama y ganar items UGC limitados gratuitos. El juego ofrece drops regulares de accesorios UGC exclusivos que puedes conseguir simplemente jugando y bailando.",
+  "whatAreCodes": "Los códigos de Dance for UGC te dan Fame Points gratis, la moneda principal que necesitas para subir en el ranking y desbloquear recompensas UGC limitadas. Un solo código puede darte hasta 29.000 Fame Points de golpe, acelerando mucho tu progreso hacia los premios.",
+  "howToGetCodes": "La desarrolladora @lily_liffy publica nuevos códigos en su Twitter/X y en el servidor de Discord de LIFFY. Muchos códigos expiran en 10-15 horas, así que hay que estar atento. Algunos códigos son exclusivos para seguidores de la cuenta de Twitter vinculada.",
   "howToRedeem": [
-    "Abre Dance for Ugc en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Dance for UGC en Roblox",
+    "Pulsa el botón CODES en el lateral izquierdo de la pantalla",
+    "Escribe o pega el código en el campo Enter code here",
+    "Pulsa Enter para recibir los Fame Points"
   ]
 }

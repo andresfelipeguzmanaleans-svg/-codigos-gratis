@@ -2,15 +2,22 @@
   "slug": "codigos-soul-knight-prequel",
   "name": "Soul Knight Prequel",
   "thumbnail": "",
-  "description": "Todos los códigos activos para Soul Knight Prequel en Roblox",
+  "description": "Todos los códigos activos para Soul Knight Prequel",
   "metaTitle": "Códigos Soul Knight Prequel (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Soul Knight Prequel en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Soul Knight Prequel. Consigue skins, huevos y materiales gratis.",
   "lastUpdated": "2026-02-21",
   "activeCodes": [],
-  "expiredCodes": [],
+  "expiredCodes": [
+    { "code": "THX4ALLGP", "reward": "Skin Captain Paloma + 3 Gale Juice + 3 Housing Snapshots + 3 Bullion (Android)" },
+    { "code": "ASTHX4ALL", "reward": "1 Egg + 2 Gold Nuggets + Skin Computer House + Skin Apple (iOS)" }
+  ],
+  "introText": "Soul Knight Prequel es un action RPG desarrollado por ChillyRoom disponible en iOS y Android. Con gráficos pixel art detallados, exploras mazmorras generadas proceduralmente, combinas clases y habilidades para crear builds únicos y luchas contra jefes épicos en tiempo real. Es la precuela del popular Soul Knight.",
+  "whatAreCodes": "Los códigos de Soul Knight Prequel te dan skins exclusivas de personajes y casas, huevos para obtener mascotas, materiales de mejora como Gold Nuggets y Bullion, y consumibles como Gale Juice y Life Juice. Algunos códigos son específicos para Android o iOS.",
+  "howToGetCodes": "ChillyRoom publica nuevos códigos en las páginas oficiales de Facebook y en la cuenta de Twitter/X de Soul Knight Prequel. Los códigos suelen aparecer durante eventos especiales y aniversarios del juego, pero son poco frecuentes y expiran rápidamente.",
   "howToRedeem": [
-    "Abre Soul Knight Prequel en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Soul Knight Prequel en tu dispositivo móvil",
+    "Ve al buzón de correo (mailbox) a la izquierda de la casa",
+    "Selecciona la opción de canjear código",
+    "Escribe el código y pulsa Redeem"
   ]
 }

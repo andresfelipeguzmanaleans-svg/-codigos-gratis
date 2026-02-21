@@ -1,16 +1,35 @@
 {
   "slug": "codigos-war-thunder",
-  "name": "War Thunder",
-  "thumbnail": "",
-  "description": "Todos los códigos activos para War Thunder en Roblox",
-  "metaTitle": "Códigos War Thunder (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para War Thunder en Roblox. Consigue recompensas gratis.",
+  "name": "War Tycoon",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-4c0a1da6228cdbde6d54cc380672e5f0/512/512/Image/Png/noFilter",
+  "description": "Todos los códigos activos para War Tycoon en Roblox",
+  "metaTitle": "Códigos War Tycoon (Febrero 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para War Tycoon en Roblox. Consigue cash, medallas y skins de armas gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 15502,
+  "totalVisits": 952157141,
+  "likes": 1007003,
+  "genre": "Tycoon",
+  "placeId": 4639625707,
+  "activeCodes": [
+    { "code": "BlueTweet", "reward": "Skin Sapphire" },
+    { "code": "New Map!", "reward": "15 Medals + 250K Cash + 2x Cash Boost 30 min" },
+    { "code": "Wiki200k", "reward": "Skin Magmaflow para armas" },
+    { "code": "Mega", "reward": "100K Cash + 10 Medals" },
+    { "code": "Boom", "reward": "Skin Verdant para armas" }
+  ],
+  "expiredCodes": [
+    { "code": "1MFAVS", "reward": "250K Cash + Verdant Camo" },
+    { "code": "1BILLION", "reward": "500K Cash" },
+    { "code": "Patriot", "reward": "Skin patriótica" }
+  ],
+  "introText": "War Tycoon es un juego de Roblox creado por KizmoTek Studio con más de 950 millones de visitas y 1 millón de likes. Construyes tu propia base tycoon y libras batallas con un arsenal de vehículos y armas militares, incluyendo tanques, helicópteros y aviones bombarderos. Tu progreso se guarda automáticamente.",
+  "whatAreCodes": "Los códigos de War Tycoon te dan Cash para comprar equipamiento militar, Medals que desbloquean contenido exclusivo y skins cosméticas para tus armas como Sapphire, Magmaflow y Verdant. Algunos códigos también incluyen boosts de Cash x2 temporales para acelerar tu progreso.",
+  "howToGetCodes": "KizmoTek Studio publica nuevos códigos cuando el juego alcanza hitos de likes. El próximo código llegará en 1.1M likes. También publican códigos en su Twitter oficial y en el foro de desarrollo de Roblox DevForum.",
   "howToRedeem": [
-    "Abre War Thunder en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre War Tycoon en Roblox",
+    "Pulsa el icono de Twitter/Códigos en el menú",
+    "Escribe el código en el campo de texto",
+    "Pulsa Submit para canjear la recompensa"
   ]
 }

@@ -2,15 +2,22 @@
   "slug": "codigos-guardian-tales",
   "name": "Guardian Tales",
   "thumbnail": "",
-  "description": "Todos los códigos activos para Guardian Tales en Roblox",
+  "description": "Todos los códigos activos para Guardian Tales",
   "metaTitle": "Códigos Guardian Tales (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Guardian Tales en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Guardian Tales. Consigue gemas, stamina y recompensas gratis.",
   "lastUpdated": "2026-02-21",
   "activeCodes": [],
-  "expiredCodes": [],
+  "expiredCodes": [
+    { "code": "GT2024THANKS", "reward": "Gemas y stamina" },
+    { "code": "HAPPYNEWYEAR2025", "reward": "Gemas gratis" }
+  ],
+  "introText": "Guardian Tales es un action RPG desarrollado por Kakao Games disponible en iOS y Android. Con un estilo pixel art encantador, exploras mazmorras llenas de puzzles, combates en tiempo real y una historia principal con humor y referencias a la cultura pop. El juego incluye modos PvP, Guild Raids y eventos de temporada.",
+  "whatAreCodes": "Los códigos de Guardian Tales te dan gemas gratuitas (la moneda premium para invocar héroes), stamina para seguir jugando sin esperas y materiales de mejora. Los códigos son temporales y suelen expirar en pocos días tras su publicación.",
+  "howToGetCodes": "Kakao Games publica nuevos códigos en las redes sociales oficiales de Guardian Tales (Twitter, Facebook) y durante streams especiales y eventos de aniversario. También aparecen códigos en colaboraciones con creadores de contenido.",
   "howToRedeem": [
-    "Abre Guardian Tales en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Guardian Tales en tu dispositivo móvil",
+    "Ve a Opciones desde el menú principal",
+    "Selecciona la opción de Canjear Código",
+    "Escribe el código y pulsa Confirmar"
   ]
 }

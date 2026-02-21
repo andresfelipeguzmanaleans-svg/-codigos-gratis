@@ -1,16 +1,37 @@
 {
   "slug": "codigos-restaurant-tycoon-2",
   "name": "Restaurant Tycoon 2",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-b827c95c29987193de35e796354f7e4f/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Restaurant Tycoon 2 en Roblox",
   "metaTitle": "Códigos Restaurant Tycoon 2 (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Restaurant Tycoon 2 en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Restaurant Tycoon 2 en Roblox. Consigue diamantes, cash e items gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 3774,
+  "totalVisits": 1600600133,
+  "likes": 1316888,
+  "genre": "Tycoon",
+  "placeId": 3398014311,
+  "activeCodes": [
+    { "code": "Gruffalo", "reward": "10 Diamonds" },
+    { "code": "Subtoveddev", "reward": "250 Cash" },
+    { "code": "Ocean", "reward": "Item Dolphin" },
+    { "code": "light it up", "reward": "Item Wireframe Lights" },
+    { "code": "Razorfishgaming", "reward": "250 Cash" }
+  ],
+  "expiredCodes": [
+    { "code": "winter2024", "reward": "Decoración invernal" },
+    { "code": "christmasmiracle", "reward": "Items de Navidad" },
+    { "code": "slimy", "reward": "Item especial" },
+    { "code": "alien", "reward": "Item alienígena" },
+    { "code": "future", "reward": "Item futurista" }
+  ],
+  "introText": "Restaurant Tycoon 2 es un juego tycoon de Roblox creado por Ultraw con más de 1.600 millones de visitas y 1,3 millones de likes. Diseñas y gestionas tu propio restaurante desde cero: decoras el local, creas un menú con platos de todo el mundo, cocinas para tus clientes y visitas los restaurantes de tus amigos.",
+  "whatAreCodes": "Los códigos de Restaurant Tycoon 2 te dan Diamonds (la moneda premium para decoraciones exclusivas), Cash para ampliar tu restaurante e items decorativos especiales como Wireframe Lights y un Dolphin para personalizar tu local.",
+  "howToGetCodes": "Ultraw publica nuevos códigos en su Twitter (@Ultraw) y en el servidor de Discord oficial del juego. Ten en cuenta que el desarrollador ya lanzó Restaurant Tycoon 3, por lo que los códigos nuevos para RT2 son cada vez más escasos.",
   "howToRedeem": [
     "Abre Restaurant Tycoon 2 en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el botón Store en el menú",
+    "Selecciona la pestaña de Codes",
+    "Escribe el código y pulsa Claim"
   ]
 }

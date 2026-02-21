@@ -1,16 +1,34 @@
 {
   "slug": "codigos-race-clicker",
   "name": "Race Clicker",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-2ccca6b2a8fb98e5ba5e9e875e435cc9/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Race Clicker en Roblox",
   "metaTitle": "Códigos Race Clicker (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Race Clicker en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Race Clicker en Roblox. Consigue boosts de velocidad, suerte y auto-click gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 1237,
+  "totalVisits": 953922537,
+  "likes": 1515096,
+  "genre": "Racing",
+  "placeId": 9285238704,
+  "activeCodes": [
+    { "code": "RaceTrack", "reward": "Boost Bundle" },
+    { "code": "67", "reward": "Boost Bundle" },
+    { "code": "Christmas", "reward": "Boost Bundle" },
+    { "code": "Ninja", "reward": "Boost Bundle" }
+  ],
+  "expiredCodes": [
+    { "code": "Dominus", "reward": "Boost Bundle" },
+    { "code": "XMAS", "reward": "Boost Bundle" },
+    { "code": "Anniversary", "reward": "Boost Bundle" }
+  ],
+  "introText": "Race Clicker es un juego de carreras y clicker de Roblox creado por 48h Games con más de 953 millones de visitas y 1,5 millones de likes. Haces clic para correr más rápido, acumulas victorias que te dan velocidad permanente y compites por llegar al Top 50 del leaderboard global. Cada nivel te lleva a nuevas pistas.",
+  "whatAreCodes": "Los códigos de Race Clicker te dan Boost Bundles que incluyen boosts de velocidad para correr más rápido, boosts de suerte para mejores drops y boosts de auto-click que hacen clic automáticamente por ti durante un tiempo limitado.",
+  "howToGetCodes": "48h Games publica nuevos códigos en la descripción del juego en Roblox y en su servidor de Discord. Los códigos suelen aparecer con nuevas actualizaciones como el modo Build y los vehículos ATV.",
   "howToRedeem": [
     "Abre Race Clicker en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el botón CODES en la esquina superior izquierda",
+    "Escribe el código en la ventana emergente",
+    "Pulsa Redeem para activar los boosts"
   ]
 }

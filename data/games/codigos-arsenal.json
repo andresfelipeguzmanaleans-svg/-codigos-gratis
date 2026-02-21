@@ -1,16 +1,44 @@
 {
   "slug": "codigos-arsenal",
   "name": "Arsenal",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-2c691f8c1278352cc98e30afef3c3a4e/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Arsenal en Roblox",
   "metaTitle": "Códigos Arsenal (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Arsenal en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Arsenal en Roblox. Consigue skins, announcers y BattleBucks gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 7198,
+  "totalVisits": 6141471203,
+  "likes": 5074346,
+  "genre": "Shooter",
+  "placeId": 286090429,
+  "activeCodes": [
+    { "code": "scarybug", "reward": "Skin Herobrine Delinquent" },
+    { "code": "merrychristmas25", "reward": "2.500 BattleBucks" },
+    { "code": "10YRS", "reward": "Skin Thumbnail Beret" },
+    { "code": "FLAMINGO", "reward": "Announcer Flamingo" },
+    { "code": "XONAE", "reward": "Announcer Xonae" },
+    { "code": "TRGTBOARD", "reward": "Taunt Hoverboard" },
+    { "code": "F00LISH", "reward": "Skin Jackeryz" },
+    { "code": "ROLVE", "reward": "Skin Rabblerouser" },
+    { "code": "POKE", "reward": "Skin Poke" },
+    { "code": "Bandites", "reward": "Announcer Bandites" },
+    { "code": "JOHN", "reward": "Announcer John" },
+    { "code": "ANNA", "reward": "Skin Anna" },
+    { "code": "PET", "reward": "Announcer Petrify" },
+    { "code": "GARCELLO", "reward": "Skin Garcello + Kill Effect" }
+  ],
+  "expiredCodes": [
+    { "code": "SPOOKY", "reward": "Skin de Halloween" },
+    { "code": "TROLLFACE", "reward": "Announcer especial" },
+    { "code": "EPICK", "reward": "Skin épica" }
+  ],
+  "introText": "Arsenal es un shooter arcade de ritmo frenético en Roblox, creado por ROLVe Community con más de 6.100 millones de visitas y 5 millones de likes. Avanzas por un arsenal masivo de armas (desde bazookas hasta libros de hechizos) eliminando enemigos, y ganas BattleBucks para desbloquear personajes, efectos de muerte y skins.",
+  "whatAreCodes": "Los códigos de Arsenal te dan skins exclusivas de personajes como Garcello y Jackeryz, Announcers que cambian la voz del narrador durante las partidas, taunts como el Hoverboard y BattleBucks para comprar cosméticos en la tienda.",
+  "howToGetCodes": "ROLVe publica nuevos códigos en sus redes sociales oficiales y dentro del propio juego. Los códigos suelen lanzarse durante eventos especiales como Halloween y Navidad, o como colaboraciones con creadores de contenido populares.",
   "howToRedeem": [
     "Abre Arsenal en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el icono de regalo en el menú principal",
+    "Escribe el código (es case-sensitive)",
+    "Pulsa REDEEM para obtener tu recompensa"
   ]
 }

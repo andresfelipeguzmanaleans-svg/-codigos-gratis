@@ -1,16 +1,38 @@
 {
   "slug": "codigos-motorcycle-mayhem",
   "name": "Motorcycle Mayhem",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-3ad08724d69bea92dc17b1b49d2268a4/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Motorcycle Mayhem en Roblox",
   "metaTitle": "Códigos Motorcycle Mayhem (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Motorcycle Mayhem en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Motorcycle Mayhem en Roblox. Consigue Gears gratis para comprar motos.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 490,
+  "totalVisits": 154937392,
+  "likes": 254372,
+  "genre": "Racing",
+  "placeId": 12533625712,
+  "activeCodes": [
+    { "code": "FANTASTIC250K", "reward": "Gears gratis" },
+    { "code": "MEGA230K", "reward": "1.000 Gears" },
+    { "code": "YES170K", "reward": "1.000 Gears" },
+    { "code": "HYPE160K", "reward": "1.000 Gears" },
+    { "code": "THX150K", "reward": "1.000 Gears" },
+    { "code": "EPIC140K", "reward": "1.000 Gears" },
+    { "code": "WOW130K", "reward": "1.000 Gears" }
+  ],
+  "expiredCodes": [
+    { "code": "OMG50K", "reward": "Gears gratis" },
+    { "code": "TURBINEBIKE", "reward": "Gears gratis" },
+    { "code": "CACTUS", "reward": "Gears gratis" },
+    { "code": "60KWOW", "reward": "Gears gratis" }
+  ],
+  "introText": "Motorcycle Mayhem es un juego de motos de Roblox creado por Breakneck Interactive con más de 154 millones de visitas y 254K likes. Pilotas motos potentes esquivando tráfico a toda velocidad por autopistas, desbloqueas nuevas motos y compites con amigos en carreras épicas. Incluye controles manuales con cambio de marchas.",
+  "whatAreCodes": "Los códigos de Motorcycle Mayhem te dan Gears, la moneda del juego que necesitas para comprar motos nuevas sin gastar Robux. Cada código suele dar 1.000 Gears, y acumulando varios códigos puedes conseguir motos de gama alta rápidamente.",
+  "howToGetCodes": "Breakneck Interactive publica nuevos códigos cuando el juego alcanza hitos de likes. El próximo código llegará en 260K likes. También publican en su Twitter (@motomayhemrblx) y en el servidor de Discord. Los códigos no tienen fecha de expiración fija.",
   "howToRedeem": [
     "Abre Motorcycle Mayhem en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el icono de regalo azul en la esquina inferior izquierda",
+    "Escribe el código en el campo Enter Code",
+    "Pulsa el botón verde ENTER para canjear"
   ]
 }
