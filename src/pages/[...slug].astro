@@ -15,6 +15,14 @@ interface GameData {
   activeCodes: { code: string; reward: string }[];
   expiredCodes: { code: string; reward: string }[];
   howToRedeem: string[];
+  introText?: string;
+  whatAreCodes?: string;
+  howToGetCodes?: string;
+  playerCount?: number;
+  totalVisits?: number;
+  likes?: number;
+  genre?: string;
+  placeId?: number;
 }
 
 export async function getStaticPaths() {
@@ -37,30 +45,55 @@ const dateLabel = new Date(game.lastUpdated).toLocaleDateString('es-ES', {
   year: 'numeric',
 });
 
+function formatNumber(n: number): string {
+  if (n >= 1_000_000_000) return `${(n / 1_000_000_000).toFixed(1).replace('.0', '')}B`;
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1).replace('.0', '')}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1).replace('.0', '')}K`;
+  return n.toString();
+}
+
+const faqEntries: { '@type': string; name: string; acceptedAnswer: { '@type': string; text: string } }[] = [
+  {
+    '@type': 'Question',
+    name: `¿Cuáles son los códigos activos de ${game.name} en Roblox?`,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text:
+        game.activeCodes.length > 0
+          ? `Los códigos activos para ${game.name} son: ${game.activeCodes.map((c) => `${c.code} (${c.reward})`).join(', ')}.`
+          : `Actualmente no hay códigos activos para ${game.name}.`,
+    },
+  },
+  {
+    '@type': 'Question',
+    name: `¿Cómo canjear códigos en ${game.name}?`,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: game.howToRedeem.map((step, i) => `${i + 1}. ${step}`).join(' '),
+    },
+  },
+];
+
+if (game.whatAreCodes) {
+  faqEntries.push({
+    '@type': 'Question',
+    name: `¿Qué son los códigos de ${game.name}?`,
+    acceptedAnswer: { '@type': 'Answer', text: game.whatAreCodes },
+  });
+}
+
+if (game.howToGetCodes) {
+  faqEntries.push({
+    '@type': 'Question',
+    name: `¿Cómo conseguir más códigos de ${game.name}?`,
+    acceptedAnswer: { '@type': 'Answer', text: game.howToGetCodes },
+  });
+}
+
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: `¿Cuáles son los códigos activos de ${game.name} en Roblox?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text:
-          game.activeCodes.length > 0
-            ? `Los códigos activos para ${game.name} son: ${game.activeCodes.map((c) => `${c.code} (${c.reward})`).join(', ')}.`
-            : `Actualmente no hay códigos activos para ${game.name}.`,
-      },
-    },
-    {
-      '@type': 'Question',
-      name: `¿Cómo canjear códigos en ${game.name}?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: game.howToRedeem.map((step, i) => `${i + 1}. ${step}`).join(' '),
-      },
-    },
-  ],
+  mainEntity: faqEntries,
 };
 ---
 
@@ -105,6 +138,37 @@ const faqSchema = {
         </div>
       </section>
 
+      <!-- Stats -->
+      {(game.playerCount || game.totalVisits || game.likes) && (
+        <div class="stats">
+          {game.playerCount && (
+            <div class="stat">
+              <span class="stat__value">{formatNumber(game.playerCount)}</span>
+              <span class="stat__label">Jugando ahora</span>
+            </div>
+          )}
+          {game.totalVisits && (
+            <div class="stat">
+              <span class="stat__value">{formatNumber(game.totalVisits)}</span>
+              <span class="stat__label">Visitas totales</span>
+            </div>
+          )}
+          {game.likes && (
+            <div class="stat">
+              <span class="stat__value">{formatNumber(game.likes)}</span>
+              <span class="stat__label">Likes</span>
+            </div>
+          )}
+        </div>
+      )}
+
+      <!-- Intro -->
+      {game.introText && (
+        <section class="section">
+          <p class="intro-text">{game.introText}</p>
+        </section>
+      )}
+
       <!-- Códigos activos -->
       {game.activeCodes.length > 0 && (
         <section class="section">
@@ -114,6 +178,14 @@ const faqSchema = {
               <CodeItem code={c.code} reward={c.reward} />
             ))}
           </div>
+        </section>
+      )}
+
+      <!-- ¿Qué son los códigos? -->
+      {game.whatAreCodes && (
+        <section class="section">
+          <h2 class="section__title">¿Qué son los códigos de {game.name}?</h2>
+          <p class="section__text">{game.whatAreCodes}</p>
         </section>
       )}
 
@@ -139,7 +211,25 @@ const faqSchema = {
                 <li class="redeem-steps__item">{step}</li>
               ))}
             </ol>
+            {game.placeId && (
+              <a
+                href={`https://www.roblox.com/games/${game.placeId}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="roblox-link"
+              >
+                Abrir {game.name} en Roblox
+              </a>
+            )}
           </div>
+        </section>
+      )}
+
+      <!-- ¿Cómo conseguir más códigos? -->
+      {game.howToGetCodes && (
+        <section class="section">
+          <h2 class="section__title">¿Cómo conseguir más códigos de {game.name}?</h2>
+          <p class="section__text">{game.howToGetCodes}</p>
         </section>
       )}
     </div>
@@ -165,7 +255,7 @@ const faqSchema = {
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
   }
 
   @media (min-width: 640px) {
@@ -244,6 +334,40 @@ const faqSchema = {
     background: rgba(255, 209, 102, 0.1);
   }
 
+  /* ---- Stats ---- */
+  .stats {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    flex: 1;
+    min-width: 90px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.75rem 0.5rem;
+  }
+
+  .stat__value {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .stat__label {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    text-align: center;
+  }
+
   /* ---- Secciones ---- */
   .section {
     margin-bottom: 2.5rem;
@@ -258,6 +382,18 @@ const faqSchema = {
 
   .section__title--dim {
     color: var(--text-dim);
+  }
+
+  .section__text {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .intro-text {
+    color: var(--text);
+    font-size: 1rem;
+    line-height: 1.7;
   }
 
   .codes-list {
@@ -305,5 +441,25 @@ const faqSchema = {
     justify-content: center;
     border-radius: 50%;
     flex-shrink: 0;
+  }
+
+  .roblox-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.6rem 1.25rem;
+    background: var(--accent);
+    color: var(--bg-deep);
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .roblox-link:hover {
+    opacity: 0.85;
   }
 </style>
