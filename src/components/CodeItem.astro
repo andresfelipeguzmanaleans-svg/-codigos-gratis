@@ -1,0 +1,118 @@
+---
+interface Props {
+  code: string;
+  reward: string;
+  expired?: boolean;
+}
+
+const { code, reward, expired = false } = Astro.props;
+---
+
+<div class:list={['code-item', { 'code-item--expired': expired }]}>
+  <div class="code-item__info">
+    <span class="code-item__code">{code}</span>
+    <span class="code-item__reward">{reward}</span>
+  </div>
+  {expired ? (
+    <span class="code-item__btn code-item__btn--expired">EXPIRADO</span>
+  ) : (
+    <button class="code-item__btn" data-copy={code}>COPIAR</button>
+  )}
+</div>
+
+<script>
+  document.addEventListener('click', async (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-copy]');
+    if (!btn) return;
+
+    try {
+      await navigator.clipboard.writeText(btn.dataset.copy!);
+      btn.textContent = '¡COPIADO!';
+      btn.classList.add('code-item__btn--copied');
+      setTimeout(() => {
+        btn.textContent = 'COPIAR';
+        btn.classList.remove('code-item__btn--copied');
+      }, 2000);
+    } catch {
+      /* clipboard API not available */
+    }
+  });
+</script>
+
+<style>
+  .code-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.875rem 1rem;
+    background: var(--bg-code);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+
+  .code-item--expired {
+    opacity: 0.45;
+  }
+
+  .code-item__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    min-width: 0;
+  }
+
+  .code-item__code {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text);
+    word-break: break-all;
+  }
+
+  .code-item__reward {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+
+  .code-item__btn {
+    flex-shrink: 0;
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 0.5rem 1.1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: var(--accent);
+    color: var(--bg-deep);
+    transition: background 0.2s, transform 0.1s;
+  }
+
+  .code-item__btn:hover {
+    background: #05c494;
+    transform: scale(1.04);
+  }
+
+  .code-item__btn:active {
+    transform: scale(0.97);
+  }
+
+  .code-item__btn--copied {
+    background: #05c494;
+  }
+
+  .code-item__btn--expired {
+    background: var(--border);
+    color: var(--text-dim);
+    cursor: default;
+    pointer-events: none;
+  }
+
+  @media (min-width: 768px) {
+    .code-item__code {
+      font-size: 1.25rem;
+    }
+  }
+</style>

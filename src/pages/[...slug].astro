@@ -1,0 +1,309 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import CodeItem from '../components/CodeItem.astro';
+import Footer from '../components/Footer.astro';
+
+interface GameData {
+  slug: string;
+  name: string;
+  thumbnail: string;
+  description: string;
+  metaTitle: string;
+  metaDescription: string;
+  lastUpdated: string;
+  activeCodes: { code: string; reward: string }[];
+  expiredCodes: { code: string; reward: string }[];
+  howToRedeem: string[];
+}
+
+export async function getStaticPaths() {
+  const gameModules = import.meta.glob<GameData>('../../data/games/*.json', {
+    eager: true,
+    import: 'default',
+  });
+
+  return Object.values(gameModules).map((game) => ({
+    params: { slug: game.slug },
+    props: { game },
+  }));
+}
+
+const { game } = Astro.props;
+
+const dateLabel = new Date(game.lastUpdated).toLocaleDateString('es-ES', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: `¿Cuáles son los códigos activos de ${game.name} en Roblox?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          game.activeCodes.length > 0
+            ? `Los códigos activos para ${game.name} son: ${game.activeCodes.map((c) => `${c.code} (${c.reward})`).join(', ')}.`
+            : `Actualmente no hay códigos activos para ${game.name}.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `¿Cómo canjear códigos en ${game.name}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: game.howToRedeem.map((step, i) => `${i + 1}. ${step}`).join(' '),
+      },
+    },
+  ],
+};
+---
+
+<Layout
+  title={game.metaTitle}
+  description={game.metaDescription}
+  ogImage={game.thumbnail || undefined}
+>
+  <script
+    slot="head"
+    type="application/ld+json"
+    set:html={JSON.stringify(faqSchema)}
+  />
+
+  <Header />
+
+  <main class="main">
+    <div class="page-wrap">
+      <!-- Hero -->
+      <section class="hero">
+        {game.thumbnail && (
+          <div class="hero__img-wrap">
+            <img
+              src={game.thumbnail}
+              alt={game.name}
+              class="hero__img"
+              loading="eager"
+            />
+          </div>
+        )}
+        <div class="hero__info">
+          <h1 class="hero__title">{game.name}</h1>
+          <p class="hero__desc">{game.description}</p>
+          <div class="hero__badges">
+            <span class="badge badge--green">
+              {game.activeCodes.length} código{game.activeCodes.length !== 1 && 's'} activo{game.activeCodes.length !== 1 && 's'}
+            </span>
+            <span class="badge badge--yellow">
+              Actualizado {dateLabel}
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Códigos activos -->
+      {game.activeCodes.length > 0 && (
+        <section class="section">
+          <h2 class="section__title">Códigos activos</h2>
+          <div class="codes-list">
+            {game.activeCodes.map((c) => (
+              <CodeItem code={c.code} reward={c.reward} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Códigos expirados -->
+      {game.expiredCodes.length > 0 && (
+        <section class="section">
+          <h2 class="section__title section__title--dim">Códigos expirados</h2>
+          <div class="codes-list">
+            {game.expiredCodes.map((c) => (
+              <CodeItem code={c.code} reward={c.reward} expired />
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Cómo canjear -->
+      {game.howToRedeem.length > 0 && (
+        <section class="section">
+          <h2 class="section__title">Cómo canjear códigos</h2>
+          <div class="redeem-box">
+            <ol class="redeem-steps">
+              {game.howToRedeem.map((step) => (
+                <li class="redeem-steps__item">{step}</li>
+              ))}
+            </ol>
+          </div>
+        </section>
+      )}
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .main {
+    padding: 2rem 0 3rem;
+  }
+
+  .page-wrap {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  /* ---- Hero ---- */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .hero {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+
+  .hero__img-wrap {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    flex-shrink: 0;
+  }
+
+  @media (min-width: 640px) {
+    .hero__img-wrap {
+      width: 200px;
+    }
+  }
+
+  .hero__img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .hero__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .hero__title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  @media (min-width: 640px) {
+    .hero__title {
+      font-size: 2rem;
+    }
+  }
+
+  .hero__desc {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+  }
+
+  .hero__badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .badge {
+    font-family: var(--font-display);
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 0.3rem 0.75rem;
+    border-radius: 9999px;
+  }
+
+  .badge--green {
+    color: var(--accent);
+    background: rgba(6, 214, 160, 0.1);
+  }
+
+  .badge--yellow {
+    color: var(--accent-warn);
+    background: rgba(255, 209, 102, 0.1);
+  }
+
+  /* ---- Secciones ---- */
+  .section {
+    margin-bottom: 2.5rem;
+  }
+
+  .section__title {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .section__title--dim {
+    color: var(--text-dim);
+  }
+
+  .codes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  /* ---- Cómo canjear ---- */
+  .redeem-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .redeem-steps {
+    list-style: none;
+    counter-reset: step;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .redeem-steps__item {
+    counter-increment: step;
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .redeem-steps__item::before {
+    content: counter(step);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--accent);
+    background: rgba(6, 214, 160, 0.1);
+    min-width: 1.75rem;
+    height: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+</style>

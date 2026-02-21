@@ -1,0 +1,107 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import GameCard from '../components/GameCard.astro';
+import Footer from '../components/Footer.astro';
+
+interface GameData {
+  name: string;
+  slug: string;
+  thumbnail: string;
+  lastUpdated: string;
+  activeCodes: { code: string; reward: string }[];
+  expiredCodes: { code: string; reward: string }[];
+}
+
+const gameModules = import.meta.glob<GameData>('../../data/games/*.json', {
+  eager: true,
+  import: 'default',
+});
+
+const games = Object.values(gameModules).sort(
+  (a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime()
+);
+---
+
+<Layout title="Códigos Gratis para Roblox — Actualizados hoy">
+  <Header />
+
+  <main class="main">
+    <div class="container">
+      <section class="hero">
+        <h1 class="hero__title">Juegos populares</h1>
+        <p class="hero__sub">Códigos actualizados para tus juegos favoritos de Roblox</p>
+      </section>
+
+      {games.length > 0 ? (
+        <div class="games-grid">
+          {games.map((game) => (
+            <GameCard
+              name={game.name}
+              slug={game.slug}
+              image={game.thumbnail}
+              activeCodes={game.activeCodes.length}
+              lastUpdated={game.lastUpdated}
+            />
+          ))}
+        </div>
+      ) : (
+        <p class="empty">Próximamente se añadirán juegos.</p>
+      )}
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .main {
+    padding: 2rem 0 3rem;
+  }
+
+  .hero {
+    margin-bottom: 2rem;
+  }
+
+  .hero__title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+  }
+
+  .hero__sub {
+    color: var(--text-dim);
+    margin-top: 0.35rem;
+    font-size: 0.95rem;
+  }
+
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .games-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+    }
+
+    .hero__title {
+      font-size: 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .games-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .empty {
+    color: var(--text-dim);
+    text-align: center;
+    padding: 4rem 0;
+    font-size: 1rem;
+  }
+</style>
