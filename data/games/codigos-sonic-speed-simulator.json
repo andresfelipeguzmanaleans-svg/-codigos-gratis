@@ -1,16 +1,41 @@
 {
   "slug": "codigos-sonic-speed-simulator",
   "name": "Sonic Speed Simulator",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-e7d74d78fd3cf3aa847cd8317799e764/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Sonic Speed Simulator en Roblox",
   "metaTitle": "Códigos Sonic Speed Simulator (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Sonic Speed Simulator en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Sonic Speed Simulator en Roblox. Consigue Chao pets, XP Boosts y Race Tickets gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 7816,
+  "totalVisits": 1413814296,
+  "likes": 1549930,
+  "genre": "Simulator",
+  "placeId": 9049840490,
+  "activeCodes": [
+    { "code": "happyholidays2025", "reward": "1 Candy Cane Emoji" },
+    { "code": "legoatv", "reward": "Lego ATV Mount" },
+    { "code": "legorouge", "reward": "Lego Rogue Minifigure" },
+    { "code": "1billion", "reward": "1 You Pet" },
+    { "code": "race2win", "reward": "100 Race Tickets" },
+    { "code": "Hooray50k", "reward": "30 min Triple XP Boost" },
+    { "code": "thankyouchao", "reward": "1 Gratitude Chao" },
+    { "code": "thumbsup", "reward": "1 Bloxian Chao" },
+    { "code": "Amazing35", "reward": "30 min Magnet Boost" },
+    { "code": "thefinalfanspt2", "reward": "1 Fan Chao" },
+    { "code": "thefinalfanspt1", "reward": "1 Fan Chao" },
+    { "code": "forthefans", "reward": "1 Fan Chao" }
+  ],
+  "expiredCodes": [
+    { "code": "SPRING2024", "reward": "Chao de primavera" },
+    { "code": "SPOOKY", "reward": "Chao de Halloween" }
+  ],
+  "introText": "Sonic Speed Simulator es el juego de Roblox más rápido con licencia oficial de Sonic, desarrollado por Gamefam. Con más de 1.400 millones de visitas, corre a toda velocidad para subir de nivel, desbloquea mundos temáticos y consigue skins de Sonic y sus amigos.",
+  "whatAreCodes": "Los códigos de Sonic Speed Simulator te dan mascotas Chao, XP Boosts para subir de nivel más rápido, Magnet Boosts para recoger anillos automáticamente, Race Tickets, monturas y emojis exclusivos.",
+  "howToGetCodes": "Gamefam publica nuevos códigos en Twitter/X y en su servidor oficial de Discord. Los códigos suelen lanzarse en eventos de Sonic y colaboraciones especiales.",
   "howToRedeem": [
     "Abre Sonic Speed Simulator en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Ve a la tienda (Shop) desde el menú",
+    "Selecciona la pestaña Redeem Codes",
+    "Escribe el código y pulsa Redeem"
   ]
 }

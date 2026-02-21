@@ -1,16 +1,31 @@
 {
   "slug": "codigos-catalog-avatar-creator",
   "name": "Catalog Avatar Creator",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-64b7572edf1d42d0f4a0b8dcb49a0a62/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Catalog Avatar Creator en Roblox",
   "metaTitle": "Códigos Catalog Avatar Creator (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Catalog Avatar Creator en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Catalog Avatar Creator en Roblox. Consigue Gold Coins, Silver Coins y accesorios gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 110259,
+  "totalVisits": 6136420389,
+  "likes": 2563398,
+  "genre": "Shopping",
+  "placeId": 7041939546,
+  "activeCodes": [
+    { "code": "MASCOT", "reward": "Mascot Wink Face" },
+    { "code": "DAPPER", "reward": "100 Gold Coins + 10.000 Silver Coins" }
+  ],
+  "expiredCodes": [
+    { "code": "LAUNCH", "reward": "Coins de lanzamiento" },
+    { "code": "HOLIDAY", "reward": "Coins de vacaciones" }
+  ],
+  "introText": "Catalog Avatar Creator es la mayor experiencia de compras de avatar en Roblox, desarrollado por Muneeb. Ganador del Fashion Innovation Award en 2023 y 2024, con más de 6.100 millones de visitas, te permite probarte más de 30 millones de artículos del catálogo de Roblox de forma gratuita.",
+  "whatAreCodes": "Los códigos de Catalog Avatar Creator te dan Gold Coins y Silver Coins para desbloquear funciones premium, y accesorios faciales exclusivos como el Mascot Wink Face.",
+  "howToGetCodes": "Muneeb publica nuevos códigos en Twitter/X, aunque se publican muy pocos códigos para este juego.",
   "howToRedeem": [
     "Abre Catalog Avatar Creator en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Escribe /redeem CÓDIGO en el chat del juego",
+    "O pulsa el icono de bolsa > pestaña Codes",
+    "Introduce el código y pulsa Canjear"
   ]
 }

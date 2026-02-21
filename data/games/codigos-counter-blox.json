@@ -1,16 +1,35 @@
 {
   "slug": "codigos-counter-blox",
   "name": "Counter Blox",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-d27eae86de7ca961b91410db5b39b0c9/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Counter Blox en Roblox",
   "metaTitle": "Códigos Counter Blox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Counter Blox en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Counter Blox en Roblox. Consigue Credits gratis para abrir cajas y comprar skins.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 2238,
+  "totalVisits": 1208410034,
+  "likes": 927845,
+  "genre": "FPS",
+  "placeId": 301549746,
+  "activeCodes": [
+    { "code": "HEARTS", "reward": "100 Credits" },
+    { "code": "NEEDCREDITS", "reward": "150 Credits" },
+    { "code": "NADEBINDS", "reward": "Recompensas gratis" },
+    { "code": "HUNGRYTIM", "reward": "150 Credits" },
+    { "code": "CRASHOUT", "reward": "150 Credits" }
+  ],
+  "expiredCodes": [
+    { "code": "CB2024", "reward": "Credits" },
+    { "code": "HALLOWEEN", "reward": "Credits" },
+    { "code": "SUMMER", "reward": "Credits" }
+  ],
+  "introText": "Counter Blox es un shooter competitivo 5v5 estilo CS:GO en Roblox, desarrollado por Headwind (anteriormente ROLVe). Con más de 1.200 millones de visitas, es uno de los FPS más populares de la plataforma con mecánicas de tiro tácticas y un sistema de skins coleccionables.",
+  "whatAreCodes": "Los códigos de Counter Blox te dan Credits que puedes usar para abrir cajas de armas y comprar skins exclusivas para tu arsenal.",
+  "howToGetCodes": "Headwind publica nuevos códigos en Twitter/X y en su servidor oficial de Discord. Los códigos suelen lanzarse en eventos estacionales como Halloween, verano y Navidad.",
   "howToRedeem": [
     "Abre Counter Blox en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el campo de Codes en el lateral derecho de la pantalla",
+    "Escribe el código en el campo",
+    "Pulsa Enter para canjear los Credits"
   ]
 }

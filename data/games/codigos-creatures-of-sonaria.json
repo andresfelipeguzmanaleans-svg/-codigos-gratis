@@ -1,16 +1,31 @@
 {
   "slug": "codigos-creatures-of-sonaria",
-  "name": "Creatures Of Sonaria",
-  "thumbnail": "",
-  "description": "Todos los códigos activos para Creatures Of Sonaria en Roblox",
-  "metaTitle": "Códigos Creatures Of Sonaria (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Creatures Of Sonaria en Roblox. Consigue recompensas gratis.",
+  "name": "Creatures of Sonaria",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-cafc7056f45be6f20314c487450ee1bd/512/512/Image/Png/noFilter",
+  "description": "Todos los códigos activos para Creatures of Sonaria en Roblox",
+  "metaTitle": "Códigos Creatures of Sonaria (Febrero 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Creatures of Sonaria en Roblox. Consigue Signature Looks y Appearance Change Tokens gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 39589,
+  "totalVisits": 1810486684,
+  "likes": 1251998,
+  "genre": "Animal Sim",
+  "placeId": 5233782396,
+  "activeCodes": [
+    { "code": "COSYEAR5", "reward": "Calacatta Marble Signature Look" },
+    { "code": "300KTIKTOK", "reward": "Calacatta Marble Signature Palette + Appearance Change Token" }
+  ],
+  "expiredCodes": [
+    { "code": "COSYEAR4", "reward": "Look anterior aniversario" },
+    { "code": "200KTIKTOK", "reward": "Token de apariencia" }
+  ],
+  "introText": "Creatures of Sonaria es un juego de supervivencia de criaturas en Roblox, desarrollado por Sonar Studios. Empiezas como una criatura joven y débil que debe crecer y hacerse más fuerte para sobrevivir. Con más de 1.800 millones de visitas, el juego ofrece cientos de criaturas únicas con habilidades especiales que puedes desbloquear y evolucionar.",
+  "whatAreCodes": "Los códigos de Creatures of Sonaria te dan Signature Looks (cosméticos exclusivos para tus criaturas) y Appearance Change Tokens que te permiten cambiar el aspecto de tus criaturas sin coste adicional.",
+  "howToGetCodes": "Sonar Studios publica nuevos códigos en su servidor oficial de Discord y en Twitter/X. Los códigos suelen lanzarse en hitos de TikTok y en los aniversarios del juego.",
   "howToRedeem": [
-    "Abre Creatures Of Sonaria en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Creatures of Sonaria en Roblox",
+    "Pulsa el icono de puerta roja para ir al menú principal",
+    "Pulsa el icono de regalo azul en la esquina inferior izquierda",
+    "Escribe el código y pulsa Redeem"
   ]
 }

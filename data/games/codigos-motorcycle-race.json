@@ -1,16 +1,34 @@
 {
   "slug": "codigos-motorcycle-race",
   "name": "Motorcycle Race",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-ea1ef522948036a35a4717aef541c819/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Motorcycle Race en Roblox",
   "metaTitle": "Códigos Motorcycle Race (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Motorcycle Race en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Motorcycle Race en Roblox. Consigue boosts de Triple Win, Auto Click y Aceleración gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 30,
+  "totalVisits": 167189392,
+  "likes": 184355,
+  "genre": "Simulator",
+  "placeId": 13778544303,
+  "activeCodes": [
+    { "code": "3KLIKES", "reward": "3 Triple Wins Boost" },
+    { "code": "2MVISITS", "reward": "3 Auto Click Boost" },
+    { "code": "20KMEMBERS", "reward": "2 Acceleration Boost" },
+    { "code": "5MVISITS", "reward": "1 Triple Win Boost" },
+    { "code": "5KLIKES", "reward": "1 Triple Win Boost" }
+  ],
+  "expiredCodes": [
+    { "code": "1KLIKES", "reward": "Boost gratis" },
+    { "code": "RELEASE", "reward": "Boost de lanzamiento" }
+  ],
+  "introText": "Motorcycle Race (Motorcycle Training) es un simulador de carreras de motos en Roblox creado por BlockLine Race. Con más de 167 millones de visitas y 184K likes, haz clic para acelerar tu moto, compite contra otros jugadores en carreras frenéticas y desbloquea vehículos cada vez más rápidos.",
+  "whatAreCodes": "Los códigos de Motorcycle Race te dan boosts muy útiles como Triple Wins (triplica tus victorias), Auto Click (automatiza los clics) y Acceleration (acelera tu moto). Estos boosts te ayudan a progresar mucho más rápido en las carreras.",
+  "howToGetCodes": "BlockLine Race publica nuevos códigos cuando el juego alcanza hitos de likes y visitas. Sigue su grupo de Roblox y servidor de Discord para enterarte de cada nuevo código.",
   "howToRedeem": [
     "Abre Motorcycle Race en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el botón Codes en el menú",
+    "Escribe el código en el campo",
+    "Pulsa Canjear para activar el boost"
   ]
 }

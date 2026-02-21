@@ -1,16 +1,44 @@
 {
   "slug": "codigos-drive-world",
   "name": "Drive World",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-48fa222b77b1390e7f251d1dda9c8688/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Drive World en Roblox",
   "metaTitle": "Códigos Drive World (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Drive World en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Drive World en Roblox. Consigue Gold, Cash, coches, wraps y neumáticos gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 3153,
+  "totalVisits": 462253685,
+  "likes": 578547,
+  "genre": "Racing",
+  "placeId": 10704789056,
+  "activeCodes": [
+    { "code": "happy2026", "reward": "Efecto nitrous Roman Candle" },
+    { "code": "winterfestival", "reward": "300 Winter Tokens" },
+    { "code": "525klikes", "reward": "Neumáticos Off-roading Sport" },
+    { "code": "blackfriday", "reward": "70 Gold" },
+    { "code": "delayworld", "reward": "55 Gold + 75K Cash" },
+    { "code": "goldenranches", "reward": "100 Gold" },
+    { "code": "freerims", "reward": "Rims R399 y R399XX" },
+    { "code": "500K", "reward": "LUX 800 Morikawa police interceptor" },
+    { "code": "475K", "reward": "Tie Dye Wrap" },
+    { "code": "freecar", "reward": "Frontier utility SUV" },
+    { "code": "95percent", "reward": "Dazzle Camo Wrap" },
+    { "code": "400klikes", "reward": "Neumático gratis" },
+    { "code": "375klikes", "reward": "Digital Camo Wrap" },
+    { "code": "275k", "reward": "Drift Wing Spoiler" },
+    { "code": "ONE_YEAR", "reward": "Rims y wraps gratis" }
+  ],
+  "expiredCodes": [
+    { "code": "250k", "reward": "Cash por hito" },
+    { "code": "100klikes", "reward": "Cash por hito" }
+  ],
+  "introText": "Drive World es un juego de drifting y carreras en Roblox, desarrollado por Twin Atlas. Ganador del Innovation Award 2023, cuenta con más de 462 millones de visitas y ofrece una profunda personalización de vehículos con wraps, neumáticos, rims y efectos nitrous.",
+  "whatAreCodes": "Los códigos de Drive World te dan Gold, Cash, coches gratis, wraps de pintura, neumáticos, rims y efectos de nitrous para personalizar y ampliar tu garaje.",
+  "howToGetCodes": "Twin Atlas publica nuevos códigos en su servidor oficial de Discord y en Twitter/X. Los códigos suelen lanzarse en hitos de likes (el próximo a partir de 525K+).",
   "howToRedeem": [
     "Abre Drive World en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el icono de ajustes (engranaje)",
+    "Pulsa Open junto a Promo Codes",
+    "Escribe el código y pulsa Redeem"
   ]
 }

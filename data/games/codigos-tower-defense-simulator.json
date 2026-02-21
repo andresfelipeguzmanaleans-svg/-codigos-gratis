@@ -1,16 +1,31 @@
 {
   "slug": "codigos-tower-defense-simulator",
   "name": "Tower Defense Simulator",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-0cc461e6627798518dcf4565145300dd/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Tower Defense Simulator en Roblox",
   "metaTitle": "Códigos Tower Defense Simulator (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Tower Defense Simulator en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Tower Defense Simulator en Roblox. Consigue Crates con torres y cosméticos gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 20880,
+  "totalVisits": 4566948388,
+  "likes": 1938691,
+  "genre": "Tower Defense",
+  "placeId": 3260590327,
+  "activeCodes": [
+    { "code": "CHRISTMAS2025", "reward": "1 Christmas 2025 Crate" }
+  ],
+  "expiredCodes": [
+    { "code": "SUMMERFUN", "reward": "Crate de verano" },
+    { "code": "HALLOWEEN2024", "reward": "Crate de Halloween" },
+    { "code": "1BILLION", "reward": "Crate especial" }
+  ],
+  "introText": "Tower Defense Simulator es el juego icónico de defensa de torres en Roblox, creado por Paradoxum Games. Con más de 4.500 millones de visitas y 1,9 millones de likes, es uno de los juegos más populares de la plataforma. Coloca unidades estratégicamente, mejóralas y defiéndete de hordas de zombis cada vez más peligrosas en partidas cooperativas.",
+  "whatAreCodes": "Los códigos de Tower Defense Simulator te dan Crates que contienen torres aleatorias y cosméticos exclusivos. Los códigos son muy raros y valiosos, ya que Paradoxum Games solo publica unos pocos al año, normalmente en eventos especiales.",
+  "howToGetCodes": "Paradoxum Games anuncia nuevos códigos en su servidor oficial de Discord y en Twitter. Los códigos suelen aparecer con eventos de temporada (Navidad, Halloween, verano) y son muy escasos, así que es importante canjearlos rápido antes de que expiren.",
   "howToRedeem": [
     "Abre Tower Defense Simulator en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa la opción Codes en el menú izquierdo",
+    "Escribe el código en el campo de texto",
+    "Pulsa Redeem para abrir tu crate"
   ]
 }

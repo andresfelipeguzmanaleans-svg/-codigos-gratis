@@ -1,16 +1,33 @@
 {
   "slug": "codigos-sneaker-resell-simulator",
   "name": "Sneaker Resell Simulator",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-9eba0a8eb8dd340b4850f87ff3a1af88/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Sneaker Resell Simulator en Roblox",
   "metaTitle": "Códigos Sneaker Resell Simulator (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Sneaker Resell Simulator en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Sneaker Resell Simulator en Roblox. Consigue Cash, zapatillas exclusivas y boosts gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 736,
+  "totalVisits": 88382134,
+  "likes": 67982,
+  "genre": "Simulator",
+  "placeId": 12991635726,
+  "activeCodes": [
+    { "code": "Likes10K", "reward": "2x Cash Boost 5 min" },
+    { "code": "Homie", "reward": "Mike Dunk Low Chicago Split" },
+    { "code": "Bbence_27", "reward": "Recompensas gratis" },
+    { "code": "misumaiki", "reward": "Recompensas gratis" }
+  ],
+  "expiredCodes": [
+    { "code": "RELEASE", "reward": "Cash de lanzamiento" },
+    { "code": "5KLIKES", "reward": "Cash por hito" }
+  ],
+  "introText": "Sneaker Resell Simulator es un simulador en Roblox creado por Maki Labs donde compras, coleccionas y revendes zapatillas de edición limitada. Con más de 88 millones de visitas y 67K likes, construye tu tienda de sneakers, consigue los modelos más exclusivos y hazte el mayor revendedor de zapatillas de la plataforma.",
+  "whatAreCodes": "Los códigos de Sneaker Resell Simulator te dan boosts de Cash para ganar dinero más rápido, zapatillas exclusivas como la Mike Dunk Low Chicago Split, y dinero en efectivo para ampliar tu inventario y tu tienda.",
+  "howToGetCodes": "Maki Labs comparte nuevos códigos en su cuenta de Twitter y servidor de Discord. Los códigos suelen publicarse cuando el juego alcanza hitos de likes y con actualizaciones de contenido.",
   "howToRedeem": [
     "Abre Sneaker Resell Simulator en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Busca el botón de Codes en el menú",
+    "Escribe el código en el campo",
+    "Pulsa Redeem para canjear"
   ]
 }

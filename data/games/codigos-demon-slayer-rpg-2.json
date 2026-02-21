@@ -1,16 +1,42 @@
 {
   "slug": "codigos-demon-slayer-rpg-2",
-  "name": "Demon Slayer Rpg 2",
-  "thumbnail": "",
-  "description": "Todos los códigos activos para Demon Slayer Rpg 2 en Roblox",
-  "metaTitle": "Códigos Demon Slayer Rpg 2 (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Demon Slayer Rpg 2 en Roblox. Consigue recompensas gratis.",
+  "name": "Demon Slayer RPG 2",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-da397c7b0960609dbfdbac2ba8d7ebb0/512/512/Image/Png/noFilter",
+  "description": "Todos los códigos activos para Demon Slayer RPG 2 en Roblox",
+  "metaTitle": "Códigos Demon Slayer RPG 2 (Febrero 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Demon Slayer RPG 2 en Roblox. Consigue Resets de Raza, Respiración y EXP Boosts gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 23,
+  "totalVisits": 154666876,
+  "likes": 378877,
+  "genre": "RPG",
+  "placeId": 4734949248,
+  "activeCodes": [
+    { "code": "!BigUpdateYoNichirinColorReset", "reward": "Nichirin Color Reset" },
+    { "code": "!BigUpdateYoEXPBoost", "reward": "EXP Boost 1 hora" },
+    { "code": "!BigUpdateYoRaceReset", "reward": "Race Reset" },
+    { "code": "!DomaBDARaceReset", "reward": "Race Reset" },
+    { "code": "!DomaBDADemonArtReset", "reward": "Demon Art Reset" },
+    { "code": "!DomaBDABreathingReset", "reward": "Breathing Reset" },
+    { "code": "!DomaBDANichirinColorReset", "reward": "Nichirin Color Reset" },
+    { "code": "!DomaBDAEXPBoost", "reward": "EXP Boost 1 hora" },
+    { "code": "!Start2025RaceReset", "reward": "Race Reset" },
+    { "code": "!Start2025DemonArtReset", "reward": "Demon Art Reset" },
+    { "code": "!Start2025BreathingReset", "reward": "Breathing Reset" },
+    { "code": "!Start2025NichirinColorReset", "reward": "Nichirin Color Reset" },
+    { "code": "!Start2025EXPBoostt", "reward": "EXP Boost 1 hora" }
+  ],
+  "expiredCodes": [
+    { "code": "!HalloweenReset", "reward": "Race Reset" },
+    { "code": "!SummerBoost", "reward": "EXP Boost" }
+  ],
+  "introText": "Demon Slayer RPG 2 es un RPG basado en el anime Demon Slayer en Roblox, desarrollado por Shounen Studio. Con más de 154 millones de visitas, elige el camino del demonio o del cazador, explora el Japón nocturno y domina estilos de respiración o artes demoníacas.",
+  "whatAreCodes": "Los códigos de Demon Slayer RPG 2 te dan Resets (de Raza, Respiración, Arte Demoníaca y Color de Nichirin) y EXP Boosts de 1 hora. Todos los códigos empiezan con el símbolo !",
+  "howToGetCodes": "Shounen Studio publica nuevos códigos en el grupo de Roblox DSRPG y en su servidor de Discord. Los códigos suelen lanzarse con actualizaciones grandes del juego.",
   "howToRedeem": [
-    "Abre Demon Slayer Rpg 2 en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Demon Slayer RPG 2 en Roblox",
+    "Abre el chat del juego (esquina superior izquierda)",
+    "Escribe el código completo con el ! al inicio",
+    "Pulsa Enter para activar el reset o boost"
   ]
 }

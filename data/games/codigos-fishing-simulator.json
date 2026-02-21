@@ -1,16 +1,37 @@
 {
   "slug": "codigos-fishing-simulator",
   "name": "Fishing Simulator",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-054a5ce0a3c6e0c4a187f182b9aedb1e/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fishing Simulator en Roblox",
   "metaTitle": "Códigos Fishing Simulator (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fishing Simulator en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Fishing Simulator en Roblox. Consigue Gems y Shards gratis para cañas y barcos.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 1157,
+  "totalVisits": 483877976,
+  "likes": 809135,
+  "genre": "Simulator",
+  "placeId": 2866967438,
+  "activeCodes": [
+    { "code": "HEARTS", "reward": "250 Gems" },
+    { "code": "Water", "reward": "300 Gems" },
+    { "code": "CHRISTMAS", "reward": "50 Shards" },
+    { "code": "THEISLANDWASFAKE", "reward": "150 Gems" },
+    { "code": "FSFOREVER", "reward": "200 Gems" },
+    { "code": "FISHINGMAS24", "reward": "150 Gems" },
+    { "code": "STARFALL", "reward": "50 Shards" },
+    { "code": "WINTERSHARDS", "reward": "50 Shards" }
+  ],
+  "expiredCodes": [
+    { "code": "SUMMER2024", "reward": "Gems de verano" },
+    { "code": "SPOOKY", "reward": "Shards de Halloween" }
+  ],
+  "introText": "Fishing Simulator es la aventura de pesca original de Roblox, creada por Cloud Entertainment. Con más de 483 millones de visitas y 809K likes, explora más de 10 islas, descubre más de 1.000 especies de peces, mejora tus cañas y barcos, y compite por atrapar los peces más raros del océano.",
+  "whatAreCodes": "Los códigos de Fishing Simulator te dan Gems (para comprar cañas y barcos mejores) y Shards (la moneda premium del juego). Con suficientes Gems y Shards puedes desbloquear equipamiento de alto nivel que te ayudará a pescar especies más raras.",
+  "howToGetCodes": "Cloud Entertainment comparte nuevos códigos en su cuenta de Twitter y servidor de Discord. Los códigos suelen aparecer con actualizaciones de contenido, eventos de temporada y celebraciones especiales.",
   "howToRedeem": [
     "Abre Fishing Simulator en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el icono de Twitter en el menú",
+    "Escribe el código en el campo",
+    "Pulsa Redeem para recibir Gems o Shards"
   ]
 }

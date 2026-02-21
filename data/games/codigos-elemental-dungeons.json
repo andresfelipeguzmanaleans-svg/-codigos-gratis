@@ -1,16 +1,39 @@
 {
   "slug": "codigos-elemental-dungeons",
   "name": "Elemental Dungeons",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-991cb5de7ea0bac12396de8d32c1b5ab/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Elemental Dungeons en Roblox",
   "metaTitle": "Códigos Elemental Dungeons (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Elemental Dungeons en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Elemental Dungeons en Roblox. Consigue Gems, Banner Spins y boosts gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 505,
+  "totalVisits": 242664646,
+  "likes": 235866,
+  "genre": "RPG",
+  "placeId": 10515146389,
+  "activeCodes": [
+    { "code": "TIMESUP26", "reward": "1 Time Banner Spin" },
+    { "code": "CHRONOS", "reward": "50 Gems" },
+    { "code": "ELEMENTALMAS", "reward": "Gems gratis" },
+    { "code": "ITSSNOWINGAGAIN", "reward": "Gems gratis" },
+    { "code": "ASTRONOMICAL", "reward": "Gems gratis" },
+    { "code": "LIGHTNINGSHOCK", "reward": "Gems gratis" },
+    { "code": "ASCENDED2025", "reward": "Gems gratis" },
+    { "code": "FALLSEASON", "reward": "Gems gratis" },
+    { "code": "WEAREBACK", "reward": "Gems gratis" },
+    { "code": "IMSORRY:(", "reward": "Gems gratis" }
+  ],
+  "expiredCodes": [
+    { "code": "DARKNESS", "reward": "Gems" },
+    { "code": "LAUNCH", "reward": "Gems de lanzamiento" }
+  ],
+  "introText": "Elemental Dungeons es un RPG de combate elemental en Roblox creado por Malt Games. Con más de 242 millones de visitas y 235K likes, domina más de 20 elementos diferentes, explora mazmorras peligrosas, derrota jefes épicos y combina poderes elementales para crear combinaciones devastadoras.",
+  "whatAreCodes": "Los códigos de Elemental Dungeons te dan Gems para tirar por nuevos elementos, Banner Spins exclusivos y boosts de XP. Las Gems son esenciales para obtener elementos raros y poderosos que te darán ventaja en las mazmorras.",
+  "howToGetCodes": "Malt Games publica nuevos códigos en su servidor oficial de Discord, normalmente con cada actualización de contenido, nuevo elemento o evento especial. También comparten códigos en Twitter.",
   "howToRedeem": [
     "Abre Elemental Dungeons en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el icono de regalo/Codes en el lobby",
+    "Escribe el código en el campo",
+    "Pulsa Redeem para recibir gemas"
   ]
 }

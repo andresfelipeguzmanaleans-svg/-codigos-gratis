@@ -1,16 +1,40 @@
 {
   "slug": "codigos-anime-dungeon-fighters",
   "name": "Anime Dungeon Fighters",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-57187afb3298b6a862465a1e48f5154b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Dungeon Fighters en Roblox",
   "metaTitle": "Códigos Anime Dungeon Fighters (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Dungeon Fighters en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Anime Dungeon Fighters en Roblox. Consigue Gems, Dark Crystals y Magic Dust gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 36,
+  "totalVisits": 117958543,
+  "likes": 957075,
+  "genre": "RPG",
+  "placeId": 12135640403,
+  "activeCodes": [
+    { "code": "WEEKENDGIFT3", "reward": "3.000 Dark Crystals + 5 Magic Dust" },
+    { "code": "LEOPARD", "reward": "5 Weapon Magic Dust + 2 Hero Magic Dust" },
+    { "code": "COMESOON", "reward": "5 Hero Magic Dust + 500 Gems" },
+    { "code": "WEEKENDGIFT2", "reward": "3.000 Dark Crystals" },
+    { "code": "WEEKENDGIFT", "reward": "3.000 Gems" },
+    { "code": "SOLO3", "reward": "3.000 Dark Crystals" },
+    { "code": "DISCORD", "reward": "600 Gems + 100 Cos Coins" },
+    { "code": "KAIJUNO8", "reward": "5 Hero Magic Dust + 500 Gems" },
+    { "code": "AURAUPDATE", "reward": "500 Gems" },
+    { "code": "NEWUPDATE", "reward": "500 Gems" },
+    { "code": "GUILDUPDATE", "reward": "600 Gems" }
+  ],
+  "expiredCodes": [
+    { "code": "HALLOWEEN", "reward": "1.000 Halloween Candy + 1.000 Gems" },
+    { "code": "WUKONG", "reward": "500 Peaches + 500 Gems" }
+  ],
+  "introText": "Anime Dungeon Fighters es un RPG de combate anime en Roblox, desarrollado por BestBunny. Con más de 117 millones de visitas, el juego te permite luchar en mazmorras, derrotar jefes y coleccionar héroes con habilidades únicas para formar tu equipo definitivo.",
+  "whatAreCodes": "Los códigos de Anime Dungeon Fighters te dan Gems para invocar héroes, Dark Crystals para mejoras avanzadas, Magic Dust para potenciar armas y héroes, y Cos Coins para cosméticos.",
+  "howToGetCodes": "BestBunny publica nuevos códigos en su servidor oficial de Discord. Los códigos de Weekend Gift se publican regularmente cada fin de semana.",
   "howToRedeem": [
     "Abre Anime Dungeon Fighters en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el menú Shop",
+    "Ve a la pestaña Codes",
+    "Escribe el código y pulsa Claim"
   ]
 }

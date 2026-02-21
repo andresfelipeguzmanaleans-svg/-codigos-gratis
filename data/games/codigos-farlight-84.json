@@ -2,15 +2,28 @@
   "slug": "codigos-farlight-84",
   "name": "Farlight 84",
   "thumbnail": "",
-  "description": "Todos los códigos activos para Farlight 84 en Roblox",
+  "description": "Todos los códigos activos para Farlight 84",
   "metaTitle": "Códigos Farlight 84 (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Farlight 84 en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Farlight 84. Consigue diamantes, oro y cosméticos gratis.",
   "lastUpdated": "2026-02-21",
+  "playerCount": null,
+  "totalVisits": null,
+  "likes": null,
+  "genre": "",
+  "placeId": null,
   "activeCodes": [],
-  "expiredCodes": [],
+  "expiredCodes": [
+    { "code": "FWVDAY26", "reward": "Recompensas" },
+    { "code": "2025happy", "reward": "Recompensas" },
+    { "code": "farlight84anniversary", "reward": "20 Diamonds + 1.999 Gold" }
+  ],
+  "introText": "Farlight 84 es un battle royale futurista desarrollado por Lilith y Miracle Games para dispositivos móviles y PC. A diferencia de otros juegos de esta web, Farlight 84 no es un juego de Roblox, sino un título independiente con mecánicas de combate únicas, vehículos transformables y héroes con habilidades especiales en un campo de batalla sci-fi.",
+  "whatAreCodes": "Los códigos de Farlight 84 te dan diamantes, oro y cosméticos de forma gratuita. Estas recompensas se canjean a través del sistema de CDKey del juego y te permiten desbloquear skins, accesorios y moneda premium sin gastar dinero real.",
+  "howToGetCodes": "Los códigos de Farlight 84 se publican a través de las redes sociales oficiales del juego (Twitter, Facebook, Discord) y del sistema de CDKey integrado en el propio juego. También aparecen en colaboraciones, eventos especiales y celebraciones de aniversario.",
   "howToRedeem": [
-    "Abre Farlight 84 en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Farlight 84 en tu dispositivo",
+    "Ve a Ajustes y busca CDKey/Código",
+    "Escribe el código en el campo",
+    "Pulsa Canjear para recibir la recompensa"
   ]
 }

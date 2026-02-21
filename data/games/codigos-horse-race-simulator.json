@@ -1,16 +1,33 @@
 {
   "slug": "codigos-horse-race-simulator",
   "name": "Horse Race Simulator",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-c65642458d9f2aa6522a8a11dbff70b2/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Horse Race Simulator en Roblox",
   "metaTitle": "Códigos Horse Race Simulator (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Horse Race Simulator en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Horse Race Simulator en Roblox. Consigue boosts de entrenamiento, suerte y victorias gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
+  "playerCount": 18,
+  "totalVisits": 34728272,
+  "likes": 32161,
+  "genre": "Simulator",
+  "placeId": 15147661794,
+  "activeCodes": [
+    { "code": "12000LiKeX_EnJoyy", "reward": "1.5x Win Boost 60 min" },
+    { "code": "release", "reward": "500 Wins" },
+    { "code": "boost", "reward": "+100% Training Boost 30 min" },
+    { "code": "ThxX_100LiKe_", "reward": "+100% Wins Boost 1 hora" },
+    { "code": "WoO_5000LikeSS", "reward": "+100% Training Boost 1 hora" },
+    { "code": "BCKJTY", "reward": "+200% Luck Boost 1 hora" },
+    { "code": "EnjOyY", "reward": "+200% Luck Boost 1 hora" }
+  ],
   "expiredCodes": [],
+  "introText": "Horse Race Simulator es un simulador de carreras de caballos en Roblox, desarrollado por WonderOrb Zone. Con más de 34 millones de visitas, el juego te permite entrenar tu caballo, competir en carreras para ganar victorias y coleccionar mascotas únicas.",
+  "whatAreCodes": "Los códigos de Horse Race Simulator te dan Win Boosts que multiplican tus victorias, Training Boosts para entrenar más rápido, Luck Boosts para mejorar tu suerte y Wins gratis.",
+  "howToGetCodes": "WonderOrb Zone publica nuevos códigos en hitos de likes (el próximo se espera a los 30K likes).",
   "howToRedeem": [
     "Abre Horse Race Simulator en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el botón Codes en el lateral derecho",
+    "Escribe el código respetando mayúsculas/minúsculas",
+    "Pulsa Enter para activar el boost"
   ]
 }

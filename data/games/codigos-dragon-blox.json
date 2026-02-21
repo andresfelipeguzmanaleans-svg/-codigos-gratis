@@ -1,16 +1,41 @@
 {
   "slug": "codigos-dragon-blox",
   "name": "Dragon Blox",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-2213d611c7695e6ab297b30dcb9abc66/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Dragon Blox en Roblox",
   "metaTitle": "Códigos Dragon Blox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dragon Blox en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Dragon Blox en Roblox. Consigue Premium Wishes gratis para desbloquear personajes raros.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 1167,
+  "totalVisits": 600892159,
+  "likes": 459368,
+  "genre": "RPG",
+  "placeId": 3177438863,
+  "activeCodes": [
+    { "code": "VALENTINE", "reward": "5 Premium Wishes" },
+    { "code": "WHENUPDATE", "reward": "10 Premium Wishes" },
+    { "code": "FEBRUARY", "reward": "5 Premium Wishes" },
+    { "code": "SNEAKSSOON", "reward": "5 Premium Wishes" },
+    { "code": "QOL", "reward": "5 Premium Wishes" },
+    { "code": "QUICKUPDATE", "reward": "10 Premium Wishes" },
+    { "code": "JANUARY", "reward": "5 Premium Wishes" },
+    { "code": "FIRSTWISH", "reward": "15 Premium Wishes" },
+    { "code": "DB2026", "reward": "15 Premium Wishes" },
+    { "code": "HAPPYNEWYEAR", "reward": "5 Premium Wishes" },
+    { "code": "HAPPYHOLIDAYS25", "reward": "5 Premium Wishes" },
+    { "code": "XMAS2025", "reward": "10 Premium Wishes" }
+  ],
+  "expiredCodes": [
+    { "code": "SUMMER2024", "reward": "Premium Wishes" },
+    { "code": "100MLIKES", "reward": "Premium Wishes" }
+  ],
+  "introText": "Dragon Blox es un RPG inspirado en Dragon Ball en Roblox, desarrollado por G RBLX Games. Con más de 600 millones de visitas, entrena para convertirte en el Seijin más poderoso, desbloquea transformaciones únicas y usa orbes especiales para aumentar tu poder.",
+  "whatAreCodes": "Los códigos de Dragon Blox te dan Premium Wishes que puedes usar para obtener personajes raros, formas y habilidades exclusivas mediante el sistema de invocación.",
+  "howToGetCodes": "G RBLX Games publica nuevos códigos en su servidor oficial de Discord, normalmente cada mes. IMPORTANTE: necesitas al menos 3 horas de tiempo de juego antes de poder canjear códigos.",
   "howToRedeem": [
-    "Abre Dragon Blox en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Dragon Blox en Roblox (necesitas 3h de juego)",
+    "Pulsa Menu y ve a la pestaña Redeem Code",
+    "Escribe el código en el campo",
+    "Pulsa Redeem para obtener Premium Wishes"
   ]
 }

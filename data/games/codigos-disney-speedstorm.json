@@ -2,15 +2,34 @@
   "slug": "codigos-disney-speedstorm",
   "name": "Disney Speedstorm",
   "thumbnail": "",
-  "description": "Todos los códigos activos para Disney Speedstorm en Roblox",
+  "description": "Todos los códigos activos para Disney Speedstorm",
   "metaTitle": "Códigos Disney Speedstorm (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Disney Speedstorm en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Disney Speedstorm. Consigue Upgrade Coins, Season Coins y fragmentos de personaje gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": null,
+  "totalVisits": null,
+  "likes": null,
+  "genre": null,
+  "placeId": null,
+  "activeCodes": [
+    { "code": "ROUTE_66", "reward": "1.500 Upgrade Coins" },
+    { "code": "LOADING26", "reward": "Season Coins" },
+    { "code": "TRYEVERYTHING", "reward": "30.416 Season Coins" },
+    { "code": "BALOOHUG", "reward": "5 Baloo Shards" },
+    { "code": "HADESGIFT", "reward": "10 Hades Shards" },
+    { "code": "mandj", "reward": "Avatar + Dash Suit" }
+  ],
+  "expiredCodes": [
+    { "code": "SPEEDSTORM2024", "reward": "Coins" },
+    { "code": "LAUNCH", "reward": "Recompensas de lanzamiento" }
+  ],
+  "introText": "Disney Speedstorm es un juego de carreras arcade desarrollado por Gameloft disponible en PC, consolas y móvil. No es un juego de Roblox. Cuenta con personajes icónicos de Disney y Pixar que compiten en circuitos temáticos con habilidades únicas y power-ups.",
+  "whatAreCodes": "Los códigos de Disney Speedstorm te dan Upgrade Coins para mejorar pilotos, Season Coins para el pase de temporada, fragmentos (Shards) de personajes como Baloo y Hades, y cosméticos exclusivos.",
+  "howToGetCodes": "Gameloft publica nuevos códigos en sus redes sociales oficiales y durante eventos especiales del juego.",
   "howToRedeem": [
-    "Abre Disney Speedstorm en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Disney Speedstorm en tu dispositivo",
+    "Ve a Ajustes y selecciona Canjear código",
+    "Escribe el código en el campo",
+    "Pulsa Buscar/Search para recibir la recompensa"
   ]
 }

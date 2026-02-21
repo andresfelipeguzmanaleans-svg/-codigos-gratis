@@ -1,16 +1,42 @@
 {
   "slug": "codigos-yeet-a-friend",
   "name": "Yeet a Friend",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-8c3149fe8be9418b1b03c26187458c28/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Yeet a Friend en Roblox",
   "metaTitle": "Códigos Yeet a Friend (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Yeet a Friend en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Yeet a Friend en Roblox. Consigue Stars, mascotas Mythic y boosts gratis.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 1421,
+  "totalVisits": 494799449,
+  "likes": 801400,
+  "genre": "Simulator",
+  "placeId": 11708967881,
+  "activeCodes": [
+    { "code": "YEETGOAT", "reward": "10K Stars" },
+    { "code": "YEETOLYMPICS", "reward": "10K Stars" },
+    { "code": "BOMBARDINO", "reward": "1 Mythic Slime Pet" },
+    { "code": "XMAS24", "reward": "30K Stars" },
+    { "code": "SuperRebirths", "reward": "50.000 Stars" },
+    { "code": "HalfMillionInsanity", "reward": "Mythic Pet gratis" },
+    { "code": "Halloween", "reward": "50K Stars" },
+    { "code": "VALENTINE", "reward": "3x Energy, Power y Luck Boost" },
+    { "code": "Aztec", "reward": "5x Wheel Spins" },
+    { "code": "iLoveYeeting", "reward": "1 Legendary Slime Pet" },
+    { "code": "IPLAYEVERYDAY", "reward": "1 Legendary Slime Pet" },
+    { "code": "FreeStars", "reward": "750 Gems" },
+    { "code": "FreePower", "reward": "1 Power Boost" }
+  ],
+  "expiredCodes": [
+    { "code": "Summer", "reward": "Mythic Slime" },
+    { "code": "Sunglasses", "reward": "Mythic Slime" }
+  ],
+  "introText": "Yeet a Friend es un simulador en Roblox creado por Low Effort Studios donde lanzas a tus amigos lo más lejos posible. Con casi 495 millones de visitas y más de 801K likes, colecciona mascotas, desbloquea cohetes y mejora tu potencia de lanzamiento para batir récords de distancia.",
+  "whatAreCodes": "Los códigos de Yeet a Friend te dan Stars para mejoras, mascotas Mythic y Legendary, boosts de Energy, Power y Luck, y tiradas de Wheel Spins. Las mascotas Mythic son especialmente valiosas y difíciles de conseguir sin códigos.",
+  "howToGetCodes": "Low Effort Studios publica nuevos códigos en su servidor de Discord y cuenta de Twitter. Los códigos aparecen con frecuencia, normalmente con actualizaciones de contenido, eventos de temporada y celebraciones de hitos.",
   "howToRedeem": [
     "Abre Yeet a Friend en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Pulsa el icono de Codes en el menú lateral",
+    "Escribe el código en el campo",
+    "Pulsa Redeem para canjear"
   ]
 }

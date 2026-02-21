@@ -1,16 +1,43 @@
 {
   "slug": "codigos-cabin-crew-simulator",
   "name": "Cabin Crew Simulator",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-f392a32842ffc8ae7d74a8e01abf52d6/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Cabin Crew Simulator en Roblox",
   "metaTitle": "Códigos Cabin Crew Simulator (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Cabin Crew Simulator en Roblox. Consigue recompensas gratis.",
+  "metaDescription": "Lista actualizada de códigos para Cabin Crew Simulator en Roblox. Consigue Skybux gratis para personalizar tu aerolínea.",
   "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "playerCount": 2308,
+  "totalVisits": 371822758,
+  "likes": 367146,
+  "genre": "Simulation",
+  "placeId": 5171347293,
+  "activeCodes": [
+    { "code": "concorde", "reward": "4.000 Skybux" },
+    { "code": "frost", "reward": "4.000 Skybux" },
+    { "code": "lounge", "reward": "6.000 Skybux" },
+    { "code": "avro", "reward": "6.000 Skybux" },
+    { "code": "1m", "reward": "5.000 Skybux" },
+    { "code": "dubai", "reward": "5.000 Skybux" },
+    { "code": "amenity", "reward": "5.000 Skybux" },
+    { "code": "easter2025", "reward": "3.000 Skybux" },
+    { "code": "candycane", "reward": "3.300 Skybux" },
+    { "code": "spider", "reward": "2.500 Skybux" },
+    { "code": "dreamliner", "reward": "2.500 Skybux" },
+    { "code": "200m", "reward": "3.000 Skybux" },
+    { "code": "gear", "reward": "2.000 Skybux" },
+    { "code": "myles", "reward": "2.000 Skybux" }
+  ],
+  "expiredCodes": [
+    { "code": "launch", "reward": "1.000 Skybux" },
+    { "code": "firstflight", "reward": "Skybux" }
+  ],
+  "introText": "Cabin Crew Simulator es un juego de simulación de aerolíneas en Roblox creado por Cruising Studios. Con más de 371 millones de visitas y 367K likes, crea tu propia aerolínea, diseña el interior de tus aviones, sirve a los pasajeros como auxiliar de vuelo y gestiona emergencias a bordo.",
+  "whatAreCodes": "Los códigos de Cabin Crew Simulator te dan Skybux, la moneda principal del juego. Con Skybux puedes personalizar tus aviones, comprar comidas y bebidas para los pasajeros, y desbloquear mejoras para tu aerolínea.",
+  "howToGetCodes": "Cruising Studios comparte nuevos códigos en su servidor de Discord y cuenta de Twitter. Los códigos suelen publicarse con actualizaciones de contenido, nuevos aviones y eventos especiales.",
   "howToRedeem": [
     "Abre Cabin Crew Simulator en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Busca el icono de Codes en el menú principal",
+    "Escribe el código en el campo de texto",
+    "Pulsa Redeem para recibir Skybux"
   ]
 }
