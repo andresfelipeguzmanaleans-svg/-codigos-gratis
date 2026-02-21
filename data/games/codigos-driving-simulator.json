@@ -1,16 +1,34 @@
 {
   "slug": "codigos-driving-simulator",
   "name": "Driving Simulator",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-c73ce66209951909adf8ad439fa3d9c5/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Driving Simulator en Roblox",
   "metaTitle": "Códigos Driving Simulator (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Driving Simulator en Roblox. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "metaDescription": "Lista actualizada de códigos para Driving Simulator en Roblox. Consigue créditos, llaves de cofre y wraps gratis.",
+  "lastUpdated": "2026-02-22",
+  "playerCount": 142,
+  "totalVisits": 382901823,
+  "likes": 664914,
+  "genre": "Racing",
+  "placeId": 4410049285,
+  "activeCodes": [
+    { "code": "500KLIK3S", "reward": "Wrap Bedazzled" },
+    { "code": "5KEYS", "reward": "5 llaves de cofre" },
+    { "code": "ONEYEAR", "reward": "8 llaves de cofre y 2 cofres raros" },
+    { "code": "25MILLION", "reward": "25,000 créditos" },
+    { "code": "50K", "reward": "50,000 créditos" }
+  ],
+  "expiredCodes": [
+    { "code": "MOREKEYS", "reward": "5 llaves de cofre" },
+    { "code": "200M", "reward": "1 cofre legendario" }
+  ],
+  "introText": "Driving Simulator es un juego de mundo abierto desarrollado por Nocturne Entertainment donde puedes conducir, competir y personalizar supercoches espectaculares. Explora una ciudad enorme llena de rampas, circuitos y secretos mientras desbloqueas vehículos cada vez más potentes. Con más de 382 millones de visitas, este simulador de conducción te ofrece una experiencia completa con carreras contra otros jugadores y un sistema de cofres para conseguir coches exclusivos.",
+  "whatAreCodes": "Los códigos de Driving Simulator te dan acceso a créditos gratuitos para comprar nuevos coches, llaves para abrir cofres con vehículos raros y legendarios, e incluso wraps cosméticos exclusivos para personalizar la apariencia de tus coches. Los créditos son la moneda principal del juego, así que cada código supone un gran impulso para tu garaje.",
+  "howToGetCodes": "Nocturne Entertainment publica nuevos códigos a través de su cuenta oficial de Twitter/X y su servidor de Discord. Los códigos suelen celebrar hitos importantes como alcanzar un número de likes o visitas, así como aniversarios del juego. Te recomendamos seguir estas cuentas y activar las notificaciones para enterarte en cuanto publiquen un nuevo código.",
   "howToRedeem": [
-    "Abre Driving Simulator en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Driving Simulator en Roblox y entra al juego",
+    "Busca y haz clic en el icono de Twitter (pájaro) en la pantalla principal",
+    "Escribe o pega el código exactamente como aparece en el cuadro de texto",
+    "Pulsa Enter o el botón de canjear para recibir tu recompensa"
   ]
 }

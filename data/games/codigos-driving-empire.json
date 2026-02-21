@@ -1,16 +1,50 @@
 {
   "slug": "codigos-driving-empire",
   "name": "Driving Empire",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-5bb96be9b29ef539a28ead3f8d6eaa91/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Driving Empire en Roblox",
   "metaTitle": "Códigos Driving Empire (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Driving Empire en Roblox. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "metaDescription": "Lista actualizada de códigos para Driving Empire en Roblox. Consigue cash, coches y kits de tuning gratis.",
+  "lastUpdated": "2026-02-22",
+  "playerCount": 19074,
+  "totalVisits": 2586907192,
+  "likes": 2275049,
+  "genre": "Racing",
+  "placeId": 3351674303,
+  "activeCodes": [
+    { "code": "HAPPY2026", "reward": "2015 Renault Twizy gratis" },
+    { "code": "CALL911", "reward": "50,911 Cash" },
+    { "code": "GOBBLEGOBBLE", "reward": "10 Kits de Tuning" },
+    { "code": "SPOOKY", "reward": "80,000 Cash" },
+    { "code": "VEGAS2025", "reward": "50,000 Cash" },
+    { "code": "WHOOPS", "reward": "75,000 Cash" },
+    { "code": "RDCNASCAR25", "reward": "Livery NASCAR de Driving Empire" },
+    { "code": "2MLIKES", "reward": "2017 Nissan GT-R Bolt" },
+    { "code": "NASCAR100M", "reward": "200 Trofeos" },
+    { "code": "CUSTOMIZATION2025", "reward": "10 Kits de Tuning" },
+    { "code": "200KMEMBERS", "reward": "50,000 Cash" },
+    { "code": "NEWYEAR2025", "reward": "75,000 Cash" },
+    { "code": "ZOOM", "reward": "2023 Fairway Zoomer" }
+  ],
+  "expiredCodes": [
+    { "code": "50YEARS911TURBO", "reward": "Recompensa gratis" },
+    { "code": "CARCRUSHERS", "reward": "Recompensa gratis" },
+    { "code": "1MILLIONLIKES", "reward": "Recompensa gratis" },
+    { "code": "THANKYOU", "reward": "Recompensa gratis" },
+    { "code": "950klikes", "reward": "Cash gratis" },
+    { "code": "900KLIKES", "reward": "Cash gratis" },
+    { "code": "Winterfest2023", "reward": "Recompensa festiva" },
+    { "code": "1BVisits", "reward": "Recompensa gratis" },
+    { "code": "850kLikes", "reward": "Cash gratis" },
+    { "code": "800kLIKES", "reward": "Cash gratis" }
+  ],
+  "introText": "Driving Empire es la experiencia de conducción número uno en Roblox, desarrollada por Voldex. Este juego te permite coleccionar y conducir más de 200 coches con licencia oficial de marcas como Lamborghini, McLaren, Porsche y muchas más. Con casi 2,600 millones de visitas, Driving Empire ofrece carreras competitivas, personalización de vehículos con kits de tuning y un mundo abierto enorme para explorar a toda velocidad.",
+  "whatAreCodes": "Los códigos de Driving Empire te otorgan recompensas muy valiosas como cash gratis para comprar nuevos coches, kits de tuning para personalizar tus vehículos, trofeos e incluso coches exclusivos completamente gratis. Algunos códigos pueden darte vehículos que no se consiguen de otra forma, así que merece la pena canjearlos todos antes de que expiren.",
+  "howToGetCodes": "Los desarrolladores de Driving Empire publican nuevos códigos en su servidor de Discord oficial, en su cuenta de Twitter/X y en su grupo de Roblox. Los códigos suelen lanzarse para celebrar actualizaciones, eventos de temporada y hitos de la comunidad como alcanzar cierto número de likes o visitas. Visita estas redes con frecuencia para estar al día.",
   "howToRedeem": [
-    "Abre Driving Empire en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Driving Empire en Roblox y espera a que cargue completamente",
+    "Haz clic en el botón de Ajustes (Settings) en la esquina inferior izquierda de la pantalla",
+    "Selecciona la pestaña de Códigos (Codes) e introduce el código en el cuadro de texto",
+    "Pulsa Submit para confirmar y recibir tu recompensa al instante"
   ]
 }

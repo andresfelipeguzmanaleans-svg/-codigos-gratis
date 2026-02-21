@@ -1,16 +1,50 @@
 {
   "slug": "codigos-highway-syndicate",
   "name": "Highway Syndicate",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-697f4450c64d1b1ef22064028447da5b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Highway Syndicate en Roblox",
   "metaTitle": "Códigos Highway Syndicate (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Highway Syndicate en Roblox. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "metaDescription": "Lista actualizada de códigos para Highway Syndicate en Roblox. Consigue dinero gratis para comprar coches.",
+  "lastUpdated": "2026-02-22",
+  "playerCount": 26,
+  "totalVisits": 38714122,
+  "likes": 34960,
+  "genre": "Racing",
+  "placeId": 13059574127,
+  "activeCodes": [
+    { "code": "25K", "reward": "$20,000" },
+    { "code": "20M", "reward": "$20,000" },
+    { "code": "15K", "reward": "Recompensa gratis" },
+    { "code": "CHRISTMAS2023", "reward": "Recompensa gratis" },
+    { "code": "10K", "reward": "$20,000" },
+    { "code": "UPDATED", "reward": "$11,111" },
+    { "code": "PLZUPD", "reward": "$11,111" },
+    { "code": "5K", "reward": "$20,000" },
+    { "code": "2M", "reward": "$20,000" },
+    { "code": "PARP", "reward": "$10,000" },
+    { "code": "CATCH UP", "reward": "$20,000" }
+  ],
+  "expiredCodes": [
+    { "code": "1M", "reward": "Dinero gratis" },
+    { "code": "500K", "reward": "Dinero gratis" },
+    { "code": "20K", "reward": "Recompensa gratis" },
+    { "code": "GROUP", "reward": "$20,000" },
+    { "code": "10M", "reward": "$20,000" },
+    { "code": "Pizza", "reward": "$10,000" },
+    { "code": "250K", "reward": "Dinero gratis" },
+    { "code": "100K", "reward": "Dinero gratis" },
+    { "code": "HONEY", "reward": "$15,000" },
+    { "code": "FREEBIE", "reward": "$3,000" },
+    { "code": "GECKO", "reward": "$2,000" },
+    { "code": "SHREK", "reward": "$1,000" }
+  ],
+  "introText": "Highway Syndicate es un emocionante juego de carreras en tráfico desarrollado por A&B Group. En este juego, tu objetivo es ganar dinero conduciendo a toda velocidad entre el tráfico de autopistas, esquivando coches y completando desafíos cada vez más arriesgados. Con el dinero acumulado puedes comprar coches más rápidos y competir contra tus amigos en carreras directas. Con más de 38 millones de visitas, Highway Syndicate ofrece una experiencia de conducción llena de adrenalina.",
+  "whatAreCodes": "Los códigos de Highway Syndicate te dan dinero en efectivo gratis que puedes usar para comprar coches nuevos y mejores en la tienda del juego. El dinero es el recurso principal de Highway Syndicate y determina qué vehículos puedes conducir, así que canjear todos los códigos disponibles te permite acceder a coches más rápidos sin necesidad de completar tantas carreras en la autopista.",
+  "howToGetCodes": "Los desarrolladores de A&B Group publican nuevos códigos en su servidor de Discord oficial y en su grupo de Roblox. Los códigos suelen lanzarse cuando el juego alcanza hitos de visitas o jugadores, así como durante actualizaciones importantes. Los códigos son sensibles a mayúsculas y minúsculas y pueden caducar sin previo aviso, así que canjéalos lo antes posible.",
   "howToRedeem": [
-    "Abre Highway Syndicate en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Highway Syndicate en Roblox y espera a que cargue el juego",
+    "Haz clic en el botón de Ajustes (Settings) en el lado izquierdo de la pantalla",
+    "En la ventana que aparece, busca la sección de canjear códigos e introduce el código en el cuadro de texto",
+    "Confirma el código para recibir tu dinero gratis al instante"
   ]
 }

@@ -1,16 +1,42 @@
 {
   "slug": "codigos-rogue-demon",
   "name": "Rogue Demon",
-  "thumbnail": "",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-315c3903186e30e709a3d3664374a4a1/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Rogue Demon en Roblox",
   "metaTitle": "Códigos Rogue Demon (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Rogue Demon en Roblox. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "metaDescription": "Lista actualizada de códigos para Rogue Demon en Roblox. Consigue Rogue Coins (RC) gratis.",
+  "lastUpdated": "2026-02-22",
+  "playerCount": 568,
+  "totalVisits": 602448149,
+  "likes": 350860,
+  "genre": "Fighting",
+  "placeId": 9103898828,
+  "activeCodes": [
+    { "code": "350KLIKES", "reward": "213 RC" },
+    { "code": "XMAS25", "reward": "267 RC" },
+    { "code": "ICEICEBABY", "reward": "200 RC" },
+    { "code": "THATSTOCOLD", "reward": "150 RC" },
+    { "code": "INFINITYSOON", "reward": "100 RC" },
+    { "code": "DELAYAGAIN", "reward": "200 RC" },
+    { "code": "SUNREWORK", "reward": "200 RC" },
+    { "code": "SORRYSTONEDELAY", "reward": "RC gratis" },
+    { "code": "STONEWIP", "reward": "300 RC" },
+    { "code": "SORRYFORDELAY", "reward": "150 RC" },
+    { "code": "STONESOON", "reward": "150 RC" },
+    { "code": "BIGUPDATESOON", "reward": "150 RC" },
+    { "code": "SCARYGIFT", "reward": "150 RC" }
+  ],
+  "expiredCodes": [
+    { "code": "FREEMOVESETS", "reward": "RC gratis" },
+    { "code": "SETYOURHEARTABLAZE", "reward": "RC gratis" }
+  ],
+  "introText": "Rogue Demon es un juego de lucha en Roblox inspirado en Demon Slayer, desarrollado por TS Industries, que ha superado los 600 millones de visitas. En este juego puedes elegir entre ser un cazador de demonios o un demonio, dominar diferentes estilos de respiración y combatir contra otros jugadores en emocionantes batallas PvP con mecánicas fieles al anime.",
+  "whatAreCodes": "Los códigos de Rogue Demon te otorgan Rogue Coins (RC), la moneda principal del juego que necesitas para desbloquear nuevos movesets, estilos de respiración y personalización de tu personaje. Acumular RC te permite probar diferentes estilos de combate sin tener que farmear durante horas.",
+  "howToGetCodes": "Los nuevos códigos de Rogue Demon se lanzan cuando el juego alcanza hitos de likes o después de actualizaciones importantes. El desarrollador TS Industries los publica en el servidor oficial de Discord y en la descripción del juego en Roblox. También aparecen durante eventos especiales como Navidad o Halloween.",
   "howToRedeem": [
-    "Abre Rogue Demon en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Rogue Demon en Roblox y entra en una partida",
+    "Abre el menú presionando P en tu teclado",
+    "Selecciona la opción Redeem Codes",
+    "Escribe tu código en el cuadro de texto y pulsa el botón Redeem para recibir tus RC"
   ]
 }

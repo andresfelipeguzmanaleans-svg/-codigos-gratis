@@ -1,16 +1,30 @@
 {
   "slug": "codigos-nba-2k-mobile",
-  "name": "Nba 2k Mobile",
-  "thumbnail": "",
-  "description": "Todos los códigos activos para Nba 2k Mobile en Roblox",
-  "metaTitle": "Códigos Nba 2k Mobile (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Nba 2k Mobile en Roblox. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "name": "NBA 2K Mobile",
+  "thumbnail": null,
+  "description": "Todos los códigos activos para NBA 2K Mobile",
+  "metaTitle": "Códigos NBA 2K Mobile (Febrero 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para NBA 2K Mobile. Consigue cartas de jugadores, monedas y energía gratis.",
+  "lastUpdated": "2026-02-22",
+  "playerCount": null,
+  "totalVisits": null,
+  "likes": null,
+  "genre": "Sports",
+  "activeCodes": [
+    { "code": "ALLSTARHYPE", "reward": "Recompensas gratis" }
+  ],
+  "expiredCodes": [
+    { "code": "S7FINALE", "reward": "1 recarga de energía grande y 100 monedas" },
+    { "code": "NEWYEARNEWDRIP", "reward": "5 cartas coleccionables 2026" },
+    { "code": "HOLIDAYHUNDO", "reward": "100 monedas" }
+  ],
+  "introText": "NBA 2K Mobile es el juego oficial de baloncesto de la NBA para dispositivos móviles, desarrollado por 2K Sports. Colecciona cartas de tus jugadores favoritos de la NBA, construye tu equipo ideal y compite en partidos 5 contra 5 con gráficos de alta calidad. Disponible en iOS y Android, es la experiencia de baloncesto definitiva en tu bolsillo.",
+  "whatAreCodes": "Los códigos de NBA 2K Mobile te permiten conseguir cartas de jugadores estrella como Jayson Tatum o Giannis Antetokounmpo, recargas de energía para jugar más partidos, monedas para mejorar tu equipo y boosts de experiencia. Los códigos suelen estar disponibles por tiempo limitado, generalmente una semana.",
+  "howToGetCodes": "Los códigos de NBA 2K Mobile se publican en las redes sociales oficiales de 2K, en colaboraciones con podcasts y creadores de contenido, y durante eventos especiales de la NBA como el All-Star Game. Los códigos tienen una vida útil muy corta, así que es importante canjearlos lo antes posible cuando se anuncian.",
   "howToRedeem": [
-    "Abre Nba 2k Mobile en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre NBA 2K Mobile en tu dispositivo móvil",
+    "En la pantalla principal, toca el icono del portapapeles",
+    "Pulsa el icono del periódico para acceder al cuadro ENTER CODE",
+    "Escribe el código exactamente como aparece (respetando mayúsculas) y toca CLAIM para recibir tu recompensa"
   ]
 }

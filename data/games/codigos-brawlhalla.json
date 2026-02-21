@@ -1,16 +1,35 @@
 {
   "slug": "codigos-brawlhalla",
   "name": "Brawlhalla",
-  "thumbnail": "",
-  "description": "Todos los códigos activos para Brawlhalla en Roblox",
+  "thumbnail": null,
+  "description": "Todos los códigos activos para Brawlhalla",
   "metaTitle": "Códigos Brawlhalla (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Brawlhalla en Roblox. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "metaDescription": "Lista actualizada de códigos para Brawlhalla. Consigue skins, títulos y cosméticos gratis.",
+  "lastUpdated": "2026-02-22",
+  "playerCount": null,
+  "totalVisits": null,
+  "likes": null,
+  "genre": "Fighting",
+  "activeCodes": [
+    { "code": "TQ7INV-GIM6NS", "reward": "Título Knower of Truth" },
+    { "code": "8YHKES-4E1SRN", "reward": "Título Magical" },
+    { "code": "KQXNZC-PW5ASR", "reward": "Skin Aesir Forged Brynn" },
+    { "code": "WJTKA8-451VCG", "reward": "Skin Raven's Talon Scythe" },
+    { "code": "N8G00R-RJ3KP7", "reward": "Skin Katars of the Raven" },
+    { "code": "F43E3Y-R6YKS1", "reward": "Skin Sword of the Raven" },
+    { "code": "P97TJ9-Z521XV", "reward": "Pack Mysterious Stranger" }
+  ],
+  "expiredCodes": [
+    { "code": "V75S16-P8WF3T", "reward": "Recompensa desconocida" },
+    { "code": "X1RHS4-9GF2KB", "reward": "Recompensa desconocida" }
+  ],
+  "introText": "Brawlhalla es un juego de lucha de plataformas free-to-play desarrollado por Blue Mammoth Games y publicado por Ubisoft. Disponible en PC, PlayStation, Xbox, Nintendo Switch y dispositivos móviles, ofrece combates rápidos con más de 50 leyendas jugables, cada una con armas y habilidades únicas. Es uno de los juegos de lucha más populares del mundo con millones de jugadores activos.",
+  "whatAreCodes": "Los códigos de Brawlhalla te permiten desbloquear contenido cosmético exclusivo como skins de personajes, skins de armas, títulos especiales y packs completos de personalización. Cada código es de un solo uso por cuenta, lo que significa que solo puedes canjearlo una vez, así que asegúrate de aprovecharlos todos.",
+  "howToGetCodes": "Los códigos de Brawlhalla se publican principalmente en el servidor oficial de Discord del juego y durante eventos especiales o colaboraciones. También pueden aparecer en streams oficiales, torneos y promociones en redes sociales de Ubisoft. Te recomendamos seguir las cuentas oficiales del juego para estar al tanto de nuevos códigos.",
   "howToRedeem": [
-    "Abre Brawlhalla en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Brawlhalla y ve al menú principal",
+    "Entra en la Tienda (Store)",
+    "Haz clic en el icono de engranaje en la esquina inferior derecha de la tienda",
+    "Selecciona Redeem Code, introduce tu código exactamente como aparece y confirma para recibir tu recompensa"
   ]
 }

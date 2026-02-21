@@ -1,16 +1,35 @@
 {
   "slug": "codigos-locked-roblox",
-  "name": "Locked Roblox",
-  "thumbnail": "",
-  "description": "Todos los códigos activos para Locked Roblox en Roblox",
-  "metaTitle": "Códigos Locked Roblox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Locked Roblox en Roblox. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "name": "Locked",
+  "thumbnail": "https://tr.rbxcdn.com/180DAY-e190f99ab2e70d14e9b4cf3b6cce8ca4/512/512/Image/Png/noFilter",
+  "description": "Todos los códigos activos para Locked en Roblox",
+  "metaTitle": "Códigos Locked (Febrero 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Locked en Roblox. Consigue Yen gratis para desbloquear personajes y habilidades.",
+  "lastUpdated": "2026-02-22",
+  "playerCount": 0,
+  "totalVisits": 144986969,
+  "likes": 78577,
+  "genre": "Sports",
+  "placeId": 12276235857,
+  "activeCodes": [
+    { "code": "BRANDNEWCODE", "reward": "500.000 Yen" },
+    { "code": "75KLIKES", "reward": "150.000 Yen" },
+    { "code": "SEASON5WINNER", "reward": "100.000 Yen" },
+    { "code": "125MILVISITS", "reward": "85.000 Yen" },
+    { "code": "120KFAVOURITE", "reward": "85.000 Yen" },
+    { "code": "SECONDCHANCE", "reward": "Yen gratis" }
+  ],
+  "expiredCodes": [
+    { "code": "MOSTVISITEDBLGAME", "reward": "125.000 Yen" },
+    { "code": "100MILVISITS", "reward": "100.000 Yen" }
+  ],
+  "introText": "Locked es un juego deportivo en Roblox creado por Zhoulle, inspirado en el popular anime Blue Lock. En este juego de fútbol puedes crear tu propio estilo de regate, mejorar tus habilidades físicas y competir contra otros jugadores para marcar goles espectaculares. Con casi 145 millones de visitas, se ha convertido en uno de los juegos de fútbol anime más visitados de la plataforma.",
+  "whatAreCodes": "Los códigos de Locked te otorgan Yen, la moneda principal del juego que necesitas para realizar tiradas de personalización incluyendo tiradas de Physical, Weapon, Trait y Flow. El Yen es esencial para desbloquear nuevos personajes, habilidades y mejorar el rendimiento de tu jugador en el campo.",
+  "howToGetCodes": "Los códigos nuevos de Locked se publican en el canal de anuncios del servidor oficial de Discord de Zhoulle. Suelen aparecer cuando el juego alcanza hitos de likes, visitas o miembros en el grupo. Los códigos de Locked expiran rápidamente, así que te recomendamos canjearlos en cuanto se publiquen.",
   "howToRedeem": [
-    "Abre Locked Roblox en Roblox",
-    "Busca el icono de códigos en el menú",
-    "Escribe el código y pulsa Canjear"
+    "Abre Locked en Roblox y entra en una partida",
+    "Presiona la tecla M en tu teclado para abrir el menú",
+    "Selecciona la opción Settings (Ajustes) en el menú",
+    "Introduce tu código en el cuadro de texto y presiona Enter para recibir tu Yen"
   ]
 }
