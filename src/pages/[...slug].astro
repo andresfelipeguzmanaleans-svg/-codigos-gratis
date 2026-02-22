@@ -52,6 +52,8 @@ function formatNumber(n: number): string {
   return n.toString();
 }
 
+const validThumb = game.thumbnail && game.thumbnail.startsWith('https://tr.rbxcdn.com');
+
 const faqEntries: { '@type': string; name: string; acceptedAnswer: { '@type': string; text: string } }[] = [
   {
     '@type': 'Question',
@@ -100,7 +102,7 @@ const faqSchema = {
 <Layout
   title={game.metaTitle}
   description={game.metaDescription}
-  ogImage={game.thumbnail || undefined}
+  ogImage={validThumb ? game.thumbnail : undefined}
 >
   <script
     slot="head"
@@ -115,7 +117,7 @@ const faqSchema = {
       <!-- Hero -->
       <section class="hero">
         <div class="hero__img-wrap">
-          {game.thumbnail ? (
+          {validThumb ? (
             <img
               src={game.thumbnail}
               alt={game.name}
