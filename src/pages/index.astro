@@ -26,14 +26,16 @@ const allGames = Object.values(gameModules);
 const totalGames = allGames.length;
 const totalCodes = allGames.reduce((sum, g) => sum + g.activeCodes.length, 0);
 
-// Recent 8
+// Recent 12 for slider
 const recentGames = [...allGames]
   .sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime())
-  .slice(0, 8);
+  .slice(0, 12);
 
-// Popular 8
+const recentSlugs = new Set(recentGames.map(g => g.slug));
+
+// Popular 8 (excluding recent to avoid duplication)
 const popularGames = [...allGames]
-  .filter((g) => g.totalVisits && g.totalVisits > 0)
+  .filter((g) => g.totalVisits && g.totalVisits > 0 && !recentSlugs.has(g.slug))
   .sort((a, b) => (b.totalVisits || 0) - (a.totalVisits || 0))
   .slice(0, 8);
 
@@ -66,11 +68,6 @@ while (mosaicGames.length < 80 && mosaicTop.length > 0) {
   }
 }
 const centerIndex = 34; // center of 10×8 grid (row 4, col 5)
-
-// Carousel: games updated today, fallback to 20 most recent
-const today = new Date().toISOString().slice(0, 10);
-const updatedToday = sortedGames.filter((g) => g.lastUpdated === today);
-const carouselGames = (updatedToday.length > 0 ? updatedToday : sortedGames).slice(0, 20);
 
 // Month label for stats
 const monthLabel = new Date().toLocaleDateString('es-ES', { month: 'long', year: 'numeric' });
@@ -116,37 +113,6 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
           </div>
           <div id="search-results" class="search-results"></div>
         </div>
-        <div class="carousel-section">
-          <div class="carousel-header">
-            <span class="carousel-live"></span>
-            <span class="carousel-label">Actualizados hoy</span>
-          </div>
-          <div class="carousel-wrap">
-            <button class="carousel-arrow carousel-arrow--left" id="carousel-left" aria-label="Anterior">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-            </button>
-            <div class="carousel-track" id="carousel-track">
-              {carouselGames.map((g) => {
-                const validThumb = g.thumbnail && g.thumbnail.startsWith('https://tr.rbxcdn.com');
-                return (
-                  <a href={`/${g.slug}/`} class="carousel-item">
-                    {validThumb ? (
-                      <img src={g.thumbnail} alt={g.name} class="carousel-item__img" loading="eager" />
-                    ) : (
-                      <div class="carousel-item__placeholder">
-                        <span class="carousel-item__initial">{g.name.charAt(0)}</span>
-                      </div>
-                    )}
-                    <span class="carousel-item__name">{g.name}</span>
-                  </a>
-                );
-              })}
-            </div>
-            <button class="carousel-arrow carousel-arrow--right" id="carousel-right" aria-label="Siguiente">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-            </button>
-          </div>
-        </div>
         <div class="stats">
           <span class="stats__item">🎮 <strong>{totalGames}</strong> Juegos</span>
           <span class="stats__sep">·</span>
@@ -157,22 +123,46 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
       </div>
     </section>
 
-    <!-- Actualizados recientemente -->
-    <section class="section container">
+    <!-- Actualizados recientemente — slider -->
+    <section class="section container slider-section">
       <div class="section__header">
-        <h2 class="section__title">Actualizados recientemente</h2>
+        <h2 class="section__title"><span class="slider-live"></span> Actualizados recientemente</h2>
       </div>
-      <div class="games-grid games-grid--animated">
-        {recentGames.map((game) => (
-          <GameCard
-            name={game.name}
-            slug={game.slug}
-            image={game.thumbnail}
-            activeCodes={game.activeCodes.length}
-            lastUpdated={game.lastUpdated}
-          />
-        ))}
+      <div class="slider-wrap">
+        <button class="slider-arrow slider-arrow--left" id="slider-left" aria-label="Anterior">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <div class="slider-track" id="slider-track">
+          {recentGames.map((game) => {
+            const validThumb = game.thumbnail && game.thumbnail.startsWith('https://tr.rbxcdn.com');
+            const date = new Date(game.lastUpdated).toLocaleDateString('es-ES', { day: 'numeric', month: 'short' });
+            return (
+              <a href={`/${game.slug}/`} class="slider-card">
+                <div class="slider-card__img-wrap">
+                  {validThumb ? (
+                    <img src={game.thumbnail} alt={game.name} class="slider-card__img" loading="lazy" />
+                  ) : (
+                    <div class="slider-card__placeholder">
+                      <span class="slider-card__initial">{game.name.charAt(0)}</span>
+                    </div>
+                  )}
+                </div>
+                <div class="slider-card__body">
+                  <h3 class="slider-card__name">{game.name}</h3>
+                  <div class="slider-card__meta">
+                    <span class="slider-card__badge">{game.activeCodes.length} códigos</span>
+                    <span class="slider-card__date">{date}</span>
+                  </div>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+        <button class="slider-arrow slider-arrow--right" id="slider-right" aria-label="Siguiente">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </button>
       </div>
+      <div class="slider-dots" id="slider-dots"></div>
     </section>
 
     <!-- Juegos más populares -->
@@ -364,19 +354,86 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     });
   });
 
-  // ---- Carousel ----
-  const track = document.getElementById('carousel-track');
-  const leftBtn = document.getElementById('carousel-left');
-  const rightBtn = document.getElementById('carousel-right');
-  const scrollAmount = 240;
+  // ---- Slider (Actualizados recientemente) ----
+  const sliderTrack = document.getElementById('slider-track');
+  const sliderLeft = document.getElementById('slider-left');
+  const sliderRight = document.getElementById('slider-right');
+  const sliderDots = document.getElementById('slider-dots');
 
-  if (track && leftBtn && rightBtn) {
-    leftBtn.addEventListener('click', () => {
-      track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  if (sliderTrack && sliderLeft && sliderRight && sliderDots) {
+    const cards = sliderTrack.querySelectorAll('.slider-card');
+    const totalCards = cards.length;
+
+    // Calculate visible cards based on viewport
+    function getVisibleCount() {
+      if (window.innerWidth >= 1024) return 4;
+      if (window.innerWidth >= 640) return 2;
+      return 1;
+    }
+
+    // Build dots
+    function buildDots() {
+      const visible = getVisibleCount();
+      const pages = Math.ceil(totalCards / visible);
+      sliderDots.innerHTML = '';
+      for (let i = 0; i < pages; i++) {
+        const dot = document.createElement('button');
+        dot.className = 'slider-dot' + (i === 0 ? ' slider-dot--active' : '');
+        dot.setAttribute('aria-label', 'Página ' + (i + 1));
+        dot.dataset.page = i;
+        sliderDots.appendChild(dot);
+      }
+    }
+    buildDots();
+    window.addEventListener('resize', buildDots);
+
+    function updateDots() {
+      const visible = getVisibleCount();
+      const cardW = cards[0].offsetWidth + 16; // gap
+      const page = Math.round(sliderTrack.scrollLeft / (cardW * visible));
+      sliderDots.querySelectorAll('.slider-dot').forEach(function(d, i) {
+        d.classList.toggle('slider-dot--active', i === page);
+      });
+    }
+
+    function scrollByCards(dir) {
+      const visible = getVisibleCount();
+      const cardW = cards[0].offsetWidth + 16;
+      sliderTrack.scrollBy({ left: dir * cardW * visible, behavior: 'smooth' });
+    }
+
+    sliderLeft.addEventListener('click', function() { scrollByCards(-1); });
+    sliderRight.addEventListener('click', function() { scrollByCards(1); });
+
+    sliderTrack.addEventListener('scroll', function() {
+      requestAnimationFrame(updateDots);
     });
-    rightBtn.addEventListener('click', () => {
-      track.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+
+    sliderDots.addEventListener('click', function(e) {
+      var dot = e.target.closest('.slider-dot');
+      if (!dot) return;
+      var page = parseInt(dot.dataset.page);
+      var visible = getVisibleCount();
+      var cardW = cards[0].offsetWidth + 16;
+      sliderTrack.scrollTo({ left: page * cardW * visible, behavior: 'smooth' });
     });
+
+    // Auto-scroll every 5s, pause on hover
+    var autoInterval;
+    function startAuto() {
+      autoInterval = setInterval(function() {
+        var maxScroll = sliderTrack.scrollWidth - sliderTrack.clientWidth;
+        if (sliderTrack.scrollLeft >= maxScroll - 10) {
+          sliderTrack.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+          scrollByCards(1);
+        }
+      }, 5000);
+    }
+    startAuto();
+
+    sliderTrack.addEventListener('mouseenter', function() { clearInterval(autoInterval); });
+    sliderTrack.addEventListener('mouseleave', function() { startAuto(); });
   }
 
   // ---- Load More ----
@@ -493,172 +550,6 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     background-clip: text;
   }
 
-  /* Carousel */
-  .carousel-section {
-    margin-top: 0.85rem;
-    width: 100%;
-    max-width: 640px;
-  }
-
-  .carousel-header {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    justify-content: center;
-    margin-bottom: 0.5rem;
-  }
-
-  .carousel-live {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #06d6a0;
-    animation: pulse 1.5s ease-in-out infinite;
-  }
-
-  @keyframes pulse {
-    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(6, 214, 160, 0.5); }
-    50% { opacity: 0.7; box-shadow: 0 0 0 5px rgba(6, 214, 160, 0); }
-  }
-
-  .carousel-label {
-    font-family: var(--font-display);
-    font-size: 0.78rem;
-    font-weight: 700;
-    color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-
-  .carousel-wrap {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-
-  .carousel-arrow {
-    position: absolute;
-    z-index: 3;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: none;
-    background: rgba(17, 24, 39, 0.85);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    color: var(--text-dim);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: color 0.2s, background 0.2s;
-    padding: 0;
-  }
-
-  .carousel-arrow svg {
-    width: 16px;
-    height: 16px;
-  }
-
-  .carousel-arrow:hover {
-    color: #06d6a0;
-    background: rgba(6, 214, 160, 0.15);
-  }
-
-  .carousel-arrow--left {
-    left: -4px;
-  }
-
-  .carousel-arrow--right {
-    right: -4px;
-  }
-
-  .carousel-track {
-    display: flex;
-    gap: 0.75rem;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    padding: 0.25rem 2rem;
-  }
-
-  .carousel-track::-webkit-scrollbar {
-    display: none;
-  }
-
-  .carousel-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.25rem;
-    text-decoration: none;
-    flex-shrink: 0;
-    width: 58px;
-    transition: transform 0.2s;
-  }
-
-  .carousel-item:hover {
-    transform: translateY(-2px);
-  }
-
-  .carousel-item__img {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid rgba(30, 41, 59, 0.7);
-    transition: border-color 0.2s, box-shadow 0.2s;
-  }
-
-  .carousel-item:hover .carousel-item__img {
-    border-color: #06d6a0;
-    box-shadow: 0 0 10px rgba(6, 214, 160, 0.3);
-  }
-
-  .carousel-item__placeholder {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #1a2236 0%, #0f3460 100%);
-    border: 2px solid rgba(30, 41, 59, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: border-color 0.2s, box-shadow 0.2s;
-  }
-
-  .carousel-item:hover .carousel-item__placeholder {
-    border-color: #06d6a0;
-    box-shadow: 0 0 10px rgba(6, 214, 160, 0.3);
-  }
-
-  .carousel-item__initial {
-    font-family: var(--font-display);
-    font-size: 0.95rem;
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.8);
-  }
-
-  .carousel-item__name {
-    font-family: var(--font-display);
-    font-size: 0.58rem;
-    font-weight: 600;
-    color: var(--text-dim);
-    text-align: center;
-    line-height: 1.15;
-    max-width: 58px;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    transition: color 0.2s;
-  }
-
-  .carousel-item:hover .carousel-item__name {
-    color: var(--text);
-  }
-
   @media (min-width: 640px) {
     .hero {
       padding: 2.5rem 0 1.5rem;
@@ -666,20 +557,217 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     .hero__title {
       font-size: 2rem;
     }
-    .carousel-arrow {
-      width: 36px;
-      height: 36px;
+  }
+
+  /* ---- Slider (Actualizados recientemente) ---- */
+  .slider-section {
+    position: relative;
+  }
+
+  .slider-live {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #06d6a0;
+    margin-right: 0.35rem;
+    vertical-align: middle;
+    animation: sliderPulse 1.5s ease-in-out infinite;
+  }
+
+  @keyframes sliderPulse {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(6, 214, 160, 0.5); }
+    50% { opacity: 0.7; box-shadow: 0 0 0 6px rgba(6, 214, 160, 0); }
+  }
+
+  .slider-wrap {
+    position: relative;
+  }
+
+  .slider-track {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 0.25rem 0;
+  }
+
+  .slider-track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .slider-card {
+    flex: 0 0 calc(100% - 2rem);
+    scroll-snap-align: start;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+  }
+
+  .slider-card:hover {
+    border-color: #06d6a0;
+    box-shadow: 0 4px 24px rgba(6, 214, 160, 0.18), 0 0 0 1px rgba(6, 214, 160, 0.1);
+    transform: translateY(-3px);
+  }
+
+  @media (min-width: 640px) {
+    .slider-card {
+      flex: 0 0 calc(50% - 0.5rem);
     }
-    .carousel-arrow svg {
-      width: 18px;
-      height: 18px;
+  }
+
+  @media (min-width: 1024px) {
+    .slider-card {
+      flex: 0 0 calc(25% - 0.75rem);
     }
-    .carousel-arrow--left {
-      left: -8px;
-    }
-    .carousel-arrow--right {
-      right: -8px;
-    }
+  }
+
+  .slider-card__img-wrap {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--bg-deep);
+  }
+
+  .slider-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.35s;
+  }
+
+  .slider-card:hover .slider-card__img {
+    transform: scale(1.07);
+  }
+
+  .slider-card__placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1a2236 0%, #0f3460 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slider-card__initial {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .slider-card__body {
+    padding: 0.875rem 1rem;
+  }
+
+  .slider-card__name {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .slider-card__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .slider-card__badge {
+    font-family: var(--font-display);
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #06d6a0;
+    background: rgba(6, 214, 160, 0.12);
+    padding: 0.25rem 0.7rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(6, 214, 160, 0.2);
+  }
+
+  .slider-card__date {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+  }
+
+  /* Slider arrows */
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(6, 214, 160, 0.4);
+    background: rgba(6, 214, 160, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: #06d6a0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background 0.25s, border-color 0.25s, box-shadow 0.25s;
+  }
+
+  .slider-arrow svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .slider-arrow:hover {
+    background: #06d6a0;
+    border-color: #06d6a0;
+    color: #0a0e1a;
+    box-shadow: 0 0 16px rgba(6, 214, 160, 0.3);
+  }
+
+  .slider-arrow--left { left: -12px; }
+  .slider-arrow--right { right: -12px; }
+
+  @media (max-width: 768px) {
+    .slider-arrow--left { left: -4px; }
+    .slider-arrow--right { right: -4px; }
+  }
+
+  /* Slider dots */
+  .slider-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 1rem;
+  }
+
+  .slider-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    padding: 0;
+    transition: background 0.25s, transform 0.25s;
+  }
+
+  .slider-dot--active {
+    background: #06d6a0;
+    transform: scale(1.3);
+  }
+
+  .slider-dot:hover:not(.slider-dot--active) {
+    background: rgba(255, 255, 255, 0.4);
   }
 
   @media (max-width: 768px) {
