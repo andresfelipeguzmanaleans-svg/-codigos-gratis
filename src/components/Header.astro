@@ -8,19 +8,6 @@ const isHerramientas = path.startsWith('/herramientas');
   <div class="container hdr__inner">
     <!-- Logo -->
     <a href="/" class="hdr__logo">
-      <svg class="hdr__logo-ico" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <path d="M20 12v10H4V12" stroke="url(#hdr-lg)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M2 7h20v5H2z" stroke="url(#hdr-lg)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M12 22V7" stroke="url(#hdr-lg)" stroke-width="2"/>
-        <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z" stroke="url(#hdr-lg)" stroke-width="2"/>
-        <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z" stroke="url(#hdr-lg)" stroke-width="2"/>
-        <defs>
-          <linearGradient id="hdr-lg" x1="2" y1="2" x2="22" y2="22">
-            <stop stop-color="#06d6a0"/>
-            <stop offset="1" stop-color="#00b4d8"/>
-          </linearGradient>
-        </defs>
-      </svg>
       <span class="hdr__logo-c">códigos</span><span class="hdr__logo-g">gratis</span><span class="hdr__logo-d">.com</span>
     </a>
 
@@ -164,54 +151,71 @@ const isHerramientas = path.startsWith('/herramientas');
   /* ---------- Logo ---------- */
 
   .hdr__logo {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    font-family: var(--font-display);
-    font-size: 1.15rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
+    font-family: 'Fredoka One', var(--font-display), cursive;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
     white-space: nowrap;
     flex-shrink: 0;
+    line-height: 1;
   }
 
   @media (min-width: 769px) {
-    .hdr__logo { font-size: 1.25rem; }
-    .hdr__logo-ico { width: 24px; height: 24px; }
-  }
-
-  .hdr__logo-ico {
-    width: 21px;
-    height: 21px;
-    flex-shrink: 0;
-    transition: transform 0.3s, filter 0.3s;
-  }
-
-  .hdr__logo:hover .hdr__logo-ico {
-    transform: rotate(-8deg) scale(1.12);
-    filter: drop-shadow(0 0 6px rgba(6, 214, 160, 0.5));
+    .hdr__logo { font-size: 24px; }
   }
 
   .hdr__logo-c {
-    background: linear-gradient(135deg, #ffffff 30%, #a8edea 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #c8c8c8;
+    text-shadow:
+      -2px -2px 0 #000,
+       2px -2px 0 #000,
+      -2px  2px 0 #000,
+       2px  2px 0 #000,
+      -2px  0   0 #000,
+       2px  0   0 #000,
+       0   -2px 0 #000,
+       0    2px 0 #000,
+       0 3px 6px rgba(0,0,0,0.4);
   }
 
   .hdr__logo-g {
     color: #06d6a0;
     transition: text-shadow 0.3s;
+    text-shadow:
+      -2px -2px 0 #000,
+       2px -2px 0 #000,
+      -2px  2px 0 #000,
+       2px  2px 0 #000,
+      -2px  0   0 #000,
+       2px  0   0 #000,
+       0   -2px 0 #000,
+       0    2px 0 #000,
+       0 3px 6px rgba(0,0,0,0.4);
   }
 
   .hdr__logo:hover .hdr__logo-g {
-    text-shadow: 0 0 14px rgba(6, 214, 160, 0.5);
+    text-shadow:
+      -2px -2px 0 #000,
+       2px -2px 0 #000,
+      -2px  2px 0 #000,
+       2px  2px 0 #000,
+      -2px  0   0 #000,
+       2px  0   0 #000,
+       0   -2px 0 #000,
+       0    2px 0 #000,
+       0 3px 6px rgba(0,0,0,0.4),
+       0 0 14px rgba(6,214,160,0.45);
   }
 
   .hdr__logo-d {
-    color: rgba(255, 255, 255, 0.4);
-    font-weight: 400;
-    font-size: 0.8em;
+    color: rgba(255,255,255,0.3);
+    font-size: 0.75em;
+    text-shadow:
+      -1px -1px 0 #000,
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000,
+       0 2px 4px rgba(0,0,0,0.3);
   }
 
   /* ---------- Desktop nav ---------- */
