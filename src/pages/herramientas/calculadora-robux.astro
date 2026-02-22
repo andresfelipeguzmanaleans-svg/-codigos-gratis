@@ -5,9 +5,84 @@ import Footer from '../../components/Footer.astro';
 
 const title = 'Calculadora de Robux a Euros, Dólares y Pesos (2026) - ¿Cuánto cuestan los Robux?';
 const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos mexicanos, colombianos y más. Tabla de precios actualizada con y sin Premium.';
+
+// Pre-compute prices for SSR mini-tables
+const packs = [
+  { robux: 400, usd: 4.99 },
+  { robux: 800, usd: 9.99 },
+  { robux: 1700, usd: 19.99 },
+  { robux: 4500, usd: 49.99 },
+  { robux: 10000, usd: 99.99 },
+];
+
+const rates: Record<string, { rate: number; symbol: string; decimals: number }> = {
+  MXN: { rate: 17.20, symbol: '$', decimals: 0 },
+  COP: { rate: 4150, symbol: '$', decimals: 0 },
+  EUR: { rate: 0.92, symbol: '€', decimals: 2 },
+  ARS: { rate: 1050, symbol: '$', decimals: 0 },
+};
+
+function fmtPrice(usd: number, cur: string): string {
+  const { rate, symbol, decimals } = rates[cur];
+  const val = usd * rate;
+  const formatted = decimals === 0
+    ? Math.round(val).toLocaleString('es-ES')
+    : val.toFixed(decimals).replace('.', ',');
+  return `${symbol}${formatted}`;
+}
+
+const miniTables = Object.fromEntries(
+  Object.keys(rates).map((cur) => [
+    cur,
+    packs.map((p) => ({ robux: p.robux.toLocaleString('es-ES'), price: fmtPrice(p.usd, cur) })),
+  ])
+);
+
+// FAQ Schema
+const faqEntries = [
+  {
+    q: '¿Qué son los Robux?',
+    a: 'Los Robux son la moneda virtual de Roblox. Con Robux puedes comprar accesorios para tu avatar, game passes, artículos exclusivos del catálogo y acceso a experiencias premium dentro de los juegos.',
+  },
+  {
+    q: '¿Cómo comprar Robux?',
+    a: '1. Inicia sesión en tu cuenta de Roblox. 2. Haz clic en el icono de Robux. 3. Selecciona el paquete que quieras. 4. Elige tu método de pago (tarjeta, PayPal, tarjeta regalo). 5. Confirma la compra.',
+  },
+  {
+    q: '¿Merece la pena Roblox Premium?',
+    a: 'Roblox Premium te da un 10% más de Robux en cada compra, una asignación mensual y acceso a artículos exclusivos. Si compras Robux con frecuencia, se amortiza rápidamente.',
+  },
+  {
+    q: '¿Cuánto cuestan los Robux en pesos mexicanos?',
+    a: `Los precios de Robux en MXN son: 400 Robux = ${fmtPrice(4.99, 'MXN')} MXN, 800 Robux = ${fmtPrice(9.99, 'MXN')} MXN, 1.700 Robux = ${fmtPrice(19.99, 'MXN')} MXN, 4.500 Robux = ${fmtPrice(49.99, 'MXN')} MXN, 10.000 Robux = ${fmtPrice(99.99, 'MXN')} MXN.`,
+  },
+  {
+    q: '¿Cuánto cuestan los Robux en pesos colombianos?',
+    a: `Los precios de Robux en COP son: 400 Robux = ${fmtPrice(4.99, 'COP')} COP, 800 Robux = ${fmtPrice(9.99, 'COP')} COP, 1.700 Robux = ${fmtPrice(19.99, 'COP')} COP, 4.500 Robux = ${fmtPrice(49.99, 'COP')} COP, 10.000 Robux = ${fmtPrice(99.99, 'COP')} COP.`,
+  },
+  {
+    q: '¿Cuánto cuestan los Robux en euros?',
+    a: `Los precios de Robux en EUR son: 400 Robux = ${fmtPrice(4.99, 'EUR')}, 800 Robux = ${fmtPrice(9.99, 'EUR')}, 1.700 Robux = ${fmtPrice(19.99, 'EUR')}, 4.500 Robux = ${fmtPrice(49.99, 'EUR')}, 10.000 Robux = ${fmtPrice(99.99, 'EUR')}.`,
+  },
+  {
+    q: '¿Cuánto cuestan los Robux en pesos argentinos?',
+    a: `Los precios de Robux en ARS son: 400 Robux = ${fmtPrice(4.99, 'ARS')} ARS, 800 Robux = ${fmtPrice(9.99, 'ARS')} ARS, 1.700 Robux = ${fmtPrice(19.99, 'ARS')} ARS, 4.500 Robux = ${fmtPrice(49.99, 'ARS')} ARS, 10.000 Robux = ${fmtPrice(99.99, 'ARS')} ARS.`,
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqEntries.map((e) => ({
+    '@type': 'Question',
+    name: e.q,
+    acceptedAnswer: { '@type': 'Answer', text: e.a },
+  })),
+};
 ---
 
 <Layout title={title} description={description}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <Header />
 
   <main class="main">
@@ -111,7 +186,11 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
         <div class="table-wrap">
           <table class="mini-table" id="table-mxn">
             <thead><tr><th>Robux</th><th>Precio (MXN)</th></tr></thead>
-            <tbody></tbody>
+            <tbody>
+              {miniTables['MXN'].map((row) => (
+                <tr><td>{row.robux}</td><td>{row.price}</td></tr>
+              ))}
+            </tbody>
           </table>
         </div>
         <p class="section__text">En México puedes comprar Robux con tarjeta de crédito/débito, PayPal o tarjetas de regalo de Roblox que se venden en tiendas OXXO, 7-Eleven, Walmart y Amazon México. Las tarjetas regalo son la opción más popular para menores de edad ya que no requieren tarjeta bancaria.</p>
@@ -122,7 +201,11 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
         <div class="table-wrap">
           <table class="mini-table" id="table-cop">
             <thead><tr><th>Robux</th><th>Precio (COP)</th></tr></thead>
-            <tbody></tbody>
+            <tbody>
+              {miniTables['COP'].map((row) => (
+                <tr><td>{row.robux}</td><td>{row.price}</td></tr>
+              ))}
+            </tbody>
           </table>
         </div>
         <p class="section__text">En Colombia puedes comprar Robux con tarjetas de crédito/débito Visa y Mastercard, PSE (pagos seguros en línea), Nequi, Daviplata y tarjetas de regalo de Roblox disponibles en Éxito, Falabella y tiendas online. También puedes usar saldo de Google Play o Apple si juegas desde el móvil.</p>
@@ -133,7 +216,11 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
         <div class="table-wrap">
           <table class="mini-table" id="table-eur">
             <thead><tr><th>Robux</th><th>Precio (EUR)</th></tr></thead>
-            <tbody></tbody>
+            <tbody>
+              {miniTables['EUR'].map((row) => (
+                <tr><td>{row.robux}</td><td>{row.price}</td></tr>
+              ))}
+            </tbody>
           </table>
         </div>
         <p class="section__text">En España y el resto de Europa puedes comprar Robux directamente desde la web de Roblox con tarjeta de crédito/débito, PayPal o tarjetas de regalo que se venden en GAME, MediaMarkt, Amazon y El Corte Inglés. Los precios en euros ya incluyen IVA.</p>
@@ -144,7 +231,11 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
         <div class="table-wrap">
           <table class="mini-table" id="table-ars">
             <thead><tr><th>Robux</th><th>Precio (ARS)</th></tr></thead>
-            <tbody></tbody>
+            <tbody>
+              {miniTables['ARS'].map((row) => (
+                <tr><td>{row.robux}</td><td>{row.price}</td></tr>
+              ))}
+            </tbody>
           </table>
         </div>
         <p class="section__text">En Argentina puedes comprar Robux con tarjeta de crédito/débito (ten en cuenta el impuesto PAIS y la percepción de Ganancias que pueden sumar hasta un 60% al precio), Mercado Pago, Rapipago, Pago Fácil y tarjetas de regalo de Roblox. La opción más económica suele ser comprar tarjetas de regalo en tiendas autorizadas.</p>
@@ -254,16 +345,6 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
     }).join('');
   }
 
-  function fillMiniTable(id: string, cur: string) {
-    const tbody = document.querySelector(`#${id} tbody`);
-    if (!tbody) return;
-    const packs = PACKS_NORMAL;
-    tbody.innerHTML = packs.map(p => {
-      const local = p.usd * RATES[cur].rate;
-      return `<tr><td>${p.robux.toLocaleString('es-ES')}</td><td>${fmt(local, cur)}</td></tr>`;
-    }).join('');
-  }
-
   function updateAll() {
     updateCalc();
     updateTable();
@@ -295,10 +376,6 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
   });
 
   // Init
-  fillMiniTable('table-mxn', 'MXN');
-  fillMiniTable('table-cop', 'COP');
-  fillMiniTable('table-eur', 'EUR');
-  fillMiniTable('table-ars', 'ARS');
   updateAll();
 </script>
 
