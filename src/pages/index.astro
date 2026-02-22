@@ -64,6 +64,10 @@ const today = new Date().toISOString().slice(0, 10);
 const updatedToday = sortedGames.filter((g) => g.lastUpdated === today);
 const carouselGames = (updatedToday.length > 0 ? updatedToday : sortedGames).slice(0, 20);
 
+// Month label for stats
+const monthLabel = new Date().toLocaleDateString('es-ES', { month: 'long', year: 'numeric' });
+const monthCapital = monthLabel.charAt(0).toUpperCase() + monthLabel.slice(1);
+
 // Search data for JS
 const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length }));
 ---
@@ -82,7 +86,6 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
       <div class="hero__overlay"></div>
       <div class="container hero__inner">
         <h1 class="hero__title"><span class="hero__gradient">Códigos Gratis</span> para Roblox y Más</h1>
-        <p class="hero__sub">Encuentra códigos actualizados para tus juegos favoritos</p>
         <div class="search-wrap">
           <div class="search">
             <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -129,28 +132,15 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
             </button>
           </div>
         </div>
+        <div class="stats">
+          <span class="stats__item">🎮 <strong>{totalGames}</strong> Juegos</span>
+          <span class="stats__sep">·</span>
+          <span class="stats__item">🎁 <strong>{totalCodes}</strong> Códigos</span>
+          <span class="stats__sep">·</span>
+          <span class="stats__item">📅 {monthCapital}</span>
+        </div>
       </div>
     </section>
-
-    <!-- Stats -->
-    <div class="container">
-      <div class="stats">
-        <div class="stats__item">
-          <span class="stats__emoji">🎮</span>
-          <span class="stats__value">{totalGames}</span>
-          <span class="stats__label">Juegos</span>
-        </div>
-        <div class="stats__item">
-          <span class="stats__emoji">🎁</span>
-          <span class="stats__value">{totalCodes}</span>
-          <span class="stats__label">Códigos</span>
-        </div>
-        <div class="stats__item">
-          <span class="stats__emoji">✅</span>
-          <span class="stats__label">Actualizado hoy</span>
-        </div>
-      </div>
-    </div>
 
     <!-- Actualizados recientemente -->
     <section class="section container">
@@ -359,7 +349,7 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
   /* ---- Hero ---- */
   .hero {
     position: relative;
-    padding: 4.5rem 0 3rem;
+    padding: 2rem 0 1.25rem;
     text-align: center;
     overflow: hidden;
     animation: heroFadeIn 0.7s ease-out;
@@ -405,14 +395,14 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.6rem;
+    gap: 0.5rem;
   }
 
   .hero__title {
     font-family: var(--font-display);
-    font-size: 2.1rem;
+    font-size: 1.55rem;
     font-weight: 700;
-    line-height: 1.15;
+    line-height: 1.2;
     color: var(--text);
   }
 
@@ -423,15 +413,9 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     background-clip: text;
   }
 
-  .hero__sub {
-    color: var(--text-dim);
-    font-size: 1.05rem;
-    margin-bottom: 1.5rem;
-  }
-
   /* Carousel */
   .carousel-section {
-    margin-top: 1.75rem;
+    margin-top: 0.85rem;
     width: 100%;
     max-width: 640px;
   }
@@ -439,9 +423,9 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
   .carousel-header {
     display: flex;
     align-items: center;
-    gap: 0.45rem;
+    gap: 0.4rem;
     justify-content: center;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
   }
 
   .carousel-live {
@@ -527,20 +511,20 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.35rem;
+    gap: 0.25rem;
     text-decoration: none;
     flex-shrink: 0;
-    width: 68px;
+    width: 58px;
     transition: transform 0.2s;
   }
 
   .carousel-item:hover {
-    transform: translateY(-3px);
+    transform: translateY(-2px);
   }
 
   .carousel-item__img {
-    width: 56px;
-    height: 56px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid rgba(30, 41, 59, 0.7);
@@ -549,12 +533,12 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
 
   .carousel-item:hover .carousel-item__img {
     border-color: #06d6a0;
-    box-shadow: 0 0 12px rgba(6, 214, 160, 0.3);
+    box-shadow: 0 0 10px rgba(6, 214, 160, 0.3);
   }
 
   .carousel-item__placeholder {
-    width: 56px;
-    height: 56px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background: linear-gradient(135deg, #1a2236 0%, #0f3460 100%);
     border: 2px solid rgba(30, 41, 59, 0.7);
@@ -566,24 +550,24 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
 
   .carousel-item:hover .carousel-item__placeholder {
     border-color: #06d6a0;
-    box-shadow: 0 0 12px rgba(6, 214, 160, 0.3);
+    box-shadow: 0 0 10px rgba(6, 214, 160, 0.3);
   }
 
   .carousel-item__initial {
     font-family: var(--font-display);
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     font-weight: 700;
     color: rgba(255, 255, 255, 0.8);
   }
 
   .carousel-item__name {
     font-family: var(--font-display);
-    font-size: 0.62rem;
+    font-size: 0.58rem;
     font-weight: 600;
     color: var(--text-dim);
     text-align: center;
-    line-height: 1.2;
-    max-width: 68px;
+    line-height: 1.15;
+    max-width: 58px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -597,13 +581,10 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
 
   @media (min-width: 640px) {
     .hero {
-      padding: 5.5rem 0 3.5rem;
+      padding: 2.5rem 0 1.5rem;
     }
     .hero__title {
-      font-size: 3rem;
-    }
-    .hero__sub {
-      font-size: 1.15rem;
+      font-size: 2rem;
     }
     .carousel-arrow {
       width: 36px;
@@ -697,42 +678,29 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
   }
 
-  /* ---- Stats ---- */
+  /* ---- Stats (inline in hero) ---- */
   .stats {
     display: flex;
-    gap: 0.75rem;
-    margin-bottom: 3rem;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.85rem;
+    font-size: 0.75rem;
+    color: var(--text-dim);
   }
 
   .stats__item {
-    display: flex;
-    align-items: center;
-    gap: 0.45rem;
-    background: rgba(17, 24, 39, 0.6);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(30, 41, 59, 0.6);
-    border-radius: 9999px;
-    padding: 0.55rem 1.15rem;
+    display: inline;
   }
 
-  .stats__emoji {
-    font-size: 1rem;
-    line-height: 1;
-  }
-
-  .stats__value {
+  .stats__item strong {
     font-family: var(--font-display);
-    font-size: 1rem;
     font-weight: 700;
     color: #06d6a0;
   }
 
-  .stats__label {
-    font-size: 0.8rem;
-    color: var(--text-dim);
+  .stats__sep {
+    opacity: 0.4;
   }
 
   /* ---- Sections ---- */
