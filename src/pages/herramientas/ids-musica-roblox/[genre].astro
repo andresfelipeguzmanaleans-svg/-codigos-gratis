@@ -1,0 +1,301 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+
+const GENRES: Record<string, { label: string; color: string; desc: string }> = {
+  pop:        { label: 'Pop',        color: '#ff6b9d', desc: 'Las mejores canciones Pop para tu Boombox en Roblox. Éxitos actuales y clásicos del pop internacional.' },
+  'hip-hop':  { label: 'Hip-Hop',    color: '#c084fc', desc: 'IDs de música Hip-Hop y Rap para Roblox. Beats, freestyle y los éxitos más escuchados del género.' },
+  dance:      { label: 'Dance',      color: '#22d3ee', desc: 'Música Dance y EDM para Roblox. Ritmos electrónicos perfectos para tus sesiones de juego.' },
+  rock:       { label: 'Rock',       color: '#ff6b6b', desc: 'Canciones de Rock para Roblox. Desde rock clásico hasta alternativo, indie y metal.' },
+  jazz:       { label: 'Jazz',       color: '#fbbf24', desc: 'Música Jazz para Roblox. Smooth jazz, bebop, jazz fusion y los clásicos del género.' },
+  electronic: { label: 'Electronic', color: '#06d6a0', desc: 'Música Electrónica para Roblox. Synthwave, techno, house, trance y más subgéneros.' },
+  country:    { label: 'Country',    color: '#f97316', desc: 'Canciones Country para Roblox. Country moderno, folk, americana y clásicos del Nashville sound.' },
+  classical:  { label: 'Classical',  color: '#a78bfa', desc: 'Música Clásica para Roblox. Obras maestras de compositores como Bach, Mozart, Beethoven y más.' },
+};
+
+export function getStaticPaths() {
+  return ['pop','hip-hop','dance','rock','jazz','electronic','country','classical'].map(slug => ({ params: { genre: slug } }));
+}
+
+const { genre } = Astro.params;
+const g = GENRES[genre!];
+if (!g) return Astro.redirect('/herramientas/ids-musica-roblox/');
+
+const GENRE_COLOR: Record<string,string> = Object.fromEntries(Object.entries(GENRES).map(([k,v])=>[k,v.color]));
+
+const allSongs: Array<{title:string;artist:string;id:string;genre:string;thumbnail?:string;robloxUrl?:string}> =
+  (await import('../../../../data/music-ids.json', { with: { type: 'json' } })).default.songs;
+
+const genreSongs = allSongs.filter(s => s.genre === genre);
+const first100 = genreSongs.slice(0, 100);
+const totalGenre = genreSongs.length.toLocaleString('es-ES');
+const totalAll = allSongs.length.toLocaleString('es-ES');
+
+const title = `IDs de Música ${g.label} para Roblox (2026) — ${totalGenre} Canciones`;
+const description = `${g.desc} ${totalGenre} IDs de música ${g.label} actualizados para copiar y usar en Brookhaven, Royale High y más.`;
+
+function gc(genreVal: string) { return GENRE_COLOR[genreVal] || '#8892a4'; }
+function fmtGenre(gv: string) { return gv ? gv.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()) : ''; }
+
+const faqSchema = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: `¿Cuántos IDs de música ${g.label} hay para Roblox?`, acceptedAnswer: { '@type': 'Answer', text: `Tenemos ${totalGenre} IDs de música ${g.label} verificados para Roblox, actualizados en 2026.` } },
+    { '@type': 'Question', name: `¿Cómo usar IDs de música ${g.label} en Roblox?`, acceptedAnswer: { '@type': 'Answer', text: `Busca la canción ${g.label} que quieras, copia el ID con el botón Copiar, abre un juego compatible como Brookhaven o Royale High, busca el Boombox y pega el ID.` } },
+  ],
+};
+
+const genreParam = genre;
+---
+
+<Layout title={title} description={description}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <Header />
+
+  <main class="main">
+    <div class="page-wrap">
+
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a> <span class="sep">›</span>
+        <a href="/herramientas/ids-musica-roblox/">IDs de Música</a> <span class="sep">›</span>
+        <span>{g.label}</span>
+      </nav>
+
+      <div class="hero">
+        <h1 class="hero__title" style={`--gc:${g.color}`}>
+          IDs de Música <span class="hero__genre">{g.label}</span> para Roblox
+          <br/><span class="hero__sub">{totalGenre} Canciones</span>
+        </h1>
+        <div class="search-box">
+          <span class="search-box__icon">🔍</span>
+          <input type="text" id="q" class="search-box__input" placeholder={`Buscar en ${g.label}...`} autocomplete="off" />
+        </div>
+        <p class="hero__stat"><span class="hero__num" style={`color:${g.color}`}>{totalGenre}</span> canciones {g.label}</p>
+      </div>
+
+      <!-- Other genres -->
+      <div class="pills">
+        <a href="/herramientas/ids-musica-roblox/" class="pill">Todos <span class="pill__count">({totalAll})</span></a>
+        {Object.entries(GENRES).map(([slug, gdata]) => (
+          <a href={`/herramientas/ids-musica-roblox/${slug}/`}
+             class={`pill ${slug === genre ? 'pill--active' : ''}`}
+             style={`--gc:${gdata.color}`}>
+            {gdata.label}
+          </a>
+        ))}
+      </div>
+
+      <p class="info" id="info">{totalGenre} canciones {g.label}</p>
+
+      <div class="grid" id="grid">
+        {first100.map(s => (
+          <div class="card" data-id={s.id}>
+            <div class="card__thumb" style={s.thumbnail ? '' : `background:${gc(s.genre)}`}>
+              {s.thumbnail
+                ? <img src={s.thumbnail} alt={s.title} width="60" height="60" loading="lazy" />
+                : <span class="card__note">🎵</span>}
+            </div>
+            <div class="card__body">
+              <span class="card__title">{s.title}</span>
+              <span class="card__artist">{s.artist}</span>
+              <div class="card__row">
+                <span class="card__genre" style={`color:${gc(s.genre)};border-color:${gc(s.genre)}33`}>{fmtGenre(s.genre)}</span>
+                <code class="card__id">{s.id}</code>
+              </div>
+            </div>
+            <div class="card__actions">
+              <button class="cbtn" data-id={s.id}>Copiar</button>
+              {s.robloxUrl && <a class="rlink" href={s.robloxUrl} target="_blank" rel="noopener">Abrir en Roblox ↗</a>}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="more-wrap" id="more-wrap">
+        <button class="more-btn" id="more-btn">Cargar más canciones {g.label}</button>
+      </div>
+
+      <section class="seo">
+        <h2 class="seo__h2">IDs de Música {g.label} para Roblox</h2>
+        <p>{g.desc} Nuestra base de datos incluye <strong>{totalGenre} canciones {g.label}</strong> con IDs verificados que puedes copiar y pegar directamente en el Boombox de tu juego favorito.</p>
+        <p>Usa el buscador para encontrar la canción que quieras por título o artista. Cada ID ha sido extraído de la biblioteca oficial de audio de Roblox y está listo para usar en juegos como <strong>Brookhaven RP</strong>, <strong>Royale High</strong>, <strong>Boombox Island</strong> y muchos más.</p>
+      </section>
+
+      <section class="seo">
+        <h2 class="seo__h2">¿Cómo usar estos IDs de música {g.label}?</h2>
+        <div class="steps-box">
+          <ol class="steps">
+            <li>Busca la canción {g.label} que quieras en la tabla de arriba</li>
+            <li>Haz clic en <strong>Copiar</strong> para copiar el ID al portapapeles</li>
+            <li>Abre un juego compatible (Brookhaven, Royale High, etc.)</li>
+            <li>Busca el Boombox o radio y pega el ID</li>
+            <li>Dale play y disfruta la música</li>
+          </ol>
+        </div>
+      </section>
+
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<script define:vars={{ genreParam }}>
+  window.__GENRE_FILTER = genreParam;
+</script>
+
+<script>
+  const PAGE = 50;
+  const GENRE_COLOR: Record<string,string> = {pop:'#ff6b9d','hip-hop':'#c084fc',dance:'#22d3ee',rock:'#ff6b6b',jazz:'#fbbf24',electronic:'#06d6a0',country:'#f97316',classical:'#a78bfa'};
+  const GENRE_FILTER = (window as any).__GENRE_FILTER as string;
+
+  type Song = {title:string;artist:string;id:string;genre:string;thumbnail?:string;robloxUrl?:string};
+  let all: Song[] = [];
+  let filtered: Song[] = [];
+  let shown = 0;
+  let query = '';
+  let loaded = false;
+  let timer: ReturnType<typeof setTimeout>;
+
+  const grid = document.getElementById('grid')!;
+  const info = document.getElementById('info')!;
+  const moreWrap = document.getElementById('more-wrap')!;
+  const moreBtn = document.getElementById('more-btn')!;
+  const input = document.getElementById('q') as HTMLInputElement;
+
+  function gc(g:string){return GENRE_COLOR[g]||'#8892a4'}
+  function fg(g:string){return g?g.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()):''}
+  function esc(s:string){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+
+  function cardHTML(s:Song){
+    const thumb = s.thumbnail
+      ? `<img src="${esc(s.thumbnail)}" alt="${esc(s.title)}" width="60" height="60" loading="lazy"/>`
+      : `<span class="card__note">🎵</span>`;
+    const thumbStyle = s.thumbnail ? '' : `background:${gc(s.genre)}`;
+    const genreBadge = s.genre ? `<span class="card__genre" style="color:${gc(s.genre)};border-color:${gc(s.genre)}33">${fg(s.genre)}</span>` : '';
+    const rlink = s.robloxUrl ? `<a class="rlink" href="${esc(s.robloxUrl)}" target="_blank" rel="noopener">Abrir en Roblox ↗</a>` : '';
+    return `<div class="card" data-id="${s.id}"><div class="card__thumb" style="${thumbStyle}">${thumb}</div><div class="card__body"><span class="card__title">${esc(s.title)}</span><span class="card__artist">${esc(s.artist)}</span><div class="card__row">${genreBadge}<code class="card__id">${s.id}</code></div></div><div class="card__actions"><button class="cbtn" data-id="${s.id}">Copiar</button>${rlink}</div></div>`;
+  }
+
+  function render(){
+    const batch = filtered.slice(shown, shown + PAGE);
+    if(shown === 0) grid.innerHTML = batch.map(cardHTML).join('');
+    else grid.insertAdjacentHTML('beforeend', batch.map(cardHTML).join(''));
+    shown += batch.length;
+    moreWrap.style.display = shown < filtered.length ? '' : 'none';
+    const t = filtered.length.toLocaleString('es-ES');
+    info.textContent = query ? `${t} resultados para "${query}"` : `${t} canciones ${fg(GENRE_FILTER)}`;
+  }
+
+  function apply(){
+    const q = query.toLowerCase().trim();
+    filtered = all.filter(s => {
+      if(s.genre !== GENRE_FILTER) return false;
+      if(q) return s.title.toLowerCase().includes(q) || s.artist.toLowerCase().includes(q);
+      return true;
+    });
+    shown = 0;
+    render();
+  }
+
+  input.addEventListener('input', ()=>{
+    clearTimeout(timer);
+    timer = setTimeout(()=>{
+      query = input.value;
+      if(!loaded) return;
+      apply();
+    }, 250);
+  });
+
+  moreBtn.addEventListener('click', ()=>{ if(loaded) render(); });
+
+  grid.addEventListener('click', e=>{
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.cbtn');
+    if(!btn) return;
+    navigator.clipboard.writeText(btn.dataset.id!).then(()=>{
+      btn.textContent = '✓ Copiado';
+      btn.classList.add('cbtn--ok');
+      setTimeout(()=>{ btn.textContent = 'Copiar'; btn.classList.remove('cbtn--ok'); }, 2000);
+    });
+  });
+
+  fetch('/data/music-ids.json')
+    .then(r=>r.json())
+    .then((d:{songs:Song[]})=>{
+      all = d.songs;
+      filtered = all.filter(s => s.genre === GENRE_FILTER);
+      loaded = true;
+      shown = 100;
+      moreWrap.style.display = filtered.length > 100 ? '' : 'none';
+    });
+</script>
+
+<style>
+  .main{padding:0 0 3rem}
+  .page-wrap{width:100%;max-width:960px;margin:0 auto;padding:0 1rem}
+
+  .breadcrumbs{font-size:.82rem;color:var(--text-dim);padding:1.25rem 0 0}
+  .breadcrumbs a{color:var(--text-dim);text-decoration:none;transition:color .2s}
+  .breadcrumbs a:hover{color:var(--accent)}
+  .sep{margin:0 .35rem;opacity:.5}
+
+  .hero{text-align:center;padding:2rem 0 1.25rem}
+  .hero__title{font-family:var(--font-display);font-size:1.5rem;font-weight:700;line-height:1.25;margin-bottom:1.25rem}
+  .hero__genre{color:var(--gc)}
+  .hero__sub{font-size:1.15rem;color:var(--text-dim);font-weight:400}
+  @media(min-width:640px){.hero__title{font-size:2rem}.hero__sub{font-size:1.3rem}}
+
+  .search-box{position:relative;max-width:560px;margin:0 auto 1rem}
+  .search-box__icon{position:absolute;left:1rem;top:50%;transform:translateY(-50%);font-size:1.1rem;pointer-events:none}
+  .search-box__input{width:100%;padding:.9rem 1rem .9rem 2.8rem;background:var(--bg-card);border:2px solid var(--border);border-radius:12px;color:var(--text);font-family:var(--font-body);font-size:1rem;outline:none;transition:border-color .2s,box-shadow .2s}
+  .search-box__input:focus{border-color:#06d6a0;box-shadow:0 0 0 4px rgba(6,214,160,.15),0 0 20px rgba(6,214,160,.1)}
+  .search-box__input::placeholder{color:var(--text-dim);opacity:.6}
+
+  .hero__stat{font-size:.85rem;color:var(--text-dim)}
+  .hero__num{font-family:var(--font-display);font-weight:700}
+
+  .pills{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.75rem;justify-content:center}
+  .pill{font-family:var(--font-display);font-size:.72rem;font-weight:700;padding:.4rem .8rem;background:transparent;color:var(--text-dim);border:1.5px solid var(--border);border-radius:9999px;cursor:pointer;transition:all .2s;text-decoration:none}
+  .pill:hover{border-color:var(--gc,var(--accent));color:var(--gc,var(--accent))}
+  .pill--active{background:var(--gc,#06d6a0);border-color:var(--gc,#06d6a0);color:#0a0e1a}
+  .pill__count{opacity:.65;font-weight:400}
+
+  .info{font-size:.8rem;color:var(--text-dim);margin-bottom:.75rem;text-align:center}
+
+  .grid{display:grid;grid-template-columns:1fr;gap:.65rem;margin-bottom:1.25rem}
+  @media(min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+
+  .card{display:flex;align-items:flex-start;gap:.75rem;background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:.75rem;transition:transform .2s,box-shadow .2s,border-color .2s;cursor:default}
+  .card:hover{transform:scale(1.02);box-shadow:0 4px 20px rgba(6,214,160,.12);border-color:rgba(6,214,160,.25)}
+
+  .card__thumb{width:60px;height:60px;border-radius:8px;overflow:hidden;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:var(--bg-deep)}
+  .card__thumb img{width:100%;height:100%;object-fit:cover}
+  .card__note{font-size:1.5rem}
+
+  .card__body{flex:1;min-width:0}
+  .card__title{display:block;font-weight:700;font-size:.88rem;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .card__artist{display:block;font-size:.78rem;color:var(--text-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:.3rem}
+  .card__row{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
+  .card__genre{font-family:var(--font-display);font-size:.62rem;font-weight:700;padding:.15rem .5rem;border:1px solid;border-radius:9999px;white-space:nowrap}
+  .card__id{font-family:var(--font-display);font-size:.72rem;font-weight:700;color:#06d6a0}
+
+  .card__actions{display:flex;flex-direction:column;align-items:flex-end;gap:.3rem;flex-shrink:0}
+  .cbtn{font-family:var(--font-display);font-size:.68rem;font-weight:700;padding:.3rem .7rem;background:transparent;color:var(--accent);border:1.5px solid var(--accent);border-radius:8px;cursor:pointer;transition:all .2s;white-space:nowrap}
+  .cbtn:hover,.cbtn--ok{background:#06d6a0;color:#0a0e1a;border-color:#06d6a0}
+  .rlink{font-size:.62rem;color:var(--text-dim);text-decoration:none;transition:color .2s;white-space:nowrap}
+  .rlink:hover{color:var(--accent)}
+
+  .more-wrap{text-align:center;margin-bottom:2.5rem}
+  .more-btn{font-family:var(--font-display);font-size:.88rem;font-weight:700;padding:.75rem 2.5rem;background:transparent;color:var(--accent);border:2px solid var(--accent);border-radius:10px;cursor:pointer;transition:all .2s}
+  .more-btn:hover{background:#06d6a0;color:#0a0e1a}
+
+  .seo{margin-bottom:2rem}
+  .seo__h2{font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin-bottom:.75rem;padding-left:.85rem;border-left:3px solid #06d6a0}
+  .seo p{color:var(--text-dim);font-size:.92rem;line-height:1.7;margin-bottom:.75rem}
+  .seo strong{color:var(--text)}
+
+  .steps-box{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1rem 1.15rem;margin-bottom:.75rem}
+  .steps{list-style:none;counter-reset:step;display:flex;flex-direction:column;gap:.55rem;padding:0;margin:0}
+  .steps li{counter-increment:step;display:flex;align-items:baseline;gap:.6rem;font-size:.88rem;line-height:1.5;color:var(--text-dim)}
+  .steps li::before{content:counter(step);font-family:var(--font-display);font-weight:700;font-size:.75rem;color:#06d6a0;background:rgba(6,214,160,.1);min-width:1.5rem;height:1.5rem;display:flex;align-items:center;justify-content:center;border-radius:50%;flex-shrink:0}
+</style>

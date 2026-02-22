@@ -116,6 +116,7 @@ function extractSongs(html) {
               artist: s.artist || '',
               id: String(s.asset_id),
               genre: s.genre || '',
+              ...(s.duration_seconds ? { duration: s.duration_seconds } : {}),
             });
           }
         }
