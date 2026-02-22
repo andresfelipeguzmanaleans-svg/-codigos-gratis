@@ -8,7 +8,7 @@ const description = 'Busca y consulta cualquier perfil de Roblox. Encuentra el n
 
 const faqEntries = [
   { q: '¿Cómo buscar un perfil en Roblox?', a: 'Escribe el nombre de usuario exacto del jugador en el buscador y presiona Buscar. Te mostraremos su avatar, nombre, ID, fecha de creación, amigos, seguidores y más información pública del perfil.' },
-  { q: '¿Qué información puedo ver de un usuario de Roblox?', a: 'Puedes ver el avatar, nombre de usuario, display name, ID de usuario, fecha de creación de la cuenta, descripción o bio, número de amigos, seguidores y seguidos, y la antigüedad de la cuenta.' },
+  { q: '¿Qué información puedo ver de un usuario de Roblox?', a: 'Puedes ver el avatar completo, nombre de usuario, display name, ID de usuario, fecha de creación de la cuenta, descripción o bio, número de amigos, seguidores y seguidos, la ropa que lleva puesta y los juegos que ha creado.' },
   { q: '¿Es seguro buscar perfiles de Roblox?', a: 'Sí. Nuestro buscador solo consulta la API pública oficial de Roblox. No recopilamos contraseñas ni datos privados. Solo mostramos información que cualquier persona puede ver al visitar el perfil en roblox.com.' },
   { q: '¿Puedo ver perfiles privados?', a: 'Nuestro buscador muestra la información pública del perfil. Si un usuario tiene su perfil configurado como privado, algunos datos como la descripción pueden no estar disponibles.' },
   { q: '¿Cada cuánto se actualizan los datos?', a: 'Los datos se consultan en tiempo real desde los servidores de Roblox cada vez que realizas una búsqueda. Los resultados se cachean durante 5 minutos para una carga más rápida.' },
@@ -33,16 +33,14 @@ const faqSchema = {
   <main class="main">
     <div class="page-wrap">
 
-      <!-- Breadcrumbs -->
       <nav class="breadcrumbs">
         <a href="/">Inicio</a> <span class="sep">›</span>
         <span>Herramientas</span> <span class="sep">›</span>
         <span>Buscador de Perfil Roblox</span>
       </nav>
 
-      <!-- Hero -->
       <h1 class="page-title">Buscador de Perfil de Roblox<br/><span class="page-title__sub">Consulta Cualquier Usuario</span></h1>
-      <p class="intro">Escribe el nombre de usuario de cualquier jugador de Roblox para ver su perfil completo: avatar, fecha de creación, amigos, seguidores y más.</p>
+      <p class="intro">Escribe el nombre de usuario de cualquier jugador de Roblox para ver su perfil completo: avatar, ropa, creaciones, amigos, seguidores y más.</p>
 
       <!-- Search -->
       <div class="search-section">
@@ -59,8 +57,10 @@ const faqSchema = {
         <span>Buscando perfil...</span>
       </div>
 
-      <!-- Result card -->
+      <!-- Result -->
       <div class="result" id="result">
+
+        <!-- Header -->
         <div class="result__header">
           <img id="r-avatar" class="result__avatar" src="" alt="" width="150" height="150" />
           <div class="result__info">
@@ -77,35 +77,66 @@ const faqSchema = {
           </div>
         </div>
 
-        <p class="result__bio" id="r-bio"></p>
-
-        <div class="result__stats">
-          <div class="stat-box">
-            <span class="stat-box__val" id="r-friends">0</span>
-            <span class="stat-box__label">Amigos</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-box__val" id="r-followers">0</span>
-            <span class="stat-box__label">Seguidores</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-box__val" id="r-following">0</span>
-            <span class="stat-box__label">Siguiendo</span>
-          </div>
+        <!-- Tabs -->
+        <div class="tabs">
+          <button class="tab tab--active" data-tab="about">Sobre mí</button>
+          <button class="tab" data-tab="creations" id="tab-creations" style="display:none">Creaciones <span class="tab__count" id="tab-creations-count"></span></button>
         </div>
 
-        <div class="result__meta">
-          <span class="meta-item" id="r-created"></span>
+        <!-- Tab: Sobre mí -->
+        <div class="tab-panel tab-panel--active" id="panel-about">
+
+          <!-- Full body avatar -->
+          <div class="avatar-full-wrap">
+            <img id="r-avatar-full" class="avatar-full" src="" alt="" width="352" height="352" />
+          </div>
+
+          <!-- Bio -->
+          <p class="result__bio" id="r-bio"></p>
+
+          <!-- Stats -->
+          <div class="result__stats">
+            <div class="stat-box">
+              <span class="stat-box__val" id="r-friends">0</span>
+              <span class="stat-box__label">Amigos</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-box__val" id="r-followers">0</span>
+              <span class="stat-box__label">Seguidores</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-box__val" id="r-following">0</span>
+              <span class="stat-box__label">Siguiendo</span>
+            </div>
+          </div>
+
+          <!-- Meta -->
+          <div class="result__meta">
+            <span class="meta-item" id="r-created"></span>
+          </div>
+
+          <!-- Wearing -->
+          <div class="wearing-section" id="wearing-section" style="display:none">
+            <h3 class="section-title">Ropa actual</h3>
+            <div class="wearing-scroll" id="wearing-scroll"></div>
+          </div>
+
         </div>
 
+        <!-- Tab: Creaciones -->
+        <div class="tab-panel" id="panel-creations">
+          <div class="games-grid" id="games-grid"></div>
+        </div>
+
+        <!-- CTA -->
         <a id="r-link" class="result__cta" href="" target="_blank" rel="noopener">Ver perfil en Roblox ↗</a>
       </div>
 
-      <!-- SEO content -->
+      <!-- SEO -->
       <section class="seo">
         <h2 class="seo__h2">¿Cómo buscar un perfil en Roblox?</h2>
         <p>Usar nuestro buscador de perfiles de Roblox es muy sencillo. Solo tienes que escribir el <strong>nombre de usuario exacto</strong> del jugador que quieras consultar en el campo de búsqueda y hacer clic en "Buscar".</p>
-        <p>El sistema consultará la API oficial de Roblox y te mostrará toda la información pública del perfil: avatar, nombre de display, ID de usuario, fecha de creación de la cuenta, biografía, número de amigos, seguidores y seguidos.</p>
+        <p>El sistema consultará la API oficial de Roblox y te mostrará toda la información pública del perfil: avatar completo, nombre de display, ID de usuario, fecha de creación de la cuenta, biografía, número de amigos, seguidores y seguidos, la ropa que lleva puesta y los juegos que ha creado.</p>
         <p>Si no conoces el nombre exacto, puedes escribir una parte y el buscador intentará encontrar la coincidencia más cercana. Los nombres de usuario en Roblox pueden contener <strong>letras, números y guiones bajos</strong> (máximo 20 caracteres).</p>
       </section>
 
@@ -116,8 +147,8 @@ const faqSchema = {
           <div class="info-item">
             <span class="info-item__icon">🖼️</span>
             <div>
-              <strong>Avatar</strong>
-              <p>La imagen de perfil actual del jugador en alta resolución.</p>
+              <strong>Avatar completo</strong>
+              <p>La imagen del avatar de cuerpo completo y las piezas de ropa que lleva puestas actualmente.</p>
             </div>
           </div>
           <div class="info-item">
@@ -128,10 +159,10 @@ const faqSchema = {
             </div>
           </div>
           <div class="info-item">
-            <span class="info-item__icon">🔢</span>
+            <span class="info-item__icon">🎮</span>
             <div>
-              <strong>ID de Usuario</strong>
-              <p>El identificador numérico único asignado a cada cuenta de Roblox.</p>
+              <strong>Creaciones</strong>
+              <p>Los juegos y experiencias que ha creado el usuario, con visitas, jugadores activos y likes.</p>
             </div>
           </div>
           <div class="info-item">
@@ -195,7 +226,14 @@ const faqSchema = {
   }
 
   function fmtNum(n: number): string {
+    if (n >= 1_000_000_000) return (n / 1_000_000_000).toFixed(1).replace('.0', '') + 'B';
+    if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace('.0', '') + 'M';
+    if (n >= 1_000) return (n / 1_000).toFixed(1).replace('.0', '') + 'K';
     return n.toLocaleString('es-ES');
+  }
+
+  function esc(s: string): string {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
   function showErr(msg: string) {
@@ -204,6 +242,20 @@ const faqSchema = {
     loader.style.display = 'none';
     result.style.display = 'none';
   }
+
+  // Tabs
+  const tabs = document.querySelectorAll<HTMLElement>('.tab');
+  const panels = document.querySelectorAll<HTMLElement>('.tab-panel');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('tab--active'));
+      panels.forEach(p => p.classList.remove('tab-panel--active'));
+      tab.classList.add('tab--active');
+      const target = tab.dataset.tab!;
+      document.getElementById(`panel-${target}`)!.classList.add('tab-panel--active');
+    });
+  });
 
   async function search() {
     const username = input.value.trim();
@@ -216,13 +268,19 @@ const faqSchema = {
     loader.style.display = 'flex';
     btn.setAttribute('disabled', '');
 
+    // Reset to first tab
+    tabs.forEach(t => t.classList.remove('tab--active'));
+    panels.forEach(p => p.classList.remove('tab-panel--active'));
+    tabs[0].classList.add('tab--active');
+    panels[0].classList.add('tab-panel--active');
+
     try {
       const res = await fetch(`/api/roblox-profile?username=${encodeURIComponent(username)}`);
       const data = await res.json();
 
       if (!res.ok) { showErr(data.error || 'Error al buscar el perfil.'); btn.removeAttribute('disabled'); return; }
 
-      // Populate
+      // Header
       const avatar = document.getElementById('r-avatar') as HTMLImageElement;
       avatar.src = data.avatarUrl || '';
       avatar.alt = data.displayName;
@@ -232,21 +290,71 @@ const faqSchema = {
       document.getElementById('r-id')!.textContent = `ID: ${data.id}`;
 
       const years = calcAge(data.created);
-      const badgeAge = document.getElementById('r-badge-age')!;
-      badgeAge.textContent = years < 1 ? 'Cuenta de menos de 1 año' : `Cuenta de ${years} año${years !== 1 ? 's' : ''}`;
-
+      document.getElementById('r-badge-age')!.textContent = years < 1 ? 'Cuenta nueva' : `${years} año${years !== 1 ? 's' : ''}`;
       document.getElementById('r-badge-verified')!.style.display = data.hasVerifiedBadge ? 'inline-flex' : 'none';
       document.getElementById('r-badge-banned')!.style.display = data.isBanned ? 'inline-flex' : 'none';
 
+      // Full avatar
+      const avatarFull = document.getElementById('r-avatar-full') as HTMLImageElement;
+      avatarFull.src = data.avatarFullUrl || data.avatarUrl || '';
+      avatarFull.alt = data.displayName;
+
+      // Bio
       document.getElementById('r-bio')!.textContent = data.description || 'Sin descripción.';
 
+      // Stats
       document.getElementById('r-friends')!.textContent = fmtNum(data.friends);
       document.getElementById('r-followers')!.textContent = fmtNum(data.followers);
       document.getElementById('r-following')!.textContent = fmtNum(data.following);
 
+      // Meta
       document.getElementById('r-created')!.textContent = `Cuenta creada el ${fmtDate(data.created)}`;
 
+      // CTA
       (document.getElementById('r-link') as HTMLAnchorElement).href = `https://www.roblox.com/users/${data.id}/profile`;
+
+      // Wearing
+      const wearingSection = document.getElementById('wearing-section')!;
+      const wearingScroll = document.getElementById('wearing-scroll')!;
+      if (data.wearing && data.wearing.length > 0) {
+        wearingScroll.innerHTML = data.wearing.map((w: any) => {
+          const thumb = w.thumbnail
+            ? `<img src="${esc(w.thumbnail)}" alt="${esc(w.name)}" width="110" height="110" loading="lazy"/>`
+            : `<div class="wearing-card__placeholder">👕</div>`;
+          return `<div class="wearing-card">${thumb}<span class="wearing-card__name">${esc(w.name)}</span></div>`;
+        }).join('');
+        wearingSection.style.display = 'block';
+      } else {
+        wearingSection.style.display = 'none';
+      }
+
+      // Games tab
+      const tabCreations = document.getElementById('tab-creations')!;
+      const gamesGrid = document.getElementById('games-grid')!;
+      if (data.games && data.games.length > 0) {
+        tabCreations.style.display = 'inline-flex';
+        document.getElementById('tab-creations-count')!.textContent = `(${data.games.length})`;
+        gamesGrid.innerHTML = data.games.map((g: any) => {
+          const thumb = g.thumbnail
+            ? `<img src="${esc(g.thumbnail)}" alt="${esc(g.name)}" width="150" height="150" loading="lazy" class="game-card__img"/>`
+            : `<div class="game-card__placeholder">🎮</div>`;
+          const link = g.rootPlaceId ? `https://www.roblox.com/games/${g.rootPlaceId}` : '#';
+          return `<a href="${link}" target="_blank" rel="noopener" class="game-card">
+            ${thumb}
+            <div class="game-card__body">
+              <span class="game-card__name">${esc(g.name)}</span>
+              <div class="game-card__stats">
+                <span title="Visitas">👁 ${fmtNum(g.visits)}</span>
+                <span title="Jugando ahora">🟢 ${fmtNum(g.playing)}</span>
+                <span title="Likes">👍 ${fmtNum(g.likes)}</span>
+              </div>
+            </div>
+          </a>`;
+        }).join('');
+      } else {
+        tabCreations.style.display = 'none';
+        gamesGrid.innerHTML = '';
+      }
 
       loader.style.display = 'none';
       result.style.display = 'block';
@@ -265,13 +373,11 @@ const faqSchema = {
   .profile-page .main{padding:0 0 3rem}
   .profile-page .page-wrap{width:100%;max-width:760px;margin:0 auto;padding:0 1rem}
 
-  /* Breadcrumbs */
   .profile-page .breadcrumbs{font-size:.82rem;color:var(--text-dim);padding:1.25rem 0 0}
   .profile-page .breadcrumbs a{color:var(--text-dim);text-decoration:none;transition:color .2s}
   .profile-page .breadcrumbs a:hover{color:var(--accent)}
   .profile-page .sep{margin:0 .35rem;opacity:.5}
 
-  /* Title */
   .profile-page .page-title{font-family:var(--font-display);font-size:1.5rem;font-weight:700;line-height:1.25;text-align:center;margin:2rem 0 .75rem}
   .profile-page .page-title__sub{font-size:1.1rem;color:var(--accent);font-weight:400}
   @media(min-width:640px){.profile-page .page-title{font-size:2rem}.profile-page .page-title__sub{font-size:1.3rem}}
@@ -291,18 +397,19 @@ const faqSchema = {
 
   /* Loader */
   .profile-page .loader{display:none;flex-direction:column;align-items:center;gap:.75rem;padding:2.5rem 0;color:var(--text-dim);font-size:.9rem}
-  .profile-page .spinner{width:36px;height:36px;border:3px solid var(--border);border-top-color:#06d6a0;border-radius:50%;animation:spin .8s linear infinite}
-  @keyframes spin{to{transform:rotate(360deg)}}
+  .profile-page .spinner{width:36px;height:36px;border:3px solid var(--border);border-top-color:#06d6a0;border-radius:50%;animation:profileSpin .8s linear infinite}
+  @keyframes profileSpin{to{transform:rotate(360deg)}}
 
-  /* Result card */
-  .profile-page .result{display:none;background:#111827;border:1px solid var(--border);border-radius:16px;padding:1.5rem;margin-bottom:2.5rem;animation:fadeIn .3s ease}
-  @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  /* Result */
+  .profile-page .result{display:none;background:#111827;border:1px solid var(--border);border-radius:16px;padding:1.5rem;margin-bottom:2.5rem;animation:profileFadeIn .3s ease}
+  @keyframes profileFadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 
+  /* Header */
   .profile-page .result__header{display:flex;align-items:flex-start;gap:1.25rem;margin-bottom:1rem}
   @media(max-width:480px){.profile-page .result__header{flex-direction:column;align-items:center;text-align:center}}
 
-  .profile-page .result__avatar{width:120px;height:120px;border-radius:50%;border:3px solid #06d6a0;object-fit:cover;flex-shrink:0;background:#1a2236}
-  @media(min-width:640px){.profile-page .result__avatar{width:150px;height:150px}}
+  .profile-page .result__avatar{width:100px;height:100px;border-radius:50%;border:3px solid #06d6a0;object-fit:cover;flex-shrink:0;background:#1a2236}
+  @media(min-width:640px){.profile-page .result__avatar{width:120px;height:120px}}
 
   .profile-page .result__info{flex:1;min-width:0}
   .profile-page .result__names{margin-bottom:.25rem}
@@ -316,6 +423,24 @@ const faqSchema = {
   .profile-page .badge--verified{background:rgba(96,165,250,.12);color:#60a5fa;border:1px solid rgba(96,165,250,.25);display:none}
   .profile-page .badge--banned{background:rgba(255,107,107,.12);color:#ff6b6b;border:1px solid rgba(255,107,107,.25);display:none}
 
+  /* Tabs */
+  .profile-page .tabs{display:flex;gap:0;border-bottom:2px solid var(--border);margin-bottom:1.25rem}
+  .profile-page .tab{font-family:var(--font-display);font-size:.82rem;font-weight:700;padding:.7rem 1.25rem;background:none;color:var(--text-dim);border:none;cursor:pointer;transition:all .2s;position:relative;display:inline-flex;align-items:center;gap:.35rem}
+  .profile-page .tab:hover{color:var(--text)}
+  .profile-page .tab--active{color:#06d6a0}
+  .profile-page .tab--active::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:2px;background:#06d6a0;border-radius:2px 2px 0 0}
+  .profile-page .tab__count{font-size:.7rem;opacity:.6;font-weight:400}
+
+  /* Tab panels */
+  .profile-page .tab-panel{display:none}
+  .profile-page .tab-panel--active{display:block}
+
+  /* Full avatar */
+  .profile-page .avatar-full-wrap{text-align:center;margin-bottom:1.25rem}
+  .profile-page .avatar-full{width:200px;height:200px;border-radius:16px;object-fit:contain;background:#1a2236;border:1px solid var(--border)}
+  @media(min-width:640px){.profile-page .avatar-full{width:280px;height:280px}}
+
+  /* Bio */
   .profile-page .result__bio{color:var(--text-dim);font-size:.88rem;line-height:1.6;padding:1rem;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:10px;margin-bottom:1.25rem;white-space:pre-line;word-break:break-word}
 
   /* Stats */
@@ -325,9 +450,34 @@ const faqSchema = {
   .profile-page .stat-box__label{display:block;font-size:.72rem;color:var(--text-dim);margin-top:.15rem}
 
   .profile-page .result__meta{font-size:.8rem;color:var(--text-dim);margin-bottom:1.25rem;text-align:center}
-  .profile-page .meta-item{display:inline-flex;align-items:center;gap:.3rem}
 
-  .profile-page .result__cta{display:block;width:100%;text-align:center;font-family:var(--font-display);font-size:.95rem;font-weight:700;padding:.85rem;background:#06d6a0;color:#0a0e1a;border-radius:10px;text-decoration:none;transition:all .2s}
+  /* Wearing */
+  .profile-page .section-title{font-family:var(--font-display);font-size:.9rem;font-weight:700;margin-bottom:.75rem;padding-left:.65rem;border-left:3px solid #06d6a0}
+  .profile-page .wearing-section{margin-bottom:1.25rem}
+  .profile-page .wearing-scroll{display:flex;gap:.65rem;overflow-x:auto;padding-bottom:.5rem;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+  .profile-page .wearing-scroll::-webkit-scrollbar{height:4px}
+  .profile-page .wearing-scroll::-webkit-scrollbar-track{background:var(--border);border-radius:4px}
+  .profile-page .wearing-scroll::-webkit-scrollbar-thumb{background:#06d6a0;border-radius:4px}
+  .profile-page .wearing-card{flex-shrink:0;width:110px;text-align:center;scroll-snap-align:start}
+  .profile-page .wearing-card img{width:110px;height:110px;object-fit:contain;border-radius:10px;background:#1a2236;border:1px solid var(--border)}
+  .profile-page .wearing-card__placeholder{width:110px;height:110px;display:flex;align-items:center;justify-content:center;font-size:2rem;border-radius:10px;background:#1a2236;border:1px solid var(--border)}
+  .profile-page .wearing-card__name{display:block;font-size:.68rem;color:var(--text-dim);margin-top:.35rem;line-height:1.25;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+  /* Games */
+  .profile-page .games-grid{display:grid;grid-template-columns:1fr;gap:.75rem}
+  @media(min-width:480px){.profile-page .games-grid{grid-template-columns:1fr 1fr}}
+
+  .profile-page .game-card{display:flex;gap:.75rem;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:12px;padding:.75rem;text-decoration:none;color:var(--text);transition:all .2s}
+  .profile-page .game-card:hover{border-color:rgba(6,214,160,.3);box-shadow:0 4px 16px rgba(6,214,160,.1);transform:translateY(-2px)}
+  .profile-page .game-card__img{width:70px;height:70px;border-radius:8px;object-fit:cover;flex-shrink:0;background:#1a2236}
+  .profile-page .game-card__placeholder{width:70px;height:70px;display:flex;align-items:center;justify-content:center;font-size:1.8rem;border-radius:8px;background:#1a2236;flex-shrink:0}
+  .profile-page .game-card__body{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+  .profile-page .game-card__name{font-family:var(--font-display);font-size:.82rem;font-weight:700;line-height:1.25;margin-bottom:.35rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .profile-page .game-card__stats{display:flex;gap:.65rem;font-size:.7rem;color:var(--text-dim)}
+  .profile-page .game-card__stats span{display:inline-flex;align-items:center;gap:.2rem;white-space:nowrap}
+
+  /* CTA */
+  .profile-page .result__cta{display:block;width:100%;text-align:center;font-family:var(--font-display);font-size:.95rem;font-weight:700;padding:.85rem;background:#06d6a0;color:#0a0e1a;border-radius:10px;text-decoration:none;transition:all .2s;margin-top:1.25rem}
   .profile-page .result__cta:hover{background:#05c493;box-shadow:0 0 20px rgba(6,214,160,.3)}
 
   /* SEO */
@@ -336,7 +486,6 @@ const faqSchema = {
   .profile-page .seo p{color:var(--text-dim);font-size:.92rem;line-height:1.7;margin-bottom:.75rem}
   .profile-page .seo strong{color:var(--text)}
 
-  /* Info grid */
   .profile-page .info-grid{display:grid;grid-template-columns:1fr;gap:.65rem;margin-top:.75rem}
   @media(min-width:640px){.profile-page .info-grid{grid-template-columns:1fr 1fr}}
   .profile-page .info-item{display:flex;gap:.75rem;background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:.85rem}

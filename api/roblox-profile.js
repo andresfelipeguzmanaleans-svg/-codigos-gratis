@@ -19,7 +19,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    // Step 1: Try exact username lookup first
+    // Step 1: Find user
     let userId = null;
     let exactMatch = false;
 
@@ -37,7 +37,6 @@ export default async function handler(req, res) {
       }
     }
 
-    // Step 2: Fallback to search API
     if (!userId) {
       const searchRes = await fetch(
         `https://users.roblox.com/v1/users/search?keyword=${encodeURIComponent(trimmed)}&limit=1`
@@ -54,24 +53,125 @@ export default async function handler(req, res) {
       return res.status(404).json({ error: 'Usuario no encontrado.' });
     }
 
-    // Step 3: Fetch all details in parallel
-    const [userRes, avatarRes, friendsRes, followersRes, followingRes] = await Promise.all([
-      fetch(`https://users.roblox.com/v1/users/${userId}`),
-      fetch(`https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=${userId}&size=150x150&format=Png`),
-      fetch(`https://friends.roblox.com/v1/users/${userId}/friends/count`),
-      fetch(`https://friends.roblox.com/v1/users/${userId}/followers/count`),
-      fetch(`https://friends.roblox.com/v1/users/${userId}/followings/count`),
-    ]);
+    // Step 2: Parallel batch — all primary data
+    const [userRes, headshotRes, fullAvatarRes, friendsRes, followersRes, followingRes, wearingRes, gamesRes] =
+      await Promise.all([
+        fetch(`https://users.roblox.com/v1/users/${userId}`),
+        fetch(`https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=${userId}&size=150x150&format=Png`),
+        fetch(`https://thumbnails.roblox.com/v1/users/avatar?userIds=${userId}&size=352x352&format=Png`),
+        fetch(`https://friends.roblox.com/v1/users/${userId}/friends/count`),
+        fetch(`https://friends.roblox.com/v1/users/${userId}/followers/count`),
+        fetch(`https://friends.roblox.com/v1/users/${userId}/followings/count`),
+        fetch(`https://avatar.roblox.com/v1/users/${userId}/currently-wearing`).catch(() => null),
+        fetch(`https://games.roblox.com/v2/users/${userId}/games?sortOrder=Desc&limit=10`).catch(() => null),
+      ]);
 
-    const [userData, avatarData, friendsData, followersData, followingData] = await Promise.all([
-      userRes.json(),
-      avatarRes.json(),
-      friendsRes.json(),
-      followersRes.json(),
-      followingRes.json(),
-    ]);
+    const userData = await userRes.json();
+    const headshotData = await headshotRes.json();
+    const fullAvatarData = await fullAvatarRes.json();
+    const friendsData = await friendsRes.json();
+    const followersData = await followersRes.json();
+    const followingData = await followingRes.json();
+    const wearingData = wearingRes && wearingRes.ok ? await wearingRes.json() : { assetIds: [] };
+    const gamesData = gamesRes && gamesRes.ok ? await gamesRes.json() : { data: [] };
 
-    const avatarUrl = avatarData.data?.[0]?.imageUrl || null;
+    // Step 3: Wearing items — details + thumbnails
+    let wearing = [];
+    const assetIds = wearingData.assetIds || [];
+    if (assetIds.length > 0) {
+      try {
+        const [catalogRes, itemThumbRes] = await Promise.all([
+          fetch('https://catalog.roblox.com/v1/catalog/items/details', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ items: assetIds.map((id) => ({ itemType: 'Asset', id })) }),
+          }).catch(() => null),
+          fetch(
+            `https://thumbnails.roblox.com/v1/assets?assetIds=${assetIds.join(',')}&size=150x150&format=Png`
+          ).catch(() => null),
+        ]);
+
+        const catalogData = catalogRes && catalogRes.ok ? await catalogRes.json() : { data: [] };
+        const itemThumbData = itemThumbRes && itemThumbRes.ok ? await itemThumbRes.json() : { data: [] };
+
+        const nameMap = {};
+        if (catalogData.data) {
+          for (const item of catalogData.data) {
+            nameMap[item.id] = item.name || '';
+          }
+        }
+
+        const thumbMap = {};
+        if (itemThumbData.data) {
+          for (const t of itemThumbData.data) {
+            thumbMap[t.targetId] = t.imageUrl || null;
+          }
+        }
+
+        wearing = assetIds.map((id) => ({
+          id,
+          name: nameMap[id] || `Item ${id}`,
+          thumbnail: thumbMap[id] || null,
+        }));
+      } catch {
+        wearing = assetIds.map((id) => ({ id, name: `Item ${id}`, thumbnail: null }));
+      }
+    }
+
+    // Step 4: Games — thumbnails + votes + playing
+    let games = [];
+    const rawGames = gamesData.data || [];
+    if (rawGames.length > 0) {
+      try {
+        const universeIds = rawGames.map((g) => g.id);
+        const [gameThumbRes, gameVotesRes, gamePlayingRes] = await Promise.all([
+          fetch(
+            `https://thumbnails.roblox.com/v1/games/icons?universeIds=${universeIds.join(',')}&size=150x150&format=Png`
+          ).catch(() => null),
+          fetch(`https://games.roblox.com/v1/games/votes?universeIds=${universeIds.join(',')}`).catch(() => null),
+          fetch(`https://games.roblox.com/v1/games?universeIds=${universeIds.join(',')}`).catch(() => null),
+        ]);
+
+        const gameThumbData = gameThumbRes && gameThumbRes.ok ? await gameThumbRes.json() : { data: [] };
+        const gameVotesData = gameVotesRes && gameVotesRes.ok ? await gameVotesRes.json() : { data: [] };
+        const gamePlayingData = gamePlayingRes && gamePlayingRes.ok ? await gamePlayingRes.json() : { data: [] };
+
+        const gThumbMap = {};
+        if (gameThumbData.data) {
+          for (const t of gameThumbData.data) gThumbMap[t.targetId] = t.imageUrl || null;
+        }
+
+        const gVotesMap = {};
+        if (gameVotesData.data) {
+          for (const v of gameVotesData.data) gVotesMap[v.id] = { up: v.upVotes || 0, down: v.downVotes || 0 };
+        }
+
+        const gPlayingMap = {};
+        if (gamePlayingData.data) {
+          for (const p of gamePlayingData.data) gPlayingMap[p.id] = p.playing || 0;
+        }
+
+        games = rawGames.map((g) => ({
+          id: g.id,
+          rootPlaceId: g.rootPlace?.id || null,
+          name: g.name || '',
+          visits: g.placeVisits || 0,
+          playing: gPlayingMap[g.id] || 0,
+          likes: gVotesMap[g.id]?.up || 0,
+          thumbnail: gThumbMap[g.id] || null,
+        }));
+      } catch {
+        games = rawGames.map((g) => ({
+          id: g.id,
+          rootPlaceId: g.rootPlace?.id || null,
+          name: g.name || '',
+          visits: g.placeVisits || 0,
+          playing: 0,
+          likes: 0,
+          thumbnail: null,
+        }));
+      }
+    }
 
     const result = {
       id: userData.id,
@@ -82,10 +182,13 @@ export default async function handler(req, res) {
       isBanned: userData.isBanned || false,
       hasVerifiedBadge: userData.hasVerifiedBadge || false,
       exactMatch,
-      avatarUrl,
+      avatarUrl: headshotData.data?.[0]?.imageUrl || null,
+      avatarFullUrl: fullAvatarData.data?.[0]?.imageUrl || null,
       friends: friendsData.count ?? 0,
       followers: followersData.count ?? 0,
       following: followingData.count ?? 0,
+      wearing,
+      games,
     };
 
     res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=60');
