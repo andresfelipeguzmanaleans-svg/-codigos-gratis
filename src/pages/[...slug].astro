@@ -153,9 +153,9 @@ const faqSchema = {
           <h1 class="hero__title">{game.name}</h1>
           <p class="hero__desc">{game.description}</p>
           <div class="hero__badges">
-            <span class="badge badge--green">
-              {game.activeCodes.length} código{game.activeCodes.length !== 1 && 's'} activo{game.activeCodes.length !== 1 && 's'}
-            </span>
+            <a href="#codigos" class="badge badge--green badge--link">
+              {game.activeCodes.length} código{game.activeCodes.length !== 1 && 's'} activo{game.activeCodes.length !== 1 && 's'} <span class="badge__arrow">↓</span>
+            </a>
             <span class="badge badge--yellow">
               Actualizado {dateLabel}
             </span>
@@ -196,7 +196,7 @@ const faqSchema = {
 
       <!-- Códigos activos -->
       {game.activeCodes.length > 0 && (
-        <section class="section">
+        <section class="section" id="codigos">
           <h2 class="section__title">Códigos activos</h2>
           <p class="codes-check">Última comprobación: {dateLabel}</p>
           <div class="codes-list">
@@ -448,6 +448,28 @@ const faqSchema = {
   .badge--green {
     color: var(--accent);
     background: rgba(6, 214, 160, 0.1);
+  }
+
+  .badge--link {
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s, box-shadow 0.2s;
+  }
+
+  .badge--link:hover {
+    background: rgba(6, 214, 160, 0.22);
+    box-shadow: 0 0 12px rgba(6, 214, 160, 0.15);
+  }
+
+  .badge__arrow {
+    font-size: 0.7em;
+    margin-left: 0.15rem;
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+
+  .badge--link:hover .badge__arrow {
+    transform: translateY(2px);
   }
 
   .badge--yellow {
