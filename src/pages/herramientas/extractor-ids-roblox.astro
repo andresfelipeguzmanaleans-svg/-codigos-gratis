@@ -1,0 +1,459 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'Extractor de IDs de Roblox — Obtén Place ID, Universe ID, Asset ID | Códigos Gratis';
+const description = 'Pega cualquier enlace de Roblox y extrae al instante el Place ID, Universe ID, Asset ID, User ID, Group ID y más. Herramienta gratuita para desarrolladores y jugadores.';
+
+const faqEntries = [
+  { q: '¿Cómo extraer IDs de un enlace de Roblox?', a: 'Copia el enlace de cualquier página de Roblox (juego, usuario, item, grupo, game pass, bundle o badge) y pégalo en nuestro extractor. El sistema detectará automáticamente el tipo de enlace y extraerá todos los IDs asociados.' },
+  { q: '¿Qué es el Place ID y Universe ID en Roblox?', a: 'El Place ID identifica un lugar específico dentro de un juego de Roblox y aparece en la URL del juego. El Universe ID identifica el juego completo (que puede tener varios places). Ambos son necesarios para usar las APIs de Roblox y para configurar datastores, teleports y más.' },
+  { q: '¿Qué tipos de IDs puedo extraer?', a: 'Puedes extraer Place ID, Universe ID, User ID, Asset ID, Group ID, Game Pass ID, Bundle ID, Badge ID, Creator ID y más. Cada tipo de enlace de Roblox tiene sus propios IDs asociados.' },
+  { q: '¿Para qué sirve extraer IDs de Roblox?', a: 'Los IDs son esenciales para el desarrollo de juegos en Roblox Studio, para usar las APIs de Roblox, para configurar teleports entre places, para identificar assets específicos y para automatizar tareas con scripts.' },
+  { q: '¿Es seguro usar este extractor de IDs?', a: 'Sí. Solo consultamos la API pública oficial de Roblox para obtener la información. No recopilamos datos privados ni contraseñas. Los IDs que mostramos son información pública disponible en las URLs de Roblox.' },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqEntries.map(e => ({
+    '@type': 'Question',
+    name: e.q,
+    acceptedAnswer: { '@type': 'Answer', text: e.a },
+  })),
+};
+
+const examples = [
+  { label: 'Juego (Adopt Me)', url: 'https://www.roblox.com/games/920587237/Adopt-Me' },
+  { label: 'Usuario (Roblox)', url: 'https://www.roblox.com/users/1/profile' },
+  { label: 'Item del catálogo', url: 'https://www.roblox.com/catalog/11748356/Blue-Valkyrie' },
+  { label: 'Grupo', url: 'https://www.roblox.com/groups/7/Roblox' },
+  { label: 'Game Pass', url: 'https://www.roblox.com/game-pass/5018441/VIP' },
+  { label: 'Bundle', url: 'https://www.roblox.com/bundles/39/Korblox-Deathspeaker' },
+];
+---
+
+<Layout title={title} description={description}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <div class="ids-page">
+  <Header />
+
+  <main class="main">
+    <div class="page-wrap">
+
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a> <span class="sep">›</span>
+        <span>Herramientas</span> <span class="sep">›</span>
+        <span>Extractor de IDs</span>
+      </nav>
+
+      <h1 class="page-title">Extractor de IDs de Roblox<br/><span class="page-title__sub">Place ID, Universe ID, Asset ID y más</span></h1>
+      <p class="intro">Pega cualquier enlace de Roblox y extrae al instante el Place ID, Universe ID, Asset ID, User ID, Group ID y más.</p>
+
+      <!-- Search -->
+      <div class="search-section">
+        <div class="search-row">
+          <input type="text" id="q" class="search-input" placeholder="Pega aquí cualquier enlace de Roblox..." autocomplete="off" />
+          <button id="extract-btn" class="search-btn">Extraer IDs</button>
+        </div>
+        <p class="search-error" id="error-msg"></p>
+      </div>
+
+      <!-- Examples -->
+      <div class="examples">
+        <span class="examples__label">Ejemplos:</span>
+        {examples.map(ex => (
+          <button class="example-btn" data-url={ex.url}>{ex.label}</button>
+        ))}
+      </div>
+
+      <!-- Loader -->
+      <div class="loader" id="loader">
+        <div class="spinner"></div>
+        <span>Extrayendo IDs...</span>
+      </div>
+
+      <!-- Result -->
+      <div class="result" id="result">
+        <!-- Type badge -->
+        <div class="result__type-row">
+          <span class="type-badge" id="r-type"></span>
+        </div>
+
+        <!-- Header with thumbnail + name -->
+        <div class="result__header" id="r-header">
+          <img id="r-thumb" class="result__thumb" src="" alt="" width="100" height="100" />
+          <div class="result__info">
+            <span class="result__name" id="r-name"></span>
+            <p class="result__desc" id="r-desc"></p>
+          </div>
+        </div>
+
+        <!-- IDs table -->
+        <div class="ids-table-wrap">
+          <h3 class="section-title">IDs extraídos</h3>
+          <table class="ids-table" id="ids-table">
+            <thead><tr><th>Tipo</th><th>ID</th><th></th></tr></thead>
+            <tbody id="ids-tbody"></tbody>
+          </table>
+        </div>
+
+        <!-- Meta stats -->
+        <div class="meta-grid" id="meta-grid"></div>
+
+        <!-- CTA -->
+        <a id="r-link" class="result__cta" href="" target="_blank" rel="noopener">Abrir en Roblox ↗</a>
+      </div>
+
+      <!-- SEO -->
+      <section class="seo">
+        <h2 class="seo__h2">¿Cómo extraer IDs de un enlace de Roblox?</h2>
+        <p>Usar nuestro extractor de IDs es muy sencillo. Solo tienes que <strong>copiar la URL</strong> de cualquier página de Roblox y pegarla en el campo de arriba. El sistema detectará automáticamente si es un juego, usuario, item del catálogo, grupo, game pass, bundle o badge.</p>
+        <p>Una vez detectado el tipo, consultamos la API oficial de Roblox para extraer <strong>todos los IDs asociados</strong> y mostrarte información enriquecida como el nombre, descripción, estadísticas y thumbnail.</p>
+        <p>Puedes usar los botones de <strong>"Copiar"</strong> junto a cada ID para copiarlo al portapapeles de forma rápida. Esto es especialmente útil para desarrolladores que necesitan estos IDs para scripts en Roblox Studio.</p>
+      </section>
+
+      <section class="seo">
+        <h2 class="seo__h2">¿Qué es el Place ID y Universe ID en Roblox?</h2>
+        <p>En Roblox, cada juego tiene dos identificadores principales:</p>
+        <div class="info-box">
+          <div class="info-box__item">
+            <strong>Place ID</strong>
+            <p>El identificador de un lugar específico dentro de un juego. Aparece en la URL del juego (ej: roblox.com/games/<strong>920587237</strong>/Adopt-Me). Un juego puede tener múltiples places (servidor principal, lobby, minijuegos, etc.).</p>
+          </div>
+          <div class="info-box__item">
+            <strong>Universe ID</strong>
+            <p>El identificador del juego completo como experiencia. Agrupa todos los places de un mismo juego. Es necesario para usar muchas APIs de Roblox como DataStores, Messaging Service y la API de juegos.</p>
+          </div>
+        </div>
+        <p>Para obtener el Universe ID necesitas hacer una llamada a la API de Roblox usando el Place ID. Nuestro extractor hace esto automáticamente.</p>
+      </section>
+
+      <section class="seo">
+        <h2 class="seo__h2">Tipos de IDs en Roblox</h2>
+        <div class="types-grid">
+          <div class="type-card">
+            <span class="type-card__icon">🎮</span>
+            <strong>Place ID / Universe ID</strong>
+            <p>Identifican juegos y experiencias. Se extraen de URLs /games/.</p>
+          </div>
+          <div class="type-card">
+            <span class="type-card__icon">👤</span>
+            <strong>User ID</strong>
+            <p>Identifica a cada usuario. Se extrae de URLs /users/.</p>
+          </div>
+          <div class="type-card">
+            <span class="type-card__icon">🛍️</span>
+            <strong>Asset ID</strong>
+            <p>Identifica items del catálogo, audios, modelos, decals y más.</p>
+          </div>
+          <div class="type-card">
+            <span class="type-card__icon">👥</span>
+            <strong>Group ID</strong>
+            <p>Identifica grupos de Roblox. Se extrae de URLs /groups/.</p>
+          </div>
+          <div class="type-card">
+            <span class="type-card__icon">🎫</span>
+            <strong>Game Pass ID</strong>
+            <p>Identifica game passes. Se extrae de URLs /game-pass/.</p>
+          </div>
+          <div class="type-card">
+            <span class="type-card__icon">📦</span>
+            <strong>Bundle ID</strong>
+            <p>Identifica bundles del catálogo. Se extrae de URLs /bundles/.</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <Footer />
+  </div>
+</Layout>
+
+<script>
+  const TYPE_LABELS: Record<string, { icon: string; label: string }> = {
+    game: { icon: '🎮', label: 'Juego' },
+    user: { icon: '👤', label: 'Usuario' },
+    asset: { icon: '🛍️', label: 'Item / Asset' },
+    group: { icon: '👥', label: 'Grupo' },
+    gamepass: { icon: '🎫', label: 'Game Pass' },
+    bundle: { icon: '📦', label: 'Bundle' },
+    badge: { icon: '🏅', label: 'Badge' },
+  };
+
+  const ID_LABELS: Record<string, string> = {
+    placeId: 'Place ID',
+    universeId: 'Universe ID',
+    userId: 'User ID',
+    assetId: 'Asset ID',
+    groupId: 'Group ID',
+    gamePassId: 'Game Pass ID',
+    bundleId: 'Bundle ID',
+    badgeId: 'Badge ID',
+    creatorId: 'Creator ID',
+    creatorType: 'Creator Type',
+    ownerId: 'Owner ID',
+    targetId: 'Target ID',
+    iconImageAssetId: 'Icon Asset ID',
+    itemIds: 'Item IDs',
+  };
+
+  const input = document.getElementById('q') as HTMLInputElement;
+  const btn = document.getElementById('extract-btn')!;
+  const errEl = document.getElementById('error-msg')!;
+  const loader = document.getElementById('loader')!;
+  const result = document.getElementById('result')!;
+
+  function esc(s: string): string {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function fmtNum(n: number): string {
+    if (n >= 1_000_000_000) return (n / 1_000_000_000).toFixed(1).replace('.0', '') + 'B';
+    if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace('.0', '') + 'M';
+    if (n >= 1_000) return (n / 1_000).toFixed(1).replace('.0', '') + 'K';
+    return n.toLocaleString('es-ES');
+  }
+
+  function showErr(msg: string) {
+    errEl.textContent = msg;
+    errEl.style.display = 'block';
+    loader.style.display = 'none';
+    result.style.display = 'none';
+  }
+
+  // Example buttons
+  document.querySelectorAll<HTMLElement>('.example-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      input.value = b.dataset.url!;
+      extract();
+    });
+  });
+
+  // Copy delegation
+  result.addEventListener('click', e => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.copy-btn');
+    if (!btn) return;
+    navigator.clipboard.writeText(btn.dataset.val!).then(() => {
+      btn.textContent = '✓';
+      btn.classList.add('copy-btn--ok');
+      setTimeout(() => { btn.textContent = 'Copiar'; btn.classList.remove('copy-btn--ok'); }, 1500);
+    });
+  });
+
+  async function extract() {
+    const url = input.value.trim();
+    if (!url) { showErr('Pega un enlace de Roblox.'); return; }
+
+    errEl.style.display = 'none';
+    result.style.display = 'none';
+    loader.style.display = 'flex';
+    btn.setAttribute('disabled', '');
+
+    try {
+      const res = await fetch(`/api/roblox-ids?url=${encodeURIComponent(url)}`);
+      const data = await res.json();
+
+      if (!res.ok) { showErr(data.error || 'Error al extraer IDs.'); btn.removeAttribute('disabled'); return; }
+
+      const t = TYPE_LABELS[data.type] || { icon: '❓', label: data.type };
+
+      // Type badge
+      document.getElementById('r-type')!.innerHTML = `${t.icon} ${t.label}`;
+
+      // Header
+      const thumb = document.getElementById('r-thumb') as HTMLImageElement;
+      const headerEl = document.getElementById('r-header')!;
+      if (data.meta.thumbnail) {
+        thumb.src = data.meta.thumbnail;
+        thumb.alt = data.meta.name || '';
+        thumb.style.display = 'block';
+      } else {
+        thumb.style.display = 'none';
+      }
+
+      const nameEl = document.getElementById('r-name')!;
+      nameEl.textContent = data.meta.name || data.meta.displayName || '';
+      headerEl.style.display = (data.meta.name || data.meta.displayName) ? 'flex' : 'none';
+
+      const descEl = document.getElementById('r-desc')!;
+      const desc = data.meta.description || '';
+      descEl.textContent = desc.length > 200 ? desc.slice(0, 200) + '...' : desc;
+      descEl.style.display = desc ? 'block' : 'none';
+
+      // IDs table
+      const tbody = document.getElementById('ids-tbody')!;
+      let rows = '';
+      for (const [key, val] of Object.entries(data.ids)) {
+        if (!val) continue;
+        const label = ID_LABELS[key] || key;
+        rows += `<tr>
+          <td class="ids-table__label">${esc(label)}</td>
+          <td class="ids-table__val"><code>${esc(String(val))}</code></td>
+          <td class="ids-table__action"><button class="copy-btn" data-val="${esc(String(val))}">Copiar</button></td>
+        </tr>`;
+      }
+      tbody.innerHTML = rows;
+
+      // Meta stats
+      const metaGrid = document.getElementById('meta-grid')!;
+      let metaCards = '';
+      const m = data.meta;
+
+      if (data.type === 'game') {
+        if (m.playing != null) metaCards += statCard('🟢', 'Jugando', fmtNum(m.playing));
+        if (m.visits != null) metaCards += statCard('👁', 'Visitas', fmtNum(m.visits));
+        if (m.likes != null) metaCards += statCard('👍', 'Likes', fmtNum(m.likes));
+        if (m.maxPlayers) metaCards += statCard('👥', 'Max jugadores', String(m.maxPlayers));
+        if (m.genre) metaCards += statCard('🏷️', 'Género', m.genre);
+        if (m.creator) metaCards += statCard('🛠️', 'Creador', m.creator);
+      } else if (data.type === 'user') {
+        if (m.displayName && m.displayName !== m.name) metaCards += statCard('✨', 'Display Name', m.displayName);
+        if (m.created) metaCards += statCard('📅', 'Creada', fmtDateShort(m.created));
+        if (m.hasVerifiedBadge) metaCards += statCard('✅', 'Verificado', 'Sí');
+      } else if (data.type === 'asset') {
+        if (m.assetType) metaCards += statCard('📦', 'Tipo', m.assetType);
+        if (m.priceInRobux != null) metaCards += statCard('💰', 'Precio', m.priceInRobux === 0 ? 'Gratis' : `${fmtNum(m.priceInRobux)} R$`);
+        if (m.sales) metaCards += statCard('📊', 'Ventas', fmtNum(m.sales));
+        if (m.creator) metaCards += statCard('🛠️', 'Creador', m.creator);
+      } else if (data.type === 'group') {
+        if (m.memberCount) metaCards += statCard('👥', 'Miembros', fmtNum(m.memberCount));
+        if (m.owner) metaCards += statCard('👑', 'Dueño', m.owner);
+      } else if (data.type === 'gamepass') {
+        if (m.priceInRobux != null) metaCards += statCard('💰', 'Precio', m.priceInRobux === 0 ? 'Gratis' : `${fmtNum(m.priceInRobux)} R$`);
+      } else if (data.type === 'badge') {
+        if (m.gameName) metaCards += statCard('🎮', 'Juego', m.gameName);
+        if (m.awardedCount) metaCards += statCard('🏆', 'Obtenido', fmtNum(m.awardedCount) + ' veces');
+        if (m.winRatePercentage) metaCards += statCard('📊', 'Win Rate', m.winRatePercentage.toFixed(1) + '%');
+      }
+
+      metaGrid.innerHTML = metaCards;
+      metaGrid.style.display = metaCards ? 'grid' : 'none';
+
+      // CTA link
+      (document.getElementById('r-link') as HTMLAnchorElement).href = url;
+
+      loader.style.display = 'none';
+      result.style.display = 'block';
+      btn.removeAttribute('disabled');
+    } catch {
+      showErr('Error de conexión. Inténtalo de nuevo.');
+      btn.removeAttribute('disabled');
+    }
+  }
+
+  function statCard(icon: string, label: string, value: string): string {
+    return `<div class="meta-card"><span class="meta-card__icon">${icon}</span><span class="meta-card__label">${esc(label)}</span><span class="meta-card__val">${esc(value)}</span></div>`;
+  }
+
+  function fmtDateShort(iso: string): string {
+    const MONTHS = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    const d = new Date(iso);
+    return `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
+  }
+
+  btn.addEventListener('click', extract);
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') extract(); });
+</script>
+
+<style is:global>
+  .ids-page .main{padding:0 0 3rem}
+  .ids-page .page-wrap{width:100%;max-width:760px;margin:0 auto;padding:0 1rem}
+
+  .ids-page .breadcrumbs{font-size:.82rem;color:var(--text-dim);padding:1.25rem 0 0}
+  .ids-page .breadcrumbs a{color:var(--text-dim);text-decoration:none;transition:color .2s}
+  .ids-page .breadcrumbs a:hover{color:var(--accent)}
+  .ids-page .sep{margin:0 .35rem;opacity:.5}
+
+  .ids-page .page-title{font-family:var(--font-display);font-size:1.5rem;font-weight:700;line-height:1.25;text-align:center;margin:2rem 0 .75rem}
+  .ids-page .page-title__sub{font-size:1.05rem;color:var(--accent);font-weight:400}
+  @media(min-width:640px){.ids-page .page-title{font-size:2rem}.ids-page .page-title__sub{font-size:1.2rem}}
+
+  .ids-page .intro{text-align:center;color:var(--text-dim);font-size:.92rem;line-height:1.6;max-width:600px;margin:0 auto 2rem}
+
+  /* Search */
+  .ids-page .search-section{margin-bottom:1rem}
+  .ids-page .search-row{display:flex;gap:.5rem;max-width:600px;margin:0 auto}
+  .ids-page .search-input{flex:1;padding:.9rem 1rem;background:var(--bg-card);border:2px solid var(--border);border-radius:12px;color:var(--text);font-family:var(--font-body);font-size:.92rem;outline:none;transition:border-color .2s,box-shadow .2s}
+  .ids-page .search-input:focus{border-color:#06d6a0;box-shadow:0 0 0 4px rgba(6,214,160,.15),0 0 20px rgba(6,214,160,.1)}
+  .ids-page .search-input::placeholder{color:var(--text-dim);opacity:.6}
+  .ids-page .search-btn{font-family:var(--font-display);font-size:.9rem;font-weight:700;padding:.9rem 1.25rem;background:#06d6a0;color:#0a0e1a;border:none;border-radius:12px;cursor:pointer;transition:all .2s;white-space:nowrap}
+  .ids-page .search-btn:hover{background:#05c493;box-shadow:0 0 20px rgba(6,214,160,.3)}
+  .ids-page .search-btn:disabled{opacity:.5;cursor:not-allowed}
+  .ids-page .search-error{text-align:center;color:#ff6b6b;font-size:.85rem;margin-top:.75rem;display:none}
+
+  /* Examples */
+  .ids-page .examples{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;justify-content:center;margin-bottom:2rem}
+  .ids-page .examples__label{font-size:.75rem;color:var(--text-dim);margin-right:.25rem}
+  .ids-page .example-btn{font-family:var(--font-display);font-size:.65rem;font-weight:700;padding:.3rem .6rem;background:transparent;color:var(--text-dim);border:1px solid var(--border);border-radius:8px;cursor:pointer;transition:all .2s}
+  .ids-page .example-btn:hover{border-color:#06d6a0;color:#06d6a0}
+
+  /* Loader */
+  .ids-page .loader{display:none;flex-direction:column;align-items:center;gap:.75rem;padding:2.5rem 0;color:var(--text-dim);font-size:.9rem}
+  .ids-page .spinner{width:36px;height:36px;border:3px solid var(--border);border-top-color:#06d6a0;border-radius:50%;animation:idsSpin .8s linear infinite}
+  @keyframes idsSpin{to{transform:rotate(360deg)}}
+
+  /* Result */
+  .ids-page .result{display:none;background:#111827;border:1px solid var(--border);border-radius:16px;padding:1.5rem;margin-bottom:2.5rem;animation:idsFadeIn .3s ease}
+  @keyframes idsFadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+  /* Type badge */
+  .ids-page .result__type-row{margin-bottom:1rem}
+  .ids-page .type-badge{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--font-display);font-size:.8rem;font-weight:700;padding:.35rem .85rem;background:rgba(6,214,160,.12);color:#06d6a0;border:1px solid rgba(6,214,160,.25);border-radius:9999px}
+
+  /* Header */
+  .ids-page .result__header{display:flex;align-items:flex-start;gap:1rem;margin-bottom:1.25rem}
+  @media(max-width:480px){.ids-page .result__header{flex-direction:column;align-items:center;text-align:center}}
+  .ids-page .result__thumb{width:80px;height:80px;border-radius:10px;object-fit:cover;flex-shrink:0;background:#1a2236;border:1px solid var(--border)}
+  .ids-page .result__info{flex:1;min-width:0}
+  .ids-page .result__name{display:block;font-family:var(--font-display);font-size:1.15rem;font-weight:700;line-height:1.25;margin-bottom:.3rem}
+  .ids-page .result__desc{font-size:.8rem;color:var(--text-dim);line-height:1.5;margin:0}
+
+  /* IDs table */
+  .ids-page .ids-table-wrap{margin-bottom:1.25rem}
+  .ids-page .section-title{font-family:var(--font-display);font-size:.85rem;font-weight:700;margin-bottom:.6rem;padding-left:.6rem;border-left:3px solid #06d6a0}
+  .ids-page .ids-table{width:100%;border-collapse:collapse}
+  .ids-page .ids-table th{font-family:var(--font-display);font-size:.68rem;font-weight:700;color:var(--text-dim);text-align:left;padding:.45rem .5rem;border-bottom:1px solid var(--border)}
+  .ids-page .ids-table td{padding:.5rem;border-bottom:1px solid rgba(255,255,255,.04);font-size:.82rem}
+  .ids-page .ids-table__label{font-family:var(--font-display);font-weight:700;font-size:.75rem;color:var(--text-dim);white-space:nowrap;width:120px}
+  .ids-page .ids-table__val code{font-family:var(--font-display);font-size:.8rem;font-weight:700;color:#06d6a0;word-break:break-all}
+  .ids-page .ids-table__action{width:60px;text-align:right}
+  .ids-page .copy-btn{font-family:var(--font-display);font-size:.62rem;font-weight:700;padding:.2rem .5rem;background:transparent;color:var(--accent);border:1.5px solid var(--accent);border-radius:6px;cursor:pointer;transition:all .2s}
+  .ids-page .copy-btn:hover,.ids-page .copy-btn--ok{background:#06d6a0;color:#0a0e1a;border-color:#06d6a0}
+
+  /* Meta stats */
+  .ids-page .meta-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.5rem;margin-bottom:1.25rem}
+  @media(min-width:480px){.ids-page .meta-grid{grid-template-columns:repeat(3,1fr)}}
+  .ids-page .meta-card{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:10px;padding:.65rem;text-align:center}
+  .ids-page .meta-card__icon{display:block;font-size:1.1rem;margin-bottom:.2rem}
+  .ids-page .meta-card__label{display:block;font-size:.62rem;color:var(--text-dim);margin-bottom:.15rem}
+  .ids-page .meta-card__val{display:block;font-family:var(--font-display);font-size:.82rem;font-weight:700;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+  /* CTA */
+  .ids-page .result__cta{display:block;width:100%;text-align:center;font-family:var(--font-display);font-size:.95rem;font-weight:700;padding:.85rem;background:#06d6a0;color:#0a0e1a;border-radius:10px;text-decoration:none;transition:all .2s}
+  .ids-page .result__cta:hover{background:#05c493;box-shadow:0 0 20px rgba(6,214,160,.3)}
+
+  /* SEO */
+  .ids-page .seo{margin-bottom:2rem}
+  .ids-page .seo__h2{font-family:var(--font-display);font-size:1.1rem;font-weight:700;margin-bottom:.75rem;padding-left:.85rem;border-left:3px solid #06d6a0}
+  .ids-page .seo p{color:var(--text-dim);font-size:.92rem;line-height:1.7;margin-bottom:.75rem}
+  .ids-page .seo strong{color:var(--text)}
+
+  /* Info box */
+  .ids-page .info-box{display:flex;flex-direction:column;gap:.65rem;margin:.75rem 0}
+  .ids-page .info-box__item{background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:.85rem}
+  .ids-page .info-box__item strong{display:block;font-size:.9rem;color:#06d6a0;font-family:var(--font-display);margin-bottom:.3rem}
+  .ids-page .info-box__item p{font-size:.85rem;color:var(--text-dim);line-height:1.6;margin:0}
+
+  /* Types grid */
+  .ids-page .types-grid{display:grid;grid-template-columns:1fr;gap:.65rem;margin-top:.75rem}
+  @media(min-width:480px){.ids-page .types-grid{grid-template-columns:1fr 1fr}}
+  @media(min-width:640px){.ids-page .types-grid{grid-template-columns:1fr 1fr 1fr}}
+  .ids-page .type-card{background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:.85rem;text-align:center}
+  .ids-page .type-card__icon{display:block;font-size:1.5rem;margin-bottom:.35rem}
+  .ids-page .type-card strong{display:block;font-size:.82rem;color:var(--text);margin-bottom:.25rem}
+  .ids-page .type-card p{font-size:.75rem;color:var(--text-dim);line-height:1.45;margin:0}
+</style>
