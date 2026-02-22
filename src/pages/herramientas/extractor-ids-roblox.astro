@@ -377,7 +377,7 @@ const examples = [
   /* Search */
   .ids-page .search-section{margin-bottom:1rem}
   .ids-page .search-row{display:flex;gap:.5rem;max-width:600px;margin:0 auto}
-  .ids-page .search-input{flex:1;padding:.9rem 1rem;background:var(--bg-card);border:2px solid var(--border);border-radius:12px;color:var(--text);font-family:var(--font-body);font-size:.92rem;outline:none;transition:border-color .2s,box-shadow .2s}
+  .ids-page .search-input{flex:1;padding:.9rem 1rem;background:var(--bg-card);border:2px solid var(--border);border-radius:12px;color:var(--text);font-family:var(--font-body);font-size:1rem;outline:none;transition:border-color .2s,box-shadow .2s}
   .ids-page .search-input:focus{border-color:#06d6a0;box-shadow:0 0 0 4px rgba(6,214,160,.15),0 0 20px rgba(6,214,160,.1)}
   .ids-page .search-input::placeholder{color:var(--text-dim);opacity:.6}
   .ids-page .search-btn{font-family:var(--font-display);font-size:.9rem;font-weight:700;padding:.9rem 1.25rem;background:#06d6a0;color:#0a0e1a;border:none;border-radius:12px;cursor:pointer;transition:all .2s;white-space:nowrap}
@@ -388,7 +388,7 @@ const examples = [
   /* Examples */
   .ids-page .examples{display:flex;flex-wrap:wrap;align-items:center;gap:.4rem;justify-content:center;margin-bottom:2rem}
   .ids-page .examples__label{font-size:.75rem;color:var(--text-dim);margin-right:.25rem}
-  .ids-page .example-btn{font-family:var(--font-display);font-size:.65rem;font-weight:700;padding:.3rem .6rem;background:transparent;color:var(--text-dim);border:1px solid var(--border);border-radius:8px;cursor:pointer;transition:all .2s}
+  .ids-page .example-btn{font-family:var(--font-display);font-size:.75rem;font-weight:700;padding:.4rem .75rem;background:transparent;color:var(--text-dim);border:1px solid var(--border);border-radius:8px;cursor:pointer;transition:all .2s;min-height:36px}
   .ids-page .example-btn:hover{border-color:#06d6a0;color:#06d6a0}
 
   /* Loader */
@@ -456,4 +456,11 @@ const examples = [
   .ids-page .type-card__icon{display:block;font-size:1.5rem;margin-bottom:.35rem}
   .ids-page .type-card strong{display:block;font-size:.82rem;color:var(--text);margin-bottom:.25rem}
   .ids-page .type-card p{font-size:.75rem;color:var(--text-dim);line-height:1.45;margin:0}
+
+  @media(max-width:480px){
+    .ids-page .search-row{flex-direction:column}
+    .ids-page .search-btn{width:100%;padding:.85rem;min-height:44px}
+    .ids-page .result{padding:1rem}
+    .ids-page .result__header{flex-direction:column;align-items:flex-start}
+  }
 </style>

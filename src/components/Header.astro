@@ -445,12 +445,12 @@ const isHerramientas = path.startsWith('/herramientas');
     flex-direction: column;
     justify-content: center;
     gap: 5px;
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     background: none;
     border: none;
     cursor: pointer;
-    padding: 6px;
+    padding: 10px;
     margin-left: auto;
   }
 
@@ -478,6 +478,18 @@ const isHerramientas = path.startsWith('/herramientas');
 
   .hdr__burger.hdr__burger--open .hdr__burger-line:nth-child(3) {
     transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* Mobile touch target fixes */
+  @media (max-width: 768px) {
+    .mob__link {
+      min-height: 44px;
+      padding: 0.75rem 0.5rem;
+    }
+    .mob__sub-link {
+      min-height: 44px;
+      padding: 0.65rem 1rem;
+    }
   }
 
   /* ============================================================
