@@ -11,6 +11,8 @@ interface GameData {
   lastUpdated: string;
   activeCodes: { code: string; reward: string }[];
   expiredCodes: { code: string; reward: string }[];
+  totalVisits?: number;
+  genre?: string;
 }
 
 const gameModules = import.meta.glob<GameData>('../../data/games/*.json', {
@@ -18,24 +20,111 @@ const gameModules = import.meta.glob<GameData>('../../data/games/*.json', {
   import: 'default',
 });
 
-const games = Object.values(gameModules).sort(
-  (a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime()
-);
+const allGames = Object.values(gameModules);
+
+// Stats
+const totalGames = allGames.length;
+const totalCodes = allGames.reduce((sum, g) => sum + g.activeCodes.length, 0);
+
+// Recent 8
+const recentGames = [...allGames]
+  .sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime())
+  .slice(0, 8);
+
+// Popular 8
+const popularGames = [...allGames]
+  .filter((g) => g.totalVisits && g.totalVisits > 0)
+  .sort((a, b) => (b.totalVisits || 0) - (a.totalVisits || 0))
+  .slice(0, 8);
+
+// All games sorted by lastUpdated for the full grid
+const sortedGames = [...allGames]
+  .sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime());
+
+// Categories
+const categories = ['Fighting', 'Simulator', 'Tycoon', 'RPG', 'Racing', 'Tower Defense', 'Adventure', 'Sports'];
+
+// Games by category (for JS hydration)
+const gamesByCategory: Record<string, { name: string; slug: string; thumbnail: string; activeCodes: number; lastUpdated: string }[]> = {};
+for (const cat of categories) {
+  gamesByCategory[cat] = allGames
+    .filter((g) => g.genre && g.genre.toLowerCase().includes(cat.toLowerCase()))
+    .map((g) => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length, lastUpdated: g.lastUpdated }));
+}
+
+// Search data for JS
+const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length }));
 ---
 
 <Layout title="Códigos Gratis para Roblox — Actualizados hoy">
   <Header />
 
   <main class="main">
-    <div class="container">
-      <section class="hero">
-        <h1 class="hero__title">Juegos populares</h1>
-        <p class="hero__sub">Códigos actualizados para tus juegos favoritos de Roblox</p>
-      </section>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <h1 class="hero__title">Códigos Gratis para Roblox y Más</h1>
+        <p class="hero__sub">Encuentra códigos actualizados para tus juegos favoritos</p>
+        <div class="search-wrap">
+          <div class="search">
+            <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
+            </svg>
+            <input
+              type="text"
+              id="hero-search"
+              class="search__input"
+              placeholder="Busca tu juego... (ej: Blox Fruits, Jailbreak)"
+              autocomplete="off"
+            />
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      </div>
+    </section>
 
-      {games.length > 0 ? (
+    <!-- Stats -->
+    <div class="container">
+      <div class="stats">
+        <div class="stats__item">
+          <span class="stats__value">{totalGames}</span>
+          <span class="stats__label">Juegos</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__value">{totalCodes}</span>
+          <span class="stats__label">Códigos activos</span>
+        </div>
+        <div class="stats__item">
+          <svg class="stats__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48 2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48 2.83-2.83" />
+          </svg>
+          <span class="stats__label">Actualizado hoy</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Actualizados recientemente -->
+    <section class="section container">
+      <h2 class="section__title">Actualizados recientemente</h2>
+      <div class="games-grid">
+        {recentGames.map((game) => (
+          <GameCard
+            name={game.name}
+            slug={game.slug}
+            image={game.thumbnail}
+            activeCodes={game.activeCodes.length}
+            lastUpdated={game.lastUpdated}
+          />
+        ))}
+      </div>
+    </section>
+
+    <!-- Juegos más populares -->
+    {popularGames.length > 0 && (
+      <section class="section container">
+        <h2 class="section__title">Juegos más populares</h2>
         <div class="games-grid">
-          {games.map((game) => (
+          {popularGames.map((game) => (
             <GameCard
               name={game.name}
               slug={game.slug}
@@ -45,63 +134,646 @@ const games = Object.values(gameModules).sort(
             />
           ))}
         </div>
-      ) : (
-        <p class="empty">Próximamente se añadirán juegos.</p>
+      </section>
+    )}
+
+    <!-- Buscar por categoría -->
+    <section class="section container">
+      <h2 class="section__title">Buscar por categoría</h2>
+      <div class="categories" id="categories">
+        {categories.map((cat) => (
+          <button class="cat-pill" data-category={cat}>{cat}</button>
+        ))}
+      </div>
+      <div id="category-grid" class="games-grid category-grid" style="display:none;"></div>
+    </section>
+
+    <!-- Todos los juegos -->
+    <section class="section container">
+      <h2 class="section__title">Todos los juegos</h2>
+      <div class="games-grid" id="all-games-grid">
+        {sortedGames.slice(0, 20).map((game) => (
+          <GameCard
+            name={game.name}
+            slug={game.slug}
+            image={game.thumbnail}
+            activeCodes={game.activeCodes.length}
+            lastUpdated={game.lastUpdated}
+          />
+        ))}
+      </div>
+      {sortedGames.length > 20 && (
+        <div class="load-more-wrap">
+          <button id="load-more" class="load-more-btn">Cargar más juegos</button>
+        </div>
       )}
-    </div>
+    </section>
   </main>
 
   <Footer />
 </Layout>
 
-<style>
-  .main {
-    padding: 2rem 0 3rem;
+<script define:vars={{ searchData, gamesByCategory, sortedGamesData: sortedGames.map(g => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length, lastUpdated: g.lastUpdated })) }}>
+  // ---- Search ----
+  const searchInput = document.getElementById('hero-search');
+  const searchResults = document.getElementById('search-results');
+
+  function getValidThumb(thumb) {
+    return thumb && thumb.startsWith('https://tr.rbxcdn.com') ? thumb : null;
   }
 
+  searchInput.addEventListener('input', () => {
+    const q = searchInput.value.trim().toLowerCase();
+    if (q.length < 2) {
+      searchResults.style.display = 'none';
+      searchResults.innerHTML = '';
+      return;
+    }
+
+    const matches = searchData
+      .filter(g => g.name.toLowerCase().includes(q))
+      .slice(0, 6);
+
+    if (matches.length === 0) {
+      searchResults.style.display = 'block';
+      searchResults.innerHTML = '<div class="sr-empty">No se encontraron juegos</div>';
+      return;
+    }
+
+    searchResults.style.display = 'block';
+    searchResults.innerHTML = matches.map(g => {
+      const thumb = getValidThumb(g.thumbnail);
+      const imgHtml = thumb
+        ? `<img src="${thumb}" alt="" class="sr-item__img" />`
+        : `<div class="sr-item__placeholder"></div>`;
+      return `<a href="/${g.slug}/" class="sr-item">${imgHtml}<div class="sr-item__info"><span class="sr-item__name">${g.name}</span><span class="sr-item__codes">${g.activeCodes} códigos</span></div></a>`;
+    }).join('');
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.search-wrap')) {
+      searchResults.style.display = 'none';
+    }
+  });
+
+  // ---- Categories ----
+  const catButtons = document.querySelectorAll('.cat-pill');
+  const categoryGrid = document.getElementById('category-grid');
+  let activeCategory = null;
+
+  function createCardHTML(g) {
+    const thumb = getValidThumb(g.thumbnail);
+    const date = new Date(g.lastUpdated).toLocaleDateString('es-ES', { day: 'numeric', month: 'short' });
+    const imgHtml = thumb
+      ? `<img src="${thumb}" alt="${g.name}" class="card__img" loading="lazy" />`
+      : `<div class="card__placeholder"><span class="card__placeholder-text">${g.name}</span></div>`;
+    return `<a href="/${g.slug}/" class="card"><div class="card__img-wrap">${imgHtml}</div><div class="card__body"><h2 class="card__name">${g.name}</h2><div class="card__meta"><span class="card__badge">${g.activeCodes} códigos</span><span class="card__date">Actualizado ${date}</span></div></div></a>`;
+  }
+
+  catButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cat = btn.dataset.category;
+
+      if (activeCategory === cat) {
+        btn.classList.remove('cat-pill--active');
+        categoryGrid.style.display = 'none';
+        categoryGrid.innerHTML = '';
+        activeCategory = null;
+        return;
+      }
+
+      catButtons.forEach(b => b.classList.remove('cat-pill--active'));
+      btn.classList.add('cat-pill--active');
+      activeCategory = cat;
+
+      const games = gamesByCategory[cat] || [];
+      if (games.length === 0) {
+        categoryGrid.style.display = 'block';
+        categoryGrid.innerHTML = '<p class="empty-cat">No hay juegos en esta categoría</p>';
+        return;
+      }
+
+      categoryGrid.style.display = 'grid';
+      categoryGrid.innerHTML = games.map(createCardHTML).join('');
+    });
+  });
+
+  // ---- Load More ----
+  const allGamesGrid = document.getElementById('all-games-grid');
+  const loadMoreBtn = document.getElementById('load-more');
+  let shown = 20;
+  const BATCH = 20;
+
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+      const next = sortedGamesData.slice(shown, shown + BATCH);
+      next.forEach(g => {
+        allGamesGrid.insertAdjacentHTML('beforeend', createCardHTML(g));
+      });
+      shown += next.length;
+      if (shown >= sortedGamesData.length) {
+        loadMoreBtn.style.display = 'none';
+      }
+    });
+  }
+</script>
+
+<style>
+  /* ---- Main ---- */
+  .main {
+    padding-bottom: 3rem;
+  }
+
+  /* ---- Hero ---- */
   .hero {
-    margin-bottom: 2rem;
+    padding: 3rem 0 2rem;
+    text-align: center;
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   .hero__title {
     font-family: var(--font-display);
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 700;
+    line-height: 1.15;
   }
 
   .hero__sub {
     color: var(--text-dim);
-    margin-top: 0.35rem;
-    font-size: 0.95rem;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
   }
 
+  @media (min-width: 640px) {
+    .hero {
+      padding: 4rem 0 2.5rem;
+    }
+    .hero__title {
+      font-size: 2.75rem;
+    }
+    .hero__sub {
+      font-size: 1.1rem;
+    }
+  }
+
+  /* ---- Search ---- */
+  .search-wrap {
+    width: 100%;
+    max-width: 560px;
+    position: relative;
+  }
+
+  .search {
+    position: relative;
+  }
+
+  .search__icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.25rem;
+    height: 1.25rem;
+    color: var(--text-dim);
+    pointer-events: none;
+  }
+
+  .search__input {
+    width: 100%;
+    padding: 0.95rem 1rem 0.95rem 3rem;
+    background: var(--bg-card);
+    border: 2px solid var(--border);
+    border-radius: 14px;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .search__input::placeholder {
+    color: var(--text-dim);
+    opacity: 0.6;
+  }
+
+  .search__input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
+  }
+
+  /* ---- Search results dropdown ---- */
+  .search-results {
+    display: none;
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 50;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  }
+
+  /* ---- Stats ---- */
+  .stats {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 2.5rem;
+    justify-content: center;
+  }
+
+  .stats__item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 9999px;
+    padding: 0.5rem 1rem;
+  }
+
+  .stats__value {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .stats__label {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+
+  .stats__icon {
+    width: 1rem;
+    height: 1rem;
+    color: var(--accent);
+  }
+
+  @media (max-width: 480px) {
+    .stats {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .stats__item {
+      padding: 0.4rem 0.75rem;
+    }
+    .stats__label {
+      font-size: 0.72rem;
+    }
+  }
+
+  /* ---- Sections ---- */
+  .section {
+    margin-bottom: 3rem;
+  }
+
+  .section__title {
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+  }
+
+  /* ---- Games Grid ---- */
   .games-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 640px) {
     .games-grid {
       grid-template-columns: repeat(3, 1fr);
-      gap: 1.25rem;
-    }
-
-    .hero__title {
-      font-size: 2rem;
     }
   }
 
   @media (min-width: 1024px) {
     .games-grid {
       grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
     }
   }
 
-  .empty {
-    color: var(--text-dim);
+  /* ---- Categories ---- */
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  /* ---- Load More ---- */
+  .load-more-wrap {
     text-align: center;
-    padding: 4rem 0;
+    margin-top: 2rem;
+  }
+
+  .load-more-btn {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    background: transparent;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .load-more-btn:hover {
+    background: var(--accent);
+    color: var(--bg-deep);
+  }
+</style>
+
+<style is:global>
+  /* Search result items */
+  .sr-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+    color: var(--text);
+    transition: background 0.15s;
+  }
+
+  .sr-item:hover {
+    background: rgba(6, 214, 160, 0.08);
+  }
+
+  .sr-item:not(:last-child) {
+    border-bottom: 1px solid var(--border);
+  }
+
+  .sr-item__img {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .sr-item__placeholder {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #1a2236 0%, #0f3460 100%);
+    flex-shrink: 0;
+  }
+
+  .sr-item__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    min-width: 0;
+  }
+
+  .sr-item__name {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .sr-item__codes {
+    font-size: 0.75rem;
+    color: var(--accent);
+  }
+
+  .sr-empty {
+    padding: 1rem;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 0.85rem;
+  }
+
+  /* Category pills */
+  .cat-pill {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.45rem 1rem;
+    background: var(--bg-card);
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .cat-pill:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .cat-pill--active {
+    background: rgba(6, 214, 160, 0.1);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* Category grid cards (generated by JS) */
+  .category-grid .card {
+    display: block;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  }
+
+  .category-grid .card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 0 24px rgba(6, 214, 160, 0.12);
+    transform: translateY(-2px);
+  }
+
+  .category-grid .card__img-wrap {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--bg-deep);
+  }
+
+  .category-grid .card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+
+  .category-grid .card:hover .card__img {
+    transform: scale(1.05);
+  }
+
+  .category-grid .card__placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1a2236 0%, #0f3460 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .category-grid .card__placeholder-text {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+    opacity: 0.9;
+  }
+
+  .category-grid .card__body {
+    padding: 0.875rem 1rem;
+  }
+
+  .category-grid .card__name {
+    font-family: var(--font-display);
     font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    line-height: 1.3;
+  }
+
+  .category-grid .card__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .category-grid .card__badge {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: rgba(6, 214, 160, 0.1);
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+  }
+
+  .category-grid .card__date {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+  }
+
+  .empty-cat {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--text-dim);
+    padding: 2rem 0;
+    font-size: 0.9rem;
+  }
+
+  /* Load-more cards (same style as category) */
+  #all-games-grid .card {
+    display: block;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  }
+
+  #all-games-grid .card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 0 24px rgba(6, 214, 160, 0.12);
+    transform: translateY(-2px);
+  }
+
+  #all-games-grid .card__img-wrap {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--bg-deep);
+  }
+
+  #all-games-grid .card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+
+  #all-games-grid .card:hover .card__img {
+    transform: scale(1.05);
+  }
+
+  #all-games-grid .card__placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #1a2236 0%, #0f3460 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  #all-games-grid .card__placeholder-text {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+    opacity: 0.9;
+  }
+
+  #all-games-grid .card__body {
+    padding: 0.875rem 1rem;
+  }
+
+  #all-games-grid .card__name {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    line-height: 1.3;
+  }
+
+  #all-games-grid .card__meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  #all-games-grid .card__badge {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: rgba(6, 214, 160, 0.1);
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+  }
+
+  #all-games-grid .card__date {
+    font-size: 0.75rem;
+    color: var(--text-dim);
   }
 </style>
