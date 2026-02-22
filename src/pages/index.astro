@@ -193,6 +193,22 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
       <div id="category-grid" class="games-grid category-grid" style="display:none;"></div>
     </section>
 
+    <!-- Herramientas -->
+    <section class="section container">
+      <div class="section__header">
+        <h2 class="section__title">Herramientas</h2>
+      </div>
+      <div class="tools-grid">
+        <a href="/herramientas/calculadora-robux/" class="tool-card">
+          <span class="tool-card__icon">🧮</span>
+          <div class="tool-card__info">
+            <span class="tool-card__name">Calculadora de Robux</span>
+            <span class="tool-card__desc">Calcula cuánto cuestan los Robux en tu moneda</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
     <!-- Todos los juegos -->
     <section class="section container">
       <div class="section__header">
@@ -770,6 +786,61 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-bottom: 1.25rem;
+  }
+
+  /* ---- Tools ---- */
+  .tools-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  @media (min-width: 640px) {
+    .tools-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .tool-card {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    padding: 1rem 1.15rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--text);
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  }
+
+  .tool-card:hover {
+    border-color: #06d6a0;
+    box-shadow: 0 4px 20px rgba(6, 214, 160, 0.15);
+    transform: translateY(-2px);
+  }
+
+  .tool-card__icon {
+    font-size: 1.75rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .tool-card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .tool-card__name {
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+
+  .tool-card__desc {
+    font-size: 0.78rem;
+    color: var(--text-dim);
   }
 
   /* ---- Load More ---- */

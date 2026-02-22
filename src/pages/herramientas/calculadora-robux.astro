@@ -1,0 +1,631 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'Calculadora de Robux a Euros, Dólares y Pesos (2026) - ¿Cuánto cuestan los Robux?';
+const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos mexicanos, colombianos y más. Tabla de precios actualizada con y sin Premium.';
+---
+
+<Layout title={title} description={description}>
+  <Header />
+
+  <main class="main">
+    <div class="page-wrap">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a> <span class="breadcrumbs__sep">›</span>
+        <span>Herramientas</span> <span class="breadcrumbs__sep">›</span>
+        <span>Calculadora Robux</span>
+      </nav>
+
+      <h1 class="page-title">Calculadora de Robux a Euros, Dólares y Más (2026)</h1>
+
+      <p class="intro">
+        Usa nuestra calculadora para saber cuánto cuestan los Robux en tu moneda local. Selecciona tu moneda, indica la cantidad de Robux que necesitas y obtén el precio al instante. Incluye precios con y sin Roblox Premium.
+      </p>
+
+      <!-- Currency selector -->
+      <div class="currency-section">
+        <span class="currency-label">Selecciona tu moneda:</span>
+        <div class="currency-pills" id="currency-pills">
+          <button class="cpill cpill--active" data-cur="EUR">EUR €</button>
+          <button class="cpill" data-cur="USD">USD $</button>
+          <button class="cpill" data-cur="MXN">MXN $</button>
+          <button class="cpill" data-cur="COP">COP $</button>
+          <button class="cpill" data-cur="ARS">ARS $</button>
+          <button class="cpill" data-cur="CLP">CLP $</button>
+          <button class="cpill" data-cur="PEN">PEN S/</button>
+          <button class="cpill" data-cur="BRL">BRL R$</button>
+        </div>
+      </div>
+
+      <!-- Premium toggle -->
+      <div class="toggle-row">
+        <label class="toggle">
+          <input type="checkbox" id="premium-toggle" />
+          <span class="toggle__slider"></span>
+          <span class="toggle__text">Roblox Premium</span>
+        </label>
+        <span class="toggle-hint">+10% Robux por el mismo precio</span>
+      </div>
+
+      <!-- Calculator -->
+      <div class="calc-box">
+        <label class="calc-label" for="robux-input">¿Cuántos Robux quieres?</label>
+        <input type="number" id="robux-input" class="calc-input" placeholder="Ej: 1000" min="0" />
+        <div class="calc-result" id="calc-result">Escribe una cantidad para ver el precio</div>
+      </div>
+
+      <!-- Price table -->
+      <section class="section">
+        <h2 class="section__title">Tabla de precios de Robux</h2>
+        <div class="table-wrap">
+          <table class="price-table" id="price-table">
+            <thead>
+              <tr>
+                <th>Robux</th>
+                <th>Precio</th>
+                <th>Por Robux</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="price-tbody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- SEO content -->
+      <section class="section">
+        <h2 class="section__title">¿Qué son los Robux?</h2>
+        <p class="section__text">Los Robux son la moneda virtual de Roblox, la plataforma de juegos más grande del mundo con millones de jugadores activos. Con Robux puedes comprar accesorios para tu avatar, game passes que desbloquean ventajas especiales, artículos exclusivos del catálogo y acceso a experiencias premium dentro de los juegos. Los Robux solo se pueden obtener comprándolos con dinero real o a través de la suscripción Roblox Premium.</p>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">¿Cómo comprar Robux?</h2>
+        <div class="steps-box">
+          <ol class="steps">
+            <li>Inicia sesión en tu cuenta de Roblox desde la web o la app</li>
+            <li>Haz clic en el icono de Robux en la esquina superior derecha</li>
+            <li>Selecciona el paquete de Robux que quieras comprar</li>
+            <li>Elige tu método de pago (tarjeta, PayPal, tarjeta regalo, etc.)</li>
+            <li>Confirma la compra y los Robux aparecerán en tu cuenta al instante</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">¿Merece la pena Roblox Premium?</h2>
+        <p class="section__text">Roblox Premium es la suscripción mensual de Roblox que te da un <strong>10% más de Robux</strong> en cada compra, además de una asignación mensual de Robux y acceso a artículos exclusivos del catálogo. Si compras Robux con frecuencia, Premium se amortiza rápidamente. Por ejemplo, al comprar el paquete de 4,500 Robux con Premium recibes 4,950 Robux (450 extra gratis). También puedes vender artículos en el Marketplace y intercambiar items limitados.</p>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">¿Cuánto cuestan los Robux en pesos mexicanos?</h2>
+        <div class="table-wrap">
+          <table class="mini-table" id="table-mxn">
+            <thead><tr><th>Robux</th><th>Precio (MXN)</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="section__text">En México puedes comprar Robux con tarjeta de crédito/débito, PayPal o tarjetas de regalo de Roblox que se venden en tiendas OXXO, 7-Eleven, Walmart y Amazon México. Las tarjetas regalo son la opción más popular para menores de edad ya que no requieren tarjeta bancaria.</p>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">¿Cuánto cuestan los Robux en pesos colombianos?</h2>
+        <div class="table-wrap">
+          <table class="mini-table" id="table-cop">
+            <thead><tr><th>Robux</th><th>Precio (COP)</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="section__text">En Colombia puedes comprar Robux con tarjetas de crédito/débito Visa y Mastercard, PSE (pagos seguros en línea), Nequi, Daviplata y tarjetas de regalo de Roblox disponibles en Éxito, Falabella y tiendas online. También puedes usar saldo de Google Play o Apple si juegas desde el móvil.</p>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">¿Cuánto cuestan los Robux en euros?</h2>
+        <div class="table-wrap">
+          <table class="mini-table" id="table-eur">
+            <thead><tr><th>Robux</th><th>Precio (EUR)</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="section__text">En España y el resto de Europa puedes comprar Robux directamente desde la web de Roblox con tarjeta de crédito/débito, PayPal o tarjetas de regalo que se venden en GAME, MediaMarkt, Amazon y El Corte Inglés. Los precios en euros ya incluyen IVA.</p>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">¿Cuánto cuestan los Robux en pesos argentinos?</h2>
+        <div class="table-wrap">
+          <table class="mini-table" id="table-ars">
+            <thead><tr><th>Robux</th><th>Precio (ARS)</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <p class="section__text">En Argentina puedes comprar Robux con tarjeta de crédito/débito (ten en cuenta el impuesto PAIS y la percepción de Ganancias que pueden sumar hasta un 60% al precio), Mercado Pago, Rapipago, Pago Fácil y tarjetas de regalo de Roblox. La opción más económica suele ser comprar tarjetas de regalo en tiendas autorizadas.</p>
+      </section>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script>
+  const PACKS_NORMAL = [
+    { robux: 400, usd: 4.99 },
+    { robux: 800, usd: 9.99 },
+    { robux: 1700, usd: 19.99 },
+    { robux: 4500, usd: 49.99 },
+    { robux: 10000, usd: 99.99 },
+  ];
+  const PACKS_PREMIUM = [
+    { robux: 440, usd: 4.99 },
+    { robux: 880, usd: 9.99 },
+    { robux: 1870, usd: 19.99 },
+    { robux: 4950, usd: 49.99 },
+    { robux: 11000, usd: 99.99 },
+  ];
+
+  const RATES: Record<string, { rate: number; symbol: string; decimals: number }> = {
+    USD: { rate: 1, symbol: '$', decimals: 2 },
+    EUR: { rate: 0.92, symbol: '€', decimals: 2 },
+    MXN: { rate: 17.20, symbol: '$', decimals: 0 },
+    COP: { rate: 4150, symbol: '$', decimals: 0 },
+    ARS: { rate: 1050, symbol: '$', decimals: 0 },
+    CLP: { rate: 950, symbol: '$', decimals: 0 },
+    PEN: { rate: 3.75, symbol: 'S/', decimals: 2 },
+    BRL: { rate: 5.80, symbol: 'R$', decimals: 2 },
+  };
+
+  let currency = 'EUR';
+  let premium = false;
+
+  const pills = document.querySelectorAll<HTMLButtonElement>('.cpill');
+  const premiumToggle = document.getElementById('premium-toggle') as HTMLInputElement;
+  const robuxInput = document.getElementById('robux-input') as HTMLInputElement;
+  const calcResult = document.getElementById('calc-result')!;
+  const priceTbody = document.getElementById('price-tbody')!;
+
+  function fmt(val: number, cur: string): string {
+    const { symbol, decimals } = RATES[cur];
+    const formatted = decimals === 0
+      ? Math.round(val).toLocaleString('es-ES')
+      : val.toFixed(decimals).replace('.', ',');
+    return `${symbol}${formatted}`;
+  }
+
+  function convert(usd: number): number {
+    return usd * RATES[currency].rate;
+  }
+
+  function getPacks() {
+    return premium ? PACKS_PREMIUM : PACKS_NORMAL;
+  }
+
+  function updateCalc() {
+    const val = parseInt(robuxInput.value);
+    if (!val || val <= 0) {
+      calcResult.textContent = 'Escribe una cantidad para ver el precio';
+      calcResult.classList.remove('calc-result--active');
+      return;
+    }
+    const packs = getPacks();
+    const bestPack = packs[packs.length - 1];
+    const pricePerRobux = bestPack.usd / bestPack.robux;
+    const totalUsd = val * pricePerRobux;
+    const totalLocal = convert(totalUsd);
+    calcResult.innerHTML = `<strong>${val.toLocaleString('es-ES')} Robux</strong> ≈ <strong>${fmt(totalLocal, currency)}</strong> <span class="calc-note">(al mejor precio por Robux)</span>`;
+    calcResult.classList.add('calc-result--active');
+  }
+
+  function updateTable() {
+    const packs = getPacks();
+    // Find best value (lowest price per robux)
+    let bestIdx = 0;
+    let bestRatio = Infinity;
+    packs.forEach((p, i) => {
+      const ratio = p.usd / p.robux;
+      if (ratio < bestRatio) { bestRatio = ratio; bestIdx = i; }
+    });
+
+    priceTbody.innerHTML = packs.map((p, i) => {
+      const local = convert(p.usd);
+      const perRobux = convert(p.usd / p.robux);
+      const isBest = i === bestIdx;
+      return `<tr class="${isBest ? 'best-row' : ''}">
+        <td><strong>${p.robux.toLocaleString('es-ES')}</strong></td>
+        <td>${fmt(local, currency)}</td>
+        <td>${fmt(perRobux, currency)}</td>
+        <td>${isBest ? '<span class="best-badge">Mejor valor</span>' : ''}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  function fillMiniTable(id: string, cur: string) {
+    const tbody = document.querySelector(`#${id} tbody`);
+    if (!tbody) return;
+    const packs = PACKS_NORMAL;
+    tbody.innerHTML = packs.map(p => {
+      const local = p.usd * RATES[cur].rate;
+      return `<tr><td>${p.robux.toLocaleString('es-ES')}</td><td>${fmt(local, cur)}</td></tr>`;
+    }).join('');
+  }
+
+  function updateAll() {
+    updateCalc();
+    updateTable();
+  }
+
+  // Events
+  pills.forEach(btn => {
+    btn.addEventListener('click', () => {
+      pills.forEach(b => b.classList.remove('cpill--active'));
+      btn.classList.add('cpill--active');
+      currency = btn.dataset.cur!;
+      updateAll();
+    });
+  });
+
+  premiumToggle.addEventListener('change', () => {
+    premium = premiumToggle.checked;
+    updateAll();
+  });
+
+  robuxInput.addEventListener('input', updateCalc);
+
+  // Init
+  fillMiniTable('table-mxn', 'MXN');
+  fillMiniTable('table-cop', 'COP');
+  fillMiniTable('table-eur', 'EUR');
+  fillMiniTable('table-ars', 'ARS');
+  updateAll();
+</script>
+
+<style>
+  .main {
+    padding: 2rem 0 3rem;
+  }
+
+  .page-wrap {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .breadcrumbs {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-bottom: 1.25rem;
+  }
+
+  .breadcrumbs a {
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--accent);
+  }
+
+  .breadcrumbs__sep {
+    margin: 0 0.35rem;
+    opacity: 0.5;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .page-title {
+      font-size: 1.75rem;
+    }
+  }
+
+  .intro {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 1.75rem;
+  }
+
+  /* ---- Currency pills ---- */
+  .currency-section {
+    margin-bottom: 1.25rem;
+  }
+
+  .currency-label {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-dim);
+    margin-bottom: 0.5rem;
+  }
+
+  .currency-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .cpill {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.4rem 0.85rem;
+    background: transparent;
+    color: var(--text-dim);
+    border: 1.5px solid var(--border);
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .cpill:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .cpill--active {
+    background: #06d6a0;
+    border-color: #06d6a0;
+    color: #0a0e1a;
+  }
+
+  /* ---- Toggle ---- */
+  .toggle-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+
+  .toggle input {
+    display: none;
+  }
+
+  .toggle__slider {
+    width: 40px;
+    height: 22px;
+    background: var(--border);
+    border-radius: 11px;
+    position: relative;
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+
+  .toggle__slider::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.2s;
+  }
+
+  .toggle input:checked + .toggle__slider {
+    background: #06d6a0;
+  }
+
+  .toggle input:checked + .toggle__slider::after {
+    transform: translateX(18px);
+  }
+
+  .toggle__text {
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .toggle-hint {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+  }
+
+  /* ---- Calculator ---- */
+  .calc-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .calc-label {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .calc-input {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    background: var(--bg-deep);
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    color: var(--text);
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    -moz-appearance: textfield;
+  }
+
+  .calc-input::-webkit-outer-spin-button,
+  .calc-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .calc-input:focus {
+    border-color: #06d6a0;
+    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
+  }
+
+  .calc-result {
+    margin-top: 0.85rem;
+    font-size: 0.9rem;
+    color: var(--text-dim);
+    min-height: 1.5rem;
+  }
+
+  .calc-result--active {
+    font-size: 1.1rem;
+    color: var(--text);
+  }
+
+  .calc-note {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    font-weight: 400;
+  }
+
+  /* ---- Price table ---- */
+  .table-wrap {
+    overflow-x: auto;
+    margin-bottom: 1rem;
+  }
+
+  .price-table,
+  .mini-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .price-table th,
+  .mini-table th {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-dim);
+    text-align: left;
+    padding: 0.65rem 1rem;
+    background: rgba(30, 41, 59, 0.3);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .price-table td,
+  .mini-table td {
+    padding: 0.65rem 1rem;
+    font-size: 0.88rem;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .price-table tr:last-child td,
+  .mini-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .best-row {
+    background: rgba(6, 214, 160, 0.06);
+  }
+
+  .best-row td {
+    color: #06d6a0;
+    font-weight: 600;
+  }
+
+  .best-badge {
+    font-family: var(--font-display);
+    font-size: 0.65rem;
+    font-weight: 700;
+    background: rgba(6, 214, 160, 0.15);
+    color: #06d6a0;
+    padding: 0.2rem 0.55rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(6, 214, 160, 0.25);
+    white-space: nowrap;
+  }
+
+  /* ---- Sections ---- */
+  .section {
+    margin-bottom: 2.25rem;
+  }
+
+  .section__title {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.85rem;
+    padding-left: 0.85rem;
+    border-left: 3px solid #06d6a0;
+  }
+
+  .section__text {
+    color: var(--text-dim);
+    font-size: 0.93rem;
+    line-height: 1.7;
+  }
+
+  .section__text strong {
+    color: var(--text);
+  }
+
+  /* ---- Steps ---- */
+  .steps-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+  }
+
+  .steps {
+    list-style: none;
+    counter-reset: step;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .steps li {
+    counter-increment: step;
+    display: flex;
+    align-items: baseline;
+    gap: 0.65rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--text-dim);
+  }
+
+  .steps li::before {
+    content: counter(step);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.78rem;
+    color: #06d6a0;
+    background: rgba(6, 214, 160, 0.1);
+    min-width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+</style>
