@@ -1,96 +1,359 @@
 ---
+const path = Astro.url.pathname;
+const isHome = path === '/';
+const isHerramientas = path.startsWith('/herramientas');
 ---
 
-<header class="header">
-  <div class="container header__inner">
-    <a href="/" class="logo">
-      <span class="logo__codigos">códigos</span><span class="logo__gratis">gratis</span><span class="logo__dot">.com</span>
+<header class="hdr" id="site-header">
+  <div class="container hdr__inner">
+    <!-- Logo -->
+    <a href="/" class="hdr__logo">
+      <span class="hdr__logo-c">códigos</span><span class="hdr__logo-g">gratis</span><span class="hdr__logo-d">.com</span>
     </a>
-    <form class="search" action="/buscar/" role="search">
-      <svg class="search__icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="11" cy="11" r="8" />
-        <line x1="21" y1="21" x2="16.65" y2="16.65" />
-      </svg>
-      <input
-        type="search"
-        name="q"
-        class="search__input"
-        placeholder="Buscar juego..."
-        aria-label="Buscar juego"
-      />
-    </form>
+
+    <!-- Nav desktop -->
+    <nav class="hdr__nav" id="desktop-nav">
+      <a href="/" class={`hdr__link ${isHome ? 'hdr__link--active' : ''}`}>Códigos</a>
+
+      <div class="hdr__dd">
+        <button class={`hdr__link hdr__dd-trigger ${isHerramientas ? 'hdr__link--active' : ''}`} type="button">
+          Herramientas
+          <svg class="hdr__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="hdr__dd-menu">
+          <a href="/herramientas/calculadora-robux/" class="hdr__dd-item"><span class="hdr__dd-ico">💰</span>Calculadora de Robux</a>
+          <a href="/herramientas/ids-musica-roblox/" class="hdr__dd-item"><span class="hdr__dd-ico">🎵</span>IDs de Música</a>
+          <a href="/herramientas/buscador-perfil-roblox/" class="hdr__dd-item"><span class="hdr__dd-ico">👤</span>Buscador de Perfil</a>
+          <a href="/herramientas/extractor-ids-roblox/" class="hdr__dd-item"><span class="hdr__dd-ico">🔗</span>Extractor de IDs</a>
+          <a href="/herramientas/comandos-admin-roblox/" class="hdr__dd-item"><span class="hdr__dd-ico">⌨️</span>Comandos Admin</a>
+        </div>
+      </div>
+
+      <div class="hdr__dd">
+        <button class="hdr__link hdr__dd-trigger" type="button">
+          Categorías
+          <svg class="hdr__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="hdr__dd-menu">
+          <a href="/#categorias" class="hdr__dd-item" data-cat="Fighting"><span class="hdr__dd-ico">⚔️</span>Fighting</a>
+          <a href="/#categorias" class="hdr__dd-item" data-cat="Simulator"><span class="hdr__dd-ico">🎮</span>Simulator</a>
+          <a href="/#categorias" class="hdr__dd-item" data-cat="Tycoon"><span class="hdr__dd-ico">🏗️</span>Tycoon</a>
+          <a href="/#categorias" class="hdr__dd-item" data-cat="RPG"><span class="hdr__dd-ico">🗡️</span>RPG</a>
+          <a href="/#categorias" class="hdr__dd-item" data-cat="Racing"><span class="hdr__dd-ico">🏎️</span>Racing</a>
+          <a href="/#categorias" class="hdr__dd-item" data-cat="Tower Defense"><span class="hdr__dd-ico">🏰</span>Tower Defense</a>
+          <a href="/#categorias" class="hdr__dd-item" data-cat="Adventure"><span class="hdr__dd-ico">🌍</span>Adventure</a>
+          <a href="/#categorias" class="hdr__dd-item" data-cat="Sports"><span class="hdr__dd-ico">⚽</span>Sports</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Search desktop -->
+    <div class="hdr__search" id="hdr-search">
+      <button class="hdr__search-btn" id="hdr-search-toggle" type="button" aria-label="Buscar juego">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      </button>
+      <div class="hdr__search-field" id="hdr-search-field">
+        <svg class="hdr__search-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="text" class="hdr__search-input" id="hdr-search-input" placeholder="Buscar juego..." autocomplete="off" aria-label="Buscar juego" />
+      </div>
+      <div class="hdr__search-results" id="hdr-search-results"></div>
+    </div>
+
+    <!-- Hamburger mobile -->
+    <button class="hdr__burger" id="hdr-burger" type="button" aria-label="Abrir menú" aria-expanded="false">
+      <span class="hdr__burger-line"></span>
+      <span class="hdr__burger-line"></span>
+      <span class="hdr__burger-line"></span>
+    </button>
   </div>
 </header>
 
-<style>
-  .header {
+<!-- Mobile overlay -->
+<div class="mob" id="mob-menu">
+  <div class="mob__inner">
+    <!-- Mobile search -->
+    <div class="mob__search">
+      <svg class="mob__search-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" class="mob__search-input" id="mob-search-input" placeholder="Buscar juego..." autocomplete="off" aria-label="Buscar juego" />
+    </div>
+    <div class="mob__search-results" id="mob-search-results"></div>
+
+    <!-- Mobile links -->
+    <nav class="mob__nav">
+      <a href="/" class={`mob__link ${isHome ? 'mob__link--active' : ''}`}>Códigos</a>
+
+      <div class="mob__acc">
+        <button class={`mob__link mob__acc-trigger ${isHerramientas ? 'mob__link--active' : ''}`} type="button">
+          Herramientas
+          <svg class="mob__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="mob__acc-panel">
+          <a href="/herramientas/calculadora-robux/" class="mob__sub-link"><span class="mob__sub-ico">💰</span>Calculadora de Robux</a>
+          <a href="/herramientas/ids-musica-roblox/" class="mob__sub-link"><span class="mob__sub-ico">🎵</span>IDs de Música</a>
+          <a href="/herramientas/buscador-perfil-roblox/" class="mob__sub-link"><span class="mob__sub-ico">👤</span>Buscador de Perfil</a>
+          <a href="/herramientas/extractor-ids-roblox/" class="mob__sub-link"><span class="mob__sub-ico">🔗</span>Extractor de IDs</a>
+          <a href="/herramientas/comandos-admin-roblox/" class="mob__sub-link"><span class="mob__sub-ico">⌨️</span>Comandos Admin</a>
+        </div>
+      </div>
+
+      <div class="mob__acc">
+        <button class="mob__link mob__acc-trigger" type="button">
+          Categorías
+          <svg class="mob__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="mob__acc-panel">
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Fighting"><span class="mob__sub-ico">⚔️</span>Fighting</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Simulator"><span class="mob__sub-ico">🎮</span>Simulator</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Tycoon"><span class="mob__sub-ico">🏗️</span>Tycoon</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="RPG"><span class="mob__sub-ico">🗡️</span>RPG</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Racing"><span class="mob__sub-ico">🏎️</span>Racing</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Tower Defense"><span class="mob__sub-ico">🏰</span>Tower Defense</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Adventure"><span class="mob__sub-ico">🌍</span>Adventure</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Sports"><span class="mob__sub-ico">⚽</span>Sports</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<style is:global>
+  /* ============================================================
+     HEADER — glassmorphism sticky navbar
+     ============================================================ */
+
+  .hdr {
     position: sticky;
     top: 0;
-    z-index: 100;
-    background: rgba(10, 14, 26, 0.82);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    border-bottom: 1px solid var(--border);
+    z-index: 1000;
+    background: rgba(11, 15, 25, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(6, 214, 160, 0.15);
+    transition: padding 0.3s, background 0.3s;
   }
 
-  .header__inner {
+  .hdr.hdr--scrolled {
+    background: rgba(11, 15, 25, 0.95);
+    border-bottom-color: rgba(6, 214, 160, 0.25);
+  }
+
+  .hdr__inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 1rem;
-    height: 3.5rem;
+    height: 56px;
   }
 
-  @media (min-width: 768px) {
-    .header__inner {
-      height: 4rem;
-    }
+  @media (min-width: 769px) {
+    .hdr__inner { height: 64px; }
   }
 
-  /* ---- Logo ---- */
-  .logo {
+  /* ---------- Logo ---------- */
+
+  .hdr__logo {
     font-family: var(--font-display);
     font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: -0.02em;
     white-space: nowrap;
     flex-shrink: 0;
+    transition: text-shadow 0.3s;
   }
 
-  .logo__gratis {
-    color: var(--accent);
+  .hdr__logo:hover {
+    text-shadow: 0 0 12px rgba(6, 214, 160, 0.35);
   }
 
-  .logo__dot {
-    color: var(--text-dim);
-    font-weight: 400;
-    font-size: 0.85em;
+  .hdr__logo-c { color: #fff; }
+  .hdr__logo-g { color: #06d6a0; }
+  .hdr__logo-d { color: rgba(255, 255, 255, 0.5); font-weight: 400; font-size: 0.85em; }
+
+  /* ---------- Desktop nav ---------- */
+
+  .hdr__nav {
+    display: none;
+    align-items: center;
+    gap: 0.25rem;
+    margin-left: auto;
   }
 
-  /* ---- Search ---- */
-  .search {
+  @media (min-width: 769px) {
+    .hdr__nav { display: flex; }
+  }
+
+  .hdr__link {
+    position: relative;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 0.75rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 4px;
+    transition: color 0.3s;
+    white-space: nowrap;
+  }
+
+  .hdr__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: #06d6a0;
+    border-radius: 1px;
+    transition: width 0.3s;
+  }
+
+  .hdr__link:hover,
+  .hdr__link--active {
+    color: #06d6a0;
+  }
+
+  .hdr__link:hover::after,
+  .hdr__link--active::after {
+    width: 60%;
+  }
+
+  .hdr__chevron {
+    transition: transform 0.3s;
+  }
+
+  /* ---------- Dropdowns ---------- */
+
+  .hdr__dd {
+    position: relative;
+  }
+
+  .hdr__dd-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-8px);
+    min-width: 220px;
+    background: rgba(17, 24, 39, 0.95);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(6, 214, 160, 0.2);
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s, transform 0.25s;
+    z-index: 1001;
+  }
+
+  .hdr__dd:hover .hdr__dd-menu,
+  .hdr__dd.hdr__dd--open .hdr__dd-menu {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  .hdr__dd:hover .hdr__chevron,
+  .hdr__dd.hdr__dd--open .hdr__chevron {
+    transform: rotate(180deg);
+  }
+
+  .hdr__dd-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.85);
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .hdr__dd-item:hover {
+    background: rgba(6, 214, 160, 0.1);
+    color: #06d6a0;
+  }
+
+  .hdr__dd-ico {
+    font-size: 1rem;
+    width: 1.25rem;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  /* ---------- Search (desktop) ---------- */
+
+  .hdr__search {
+    position: relative;
+    display: none;
+    align-items: center;
+    margin-left: 0.5rem;
+    flex-shrink: 0;
+  }
+
+  @media (min-width: 769px) {
+    .hdr__search { display: flex; }
+  }
+
+  .hdr__search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: border-color 0.3s, color 0.3s, background 0.3s;
+    flex-shrink: 0;
+  }
+
+  .hdr__search-btn:hover {
+    border-color: #06d6a0;
+    color: #06d6a0;
+  }
+
+  .hdr__search.hdr__search--open .hdr__search-btn {
+    display: none;
+  }
+
+  .hdr__search-field {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 9999px;
-    padding: 0.4rem 0.9rem;
-    width: 100%;
-    max-width: 320px;
-    transition: border-color 0.2s;
+    padding: 0.4rem 0.85rem;
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s, border-color 0.3s, box-shadow 0.3s;
   }
 
-  .search:focus-within {
-    border-color: var(--accent);
+  .hdr__search.hdr__search--open .hdr__search-field {
+    width: 250px;
+    opacity: 1;
   }
 
-  .search__icon {
+  .hdr__search-field:focus-within {
+    border-color: #06d6a0;
+    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
+  }
+
+  .hdr__search-ico {
     color: var(--text-dim);
     flex-shrink: 0;
   }
 
-  .search__input {
+  .hdr__search-input {
     background: none;
     border: none;
     outline: none;
@@ -100,7 +363,454 @@
     width: 100%;
   }
 
-  .search__input::placeholder {
+  .hdr__search-input::placeholder {
     color: var(--text-dim);
   }
+
+  .hdr__search-results {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    width: 300px;
+    background: rgba(17, 24, 39, 0.95);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(6, 214, 160, 0.2);
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    display: none;
+    overflow: hidden;
+    z-index: 1002;
+  }
+
+  .hdr__sr-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    transition: background 0.2s;
+  }
+
+  .hdr__sr-item:hover {
+    background: rgba(6, 214, 160, 0.08);
+  }
+
+  .hdr__sr-item__img {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .hdr__sr-item__ph {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: var(--bg-card);
+    flex-shrink: 0;
+  }
+
+  .hdr__sr-item__info {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .hdr__sr-item__name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .hdr__sr-item__codes {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+  }
+
+  .hdr__sr-empty {
+    padding: 16px;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 0.85rem;
+  }
+
+  /* ---------- Hamburger ---------- */
+
+  .hdr__burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 36px;
+    height: 36px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: auto;
+  }
+
+  @media (min-width: 769px) {
+    .hdr__burger { display: none; }
+  }
+
+  .hdr__burger-line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 2px;
+    transition: transform 0.3s, opacity 0.3s;
+    transform-origin: center;
+  }
+
+  .hdr__burger.hdr__burger--open .hdr__burger-line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .hdr__burger.hdr__burger--open .hdr__burger-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hdr__burger.hdr__burger--open .hdr__burger-line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* ============================================================
+     MOBILE OVERLAY
+     ============================================================ */
+
+  .mob {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    background: rgba(11, 15, 25, 0.98);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    overflow-y: auto;
+    padding-top: 56px;
+  }
+
+  .mob.mob--open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  @media (min-width: 769px) {
+    .mob { display: none !important; }
+  }
+
+  .mob__inner {
+    padding: 1.25rem 1.5rem 3rem;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  /* Mobile search */
+
+  .mob__search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.7rem 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+
+  .mob__search:focus-within {
+    border-color: #06d6a0;
+    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
+  }
+
+  .mob__search-ico {
+    color: var(--text-dim);
+    flex-shrink: 0;
+  }
+
+  .mob__search-input {
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .mob__search-input::placeholder {
+    color: var(--text-dim);
+  }
+
+  .mob__search-results {
+    display: none;
+    margin-top: 0.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  /* Mobile nav links */
+
+  .mob__nav {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .mob__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.85);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.85rem 0.5rem;
+    border-radius: 10px;
+    transition: color 0.2s, background 0.2s;
+    width: 100%;
+    text-align: left;
+  }
+
+  .mob__link:hover,
+  .mob__link--active {
+    color: #06d6a0;
+  }
+
+  .mob__chevron {
+    transition: transform 0.3s;
+    color: var(--text-dim);
+  }
+
+  .mob__acc-trigger.mob__acc--expanded .mob__chevron {
+    transform: rotate(180deg);
+  }
+
+  /* Accordion panels */
+
+  .mob__acc-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 0.5rem;
+  }
+
+  .mob__acc-trigger.mob__acc--expanded + .mob__acc-panel {
+    max-height: 500px;
+  }
+
+  .mob__sub-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.7rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.75);
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .mob__sub-link:hover {
+    background: rgba(6, 214, 160, 0.1);
+    color: #06d6a0;
+  }
+
+  .mob__sub-ico {
+    font-size: 1.1rem;
+    width: 1.5rem;
+    text-align: center;
+    flex-shrink: 0;
+  }
 </style>
+
+<script is:inline>
+(function() {
+  /* ---------- Scroll class ---------- */
+  const hdr = document.getElementById('site-header');
+  let ticking = false;
+  function onScroll() {
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(function() {
+        if (window.scrollY > 20) {
+          hdr.classList.add('hdr--scrolled');
+        } else {
+          hdr.classList.remove('hdr--scrolled');
+        }
+        ticking = false;
+      });
+    }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- Search data (lazy load) ---------- */
+  var searchCache = null;
+  function loadSearchData() {
+    if (searchCache) return Promise.resolve(searchCache);
+    var scriptTag = document.querySelector('script[data-hdr-search]');
+    if (scriptTag) {
+      try { searchCache = JSON.parse(scriptTag.textContent); return Promise.resolve(searchCache); } catch(e) {}
+    }
+    return fetch('/data/games-search.json').then(function(r) { return r.json(); }).then(function(d) {
+      searchCache = d;
+      return d;
+    }).catch(function() { return []; });
+  }
+
+  function getThumb(t) {
+    return t && t.startsWith('https://tr.rbxcdn.com') ? t : null;
+  }
+
+  function renderResults(container, matches) {
+    if (matches.length === 0) {
+      container.innerHTML = '<div class="hdr__sr-empty">No se encontraron juegos</div>';
+      container.style.display = 'block';
+      return;
+    }
+    container.innerHTML = matches.map(function(g) {
+      var t = getThumb(g.thumbnail);
+      var img = t ? '<img src="' + t + '" alt="" class="hdr__sr-item__img"/>' : '<div class="hdr__sr-item__ph"></div>';
+      return '<a href="/' + g.slug + '/" class="hdr__sr-item">' + img +
+        '<div class="hdr__sr-item__info"><span class="hdr__sr-item__name">' + g.name +
+        '</span><span class="hdr__sr-item__codes">' + g.activeCodes + ' códigos</span></div></a>';
+    }).join('');
+    container.style.display = 'block';
+  }
+
+  function doSearch(q, container) {
+    if (q.length < 2) { container.style.display = 'none'; container.innerHTML = ''; return; }
+    loadSearchData().then(function(data) {
+      var ql = q.toLowerCase();
+      var matches = data.filter(function(g) { return g.name.toLowerCase().includes(ql); }).slice(0, 6);
+      renderResults(container, matches);
+    });
+  }
+
+  /* ---------- Desktop search toggle ---------- */
+  var searchWrap = document.getElementById('hdr-search');
+  var searchToggle = document.getElementById('hdr-search-toggle');
+  var searchField = document.getElementById('hdr-search-field');
+  var searchInput = document.getElementById('hdr-search-input');
+  var searchResults = document.getElementById('hdr-search-results');
+
+  if (searchToggle) {
+    searchToggle.addEventListener('click', function() {
+      searchWrap.classList.add('hdr__search--open');
+      setTimeout(function() { searchInput.focus(); }, 100);
+    });
+  }
+
+  if (searchInput) {
+    var deskTimer;
+    searchInput.addEventListener('input', function() {
+      clearTimeout(deskTimer);
+      deskTimer = setTimeout(function() {
+        doSearch(searchInput.value.trim(), searchResults);
+      }, 200);
+    });
+
+    searchInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        searchWrap.classList.remove('hdr__search--open');
+        searchResults.style.display = 'none';
+        searchInput.value = '';
+      }
+    });
+  }
+
+  document.addEventListener('click', function(e) {
+    if (searchWrap && !searchWrap.contains(e.target)) {
+      searchWrap.classList.remove('hdr__search--open');
+      if (searchResults) searchResults.style.display = 'none';
+      if (searchInput) searchInput.value = '';
+    }
+  });
+
+  /* ---------- Mobile menu ---------- */
+  var burger = document.getElementById('hdr-burger');
+  var mobMenu = document.getElementById('mob-menu');
+
+  if (burger && mobMenu) {
+    burger.addEventListener('click', function() {
+      var isOpen = burger.classList.toggle('hdr__burger--open');
+      mobMenu.classList.toggle('mob--open', isOpen);
+      burger.setAttribute('aria-expanded', isOpen);
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+  }
+
+  /* Mobile accordions */
+  var accTriggers = document.querySelectorAll('.mob__acc-trigger');
+  accTriggers.forEach(function(trigger) {
+    trigger.addEventListener('click', function() {
+      var wasExpanded = trigger.classList.contains('mob__acc--expanded');
+      // Close others
+      accTriggers.forEach(function(t) { t.classList.remove('mob__acc--expanded'); });
+      if (!wasExpanded) trigger.classList.add('mob__acc--expanded');
+    });
+  });
+
+  /* Mobile search */
+  var mobSearchInput = document.getElementById('mob-search-input');
+  var mobSearchResults = document.getElementById('mob-search-results');
+
+  if (mobSearchInput) {
+    var mobTimer;
+    mobSearchInput.addEventListener('input', function() {
+      clearTimeout(mobTimer);
+      mobTimer = setTimeout(function() {
+        doSearch(mobSearchInput.value.trim(), mobSearchResults);
+      }, 200);
+    });
+  }
+
+  /* Close mobile menu on link click */
+  if (mobMenu) {
+    mobMenu.addEventListener('click', function(e) {
+      var link = e.target.closest('a');
+      if (link) {
+        burger.classList.remove('hdr__burger--open');
+        mobMenu.classList.remove('mob--open');
+        document.body.style.overflow = '';
+      }
+    });
+  }
+
+  /* ---------- Category links (click to filter) ---------- */
+  document.querySelectorAll('[data-cat]').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      var cat = link.dataset.cat;
+      if (window.location.pathname === '/') {
+        e.preventDefault();
+        var pill = document.querySelector('.cat-pill[data-category="' + cat + '"]');
+        if (pill) {
+          pill.click();
+          pill.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+        // Close mobile menu if open
+        if (burger) {
+          burger.classList.remove('hdr__burger--open');
+          mobMenu.classList.remove('mob--open');
+          document.body.style.overflow = '';
+        }
+      }
+    });
+  });
+})();
+</script>
