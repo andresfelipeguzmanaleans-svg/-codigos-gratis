@@ -53,6 +53,13 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
       <div class="calc-box">
         <label class="calc-label" for="robux-input">¿Cuántos Robux quieres?</label>
         <input type="number" id="robux-input" class="calc-input" placeholder="Ej: 1000" min="0" />
+        <div class="quick-btns" id="quick-btns">
+          <button class="qbtn" data-val="400">400</button>
+          <button class="qbtn" data-val="800">800</button>
+          <button class="qbtn" data-val="1700">1.700</button>
+          <button class="qbtn" data-val="4500">4.500</button>
+          <button class="qbtn" data-val="10000">10.000</button>
+        </div>
         <div class="calc-result" id="calc-result">Escribe una cantidad para ver el precio</div>
       </div>
 
@@ -66,6 +73,7 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
                 <th>Robux</th>
                 <th>Precio</th>
                 <th>Por Robux</th>
+                <th>Ahorro</th>
                 <th></th>
               </tr>
             </thead>
@@ -183,11 +191,12 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
   const calcResult = document.getElementById('calc-result')!;
   const priceTbody = document.getElementById('price-tbody')!;
 
-  function fmt(val: number, cur: string): string {
+  function fmt(val: number, cur: string, forceDecimals?: number): string {
     const { symbol, decimals } = RATES[cur];
-    const formatted = decimals === 0
+    const d = forceDecimals !== undefined ? forceDecimals : decimals;
+    const formatted = d === 0
       ? Math.round(val).toLocaleString('es-ES')
-      : val.toFixed(decimals).replace('.', ',');
+      : val.toFixed(d).replace('.', ',');
     return `${symbol}${formatted}`;
   }
 
@@ -225,14 +234,21 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
       if (ratio < bestRatio) { bestRatio = ratio; bestIdx = i; }
     });
 
+    // Base price per robux (first/most expensive pack) for savings calc
+    const baseRatio = packs[0].usd / packs[0].robux;
+
     priceTbody.innerHTML = packs.map((p, i) => {
       const local = convert(p.usd);
       const perRobux = convert(p.usd / p.robux);
       const isBest = i === bestIdx;
+      const ratio = p.usd / p.robux;
+      const savingPct = i === 0 ? 0 : Math.round((1 - ratio / baseRatio) * 100);
+      const savingHtml = savingPct > 0 ? `<span class="saving">-${savingPct}%</span>` : '—';
       return `<tr class="${isBest ? 'best-row' : ''}">
         <td><strong>${p.robux.toLocaleString('es-ES')}</strong></td>
         <td>${fmt(local, currency)}</td>
-        <td>${fmt(perRobux, currency)}</td>
+        <td>${fmt(perRobux, currency, 4)}</td>
+        <td>${savingHtml}</td>
         <td>${isBest ? '<span class="best-badge">Mejor valor</span>' : ''}</td>
       </tr>`;
     }).join('');
@@ -269,6 +285,14 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
   });
 
   robuxInput.addEventListener('input', updateCalc);
+
+  // Quick buttons
+  document.querySelectorAll<HTMLButtonElement>('.qbtn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      robuxInput.value = btn.dataset.val!;
+      robuxInput.dispatchEvent(new Event('input'));
+    });
+  });
 
   // Init
   fillMiniTable('table-mxn', 'MXN');
@@ -481,6 +505,33 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
     box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
   }
 
+  /* Quick buttons */
+  .quick-btns {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 0.6rem;
+    flex-wrap: wrap;
+  }
+
+  .qbtn {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.35rem 0.75rem;
+    background: rgba(30, 41, 59, 0.5);
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .qbtn:hover {
+    background: rgba(6, 214, 160, 0.1);
+    border-color: #06d6a0;
+    color: #06d6a0;
+  }
+
   .calc-result {
     margin-top: 0.85rem;
     font-size: 0.9rem;
@@ -540,8 +591,16 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
     border-bottom: none;
   }
 
-  .best-row {
-    background: rgba(6, 214, 160, 0.06);
+  /* Zebra striping */
+  .price-table tbody tr:nth-child(even),
+  .mini-table tbody tr:nth-child(even) {
+    background: rgba(30, 41, 59, 0.18);
+  }
+
+  .best-row,
+  .best-row:nth-child(even) {
+    background: rgba(6, 214, 160, 0.1);
+    border-left: 3px solid #06d6a0;
   }
 
   .best-row td {
@@ -551,14 +610,21 @@ const description = 'Calcula cuánto cuestan los Robux en euros, dólares, pesos
 
   .best-badge {
     font-family: var(--font-display);
-    font-size: 0.65rem;
+    font-size: 0.68rem;
     font-weight: 700;
-    background: rgba(6, 214, 160, 0.15);
-    color: #06d6a0;
-    padding: 0.2rem 0.55rem;
+    background: #06d6a0;
+    color: #0a0e1a;
+    padding: 0.25rem 0.65rem;
     border-radius: 9999px;
-    border: 1px solid rgba(6, 214, 160, 0.25);
     white-space: nowrap;
+    display: inline-block;
+  }
+
+  .saving {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #06d6a0;
   }
 
   /* ---- Sections ---- */
