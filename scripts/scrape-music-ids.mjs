@@ -7,12 +7,13 @@
  *   node scripts/scrape-music-ids.mjs --max=10 --concurrency=3
  */
 
-import { writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, mkdirSync, copyFileSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT = resolve(__dirname, '..', 'data', 'music-ids.json');
+const PUBLIC_OUTPUT = resolve(__dirname, '..', 'public', 'data', 'music-ids.json');
 
 // --- CLI args ---
 const args = Object.fromEntries(
@@ -111,13 +112,16 @@ function extractSongs(html) {
         const arr = JSON.parse(jsonStr);
         for (const s of arr) {
           if (s && s.asset_id) {
-            songs.push({
+            const song = {
               title: s.title || '',
               artist: s.artist || '',
               id: String(s.asset_id),
               genre: s.genre || '',
-              ...(s.duration_seconds ? { duration: s.duration_seconds } : {}),
-            });
+            };
+            if (s.duration_seconds) song.duration = s.duration_seconds;
+            if (s.album) song.album = s.album;
+            if (s.thumbnail_url) song.thumbnail = s.thumbnail_url;
+            songs.push(song);
           }
         }
       } catch {
@@ -226,20 +230,42 @@ async function main() {
     if (remaining.length > 0) await sleep(DELAY_MS);
   }
 
-  // Sort by ID
-  const songs = [...allSongs.values()].sort((a, b) => {
-    const na = BigInt(a.id), nb = BigInt(b.id);
-    return na < nb ? -1 : na > nb ? 1 : 0;
-  });
+  // Add robloxUrl to all songs
+  for (const s of allSongs.values()) {
+    s.robloxUrl = `https://www.roblox.com/library/${s.id}`;
+  }
+
+  // Reorder: genre+thumbnail first, genre-only second, no-genre last
+  // Within each group sort by artist alphabetically
+  const all = [...allSongs.values()];
+  const cmp = (a, b) => (a.artist || '').localeCompare(b.artist || '', 'es');
+  const groupA = all.filter(s => s.genre && s.thumbnail).sort(cmp);
+  const groupB = all.filter(s => s.genre && !s.thumbnail).sort(cmp);
+  const groupC = all.filter(s => !s.genre).sort(cmp);
+  const songs = [...groupA, ...groupB, ...groupC];
+
+  // Stats
+  const withDuration = songs.filter(s => s.duration).length;
+  const withAlbum = songs.filter(s => s.album).length;
+  const withThumb = songs.filter(s => s.thumbnail).length;
 
   // Save
   mkdirSync(dirname(OUTPUT), { recursive: true });
+  mkdirSync(dirname(PUBLIC_OUTPUT), { recursive: true });
   writeFileSync(OUTPUT, JSON.stringify({ songs }, null, 2), 'utf-8');
+  copyFileSync(OUTPUT, PUBLIC_OUTPUT);
 
   console.log('\n--- Done ---');
   console.log(`Total unique songs: ${songs.length}`);
+  console.log(`  With duration: ${withDuration}`);
+  console.log(`  With album: ${withAlbum}`);
+  console.log(`  With thumbnail: ${withThumb}`);
+  console.log(`  Group A (genre+thumb): ${groupA.length}`);
+  console.log(`  Group B (genre only): ${groupB.length}`);
+  console.log(`  Group C (no genre): ${groupC.length}`);
   console.log(`Failed pages: ${failed}`);
   console.log(`Saved to: ${OUTPUT}`);
+  console.log(`Copied to: ${PUBLIC_OUTPUT}`);
 }
 
 main().catch((err) => {

@@ -24,7 +24,7 @@ if (!g) return Astro.redirect('/herramientas/ids-musica-roblox/');
 
 const GENRE_COLOR: Record<string,string> = Object.fromEntries(Object.entries(GENRES).map(([k,v])=>[k,v.color]));
 
-const allSongs: Array<{title:string;artist:string;id:string;genre:string;thumbnail?:string;robloxUrl?:string}> =
+const allSongs: Array<{title:string;artist:string;id:string;genre:string;thumbnail?:string;robloxUrl?:string;duration?:number;album?:string}> =
   (await import('../../../../data/music-ids.json', { with: { type: 'json' } })).default.songs;
 
 const genreSongs = allSongs.filter(s => s.genre === genre);
@@ -37,6 +37,7 @@ const description = `${g.desc} ${totalGenre} IDs de música ${g.label} actualiza
 
 function gc(genreVal: string) { return GENRE_COLOR[genreVal] || '#8892a4'; }
 function fmtGenre(gv: string) { return gv ? gv.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()) : ''; }
+function fmtDuration(sec: number) { const m = Math.floor(sec / 60); const s = sec % 60; return `${m}:${String(s).padStart(2, '0')}`; }
 
 const faqSchema = {
   '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -91,7 +92,7 @@ const genreParam = genre;
       <div class="grid" id="grid">
         {first100.map(s => (
           <div class="card" data-id={s.id}>
-            <div class="card__thumb" style={s.thumbnail ? '' : `background:${gc(s.genre)}`}>
+            <div class="card__thumb" style={s.thumbnail ? '' : 'background:#1a2236'}>
               {s.thumbnail
                 ? <img src={s.thumbnail} alt={s.title} width="60" height="60" loading="lazy" />
                 : <span class="card__note">🎵</span>}
@@ -99,8 +100,10 @@ const genreParam = genre;
             <div class="card__body">
               <span class="card__title">{s.title}</span>
               <span class="card__artist">{s.artist}</span>
+              {s.album && <span class="card__album">{s.album}</span>}
               <div class="card__row">
                 <span class="card__genre" style={`color:${gc(s.genre)};border-color:${gc(s.genre)}33`}>{fmtGenre(s.genre)}</span>
+                {s.duration && <span class="card__dur">{fmtDuration(s.duration)}</span>}
                 <code class="card__id">{s.id}</code>
               </div>
             </div>
@@ -149,7 +152,7 @@ const genreParam = genre;
   const GENRE_COLOR: Record<string,string> = {pop:'#ff6b9d','hip-hop':'#c084fc',dance:'#22d3ee',rock:'#ff6b6b',jazz:'#fbbf24',electronic:'#06d6a0',country:'#f97316',classical:'#a78bfa'};
   const GENRE_FILTER = (window as any).__GENRE_FILTER as string;
 
-  type Song = {title:string;artist:string;id:string;genre:string;thumbnail?:string;robloxUrl?:string};
+  type Song = {title:string;artist:string;id:string;genre:string;thumbnail?:string;robloxUrl?:string;duration?:number;album?:string};
   let all: Song[] = [];
   let filtered: Song[] = [];
   let shown = 0;
@@ -166,15 +169,18 @@ const genreParam = genre;
   function gc(g:string){return GENRE_COLOR[g]||'#8892a4'}
   function fg(g:string){return g?g.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()):''}
   function esc(s:string){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+  function fmtDur(sec:number){const m=Math.floor(sec/60);const s=sec%60;return `${m}:${String(s).padStart(2,'0')}`}
 
   function cardHTML(s:Song){
     const thumb = s.thumbnail
       ? `<img src="${esc(s.thumbnail)}" alt="${esc(s.title)}" width="60" height="60" loading="lazy"/>`
       : `<span class="card__note">🎵</span>`;
-    const thumbStyle = s.thumbnail ? '' : `background:${gc(s.genre)}`;
+    const thumbStyle = s.thumbnail ? '' : 'background:#1a2236';
+    const albumLine = s.album ? `<span class="card__album">${esc(s.album)}</span>` : '';
     const genreBadge = s.genre ? `<span class="card__genre" style="color:${gc(s.genre)};border-color:${gc(s.genre)}33">${fg(s.genre)}</span>` : '';
+    const durBadge = s.duration ? `<span class="card__dur">${fmtDur(s.duration)}</span>` : '';
     const rlink = s.robloxUrl ? `<a class="rlink" href="${esc(s.robloxUrl)}" target="_blank" rel="noopener">Abrir en Roblox ↗</a>` : '';
-    return `<div class="card" data-id="${s.id}"><div class="card__thumb" style="${thumbStyle}">${thumb}</div><div class="card__body"><span class="card__title">${esc(s.title)}</span><span class="card__artist">${esc(s.artist)}</span><div class="card__row">${genreBadge}<code class="card__id">${s.id}</code></div></div><div class="card__actions"><button class="cbtn" data-id="${s.id}">Copiar</button>${rlink}</div></div>`;
+    return `<div class="card" data-id="${s.id}"><div class="card__thumb" style="${thumbStyle}">${thumb}</div><div class="card__body"><span class="card__title">${esc(s.title)}</span><span class="card__artist">${esc(s.artist)}</span>${albumLine}<div class="card__row">${genreBadge}${durBadge}<code class="card__id">${s.id}</code></div></div><div class="card__actions"><button class="cbtn" data-id="${s.id}">Copiar</button>${rlink}</div></div>`;
   }
 
   function render(){
@@ -274,8 +280,10 @@ const genreParam = genre;
 
   .card__body{flex:1;min-width:0}
   .card__title{display:block;font-weight:700;font-size:.88rem;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .card__artist{display:block;font-size:.78rem;color:var(--text-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:.3rem}
+  .card__artist{display:block;font-size:.78rem;color:var(--text-dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:.2rem}
+  .card__album{display:block;font-size:.7rem;color:var(--text-dim);opacity:.65;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:.2rem}
   .card__row{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
+  .card__dur{font-family:var(--font-display);font-size:.62rem;font-weight:700;color:var(--text-dim);padding:.12rem .4rem;background:rgba(255,255,255,.06);border-radius:6px;white-space:nowrap}
   .card__genre{font-family:var(--font-display);font-size:.62rem;font-weight:700;padding:.15rem .5rem;border:1px solid;border-radius:9999px;white-space:nowrap}
   .card__id{font-family:var(--font-display);font-size:.72rem;font-weight:700;color:#06d6a0}
 
