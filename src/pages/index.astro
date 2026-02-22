@@ -59,19 +59,10 @@ const topWithThumb = [...allGames]
 // 12 for mosaic background
 const mosaicGames = topWithThumb.slice(0, 12);
 
-// 6 fixed quick links (top traffic games)
-const quickLinkSlugs = [
-  'codigos-blox-fruits',
-  'codigos-untitled-boxing',
-  'codigos-jailbreak',
-  'codigos-fruit-battlegrounds',
-  'codigos-arsenal',
-  'codigos-dragon-ball-rage',
-];
-const gamesBySlug = Object.fromEntries(allGames.map((g) => [g.slug, g]));
-const quickLinks = quickLinkSlugs
-  .map((s) => gamesBySlug[s])
-  .filter(Boolean);
+// Carousel: games updated today, fallback to 20 most recent
+const today = new Date().toISOString().slice(0, 10);
+const updatedToday = sortedGames.filter((g) => g.lastUpdated === today);
+const carouselGames = (updatedToday.length > 0 ? updatedToday : sortedGames).slice(0, 20);
 
 // Search data for JS
 const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length }));
@@ -107,13 +98,36 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
           </div>
           <div id="search-results" class="search-results"></div>
         </div>
-        <div class="quick-links">
-          {quickLinks.map((g) => (
-            <a href={`/${g.slug}/`} class="quick-link">
-              <img src={g.thumbnail} alt={g.name} class="quick-link__img" loading="eager" />
-              <span class="quick-link__name">{g.name}</span>
-            </a>
-          ))}
+        <div class="carousel-section">
+          <div class="carousel-header">
+            <span class="carousel-live"></span>
+            <span class="carousel-label">Actualizados hoy</span>
+          </div>
+          <div class="carousel-wrap">
+            <button class="carousel-arrow carousel-arrow--left" id="carousel-left" aria-label="Anterior">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            <div class="carousel-track" id="carousel-track">
+              {carouselGames.map((g) => {
+                const validThumb = g.thumbnail && g.thumbnail.startsWith('https://tr.rbxcdn.com');
+                return (
+                  <a href={`/${g.slug}/`} class="carousel-item">
+                    {validThumb ? (
+                      <img src={g.thumbnail} alt={g.name} class="carousel-item__img" loading="eager" />
+                    ) : (
+                      <div class="carousel-item__placeholder">
+                        <span class="carousel-item__initial">{g.name.charAt(0)}</span>
+                      </div>
+                    )}
+                    <span class="carousel-item__name">{g.name}</span>
+                  </a>
+                );
+              })}
+            </div>
+            <button class="carousel-arrow carousel-arrow--right" id="carousel-right" aria-label="Siguiente">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
         </div>
       </div>
     </section>
@@ -301,6 +315,21 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     });
   });
 
+  // ---- Carousel ----
+  const track = document.getElementById('carousel-track');
+  const leftBtn = document.getElementById('carousel-left');
+  const rightBtn = document.getElementById('carousel-right');
+  const scrollAmount = 240;
+
+  if (track && leftBtn && rightBtn) {
+    leftBtn.addEventListener('click', () => {
+      track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    });
+    rightBtn.addEventListener('click', () => {
+      track.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    });
+  }
+
   // ---- Load More ----
   const allGamesGrid = document.getElementById('all-games-grid');
   const loadMoreBtn = document.getElementById('load-more');
@@ -400,52 +429,161 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     margin-bottom: 1.5rem;
   }
 
-  /* Quick links */
-  .quick-links {
-    display: flex;
-    gap: 1rem;
+  /* Carousel */
+  .carousel-section {
     margin-top: 1.75rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 600px;
+    width: 100%;
+    max-width: 640px;
   }
 
-  .quick-link {
+  .carousel-header {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+  }
+
+  .carousel-live {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #06d6a0;
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(6, 214, 160, 0.5); }
+    50% { opacity: 0.7; box-shadow: 0 0 0 5px rgba(6, 214, 160, 0); }
+  }
+
+  .carousel-label {
+    font-family: var(--font-display);
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .carousel-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .carousel-arrow {
+    position: absolute;
+    z-index: 3;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(17, 24, 39, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: var(--text-dim);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s, background 0.2s;
+    padding: 0;
+  }
+
+  .carousel-arrow svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .carousel-arrow:hover {
+    color: #06d6a0;
+    background: rgba(6, 214, 160, 0.15);
+  }
+
+  .carousel-arrow--left {
+    left: -4px;
+  }
+
+  .carousel-arrow--right {
+    right: -4px;
+  }
+
+  .carousel-track {
+    display: flex;
+    gap: 0.75rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 0.25rem 2rem;
+  }
+
+  .carousel-track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .carousel-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.35rem;
     text-decoration: none;
-    width: 64px;
+    flex-shrink: 0;
+    width: 68px;
     transition: transform 0.2s;
   }
 
-  .quick-link:hover {
+  .carousel-item:hover {
     transform: translateY(-3px);
   }
 
-  .quick-link__img {
-    width: 48px;
-    height: 48px;
+  .carousel-item__img {
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid rgba(30, 41, 59, 0.7);
     transition: border-color 0.2s, box-shadow 0.2s;
   }
 
-  .quick-link:hover .quick-link__img {
+  .carousel-item:hover .carousel-item__img {
     border-color: #06d6a0;
     box-shadow: 0 0 12px rgba(6, 214, 160, 0.3);
   }
 
-  .quick-link__name {
+  .carousel-item__placeholder {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1a2236 0%, #0f3460 100%);
+    border: 2px solid rgba(30, 41, 59, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .carousel-item:hover .carousel-item__placeholder {
+    border-color: #06d6a0;
+    box-shadow: 0 0 12px rgba(6, 214, 160, 0.3);
+  }
+
+  .carousel-item__initial {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .carousel-item__name {
     font-family: var(--font-display);
     font-size: 0.62rem;
     font-weight: 600;
     color: var(--text-dim);
     text-align: center;
     line-height: 1.2;
-    max-width: 64px;
+    max-width: 68px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -453,7 +591,7 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     transition: color 0.2s;
   }
 
-  .quick-link:hover .quick-link__name {
+  .carousel-item:hover .carousel-item__name {
     color: var(--text);
   }
 
@@ -467,19 +605,19 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     .hero__sub {
       font-size: 1.15rem;
     }
-    .quick-links {
-      gap: 1.25rem;
+    .carousel-arrow {
+      width: 36px;
+      height: 36px;
     }
-    .quick-link {
-      width: 72px;
+    .carousel-arrow svg {
+      width: 18px;
+      height: 18px;
     }
-    .quick-link__img {
-      width: 52px;
-      height: 52px;
+    .carousel-arrow--left {
+      left: -8px;
     }
-    .quick-link__name {
-      font-size: 0.67rem;
-      max-width: 72px;
+    .carousel-arrow--right {
+      right: -8px;
     }
   }
 
