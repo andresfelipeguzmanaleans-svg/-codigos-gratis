@@ -51,6 +51,15 @@ for (const cat of categories) {
     .map((g) => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length, lastUpdated: g.lastUpdated }));
 }
 
+// Top games with valid thumbnails for hero
+const topWithThumb = [...allGames]
+  .filter((g) => g.totalVisits && g.totalVisits > 0 && g.thumbnail && g.thumbnail.startsWith('https://tr.rbxcdn.com'))
+  .sort((a, b) => (b.totalVisits || 0) - (a.totalVisits || 0));
+
+// 12 for mosaic background, 6 for quick links
+const mosaicGames = topWithThumb.slice(0, 12);
+const quickLinks = topWithThumb.slice(0, 6);
+
 // Search data for JS
 const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length }));
 ---
@@ -61,8 +70,12 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
   <main class="main">
     <!-- Hero -->
     <section class="hero">
-      <div class="hero__bg"></div>
-      <div class="hero__dots"></div>
+      <div class="hero__mosaic">
+        {mosaicGames.map((g) => (
+          <img src={g.thumbnail} alt="" class="hero__mosaic-img" loading="eager" />
+        ))}
+      </div>
+      <div class="hero__overlay"></div>
       <div class="container hero__inner">
         <h1 class="hero__title"><span class="hero__gradient">Códigos Gratis</span> para Roblox y Más</h1>
         <p class="hero__sub">Encuentra códigos actualizados para tus juegos favoritos</p>
@@ -80,6 +93,14 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
             />
           </div>
           <div id="search-results" class="search-results"></div>
+        </div>
+        <div class="quick-links">
+          {quickLinks.map((g) => (
+            <a href={`/${g.slug}/`} class="quick-link">
+              <img src={g.thumbnail} alt={g.name} class="quick-link__img" loading="eager" />
+              <span class="quick-link__name">{g.name}</span>
+            </a>
+          ))}
         </div>
       </div>
     </section>
@@ -296,7 +317,7 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
   /* ---- Hero ---- */
   .hero {
     position: relative;
-    padding: 4.5rem 0 3.5rem;
+    padding: 4.5rem 0 3rem;
     text-align: center;
     overflow: hidden;
     animation: heroFadeIn 0.7s ease-out;
@@ -307,26 +328,33 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     to { opacity: 1; }
   }
 
-  .hero__bg {
+  /* Mosaic background */
+  .hero__mosaic {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, #0a0e1a 0%, #1a1040 50%, #0a0e1a 100%);
-    background-size: 200% 200%;
-    animation: heroBgShift 12s ease-in-out infinite;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 4px;
     z-index: 0;
+    opacity: 0.15;
+    filter: blur(3px);
   }
 
-  @keyframes heroBgShift {
-    0%, 100% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
+  .hero__mosaic-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
-  .hero__dots {
+  /* Dark overlay for readability */
+  .hero__overlay {
     position: absolute;
     inset: 0;
-    background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px);
-    background-size: 24px 24px;
     z-index: 1;
+    background:
+      linear-gradient(180deg, rgba(10, 14, 26, 0.55) 0%, rgba(10, 14, 26, 0.8) 60%, #0a0e1a 100%),
+      radial-gradient(ellipse at center top, rgba(26, 16, 64, 0.4) 0%, transparent 70%);
   }
 
   .hero__inner {
@@ -359,15 +387,93 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     margin-bottom: 1.5rem;
   }
 
+  /* Quick links */
+  .quick-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+  }
+
+  .quick-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    text-decoration: none;
+    width: 64px;
+    transition: transform 0.2s;
+  }
+
+  .quick-link:hover {
+    transform: translateY(-3px);
+  }
+
+  .quick-link__img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(30, 41, 59, 0.7);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .quick-link:hover .quick-link__img {
+    border-color: #06d6a0;
+    box-shadow: 0 0 12px rgba(6, 214, 160, 0.3);
+  }
+
+  .quick-link__name {
+    font-family: var(--font-display);
+    font-size: 0.62rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-align: center;
+    line-height: 1.2;
+    max-width: 64px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    transition: color 0.2s;
+  }
+
+  .quick-link:hover .quick-link__name {
+    color: var(--text);
+  }
+
   @media (min-width: 640px) {
     .hero {
-      padding: 5.5rem 0 4rem;
+      padding: 5.5rem 0 3.5rem;
     }
     .hero__title {
       font-size: 3rem;
     }
     .hero__sub {
       font-size: 1.15rem;
+    }
+    .quick-links {
+      gap: 1.25rem;
+    }
+    .quick-link {
+      width: 72px;
+    }
+    .quick-link__img {
+      width: 52px;
+      height: 52px;
+    }
+    .quick-link__name {
+      font-size: 0.67rem;
+      max-width: 72px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .hero__mosaic {
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(2, 1fr);
     }
   }
 
