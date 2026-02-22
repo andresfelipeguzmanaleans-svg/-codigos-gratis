@@ -1,0 +1,615 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'IDs de Música para Roblox (2026) - 41,000+ Canciones y Sonidos';
+const description = 'Encuentra IDs de música para Roblox actualizados en 2026. Más de 41,000 canciones con buscador por título, artista o género. Copia el ID y úsalo en Brookhaven, Royale High y más.';
+
+const faqEntries = [
+  {
+    q: '¿Qué son los IDs de música en Roblox?',
+    a: 'Los IDs de música en Roblox son códigos numéricos únicos que identifican cada archivo de audio en la biblioteca de Roblox. Cada canción, efecto de sonido o audio subido a Roblox tiene un ID único que puedes usar para reproducir música en juegos compatibles como Brookhaven, Royale High, Boombox Island y cualquier experiencia que tenga un Boombox o radio.',
+  },
+  {
+    q: '¿Cómo usar IDs de música en Roblox?',
+    a: '1. Busca el ID de la canción que quieras en nuestra tabla. 2. Copia el ID haciendo clic en el botón "Copiar". 3. Abre el juego de Roblox que soporte música (Brookhaven, Royale High, etc.). 4. Busca el Boombox o la radio dentro del juego. 5. Pega el ID en el campo de entrada y dale play.',
+  },
+  {
+    q: '¿Por qué no funciona un ID de música?',
+    a: 'Puede haber varias razones: el audio fue eliminado por violar las normas de Roblox, el creador lo hizo privado, algunos juegos solo aceptan audios verificados, o el ID puede estar incorrecto. Prueba con otro ID de la misma canción o busca una versión alternativa.',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqEntries.map((e) => ({
+    '@type': 'Question',
+    name: e.q,
+    acceptedAnswer: { '@type': 'Answer', text: e.a },
+  })),
+};
+---
+
+<Layout title={title} description={description}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <Header />
+
+  <main class="main">
+    <div class="page-wrap">
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a> <span class="breadcrumbs__sep">›</span>
+        <span>Herramientas</span> <span class="breadcrumbs__sep">›</span>
+        <span>IDs de Música Roblox</span>
+      </nav>
+
+      <h1 class="page-title">IDs de Música para Roblox (2026) — 41,000+ Canciones</h1>
+
+      <p class="intro">
+        Busca entre más de 41,000 IDs de música para Roblox. Encuentra canciones por título, artista o género y copia el ID con un clic para usarlo en Brookhaven, Royale High, Boombox Island y más.
+      </p>
+
+      <!-- Search -->
+      <div class="search-box">
+        <input type="text" id="search-input" class="search-input" placeholder="Buscar por canción o artista..." autocomplete="off" />
+        <span class="search-icon">🔍</span>
+      </div>
+
+      <!-- Genre pills -->
+      <div class="genre-pills" id="genre-pills">
+        <button class="gpill gpill--active" data-genre="">Todos</button>
+        <button class="gpill" data-genre="pop">Pop</button>
+        <button class="gpill" data-genre="hip-hop">Hip-Hop</button>
+        <button class="gpill" data-genre="dance">Dance</button>
+        <button class="gpill" data-genre="rock">Rock</button>
+        <button class="gpill" data-genre="jazz">Jazz</button>
+        <button class="gpill" data-genre="film-score">Film Score</button>
+        <button class="gpill" data-genre="country">Country</button>
+        <button class="gpill" data-genre="classical">Classical</button>
+      </div>
+
+      <!-- Stats line -->
+      <p class="results-info" id="results-info">Cargando canciones...</p>
+
+      <!-- Results table -->
+      <div class="table-wrap">
+        <table class="music-table" id="music-table">
+          <thead>
+            <tr>
+              <th>Canción</th>
+              <th>Artista</th>
+              <th class="th-genre">Género</th>
+              <th>ID</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="music-tbody"></tbody>
+        </table>
+      </div>
+
+      <!-- Load more -->
+      <div class="loadmore-wrap" id="loadmore-wrap" style="display:none">
+        <button class="loadmore-btn" id="loadmore-btn">Cargar más</button>
+      </div>
+
+      <!-- SEO content -->
+      <section class="section">
+        <h2 class="section__title">¿Qué son los IDs de música en Roblox?</h2>
+        <p class="section__text">Los IDs de música en Roblox son códigos numéricos únicos que identifican cada archivo de audio en la biblioteca de Roblox. Cada canción, efecto de sonido o audio subido a la plataforma tiene un ID único (también llamado Asset ID o Sound ID) que puedes usar para reproducir música dentro de los juegos.</p>
+        <p class="section__text">Muchos juegos populares como <strong>Brookhaven RP</strong>, <strong>Royale High</strong>, <strong>Boombox Island</strong>, <strong>Da Hood</strong> y otros incluyen Boomboxes o radios donde puedes introducir un ID de música para escuchar tus canciones favoritas mientras juegas. En nuestra base de datos encontrarás más de <strong>41,000 IDs de música</strong> actualizados y verificados de todos los géneros.</p>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">¿Cómo usar IDs de música en Roblox?</h2>
+        <div class="steps-box">
+          <ol class="steps">
+            <li>Busca la canción que quieras en la tabla de arriba usando el buscador o los filtros de género</li>
+            <li>Haz clic en el botón <strong>Copiar</strong> junto al ID de la canción</li>
+            <li>Abre el juego de Roblox que soporte música (Brookhaven, Royale High, etc.)</li>
+            <li>Busca el Boombox o la radio dentro del juego y ábrelo</li>
+            <li>Pega el ID en el campo de entrada del Boombox y dale play</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">¿Por qué no funciona un ID de música?</h2>
+        <p class="section__text">Si un ID de música no funciona, puede deberse a varias razones:</p>
+        <div class="steps-box">
+          <ul class="troubleshoot">
+            <li><strong>Audio eliminado:</strong> Roblox elimina audios que violan sus normas de comunidad o derechos de autor. Desde marzo de 2022, Roblox implementó cambios estrictos en las políticas de audio.</li>
+            <li><strong>Audio privado:</strong> El creador del audio puede haberlo configurado como privado, lo que impide su uso por otros jugadores.</li>
+            <li><strong>Juego incompatible:</strong> Algunos juegos solo aceptan audios verificados o de una lista específica. Verifica que tu juego soporte IDs de música personalizados.</li>
+            <li><strong>ID incorrecto:</strong> Asegúrate de copiar el número completo sin espacios ni caracteres extra.</li>
+          </ul>
+        </div>
+        <p class="section__text">Si una canción no funciona, prueba a buscar una versión alternativa o un remix en nuestra base de datos.</p>
+      </section>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script>
+  const PAGE_SIZE = 50;
+  let allSongs: Array<{ title: string; artist: string; id: string; genre: string }> = [];
+  let filtered: typeof allSongs = [];
+  let shown = 0;
+  let currentGenre = '';
+  let currentQuery = '';
+  let debounceTimer: ReturnType<typeof setTimeout>;
+
+  const searchInput = document.getElementById('search-input') as HTMLInputElement;
+  const tbody = document.getElementById('music-tbody')!;
+  const info = document.getElementById('results-info')!;
+  const loadmoreWrap = document.getElementById('loadmore-wrap')!;
+  const loadmoreBtn = document.getElementById('loadmore-btn')!;
+  const pills = document.querySelectorAll<HTMLButtonElement>('.gpill');
+
+  // Load data
+  fetch('/data/music-ids.json')
+    .then((r) => r.json())
+    .then((data: { songs: typeof allSongs }) => {
+      allSongs = data.songs;
+      info.textContent = `${allSongs.length.toLocaleString('es-ES')} canciones disponibles`;
+      applyFilters();
+    })
+    .catch(() => {
+      info.textContent = 'Error al cargar las canciones. Recarga la página.';
+    });
+
+  function applyFilters() {
+    const q = currentQuery.toLowerCase().trim();
+    filtered = allSongs.filter((s) => {
+      if (currentGenre && s.genre !== currentGenre) return false;
+      if (q) {
+        return s.title.toLowerCase().includes(q) || s.artist.toLowerCase().includes(q);
+      }
+      return true;
+    });
+    shown = 0;
+    tbody.innerHTML = '';
+    renderBatch();
+    updateInfo();
+  }
+
+  function renderBatch() {
+    const batch = filtered.slice(shown, shown + PAGE_SIZE);
+    const fragment = document.createDocumentFragment();
+
+    for (const s of batch) {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td class="td-title">${esc(s.title)}</td><td class="td-artist">${esc(s.artist)}</td><td class="td-genre">${esc(formatGenre(s.genre))}</td><td class="td-id"><code>${s.id}</code></td><td class="td-copy"><button class="copy-btn" data-id="${s.id}">Copiar</button></td>`;
+      fragment.appendChild(tr);
+    }
+
+    tbody.appendChild(fragment);
+    shown += batch.length;
+
+    loadmoreWrap.style.display = shown < filtered.length ? '' : 'none';
+  }
+
+  function updateInfo() {
+    const total = filtered.length.toLocaleString('es-ES');
+    const label = currentGenre ? formatGenre(currentGenre) : 'todos los géneros';
+    if (currentQuery) {
+      info.textContent = `${total} resultados para "${currentQuery}" en ${label}`;
+    } else {
+      info.textContent = `${total} canciones — ${label}`;
+    }
+  }
+
+  function formatGenre(g: string): string {
+    if (!g) return '—';
+    return g.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+  }
+
+  function esc(s: string): string {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  // Search
+  searchInput.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      currentQuery = searchInput.value;
+      applyFilters();
+    }, 250);
+  });
+
+  // Genre pills
+  pills.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      pills.forEach((b) => b.classList.remove('gpill--active'));
+      btn.classList.add('gpill--active');
+      currentGenre = btn.dataset.genre || '';
+      applyFilters();
+    });
+  });
+
+  // Load more
+  loadmoreBtn.addEventListener('click', () => {
+    renderBatch();
+    updateInfo();
+  });
+
+  // Copy
+  tbody.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.copy-btn');
+    if (!btn) return;
+    const id = btn.dataset.id!;
+    navigator.clipboard.writeText(id).then(() => {
+      btn.textContent = '¡Copiado!';
+      btn.classList.add('copy-btn--ok');
+      setTimeout(() => {
+        btn.textContent = 'Copiar';
+        btn.classList.remove('copy-btn--ok');
+      }, 1500);
+    });
+  });
+</script>
+
+<style>
+  .main {
+    padding: 2rem 0 3rem;
+  }
+
+  .page-wrap {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .breadcrumbs {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-bottom: 1.25rem;
+  }
+
+  .breadcrumbs a {
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--accent);
+  }
+
+  .breadcrumbs__sep {
+    margin: 0 0.35rem;
+    opacity: 0.5;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .page-title {
+      font-size: 1.75rem;
+    }
+  }
+
+  .intro {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+
+  /* ---- Search ---- */
+  .search-box {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  .search-input {
+    width: 100%;
+    padding: 0.9rem 1rem 0.9rem 2.8rem;
+    background: var(--bg-card);
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .search-input:focus {
+    border-color: #06d6a0;
+    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
+  }
+
+  .search-input::placeholder {
+    color: var(--text-dim);
+    opacity: 0.6;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 0.9rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.1rem;
+    pointer-events: none;
+  }
+
+  /* ---- Genre pills ---- */
+  .genre-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .gpill {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.4rem 0.85rem;
+    background: transparent;
+    color: var(--text-dim);
+    border: 1.5px solid var(--border);
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .gpill:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .gpill--active {
+    background: #06d6a0;
+    border-color: #06d6a0;
+    color: #0a0e1a;
+  }
+
+  /* ---- Results info ---- */
+  .results-info {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    margin-bottom: 0.75rem;
+  }
+
+  /* ---- Table ---- */
+  .table-wrap {
+    overflow-x: auto;
+    margin-bottom: 1rem;
+  }
+
+  .music-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .music-table th {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-dim);
+    text-align: left;
+    padding: 0.65rem 0.75rem;
+    background: rgba(30, 41, 59, 0.3);
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+
+  .music-table td {
+    padding: 0.55rem 0.75rem;
+    font-size: 0.85rem;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .music-table tr:last-child td {
+    border-bottom: none;
+  }
+
+  .music-table tbody tr:nth-child(even) {
+    background: rgba(30, 41, 59, 0.18);
+  }
+
+  .music-table tbody tr:hover {
+    background: rgba(6, 214, 160, 0.06);
+  }
+
+  .td-title {
+    font-weight: 600;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .td-artist {
+    color: var(--text-dim);
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .td-genre {
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+
+  .td-id code {
+    font-family: var(--font-display);
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: rgba(6, 214, 160, 0.08);
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+
+  .td-copy {
+    text-align: right;
+  }
+
+  /* Hide genre column on mobile */
+  @media (max-width: 639px) {
+    .th-genre,
+    .td-genre {
+      display: none;
+    }
+  }
+
+  .copy-btn {
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.3rem 0.7rem;
+    background: transparent;
+    color: var(--accent);
+    border: 1.5px solid var(--accent);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .copy-btn:hover {
+    background: #06d6a0;
+    color: #0a0e1a;
+  }
+
+  .copy-btn--ok {
+    background: #06d6a0;
+    color: #0a0e1a;
+    border-color: #06d6a0;
+  }
+
+  /* ---- Load more ---- */
+  .loadmore-wrap {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .loadmore-btn {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.75rem 2.5rem;
+    background: transparent;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .loadmore-btn:hover {
+    background: #06d6a0;
+    color: #0a0e1a;
+  }
+
+  /* ---- Sections ---- */
+  .section {
+    margin-bottom: 2.25rem;
+  }
+
+  .section__title {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.85rem;
+    padding-left: 0.85rem;
+    border-left: 3px solid #06d6a0;
+  }
+
+  .section__text {
+    color: var(--text-dim);
+    font-size: 0.93rem;
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+  }
+
+  .section__text strong {
+    color: var(--text);
+  }
+
+  /* ---- Steps ---- */
+  .steps-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .steps {
+    list-style: none;
+    counter-reset: step;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .steps li {
+    counter-increment: step;
+    display: flex;
+    align-items: baseline;
+    gap: 0.65rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--text-dim);
+  }
+
+  .steps li::before {
+    content: counter(step);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.78rem;
+    color: #06d6a0;
+    background: rgba(6, 214, 160, 0.1);
+    min-width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .troubleshoot {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .troubleshoot li {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--text-dim);
+    padding-left: 1rem;
+    border-left: 2px solid var(--border);
+  }
+
+  .troubleshoot li strong {
+    color: var(--text);
+  }
+</style>
