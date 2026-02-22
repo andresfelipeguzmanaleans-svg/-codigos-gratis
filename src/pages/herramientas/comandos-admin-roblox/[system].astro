@@ -1,0 +1,309 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+
+const SYSTEM_CFG: Record<string, { color: string; icon: string }> = {
+  'hd-admin':    { color: '#ff6b9d', icon: '🛡️' },
+  'kohls-admin': { color: '#c084fc', icon: '⚡' },
+  'basic-admin': { color: '#22d3ee', icon: '🔧' },
+  'adonis-admin':{ color: '#fbbf24', icon: '👑' },
+};
+
+export function getStaticPaths() {
+  return ['hd-admin','kohls-admin','basic-admin','adonis-admin'].map(slug => ({ params: { system: slug } }));
+}
+
+const { system } = Astro.params;
+const cfg = SYSTEM_CFG[system!];
+if (!cfg) return Astro.redirect('/herramientas/comandos-admin-roblox/');
+
+type Cmd = { command: string; syntax: string; aliases: string[]; description: string; category: string; args: string[] };
+type SysData = { name: string; slug: string; description: string; prefix: string; commandCount: number; categories: string[]; commands: Cmd[] };
+type Data = { totalCommands: number; lastUpdated: string; systems: SysData[] };
+
+const data: Data = (await import('../../../../data/admin-commands.json', { with: { type: 'json' } })).default;
+const sys = data.systems.find(s => s.slug === system)!;
+if (!sys) return Astro.redirect('/herramientas/comandos-admin-roblox/');
+
+const title = `Comandos de ${sys.name} para Roblox — ${sys.commandCount} Comandos (2026)`;
+const description = `Lista completa de ${sys.commandCount} comandos de ${sys.name} para Roblox. Sintaxis, aliases y descripciones organizados por categoría.`;
+
+const catCounts: Record<string, number> = {};
+for (const cmd of sys.commands) catCounts[cmd.category] = (catCounts[cmd.category] || 0) + 1;
+
+const first50 = sys.commands.slice(0, 50);
+const otherSystems = data.systems.filter(s => s.slug !== system);
+
+const faqSchema = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: [
+    { '@type': 'Question', name: `¿Cuántos comandos tiene ${sys.name}?`, acceptedAnswer: { '@type': 'Answer', text: `${sys.name} tiene ${sys.commandCount} comandos organizados en ${sys.categories.length} categorías. Todos usan el prefijo "${sys.prefix}" en el chat del juego.` } },
+    { '@type': 'Question', name: `¿Cuál es el prefijo de ${sys.name}?`, acceptedAnswer: { '@type': 'Answer', text: `El prefijo de ${sys.name} es "${sys.prefix}". Escribe el prefijo seguido del nombre del comando en el chat del juego para ejecutarlo.` } },
+    { '@type': 'Question', name: `¿Cómo instalar ${sys.name} en mi juego de Roblox?`, acceptedAnswer: { '@type': 'Answer', text: `Abre Roblox Studio, ve a la Toolbox, busca "${sys.name}", inserta el modelo en tu juego y configura los permisos según las instrucciones del módulo.` } },
+    { '@type': 'Question', name: `¿${sys.name} es gratis?`, acceptedAnswer: { '@type': 'Answer', text: `Sí, ${sys.name} es un módulo gratuito disponible en la Toolbox de Roblox Studio. Cualquier desarrollador puede añadirlo a su juego sin costo.` } },
+  ],
+};
+
+const systemParam = system;
+---
+
+<Layout title={title} description={description}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <div class="admin-page">
+  <Header />
+  <main class="main">
+    <div class="page-wrap">
+
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a> <span class="sep">›</span>
+        <a href="/herramientas/comandos-admin-roblox/">Comandos Admin</a> <span class="sep">›</span>
+        <span>{sys.name}</span>
+      </nav>
+
+      <div class="hero">
+        <h1 class="hero__title" style={`--sc:${cfg.color}`}>
+          Comandos de <span class="hero__system">{sys.name}</span>
+          <br/><span class="hero__sub">{sys.commandCount} Comandos</span>
+        </h1>
+        <p class="hero__info">Prefijo: <code class="hero__prefix">{sys.prefix}</code> · {sys.categories.length} categorías · Actualizado {data.lastUpdated}</p>
+        <div class="search-box">
+          <span class="search-box__icon">🔍</span>
+          <input type="text" id="q" class="search-box__input" placeholder={`Buscar en ${sys.name}...`} autocomplete="off" />
+        </div>
+      </div>
+
+      <div class="pills" id="pills">
+        <button class="pill pill--active" data-cat="" style={`--gc:${cfg.color}`}>Todos <span class="pill__count">({sys.commandCount})</span></button>
+        {sys.categories.map(cat => (
+          <button class="pill" data-cat={cat} style={`--gc:${cfg.color}`}>
+            {cat} <span class="pill__count">({catCounts[cat] || 0})</span>
+          </button>
+        ))}
+      </div>
+
+      <p class="info" id="info">{sys.commandCount} comandos — todas las categorías</p>
+
+      <div class="grid" id="grid">
+        {first50.map(cmd => (
+          <div class="cmd-card" data-cat={cmd.category}>
+            <div class="cmd-card__header">
+              <code class="cmd-card__syntax">{cmd.syntax}</code>
+              <button class="cmd-card__copy" data-syntax={cmd.syntax}>Copiar</button>
+            </div>
+            {cmd.aliases.length > 0 && (
+              <p class="cmd-card__aliases">
+                <span class="cmd-card__aliases-label">Aliases</span>
+                <span>{cmd.aliases.join(', ')}</span>
+              </p>
+            )}
+            {cmd.description && <p class="cmd-card__desc">{cmd.description}</p>}
+            <span class="cmd-card__cat" style={`color:${cfg.color};border-color:${cfg.color}33`}>{cmd.category}</span>
+          </div>
+        ))}
+      </div>
+
+      <div class="more-wrap" id="more-wrap" style={sys.commands.length <= 50 ? 'display:none' : ''}>
+        <button class="more-btn" id="more-btn">Cargar más comandos de {sys.name}</button>
+      </div>
+
+      <!-- Other systems -->
+      <section class="seo">
+        <h2 class="seo__h2">Otros sistemas de admin</h2>
+        <div class="other-systems">
+          {otherSystems.map(s => (
+            <a href={`/herramientas/comandos-admin-roblox/${s.slug}/`} class="other-card" style={`--sc:${SYSTEM_CFG[s.slug].color}`}>
+              <span class="other-card__icon">{SYSTEM_CFG[s.slug].icon}</span>
+              <span class="other-card__name">{s.name}</span>
+              <span class="other-card__count">{s.commandCount} comandos</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <section class="seo">
+        <h2 class="seo__h2">Comandos de {sys.name} para Roblox</h2>
+        <p>{sys.description}</p>
+        <p>Todos los {sys.commandCount} comandos están organizados en <strong>{sys.categories.length} categorías</strong>: {sys.categories.join(', ')}. Usa el buscador y los filtros de categoría para encontrar el comando que necesitas.</p>
+      </section>
+
+      <section class="seo">
+        <h2 class="seo__h2">¿Cómo usar comandos de {sys.name}?</h2>
+        <div class="steps-box">
+          <ol class="steps">
+            <li>Asegúrate de que el juego tiene {sys.name} instalado</li>
+            <li>Abre el chat del juego presionando <code>/</code></li>
+            <li>Escribe el prefijo <code>{sys.prefix}</code> seguido del comando</li>
+            <li>Añade los argumentos necesarios (jugador, número, etc.)</li>
+            <li>Presiona Enter para ejecutar el comando</li>
+          </ol>
+        </div>
+      </section>
+
+    </div>
+  </main>
+  <Footer />
+  </div>
+</Layout>
+
+<script define:vars={{ systemParam }}>
+  window.__SYSTEM_FILTER = systemParam;
+</script>
+
+<script>
+  const PAGE = 50;
+  const SYSTEM_FILTER = (window as any).__SYSTEM_FILTER as string;
+  const SYS_COLORS: Record<string,string> = {'hd-admin':'#ff6b9d','kohls-admin':'#c084fc','basic-admin':'#22d3ee','adonis-admin':'#fbbf24'};
+  const SC = SYS_COLORS[SYSTEM_FILTER] || '#06d6a0';
+
+  type Cmd = {command:string;syntax:string;aliases:string[];description:string;category:string;args:string[]};
+  let all: Cmd[] = [];
+  let filtered: Cmd[] = [];
+  let shown = 0;
+  let category = '';
+  let query = '';
+  let loaded = false;
+  let timer: ReturnType<typeof setTimeout>;
+
+  const grid = document.getElementById('grid')!;
+  const info = document.getElementById('info')!;
+  const moreWrap = document.getElementById('more-wrap')!;
+  const moreBtn = document.getElementById('more-btn')!;
+  const input = document.getElementById('q') as HTMLInputElement;
+  const pillBtns = document.querySelectorAll<HTMLElement>('#pills .pill');
+
+  function esc(s:string){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+
+  function cardHTML(cmd:Cmd){
+    const aliasLine = cmd.aliases.length > 0
+      ? `<p class="cmd-card__aliases"><span class="cmd-card__aliases-label">Aliases</span><span>${esc(cmd.aliases.join(', '))}</span></p>`
+      : '';
+    const descLine = cmd.description ? `<p class="cmd-card__desc">${esc(cmd.description)}</p>` : '';
+    return `<div class="cmd-card" data-cat="${esc(cmd.category)}"><div class="cmd-card__header"><code class="cmd-card__syntax">${esc(cmd.syntax)}</code><button class="cmd-card__copy" data-syntax="${esc(cmd.syntax)}">Copiar</button></div>${aliasLine}${descLine}<span class="cmd-card__cat" style="color:${SC};border-color:${SC}33">${esc(cmd.category)}</span></div>`;
+  }
+
+  function render(){
+    const batch = filtered.slice(shown, shown + PAGE);
+    if(shown === 0) grid.innerHTML = batch.map(cardHTML).join('');
+    else grid.insertAdjacentHTML('beforeend', batch.map(cardHTML).join(''));
+    shown += batch.length;
+    moreWrap.style.display = shown < filtered.length ? '' : 'none';
+    const t = filtered.length.toLocaleString('es-ES');
+    const label = category || 'todas las categorías';
+    info.textContent = query ? `${t} resultados para "${query}" en ${label}` : `${t} comandos — ${label}`;
+  }
+
+  function apply(){
+    const q = query.toLowerCase().trim();
+    filtered = all.filter(cmd => {
+      if(category && cmd.category !== category) return false;
+      if(q) return cmd.command.toLowerCase().includes(q) || cmd.aliases.some(a => a.toLowerCase().includes(q)) || cmd.description.toLowerCase().includes(q) || cmd.syntax.toLowerCase().includes(q);
+      return true;
+    });
+    shown = 0;
+    render();
+  }
+
+  input.addEventListener('input', ()=>{
+    clearTimeout(timer);
+    timer = setTimeout(()=>{ query = input.value; if(loaded) apply(); }, 250);
+  });
+
+  pillBtns.forEach(btn => {
+    btn.addEventListener('click', ()=>{
+      pillBtns.forEach(b => b.classList.remove('pill--active'));
+      btn.classList.add('pill--active');
+      category = btn.dataset.cat || '';
+      if(loaded) apply();
+    });
+  });
+
+  moreBtn.addEventListener('click', ()=>{ if(loaded) render(); });
+
+  grid.addEventListener('click', e=>{
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.cmd-card__copy');
+    if(!btn) return;
+    navigator.clipboard.writeText(btn.dataset.syntax!).then(()=>{
+      btn.textContent = '✓ Copiado';
+      btn.classList.add('cmd-card__copy--ok');
+      setTimeout(()=>{ btn.textContent = 'Copiar'; btn.classList.remove('cmd-card__copy--ok'); }, 2000);
+    });
+  });
+
+  fetch('/data/admin-commands.json')
+    .then(r=>r.json())
+    .then((d:any)=>{
+      const sys = d.systems.find((s:any)=>s.slug===SYSTEM_FILTER);
+      if(!sys) return;
+      all = sys.commands;
+      filtered = all;
+      loaded = true;
+      shown = 50;
+      moreWrap.style.display = filtered.length > 50 ? '' : 'none';
+    });
+</script>
+
+<style is:global>
+  .admin-page .main{padding:0 0 3rem}
+  .admin-page .page-wrap{width:100%;max-width:960px;margin:0 auto;padding:0 1rem}
+
+  .admin-page .breadcrumbs{font-size:.82rem;color:var(--text-dim);padding:1.25rem 0 0}
+  .admin-page .breadcrumbs a{color:var(--text-dim);text-decoration:none;transition:color .2s}
+  .admin-page .breadcrumbs a:hover{color:var(--accent)}
+  .admin-page .sep{margin:0 .35rem;opacity:.5}
+
+  .admin-page .hero{text-align:center;padding:2rem 0 1.25rem}
+  .admin-page .hero__title{font-family:var(--font-display);font-size:1.5rem;font-weight:700;line-height:1.25;margin-bottom:.5rem}
+  .admin-page .hero__system{color:var(--sc)}
+  .admin-page .hero__sub{font-size:1.15rem;color:var(--text-dim);font-weight:400}
+  @media(min-width:640px){.admin-page .hero__title{font-size:2rem}.admin-page .hero__sub{font-size:1.3rem}}
+  .admin-page .hero__info{font-size:.85rem;color:var(--text-dim);margin-bottom:1.25rem}
+  .admin-page .hero__prefix{font-family:var(--font-display);font-size:1rem;font-weight:700;color:var(--accent);background:rgba(6,214,160,.1);padding:.1rem .4rem;border-radius:6px}
+
+  .admin-page .search-box{position:relative;max-width:560px;margin:0 auto 1rem}
+  .admin-page .search-box__icon{position:absolute;left:1rem;top:50%;transform:translateY(-50%);font-size:1.1rem;pointer-events:none}
+  .admin-page .search-box__input{width:100%;padding:.9rem 1rem .9rem 2.8rem;background:var(--bg-card);border:2px solid var(--border);border-radius:12px;color:var(--text);font-family:var(--font-body);font-size:1rem;outline:none;transition:border-color .2s,box-shadow .2s}
+  .admin-page .search-box__input:focus{border-color:#06d6a0;box-shadow:0 0 0 4px rgba(6,214,160,.15),0 0 20px rgba(6,214,160,.1)}
+  .admin-page .search-box__input::placeholder{color:var(--text-dim);opacity:.6}
+
+  .admin-page .pills{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.75rem;justify-content:center}
+  .admin-page .pill{font-family:var(--font-display);font-size:.72rem;font-weight:700;padding:.4rem .8rem;background:transparent;color:var(--text-dim);border:1.5px solid var(--border);border-radius:9999px;cursor:pointer;transition:all .2s}
+  .admin-page .pill:hover{border-color:var(--gc,var(--accent));color:var(--gc,var(--accent))}
+  .admin-page .pill--active{background:var(--gc,#06d6a0);border-color:var(--gc,#06d6a0);color:#0a0e1a}
+  .admin-page .pill__count{opacity:.65;font-weight:400}
+
+  .admin-page .info{font-size:.8rem;color:var(--text-dim);margin-bottom:.75rem;text-align:center}
+
+  .admin-page .grid{display:grid;grid-template-columns:1fr;gap:.65rem;margin-bottom:1.25rem}
+  @media(min-width:640px){.admin-page .grid{grid-template-columns:1fr 1fr}}
+
+  .admin-page .cmd-card{background:#111827;border:1px solid var(--border);border-radius:12px;padding:1rem;transition:transform .2s,box-shadow .2s,border-color .2s}
+  .admin-page .cmd-card:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(6,214,160,.08);border-color:rgba(6,214,160,.2)}
+  .admin-page .cmd-card__header{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin-bottom:.4rem}
+  .admin-page .cmd-card__syntax{font-family:var(--font-display);font-size:.85rem;font-weight:700;color:#06d6a0;word-break:break-all;line-height:1.3}
+  .admin-page .cmd-card__copy{font-family:var(--font-display);font-size:.68rem;font-weight:700;padding:.28rem .65rem;background:transparent;color:var(--accent);border:1.5px solid var(--accent);border-radius:8px;cursor:pointer;transition:all .2s;white-space:nowrap;flex-shrink:0}
+  .admin-page .cmd-card__copy:hover,.admin-page .cmd-card__copy--ok{background:#06d6a0;color:#0a0e1a;border-color:#06d6a0}
+  .admin-page .cmd-card__aliases{font-size:.73rem;color:var(--text-dim);margin-bottom:.3rem}
+  .admin-page .cmd-card__aliases-label{font-weight:700;text-transform:uppercase;letter-spacing:.15em;font-size:.62rem;opacity:.6;margin-right:.35rem}
+  .admin-page .cmd-card__desc{font-size:.8rem;color:var(--text-dim);line-height:1.45;margin-bottom:.45rem}
+  .admin-page .cmd-card__cat{display:inline-block;font-family:var(--font-display);font-size:.6rem;font-weight:700;padding:.12rem .45rem;border:1px solid;border-radius:9999px;white-space:nowrap}
+
+  .admin-page .more-wrap{text-align:center;padding:.5rem 0 1.5rem}
+  .admin-page .more-btn{font-family:var(--font-display);font-size:.85rem;font-weight:700;padding:.75rem 2rem;background:transparent;color:var(--accent);border:2px solid var(--accent);border-radius:12px;cursor:pointer;transition:all .2s}
+  .admin-page .more-btn:hover{background:#06d6a0;color:#0a0e1a;border-color:#06d6a0}
+
+  .admin-page .other-systems{display:grid;grid-template-columns:1fr;gap:.65rem;margin-top:1rem}
+  @media(min-width:640px){.admin-page .other-systems{grid-template-columns:repeat(3,1fr)}}
+  .admin-page .other-card{display:flex;flex-direction:column;align-items:center;gap:.35rem;padding:1rem;background:#111827;border:1px solid var(--border);border-radius:12px;text-decoration:none;transition:all .2s}
+  .admin-page .other-card:hover{border-color:var(--sc);transform:translateY(-2px);box-shadow:0 4px 20px rgba(0,0,0,.2)}
+  .admin-page .other-card__icon{font-size:1.5rem}
+  .admin-page .other-card__name{font-family:var(--font-display);font-size:.9rem;font-weight:700;color:var(--text)}
+  .admin-page .other-card__count{font-size:.75rem;color:var(--text-dim)}
+
+  .admin-page .seo{margin:2rem 0}
+  .admin-page .seo__h2{font-family:var(--font-display);font-size:1.15rem;font-weight:700;margin-bottom:.75rem}
+  .admin-page .seo p{font-size:.92rem;line-height:1.7;color:var(--text-dim);margin-bottom:.75rem}
+  .admin-page .steps-box{background:#111827;border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.25rem 1.25rem 2rem}
+  .admin-page .steps{margin:0;padding:0 0 0 1rem;color:var(--text-dim);font-size:.9rem;line-height:2}
+  .admin-page .steps code{font-family:var(--font-display);font-size:.95rem;font-weight:700;color:var(--accent);background:rgba(6,214,160,.1);padding:.1rem .35rem;border-radius:4px}
+</style>
