@@ -30,7 +30,7 @@ const validThumb = image && image.startsWith('https://tr.rbxcdn.com');
   <div class="card__body">
     <h2 class="card__name">{name}</h2>
     <div class="card__meta">
-      <span class="card__badge">{activeCodes} códigos</span>
+      <span class={`card__badge${activeCodes === 0 ? ' card__badge--zero' : ''}`}>{activeCodes} códigos</span>
       <span class="card__date">Actualizado {dateLabel}</span>
     </div>
   </div>
@@ -118,6 +118,12 @@ const validThumb = image && image.startsWith('https://tr.rbxcdn.com');
     padding: 0.25rem 0.7rem;
     border-radius: 9999px;
     border: 1px solid rgba(6, 214, 160, 0.2);
+  }
+
+  .card__badge--zero {
+    color: var(--text-dim);
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.1);
   }
 
   .card__date {

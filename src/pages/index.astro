@@ -36,7 +36,12 @@ const recentSlugs = new Set(recentGames.map(g => g.slug));
 // Popular 8 (excluding recent to avoid duplication)
 const popularGames = [...allGames]
   .filter((g) => g.totalVisits && g.totalVisits > 0 && !recentSlugs.has(g.slug))
-  .sort((a, b) => (b.totalVisits || 0) - (a.totalVisits || 0))
+  .sort((a, b) => {
+    const aHas = a.activeCodes.length > 0 ? 1 : 0;
+    const bHas = b.activeCodes.length > 0 ? 1 : 0;
+    if (bHas !== aHas) return bHas - aHas;
+    return (b.totalVisits || 0) - (a.totalVisits || 0);
+  })
   .slice(0, 8);
 
 // All games sorted by lastUpdated
@@ -126,7 +131,7 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     <!-- Actualizados recientemente — slider -->
     <section class="section container slider-section">
       <div class="section__header">
-        <h2 class="section__title"><span class="slider-live"></span> Actualizados recientemente</h2>
+        <h2 class="section__title"><span class="slider-live"></span> Códigos Actualizados Hoy</h2>
       </div>
       <div class="slider-wrap">
         <button class="slider-arrow slider-arrow--left" id="slider-left" aria-label="Anterior">
@@ -150,7 +155,7 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
                 <div class="slider-card__body">
                   <h3 class="slider-card__name">{game.name}</h3>
                   <div class="slider-card__meta">
-                    <span class="slider-card__badge">{game.activeCodes.length} códigos</span>
+                    <span class={`slider-card__badge${game.activeCodes.length === 0 ? ' slider-card__badge--zero' : ''}`}>{game.activeCodes.length} códigos</span>
                     <span class="slider-card__date">{date}</span>
                   </div>
                 </div>
@@ -169,7 +174,7 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     {popularGames.length > 0 && (
       <section class="section container">
         <div class="section__header">
-          <h2 class="section__title">Juegos más populares</h2>
+          <h2 class="section__title">Códigos de los Juegos Más Populares</h2>
         </div>
         <div class="games-grid games-grid--animated">
           {popularGames.map((game) => (
@@ -188,7 +193,7 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     <!-- Buscar por categoría -->
     <section class="section container">
       <div class="section__header">
-        <h2 class="section__title">Buscar por categoría</h2>
+        <h2 class="section__title">Códigos por Categoría</h2>
       </div>
       <div class="categories" id="categories">
         {categories.map((cat) => (
@@ -201,7 +206,7 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     <!-- Herramientas -->
     <section class="section container">
       <div class="section__header">
-        <h2 class="section__title">Herramientas</h2>
+        <h2 class="section__title">Herramientas Gratis para Roblox</h2>
       </div>
       <div class="tools-grid">
         <a href="/herramientas/calculadora-robux/" class="tool-card">
@@ -245,7 +250,7 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     <!-- Todos los juegos -->
     <section class="section container">
       <div class="section__header">
-        <h2 class="section__title">Todos los juegos</h2>
+        <h2 class="section__title">Todos los Códigos de Roblox</h2>
       </div>
       <div class="games-grid" id="all-games-grid">
         {sortedGames.slice(0, 20).map((game) => (
@@ -323,7 +328,8 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     const imgHtml = thumb
       ? `<img src="${thumb}" alt="${g.name}" class="card__img" loading="lazy" />`
       : `<div class="card__placeholder"><span class="card__placeholder-text">${g.name}</span></div>`;
-    return `<a href="/${g.slug}/" class="card"><div class="card__img-wrap">${imgHtml}</div><div class="card__body"><h2 class="card__name">${g.name}</h2><div class="card__meta"><span class="card__badge">${g.activeCodes} códigos</span><span class="card__date">Actualizado ${date}</span></div></div></a>`;
+    const badgeClass = g.activeCodes === 0 ? 'card__badge card__badge--zero' : 'card__badge';
+    return `<a href="/${g.slug}/" class="card"><div class="card__img-wrap">${imgHtml}</div><div class="card__body"><h2 class="card__name">${g.name}</h2><div class="card__meta"><span class="${badgeClass}">${g.activeCodes} códigos</span><span class="card__date">Actualizado ${date}</span></div></div></a>`;
   }
 
   catButtons.forEach(btn => {
@@ -686,6 +692,12 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     padding: 0.2rem 0.55rem;
     border-radius: 9999px;
     border: 1px solid rgba(6, 214, 160, 0.2);
+  }
+
+  .slider-card__badge--zero {
+    color: var(--text-dim);
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.1);
   }
 
   .slider-card__date {
@@ -1245,6 +1257,13 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     padding: 0.25rem 0.7rem;
     border-radius: 9999px;
     border: 1px solid rgba(6, 214, 160, 0.2);
+  }
+
+  .category-grid .card__badge--zero,
+  #all-games-grid .card__badge--zero {
+    color: var(--text-dim);
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.1);
   }
 
   .category-grid .card__date,
