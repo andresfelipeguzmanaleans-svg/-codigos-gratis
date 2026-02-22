@@ -1,0 +1,113 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Términos de Uso — Códigos Gratis"
+  description="Términos y condiciones de uso de códigosgratis.com."
+>
+  <Header />
+
+  <main class="main">
+    <div class="page-wrap">
+      <h1 class="page-title">Términos de uso</h1>
+
+      <div class="content">
+        <p><strong>Última actualización:</strong> febrero 2026</p>
+
+        <p>
+          Al acceder y utilizar <strong>códigosgratis.com</strong>, aceptas los siguientes términos y
+          condiciones. Si no estás de acuerdo, te pedimos que no utilices este sitio.
+        </p>
+
+        <h2>Contenido informativo</h2>
+        <p>
+          Todo el contenido publicado en este sitio tiene carácter exclusivamente informativo. Los
+          códigos que listamos son publicados por los desarrolladores de cada juego. Nos limitamos a
+          recopilarlos y organizarlos para facilitar su acceso.
+        </p>
+
+        <h2>Sin garantías</h2>
+        <p>
+          No garantizamos que los códigos publicados funcionen en todo momento. Los desarrolladores
+          pueden desactivar o modificar códigos sin previo aviso. Hacemos nuestro mejor esfuerzo para
+          mantener la información actualizada, pero no podemos garantizar su exactitud en todo momento.
+        </p>
+
+        <h2>Propiedad de los códigos</h2>
+        <p>
+          Los códigos promocionales son creados y distribuidos por los desarrolladores de cada juego.
+          códigosgratis.com no crea, genera ni modifica códigos de ningún tipo. Simplemente recopilamos
+          códigos que han sido publicados públicamente.
+        </p>
+
+        <h2>Sin afiliación</h2>
+        <p>
+          códigosgratis.com no está afiliado, asociado ni respaldado por Roblox Corporation ni por
+          ningún desarrollador de juegos listados en este sitio. Somos un sitio independiente creado
+          por y para la comunidad de jugadores.
+        </p>
+
+        <h2>Uso aceptable</h2>
+        <p>
+          Al utilizar este sitio, te comprometes a no hacer un uso indebido del mismo, incluyendo
+          pero no limitado a: intentar acceder a áreas restringidas, realizar ataques al servidor,
+          copiar el contenido de forma masiva o utilizar bots para extraer información.
+        </p>
+
+        <h2>Modificaciones</h2>
+        <p>
+          Nos reservamos el derecho de modificar estos términos en cualquier momento. Los cambios
+          entrarán en vigor en el momento de su publicación en esta página.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .main {
+    padding: 2rem 0 3rem;
+  }
+
+  .page-wrap {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  .content {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .content p {
+    margin-bottom: 1.25rem;
+  }
+
+  .content h2 {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .content strong {
+    color: var(--accent);
+  }
+</style>

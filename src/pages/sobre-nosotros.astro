@@ -1,0 +1,95 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Sobre Nosotros — Códigos Gratis"
+  description="Conoce quiénes somos y qué hacemos en códigosgratis.com, tu fuente de códigos actualizados para juegos de Roblox."
+>
+  <Header />
+
+  <main class="main">
+    <div class="page-wrap">
+      <h1 class="page-title">Sobre nosotros</h1>
+
+      <div class="content">
+        <p>
+          <strong>códigosgratis.com</strong> es un sitio web dedicado a recopilar y compartir códigos
+          promocionales para juegos de Roblox y otras plataformas. Nuestro objetivo es ofrecer una
+          fuente actualizada y fiable donde los jugadores puedan encontrar los códigos más recientes
+          para sus juegos favoritos.
+        </p>
+
+        <h2>¿Qué hacemos?</h2>
+        <p>
+          Revisamos diariamente los códigos de cientos de juegos para asegurarnos de que la información
+          que ofrecemos está al día. Cuando un desarrollador publica un nuevo código, lo añadimos lo
+          antes posible. Cuando un código expira, lo movemos a la sección de expirados para que no
+          pierdas el tiempo intentando canjearlo.
+        </p>
+
+        <h2>¿Cómo obtenemos los códigos?</h2>
+        <p>
+          Los códigos que publicamos provienen de fuentes oficiales: redes sociales de los
+          desarrolladores (Twitter/X, Discord, YouTube), páginas de comunidades y anuncios dentro de los
+          propios juegos. No inventamos ni generamos códigos; todos son publicados por los creadores
+          de cada juego.
+        </p>
+
+        <h2>Nuestro compromiso</h2>
+        <p>
+          Nos esforzamos por mantener la información precisa y actualizada. Si encuentras un código
+          que no funciona o conoces uno que no hemos listado, no dudes en hacérnoslo saber. Estamos
+          aquí para ayudar a la comunidad de jugadores hispanohablantes.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .main {
+    padding: 2rem 0 3rem;
+  }
+
+  .page-wrap {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  .content {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .content p {
+    margin-bottom: 1.25rem;
+  }
+
+  .content h2 {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .content strong {
+    color: var(--accent);
+  }
+</style>

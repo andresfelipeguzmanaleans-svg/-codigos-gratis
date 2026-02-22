@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import CodeItem from '../components/CodeItem.astro';
+import GameCard from '../components/GameCard.astro';
 import Footer from '../components/Footer.astro';
 
 interface GameData {
@@ -31,13 +32,25 @@ export async function getStaticPaths() {
     import: 'default',
   });
 
-  return Object.values(gameModules).map((game) => ({
+  const allGames = Object.values(gameModules);
+
+  return allGames.map((game) => ({
     params: { slug: game.slug },
-    props: { game },
+    props: { game, allGames },
   }));
 }
 
-const { game } = Astro.props;
+const { game, allGames } = Astro.props;
+
+// Pick 4 random related games with active codes
+const candidates = (allGames as GameData[]).filter(
+  (g) => g.slug !== game.slug && g.activeCodes.length > 0
+);
+for (let i = candidates.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
+}
+const relatedGames = candidates.slice(0, 4);
 
 const dateLabel = new Date(game.lastUpdated).toLocaleDateString('es-ES', {
   day: 'numeric',
@@ -114,6 +127,12 @@ const faqSchema = {
 
   <main class="main">
     <div class="page-wrap">
+      <!-- Breadcrumbs -->
+      <nav class="breadcrumbs">
+        <a href="/">Inicio</a> <span class="breadcrumbs__sep">›</span>
+        <span>Códigos de {game.name}</span>
+      </nav>
+
       <!-- Hero -->
       <section class="hero">
         <div class="hero__img-wrap">
@@ -179,9 +198,13 @@ const faqSchema = {
       {game.activeCodes.length > 0 && (
         <section class="section">
           <h2 class="section__title">Códigos activos</h2>
+          <p class="codes-check">Última comprobación: {dateLabel}</p>
           <div class="codes-list">
-            {game.activeCodes.map((c) => (
-              <CodeItem code={c.code} reward={c.reward} />
+            {game.activeCodes.map((c, i) => (
+              <div class="code-numbered">
+                <span class="code-number">{i + 1}</span>
+                <CodeItem code={c.code} reward={c.reward} />
+              </div>
             ))}
           </div>
         </section>
@@ -236,6 +259,78 @@ const faqSchema = {
         <section class="section">
           <h2 class="section__title">¿Cómo conseguir más códigos de {game.name}?</h2>
           <p class="section__text">{game.howToGetCodes}</p>
+        </section>
+      )}
+
+      <!-- ¿Por qué no funcionan los códigos? -->
+      <section class="section">
+        <h2 class="section__title">¿Por qué no funcionan los códigos?</h2>
+        <div class="reasons-box">
+          <ul class="reasons-list">
+            <li><strong>El código ha expirado:</strong> los desarrolladores desactivan códigos sin previo aviso. Consulta nuestra lista de códigos expirados más arriba.</li>
+            <li><strong>Error al escribirlo:</strong> copia y pega el código directamente para evitar errores tipográficos. Las mayúsculas y minúsculas importan.</li>
+            <li><strong>Ya lo canjeaste antes:</strong> cada código solo se puede usar una vez por cuenta.</li>
+            <li><strong>Tu cuenta no cumple los requisitos:</strong> algunos códigos requieren un nivel mínimo o haber completado cierto tutorial.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Tabla sobre el juego -->
+      {(game.genre || game.totalVisits || game.likes || game.placeId) && (
+        <section class="section">
+          <h2 class="section__title">Sobre {game.name}</h2>
+          <div class="info-table-wrap">
+            <table class="info-table">
+              <tbody>
+                {game.genre && (
+                  <tr>
+                    <td class="info-table__label">Género</td>
+                    <td class="info-table__value">{game.genre}</td>
+                  </tr>
+                )}
+                {game.totalVisits && (
+                  <tr>
+                    <td class="info-table__label">Visitas totales</td>
+                    <td class="info-table__value">{game.totalVisits.toLocaleString('es-ES')}</td>
+                  </tr>
+                )}
+                {game.likes && (
+                  <tr>
+                    <td class="info-table__label">Likes</td>
+                    <td class="info-table__value">{game.likes.toLocaleString('es-ES')}</td>
+                  </tr>
+                )}
+                {game.placeId && (
+                  <tr>
+                    <td class="info-table__label">Enlace Roblox</td>
+                    <td class="info-table__value">
+                      <a href={`https://www.roblox.com/games/${game.placeId}`} target="_blank" rel="noopener noreferrer" class="info-table__link">
+                        Jugar en Roblox
+                      </a>
+                    </td>
+                  </tr>
+                )}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      <!-- Más juegos con códigos -->
+      {relatedGames.length > 0 && (
+        <section class="section">
+          <h2 class="section__title">Más juegos con códigos</h2>
+          <div class="related-grid">
+            {relatedGames.map((g) => (
+              <GameCard
+                name={g.name}
+                slug={g.slug}
+                image={g.thumbnail}
+                activeCodes={g.activeCodes.length}
+                lastUpdated={g.lastUpdated}
+              />
+            ))}
+          </div>
         </section>
       )}
     </div>
@@ -487,5 +582,154 @@ const faqSchema = {
 
   .roblox-link:hover {
     opacity: 0.85;
+  }
+
+  /* ---- Breadcrumbs ---- */
+  .breadcrumbs {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-bottom: 1.25rem;
+  }
+
+  .breadcrumbs a {
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--accent);
+  }
+
+  .breadcrumbs__sep {
+    margin: 0 0.35rem;
+    opacity: 0.5;
+  }
+
+  /* ---- Última comprobación ---- */
+  .codes-check {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-bottom: 0.75rem;
+  }
+
+  /* ---- Códigos numerados ---- */
+  .code-numbered {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .code-number {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: var(--accent);
+    background: rgba(6, 214, 160, 0.1);
+    min-width: 1.75rem;
+    height: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .code-numbered :global(.code-item) {
+    flex: 1;
+    min-width: 0;
+  }
+
+  /* ---- Por qué no funcionan ---- */
+  .reasons-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .reasons-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .reasons-list li {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--text-dim);
+    padding-left: 1.25rem;
+    position: relative;
+  }
+
+  .reasons-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--accent-hot);
+    font-weight: 700;
+  }
+
+  .reasons-list li strong {
+    color: var(--text);
+  }
+
+  /* ---- Tabla info ---- */
+  .info-table-wrap {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .info-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .info-table tr:not(:last-child) {
+    border-bottom: 1px solid var(--border);
+  }
+
+  .info-table td {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .info-table__label {
+    color: var(--text-dim);
+    width: 40%;
+    font-weight: 600;
+  }
+
+  .info-table__value {
+    color: var(--text);
+  }
+
+  .info-table__link {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.2s;
+  }
+
+  .info-table__link:hover {
+    opacity: 0.8;
+  }
+
+  /* ---- Juegos relacionados ---- */
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .related-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
 </style>

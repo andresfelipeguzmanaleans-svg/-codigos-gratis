@@ -5,6 +5,12 @@ const year = new Date().getFullYear();
 <footer class="footer">
   <div class="container footer__inner">
     <p class="footer__copy">&copy; {year} códigosgratis.com</p>
+    <nav class="footer__links">
+      <a href="/sobre-nosotros/">Sobre nosotros</a>
+      <a href="/politica-de-privacidad/">Privacidad</a>
+      <a href="/terminos-de-uso/">Términos</a>
+      <a href="/disclaimer/">Disclaimer</a>
+    </nav>
     <p class="footer__disclaimer">
       No estamos afiliados, asociados ni respaldados por Roblox Corporation. Roblox y los logos de Roblox son marcas registradas de Roblox Corporation.
     </p>
@@ -30,6 +36,24 @@ const year = new Date().getFullYear();
     font-family: var(--font-display);
     font-size: 0.875rem;
     color: var(--text-dim);
+  }
+
+  .footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem 1.25rem;
+  }
+
+  .footer__links a {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .footer__links a:hover {
+    color: var(--accent);
   }
 
   .footer__disclaimer {

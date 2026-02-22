@@ -1,0 +1,125 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Política de Privacidad — Códigos Gratis"
+  description="Política de privacidad de códigosgratis.com. Información sobre el uso de datos y cookies."
+>
+  <Header />
+
+  <main class="main">
+    <div class="page-wrap">
+      <h1 class="page-title">Política de privacidad</h1>
+
+      <div class="content">
+        <p><strong>Última actualización:</strong> febrero 2026</p>
+
+        <p>
+          En <strong>códigosgratis.com</strong> nos tomamos la privacidad en serio. Esta página explica
+          qué datos recopilamos y cómo los utilizamos.
+        </p>
+
+        <h2>Datos que recopilamos</h2>
+        <p>
+          No recopilamos datos personales de los usuarios. No solicitamos registro, cuentas de usuario
+          ni información de contacto para acceder al contenido del sitio.
+        </p>
+
+        <h2>Google Analytics</h2>
+        <p>
+          Utilizamos Google Analytics para analizar el tráfico del sitio web. Google Analytics recopila
+          información anónima como las páginas visitadas, el tiempo de permanencia, el tipo de
+          dispositivo y la ubicación geográfica aproximada. Esta información nos ayuda a mejorar el
+          contenido y la experiencia del usuario. Puedes consultar la
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">política de privacidad de Google</a>
+          para más información.
+        </p>
+
+        <h2>Google AdSense</h2>
+        <p>
+          Podemos utilizar Google AdSense para mostrar anuncios en nuestro sitio. Google AdSense usa
+          cookies para ofrecer anuncios relevantes según las visitas a este y otros sitios web. Puedes
+          desactivar la publicidad personalizada en la
+          <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">configuración de anuncios de Google</a>.
+        </p>
+
+        <h2>Cookies</h2>
+        <p>
+          No utilizamos cookies propias. Las cookies de terceros (Google Analytics y Google AdSense)
+          se gestionan según las políticas de privacidad de Google. Puedes configurar tu navegador
+          para bloquear o eliminar cookies en cualquier momento.
+        </p>
+
+        <h2>Enlaces externos</h2>
+        <p>
+          Nuestro sitio contiene enlaces a sitios externos como Roblox. No somos responsables de
+          las prácticas de privacidad de estos sitios. Te recomendamos leer sus políticas de privacidad.
+        </p>
+
+        <h2>Cambios en esta política</h2>
+        <p>
+          Nos reservamos el derecho de actualizar esta política de privacidad en cualquier momento. Los
+          cambios se publicarán en esta misma página con la fecha de actualización.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .main {
+    padding: 2rem 0 3rem;
+  }
+
+  .page-wrap {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  .content {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .content p {
+    margin-bottom: 1.25rem;
+  }
+
+  .content h2 {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .content strong {
+    color: var(--accent);
+  }
+
+  .content a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .content a:hover {
+    opacity: 0.8;
+  }
+</style>

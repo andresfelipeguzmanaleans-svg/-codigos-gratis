@@ -1,0 +1,110 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Disclaimer — Códigos Gratis"
+  description="Aviso legal y exención de responsabilidad de códigosgratis.com."
+>
+  <Header />
+
+  <main class="main">
+    <div class="page-wrap">
+      <h1 class="page-title">Disclaimer</h1>
+
+      <div class="content">
+        <p><strong>Última actualización:</strong> febrero 2026</p>
+
+        <h2>No afiliación con Roblox</h2>
+        <p>
+          <strong>códigosgratis.com</strong> no está afiliado, asociado, autorizado ni respaldado
+          por Roblox Corporation. Roblox, el logotipo de Roblox y Robux son marcas registradas de
+          Roblox Corporation. Todos los derechos de estas marcas pertenecen a sus respectivos
+          propietarios.
+        </p>
+
+        <h2>Marcas registradas</h2>
+        <p>
+          Los nombres de juegos, imágenes, logotipos y marcas mencionados en este sitio pertenecen
+          a sus respectivos propietarios y desarrolladores. El uso de estos nombres y marcas en
+          códigosgratis.com es puramente referencial e informativo.
+        </p>
+
+        <h2>Contenido de terceros</h2>
+        <p>
+          Los códigos promocionales listados en este sitio son creados y distribuidos por los
+          desarrolladores de cada juego. códigosgratis.com no tiene control sobre la validez,
+          duración o funcionamiento de estos códigos.
+        </p>
+
+        <h2>Exención de responsabilidad</h2>
+        <p>
+          La información proporcionada en este sitio se ofrece "tal cual" y "según disponibilidad",
+          sin garantías de ningún tipo, ya sean expresas o implícitas. No nos hacemos responsables
+          de cualquier daño o perjuicio derivado del uso de la información publicada en este sitio.
+        </p>
+
+        <h2>Imágenes y contenido visual</h2>
+        <p>
+          Las imágenes de los juegos mostradas en este sitio se obtienen a través de las API públicas
+          de Roblox y pertenecen a sus respectivos creadores. Si eres propietario de algún contenido
+          y deseas que sea retirado, ponte en contacto con nosotros.
+        </p>
+
+        <h2>Precisión de la información</h2>
+        <p>
+          Hacemos nuestro mejor esfuerzo para mantener la información actualizada y precisa, pero no
+          garantizamos la exactitud, integridad o vigencia de los códigos y datos publicados. Los
+          usuarios son responsables de verificar la validez de los códigos antes de intentar canjearlos.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .main {
+    padding: 2rem 0 3rem;
+  }
+
+  .page-wrap {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  .content {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .content p {
+    margin-bottom: 1.25rem;
+  }
+
+  .content h2 {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .content strong {
+    color: var(--accent);
+  }
+</style>
