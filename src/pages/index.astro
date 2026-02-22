@@ -56,9 +56,22 @@ const topWithThumb = [...allGames]
   .filter((g) => g.totalVisits && g.totalVisits > 0 && g.thumbnail && g.thumbnail.startsWith('https://tr.rbxcdn.com'))
   .sort((a, b) => (b.totalVisits || 0) - (a.totalVisits || 0));
 
-// 12 for mosaic background, 6 for quick links
+// 12 for mosaic background
 const mosaicGames = topWithThumb.slice(0, 12);
-const quickLinks = topWithThumb.slice(0, 6);
+
+// 6 fixed quick links (top traffic games)
+const quickLinkSlugs = [
+  'codigos-blox-fruits',
+  'codigos-untitled-boxing',
+  'codigos-jailbreak',
+  'codigos-fruit-battlegrounds',
+  'codigos-arsenal',
+  'codigos-dragon-ball-rage',
+];
+const gamesBySlug = Object.fromEntries(allGames.map((g) => [g.slug, g]));
+const quickLinks = quickLinkSlugs
+  .map((s) => gamesBySlug[s])
+  .filter(Boolean);
 
 // Search data for JS
 const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length }));
@@ -337,8 +350,8 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     grid-template-rows: repeat(3, 1fr);
     gap: 4px;
     z-index: 0;
-    opacity: 0.15;
-    filter: blur(3px);
+    opacity: 0.25;
+    filter: blur(1px);
   }
 
   .hero__mosaic-img {
