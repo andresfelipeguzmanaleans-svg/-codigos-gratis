@@ -12,5 +12,8 @@
     "Abre Musica de Roblox en Roblox",
     "Busca el icono de códigos en el menú",
     "Escribe el código y pulsa Canjear"
-  ]
+  ],
+  "introText": "En Roblox puedes reproducir musica en los juegos usando el Boombox y otros objetos musicales. Para ello necesitas los IDs numericos de las canciones que quieres escuchar.",
+  "whatAreCodes": "Los codigos de musica de Roblox son IDs numericos que al introducirlos en el Boombox reproducen canciones y efectos de sonido dentro de los juegos.",
+  "howToGetCodes": "Los IDs de musica se encuentran en la biblioteca de audio de Roblox y en sitios de la comunidad que recopilan los codigos mas populares y recientes."
 }
