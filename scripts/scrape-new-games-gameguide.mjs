@@ -286,7 +286,7 @@ async function scrapeCodes(slug) {
     const activeSet = new Set(active.map(c => c.code.toLowerCase()));
     const dedupedExpired = expired.filter(c => !activeSet.has(c.code.toLowerCase()));
 
-    return { active, expired: dedupedExpired };
+    return { active, expired: dedupedExpired, html: body };
   } catch {
     return null;
   }
@@ -296,7 +296,11 @@ async function scrapeCodes(slug) {
 // STEP 4: Roblox API lookup
 // ---------------------------------------------------------------------------
 
-async function fetchRobloxData(gameName) {
+/**
+ * Fetches Roblox data using a placeId extracted from the game.guide page HTML.
+ * Pipeline: game.guide HTML → placeId → universeId → details + thumbnail
+ */
+async function fetchRobloxData(gameName, ggPageHtml) {
   const result = {
     placeId: null,
     universeId: null,
@@ -310,95 +314,71 @@ async function fetchRobloxData(gameName) {
     favourites: 0,
   };
 
+  // ---------------------------------------------------------------------------
+  // Step A: Extract placeId from game.guide page HTML
+  // game.guide embeds links like roblox.com/games/17798223108
+  // ---------------------------------------------------------------------------
+  const placeMatch = ggPageHtml?.match(/roblox\.com\/games\/(\d+)/);
+  if (placeMatch) {
+    result.placeId = parseInt(placeMatch[1], 10);
+  }
+
+  if (!result.placeId) return result;
+
+  // ---------------------------------------------------------------------------
+  // Step B: Convert placeId → universeId
+  // ---------------------------------------------------------------------------
   try {
-    // Step A: Search for the game by name
-    const searchQuery = encodeURIComponent(gameName);
-    const searchUrl = `https://games.roblox.com/v1/games/list?keyword=${searchQuery}&limit=10`;
-    const searchRes = await httpGet(searchUrl);
+    const convUrl = `https://apis.roblox.com/universes/v1/places/${result.placeId}/universe`;
+    const convRes = await httpGet(convUrl);
+    if (convRes.status === 200) {
+      const convData = JSON.parse(convRes.body);
+      result.universeId = convData.universeId || null;
+    }
+  } catch { /* failed */ }
 
-    if (searchRes.status !== 200) return result;
+  if (!result.universeId) return result;
 
-    let searchData;
-    try { searchData = JSON.parse(searchRes.body); } catch { return result; }
+  await sleep(ROBLOX_DELAY);
 
-    if (!searchData.data || searchData.data.length === 0) return result;
-
-    // Find best match: prefer exact name match, else use first result
-    const normalise = s => s.toLowerCase().replace(/[^a-z0-9]/g, '');
-    const target = normalise(gameName);
-    const bestMatch = searchData.data.find(g => normalise(g.name) === target) || searchData.data[0];
-
-    const universeId = bestMatch.rootPlaceId ? null : bestMatch.id; // search returns universe data
-    // Actually, /v1/games/list returns objects with .rootPlaceId and .id (which is universeId)
-    result.universeId = bestMatch.id;
-    result.totalVisits = bestMatch.visits || 0;
-    result.activePlayers = bestMatch.playing || 0;
-    result.likes = bestMatch.totalUpVotes || 0;
-    result.favourites = bestMatch.favoritedCount || 0;
-    result.developer = bestMatch.creator?.name || '';
-    result.description = bestMatch.description || '';
-    result.genre = bestMatch.genre || '';
-
-    await sleep(ROBLOX_DELAY);
-
-    // Step B: Get game details for more accurate data
+  // ---------------------------------------------------------------------------
+  // Step C: Get game details
+  // ---------------------------------------------------------------------------
+  try {
     const detailsUrl = `https://games.roblox.com/v1/games?universeIds=${result.universeId}`;
     const detailsRes = await httpGet(detailsUrl);
 
     if (detailsRes.status === 200) {
-      try {
-        const detailsData = JSON.parse(detailsRes.body);
-        if (detailsData.data && detailsData.data[0]) {
-          const d = detailsData.data[0];
-          result.totalVisits = d.visits || result.totalVisits;
-          result.activePlayers = d.playing || result.activePlayers;
-          result.likes = d.totalUpVotes || result.likes;
-          result.favourites = d.favoritedCount || result.favourites;
-          result.developer = d.creator?.name || result.developer;
-          result.description = d.description || result.description;
-          result.genre = d.genre || result.genre;
-        }
-      } catch { /* use search data */ }
+      const detailsData = JSON.parse(detailsRes.body);
+      if (detailsData.data && detailsData.data[0]) {
+        const d = detailsData.data[0];
+        result.totalVisits = d.visits || 0;
+        result.activePlayers = d.playing || 0;
+        result.likes = d.totalUpVotes || 0;
+        result.favourites = d.favoritedCount || 0;
+        result.developer = d.creator?.name || '';
+        result.description = d.description || '';
+        result.genre = d.genre || '';
+      }
     }
+  } catch { /* use what we have */ }
 
-    await sleep(ROBLOX_DELAY);
+  await sleep(ROBLOX_DELAY);
 
-    // Step C: Get thumbnail
+  // ---------------------------------------------------------------------------
+  // Step D: Get thumbnail
+  // ---------------------------------------------------------------------------
+  try {
     const thumbUrl = `https://thumbnails.roblox.com/v1/games/icons?universeIds=${result.universeId}&size=512x512&format=Png&isCircular=false`;
     const thumbRes = await httpGet(thumbUrl);
 
     if (thumbRes.status === 200) {
-      try {
-        const thumbData = JSON.parse(thumbRes.body);
-        if (thumbData.data && thumbData.data[0]?.imageUrl) {
-          result.thumbnail = thumbData.data[0].imageUrl;
-        }
-      } catch { /* no thumbnail */ }
+      const thumbData = JSON.parse(thumbRes.body);
+      if (thumbData.data && thumbData.data[0]?.imageUrl) {
+        result.thumbnail = thumbData.data[0].imageUrl;
+      }
     }
-
-    await sleep(ROBLOX_DELAY);
-
-    // Step D: Get placeId
-    const placesUrl = `https://games.roblox.com/v1/games/${result.universeId}/places?limit=10`;
-    const placesRes = await httpGet(placesUrl);
-
-    if (placesRes.status === 200) {
-      try {
-        const placesData = JSON.parse(placesRes.body);
-        if (placesData.data && placesData.data[0]?.id) {
-          result.placeId = placesData.data[0].id;
-        }
-      } catch { /* no placeId */ }
-    }
-
-    // If placeId not found from places endpoint, try rootPlaceId from search
-    if (!result.placeId && bestMatch.rootPlaceId) {
-      result.placeId = bestMatch.rootPlaceId;
-    }
-
-  } catch (err) {
-    // API errors are non-fatal; we still create the game with whatever we got
-  }
+  } catch { /* no thumbnail */ }
 
   return result;
 }
@@ -513,9 +493,9 @@ async function main() {
       continue;
     }
 
-    // STEP 4: Roblox API
+    // STEP 4: Roblox API (use placeId from game.guide HTML)
     await sleep(ROBLOX_DELAY);
-    const robloxData = await fetchRobloxData(name);
+    const robloxData = await fetchRobloxData(name, codes.html);
 
     // STEP 5: Create JSON
     const gameJson = createGameJson(slug, name, codes, robloxData);
