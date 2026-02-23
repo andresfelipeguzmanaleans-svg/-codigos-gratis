@@ -6,123 +6,168 @@
   "metaTitle": "Códigos Mad City (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Mad City en Roblox. Consigue recompensas gratis.",
   "lastUpdated": "2026-02-23",
-  "activeCodes": [],
-  "expiredCodes": [
+  "activeCodes": [
     {
-      "code": "Degree",
-      "reward": "Recompensas gratis"
+      "code": "NewCode250K",
+      "reward": "250,000 Cash"
     },
     {
-      "code": "CeeJay",
-      "reward": "Recompensas gratis"
+      "code": "Legendary",
+      "reward": "75,000 Cash"
     },
     {
-      "code": "WelcomePlayStation",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ZDMD",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Conlord",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SUSHY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Datbrian",
-      "reward": "DatBrian Vehicle skin"
-    },
-    {
-      "code": "BILLYBOUNCE",
+      "code": "ItsFriday!",
       "reward": "Billy Bounce Emote"
     },
     {
-      "code": "0MGC0D3",
-      "reward": "Green Dots Vehicle skin"
+      "code": "NewRipTides",
+      "reward": "50,000 Cash"
     },
     {
-      "code": "Ryguy",
-      "reward": "Ryguy Vehicle skin"
+      "code": "DegreeForTheWin",
+      "reward": "2,500 XP"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "Degree",
+      "reward": "75,000 Cash"
     },
     {
-      "code": "D1$C0",
-      "reward": "Vehicle skin"
+      "code": "CeeJay",
+      "reward": "75,000 Cash"
     },
     {
-      "code": "Napkin",
-      "reward": "Vehicle skin"
+      "code": "ZDMD",
+      "reward": "75,000 Cash"
     },
     {
-      "code": "RealKreek",
-      "reward": "Vehicle skin"
+      "code": "Conlord",
+      "reward": "75,000 Cash"
     },
     {
-      "code": "5K37CH",
-      "reward": "Vehicle skin"
-    },
-    {
-      "code": "Bandites",
-      "reward": "Vehicle skin"
+      "code": "WelcomePlayStation",
+      "reward": "10,000 XP"
     },
     {
       "code": "uNiQueEe BACON",
-      "reward": "Vehicle skin"
+      "reward": "The Bacon Vehicle skin"
     },
     {
-      "code": "KraoESP",
-      "reward": "Vehicle skin"
+      "code": "Bandites",
+      "reward": "The Bandites Vehicle skin"
     },
     {
       "code": "0N3Y34R",
-      "reward": "Birthday Fireworks Vehicle skin"
+      "reward": "The Birthday Fireworks Vehicle skin"
     },
     {
-      "code": "M4DC1TY",
-      "reward": "Black Hex AK47 skin"
+      "code": "RealKreek",
+      "reward": "The KreekCraft Vehicle skin"
     },
     {
-      "code": "W33K3NDHYP3",
-      "reward": "Monochrome Vehicle skin"
+      "code": "Napkin",
+      "reward": "The NapkinNate Vehicle skin"
     },
     {
-      "code": "T4L3N",
-      "reward": "Talon Vehicle Spoiler"
+      "code": "5K37CH",
+      "reward": "The Sk3tchYT Vehicle skin"
     },
     {
-      "code": "B3M1N3",
-      "reward": "Hearts SPAS skin"
+      "code": "KraoESP",
+      "reward": "The KraoESP Vehicle skin"
     },
     {
-      "code": "B34M3R",
-      "reward": "Sunbeam Vehicle skin"
+      "code": "D1$C0",
+      "reward": "The Disco Vehicle skin"
     },
     {
-      "code": "S33Z4N2",
-      "reward": "Frosty Vehicle skin"
+      "code": "0MGC0D3",
+      "reward": "The Tesla Vehicle skin"
     },
     {
-      "code": "STR33TL1N3",
-      "reward": "Streetline Vehicle skin"
+      "code": "RYGUY",
+      "reward": "The Ryguy Vehicle skin"
     },
     {
-      "code": "S34Z4N3",
-      "reward": "Plasma Vehicle skin"
+      "code": "datbrian",
+      "reward": "The DatBrian Vehicle skin"
+    },
+    {
+      "code": "BILLYBOUNCE",
+      "reward": "The Billy Bounce Emote"
+    },
+    {
+      "code": "100KCASH",
+      "reward": "100,000 Cash"
     },
     {
       "code": "TH1NKP1NK",
-      "reward": "Pink Vehicle skin"
+      "reward": "The Pinky Vehicle skin"
+    },
+    {
+      "code": "S34Z4N3",
+      "reward": "The Plasma Vehicle skin"
+    },
+    {
+      "code": "STR33TL1N3",
+      "reward": "The Streetline Vehicle skin"
+    },
+    {
+      "code": "S33Z4N2",
+      "reward": "The Frosty Vehicle skin"
+    },
+    {
+      "code": "B34M3R",
+      "reward": "The Sunbeam Vehicle skin"
+    },
+    {
+      "code": "B3M1N3",
+      "reward": "The Hearts SPAS skin"
+    },
+    {
+      "code": "T4L3N",
+      "reward": "A Talon Vehicle Spoiler"
+    },
+    {
+      "code": "W33K3NDHYP3",
+      "reward": "The Monochrome Vehicle skin"
+    },
+    {
+      "code": "M4DC1TY",
+      "reward": "The Black Hex AK-47 skin"
+    },
+    {
+      "code": "SUSHY",
+      "reward": "75,000 Cash"
+    },
+    {
+      "code": "Frosty",
+      "reward": "In-Game Cash"
+    },
+    {
+      "code": "Jaiker",
+      "reward": "In-Game Cash"
+    },
+    {
+      "code": "Frozty",
+      "reward": "In-Game Cash"
+    },
+    {
+      "code": "cash500",
+      "reward": "In-Game Cash"
+    },
+    {
+      "code": "ping",
+      "reward": "In-Game recompensa"
     },
     {
       "code": "S34Z4N4",
       "reward": "Purple Zebra Vehicle skin"
     },
     {
-      "code": "100KCash",
-      "reward": "100,000 Cash"
+      "code": "TestTwitterCode",
+      "reward": "5,000 Cash"
     }
   ],
   "howToRedeem": [

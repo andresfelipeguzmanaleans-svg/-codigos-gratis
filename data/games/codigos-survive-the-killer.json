@@ -11,7 +11,8 @@
   "likes": 978458,
   "genre": "Horror",
   "placeId": 4580204640,
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "luckyduck",
       "reward": "Lance Trance"
@@ -55,9 +56,183 @@
     {
       "code": "OOPSIES",
       "reward": "1 hora XP Boost"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "NEWYEARGRIND",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "MISSINGAVATAR",
+      "reward": "The Missing Avatar objeto"
+    },
+    {
+      "code": "LUCKY2022",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "45K",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HEARTBREAKER",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "DESYNC",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SNOWMAN",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "DEVIOUS",
+      "reward": "Devious Dagger"
+    },
+    {
+      "code": "KILLERCRAZE",
+      "reward": "Happy's Circus Knife, 50 monedas, And 100 XP"
+    },
+    {
+      "code": "CHUCKY",
+      "reward": "Chucky's Rattle Knife"
+    },
+    {
+      "code": "SPOON",
+      "reward": "Spoon Knife"
+    },
+    {
+      "code": "MASHEDPOTATOES",
+      "reward": "Purple Pinstripe Knife"
+    },
+    {
+      "code": "TRADINGWHEN",
+      "reward": "Sunlit Glass Knife"
+    },
+    {
+      "code": "CRATESSOON",
+      "reward": "Patched Knife"
+    },
+    {
+      "code": "TEST",
+      "reward": "Test Knife"
+    },
+    {
+      "code": "5MILLION",
+      "reward": "100 monedas And 50 XP"
+    },
+    {
+      "code": "omgfinally",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "BOO",
+      "reward": "Dark Fiend Knife"
+    },
+    {
+      "code": "CUPID2022",
+      "reward": "Flowery Facade Knife"
+    },
+    {
+      "code": "STK2YEARS",
+      "reward": "2 Year Birthday Slycer Knife"
+    },
+    {
+      "code": "SANTA",
+      "reward": "Santa Hat Slycer Knife"
+    },
+    {
+      "code": "HAPPYNEWYEAR",
+      "reward": "2022 New Year Slycer Knife"
+    },
+    {
+      "code": "900M",
+      "reward": "900M Slycer Knife"
+    },
+    {
+      "code": "HALLOWVEMBER",
+      "reward": "Friendly Spirits Knife"
+    },
+    {
+      "code": "800M",
+      "reward": "800M Slycer Knife"
+    },
+    {
+      "code": "jumpbug",
+      "reward": "Jumping Bug Knife"
+    },
+    {
+      "code": "700M",
+      "reward": "700M Slycer Knife"
+    },
+    {
+      "code": "PRIDE",
+      "reward": "Pride Knife"
+    },
+    {
+      "code": "LUCKY2021",
+      "reward": "Lucky Carver Knife"
+    },
+    {
+      "code": "cupid2021",
+      "reward": "Heartbreaker Knife"
+    },
+    {
+      "code": "LUCKY2020",
+      "reward": "Clover Carver Knife"
+    },
+    {
+      "code": "FRIDAY13",
+      "reward": "Rusty Dagger"
+    },
+    {
+      "code": "CUPID",
+      "reward": "Heartbreaker Knife"
+    },
+    {
+      "code": "SPOOKY2020",
+      "reward": "Hollowed Moon Knife"
+    },
+    {
+      "code": "HAPPYHOLIDAYS",
+      "reward": "Holiday Knife"
+    },
+    {
+      "code": "FULLMOON",
+      "reward": "Burlap Brute's Chains"
+    },
+    {
+      "code": "CHEESE",
+      "reward": "Cheeseworth's Cheesy Chopper"
+    },
+    {
+      "code": "SAWBLADE",
+      "reward": "Sawblade's Jigsaw Knife"
+    },
+    {
+      "code": "WhatsTheCode",
+      "reward": "300k Knife"
+    },
+    {
+      "code": "ThatsALotOfVisits",
+      "reward": "Ribbons of oro Knife"
+    },
+    {
+      "code": "10M",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "DEESYNNC",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "CRAFTING",
+      "reward": "Iridescent Slycer"
+    },
+    {
+      "code": "HAVEPRIDE",
+      "reward": "Slyce of Pride"
+    },
     {
       "code": "SPOOKY2024",
       "reward": "Slycer de Halloween"
@@ -69,70 +244,6 @@
     {
       "code": "VALENTINE",
       "reward": "Slycer de San Valentín"
-    },
-    {
-      "code": "luckyduck",
-      "reward": "Easter Event Slycer"
-    },
-    {
-      "code": "GHOSTS",
-      "reward": "Zombie Candy Slycer"
-    },
-    {
-      "code": "NEWYEARGRIND",
-      "reward": "1 hora XP Boost"
-    },
-    {
-      "code": "SNOWMAN",
-      "reward": "The Minty Hook weapon"
-    },
-    {
-      "code": "omgfinally",
-      "reward": "100 gemas"
-    },
-    {
-      "code": "BOO",
-      "reward": "The Dark Fiend Knife"
-    },
-    {
-      "code": "DESYNC",
-      "reward": "The Broken Clock knife"
-    },
-    {
-      "code": "LUCKY2022",
-      "reward": "Cookie Cutter Slycer"
-    },
-    {
-      "code": "SANTA",
-      "reward": "Santa Hat Slycer"
-    },
-    {
-      "code": "HAPPYNEWYEAR",
-      "reward": "2022 New Year"
-    },
-    {
-      "code": "900M",
-      "reward": "900M Slycer"
-    },
-    {
-      "code": "HALLOWVEMBER",
-      "reward": "Friendly Spirits Knife"
-    },
-    {
-      "code": "800M",
-      "reward": "800M Slycer"
-    },
-    {
-      "code": "jumpbug",
-      "reward": "The Jumping Bug Knife"
-    },
-    {
-      "code": "700M",
-      "reward": "700M Slycer"
-    },
-    {
-      "code": "PRIDE",
-      "reward": "The Pride Knife"
     },
     {
       "code": "Lucky Carver Knife",

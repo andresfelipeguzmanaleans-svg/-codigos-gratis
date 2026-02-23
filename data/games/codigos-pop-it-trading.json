@@ -8,6 +8,64 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "fifa",
+      "reward": "Soccer Ball"
+    },
+    {
+      "code": "funkimunkii",
+      "reward": "Random objeto"
+    },
+    {
+      "code": "lachancla",
+      "reward": "Flip Flop"
+    },
+    {
+      "code": "pizzatimepizzaria",
+      "reward": "Random New objeto"
+    },
+    {
+      "code": "1337",
+      "reward": "Light Ring"
+    },
+    {
+      "code": "2022",
+      "reward": "The Sparkler objeto"
+    },
+    {
+      "code": "Doodle",
+      "reward": "Pencil Orange"
+    },
+    {
+      "code": "firstnaf",
+      "reward": "Five Nights at Freddy&#39;s objeto"
+    },
+    {
+      "code": "pizzatime!!",
+      "reward": "Pizza objeto"
+    },
+    {
+      "code": "pizzaria",
+      "reward": "Pizza objeto"
+    },
+    {
+      "code": "catnapped",
+      "reward": "Cat objeto"
+    },
+    {
+      "code": "kingofthepirates",
+      "reward": "One Piece objeto"
+    },
+    {
+      "code": "R-A-N-D-O",
+      "reward": "Random objeto"
+    },
+    {
+      "code": "gobblegobble",
+      "reward": "Cornucopia objeto"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "whonewit?",
       "reward": "VHS Tape"
     },
@@ -144,10 +202,6 @@
       "reward": "Toilet objeto"
     },
     {
-      "code": "1337",
-      "reward": "Filming objeto"
-    },
-    {
       "code": "fotito",
       "reward": "Camera objeto"
     },
@@ -248,10 +302,6 @@
       "reward": "Barbell that earns you dinero when you lift it"
     },
     {
-      "code": "2022",
-      "reward": "Sparkler"
-    },
-    {
       "code": "ice",
       "reward": "Gema"
     },
@@ -290,104 +340,226 @@
     {
       "code": "gummy",
       "reward": "Gummy Bear"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "FANTASTICPLASTIC",
+      "reward": "Barbie objeto"
+    },
+    {
+      "code": "mamboitaliano",
+      "reward": "Italian Brainrot Egg"
+    },
+    {
+      "code": "itsfrenchforcoupdetat",
+      "reward": "Cat Egg"
+    },
+    {
+      "code": "thecheese",
+      "reward": "Grilled Cheese Sammich"
+    },
+    {
+      "code": "jokesonu",
+      "reward": "Whoopie Cushion"
+    },
+    {
+      "code": "hackthemainframe",
+      "reward": "Haxxor"
+    },
+    {
+      "code": "chunkychocolate",
+      "reward": "Chocolate Box"
+    },
+    {
+      "code": "swingbattabatta",
+      "reward": "Pickle Pinata"
+    },
+    {
+      "code": "luckoirsh",
+      "reward": "Clover"
+    },
+    {
+      "code": "landdownunder",
+      "reward": "Watch"
+    },
+    {
+      "code": "lov3bug",
+      "reward": "Bunni"
+    },
+    {
+      "code": "wuggyhugs",
+      "reward": "Kawaii Huggy"
+    },
+    {
+      "code": "o-d-n-a-r",
+      "reward": "Keyonce"
+    },
+    {
+      "code": "thetrades",
+      "reward": "S'more"
+    },
+    {
+      "code": "winterarc",
+      "reward": "Exercise Bike"
+    },
+    {
+      "code": "feliznavidad",
+      "reward": "Fireworks"
+    },
+    {
+      "code": "farmergray",
+      "reward": "Regalo"
+    },
+    {
+      "code": "saltisspicy",
+      "reward": "Spices"
+    },
+    {
+      "code": "tedsonvaca",
+      "reward": "Random objeto"
+    },
+    {
+      "code": "feelinsprunki",
+      "reward": "Oren"
+    },
+    {
+      "code": "dingdong",
+      "reward": "Door"
+    },
+    {
+      "code": "iamsteve",
+      "reward": "Steve"
+    },
+    {
+      "code": "ur2slow",
+      "reward": "Slow Sonic"
+    },
+    {
+      "code": "elontruck",
+      "reward": "Cybertruck"
+    },
+    {
+      "code": "fineanddandy",
+      "reward": "Flower Pot"
+    },
+    {
+      "code": "uvebeengnomed!",
+      "reward": "Gnome"
+    },
+    {
+      "code": "pureimagination",
+      "reward": "Soap"
+    },
+    {
+      "code": "Secretrecipe",
+      "reward": "Water"
+    },
+    {
+      "code": "smileforthecamera",
+      "reward": "Flashlight"
+    },
+    {
+      "code": "veryimportant",
+      "reward": "Hat"
+    },
+    {
+      "code": "Boingboing!",
+      "reward": "Random objeto"
+    },
+    {
+      "code": "JUMPINJAKS",
+      "reward": "Random objeto"
+    },
+    {
+      "code": "Steprightup!",
+      "reward": "Random objeto"
+    },
+    {
+      "code": "KREEKCRAFT",
+      "reward": "Random objeto"
+    },
+    {
+      "code": "KNOCKKNOCK",
+      "reward": "DOORS freebie"
+    },
+    {
+      "code": "R41NB0W",
+      "reward": "Rainbow Bear"
+    },
+    {
+      "code": "PINEAPPLE",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "WTH",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "LIGHTEMUP",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "100K",
+      "reward": "YouTube Plaque"
+    },
+    {
+      "code": "PÁJARO",
+      "reward": "Twitter Bird"
+    },
+    {
+      "code": "MADREGATE",
+      "reward": "Stranger Things objeto"
+    },
+    {
+      "code": "blockybrains",
+      "reward": "Chimpizini"
+    },
+    {
+      "code": "ububla",
+      "reward": "Purple Labubu"
+    },
+    {
+      "code": "babyitscoldoutside",
+      "reward": "Christmas Cat"
+    },
+    {
+      "code": "gotanygrapes?",
+      "reward": "Lemonade"
+    },
+    {
+      "code": "quickswap",
+      "reward": "Random objeto"
+    },
+    {
+      "code": "topcrop",
+      "reward": "Peach"
+    },
+    {
+      "code": "mralladdinsir",
+      "reward": "Genie's Lamp"
+    },
+    {
+      "code": "pizzeria",
+      "reward": "Pizza Themed objetos"
+    },
+    {
+      "code": "catnap",
+      "reward": "Poppy Themed objetos"
+    },
+    {
+      "code": "knock-knock",
+      "reward": "Doors objeto"
+    },
+    {
+      "code": "12345",
+      "reward": "Random objeto"
+    },
     {
       "code": "inazuma",
       "reward": "Lightning Katana"
     },
     {
-      "code": "pizzatime!!",
-      "reward": "Pizza themed objeto"
-    },
-    {
-      "code": "pizzaria",
-      "reward": "Pizza themed objeto"
-    },
-    {
-      "code": "Doodle",
-      "reward": "Pencil"
-    },
-    {
-      "code": "R-A-N-D-O",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "pizzatimepizzaria",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "catnapped",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "firstnaf",
-      "reward": "Freddy objeto"
-    },
-    {
-      "code": "kingofthepirates",
-      "reward": "One Piece themed objeto"
-    },
-    {
-      "code": "steprightup!",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "jumpinjaks",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "boingboing!",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "funkimunkii",
-      "reward": "New random objeto"
-    },
-    {
-      "code": "fantasticplastic",
-      "reward": "Barbie objeto"
-    },
-    {
-      "code": "kreekcraft",
-      "reward": "Random objeto"
-    },
-    {
-      "code": "lachancla",
-      "reward": "Slapping sandals objeto"
-    },
-    {
-      "code": "knockknock",
-      "reward": "DOORS objeto"
-    },
-    {
-      "code": "madregate",
-      "reward": "Stranger Things objeto"
-    },
-    {
       "code": "p&aacute;jaro",
       "reward": "Twitter objeto"
-    },
-    {
-      "code": "100k",
-      "reward": "YouTube objeto"
-    },
-    {
-      "code": "lightemup",
-      "reward": "Objeto gratis"
-    },
-    {
-      "code": "wth",
-      "reward": "Monster objeto"
-    },
-    {
-      "code": "pineapple",
-      "reward": "Pineapple objeto"
-    },
-    {
-      "code": "r41nb0w",
-      "reward": "Rainbow objeto"
     },
     {
       "code": "&#38829;&#28846;",

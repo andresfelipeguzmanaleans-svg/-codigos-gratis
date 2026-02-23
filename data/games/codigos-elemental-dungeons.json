@@ -13,137 +13,57 @@
   "placeId": 10515146389,
   "activeCodes": [
     {
-      "code": "CHRONOS",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "TIMESUP26",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "ELEMENTALMAS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ITSSNOWINGAGAIN",
-      "reward": "Recompensas gratis"
+      "code": "CHRONOS",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "ASTRONOMICAL",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
+    {
+      "code": "ELEMENTALMAS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ITSSNOWINGAGAIN",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ASCENDED2025",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "LIGHTNINGSHOCK",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "FALLSEASON",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "WEAREBACK",
+      "reward": "Redeem code for recompensas gratis"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "IMSORRY:(",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "LIGHTNINGSHOCK",
-      "reward": "Recompensas gratis"
+      "code": "SubToAbductedByRobloxians",
+      "reward": "Redeem code for 50 gemas"
     },
     {
-      "code": "ASCENDED2025",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FALLSEASON",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "WEAREBACK",
-      "reward": "Recompensas gratis"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "DARKNESS",
-      "reward": "Gems"
-    },
-    {
-      "code": "LAUNCH",
-      "reward": "Gems de lanzamiento"
-    },
-    {
-      "code": "ASTRASBACK",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FESTIVEBESTIVE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MECHISHERE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ITSSNOWING",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TRICKORTREAT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SPOOKY2024",
-      "reward": "250 gemas"
-    },
-    {
-      "code": "EDISBACK",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "DONTDOUBTDAKID",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "REAPERAWAKENING",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MIDCODE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TEAMZOOD",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TEAMMALT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TEAMMOOSE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "EASTER2024",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CLOUDDUNGEON",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CURSEDEVENT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FOLLOWER",
-      "reward": "100 gemas"
-    },
-    {
-      "code": "SEASONONE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SORRYDELAYS2",
-      "reward": "Recompensas gratis"
+      "code": "FROG",
+      "reward": "Redeem code for 100 gemas"
     },
     {
       "code": "SORRYDELAYS:(",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CALMDOWNTANGERINES",
       "reward": "Recompensas gratis"
     },
     {
@@ -151,8 +71,72 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "SubToToadBoiGaming",
-      "reward": "30 gemas"
+      "code": "FESTIVEBESTIVE",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "MECHISHERE",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ITSSNOWING",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "TRICKORTREAT",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SPOOKY2024",
+      "reward": "Redeem code for 250 gemas"
+    },
+    {
+      "code": "EDISBACK",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "REAPERAWAKENING",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "MIDCODE",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "TEAMZOOD",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "TEAMMALT",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "TEAMMOOSE",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "EASTER2024",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "CURSEDEVENT",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "FOLLOWER",
+      "reward": "Redeem code for 100 gemas"
+    },
+    {
+      "code": "SEASONONE",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SORRYDELAYS2",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "CALMDOWNTANGERINES",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "RefundSP",
@@ -164,87 +148,107 @@
     },
     {
       "code": "NUWUPDAIT",
-      "reward": "350 gemas"
+      "reward": "Redeem code for 350 gemas"
     },
     {
       "code": "ISTHISPHANTOMREAL",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "GIMMEPHANTOMPLS",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "UPDATEHYPEGIFT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "THISCODEISVERYSHORTHEHEEHE",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "XMAS",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "UPD4",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SORRYDELAYS3",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "100MVISITSTHANKS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TANGIES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UNDERWORLD",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TradingSoon",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "WERESOSORRYDELAYS2",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TYFOR50KPLAYERS851",
-      "reward": "100 gemas"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "HALLOWEEN",
       "reward": "100 gemas"
     },
     {
-      "code": "SubToAbductedByRobloxians",
-      "reward": "50 gemas"
+      "code": "100MVISITSTHANKS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "TANGIES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "UNDERWORLD",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "TradingSoon",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "TYFOR50KPLAYERS851",
+      "reward": "Redeem code for 100 gemas"
     },
     {
       "code": "ATLANTIS212",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "10MVISITS",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "NEWCODE",
-      "reward": "50 gemas"
+      "reward": "Redeem code for 50 gemas"
     },
     {
       "code": "TYFOR20KPLAYERS",
-      "reward": "100 gemas and Refund SP"
+      "reward": "Redeem code for 100 gemas and Refund SP"
+    },
+    {
+      "code": "ASTRASBACK",
+      "reward": "Redeem code for recompensas"
+    },
+    {
+      "code": "DONTDOUBTDAKID",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "CLOUDDUNGEON",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SubToToadBoiGaming",
+      "reward": "Redeem code for 30 gemas"
+    },
+    {
+      "code": "SORRYDELAYS3",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "WERESOSORRYDELAYS2",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "BrokenGameMeSorry123",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "THISCODEISVERYSHORTHEHEEHE",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "DARKNESS",
+      "reward": "Gems"
+    },
+    {
+      "code": "LAUNCH",
+      "reward": "Gems de lanzamiento"
     }
   ],
   "introText": "Elemental Dungeons es un RPG de combate elemental en Roblox creado por Malt Games. Con más de 242 millones de visitas y 235K likes, domina más de 20 elementos diferentes, explora mazmorras peligrosas, derrota jefes épicos y combina poderes elementales para crear combinaciones devastadoras.",

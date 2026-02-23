@@ -8,28 +8,27 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "BetaR3lease",
-      "reward": "250 gemas"
-    }
-  ],
-  "expiredCodes": [
-    {
       "code": "CanWeBuildIt",
-      "reward": "For"
-    },
-    {
-      "code": "LEARNtoFLY",
-      "reward": "100 Development puntos"
+      "reward": "Redeem code for"
     },
     {
       "code": "LAST_TRAIN_HOME",
-      "reward": "100 Development puntos"
+      "reward": "Redeem code for 100 Development puntos"
     },
     {
       "code": "10kLIKES",
-      "reward": "100 gemas"
+      "reward": "Redeem code for 100 gemas"
+    },
+    {
+      "code": "BetaR3lease",
+      "reward": "Redeem code for 250 gemas"
+    },
+    {
+      "code": "LEARNtoFLY",
+      "reward": "Redeem code for 100 Development puntos"
     }
   ],
+  "expiredCodes": [],
   "howToRedeem": [
     "Abre Mini Cities 2 en Roblox",
     "Busca el icono de códigos en el menú",

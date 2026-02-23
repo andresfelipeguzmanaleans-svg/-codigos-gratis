@@ -6,7 +6,8 @@
   "metaTitle": "Códigos Roblox Ohio (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Roblox Ohio en Roblox. Consigue recompensas gratis.",
   "lastUpdated": "2026-02-23",
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "100K",
       "reward": "$100,000"
@@ -146,192 +147,138 @@
     {
       "code": "CARNIVAL",
       "reward": "$5,000 Cash"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "PIRATE",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "MYSTIC",
-      "reward": "Ingame Cash"
-    },
-    {
-      "code": "CRAFT",
-      "reward": "Ingame Cash"
-    },
-    {
-      "code": "CRIMSON",
-      "reward": "Ingame Cash"
-    },
-    {
-      "code": "2024",
-      "reward": "Ingame Cash"
-    },
-    {
-      "code": "WINTER",
-      "reward": "Ingame Cash"
-    },
-    {
-      "code": "THANKS",
-      "reward": "Ingame Cash"
-    },
-    {
-      "code": "CLAN",
-      "reward": "Ingame Cash"
-    },
-    {
-      "code": "LUCK",
-      "reward": "Ingame Cash"
-    },
-    {
-      "code": "100",
-      "reward": "Exclusivo skin"
-    },
-    {
-      "code": "HOUSE",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "MINE",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "FUTURE",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "GEM",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "MANSION",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "TRADE",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "CARNIVAL",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "FIREWORK",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "ALIEN",
-      "reward": "Ingame Cash gratis"
-    },
-    {
-      "code": "PINATA",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "FREE",
-      "reward": "3K ingame Cash"
-    },
-    {
-      "code": "SKIN",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "STPATRICK",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "EMOTE",
-      "reward": "5K ingame Cash"
-    },
-    {
-      "code": "30M",
-      "reward": "5K ingame Cash"
     },
     {
       "code": "THXFOR10K",
-      "reward": "Cash gratis"
-    },
-    {
-      "code": "OhioMoment",
-      "reward": "$300 Cash"
-    },
-    {
-      "code": "JOBS",
-      "reward": "50,000 del juego Cash"
-    },
-    {
-      "code": "SKATE",
-      "reward": "10,000 del juego Cash"
-    },
-    {
-      "code": "10M",
-      "reward": "10,000 del juego Cash"
-    },
-    {
-      "code": "NEWYEAROHIO",
-      "reward": "2K Cash"
-    },
-    {
-      "code": "MERRYCHRISTMAS",
-      "reward": "2K Cash"
-    },
-    {
-      "code": "OhioChristmas",
-      "reward": "Desert Eagle"
-    },
-    {
-      "code": "LUNAR",
-      "reward": "Ingame Cash"
-    },
-    {
-      "code": "2026",
-      "reward": "Ingame Cash"
-    },
-    {
-      "code": "2025",
-      "reward": "Ingame Cash"
-    },
-    {
-      "code": "IGOTAGUN",
-      "reward": "M1911 pistol"
-    },
-    {
-      "code": "TROLLAAGE",
-      "reward": "Paint"
-    },
-    {
-      "code": "TOMAHAWK",
-      "reward": "Tomahawk axe"
-    },
-    {
-      "code": "PEPPERSPRAY",
-      "reward": "Pepperspray"
-    },
-    {
-      "code": "STOP",
-      "reward": "Stop sign melee weapon"
-    },
-    {
-      "code": "BURN",
-      "reward": "Molotov cocktail"
-    },
-    {
-      "code": "NINJA",
-      "reward": "Shuriken"
-    },
-    {
-      "code": "ITSASIGN",
-      "reward": "Sign"
-    },
-    {
-      "code": "20M",
-      "reward": "$5,000 Cash"
+      "reward": "5,000 Cash"
     },
     {
       "code": "TASER",
-      "reward": "Taser weapon"
+      "reward": "The Taser"
+    },
+    {
+      "code": "ITSASIGN",
+      "reward": "1 Sign"
+    },
+    {
+      "code": "NINJA",
+      "reward": "The Shuriken"
+    },
+    {
+      "code": "BURN",
+      "reward": "The Molotov Cocktail"
+    },
+    {
+      "code": "STOP",
+      "reward": "The Stop Sign"
+    },
+    {
+      "code": "PEPPERSPRAY",
+      "reward": "The Pepperspray"
+    },
+    {
+      "code": "TROLLAAGE",
+      "reward": "The Trollage Painting"
+    },
+    {
+      "code": "IGOTAGUN",
+      "reward": "The M1911 Pistol"
+    },
+    {
+      "code": "20M",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "JOBS",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SKATE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SORRY",
+      "reward": "2,000 Cash"
+    },
+    {
+      "code": "10M",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "MERRYCHRISTMAS",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "LOCKER",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "OHIOMOMENT",
+      "reward": "$300 in-game Cash"
+    },
+    {
+      "code": "HOUSE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "NEWYEAROHIO",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PINATA",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "EMOTE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "STPATRICK",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "ALIEN",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FREE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "OhioChristmas",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SKIN",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "30M",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "RICHINOHIO",
+      "reward": "1,600 Cash"
+    },
+    {
+      "code": "TOMAHAWK",
+      "reward": "The Tomahawk Axe"
+    },
+    {
+      "code": "LUNAR",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "2025",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "2026",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "ELITE",
+      "reward": "5,000 Cash"
     }
   ],
   "howToRedeem": [

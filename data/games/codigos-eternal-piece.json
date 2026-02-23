@@ -8,150 +8,150 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "Update2.1fix",
-      "reward": "100 Race giros"
+      "code": "newstats",
+      "reward": "Redeem code to reset stats"
+    },
+    {
+      "code": "sorrybutfixed",
+      "reward": "Redeem code for raro+ Fruit"
+    },
+    {
+      "code": "statsetyuh",
+      "reward": "Redeem code to reinicio de stats"
     },
     {
       "code": "fishmansorry",
       "reward": "500k beli"
     },
     {
+      "code": "Update2fix",
+      "reward": "X2 EXP 3hrs"
+    },
+    {
+      "code": "racesetyuh",
+      "reward": "Redeem code for 5 Race Rerolls"
+    },
+    {
+      "code": "reset135",
+      "reward": "Redeem code to reinicio de stats"
+    },
+    {
+      "code": "stackrace",
+      "reward": "Redeem code for 5 Race Rerolls"
+    },
+    {
+      "code": "race135",
+      "reward": "Redeem code for 5 Race Rerolls"
+    },
+    {
       "code": "exp4hour",
       "reward": "4 horas of 2x EXP"
     },
     {
-      "code": "Update2",
-      "reward": "100 race giros"
+      "code": "LegendaryFruit",
+      "reward": "Redeem code for a legendario Fruit"
     },
     {
-      "code": "Update2fix",
-      "reward": "X2 EXP 3hrs"
+      "code": "Update2",
+      "reward": "100 race giros"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "Update2.1fix",
+      "reward": "100 Race giros"
     },
     {
       "code": "Update2.1",
       "reward": "Random legendario Fruit"
     },
     {
-      "code": "racesetyuh",
-      "reward": "5 Race Rerolls"
-    },
-    {
-      "code": "statsetyuh",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "race135",
-      "reward": "5 Race Rerolls"
-    },
-    {
-      "code": "reset135",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "LegendaryFruit",
-      "reward": "Legendario Fruit"
-    },
-    {
-      "code": "stackrace",
-      "reward": "5 Race Rerolls"
-    },
-    {
-      "code": "newstats",
-      "reward": "Reset stats"
-    },
-    {
-      "code": "sorrybutfixed",
-      "reward": "Raro+ Fruit"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "shutdownexp1h",
-      "reward": "1 hora x2 EXP"
-    },
-    {
-      "code": "shutdownrace",
-      "reward": "5 Race giros"
-    },
-    {
-      "code": "xboxyuh",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "25RaceSpins",
-      "reward": "25 Race giros"
-    },
-    {
-      "code": "Giveme4hEXP",
-      "reward": "4 horas x2 EXP"
-    },
-    {
-      "code": "INeedaMaxWin",
-      "reward": "Fruit"
-    },
-    {
-      "code": "StatReset5",
-      "reward": "5 reinicio de statss"
-    },
-    {
-      "code": "Sub2KingBaka",
-      "reward": "Raro+ Fruit"
-    },
-    {
-      "code": "gimmiestats",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "gimmerace",
-      "reward": "10 Race Rerolls"
-    },
-    {
-      "code": "gimmiemastery",
-      "reward": "+1 mastery"
-    },
-    {
       "code": "crazyxp",
-      "reward": "1 hora exp"
+      "reward": "Redeem code for 1 hora exp"
     },
     {
       "code": "resetmystats",
-      "reward": "Reinicio de stats"
+      "reward": "Redeem code for a reinicio de stats"
     },
     {
       "code": "upd1master",
-      "reward": "+1 Mastery Level"
+      "reward": "Redeem code for +1 Mastery Level"
+    },
+    {
+      "code": "StatReset5",
+      "reward": "Redeem code for 5 reinicio de statss"
     },
     {
       "code": "gumgum",
-      "reward": "1 random fruit and 5 race giros"
+      "reward": "Redeem code for 1 random fruit and 5 race giros"
+    },
+    {
+      "code": "xboxyuh",
+      "reward": "Redeem code to Reset Stats"
+    },
+    {
+      "code": "gimmiestats",
+      "reward": "Redeem code to Reset Stats"
+    },
+    {
+      "code": "shutdownexp1h",
+      "reward": "Redeem code for 1 hora x2 EXP"
+    },
+    {
+      "code": "shutdownrace",
+      "reward": "Redeem code for 5 Race giros"
+    },
+    {
+      "code": "25RaceSpins",
+      "reward": "Redeem code for 25 Race giros"
+    },
+    {
+      "code": "Giveme4hEXP",
+      "reward": "Redeem code for 4 horas x2 EXP"
+    },
+    {
+      "code": "INeedaMaxWin",
+      "reward": "Redeem code for Fruit"
+    },
+    {
+      "code": "Sub2KingBaka",
+      "reward": "Redeem code for raro+ Fruit"
+    },
+    {
+      "code": "gimmerace",
+      "reward": "Redeem code for 10 Race Rerolls"
+    },
+    {
+      "code": "gimmiemastery",
+      "reward": "Redeem code for +1 mastery"
     },
     {
       "code": "statreset",
-      "reward": "Reset Stats"
+      "reward": "Redeem code for Reset Stats"
     },
     {
       "code": "superroll",
-      "reward": "3 Race Rerolls"
+      "reward": "Redeem code for 3 Race Rerolls"
     },
     {
       "code": "specialfruit",
-      "reward": "Random Devil Fruit"
+      "reward": "Redeem code for Random Devil Fruit"
     },
     {
       "code": "supaxp",
-      "reward": "2x EXP for 1 hora"
+      "reward": "Redeem code for 2x EXP for 1 hora"
     },
     {
       "code": "newupdate!",
-      "reward": "5x Race rerolls"
+      "reward": "Redeem code for 5x Race rerolls"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "Redeem code for reinicio de stats"
     },
     {
       "code": "2500LIKES",
       "reward": "1/3rd chance of each of the following: fruit, x2 XP"
-    },
-    {
-      "code": "RELEASE",
-      "reward": "Reinicio de stats"
     }
   ],
   "howToRedeem": [

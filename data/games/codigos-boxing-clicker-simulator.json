@@ -8,29 +8,31 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "thanksgiving2023",
-      "reward": "GIANT chicken"
-    },
-    {
       "code": "30mvisit",
-      "reward": "+1 mascota equip"
+      "reward": "Redeem code for +1 mascota equip"
     },
     {
       "code": "halloween",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "20mvisit",
-      "reward": "+1 mascota equip"
-    },
-    {
-      "code": "50klikes",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for +1 mascota equip"
     },
     {
       "code": "10mvisit",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
+    {
+      "code": "50klikes",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "thanksgiving2023",
+      "reward": "Redeem code for a GIANT chicken"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "wealllovejk",
       "reward": "Wins gratis"
@@ -48,7 +50,6 @@
       "reward": "Wins gratis"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Boxing Clicker Simulator en Roblox",
     "Busca el icono de códigos en el menú",

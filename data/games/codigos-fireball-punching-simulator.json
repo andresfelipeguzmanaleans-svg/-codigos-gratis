@@ -8,13 +8,15 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "20KFaves",
-      "reward": "Recompensas gratis"
+      "code": "2MillionPlays",
+      "reward": "Redeem code for Power gratis"
     },
     {
-      "code": "2MillionPlays",
-      "reward": "Power gratis"
-    },
+      "code": "20KFaves",
+      "reward": "Redeem code for recompensas gratis"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "SecretTweetCode",
       "reward": "10K Power"
@@ -44,7 +46,6 @@
       "reward": "1K Power"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Fireball Punching Simulator en Roblox",
     "Busca el icono de códigos en el menú",

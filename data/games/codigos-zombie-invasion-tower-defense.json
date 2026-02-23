@@ -8,6 +8,12 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "Billy",
+      "reward": "Redeem code for 500 monedas"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "500k visits",
       "reward": "1,200 monedas"
     },
@@ -16,15 +22,10 @@
       "reward": "1,200 monedas"
     },
     {
-      "code": "Billy",
-      "reward": "500 monedas"
-    },
-    {
       "code": "Roblox Group",
       "reward": "1,500 monedas"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Zombie Invasion Tower Defense en Roblox",
     "Busca el icono de códigos en el menú",

@@ -11,7 +11,8 @@
   "likes": 1084431,
   "genre": "Action",
   "placeId": 9224601490,
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "FLYING1M80K",
       "reward": "Gemas & recompensas gratis"
@@ -175,48 +176,770 @@
     {
       "code": "FREEBOOT!",
       "reward": "Gemas & recompensas gratis"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "OMGBIGMILLI!!!",
-      "reward": "Gemas"
     },
     {
-      "code": "THANKSFORDAMILLY",
-      "reward": "Gemas"
-    },
-    {
-      "code": "REBOOTPART2",
-      "reward": "Gemas"
-    },
-    {
-      "code": "CLOSERR990K!",
-      "reward": "Gemas"
-    },
-    {
-      "code": "UPDATE21!",
-      "reward": "Gemas"
-    },
-    {
-      "code": "CRASHL4NDING!",
-      "reward": "500 Gemas"
-    },
-    {
-      "code": "PRESENT4YOU",
-      "reward": "700 Gemas"
-    },
-    {
-      "code": "IAMLEOPARD",
-      "reward": "1.200 Gemas"
-    },
-    {
-      "code": "FREEBOOT!",
-      "reward": "500 Gemas"
+      "code": "660ALMOST",
+      "reward": "Recompensa expirada"
     },
     {
       "code": "OMGREBOOTAGAIN",
-      "reward": "350 Gemas"
+      "reward": "350 gemas"
+    },
+    {
+      "code": "GEARFOOOOURTH",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "UPDATETIMEEE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "WINTERDAYZ",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SORRY4SHUTDOWN",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "5KSQUAD",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "TECHNOBOX",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "330WEUP!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HYPETIME!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "TOOKRAZY280",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PITYUP!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "340NEVERENDS!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "320THXGUYS!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FULL360!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PULLINGSTRINGZ",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "P4TIENC3!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "350HAPPY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HYPEFIX!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "TOX1C",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "270TOOINSANE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "4TTRACTI0N",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "2HAPPY290",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "KINGJUNGL3",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "NEWBOUNTYERA",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "3KTHXBRO",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "ITKEEPSCOMING!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "ITSTIME!!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SPR34DL0V3",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "VALENTINES2024",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "NEWBOUNTYERA!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "TOURNYCLASH",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SIZZLIN450",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "460KRAZY!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "CHEF470K",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "100KWEDIDIT",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FLYH1GH!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "ITSTIMEEE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "JEEZ630",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "GLITTER780K",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "4BUNDANCY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "NANAP0CALYPSE!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "770KWOW!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HOWLINGFALL!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "750KINSANE!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SM4LLFRY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SORRY4DELAY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "LVLBUFFHYPE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "ICEW0LF",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HAHA740K!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "RIGHT720",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "710KOMG!!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "BAM700K",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SORRYMOBILE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "UNLOCK690K!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SCORCHINGSUMMER",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "BIGB1RD",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "3LAPSED!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "670AHH",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "GIFTEDFROMABOVE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "650ISMADD!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "AYO640K!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "LUVYALL",
+      "reward": "300 gemas"
+    },
+    {
+      "code": "SKYH1GH!",
+      "reward": "240 gemas"
+    },
+    {
+      "code": "GOCRAZY180",
+      "reward": "400 gemas"
+    },
+    {
+      "code": "MOSTH4TED",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "THXFOR610!!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "DAHUNT2024",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "OMG600K!!!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HIGH590",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "POS1T1V1TY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "570FAVS",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "LAGFIXX",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "CLEANREB00T",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "ILOV3C4NDY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "N3WW0RLD!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HYPEWHOLECAKE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "YOOO560",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "550POGG",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "NEWY34R2024!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "540DAYUM",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "530GYAT",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "WINTAH2023",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "KOLDKRAZE!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "510KWOWW",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "500KVIIBE!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "WANOFIXES",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PRESENT4YALL",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "K1NGOFB3ASTS",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "LIBERATION!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "GETTINTHERE490",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "380ALMOST",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "WEBACKBABYYY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "QUIKREBOOT",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "KRAZYGASSED",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "260BELIEVE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "240GASSED",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "TOOHAPPYBRO",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "GRATITUDE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "170KKRAZY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FREECASHBRO",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "KRAZYSUPPORT",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "160WOW",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "LIGHTNINGHYPE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "GOKRAZY150",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "KAIDOBEAST",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "140KAGAIN",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SPLENDID820",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "BIG8HUNDO!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "OMGUPDATE19!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "TRUEMENACE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "830KBRO!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SHINE790K",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "840MENTAL",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "WINTER2024!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "COOKEDPASTRY!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "810TIME!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "CRASHL4NDING",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "FREEBOOT",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "OMGREBOOTAGAIN!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "730EXPLODE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "LAVAPARTY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "WECLOSE480",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "440KEEPHITTIN",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "430TOOMUCH",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "420BLAZE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "CRAZYYY410!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "LETSGOO400",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "JOYBOYY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SUPEREVENT!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SHEEESH390!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "OMG100M",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "300KWOW",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "GETKRAZYY!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "250QUARTER!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "BUGFIXOP",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "230GANGG",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "BRO220K",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "LIT210",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "YESSIRBIG200!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "NEVERSTOP",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "DUBMINER",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "CANTSTOP",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "190KWOWBRUH",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FUNNYNUMBER",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SHUTDOWNLUCK",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "GOCRAZY180!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FATSTACKZ",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "ITJUSTDONTSTOP",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "RAININGGEMS!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "LETSGOO130K",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PAWGOKRAZY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "GOLDENDAYZ",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FREECAZH",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "120KTHX",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "INDAZONE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "110KYEE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "COMEONMARCOOO",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "DAMN90K",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "80KAHHHHH",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "80KCRAZY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "THXFOR70K",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FREEBREAD!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "60KLETSGOOOO",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "MAGMALETSGOO",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "50KINSANE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "40KDAMN",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "35KWOWBRO",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "30KLOVEYOU",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "25KINSANE!!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "20KCRAZY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "15KNOWAY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "THXFOR10K",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "7KTEAM",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "4KGANGO",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "WUPDATEORNAH",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "2KLETSGOOO",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "1KLIKESGANG",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "760KISKRAZY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HOWLINGFALL",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "POW680K!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "WOWZER620!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "580FLAMES",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SHEEESH520!!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "QU1CKR3B00T",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HEARDADRUMS",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "370MADDD",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "310KEEPGOING",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "APPRECIATIVE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "DRACOMASTA",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PRESENT4YOU",
+      "reward": "700 gemas"
     }
   ],
   "introText": "Fruit Battlegrounds es un juego de peleas PvP en Roblox inspirado en One Piece, creado por POPO. A punto de alcanzar los 1.000 millones de visitas y con más de 1 millón de likes, el juego te permite recolectar Frutas del Diablo con poderes devastadores y enfrentarte a otros jugadores en combates épicos. Su sistema de frutas y combos lo convierte en uno de los juegos de acción más jugados de Roblox.",

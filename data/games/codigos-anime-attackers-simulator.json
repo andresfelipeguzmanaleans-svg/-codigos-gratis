@@ -8,51 +8,60 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "UPDATE2",
-      "reward": "2 fuerza pociones"
+      "code": "INEEDMORENERGY",
+      "reward": "1 poción"
     },
     {
-      "code": "ENERGYRUNEPLS",
-      "reward": "Energía Rune"
-    },
-    {
-      "code": "LUCKRUNEPLS",
-      "reward": "Suerte Rune"
+      "code": "IWANNATRYACHEST",
+      "reward": "5 Wooden llaves, 1 Wooden cofre"
     },
     {
       "code": "STRENGTHRUNEPLS",
       "reward": "Fuerza Rune"
     },
     {
-      "code": "COINRUNEPLS",
-      "reward": "Moneda Rune"
+      "code": "ENERGYRUNEPLS",
+      "reward": "Energía Rune"
     },
     {
-      "code": "IWANNATRYACHEST",
-      "reward": "1 Wooden cofre and 5 Wooden llaves"
-    },
-    {
-      "code": "RESETME",
-      "reward": "Reset Ascension"
+      "code": "UPDATE2",
+      "reward": "2 pociones"
     },
     {
       "code": "UPDATE1",
-      "reward": "2 fuerza pociones"
+      "reward": "2 pociones"
+    },
+    {
+      "code": "LUCKRUNEPLS",
+      "reward": "Suerte Rune"
     },
     {
       "code": "DUNGEONS",
       "reward": "50 cristales"
     },
     {
+      "code": "GIVEMELUCK",
+      "reward": "1 poción"
+    },
+    {
+      "code": "COINRUNEPLS",
+      "reward": "Moneda Rune"
+    },
+    {
+      "code": "RESETME",
+      "reward": "Reset"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "INeedMoreEnergy",
       "reward": "1 energía poción"
     },
     {
-      "code": "GiveMeLuck",
-      "reward": "1 suerte poción"
+      "code": "Release",
+      "reward": "Recompensa desconocida"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Anime Attackers Simulator en Roblox",
     "Busca el icono de códigos en el menú",

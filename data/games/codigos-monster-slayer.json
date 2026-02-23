@@ -8,6 +8,12 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "Starter",
+      "reward": "Redeem code for 1,000 Crushing Dust and 2,000 cristales"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "Free Booster",
       "reward": "3 Boosters of Every Type"
     },
@@ -35,12 +41,6 @@
       "code": "100k Visits Limited",
       "reward": "Borealis Sword"
     },
-    {
-      "code": "Starter",
-      "reward": "2800 cristales and 1000 Crushing Dust"
-    }
-  ],
-  "expiredCodes": [
     {
       "code": "ReleaseTime",
       "reward": "Recompensas gratis"

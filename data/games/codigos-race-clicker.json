@@ -11,7 +11,8 @@
   "likes": 1515096,
   "genre": "Racing",
   "placeId": 9285238704,
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "RaceTrack",
       "reward": "Recompensas gratis"
@@ -251,16 +252,62 @@
     {
       "code": "NewUpdate",
       "reward": "Wins gratis"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
-      "code": "Dominus",
+      "code": "Dino",
+      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
+    },
+    {
+      "code": "sorry",
+      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
+    },
+    {
+      "code": "REVERT",
+      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
+    },
+    {
+      "code": "spin2win",
+      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
+    },
+    {
+      "code": "900m",
+      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
+    },
+    {
+      "code": "Merchant",
+      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
+    },
+    {
+      "code": "AdminAbuse",
       "reward": "Boost Bundle"
     },
     {
-      "code": "XMAS",
+      "code": "sorryforanotherrejoin",
+      "reward": "2 5x Acceleration Boost"
+    },
+    {
+      "code": "Atlantis",
+      "reward": "X2 Win Boost, x3 Win Boost, x3 suerte Boost, 1 Auto Click Boost, x5 Acceleration Boost, 100% Acceleration Boost"
+    },
+    {
+      "code": "Food",
+      "reward": "X2 Win Boost, x3 Win Boost, x2 suerte Boost, x3 suerte Boost, Auto Click Boost, x5 Accel Boost, +100% Accel Boost"
+    },
+    {
+      "code": "Emoji",
+      "reward": "X2 Win Boost, x3 Win Boost, x2 suerte Boost, x3 suerte Boost, Auto Click Boost, x5 Accel Boost, +100% Accel Boost"
+    },
+    {
+      "code": "happyanniversaryraceclicker",
       "reward": "Boost Bundle"
+    },
+    {
+      "code": "Dominus",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "X3WINS012",
+      "reward": "X3 Wins for 15 minutos"
     },
     {
       "code": "Anniversary",

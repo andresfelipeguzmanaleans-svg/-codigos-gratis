@@ -8,51 +8,149 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "NerfedLag",
-      "reward": "Recompensas gratis"
+      "code": "Release",
+      "reward": "500 Beli"
     },
     {
-      "code": "EggHead",
-      "reward": "Recompensas gratis"
+      "code": "SubToXou",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
     },
     {
-      "code": "TenShadows",
-      "reward": "Recompensas gratis"
+      "code": "Wolf",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
     },
     {
-      "code": "Wano",
-      "reward": "Recompensas gratis"
+      "code": "MiniUpdate",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
     },
     {
-      "code": "Go/jo",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Guts",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SukunaXSatoru",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Whole Cake",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HappyHalloween",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BugFixes",
-      "reward": "50k beli and 10 random fruits"
+      "code": "HakiColor",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
     },
     {
       "code": "ZouIsland",
-      "reward": "Recompensas gratis"
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "HappyHalloween",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "Whole Cake",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "SukunaXSatoru",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "Guts",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "Wano",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "BugFixes",
+      "reward": "50k Beli, 10 random fruit"
     },
     {
       "code": "SatoruHasDied",
+      "reward": "50k Beli, 10 random fruit"
+    },
+    {
+      "code": "TyFor1M",
+      "reward": "Beli (Lvl 60 Req)"
+    },
+    {
+      "code": "Baller",
+      "reward": "25K Beli"
+    },
+    {
+      "code": "Update3",
+      "reward": "25K Beli"
+    },
+    {
+      "code": "HappyEaster2",
+      "reward": "10K Beli, 5 Giant Eggs"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "10K Beli, Fruit"
+    },
+    {
+      "code": "HappyEaster1",
+      "reward": "10K Beli, Fruit"
+    },
+    {
+      "code": "Sorry1",
+      "reward": "10K Beli, Fruit"
+    },
+    {
+      "code": "SubToTigreTv",
+      "reward": "5K Beli, Fruit"
+    },
+    {
+      "code": "SubToObitoTv",
+      "reward": "5K Beli, Fruit"
+    },
+    {
+      "code": "UPDATE2",
+      "reward": "3K Beli, Fruit"
+    },
+    {
+      "code": "Sorry",
+      "reward": "3K Beli, Fruit"
+    },
+    {
+      "code": "FreeFruit",
+      "reward": "3K Beli, Fruit"
+    },
+    {
+      "code": "NerfedLag",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "Hakari",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "Hybrid_Dragon",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "Dragon",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "TenShadows",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "Shadow Monarch",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "EggHead",
+      "reward": "Fruit and Beli.This code requires your account to be level 60 or higher"
+    },
+    {
+      "code": "Reset2",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "Reset",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "ResetUpdate2",
+      "reward": "Reinicio de stats"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "Go/jo",
       "reward": "Recompensas gratis"
     },
     {
@@ -72,99 +170,18 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "SubToXou",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Hybrid_Dragon",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Wolf",
-      "reward": "Dinero and random fruit"
-    },
-    {
       "code": "Giraffe",
       "reward": "Devil Fruit"
-    },
-    {
-      "code": "HakiColor",
-      "reward": "Get orange haki color"
-    },
-    {
-      "code": "MiniUpdate",
-      "reward": "Get +5 clans giros"
-    },
-    {
-      "code": "TyFor1M",
-      "reward": "Permanent fruit gratis"
-    },
-    {
-      "code": "Dragon",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Baller",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SubToObitoTv",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Update3",
-      "reward": "Recompensas gratis"
     },
     {
       "code": "ResetUpdate3",
       "reward": "Reset Stats"
     },
     {
-      "code": "HappyEaster2",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HappyEaster1",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "HappyEaster",
       "reward": "5 GiantEggs"
-    },
-    {
-      "code": "Sorry1",
-      "reward": "Fruit and 10k Beli gratis"
-    },
-    {
-      "code": "UPDATE2",
-      "reward": "Fruit and 3k Beli gratis"
-    },
-    {
-      "code": "Sorry",
-      "reward": "Fruit and 3k Beli gratis"
-    },
-    {
-      "code": "SubToTigreTv",
-      "reward": "Fruit and 5k Beli gratis"
-    },
-    {
-      "code": "Reset2",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "ResetUpdate2",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "FreeFruit",
-      "reward": "Fruit and 3k Beli gratis"
-    },
-    {
-      "code": "Reset",
-      "reward": "Reset Stats"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre King Of Sea en Roblox",
     "Busca el icono de códigos en el menú",

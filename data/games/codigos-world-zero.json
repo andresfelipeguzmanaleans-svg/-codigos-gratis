@@ -6,7 +6,8 @@
   "metaTitle": "Códigos World Zero (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para World Zero en Roblox. Consigue recompensas gratis.",
   "lastUpdated": "2026-02-23",
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "CUPID26",
       "reward": "25 Valentines monedas and 1 Valentines Present"
@@ -346,124 +347,190 @@
     {
       "code": "MERCHDROP",
       "reward": "150 cristales"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "SEASON7",
-      "reward": "750 cristales and a título"
     },
     {
-      "code": "300MIL",
+      "code": "650LIKES",
       "reward": "150 cristales"
     },
     {
-      "code": "GRAND",
-      "reward": "100 cristales"
-    },
-    {
-      "code": "650KLIKES",
-      "reward": "150 cristales"
-    },
-    {
-      "code": "PRIDE",
-      "reward": "Rainbow Shades"
-    },
-    {
-      "code": "PETREVAMP",
-      "reward": "50 mascota Candy"
-    },
-    {
-      "code": "625KLIKES",
-      "reward": "100 cristales"
-    },
-    {
-      "code": "WEEKLYQUEST",
-      "reward": "200 cristales"
-    },
-    {
-      "code": "CRYSTALSPLEASE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "600KLIKES",
-      "reward": "100 cristales"
-    },
-    {
-      "code": "PEPPERMINT",
-      "reward": "100 Holiday monedas"
-    },
-    {
-      "code": "NEWLEAF",
-      "reward": "150 cristales"
-    },
-    {
-      "code": "HAPPYNEWYEAR",
-      "reward": "2022 título"
-    },
-    {
-      "code": "PRESENTPLS",
-      "reward": "Festive Cosmetic objeto"
-    },
-    {
-      "code": "ICEBREAKER",
-      "reward": "5 Prize tickets"
-    },
-    {
-      "code": "JOLLY",
-      "reward": "5 Prize tickets"
-    },
-    {
-      "code": "Festive",
-      "reward": "5 Prize tickets"
-    },
-    {
-      "code": "HYPEWORLD8",
-      "reward": "50 cristales"
-    },
-    {
-      "code": "HOLIDAY2021",
-      "reward": "150 cristales"
-    },
-    {
-      "code": "FAVMILLION",
-      "reward": "100 cristales"
-    },
-    {
-      "code": "100MILPARTY",
-      "reward": "100 gemas"
+      "code": "GUILDBUGS",
+      "reward": "50 Guild monedas"
     },
     {
       "code": "APRILFOOLS",
-      "reward": "Rock mascota"
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "DRAGONRAID",
+      "reward": "25 Dragon monedas and 1 Grand Present"
+    },
+    {
+      "code": "GUILDAURA",
+      "reward": "Guild Aura"
+    },
+    {
+      "code": "FFAABB",
+      "reward": "Especial Hex Effect"
+    },
+    {
+      "code": "675LIKES",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "150MILPARTYY",
+      "reward": "Cristales"
+    },
+    {
+      "code": "HARVEST",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "TIKI",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FREECRYSTALS",
+      "reward": "5,000 cristales"
+    },
+    {
+      "code": "11CCEE",
+      "reward": "Hexcode With Effects"
+    },
+    {
+      "code": "WORLD10",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "300MIL",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "INSANEREACTIONS",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "NEWYEAR24",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "WEEKLYBUG",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SEASON7",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PEPPERMINT",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HYPEWORLD8",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PETREVAMP",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FAVMILLION",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PLAYMENU",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SHADOWS",
+      "reward": "The Fire Eyes Hat"
+    },
+    {
+      "code": "SALTY",
+      "reward": "100 cristales"
+    },
+    {
+      "code": "700KLIKES",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "GLACIAL",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "675KLIKES",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "650KLIKES",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "GRAND",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PRIDE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "625KLIKES",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "WEEKLYQUEST",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "CRYSTALSPLEASE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "600KLIKES",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "NEWLEAF",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HAPPYNEWYEAR",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PRESENTPLS",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "ICEBREAKER",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "JOLLY",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FESTIVE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HOLIDAY2021",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "400KLIKES",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "BLUE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "100MILPARTY",
+      "reward": "Recompensa expirada"
     },
     {
       "code": "HIGHWIND",
       "reward": "Highwind Booth skin"
-    },
-    {
-      "code": "700KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HARVEST",
-      "reward": "15 Prize tickets"
-    },
-    {
-      "code": "WORLD10",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "WEEKLYBUG",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "675KLIKES",
-      "reward": "150 cristales"
-    },
-    {
-      "code": "TIKI",
-      "reward": "Torch Hat"
     },
     {
       "code": "625LIKES",

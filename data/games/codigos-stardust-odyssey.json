@@ -8,49 +8,51 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "1milvisits",
-      "reward": "1500 stardust"
-    },
-    {
-      "code": "5klikes",
-      "reward": "1000 stardust"
-    },
-    {
       "code": "THEUPDATEISREAL",
-      "reward": "500 stardust"
-    },
-    {
-      "code": "4klikes",
-      "reward": "4000 stardust"
-    },
-    {
-      "code": "500kvisits",
-      "reward": "500 stardust"
-    },
-    {
-      "code": "UPDATE",
-      "reward": "350 stardust"
-    },
-    {
-      "code": "3klikes",
-      "reward": "Stardust gratis"
-    },
-    {
-      "code": "2klikes",
-      "reward": "Stardust gratis"
+      "reward": "Redeem code for 500 stardust (no kills req)"
     },
     {
       "code": "500followers",
-      "reward": "Stardust gratis"
+      "reward": "Redeem code for Stardust gratis"
     },
     {
       "code": "SorryWeSold",
-      "reward": "Stardust gratis"
+      "reward": "Redeem code for Stardust gratis"
     },
     {
       "code": "1klikes",
-      "reward": "Stardust gratis"
+      "reward": "Redeem code for Stardust gratis"
     },
+    {
+      "code": "500kvisits",
+      "reward": "Redeem code for 500 stardust"
+    },
+    {
+      "code": "5klikes",
+      "reward": "Redeem code for 1000 stardust (10 kill req)"
+    },
+    {
+      "code": "4klikes",
+      "reward": "Redeem code for 4000 stardust"
+    },
+    {
+      "code": "3klikes",
+      "reward": "Redeem code for Stardust gratis"
+    },
+    {
+      "code": "UPDATE",
+      "reward": "Redeem code for 350 stardust"
+    },
+    {
+      "code": "1milvisits",
+      "reward": "Redeem code for 1500 stardust (10 kill req)"
+    },
+    {
+      "code": "2klikes",
+      "reward": "Redeem code for Stardust gratis"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "sub2jimpee",
       "reward": "Stardust gratis"
@@ -68,7 +70,6 @@
       "reward": "350 Stardust"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Stardust Odyssey en Roblox",
     "Busca el icono de códigos en el menú",

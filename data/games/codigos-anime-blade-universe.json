@@ -8,10 +8,6 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "animeblade",
-      "reward": "25K gemas gratis"
-    },
-    {
       "code": "titan",
       "reward": "Gemas gratis"
     },
@@ -28,11 +24,16 @@
       "reward": "Gemas gratis"
     },
     {
+      "code": "animeblade",
+      "reward": "25K gemas gratis"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "jojo",
       "reward": "2,000 monedas"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Anime Blade Universe en Roblox",
     "Busca el icono de códigos en el menú",

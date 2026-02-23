@@ -11,7 +11,8 @@
   "likes": 809135,
   "genre": "Simulator",
   "placeId": 2866967438,
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "HEARTS",
       "reward": "250 gemas"
@@ -47,9 +48,399 @@
     {
       "code": "FISHINGMAS24",
       "reward": "Recompensas"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "TIMELESSTIDES",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "100000",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "STAR3K",
+      "reward": "50 gemas"
+    },
+    {
+      "code": "1500AWAY!",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "4HUNA",
+      "reward": "40 Shards"
+    },
+    {
+      "code": "FISHMAXXING",
+      "reward": "250 gemas"
+    },
+    {
+      "code": "EASTER",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "HALFADECADE",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "AMILLI",
+      "reward": "1,000 gemas"
+    },
+    {
+      "code": "NATIONALGF",
+      "reward": "100,000 gemas"
+    },
+    {
+      "code": "STPATRICKSDAY",
+      "reward": "200 gemas"
+    },
+    {
+      "code": "NEWYEAR2023",
+      "reward": "250 gemas"
+    },
+    {
+      "code": "VAL2022",
+      "reward": "96 gemas"
+    },
+    {
+      "code": "BIGSPENDER",
+      "reward": "150 gemas"
+    },
+    {
+      "code": "OCEAN",
+      "reward": "300 gemas"
+    },
+    {
+      "code": "500KGROUP",
+      "reward": "300 gemas"
+    },
+    {
+      "code": "VOIDSTORM",
+      "reward": "300 gemas"
+    },
+    {
+      "code": "2024!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FOREVERALONE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "AlexisisCool",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "planetmilo",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "MythicRods",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "SandyPyramid",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Likes100k",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "AprilFools",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Leak!",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "NewIsland40",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "FishAreCool",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Xbox One",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Mischief5Year",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "RepMischiefBalkBirthday",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "ChrimusPresent",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Ranbo",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "20KRANDEM",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "20KSHARK",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "20KTUNA",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "20KTROUT",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "BIGLIKES",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "200K",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "FruitCake",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "BowTime",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "SPYBDAY",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "1mill",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "MARBLEBDAY",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "20KGAMOR",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "20KPHIL",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "20KGEORGE",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "THANKSGIVING",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "MSCHFBDAY",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "150M",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "love",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "FlamingoInfinity",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Crayfish",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Goldensnapper",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Walleye",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "RandemGuppy",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "SharkemGamor",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Bowfin",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Bullhead",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Catfish",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Carp",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "NEWYEAR2021",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Flounder",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "CoalFish",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Kahawai",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Lionfish",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Garfish",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "NarwhalGamor",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Clam",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "20KLikes",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Artistic",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Mustacho",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "SubToPremiumSalad",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "SDMittens",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "ItsGemTime",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Sub2Conor3D",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Sub2Expellez",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Mumazing",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Subs4JixxyJax",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Sub2Raconidas",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Sub2Myster0y",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Subtotelanthric",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "last2dye",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "20MIL",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "spycheetos",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "Sub2SnowRBX",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "snug",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "SubToKiraBerry",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "RazorFishGaming",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "JungleTemple20",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "SubToGamingDan",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "WhaleOfATime2",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "SubToCarbonMeister",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "SUBTOBEEFPLAYZZ",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "SubToAustin",
+      "reward": "Gemas. gratis"
+    },
+    {
+      "code": "AQUARIUM350",
+      "reward": "350 gemas"
+    },
+    {
+      "code": "150000",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "NATIONALFISHINGDAY",
+      "reward": "Recompensa expirada"
+    },
     {
       "code": "SUMMER2024",
       "reward": "Gems de verano"
@@ -57,22 +448,6 @@
     {
       "code": "SPOOKY",
       "reward": "Shards de Halloween"
-    },
-    {
-      "code": "FISHMAXXING",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "4HUNA",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NATIONALFISHINGDAY",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "150000",
-      "reward": "Recompensas"
     }
   ],
   "introText": "Fishing Simulator es la aventura de pesca original de Roblox, creada por Cloud Entertainment. Con más de 483 millones de visitas y 809K likes, explora más de 10 islas, descubre más de 1.000 especies de peces, mejora tus cañas y barcos, y compite por atrapar los peces más raros del océano.",

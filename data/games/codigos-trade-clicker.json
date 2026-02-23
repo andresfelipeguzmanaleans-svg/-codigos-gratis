@@ -8,13 +8,15 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "5000LIKES",
-      "reward": "Recompensa gratis"
+      "code": "OVERSEER",
+      "reward": "Redeem code for an Overseer Egg"
     },
     {
-      "code": "OVERSEER",
-      "reward": "Overseer Egg"
-    },
+      "code": "5000LIKES",
+      "reward": "Redeem code for a recompensa gratis"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "2000LIKES",
       "reward": "Recompensa gratis"
@@ -28,7 +30,6 @@
       "reward": "Gentleman Tee Vee objeto"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Trade Clicker en Roblox",
     "Busca el icono de códigos en el menú",

@@ -13,6 +13,16 @@
   "placeId": 15574436852,
   "activeCodes": [
     {
+      "code": "SorryTimesInfinite",
+      "reward": "100 giros"
+    },
+    {
+      "code": "secret",
+      "reward": "5 giros"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "GEMSTONE_SWORD",
       "reward": "Freebies"
     },
@@ -75,28 +85,46 @@
     {
       "code": "RED_VOIDBOUND",
       "reward": "Freebies"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "SorryTimesInfinite",
-      "reward": "100 Spins"
     },
     {
       "code": "500kMembers",
-      "reward": "30 Spins"
+      "reward": "30 giros"
     },
     {
       "code": "FurryIncident",
-      "reward": "10 Spins"
+      "reward": "10 giros"
     },
     {
       "code": "SorryForShutdown",
-      "reward": "30 Spins"
+      "reward": "30 giros"
     },
     {
-      "code": "secret",
-      "reward": "5 Spins"
+      "code": "FollowBLOXECandMixJuanchoForLuck",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "OutageL",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "AFKUPDATE",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "AmethystHoood",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "OmegaDominus",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "DelayOopsie",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "heHitMyCaronthehighwayAndHeTrynaLeave",
+      "reward": "Recompensas"
     },
     {
       "code": "CARDS_UPDATE",

@@ -9,12 +9,14 @@
   "activeCodes": [
     {
       "code": "ValentinesDay",
-      "reward": "25 Product Essence (Expires on March 14)"
+      "reward": "Product Essence"
     },
     {
       "code": "430kLikes",
-      "reward": "3 Premium Dye and 25 Product Essence"
-    },
+      "reward": "3 Premium Dye, + 25 Product Essence"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "425kLikes",
       "reward": "+1 New Slot, +3 Premium Dye, +10 Product Essence"
@@ -70,668 +72,618 @@
     {
       "code": "TheEvilHalloweenDuper",
       "reward": "50 Product Essence"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "425kLikes",
-      "reward": "+1 New Slot, +3 Premium Dye, +10 Product Essence"
-    },
-    {
-      "code": "NewYearsOf2026s",
-      "reward": "25 PE"
-    },
-    {
-      "code": "chillingwintrynights",
-      "reward": "25 PE"
-    },
-    {
-      "code": "TheEveBeforeChristmas",
-      "reward": "+1 New Slot, +3 Premium Dye, +10 Product Essence"
-    },
-    {
-      "code": "EvilWarlordTriumph",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HappyThanksgiving2025",
-      "reward": "+30 PE"
-    },
-    {
-      "code": "TheFirstDayOfWinter",
-      "reward": "50+ PE"
-    },
-    {
-      "code": "TheEvilHalloweenDuper",
-      "reward": "+50 PE"
-    },
-    {
-      "code": "MayIngusRest",
-      "reward": "10 Product Essence, + Dullahan Accessory"
-    },
-    {
-      "code": "420kLikes",
-      "reward": "+25 PE"
-    },
-    {
-      "code": "PeroxideHolloween2025",
-      "reward": "+25 PE"
-    },
-    {
-      "code": "PLAYSTORMDELVE",
-      "reward": "+30 PE also inverts negative PE"
-    },
-    {
-      "code": "415kLikesAwesome",
-      "reward": "+25 PE"
-    },
-    {
-      "code": "ServerRestartToday",
-      "reward": "+25 PE"
-    },
-    {
-      "code": "TheCrabManipulatorsCode",
-      "reward": "15 Product Essence and 1 slot"
-    },
-    {
-      "code": "MYTEAMISBULLETPROOF",
-      "reward": "+20 Product Essence"
-    },
-    {
-      "code": "Serveroutage925",
-      "reward": "+15 PE"
-    },
-    {
-      "code": "410kLikesFreeSlotTwoTooTwoToo",
-      "reward": "+15 PE, + 1 Slot"
-    },
-    {
-      "code": "WeEnjoyRatingChanges",
-      "reward": "+25 PE"
-    },
-    {
-      "code": "405kLikesFreeSlot",
-      "reward": "+15 PE, + 1 Slot"
-    },
-    {
-      "code": "4thJuly2025",
-      "reward": "+15 Product Essence"
-    },
-    {
-      "code": "400kLikesLOTM",
-      "reward": "+30 Product Essence"
-    },
-    {
-      "code": "395kLikes",
-      "reward": "+30 Product Essence"
-    },
-    {
-      "code": "Relic29",
-      "reward": "+29 Product Essence"
-    },
-    {
-      "code": "390kLikesExcla",
-      "reward": "+20 Product Essence"
-    },
-    {
-      "code": "GoAheadAndJoinTheGame",
-      "reward": "+10 Product Essence"
-    },
-    {
-      "code": "MiAmigo",
-      "reward": "+15 Product Essence"
-    },
-    {
-      "code": "2025Easter",
-      "reward": "+20 Product Essence"
-    },
-    {
-      "code": "385kLikes",
-      "reward": "+25 Product Essence"
-    },
-    {
-      "code": "380kLikes",
-      "reward": "+20 Product Essence"
-    },
-    {
-      "code": "TheMenosAreSmallInNewServersAgain",
-      "reward": "+20 Product Essence"
-    },
-    {
-      "code": "YouDoNotHaveShikai",
-      "reward": "+15 Product Essence"
-    },
-    {
-      "code": "375kLikes",
-      "reward": "+25 Product Essence"
-    },
-    {
-      "code": "Valentines2025",
-      "reward": "+15 Product Essence"
-    },
-    {
-      "code": "370kLikes",
-      "reward": "+30 Product Essence"
-    },
-    {
-      "code": "ChoppedChin",
-      "reward": "+25 Product Essence"
-    },
-    {
-      "code": "NEWYEAR2025",
-      "reward": "+25 Product Essence"
-    },
-    {
-      "code": "Chung",
-      "reward": "+25 Product Essence"
-    },
-    {
-      "code": "360kLikes",
-      "reward": "+25 Product Essence"
-    },
-    {
-      "code": "HappyHalloween24",
-      "reward": "+30 Product Essence"
-    },
-    {
-      "code": "ThanksRoblox",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "thevisionarythatblewupwandenreich",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "peroxidedidmygloriouskingdirty",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "GlacierReworkShoutOutTemporary",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "mybadforthesebrokencodes",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "GokuObbyOfDoom",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "notlikeus",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "ThisIsMySalvation",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "320kLikesThanks",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "wymthisupdatewassupposedtodrop2monthsago",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "classiclyingspreemybad",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "LongMaintenance",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "SorryForDelay",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "SkibiShutdown",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "GokuDayCodeSuper2",
-      "reward": "15 Product Essence"
-    },
-    {
-      "code": "310KLikesHappyWeekend",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "230MVisitsCodeCritters",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "sorry4thebugs",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "220MVisitsArrancarTerrorism",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "TheShura",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "AlvinAndTheChipmunks",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "EclipseDontBurnUrEyes",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "300kLikesSorryLate",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "TwoTrillionAprilPECode",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "shutdowntofixnpcs",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "210MVisitsAwesome",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "PeroxideAnniPE",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "PeroxideAnni",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "UnluckyBruhxide",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "290kLikesLOOLOLOL",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "200MVisitsAwesome",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "ValentinesDayButNoValentines",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "FusionStopGamblingWorkOnTheGame",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "15kSubsSoEpic",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "FusionForgotHowToShutdown",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "190mVisitsThanks",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "ThanksForPingingAhmed",
-      "reward": "20 Product Essence"
-    },
-    {
-      "code": "280kLikesThankYouForYourSupport",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "180mVistsTrollDelay",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "CodeCrittersVsBugFixersPart2",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "CodeCrittersVsBugFixers",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "StopListeningToTrialMods",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "HappyNewYearJoMamaJoeBiden12121",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "Chungsmas",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "170mVisitsGuys",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "270kLikesOhHowJolly",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "FBBossIncident",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "FBUpdate",
-      "reward": "Product Essence350kLikes"
-    },
-    {
-      "code": "Peroxide10kSubs",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "Peroxide5kSubs",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "260kLikesWhatTheJoe",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "160mVisitsWhatTheFB",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "ThanksGivingButAmerican",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "LOLSTUPIDHEADLESS",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "ImpostorvsCrewmate",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "150mVisitsThanksForContinuedSupport",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "ThxForSurvey",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "BaskingSharkDay",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "HalloweenOmg2",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "OOPS",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "DevCelebrationRolandtime",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "140mVisitsJoeBiden",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "250kLikesWungusApproves",
-      "reward": "30 Product Essence"
-    },
-    {
-      "code": "RobloxOutageNumber2Trillion",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "130MVisitsHolyMoly",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "WungusVsRoblox",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "YTFat",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "TheNightOfTheWungus",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "FusionIsAWungus",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "120MVisitsTheVoices",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "230kLikesHolySpeedrun",
-      "reward": "Product Essence"
     },
     {
       "code": "240kLikesChill",
-      "reward": "Product Essence"
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "110mVisitsWTH",
-      "reward": "Product Essence"
+      "code": "395kLikes",
+      "reward": "Redeem code for +30 Product Essence"
     },
     {
-      "code": "110mVisitsAwesome",
-      "reward": "Product Essence"
+      "code": "Chungsmas",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "220kLikesCritters",
-      "reward": "Product Essence"
+      "code": "Relic29",
+      "reward": "Redeem code for +29 Product Essence"
     },
     {
-      "code": "RAIGABOMBU",
-      "reward": "Product Essence"
+      "code": "GoAheadAndJoinTheGame",
+      "reward": "Redeem code for +10 Product Essence"
     },
     {
-      "code": "TheApproachingStorm",
-      "reward": "Product Essence"
+      "code": "MiAmigo",
+      "reward": "Redeem code for +15 Product Essence"
     },
     {
-      "code": "SpudBugsUnite",
-      "reward": "Product Essence"
+      "code": "2025Easter",
+      "reward": "Redeem code for +20 Product Essence"
     },
     {
-      "code": "GankingSpudsHouse",
-      "reward": "Product Essence"
+      "code": "385kLikes",
+      "reward": "Redeem code for +25 Product Essence"
     },
     {
-      "code": "UpdateThisWeekend",
-      "reward": "Product Essence"
+      "code": "380kLikes",
+      "reward": "Redeem code for +20 Product Essence"
     },
     {
-      "code": "100kVisitsEpicAmongus",
-      "reward": "50 Product Essence"
+      "code": "YouDoNotHaveShikai",
+      "reward": "Redeem code for +15 Product Essence"
     },
     {
-      "code": "210kLikesJoeMama",
-      "reward": "Recompensas gratis"
+      "code": "375kLikes",
+      "reward": "Redeem code for +25 Product Essence"
     },
     {
-      "code": "ApeirophobiaChapter2",
-      "reward": "Recompensas gratis"
+      "code": "370kLikes",
+      "reward": "Redeem code for +30 Product Essence"
     },
     {
-      "code": "200kLikesCritters",
-      "reward": "Recompensas gratis"
+      "code": "ChoppedChin",
+      "reward": "Redeem code for +25 Product Essence"
     },
     {
-      "code": "90MVisitswowzers",
-      "reward": "Recompensas gratis"
+      "code": "NEWYEAR2025",
+      "reward": "Redeem code for +25 Product Essence"
     },
     {
-      "code": "Only10PeWHAAAAT",
-      "reward": "Recompensas gratis"
+      "code": "Chung",
+      "reward": "Redeem code for +25 Product Essence"
     },
     {
-      "code": "FungusAmongus10K",
-      "reward": "Recompensas gratis"
+      "code": "360kLikes",
+      "reward": "Redeem code for +25 Product Essence"
     },
     {
-      "code": "Grimdub10k",
-      "reward": "Product Essence"
+      "code": "GlacierReworkShoutOutTemporary",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "190KLikesWOW",
-      "reward": "Product Essence"
+      "code": "mybadforthesebrokencodes",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "80MVisitsTyrone",
-      "reward": "Product Essence"
+      "code": "GokuObbyOfDoom",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "GrilledCheeseFluffy",
-      "reward": "Product Essence"
+      "code": "notlikeus",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "VerminUpdate",
-      "reward": "Product Essence"
+      "code": "ThisIsMySalvation",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "200kFavs",
-      "reward": "Product Essence"
+      "code": "320kLikesThanks",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "180kLikesUpdateSoon",
-      "reward": "Product Essence"
+      "code": "classiclyingspreemybad",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "70mvisitsweirdge",
-      "reward": "Product Essence"
+      "code": "LongMaintenance",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "170KLikesCodeGoblins",
-      "reward": "Product Essence"
+      "code": "SorryForDelay",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "Sussyamogusimposter",
-      "reward": "Product Essence"
+      "code": "SkibiShutdown",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "60MVisits",
-      "reward": "Product Essence"
+      "code": "310KLikesHappyWeekend",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "DataOopsieDaisy1",
-      "reward": "Product Essence"
+      "code": "230MVisitsCodeCritters",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "DataOopsieDaisy2",
-      "reward": "Product Essence"
+      "code": "sorry4thebugs",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "EmergencyShutdownCodeForBrokenServers",
-      "reward": "35 Product Essence"
+      "code": "220MVisitsArrancarTerrorism",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "160kLikes99IsoP",
-      "reward": "Product Essence"
+      "code": "TheShura",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "150kLikesJoeYipee1231123!!",
-      "reward": "Product Essence"
+      "code": "ValentinesDayButNoValentines",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "190mVisitsThanks",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "ThanksForPingingAhmed",
+      "reward": "Redeem code for 20 Product Essence"
+    },
+    {
+      "code": "180mVistsTrollDelay",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "CodeCrittersVsBugFixers",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "StopListeningToTrialMods",
+      "reward": "Redeem code for Product Essence"
     },
     {
       "code": "50MVisits!?!?!Wow!!",
       "reward": "Product Essence"
     },
     {
-      "code": "CodeGoblins",
-      "reward": "Product Essence"
+      "code": "270kLikesOhHowJolly",
+      "reward": "Redeem code for Product Essence"
     },
     {
-      "code": "ThxForFollowingTyDev10!",
-      "reward": "Product Essence"
+      "code": "FBBossIncident",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "FBUpdate",
+      "reward": "Redeem code for Product Essence350kLikes"
+    },
+    {
+      "code": "Peroxide10kSubs",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "Peroxide5kSubs",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "160mVisitsWhatTheFB",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "LOLSTUPIDHEADLESS",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "ImpostorvsCrewmate",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "ThxForSurvey",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "BaskingSharkDay",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "HalloweenOmg2",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "OOPS",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "140mVisitsJoeBiden",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "250kLikesWungusApproves",
+      "reward": "Redeem code for 30 Product Essence"
+    },
+    {
+      "code": "RobloxOutageNumber2Trillion",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "130MVisitsHolyMoly",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "WungusVsRoblox",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "YTFat",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "FusionIsAWungus",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "120MVisitsTheVoices",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "RAIGABOMBU",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "SpudBugsUnite",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "GankingSpudsHouse",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "UpdateThisWeekend",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "100kVisitsEpicAmongus",
+      "reward": "Redeem code for 50 Product Essence"
+    },
+    {
+      "code": "210kLikesJoeMama",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ApeirophobiaChapter2",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "90MVisitswowzers",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "Only10PeWHAAAAT",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "FungusAmongus10K",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "Grimdub10k",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "190KLikesWOW",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "80MVisitsTyrone",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "VerminUpdate",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "200kFavs",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "180kLikesUpdateSoon",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "70mvisitsweirdge",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "170KLikesCodeGoblins",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "Sussyamogusimposter",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "DataOopsieDaisy2",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "160kLikes99IsoP",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "CodeGoblins",
+      "reward": "Redeem code for Product Essence"
     },
     {
       "code": "HairRatsMatter155!",
-      "reward": "Product Essence"
+      "reward": "Redeem code for Product Essence"
     },
     {
       "code": "140kLikesNewContentSoon",
-      "reward": "Product Essence"
+      "reward": "Redeem code for Product Essence"
     },
     {
       "code": "40MVisits!!!",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "130kLikesInfiniteCodes",
-      "reward": "Product Essence"
+      "reward": "Redeem code for Product Essence"
     },
     {
       "code": "120kLikesHolyMoly",
-      "reward": "Product Essence"
+      "reward": "Redeem code for Product Essence"
     },
     {
       "code": "20MVisits!",
-      "reward": "Product Essence"
+      "reward": "Redeem code for Product Essence"
     },
     {
       "code": "30MVisits!",
-      "reward": "Product Essence"
+      "reward": "Redeem code for Product Essence"
     },
     {
       "code": "110kLikesYouLittleCritters",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "100kLikesYouAllAreEatingGood",
-      "reward": "Product Essence"
+      "reward": "Redeem code for Product Essence"
     },
     {
       "code": "80kLikesSorryForACStrikes",
-      "reward": "Product Essence"
-    },
-    {
-      "code": "AmogusGrimaceShake",
-      "reward": "Product Essence"
+      "reward": "Redeem code for Product Essence"
     },
     {
       "code": "60kLikesHiGuys",
-      "reward": "15 Product Essence"
+      "reward": "Redeem code for 15 Product Essence"
     },
     {
       "code": "10MVisits!",
-      "reward": "10 Product Essence"
+      "reward": "Redeem code for 10 Product Essence"
     },
     {
       "code": "40kLikesRobloxAPICantHandle60k",
-      "reward": "15 Product Essence"
+      "reward": "Redeem code for 15 Product Essence"
     },
     {
       "code": "50kLikesWowThatWasFast",
-      "reward": "15 Product Essence"
+      "reward": "Redeem code for 15 Product Essence"
     },
     {
       "code": "30kLikesThanksForSupportingUs",
-      "reward": "+15 Product Essence"
+      "reward": "Redeem code for +15 Product Essence"
     },
     {
       "code": "FreeSlot20kLikes",
-      "reward": "+1 slot and +15 Product Essence"
+      "reward": "Redeem code for +1 slot and +15 Product Essence"
     },
     {
       "code": "GrimaceAmongus",
-      "reward": "20 product essence"
+      "reward": "Redeem code for 20 product essence"
     },
     {
       "code": "RELEASE!!!!",
-      "reward": "50 product essence"
+      "reward": "Redeem code for 50 product essence"
+    },
+    {
+      "code": "PeroxideAnniPE",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "300kLikesSorryLate",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "PeroxideAnni",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "EclipseDontBurnUrEyes",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "TwoTrillionAprilPECode",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "290kLikesLOOLOLOL",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "UnluckyBruhxide",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "AlvinAndTheChipmunks",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "shutdowntofixnpcs",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "210MVisitsAwesome",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "4thJuly2025",
+      "reward": "Redeem code for +15 Product Essence"
+    },
+    {
+      "code": "405kLikesFreeSlot",
+      "reward": "Redeem code for +15 PE, + 1 Slot"
+    },
+    {
+      "code": "220kLikesCritters",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "230kLikesHolySpeedrun",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "400kLikesLOTM",
+      "reward": "Redeem code for +30 Product Essence"
+    },
+    {
+      "code": "415kLikesAwesome",
+      "reward": "Redeem code for +25 PE"
+    },
+    {
+      "code": "ServerRestartToday",
+      "reward": "Redeem code for +25 PE"
+    },
+    {
+      "code": "TheCrabManipulatorsCode",
+      "reward": "Redeem code for 15 Product Essence and 1 slot"
+    },
+    {
+      "code": "WeEnjoyRatingChanges",
+      "reward": "Redeem code for +25 PE"
+    },
+    {
+      "code": "390kLikesExcla",
+      "reward": "Redeem code for +20 Product Essence"
+    },
+    {
+      "code": "TheMenosAreSmallInNewServersAgain",
+      "reward": "Redeem code for +20 Product Essence"
+    },
+    {
+      "code": "Valentines2025",
+      "reward": "Redeem code for +15 Product Essence"
+    },
+    {
+      "code": "thevisionarythatblewupwandenreich",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "wymthisupdatewassupposedtodrop2monthsago",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "GokuDayCodeSuper2",
+      "reward": "Redeem code for 15 Product Essence"
+    },
+    {
+      "code": "FusionStopGamblingWorkOnTheGame",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "280kLikesThankYouForYourSupport",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "CodeCrittersVsBugFixersPart2",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "HappyNewYearJoMamaJoeBiden12121",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "170mVisitsGuys",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "260kLikesWhatTheJoe",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "150mVisitsThanksForContinuedSupport",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "DevCelebrationRolandtime",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "TheNightOfTheWungus",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "TheApproachingStorm",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "200kLikesCritters",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "GrilledCheeseFluffy",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "DataOopsieDaisy1",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "EmergencyShutdownCodeForBrokenServers",
+      "reward": "35 Product Essence"
+    },
+    {
+      "code": "ThxForFollowingTyDev10!",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "130kLikesInfiniteCodes",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "AmogusGrimaceShake",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "200MVisitsAwesome",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "MYTEAMISBULLETPROOF",
+      "reward": "Redeem code for +20 Product Essence"
+    },
+    {
+      "code": "410kLikesFreeSlotTwoTooTwoToo",
+      "reward": "Redeem code for +15 PE, + 1 Slot"
+    },
+    {
+      "code": "HappyHalloween24",
+      "reward": "Redeem code for +30 Product Essence"
+    },
+    {
+      "code": "ThanksRoblox",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "peroxidedidmygloriouskingdirty",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "15kSubsSoEpic",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "ThanksGivingButAmerican",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "60MVisits",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "100kLikesYouAllAreEatingGood",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "FusionForgotHowToShutdown",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "150kLikesJoeYipee1231123!!",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "110mVisitsAwesome",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "110mVisitsWTH",
+      "reward": "Redeem code for Product Essence"
+    },
+    {
+      "code": "NewYearsOf2026s",
+      "reward": "Redeem code for 25 PE"
     },
     {
       "code": "iknowwhozingusis",

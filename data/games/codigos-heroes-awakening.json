@@ -8,91 +8,13 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "HALLOWEENCODE",
-      "reward": "10 giros"
-    },
-    {
-      "code": "AURAKATANA",
-      "reward": "Fire Katana"
-    },
-    {
-      "code": "20KLIKES",
-      "reward": "5 giros"
-    },
-    {
-      "code": "25KLIKES",
-      "reward": "5 giros"
-    },
-    {
-      "code": "33KLIKES",
-      "reward": "5 giros"
-    },
-    {
-      "code": "STATRESETAGAIN",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "ANOTHERROLL",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "SECRETCODE",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "12KLIKES",
-      "reward": "5k Cash and 5 giros"
-    },
-    {
-      "code": "UPDATESCOMING",
-      "reward": "6 giros and 5k Cash"
-    },
-    {
-      "code": "GROUP",
-      "reward": "500 Cash and 3 giros"
-    },
-    {
-      "code": "6KLIKES",
-      "reward": "5 giros, 100XP, and Cash"
-    },
-    {
-      "code": "MORESPINS",
-      "reward": "5 giros, 100XP, and 1K Cash"
-    },
-    {
-      "code": "HUGEUPDATESOON",
-      "reward": "5 giros, 500 Cash, and 100XP"
-    },
-    {
-      "code": "1MVISITS",
-      "reward": "10 giros and 7k Cash"
-    },
-    {
-      "code": "FREESTATRESET",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "3KLIKES",
-      "reward": "Giros and Cash"
-    },
-    {
-      "code": "SRRY4SHUTDOWNS",
-      "reward": "3 giros and 1K Cash"
-    },
-    {
-      "code": "HARELEASE",
-      "reward": "2 giros 1.5K Cash"
+      "code": "SubToXenoTy",
+      "reward": "Redeem code for 1.5k Cash and 3 giros"
     },
     {
       "code": "SubToShiverAway",
-      "reward": "3 giros and 1.5K Cash"
+      "reward": "Redeem code for 1.5k Cash and 3 giros"
     },
-    {
-      "code": "SubToXenoTy",
-      "reward": "3 giros and 1.5K Cash"
-    }
-  ],
-  "expiredCodes": [
     {
       "code": "CHRISTMASUPDATE",
       "reward": "5 giros , X2 Cash 30 minutos"
@@ -102,30 +24,107 @@
       "reward": "Exclusivo CHRISTMAS objeto , 1.2K Cash + 4 giros"
     },
     {
+      "code": "2RACESPINS2",
+      "reward": "2 RACE giros , (GO TO CHAR CUS TO USE)"
+    },
+    {
+      "code": "HALLOWEENCODE",
+      "reward": "Redeem code for 2 RACE giros + 7 giros"
+    },
+    {
+      "code": "AURAKATANA",
+      "reward": "Redeem code for recompensas (In-Game Redemption Only!) gratis"
+    },
+    {
+      "code": "33KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "20KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "Sub2XenoTy",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "STATRESETAGAIN",
+      "reward": "Redeem code for reinicio de stats"
+    },
+    {
+      "code": "ANOTHERROLL",
+      "reward": "Redeem code for Race Reroll"
+    },
+    {
+      "code": "UPDATESCOMING",
+      "reward": "Redeem code for 6 giros and 5k Cash"
+    },
+    {
+      "code": "GROUP",
+      "reward": "Redeem code for 500 Cash and 3 giros"
+    },
+    {
+      "code": "6KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "MORESPINS",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "HUGEUPDATESOON",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "1MVISITS",
+      "reward": "Redeem code for 10 giros and 7k Cash"
+    },
+    {
+      "code": "3KLIKES",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "SubToBlueseff",
+      "reward": "Redeem code for 5 giros"
+    },
+    {
+      "code": "1KLIKES",
+      "reward": "Redeem code for Cash and giros"
+    },
+    {
+      "code": "SRRY4SHUTDOWNS",
+      "reward": "Redeem code for 3 giros and 1k Cash"
+    },
+    {
+      "code": "25KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "12KLIKES",
+      "reward": "Redeem code for 5k Cash and 5 giros"
+    },
+    {
+      "code": "FREESTATRESET",
+      "reward": "Redeem code for a reinicio de stats"
+    },
+    {
       "code": "50KLIKES",
       "reward": "4 giros , 5K Cash"
     },
     {
-      "code": "2RACESPINS2",
-      "reward": "2 RACE giros ,"
+      "code": "HARELEASE",
+      "reward": "Redeem code for 1.5k Cash and 2 giros"
     },
     {
-      "code": "Sub2XenoTy",
-      "reward": "Recompensas gratis"
+      "code": "SECRETCODE",
+      "reward": "Redeem code for Race Reroll (In-Game Redemption Only!)"
     },
     {
       "code": "NEWRAIDS",
-      "reward": "Cash and giros"
-    },
-    {
-      "code": "SubToBlueseff",
-      "reward": "5 giros"
-    },
-    {
-      "code": "1KLIKES",
-      "reward": "Cash and giros"
+      "reward": "Redeem code for Cash and giros"
     }
   ],
+  "expiredCodes": [],
   "howToRedeem": [
     "Abre Heroes Awakening en Roblox",
     "Busca el icono de códigos en el menú",

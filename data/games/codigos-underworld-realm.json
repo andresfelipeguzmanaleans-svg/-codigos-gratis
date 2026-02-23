@@ -8,20 +8,24 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "20KLikes",
-      "reward": "Recompensas gratis"
+      "code": "1Klikes",
+      "reward": "Redeem code for 3 Soul Orb + 8 llaves + 10 minutos of 2x EXP"
     },
     {
-      "code": "HappyNewYear",
-      "reward": "15 Soul Orbs / 20 Box llaves / 1250 oro"
+      "code": "Chicken",
+      "reward": "5 Soul orb / 55 oro / 2x EXP 10 minutos"
     },
     {
-      "code": "TheFinalCountdown",
-      "reward": "+20 minutos 2x EXP / +20 minutos 2X Drop chance"
+      "code": "100kvisits",
+      "reward": "10 Soul Orbs + 10 Common box llaves"
     },
     {
-      "code": "IAmVoid",
-      "reward": "+30 minutos 2X Drop chance / +30 minutos 2x EXP"
+      "code": "Rainbow",
+      "reward": "30 minutos 2x EXP"
+    },
+    {
+      "code": "10kvisits",
+      "reward": "Redeem code for 1 Soul gema + 5 Soul Orbs"
     },
     {
       "code": "2Mvisits",
@@ -30,10 +34,6 @@
     {
       "code": "BaNAnA",
       "reward": "10 minutos 2X Drop chance"
-    },
-    {
-      "code": "Rainbow",
-      "reward": "30 minutos 2x EXP"
     },
     {
       "code": "Update1Snowdin",
@@ -48,21 +48,23 @@
       "reward": "20 Soul orb / 5 llave box"
     },
     {
-      "code": "Chicken",
-      "reward": "5 Soul orb / 55 oro / 2x EXP 10 minutos"
+      "code": "TheFinalCountdown",
+      "reward": "+20 minutos 2x EXP / +20 minutos 2X Drop chance"
     },
     {
-      "code": "100kvisits",
-      "reward": "10 Soul Orbs + 10 Common box llaves"
+      "code": "IAmVoid",
+      "reward": "+30 minutos 2X Drop chance / +30 minutos 2x EXP"
     },
     {
-      "code": "1Klikes",
-      "reward": "3 Soul Orb + 8 llaves + 10 minutos of 2x EXP"
+      "code": "HappyNewYear",
+      "reward": "15 Soul Orbs / 20 Box llaves / 1250 oro"
     },
     {
-      "code": "10kvisits",
-      "reward": "1 Soul gema + 5 Soul Orbs"
-    },
+      "code": "20KLikes",
+      "reward": "Redeem code for recompensas gratis"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "0806",
       "reward": "2x EXP for 10 minutos"
@@ -72,7 +74,6 @@
       "reward": "X5 Soul Orb and x5 Box llaves"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Underworld Realm en Roblox",
     "Busca el icono de códigos en el menú",

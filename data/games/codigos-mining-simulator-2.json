@@ -8,27 +8,131 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "Update63",
+      "code": "UltraLuck",
+      "reward": "30 minutos Omega Lucky Boost"
+    },
+    {
+      "code": "UltraLucky",
+      "reward": "4 hora Omega suerte Boost"
+    },
+    {
+      "code": "Lucky24",
+      "reward": "24 horas Lucky Boost"
+    },
+    {
+      "code": "Super24",
+      "reward": "24 horas Super Lucky Boost"
+    },
+    {
+      "code": "Omega24",
+      "reward": "24 horas Omega Lucky Boost"
+    },
+    {
+      "code": "Update38",
       "reward": "6 horas Lucky Boost"
+    },
+    {
+      "code": "Update39",
+      "reward": "6 horas Lucky Boost"
+    },
+    {
+      "code": "Update50",
+      "reward": "6 horas Lucky Boost"
+    },
+    {
+      "code": "50thEvent",
+      "reward": "4 horas Super Lucky Boost"
+    },
+    {
+      "code": "Magma",
+      "reward": "4 horas Super Lucky Boost"
+    },
+    {
+      "code": "Update51",
+      "reward": "6 horas Lucky Boost"
+    },
+    {
+      "code": "Fruit",
+      "reward": "4 horas Super Lucky Boost"
+    },
+    {
+      "code": "Update53",
+      "reward": "6 horas Lucky Boost"
+    },
+    {
+      "code": "Azure",
+      "reward": "4 horas Super Lucky Boost"
+    },
+    {
+      "code": "Update52",
+      "reward": "6 horas Lucky Boost"
+    },
+    {
+      "code": "Update56",
+      "reward": "6 horas Lucky Boost"
+    },
+    {
+      "code": "Update55",
+      "reward": "6 horas Lucky Boost"
+    },
+    {
+      "code": "Update54",
+      "reward": "6 horas Lucky Boost"
+    },
+    {
+      "code": "Update57",
+      "reward": "6 horas Lucky Boost"
+    },
+    {
+      "code": "Update58",
+      "reward": "6 horas Lucky Boost"
+    },
+    {
+      "code": "MegaLuck",
+      "reward": "30 minutos Omega Lucky Boost"
+    },
+    {
+      "code": "StPatricks",
+      "reward": "4 horas Super Lucky Boost"
+    },
+    {
+      "code": "Haunted",
+      "reward": "4 horas Super Lucky Boost"
+    },
+    {
+      "code": "Anniversary",
+      "reward": "4 horas Super Lucky Boost"
+    },
+    {
+      "code": "Fall",
+      "reward": "4 horas Super Lucky Boost"
+    },
+    {
+      "code": "Cauldron",
+      "reward": "4 horas Super Lucky Boost"
+    },
+    {
+      "code": "Toxic",
+      "reward": "4 horas Super Lucky Boost"
+    },
+    {
+      "code": "Scary",
+      "reward": "4 horas Super Lucky Boost"
     },
     {
       "code": "Peppermint",
       "reward": "4 horas Super Lucky Boost"
     },
     {
-      "code": "Update62",
-      "reward": "6 horas Lucky Boost"
-    },
-    {
-      "code": "Ornament",
+      "code": "SPOOKY",
       "reward": "4 horas Super Lucky Boost"
     },
     {
-      "code": "Update61",
-      "reward": "6 horas Lucky Boost"
+      "code": "Thankful",
+      "reward": "4 horas Super Lucky Boost"
     },
     {
-      "code": "Thankful",
+      "code": "Ornament",
       "reward": "4 horas Super Lucky Boost"
     },
     {
@@ -48,77 +152,23 @@
       "reward": "4 horas Super Lucky Boost"
     },
     {
-      "code": "Update58",
+      "code": "Update63",
       "reward": "6 horas Lucky Boost"
     },
     {
-      "code": "Toxic",
-      "reward": "4 horas Super Lucky Boost"
-    },
-    {
-      "code": "Update56",
+      "code": "Update62",
       "reward": "6 horas Lucky Boost"
     },
     {
-      "code": "Cauldron",
-      "reward": "4 horas Super Lucky Boost"
-    },
-    {
-      "code": "Update57",
+      "code": "Update61",
       "reward": "6 horas Lucky Boost"
     },
     {
-      "code": "Scary",
+      "code": "200M",
       "reward": "4 horas Super Lucky Boost"
-    },
-    {
-      "code": "Update55",
-      "reward": "6 horas Lucky Boost"
-    },
-    {
-      "code": "Haunted",
-      "reward": "4 horas Super Lucky Boost"
-    },
-    {
-      "code": "Update54",
-      "reward": "6 horas Lucky Boost"
-    },
-    {
-      "code": "Fall",
-      "reward": "4 horas Super Lucky Boost"
-    },
-    {
-      "code": "Update53",
-      "reward": "6 horas Lucky Boost"
-    },
-    {
-      "code": "Azure",
-      "reward": "4 horas Super Lucky Boost"
-    },
-    {
-      "code": "Update52",
-      "reward": "6 horas Lucky Boost"
-    },
-    {
-      "code": "Fruit",
-      "reward": "4 horas Super Lucky Boost"
-    },
-    {
-      "code": "Update51",
-      "reward": "6 horas Lucky Boost"
-    },
-    {
-      "code": "Magma",
-      "reward": "4 horas Super Lucky Boost"
-    },
-    {
-      "code": "Update50",
-      "reward": "6 horas Lucky Boost"
-    },
-    {
-      "code": "50thEvent",
-      "reward": "4 horas Super Lucky Boost"
-    },
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "Update49",
       "reward": "6 horas Lucky Boost"
@@ -138,10 +188,6 @@
     {
       "code": "Update47",
       "reward": "6 horas Lucky Boost"
-    },
-    {
-      "code": "200M",
-      "reward": "4 horas Super Lucky Boost"
     },
     {
       "code": "Update46",
@@ -172,10 +218,6 @@
       "reward": "6 horas Lucky Boost"
     },
     {
-      "code": "Anniversary",
-      "reward": "4 horas Super Lucky Boost"
-    },
-    {
       "code": "Update42",
       "reward": "6 horas Lucky Boost"
     },
@@ -200,16 +242,8 @@
       "reward": "4 horas Super Lucky Boost"
     },
     {
-      "code": "Update39",
-      "reward": "6 horas Lucky Boost"
-    },
-    {
       "code": "SpringPart4",
       "reward": "4 horas Super Lucky Boost"
-    },
-    {
-      "code": "Update38",
-      "reward": "6 horas Lucky Boost"
     },
     {
       "code": "SpringPart3",
@@ -242,10 +276,6 @@
     {
       "code": "Update33",
       "reward": "6 horas Lucky Boost"
-    },
-    {
-      "code": "StPatricks",
-      "reward": "4 horas Super Lucky Boost"
     },
     {
       "code": "Update32",
@@ -344,18 +374,6 @@
       "reward": "4 horas Super Lucky Boost"
     },
     {
-      "code": "Omega24",
-      "reward": "24 horas Omega Lucky Boost"
-    },
-    {
-      "code": "Super24",
-      "reward": "24 horas Super Lucky Boost"
-    },
-    {
-      "code": "Lucky24",
-      "reward": "24 horas Lucky Boost"
-    },
-    {
       "code": "Update18",
       "reward": "6 horas Lucky Boost"
     },
@@ -366,10 +384,6 @@
     {
       "code": "Update17",
       "reward": "6 horas Lucky Boost"
-    },
-    {
-      "code": "Spooky",
-      "reward": "4 horas Super Lucky Boost"
     },
     {
       "code": "Update16",
@@ -426,10 +440,6 @@
     {
       "code": "Update10",
       "reward": "30 mins Super Lucky Boost"
-    },
-    {
-      "code": "UltraLucky",
-      "reward": "4 horas Omega Lucky Boost"
     },
     {
       "code": "Atlantis",
@@ -496,14 +506,6 @@
       "reward": "30 mins Lucky Boost"
     },
     {
-      "code": "UltraLuck",
-      "reward": "30 minutos of Omega Lucky"
-    },
-    {
-      "code": "MegaLuck",
-      "reward": "30 minutos of Omega Lucky"
-    },
-    {
       "code": "Lucky",
       "reward": "1 hora of suerte Boost"
     },
@@ -538,9 +540,16 @@
     {
       "code": "FreeEgg",
       "reward": "Egg gratis"
+    },
+    {
+      "code": "PUZZLE",
+      "reward": "1 4 hora Super Lucky Boost"
+    },
+    {
+      "code": "UPDATE36",
+      "reward": "1 6 hora Lucky Boost"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Mining Simulator 2 en Roblox",
     "Busca el icono de códigos en el menú",

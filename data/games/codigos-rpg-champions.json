@@ -8,6 +8,32 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "starter",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "40klikes",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "75kfavs",
+      "reward": "Extra moneda Boost (30 minutos)"
+    },
+    {
+      "code": "COINBOOST",
+      "reward": "Extra moneda Boost (10 minutos)"
+    },
+    {
+      "code": "CRYSTALBOOST",
+      "reward": "Extra Crystal Chance (30 minutos)"
+    },
+    {
+      "code": "THANKYOU",
+      "reward": "Epic Northwind Sword"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "35kthanks",
       "reward": "Freebies"
     },
@@ -64,19 +90,14 @@
       "reward": "30 minutos of +10% crystal chance"
     },
     {
-      "code": "COINBOOST",
-      "reward": "10 minutos of +100% moneda Boost"
+      "code": "BETA",
+      "reward": "The Godfather Armour"
     },
     {
-      "code": "CRYSTALBOOST",
-      "reward": "30 minutos of +10% crystal chance"
-    },
-    {
-      "code": "THANKYOU",
-      "reward": "Northwind Sword"
+      "code": "9n9m",
+      "reward": "1,000 Dust"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Rpg Champions en Roblox",
     "Busca el icono de códigos en el menú",

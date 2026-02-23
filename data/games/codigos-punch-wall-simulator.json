@@ -14,15 +14,11 @@
   "activeCodes": [
     {
       "code": "eastercode",
-      "reward": "2x fuerza for 30m poción"
+      "reward": "Redeem code for 2x fuerza for 30m poción"
     },
     {
       "code": "snow",
-      "reward": "Arctic Fox mascota"
-    },
-    {
-      "code": "roblox",
-      "reward": "Mascota gratis"
+      "reward": "Redeem code for an Arctic Fox mascota"
     },
     {
       "code": "noob",
@@ -38,6 +34,10 @@
     }
   ],
   "expiredCodes": [
+    {
+      "code": "roblox",
+      "reward": "Mascota gratis"
+    },
     {
       "code": "Punch_boost",
       "reward": "Poción de monedas x2"

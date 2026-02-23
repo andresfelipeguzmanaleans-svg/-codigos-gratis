@@ -8,73 +8,75 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "50MVISIT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "250KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "UPDATE12",
-      "reward": "10 MIN SHADOW DRINK + 2 giros"
+      "reward": "Redeem code FOR 10 MIN SHADOW DRINK + 2 giros"
     },
     {
       "code": "SorryForShutdown",
-      "reward": "1 giro + 500 gemas"
+      "reward": "Redeem code for 1 giro + 500 gemas"
     },
     {
       "code": "UPDATE11",
-      "reward": "10 minuto Shadow poción + 2 giros"
+      "reward": "Redeem code for a 10 minuto Shadow poción + 2 giros"
     },
     {
       "code": "UPDATE10",
-      "reward": "10 minuto Shadow poción + 2 giros"
-    },
-    {
-      "code": "UPDATE9",
-      "reward": "10 minuto Shadow poción + 1 giro + 500 gema"
+      "reward": "Redeem code for a 10 minuto Shadow poción + 2 giros"
     },
     {
       "code": "200KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "UPDATE8",
-      "reward": "30 minuto GOLDEN poción + 2 giros"
+      "reward": "Redeem code for a 30 minuto GOLDEN poción + 2 giros"
     },
     {
       "code": "30MVISITS",
-      "reward": "10 minuto SHADOW poción + giro"
+      "reward": "Redeem code for a 10 minuto SHADOW poción + giro"
     },
     {
       "code": "UPDATE7",
-      "reward": "30 minuto oro poción + giro"
+      "reward": "Redeem code for a 30 minuto oro poción + giro"
     },
     {
       "code": "UPDATE6",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "15MVISITS",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "UPDATE5",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "Handsome",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPDATE3",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "5klikes",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
+    {
+      "code": "50MVISIT",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "UPDATE9",
+      "reward": "Redeem code for a 10 minuto Shadow poción + 1 giro + 500 gema"
+    },
+    {
+      "code": "UPDATE3",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "250KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "UPDATE2",
       "reward": "Giro gratis"
@@ -84,7 +86,6 @@
       "reward": "10,000 llaves & a 10-minuto Golden poción"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Kick Door Simulator en Roblox",
     "Busca el icono de códigos en el menú",

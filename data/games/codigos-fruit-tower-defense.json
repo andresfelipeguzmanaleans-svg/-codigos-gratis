@@ -8,64 +8,63 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "UPDATE",
-      "reward": "10 tickets, monedas pociones, suerte pociones, 500 monedas, 100 gemas and 3 giros"
-    },
-    {
-      "code": "CONCERT",
-      "reward": "50,000 Level XP"
-    },
-    {
-      "code": "NEWYEARS",
-      "reward": "10 tickets, monedas pociones, suerte pociones, 500 monedas, 100 gemas and 3 giros"
-    },
-    {
-      "code": "THANKS20K",
-      "reward": "400 monedas and 30 gemas"
-    },
-    {
-      "code": "FREE",
-      "reward": "200 monedas and 40 gemas"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "2024",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HappyHolidays",
-      "reward": "Recompensas gratis"
+      "code": "Release",
+      "reward": "Redeem code for x1 cofre"
     },
     {
       "code": "XMAS",
-      "reward": "1,000 monedas and 150 gemas"
+      "reward": "Redeem code for 1,000 monedas and 150 gemas"
+    },
+    {
+      "code": "THANKS20k",
+      "reward": "Redeem code for 400 monedas and 30 gemas"
     },
     {
       "code": "BIGUPDATE",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "BIGFIVE",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "THANKYOU",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "THANKS",
-      "reward": "200 monedas and 40 gemas"
+      "code": "FREE",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "Gems",
-      "reward": "30 gemas"
+      "reward": "Redeem code for 30 gemas"
     },
     {
-      "code": "Release",
-      "reward": "X1 cofre"
+      "code": "UPDATE",
+      "reward": "Redeem code for 10 tickets, monedas pociones, suerte pociones, 500 monedas, 100 gemas and 3 giros"
+    },
+    {
+      "code": "THANKS",
+      "reward": "Redeem code for 200 monedas and 40 gemas"
+    },
+    {
+      "code": "2024",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NEWYEARS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "CONCERT",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "HappyHolidays",
+      "reward": "Redeem code for recompensas gratis"
     }
   ],
+  "expiredCodes": [],
   "howToRedeem": [
     "Abre Fruit Tower Defense en Roblox",
     "Busca el icono de códigos en el menú",

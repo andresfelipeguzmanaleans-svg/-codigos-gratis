@@ -8,6 +8,96 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": ";code SundayStatReset",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": ";code SundayDropBoost",
+      "reward": "Drop Boost"
+    },
+    {
+      "code": ";code SundayExpBoost2",
+      "reward": "XP Boost"
+    },
+    {
+      "code": ";code SundayExpBoost",
+      "reward": "XP Boost"
+    },
+    {
+      "code": ";code SundayMarkReroll2",
+      "reward": "Reroll Mark"
+    },
+    {
+      "code": ";code SundayMarkReroll",
+      "reward": "Reroll Mark"
+    },
+    {
+      "code": ";code SundayRaceReroll4",
+      "reward": "Reroll Race"
+    },
+    {
+      "code": ";code SundayRaceReroll3",
+      "reward": "Reroll Race"
+    },
+    {
+      "code": ";code SundayRaceReroll2",
+      "reward": "Reroll Race"
+    },
+    {
+      "code": ";code SundayRaceReroll",
+      "reward": "Reroll Race"
+    },
+    {
+      "code": ";code SundayClanReroll4",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": ";code SundayClanReroll3",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": ";code SundayClanReroll2",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": ";code SundayClanReroll",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": ";code SundayBDAReroll4",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code SundayBDAReroll3",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code SundayBDAReroll2",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code SundayBDAReroll",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code SundayBreathingReroll4",
+      "reward": "Breathing Reroll"
+    },
+    {
+      "code": ";code SundayBreathingReroll3",
+      "reward": "Breathing Reroll"
+    },
+    {
+      "code": ";code SundayBreathingReroll2",
+      "reward": "Breathing Reroll"
+    },
+    {
+      "code": ";code SundayBreathingReroll",
+      "reward": "Breathing Reroll"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "ThankYouFor1KFollowersDevCode",
       "reward": "Recompensas gratis"
     },
@@ -262,9 +352,1547 @@
     {
       "code": "NewSPReset2",
       "reward": "Recompensas gratis"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": ";code slayerPog4",
+      "reward": "The Slayer Mark Re-tirada"
+    },
+    {
+      "code": ";code TPDROPME",
+      "reward": "Drop Boost (15 minutos)"
+    },
+    {
+      "code": ";code TPEXPME",
+      "reward": "Exp Boost (15 minutos)"
+    },
+    {
+      "code": ";code SORRYPEEEPZZZZ",
+      "reward": "Giros"
+    },
+    {
+      "code": ";code NewMarkReroll1",
+      "reward": "Shinazugawa Slayer Mark"
+    },
+    {
+      "code": ";code NewMarkReroll2",
+      "reward": "Tokito Slayer Mark"
+    },
+    {
+      "code": ";code NewDropBoost1",
+      "reward": "Drop Boost"
+    },
+    {
+      "code": ";code NewDropBoost2",
+      "reward": "Drop Boost"
+    },
+    {
+      "code": ";code NewDropBoost3",
+      "reward": "Drop Boost"
+    },
+    {
+      "code": ";code NewSPReset1",
+      "reward": "SP Reset"
+    },
+    {
+      "code": ";code NewSPReset2",
+      "reward": "SP Reset"
+    },
+    {
+      "code": ";code NewClanReroll1",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": ";code NewClanReroll2",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": ";code NewClanReroll3",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": ";code NewClanReroll4",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": ";code NewClanReroll5",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": ";code NewClanReroll6",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": ";code NewExpBoost1",
+      "reward": "EXP Boost"
+    },
+    {
+      "code": ";code NewExpBoost2",
+      "reward": "EXP Boost"
+    },
+    {
+      "code": ";code NewExpBoost3",
+      "reward": "EXP Boost"
+    },
+    {
+      "code": ";code NewRaceReroll1",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code NewRaceReroll2",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code NewRaceReroll3",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code NewRaceReroll4",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code NewRaceReroll5",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code NewRaceReroll6",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code NewBDAReroll5",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code NewBDAReroll6",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code NewBDAReroll7",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code NewBDAReroll8",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code NewBDAReroll4",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code NewBDAReroll3",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code NewBDAReroll2",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code NewBDAReroll1",
+      "reward": "BDA Reroll"
+    },
+    {
+      "code": ";code NewBreathingReroll8",
+      "reward": "Breathing Reroll"
+    },
+    {
+      "code": ";code NewBreathingReroll7",
+      "reward": "Breathing Reroll"
+    },
+    {
+      "code": ";code NewBreathingReroll6",
+      "reward": "Breathing Reroll"
+    },
+    {
+      "code": ";code NewBreathingReroll5",
+      "reward": "Breathing Reroll"
+    },
+    {
+      "code": ";code NewBreathingReroll4",
+      "reward": "Breathing Reroll"
+    },
+    {
+      "code": ";code NewBreathingReroll3",
+      "reward": "Breathing Reroll"
+    },
+    {
+      "code": ";code NewBreathingReroll2",
+      "reward": "Breathing Reroll"
+    },
+    {
+      "code": ";code NewBreathingReroll1",
+      "reward": "Breathing Reroll"
+    },
+    {
+      "code": ";code OMGPresige",
+      "reward": "Giros"
+    },
+    {
+      "code": ";code SunDragonHaloSoon",
+      "reward": "Giros"
+    },
+    {
+      "code": ";code SaV3ThES0uLS0cI3tY",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": ";code InitialO",
+      "reward": "Drop Boost"
+    },
+    {
+      "code": ";code PleaseTPME",
+      "reward": "Giros"
+    },
+    {
+      "code": ";code KOKUSHIBOUWORLDBOSS",
+      "reward": "Recompensas"
+    },
+    {
+      "code": ";code SOUNDTRAINER",
+      "reward": "Recompensas"
+    },
+    {
+      "code": ";code SOUNDREWORK",
+      "reward": "Recompensas"
+    },
+    {
+      "code": ";code SUNREWORK",
+      "reward": "Recompensas"
+    },
+    {
+      "code": ";code REGCODE3",
+      "reward": "100 giros"
+    },
+    {
+      "code": ";code GuildedServer",
+      "reward": "EXP Boost"
+    },
+    {
+      "code": ";code GuildedServer2",
+      "reward": "Drop Boost"
+    },
+    {
+      "code": ";code GuildedSpins",
+      "reward": "100 giros"
+    },
+    {
+      "code": ";code GuildedReset",
+      "reward": "Reset puntos"
+    },
+    {
+      "code": ";code GuildedReset2",
+      "reward": "Reset puntos"
+    },
+    {
+      "code": ";code HantenguFix",
+      "reward": "Drop Boost"
+    },
+    {
+      "code": ";code ThankYouFor1KFollowersDevCode",
+      "reward": "10 giros"
+    },
+    {
+      "code": ";code DEVCODE2",
+      "reward": "500 giros"
+    },
+    {
+      "code": ";code JOVRACEREROLLS1",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code HAXRACEREROLLS1",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code REGSTYLEREROLLS1",
+      "reward": "Style Reroll"
+    },
+    {
+      "code": ";code SINMARKROLLS1",
+      "reward": "Mark Reroll"
+    },
+    {
+      "code": ";code ZENOKEIDEMON",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code ZENOKEIBREATHING",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code DRoll1",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code FillerBreathingReset2",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code DRoll2",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code DRoll3",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code DRoll4",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code DRoll5",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code BRoll1",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code BRoll2",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code BRoll3",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code BRoll4",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code BRoll5",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code CRoll1",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code CRoll2",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code CRoll3",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code CRoll4",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code CRoll5",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code Kibutsuji1",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code demonlord1",
+      "reward": "The Slayer Mark Re-tirada"
+    },
+    {
+      "code": ";code d3mon_leader",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": ";code BLOODSURGE1",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code muzan_art1",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code reset_all_stat",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": ";code FillerBreathingReset1",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code slayerPog1",
+      "reward": "The Slayer Mark Re-tirada"
+    },
+    {
+      "code": ";code humanKing1",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code eldenRing1",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code toppower1",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code potential1",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code potential2",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code potential3",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code potential5",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code potential7",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code potential8",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code toppower2",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code toppower3",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code toppower4",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code toppower5",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code toppower6",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code toppower7",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code toppower8",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code eldenRing2",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code eldenRing3",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code eldenRing4",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code ResetPoints",
+      "reward": "A puntos Reset"
+    },
+    {
+      "code": ";code 4xExp",
+      "reward": "A 15 minuto EXP Boost"
+    },
+    {
+      "code": ";code eldenRing5",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code eldenRing6",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code eldenRing7",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code SumClan5",
+      "reward": "The Clan Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SumRace3",
+      "reward": "A Race Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SummerPow3",
+      "reward": "The Demon Art Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SummerSide5",
+      "reward": "The Breathing Style Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SumClan1",
+      "reward": "The Clan Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SummerSide3",
+      "reward": "The Breathing Style Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SummerSide2",
+      "reward": "The Breathing Style Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SummerSide1",
+      "reward": "The Breathing Style Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code RevampExp",
+      "reward": "This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RevampExp2",
+      "reward": "This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RevampExp3",
+      "reward": "This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code NewYearsBDAReroll3",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code NewYearsBDAReroll2",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code eldenRing8",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code humanKing2",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code humanKing3",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code humanKing4",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code humanKing5",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code humanKing6",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code humanKing7",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code humanKing8",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code ClanReroll5",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code ClanReroll4",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code slayerPog2",
+      "reward": "The Slayer Mark Re-tirada"
+    },
+    {
+      "code": ";code slayerPog3",
+      "reward": "The Slayer Mark Re-tirada"
+    },
+    {
+      "code": ";code NewYearsBDAReroll",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code NewYearsBreathingReroll3",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code NewYearsBreathingReroll2",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code NewYearsBreathingReroll",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code NewYearsClanReroll2",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code NewYearsClanReroll",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code NewYearsExpBoost3",
+      "reward": "A 15 minuto EXP Boost"
+    },
+    {
+      "code": ";code NewYearsExpBoost2",
+      "reward": "A 15 minuto EXP Boost"
+    },
+    {
+      "code": ";code NewYearsExpBoost",
+      "reward": "A 15 minuto EXP Boost"
+    },
+    {
+      "code": ";code Upd99ClanReroll3",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code Upd99ClanReroll2",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code Upd99ClanReroll",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code Upd99BDAReroll4",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code Upd99BDAReroll3",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code Upd99BDAReroll2",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code Upd99BDAReroll",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code Upd99RaceReroll3",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code Upd99RaceReroll2",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code Upd99RaceReroll",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code RaceRerollVal4",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code RaceRerollVal3",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code RaceRerollVal2",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code RaceRerollVal1",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code ClanRerollVal4",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code ClanRerollVal3",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code ClanRerollVal2",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code ClanRerollVal1",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code ValResetPoints1",
+      "reward": "1 reinicio de stats"
+    },
+    {
+      "code": ";code ValExpBoost",
+      "reward": "1 EXP Boost"
+    },
+    {
+      "code": ";code DemonArtValReset2",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code DemonArtValReset1",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code BreathingValReset2",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code BreathingValReset1",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code FillerRaceReroll5",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code FillerRaceReroll4",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code FillerRaceReroll3",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code FillerRaceReroll2",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code FillerRaceReroll1",
+      "reward": "A Race Re-tirada"
+    },
+    {
+      "code": ";code FillerClanReroll5",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code FillerClanReroll4",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code FillerClanReroll3",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code FillerClanReroll2",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code FillerClanReroll1",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code FillerDemonArtReset3",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code FillerDemonArtReset2",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code FillerDemonArtReset1",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code FillerBreathingReset3",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code ClanReroll3",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code ClanReroll2",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code ClanReroll1",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code Demon3Summer",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code Demon2Summer",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code Demon1Summer",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code Breathing3Summer",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code Breathing2Summer",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code Breathing1Summer",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code NICHI1",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": ";code RESET1",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": ";code SUNRESET1",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": ";code 1YRBDA20",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA19",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA18",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA17",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA16",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA15",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA14",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA13",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA12",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA11",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA10",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA9",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA8",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA7",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA6",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA5",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA4",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA3",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA2",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBDA1",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING20",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING19",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING18",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING17",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING16",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING15",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING14",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING13",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING12",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING11",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING10",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING9",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING8",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING7",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING6",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING5",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING4",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING3",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING2",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code 1YRBREATHING1",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code PRIDEXP2",
+      "reward": "A 15 minuto EXP Boost"
+    },
+    {
+      "code": ";code PRIDEXP1",
+      "reward": "A 15 minuto EXP Boost"
+    },
+    {
+      "code": ";code BOSSPRIDE",
+      "reward": "A 15 minuto Drop Boost"
+    },
+    {
+      "code": ";code PridezBDA4",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code PridezBDA3",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code PridezBDA2",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code PridezBDA",
+      "reward": "The Demon Art Re-tirada"
+    },
+    {
+      "code": ";code RainbowClan4",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code RainbowClan3",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code RainbowClan2",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code RainbowClan1",
+      "reward": "The Clan Re-tirada"
+    },
+    {
+      "code": ";code PridePower4",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code PridePower3",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code PridePower2",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code PridePower1",
+      "reward": "The Breathing Style Re-tirada"
+    },
+    {
+      "code": ";code slayerPog8",
+      "reward": "The Slayer Mark Re-tirada"
+    },
+    {
+      "code": ";code slayerPog7",
+      "reward": "The Slayer Mark Re-tirada"
+    },
+    {
+      "code": ";code slayerPog6",
+      "reward": "The Slayer Mark Re-tirada"
+    },
+    {
+      "code": ";code slayerPog5",
+      "reward": "The Slayer Mark Re-tirada"
+    },
+    {
+      "code": ";code NewBDAReroll",
+      "reward": "Blood Demon Art Reroll"
+    },
+    {
+      "code": ";code YAYSPINSDROP",
+      "reward": "30 minutos Of Drop Boost"
+    },
+    {
+      "code": ";code JOVRACEREROLLS10",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code JOVRACEREROLLS9",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code JOVRACEREROLLS8",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code JOVRACEREROLLS7",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code JOVRACEREROLLS5",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code JOVRACEREROLLS6",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code JOVRACEREROLLS4",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code JOVRACEREROLLS3",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code JOVRACEREROLLS2",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code HAXRACEREROLLS10",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code HAXRACEREROLLS9",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code HAXRACEREROLLS8",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code HAXRACEREROLLS7",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code HAXRACEREROLLS6",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code HAXRACEREROLLS5",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code HAXRACEREROLLS4",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code HAXRACEREROLLS3",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code HAXRACEREROLLS2",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": ";code REGSTYLEREROLLS10",
+      "reward": "Style Reroll"
+    },
+    {
+      "code": ";code REGSTYLEREROLLS9",
+      "reward": "Style Reroll"
+    },
+    {
+      "code": ";code REGSTYLEREROLLS8",
+      "reward": "Style Reroll"
+    },
+    {
+      "code": ";code REGSTYLEREROLLS7",
+      "reward": "Style Reroll"
+    },
+    {
+      "code": ";code REGSTYLEREROLLS6",
+      "reward": "Style Reroll"
+    },
+    {
+      "code": ";code REGSTYLEREROLLS5",
+      "reward": "Style Reroll"
+    },
+    {
+      "code": ";code REGSTYLEREROLLS4",
+      "reward": "Style Reroll"
+    },
+    {
+      "code": ";code REGSTYLEREROLLS3",
+      "reward": "Style Reroll"
+    },
+    {
+      "code": ";code REGSTYLEREROLLS2",
+      "reward": "Style Reroll"
+    },
+    {
+      "code": ";code SINMARKROLLS10",
+      "reward": "Mark Reroll"
+    },
+    {
+      "code": ";code SINMARKROLLS9",
+      "reward": "Mark Reroll"
+    },
+    {
+      "code": ";code SINMARKROLLS8",
+      "reward": "Mark Reroll"
+    },
+    {
+      "code": ";code SINMARKROLLS7",
+      "reward": "Mark Reroll"
+    },
+    {
+      "code": ";code SINMARKROLLS6",
+      "reward": "Mark Reroll"
+    },
+    {
+      "code": ";code SINMARKROLLS5",
+      "reward": "Mark Reroll"
+    },
+    {
+      "code": ";code SINMARKROLLS4",
+      "reward": "Mark Reroll"
+    },
+    {
+      "code": ";code SINMARKROLLS3",
+      "reward": "Mark Reroll"
+    },
+    {
+      "code": ";code SINMARKROLLS2",
+      "reward": "Mark Reroll"
+    },
+    {
+      "code": ";code 375KLikesStatReset",
+      "reward": "Reinicio de stats.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 375KLikesDropBoost3",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 375KLikesDropBoost2",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 375KLikesDropBoost",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 375KLikesExpBoost3",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 375KLikesExpBoost2",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 375KLikesExpBoost",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 375KLikesSpins",
+      "reward": "15 giros.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 94MStatReset2",
+      "reward": "Reinicio de stats.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 94MStatReset",
+      "reward": "Reinicio de stats.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 94MDropBoost3",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 94MDropBoost2",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 94MDropBoost",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 94MExpBoost3",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 94MExpBoost2",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 94MExpBoost",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 94MSpins",
+      "reward": "15 giros.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayClanReroll4",
+      "reward": "Clan Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayClanReroll3",
+      "reward": "Clan Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayClanReroll2",
+      "reward": "Clan Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayClanReroll",
+      "reward": "Clan Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayStatReset",
+      "reward": "Reinicio de stats.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayDropBoost",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayExpBoost2",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayExpBoost",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayBDAReroll4",
+      "reward": "Demon Art Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayBDAReroll3",
+      "reward": "Demon Art Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayBDAReroll2",
+      "reward": "Demon Art Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayBDAReroll",
+      "reward": "Demon Art Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayBreathingReroll4",
+      "reward": "Breathing Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayBreathingReroll3",
+      "reward": "Breathing Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayBreathingReroll2",
+      "reward": "Breathing Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayBreathingReroll",
+      "reward": "Breathing Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RevampDropBoost3",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RevampDropBoost2",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RevampDropBoost",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RevampSpins",
+      "reward": "30 giros.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RewardStatReset3",
+      "reward": "Reinicio de stats.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RewardStatReset2",
+      "reward": "Reinicio de stats.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RewardStatReset",
+      "reward": "Reinicio de stats.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RewardDropBoost3",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RewardDropBoost2",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RewardDropBoost",
+      "reward": "Drop Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RewardExpBoost3",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RewardExpBoost2",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RewardExpBoost",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code RewardSpins",
+      "reward": "30 giros.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 375KLikesStatReset2",
+      "reward": "Reinicio de stats.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code Halloween2023Spins",
+      "reward": "10 giros.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyStatReset",
+      "reward": "Reinicio de stats.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyRaceReroll4",
+      "reward": "Race Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyRaceReroll3",
+      "reward": "Race Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyRaceReroll2",
+      "reward": "Race Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyRaceReroll",
+      "reward": "Race Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyClanReroll4",
+      "reward": "Clan Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyClanReroll3",
+      "reward": "Clan Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyClanReroll2",
+      "reward": "Clan Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyClanReroll",
+      "reward": "Clan Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyBDAReroll4",
+      "reward": "Demon Art Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyBDAReroll3",
+      "reward": "Demon Art Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyBDAReroll2",
+      "reward": "Demon Art Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyBDAReroll",
+      "reward": "Demon Art Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyPowerReroll4",
+      "reward": "Breathing Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyPowerReroll3",
+      "reward": "Breathing Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyPowerReroll2",
+      "reward": "Breathing Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code LegacyPowerReroll",
+      "reward": "Breathing Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code 380KLikesExpBoost2",
+      "reward": "XP Boost (15 minutos).This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayMarkReroll2",
+      "reward": "Slayer Mark Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayMarkReroll",
+      "reward": "Slayer Mark Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayRaceReroll4",
+      "reward": "Race Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayRaceReroll3",
+      "reward": "Race Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayRaceReroll2",
+      "reward": "Race Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SundayRaceReroll",
+      "reward": "Race Reroll.This code requires you to join the Slayers Unleashed Roblox Group at https://www.roblox.com/groups/10030212/Slayers-Unleashed#!/about . If the code does not work by copy and pasting, please type the code to the chat box manually"
+    },
+    {
+      "code": ";code SummerSide4",
+      "reward": "The Breathing Style Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SummerPow5",
+      "reward": "The Demon Art Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SumClan2",
+      "reward": "The Clan Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SumClan3",
+      "reward": "The Clan Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SummerPow1",
+      "reward": "The Demon Art Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SummerPow2",
+      "reward": "The Demon Art Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SummerPow4",
+      "reward": "The Demon Art Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SumRace1",
+      "reward": "A Race Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SumRace2",
+      "reward": "A Race Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SumRace4",
+      "reward": "A Race Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code SumClan4",
+      "reward": "The Clan Re-tirada.In order to redeem this code, you must first be subscribed to at least tier 2 of the Slayers Unleashed Patreon"
+    },
+    {
+      "code": ";code BossFIX",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": ";code TeleportFix",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": ";code TeleportFix2",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": ";code YAYSPINS",
+      "reward": "10 giros"
+    },
+    {
+      "code": ";code YAYSPINSEXP",
+      "reward": "Exp Boost (15 minutos)"
+    },
+    {
+      "code": "YAYSPINSDROP",
+      "reward": "Drop Boost (30 minutos)"
+    },
     {
       "code": ";code Halloween2023Spins",
       "reward": "Giros gratis"
@@ -450,146 +2078,6 @@
       "reward": "Reinicio de stats"
     },
     {
-      "code": ";code 94MSpins",
-      "reward": "Giros gratis"
-    },
-    {
-      "code": ";code 94MExpBoost",
-      "reward": "15min 2x EXP"
-    },
-    {
-      "code": ";code 94MExpBoost2",
-      "reward": "15min 2x EXP"
-    },
-    {
-      "code": ";code 94MExpBoost3",
-      "reward": "15min 2x EXP"
-    },
-    {
-      "code": ";code 94MDropBoost",
-      "reward": "15min 2x Drop"
-    },
-    {
-      "code": ";code 94MDropBoost2",
-      "reward": "15min 2x Drop"
-    },
-    {
-      "code": ";code 94MDropBoost3",
-      "reward": "15min 2x Drop"
-    },
-    {
-      "code": ";code 94MStatReset",
-      "reward": "Stat puntos Reset"
-    },
-    {
-      "code": ";code 94MStatReset2",
-      "reward": "Stat puntos Reset"
-    },
-    {
-      "code": ";code 375KLikesSpins",
-      "reward": "15 giros"
-    },
-    {
-      "code": ";code 375KLikesExpBoost",
-      "reward": "15min 2x EXP"
-    },
-    {
-      "code": ";code 375KLikesExpBoost2",
-      "reward": "15min 2x EXP"
-    },
-    {
-      "code": ";code 375KLikesExpBoost3",
-      "reward": "15min 2x EXP"
-    },
-    {
-      "code": ";code 375KLikesDropBoost",
-      "reward": "15min 2x Drop"
-    },
-    {
-      "code": ";code 375KLikesDropBoost2",
-      "reward": "15min 2x Drop"
-    },
-    {
-      "code": ";code 375KLikesDropBoost3",
-      "reward": "15min 2x Drop"
-    },
-    {
-      "code": ";code 375KLikesStatReset",
-      "reward": "Stat puntos Reset"
-    },
-    {
-      "code": ";code 375KLikesStatReset2",
-      "reward": "Stat puntos Reset"
-    },
-    {
-      "code": ";code RewardSpins",
-      "reward": "Giros"
-    },
-    {
-      "code": ";code RewardExpBoost",
-      "reward": "XP Boost"
-    },
-    {
-      "code": ";code RewardExpBoost2",
-      "reward": "XP Boost"
-    },
-    {
-      "code": ";code RewardExpBoost3",
-      "reward": "XP Boost"
-    },
-    {
-      "code": ";code RewardDropBoost",
-      "reward": "Drop Boost"
-    },
-    {
-      "code": ";code RewardDropBoost2",
-      "reward": "Drop Boost"
-    },
-    {
-      "code": ";code RewardDropBoost3",
-      "reward": "Drop Boost"
-    },
-    {
-      "code": ";code RewardStatReset",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": ";code RewardStatReset2",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": ";code RewardStatReset3",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": ";code RevampSpins",
-      "reward": "Giros"
-    },
-    {
-      "code": ";code RevampExp",
-      "reward": "XP Boost"
-    },
-    {
-      "code": ";code RevampExp2",
-      "reward": "XP Boost"
-    },
-    {
-      "code": ";code RevampExp3",
-      "reward": "XP Boost"
-    },
-    {
-      "code": ";code RevampDropBoost",
-      "reward": "Drop Boost"
-    },
-    {
-      "code": ";code RevampDropBoost2",
-      "reward": "Drop Boost"
-    },
-    {
-      "code": ";code RevampDropBoost3",
-      "reward": "Drop Boost"
-    },
-    {
       "code": ";code 19thBreathingReroll",
       "reward": "Reroll your Breathing"
     },
@@ -711,22 +2199,6 @@
     },
     {
       "code": ";code ClanReroll",
-      "reward": "Reroll your Clan"
-    },
-    {
-      "code": ";code ClanReroll2",
-      "reward": "Reroll your Clan"
-    },
-    {
-      "code": ";code ClanReroll3",
-      "reward": "Reroll your Clan"
-    },
-    {
-      "code": ";code ClanReroll4",
-      "reward": "Reroll your Clan"
-    },
-    {
-      "code": ";code ClanReroll5",
       "reward": "Reroll your Clan"
     },
     {
@@ -1459,90 +2931,6 @@
     },
     {
       "code": ";code HolidaysClanReroll5",
-      "reward": "Reroll your Clan"
-    },
-    {
-      "code": ";code NewYearsExpBoost",
-      "reward": "Experiencia Boost"
-    },
-    {
-      "code": ";code NewYearsExpBoost2",
-      "reward": "Experiencia Boost"
-    },
-    {
-      "code": ";code NewYearsExpBoost3",
-      "reward": "Experiencia Boost"
-    },
-    {
-      "code": ";code NewYearsClanReroll",
-      "reward": "Reroll your Clan"
-    },
-    {
-      "code": ";code NewYearsClanReroll2",
-      "reward": "Reroll your Clan"
-    },
-    {
-      "code": ";code NewYearsBreathingReroll",
-      "reward": "Reroll your Breathing"
-    },
-    {
-      "code": ";code NewYearsBreathingReroll2",
-      "reward": "Reroll your Breathing"
-    },
-    {
-      "code": ";code NewYearsBreathingReroll3",
-      "reward": "Reroll your Breathing"
-    },
-    {
-      "code": ";code NewYearsBDAReroll",
-      "reward": "Reroll your Demon Art"
-    },
-    {
-      "code": ";code NewYearsBDAReroll2",
-      "reward": "Reroll your Demon Art"
-    },
-    {
-      "code": ";code NewYearsBDAReroll3",
-      "reward": "Reroll your Demon Art"
-    },
-    {
-      "code": ";code Upd99RaceReroll",
-      "reward": "Reroll your Race"
-    },
-    {
-      "code": ";code Upd99RaceReroll2",
-      "reward": "Reroll your Race"
-    },
-    {
-      "code": ";code Upd99RaceReroll3",
-      "reward": "Reroll your Race"
-    },
-    {
-      "code": ";code Upd99BDAReroll",
-      "reward": "Reroll your Demon Art"
-    },
-    {
-      "code": ";code Upd99BDAReroll2",
-      "reward": "Reroll your Demon Art"
-    },
-    {
-      "code": ";code Upd99BDAReroll3",
-      "reward": "Reroll your Demon Art"
-    },
-    {
-      "code": ";code Upd99BDAReroll4",
-      "reward": "Reroll your Demon Art"
-    },
-    {
-      "code": ";code Upd99ClanReroll",
-      "reward": "Reroll your Clan"
-    },
-    {
-      "code": ";code Upd99ClanReroll2",
-      "reward": "Reroll your Clan"
-    },
-    {
-      "code": ";code Upd99ClanReroll3",
       "reward": "Reroll your Clan"
     }
   ],

@@ -13,51 +13,51 @@
   "placeId": 13059574127,
   "activeCodes": [
     {
-      "code": "GROUP",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "25K",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "20M",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "20K",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "15K",
-      "reward": "Recompensas gratis"
+      "code": "10M",
+      "reward": "Redeem code for $20,000"
     },
     {
       "code": "CHRISTMAS2023",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "15K",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "10K",
-      "reward": "$20,000"
+      "reward": "Redeem code for $20,000"
     },
     {
-      "code": "10M",
-      "reward": "$20,000"
+      "code": "20K",
+      "reward": "Redeem code for recompensas gratis"
     },
+    {
+      "code": "PARP",
+      "reward": "Redeem code for $10,000"
+    },
+    {
+      "code": "25K",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "GROUP",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "20M",
+      "reward": "Redeem code for recompensas gratis"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "UPDATED",
       "reward": "$11,111"
     },
     {
-      "code": "PARP",
-      "reward": "$10,000"
-    },
-    {
       "code": "CATCH UP",
       "reward": "$20,000"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "1M",
       "reward": "Dinero gratis"
@@ -65,18 +65,6 @@
     {
       "code": "500K",
       "reward": "Dinero gratis"
-    },
-    {
-      "code": "20K",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "GROUP",
-      "reward": "$20,000"
-    },
-    {
-      "code": "10M",
-      "reward": "$20,000"
     },
     {
       "code": "Pizza",

@@ -9,58 +9,59 @@
   "activeCodes": [
     {
       "code": "HAPPY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "M1SL4V",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "TR3ATZ",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "LUCIS",
-      "reward": "15x Windups"
+      "reward": "Redeem code for 15x Windups"
     },
     {
       "code": "GEMMA",
-      "reward": "5x Gemma Armor"
+      "reward": "Redeem code for 5x Gemma Armor"
     },
     {
       "code": "NOTACODE",
-      "reward": "3x Tactical II"
+      "reward": "Redeem code for 3x Tactical II"
     },
     {
       "code": "SUPERFX",
-      "reward": "5x skin cofre"
-    },
-    {
-      "code": "GENZEST",
-      "reward": "1x Premium skin cofre"
-    },
-    {
-      "code": "TWITTER",
-      "reward": "1x Aquatic cofre"
+      "reward": "Redeem code for 5x skin cofre"
     },
     {
       "code": "AV01D",
-      "reward": "15x Chronox"
+      "reward": "Redeem code for 15x Chronox (Armor)"
     },
     {
       "code": "HOT",
-      "reward": "10x Hot Chocolate"
+      "reward": "Redeem code for 10x Hot Chocolate"
     },
     {
       "code": "CANE",
-      "reward": "10x Candy Cane"
+      "reward": "Redeem code for 10x Candy Cane"
     },
     {
       "code": "GINGER",
-      "reward": "10x Gingerbread"
+      "reward": "Redeem code for 10x Gingerbread"
+    },
+    {
+      "code": "M1SL4V",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "GENZEST",
+      "reward": "Redeem code for 1x Premium skin cofre"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "TWITTER",
+      "reward": "1x Aquatic cofre"
+    }
+  ],
   "howToRedeem": [
     "Abre Ready 2 Die en Roblox",
     "Busca el icono de códigos en el menú",

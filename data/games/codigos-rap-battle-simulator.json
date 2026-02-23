@@ -8,23 +8,24 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "trading",
-      "reward": "250 Fame and two giros gratis"
-    },
-    {
       "code": "Cyber",
-      "reward": "500 Fame and one giro gratis"
+      "reward": "Redeem code for 500 Fame and one giro gratis"
     },
     {
       "code": "skibi",
-      "reward": "One Egg gratis"
+      "reward": "Redeem code for one Egg gratis"
     },
     {
       "code": "PRISONER",
-      "reward": "150 Fame and 1 giro gratis"
+      "reward": "Redeem code for 150 Fame and 1 giro gratis"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "trading",
+      "reward": "250 Fame and two giros gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Rap Battle Simulator en Roblox",
     "Busca el icono de códigos en el menú",

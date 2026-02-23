@@ -14,59 +14,27 @@
   "activeCodes": [
     {
       "code": "600KLIKES",
-      "reward": "5000 Zeni"
+      "reward": "Redeem code for 5000 Zeni"
     },
     {
       "code": "600KLikesCapsules",
-      "reward": "5 Capsules"
-    },
-    {
-      "code": "TRICKorZENI",
-      "reward": "5000 Zeni"
+      "reward": "Redeem code for 5 Capsules"
     },
     {
       "code": "4KSIGNUPS",
-      "reward": "Dragon Ball"
+      "reward": "Redeem code for 1 Dragon Ball"
     },
     {
-      "code": "HaveABall",
-      "reward": "Dragon Ball"
+      "code": "TRICKorZENI",
+      "reward": "Redeem code for 5000 Zeni"
     },
     {
       "code": "NEXT_WEEK",
       "reward": "2000 Zeni"
     },
     {
-      "code": "550K",
-      "reward": "2000 Zeni"
-    },
-    {
-      "code": "2MILFAVS",
-      "reward": "Dragon Ball"
-    },
-    {
-      "code": "2MILLION",
-      "reward": "5000 Zeni"
-    },
-    {
-      "code": "2ManyBugs4me",
-      "reward": "5000 Zeni"
-    },
-    {
-      "code": "Sorry4Datastores",
-      "reward": "15 minutos of x2 XP"
-    },
-    {
-      "code": "Sorry4Delay",
-      "reward": "5000 Zeni"
-    },
-    {
-      "code": "HaveSomeExp",
-      "reward": "20 minutos of x2 XP"
-    },
-    {
-      "code": "ZENIUpdate",
-      "reward": "1000 Zeni"
+      "code": "HaveABall",
+      "reward": "A Dragon Ball"
     },
     {
       "code": "Sorry4Restart",
@@ -74,23 +42,69 @@
     },
     {
       "code": "SummerIsHere2024",
-      "reward": "30 minutos of x2 XP"
+      "reward": "Summer título, 2x EXP (5 minutos)"
     },
     {
-      "code": "500KLIKES",
-      "reward": "30 minutos of x2 XP"
+      "code": "Sub2Acausal",
+      "reward": "2x EXP (30 minutos)"
+    },
+    {
+      "code": "750MIL!!",
+      "reward": "2x EXP (15 minutos)"
+    },
+    {
+      "code": "2MILFAVS",
+      "reward": "Dragon Ball"
+    },
+    {
+      "code": "L0LN0C0D3S",
+      "reward": "2x EXP (5 minutos)"
+    },
+    {
+      "code": "550K",
+      "reward": "Recompensas"
     },
     {
       "code": "H3LLS00N",
-      "reward": "15 minutos of x3 XP"
+      "reward": "2x EXP (15 minutos)"
     },
     {
-      "code": "WeAreBallin",
-      "reward": "Dragon Ball"
+      "code": "2ManyBugs4me",
+      "reward": "Five Star Dragon Ball"
+    },
+    {
+      "code": "HaveSomeExp",
+      "reward": "2x EXP (20 minutos)"
+    },
+    {
+      "code": "ZENIUpdate",
+      "reward": "2000 Zeni"
+    },
+    {
+      "code": "500KLIKES",
+      "reward": "2x EXP (20 minutos)"
+    },
+    {
+      "code": "Sorry4Datastores",
+      "reward": "Dragon Ball, 2x EXP (15 minutos)"
+    },
+    {
+      "code": "Sorry4Delay",
+      "reward": "5000 Zeni"
     },
     {
       "code": "DRAG00N",
       "reward": "3 Radar Scans"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "2MILLION",
+      "reward": "5000 Zeni"
+    },
+    {
+      "code": "WeAreBallin",
+      "reward": "Dragon Ball"
     },
     {
       "code": "Metalizer150K",
@@ -101,74 +115,52 @@
       "reward": "Dragon Ball"
     },
     {
-      "code": "750MIL!!",
-      "reward": "15 minutos of x3 XP"
-    },
-    {
-      "code": "L0LN0C0D3S",
-      "reward": "5 minutos of x2 XP"
-    },
-    {
-      "code": "Sub2Acausal",
-      "reward": "30min of x2 XP"
-    },
-    {
       "code": "800MIL??",
       "reward": "45 minutos of x2 XP"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "Sorry4Datastores",
-      "reward": "3x XP 15 min + Dragon Ball"
-    },
-    {
-      "code": "Sorry4Restart",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SummerIsHere2024",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Sub2Acausal",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "750MIL!!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Ralex4ev3r",
-      "reward": "2x XP 1 hora"
     },
     {
       "code": "Sub2Metalizer",
-      "reward": "1.000.000 de stats"
-    },
-    {
-      "code": "CodeBreaker",
-      "reward": "Título Code Breaker"
-    },
-    {
-      "code": "TEST",
-      "reward": "5x XP for 10 minutos"
-    },
-    {
-      "code": "D3V_4U",
-      "reward": "This code for 5x experiencia for 10 minutos"
+      "reward": "1,000,000 of all Stats"
     },
     {
       "code": "SUB2DANIELGT",
-      "reward": "This code for Zenkai gratis"
+      "reward": "1 Zenkai"
     },
     {
-      "code": "S0rryGuys",
-      "reward": "This code for a Zenkai gratis"
+      "code": "D3V_4U",
+      "reward": "A 10 minuto 5x XP Boost"
     },
     {
       "code": "Sa1y4nB1zmo34",
-      "reward": "This code for 2 horas of doble stats"
+      "reward": "A 2 hora 2x Stat Boost"
+    },
+    {
+      "code": "TEST",
+      "reward": "A 10 minuto 5x XP Boost"
+    },
+    {
+      "code": "CodeBreaker",
+      "reward": "Code Breaker título"
+    },
+    {
+      "code": "idraciusB34c1",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "Ralex4ev3r",
+      "reward": "2x EXP For 1 hora"
+    },
+    {
+      "code": "S0rryGuys",
+      "reward": "Zenkai. gratis"
+    },
+    {
+      "code": "s0rry4w4it",
+      "reward": "2x EXP For 10 minutos"
+    },
+    {
+      "code": "LOLN0C0D3S",
+      "reward": "2x EXP For 5 minutos"
     }
   ],
   "introText": "Dragon Ball Rage es el RPG de Dragon Ball más veterano de Roblox, desarrollado por iDracius y su grupo Dragon Ball Rage Club. Con casi 1.000 millones de visitas, este juego te permite entrenar tu personaje, transformarte en distintas fases de Super Saiyan y luchar contra otros jugadores en un mundo abierto inspirado en el universo de Goku y Vegeta.",

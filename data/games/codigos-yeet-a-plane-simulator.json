@@ -9,24 +9,26 @@
   "activeCodes": [
     {
       "code": "SANTAELF",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "UPD3",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SUPERPOWERS",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "COMICUGC",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "SPACEWRLD",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
+    {
+      "code": "SUPERPOWERS",
+      "reward": "Redeem code for recompensas gratis"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "CROWNUGC",
       "reward": "10k Cash"
@@ -44,7 +46,6 @@
       "reward": "100k Cash"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Yeet a Plane Simulator en Roblox",
     "Busca el icono de códigos en el menú",

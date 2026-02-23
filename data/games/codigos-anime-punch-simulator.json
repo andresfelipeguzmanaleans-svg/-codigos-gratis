@@ -8,47 +8,137 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "UPDATE13",
-      "reward": "Recompensas gratis"
+      "code": "KAGUNESFIX",
+      "reward": "2 Skill Essence, 1 Super energía"
     },
     {
-      "code": "FIXEDBUGS13",
-      "reward": "Recompensas gratis"
+      "code": "TrialFix",
+      "reward": "2 kKill Essence, 1 Super energía, 1 reinicio de stats"
     },
     {
-      "code": "FIXEDTELEPORTS",
-      "reward": "Recompensas gratis"
+      "code": "TrialNerf",
+      "reward": "5 Talent puntos, 2 Skill Essence, 1 Super energía"
     },
     {
-      "code": "FIXEDAVATARS12",
-      "reward": "Recompensas gratis"
+      "code": "UPDATE1",
+      "reward": "Daño poción, Super energía poción"
     },
     {
-      "code": "UPDATE12",
-      "reward": "Recompensas gratis"
+      "code": "ShutdownSorry",
+      "reward": "1 Mythical cofre, 5 cofre llaves, 1 reinicio de stats, 1 Super energía"
     },
     {
-      "code": "ANIMEPUNCH2",
-      "reward": "Recompensas gratis"
+      "code": "UPDATE3",
+      "reward": "1 reinicio de stats, 1 Super energía"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "Gemas poción"
     },
     {
       "code": "FIXEDRELICS",
-      "reward": "Recompensas gratis"
+      "reward": "20 Celestial Core, 1 Super energía"
     },
     {
-      "code": "MINI11.5",
-      "reward": "Recompensas gratis"
+      "code": "UPDATE13",
+      "reward": "2 reinicio de statss"
+    },
+    {
+      "code": "RIMUREBUG",
+      "reward": "100 Trial tokens, 5 Celestial Cores, Grimoire ticket"
+    },
+    {
+      "code": "UPDATE9",
+      "reward": "25 Trial monedas, Grimoire ticket, Expansion Opener"
+    },
+    {
+      "code": "40KLIKES",
+      "reward": "1 Mythical cofre, 5 cofre llaves"
+    },
+    {
+      "code": "25KLIKES",
+      "reward": "1 legendario cofre, 4 cofre llaves, 1 Super energía"
+    },
+    {
+      "code": "10KLIKES",
+      "reward": "Daño poción, Super energía poción, Old Paper"
+    },
+    {
+      "code": "5KLIKES",
+      "reward": "Invasion llave, Raid ticket, energía poción"
+    },
+    {
+      "code": "15MVISITS",
+      "reward": "2 Talent puntos, 1 reinicio de stats, 1 Super energía, 1 Divine cofre, 10 cofre llaves"
+    },
+    {
+      "code": "FIXEDTELEPORTS",
+      "reward": "40 Trial cristales, 40 Soccer Balls, 40 Celestial Core, 2 Super energía"
+    },
+    {
+      "code": "FIXEDBUGS13",
+      "reward": "40 Trial cristales, 40 Soccer Balls, 40 Celestial Core, 2 Super energía"
+    },
+    {
+      "code": "20KLIKES",
+      "reward": "2 energía pociones, daño poción, City llave"
+    },
+    {
+      "code": "FIXEDAVATARS12",
+      "reward": "40 Soccer Balls, 2 Super energía"
+    },
+    {
+      "code": "15KLIKES",
+      "reward": "Shiny poción"
+    },
+    {
+      "code": "UPDATE12",
+      "reward": "2 reinicio de statss, 40 Soccer Balls, 2 Super energía"
+    },
+    {
+      "code": "ANIMEPUNCH2",
+      "reward": "40 Soccer Balls, 2 Super energía"
     },
     {
       "code": "UPDATE11",
-      "reward": "Recompensas gratis"
+      "reward": "2 reinicio de statss"
     },
     {
       "code": "HAPPYEASTER",
-      "reward": "Recompensas gratis"
+      "reward": "Reinicio de stats"
     },
     {
       "code": "BUFFEDEGGS",
+      "reward": "10 Normal Eggs, 2 raro Eggs"
+    },
+    {
+      "code": "VISUALFIXES",
+      "reward": "100 Trial tokens, Grimoire Tickt"
+    },
+    {
+      "code": "SORRYSHUTDOWNCURSE",
+      "reward": "25 Trial monedas, Raid ticket, Grimoire ticket"
+    },
+    {
+      "code": "FIXEDEXPANSIONHP",
+      "reward": "25 Trial monedas, Grimoire ticket, Expansion Opener"
+    },
+    {
+      "code": "10MVISITS",
+      "reward": "5 Talent puntos, reinicio de stats, 1 Super energía, 1 Mythical cofre, 5 cofre llaves"
+    },
+    {
+      "code": "35KLIKES",
+      "reward": "1 reinicio de stats, 1 Super energía, 1 Mythical cofre, 5 cofre llaves"
+    },
+    {
+      "code": "30KLIKES",
+      "reward": "1 Super energía"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "MINI11.5",
       "reward": "Recompensas gratis"
     },
     {
@@ -57,22 +147,6 @@
     },
     {
       "code": "update10",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "RIMUREBUG",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "VISUALFIXES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SORRYSHUTDOWNCURSE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "15MVISITS",
       "reward": "Recompensas gratis"
     },
     {
@@ -88,43 +162,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "10MVISITS",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "50KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "40KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "35KLIKES",
-      "reward": "Mythic cofre and 5 llaves"
-    },
-    {
-      "code": "30KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "25KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "20klikes",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "15KLIKES",
-      "reward": "Shiny poción"
-    },
-    {
-      "code": "10KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "5KLIKES",
       "reward": "Recompensas gratis"
     },
     {
@@ -134,112 +172,90 @@
     {
       "code": "500Likes",
       "reward": "X1 gemas poción and x1 energía poción"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "MINI9.5",
-      "reward": "Recompensas gratis"
     },
     {
-      "code": "UPDATE9",
-      "reward": "Recompensas gratis"
+      "code": "SorryForShutdown",
+      "reward": "Daño poción, Super energía poción, City llave"
+    },
+    {
+      "code": "UPDATE5",
+      "reward": "Reinicio de stats, 2 Skill Essence, 1 Super energía"
+    },
+    {
+      "code": "sorryshutpls",
+      "reward": "Daño poción, Super energía poción"
+    },
+    {
+      "code": "miniupdate",
+      "reward": "Shiny poción"
+    },
+    {
+      "code": "BUGSFIXED",
+      "reward": "2 Common cofres, 4 cofre llaves, 3x Super energía (15 minutos) and raro cofre"
+    },
+    {
+      "code": "Update2",
+      "reward": "2 Common cofre, 2 cofre llave, 1 Super energía"
+    },
+    {
+      "code": "Update4",
+      "reward": "2 Skill Essence, 1 Super energía"
     },
     {
       "code": "Update8",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Update7",
-      "reward": "Recompensas gratis"
+      "reward": "2 Talent puntos, 2 reinicio de statss, 2 Super energía, 1 Divine cofre, 10 cofre llave, 100 Trial monedas"
     },
     {
       "code": "ClassFix",
-      "reward": "Recompensas gratis"
+      "reward": "1 reinicio de stats, 2 Divine Stones, 2 Family Stones and 100 Trial monedas"
+    },
+    {
+      "code": "Update7",
+      "reward": "Reinicio de stats, 2 Divine Stone, 2 Family Stone, 100 Trial monedas"
     },
     {
       "code": "Delay6",
-      "reward": "Recompensas gratis"
+      "reward": "Talent puntos, reinicio de stats, Super energía, 10 Trial monedas"
     },
     {
       "code": "Update6",
-      "reward": "Recompensas gratis"
+      "reward": "2 Talent puntos, reinicio de stats, 2 Super energía, 1 Leveling cofre, 5 cofre llave, 20 Trial monedas"
     },
     {
-      "code": "UPDATE5.5",
-      "reward": "Recompensas gratis"
+      "code": "Update5.5",
+      "reward": "10 Talent puntos, 2 reinicio de statss, 2 Super energía, 2 Mythical cofre, 10 cofre llave, 10 Trial moneda"
+    },
+    {
+      "code": "TrialMediumFix",
+      "reward": "5 Talent puntos, 1 reinicio de stats, 1 Super energía, 1 Mythical cofre and 5 cofre llaves"
+    },
+    {
+      "code": "UPDATE3.5",
+      "reward": "1 reinicio de stats, 1 Super energía"
+    },
+    {
+      "code": "UPDATE4.5",
+      "reward": "2 Skill Essence, 1 Super energía, 1 reinicio de stats"
+    },
+    {
+      "code": "PATCH3.6",
+      "reward": "1 reinicio de stats, 1 Super energía"
+    },
+    {
+      "code": "UPDATE2.5",
+      "reward": "1 reinicio de stats, 1 Super energía"
+    },
+    {
+      "code": "UPDATE1.5",
+      "reward": "Daño poción, Super energía poción"
+    },
+    {
+      "code": "MINI9.5",
+      "reward": "Reinicio de stats"
     },
     {
       "code": "UPDATES",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TrialNerf",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TrialFix",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Update4.5",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "KAGUNESFIX",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Update4",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "PATCH3.6",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ShutdownSorry",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPDATE3.5",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPDATE3",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPDATE2.5",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Update2",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SorryForShutdown",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Update1.5",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SORRYSHUTPLS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MINIUPDATE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Release",
-      "reward": "Gemas poción"
     }
   ],
   "howToRedeem": [

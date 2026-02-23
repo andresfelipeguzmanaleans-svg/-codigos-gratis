@@ -6,26 +6,85 @@
   "metaTitle": "Códigos Murder Mystery 2 (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Murder Mystery 2 en Roblox. Consigue recompensas gratis.",
   "lastUpdated": "2026-02-23",
-  "activeCodes": [],
+  "activeCodes": [
+    {
+      "code": "SK3TCH",
+      "reward": "Sketchy Knife"
+    },
+    {
+      "code": "SUB0",
+      "reward": "Sub Knife"
+    },
+    {
+      "code": "C0RL",
+      "reward": "Corl Knife"
+    },
+    {
+      "code": "D3NIS",
+      "reward": "Denis Knife"
+    },
+    {
+      "code": "FL4M",
+      "reward": "Flamingo Knife"
+    }
+  ],
   "expiredCodes": [
-    { "code": "PATR1CK", "reward": "Recompensas gratis" },
-    { "code": "TH3N3XTL3V3L", "reward": "Recompensas gratis" },
-    { "code": "R3PT1L3", "reward": "Recompensas gratis" },
-    { "code": "C0RL", "reward": "Recompensas gratis" },
-    { "code": "INF3CT3D", "reward": "Recompensas gratis" },
-    { "code": "HW2017", "reward": "Recompensas gratis" },
-    { "code": "COMB4T2", "reward": "Recompensas gratis" },
-    { "code": "G003Y", "reward": "Recompensas gratis" },
-    { "code": "D3NIS", "reward": "Recompensas gratis" },
-    { "code": "N30N", "reward": "Recompensas gratis" },
-    { "code": "NatureUpdate", "reward": "Recompensas gratis" },
-    { "code": "2015", "reward": "Recompensas gratis" },
-    { "code": "G1FT3D", "reward": "Recompensas gratis" },
-    { "code": "SK3TCH", "reward": "Recompensas gratis" },
-    { "code": "SK00L", "reward": "Recompensas gratis" },
-    { "code": "SUB0", "reward": "Recompensas gratis" },
-    { "code": "AL3X", "reward": "Recompensas gratis" },
-    { "code": "PR1SM", "reward": "Recompensas gratis" }
+    {
+      "code": "PR1SM",
+      "reward": "This code will give you a Prism Knife"
+    },
+    {
+      "code": "COMB4T2",
+      "reward": "This code will give you a Combat II Knife. gratis"
+    },
+    {
+      "code": "AL3X",
+      "reward": "This code will give you an Alex Knife"
+    },
+    {
+      "code": "TH3N3XTL3V3L",
+      "reward": "TNL Knife"
+    },
+    {
+      "code": "INF3CT3D",
+      "reward": "Infected Knife"
+    },
+    {
+      "code": "G003Y",
+      "reward": "Goo Knife"
+    },
+    {
+      "code": "R3PT1L3",
+      "reward": "Reptile Knife"
+    },
+    {
+      "code": "SK00L",
+      "reward": "Skool Knife"
+    },
+    {
+      "code": "PATR1CK",
+      "reward": "Patrick Knife"
+    },
+    {
+      "code": "2015",
+      "reward": "2015 Knife"
+    },
+    {
+      "code": "G1FT3D",
+      "reward": "Gifted Knife"
+    },
+    {
+      "code": "N30N",
+      "reward": "Neon Knife"
+    },
+    {
+      "code": "HW2017",
+      "reward": "Pumpkin mascota"
+    },
+    {
+      "code": "NatureUpdate",
+      "reward": "500 oro"
+    }
   ],
   "howToRedeem": [
     "Abre Murder Mystery 2 en Roblox",

@@ -8,132 +8,60 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "FyeUpdate",
-      "reward": "Hatsu reroll"
-    },
-    {
-      "code": "Update0.4",
+      "code": "HunterExamsFinnaBeFye",
       "reward": "Clan Reroll"
     },
     {
-      "code": "3500Likes",
+      "code": "100LikesClan",
       "reward": "Clan Reroll"
     },
     {
-      "code": "MBForShutdown",
-      "reward": "Hatsu reroll"
-    },
-    {
-      "code": "3500LikesLY",
+      "code": "100LikesClan2",
       "reward": "Clan Reroll"
     },
     {
-      "code": "CodeForApologize",
-      "reward": "Hatsu Reroll"
+      "code": "100LikesNen",
+      "reward": "Nen Color"
     },
     {
-      "code": "ApologiesAgain",
+      "code": "100LikesNen2",
+      "reward": "Nen Color"
+    },
+    {
+      "code": "50Likes",
       "reward": "Clan Reroll"
     },
     {
-      "code": "SorryForManyShutdowns",
-      "reward": "Hatsu Reroll"
-    },
-    {
-      "code": "Update03",
+      "code": "RELEASE",
       "reward": "Clan Reroll"
     },
     {
-      "code": "HollowPurple",
-      "reward": "Hatsu Reroll"
+      "code": "GameIsFye",
+      "reward": "Nen Reroll"
     },
     {
-      "code": "FoldedInHalf",
+      "code": "weUP",
       "reward": "Clan Reroll"
     },
     {
-      "code": "3000LikesClan",
-      "reward": "Clan Reroll"
-    },
-    {
-      "code": "UpdateSoon",
-      "reward": "Hatsu Reroll"
-    },
-    {
-      "code": "EzBalances",
-      "reward": "Natural Potential reroll"
-    },
-    {
-      "code": "GodRework",
-      "reward": "Clan Reroll"
-    },
-    {
-      "code": "SupersGift",
-      "reward": "Clan Reroll"
-    },
-    {
-      "code": "2750LikesNen",
-      "reward": "Nen color Reroll"
-    },
-    {
-      "code": "ShutdownForFIXClan",
-      "reward": "Clan reroll"
-    },
-    {
-      "code": "2500LikesClan",
-      "reward": "Clan Reroll"
-    },
-    {
-      "code": "2250LikesClan",
-      "reward": "Clan reroll"
-    },
-    {
-      "code": "UpdateV02",
-      "reward": "Hatsu reroll"
-    },
-    {
-      "code": "GonOnTOP",
-      "reward": "Clan reroll"
+      "code": "BeHappyChat",
+      "reward": "Nen Reroll"
     },
     {
       "code": "KilluaOnTOP",
-      "reward": "Clan reroll"
-    },
-    {
-      "code": "ShutdownSowwy",
-      "reward": "Hatsu Reroll"
-    },
-    {
-      "code": "2000LikesClan",
-      "reward": "Redeem code for Clan Reroll"
-    },
-    {
-      "code": "2000LikesCodeNen",
-      "reward": "Redeem code for Nen Color Reroll"
-    },
-    {
-      "code": "SorryALOT",
-      "reward": "Redeem code for Clan Reroll"
-    },
-    {
-      "code": "SorryALOTNen",
-      "reward": "Nen Color Reroll"
-    },
-    {
-      "code": "Update01",
-      "reward": "Redeem code for Clan Reroll"
-    },
-    {
-      "code": "EzHotfix",
-      "reward": "Redeem code for Clan Reroll"
-    },
-    {
-      "code": "1750LikesClan",
-      "reward": "Redeem code for Clan Reroll"
+      "reward": "Redeem code for a Clan reroll"
     },
     {
       "code": "1750LikesCodeNen",
+      "reward": "Redeem code for Nen Color Reroll"
+    },
+    {
+      "code": "Bonus50LikesCode",
       "reward": "Nen Color Reroll"
+    },
+    {
+      "code": "ShutdownSowwy",
+      "reward": "Redeem code for a Hatsu Reroll (Only if you had or have an Hatsu already)"
     },
     {
       "code": "1500LikesClan",
@@ -158,6 +86,42 @@
     {
       "code": "1000LikesCodeNen",
       "reward": "Redeem code for Nen Color Reroll"
+    },
+    {
+      "code": "UpdateV02",
+      "reward": "Redeem code for a Hatsu reroll"
+    },
+    {
+      "code": "GonOnTOP",
+      "reward": "Redeem code for a Clan reroll"
+    },
+    {
+      "code": "2000LikesClan",
+      "reward": "Redeem code for Clan Reroll"
+    },
+    {
+      "code": "2000LikesCodeNen",
+      "reward": "Redeem code for Nen Color Reroll"
+    },
+    {
+      "code": "SorryALOT",
+      "reward": "Redeem code for Clan Reroll"
+    },
+    {
+      "code": "SorryALOTNen",
+      "reward": "Redeem code for Nen Color Reroll"
+    },
+    {
+      "code": "Update01",
+      "reward": "Redeem code for Clan Reroll"
+    },
+    {
+      "code": "EzHotfix",
+      "reward": "Redeem code for Clan Reroll"
+    },
+    {
+      "code": "1750LikesClan",
+      "reward": "Redeem code for Clan Reroll"
     },
     {
       "code": "750LikesClan",
@@ -192,51 +156,88 @@
       "reward": "Nen Color"
     },
     {
-      "code": "100LikesClan",
-      "reward": "Clan Reroll"
+      "code": "3500Likes",
+      "reward": "Redeem code for a Clan Reroll"
     },
     {
-      "code": "100LikesClan2",
-      "reward": "Clan Reroll"
+      "code": "MBForShutdown",
+      "reward": "Redeem code for a Hatsu reroll"
     },
     {
-      "code": "100LikesNen",
-      "reward": "Nen Color"
+      "code": "CodeForApologize",
+      "reward": "Redeem code for a Hatsu Reroll"
     },
     {
-      "code": "100LikesNen2",
-      "reward": "Nen Color"
+      "code": "ApologiesAgain",
+      "reward": "Redeem code for a Clan Reroll"
     },
     {
-      "code": "50Likes",
-      "reward": "Clan Reroll"
+      "code": "SorryForManyShutdowns",
+      "reward": "Redeem code for a Hatsu Reroll"
     },
     {
-      "code": "Bonus50LikesCode",
-      "reward": "Nen Color Reroll"
+      "code": "Update03",
+      "reward": "Redeem code for a Clan Reroll"
     },
     {
-      "code": "RELEASE",
-      "reward": "Clan Reroll"
+      "code": "HollowPurple",
+      "reward": "Redeem code for a Hatsu Reroll"
     },
     {
-      "code": "GameIsFye",
-      "reward": "Nen Reroll"
+      "code": "3000LikesClan",
+      "reward": "Redeem code for a Clan Reroll"
     },
     {
-      "code": "weUP",
-      "reward": "Clan Reroll"
+      "code": "UpdateSoon",
+      "reward": "Redeem code for a Hatsu Reroll"
     },
     {
-      "code": "BeHappyChat",
-      "reward": "Nen Reroll"
+      "code": "SupersGift",
+      "reward": "Redeem code for a Clan Reroll"
     },
     {
-      "code": "HunterExamsFinnaBeFye",
+      "code": "2750LikesNen",
+      "reward": "Redeem code for a Nen color Reroll"
+    },
+    {
+      "code": "ShutdownForFIXClan",
+      "reward": "Redeem code for Clan reroll"
+    },
+    {
+      "code": "2500LikesClan",
+      "reward": "Redeem code for a Clan Reroll"
+    },
+    {
+      "code": "2250LikesClan",
+      "reward": "Redeem code for a Clan reroll"
+    },
+    {
+      "code": "EzBalances",
+      "reward": "Redeem code for a Natural Potential reroll (One and only Natural Potential reroll code ever)"
+    },
+    {
+      "code": "FyeUpdate",
+      "reward": "Redeem code for a Hatsu reroll"
+    },
+    {
+      "code": "3500LikesLY",
+      "reward": "Redeem code for a Clan Reroll"
+    },
+    {
+      "code": "FoldedInHalf",
+      "reward": "Redeem code for a Clan Reroll"
+    },
+    {
+      "code": "GodRework",
+      "reward": "Redeem code for a Clan Reroll"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "Update0.4",
       "reward": "Clan Reroll"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Eternal Nen en Roblox",
     "Busca el icono de códigos en el menú",

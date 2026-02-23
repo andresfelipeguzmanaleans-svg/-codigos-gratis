@@ -8,43 +8,52 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "Snowman",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "halloween",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Graveyard",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "volcano",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Update3",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "Update2",
-      "reward": "Recompensas gratis"
+      "reward": "Recompensas"
     },
     {
       "code": "Update1",
-      "reward": "Recompensas gratis"
+      "reward": "150 Wins"
+    },
+    {
+      "code": "volcano",
+      "reward": "8,500 Wins"
+    },
+    {
+      "code": "Update3",
+      "reward": "4,500 Wins"
     },
     {
       "code": "release",
       "reward": "25 Wins"
     },
     {
-      "code": "bugfix",
-      "reward": "Recompensas gratis"
+      "code": "halloween",
+      "reward": "1,000 Wins"
+    },
+    {
+      "code": "Graveyard",
+      "reward": "1,000 Wins"
+    },
+    {
+      "code": "Snowman",
+      "reward": "1,000 Wins"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "bugfix",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "secret",
+      "reward": "10,000 Trophies"
+    },
+    {
+      "code": "Update4",
+      "reward": "5,000 Trophies"
+    }
+  ],
   "howToRedeem": [
     "Abre Hack Simulator en Roblox",
     "Busca el icono de códigos en el menú",

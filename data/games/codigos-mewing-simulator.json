@@ -8,44 +8,47 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "PEAK",
-      "reward": "1,000 wins"
-    },
-    {
-      "code": "SYN",
-      "reward": "10-minuto x2 suerte Boost"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "Update3",
-      "reward": "Recompensas gratis"
+      "code": "RIZZMAS",
+      "reward": "Recompensas"
     },
     {
       "code": "10MILVISITS",
-      "reward": "Recompensas gratis"
+      "reward": "Baby 15M Dragon mascota"
     },
     {
       "code": "200K",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SEEYUH",
-      "reward": "Secret mascota"
+      "reward": "Doble Wins (20 minutos)"
     },
     {
       "code": "TONKA",
-      "reward": "Tonka mascota"
+      "reward": "Big Tonka mascota"
     },
     {
       "code": "FIVRMOGSYOU",
-      "reward": "25,000 Wins"
+      "reward": "25000 Wins"
+    },
+    {
+      "code": "SEEYUH",
+      "reward": "Carti mascota"
+    },
+    {
+      "code": "SYN",
+      "reward": "Doble suerte (10 minutos)"
+    },
+    {
+      "code": "PEAK",
+      "reward": "1000 Wins"
+    },
+    {
+      "code": "Update3",
+      "reward": "Baby Neo Alien mascota"
     },
     {
       "code": "BLESSMESYN",
-      "reward": "X2 Win Boost"
+      "reward": "Doble Wins (20 minutos)"
     }
   ],
+  "expiredCodes": [],
   "howToRedeem": [
     "Abre Mewing Simulator en Roblox",
     "Busca el icono de códigos en el menú",

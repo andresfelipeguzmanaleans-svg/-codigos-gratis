@@ -8,17 +8,35 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "FOLLOWSTRAIN",
+      "reward": "500 snowflakes"
+    },
+    {
+      "code": "KINGCLOCKMAN",
+      "reward": "750 snowflakes"
+    },
+    {
+      "code": "CHRISTMASUPDATE",
+      "reward": "250 snowflakes"
+    },
+    {
+      "code": "SORRY",
+      "reward": "2500 gemas"
+    },
+    {
+      "code": "CHRISTMASHYPE",
+      "reward": "250 gemas"
+    },
+    {
       "code": "2KREACTIONS",
       "reward": "200 gemas"
     },
     {
       "code": "StrainOnTop",
       "reward": "150 gemas"
-    },
-    {
-      "code": "CHRISTMASHYPE",
-      "reward": "250 gemas"
-    },
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "FINALHOUR",
       "reward": "500 gemas"
@@ -86,68 +104,10 @@
     {
       "code": "blue",
       "reward": "50 monedas"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "FINALHOUR",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "400klikes",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "sinister",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1MILMEMBERS",
-      "reward": "50 gemas"
-    },
-    {
-      "code": "G4L4XY3V3NT",
-      "reward": "50 gemas"
-    },
-    {
-      "code": "BUGSFIXED",
-      "reward": "50 gemas"
-    },
-    {
-      "code": "digitonoob",
-      "reward": "Gemas"
-    },
-    {
-      "code": "blue",
-      "reward": "Gemas"
-    },
-    {
-      "code": "Pine",
-      "reward": "Gemas"
-    },
-    {
-      "code": "Meta",
-      "reward": "Gemas"
-    },
-    {
-      "code": "Fatduck",
-      "reward": "Gemas"
-    },
-    {
-      "code": "HelloWorld",
-      "reward": "Gemas"
     },
     {
       "code": "baro",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CHRISTMASUPDATE",
-      "reward": "250 snowflakes"
-    },
-    {
-      "code": "SORRY",
-      "reward": "2500 gemas"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "PVP",

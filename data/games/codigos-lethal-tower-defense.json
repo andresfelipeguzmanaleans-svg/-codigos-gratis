@@ -9,14 +9,35 @@
   "activeCodes": [
     {
       "code": "GALAXY",
-      "reward": "Scrap"
+      "reward": "200 Scrap"
     },
     {
       "code": "LAUNCH",
       "reward": "200 Scrap"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "ENDLESS",
+      "reward": "300 Scrap"
+    },
+    {
+      "code": "FANCY",
+      "reward": "100 Scrap"
+    },
+    {
+      "code": "1MILVISITS",
+      "reward": "300 Scrap"
+    },
+    {
+      "code": "SORRY",
+      "reward": "200 Scrap"
+    },
+    {
+      "code": "15KLIKES",
+      "reward": "200 Scrap"
+    }
+  ],
   "howToRedeem": [
     "Abre Lethal Tower Defense en Roblox",
     "Busca el icono de códigos en el menú",

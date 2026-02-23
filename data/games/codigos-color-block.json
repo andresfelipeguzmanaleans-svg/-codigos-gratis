@@ -8,10 +8,6 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "like1000k",
-      "reward": "Monedas gratis"
-    },
-    {
       "code": "like900k",
       "reward": "Monedas gratis"
     },
@@ -26,22 +22,13 @@
     {
       "code": "like600k",
       "reward": "Monedas gratis"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "like800k",
-      "reward": "Monedas gratis"
     },
     {
-      "code": "like700k",
-      "reward": "Monedas gratis"
-    },
-    {
-      "code": "like600k",
+      "code": "like1000k",
       "reward": "Monedas gratis"
     }
   ],
+  "expiredCodes": [],
   "howToRedeem": [
     "Abre Color Block en Roblox",
     "Busca el icono de códigos en el menú",

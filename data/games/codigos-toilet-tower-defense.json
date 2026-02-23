@@ -11,8 +11,41 @@
   "likes": 1303691,
   "genre": "Tower Defense",
   "placeId": 13775256536,
-  "activeCodes": [],
+  "activeCodes": [
+    {
+      "code": "AutoSkip",
+      "reward": "200 monedas"
+    },
+    {
+      "code": "Parasites",
+      "reward": "200 monedas"
+    },
+    {
+      "code": "PlzMythic",
+      "reward": "200 monedas"
+    },
+    {
+      "code": "NewGifts",
+      "reward": "200 monedas"
+    },
+    {
+      "code": "CameraHeli",
+      "reward": "200 monedas"
+    },
+    {
+      "code": "SpeakerUpgrade",
+      "reward": "200 monedas"
+    }
+  ],
   "expiredCodes": [
+    {
+      "code": "/redeem AutoSkip",
+      "reward": "Recompensas. gratis"
+    },
+    {
+      "code": "/redeem CameraHeli",
+      "reward": "Recompensas. gratis"
+    },
     {
       "code": "15000Likes",
       "reward": "Monedas"
@@ -38,36 +71,12 @@
       "reward": "100 monedas + boost de suerte"
     },
     {
-      "code": "NewGifts",
-      "reward": "200 monedas"
-    },
-    {
       "code": "YayMech",
-      "reward": "200 monedas"
-    },
-    {
-      "code": "AutoSkip",
-      "reward": "200 monedas"
-    },
-    {
-      "code": "CameraHeli",
-      "reward": "200 monedas"
-    },
-    {
-      "code": "PlzMythic",
-      "reward": "300 monedas"
-    },
-    {
-      "code": "SpeakerUpgrade",
       "reward": "200 monedas"
     },
     {
       "code": "CoolScientist",
       "reward": "100 monedas"
-    },
-    {
-      "code": "Parasites",
-      "reward": "Recompensa gratis"
     },
     {
       "code": "Trading",

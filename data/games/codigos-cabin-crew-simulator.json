@@ -11,7 +11,8 @@
   "likes": 367146,
   "genre": "Simulation",
   "placeId": 5171347293,
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "spider",
       "reward": "Skybux"
@@ -115,9 +116,83 @@
     {
       "code": "badge",
       "reward": "1.3k Skybux"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "triple7",
+      "reward": "1,700 SkyBux"
+    },
+    {
+      "code": "migrate",
+      "reward": "2,000 Skybux"
+    },
+    {
+      "code": "paris",
+      "reward": "2,000 Skybux"
+    },
+    {
+      "code": "turbulence",
+      "reward": "1,000 SkyBux"
+    },
+    {
+      "code": "takeoff",
+      "reward": "$150 Skybux"
+    },
+    {
+      "code": "mission",
+      "reward": "$1500 Skybux"
+    },
+    {
+      "code": "evacuate",
+      "reward": "$1500 Skybux"
+    },
+    {
+      "code": "airliner",
+      "reward": "$1000 Skybux"
+    },
+    {
+      "code": "cruising",
+      "reward": "$1000 Skybux"
+    },
+    {
+      "code": "captain",
+      "reward": "$1200 Skybux"
+    },
+    {
+      "code": "clouds",
+      "reward": "$100 Skybux"
+    },
+    {
+      "code": "flying",
+      "reward": "$200 Skybux"
+    },
+    {
+      "code": "wheelsup",
+      "reward": "$2000 Skybux"
+    },
+    {
+      "code": "landing",
+      "reward": "$1250 Skybux"
+    },
+    {
+      "code": "frost",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "concorde",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "snow",
+      "reward": "$1600 Skybux"
+    },
+    {
+      "code": "pilot",
+      "reward": "$1250 Skybux"
+    },
+    {
+      "code": "myles",
+      "reward": "$1500 Skybux"
+    },
     {
       "code": "launch",
       "reward": "1.000 Skybux"
@@ -125,78 +200,6 @@
     {
       "code": "firstflight",
       "reward": "Skybux"
-    },
-    {
-      "code": "concorde",
-      "reward": "4.000 Skybux"
-    },
-    {
-      "code": "frost",
-      "reward": "4.000 Skybux"
-    },
-    {
-      "code": "myles",
-      "reward": "2.000 Skybux"
-    },
-    {
-      "code": "pilot",
-      "reward": "1.1k Skybux"
-    },
-    {
-      "code": "landing",
-      "reward": "1.1k Skybux"
-    },
-    {
-      "code": "snow",
-      "reward": "1.6k Skybux"
-    },
-    {
-      "code": "captain",
-      "reward": "1.2k Skybux"
-    },
-    {
-      "code": "turbulence",
-      "reward": "1k Skybux"
-    },
-    {
-      "code": "paris",
-      "reward": "2k SkyBux"
-    },
-    {
-      "code": "triple7",
-      "reward": "1.5k SkyBux"
-    },
-    {
-      "code": "evacuate",
-      "reward": "Claim for 1.4k Cash"
-    },
-    {
-      "code": "airliner",
-      "reward": "Claim for 1.4k Cash"
-    },
-    {
-      "code": "cruising",
-      "reward": "Claim for 1k Cash"
-    },
-    {
-      "code": "mission",
-      "reward": "Claim for 1.5k Cash"
-    },
-    {
-      "code": "wheelsup",
-      "reward": "Claim for 2k Cash"
-    },
-    {
-      "code": "flying",
-      "reward": "Claim for 200 Cash"
-    },
-    {
-      "code": "takeoff",
-      "reward": "Claim for 150 Cash"
-    },
-    {
-      "code": "clouds",
-      "reward": "Claim for 100 Cash"
     }
   ],
   "introText": "Cabin Crew Simulator es un juego de simulación de aerolíneas en Roblox creado por Cruising Studios. Con más de 371 millones de visitas y 367K likes, crea tu propia aerolínea, diseña el interior de tus aviones, sirve a los pasajeros como auxiliar de vuelo y gestiona emergencias a bordo.",

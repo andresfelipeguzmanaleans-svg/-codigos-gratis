@@ -6,7 +6,8 @@
   "metaTitle": "Códigos Starving Artists (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Starving Artists en Roblox. Consigue recompensas gratis.",
   "lastUpdated": "2026-02-23",
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "egghunt",
       "reward": "Art monedas"
@@ -102,16 +103,22 @@
     {
       "code": "starving",
       "reward": "Get 100 ArtCoins"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
-      "code": "paint300",
-      "reward": "Art monedas gratis"
+      "code": "PAINT300",
+      "reward": "50 Art monedas"
+    },
+    {
+      "code": "FRAKENPABLO",
+      "reward": "50 Art monedas"
+    },
+    {
+      "code": "colours300",
+      "reward": "Art monedas"
     },
     {
       "code": "aprilartist",
-      "reward": "Art monedas gratis"
+      "reward": "Recompensa expirada"
     }
   ],
   "howToRedeem": [

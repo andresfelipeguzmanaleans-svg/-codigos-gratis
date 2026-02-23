@@ -8,6 +8,756 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "NewFruitSoon!",
+      "reward": "20x Poneglyphs"
+    },
+    {
+      "code": "CupidArrow",
+      "reward": "20x EXP tickets"
+    },
+    {
+      "code": "Pt2Soon!",
+      "reward": "1x Generic Katana"
+    },
+    {
+      "code": "WeLuvU",
+      "reward": "10k Hearts"
+    },
+    {
+      "code": "Valentine!",
+      "reward": "30k gemas"
+    },
+    {
+      "code": "EternalContract",
+      "reward": "(1h) 2x Drop"
+    },
+    {
+      "code": "Puppets",
+      "reward": "(1h) 2x EXP"
+    },
+    {
+      "code": "ShadowGovernment",
+      "reward": "(1x) random Soul Contract"
+    },
+    {
+      "code": "ElbafHype!",
+      "reward": "100 Ponegylphs"
+    },
+    {
+      "code": "ValentineSoon!",
+      "reward": "30k gemas"
+    },
+    {
+      "code": "ScarletEagle",
+      "reward": "(30k) gemas"
+    },
+    {
+      "code": "NewBuffSystemSoon",
+      "reward": "(15x) EXP tickets"
+    },
+    {
+      "code": "ElbafSoon",
+      "reward": "(1h) 2x Drop"
+    },
+    {
+      "code": "GryphonV3",
+      "reward": "(1h) 2x EXP"
+    },
+    {
+      "code": "GamepassChanges",
+      "reward": "1 hora of 2x suerte"
+    },
+    {
+      "code": "TradingRevamp!",
+      "reward": "5 Trade tickets"
+    },
+    {
+      "code": "New_Sword_Soon",
+      "reward": "(1x) Mother's Tale"
+    },
+    {
+      "code": "True_Queen",
+      "reward": "1 horas – 2x Drop"
+    },
+    {
+      "code": "Final_Tale",
+      "reward": "1 hora – 2x EXP"
+    },
+    {
+      "code": "Donut_Lover",
+      "reward": "15 – Exp tickets"
+    },
+    {
+      "code": "Kaido",
+      "reward": "1H of 2x Drop"
+    },
+    {
+      "code": "FinalDragon",
+      "reward": "10 Fire Dragon llaves"
+    },
+    {
+      "code": "GYUKI!",
+      "reward": "1 hr 2x EXP"
+    },
+    {
+      "code": "JOYBOY!",
+      "reward": "20 XP tickets"
+    },
+    {
+      "code": "HeavenArrives!",
+      "reward": "1-hora 2x EXPs"
+    },
+    {
+      "code": "JoyBoySoon!",
+      "reward": "1h – 2x drop"
+    },
+    {
+      "code": "Sin_Of_Pride",
+      "reward": "1h – 2x EXP"
+    },
+    {
+      "code": "MerryChristmas!!!",
+      "reward": "2x Drop – 1h + 50 EXP ticket"
+    },
+    {
+      "code": "JollyV2!",
+      "reward": "2x EXP (12h)"
+    },
+    {
+      "code": "SnowMode!",
+      "reward": "20 EXP tickets"
+    },
+    {
+      "code": "EvilReturns!",
+      "reward": "2x Drops (12h)"
+    },
+    {
+      "code": "SnowWillFall!",
+      "reward": "20 EXP tickets"
+    },
+    {
+      "code": "OnePromptMan!",
+      "reward": "2x EXP | 12h"
+    },
+    {
+      "code": "BaldCrusader!",
+      "reward": "2x Drop | 12h"
+    },
+    {
+      "code": "AOPG2026!",
+      "reward": "2x suerte (12h)"
+    },
+    {
+      "code": "HappyHolidays!",
+      "reward": "10x Fire Dragon llaves"
+    },
+    {
+      "code": "MerryChristmas!",
+      "reward": "2x Drops (12h)"
+    },
+    {
+      "code": "DrumsOfJolly!",
+      "reward": "30 EXP tickets"
+    },
+    {
+      "code": "JoyBoyReturns!",
+      "reward": "2x EXP (3h)"
+    },
+    {
+      "code": "SunGodLuffy!",
+      "reward": "2x Drops (3h)"
+    },
+    {
+      "code": "OnePieceUpdSoon!",
+      "reward": "15 EXP tickets"
+    },
+    {
+      "code": "UnbreakableChains!",
+      "reward": "2x EXP | 1h"
+    },
+    {
+      "code": "Manipulator!",
+      "reward": "2x Drops | 1h"
+    },
+    {
+      "code": "YOUTUBEBACK!!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "WeekendBuff",
+      "reward": "35000 gemas"
+    },
+    {
+      "code": "QOLUpdate",
+      "reward": "2x EXP for 1 hora"
+    },
+    {
+      "code": "BugsFix",
+      "reward": "10 Poneglyphs"
+    },
+    {
+      "code": "NewVid!!",
+      "reward": "20 EXP ticket"
+    },
+    {
+      "code": "Hokage",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Last_Resort",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Goodbye",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Ninja_way",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Rebellion!",
+      "reward": "60 min 2x drop"
+    },
+    {
+      "code": "BloodOrbs!",
+      "reward": "1M Blood Orbs"
+    },
+    {
+      "code": "Ichigoat",
+      "reward": "Redeem code for 1 hr 2x gemas Boost"
+    },
+    {
+      "code": "BossGoroV3",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "RevampPart1",
+      "reward": "Redeem code for 1 Hr 2x EXP"
+    },
+    {
+      "code": "DarkDark",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HeavenlyRestriction",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "Pregame_U8zKL",
+      "reward": "Redeem code for 1 poneglyph"
+    },
+    {
+      "code": "UGCRelease",
+      "reward": "Redeem code for 1 Poneglyph"
+    },
+    {
+      "code": "510KLikes",
+      "reward": "Redeem code for 1 hora of x2 gemas"
+    },
+    {
+      "code": "BirthdayBoss19",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "GiftFromXury",
+      "reward": "5 título giros"
+    },
+    {
+      "code": "Xqtuy1b4",
+      "reward": "Redeem code for x2 XP for 1 hora"
+    },
+    {
+      "code": "Sogeking",
+      "reward": "Redeem code for 2x EXP 60 minutos"
+    },
+    {
+      "code": "MoreSoon",
+      "reward": "Redeem code for 1 hr 2x gemas"
+    },
+    {
+      "code": "ZnxCvb9",
+      "reward": "Redeem code for x2 gemas for 1 hora"
+    },
+    {
+      "code": "Hellsing",
+      "reward": "Redeem code for 1 poneglyph"
+    },
+    {
+      "code": "BlastOff2023",
+      "reward": "3 Poneglyphs"
+    },
+    {
+      "code": "HalloweenRelease",
+      "reward": "Redeem code for 2x EXP 2 hora"
+    },
+    {
+      "code": "520KLIKES",
+      "reward": "Redeem code for 1 Poneglyph"
+    },
+    {
+      "code": "UGC12",
+      "reward": "Redeem code for 2x EXP 1 hora"
+    },
+    {
+      "code": "UGC15",
+      "reward": "Redeem code for 2x gemas 30 minutos"
+    },
+    {
+      "code": "sry4shutdown",
+      "reward": "Redeem code for 1 Poneglyph"
+    },
+    {
+      "code": "UTADROP",
+      "reward": "Redeem code for 1 hr 2x gemas Boost"
+    },
+    {
+      "code": "250MILLTHANKS",
+      "reward": "3 PONEGLYPHS"
+    },
+    {
+      "code": "BossStudioLoyals",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "MochiV3NOW!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ApologiesForDelay",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "Sorry4TojiDelay",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "thebosscode!",
+      "reward": "Redeem code for a Global EXP Boost"
+    },
+    {
+      "code": "Sorry4Delay",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "AwakenCyborg!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "LoyalsCode!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BuddhaV2!",
+      "reward": "Redeem code for 2x EXP 30 minutos"
+    },
+    {
+      "code": "BossQualityUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossGojoUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossStudiosQuality!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SaturnUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "QualityOfLife!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SorryForLateDrop",
+      "reward": "Redeem code for 1 poneglyph"
+    },
+    {
+      "code": "FIXES!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "EggHunt!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "QOL!",
+      "reward": "1h of 2x drops"
+    },
+    {
+      "code": "LoyalsBStudio",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ArtifactsUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewFixUpdates!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "LoyalsCodeAgain!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossRenameUPD!",
+      "reward": "Poneglyph"
+    },
+    {
+      "code": "Sorry!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "GyukiFruit!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "JoinLoyals!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewYoru!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossLeopardUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "VegapunkRaid!",
+      "reward": "Redeem code for 2x gemas for 1 hora"
+    },
+    {
+      "code": "NewGojo!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewLeopard!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossYoruUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "PawV2Update!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ForSunday!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "Quality!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewSuits!",
+      "reward": "Redeem code for 2x EXP for 1 hora"
+    },
+    {
+      "code": "IceV3NOW",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "LateDrop",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "OMGBossRename!",
+      "reward": "Título giros"
+    },
+    {
+      "code": "RenameUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "OMGRename!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewUpdateHey!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossRubberUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossPhoenixUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossStudiosNami!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossStudiosUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "AttackMarineford!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossStudiosGarpUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossStudiosExtra",
+      "reward": "Redeem code for doble EXP Boost"
+    },
+    {
+      "code": "IfritUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossStarkUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewMagma!",
+      "reward": "Redeem code for 1 Poneglyph"
+    },
+    {
+      "code": "StarkUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossStudiosIfrit!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossOpeUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossDeathUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "GarpUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewDeathUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossQualityUPD!!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "QOLUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "YamotoUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossStudio4Life",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewHakiUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ExtrasUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewHakiBoss!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossStudiosCID!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossStudiosMagma!",
+      "reward": "Redeem code for doble EXP Boost"
+    },
+    {
+      "code": "DEMONLEGS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossExtras!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewRubberUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "PhoenixUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NamiUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossOni!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ShadowUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossHybridFourth!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossFlame!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewOpeUpdate!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "QualityUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BIGCODE",
+      "reward": "Redeem code for 2 Poneglyph"
+    },
+    {
+      "code": "BOSSQOL!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BLUEFLAMES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "FlameUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossWukong!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewGearHybrid!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BossDragon!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "DragonUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "HappyNewYears!",
+      "reward": "100 Poneglyphs"
+    },
+    {
+      "code": "GoSpin!!",
+      "reward": "2x Beli // 30 minutos"
+    },
+    {
+      "code": "GoldFruit!",
+      "reward": "2x Drops // 1 hora"
+    },
+    {
+      "code": "ShadowExchange!",
+      "reward": "X2 gemas / 60Mins"
+    },
+    {
+      "code": "GoldGoldGold!",
+      "reward": "20x Poneglyths"
+    },
+    {
+      "code": "SorryForOdenDelay!",
+      "reward": "X2 EXP (60 Mins)"
+    },
+    {
+      "code": "GiantSmith!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "YTIntervention",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "OdenBlades!",
+      "reward": "X2 gemas (60 Mins)"
+    },
+    {
+      "code": "BossSmithUPD!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "PULLMYTRIGGER",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SorryForSnakeDelay!",
+      "reward": "X2 Exp / 60Mins"
+    },
+    {
+      "code": "SorryForDelayGuys",
+      "reward": "2x Drops (60 Mins)"
+    },
+    {
+      "code": "SLIME!!!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Motivation!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ChineseNewYear!",
+      "reward": "35,000 gemas"
+    },
+    {
+      "code": "DaimyoOdenBlades!",
+      "reward": "X2 gemas (60 Mins)"
+    },
+    {
+      "code": "WeAreReallyBack!!",
+      "reward": "X100 título giros"
+    },
+    {
+      "code": "ShadowMonarch!",
+      "reward": "X2 Exp / 60Mins"
+    },
+    {
+      "code": "Casino_enjoyer",
+      "reward": "2x Drops (60min)"
+    },
+    {
+      "code": "GOLDEN_GOLEM",
+      "reward": "2x EXP (60min)"
+    },
+    {
+      "code": "MonarchFixed!",
+      "reward": "3x drops for 3 horas"
+    },
+    {
+      "code": "WeAreBack!!",
+      "reward": "X100 título giros"
+    },
+    {
+      "code": "youtubeisback!",
+      "reward": "Recompensas gratis"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "LoveMeta!",
       "reward": "50k Hearts"
     },
@@ -28,236 +778,16 @@
       "reward": "1h 2x Drop"
     },
     {
-      "code": "Valentine!",
-      "reward": "30k gemas"
-    },
-    {
-      "code": "WeLuvU",
-      "reward": "10k Hearts"
-    },
-    {
-      "code": "Pt2Soon!",
-      "reward": "Generic Katana"
-    },
-    {
-      "code": "CupidArrow",
-      "reward": "20 tickets"
-    },
-    {
-      "code": "NewFruitSoon!",
-      "reward": "20 Ponegylphs"
-    },
-    {
-      "code": "ValentineSoon!",
-      "reward": "30k gemas"
-    },
-    {
-      "code": "ElbafHype!",
-      "reward": "100 Ponegylphs"
-    },
-    {
-      "code": "ShadowGovernment",
-      "reward": "1 Random Soul Contract"
-    },
-    {
-      "code": "Puppets",
-      "reward": "1 hora of 2x EXP"
-    },
-    {
-      "code": "EternalContract",
-      "reward": "1 hora of 2x Drops"
-    },
-    {
-      "code": "GryphonV3",
-      "reward": "1 hora of 2x EXP"
-    },
-    {
-      "code": "ElbafSoon",
-      "reward": "1 hora of 2x Drops"
-    },
-    {
-      "code": "NewBuffSystemSoon",
-      "reward": "15 EXP tickets"
-    },
-    {
-      "code": "ScarletEagle",
-      "reward": "30k gemas"
-    },
-    {
-      "code": "GamepassChanges",
-      "reward": "1 hora of 2x suerte"
-    },
-    {
-      "code": "TradingRevamp!",
-      "reward": "5 Trade tickets"
-    },
-    {
-      "code": "Donut_Lover",
-      "reward": "15 EXP tickets"
-    },
-    {
-      "code": "True_Queen",
-      "reward": "2x Drop for 1 hora"
-    },
-    {
-      "code": "Final_Tale",
-      "reward": "2x EXP for 1 hora"
-    },
-    {
-      "code": "New_Sword_Soon",
-      "reward": "1 Mother's Tale"
-    },
-    {
-      "code": "FinalDragon",
-      "reward": "10 Fire Dragon llaves"
-    },
-    {
-      "code": "Kaido",
-      "reward": "2x Drop for 1 hora"
-    },
-    {
-      "code": "JOYBOY!",
-      "reward": "20 EXP tickets"
-    },
-    {
-      "code": "QOL!",
-      "reward": "2x Drop for 1 hora"
-    },
-    {
-      "code": "GYUKI!",
-      "reward": "2x EXP for 1 hora"
-    },
-    {
-      "code": "HappyNewYears!",
-      "reward": "100 Poneglyphs"
-    },
-    {
-      "code": "JoyBoySoon!",
-      "reward": "2x Drop for 1 hora"
-    },
-    {
-      "code": "HeavenArrives!",
-      "reward": "2x EXP for 1 hora"
-    },
-    {
       "code": "SinOfPride?!!",
       "reward": "30 EXP tickets"
-    },
-    {
-      "code": "MerryChristmas!!!",
-      "reward": "2x Drop | 1h + 50 EXP tickets"
-    },
-    {
-      "code": "SnowMode!",
-      "reward": "20 EXP tickets"
-    },
-    {
-      "code": "EvilReturns!",
-      "reward": "2x Drops for 12 horas"
-    },
-    {
-      "code": "JollyV2!",
-      "reward": "2x EXP for 12 horas"
     },
     {
       "code": "AnniversarySoon?!!!",
       "reward": "2x EXP for 1 hora"
     },
     {
-      "code": "BaldCrusader!",
-      "reward": "2x Drops for 12 horas"
-    },
-    {
-      "code": "OnePromptMan!",
-      "reward": "2x EXP for 12 horas"
-    },
-    {
-      "code": "SnowWillFall!",
-      "reward": "20 EXP tickets"
-    },
-    {
-      "code": "MerryChristmas!",
-      "reward": "2x Drops for 12 horas"
-    },
-    {
-      "code": "HappyHolidays!",
-      "reward": "10 Fire Dragon llaves"
-    },
-    {
-      "code": "AOPG2026!",
-      "reward": "2x suerte for 12 horas"
-    },
-    {
-      "code": "SunGodLuffy!",
-      "reward": "2x Drops for 3 horas"
-    },
-    {
-      "code": "JoyBoyReturns!",
-      "reward": "2x EXP for 3 horas"
-    },
-    {
-      "code": "DrumsOfJolly!",
-      "reward": "30 EXP tickets"
-    },
-    {
-      "code": "Manipulator!",
-      "reward": "60 min of 2x EXP"
-    },
-    {
-      "code": "UnbreakableChains!",
-      "reward": "60 min of 2x EXP"
-    },
-    {
-      "code": "OnePieceUpdSoon!",
-      "reward": "15 EXP ticket"
-    },
-    {
-      "code": "YOUTUBEBACK!!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewVid!!",
-      "reward": "20 EXP ticket"
-    },
-    {
-      "code": "QOLUpdate",
-      "reward": "60 min of 2x Drop"
-    },
-    {
-      "code": "BugsFix",
-      "reward": "10 Poneglyphs"
-    },
-    {
-      "code": "WeekendBuff",
-      "reward": "35k gemas"
-    },
-    {
-      "code": "Hokage",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "Last_Resort",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "Goodbye",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "Ninja_way",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "Rebellion!",
-      "reward": "60 min of 2x Drop"
-    },
-    {
       "code": "EBONY&amp;IVORY",
       "reward": "60 min of 2x EXP"
-    },
-    {
-      "code": "BloodOrbs!",
-      "reward": "1M Blood Orbs"
     },
     {
       "code": "Fairy Tail",
@@ -276,18 +806,6 @@
       "reward": "2x EXP"
     },
     {
-      "code": "GoSpin!!",
-      "reward": "2x Beli"
-    },
-    {
-      "code": "GoldFruit!",
-      "reward": "2x Drops"
-    },
-    {
-      "code": "GoldGoldGold!",
-      "reward": "20x Poneglyphs"
-    },
-    {
       "code": "Aizen HYPE!!!",
       "reward": "2x Drops"
     },
@@ -304,34 +822,6 @@
       "reward": "30K gemas"
     },
     {
-      "code": "SorryForDelayGuys",
-      "reward": "2x Drops"
-    },
-    {
-      "code": "SLIME!!!",
-      "reward": "30k gemas"
-    },
-    {
-      "code": "PULLMYTRIGGER",
-      "reward": "60 minutos of x2 EXP"
-    },
-    {
-      "code": "Motivation!",
-      "reward": "35k gemas"
-    },
-    {
-      "code": "ShadowMonarch!",
-      "reward": "60 minutos of x2 EXP"
-    },
-    {
-      "code": "ShadowExchange!",
-      "reward": "60 minutos of x2 gemas"
-    },
-    {
-      "code": "youtubeisback!",
-      "reward": "60 minutos of x2 EXP"
-    },
-    {
       "code": "FullSerpentMode!",
       "reward": "60 minutos of x2 gemas"
     },
@@ -340,71 +830,7 @@
       "reward": "60 minutos of x2 EXP"
     },
     {
-      "code": "WeAreReallyBack!!",
-      "reward": "100 título giros"
-    },
-    {
-      "code": "DaimyoOdenBlades!",
-      "reward": "60 minutos of x2 gemas"
-    },
-    {
-      "code": "OdenBlades!",
-      "reward": "60 minutos of x2 gemas"
-    },
-    {
-      "code": "SorryForOdenDelay!",
-      "reward": "60 minutos of x2 EXP"
-    },
-    {
-      "code": "SorryForSnakeDelay!",
-      "reward": "60 minutos of x2 gemas"
-    },
-    {
-      "code": "ChineseNewYear!",
-      "reward": "35k gemas"
-    },
-    {
-      "code": "WeAreBack!!",
-      "reward": "100 título giros"
-    },
-    {
       "code": "WukongUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossWukong!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossDragon!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "DragonUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossSmithUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "GiantSmith!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewGearHybrid!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossHybridFourth!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "ExtrasUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossExtras!",
       "reward": "Recompensas"
     },
     {
@@ -424,178 +850,6 @@
       "reward": "Recompensas"
     },
     {
-      "code": "YamotoUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossOni!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BOSSQOL!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "QOLUpdate!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossDeathUpdate!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewDeathUpdate!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossRubberUpdate!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewRubberUpdate!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossOpeUpdate!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewOpeUpdate!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewHakiUpdate!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewHakiBoss!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BLUEFLAMES",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "DEMONLEGS",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossPhoenixUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "PhoenixUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossQualityUPD!!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "QualityUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossStudiosGarpUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "GarpUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossStudiosCID!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "ShadowUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossStudiosNami!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NamiUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BIGCODE",
-      "reward": "2 Poneglyphs"
-    },
-    {
-      "code": "NewMagma!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossStudiosMagma!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossStudiosUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "AttackMarineford!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "FIXES!",
-      "reward": "1 Poneglyph"
-    },
-    {
-      "code": "BossGojoUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewGojo!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "Sorry!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "ForSunday!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossQualityUpdate!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossYoruUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewYoru!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossLeopardUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewLeopard!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "ArtifactsUpdate!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewFixUpdates!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "Quality!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BossStudiosQuality!",
-      "reward": "Recompensas"
-    },
-    {
       "code": "TeleportBoss!",
       "reward": "1 Poneglyph"
     },
@@ -604,144 +858,12 @@
       "reward": "Recompensas"
     },
     {
-      "code": "OMGBossRename!",
-      "reward": "1 Poneglyph"
-    },
-    {
-      "code": "BossRenameUPD!",
-      "reward": "Título giros"
-    },
-    {
-      "code": "OMGRename!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "RenameUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "GyukiFruit!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "SaturnUPD!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "PawV2Update!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "NewUpdateHey!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "LoyalsCodeAgain!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "VegapunkRaid!",
-      "reward": "2x gemas for 1 hora"
-    },
-    {
-      "code": "NewSuits!",
-      "reward": "2x EXP for 1 hora"
-    },
-    {
-      "code": "AwakenCyborg!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "EggHunt!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "QualityOfLife!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "JoinLoyals!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "LoyalsCode!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "SorryForLateDrop",
-      "reward": "1 Poneglyph"
-    },
-    {
-      "code": "BuddhaV2!",
-      "reward": "30 min of XP"
-    },
-    {
-      "code": "IceV3NOW",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "LateDrop",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BossStudioLoyals",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "Heavenly Restriction",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Sorry4TojiDelay",
       "reward": "Recompensas gratis"
     },
     {
       "code": "AFSComeback?",
       "reward": "Boost gratis"
-    },
-    {
-      "code": "thebosscode!",
-      "reward": "Global EXP Boost"
-    },
-    {
-      "code": "Sorry4Delay",
-      "reward": "X2 XP for 60 minutos and x2 gemas for 60 minutos"
-    },
-    {
-      "code": "BossGoroV3",
-      "reward": "X2 XP for 60 minutos and x2 gemas for 60 minutos"
-    },
-    {
-      "code": "Pregame_U8zKL",
-      "reward": "1 Poneglyph"
-    },
-    {
-      "code": "Ichigoat",
-      "reward": "1-hora 2x gemas Boost"
-    },
-    {
-      "code": "sry4shutdown",
-      "reward": "1 Poneglyph"
-    },
-    {
-      "code": "510KLikes",
-      "reward": "1 hora of 2x gemas"
-    },
-    {
-      "code": "250MILLTHANKS",
-      "reward": "3 Poneglyphs"
-    },
-    {
-      "code": "GiftFromXury",
-      "reward": "5 título giros"
-    },
-    {
-      "code": "DarkDark",
-      "reward": "1 Poneglyph"
-    },
-    {
-      "code": "BlastOff2023",
-      "reward": "3 Poneglyphs"
     },
     {
       "code": "QolChanges5",
@@ -1098,164 +1220,30 @@
     {
       "code": "Like4Codes",
       "reward": "10 minutos of 2x EXP"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "QolChanges5",
-      "reward": "1 Poneglyph"
     },
     {
-      "code": "500kLikes!",
-      "reward": "2x gemas"
-    },
-    {
-      "code": "BouncemanReworkSoon",
-      "reward": "2x EXP"
-    },
-    {
-      "code": "490kLIKES",
-      "reward": "Devil Fruit Reset"
-    },
-    {
-      "code": "FixesOver!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HaveAGreatDay!",
-      "reward": "2x gemas for 15 minutos"
-    },
-    {
-      "code": "HappyMonday!",
-      "reward": "2x EXP for 30 minutos"
-    },
-    {
-      "code": "470KLIKES",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "XURYBACKFROMROME",
-      "reward": "1 título giro"
-    },
-    {
-      "code": "PreHaki!",
-      "reward": "1 título giro"
-    },
-    {
-      "code": "FromBossAndAndre!",
-      "reward": "X2 gemas for 15 Mins"
-    },
-    {
-      "code": "AprilTime!",
-      "reward": "X2 XP for 30 Mins"
-    },
-    {
-      "code": "SHANKSUPDATE",
-      "reward": "1 título giro gratis"
-    },
-    {
-      "code": "Anniversary!",
-      "reward": "1 título giro gratis"
-    },
-    {
-      "code": "FromDevsToYou!",
-      "reward": "2x gemas Boost"
-    },
-    {
-      "code": "EnjoyThis!",
-      "reward": "2x EXP Boost"
-    },
-    {
-      "code": "PROBLEMCHILD",
-      "reward": "2x EXP for 30 minutos"
-    },
-    {
-      "code": "XurySaysGoodLuck",
-      "reward": "2X gemas for 15 minutos"
-    },
-    {
-      "code": "GemsCode1873",
-      "reward": "2x gemas 15 minutos"
-    },
-    {
-      "code": "ValentinesDay252",
-      "reward": "Race giro"
-    },
-    {
-      "code": "NewTitleSpinCode12",
-      "reward": "1 título giro gratis"
-    },
-    {
-      "code": "FollowTheBoss6262",
-      "reward": "Devil Fruit Reset"
-    },
-    {
-      "code": "RaceRoll1732",
-      "reward": "Race giro"
-    },
-    {
-      "code": "ExtraGemsCode135",
-      "reward": "2x gemas"
-    },
-    {
-      "code": "Free2xExp1236",
-      "reward": "2x EXP"
-    },
-    {
-      "code": "SORRYFORSHUTDOWN",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "JINCHURIKI",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "2xGems1537",
-      "reward": "2x gemas 15 minutos"
-    },
-    {
-      "code": "FreeNormalSpins1122",
-      "reward": "2 normal giros"
-    },
-    {
-      "code": "AGiftFromAndre",
-      "reward": "Título giro"
-    },
-    {
-      "code": "SupportBossStudios",
-      "reward": "Título giro"
+      "code": "155KLIKES",
+      "reward": "Redeem code for 100,000 Beli"
     },
     {
       "code": "FromXury",
       "reward": "Race Reset"
     },
     {
-      "code": "FromBoss",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "PLEASESANTARACE",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "HereYouGo",
-      "reward": "2x gemas Code"
-    },
-    {
-      "code": "AndresGiftForAll!",
-      "reward": "Título giros"
-    },
-    {
-      "code": "NewBossStudiosYear!",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "StorageChanges1",
+      "code": "StorageChanges5",
       "reward": "Race re-tirada"
     },
     {
-      "code": "StorageChanges2",
-      "reward": "Race re-tirada"
+      "code": "XuryChristMasRace",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "120KSUBS",
+      "reward": "Redeem code for a Devil Fruit Reset"
+    },
+    {
+      "code": "KORE",
+      "reward": "Redeem code for 50,000 Beli"
     },
     {
       "code": "StorageChanges3",
@@ -1266,80 +1254,132 @@
       "reward": "Race re-tirada"
     },
     {
-      "code": "StorageChanges5",
+      "code": "UPDATE7.5",
+      "reward": "150,000 Beli"
+    },
+    {
+      "code": "UPDATE7TOMORROW?",
+      "reward": "A recompensa gratis"
+    },
+    {
+      "code": "80MILLVISITS!",
+      "reward": "Redeem code for 2x gemas"
+    },
+    {
+      "code": "1MILLION!",
+      "reward": "Redeem code for x2 XP"
+    },
+    {
+      "code": "DragonNext!",
+      "reward": "Redeem code for 2x gemas for 10 minutos"
+    },
+    {
+      "code": "230KLIKES",
+      "reward": "Redeem code for a DF Reset"
+    },
+    {
+      "code": "GEAR4SOON",
+      "reward": "Redeem code for 200k Beli"
+    },
+    {
+      "code": "7.5KLIKES",
+      "reward": "100,000 Beli"
+    },
+    {
+      "code": "40KLIKES",
+      "reward": "Redeem code for 150k Beli"
+    },
+    {
+      "code": "5KLIKES",
+      "reward": "Redeem code for 100,000 Beli"
+    },
+    {
+      "code": "StorageChanges1",
       "reward": "Race re-tirada"
     },
     {
-      "code": "StorageChanges6",
+      "code": "CyborgSoon!",
+      "reward": "Devil fruit reset"
+    },
+    {
+      "code": "250KLIKES",
+      "reward": "Redeem code for a Devil Fruit Reset"
+    },
+    {
+      "code": "170KLIKES",
+      "reward": "Redeem code for a Devil Fruit Reset"
+    },
+    {
+      "code": "MOCHITOMORROW",
+      "reward": "Redeem code for x2 XP for 30 minutos"
+    },
+    {
+      "code": "KingLuffyAndAlopek",
+      "reward": "Redeem code for 100,000 Beli"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "Redeem code for 200k Beli"
+    },
+    {
+      "code": "MILLIONAIRES",
+      "reward": "Redeem code for 100,000 Beli"
+    },
+    {
+      "code": "StorageChanges2",
       "reward": "Race re-tirada"
     },
     {
-      "code": "StorageChanges7",
-      "reward": "Race re-tirada"
+      "code": "THOUSANDLIKES",
+      "reward": "Redeem code for 50,000 Beli"
     },
     {
-      "code": "StorageChanges8",
-      "reward": "Race re-tirada"
+      "code": "EasterPreHype",
+      "reward": "Redeem code to reset your Devil Fruit"
+    },
+    {
+      "code": "SORRYWEFIXED",
+      "reward": "Redeem code to reset your Devil Fruit"
+    },
+    {
+      "code": "60KLIKES",
+      "reward": "Redeem code for 100k Beli"
+    },
+    {
+      "code": "10KLIKES",
+      "reward": "Redeem code for 150,000 Beli"
+    },
+    {
+      "code": "XurySaysGoodLuck",
+      "reward": "2X gemas for 15 minutos"
     },
     {
       "code": "StorageChanges9",
       "reward": "Race re-tirada"
     },
     {
+      "code": "FreeRaceReRoll",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": "110KLIKES",
+      "reward": "Redeem code for a recompensa gratis"
+    },
+    {
+      "code": "75KLIKES",
+      "reward": "Redeem code for 75,000 Beli"
+    },
+    {
+      "code": "3KLIKES",
+      "reward": "Redeem code for 100,000 Beli"
+    },
+    {
       "code": "StorageChanges10",
       "reward": "Race re-tirada"
     },
     {
-      "code": "XuryGivesRaceLuck",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "SUPAHCODE",
-      "reward": "3 título giros gratis"
-    },
-    {
-      "code": "GoodLuck",
-      "reward": "X2 gemas, 30 Mins"
-    },
-    {
       "code": "BossChristMasRace",
       "reward": "Race Reset"
-    },
-    {
-      "code": "XuryChristMasRace",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "MerryChristMasRace",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "Shutdown4Fixes121",
-      "reward": "2x gemas 15 minutos"
-    },
-    {
-      "code": "FreeSpin1235",
-      "reward": "2 normal giros"
-    },
-    {
-      "code": "Shutdown1283",
-      "reward": "2 título giros"
-    },
-    {
-      "code": "FollowTheBoss!12",
-      "reward": "Reset devil fruit"
-    },
-    {
-      "code": "Free2xGems!152",
-      "reward": "2x gemas for 20 minutos"
-    },
-    {
-      "code": "XurySpin",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "BossSpin",
-      "reward": "2x gemas for 15 minutos"
     },
     {
       "code": "FollowTheGram",
@@ -1350,572 +1390,188 @@
       "reward": "2 título giros"
     },
     {
-      "code": "Fixes172",
-      "reward": "Race re-tirada"
-    },
-    {
-      "code": "FollowInsta163",
-      "reward": "Reset devil fruit"
-    },
-    {
-      "code": "FreeSpin12",
+      "code": "FreeSpin1235",
       "reward": "2 normal giros"
-    },
-    {
-      "code": "BugFixes164",
-      "reward": "2 título giros"
-    },
-    {
-      "code": "InstagramFollow4Codes",
-      "reward": "Re-tirada Race"
-    },
-    {
-      "code": "InstagtamPlugBoss",
-      "reward": "Remove Devil Fruit"
-    },
-    {
-      "code": "LikeTheGame!52",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "FreeRaceReRoll",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "DRXWonBruh",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "LunarianRace",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "LateLuigiBday",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "Lunarian!",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "HaveFun!",
-      "reward": "2x Beli"
-    },
-    {
-      "code": "UpdateSoon!",
-      "reward": "Devil Fruit reset"
-    },
-    {
-      "code": "HALLOWEEN",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "XuryDidTheCodes",
-      "reward": "2x EXP for 30 minutos"
-    },
-    {
-      "code": "BossStudioOnTop",
-      "reward": "2x Beli for 30 minutos"
-    },
-    {
-      "code": "GeckoMoria",
-      "reward": "Reset Devil Fruit"
-    },
-    {
-      "code": "IWANTGEMS",
-      "reward": "2x gemas for 30 minutos"
-    },
-    {
-      "code": "HeadlessHorseman",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "Beheader",
-      "reward": "2x EXP"
-    },
-    {
-      "code": "150MVISITS",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "VENOM",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "Sub2Boss!",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "FreeRaceReset",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "ExtraGems",
-      "reward": "2x gemas for 30 minutos"
-    },
-    {
-      "code": "UPNEXT",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "1DollarLawyer",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "AMilli",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "400kLikes!",
-      "reward": "1 hora 2x gemas"
-    },
-    {
-      "code": "400Thousand!",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "AizenSword",
-      "reward": "2x gemas for 30 minutos"
-    },
-    {
-      "code": "AOPGxBLEACH!",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "TaklaBigBoy",
-      "reward": "2x Beli"
-    },
-    {
-      "code": "OzqobShowcase",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "MajyaTv",
-      "reward": "Devil Fruit Reset"
-    },
-    {
-      "code": "RaceSpin",
-      "reward": "Rerolls race"
-    },
-    {
-      "code": "390KLIKES!",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "MochiComing!",
-      "reward": "Race re-tirada"
-    },
-    {
-      "code": "SUPERRR",
-      "reward": "Race re-tirada"
-    },
-    {
-      "code": "ThebossYT",
-      "reward": "Race re-tirada"
-    },
-    {
-      "code": "CyborgSoon!",
-      "reward": "Devil fruit reset"
-    },
-    {
-      "code": "360KLIKES!",
-      "reward": "Race Reroll gratis"
-    },
-    {
-      "code": "CodesWorkISwear",
-      "reward": "2x gemas"
-    },
-    {
-      "code": "JustSublol",
-      "reward": "2x Beli"
-    },
-    {
-      "code": "Need2Sub!",
-      "reward": "2x gemas"
-    },
-    {
-      "code": "SubNeeded!",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "335KLIKES",
-      "reward": "Devil Fruit Reset"
-    },
-    {
-      "code": "Like4Codes",
-      "reward": "2x EXP for 10 minutos"
-    },
-    {
-      "code": "80MILLVISITS!",
-      "reward": "2x gemas"
-    },
-    {
-      "code": "1MILLION!",
-      "reward": "X2 XP"
-    },
-    {
-      "code": "250KLIKES",
-      "reward": "Devil Fruit Reset"
-    },
-    {
-      "code": "DragonNext!",
-      "reward": "2x gemas for 10 minutos"
-    },
-    {
-      "code": "230KLIKES",
-      "reward": "DF Reset"
-    },
-    {
-      "code": "GEAR4SOON",
-      "reward": "200k Beli"
-    },
-    {
-      "code": "RaceReRoll262",
-      "reward": "Race re-tirada"
-    },
-    {
-      "code": "Sorry4Issues",
-      "reward": "Race re-tirada"
-    },
-    {
-      "code": "SnakeMan12",
-      "reward": "2x gemas for 25 minutos"
-    },
-    {
-      "code": "XuryLovesU",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "BossLovesU",
-      "reward": "DF Reset"
-    },
-    {
-      "code": "BossStudioLovesU",
-      "reward": "2x gemas for 15 min"
-    },
-    {
-      "code": "GemsForShutdown",
-      "reward": "2x gemas For 15 minutos"
-    },
-    {
-      "code": "RaceReset12",
-      "reward": "Race Re-tirada"
-    },
-    {
-      "code": "LikeTheGame55",
-      "reward": "Reset Devil Fruit"
     },
     {
       "code": "FavoriteTheGame2",
       "reward": "2x gemas for15 minutos"
     },
     {
-      "code": "FollowBossInstagram",
-      "reward": "2x gemas 15 minutos"
-    },
-    {
-      "code": "200KLIKES",
-      "reward": "Devil Fruit Reset"
-    },
-    {
-      "code": "UPDATE8",
-      "reward": "100,000 Beli"
-    },
-    {
-      "code": "120KSUBS",
-      "reward": "Devil Fruit Reset"
-    },
-    {
-      "code": "170KLIKES",
-      "reward": "Devil Fruit Reset"
-    },
-    {
-      "code": "UPDATE7.5",
-      "reward": "150,000 Beli"
-    },
-    {
-      "code": "155KLIKES",
-      "reward": "100,000 Beli"
-    },
-    {
-      "code": "SORRY4SHUTDOWN",
-      "reward": "100,000 Beli"
-    },
-    {
-      "code": "UPDATE7",
-      "reward": "150,000 Beli"
-    },
-    {
-      "code": "MAINTENANCE",
-      "reward": "Reset your Devil Fruit"
-    },
-    {
-      "code": "UPDATE7TOMORROW?",
-      "reward": "Recompensa gratis"
-    },
-    {
       "code": "MINIUPDATE",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "MOCHITOMORROW",
-      "reward": "X2 XP for 30 minutos"
-    },
-    {
-      "code": "125KLIKES",
-      "reward": "Reset your Devil Fruit"
-    },
-    {
-      "code": "SORRY4BUG",
-      "reward": "100k Beli"
-    },
-    {
-      "code": "25MVISITS",
-      "reward": "200,000 Beli"
-    },
-    {
-      "code": "110KLIKES",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "HangukMansae",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "EasterPreHype",
-      "reward": "Reset your Devil Fruit"
-    },
-    {
-      "code": "PHOENIXV2",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "20MVISITS",
-      "reward": "Reset your Devil Fruit"
+      "reward": "Redeem code for a recompensa gratis"
     },
     {
       "code": "100KLIKES",
-      "reward": "100,000 Beli"
-    },
-    {
-      "code": "90KLIKES",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "200KMEMBERS",
-      "reward": "Reset your Devil Fruit"
-    },
-    {
-      "code": "KingLuffyAndAlopek",
-      "reward": "100,000 Beli"
-    },
-    {
-      "code": "SORRYWEFIXED",
-      "reward": "Reset your Devil Fruit"
-    },
-    {
-      "code": "75KLIKES",
-      "reward": "75,000 Beli"
-    },
-    {
-      "code": "100KTWITTER",
-      "reward": "200k Beli"
-    },
-    {
-      "code": "VIZTHEGOAT",
-      "reward": "Reset your Devil Fruit"
-    },
-    {
-      "code": "60KLIKES",
-      "reward": "100k Beli"
-    },
-    {
-      "code": "55KLIKES",
-      "reward": "100k Beli"
+      "reward": "Redeem code for 100,000 Beli"
     },
     {
       "code": "50KLIKES",
-      "reward": "100k Beli"
+      "reward": "Redeem code for 100k Beli"
+    },
+    {
+      "code": "490kLIKES",
+      "reward": "Devil Fruit Reset"
+    },
+    {
+      "code": "Shutdown1283",
+      "reward": "2 título giros"
+    },
+    {
+      "code": "90KLIKES",
+      "reward": "Redeem code for a recompensa gratis"
+    },
+    {
+      "code": "FixesOver!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "RaceRoll1732",
+      "reward": "Race giro"
+    },
+    {
+      "code": "FromBoss",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "StorageChanges6",
+      "reward": "Race re-tirada"
+    },
+    {
+      "code": "FollowTheBoss!12",
+      "reward": "Reset devil fruit"
+    },
+    {
+      "code": "400Thousand!",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": "200KLIKES",
+      "reward": "Redeem code for a Devil Fruit Reset"
+    },
+    {
+      "code": "125KLIKES",
+      "reward": "Redeem code to reset your Devil Fruit"
+    },
+    {
+      "code": "200KMEMBERS",
+      "reward": "Redeem code to reset your Devil Fruit"
     },
     {
       "code": "FruitsComeTomorrow",
-      "reward": "100k Beli"
-    },
-    {
-      "code": "40KLIKES",
-      "reward": "150k Beli"
-    },
-    {
-      "code": "35KLIKES",
-      "reward": "135k Beli"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "200k Beli"
-    },
-    {
-      "code": "20KLIKES",
-      "reward": "Beli gratis"
-    },
-    {
-      "code": "KORE",
-      "reward": "50,000 Beli"
-    },
-    {
-      "code": "MILLIONAIRES",
-      "reward": "100,000 Beli"
-    },
-    {
-      "code": "10KLIKES",
-      "reward": "150,000 Beli"
-    },
-    {
-      "code": "7.5KLIKES",
-      "reward": "100,000 Beli"
-    },
-    {
-      "code": "5KLIKES",
-      "reward": "100,000 Beli"
-    },
-    {
-      "code": "3KLIKES",
-      "reward": "100,000 Beli"
+      "reward": "Redeem code for 100k Beli"
     },
     {
       "code": "TESTING",
-      "reward": "100,000 Beli"
+      "reward": "Redeem code for 100,000 Beli"
     },
     {
-      "code": "THOUSANDLIKES",
-      "reward": "50,000 Beli"
+      "code": "Shutdown4Fixes121",
+      "reward": "2x gemas 15 minutos"
     },
     {
-      "code": "Sin_Of_Pride",
-      "reward": "1h – 2x EXP"
+      "code": "335KLIKES",
+      "reward": "Redeem code for Devil Fruit Reset"
     },
     {
-      "code": "???",
-      "reward": "1-hora 2x Drops"
+      "code": "LikeTheGame55",
+      "reward": "Reset Devil Fruit"
     },
     {
-      "code": "GOLDEN_GOLEM",
-      "reward": "2x EXP"
+      "code": "MAINTENANCE",
+      "reward": "Redeem code to reset your Devil Fruit (Update 7)"
     },
     {
-      "code": "Casino_enjoyer",
-      "reward": "2x Drops"
+      "code": "20MVISITS",
+      "reward": "Redeem code to reset your Devil Fruit"
+    },
+    {
+      "code": "55KLIKES",
+      "reward": "Redeem code for 100k Beli"
+    },
+    {
+      "code": "20KLIKES",
+      "reward": "Redeem code for Beli gratis"
+    },
+    {
+      "code": "Free2xExp1236",
+      "reward": "2x EXP (15 minutos)"
+    },
+    {
+      "code": "StorageChanges8",
+      "reward": "Race re-tirada"
+    },
+    {
+      "code": "RaceReset12",
+      "reward": "Race Re-tirada"
+    },
+    {
+      "code": "UPDATE7",
+      "reward": "Redeem code for 150,000 Beli (Update 7)"
+    },
+    {
+      "code": "PHOENIXV2",
+      "reward": "Redeem code for a recompensa gratis"
+    },
+    {
+      "code": "MerryChristMasRace",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "UPDATE8",
+      "reward": "Redeem code for 100,000 Beli"
+    },
+    {
+      "code": "SORRY4BUG",
+      "reward": "Redeem code for 100k Beli"
+    },
+    {
+      "code": "ExtraGemsCode135",
+      "reward": "2x gemas (15 minutos)"
+    },
+    {
+      "code": "VIZTHEGOAT",
+      "reward": "Redeem code to reset your Devil Fruit"
+    },
+    {
+      "code": "PLEASESANTARACE",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "SORRY4SHUTDOWN",
+      "reward": "Redeem code for 100,000 Beli"
+    },
+    {
+      "code": "25MVISITS",
+      "reward": "Redeem code for 200,000 Beli"
+    },
+    {
+      "code": "100KTWITTER",
+      "reward": "Redeem code for 200k Beli"
+    },
+    {
+      "code": "35KLIKES",
+      "reward": "Redeem code for 135k Beli"
+    },
+    {
+      "code": "StorageChanges7",
+      "reward": "Race re-tirada"
+    },
+    {
+      "code": "Free2xGems!152",
+      "reward": "2x gemas for 20 minutos"
+    },
+    {
+      "code": "HangukMansae",
+      "reward": "Redeem code for a recompensa gratis"
     },
     {
       "code": "Accesory_upgrades?!!",
       "reward": "5 Poneglyphs"
     },
     {
-      "code": "YTIntervention",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MonarchFixed!",
-      "reward": "3x drops for 3 horas"
-    },
-    {
-      "code": "FlameUPD!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BossFlame!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BossStudio4Life",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "StarkUpdate!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BossStarkUpdate!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "IfritUPD!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BossStudiosIfrit!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BossStudiosExtra",
-      "reward": "Doble EXP Boost"
-    },
-    {
-      "code": "LoyalsBStudio",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MochiV3NOW!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ApologiesForDelay",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BirthdayBoss19",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HeavenlyRestriction",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "RevampPart1",
-      "reward": "1 Hr 2x EXP"
-    },
-    {
-      "code": "MoreSoon",
-      "reward": "1 hr 2x gemas"
-    },
-    {
-      "code": "ZnxCvb9",
-      "reward": "X2 gemas for 1 hora"
-    },
-    {
-      "code": "Xqtuy1b4",
-      "reward": "X2 XP for 1 hora"
-    },
-    {
-      "code": "Hellsing",
-      "reward": "1 poneglyph"
-    },
-    {
-      "code": "HalloweenRelease",
-      "reward": "2x EXP 2 hora"
-    },
-    {
-      "code": "UGC12",
-      "reward": "2x EXP 1 hora"
-    },
-    {
-      "code": "UGC15",
-      "reward": "2x gemas 30 minutos"
-    },
-    {
-      "code": "UGCRelease",
-      "reward": "1 Poneglyph"
-    },
-    {
-      "code": "Sogeking",
-      "reward": "2x EXP 60 minutos"
-    },
-    {
-      "code": "UTADROP",
-      "reward": "1 hr 2x gemas Boost"
-    },
-    {
-      "code": "520KLIKES",
-      "reward": "1 Poneglyph"
+      "code": "???",
+      "reward": "1-hora 2x Drops"
     },
     {
       "code": "KOREA",

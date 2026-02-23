@@ -13,154 +13,18 @@
   "placeId": 10450270085,
   "activeCodes": [
     {
-      "code": "1M_MEMBERS",
-      "reward": "200 giros"
-    },
-    {
       "code": "LUNAR_2026",
       "reward": "50 giros"
     }
   ],
   "expiredCodes": [
     {
-      "code": "900K_LIKES",
-      "reward": "50 Spins"
+      "code": "1M_MEMBERS",
+      "reward": "200 giros"
     },
     {
-      "code": "CHRISTMAS_2025",
-      "reward": "100 Spins"
-    },
-    {
-      "code": "500K_LIKES",
-      "reward": "50 Spins"
-    },
-    {
-      "code": "WINTER_EVENT_OUT",
-      "reward": "100 Spins"
-    },
-    {
-      "code": "LUNAR_SOON",
-      "reward": "50 Spins"
-    },
-    {
-      "code": "WINTER_END",
-      "reward": "50 Spins"
-    },
-    {
-      "code": "1M_LIKES",
-      "reward": "50 Spins"
-    },
-    {
-      "code": "96_PERCENT",
-      "reward": "50 Spins"
-    },
-    {
-      "code": "2M_FAVS",
-      "reward": "50 Spins"
-    },
-    {
-      "code": "SHOWDOWN_SORRY!",
-      "reward": "50 Spins"
-    },
-    {
-      "code": "WINTER_SOON",
-      "reward": "50 giros"
-    },
-    {
-      "code": "SOUL_KING_OUT",
-      "reward": "100 giros"
-    },
-    {
-      "code": "95_PERCENT",
-      "reward": "Giros"
-    },
-    {
-      "code": "HAPPY_2026",
-      "reward": "100 giros"
-    },
-    {
-      "code": "EXCHANGE_OUT",
-      "reward": "Giros"
-    },
-    {
-      "code": "SOULKING_20K",
-      "reward": "Giros"
-    },
-    {
-      "code": "20KWINTER",
-      "reward": "Giros"
-    },
-    {
-      "code": "2025_CHRISTMAS",
-      "reward": "50 giros"
-    },
-    {
-      "code": "EXCHANGE_20K",
-      "reward": "100 giros"
-    },
-    {
-      "code": "EXCHANGE_SOON",
-      "reward": "100 giros"
-    },
-    {
-      "code": "ITS_DECEMBER",
-      "reward": "50 giros"
-    },
-    {
-      "code": "HAPPY_THANKSGIVING",
-      "reward": "100 giros"
-    },
-    {
-      "code": "NOVEMBER_YAY",
-      "reward": "50 giros"
-    },
-    {
-      "code": "HALLOW_SHUTDOWN",
+      "code": "PATCH_SHUTDOWN",
       "reward": "25 giros"
-    },
-    {
-      "code": "HAPPY_HALLOWEEN",
-      "reward": "100 giros"
-    },
-    {
-      "code": "HALLOWED_20K",
-      "reward": "100 giros"
-    },
-    {
-      "code": "HALLOWEEN_SOON",
-      "reward": "50 giros"
-    },
-    {
-      "code": "HAPPY_OCTOBER",
-      "reward": "50 giros"
-    },
-    {
-      "code": "HELLO_FRIENDS",
-      "reward": "100 giros"
-    },
-    {
-      "code": "PLANT_MANIP_OUT",
-      "reward": "100 giros"
-    },
-    {
-      "code": "PLANT_MANIP_20K",
-      "reward": "100 giros"
-    },
-    {
-      "code": "PLANT_SOON",
-      "reward": "50 giros"
-    },
-    {
-      "code": "SKILLS_SORRY",
-      "reward": "50 giros"
-    },
-    {
-      "code": "SOUL_20K",
-      "reward": "100 giros"
-    },
-    {
-      "code": "SOUL_SOON_REWORK",
-      "reward": "Recompensas gratis"
     },
     {
       "code": "PROJECTION_OUT",
@@ -203,11 +67,159 @@
       "reward": "200 giros"
     },
     {
-      "code": "ANCIENT_SOON",
+      "code": "CALAMITY_TEASER",
+      "reward": "50 giros"
+    },
+    {
+      "code": "READY_FOR_UPD",
+      "reward": "Redeem code for 50 giros"
+    },
+    {
+      "code": "LUNAR_SNAKE",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "LUNAR_NEW_YEAR",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "LUNAR_FOLLOWS",
+      "reward": "Redeem code for 200 giros"
+    },
+    {
+      "code": "WORLD_TRADING_UPDATE",
+      "reward": "Redeem code for 200 giros"
+    },
+    {
+      "code": "TWITTER_75_YAY",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "JJ_SHUTDOWN",
+      "reward": "Redeem code for 25 giros"
+    },
+    {
+      "code": "BACK_UP_AGAIN",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "MERRY_CHRISTMAS",
+      "reward": "Redeem code for 100 giros"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "Redeem code for 200 giros"
+    },
+    {
+      "code": "LUCK_REAL",
+      "reward": "Redeem code for 100 giros"
+    },
+    {
+      "code": "SHUTDOWN_AGAIN",
+      "reward": "Redeem code for 25 giros"
+    },
+    {
+      "code": "RELEASE_SHUTDOWN_SRRY",
+      "reward": "Redeem code for 200 giros"
+    },
+    {
+      "code": "SOUL_20K",
+      "reward": "100 giros"
+    },
+    {
+      "code": "PLANT_SOON",
+      "reward": "50 giros"
+    },
+    {
+      "code": "PLANT_MANIP_OUT",
+      "reward": "100 giros"
+    },
+    {
+      "code": "SKILLS_SORRY",
+      "reward": "50 giros"
+    },
+    {
+      "code": "MISSION_SHUTDOWN",
+      "reward": "Redeem code for 50 giros"
+    },
+    {
+      "code": "HELLO_FRIENDS",
+      "reward": "100 giros"
+    },
+    {
+      "code": "HAPPY_OCTOBER",
+      "reward": "50 giros"
+    },
+    {
+      "code": "HALLOWEEN_SOON",
+      "reward": "50 giros"
+    },
+    {
+      "code": "HAPPY_HALLOWEEN",
+      "reward": "100 giros"
+    },
+    {
+      "code": "HALLOWED_20K",
+      "reward": "100 giros"
+    },
+    {
+      "code": "HALLOW_SHUTDOWN",
       "reward": "25 giros"
     },
     {
+      "code": "NOVEMBER_YAY",
+      "reward": "50 giros"
+    },
+    {
+      "code": "HAPPY_THANKSGIVING",
+      "reward": "100 giros"
+    },
+    {
+      "code": "ITS_DECEMBER",
+      "reward": "50 giros"
+    },
+    {
+      "code": "EXCHANGE_SOON",
+      "reward": "100 giros"
+    },
+    {
+      "code": "EXCHANGE_20K",
+      "reward": "100 giros"
+    },
+    {
+      "code": "2025_CHRISTMAS",
+      "reward": "50 giros"
+    },
+    {
+      "code": "SOULKING_20K",
+      "reward": "Giros"
+    },
+    {
+      "code": "20KWINTER",
+      "reward": "Giros"
+    },
+    {
+      "code": "EXCHANGE_OUT",
+      "reward": "Giros"
+    },
+    {
+      "code": "WINTER_SHUTDOWN",
+      "reward": "Redeem code for 50 giros"
+    },
+    {
+      "code": "AWESOME_SHUTDOWN",
+      "reward": "Redeem code for 50 giros"
+    },
+    {
+      "code": "CALAMITY_SOON",
+      "reward": "50 giros"
+    },
+    {
       "code": "REND_SPIDERWEB",
+      "reward": "25 giros"
+    },
+    {
+      "code": "ANCIENT_SOON",
       "reward": "25 giros"
     },
     {
@@ -215,144 +227,132 @@
       "reward": "200 giros"
     },
     {
-      "code": "CALAMITY_SOON",
-      "reward": "50 giros"
-    },
-    {
-      "code": "PATCH_SHUTDOWN",
-      "reward": "25 giros"
-    },
-    {
       "code": "COOL_SHUTDOWN",
       "reward": "25 giros"
     },
     {
-      "code": "CALAMITY_TEASER",
-      "reward": "50 giros"
+      "code": "TOP_SECRET",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "HAPPY_2026",
+      "reward": "100 giros"
+    },
+    {
+      "code": "SOUL_SHUTDOWN",
+      "reward": "Redeem code for 25 giros"
+    },
+    {
+      "code": "HAPPY_VALENTINES",
+      "reward": "Redeem code for 50 giros"
+    },
+    {
+      "code": "WINTER_UPD",
+      "reward": "Redeem code for 1 hora of 2x EXP and 2x mastery and +100 giros"
+    },
+    {
+      "code": "1M_FAVORITES",
+      "reward": "Redeem code for 100 giros and 1 hora of 2x EXP and 2x mastery"
+    },
+    {
+      "code": "FUGA_PUPPET_UPD",
+      "reward": "Redeem code for 100 giros"
+    },
+    {
+      "code": "PLANT_MANIP_20K",
+      "reward": "100 giros"
+    },
+    {
+      "code": "SOUL_SOON_REWORK",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "QUEUE_FIX",
       "reward": "25 giros"
     },
     {
+      "code": "50K_FOLLOWERS",
+      "reward": "Redeem code for 1 hora of 2x EXP and 50 giros"
+    },
+    {
       "code": "SMALL_PATCHES",
       "reward": "100 giros"
     },
     {
-      "code": "SOUL_SHUTDOWN",
-      "reward": "25 giros"
+      "code": "HAPPY_2025",
+      "reward": "Redeem code for 100 giros and 1 hora of 2x EXP and 2x mastery"
     },
     {
       "code": "SOUL_BUFFS",
-      "reward": "100 giros"
-    },
-    {
-      "code": "HAPPY_VALENTINES",
-      "reward": "50 giros"
+      "reward": "Redeem code for 100 giros"
     },
     {
       "code": "FUGA_SHUTDOWN",
-      "reward": "25 giros"
-    },
-    {
-      "code": "FUGA_PUPPET_UPD",
-      "reward": "100 giros"
-    },
-    {
-      "code": "READY_FOR_UPD",
-      "reward": "50 giros"
-    },
-    {
-      "code": "LUNAR_SNAKE",
-      "reward": "Giros"
-    },
-    {
-      "code": "LUNAR_NEW_YEAR",
-      "reward": "Giros"
-    },
-    {
-      "code": "LUNAR_FOLLOWS",
-      "reward": "200 giros"
-    },
-    {
-      "code": "WORLD_TRADING_UPDATE",
-      "reward": "200 giros"
-    },
-    {
-      "code": "WINTER_UPD",
-      "reward": "1 hora of 2x EXP and 2x mastery and +100 giros"
+      "reward": "Redeem code for 25 giros"
     },
     {
       "code": "I_LOVE_SHUTDOWNS",
-      "reward": "50 giros"
+      "reward": "Redeem code for 50 giros"
     },
     {
       "code": "SNOWMAN_SHUTDOWN",
-      "reward": "50 giros"
+      "reward": "Redeem code for 50 giros"
     },
     {
       "code": "SANTA_SHUTDOWN",
-      "reward": "50 giros and 5 candy canes"
+      "reward": "Redeem code for 50 giros and 5 candy canes"
     },
     {
-      "code": "WINTER_SHUTDOWN",
+      "code": "WINTER_END",
       "reward": "50 giros"
     },
     {
-      "code": "AWESOME_SHUTDOWN",
+      "code": "2M_FAVS",
       "reward": "50 giros"
     },
     {
-      "code": "TWITTER_75_YAY",
+      "code": "96_PERCENT",
+      "reward": "50 giros"
+    },
+    {
+      "code": "1M_LIKES",
+      "reward": "50 giros"
+    },
+    {
+      "code": "95_PERCENT",
       "reward": "Giros"
     },
     {
-      "code": "HAPPY_2025",
-      "reward": "100 giros and 1 hora of 2x EXP and 2x mastery"
-    },
-    {
-      "code": "50K_FOLLOWERS",
-      "reward": "1 hora of 2x EXP and 50 giros"
-    },
-    {
-      "code": "JJ_SHUTDOWN",
-      "reward": "25 giros"
-    },
-    {
-      "code": "BACK_UP_AGAIN",
-      "reward": "Giros"
-    },
-    {
-      "code": "MERRY_CHRISTMAS",
+      "code": "SOUL_KING_OUT",
       "reward": "100 giros"
     },
     {
-      "code": "RELEASE",
-      "reward": "200 giros"
-    },
-    {
-      "code": "1M_FAVORITES",
-      "reward": "100 giros and 1 hora of 2x EXP and 2x mastery"
-    },
-    {
-      "code": "LUCK_REAL",
-      "reward": "100 giros"
-    },
-    {
-      "code": "SHUTDOWN_AGAIN",
-      "reward": "25 giros"
-    },
-    {
-      "code": "MISSION_SHUTDOWN",
+      "code": "WINTER_SOON",
       "reward": "50 giros"
     },
     {
-      "code": "RELEASE_SHUTDOWN_SRRY",
-      "reward": "200 giros"
+      "code": "SHOWDOWN_SORRY!",
+      "reward": "50 giros and 10k Cash"
     },
     {
-      "code": "TOP_SECRET",
-      "reward": "Giros"
+      "code": "900K_LIKES",
+      "reward": "50 Spins"
+    },
+    {
+      "code": "CHRISTMAS_2025",
+      "reward": "100 Spins"
+    },
+    {
+      "code": "500K_LIKES",
+      "reward": "50 Spins"
+    },
+    {
+      "code": "WINTER_EVENT_OUT",
+      "reward": "100 Spins"
+    },
+    {
+      "code": "LUNAR_SOON",
+      "reward": "50 Spins"
     }
   ],
   "introText": "Jujutsu Infinite es un RPG de mundo abierto en Roblox inspirado en Jujutsu Kaisen, creado por Awesome Ninja Games con más de 626 millones de visitas y 1,5 millones de likes. Exploras un vasto mundo abierto, exterminas espíritus malditos, luchas contra otros hechiceros y desbloqueas un amplio arsenal de técnicas malditas. Disponible en PC, móvil y consola.",

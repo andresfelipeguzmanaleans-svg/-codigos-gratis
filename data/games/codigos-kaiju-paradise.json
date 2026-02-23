@@ -12,10 +12,6 @@
       "reward": "Small loan of 1000 candies"
     },
     {
-      "code": "CompensationNumber2",
-      "reward": "1 unusual cofre"
-    },
-    {
       "code": "CompensationNumber1",
       "reward": "2 unusual cofres"
     },
@@ -48,14 +44,6 @@
       "reward": "For 1 unusual regalo"
     },
     {
-      "code": ":ex3[2&amp;8Ef9NgQIlI",
-      "reward": "For 2 unusual gifts"
-    },
-    {
-      "code": "IlI1|lIl||1lIlIII|Il1lI|I1|lI",
-      "reward": "For an unusual regalo"
-    },
-    {
       "code": "sundayormonday",
       "reward": "For an unusual regalo"
     },
@@ -72,166 +60,146 @@
       "reward": "2 Linked Swords"
     },
     {
+      "code": "CompensationNumber2",
+      "reward": "1 unusual cofre"
+    },
+    {
       "code": "morebugfixidklol",
       "reward": "1k créditos"
     }
   ],
   "expiredCodes": [
     {
+      "code": ":ex3[2&amp;8Ef9NgQIlI",
+      "reward": "For 2 unusual gifts"
+    },
+    {
+      "code": "IlI1|lIl||1lIlIII|Il1lI|I1|lI",
+      "reward": "For an unusual regalo"
+    },
+    {
       "code": "BUGFIX_1",
       "reward": "500 créditos"
-    },
-    {
-      "code": "MAIN_LIMITED_2",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MAIN_LIMITED_1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FREE_LAME_CODE_1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BLOCK",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "APRIL_FOOL",
-      "reward": "1 unusual cofre"
-    },
-    {
-      "code": "LIMITED_CODE_1",
-      "reward": "Some YOWS"
-    },
-    {
-      "code": "YOW_5",
-      "reward": "Some YOWS"
-    },
-    {
-      "code": "YOW_4",
-      "reward": "Some YOWS"
-    },
-    {
-      "code": "YOW_3",
-      "reward": "Some YOWS"
-    },
-    {
-      "code": "YOW_2",
-      "reward": "Some YOWS"
-    },
-    {
-      "code": "YOW&hellip;",
-      "reward": "Some YOWS"
-    },
-    {
-      "code": "BloodFixes",
-      "reward": "1.25k creds"
-    },
-    {
-      "code": "WOWFREESTUFF_9",
-      "reward": "1 unusual cofre"
-    },
-    {
-      "code": "WOWFREESTUFF_7",
-      "reward": "1.25k creds"
-    },
-    {
-      "code": "WOWFREESTUFF_8",
-      "reward": "5 creds"
-    },
-    {
-      "code": "WOWFREESTUFF_6",
-      "reward": "1.5k creds"
-    },
-    {
-      "code": "WOWFREESTUFF_5",
-      "reward": "Unusual cofre"
-    },
-    {
-      "code": "WOWFREESTUFF_3",
-      "reward": "1.25k creds"
-    },
-    {
-      "code": "WOWFREESTUFF_4",
-      "reward": "1 unusual gifts"
-    },
-    {
-      "code": "WOWFREESTUFF_2",
-      "reward": "1.25k creds"
-    },
-    {
-      "code": "WOWFREESTUFF_1",
-      "reward": "800 creds"
-    },
-    {
-      "code": "FREESTUFF_10",
-      "reward": "1.25k creds"
-    },
-    {
-      "code": "FREESTUFF_9",
-      "reward": "1.25k creds"
-    },
-    {
-      "code": "FREEGUARANTEED",
-      "reward": "2 Guaranteed raro costume cofre"
-    },
-    {
-      "code": "FREESTUFF_8",
-      "reward": "1.25k creds"
-    },
-    {
-      "code": "FREESTUFF_7",
-      "reward": "1.25k creds"
-    },
-    {
-      "code": "FREESTUFF_6",
-      "reward": "1.25k creds"
-    },
-    {
-      "code": "FREESTUFF_5",
-      "reward": "2 more halloween cofres"
-    },
-    {
-      "code": "FREESTUFF_1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FREESTUFF_2",
-      "reward": "Recompensas gratis"
     },
     {
       "code": "FREESTUFF_YAY",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "goofylowercasecode",
-      "reward": "2 unusual gifts"
+      "code": "WOWMOREBUGFIXES",
+      "reward": "Créditos gratis"
     },
     {
       "code": "BLACKFRIDAYSALE",
-      "reward": "Some créditos"
+      "reward": "Redeem code for some créditos"
     },
     {
       "code": "FRIDAYFIX",
-      "reward": "1k créditos"
+      "reward": "Redeem code for 1k créditos"
+    },
+    {
+      "code": "FREESTUFF_2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "EVENTTESTING",
+      "reward": "4444 créditos"
+    },
+    {
+      "code": "YOW&hellip;",
+      "reward": "Some YOWS"
+    },
+    {
+      "code": "MAIN_LIMITED_1",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "FREE_LAME_CODE_1",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "APRIL_FOOL",
+      "reward": "Redeem code for 1 unusual cofre"
+    },
+    {
+      "code": "LIMITED_CODE_1",
+      "reward": "Redeem code for some YOWS"
+    },
+    {
+      "code": "YOW_5",
+      "reward": "Redeem code for some YOWS"
+    },
+    {
+      "code": "YOW_4",
+      "reward": "Redeem code for some YOWS"
+    },
+    {
+      "code": "YOW_2",
+      "reward": "Redeem code for some YOWS"
+    },
+    {
+      "code": "BloodFixes",
+      "reward": "Redeem code for 1.25k creds"
+    },
+    {
+      "code": "WOWFREESTUFF_9",
+      "reward": "Redeem code for 1 unusual cofre"
+    },
+    {
+      "code": "WOWFREESTUFF_7",
+      "reward": "Redeem code for 1.25k creds"
+    },
+    {
+      "code": "WOWFREESTUFF_6",
+      "reward": "Redeem code for 1.5k creds"
+    },
+    {
+      "code": "WOWFREESTUFF_5",
+      "reward": "Redeem code for an unusual cofre"
+    },
+    {
+      "code": "WOWFREESTUFF_3",
+      "reward": "Redeem code for 1.25k creds"
+    },
+    {
+      "code": "WOWFREESTUFF_4",
+      "reward": "Redeem code for 1 unusual gifts"
+    },
+    {
+      "code": "WOWFREESTUFF_2",
+      "reward": "Redeem code for 1.25k creds"
+    },
+    {
+      "code": "WOWFREESTUFF_1",
+      "reward": "Redeem code for 800 creds"
+    },
+    {
+      "code": "FREESTUFF_9",
+      "reward": "Redeem code for 1.25k creds"
+    },
+    {
+      "code": "FREEGUARANTEED",
+      "reward": "Redeem code for 2 Guaranteed raro costume cofre"
+    },
+    {
+      "code": "FREESTUFF_8",
+      "reward": "Redeem code for 1.25k creds"
+    },
+    {
+      "code": "FREESTUFF_7",
+      "reward": "Redeem code for 1.25k creds"
+    },
+    {
+      "code": "FreeUnusualGifts",
+      "reward": "2 Unusual gifts"
     },
     {
       "code": "MOREBUGTOFIX",
       "reward": "Créditos gratis"
     },
     {
-      "code": "WOWMOREBUGFIXES",
-      "reward": "Créditos gratis"
-    },
-    {
       "code": "3.1R",
       "reward": "Créditos gratis"
-    },
-    {
-      "code": "EVENTTESTING",
-      "reward": "4444 créditos"
     },
     {
       "code": "10K",
@@ -260,10 +228,6 @@
     {
       "code": "Saturn",
       "reward": "1 Unusual gifts"
-    },
-    {
-      "code": "FreeUnusualGifts",
-      "reward": "2 Unusual gifts"
     },
     {
       "code": "uhhhiforgor",
@@ -336,6 +300,50 @@
     {
       "code": "ANDSOITBEGINS",
       "reward": "333 Candies"
+    },
+    {
+      "code": "FREESTUFF_5",
+      "reward": "Redeem code for 2 more halloween cofres"
+    },
+    {
+      "code": "FREESTUFF_1",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "goofylowercasecode",
+      "reward": "2 unusual gifts"
+    },
+    {
+      "code": "CompensationNumber3",
+      "reward": "1x Unusual regalo"
+    },
+    {
+      "code": "CompensationNumber4",
+      "reward": "1x Unusual regalo, 150x estrellas"
+    },
+    {
+      "code": "BLOCK",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "YOW_3",
+      "reward": "Redeem code for some YOWS"
+    },
+    {
+      "code": "WOWFREESTUFF_8",
+      "reward": "Redeem code for 5 creds"
+    },
+    {
+      "code": "FREESTUFF_10",
+      "reward": "Redeem code for 1.25k creds"
+    },
+    {
+      "code": "FREESTUFF_6",
+      "reward": "Redeem code for 1.25k creds"
+    },
+    {
+      "code": "MAIN_LIMITED_2",
+      "reward": "Redeem code for recompensas gratis"
     }
   ],
   "howToRedeem": [

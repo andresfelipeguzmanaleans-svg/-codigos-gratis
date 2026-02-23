@@ -8,13 +8,31 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "Teleport",
-      "reward": "12 horas Of Mega IQ Boost"
+      "code": "FireWasHere",
+      "reward": "Redeem code for 125 gemas"
+    },
+    {
+      "code": "Release",
+      "reward": "Redeem code for Wins gratis"
     },
     {
       "code": "unicorn",
-      "reward": "12h of suerte Boost"
+      "reward": "Redeem code for a 12h of suerte Boost"
     },
+    {
+      "code": "TRADING",
+      "reward": "Redeem code for 3 horas of Mega Win Boost"
+    },
+    {
+      "code": "Teleport",
+      "reward": "Redeem code for a 12 horas Of Mega IQ Boost"
+    },
+    {
+      "code": "10KLIKES",
+      "reward": "Redeem code for 24 horas of Mega IQ Boost"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "1M",
       "reward": "6 horas of Mega suerte Boost"
@@ -22,25 +40,8 @@
     {
       "code": "2M",
       "reward": "2 horas of Mega Golden Egg Boost"
-    },
-    {
-      "code": "TRADING",
-      "reward": "3 horas of Mega Win Boost"
-    },
-    {
-      "code": "10KLIKES",
-      "reward": "24 horas of Mega IQ Boost"
-    },
-    {
-      "code": "FireWasHere",
-      "reward": "125 gemas"
-    },
-    {
-      "code": "Release",
-      "reward": "Wins gratis"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Iq Wars Simulator en Roblox",
     "Busca el icono de códigos en el menú",

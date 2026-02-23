@@ -9,40 +9,42 @@
   "activeCodes": [
     {
       "code": "TISTHESEASON",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "SCARYHALLOWEEN24",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "HAPPYHALLOWEEN",
-      "reward": "250 in-game Cash"
+      "reward": "Redeem code for 250 in-game Cash"
     },
     {
       "code": "OVERHAULUPDATESOON",
-      "reward": "200 in-game Cash"
+      "reward": "Redeem code for 200 in-game Cash"
     },
     {
       "code": "WEADDEDTHEDYSFUNCTION",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BRINGOUTTHEDRINKS",
-      "reward": "100 in-game Cash"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "DONTCOOKTHERATS",
-      "reward": "50 in-game Cash"
+      "reward": "Redeem code for 50 in-game Cash"
     },
     {
       "code": "CHEESYCOSMETIC",
-      "reward": "Cheese Hat that gives +1 walkspeed gratis"
+      "reward": "Redeem code for a Cheese Hat that gives +1 walkspeed gratis"
     },
     {
       "code": "ANGRYKARENS",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
+    {
+      "code": "BRINGOUTTHEDRINKS",
+      "reward": "Redeem code for 100 in-game Cash"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "5STARDINER",
       "reward": "50 Cash"
@@ -52,7 +54,6 @@
       "reward": "50 Cash"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Dysfunctional Diner en Roblox",
     "Busca el icono de códigos en el menú",

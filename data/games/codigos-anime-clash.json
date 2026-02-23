@@ -8,6 +8,40 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "SorryForDelay",
+      "reward": "450 gemas"
+    },
+    {
+      "code": "ClashComeback",
+      "reward": "800 gemas"
+    },
+    {
+      "code": "Hysteria",
+      "reward": "800 gemas"
+    },
+    {
+      "code": "RoadIsWatching",
+      "reward": "800 gemas"
+    },
+    {
+      "code": "OculaTheGoat",
+      "reward": "5 Enchant Shards"
+    },
+    {
+      "code": "SorryForBugs",
+      "reward": "800 gemas"
+    },
+    {
+      "code": "FutureTheGoat",
+      "reward": "800 gemas"
+    },
+    {
+      "code": "RoadCarry",
+      "reward": "400 gemas"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "20KWOW",
       "reward": "5k cristales"
     },
@@ -22,72 +56,42 @@
     {
       "code": "OMG1MVISITS!",
       "reward": "15k cristales"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "OculaTheGoat",
-      "reward": "5 Enchant Shards"
-    },
-    {
-      "code": "FutureTheGoat",
-      "reward": "800 gemas"
-    },
-    {
-      "code": "RoadCarry",
-      "reward": "5 Enchant Shards and 400 gemas"
-    },
-    {
-      "code": "SorryForBugs",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ClashComeback",
-      "reward": "800 gemas"
-    },
-    {
-      "code": "RoadIsWatching",
-      "reward": "800 gemas"
-    },
-    {
-      "code": "Hysteria",
-      "reward": "800 gemas"
-    },
-    {
-      "code": "SorryForDelay",
-      "reward": "450 gemas"
-    },
-    {
-      "code": "OUAH15KLIKES",
-      "reward": "10k cristales"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "15k cristales"
-    },
-    {
-      "code": "CRAZY10KLIKES",
-      "reward": "5k cristales"
-    },
-    {
-      "code": "LETSGO7500LIKES",
-      "reward": "3k cristales"
-    },
-    {
-      "code": "OMG5KLIKES!",
-      "reward": "5.75k cristales"
-    },
-    {
-      "code": "2500LIKES!",
-      "reward": "2.5k cristales"
-    },
-    {
-      "code": "1KLIKES",
-      "reward": "1k cristales"
     },
     {
       "code": "RELEASE",
-      "reward": "575 cristales"
+      "reward": "500 cristales"
+    },
+    {
+      "code": "1KLIKES",
+      "reward": "1,000 cristales"
+    },
+    {
+      "code": "2500LIKES!",
+      "reward": "2,870 cristales"
+    },
+    {
+      "code": "OMG5KLIKES!",
+      "reward": "5,750 cristales"
+    },
+    {
+      "code": "LETSGO7500LIKES",
+      "reward": "3,450 cristales"
+    },
+    {
+      "code": "CRAZY10KLIKES",
+      "reward": "5,750 cristales"
+    },
+    {
+      "code": "OMG1MVISITS",
+      "reward": "15,000 cristales"
+    },
+    {
+      "code": "OUAH15KLIKES",
+      "reward": "11,500 cristales"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "17,250 cristales"
     }
   ],
   "howToRedeem": [

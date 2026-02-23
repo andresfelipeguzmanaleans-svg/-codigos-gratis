@@ -11,7 +11,8 @@
   "likes": 199758,
   "genre": "Simulator",
   "placeId": 6312753269,
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "STATBOOST?",
       "reward": "10 minutos of x3 moneda Boost, 5 minutos of x3 Orb Boost, and 15 minutos of x2 fuerza Boost"
@@ -23,64 +24,66 @@
     {
       "code": "COINS!",
       "reward": "20 minutos of x3 moneda Boost and 5 minutos of x2 fuerza Boost"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "100MIL!",
-      "reward": "Boosts por hito 100M visitas"
-    },
-    {
-      "code": "COINS!",
-      "reward": "Boost de coins"
     },
     {
       "code": "30KLIKES",
-      "reward": "Boosts por hito"
-    },
-    {
-      "code": "60KLIKES",
-      "reward": "Boosts por hito"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "250K",
-      "reward": "Boosts por hito"
+      "reward": "A 5 minuto 3x monedas Boost and a 5 minuto 2x fuerza Boost"
+    },
+    {
+      "code": "60KLIKES",
+      "reward": "A 5 minuto 3x monedas Boost, a 5 minuto 3x Orbs Boost and a 15 minuto 2x fuerza Boost"
     },
     {
       "code": "BOOSTER",
-      "reward": "Boost temporal"
-    },
-    {
-      "code": "GAMERELEASE",
-      "reward": "Boost de lanzamiento"
-    },
-    {
-      "code": "10KLIKES",
-      "reward": "Boosts por hito"
-    },
-    {
-      "code": "150KLIKES",
-      "reward": "Get 5 minutos x3 monedas, 5 minutos x3 Boost, 15 minuto x3 fuerza"
-    },
-    {
-      "code": "80MVISITS",
-      "reward": "Get 15 minutos of x2 moneda Boost and 15 minutos of x2 fuerza Boost"
-    },
-    {
-      "code": "FREEZA",
-      "reward": "Get 5 minutos x3 monedas, 5 minutos x3 Boost, 15 minutos x2 fuerza"
-    },
-    {
-      "code": "45KLIKES",
-      "reward": "Get 5 minutos of x2 fuerza Boost and 5 minutos of x3 moneda Boost"
-    },
-    {
-      "code": "10MVISITS",
-      "reward": "Get 15 minutos of x2 moneda Boost and 15 minutos of x2 fuerza Boost"
+      "reward": "3x monedas & Orbs Boost (5 minutos)"
     },
     {
       "code": "DELAY",
-      "reward": "X5 moneda Boost and x2 fuerza"
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "10KLIKES",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "150KLIKES!",
+      "reward": "3x moneda Boost (5 minutos), 3x Orb Boost (5 minutos) and 2x fuerza Boost (30 minutos)"
+    },
+    {
+      "code": "GAMERELEASE",
+      "reward": "A 5 minuto 3x monedas Boost and a 5 minuto 2x fuerza Boost"
+    },
+    {
+      "code": "45KLIKES",
+      "reward": "3x monedas & 2x fuerza Boost (5 minutos)"
+    },
+    {
+      "code": "FREEZA",
+      "reward": "3x monedas & Orbs Boost (5 minutos) and 2x fuerza Boost (15 minutos)"
+    },
+    {
+      "code": "80MVISITS",
+      "reward": "3x monedas & Orbs Boost (5 minutos)"
+    },
+    {
+      "code": "150KLIKES",
+      "reward": "3x monedas & Orbs Boost (5 minutos)"
+    },
+    {
+      "code": "10MVISITS",
+      "reward": "3x monedas Boost and 2x fuerza Boost (15 minutos)"
+    },
+    {
+      "code": "OOZARU",
+      "reward": "3x monedas Boost and 2x fuerza Boost (5 minutos)"
+    },
+    {
+      "code": "BOSSISLAND",
+      "reward": "2x fuerza Boost (5 minutos)"
     }
   ],
   "introText": "Super Evolution es un simulador de entrenamiento de Roblox inspirado en Dragon Ball, creado por InnoVision con más de 166 millones de visitas y 199K likes. Entrenas Fuerza, Resistencia, Energía y Agilidad para convertirte en el Saiyan más poderoso del universo. Desbloqueas transformaciones como Ultra Instinct y compites en los leaderboards.",

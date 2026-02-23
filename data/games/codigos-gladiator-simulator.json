@@ -8,11 +8,24 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "Crown",
+      "reward": "Redeem code for 100 gemas"
+    },
+    {
+      "code": "Gems",
+      "reward": "Redeem code for 100 gemas"
+    },
+    {
+      "code": "Fight",
+      "reward": "Redeem code for 100 Wins"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "NO WORKING CODES",
       "reward": "Unfortunately, there are no functioning freebies right now. We&rsquo;ll keep an eye out for any and update this post as soon as some become available"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Gladiator Simulator en Roblox",
     "Busca el icono de códigos en el menú",

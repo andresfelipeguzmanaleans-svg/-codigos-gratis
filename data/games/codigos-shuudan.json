@@ -8,6 +8,20 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "HappyNewYears!",
+      "reward": "Redeem code for 1,000 Cash"
+    },
+    {
+      "code": "FIXEDGOALKEEPER",
+      "reward": "Redeem code for 400 Cash"
+    },
+    {
+      "code": "SpecialityRerolls!",
+      "reward": "5 Personality Reroll"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "emyiscool!",
       "reward": "$1 Cash"
     },
@@ -82,16 +96,22 @@
     {
       "code": "21K LIKES!",
       "reward": "5 Specialities and 15 Personality giros"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "JOSEISANTON",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "POPSRETURNS",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "NB3ISREAL!!!",
+      "reward": "550 Cash"
+    },
     {
       "code": "&ldquo;EXP CODE!&rdquo;",
       "reward": "IF U HAVE 2XP IT GIVES U 10K EXP"
-    },
-    {
-      "code": "SpecialityRerolls!",
-      "reward": "5 Personality Reroll"
     },
     {
       "code": "4 More Days!",
@@ -162,28 +182,8 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "HappyNewYears!",
-      "reward": "1,000 Cash"
-    },
-    {
       "code": "FINALLY A RESET CODE!",
       "reward": "Star & Skill Reset"
-    },
-    {
-      "code": "NB3ISREAL!!!",
-      "reward": "550 Cash"
-    },
-    {
-      "code": "POPSRETURNS",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "JOSEISANTON",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "FIXEDGOALKEEPER",
-      "reward": "400 Cash"
     }
   ],
   "howToRedeem": [

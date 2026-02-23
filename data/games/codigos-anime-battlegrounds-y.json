@@ -9,14 +9,19 @@
   "activeCodes": [
     {
       "code": "KTSAG",
-      "reward": "Gemas gratis"
+      "reward": "Redeem code for gemas gratis"
     },
+    {
+      "code": "LAUNCH",
+      "reward": "Redeem code for gemas"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "250LIKES",
       "reward": "This code was for gemas but is no longer active"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Anime Battlegrounds y en Roblox",
     "Busca el icono de códigos en el menú",

@@ -8,55 +8,68 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "MountSpook",
-      "reward": "Halloween Goodies"
+      "code": "HelloHalloween",
+      "reward": "5 Spooky Tree Branch, 100 gemas, 1 Magic Crystal, 1 Halloween Magic Crystal"
     },
     {
-      "code": "HelloHalloween",
-      "reward": "Halloween Goodies"
+      "code": "MountSpook",
+      "reward": "5 Spooky Tree Branch, 5 Happy Pumpkin, 5 Spider Web, 1 Halloween Magic Crystal, 250 oro, 5K Battle Pass XP"
     },
     {
       "code": "Zekechase1B",
-      "reward": "1 Epic Magic Crystal, 1 Magic Crystal, & 1,000 oro"
+      "reward": "1K oro, 1 Magic Crystal, 1 Epic Magic Crystal"
     },
     {
-      "code": "sewer",
-      "reward": "+5 Slime, Trash, and more"
-    },
-    {
-      "code": "shutdown",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "update1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Oasis",
-      "reward": "Recompensas gratis"
+      "code": "Atlantis",
+      "reward": "50 gemas, 2 Magic cristales"
     },
     {
       "code": "Mushrooms",
-      "reward": "Recompensas gratis"
+      "reward": "5 Red, Blue, Green, Brown Mushrooms"
     },
     {
       "code": "BigTree",
-      "reward": "Recompensas gratis"
+      "reward": "10 Tree Branch"
     },
     {
       "code": "Mountshop",
-      "reward": "Recompensas gratis"
+      "reward": "1 Magic Crystal, 1 2x suerte poción"
     },
     {
       "code": "River",
-      "reward": "Recompensas gratis"
+      "reward": "10 Purple & Pink Flowers"
     },
     {
       "code": "Release",
-      "reward": "Recompensas gratis"
+      "reward": "250 oro"
+    },
+    {
+      "code": "update1",
+      "reward": "10 gemas, 1 Magic Crystal, 1 2x suerte poción"
+    },
+    {
+      "code": "sewer",
+      "reward": "6 Slime, 5 Trash, 1 Magic Crystal"
+    },
+    {
+      "code": "shutdown",
+      "reward": "2 Magic Crystal, 1 2x Loot suerte poción"
+    },
+    {
+      "code": "Oasis",
+      "reward": "1,000 Battle Pass XP"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "beach",
+      "reward": "100 gemas, 1 Magic Crystal"
+    },
+    {
+      "code": "graveyard",
+      "reward": "100 gemas, 1 Magic Crystal, And 1 Halloween Magic Crystal"
+    }
+  ],
   "howToRedeem": [
     "Abre Control Army 2 en Roblox",
     "Busca el icono de códigos en el menú",

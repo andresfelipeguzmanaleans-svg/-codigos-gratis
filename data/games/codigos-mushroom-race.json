@@ -9,30 +9,35 @@
   "activeCodes": [
     {
       "code": "freecode2023",
-      "reward": "Win poción"
-    },
-    {
-      "code": "ytbunnys",
-      "reward": "YT Bunnys mascota"
-    },
-    {
-      "code": "NEWSKIN4",
-      "reward": "Mango Mushroom"
+      "reward": "Redeem code for a Win poción"
     },
     {
       "code": "ILOVEDRAGONS",
-      "reward": "Win poción"
+      "reward": "Redeem code for a Win poción"
     },
     {
-      "code": "magicupdate",
-      "reward": "Win poción"
+      "code": "NEWSKIN4",
+      "reward": "Redeem code for a Mango Mushroom"
     },
     {
       "code": "neww2",
-      "reward": "Win poción"
+      "reward": "Redeem code for a Win poción"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "Redeem code for a Happy Red Dragon mascota"
+    },
+    {
+      "code": "magicupdate",
+      "reward": "Redeem code for a Win poción"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "ytbunnys",
+      "reward": "YT Bunnys mascota"
+    }
+  ],
   "howToRedeem": [
     "Abre Mushroom Race en Roblox",
     "Busca el icono de códigos en el menú",

@@ -9,22 +9,23 @@
   "activeCodes": [
     {
       "code": "STRESSTEST",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ReRelease",
-      "reward": "650 monedas, 1200 XP, 2 SP"
-    },
-    {
-      "code": "UPDATE 1",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "RELEASE!",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ReRelease",
+      "reward": "Redeem code for 650 monedas, 1200 XP, 2 SP (Skill puntos)"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "UPDATE 1",
       "reward": "Recompensas gratis"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Dodge Stars en Roblox",
     "Busca el icono de códigos en el menú",

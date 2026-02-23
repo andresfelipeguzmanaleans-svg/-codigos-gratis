@@ -8,13 +8,51 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "SUKUNA",
-      "reward": "15 LP"
+      "code": "SorryForShutdown",
+      "reward": "1 reinicio de stats"
     },
     {
-      "code": "SorryForShutdown",
+      "code": "TORIREVAMP",
       "reward": "Reinicio de stats"
     },
+    {
+      "code": "SUKUNA",
+      "reward": "14 LP.This code requires you to be at least level 300"
+    },
+    {
+      "code": "SorryForDelayUpdate",
+      "reward": "1 reinicio de stats"
+    },
+    {
+      "code": "PuddingBumby",
+      "reward": "5 LP.This code requires your character to have reached level 300"
+    },
+    {
+      "code": "UPDATEPART2",
+      "reward": "5 LP.This code requires your character to have reached level 300"
+    },
+    {
+      "code": "EVENT!",
+      "reward": "20,000 Beli"
+    },
+    {
+      "code": "N5Animation",
+      "reward": "1 reinicio de stats"
+    },
+    {
+      "code": "lamokukung03",
+      "reward": "25,000 Beli"
+    },
+    {
+      "code": "NewWorld",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "OPZTV",
+      "reward": "5 LP.This code can only be redeemed at Level 300"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "WHENUPDATE",
       "reward": "Reinicio de stats"
@@ -28,162 +66,132 @@
       "reward": "200 Candy"
     },
     {
-      "code": "SorryForDelayUpdate",
-      "reward": "Reinicio de stats"
-    },
-    {
       "code": "Trick or treat",
       "reward": "50 Candy"
-    },
-    {
-      "code": "PuddingBumby",
-      "reward": "5 LP"
     },
     {
       "code": "HALLOWEEN",
       "reward": "100 Candy"
     },
     {
-      "code": "TORIREVAMP",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "UPDATEPART2",
-      "reward": "5 LP"
-    },
-    {
       "code": "UPDATE!!",
       "reward": "Reinicio de stats"
     },
     {
-      "code": "EVENT!",
-      "reward": "20k Beli"
-    },
-    {
-      "code": "N5Animation",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "lamokukung03",
-      "reward": "25k Beli"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "FixBug",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "BigUpdate",
-      "reward": "5LP"
-    },
-    {
-      "code": "NewWorld",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "bleak",
-      "reward": "50K dinero"
-    },
-    {
-      "code": "KongPoop",
-      "reward": "Reset Stats"
-    },
-    {
       "code": "Bleak_fat",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "Event",
-      "reward": "5LP"
-    },
-    {
-      "code": "Chxmei",
-      "reward": "10,000 dinero"
-    },
-    {
-      "code": "Odyssey",
-      "reward": "20K dinero"
-    },
-    {
-      "code": "Dream",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "CarinaCaxtez",
-      "reward": "5 LP"
-    },
-    {
-      "code": "PixelJoe",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "N4Animation",
-      "reward": "30k dinero"
-    },
-    {
-      "code": "SEAFOUR",
-      "reward": "1 LP"
-    },
-    {
-      "code": "Stranger",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "Ruriair",
-      "reward": "20k dinero"
-    },
-    {
-      "code": "UPDATE2",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "5Chiba",
-      "reward": "20k dinero"
-    },
-    {
-      "code": "TECHO",
-      "reward": "5 LP"
+      "reward": "A reinicio de stats"
     },
     {
       "code": "Code",
-      "reward": "$25,000"
-    },
-    {
-      "code": "Greed",
-      "reward": "10 LP"
-    },
-    {
-      "code": "Update",
-      "reward": "5 LP"
-    },
-    {
-      "code": "OPZTV",
-      "reward": "5 LP"
+      "reward": "25,000 Cash"
     },
     {
       "code": "Checkmate",
-      "reward": "Reset Stats"
+      "reward": "A reinicio de stats"
     },
     {
       "code": "Snappy",
       "reward": "25,000 Cash"
     },
     {
+      "code": "NEOGAMING",
+      "reward": "10 Heart gemas"
+    },
+    {
+      "code": "BigUpdate",
+      "reward": "5 LP.This code can only be redeemed at Level 300"
+    },
+    {
+      "code": "SEAFOUR",
+      "reward": "1 LP.This code can only be redeemed at Level 300"
+    },
+    {
+      "code": "Event",
+      "reward": "5 LP.This code can only be redeemed at Level 300"
+    },
+    {
+      "code": "CarinaCaxtez",
+      "reward": "5 LP.This code can only be redeemed at Level 300"
+    },
+    {
+      "code": "Greed",
+      "reward": "10 LP.This code can only be redeemed at Level 300"
+    },
+    {
+      "code": "TECHO",
+      "reward": "5 LP.This code can only be redeemed at Level 300"
+    },
+    {
+      "code": "Dream",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "Odyssey",
+      "reward": "20,000 Beli"
+    },
+    {
+      "code": "PixelJoe",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "N4Animation",
+      "reward": "30,000 Beli"
+    },
+    {
+      "code": "Stranger",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "Ruriair",
+      "reward": "20,000 Beli"
+    },
+    {
+      "code": "100KFAV",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "FreeGem",
+      "reward": "10 Heart gemas"
+    },
+    {
+      "code": "111KFAV",
+      "reward": "A reinicio de stats"
+    },
+    {
       "code": "Juan",
       "reward": "5 LP"
     },
     {
-      "code": "111KFAV",
-      "reward": "Reset Stats"
+      "code": "5Chiba",
+      "reward": "20,000 Cash"
     },
     {
-      "code": "100KFAV",
-      "reward": "Reset Stats"
+      "code": "GUIDE1985",
+      "reward": "10,000 Cash"
     },
     {
-      "code": "NEOGAMING",
-      "reward": "10 Heart gema"
+      "code": "UPDATE2",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "Chxmei",
+      "reward": "10,000 Beli"
+    },
+    {
+      "code": "bleak",
+      "reward": "50,000 Beli"
+    },
+    {
+      "code": "KongPoop",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "FixBug",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "Update",
+      "reward": "5 LP"
     },
     {
       "code": "iSEN",
@@ -219,10 +227,6 @@
     },
     {
       "code": "yy0rk",
-      "reward": "10,000 Cash"
-    },
-    {
-      "code": "GUIDE1985",
       "reward": "10,000 Cash"
     },
     {
@@ -268,10 +272,6 @@
     {
       "code": "LPLOVER",
       "reward": "10 LP"
-    },
-    {
-      "code": "FreeGem",
-      "reward": "10 HeartGems"
     },
     {
       "code": "10MVisits",

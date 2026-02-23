@@ -8,75 +8,76 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "4KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "COMEBACK",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPDATEFIX",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1KACTIVETHANKYOU",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BLEACH",
-      "reward": "2000 gemas"
-    },
-    {
-      "code": "onepunchman",
-      "reward": "1500 gemas"
-    },
-    {
-      "code": "FixingSkill",
-      "reward": "1000 gemas"
-    },
-    {
-      "code": "giftfromme",
-      "reward": "750 gemas"
-    },
-    {
-      "code": "2KLIKES",
-      "reward": "750 gemas"
-    },
-    {
-      "code": "MYHERO",
-      "reward": "1200 gemas"
-    },
-    {
-      "code": "BLACKCLOVER",
-      "reward": "750 gemas"
-    },
-    {
-      "code": "Update1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1KLIKES",
-      "reward": "800 gemas, 5 Essences, and 5 Sword Fragments"
-    },
-    {
       "code": "TutorialFix",
-      "reward": "1000 gemas"
-    },
-    {
-      "code": "Update0.5",
-      "reward": "500 gemas"
+      "reward": "Redeem code for 1000 gemas"
     },
     {
       "code": "Release",
-      "reward": "200 gemas"
+      "reward": "Redeem code for 200 gemas"
     },
     {
       "code": "SorryBugs",
-      "reward": "200 gemas"
+      "reward": "Redeem code for 200 gemas"
+    },
+    {
+      "code": "FixingSkill",
+      "reward": "Redeem code for 1000 gemas"
+    },
+    {
+      "code": "1KLIKES",
+      "reward": "Redeem code for 800 gemas, 5 Essences, and 5 Sword Fragments"
+    },
+    {
+      "code": "giftfromme",
+      "reward": "Redeem code for 750 gemas"
+    },
+    {
+      "code": "2KLIKES",
+      "reward": "Redeem code for 750 gemas"
+    },
+    {
+      "code": "MYHERO",
+      "reward": "Redeem code for 1200 gemas"
+    },
+    {
+      "code": "BLACKCLOVER",
+      "reward": "Redeem code for 750 gemas"
+    },
+    {
+      "code": "Update1",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "1KACTIVETHANKYOU",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "COMEBACK",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "UPDATEFIX",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BLEACH",
+      "reward": "Redeem code for 2000 gemas"
+    },
+    {
+      "code": "onepunchman",
+      "reward": "Redeem code for 1500 gemas"
+    },
+    {
+      "code": "4KLIKES",
+      "reward": "Redeem code for recompensas gratis"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "Update0.5",
+      "reward": "500 gemas"
+    }
+  ],
   "howToRedeem": [
     "Abre Anime Catcher Simulator en Roblox",
     "Busca el icono de códigos en el menú",

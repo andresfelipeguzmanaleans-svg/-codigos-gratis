@@ -8,32 +8,34 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "Gravity",
-      "reward": "Reset Stats"
+      "code": "10KLikes",
+      "reward": "Redeem code to Reset Stats"
     },
+    {
+      "code": "Shanks",
+      "reward": "Redeem code to Reset Stats"
+    },
+    {
+      "code": "20KFavorites",
+      "reward": "Redeem code for 5 Race giros"
+    },
+    {
+      "code": "Gravity",
+      "reward": "Redeem code to Reset Stats"
+    },
+    {
+      "code": "1MVisits",
+      "reward": "Redeem code for a 60 minutos Devil Fruit Notifier"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "2.5MVisits",
       "reward": "Devil Fruit Notifier"
     },
     {
-      "code": "10KLikes",
-      "reward": "Reset Stats"
-    },
-    {
       "code": "Second Sea",
       "reward": "2x EXP 30 minutos"
-    },
-    {
-      "code": "Shanks",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "20KFavorites",
-      "reward": "5 Race giros"
-    },
-    {
-      "code": "1MVisits",
-      "reward": "60 minutos Devil Fruit Notifier"
     },
     {
       "code": "Final Sea",
@@ -80,7 +82,6 @@
       "reward": "Reset Stats"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Final Sea en Roblox",
     "Busca el icono de códigos en el menú",

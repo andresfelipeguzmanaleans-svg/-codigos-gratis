@@ -13,6 +13,32 @@
   "placeId": 12177325772,
   "activeCodes": [
     {
+      "code": "islandmapforever",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "number1soccergame",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "goalsaver",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "goalscorer",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "49kmembers",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "spookysoon",
+      "reward": "Redeem code for recompensas gratis"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "doublecode",
       "reward": "Monedas"
     },
@@ -35,48 +61,34 @@
     {
       "code": "console!",
       "reward": "10k monedas"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "PACKS",
-      "reward": "Pack de balón gratis"
-    },
-    {
-      "code": "SLS25",
-      "reward": "Pack de diamante gratis"
-    },
-    {
-      "code": "100kLikes",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "battlepass",
-      "reward": "7,777 monedas gratis"
-    },
-    {
-      "code": "xmas",
-      "reward": "Recompensa navideña"
-    },
-    {
-      "code": "90kLikes",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "80kLikes",
-      "reward": "5,000 monedas"
-    },
-    {
-      "code": "console!",
-      "reward": "5,000 monedas"
-    },
-    {
-      "code": "70kLikes",
-      "reward": "20,000 monedas"
     },
     {
       "code": "Part1",
-      "reward": "Zapatos Tron"
+      "reward": "Redeem code to get Tron shoes"
+    },
+    {
+      "code": "battlepass",
+      "reward": "Redeem code for 7777 monedas gratis"
+    },
+    {
+      "code": "xmas",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "80kLikes",
+      "reward": "Redeem code for 5,000 monedas"
+    },
+    {
+      "code": "70kLikes",
+      "reward": "Redeem code for 20,000 monedas"
+    },
+    {
+      "code": "SLS25",
+      "reward": "Redeem code for diamante Pack gratis"
+    },
+    {
+      "code": "90kLikes",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "newyears2026",

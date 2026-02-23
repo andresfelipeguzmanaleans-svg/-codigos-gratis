@@ -11,7 +11,8 @@
   "likes": 1316888,
   "genre": "Tycoon",
   "placeId": 3398014311,
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "christmasmiracle",
       "reward": "250 Cash"
@@ -47,112 +48,138 @@
     {
       "code": "Gruffalo",
       "reward": "10 diamantes"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "winter2024",
-      "reward": "Decoración invernal"
     },
     {
-      "code": "christmasmiracle",
-      "reward": "Items de Navidad"
+      "code": "Luigi",
+      "reward": "Recompensa expirada"
     },
     {
       "code": "slimy",
-      "reward": "Item especial"
+      "reward": "Recompensas"
     },
     {
-      "code": "alien",
-      "reward": "Item alienígena"
-    },
-    {
-      "code": "future",
-      "reward": "Item futurista"
-    },
-    {
-      "code": "sunset",
+      "code": "SUNSET",
       "reward": "10 diamantes"
     },
     {
-      "code": "underwater",
+      "code": "UNDERWATER",
       "reward": "15 diamantes"
     },
     {
-      "code": "billion",
+      "code": "LUXURY",
       "reward": "20 diamantes"
     },
     {
-      "code": "Luxury",
+      "code": "SUBTODEV",
+      "reward": "250 Cash"
+    },
+    {
+      "code": "CALAMARI",
       "reward": "20 diamantes"
     },
     {
-      "code": "snowman",
+      "code": "FALL2019",
+      "reward": "200 Cash"
+    },
+    {
+      "code": "GHOSTLYGREETINGS",
+      "reward": "120 Cash"
+    },
+    {
+      "code": "SPOOKY",
       "reward": "20 diamantes"
     },
     {
-      "code": "presents",
-      "reward": "20 diamantes"
+      "code": "DRINKS",
+      "reward": "150 Cash"
     },
     {
-      "code": "calamari",
-      "reward": "20 diamantes"
+      "code": "PRESENTS",
+      "reward": "Recompensa expirada"
     },
     {
-      "code": "meep",
-      "reward": "20 diamantes"
+      "code": "PARMESAN",
+      "reward": "10 diamantes"
     },
     {
-      "code": "dino",
-      "reward": "20 diamantes"
-    },
-    {
-      "code": "newmap2020",
+      "code": "BORED",
       "reward": "15 diamantes"
     },
     {
-      "code": "bored",
-      "reward": "15 diamantes"
+      "code": "DINO",
+      "reward": "20 diamantes"
+    },
+    {
+      "code": "MEEP",
+      "reward": "20 diamantes"
+    },
+    {
+      "code": "NEWMAP2020",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "spook1",
+      "reward": "5 diamantes"
+    },
+    {
+      "code": "imtester2",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "rtdev",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "hearts",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SNOWMAN",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "alien",
+      "reward": "10 diamantes"
     },
     {
       "code": "teamtrees",
       "reward": "25 diamantes"
     },
     {
-      "code": "Parmesan",
-      "reward": "10 Cash"
-    },
-    {
       "code": "paella",
       "reward": "25 diamantes"
-    },
-    {
-      "code": "drinks",
-      "reward": "20 Cash"
-    },
-    {
-      "code": "ghostlygreetings",
-      "reward": "20 Cash"
     },
     {
       "code": "goldenowl2019",
       "reward": "30 diamantes"
     },
     {
-      "code": "Luigi",
-      "reward": "20 diamantes"
-    },
-    {
-      "code": "spooky",
-      "reward": "20 diamantes"
-    },
-    {
       "code": "snowflake",
       "reward": "20 diamantes"
     },
     {
-      "code": "fall2019",
+      "code": "new years 2023",
+      "reward": "Ballon Arc"
+    },
+    {
+      "code": "10million",
+      "reward": "350 Cash"
+    },
+    {
+      "code": "spotlight",
+      "reward": "150 Cash"
+    },
+    {
+      "code": "birthday",
+      "reward": "5 diamantes"
+    },
+    {
+      "code": "billion",
       "reward": "20 diamantes"
+    },
+    {
+      "code": "future",
+      "reward": "10 diamantes"
     }
   ],
   "introText": "Restaurant Tycoon 2 es un juego tycoon de Roblox creado por Ultraw con más de 1.600 millones de visitas y 1,3 millones de likes. Diseñas y gestionas tu propio restaurante desde cero: decoras el local, creas un menú con platos de todo el mundo, cocinas para tus clientes y visitas los restaurantes de tus amigos.",

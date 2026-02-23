@@ -8,14 +8,6 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "upd3p1",
-      "reward": "Monedas"
-    },
-    {
-      "code": "thanks1",
-      "reward": "Monedas"
-    },
-    {
       "code": "sorrybugfix",
       "reward": "Monedas"
     },
@@ -29,10 +21,6 @@
     },
     {
       "code": "SoftShutdown",
-      "reward": "Monedas"
-    },
-    {
-      "code": "1m",
       "reward": "Monedas"
     },
     {
@@ -60,19 +48,31 @@
       "reward": "100 monedas"
     },
     {
-      "code": "updateweekly",
-      "reward": "50 monedas"
-    },
-    {
       "code": "playforfreepass",
       "reward": "100 monedas"
     },
     {
       "code": "legendarise",
       "reward": "Monedas"
+    },
+    {
+      "code": "upd3p1",
+      "reward": "Monedas"
+    },
+    {
+      "code": "thanks1",
+      "reward": "Monedas"
+    },
+    {
+      "code": "updateweekly",
+      "reward": "50 monedas"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "1m",
+      "reward": "Monedas"
+    },
     {
       "code": "Typos:",
       "reward": "Even a small error can make a code invalid. doble-check your entry or copy and paste the code directly from a reliable source like this guide or the official game channels"

@@ -8,17 +8,19 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "ExtraLucky",
-      "reward": "Suerte poción"
-    },
-    {
       "code": "chaos",
-      "reward": "Eternal diamante"
+      "reward": "Redeem code for an Eternal diamante"
     },
     {
       "code": "bettersorry",
-      "reward": "300x mascota"
+      "reward": "Redeem code for a 300x mascota"
     },
+    {
+      "code": "ExtraLucky",
+      "reward": "Redeem code for a suerte poción"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "SORRY",
       "reward": "Codes for recompensas gratis"
@@ -50,9 +52,7 @@
     {
       "code": "LIMITED",
       "reward": "Winged Oni gratis"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "MISSING&nbsp;",
       "reward": "Codes for recompensas gratis"

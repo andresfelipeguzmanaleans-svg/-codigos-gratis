@@ -14,66 +14,83 @@
   "activeCodes": [
     {
       "code": "smilefreddy",
-      "reward": "Top Hat"
-    },
-    {
-      "code": "TRADEME",
-      "reward": "100 Heads"
-    },
-    {
-      "code": "Winter2021",
-      "reward": "Tree Noob mascota"
-    },
-    {
-      "code": "WILD",
-      "reward": "100 monedas"
-    },
-    {
-      "code": "RETRO",
-      "reward": "500 monedas"
+      "reward": "The Smile Freddy Top Hat"
     },
     {
       "code": "SWASHBUCKLER",
       "reward": "500 monedas"
     },
     {
-      "code": "100M",
-      "reward": "100M Noob mascota"
+      "code": "Winter2021",
+      "reward": "Tree Noob"
     },
     {
-      "code": "HOLIDAY",
-      "reward": "Festive Noob mascota"
+      "code": "RETRO",
+      "reward": "500 monedas"
+    },
+    {
+      "code": "TRADEME",
+      "reward": "100 Heads"
     },
     {
       "code": "DOULIFT",
       "reward": "50 fuerza"
     },
     {
-      "code": "SPOOK",
-      "reward": "Halloween Cap"
+      "code": "100M",
+      "reward": "100M Noob"
     },
     {
-      "code": "WORKOUT",
-      "reward": "50 fuerza"
-    },
-    {
-      "code": "BUFFNOOB",
+      "code": "NEWB",
       "reward": "50 Heads"
     },
     {
-      "code": "stonk",
-      "reward": "50 monedas"
+      "code": "HOLIDAY",
+      "reward": "Festive Noob"
     },
     {
       "code": "stonks",
       "reward": "500 monedas"
     },
     {
-      "code": "NEWB",
+      "code": "BUFFNOOB",
       "reward": "50 Heads"
+    },
+    {
+      "code": "WORKOUT",
+      "reward": "50 fuerza"
+    },
+    {
+      "code": "SPOOK",
+      "reward": "Halloween Cap"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "WILD",
+      "reward": "100 monedas"
+    },
+    {
+      "code": "stonk",
+      "reward": "50 monedas"
+    },
+    {
+      "code": "stronk",
+      "reward": "50 fuerza"
+    },
+    {
+      "code": "METAVERSE",
+      "reward": "The AJ Bacon Hair"
+    },
+    {
+      "code": "UNIVERSE",
+      "reward": "250 fuerza"
+    },
+    {
+      "code": "200M",
+      "reward": "The 200M Present mascota"
+    }
+  ],
   "introText": "Mega Noob Simulator es un simulador de Roblox creado por thunder1222 Productions con más de 603 millones de visitas y 468K likes. Tu objetivo es convertirte en el noob más grande: aplastas bacon hairs para ganar músculo y fuerza, creces de tamaño, compras mejoras y luchas contra Boss Bacon y sus secuaces. También hay un arena PVP para competir.",
   "whatAreCodes": "Los códigos de Mega Noob Simulator te dan Coins para comprar mejoras, Heads para hacer más daño, puntos de Strength para crecer más rápido y noobs cosméticos especiales como Festive Noob, Tree Noob y 100M Noob. También hay códigos con sombreros exclusivos.",
   "howToGetCodes": "El desarrollador thunder1222 publica nuevos códigos en su Twitter (@thunder1222RBLX) y en el servidor de Discord de thunder1222 Productions. Los códigos son case-sensitive y ninguno ha expirado hasta ahora.",

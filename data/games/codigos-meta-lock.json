@@ -13,6 +13,108 @@
   "placeId": 13641922937,
   "activeCodes": [
     {
+      "code": "SadistTrait",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "AmbidextrousTrait",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DestroyerTalent",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "sorryforshutdownNooo",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "AlarmClockTalent",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SpinCodeSpinCodeFr",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NELIsagi",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "AdaptabilityGenius",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SorryForShutdownNelIsagi",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "EmperorRework2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MagicianWeapon",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GodspeedRework2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "delaydelaydelaydelaylaylaylay",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SorryForDelayNess",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Sowwyyy",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HAPPY_NEW_YEAR_2026",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PANTHERUPDATE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MERRY_CHRISTMAS_METALOCK",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "CHRISTMAS2025x",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "XMAS2025x",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SORRYFORSHUTDOWNCHRISTMAS2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "6V6MODE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SuperCoolUpdate",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "QOLUpdate",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PantherNext",
+      "reward": "Recompensas gratis"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "BlindSpotTrait",
       "reward": "Giros"
     },
@@ -21,96 +123,12 @@
       "reward": "Giros"
     },
     {
-      "code": "SadistTrait",
-      "reward": "6 giros"
-    },
-    {
-      "code": "AmbidextrousTrait",
-      "reward": "6 Talent giros"
-    },
-    {
-      "code": "DestroyerTalent",
-      "reward": "6 giros"
-    },
-    {
-      "code": "SpinCodeSpinCodeFr",
-      "reward": "Giros"
-    },
-    {
-      "code": "AlarmClockTalent",
-      "reward": "Giros"
-    },
-    {
       "code": "SorryForShutdownNelIsagi2",
       "reward": "30 giros"
     },
     {
-      "code": "SorryForShutdownNelIsagi",
-      "reward": "30 giros"
-    },
-    {
-      "code": "AdaptabilityGenius",
-      "reward": "15 Talent giros"
-    },
-    {
-      "code": "NELIsagi",
-      "reward": "30 giros"
-    },
-    {
-      "code": "delaydelaydelaydelaylaylaylay",
-      "reward": "20 giros and 20 Talent giros"
-    },
-    {
-      "code": "EmperorRework2",
-      "reward": "15 Talent giros"
-    },
-    {
-      "code": "GodspeedRework2",
-      "reward": "20 giros"
-    },
-    {
-      "code": "MagicianWeapon",
-      "reward": "20 giros"
-    },
-    {
-      "code": "SorryForDelayNess",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "Sowwyyy",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "HAPPY_NEW_YEAR_2026",
-      "reward": "Recompensas"
-    },
-    {
       "code": "sorryforallthedelays",
       "reward": "Recompensas"
-    },
-    {
-      "code": "PANTHERUPDATE",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "MERRY_CHRISTMAS_METALOCK",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "SORRYFORSHUTDOWNCHRISTMAS2",
-      "reward": "10 giros"
-    },
-    {
-      "code": "6V6MODE",
-      "reward": "13 Talent giros"
-    },
-    {
-      "code": "XMAS2025x",
-      "reward": "13 Talent giros"
-    },
-    {
-      "code": "CHRISTMAS2025x",
-      "reward": "67 giros"
     },
     {
       "code": "SORRYFORDELAYPANTHER",
@@ -122,18 +140,6 @@
     },
     {
       "code": "SORRYFORDELAYPANTHER3",
-      "reward": "20 Talent giros"
-    },
-    {
-      "code": "PantherNext",
-      "reward": "15 giros"
-    },
-    {
-      "code": "QOLUpdate",
-      "reward": "4 giros"
-    },
-    {
-      "code": "SuperCoolUpdate",
       "reward": "20 Talent giros"
     },
     {
@@ -251,9 +257,427 @@
     {
       "code": "ZombieDribblingRework",
       "reward": "30 giros"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "NEWTRAITS",
+      "reward": "Redeem code for 30 giros"
+    },
+    {
+      "code": "NINJAWEAPON",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "HUGEUPDATE",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "NAGISOON",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HopeYouGetSomethingGood",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "CONTROLLERFIXED",
+      "reward": "Redeem code for 30 giros"
+    },
+    {
+      "code": "DEMONWINGS_TRAIT",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SorryForShutDownCode",
+      "reward": "Redeem code for 30 Talent giros"
+    },
+    {
+      "code": "NEWRATES",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "DESTROYER",
+      "reward": "Redeem code for 30 giros"
+    },
+    {
+      "code": "YummyTalentSpins",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "HappyBirthdayWasko",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "IsagiXBachiraTrailer",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "HAPPYNEWYEAR2025",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "CHRISTMAS2025",
+      "reward": "Redeem code for 50 giros"
+    },
+    {
+      "code": "ChristmasGift",
+      "reward": "Redeem code for 10000 Yen"
+    },
+    {
+      "code": "HALLOWEEN2024",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "METAREWORK",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BACKBURST",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NEWMAPS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ControlReworkYes",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BLSeason2",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ZDribblingRework",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "UPDATETHISWEEK",
+      "reward": "Redeem code to get some giros"
+    },
+    {
+      "code": "code_vollstandig",
+      "reward": "500 Cash"
+    },
+    {
+      "code": "fayreon_dev",
+      "reward": "500 Cash"
+    },
+    {
+      "code": "RoadTo2M",
+      "reward": "500 Cash"
+    },
+    {
+      "code": "plscode",
+      "reward": "500 Cash"
+    },
+    {
+      "code": "UPDATE",
+      "reward": "500 Cash"
+    },
+    {
+      "code": "SorryForShutdown2",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "Code42",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "GOLDENZONE",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SubTokaitodev_",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "PlanetHotlineBuff",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "LoserGate",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "TYFORWAITING",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "PlanetHotlineWeapon",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "TheAdaptiveGenius",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NOMOREDELAYLOCK",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ThxFor30KFavs",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ThxFor30MVisits",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewShowdownMode",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "sorryfordelaylol",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ThxFor25MVisits",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ThxFor20KLikes",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SorryForDelay45",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "NewModes",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "THXFOR15K",
+      "reward": "Redeem code for 20 giros"
+    },
+    {
+      "code": "ThxFor10K",
+      "reward": "Redeem code for 10 talent giros"
+    },
+    {
+      "code": "KENGUNONLINE",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "noobiecode1",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "noobiecode2",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "noobiecode3",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "noobiecode4",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "srry4shutdown",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SORRY1",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "FixedBugs",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "FixedBugs3",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "Favorites11K",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "LORENZO",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SorryForTheDelay",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "metalockbetter",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "HAPPYNEWYEAR",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "CURVES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "TRAP",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ACCELERATION",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SorryForShutdown",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ThxFor10KDiscord",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "WILDCARD",
+      "reward": "5,000 Cash"
+    },
+    {
+      "code": "MonsterRevamp",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PABLOSOON",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NEWTALENTS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SNIPERWEAPON",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SORRYTOOKLONG",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "COOLTALENTS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "YackPookie",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ThanksWasko",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BugFixes2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SorryForShutdownnn",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "WhenNagi",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TheShark",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NewEmotes",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SUPERSUPERCODE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "WHEREISNAGINOOOHeIsCominSoonBroDontWorry",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PLSPRODIGY",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "SORRY4DELAY",
+      "reward": "Redeem code for giros"
+    },
+    {
+      "code": "BigUpdateSoon",
+      "reward": "Redeem code for 20 giros"
+    },
+    {
+      "code": "PANTHER",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SUPERCOOLCODE",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "PowerShotRework",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ThxFor25KLikes",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "CODESPINS20",
+      "reward": "Redeem code for 20 giros"
+    },
+    {
+      "code": "ThxFor10M",
+      "reward": "Redeem code for 5 Talent giros"
+    },
+    {
+      "code": "HappyBdayNatsu",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "GODPASSREWORK",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "plspass",
+      "reward": "Redeem code for 5,000 Cash"
+    },
+    {
+      "code": "HALLOWEEN",
+      "reward": "Redeem code for 500 Cash"
+    },
+    {
+      "code": "DirectShotAwakening",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "PLANETHOTLINE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FixedBugs2",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ControlRework",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ThxFor4M",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "rinisgood",
+      "reward": "Redeem code for 5,000 Cash"
+    },
+    {
+      "code": "milk",
+      "reward": "Redeem code for 5,000 Cash"
+    },
+    {
+      "code": "BachiraRework",
+      "reward": "Redeem code for recompensas gratis"
+    },
     {
       "code": "SUMMERUPDATE",
       "reward": "Spins gratis"
@@ -263,91 +687,7 @@
       "reward": "Spins por hito"
     },
     {
-      "code": "HALLOWEEN",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Favorites11K",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CURVES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HAPPYNEWYEAR",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TRAP",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "fayreon_dev",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "update",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FixedBugs2",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "LORENZO",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "rinisgood",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SORRY1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ThxFor10KDiscord",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "WILDCARD",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "srry4shutdown",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "metalockbetter",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SorryForShutdown",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "milk",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "plspass",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "RoadTo2M",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "rin",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SorryForShutdown2",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BachiraRework",
       "reward": "Recompensas gratis"
     },
     {
@@ -355,47 +695,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "HappyBdayNatsu",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ThxFor4M",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "code_vollstandig",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FixedBugs",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "CHRISTMAS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ControlRework",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SorryForTheDelay",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FixedBugs3",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ACCELERATION",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "plscode",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "GODPASSREWORK",
       "reward": "Recompensas gratis"
     }
   ],

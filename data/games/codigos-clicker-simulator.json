@@ -8,6 +8,144 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "LUCKYBLACK",
+      "reward": "Doble suerte for 1 hora"
+    },
+    {
+      "code": "CURSEDCODE",
+      "reward": "2x Hearts for 1 hora"
+    },
+    {
+      "code": "500KCODELIKE2",
+      "reward": "Doble suerte for two horas"
+    },
+    {
+      "code": "LUCKYCODE21",
+      "reward": "Doble suerte for one hora"
+    },
+    {
+      "code": "PASTRYGEM",
+      "reward": "2x gemas for 2 horas"
+    },
+    {
+      "code": "LIKECLICK12",
+      "reward": "Doble click Boost for one hora"
+    },
+    {
+      "code": "1EGGSHINY",
+      "reward": "2x Shiny Chance for 1 hora"
+    },
+    {
+      "code": "WINTERFUN",
+      "reward": "Doble suerte for 1 hora"
+    },
+    {
+      "code": "X6HFUNTIME",
+      "reward": "6x hatch for thirty minutos"
+    },
+    {
+      "code": "GEMFORFUN",
+      "reward": "2x gemas for 1 hora"
+    },
+    {
+      "code": "525KLIKECODE1",
+      "reward": "Doble suerte for three horas"
+    },
+    {
+      "code": "400DOUBLELUCK",
+      "reward": "Doble suerte for one hora"
+    },
+    {
+      "code": "LUCKYHOUR2",
+      "reward": "2x suerte for 1 hora"
+    },
+    {
+      "code": "550KCODELIKE2",
+      "reward": "Doble suerte for three horas"
+    },
+    {
+      "code": "FRUITJUICE6",
+      "reward": "6x Hatch for 30 minutos"
+    },
+    {
+      "code": "FRUITTY6",
+      "reward": "6x Hatch for 1 hora"
+    },
+    {
+      "code": "CODE500KLUCK",
+      "reward": "Doble suerte for two horas"
+    },
+    {
+      "code": "GEMAPPETITE",
+      "reward": "2x gemas for 2 horas"
+    },
+    {
+      "code": "LUCKY5000",
+      "reward": "Doble suerte for one hora"
+    },
+    {
+      "code": "twitter200kluck",
+      "reward": "Doble suerte for seven horas"
+    },
+    {
+      "code": "BACK2FUTURE",
+      "reward": "6x Hatch for 1 hora"
+    },
+    {
+      "code": "SUPERHATCH",
+      "reward": "2x Shiny Chance for 1 hora"
+    },
+    {
+      "code": "1EGGLUCK",
+      "reward": "2x suerte for 1 hora"
+    },
+    {
+      "code": "620KLIKES!",
+      "reward": "Mascota gratis"
+    },
+    {
+      "code": "TGIFNOV",
+      "reward": "6x hatch for thirty minutos"
+    },
+    {
+      "code": "2GLITCHY",
+      "reward": "Doble gema Boost"
+    },
+    {
+      "code": "CLOV3R",
+      "reward": "2x Event Currency for 1 hora"
+    },
+    {
+      "code": "2HOUR475LUCK",
+      "reward": "Doble suerte for two horas"
+    },
+    {
+      "code": "2HR500LIKE",
+      "reward": "Doble suerte for two horas"
+    },
+    {
+      "code": "2xlongluck350",
+      "reward": "Doble suerte for one hora"
+    },
+    {
+      "code": "tokcodeluck12",
+      "reward": "Doble suerte for one hora"
+    },
+    {
+      "code": "twitter100k",
+      "reward": "Doble click Boost for one hora"
+    },
+    {
+      "code": "325CLICKS2",
+      "reward": "Doble click Boost for one hora"
+    },
+    {
+      "code": "TARD15",
+      "reward": "6x Hatch for 1 hora"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "c4nugu3ss1t",
       "reward": "1 hora of 6x Hatch"
     },
@@ -20,60 +158,12 @@
       "reward": "1 hora of 6x Hatch"
     },
     {
-      "code": "TARD15",
-      "reward": "1 hora of 6x Hatch"
-    },
-    {
-      "code": "CLOV3R",
-      "reward": "1 hora of 2x Event Currency"
-    },
-    {
-      "code": "BACK2FUTURE",
-      "reward": "1 hora of 6x Hatch"
-    },
-    {
-      "code": "SUPERHATCH",
-      "reward": "1 hora 2x Shiny Chance"
-    },
-    {
-      "code": "1EGGLUCK",
-      "reward": "1 hora 2x suerte"
-    },
-    {
-      "code": "1EGGSHINY",
-      "reward": "1 hora 2x Shiny Chance"
-    },
-    {
-      "code": "GEMFORFUN",
-      "reward": "1 hora 2x gemas"
-    },
-    {
-      "code": "LUCKYHOUR2",
-      "reward": "1 hora of 2x suerte"
-    },
-    {
-      "code": "FRUITJUICE6",
-      "reward": "6x Hatch 30 min"
-    },
-    {
-      "code": "FRUITTY6",
-      "reward": "1 hora of 6x Hatch"
-    },
-    {
       "code": "СURSEDCODE",
       "reward": "1 hora of 2x Hearts"
     },
     {
       "code": "LUCKTM",
       "reward": "2 horas 2x suerte"
-    },
-    {
-      "code": "GEMAPPETITE",
-      "reward": "2 horas 2x gemas"
-    },
-    {
-      "code": "PASTRYGEM",
-      "reward": "2 horas 2x gemas"
     },
     {
       "code": "FOODIE6",
@@ -116,20 +206,8 @@
       "reward": "1 hora 6x Hatch Boost"
     },
     {
-      "code": "LUCKYBLACK",
-      "reward": "2x suerte for 30 minutos"
-    },
-    {
-      "code": "620KLIKES!",
-      "reward": "620 Like mascota"
-    },
-    {
       "code": "WNTRLUCK",
       "reward": "60 minutos 2x suerte Boost"
-    },
-    {
-      "code": "X6HFUNTIME",
-      "reward": "30-minuto 6x Hatch Boost"
     },
     {
       "code": "HINT56",
@@ -138,14 +216,6 @@
     {
       "code": "solx6",
       "reward": "30 minutos of 6x Hatch"
-    },
-    {
-      "code": "TGIFNOV",
-      "reward": "10 minutos 6x Hatch"
-    },
-    {
-      "code": "2GLITCHY",
-      "reward": "2x gemas Boost"
     },
     {
       "code": "LIMITEDPET1",
@@ -172,142 +242,84 @@
       "reward": "2 horas of 6x Hatch"
     },
     {
-      "code": "550KCODELIKE2",
-      "reward": "3 horas of doble suerte Boost"
-    },
-    {
-      "code": "525KLIKECODE1",
-      "reward": "3 hora 2x suerte Boost"
-    },
-    {
-      "code": "twitter200kluck",
-      "reward": "7 hora 2x suerte Boost"
-    },
-    {
-      "code": "CODE500KLUCK",
-      "reward": "2 hora 2x suerte Boost"
-    },
-    {
-      "code": "2HOUR475LUCK",
-      "reward": "2 hora 2x suerte Boost"
-    },
-    {
-      "code": "2HR500LIKE",
-      "reward": "2 hora 2x suerte Boost"
-    },
-    {
-      "code": "LUCKY5000",
-      "reward": "2 hora 2x suerte Boost"
-    },
-    {
-      "code": "400DOUBLELUCK",
-      "reward": "2 hora 2x suerte Boost"
-    },
-    {
-      "code": "LUCKYCODE21",
-      "reward": "2 hora 2x suerte Boost"
-    },
-    {
-      "code": "tokcodeluck12",
-      "reward": "2 hora 2x suerte Boost"
-    },
-    {
-      "code": "2xlongluck350",
-      "reward": "2 hora 2x suerte Boost"
-    },
-    {
-      "code": "LIKECLICK12",
-      "reward": "Boost"
-    },
-    {
-      "code": "twitter100k",
-      "reward": "2 horas of 2x suerte"
-    },
-    {
-      "code": "325CLICKS2",
-      "reward": "1 hora 2x Clicks"
-    }
-  ],
-  "expiredCodes": [
-    {
       "code": "TIK7500TOK",
-      "reward": "Boosts gratis"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "300DOUBLELUCK",
-      "reward": "Boosts gratis"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "300SHINYCHANCE",
-      "reward": "Boosts gratis"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "275K2XSHINY",
-      "reward": "Boosts gratis"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "250KLIKECLICKS",
-      "reward": "Boosts gratis"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "225KLIKECODE",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "200KLIKECODE",
-      "reward": "Boosts gratis"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "175KLIKELUCK",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "FREEAUTOHATCH5",
-      "reward": "2 horas of Auto Hatch"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "150KCLICKS",
-      "reward": "Boosts gratis"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "125KLUCK",
-      "reward": "2x suerte Boost"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "100KLIKES",
-      "reward": "Boosts gratis"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "75KLIKES",
-      "reward": "Boosts gratis"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "50KLikes",
-      "reward": "Boosts gratis"
+      "reward": "Recompensa expirada"
     },
     {
-      "code": "30klikes",
-      "reward": "2 horas of 2x suerte"
+      "code": "30KLIKES",
+      "reward": "Recompensa expirada"
     },
     {
       "code": "20KLIKES",
-      "reward": "3 horas of Auto Hatch"
-    },
-    {
-      "code": "freeautohatch",
-      "reward": "Auto Hatch gratis"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "10KLikes",
-      "reward": "Boosts gratis"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "UPDATE4HYPE",
-      "reward": "1 hora of 2x suerte"
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "200KLIKECODE",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "FREEAUTOHATCH5",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "freeautohatch",
+      "reward": "Recompensa expirada"
     },
     {
       "code": "2022",
-      "reward": "2022 Champion mascota"
+      "reward": "Recompensa expirada"
     },
     {
       "code": "70KLIKES",

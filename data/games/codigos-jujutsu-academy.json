@@ -8,191 +8,231 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "SmallUpdate",
+      "code": "OOPSIE",
+      "reward": "Redeem code for CE Trait Reroll"
+    },
+    {
+      "code": "COMPCT2",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "COMPCT3",
+      "reward": "Redeem code for CTReroll"
+    },
+    {
+      "code": "COMPCT4",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "COMPCT5",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "COMPCT",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "ANOTHERONE",
+      "reward": "Redeem code for CE Trait Reroll"
+    },
+    {
+      "code": "ISSACETRAITSPIN2",
+      "reward": "Redeem code for CT Reroll 2"
+    },
+    {
+      "code": "ISSACTSPIN",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "ISSACETRAITSPIN",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "SORRYFORSHUTDOWN",
+      "reward": "Redeem code for CE Trait Reroll"
+    },
+    {
+      "code": "ISSACTSPIN3",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "ISSACTSPIN2",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "ISSATRAITSPIN",
+      "reward": "Redeem code for Trait Reroll"
+    },
+    {
+      "code": "ISSATRAITSPIN2",
+      "reward": "Redeem code for Trait Reroll 2"
+    },
+    {
+      "code": "ISSATRAITSPIN3",
+      "reward": "Redeem code for Trait Reroll 3"
+    },
+    {
+      "code": "SORRFORSHUTDOWN2",
+      "reward": "Redeem code for CE Trait Reroll"
+    },
+    {
+      "code": "CODEBEGGERS",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "TRAITREROLL3",
+      "reward": "Redeem code for CE Trait Reroll"
+    },
+    {
+      "code": "CompCEColourReroll2",
+      "reward": "Redeem code for CE Color Reroll"
+    },
+    {
+      "code": "PINGSHELUVHIDE",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "DCTREROLL",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "DCTREROLL1",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "DCTREROLL3",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "DCTREROLL4",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "DCTREROLL5",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "DCTREROLL7",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "TRAITSPINLOLLOL",
+      "reward": "Redeem code for Trait giro"
+    },
+    {
+      "code": "SAGEBALANCEPATCH",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "NEWTRAITS",
+      "reward": "Redeem code for Trait Reroll"
+    },
+    {
+      "code": "YIPPE!",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "DELAYEDCETRAIT",
+      "reward": "Redeem code for CE Trait Reroll"
+    },
+    {
+      "code": "CompFightingStyle",
+      "reward": "Redeem code for Fighting Style Reset"
+    },
+    {
+      "code": "CompCETraitReroll",
+      "reward": "Redeem code for CE Trait Reroll"
+    },
+    {
+      "code": "CompCEColourReroll",
+      "reward": "Redeem code for CE Color Reroll"
+    },
+    {
+      "code": "CompTraitReroll",
+      "reward": "Redeem code for Trait Reroll"
+    },
+    {
+      "code": "CompSP",
+      "reward": "Redeem code for SP Reset"
+    },
+    {
+      "code": "COMPRyo",
+      "reward": "Redeem code for Ryo (1) gratis"
+    },
+    {
+      "code": "CTREROLL3",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "CTREROLL",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "TRAITREROLL",
+      "reward": "Redeem code for Trait giro"
+    },
+    {
+      "code": "SPINJUSCUZAGAIN",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "SPINJUSCUZ",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "ITENDED2HOURSAGO",
+      "reward": "Ce Color Reroll"
+    },
+    {
+      "code": "DCTREROLL6",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "DCTREROLL2",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "CompTraitReroll2",
+      "reward": "Redeem code for Trait Reroll"
+    },
+    {
+      "code": "TRAITSPINLOL",
+      "reward": "Redeem code for Trait giro"
+    },
+    {
+      "code": "YIPPETWO",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "DCTREROLL8",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "DCTREROLL9",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "CTREROLL2",
+      "reward": "Redeem code for CT Reroll"
+    },
+    {
+      "code": "TRAITREROLL2",
+      "reward": "Redeem code for Trait giro"
+    },
+    {
+      "code": "SSWHENIBALL",
       "reward": "CT Reroll"
     },
     {
-      "code": "ShoStillCares",
+      "code": "BEATDAKOTONAI",
       "reward": "CT Reroll"
     },
     {
-      "code": "CODESFIXED1",
-      "reward": "Ryo"
-    },
-    {
-      "code": "CODESFIXED2",
-      "reward": "LastNameReroll"
-    },
-    {
-      "code": "CODESFIXED3",
-      "reward": "LastNameReroll"
-    },
-    {
-      "code": "CODESFIXED4",
-      "reward": "StyleReset"
-    },
-    {
-      "code": "CODESFIXED5",
-      "reward": "CETraitReroll"
-    },
-    {
-      "code": "CODESFIXED6",
-      "reward": "RYO"
-    },
-    {
-      "code": "CODESFIXED7",
-      "reward": "CTReroll"
-    },
-    {
-      "code": "CODESFIXED8",
-      "reward": "CTReroll"
-    },
-    {
-      "code": "CODESFIXED9",
-      "reward": "CTReroll"
-    },
-    {
-      "code": "UPDATE3",
+      "code": "FreeCodeLOL",
       "reward": "Rerolls your CT"
     },
     {
-      "code": "GENJUREWORK",
-      "reward": "Rerolls your CT"
-    },
-    {
-      "code": "WEAKENEDLIMITLESS",
-      "reward": "Rerolls your CT"
-    },
-    {
-      "code": "WEAKENEDCLEAVE",
-      "reward": "Rerolls your CT"
-    },
-    {
-      "code": "RYOMEN",
-      "reward": "Rerolls your Last Name"
-    },
-    {
-      "code": "KINJI",
-      "reward": "Rerolls your Last Name"
-    },
-    {
-      "code": "OKKOTSU",
-      "reward": "Rerolls your Last Name"
-    },
-    {
-      "code": "NEWCLANSRAHH",
-      "reward": "Rerolls your Last Name"
-    },
-    {
-      "code": "SOMERYOFORYALL2",
-      "reward": "Ryo"
-    },
-    {
-      "code": "MAPUPDATES",
-      "reward": "CTREROLL"
-    },
-    {
-      "code": "NEWCODESCHAT!!",
-      "reward": "CTREROLL"
-    },
-    {
-      "code": "SORRYFORBADREVAMP",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "OLDMAPBACK",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "CODESFORTHEGUYS",
-      "reward": "Style Reset"
-    },
-    {
-      "code": "CODESFORTHEGIRLS",
-      "reward": "CE Trait Reroll"
-    },
-    {
-      "code": "RANDOMHXHGAME",
-      "reward": "Style Reset"
-    },
-    {
-      "code": "LOLSERVERFORITSOON",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "GONNACHANGECOMBAT",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "RAHHHHHH",
-      "reward": "Rerolls CT"
-    },
-    {
-      "code": "SORCERERSONTOP",
-      "reward": "Rerolls CT"
-    },
-    {
-      "code": "CURSESONTOP",
-      "reward": "Rerolls CT"
-    },
-    {
-      "code": "SOMETRAITSS",
-      "reward": "Rerolls Trait"
-    },
-    {
-      "code": "SHOISBALDP2",
-      "reward": "Rerolls CE Trait"
-    },
-    {
-      "code": "SOMECOLORSS",
-      "reward": "Rerolls CE Color"
-    },
-    {
-      "code": "SORRYFORGAMECLOSE",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "VALENTINESDAYSHOPPING",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "SAGEUPDCHAT",
-      "reward": "CTReroll"
-    },
-    {
-      "code": "YAY",
-      "reward": "CTReroll"
-    },
-    {
-      "code": "THEONELEFTITALLBEHIND",
-      "reward": "CTReroll"
-    },
-    {
-      "code": "TRAITREROLLCHAT",
-      "reward": "Trait Reroll"
-    },
-    {
-      "code": "STATRESET",
-      "reward": "StatReset"
-    },
-    {
-      "code": "MORERYO",
-      "reward": "7500$ Ryo"
-    },
-    {
-      "code": "DOCTORQOL",
-      "reward": "Trait Reroll"
-    },
-    {
-      "code": "SHOTINYUPDATE",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "MORECOMINGSOONCHAT",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "YOURESORIGHT",
+      "code": "SORRYFORSHUTDOWNGUYS",
       "reward": "CT Reroll"
     },
     {
@@ -200,106 +240,52 @@
       "reward": "Last Name Reroll"
     },
     {
-      "code": "DIFFERENCEINPOWER",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "HELLOCHAT",
-      "reward": "Style Reset"
-    },
-    {
-      "code": "YIIPEUPDATE",
-      "reward": "CTReroll"
-    },
-    {
-      "code": "BALANCEUPDATE",
-      "reward": "CTReroll"
-    },
-    {
-      "code": "RYODROP",
-      "reward": "Ryo code"
-    },
-    {
       "code": "GAMEISBACK",
       "reward": "Ryo Code"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "SORRYFORSHUTDOWNSCHAT",
-      "reward": "Ryo Code"
-    },
-    {
-      "code": "NEWSKILLS",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "AGILITYBUFFED",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "SORRYFORSTATISSUE",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "FreeCodeLOL",
-      "reward": "Rerolls your CT"
-    },
-    {
-      "code": "RIPYEAT",
-      "reward": "Ability Reroll"
-    },
-    {
-      "code": "SHOISBALDCHAT",
-      "reward": "Rerolls your CT"
-    },
-    {
-      "code": "MORECTS",
-      "reward": "Rerolls your CT"
-    },
-    {
-      "code": "SORRYFORDELAYS",
-      "reward": "Rerolls your CT"
-    },
-    {
-      "code": "SORRYFORDELAYSTWO",
-      "reward": "Rerolls your CT"
-    },
-    {
-      "code": "FARGETINTC",
-      "reward": "Rerolls your CT"
-    },
-    {
-      "code": "BEATDAKOTONAII",
-      "reward": "Rerolls your CT"
     },
     {
       "code": "GAMEISBACKTWO",
       "reward": "Rerolls your Trait"
     },
     {
-      "code": "MORETRAITSS",
-      "reward": "Rerolls your Trait"
-    },
-    {
-      "code": "MORECETRAITS",
-      "reward": "Rerolls your CE Trait"
-    },
-    {
-      "code": "MORECETRAITS2",
-      "reward": "Rerolls your CE Trait"
+      "code": "MORENAMES",
+      "reward": "Rerolls your Last Name"
     },
     {
       "code": "COLORREROLLSS",
       "reward": "Rerolls your CE Color"
     },
     {
+      "code": "HELLOCHAT",
+      "reward": "Style Reset"
+    },
+    {
+      "code": "MORECETRAITS",
+      "reward": "Rerolls your CE Trait"
+    },
+    {
+      "code": "SORRYFORSTATISSUE",
+      "reward": "Reset Stats"
+    },
+    {
+      "code": "SHOISBALDCHAT",
+      "reward": "Rerolls your CT"
+    },
+    {
+      "code": "DIFFERENCEINPOWER",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "MORETRAITSS",
+      "reward": "Rerolls your Trait"
+    },
+    {
       "code": "COLORREROLLSS2",
       "reward": "Rerolls your CE Color"
     },
     {
-      "code": "MORENAMES",
-      "reward": "Rerolls your Last Name"
+      "code": "SORRYFORSHUTDOWNSCHAT",
+      "reward": "Ryo Code"
     },
     {
       "code": "MORENAMES2",
@@ -310,6 +296,42 @@
       "reward": "Rerolls your Last Name"
     },
     {
+      "code": "MORECTS",
+      "reward": "Rerolls your CT"
+    },
+    {
+      "code": "SORRYFORDELAYS",
+      "reward": "Rerolls your CT"
+    },
+    {
+      "code": "FARGETINTC",
+      "reward": "Rerolls your CT"
+    },
+    {
+      "code": "YIIPEUPDATE",
+      "reward": "CTReroll"
+    },
+    {
+      "code": "MORECETRAITS2",
+      "reward": "Rerolls your CE Trait"
+    },
+    {
+      "code": "RIPYEAT",
+      "reward": "Ability Reroll"
+    },
+    {
+      "code": "SOMERYOFORYALL",
+      "reward": "Ryo Code"
+    },
+    {
+      "code": "SORRYFORDELAYSTWO",
+      "reward": "Rerolls your CT"
+    },
+    {
+      "code": "BEATDAKOTONAII",
+      "reward": "Rerolls your CT"
+    },
+    {
       "code": "ANOTHERSTYLE",
       "reward": "Resets your Fighting Style"
     },
@@ -318,12 +340,8 @@
       "reward": "Resets your Fighting Style"
     },
     {
-      "code": "SORRYFORSHUTDOWNGUYS",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "SOMERYOFORYALL",
-      "reward": "Ryo Code"
+      "code": "RYODROP",
+      "reward": "Ryo code"
     },
     {
       "code": "ANOTHERTRAITSPINMWAHAHA",
@@ -362,225 +380,207 @@
       "reward": "CE Trait Reroll"
     },
     {
-      "code": "SSWHENIBALL",
+      "code": "NEWSKILLS",
       "reward": "CT Reroll"
     },
     {
-      "code": "BEATDAKOTONAI",
+      "code": "AGILITYBUFFED",
       "reward": "CT Reroll"
     },
     {
-      "code": "ITENDED2HOURSAGO",
-      "reward": "Ce Color Reroll"
-    },
-    {
-      "code": "CODEBEGGERS",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "TRAITREROLL3",
-      "reward": "CE Trait Reroll"
-    },
-    {
-      "code": "CompCEColourReroll2",
-      "reward": "CE Color Reroll"
-    },
-    {
-      "code": "PINGSHELUVHIDE",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "DCTREROLL",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "DCTREROLL1",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "DCTREROLL2",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "DCTREROLL3",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "DCTREROLL4",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "DCTREROLL5",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "DCTREROLL6",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "DCTREROLL7",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "DCTREROLL8",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "DCTREROLL9",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "CTREROLL",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "CTREROLL2",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "CTREROLL3",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "TRAITREROLL",
-      "reward": "Trait giro"
-    },
-    {
-      "code": "TRAITREROLL2",
-      "reward": "Trait giro"
-    },
-    {
-      "code": "SPINJUSCUZ",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "SPINJUSCUZAGAIN",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "TRAITSPINLOL",
-      "reward": "Trait giro"
-    },
-    {
-      "code": "TRAITSPINLOLLOL",
-      "reward": "Trait giro"
-    },
-    {
-      "code": "SAGEBALANCEPATCH",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "NEWTRAITS",
-      "reward": "Trait Reroll"
-    },
-    {
-      "code": "YIPPE!",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "YIPPETWO",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "DELAYEDCETRAIT",
-      "reward": "CE Trait Reroll"
-    },
-    {
-      "code": "CompFightingStyle",
-      "reward": "Fighting Style Reset"
-    },
-    {
-      "code": "CompCETraitReroll",
-      "reward": "CE Trait Reroll"
-    },
-    {
-      "code": "CompCEColourReroll",
-      "reward": "CE Color Reroll"
-    },
-    {
-      "code": "CompTraitReroll2",
-      "reward": "Trait Reroll"
-    },
-    {
-      "code": "CompTraitReroll",
-      "reward": "Trait Reroll"
-    },
-    {
-      "code": "CompSP",
-      "reward": "SP Reset"
-    },
-    {
-      "code": "COMPRyo",
-      "reward": "Ryo gratis"
-    },
-    {
-      "code": "COMPCT5",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "COMPCT4",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "COMPCT3",
+      "code": "BALANCEUPDATE",
       "reward": "CTReroll"
     },
     {
-      "code": "COMPCT2",
-      "reward": "CT Reroll"
+      "code": "SAGEUPDCHAT",
+      "reward": "CTReroll"
     },
     {
-      "code": "COMPCT",
-      "reward": "CT Reroll"
+      "code": "WEAKENEDLIMITLESS",
+      "reward": "Rerolls your CT"
     },
     {
-      "code": "ANOTHERONE",
-      "reward": "CE Trait Reroll"
+      "code": "WEAKENEDCLEAVE",
+      "reward": "Rerolls your CT"
     },
     {
-      "code": "OOPSIE",
-      "reward": "CE Trait Reroll"
+      "code": "KINJI",
+      "reward": "Rerolls your Last Name"
     },
     {
-      "code": "SORRFORSHUTDOWN2",
-      "reward": "CE Trait Reroll"
+      "code": "GENJUREWORK",
+      "reward": "Rerolls your CT"
     },
     {
-      "code": "SORRYFORSHUTDOWN",
-      "reward": "CE Trait Reroll"
+      "code": "UPDATE3",
+      "reward": "Rerolls your CT"
     },
     {
-      "code": "ISSACTSPIN3",
-      "reward": "CT Reroll"
+      "code": "OKKOTSU",
+      "reward": "Rerolls your Last Name"
     },
     {
-      "code": "ISSACTSPIN2",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "ISSACTSPIN",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "ISSACETRAITSPIN2",
-      "reward": "CT Reroll 2"
-    },
-    {
-      "code": "ISSACETRAITSPIN",
-      "reward": "CT Reroll"
-    },
-    {
-      "code": "ISSATRAITSPIN3",
-      "reward": "Trait Reroll 3"
-    },
-    {
-      "code": "ISSATRAITSPIN2",
-      "reward": "Trait Reroll 2"
-    },
-    {
-      "code": "ISSATRAITSPIN",
+      "code": "TRAITREROLLCHAT",
       "reward": "Trait Reroll"
     },
+    {
+      "code": "SOMETRAITSS",
+      "reward": "Rerolls Trait"
+    },
+    {
+      "code": "THEONELEFTITALLBEHIND",
+      "reward": "CTReroll"
+    },
+    {
+      "code": "YAY",
+      "reward": "CTReroll"
+    },
+    {
+      "code": "SORCERERSONTOP",
+      "reward": "Rerolls CT"
+    },
+    {
+      "code": "LOLSERVERFORITSOON",
+      "reward": "CT Reroll"
+    },
+    {
+      "code": "RANDOMHXHGAME",
+      "reward": "Style Reset"
+    },
+    {
+      "code": "CODESFORTHEGIRLS",
+      "reward": "CE Trait Reroll"
+    },
+    {
+      "code": "CODESFORTHEGUYS",
+      "reward": "Style Reset"
+    },
+    {
+      "code": "OLDMAPBACK",
+      "reward": "CT Reroll"
+    },
+    {
+      "code": "SORRYFORBADREVAMP",
+      "reward": "CT Reroll"
+    },
+    {
+      "code": "NEWCODESCHAT!!",
+      "reward": "CTREROLL"
+    },
+    {
+      "code": "MAPUPDATES",
+      "reward": "CTREROLL"
+    },
+    {
+      "code": "SOMERYOFORYALL2",
+      "reward": "Ryo"
+    },
+    {
+      "code": "NEWCLANSRAHH",
+      "reward": "Rerolls your Last Name"
+    },
+    {
+      "code": "SOMECOLORSS",
+      "reward": "Rerolls CE Color"
+    },
+    {
+      "code": "GONNACHANGECOMBAT",
+      "reward": "CT Reroll"
+    },
+    {
+      "code": "MORECOMINGSOONCHAT",
+      "reward": "CT Reroll"
+    },
+    {
+      "code": "DOCTORQOL",
+      "reward": "Trait Reroll"
+    },
+    {
+      "code": "MORERYO",
+      "reward": "7500$ Ryo"
+    },
+    {
+      "code": "VALENTINESDAYSHOPPING",
+      "reward": "CT Reroll"
+    },
+    {
+      "code": "SORRYFORGAMECLOSE",
+      "reward": "CT Reroll"
+    },
+    {
+      "code": "SHOISBALDP2",
+      "reward": "Rerolls CE Trait"
+    },
+    {
+      "code": "RAHHHHHH",
+      "reward": "Rerolls CT"
+    },
+    {
+      "code": "YOURESORIGHT",
+      "reward": "CT Reroll"
+    },
+    {
+      "code": "STATRESET",
+      "reward": "StatReset"
+    },
+    {
+      "code": "SHOTINYUPDATE",
+      "reward": "CT Reroll"
+    },
+    {
+      "code": "CURSESONTOP",
+      "reward": "Rerolls CT"
+    },
+    {
+      "code": "RYOMEN",
+      "reward": "Rerolls your Last Name"
+    },
+    {
+      "code": "SmallUpdate",
+      "reward": "CT Reroll"
+    },
+    {
+      "code": "ShoStillCares",
+      "reward": "CT Reroll"
+    },
+    {
+      "code": "CODESFIXED7",
+      "reward": "CTReroll"
+    },
+    {
+      "code": "CODESFIXED4",
+      "reward": "StyleReset"
+    },
+    {
+      "code": "CODESFIXED2",
+      "reward": "LastNameReroll"
+    },
+    {
+      "code": "CODESFIXED1",
+      "reward": "Ryo"
+    },
+    {
+      "code": "CODESFIXED5",
+      "reward": "CETraitReroll"
+    },
+    {
+      "code": "CODESFIXED3",
+      "reward": "LastNameReroll"
+    },
+    {
+      "code": "CODESFIXED8",
+      "reward": "CTReroll"
+    },
+    {
+      "code": "CODESFIXED6",
+      "reward": "RYO"
+    },
+    {
+      "code": "CODESFIXED9",
+      "reward": "CTReroll"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "UPDATE1.5RYO",
       "reward": "3,500 Ryo"

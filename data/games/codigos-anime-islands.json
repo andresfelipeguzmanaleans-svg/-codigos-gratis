@@ -8,14 +8,6 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "UPDATE7",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BIGONE",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "UPDATE6",
       "reward": "Recompensas gratis"
     },
@@ -32,7 +24,11 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "UPDATE4.5",
+      "code": "UPDATE7",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BIGONE",
       "reward": "Recompensas gratis"
     },
     {
@@ -44,51 +40,56 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "UPDATE3",
-      "reward": "Recompensas gratis"
+      "code": "1MVISITS",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "1MVISITS",
-      "reward": "Recompensas gratis"
+      "code": "5KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "UPDATE2",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "Redeem code for 1x gema poción, 1x Power poción, and 60,000 gemas"
+    },
+    {
+      "code": "1KLIKES",
+      "reward": "Redeem code for 1x Lucky poción, 2x Power poción, and 50,000 gemas"
+    },
+    {
+      "code": "Daetoi",
+      "reward": "Redeem code for 1x gema poción and 1x Power poción"
+    },
+    {
+      "code": "UPDATE3",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "SORRYFORDUNGEONBUG",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BUGFIXES",
+      "reward": "Redeem code for 1x Lucky poción and 1x Power poción"
+    },
+    {
+      "code": "2KLIKES",
+      "reward": "Redeem code for 2x Lucky poción, 2x Power poción, and 50,000 gemas"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "UPDATE4.5",
       "reward": "Recompensas gratis"
     },
     {
       "code": "UPDATE2.5",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "5KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPDATE2",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "2KLIKES",
-      "reward": "2x Lucky poción, 2x Power poción, and 50,000 gemas"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "1x gema poción, 1x Power poción, and 60,000 gemas"
-    },
-    {
-      "code": "1KLIKES",
-      "reward": "1x Lucky poción, 2x Power poción, and 50,000 gemas"
-    },
-    {
-      "code": "Daetoi",
-      "reward": "1x gema poción and 1x Power poción"
-    },
-    {
-      "code": "BUGFIXES",
-      "reward": "1x Lucky poción and 1x Power poción"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Anime Islands en Roblox",
     "Busca el icono de códigos en el menú",

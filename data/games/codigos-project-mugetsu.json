@@ -10,12 +10,18 @@
     {
       "code": "GoodbyeJanuary",
       "reward": "RRA 229, giros 1.750"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "PMHoliday",
       "reward": "Legendario Orbs 50, RRA 100, giros 1k"
+    },
+    {
+      "code": "2026!!!",
+      "reward": "Giros 2026"
+    },
+    {
+      "code": "HappyNewYear!",
+      "reward": "Legendario Orbs 20, RRA 26"
     },
     {
       "code": "MerryChristmas!",
@@ -28,6 +34,10 @@
     {
       "code": "HappyHolidays",
       "reward": "20 legendario Orbs, 10 EXP Boost pociones, 1 Reset Race poción, 20,000 oro, 250 giros"
+    },
+    {
+      "code": "IanxTach",
+      "reward": "10 giros"
     },
     {
       "code": "HappyThanksgiving2025",
@@ -44,6 +54,10 @@
     {
       "code": "ItamiSupport",
       "reward": "800 giro"
+    },
+    {
+      "code": "Spooky!",
+      "reward": "100000 oro,800 clan giro"
     },
     {
       "code": "HappyHalloween!",
@@ -66,12 +80,8 @@
       "reward": "100 RRA, 500 Clan giros, 25 Leg Orbs"
     },
     {
-      "code": "JINNCOOKIN?",
-      "reward": "150 RRA, 500 Clan giros, 25 Leg Orbs, 25 Mastery pociones, 25 Exp Boost pociones"
-    },
-    {
-      "code": "CrksBlessing",
-      "reward": "50 Reroll Ability pociones, 25 legendario Orbs, 600 giros, 10 Exp Boost pociones, and 125000 oro"
+      "code": "CrksBlessing2",
+      "reward": "75 Reroll Ability pociones and 1 Race Reset poción"
     },
     {
       "code": "2kfollowers",
@@ -82,336 +92,876 @@
       "reward": "25 Leg orbs, 50rra, 1K giros some dinero and other stuff"
     },
     {
-      "code": "Codeforthewait",
-      "reward": "10 Leg Orbs, 50 RRA, 200 Clan giros"
+      "code": "codwithnoname",
+      "reward": "10 orbs, 55rra, 400 giros"
     },
     {
       "code": "VERIFIEDSOON!",
       "reward": "2000 Clan giros, 25 Leg Orbs , 100 RRA, 50 EXP Boost pociones"
     },
     {
-      "code": "Thankyoufor1K",
-      "reward": "Tons of stuff"
+      "code": "Codeforthewait",
+      "reward": "10 Leg Orbs, 50 RRA, 200 Clan giros"
     },
     {
       "code": "JUICYCODE!",
       "reward": "1500 Clan giros, 75 Leg Orbs , 75 RRA, 500,000YEN"
     },
     {
+      "code": "Thankyoufor1K",
+      "reward": "Tons of stuff"
+    },
+    {
       "code": "MUGETSU2026",
       "reward": "250 Clan giros, 50 Leg Orbs , 50 RRA"
     },
     {
-      "code": "KIRI500!",
-      "reward": "500 Clan giros, 25 Leg orbs , 25 RRA"
-    },
-    {
-      "code": "TY3RCK",
-      "reward": "75 Clan giros , 25 legendario Orbs"
-    },
-    {
-      "code": "3RCK+TNT",
-      "reward": "150 Clan giros, 10 legendario Orbs, 10 RRA"
-    },
-    {
-      "code": "HUECOFIXES",
-      "reward": "250 Clan giros, 15 legendario Orbs, 10 RRA"
-    },
-    {
-      "code": "Sorryforshutdown:(",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MAPFIX?",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "LASNOCHES??",
-      "reward": "25 legendario Orbs, 25 RRA, 150K Yen, 666 Clan giros"
-    },
-    {
-      "code": "KiriNoAnchor!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HappyNewYear!",
-      "reward": "Legendario Orbs 20, RRA 26"
-    },
-    {
-      "code": "2026!!!",
-      "reward": "Giros 2026"
-    },
-    {
-      "code": "ThanksForShowingUp",
-      "reward": "167 giros, 100 Re-tirada ability pociones, 20 legendario Orbs"
-    },
-    {
-      "code": "IanBoomin",
-      "reward": "67 legendario Orbs, 67 Reroll Ability pociones, 67 Mastery pociones, 676767 oro, 167 giros"
-    },
-    {
-      "code": "IanxTach",
-      "reward": "10 giros"
-    },
-    {
-      "code": "CrksBlessing2",
-      "reward": "75 Reroll Ability pociones and 1 Race Reset poción"
-    },
-    {
-      "code": "QOLNCODE!",
-      "reward": "50 RRA, 500 giros, and 30 legendario Orbs"
+      "code": "ILIED",
+      "reward": "35 RRA, 30 Exp Boost, 300 giros, and 20 legendario Orbs"
     },
     {
       "code": "MAPFIXES",
       "reward": "10 RRA, 10 Exp Boost, 150 giros, and 10 legendario Orbs"
     },
     {
+      "code": "QOLNCODE!",
+      "reward": "50 RRA, 500 giros, and 30 legendario Orbs"
+    },
+    {
+      "code": "KiriNoAnchor!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HUECOFIXES",
+      "reward": "250 Clan giros, 15 legendario Orbs, 10 RRA"
+    },
+    {
+      "code": "TY3RCK",
+      "reward": "75 Clan giros , 25 legendario Orbs"
+    },
+    {
+      "code": "KIRI500!",
+      "reward": "500 Clan giros, 25 Leg orbs , 25 RRA"
+    },
+    {
       "code": "July4",
       "reward": "50 RRA and 400 giros"
     },
     {
-      "code": "codwithnoname",
-      "reward": "10 orbs, 55rra, 400 giros"
+      "code": "RELEASE",
+      "reward": "Redeem code for 15 giros in each slot with 2x EXP"
     },
     {
-      "code": "FathersDay25",
-      "reward": "30 RRA 20 Exp Boost 300 giros 5 legendario Orbs"
+      "code": "EXPLOITFIXES",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "MothersDay25",
-      "reward": "30 RRA 20 Exp Boost 300 giros 5 legendario Orbs"
+      "code": "20KLIKES",
+      "reward": "Reset Shikai (ONLY USE IF YOU'RE A SOUL REAPER)"
     },
     {
-      "code": "Twitter2k",
-      "reward": "20 RRA 200 giros 5 legendario Orbs"
+      "code": "ABILITYREROLLTHREE",
+      "reward": "Reroll Ability (Applies to both Shikai and Resurrecci&oacute;n)"
     },
     {
-      "code": "Easter25",
-      "reward": "30 RRA 300 giros"
+      "code": "100KMEMBERS",
+      "reward": "Reset Resurrecci&oacute;n (ONLY USE IF YOU'RE A HOLLOW)"
     },
     {
-      "code": "BUGSFIXED",
-      "reward": "200 giros 25 RRA 1 Leg Orb"
+      "code": "ABILITYREROLLTWO",
+      "reward": "Reroll Ability (Applies to both Shikai and Resurrecci&oacute;n)"
     },
     {
-      "code": "SORRYFORBUGS",
-      "reward": "50 giros 2 RRA"
+      "code": "ABILITYREROLLONE",
+      "reward": "Reroll Ability (Applies to both Shikai and Resurrecci&oacute;n)"
     },
     {
-      "code": "PMBUGFIXES",
-      "reward": "100 giros 3 RRA"
+      "code": "ABILITYREROLLFOUR",
+      "reward": "Reroll Ability (Applies to both Shikai and Resurrecci&oacute;n)"
     },
     {
-      "code": "HOGSERVERS",
-      "reward": "50 giros 2 RRA"
+      "code": "SORRYFORSHUTDOWN",
+      "reward": "Redeem code for 30m 2x mastery, 30m 2x EXP, and 30 giros on each slot"
     },
     {
-      "code": "BUGFIXUPD",
-      "reward": "150 giros"
+      "code": "SHUTDOWNSPINS",
+      "reward": "25 giros"
     },
     {
-      "code": "CHOPPEDSTZ",
-      "reward": "10 RRA 100 giros 10 Exp Boost pociones"
+      "code": "15KLIKES",
+      "reward": "30 minuto Mastery Boost"
     },
     {
-      "code": "GAMESFULLYFIXEDNOW",
-      "reward": "Tons of Goodies"
+      "code": "10KLIKES",
+      "reward": "30 minuto Mastery Boost"
     },
     {
-      "code": "PMRETURNS",
-      "reward": "150 Clan giros , 20 RR Ability"
+      "code": "SORRYITSEXPENSIVE",
+      "reward": "2 horas of 2x oro Buff"
     },
     {
-      "code": "WERSORRY!!",
-      "reward": "150 Clan giros , 10 Leg Orb"
+      "code": "35KLIKES",
+      "reward": "50 giros on One Slot"
     },
     {
-      "code": "DELAYGETSU!!",
-      "reward": "2 Leg Orb , 7 RR Ability"
+      "code": "MoreQolAndBalances",
+      "reward": "1 orb, 5 ability rerolls, 25 giros (Expires 5/1/2024)"
     },
     {
-      "code": "VALENTINES",
-      "reward": "14 Leg Orb, 140K Yen"
+      "code": "HERESTHESPINS",
+      "reward": "85 giros"
     },
     {
-      "code": "AGAINFETTY",
-      "reward": "100 Clan giros , 250K Yen"
+      "code": "SHUTDOWNABILITYREROLL",
+      "reward": "Reroll Ability"
     },
     {
-      "code": "COMEBACKTIME!",
-      "reward": "200 Clan giros , 20 Leg Orbs"
+      "code": "80KLIKES",
+      "reward": "Reroll Ability"
     },
     {
-      "code": "TIME2COOK",
-      "reward": "5 Leg Orbs , 100 Clan giros"
+      "code": "60KLIKES",
+      "reward": "30 giros"
     },
     {
-      "code": "POOKIEZOOKIE",
-      "reward": "10 Clans giros , 1 Leg Orb , 1 RR Ability"
+      "code": "HERESABILITYREROLLTHREE",
+      "reward": "Reroll Ability"
     },
     {
-      "code": "TYDEVTEAM!!",
-      "reward": "100 Clan giro"
+      "code": "HERESABILITYREROLLONE",
+      "reward": "Reroll Ability"
     },
     {
-      "code": "LETUSCOOK?",
-      "reward": "50 Clan giros , 10 RR Ability giros"
+      "code": "HERESABILITYREROLLTWO",
+      "reward": "Reroll Ability"
     },
     {
-      "code": "PM2025",
-      "reward": "25 Leg Orb , 250K Yen"
+      "code": "HERESABILITYREROLLFOUR",
+      "reward": "Reroll Ability"
     },
     {
-      "code": "PRISMBDAY!!",
-      "reward": "170 Clan giros"
+      "code": "50KLIKES",
+      "reward": "35 giros and 10k oro (oro is only granted if you're above level 30)"
     },
     {
-      "code": "KIRIAPOLOGY!!",
-      "reward": "100 Clan giros, 10 Leg Orb , 10 RR Ability"
+      "code": "EXCUSETHESHUTDOWN2",
+      "reward": "Reroll Ability (If you redeem this in the Main Menu, it will give you Boosts!)"
     },
     {
-      "code": "HONTOAPOLOGY!!",
-      "reward": "100 Clan giros, 10 Leg Orb , 10 RR Ability"
+      "code": "70KLIKES",
+      "reward": "85 giros"
     },
     {
-      "code": "NEWYEARNEWPM!!",
-      "reward": "500 Clan giros , 25 Leg Orb"
+      "code": "CheaperSpins",
+      "reward": "50 giros (expires 4/30)"
     },
     {
-      "code": "VALENTINES25",
-      "reward": "30 rerolls and 275 clan giros"
+      "code": "SorryForInconvenience",
+      "reward": "5 legendario orbs, 50 giros, 3 Ability Reroll, 80k oro (Expires 4/30/2024)"
     },
     {
-      "code": "NEWYEARS",
-      "reward": "10 Ability Rerolls"
+      "code": "Antic1000Followers",
+      "reward": "3 orbs, 20 giros (Expires 5/1/2024)"
     },
     {
-      "code": "2025!!",
-      "reward": "5 Ability Rerolls, 5 legendario Orbs"
+      "code": "QuincyBowFixFinal",
+      "reward": "50 giros, 3 Orbs (Expires 5/1/2024)"
     },
     {
-      "code": "PMXMAS",
-      "reward": "5 legendario Orbs, 200 giros"
+      "code": "40KLIKES",
+      "reward": "15 giros on One Slot"
     },
     {
-      "code": "MUGESTURETURNS",
-      "reward": "100 giros, 6 Leg orbs, 6 Ability Rerolls"
+      "code": "EXCUSETHESHUTDOWN",
+      "reward": "30 minuto exp Boost and mastery Boost and 30 giros"
     },
     {
-      "code": "ZUKO4LIFE",
-      "reward": "1 legendario Orb, 1 Ability ReRoll"
+      "code": "10MVISITS",
+      "reward": "50 giros"
     },
     {
-      "code": "KIRISPRESENT",
-      "reward": "11 Leg Orbs, 11 Ability Reroll, 110 Clan giros"
+      "code": "SORRYFORPINGS",
+      "reward": "75 giros"
     },
     {
-      "code": "HONTOSPRESENT",
-      "reward": "400 giros"
+      "code": "HERESABILITYREROLLFIVE",
+      "reward": "Reroll Ability"
     },
     {
-      "code": "GREENIES",
-      "reward": "300 giros"
+      "code": "FIRSTWEEKISOVER",
+      "reward": "1 hora 2x mastery"
     },
     {
-      "code": "SAVESOULSOCIETY",
-      "reward": "5 Ability Rerolls, 5 legendario Orbs"
+      "code": "EASTERUPDATE",
+      "reward": "Race Reset"
     },
     {
-      "code": "SQUIDGAMES",
-      "reward": "5 legendario Orbs, 100 giros"
+      "code": "THANKSFOR200KMEMBERS",
+      "reward": "Reroll Ability"
     },
     {
-      "code": "REDLIGHT",
-      "reward": "5 legendario Orbs, 100 giros"
+      "code": "SORRY4DASHUTDOWN",
+      "reward": "Reroll Ability"
     },
     {
-      "code": "GREENLIGHT",
-      "reward": "200 giros"
+      "code": "OneMonthResetRace",
+      "reward": "Reset Race"
     },
     {
-      "code": "TYPEDEAD",
-      "reward": "10 Ability Rerolls, 600K oro"
+      "code": "NEWCLANS",
+      "reward": "150 Rerolls"
     },
     {
-      "code": "PMISBACK",
-      "reward": "200 giros , 10 Leg Orbs"
+      "code": "UPDATE1",
+      "reward": "Orb and Cash"
     },
     {
-      "code": "PMISSOBACK",
-      "reward": "100 giros, 10 Ability Rerolls, 15 legendario Orbs"
+      "code": "GAMEMODES",
+      "reward": "2x EXP and Cash 1 hora"
     },
     {
-      "code": "VIDEOSATURDAY",
-      "reward": "100 giros and 5 leg orb"
+      "code": "BANKAIS",
+      "reward": "2x mastery 1 hora"
     },
     {
-      "code": "KyokaFix",
-      "reward": "200 rra and 1k giros"
+      "code": "MothersDaySpins",
+      "reward": "65 giros on every slot"
     },
     {
-      "code": "JoinJujutsuOdyssey",
+      "code": "MothersDayMastery",
+      "reward": "1 hora mastery on all mastery"
+    },
+    {
+      "code": "OneMonthLegendaryOrb",
+      "reward": "3 legendario orbs only obtainable if u over level 45"
+    },
+    {
+      "code": "OneMonthLegendarySPINS",
+      "reward": "45 giros on every slot"
+    },
+    {
+      "code": "OneMonthREROLLAbility",
+      "reward": "Reroll Ability"
+    },
+    {
+      "code": "28MVISTS",
+      "reward": "Reroll ability"
+    },
+    {
+      "code": "UPDATESOON",
+      "reward": "Reroll ability"
+    },
+    {
+      "code": "95KLIKES",
+      "reward": "Reroll Ability"
+    },
+    {
+      "code": "90KLIKES",
+      "reward": "Reroll Ability"
+    },
+    {
+      "code": "160KFAVORITES",
+      "reward": "15k oro (Level 30+ Only)"
+    },
+    {
+      "code": "TradingBack2",
+      "reward": "Giros and Reroll Pots (Expires 5/25/2024)"
+    },
+    {
+      "code": "MultiBarrageFix",
+      "reward": "Giros and Orbs (Expires 5/15/2024)"
+    },
+    {
+      "code": "SynCodeMakeup",
+      "reward": "Redeem code for 85 giros and 2 legendario orbs (Expires 5/11/2024)"
+    },
+    {
+      "code": "160KLIKES1",
+      "reward": "150 giros / 85k oro (Expires 5/10/2024)"
+    },
+    {
+      "code": "235KMembers",
+      "reward": "3 Orbs, 2 Reroll pociones, 100 giros (Expires 5/10/2024)"
+    },
+    {
+      "code": "SorryForRaidLives",
+      "reward": "5 ability rerolls, 50 giros (Expires 5/3/2024)"
+    },
+    {
+      "code": "UPDATE1RACERESET",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "MothersDayLegendaryOrbndGold",
+      "reward": "2 legendario orbs and 75k oro, only obtainable if ur level 50 or higher"
+    },
+    {
+      "code": "85KLIKES",
+      "reward": "65 giros"
+    },
+    {
+      "code": "160KLIKES2",
+      "reward": "10 leg orbs and 5 ability rerolls (Expires 5/10/2024)"
+    },
+    {
+      "code": "SorryForShutdownAgain8",
+      "reward": "Giros and Orbs (Expires 5/14/2024)"
+    },
+    {
+      "code": "SORRYFORWANDEN",
+      "reward": "75 giros"
+    },
+    {
+      "code": "BUGFIXESREROLL",
+      "reward": "Bility reroll"
+    },
+    {
+      "code": "MOREORBS",
+      "reward": "1 leg orb"
+    },
+    {
+      "code": "110KLIKES",
+      "reward": "100 giros"
+    },
+    {
+      "code": "ABILITYREROLL",
+      "reward": "Bility Reroll"
+    },
+    {
+      "code": "SORRY4BUGS",
+      "reward": "75 giros"
+    },
+    {
+      "code": "SCHRIFTS",
+      "reward": "Bility Reroll"
+    },
+    {
+      "code": "QUINCY",
+      "reward": "Bility Reroll"
+    },
+    {
+      "code": "SORRYFORTHEWAIT",
+      "reward": "Bility Reroll"
+    },
+    {
+      "code": "JUICYRETURN",
+      "reward": "100 giros and master Boost on all"
+    },
+    {
+      "code": "135KLIKESBOOSTS",
+      "reward": "1 hora Boosts on 2x on oro / exp / mastery"
+    },
+    {
+      "code": "ABILITYREROLLOCKEDIN",
+      "reward": "Bility Reroll"
+    },
+    {
+      "code": "MOREBUGFIXES",
+      "reward": "Bility reroll"
+    },
+    {
+      "code": "120KLIKESBOOSTS",
+      "reward": "Mastery, oro, exp Boost"
+    },
+    {
+      "code": "SORRYFORSOMANY",
+      "reward": "3 orbs / 185 giros / mastery Boost on all"
+    },
+    {
+      "code": "130KLIKESSPINS",
+      "reward": "85 giros"
+    },
+    {
+      "code": "ANOTHERSHUTDOWNSORRY",
+      "reward": "Ll mastery Boosts and 85 giros"
+    },
+    {
+      "code": "140KLIKESREROLL",
+      "reward": "Bility reroll"
+    },
+    {
+      "code": "140KLIKESSPINS",
+      "reward": "115 giros"
+    },
+    {
+      "code": "135KLIKESORBS",
+      "reward": "8 orbs lvl 50 requirement"
+    },
+    {
+      "code": "135KLIKESREROLL",
+      "reward": "1 ability reroll"
+    },
+    {
+      "code": "135KLIKESSPINS",
+      "reward": "125 giros"
+    },
+    {
+      "code": "130KLIKESBOOSTS",
+      "reward": "1 hora Boosts on 2x on oro / exp / mastery"
+    },
+    {
+      "code": "130KLIKESORBS",
+      "reward": "3 orbs lvl 50 requirement"
+    },
+    {
+      "code": "130KLIKESREROLL",
+      "reward": "1 ability reroll"
+    },
+    {
+      "code": "PANTERA",
+      "reward": "Bility reroll"
+    },
+    {
+      "code": "125KLIKESBOOSTS",
+      "reward": "1 hora Boost on 2x oro/exp/mastery"
+    },
+    {
+      "code": "125KLIKESORBS",
+      "reward": "3 orbs lvl 50 requirement"
+    },
+    {
+      "code": "125KLIKESREROLL",
+      "reward": "Bility reroll"
+    },
+    {
+      "code": "125KLIKESSPINS",
+      "reward": "85 giros"
+    },
+    {
+      "code": "ULQRES",
+      "reward": "Bility reroll"
+    },
+    {
+      "code": "ULQORB",
+      "reward": "1 leg orb (lvl 30+ only)"
+    },
+    {
+      "code": "EXCALIBUR",
+      "reward": "75 giros / 2x Boosts on all"
+    },
+    {
+      "code": "120KLIKESREROLL",
+      "reward": "Bility reroll"
+    },
+    {
+      "code": "120KLIKESORBS",
+      "reward": "3 orbs (Must be Level 30)"
+    },
+    {
+      "code": "120KLIKESSPINS",
+      "reward": "85 giros"
+    },
+    {
+      "code": "SUPRISEORBS",
+      "reward": "5 leg orbs"
+    },
+    {
+      "code": "MAYBEANORBFIX",
+      "reward": "3 legendario orbs"
+    },
+    {
+      "code": "UPDATE2MoreRerolls2",
+      "reward": "5 legendario orbs, 100 giros"
+    },
+    {
+      "code": "UPDATE2MoreRaceReset",
+      "reward": "Race reset 2"
+    },
+    {
+      "code": "DemonPieceRelease",
+      "reward": "50 Clan giros"
+    },
+    {
+      "code": "Sorry4UpdateDelay2",
+      "reward": "1 legendario Orb, 25 Clan giros"
+    },
+    {
+      "code": "UPDATE2RaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "UPDATE2Exp",
+      "reward": "2x EXP 1 hora, 2x Mastery 1 hora"
+    },
+    {
+      "code": "UPDATE2Exp2",
+      "reward": "2x EXP 1 hora, 150k oro"
+    },
+    {
+      "code": "UPDATE2Rerolls",
+      "reward": "2 legendario Orbs"
+    },
+    {
+      "code": "UPDATE2Rerolls2",
+      "reward": "2 legendario Orbs"
+    },
+    {
+      "code": "UPDATE2Spins",
+      "reward": "100 Clan giros"
+    },
+    {
+      "code": "MINAZUKI",
+      "reward": "1 Ability Reroll"
+    },
+    {
+      "code": "SANTATERESA",
+      "reward": "1 Ability Reroll"
+    },
+    {
+      "code": "FEAR",
+      "reward": "1 Ability Reroll"
+    },
+    {
+      "code": "HARRIBEL",
+      "reward": "1 Ability Reroll"
+    },
+    {
+      "code": "SEGUNDA",
+      "reward": "1 legendario Orb"
+    },
+    {
+      "code": "VIZARD",
+      "reward": "1 legendario Orb"
+    },
+    {
+      "code": "140KLIKESORBS",
+      "reward": "15 orbs lvl 65 requirement"
+    },
+    {
+      "code": "LegacyPieceRelease",
+      "reward": "50 Clan giros"
+    },
+    {
+      "code": "ICHIMONJI",
+      "reward": "1 Ability Reroll"
+    },
+    {
+      "code": "NOZARASHI",
+      "reward": "1 Ability Reroll"
+    },
+    {
+      "code": "FULLBRINGER",
+      "reward": "1 legendario Orb"
+    },
+    {
+      "code": "150kLikes",
+      "reward": "100 giros, 10 Orbs"
+    },
+    {
+      "code": "AgainSorryForShutdown",
+      "reward": "25 giros, 2 leg orb"
+    },
+    {
+      "code": "UPDATE2RaceReset2",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "UPDATE2Spins2",
+      "reward": "100 Clan giros"
+    },
+    {
+      "code": "CANDICE",
+      "reward": "1 Ability Reroll"
+    },
+    {
+      "code": "HONOREDONE",
+      "reward": "100 Clan giros"
+    },
+    {
+      "code": "2024C2",
+      "reward": "100 Clan giros"
+    },
+    {
+      "code": "140KLIKESBOOSTS",
+      "reward": "1 hora 30 minutos Boosts on 2x on oro / exp / mastery"
+    },
+    {
+      "code": "MoreXboxFixes",
+      "reward": "Mastery Boost, exp Boost, 100000 oro, rerollability"
+    },
+    {
+      "code": "RaceResetPotionFixAgain",
+      "reward": "3 race reset pociones"
+    },
+    {
+      "code": "QuincyFixes",
+      "reward": "50 giros, 1 leg orb"
+    },
+    {
+      "code": "UPDATE2MoreRerolls",
+      "reward": "5 legendario orbs, 100 giros"
+    },
+    {
+      "code": "58MillionVisits",
+      "reward": "50 giros, 50k oro, 10 reroll ability pociones, 5 legendario orbs"
+    },
+    {
+      "code": "CrispyReasonForBugs",
+      "reward": "200 giros, 5 Orbs"
+    },
+    {
+      "code": "USECODESINMAINMENU",
+      "reward": "200 giros, 5 Orbs"
+    },
+    {
+      "code": "FirstBalanceChange",
+      "reward": "25 giros, 3 Orbs"
+    },
+    {
+      "code": "TestOrbCode",
+      "reward": "2 Orbs"
+    },
+    {
+      "code": "BlackButlerPublicSchoolArc",
+      "reward": "182 giros, 3 Orbs"
+    },
+    {
+      "code": "GoodbyeExcalibur",
+      "reward": "10 Reroll pociones, 25 giros"
+    },
+    {
+      "code": "NewRankedWeapons",
+      "reward": "3 Orbs, 50 giros"
+    },
+    {
+      "code": "CrispyTwitterWoof",
+      "reward": "200 giros, 10 Orbs"
+    },
+    {
+      "code": "152kLikes",
+      "reward": "15 Ability Rerolls, 50 giros"
+    },
+    {
+      "code": "TradingHubBack",
+      "reward": "5 ability rerolls , 3 legendario orbs"
+    },
+    {
+      "code": "155KLikes1",
+      "reward": "12 orbs and 125 giros (Expires 5/10/24)"
+    },
+    {
+      "code": "FahanSorry4Delay2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TradingHubChanges",
+      "reward": "3 leg orbs / 15 giros"
+    },
+    {
+      "code": "BANKER",
+      "reward": "3 Orbs, 100 giros"
+    },
+    {
+      "code": "GoodbyeMadarasGunbai",
+      "reward": "1 mastery Boost postion, 1 exp Boost poción, 10 giros"
+    },
+    {
+      "code": "TheyDoneCaughtKona",
+      "reward": "15 giros, 5 legendario orbs"
+    },
+    {
+      "code": "FixedGiftedGamepasses",
+      "reward": "85 giros"
+    },
+    {
+      "code": "SorryForGiftBugAgain",
+      "reward": "3 orbs, 12 Ability Reroll, 100 giros"
+    },
+    {
+      "code": "Luppi1KFollows",
+      "reward": "30 giros, 12 ability rerolls, 50k oro"
+    },
+    {
+      "code": "StarrkClan",
+      "reward": "80 giros"
+    },
+    {
+      "code": "HaschwalthClan",
+      "reward": "80 giros"
+    },
+    {
+      "code": "ClanStorage",
+      "reward": "180 giros"
+    },
+    {
+      "code": "ClanStorageFix",
+      "reward": "75 giros, 3 orbs"
+    },
+    {
+      "code": "ClanStorageFix2",
+      "reward": "250 giros, 2 Orbs"
+    },
+    {
+      "code": "TYALL",
+      "reward": "3 Race Resets, 1 hora 2x EXP"
+    },
+    {
+      "code": "NoMoreItemStack",
+      "reward": "50 giros, 3 reroll ability pociones"
+    },
+    {
+      "code": "FahanTwitter",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "COUNTDOWNBEGINS",
+      "reward": "100 giros, 5 Orbs"
+    },
+    {
+      "code": "QUINCYMEDALLION",
+      "reward": "100 giros, 5 Orbs"
+    },
+    {
+      "code": "SorryForShutdown5",
+      "reward": "75 giros / 1 orb"
+    },
+    {
+      "code": "Sorry4ShutdownAgain3",
+      "reward": "80 giros, 10 orbs"
+    },
+    {
+      "code": "HeresSpinsPromised",
+      "reward": "Giros"
+    },
+    {
+      "code": "NewResAbility",
+      "reward": "12 ability rerolls"
+    },
+    {
+      "code": "ShutdownSorryNeededFixes",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HeresForTheLostGold",
+      "reward": "85k oro"
+    },
+    {
+      "code": "AightLastShutdownFrFr",
+      "reward": "Orbs, oro, Reroll Ability pociones and giros"
+    },
+    {
+      "code": "SorryTraders",
+      "reward": "Giros and Reroll Ability pociones"
+    },
+    {
+      "code": "63MVisits",
+      "reward": "Giros and Orbs"
+    },
+    {
+      "code": "Ididntshutdown",
+      "reward": "400 giros, 15 rerolls"
+    },
+    {
+      "code": "SorryWandenandHueco",
+      "reward": "50k oro giros and rra pots"
+    },
+    {
+      "code": "SorryForShutDownAgainForFixes3",
+      "reward": "3 leg orbs 100 giros"
+    },
+    {
+      "code": "AfkWorldChanges",
+      "reward": "15 giros, 50k oro"
+    },
+    {
+      "code": "SorryForItemInconvience",
+      "reward": "5 ability rerolls / 2 leg orbs"
+    },
+    {
+      "code": "FixesSorryForShutdownAgain2",
+      "reward": "3 orbs, 50 giros"
+    },
+    {
+      "code": "BossFixesPt2",
+      "reward": "400 giros, 10 Rerolls"
+    },
+    {
+      "code": "SorryForShutdown5000",
+      "reward": "100k oro, 10 Exp Pots"
+    },
+    {
+      "code": "60MVisits2",
+      "reward": "3 legendario Orbs and 150 giros"
+    },
+    {
+      "code": "MoreBalanceChanges2",
+      "reward": "50 giros, 5 reroll pots"
+    },
+    {
+      "code": "60MVisits1",
+      "reward": "10 Reroll poción and 50 giros"
+    },
+    {
+      "code": "Syn3KFollowers",
+      "reward": "Redeem code for 185 giros 10 leg orbs"
+    },
+    {
+      "code": "OkayLastShutdownAgainSorry",
       "reward": "Giros and ability rerolls"
     },
     {
-      "code": "hotdog57",
-      "reward": "45 ability rerolls and 600 clan rerolls"
+      "code": "OkayOkayLastShutdownSorry1",
+      "reward": "Giros + orbs + reroll ability pot"
     },
     {
-      "code": "ZukoZaixoz",
-      "reward": "100 ability rerolls and 1.5k clan rerolls"
+      "code": "245KMembers",
+      "reward": "Giros and orbs"
     },
     {
-      "code": "500",
+      "code": "HadToShutdown",
+      "reward": "Reroll pots and oro"
+    },
+    {
+      "code": "SorryCountdownDelay",
+      "reward": "Giros and orbs"
+    },
+    {
+      "code": "235kFavorites",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TypeShutdown",
       "reward": "Giros/Orbs"
     },
     {
-      "code": "AIZENUPDTHISMONTH",
+      "code": "SorryForEventIssues",
       "reward": "Giros/Orbs"
     },
     {
-      "code": "UPDATEWILLBESOON",
-      "reward": "150 giros, 15 rrs, and 15 rerolls"
-    },
-    {
-      "code": "EidMubarak",
+      "code": "ThanksForPanteraSupport",
       "reward": "Giros/Orbs"
     },
     {
-      "code": "CommonKiotW",
+      "code": "ShutdownWasNeededSrry",
+      "reward": "Giros, Rerolls, Orbs and oro"
+    },
+    {
+      "code": "SorryShutdownCDRe",
+      "reward": "Giros, Rerolls and oro"
+    },
+    {
+      "code": "65MVisits1",
       "reward": "Giros/Orbs"
     },
     {
-      "code": "SinfulWasHere",
+      "code": "65MVisits2",
       "reward": "Giros/Orbs"
+    },
+    {
+      "code": "250kMembers",
+      "reward": "Giros and Orbs"
     },
     {
       "code": "TetriReanimatesForThe10thTime",
       "reward": "Giros/Orbs"
     },
     {
-      "code": "NewTeamZaiZuko",
-      "reward": "400 giros and 10 rerolls"
+      "code": "TradingDisabledSorry",
+      "reward": "Giros, Rerolls, Orbs and oro"
     },
     {
-      "code": "Luppi1kSubs",
-      "reward": "Giros/Orbs"
-    },
-    {
-      "code": "Luppi2kTwitter",
-      "reward": "Giros/Orbs"
-    },
-    {
-      "code": "thereisnosuchthing",
-      "reward": "Giros/Orbs"
-    },
-    {
-      "code": "70MillionVisits1",
-      "reward": "Giros, rra pots, oro"
-    },
-    {
-      "code": "70MillionVisits2",
-      "reward": "Giros, orbs, oro"
+      "code": "FinalResetForSpecificItems",
+      "reward": "Giros and Orbs (Expires 5/26/2024)"
     },
     {
       "code": "SorryForBrokenThingsz",
@@ -420,10 +970,6 @@
     {
       "code": "YhwachStuff",
       "reward": "Ra Pots/giros"
-    },
-    {
-      "code": "YhwachShutdown",
-      "reward": "Oro/Orb"
     },
     {
       "code": "LastDelaySorry",
@@ -446,63 +992,19 @@
       "reward": "Giros/Orbs"
     },
     {
+      "code": "Luppi2kTwitter",
+      "reward": "Giros/Orbs"
+    },
+    {
+      "code": "Luppi1kSubs",
+      "reward": "Giros/Orbs"
+    },
+    {
+      "code": "NewTeamZaiZuko",
+      "reward": "400 giros and 10 rerolls"
+    },
+    {
       "code": "165KLikes",
-      "reward": "Giros/Orbs"
-    },
-    {
-      "code": "165KLikes2",
-      "reward": "Giros/Orbs"
-    },
-    {
-      "code": "ThankYouJOSupport",
-      "reward": "Giros orbs and rra pots"
-    },
-    {
-      "code": "SorryEventDelay2",
-      "reward": "Giros orbs and rra pots"
-    },
-    {
-      "code": "TypeShutdown",
-      "reward": "Giros/Orbs"
-    },
-    {
-      "code": "SorryForEventIssues",
-      "reward": "Giros/Orbs"
-    },
-    {
-      "code": "ThanksForPanteraSupport",
-      "reward": "Giros/Orbs"
-    },
-    {
-      "code": "BigCode100",
-      "reward": "Orbs rra pots and giros"
-    },
-    {
-      "code": "FinalResetForSpecificItems",
-      "reward": "Giros and Orbs"
-    },
-    {
-      "code": "250kMembers",
-      "reward": "Giros and Orbs"
-    },
-    {
-      "code": "TradingDisabledSorry",
-      "reward": "Giros, Rerolls, Orbs and oro"
-    },
-    {
-      "code": "ShutdownWasNeededSrry",
-      "reward": "Giros, Rerolls, Orbs and oro"
-    },
-    {
-      "code": "SorryShutdownCDRe",
-      "reward": "Giros, Rerolls and oro"
-    },
-    {
-      "code": "65MVisits1",
-      "reward": "Giros/Orbs"
-    },
-    {
-      "code": "65MVisits2",
       "reward": "Giros/Orbs"
     },
     {
@@ -514,804 +1016,310 @@
       "reward": "100 giros, 5 Rerolls"
     },
     {
+      "code": "165KLikes2",
+      "reward": "Giros/Orbs"
+    },
+    {
+      "code": "ThankYouJOSupport",
+      "reward": "Giros orbs and rra pots"
+    },
+    {
+      "code": "YhwachShutdown",
+      "reward": "Oro/Orb (needs a space after the n to work)"
+    },
+    {
+      "code": "BigCode100",
+      "reward": "Orbs rra pots and giros"
+    },
+    {
       "code": "HaddaShutdownCountdownReset",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "SorryForShutdown5000",
-      "reward": "100k oro, 10 Exp Pots"
+      "code": "70MillionVisits2",
+      "reward": "Giros, orbs, oro"
     },
     {
-      "code": "BossFixesPt2",
-      "reward": "400 giros, 10 Rerolls"
+      "code": "SorryEventDelay2",
+      "reward": "Giros orbs and rra pots"
     },
+    {
+      "code": "70MillionVisits1",
+      "reward": "Giros, rra pots, oro"
+    },
+    {
+      "code": "thereisnosuchthing",
+      "reward": "Giros/Orbs"
+    },
+    {
+      "code": "ZukoZaixoz",
+      "reward": "100 ability rerolls and 1.5k clan rerolls"
+    },
+    {
+      "code": "HONTOAPOLOGY!!",
+      "reward": "100 Clan giros, 10 Leg Orb , 10 RR Ability"
+    },
+    {
+      "code": "NEWYEARNEWPM!!",
+      "reward": "500 Clan giros , 25 Leg Orb"
+    },
+    {
+      "code": "MUGESTURETURNS",
+      "reward": "100 giros, 6 Leg orbs, 6 Ability Rerolls"
+    },
+    {
+      "code": "HONTOSPRESENT",
+      "reward": "400 giros"
+    },
+    {
+      "code": "VIDEOSATURDAY",
+      "reward": "100 giros and 5 leg orb"
+    },
+    {
+      "code": "500",
+      "reward": "Giros/Orbs"
+    },
+    {
+      "code": "ZUKO4LIFE",
+      "reward": "1 legendario Orb, 1 Ability ReRoll"
+    },
+    {
+      "code": "KyokaFix",
+      "reward": "200 rra and 1k giros"
+    },
+    {
+      "code": "AIZENUPDTHISMONTH",
+      "reward": "Giros/Orbs"
+    },
+    {
+      "code": "PMISSOBACK",
+      "reward": "100 giros, 10 Ability Rerolls, 15 legendario Orbs"
+    },
+    {
+      "code": "KIRISPRESENT",
+      "reward": "11 Leg Orbs, 11 Ability Reroll, 110 Clan giros"
+    },
+    {
+      "code": "UPDATEWILLBESOON",
+      "reward": "150 giros, 15 rrs, and 15 rerolls"
+    },
+    {
+      "code": "VALENTINES25",
+      "reward": "30 rerolls and 275 clan giros"
+    },
+    {
+      "code": "PMISBACK",
+      "reward": "200 giros , 10 Leg Orbs"
+    },
+    {
+      "code": "EidMubarak",
+      "reward": "Giros/Orbs"
+    },
+    {
+      "code": "SinfulWasHere",
+      "reward": "Giros/Orbs"
+    },
+    {
+      "code": "TYPEDEAD",
+      "reward": "10 Ability Rerolls, 600K oro"
+    },
+    {
+      "code": "PMXMAS",
+      "reward": "5 legendario Orbs, 200 giros"
+    },
+    {
+      "code": "GREENLIGHT",
+      "reward": "200 giros"
+    },
+    {
+      "code": "JoinJujutsuOdyssey",
+      "reward": "Giros and ability rerolls"
+    },
+    {
+      "code": "CommonKiotW",
+      "reward": "Giros/Orbs"
+    },
+    {
+      "code": "hotdog57",
+      "reward": "45 ability rerolls and 600 clan rerolls"
+    },
+    {
+      "code": "REDLIGHT",
+      "reward": "5 legendario Orbs, 100 giros"
+    },
+    {
+      "code": "SQUIDGAMES",
+      "reward": "5 legendario Orbs, 100 giros"
+    },
+    {
+      "code": "SAVESOULSOCIETY",
+      "reward": "5 Ability Rerolls, 5 legendario Orbs"
+    },
+    {
+      "code": "GREENIES",
+      "reward": "300 giros"
+    },
+    {
+      "code": "2025!!",
+      "reward": "5 Ability Rerolls, 5 legendario Orbs"
+    },
+    {
+      "code": "NEWYEARS",
+      "reward": "10 Ability Rerolls"
+    },
+    {
+      "code": "PMRETURNS",
+      "reward": "150 Clan giros , 20 RR Ability"
+    },
+    {
+      "code": "TYDEVTEAM!!",
+      "reward": "100 Clan giro"
+    },
+    {
+      "code": "Twitter2k",
+      "reward": "20 RRA 200 giros 5 legendario Orbs"
+    },
+    {
+      "code": "COMEBACKTIME!",
+      "reward": "200 Clan giros , 20 Leg Orbs"
+    },
+    {
+      "code": "TIME2COOK",
+      "reward": "5 Leg Orbs , 100 Clan giros"
+    },
+    {
+      "code": "PMBUGFIXES",
+      "reward": "100 giros 3 RRA"
+    },
+    {
+      "code": "HOGSERVERS",
+      "reward": "50 giros 2 RRA"
+    },
+    {
+      "code": "BUGFIXUPD",
+      "reward": "150 giros"
+    },
+    {
+      "code": "SORRYFORBUGS",
+      "reward": "50 giros 2 RRA"
+    },
+    {
+      "code": "KIRIAPOLOGY!!",
+      "reward": "100 Clan giros, 10 Leg Orb , 10 RR Ability"
+    },
+    {
+      "code": "MothersDay25",
+      "reward": "30 RRA 20 Exp Boost 300 giros 5 legendario Orbs"
+    },
+    {
+      "code": "BUGSFIXED",
+      "reward": "200 giros 25 RRA 1 Leg Orb"
+    },
+    {
+      "code": "POOKIEZOOKIE",
+      "reward": "10 Clans giros , 1 Leg Orb , 1 RR Ability"
+    },
+    {
+      "code": "AGAINFETTY",
+      "reward": "100 Clan giros , 250K Yen"
+    },
+    {
+      "code": "VALENTINES",
+      "reward": "14 Leg Orb, 140K Yen"
+    },
+    {
+      "code": "DELAYGETSU!!",
+      "reward": "2 Leg Orb , 7 RR Ability"
+    },
+    {
+      "code": "PRISMBDAY!!",
+      "reward": "170 Clan giros"
+    },
+    {
+      "code": "WERSORRY!!",
+      "reward": "150 Clan giros , 10 Leg Orb"
+    },
+    {
+      "code": "PM2025",
+      "reward": "25 Leg Orb , 250K Yen"
+    },
+    {
+      "code": "GAMESFULLYFIXEDNOW",
+      "reward": "Tons of Goodies"
+    },
+    {
+      "code": "CHOPPEDSTZ",
+      "reward": "10 RRA 100 giros 10 Exp Boost pociones"
+    },
+    {
+      "code": "Easter25",
+      "reward": "30 RRA 300 giros"
+    },
+    {
+      "code": "FathersDay25",
+      "reward": "30 RRA 20 Exp Boost 300 giros 5 legendario Orbs"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "SorryShutdownNeededFixedProblems",
       "reward": "400 giros, 15 rerolls"
     },
     {
-      "code": "SorryWandenandHueco",
-      "reward": "50k oro giros and rra pots"
+      "code": "JINNCOOKIN?",
+      "reward": "150 RRA, 500 Clan giros, 25 Leg Orbs, 25 Mastery pociones, 25 Exp Boost pociones"
     },
     {
-      "code": "SorryCountdownDelay",
-      "reward": "Giros and orbs"
+      "code": "LASNOCHES??",
+      "reward": "25 legendario Orbs, 25 RRA, 150K Yen, 666 Clan giros"
     },
     {
-      "code": "HadToShutdown",
-      "reward": "Reroll pots and oro"
-    },
-    {
-      "code": "Ididntshutdown",
-      "reward": "400 giros, 15 rerolls"
-    },
-    {
-      "code": "63MVisits",
-      "reward": "Giros and Orbs"
-    },
-    {
-      "code": "SorryTraders",
-      "reward": "Giros and Reroll Ability pociones"
-    },
-    {
-      "code": "AightLastShutdownFrFr",
-      "reward": "Orbs, oro, Reroll Ability pociones and giros"
-    },
-    {
-      "code": "245KMembers",
-      "reward": "Giros and orbs"
-    },
-    {
-      "code": "HeresForTheLostGold",
-      "reward": "85k oro"
-    },
-    {
-      "code": "OkayOkayLastShutdownSorry1",
-      "reward": "Giros + orbs + reroll ability pot"
-    },
-    {
-      "code": "ShutdownSorryNeededFixes",
+      "code": "MAPFIX?",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "NewResAbility",
-      "reward": "12 ability rerolls"
-    },
-    {
-      "code": "HeresSpinsPromised",
-      "reward": "Giros"
-    },
-    {
-      "code": "Sorry4ShutdownAgain3",
-      "reward": "80 giros, 10 orbs"
-    },
-    {
-      "code": "OkayLastShutdownAgainSorry",
-      "reward": "Giros and ability rerolls"
-    },
-    {
-      "code": "SorryForShutdown5",
-      "reward": "75 giros / 1 orb"
-    },
-    {
-      "code": "QUINCYMEDALLION",
-      "reward": "100 giros, 5 Orbs"
-    },
-    {
-      "code": "COUNTDOWNBEGINS",
-      "reward": "100 giros, 5 Orbs"
-    },
-    {
-      "code": "235kFavorites",
+      "code": "Sorryforshutdown:(",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "Syn3KFollowers",
-      "reward": "185 giros 10 leg orbs"
+      "code": "3RCK+TNT",
+      "reward": "150 Clan giros, 10 legendario Orbs, 10 RRA"
     },
     {
-      "code": "60MVisits1",
-      "reward": "This code for 10 Reroll poción and 50 giros"
+      "code": "LETUSCOOK?",
+      "reward": "50 Clan giros , 10 RR Ability giros"
     },
     {
-      "code": "60MVisits2",
-      "reward": "This code for 3 legendario Orbs and 150 giros"
+      "code": "CrksBlessing",
+      "reward": "50 Reroll Ability pociones, 25 legendario Orbs, 600 giros, 10 Exp Boost pociones, and 125000 oro"
     },
     {
-      "code": "SorryForShutDownAgainForFixes3",
-      "reward": "This code for 3 leg orbs 100 giros"
+      "code": "ThanksForShowingUp",
+      "reward": "167 giros, 100 Re-tirada ability pociones, 20 legendario Orbs"
     },
     {
-      "code": "SorryForItemInconvience",
-      "reward": "This code for 5 ability rerolls / 2 leg orbs"
-    },
-    {
-      "code": "AfkWorldChanges",
-      "reward": "This code for 15 giros, 50k oro"
-    },
-    {
-      "code": "MoreBalanceChanges2",
-      "reward": "50 giros, 5 reroll pots"
-    },
-    {
-      "code": "FixesSorryForShutdownAgain2",
-      "reward": "3 orbs, 50 giros"
-    },
-    {
-      "code": "NoMoreItemStack",
-      "reward": "50 giros, 3 reroll ability pociones"
-    },
-    {
-      "code": "GoodbyeMadarasGunbai",
-      "reward": "1 mastery Boost postion, 1 exp Boost poción, 10 giros"
-    },
-    {
-      "code": "155KLikes1",
-      "reward": "This code for 12 orbs and 125 giros"
+      "code": "IanBoomin",
+      "reward": "67 legendario Orbs, 67 Reroll Ability pociones, 67 Mastery pociones, 676767 oro, 167 giros"
     },
     {
       "code": "155KLikes2",
       "reward": "This code for 1 mastery Boost poción, 1 exp Boost poción, 3 reset race poción and 25 giros"
     },
     {
-      "code": "ClanStorageFix2",
-      "reward": "This code for 250 giros, 2 Orbs"
-    },
-    {
-      "code": "ClanStorageFix",
-      "reward": "This code for 75 giros, 3 orbs"
-    },
-    {
-      "code": "ClanStorage",
-      "reward": "This code for 180 giros"
-    },
-    {
-      "code": "58MillionVisits",
-      "reward": "This code for 50 giros, 50k oro, 10 reroll ability pociones, 5 legendario orbs"
-    },
-    {
-      "code": "HaschwalthClan",
-      "reward": "This code for 80 giros"
-    },
-    {
-      "code": "StarrkClan",
-      "reward": "This code for 80 giros"
-    },
-    {
-      "code": "TradingHubBack",
-      "reward": "This code for 5 ability rerolls , 3 legendario orbs"
-    },
-    {
-      "code": "Luppi1KFollows",
-      "reward": "This code for 30 giros, 12 ability rerolls, 50k oro"
-    },
-    {
-      "code": "SorryForGiftBugAgain",
-      "reward": "This code for 3 orbs, 12 Ability Reroll, 100 giros"
-    },
-    {
-      "code": "FixedGiftedGamepasses",
-      "reward": "This code for 85 giros"
-    },
-    {
-      "code": "TheyDoneCaughtKona",
-      "reward": "This code for 15 giros, 5 legendario orbs"
-    },
-    {
-      "code": "BANKER",
-      "reward": "This code for 3 Orbs, 100 giros"
-    },
-    {
-      "code": "152kLikes",
-      "reward": "This code for 15 Ability Rerolls, 50 giros"
-    },
-    {
-      "code": "TradingHubChanges",
-      "reward": "This code for 3 leg orbs / 15 giros"
-    },
-    {
-      "code": "NewRankedWeapons",
-      "reward": "This code for 3 Orbs, 50 giros"
-    },
-    {
-      "code": "GoodbyeExcalibur",
-      "reward": "This code for 10 Reroll pociones, 25 giros"
-    },
-    {
-      "code": "FahanTwitter",
-      "reward": "This code for recompensas gratis"
-    },
-    {
-      "code": "FahanSorry4Delay2",
-      "reward": "This code for recompensas gratis"
-    },
-    {
-      "code": "CrispyTwitterWoof",
-      "reward": "This code for 200 giros, 10 Orbs"
-    },
-    {
-      "code": "BlackButlerPublicSchoolArc",
-      "reward": "This code for 182 giros, 3 Orbs"
-    },
-    {
-      "code": "TestOrbCode",
-      "reward": "This code for 2 Orbs"
-    },
-    {
-      "code": "FirstBalanceChange",
-      "reward": "This code for 25 giros, 3 Orbs"
-    },
-    {
-      "code": "USECODESINMAINMENU",
-      "reward": "This code for 200 giros, 5 Orbs"
-    },
-    {
-      "code": "CrispyReasonForBugs",
-      "reward": "This code for 200 giros, 5 Orbs"
-    },
-    {
-      "code": "TYALL",
-      "reward": "This code for 3 Race Resets, 1 hora 2x EXP"
-    },
-    {
-      "code": "150kLikes",
-      "reward": "This code for 100 giros, 10 Orbs"
-    },
-    {
-      "code": "MoreXboxFixes",
-      "reward": "This code for mastery Boost, exp Boost, 100000 oro, rerollability"
-    },
-    {
-      "code": "RaceResetPotionFixAgain",
-      "reward": "This code for 3 race reset pociones"
-    },
-    {
-      "code": "QuincyFixes",
-      "reward": "This code for 50 giros, 1 leg orb"
-    },
-    {
-      "code": "AgainSorryForShutdown",
-      "reward": "This code for 25 giros, 2 leg orb"
-    },
-    {
-      "code": "UPDATE2MoreRerolls",
-      "reward": "This code for 5 legendario orbs, 100 giros"
-    },
-    {
-      "code": "UPDATE2MoreRerolls2",
-      "reward": "This code for 5 legendario orbs, 100 giros"
-    },
-    {
-      "code": "UPDATE2MoreRaceReset",
-      "reward": "This code for race reset 2"
-    },
-    {
-      "code": "LegacyPieceRelease",
-      "reward": "This code for 50 Clan giros"
-    },
-    {
-      "code": "DemonPieceRelease",
-      "reward": "This code for 50 Clan giros"
-    },
-    {
       "code": "Sorry4Update Delay",
       "reward": "This code for 1 legendario Orb, 25 Clan giros"
-    },
-    {
-      "code": "Sorry4UpdateDelay2",
-      "reward": "This code for 1 legendario Orb, 25 Clan giros"
-    },
-    {
-      "code": "UPDATE2RaceReset",
-      "reward": "This code for Race Reset"
-    },
-    {
-      "code": "UPDATE2RaceReset2",
-      "reward": "This code for Race Reset"
-    },
-    {
-      "code": "UPDATE2Exp",
-      "reward": "This code for 2x EXP 1 hora, 2x Mastery 1 hora"
-    },
-    {
-      "code": "UPDATE2Exp2",
-      "reward": "This code for 2x EXP 1 hora, 150k oro"
-    },
-    {
-      "code": "UPDATE2Rerolls",
-      "reward": "This code for 2 legendario Orbs"
-    },
-    {
-      "code": "UPDATE2Rerolls2",
-      "reward": "This code for 2 legendario Orbs"
-    },
-    {
-      "code": "UPDATE2Spins",
-      "reward": "This code for 100 Clan giros"
-    },
-    {
-      "code": "UPDATE2Spins2",
-      "reward": "This code for 100 Clan giros"
-    },
-    {
-      "code": "MINAZUKI",
-      "reward": "This code for 1 Ability Reroll"
-    },
-    {
-      "code": "ICHIMONJI",
-      "reward": "This code for 1 Ability Reroll"
-    },
-    {
-      "code": "NOZARASHI",
-      "reward": "This code for 1 Ability Reroll"
-    },
-    {
-      "code": "SANTATERESA",
-      "reward": "This code for 1 Ability Reroll"
-    },
-    {
-      "code": "FEAR",
-      "reward": "This code for 1 Ability Reroll"
-    },
-    {
-      "code": "HARRIBEL",
-      "reward": "This code for 1 Ability Reroll"
-    },
-    {
-      "code": "CANDICE",
-      "reward": "This code for 1 Ability Reroll"
-    },
-    {
-      "code": "SEGUNDA",
-      "reward": "This code for 1 legendario Orb"
-    },
-    {
-      "code": "VIZARD",
-      "reward": "This code for 1 legendario Orb"
-    },
-    {
-      "code": "FULLBRINGER",
-      "reward": "This code for 1 legendario Orb"
-    },
-    {
-      "code": "HONOREDONE",
-      "reward": "This code for 100 Clan giros"
-    },
-    {
-      "code": "2024C2",
-      "reward": "This code for 100 Clan giros"
-    },
-    {
-      "code": "140KLIKESBOOSTS",
-      "reward": "This code for 1 hora 30 minutos Boosts on 2x on oro / exp / mastery"
-    },
-    {
-      "code": "140KLIKESORBS",
-      "reward": "This code for 15 orbs lvl 65 requirement"
-    },
-    {
-      "code": "140KLIKESREROLL",
-      "reward": "This code for ability reroll"
-    },
-    {
-      "code": "140KLIKESSPINS",
-      "reward": "This code for 115 giros"
-    },
-    {
-      "code": "135KLIKESBOOSTS",
-      "reward": "This code for 1 hora Boosts on 2x on oro / exp / mastery"
-    },
-    {
-      "code": "135KLIKESORBS",
-      "reward": "This code for 8 orbs lvl 50 requirement"
-    },
-    {
-      "code": "135KLIKESREROLL",
-      "reward": "This code for 1 ability reroll"
-    },
-    {
-      "code": "135KLIKESSPINS",
-      "reward": "This code for 125 giros"
-    },
-    {
-      "code": "130KLIKESBOOSTS",
-      "reward": "This code for 1 hora Boosts on 2x on oro / exp / mastery"
-    },
-    {
-      "code": "130KLIKESORBS",
-      "reward": "This code for 3 orbs lvl 50 requirement"
-    },
-    {
-      "code": "130KLIKESREROLL",
-      "reward": "This code for 1 ability reroll"
-    },
-    {
-      "code": "130KLIKESSPINS",
-      "reward": "This code for 85 giros"
-    },
-    {
-      "code": "PANTERA",
-      "reward": "This code for ability reroll"
-    },
-    {
-      "code": "125KLIKESBOOSTS",
-      "reward": "This code for 1 hora Boost on 2x oro/exp/mastery"
-    },
-    {
-      "code": "125KLIKESORBS",
-      "reward": "This code for 3 orbs lvl 50 requirement"
-    },
-    {
-      "code": "125KLIKESREROLL",
-      "reward": "This code for ability reroll"
-    },
-    {
-      "code": "125KLIKESSPINS",
-      "reward": "This code for 85 giros"
-    },
-    {
-      "code": "SORRYFORSOMANY",
-      "reward": "This code for 3 orbs / 185 giros / mastery Boost on all"
-    },
-    {
-      "code": "ULQRES",
-      "reward": "This code for ability reroll"
-    },
-    {
-      "code": "ULQORB",
-      "reward": "This code for 1 leg orb"
-    },
-    {
-      "code": "EXCALIBUR",
-      "reward": "This code for 75 giros / 2x Boosts on all"
-    },
-    {
-      "code": "120KLIKESREROLL",
-      "reward": "This code for ability reroll"
-    },
-    {
-      "code": "120KLIKESBOOSTS",
-      "reward": "This code for mastery, oro, exp Boost"
-    },
-    {
-      "code": "120KLIKESORBS",
-      "reward": "This code for 3 orbs"
-    },
-    {
-      "code": "120KLIKESSPINS",
-      "reward": "This code for 85 giros"
-    },
-    {
-      "code": "JUICYRETURN",
-      "reward": "This code for 100 giros and master Boost on all"
-    },
-    {
-      "code": "SUPRISEORBS",
-      "reward": "This code for 5 leg orbs"
-    },
-    {
-      "code": "MAYBEANORBFIX",
-      "reward": "This code for 3 legendario orbs"
-    },
-    {
-      "code": "MOREBUGFIXES",
-      "reward": "This code for ability reroll"
-    },
-    {
-      "code": "ANOTHERSHUTDOWNSORRY",
-      "reward": "This code for all mastery Boosts and 85 giros"
-    },
-    {
-      "code": "SORRYFORWANDEN",
-      "reward": "This code for 75 giros"
-    },
-    {
-      "code": "BUGFIXESREROLL",
-      "reward": "This code for ability reroll"
-    },
-    {
-      "code": "MOREORBS",
-      "reward": "This code for 1 leg orb"
-    },
-    {
-      "code": "110KLIKES",
-      "reward": "This code for 100 giros"
-    },
-    {
-      "code": "ABILITYREROLLOCKEDIN",
-      "reward": "This code for Ability Reroll"
-    },
-    {
-      "code": "ABILITYREROLL",
-      "reward": "This code for Ability Reroll"
-    },
-    {
-      "code": "SORRY4BUGS",
-      "reward": "This code for 75 giros"
-    },
-    {
-      "code": "SCHRIFTS",
-      "reward": "This code for Ability Reroll"
-    },
-    {
-      "code": "QUINCY",
-      "reward": "This code for Ability Reroll"
-    },
-    {
-      "code": "SORRYFORTHEWAIT",
-      "reward": "This code for Ability Reroll"
-    },
-    {
-      "code": "NEWCLANS",
-      "reward": "This code for 150 Rerolls"
-    },
-    {
-      "code": "UPDATE1RACERESET",
-      "reward": "This code for Race Reset"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "This code for Orb and Cash"
-    },
-    {
-      "code": "GAMEMODES",
-      "reward": "This code for 2x EXP and Cash 1 hora"
-    },
-    {
-      "code": "BANKAIS",
-      "reward": "This code for 2x mastery 1 hora"
-    },
-    {
-      "code": "MothersDayLegendaryOrbndGold",
-      "reward": "This code for 2 legendario orbs and 75k oro, only obtainable if ur level 50 or higher"
-    },
-    {
-      "code": "MothersDaySpins",
-      "reward": "This code for 65 giros on every slot"
-    },
-    {
-      "code": "MothersDayMastery",
-      "reward": "This code for 1 hora mastery on all mastery"
-    },
-    {
-      "code": "OneMonthLegendaryOrb",
-      "reward": "This code for 3 legendario orbs only obtainable if u over level 45"
-    },
-    {
-      "code": "OneMonthLegendarySPINS",
-      "reward": "This code for 45 giros on every slot"
-    },
-    {
-      "code": "OneMonthREROLLAbility",
-      "reward": "This code for Reroll Ability"
-    },
-    {
-      "code": "OneMonthResetRace",
-      "reward": "This code for Reset Race"
     },
     {
       "code": "FINALLY100KLIKES",
       "reward": "This code for 1 legendario orb"
     },
     {
-      "code": "28MVISTS",
-      "reward": "This code for reroll ability"
-    },
-    {
-      "code": "UPDATESOON",
-      "reward": "This code for reroll ability"
-    },
-    {
-      "code": "95KLIKES",
-      "reward": "This code for Reroll Ability"
-    },
-    {
-      "code": "90KLIKES",
-      "reward": "This code for Reroll Ability"
-    },
-    {
-      "code": "85KLIKES",
-      "reward": "This code for 65 giros"
-    },
-    {
-      "code": "160KFAVORITES",
-      "reward": "This code for 15k oro"
-    },
-    {
-      "code": "TradingBack2",
-      "reward": "Giros and Reroll Pots"
-    },
-    {
-      "code": "MultiBarrageFix",
-      "reward": "Giros and Orbs"
-    },
-    {
-      "code": "SorryForShutdownAgain8",
-      "reward": "Giros and Orbs"
-    },
-    {
-      "code": "SynCodeMakeup",
-      "reward": "85 giros and 2 legendario orbs"
-    },
-    {
-      "code": "160KLIKES1",
-      "reward": "150 giros / 85k oro"
-    },
-    {
-      "code": "160KLIKES2",
-      "reward": "10 leg orbs and 5 ability rerolls"
-    },
-    {
-      "code": "235KMembers",
-      "reward": "This code for 3 Orbs, 2 Reroll pociones, 100 giros"
-    },
-    {
-      "code": "SorryForRaidLives",
-      "reward": "5 ability rerolls, 50 giros"
-    },
-    {
-      "code": "QuincyBowFixFinal",
-      "reward": "50 giros, 3 Orbs"
-    },
-    {
-      "code": "Antic1000Followers",
-      "reward": "3 orbs, 20 giros"
-    },
-    {
-      "code": "MoreQolAndBalances",
-      "reward": "1 orb, 5 ability rerolls, 25 giros"
-    },
-    {
-      "code": "SorryForInconvenience",
-      "reward": "5 legendario orbs, 50 giros, 3 Ability Reroll, 80k oro"
-    },
-    {
-      "code": "CheaperSpins",
-      "reward": "50 giros"
-    },
-    {
-      "code": "80KLIKES",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "HERESTHESPINS",
-      "reward": "85 giros"
-    },
-    {
-      "code": "SORRY4DASHUTDOWN",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "THANKSFOR200KMEMBERS",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "70KLIKES",
-      "reward": "85 giros"
-    },
-    {
-      "code": "EASTERUPDATE",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "FIRSTWEEKISOVER",
-      "reward": "1 hora 2x mastery"
-    },
-    {
-      "code": "60KLIKES",
-      "reward": "30 giros"
-    },
-    {
-      "code": "HERESABILITYREROLLONE",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "HERESABILITYREROLLTWO",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "HERESABILITYREROLLTHREE",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "HERESABILITYREROLLFOUR",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "HERESABILITYREROLLFIVE",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "SORRYFORPINGS",
-      "reward": "75 giros"
-    },
-    {
       "code": "SOULSOCIETYISBACK",
       "reward": "30 minuto oro Boost and Mastery Boost"
     },
     {
-      "code": "10MVISITS",
-      "reward": "50 giros"
-    },
-    {
-      "code": "EXCUSETHESHUTDOWN2",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "50KLIKES",
-      "reward": "35 giros and 10k oro"
-    },
-    {
-      "code": "SHUTDOWNABILITYREROLL",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "EXCUSETHESHUTDOWN",
-      "reward": "30 minuto exp Boost and mastery Boost and 30 giros"
-    },
-    {
-      "code": "40KLIKES",
-      "reward": "15 giros on One Slot"
-    },
-    {
-      "code": "35KLIKES",
-      "reward": "50 giros on One Slot"
-    },
-    {
-      "code": "SORRYITSEXPENSIVE",
-      "reward": "2 horas of 2x oro Buff"
-    },
-    {
-      "code": "ABILITYREROLLONE",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "ABILITYREROLLTWO",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "ABILITYREROLLTHREE",
-      "reward": "Reroll Ability"
-    },
-    {
-      "code": "ABILITYREROLLFOUR",
-      "reward": "Reroll Ability"
-    },
-    {
       "code": "RESETRACE",
       "reward": "Reset Race"
-    },
-    {
-      "code": "100KMEMBERS",
-      "reward": "Reset Resurrecci&oacute;n"
-    },
-    {
-      "code": "10KLIKES",
-      "reward": "30 minuto Mastery Boost"
-    },
-    {
-      "code": "15KLIKES",
-      "reward": "30 minuto Mastery Boost"
-    },
-    {
-      "code": "20KLIKES",
-      "reward": "Reset Shikai"
-    },
-    {
-      "code": "SHUTDOWNSPINS",
-      "reward": "25 giros"
-    },
-    {
-      "code": "EXPLOITFIXES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SORRYFORSHUTDOWN",
-      "reward": "30m 2x mastery, 30m 2x EXP, and 30 giros on each slot"
-    },
-    {
-      "code": "RELEASE",
-      "reward": "15 giros in each slot with 2x EXP"
     }
   ],
   "howToRedeem": [

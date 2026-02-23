@@ -8,67 +8,68 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "MemoryLeak",
-      "reward": "Suerte and Rank experiencia Boost"
-    },
-    {
-      "code": "Rain",
-      "reward": "Suerte Boost"
-    },
-    {
-      "code": "SubToCrazyfoxplayz",
-      "reward": "Suerte Boost"
-    },
-    {
-      "code": "RemDaBom",
-      "reward": "Suerte Boost"
-    },
-    {
-      "code": "FreeLuck",
-      "reward": "Suerte Boost"
-    },
-    {
-      "code": "YTitsJohn",
-      "reward": "6k monedas"
-    },
-    {
-      "code": "FreeCoins",
-      "reward": "5k monedas"
-    },
-    {
-      "code": "FreeGems",
-      "reward": "2.5k gemas"
-    },
-    {
-      "code": "Dungeons",
-      "reward": "X2 2-hora Currency poción"
-    },
-    {
-      "code": "ReleaseComp",
-      "reward": "30-minuto x2 Currency poción"
-    },
-    {
-      "code": "FreeCurrency",
-      "reward": "15-minuto x2 Currency poción"
+      "code": "TimeTrials",
+      "reward": "Redeem code for 30-minuto x2 suerte poción"
     },
     {
       "code": "FreePet",
-      "reward": "Raro Deer mascota"
-    },
-    {
-      "code": "Interbyte",
-      "reward": "750 monedas"
-    },
-    {
-      "code": "TimeTrials",
-      "reward": "30-minuto x2 suerte poción"
+      "reward": "Redeem code for raro Deer mascota"
     },
     {
       "code": "Release",
-      "reward": "750 monedas"
+      "reward": "Redeem code for 750 monedas"
+    },
+    {
+      "code": "Interbyte",
+      "reward": "Redeem code for 750 monedas"
+    },
+    {
+      "code": "FreeCurrency",
+      "reward": "Redeem code for 15-minuto x2 Currency poción"
+    },
+    {
+      "code": "FreeGems",
+      "reward": "Redeem code for 2.5k gemas"
+    },
+    {
+      "code": "FreeCoins",
+      "reward": "Redeem code for 5k monedas"
+    },
+    {
+      "code": "Dungeons",
+      "reward": "Redeem code for x2 2-hora Currency poción"
+    },
+    {
+      "code": "ReleaseComp",
+      "reward": "Redeem code for 30-minuto x2 Currency poción"
+    },
+    {
+      "code": "YTitsJohn",
+      "reward": "Redeem code for 6k monedas"
+    },
+    {
+      "code": "FreeLuck",
+      "reward": "Redeem code for suerte Boost"
+    },
+    {
+      "code": "RemDaBom",
+      "reward": "Redeem code for suerte Boost"
+    },
+    {
+      "code": "Rain",
+      "reward": "Redeem code for suerte Boost"
+    },
+    {
+      "code": "MemoryLeak",
+      "reward": "Redeem code for a suerte and Rank experiencia Boost"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "SubToCrazyfoxplayz",
+      "reward": "Suerte Boost"
+    }
+  ],
   "howToRedeem": [
     "Abre Banning Simulator X en Roblox",
     "Busca el icono de códigos en el menú",

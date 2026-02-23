@@ -8,23 +8,11 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "DungeonsYAY!",
-      "reward": "Giros gratis"
-    },
-    {
       "code": "GREATSWORD!",
       "reward": "Giros gratis"
     },
     {
-      "code": "UPDATE 50!",
-      "reward": "Giros gratis"
-    },
-    {
       "code": "sowwy4delay",
-      "reward": "Giros gratis"
-    },
-    {
-      "code": "UPDATE 49",
       "reward": "Giros gratis"
     },
     {
@@ -76,15 +64,27 @@
       "reward": "Giros gratis"
     },
     {
-      "code": "Katana",
+      "code": "UPDATEUPDATEUPDATE",
       "reward": "Giros gratis"
     },
     {
-      "code": "UPDATEUPDATEUPDATE",
+      "code": "DungeonsYAY!",
       "reward": "Giros gratis"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "UPDATE 50!",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "UPDATE 49",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "Katana",
+      "reward": "Giros gratis"
+    },
     {
       "code": "Katana&nbsp;",
       "reward": "Giros gratis"

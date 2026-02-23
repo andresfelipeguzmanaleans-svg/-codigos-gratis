@@ -8,68 +8,470 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "REVAMPSOON!",
-      "reward": "69 Aura giros, 69 Race giros, 1 hora of doble experiencia, 1 hora of doble suerte, and 1 hora of doble Yen"
+      "code": "DUNGEONFIX!",
+      "reward": "50 Aura giros and 50 Race giros"
     },
     {
-      "code": "FORGOTSPINS",
+      "code": "SORRYFORCOMPASS",
       "reward": "200 Grimoire giros"
     },
     {
-      "code": "100GRIM",
-      "reward": "100 Grimoire giros"
+      "code": "SNOWISGONE",
+      "reward": "2 hora of doble experiencia, 2 hora of doble suerte, and 2 hora of doble Yen"
     },
     {
-      "code": "QOL",
-      "reward": "25 Aura giros and 25 Race giros"
+      "code": "5KPLAYERS",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "SORRY4DELAY",
-      "reward": "6h of doble EXP"
+      "code": "GUIZERAYT",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "NEWUI",
-      "reward": "10k Yen"
+      "code": "4KLIKES",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "25SPINS!",
-      "reward": "25 Grimoire giros"
+      "code": "10KLIKES",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "2025BOOSTS!",
-      "reward": "Hora of doble experiencia, 1 hora of doble suerte, and 1 hora of doble Yen"
+      "code": "2MVISITS",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "CLOVER",
-      "reward": "25 Aura giros and 25 Race giros"
+      "code": "9MVISITS",
+      "reward": "Redeem code for 5 Grimoire giros"
     },
     {
-      "code": "Revamp2025",
-      "reward": "Boosts gratis"
+      "code": "8MVISITS",
+      "reward": "Redeem code for 5 Grimoire giros"
     },
     {
-      "code": "SorryForDelay",
-      "reward": "50 Aura giros, 50 Race giros, and 300 Grimoire giros"
+      "code": "4MVISITS",
+      "reward": "Redeem code for 10 minutos of doble suerte"
     },
     {
-      "code": "WINTER2024",
-      "reward": "6 horas of 2x EXP, doble Yen, doble suerte and 25 Grimoire giros"
+      "code": "5MVISITS",
+      "reward": "Redeem code for 5 Grimoire giros"
     },
     {
-      "code": "SORRYFORLATE",
-      "reward": "5 horas of triple experiencia, 100 Aura giros, 100 Race giros, 135 Grimoire giros, and 3 Crystal llaves"
+      "code": "3KPLAYERS",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "RAPRESET!",
-      "reward": "Reinicio de stats"
+      "code": "200KVISITS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "MEDTW",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "GGGAMES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "4KPLAYERS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "5KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "6KPLAYERS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "500KVISITS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "GHOKSZIN",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "10KPLAYERS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "1MVISITS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "RESET900KVISITS",
+      "reward": "Redeem code to Reset Stats"
+    },
+    {
+      "code": "INEGAMES",
+      "reward": "Redeem code for 20 Grimoire giros"
+    },
+    {
+      "code": "50KDISCORD",
+      "reward": "Redeem code for 30 minutos of doble Yen"
+    },
+    {
+      "code": "30KLIKES",
+      "reward": "Redeem code for 5 Grimoire giros"
+    },
+    {
+      "code": "25KLIKES",
+      "reward": "Redeem code for 5 Grimoire giros"
+    },
+    {
+      "code": "20KLIKES",
+      "reward": "Redeem code for Grimoire giros"
+    },
+    {
+      "code": "15KLIKES",
+      "reward": "Redeem code for 5 Grimoire giros"
+    },
+    {
+      "code": "6MVISITS",
+      "reward": "Redeem code for 5 Grimoire giros"
+    },
+    {
+      "code": "35KLIKES",
+      "reward": "Redeem code for 5 Grimoire giros"
+    },
+    {
+      "code": "7MVISITS",
+      "reward": "Redeem code for 5 Grimoire giros"
+    },
+    {
+      "code": "300KVISITS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "10KDISCORD",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "RESETSTATS2",
+      "reward": "Redeem code to Reset Stats"
+    },
+    {
+      "code": "3MVISITS",
+      "reward": "Redeem code for 30 minutos of doble EXP"
+    },
+    {
+      "code": "20MRESET",
+      "reward": "Redeem code to Reset Stats"
+    },
+    {
+      "code": "BUILDERBOY",
+      "reward": "Redeem code for 5 Aura and 5 Race giros"
+    },
+    {
+      "code": "60KLIKES",
+      "reward": "Redeem code for 5 Grimoire giros"
+    },
+    {
+      "code": "12MVISITS",
+      "reward": "Redeem code for 5 Grimoire giros"
+    },
+    {
+      "code": "13MVISITS",
+      "reward": "Redeem code for 5 Grimoire giros"
+    },
+    {
+      "code": "55KLIKES",
+      "reward": "Redeem code for 10 Aura and 10 Race giros"
+    },
+    {
+      "code": "11MVISITS",
+      "reward": "Redeem code for 10 Grimoire giros"
+    },
+    {
+      "code": "10MRESET",
+      "reward": "Redeem code for reinicio de stats"
+    },
+    {
+      "code": "45KLIKES",
+      "reward": "Redeem code for 5 Aura and 5 Race giros"
+    },
+    {
+      "code": "40KLIKES",
+      "reward": "Redeem code for 5 Aura and 5 Race giros"
+    },
+    {
+      "code": "10MVISITS",
+      "reward": "Redeem code for 5 Grimoire giros"
+    },
+    {
+      "code": "DelayedUpdateSorry",
+      "reward": "Redeem code for 50 Grimoire giros, 10 Race giros, and 10 Aura giros"
+    },
+    {
+      "code": "BRONZEBR",
+      "reward": "Redeem code for 5 Aura and 5 Race giros"
+    },
+    {
+      "code": "50KLIKES",
+      "reward": "Redeem code for 5 Aura and 5 Race giros"
+    },
+    {
+      "code": "Sorry4Shutdown",
+      "reward": "Redeem code for 10 Aura giros and 10 Race giros"
+    },
+    {
+      "code": "TradeHubFix",
+      "reward": "Redeem code for 150 magic giros"
+    },
+    {
+      "code": "StatReset!",
+      "reward": "Redeem code for Resets Stat puntos"
+    },
+    {
+      "code": "19MVISITS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "18MVISITS",
+      "reward": "Redeem code for 10 Grimoire giros"
+    },
+    {
+      "code": "16MRESET",
+      "reward": "Redeem code for reinicio de stats"
+    },
+    {
+      "code": "70KRESET",
+      "reward": "Redeem code for reinicio de stats"
+    },
+    {
+      "code": "65KLIKES",
+      "reward": "Redeem code for 10 Grimoire giros"
+    },
+    {
+      "code": "14MVISITS",
+      "reward": "Redeem code for 10 Aura giros and 10 Race giros"
+    },
+    {
+      "code": "20MVISITS",
+      "reward": "Redeem code for 1 hora triple Exp"
+    },
+    {
+      "code": "DUNGEONS",
+      "reward": "Redeem code for 10 Grimoire giros"
+    },
+    {
+      "code": "TIMEMAGIC",
+      "reward": "Redeem code for 50 Grimoire giros"
+    },
+    {
+      "code": "80KRESET",
+      "reward": "Redeem code for a reinicio de stats"
+    },
+    {
+      "code": "DungeonIsComing",
+      "reward": "Redeem code for 15 Grimoire giros"
+    },
+    {
+      "code": "WERESORRY",
+      "reward": "Redeem code for 10 Grimoire giros"
+    },
+    {
+      "code": "80KLIKES",
+      "reward": "Redeem code for 10 Grimoire giros"
+    },
+    {
+      "code": "17MVISITS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "70KLIKES",
+      "reward": "Redeem code for 10 Grimoire giros"
+    },
+    {
+      "code": "SORRYFORBUG",
+      "reward": "Redeem code for 25 of each giro"
+    },
+    {
+      "code": "75KRESET",
+      "reward": "Redeem code for reinicio de stats"
+    },
+    {
+      "code": "15MVISITS",
+      "reward": "Redeem code for 30 mins doble exp"
+    },
+    {
+      "code": "16MVISITS",
+      "reward": "Redeem code for 15 Grimoire giros"
+    },
+    {
+      "code": "75KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "LIGHTNING",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "4thOfJuly!!!",
+      "reward": "2 Crystal llaves, 25 aura giros, 25 race giros, 25 grimoire giros"
     },
     {
       "code": "RAPEVENT!",
       "reward": "85 Grimoire giros"
     },
     {
+      "code": "THANKYOUFORPLAYING!!",
+      "reward": "35 Grimoire giros"
+    },
+    {
+      "code": "FUNZY",
+      "reward": "Redeem code for 10 Aura giros and 10 Race giros"
+    },
+    {
+      "code": "21MRESET",
+      "reward": "Redeem code for reinicio de stats"
+    },
+    {
+      "code": "SORRYFORLATE",
+      "reward": "5 horas of triple experiencia, 100 Aura giros, 100 Race giros, 135 Grimoire giros, and 3 Crystal llaves"
+    },
+    {
+      "code": "NEWUI",
+      "reward": "10,000 Yen"
+    },
+    {
+      "code": "SORRY4DELAY",
+      "reward": "6 horas of 2x EXP"
+    },
+    {
       "code": "LIMITED!!!",
-      "reward": "3 horas of 3x EXP, 25 Aura giros, 25 Race giros, 50 Grimoire giros, and 2 Crystal llaves"
+      "reward": "3 horas of triple experiencia, 25 Aura giros, 25 Race giros, 50 Grimoire giros, and 2 Crystal llaves"
+    },
+    {
+      "code": "RAPRESET!",
+      "reward": "Reset stat puntos"
+    },
+    {
+      "code": "QOL",
+      "reward": "25 Aura giros & 25 Race giros"
+    },
+    {
+      "code": "100GRIM",
+      "reward": "100 grim giros"
+    },
+    {
+      "code": "EASTEREVENTGONE",
+      "reward": "1hr of 2x suerte"
+    },
+    {
+      "code": "UPDATESTATRESET",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "EXPCODEISREAL",
+      "reward": "1hr of 3x exp"
+    },
+    {
+      "code": "REALAURASPIN",
+      "reward": "30 Aura giros"
+    },
+    {
+      "code": "RACESPINYAY",
+      "reward": "30 Race giros"
+    },
+    {
+      "code": "600KMEMBERS",
+      "reward": "300 Magic giros"
+    },
+    {
+      "code": "VisualBetterThanLev",
+      "reward": "10 of each giro"
+    },
+    {
+      "code": "VisualBlindReal",
+      "reward": "200 magic giros"
+    },
+    {
+      "code": "VisualDiedToLava",
+      "reward": "50 magic giros"
+    },
+    {
+      "code": "TIKTOK",
+      "reward": "20 of each giro"
+    },
+    {
+      "code": "VisualLikesFeet",
+      "reward": "200 magic giros"
+    },
+    {
+      "code": "GAMEFUNZY",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BobLove",
+      "reward": "2h 2x EXP"
+    },
+    {
+      "code": "625KMEMBERS",
+      "reward": "1h doble yen"
+    },
+    {
+      "code": "MikalghostpingL",
+      "reward": "69 of each giro"
+    },
+    {
+      "code": "DOWNTIMECODE",
+      "reward": "50 Aura giros, 50 Race giros, 200 Grimoire giros, and 3x EXP for 3 horas"
+    },
+    {
+      "code": "GAMEFUNZYTIKTOK",
+      "reward": "2 horas of 2x EXP, 69 Aura giros, 69 Race giros and 150 Grimoire giros"
+    },
+    {
+      "code": "LHacker",
+      "reward": "10 race giros, 10 aura giros, 69 grimiore giros"
+    },
+    {
+      "code": "QOL!",
+      "reward": "25 Aura giros, 25 Grimoire giros, 2500 Yen"
+    },
+    {
+      "code": "FIX!",
+      "reward": "25 Aura giros, 25 Grimoire giros, 2500 Yen, 2 horas of triple experiencia"
+    },
+    {
+      "code": "SORRYFORBUGS",
+      "reward": "2 Crystal llaves,50 aura giros, 50 race giros, 50 grimoire giros, and 2 horas of triple experiencia"
+    },
+    {
+      "code": "WINTER2024",
+      "reward": "6 horas of doble experiencia, 6 horas of doble suerte, 6 horas of doble Yen, and 25 Grimoire giros"
+    },
+    {
+      "code": "CLOVER",
+      "reward": "25 Aura giros & 25 Race giros"
+    },
+    {
+      "code": "2025BOOSTS!",
+      "reward": "1 hora of doble experiencia, 1 hora of doble suerte, and 1 hora of doble Yen"
+    },
+    {
+      "code": "25SPINS!",
+      "reward": "25 Grimoire giros"
+    },
+    {
+      "code": "Revamp2025",
+      "reward": "2 horas of doble experiencia, 2 horas of doble suerte, 2 horas of doble Yen"
+    },
+    {
+      "code": "SorryForDelay",
+      "reward": "50 Aura giros, 50 Race giros, and 300 Grimoire giros"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "REVAMPSOON!",
+      "reward": "69 Aura giros, 69 Race giros, 1 hora of doble experiencia, 1 hora of doble suerte, and 1 hora of doble Yen"
+    },
+    {
+      "code": "FORGOTSPINS",
+      "reward": "200 Grimoire giros"
     },
     {
       "code": "THANKYOUFORPLAYING!",
@@ -80,474 +482,20 @@
       "reward": "2 Crystal llaves, 25 Aura giros, 25 Race giros, 25 Grimoire giros, and 3 horas of 3x EXP"
     },
     {
-      "code": "4thOfJuly!!!",
-      "reward": "2 Crystal llaves, 25 Aura giros, 25 Race giros, and 25 Grimoire giros"
-    },
-    {
       "code": "SORRYFORBUGS!",
       "reward": "2 Crystal llaves, 50 Aura giros, 50 Race giros, 50 Grimoire giros, and 2 horas of 3x experiencia"
     },
     {
-      "code": "FIX!",
-      "reward": "25 Aura giros, 25 Grimoire giros, 2,500 Yen, and 2 horas of 3x EXP"
+      "code": "WE<3LEV&amp;VISUAL",
+      "reward": "50 of each giros"
     },
     {
-      "code": "QOL!",
-      "reward": "25 Aura giros, 25 Grimoire giros, and 2,500 Yen"
-    },
-    {
-      "code": "FUNZY",
-      "reward": "10 Aura giros and 10 Race giros"
-    },
-    {
-      "code": "GAMEFUNZYTIKTOK",
-      "reward": "150 Grimiore giros, 69 Aura/Race giros, and 2 horas of 2x EXP"
-    },
-    {
-      "code": "GAMEFUNZY",
-      "reward": "5 Aura giros and 5 Race giros"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "WINTER2024",
-      "reward": "6 horas of doble experiencia, 6 horas of doble suerte, 6 horas of doble Yen, and 25 Grimoire giros"
-    },
-    {
-      "code": "100GRIM",
-      "reward": "100 grim giros"
-    },
-    {
-      "code": "QOL",
-      "reward": "25 Aura giros & 25 Race giros"
-    },
-    {
-      "code": "SORRY4DELAY",
-      "reward": "6 horas of 2x EXP"
-    },
-    {
-      "code": "NEWUI",
-      "reward": "10,000 Yen"
-    },
-    {
-      "code": "GAMEFUNZY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FUNZY",
-      "reward": "10 Aura giros and 10 Race giros"
-    },
-    {
-      "code": "SORRYFORLATE",
-      "reward": "5 horas of triple experiencia, 100 Aura giros, 100 Race giros, 135 Grimoire giros, and 3 Crystal llaves"
-    },
-    {
-      "code": "RAPEVENT!",
-      "reward": "85 Grimoire giros"
-    },
-    {
-      "code": "RAPRESET!",
-      "reward": "Reset stat puntos"
-    },
-    {
-      "code": "LIMITED!!!",
-      "reward": "3 horas of triple experiencia, 25 Aura giros, 25 Race giros, 50 Grimoire giros, and 2 Crystal llaves"
-    },
-    {
-      "code": "THANKYOUFORPLAYING!!",
-      "reward": "35 Grimoire giros"
-    },
-    {
-      "code": "4thOfJuly!!!",
-      "reward": "2 Crystal llaves, 25 aura giros, 25 race giros, 25 grimoire giros"
-    },
-    {
-      "code": "SORRYFORBUGS",
-      "reward": "2 Crystal llaves,50 aura giros, 50 race giros, 50 grimoire giros, and 2 horas of triple experiencia"
-    },
-    {
-      "code": "FIX!",
-      "reward": "25 Aura giros, 25 Grimoire giros, 2500 Yen, 2 horas of triple experiencia"
-    },
-    {
-      "code": "QOL!",
-      "reward": "25 Aura giros, 25 Grimoire giros, 2500 Yen"
+      "code": "3kCCU!*",
+      "reward": "2 Crystal llaves, 25 aura giros, 25 race giros, 25 grimoire giros, and 3 horas of triple experiencia"
     },
     {
       "code": "WE&lt;3LEV&amp;VISUAL",
       "reward": "50 of each giros"
-    },
-    {
-      "code": "LHacker",
-      "reward": "10 race giros, 10 aura giros, 69 grimiore giros"
-    },
-    {
-      "code": "GAMEFUNZYTIKTOK",
-      "reward": "2 horas of 2x EXP, 69 Aura giros, 69 Race giros and 150 Grimoire giros"
-    },
-    {
-      "code": "DOWNTIMECODE",
-      "reward": "50 Aura giros, 50 Race giros, 200 Grimoire giros, and 3x EXP for 3 horas"
-    },
-    {
-      "code": "MikalghostpingL",
-      "reward": "69 of each giro"
-    },
-    {
-      "code": "625KMEMBERS",
-      "reward": "1h doble Yen"
-    },
-    {
-      "code": "BobLove",
-      "reward": "2h 2x EXP"
-    },
-    {
-      "code": "VisualLikesFeet",
-      "reward": "200 magic giros"
-    },
-    {
-      "code": "TIKTOK",
-      "reward": "20 of each giro"
-    },
-    {
-      "code": "VisualDiedToLava",
-      "reward": "50 magic giros"
-    },
-    {
-      "code": "VisualBlindReal",
-      "reward": "200 magic giros"
-    },
-    {
-      "code": "VisualBetterThanLev",
-      "reward": "10 of each giro"
-    },
-    {
-      "code": "600KMEMBERS",
-      "reward": "300 Magic giros"
-    },
-    {
-      "code": "RACESPINYAY",
-      "reward": "30 Race giros"
-    },
-    {
-      "code": "REALAURASPIN",
-      "reward": "30 Aura giros"
-    },
-    {
-      "code": "EXPCODEISREAL",
-      "reward": "1hr of 3x exp"
-    },
-    {
-      "code": "UPDATESTATRESET",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "EASTEREVENTGONE",
-      "reward": "1hr of 2x suerte"
-    },
-    {
-      "code": "21MRESET",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "TradeHubFix",
-      "reward": "150 magic giros"
-    },
-    {
-      "code": "DelayedUpdateSorry",
-      "reward": "50 Grimoire giros, 10 Race giros, and 10 Aura giros"
-    },
-    {
-      "code": "StatReset!",
-      "reward": "Resets Stat puntos"
-    },
-    {
-      "code": "SORRYFORBUG",
-      "reward": "25 of each giro"
-    },
-    {
-      "code": "20MVISITS",
-      "reward": "1 hora triple Exp"
-    },
-    {
-      "code": "20MRESET",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "DUNGEONS",
-      "reward": "10 Grimoire giros"
-    },
-    {
-      "code": "TIMEMAGIC",
-      "reward": "50 Grimoire giros"
-    },
-    {
-      "code": "WERESORRY",
-      "reward": "10 Grimoire giros"
-    },
-    {
-      "code": "19MVISITS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "LIGHTNING",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "18MVISITS",
-      "reward": "10 Grimoire giros"
-    },
-    {
-      "code": "80KLIKES",
-      "reward": "10 Grimoire giros"
-    },
-    {
-      "code": "80KRESET",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "17MVISITS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "75KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "75KRESET",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "Sorry4Shutdown",
-      "reward": "10 Aura giros and 10 Race giros"
-    },
-    {
-      "code": "16MVISITS",
-      "reward": "15 Grimoire giros"
-    },
-    {
-      "code": "16MRESET",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "70KLIKES",
-      "reward": "10 Grimoire giros"
-    },
-    {
-      "code": "70KRESET",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "65KLIKES",
-      "reward": "10 Grimoire giros"
-    },
-    {
-      "code": "14MVISITS",
-      "reward": "10 Aura giros and 10 Race giros"
-    },
-    {
-      "code": "15MVISITS",
-      "reward": "30 mins doble exp"
-    },
-    {
-      "code": "DungeonIsComing",
-      "reward": "15 Grimoire giros"
-    },
-    {
-      "code": "BUILDERBOY",
-      "reward": "5 Aura and 5 Race giros"
-    },
-    {
-      "code": "BRONZEBR",
-      "reward": "5 Aura and 5 Race giros"
-    },
-    {
-      "code": "60KLIKES",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "12MVISITS",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "13MVISITS",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "55KLIKES",
-      "reward": "10 Aura and 10 Race giros"
-    },
-    {
-      "code": "11MVISITS",
-      "reward": "10 Grimoire giros"
-    },
-    {
-      "code": "10MRESET",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "50KLIKES",
-      "reward": "5 Aura and 5 Race giros"
-    },
-    {
-      "code": "45KLIKES",
-      "reward": "5 Aura and 5 Race giros"
-    },
-    {
-      "code": "40KLIKES",
-      "reward": "5 Aura and 5 Race giros"
-    },
-    {
-      "code": "10MVISITS",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "9MVISITS",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "8MVISITS",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "7MVISITS",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "35KLIKES",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "5MVISITS",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "6MVISITS",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "15KLIKES",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "20KLIKES",
-      "reward": "Grimoire giros"
-    },
-    {
-      "code": "25KLIKES",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "30KLIKES",
-      "reward": "5 Grimoire giros"
-    },
-    {
-      "code": "3MVISITS",
-      "reward": "30 minutos of doble EXP"
-    },
-    {
-      "code": "4MVISITS",
-      "reward": "10 minutos of doble suerte"
-    },
-    {
-      "code": "50KDISCORD",
-      "reward": "30 minutos of doble Yen"
-    },
-    {
-      "code": "INEGAMES",
-      "reward": "20 Grimoire giros"
-    },
-    {
-      "code": "2MVISITS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1MVISITS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "10KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "10KPLAYERS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "RESET900KVISITS",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "GHOKSZIN",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "500KVISITS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "6KPLAYERS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "5KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "4KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "RESETSTATS2",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "10KDISCORD",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "300KVISITS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "5KPLAYERS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "4KPLAYERS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "GGGAMES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MEDTW",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "GUIZERAYT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "200KVISITS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "3KPLAYERS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "DUNGEONFIX!",
-      "reward": "50 Aura giros and 50 Race giros"
-    },
-    {
-      "code": "SNOWISGONE",
-      "reward": "2 hora of doble experiencia, 2 hora of doble suerte, and 2 hora of doble Yen"
-    },
-    {
-      "code": "SORRYFORCOMPASS",
-      "reward": "200 Grimoire giros"
     },
     {
       "code": "TRADINGFIX",

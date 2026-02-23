@@ -8,20 +8,12 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "reaching200kfavorites",
-      "reward": "1.200 Mana"
+      "code": "sub2carbonmeister",
+      "reward": "1000 gemas"
     },
     {
-      "code": "thankyou4the100k",
-      "reward": "2400 Mana"
-    },
-    {
-      "code": "amazing25klikes",
-      "reward": "30x Mana Per Min"
-    },
-    {
-      "code": "thanks4the50k",
-      "reward": "30x Mana Per Min"
+      "code": "sub2planetmilo",
+      "reward": "1000 gemas"
     },
     {
       "code": "onehundredkmembers",
@@ -52,6 +44,10 @@
       "reward": "10000 gemas"
     },
     {
+      "code": "hypership",
+      "reward": "2500 gemas"
+    },
+    {
       "code": "bigupdate",
       "reward": "10000 gemas"
     },
@@ -68,12 +64,20 @@
       "reward": "1000 gemas"
     },
     {
-      "code": "sub2carbonmeister",
-      "reward": "1000 gemas"
+      "code": "reaching200kfavorites",
+      "reward": "1.200 Mana"
     },
     {
-      "code": "sub2planetmilo",
-      "reward": "1000 gemas"
+      "code": "amazing25klikes",
+      "reward": "30x Mana Per Min"
+    },
+    {
+      "code": "thankyou4the100k",
+      "reward": "2400 Mana"
+    },
+    {
+      "code": "thanks4the50k",
+      "reward": "30x Mana Per Min"
     }
   ],
   "expiredCodes": [],

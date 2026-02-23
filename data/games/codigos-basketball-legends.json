@@ -8,13 +8,143 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "HEARTBURST",
+      "reward": "Exclusivo effect"
+    },
+    {
+      "code": "JANUARY",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "500KFAVS",
-      "reward": "Recompensas"
+      "reward": "Recompensas gratis"
     },
     {
       "code": "TURKEY25",
-      "reward": "Halloween Case"
+      "reward": "Recompensas gratis"
     },
+    {
+      "code": "DELAYED",
+      "reward": "1x Halloween skin Case"
+    },
+    {
+      "code": "CLANS",
+      "reward": "1x Halloween Case"
+    },
+    {
+      "code": "SUPERSCARY",
+      "reward": "1x Halloween skin Case"
+    },
+    {
+      "code": "SUPERSPOOKY",
+      "reward": "1x Halloween Case"
+    },
+    {
+      "code": "JAMALBANANAPUDDING",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "banana",
+      "reward": "1x Elite Case"
+    },
+    {
+      "code": "JAMALCHOCOLATEPUDDING",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MAGICAL",
+      "reward": "1x Elite Case"
+    },
+    {
+      "code": "DELAYSKIN",
+      "reward": "1x Summer25 skin cofre"
+    },
+    {
+      "code": "DELAYCASE",
+      "reward": "1x Summer25 Effect cofre"
+    },
+    {
+      "code": "SUMMER25",
+      "reward": "1x Summer25 Effect cofre"
+    },
+    {
+      "code": "ANIMEBOSSRAID",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "USA2025",
+      "reward": "10,000 monedas"
+    },
+    {
+      "code": "ANIMECASE",
+      "reward": "Monedas"
+    },
+    {
+      "code": "FESTIVE24",
+      "reward": "Warped Code Effect"
+    },
+    {
+      "code": "ELECTRIC",
+      "reward": "2,000 monedas"
+    },
+    {
+      "code": "XMAS24",
+      "reward": "X1 Christmas Case"
+    },
+    {
+      "code": "SANTA24",
+      "reward": "X1 Christmas skin Case"
+    },
+    {
+      "code": "220KLIKES",
+      "reward": "Monedas"
+    },
+    {
+      "code": "200KLIKES",
+      "reward": "Monedas"
+    },
+    {
+      "code": "CHAMPIONS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "2025",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ANIMECASE2",
+      "reward": "1x Anime Case #2"
+    },
+    {
+      "code": "VALENTINES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TYFOR100K",
+      "reward": "X1 Spring 2024 Case"
+    },
+    {
+      "code": "SPACE2",
+      "reward": "1X Space Case #2"
+    },
+    {
+      "code": "STPATRICKS",
+      "reward": "1x Spring 2025 Case"
+    },
+    {
+      "code": "210KLIKES",
+      "reward": "Monedas"
+    },
+    {
+      "code": "THANKSGIVING24",
+      "reward": "2x Halloween 2024 case EFFECT"
+    },
+    {
+      "code": "SPRING2025",
+      "reward": "1x Spring 2025 Case"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "FALLDAY",
       "reward": "Exclusivo Banner"
@@ -24,68 +154,8 @@
       "reward": "Halloween Case"
     },
     {
-      "code": "CLANS",
-      "reward": "Halloween Case"
-    },
-    {
-      "code": "DELAYED",
-      "reward": "Skin Halloween Case"
-    },
-    {
       "code": "UPCOMING",
       "reward": "Halloween Case"
-    },
-    {
-      "code": "SUPERSPOOKY",
-      "reward": "Halloween Case"
-    },
-    {
-      "code": "SUPERSCARY",
-      "reward": "Halloween skin Case"
-    },
-    {
-      "code": "JAMALCHOCOLATEPUDDING",
-      "reward": "UBV's Effect"
-    },
-    {
-      "code": "JAMALBANANAPUDDING",
-      "reward": "Jamal's Duck"
-    },
-    {
-      "code": "banana",
-      "reward": "1 Elite cofre"
-    },
-    {
-      "code": "MAGICAL",
-      "reward": "1 Elite cofre"
-    },
-    {
-      "code": "SUMMER25",
-      "reward": "1 Summer25 Effect cofre"
-    },
-    {
-      "code": "DELAYCASE",
-      "reward": "1 Summer25 Effect cofre"
-    },
-    {
-      "code": "DELAYSKIN",
-      "reward": "1 Summer25 skin cofre"
-    },
-    {
-      "code": "USA2025",
-      "reward": "For 10k monedas"
-    },
-    {
-      "code": "CHAMPIONS",
-      "reward": "For recompensas gratis"
-    },
-    {
-      "code": "SPACE2",
-      "reward": "Space Case #2"
-    },
-    {
-      "code": "ELECTRIC",
-      "reward": "2k monedas"
     },
     {
       "code": "300KLIKES",
@@ -96,24 +166,8 @@
       "reward": "Aurora ball skin gratis"
     },
     {
-      "code": "STPATRICKS",
-      "reward": "Spring 2025 Case"
-    },
-    {
-      "code": "SPRING2025",
-      "reward": "Spring 2025 Case"
-    },
-    {
-      "code": "VALENTINES",
-      "reward": "10k monedas"
-    },
-    {
       "code": "280KLIKES",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ANIMECASE2",
-      "reward": "1x Anime Case #2"
     },
     {
       "code": "270KLIKES",
@@ -124,36 +178,12 @@
       "reward": "5k monedas"
     },
     {
-      "code": "2025",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TYFOR100K",
-      "reward": "Spring 2024 Case"
-    },
-    {
-      "code": "XMAS24",
-      "reward": "Christmas Case"
-    },
-    {
-      "code": "SANTA24",
-      "reward": "Christmas skin Case"
-    },
-    {
-      "code": "FESTIVE24",
-      "reward": "Warped Code Effect"
-    },
-    {
       "code": "ALMOSTXMAS",
       "reward": "Recompensas gratis"
     },
     {
       "code": "250KLIKES",
       "reward": "5k monedas"
-    },
-    {
-      "code": "THANKSGIVING24",
-      "reward": "Effect Case"
     },
     {
       "code": "240KLIKES",
@@ -164,20 +194,8 @@
       "reward": "5k monedas"
     },
     {
-      "code": "220KLIKES",
-      "reward": "5k monedas"
-    },
-    {
       "code": "SPOOKY2",
       "reward": "Halloween Case"
-    },
-    {
-      "code": "ANIMECASE",
-      "reward": "Anime Case"
-    },
-    {
-      "code": "200KLIKES",
-      "reward": "15k monedas"
     },
     {
       "code": "190KLIKES",
@@ -198,204 +216,170 @@
     {
       "code": "SUMMER24",
       "reward": "Summer Case"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "friday13banners",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "SPOOKY",
+      "reward": "Redeem code for recompensas gratis"
+    },
     {
       "code": "BIRTHDAY",
       "reward": "1x Birthday Exalted Effect"
     },
     {
-      "code": "190KLIKES",
-      "reward": "5,000 monedas"
-    },
-    {
-      "code": "180KLIKES",
-      "reward": "5,000 monedas"
-    },
-    {
-      "code": "170KLIKES",
-      "reward": "5,000 monedas"
-    },
-    {
-      "code": "SUMMER24",
-      "reward": "X1 Summer Case"
+      "code": "SORRY4REBOOT",
+      "reward": "Redeem code for a limitado time skins case gratis"
     },
     {
       "code": "NEWCASE",
-      "reward": "X1 Effect Case #3"
+      "reward": "Redeem code for x1 Effect Case #3"
     },
     {
       "code": "DELAYLEGENDS",
-      "reward": "Musical Phenomenon Effect"
-    },
-    {
-      "code": "MEMORIALDAY24",
-      "reward": "10,000 monedas"
-    },
-    {
-      "code": "150KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "160KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CYBER",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "GALAXY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ECLIPSE24",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "EASTER24",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HL1KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "IMLUCKYTODAY",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for Musical Phenomenon Effect"
     },
     {
       "code": "120KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "130KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "IRISHSPRINGGREEN",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SORRY4REBOOT",
-      "reward": "Limitado time skins case gratis"
-    },
-    {
-      "code": "100KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "2024",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "JOLLY",
-      "reward": "1X CHRISTMAS CASE"
-    },
-    {
-      "code": "80KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BLACKFRIDAY",
-      "reward": "Effect Case #1 gratis"
-    },
-    {
-      "code": "70KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "60KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "friday13effects",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "friday13skins",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "friday13banners",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SPOOKY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "50KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "40KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "REWARDS",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "LOBCITY",
-      "reward": "10,000 monedas"
-    },
-    {
-      "code": "30KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BOOST",
-      "reward": "FOR 30 MINS 2x monedas BOOSTER"
-    },
-    {
-      "code": "20KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SKINS",
-      "reward": "3 moneda skin Case #1"
-    },
-    {
-      "code": "CHEESY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "COINS",
-      "reward": "10,000 monedas"
-    },
-    {
-      "code": "10KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "5KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for 10,000 monedas"
     },
     {
       "code": "1KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "HL1KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BLACKFRIDAY",
+      "reward": "Redeem code for a Effect Case #1 gratis"
+    },
+    {
+      "code": "40KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "10KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "MEMORIALDAY24",
+      "reward": "Redeem code for 10,000 monedas"
+    },
+    {
+      "code": "130KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "friday13effects",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "30KLIKES",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "SORRY",
-      "reward": "Recompensas gratis"
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "HEARTBURST",
-      "reward": "Exclusivo effect"
+      "code": "CYBER",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "JANUARY",
-      "reward": "Recompensas gratis"
+      "code": "100KLIKES",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
-      "code": "ANIMEBOSSRAID",
-      "reward": "Recompensas gratis"
+      "code": "SKINS",
+      "reward": "Redeem code for 3 moneda skin Case #1"
     },
     {
-      "code": "210KLIKES",
-      "reward": "Monedas"
+      "code": "EASTER24",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "80KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "COINS",
+      "reward": "Redeem code for 10,000 monedas"
+    },
+    {
+      "code": "160KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "20KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "150KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "GALAXY",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "ECLIPSE24",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "IMLUCKYTODAY",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "IRISHSPRINGGREEN",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "2024",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "JOLLY",
+      "reward": "Redeem code for 1X CHRISTMAS CASE"
+    },
+    {
+      "code": "70KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "friday13skins",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "50KLIKES",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "REWARDS",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "BOOST",
+      "reward": "Redeem code for FOR 30 MINS 2x monedas BOOSTER"
+    },
+    {
+      "code": "CHEESY",
+      "reward": "Redeem code for recompensas gratis"
+    },
+    {
+      "code": "5KLIKES",
+      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "TRIM",

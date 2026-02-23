@@ -8,29 +8,35 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "SorryForMobile",
-      "reward": "3 gemas"
+      "code": "String",
+      "reward": "300k beli"
+    },
+    {
+      "code": "SecondSea",
+      "reward": "Five gemas"
+    },
+    {
+      "code": "Legend",
+      "reward": "Three gemas"
+    },
+    {
+      "code": "NewWorld",
+      "reward": "Three gemas"
     },
     {
       "code": "Updateeeee",
       "reward": "5 Race giros"
     },
     {
-      "code": "SecondSea",
-      "reward": "5 gemas"
-    },
-    {
-      "code": "NewWorld",
-      "reward": "3 gemas"
+      "code": "SorryForMobile",
+      "reward": "Three gemas"
     },
     {
       "code": "10MVISITS",
-      "reward": "100K Beli"
-    },
-    {
-      "code": "Legend",
-      "reward": "3 gemas"
-    },
+      "reward": "100k beli"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "Race",
       "reward": "5 giros"
@@ -96,7 +102,6 @@
       "reward": "1 gemas"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Legend Piece en Roblox",
     "Busca el icono de códigos en el menú",

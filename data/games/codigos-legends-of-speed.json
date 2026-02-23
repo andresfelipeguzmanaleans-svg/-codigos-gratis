@@ -8,31 +8,35 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "sparkles300",
-      "reward": "300 gemas"
+      "code": "swiftjungle1000",
+      "reward": "1000 gemas"
     },
     {
-      "code": "hyper250",
-      "reward": "250 Steps"
-    },
-    {
-      "code": "legends500",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "racer300",
-      "reward": "300 Steps"
-    },
-    {
-      "code": "speedchampion000",
+      "code": "SPEEDCHAMPION000",
       "reward": "5,000 gemas"
     },
     {
-      "code": "Launch200",
+      "code": "SPRINT250",
+      "reward": "250 Steps"
+    },
+    {
+      "code": "LAUNCH200",
       "reward": "200 gemas"
     },
     {
-      "code": "SPRINT250",
+      "code": "LEGENDS500",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "SPARKLES300",
+      "reward": "300 gemas"
+    },
+    {
+      "code": "RACER300",
+      "reward": "300 Steps"
+    },
+    {
+      "code": "HYPER250",
       "reward": "250 Steps"
     }
   ],

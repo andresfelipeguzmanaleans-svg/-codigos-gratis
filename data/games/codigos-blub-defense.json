@@ -8,19 +8,20 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "Holiday",
-      "reward": "Monedas gratis"
+      "code": "blub",
+      "reward": "Redeem code for 500 monedas"
     },
+    {
+      "code": "Holiday",
+      "reward": "Redeem code for monedas gratis"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "1k",
       "reward": "Monedas gratis"
-    },
-    {
-      "code": "blub",
-      "reward": "500 monedas"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Blub Defense en Roblox",
     "Busca el icono de códigos en el menú",

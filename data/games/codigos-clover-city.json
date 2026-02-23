@@ -8,39 +8,40 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "NICE",
-      "reward": "$2674 and an Emote"
-    },
-    {
-      "code": "SUMMER",
-      "reward": "$20,000 and an Emote"
-    },
-    {
-      "code": "HELP",
-      "reward": "10,000 Cash"
-    },
-    {
-      "code": "EMOTES",
-      "reward": "2,000 Cash and various emotes"
-    },
-    {
       "code": "FIRE",
-      "reward": "2,000 Cash and various emotes"
+      "reward": "Redeem code for 2,000 Cash and various emotes"
     },
     {
       "code": "RYO",
-      "reward": "1,000 Cash, and the Ryo emote"
-    },
-    {
-      "code": "CLUBCLOVER",
-      "reward": "2,000 Cash, and the ClubClover emote"
+      "reward": "Redeem code for 1,000 Cash, and the Ryo emote"
     },
     {
       "code": "ARRG",
-      "reward": "1,000 Cash and the Map emote"
+      "reward": "Redeem code for 1,000 Cash and the Map emote"
+    },
+    {
+      "code": "NICE",
+      "reward": "Redeem code for $2674 and an Emote"
+    },
+    {
+      "code": "SUMMER",
+      "reward": "Redeem code for $20,000 and an Emote"
+    },
+    {
+      "code": "CLUBCLOVER",
+      "reward": "Redeem code for 2,000 Cash, and the ClubClover emote"
+    },
+    {
+      "code": "EMOTES",
+      "reward": "Redeem code for 2,000 Cash and various emotes"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "HELP",
+      "reward": "10,000 Cash"
+    }
+  ],
   "howToRedeem": [
     "Abre Clover City en Roblox",
     "Busca el icono de códigos en el menú",
