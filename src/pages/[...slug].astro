@@ -24,8 +24,11 @@ interface GameData {
   playerCount?: number;
   totalVisits?: number;
   likes?: number;
+  favourites?: number;
   genre?: string;
   placeId?: number;
+  universeId?: number;
+  developer?: string;
 }
 
 export async function getStaticPaths() {
@@ -69,6 +72,23 @@ function formatNumber(n: number): string {
 
 const validThumb = game.thumbnail && game.thumbnail.startsWith('https://tr.rbxcdn.com');
 
+// Fallback SEO texts — use JSON field if present, otherwise generate from data
+const favCount = game.favourites || game.likes || 0;
+const devName = game.developer || '';
+const genreLabel = game.genre && game.genre !== 'All' ? ` de ${game.genre}` : '';
+const visitsLabel = game.totalVisits ? `más de ${formatNumber(game.totalVisits)} visitas` : '';
+const favsLabel = favCount ? `${formatNumber(favCount)} favoritos` : '';
+const statsPhrase = [visitsLabel, favsLabel].filter(Boolean).join(' y ');
+
+const introContent = game.introText
+  || `${game.name} es un juego${genreLabel} en Roblox${devName ? ` creado por ${devName}` : ''}. ${statsPhrase ? `El juego tiene ${statsPhrase}. ` : ''}Actualmente tenemos ${game.activeCodes.length} código${game.activeCodes.length !== 1 ? 's' : ''} activo${game.activeCodes.length !== 1 ? 's' : ''} y ${game.expiredCodes.length} código${game.expiredCodes.length !== 1 ? 's' : ''} expirado${game.expiredCodes.length !== 1 ? 's' : ''} para ${game.name}.`;
+
+const whatAreCodesContent = game.whatAreCodes
+  || `Los códigos de ${game.name} son combinaciones de texto que puedes canjear dentro del juego para obtener recompensas gratuitas como monedas, gemas, potenciadores y objetos exclusivos sin gastar Robux.`;
+
+const howToGetCodesContent = game.howToGetCodes
+  || `Guarda esta página en favoritos porque la actualizamos regularmente.${devName ? ` También puedes seguir a ${devName} en Roblox para enterarte de los nuevos códigos.` : ''} Los códigos suelen publicarse en el Discord del juego y con cada actualización.`;
+
 const mesesES = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
 const now = new Date();
 const mesAnio = `${mesesES[now.getMonth()]} ${now.getFullYear()}`;
@@ -103,21 +123,17 @@ const faqEntries: { '@type': string; name: string; acceptedAnswer: { '@type': st
   },
 ];
 
-if (game.whatAreCodes) {
-  faqEntries.push({
-    '@type': 'Question',
-    name: `¿Qué son los códigos de ${game.name}?`,
-    acceptedAnswer: { '@type': 'Answer', text: game.whatAreCodes },
-  });
-}
+faqEntries.push({
+  '@type': 'Question',
+  name: `¿Qué son los códigos de ${game.name}?`,
+  acceptedAnswer: { '@type': 'Answer', text: whatAreCodesContent },
+});
 
-if (game.howToGetCodes) {
-  faqEntries.push({
-    '@type': 'Question',
-    name: `¿Cómo conseguir más códigos de ${game.name}?`,
-    acceptedAnswer: { '@type': 'Answer', text: game.howToGetCodes },
-  });
-}
+faqEntries.push({
+  '@type': 'Question',
+  name: `¿Cómo conseguir más códigos de ${game.name}?`,
+  acceptedAnswer: { '@type': 'Answer', text: howToGetCodesContent },
+});
 
 const faqSchema = {
   '@context': 'https://schema.org',
@@ -182,7 +198,7 @@ const faqSchema = {
       </section>
 
       <!-- Stats -->
-      {(game.playerCount || game.totalVisits || game.likes) && (
+      {(game.playerCount || game.totalVisits || game.likes || game.favourites) && (
         <div class="stats">
           {game.playerCount && (
             <div class="stat">
@@ -196,7 +212,13 @@ const faqSchema = {
               <span class="stat__label">Visitas totales</span>
             </div>
           )}
-          {game.likes && (
+          {game.favourites && (
+            <div class="stat">
+              <span class="stat__value">{formatNumber(game.favourites)}</span>
+              <span class="stat__label">Favoritos</span>
+            </div>
+          )}
+          {game.likes && !game.favourites && (
             <div class="stat">
               <span class="stat__value">{formatNumber(game.likes)}</span>
               <span class="stat__label">Likes</span>
@@ -206,11 +228,9 @@ const faqSchema = {
       )}
 
       <!-- Intro -->
-      {game.introText && (
-        <section class="section">
-          <p class="intro-text">{game.introText}</p>
-        </section>
-      )}
+      <section class="section">
+        <p class="intro-text">{introContent}</p>
+      </section>
 
       <!-- Aviso: sin sistema de códigos -->
       {game.noCodeSystem && game.noCodeNote && (
@@ -239,12 +259,10 @@ const faqSchema = {
       )}
 
       <!-- ¿Qué son los códigos? -->
-      {game.whatAreCodes && (
-        <section class="section">
-          <h2 class="section__title">¿Qué son los códigos de {game.name}?</h2>
-          <p class="section__text">{game.whatAreCodes}</p>
-        </section>
-      )}
+      <section class="section">
+        <h2 class="section__title">¿Qué son los códigos de {game.name}?</h2>
+        <p class="section__text">{whatAreCodesContent}</p>
+      </section>
 
       <!-- Códigos expirados -->
       {game.expiredCodes.length > 0 && (
@@ -283,12 +301,10 @@ const faqSchema = {
       )}
 
       <!-- ¿Cómo conseguir más códigos? -->
-      {game.howToGetCodes && (
-        <section class="section">
-          <h2 class="section__title">¿Cómo conseguir más códigos de {game.name}?</h2>
-          <p class="section__text">{game.howToGetCodes}</p>
-        </section>
-      )}
+      <section class="section">
+        <h2 class="section__title">¿Cómo conseguir más códigos de {game.name}?</h2>
+        <p class="section__text">{howToGetCodesContent}</p>
+      </section>
 
       <!-- ¿Por qué no funcionan los códigos? -->
       <section class="section">
@@ -304,13 +320,19 @@ const faqSchema = {
       </section>
 
       <!-- Tabla sobre el juego -->
-      {(game.genre || game.totalVisits || game.likes || game.placeId) && (
+      {(game.genre || game.totalVisits || game.likes || game.favourites || game.developer || game.placeId) && (
         <section class="section">
           <h2 class="section__title">Sobre {game.name}</h2>
           <div class="info-table-wrap">
             <table class="info-table">
               <tbody>
-                {game.genre && (
+                {game.developer && (
+                  <tr>
+                    <td class="info-table__label">Desarrollador</td>
+                    <td class="info-table__value">{game.developer}</td>
+                  </tr>
+                )}
+                {game.genre && game.genre !== 'All' && (
                   <tr>
                     <td class="info-table__label">Género</td>
                     <td class="info-table__value">{game.genre}</td>
@@ -322,7 +344,13 @@ const faqSchema = {
                     <td class="info-table__value">{game.totalVisits.toLocaleString('es-ES')}</td>
                   </tr>
                 )}
-                {game.likes && (
+                {game.favourites && (
+                  <tr>
+                    <td class="info-table__label">Favoritos</td>
+                    <td class="info-table__value">{game.favourites.toLocaleString('es-ES')}</td>
+                  </tr>
+                )}
+                {game.likes && !game.favourites && (
                   <tr>
                     <td class="info-table__label">Likes</td>
                     <td class="info-table__value">{game.likes.toLocaleString('es-ES')}</td>
