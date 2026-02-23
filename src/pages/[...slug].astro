@@ -69,6 +69,18 @@ function formatNumber(n: number): string {
 
 const validThumb = game.thumbnail && game.thumbnail.startsWith('https://tr.rbxcdn.com');
 
+const mesesES = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+const now = new Date();
+const mesAnio = `${mesesES[now.getMonth()]} ${now.getFullYear()}`;
+const isRoblox = !!(game.placeId);
+const robloxLabel = isRoblox ? ' Roblox' : '';
+const activeCount = game.activeCodes.length;
+
+const dynamicTitle = `Códigos ${game.name}${robloxLabel} (${mesAnio}) — Códigos Gratis`;
+const dynamicDescription = activeCount > 0
+  ? `Códigos actualizados de ${game.name}${robloxLabel} para ${mesAnio}. ${activeCount} códigos activos verificados. Canjea recompensas gratis ahora. ¡Lista actualizada hoy!`
+  : `Códigos de ${game.name}${robloxLabel} para ${mesAnio}. Consulta todos los códigos activos y expirados. ¡Actualizamos a diario!`;
+
 const faqEntries: { '@type': string; name: string; acceptedAnswer: { '@type': string; text: string } }[] = [
   {
     '@type': 'Question',
@@ -115,8 +127,8 @@ const faqSchema = {
 ---
 
 <Layout
-  title={game.metaTitle}
-  description={game.metaDescription}
+  title={dynamicTitle}
+  description={dynamicDescription}
   ogImage={validThumb ? game.thumbnail : undefined}
 >
   <script
