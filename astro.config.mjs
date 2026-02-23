@@ -8,7 +8,7 @@ const redirects = Object.fromEntries(
 );
 
 export default defineConfig({
-  site: 'https://codigos-gratis.com',
+  site: 'https://www.codigos-gratis.com',
   output: 'static',
   trailingSlash: 'always',
   integrations: [sitemap()],
