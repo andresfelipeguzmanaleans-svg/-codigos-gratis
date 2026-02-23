@@ -9,16 +9,222 @@
   "activeCodes": [
     {
       "code": "RumblingDelay_1",
-      "reward": "Recompensas gratis"
+      "reward": "3 Days of 2x Drop Rate"
     },
     {
       "code": "RumblingDelay_2",
-      "reward": "Recompensas gratis"
+      "reward": "3 Days of 2x EXP Rate"
     },
     {
       "code": "RumblingDelay_3",
+      "reward": "3 Days of DFTimer"
+    },
+    {
+      "code": "HAPPYNEWYEARS2026_1",
+      "reward": "15 Race Reroll"
+    },
+    {
+      "code": "HAPPYNEWYEARS2026_2",
+      "reward": "3 horas of 2x Drop Rate"
+    },
+    {
+      "code": "MERRYCHRISTMAS2025_2",
+      "reward": "48 horas of 2x Drop Rate"
+    },
+    {
+      "code": "MERRYCHRISTMAS2025_1",
+      "reward": "15 Race Reroll"
+    },
+    {
+      "code": "PHOGIVING20252XEXP",
       "reward": "Recompensas gratis"
     },
+    {
+      "code": "PHOGIVING20252XDROPS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HALLOWEENPART22XEXP",
+      "reward": "24 horas of 2x EXP Rate"
+    },
+    {
+      "code": "PRESTIGEWORLDENDERGRIND!!",
+      "reward": "48 horas of 2x Drop Rate"
+    },
+    {
+      "code": "HEADLESSRACEREROLLS",
+      "reward": "25 Race Rerolls"
+    },
+    {
+      "code": "HALLOWEEN2025RACEREROLLCODE",
+      "reward": "15 Race Rerolls"
+    },
+    {
+      "code": "HALLOWEEN20252XDROPCODE",
+      "reward": "48 horas of 2x Drop Rate"
+    },
+    {
+      "code": "HALLOWEEN20252SPRESET",
+      "reward": "Skill Point Reset"
+    },
+    {
+      "code": "HALLOWEEN20252XEXP",
+      "reward": "10 Race Rerolls"
+    },
+    {
+      "code": "REAL10FREERACEREROLLS",
+      "reward": "10 Race Rerolls"
+    },
+    {
+      "code": "10FREERACEREROLLS!!!",
+      "reward": "3 Race Rerolls"
+    },
+    {
+      "code": "FREE2XDROP!!",
+      "reward": "48 horas of 2x Drop Rate"
+    },
+    {
+      "code": "FREE2XEXP!!!!",
+      "reward": "24 horas of 2x Drop Rate"
+    },
+    {
+      "code": "1MILLIONLIKESRACEREROLLS",
+      "reward": "Redeem for recompensas"
+    },
+    {
+      "code": "1MILLIONLIKES2XDROP",
+      "reward": "Redeem for recompensas"
+    },
+    {
+      "code": "1MILLIONLIKESSPRESET",
+      "reward": "Redeem for recompensas"
+    },
+    {
+      "code": "1MILLIONLIKES2XEXP",
+      "reward": "Redeem for recompensas"
+    },
+    {
+      "code": "ANIGRIND3",
+      "reward": "Redeem for recompensas"
+    },
+    {
+      "code": "ANIGRIND1",
+      "reward": "Redeem for recompensas"
+    },
+    {
+      "code": "CUPIDGRIND2",
+      "reward": "48 horas of 2x Drop Rate"
+    },
+    {
+      "code": "CUPIDGRIND",
+      "reward": "48 horas of 2x Drop Rate"
+    },
+    {
+      "code": "HappyNewYears!",
+      "reward": "48 horas of 2x Drop Rate"
+    },
+    {
+      "code": "HappyNewYears!2",
+      "reward": "48 horas of 2x Drop Rate"
+    },
+    {
+      "code": "MerryChristmas1",
+      "reward": "48 horas of 2x Drop Rate"
+    },
+    {
+      "code": "MerryChristmas2",
+      "reward": "25 Race Rerolls"
+    },
+    {
+      "code": "MerryChristmasEve1",
+      "reward": "48 horas of 2x Drop Rate"
+    },
+    {
+      "code": "LuckyDrops14",
+      "reward": "2x Drop Rate"
+    },
+    {
+      "code": "LuckyDrops13",
+      "reward": "3 horas of 2x Drop Rate"
+    },
+    {
+      "code": "1BILLIONVISTS2XEXP4",
+      "reward": "24 horas of 2x EXP Rate"
+    },
+    {
+      "code": "1BILLIONVISTS2XDROP",
+      "reward": "24 horas of 2x Drop Rate"
+    },
+    {
+      "code": "1BILLIONVISTS2XEXP",
+      "reward": "24 horas of 2x EXP Rate"
+    },
+    {
+      "code": "1BILLIONVISTS10RACEREROLLS",
+      "reward": "10 Race Rerolls"
+    },
+    {
+      "code": "LuckyDrops11",
+      "reward": "3 horas of 2x Drop Rate"
+    },
+    {
+      "code": "LOTSOFREROLLS10",
+      "reward": "20 Rerolls"
+    },
+    {
+      "code": "XLOTSOFREROLLS4",
+      "reward": "20 Race Rerolls"
+    },
+    {
+      "code": "LuckyDrops8",
+      "reward": "3 horas of 2x Drop Rate"
+    },
+    {
+      "code": "FREESPRESET2",
+      "reward": "Reset"
+    },
+    {
+      "code": "LuckyDrops7",
+      "reward": "3 horas of 2x Drop Rate"
+    },
+    {
+      "code": "LOTSOFREROLLS",
+      "reward": "20 Race Rerolls"
+    },
+    {
+      "code": "LuckyDrops6",
+      "reward": "3 horas of 2x Drop Rate"
+    },
+    {
+      "code": "LuckyRerolls5",
+      "reward": "15 Race Rerolls"
+    },
+    {
+      "code": "LuckyRerolls4",
+      "reward": "15 Race Rerolls"
+    },
+    {
+      "code": "LuckyDrops4",
+      "reward": "15 Race Reroll"
+    },
+    {
+      "code": "LuckyRerolls2",
+      "reward": "20 Rerolls"
+    },
+    {
+      "code": "LuckyDrops3",
+      "reward": "Race tiradas, 2x Drop Rate, and Fruit Notifier"
+    },
+    {
+      "code": "LuckyDrops2",
+      "reward": "Race tiradas, 2x Drop Rate, and Fruit Notifier"
+    },
+    {
+      "code": "LuckyRerolls",
+      "reward": "20 Rerolls"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "ValentinesSoon_1",
       "reward": "Recompensas gratis"
@@ -28,31 +234,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "HAPPYNEWYEARS2026_1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HAPPYNEWYEARS2026_2",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MERRYCHRISTMAS2025_1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MERRYCHRISTMAS2025_2",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "FREE2XDROP112025",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "PHOGIVING20252XEXP",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "PHOGIVING20252XDROPS",
       "reward": "Recompensas gratis"
     },
     {
@@ -64,135 +246,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "PRESTIGEWORLDENDERGRIND!!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HALLOWEENPART22XEXP",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HEADLESSRACEREROLLS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HALLOWEEN2025RACEREROLLCODE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HALLOWEEN20252XDROPCODE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HALLOWEEN20252SPRESET",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HALLOWEEN20252XEXP",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "REAL10FREERACEREROLLS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "10FREERACEREROLLS!!!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FREE2XDROP!!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FREE2XEXP!!!!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1MILLIONLIKESRACEREROLLS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1MILLIONLIKES2XDROP",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1MILLIONLIKESSPRESET",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1MILLIONLIKES2XEXP",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ANIGRIND3",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ANIGRIND1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CUPIDGRIND2",
-      "reward": "48 hora 2x drop code"
-    },
-    {
-      "code": "CUPIDGRIND",
-      "reward": "48 hora 2x drop code"
-    },
-    {
-      "code": "HappyNewYears!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HappyNewYears!2",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MerryChristmas2",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MerryChristmas1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MerryChristmasEve1",
-      "reward": "48 hora 2x drop code"
-    },
-    {
-      "code": "LuckyDrops14",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "SomeRaceRerolls10",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "LuckyDrops13",
-      "reward": "3 horas of 2x drop"
-    },
-    {
-      "code": "1BILLIONVISTS2XEXP4",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1BILLIONVISTS2XDROP",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1BILLIONVISTS2XEXP",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1BILLIONVISTS10RACEREROLLS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "LuckyDrops11",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "LOTSOFREROLLS10",
       "reward": "Recompensas gratis"
     },
     {
@@ -208,27 +262,30 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "LuckyDrops8",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "XLOTSOFREROLLS4",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FREESPRESET2",
-      "reward": "Reset SP"
-    },
-    {
-      "code": "LuckyDrops7",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "MOBILEISOUT5",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "LuckyDrops",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "SDFSFSD",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "DMHNDKLGFJDFG",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "FDSGIDSGUS",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "MOBILEISOUT3",
+      "reward": "Recompensas"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Grand Piece Online en Roblox",
     "Busca el icono de códigos en el menú",

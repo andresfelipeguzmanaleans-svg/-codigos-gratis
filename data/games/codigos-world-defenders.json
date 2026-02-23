@@ -8,6 +8,36 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "MAXISSORRY",
+      "reward": "5 Spartan oro"
+    },
+    {
+      "code": "FREEANIMETOKENS",
+      "reward": "5 tokens"
+    },
+    {
+      "code": "SORRY",
+      "reward": "150 gemas"
+    },
+    {
+      "code": "GOODJOB",
+      "reward": "1 God mascota Egg"
+    },
+    {
+      "code": "FREECOINS",
+      "reward": "50 monedas"
+    },
+    {
+      "code": "FREETOWER",
+      "reward": "1 Helicopter Tower"
+    },
+    {
+      "code": "UPDATE3",
+      "reward": "10 Spartan oro"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "COSMO",
       "reward": "100 Cosmic gemas"
     },
@@ -78,9 +108,36 @@
     {
       "code": "100K",
       "reward": "100 monedas"
+    },
+    {
+      "code": "NEWTEAM",
+      "reward": "Laying Caveman"
+    },
+    {
+      "code": "FREEHYDRA2025",
+      "reward": "Laying Caveman"
+    },
+    {
+      "code": "FEB",
+      "reward": "15 Spartan oro"
+    },
+    {
+      "code": "hype",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SNOW",
+      "reward": "1k monedas"
+    },
+    {
+      "code": "ICE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BUGS",
+      "reward": "1k monedas"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre World Defenders en Roblox",
     "Busca el icono de códigos en el menú",

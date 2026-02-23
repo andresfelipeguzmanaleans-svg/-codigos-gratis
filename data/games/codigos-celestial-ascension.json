@@ -76,7 +76,7 @@
       "reward": "Giros gratis"
     },
     {
-      "code": "Katana&nbsp;",
+      "code": "Katana",
       "reward": "Giros gratis"
     },
     {
@@ -84,7 +84,12 @@
       "reward": "Giros gratis"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "Katana&nbsp;",
+      "reward": "Giros gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Celestial Ascension en Roblox",
     "Busca el icono de códigos en el menú",

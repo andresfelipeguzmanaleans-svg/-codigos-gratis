@@ -5,23 +5,407 @@
   "description": "Todos los códigos activos para Locked en Roblox",
   "metaTitle": "Códigos Locked (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Locked en Roblox. Consigue Yen gratis para desbloquear personajes y habilidades.",
-  "lastUpdated": "2026-02-22",
+  "lastUpdated": "2026-02-23",
   "playerCount": 0,
   "totalVisits": 144986969,
   "likes": 78577,
   "genre": "Sports",
   "placeId": 12276235857,
   "activeCodes": [
-    { "code": "BRANDNEWCODE", "reward": "500.000 Yen" },
-    { "code": "75KLIKES", "reward": "150.000 Yen" },
-    { "code": "SEASON5WINNER", "reward": "100.000 Yen" },
-    { "code": "125MILVISITS", "reward": "85.000 Yen" },
-    { "code": "120KFAVOURITE", "reward": "85.000 Yen" },
-    { "code": "SECONDCHANCE", "reward": "Yen gratis" }
+    {
+      "code": "SEASON5WINNER",
+      "reward": "Yen"
+    },
+    {
+      "code": "75KLIKES",
+      "reward": "Yen"
+    },
+    {
+      "code": "120KFAVOURITE",
+      "reward": "Yen"
+    },
+    {
+      "code": "125MILVISITS",
+      "reward": "Yen"
+    },
+    {
+      "code": "VALENTINESDAY",
+      "reward": "Yen"
+    },
+    {
+      "code": "MEDALXLOCKED",
+      "reward": "Yen"
+    },
+    {
+      "code": "10KSUBS",
+      "reward": "Yen"
+    },
+    {
+      "code": "70KLIKES",
+      "reward": "Yen"
+    },
+    {
+      "code": "110MILVISITS",
+      "reward": "Yen"
+    },
+    {
+      "code": "115KFAVOURITE",
+      "reward": "Yen"
+    },
+    {
+      "code": "150KMEMBERS",
+      "reward": "Yen"
+    },
+    {
+      "code": "LOCKEDMAS2",
+      "reward": "Yen"
+    },
+    {
+      "code": "STRAIGHTRIPTIDE",
+      "reward": "Yen"
+    },
+    {
+      "code": "DRAGONHEADER",
+      "reward": "Yen"
+    },
+    {
+      "code": "100MILVISITS",
+      "reward": "Yen"
+    },
+    {
+      "code": "60KLIKES",
+      "reward": "Yen"
+    },
+    {
+      "code": "SORRYFORSERVERCRASHES",
+      "reward": "Yen"
+    },
+    {
+      "code": "90MILVISITS",
+      "reward": "Yen"
+    },
+    {
+      "code": "100KFAVOURITE",
+      "reward": "Yen"
+    },
+    {
+      "code": "TWINGUNS",
+      "reward": "Yen"
+    },
+    {
+      "code": "FALLARTCONTEST",
+      "reward": "Yen"
+    },
+    {
+      "code": "LOCKEDWEEN",
+      "reward": "Yen"
+    },
+    {
+      "code": "80MILVISITS",
+      "reward": "Yen"
+    },
+    {
+      "code": "ACEEATER",
+      "reward": "Yen"
+    },
+    {
+      "code": "90KFAVOURITE",
+      "reward": "Yen"
+    },
+    {
+      "code": "50KLIKES",
+      "reward": "Yen"
+    },
+    {
+      "code": "SEASON3PROLEAGUE",
+      "reward": "125k Yen"
+    },
+    {
+      "code": "MOSTVISITEDBLGAME",
+      "reward": "125k Yen"
+    },
+    {
+      "code": "60MILVISITS",
+      "reward": "Yen"
+    },
+    {
+      "code": "80KFAVOURITE",
+      "reward": "Yen"
+    },
+    {
+      "code": "EXCLUSIVE",
+      "reward": "Yen"
+    },
+    {
+      "code": "40KLIKES",
+      "reward": "Yen"
+    },
+    {
+      "code": "50MILVISITS",
+      "reward": "Yen"
+    },
+    {
+      "code": "70KFAVOURITE",
+      "reward": "Yen"
+    },
+    {
+      "code": "SEASON2PROLEAGUE",
+      "reward": "Yen"
+    },
+    {
+      "code": "40MILVISITS",
+      "reward": "Yen"
+    },
+    {
+      "code": "100KMEMBERS",
+      "reward": "Yen"
+    },
+    {
+      "code": "MOREBALANCING",
+      "reward": "100k Yen"
+    },
+    {
+      "code": "HEIGHTSTAMINA",
+      "reward": "100k Yen"
+    },
+    {
+      "code": "TY30KLIKES",
+      "reward": "100k Yen"
+    },
+    {
+      "code": "PLANETHOTLINE",
+      "reward": "100k Yen"
+    },
+    {
+      "code": "NAGIMOVIE",
+      "reward": "100k Yen"
+    },
+    {
+      "code": "FREERELEASE",
+      "reward": "100k Yen"
+    },
+    {
+      "code": "SWORDSCREW",
+      "reward": "100k Yen"
+    },
+    {
+      "code": "FACEREVAMP",
+      "reward": "Yen"
+    },
+    {
+      "code": "10KGROUPMEMBERS",
+      "reward": "Yen"
+    },
+    {
+      "code": "QUALITYOFLIFEUPDATE.1",
+      "reward": "Yen"
+    },
+    {
+      "code": "WATCHTOWER",
+      "reward": "Yen"
+    },
+    {
+      "code": "50KFAVOURITES",
+      "reward": "Yen"
+    },
+    {
+      "code": "10V10TOURNAMENTBUG",
+      "reward": "Yen"
+    },
+    {
+      "code": "25MILVISITS",
+      "reward": "Yen"
+    },
+    {
+      "code": "GGRIPTIDE",
+      "reward": "Yen"
+    },
+    {
+      "code": "GODSPEED",
+      "reward": "Yen"
+    },
+    {
+      "code": "25KLIKES",
+      "reward": "Yen"
+    },
+    {
+      "code": "FROZENTIMER",
+      "reward": "Yen"
+    },
+    {
+      "code": "SECONDCHANCE",
+      "reward": "Yen"
+    },
+    {
+      "code": "70KMEMBERS",
+      "reward": "Yen"
+    },
+    {
+      "code": "TOURNAMENT",
+      "reward": "Yen"
+    },
+    {
+      "code": "TOURNAMENTBUGFIXES",
+      "reward": "Yen"
+    },
+    {
+      "code": "NEWCOMMANDS",
+      "reward": "Yen"
+    },
+    {
+      "code": "SLOTS",
+      "reward": "Yen"
+    },
+    {
+      "code": "PUPPETEER",
+      "reward": "Yen"
+    },
+    {
+      "code": "20MVISITS",
+      "reward": "Yen"
+    },
+    {
+      "code": "DELAYEDUPDATE1.5",
+      "reward": "Yen"
+    },
+    {
+      "code": "DAILYQUESTBUG2",
+      "reward": "Yen"
+    },
+    {
+      "code": "SLOTMONEY",
+      "reward": "150k Yen"
+    },
+    {
+      "code": "MONSTER",
+      "reward": "Yen"
+    },
+    {
+      "code": "MATCHNAMESHUTDOWN",
+      "reward": "Yen"
+    },
+    {
+      "code": "20KLIKES",
+      "reward": "Yen"
+    },
+    {
+      "code": "WEAPOBBUGFIX",
+      "reward": "Yen"
+    },
+    {
+      "code": "SHUTDOWN6",
+      "reward": "Yen"
+    },
+    {
+      "code": "LOCKEDTINE",
+      "reward": "Yen"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "Yen"
+    },
+    {
+      "code": "DELAY",
+      "reward": "Yen"
+    },
+    {
+      "code": "DELAYNUMBER2",
+      "reward": "Yen"
+    },
+    {
+      "code": "VISITS10MIL",
+      "reward": "Yen"
+    },
+    {
+      "code": "THANKYOUFOR50KMEMBERS",
+      "reward": "Yen"
+    },
+    {
+      "code": "NOOBIE",
+      "reward": "Yen"
+    },
+    {
+      "code": "THANKYOUFOR10KLIKES",
+      "reward": "80,000 Yen"
+    },
+    {
+      "code": "AFKAREA",
+      "reward": "20,000 Yen"
+    },
+    {
+      "code": "QUICKFIXED",
+      "reward": "Yen"
+    },
+    {
+      "code": "COMMONUNIQUES",
+      "reward": "Yen"
+    },
+    {
+      "code": "THANKYOUFOR7KLIKES30KMEMBERS",
+      "reward": "Yen"
+    },
+    {
+      "code": "THANKYOU2MILVISITS",
+      "reward": "15,000 Yen recompensa! gratis"
+    },
+    {
+      "code": "DOUBLEMFBUG",
+      "reward": "10,000 Yen recompensa! gratis"
+    },
+    {
+      "code": "FIELDMAP",
+      "reward": "30,000 Yen recompensa! gratis"
+    },
+    {
+      "code": "HAPPYNEWYEARSAND20KMEMBERS",
+      "reward": "100,000 Yen recompensa! gratis"
+    },
+    {
+      "code": "LIKES5K",
+      "reward": "20,000 Yen recompensa! gratis"
+    },
+    {
+      "code": "LOCKEDMAS",
+      "reward": "50,000 Yen recompensa! gratis"
+    }
   ],
   "expiredCodes": [
-    { "code": "MOSTVISITEDBLGAME", "reward": "125.000 Yen" },
-    { "code": "100MILVISITS", "reward": "100.000 Yen" }
+    {
+      "code": "MOSTVISITEDBLGAME",
+      "reward": "125.000 Yen"
+    },
+    {
+      "code": "100MILVISITS",
+      "reward": "100.000 Yen"
+    },
+    {
+      "code": "BRANDNEWCODE",
+      "reward": "500.000 Yen"
+    },
+    {
+      "code": "TY2KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "LIKES3K",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "REFUND",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TY1KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "VISITS500K",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SORRYFORSHUTDOWNS",
+      "reward": "Recompensas gratis"
+    }
   ],
   "introText": "Locked es un juego deportivo en Roblox creado por Zhoulle, inspirado en el popular anime Blue Lock. En este juego de fútbol puedes crear tu propio estilo de regate, mejorar tus habilidades físicas y competir contra otros jugadores para marcar goles espectaculares. Con casi 145 millones de visitas, se ha convertido en uno de los juegos de fútbol anime más visitados de la plataforma.",
   "whatAreCodes": "Los códigos de Locked te otorgan Yen, la moneda principal del juego que necesitas para realizar tiradas de personalización incluyendo tiradas de Physical, Weapon, Trait y Flow. El Yen es esencial para desbloquear nuevos personajes, habilidades y mejorar el rendimiento de tu jugador en el campo.",

@@ -9,11 +9,75 @@
   "activeCodes": [
     {
       "code": "SOCIALCELEBRATION",
-      "reward": "5,000 oro and x1 poción"
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SeasonXP",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "RIA2025",
-      "reward": "Poción"
+      "reward": "2 giro tokens"
+    },
+    {
+      "code": "Supercharged",
+      "reward": "500 Crystal Shards"
+    },
+    {
+      "code": "guildwars6end",
+      "reward": "Guild gemas"
+    },
+    {
+      "code": "submecha",
+      "reward": "Preset of the Arielisces gratis"
+    },
+    {
+      "code": "1bilvisits",
+      "reward": "Billion Theme poción"
+    },
+    {
+      "code": "100ktwitter",
+      "reward": "Favourites Theme poción"
+    },
+    {
+      "code": "100ktiktok",
+      "reward": "2 giro tokens"
+    },
+    {
+      "code": "guildwarsgems",
+      "reward": "10 Guild gemas"
+    },
+    {
+      "code": "SOLSTICE2024",
+      "reward": "Gilded Theme poción"
+    },
+    {
+      "code": "ThankYou2024",
+      "reward": "2 Classic Head Stack accessories"
+    },
+    {
+      "code": "FLUFFY",
+      "reward": "FluffyTSG Preset poción"
+    },
+    {
+      "code": "AESUBREALM",
+      "reward": "Sub Realm Preset poción"
+    },
+    {
+      "code": "SHAMEWING",
+      "reward": "Shamewing Preset poción"
+    },
+    {
+      "code": "2MILLIONFAVOURITES",
+      "reward": "Favourites Theme poción and 1 Million Theme poción"
+    },
+    {
+      "code": "GALIFRAN",
+      "reward": "Galifran Preset poción"
+    },
+    {
+      "code": "JUSTYBLOX",
+      "reward": "JustyBlox Preset poción"
     }
   ],
   "expiredCodes": [
@@ -368,6 +432,66 @@
     {
       "code": "HappyValentines",
       "reward": "75 Heart Treat"
+    },
+    {
+      "code": "BERRIES",
+      "reward": "Juniper Berries gratis"
+    },
+    {
+      "code": "RAINBOW",
+      "reward": "Material Shuffle poción gratis"
+    },
+    {
+      "code": "FANTASY",
+      "reward": "Fairy Jars gratis"
+    },
+    {
+      "code": "PEACHY",
+      "reward": "Peach Seeds gratis"
+    },
+    {
+      "code": "REVIVE",
+      "reward": "Revival Hearts gratis"
+    },
+    {
+      "code": "SPACE",
+      "reward": "50 Meteor Shards"
+    },
+    {
+      "code": "CELESTIAL",
+      "reward": "50 Meteor Shards gratis"
+    },
+    {
+      "code": "WELLNESS",
+      "reward": "This code for Dragon Breath Healing pociones gratis"
+    },
+    {
+      "code": "HOLO",
+      "reward": "This code for Holo Manta Rays gratis"
+    },
+    {
+      "code": "MIX",
+      "reward": "This code for Material Shuffle poción gratis"
+    },
+    {
+      "code": "BRIGHT",
+      "reward": "This code for 15 Glowing Mushrooms gratis"
+    },
+    {
+      "code": "GROW",
+      "reward": "This code for 9 Onion Seed"
+    },
+    {
+      "code": "FROSTY",
+      "reward": "This code for snow resources gratis"
+    },
+    {
+      "code": "DREAMS",
+      "reward": "This for 15 Cloud"
+    },
+    {
+      "code": "farming",
+      "reward": "250 monedas and 15 Peach Seeds"
     }
   ],
   "howToRedeem": [

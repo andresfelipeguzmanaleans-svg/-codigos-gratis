@@ -8,24 +8,84 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "Goodbye2024!",
-      "reward": "3 RP and 15k Cash"
+      "code": "goc event",
+      "reward": "Monedas, gemas, and tokens"
+    },
+    {
+      "code": "xmas2024",
+      "reward": "Monedas, gemas, and tokens"
+    },
+    {
+      "code": "tier60",
+      "reward": "Monedas, gemas, and tokens"
+    },
+    {
+      "code": "gate guardian",
+      "reward": "Monedas, gemas, and tokens"
     },
     {
       "code": "halloween2024",
-      "reward": "Monedas, tokens, and Shards"
+      "reward": "Monedas, gemas, and tokens"
+    },
+    {
+      "code": "thanksfor65m",
+      "reward": "1650 monedas"
     },
     {
       "code": "afk lobby",
-      "reward": "Monedas, tokens, and Shards"
+      "reward": "Monedas, gemas, and tokens"
     },
     {
-      "code": "modifiers",
-      "reward": "Monedas, tokens, and Shards"
+      "code": "flesh",
+      "reward": "Monedas, gemas, and tokens"
     },
     {
-      "code": "ThanksFor65M",
-      "reward": "Monedas, tokens, and Shards"
+      "code": "titan blade",
+      "reward": "Monedas, gemas, and tokens"
+    },
+    {
+      "code": "dragon",
+      "reward": "Monedas, gemas, and tokens"
+    },
+    {
+      "code": "witch",
+      "reward": "Monedas, gemas, and tokens"
+    },
+    {
+      "code": "xmas2023",
+      "reward": "Monedas, gemas, and tokens"
+    },
+    {
+      "code": "winter2023",
+      "reward": "Monedas, gemas, and tokens"
+    },
+    {
+      "code": "ThanksFor55M",
+      "reward": "Monedas, gemas, and tokens"
+    },
+    {
+      "code": "core",
+      "reward": "Monedas"
+    },
+    {
+      "code": "balance",
+      "reward": "Monedas, gemas, and tokens"
+    },
+    {
+      "code": "professor",
+      "reward": "Monedas"
+    },
+    {
+      "code": "ThanksFor30M",
+      "reward": "1k monedas"
+    },
+    {
+      "code": "Doctor",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NewJourney",
+      "reward": "500 monedas"
     }
   ],
   "expiredCodes": [
@@ -264,6 +324,38 @@
     {
       "code": "ThanksFor500K",
       "reward": "1,000 monedas & 100 Shards"
+    },
+    {
+      "code": "Goodbye2024!",
+      "reward": "3 RP and 15k Cash"
+    },
+    {
+      "code": "modifiers",
+      "reward": "Monedas, tokens, and Shards"
+    },
+    {
+      "code": "uiu",
+      "reward": "Monedas"
+    },
+    {
+      "code": "council",
+      "reward": "500 monedas and 50 gemas"
+    },
+    {
+      "code": "unknown",
+      "reward": "Monedas and tokens"
+    },
+    {
+      "code": "divine",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "lily",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Lake Blood",
+      "reward": "Recompensas gratis"
     }
   ],
   "howToRedeem": [

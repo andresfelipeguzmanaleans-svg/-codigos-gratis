@@ -8,16 +8,102 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "DeadGame",
-      "reward": "Monedas, giros, and gemas gratis"
+      "code": "BrokenSuffix",
+      "reward": "2x Rebirth Boost, 2x gemas, and 2x monedas for an hora"
+    },
+    {
+      "code": "FruitAnimeWorld",
+      "reward": "75 giros, 2x monedas, 2x gemas, and 2x Rebirths for one hora"
+    },
+    {
+      "code": "Friday13th",
+      "reward": "75 giros, 2x monedas for 15 minutos, and 2x Rebirths for one hora"
+    },
+    {
+      "code": "HalloweenGifts",
+      "reward": "2 horas Rebirth Boost, 2x monedas for an hora, and giros gratis"
+    },
+    {
+      "code": "OneHourOfBoosts",
+      "reward": "2x Rebirths for one hora, 2x monedas for one hora, and 2x gemas for one hora"
+    },
+    {
+      "code": "MidWeekBooster",
+      "reward": "50 giros, 2x Rebirths for one hora, and 2x monedas for one hora"
+    },
+    {
+      "code": "New_Game???",
+      "reward": "100 giros and 15 minutos of 2x gemas, and 2x monedas"
     },
     {
       "code": "BUGFIXES",
-      "reward": "Boosts gratis"
+      "reward": "15 minutos of 2x gemas and 2x monedas"
     },
     {
       "code": "EGG-CELLENT!",
-      "reward": "Lvl 1 Easter fruit gratis"
+      "reward": "Lvl 1 Easter Fruit"
+    },
+    {
+      "code": "DUNGEONS!",
+      "reward": "25 giros and recompensas"
+    },
+    {
+      "code": "AWAKENINGS!",
+      "reward": "25 giros and recompensas"
+    },
+    {
+      "code": "FREEDRAGON!",
+      "reward": "Dragon gratis"
+    },
+    {
+      "code": "100kMembers!!??",
+      "reward": "25 giros"
+    },
+    {
+      "code": "DRAGONRELEASE!",
+      "reward": "25 giros"
+    },
+    {
+      "code": "1kFollowing:O?",
+      "reward": "10 giros"
+    },
+    {
+      "code": "50kMEMS?!",
+      "reward": "10 giros"
+    },
+    {
+      "code": "WelcomeToFruitSim",
+      "reward": "3,000 monedas, 1,000 gemas, and 13 giros recompensa! gratis"
+    },
+    {
+      "code": "IWantSpins:)",
+      "reward": "Ten giros recompensa! gratis"
+    },
+    {
+      "code": "1MIL!",
+      "reward": "10 giros recompensa! gratis"
+    },
+    {
+      "code": "5kLikes!",
+      "reward": "10 giros recompensa! gratis"
+    },
+    {
+      "code": "20kMEMS",
+      "reward": "10 giros recompensa! gratis"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "100LIKES!&lt;3",
+      "reward": "Monedas, giros, and gemas gratis"
+    },
+    {
+      "code": "RELEASE!W",
+      "reward": "Monedas, giros, and gemas gratis"
+    },
+    {
+      "code": "DeadGame",
+      "reward": "Monedas, giros, and gemas gratis"
     },
     {
       "code": "OPTIMIZE",
@@ -36,43 +122,7 @@
       "reward": "Monedas, giros, and gemas gratis"
     },
     {
-      "code": "100kMembers!!??",
-      "reward": "Monedas, giros, and gemas gratis"
-    },
-    {
-      "code": "DRAGONRELEASE!",
-      "reward": "Monedas, giros, and gemas gratis"
-    },
-    {
-      "code": "1kFollowing:O?",
-      "reward": "Monedas, giros, and gemas gratis"
-    },
-    {
-      "code": "50kMEMS?!",
-      "reward": "Monedas, giros, and gemas gratis"
-    },
-    {
-      "code": "WelcomeToFruitSim",
-      "reward": "Monedas, giros, and gemas gratis"
-    },
-    {
-      "code": "IWantSpins:)",
-      "reward": "Monedas, giros, and gemas gratis"
-    },
-    {
-      "code": "1MIL!",
-      "reward": "Monedas, giros, and gemas gratis"
-    },
-    {
-      "code": "5kLikes!",
-      "reward": "Monedas, giros, and gemas gratis"
-    },
-    {
       "code": "10kLikesW!?",
-      "reward": "Monedas, giros, and gemas gratis"
-    },
-    {
-      "code": "20kMEMS",
       "reward": "Monedas, giros, and gemas gratis"
     },
     {
@@ -110,16 +160,10 @@
     {
       "code": "ObtainDiscord",
       "reward": "Monedas, giros, and gemas gratis"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "100LIKES!&lt;3",
-      "reward": "Monedas, giros, and gemas gratis"
     },
     {
-      "code": "RELEASE!W",
-      "reward": "Monedas, giros, and gemas gratis"
+      "code": "10kLikesW?!",
+      "reward": "10 giros recompensa! gratis"
     }
   ],
   "howToRedeem": [

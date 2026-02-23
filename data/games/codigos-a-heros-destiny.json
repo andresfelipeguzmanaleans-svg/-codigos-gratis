@@ -8,40 +8,36 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "santa2024",
+      "reward": "2 horas of every Boost"
+    },
+    {
+      "code": "rose",
+      "reward": "2 horas of every Boost"
+    },
+    {
       "code": "slime",
-      "reward": "Two horas of all Boosts"
+      "reward": "2 horas of every Boost"
     },
     {
       "code": "choid",
-      "reward": "Two horas of all Boosts"
+      "reward": "2 horas of every Boost"
+    },
+    {
+      "code": "refund4",
+      "reward": "Reinicio de stats"
     },
     {
       "code": "refund2",
-      "reward": "Reinicio de stats in ascended area"
-    },
-    {
-      "code": "eclipse",
-      "reward": "Hora of all Boosts"
-    },
-    {
-      "code": "onepunchhero",
-      "reward": "1 hora of all Boosts"
+      "reward": "Reinicio de stats"
     },
     {
       "code": "refund1",
-      "reward": "Ascendant reinicio de stats gratis"
+      "reward": "Reinicio de stats"
     },
     {
       "code": "polarstetic",
       "reward": "10 giros"
-    },
-    {
-      "code": "limitless",
-      "reward": "2 horas of every Boost"
-    },
-    {
-      "code": "holiday2022",
-      "reward": "Hora of every Boost and 20 lucky giros"
     }
   ],
   "expiredCodes": [
@@ -160,6 +156,146 @@
     {
       "code": "50mvisits!",
       "reward": "5 Lucky giros"
+    },
+    {
+      "code": "eclipse",
+      "reward": "Hora of all Boosts"
+    },
+    {
+      "code": "onepunchhero",
+      "reward": "1 hora of all Boosts"
+    },
+    {
+      "code": "limitless",
+      "reward": "2 horas of every Boost"
+    },
+    {
+      "code": "holiday2022",
+      "reward": "Hora of every Boost and 20 lucky giros"
+    },
+    {
+      "code": "AHD",
+      "reward": "Saitama ladder skin"
+    },
+    {
+      "code": "infinity",
+      "reward": "2 horas of every Boost"
+    },
+    {
+      "code": "emp",
+      "reward": "2 horas of every Boost"
+    },
+    {
+      "code": "refund3",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "cursed",
+      "reward": "2 horas of every Boost"
+    },
+    {
+      "code": "spring2024",
+      "reward": "10 giros"
+    },
+    {
+      "code": "holiday2023",
+      "reward": "2 horas of every Boost"
+    },
+    {
+      "code": "100klikes!",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "90klikes!",
+      "reward": "10 Lucky giros"
+    },
+    {
+      "code": "coolsale",
+      "reward": "Boost"
+    },
+    {
+      "code": "80k!",
+      "reward": "10 suerte giros"
+    },
+    {
+      "code": "75klikes",
+      "reward": "15 suerte giros"
+    },
+    {
+      "code": "150kfavorites",
+      "reward": "Boost"
+    },
+    {
+      "code": "anniversary",
+      "reward": "X2 XP for 1 hora"
+    },
+    {
+      "code": "40m",
+      "reward": "Boost"
+    },
+    {
+      "code": "toxin",
+      "reward": "X2 XP for 30 minutos"
+    },
+    {
+      "code": "nep",
+      "reward": "10 suerte giros"
+    },
+    {
+      "code": "60klikes",
+      "reward": "10 suerte giros"
+    },
+    {
+      "code": "125kfav",
+      "reward": "15 suerte giros"
+    },
+    {
+      "code": "4th",
+      "reward": "Boosts"
+    },
+    {
+      "code": "30mvisits",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "50klikes",
+      "reward": "X2 XP for 30 minutos"
+    },
+    {
+      "code": "100kfav",
+      "reward": "X2 fuerza"
+    },
+    {
+      "code": "100kmembers",
+      "reward": "X2 Yen"
+    },
+    {
+      "code": "20mil",
+      "reward": "Boost"
+    },
+    {
+      "code": "arcane",
+      "reward": "30 mins of x2 experiencia"
+    },
+    {
+      "code": "25k",
+      "reward": "X2 fuerza and experiencia"
+    },
+    {
+      "code": "10mil",
+      "reward": "X2 fuerza and experiencia"
+    },
+    {
+      "code": "freeluck",
+      "reward": "Giros & suerte"
+    },
+    {
+      "code": "bigstr",
+      "reward": "X2 fuerza and experiencia"
+    },
+    {
+      "code": "bigexp",
+      "reward": "X2 fuerza and experiencia"
     }
   ],
   "howToRedeem": [

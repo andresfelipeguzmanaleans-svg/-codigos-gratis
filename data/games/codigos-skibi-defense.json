@@ -8,6 +8,88 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "delays",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "updatein4",
+      "reward": "Versus tokens, Premium monedas, and Win cofres (Requires UTTV to be usable)"
+    },
+    {
+      "code": "5kplayers2",
+      "reward": "Boosts and créditos"
+    },
+    {
+      "code": "versusisback",
+      "reward": "25 Versus tokens"
+    },
+    {
+      "code": "endlessdelay",
+      "reward": "Boosts and créditos"
+    },
+    {
+      "code": "gmanrelease",
+      "reward": "Boosts and créditos"
+    },
+    {
+      "code": "sorrymobile",
+      "reward": "Boosts and créditos"
+    },
+    {
+      "code": "newquests",
+      "reward": "Boosts and créditos"
+    },
+    {
+      "code": "actdelay",
+      "reward": "Boosts and créditos"
+    },
+    {
+      "code": "qualitychanges",
+      "reward": "Boosts and créditos (requires uttvm bought)"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "/redeem ilyguys",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "/redeem 30kplayers",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "/redeem skibidi",
+      "reward": "30 mins of Both Boosts"
+    },
+    {
+      "code": "/redeem updatemaybesoon",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "/redeem upd1",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "/redeem HappyRelease",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "/redeem ch2farm",
+      "reward": "3k monedas"
+    },
+    {
+      "code": "/redeem 50kfavs",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "/redeem 25kfavs",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "/redeem 10klikes",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "/redeem datafixed",
       "reward": "Shards, Boosts, and More"
     },
@@ -94,48 +176,26 @@
     {
       "code": "/redeem sorry1234",
       "reward": "30 mins of Both Boosts"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "/redeem ilyguys",
-      "reward": "Recompensas gratis"
     },
     {
-      "code": "/redeem 30kplayers",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "/redeem skibidi",
+      "code": "sorry1234",
       "reward": "30 mins of Both Boosts"
     },
     {
-      "code": "/redeem updatemaybesoon",
-      "reward": "Recompensas gratis"
+      "code": "skibidi",
+      "reward": "30 mins of Both Boosts"
     },
     {
-      "code": "/redeem upd1",
-      "reward": "Recompensas gratis"
+      "code": "30kplayers",
+      "reward": "Créditos"
     },
     {
-      "code": "/redeem HappyRelease",
-      "reward": "Recompensas gratis"
+      "code": "ilyguys",
+      "reward": "Recompensas"
     },
     {
-      "code": "/redeem ch2farm",
-      "reward": "3k monedas"
-    },
-    {
-      "code": "/redeem 50kfavs",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "/redeem 25kfavs",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "/redeem 10klikes",
-      "reward": "Recompensas gratis"
+      "code": "ch2farm",
+      "reward": "Créditos"
     }
   ],
   "howToRedeem": [

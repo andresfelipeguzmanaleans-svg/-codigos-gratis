@@ -9,102 +9,111 @@
   "activeCodes": [
     {
       "code": "egghunt",
-      "reward": "Art monedas gratis"
+      "reward": "Art monedas"
     },
     {
       "code": "clover",
-      "reward": "Art monedas gratis"
+      "reward": "Art monedas"
     },
     {
       "code": "1year",
-      "reward": "Art monedas gratis"
+      "reward": "Art monedas"
     },
     {
       "code": "christmas",
-      "reward": "Art monedas gratis"
+      "reward": "Art monedas"
     },
     {
       "code": "tipjar",
-      "reward": "Art monedas gratis"
+      "reward": "Art monedas"
     },
     {
       "code": "hallowart",
-      "reward": "Art monedas gratis"
+      "reward": "Art monedas"
+    },
+    {
+      "code": "frankenpablo",
+      "reward": "Redeme for Art monedas"
     },
     {
       "code": "art300",
-      "reward": "Art monedas gratis"
+      "reward": "300 ArtCoins"
     },
     {
       "code": "colors300",
-      "reward": "Art monedas gratis"
+      "reward": "300 Art monedas"
     },
     {
       "code": "brush250",
-      "reward": "Art monedas gratis"
-    },
-    {
-      "code": "paint300",
-      "reward": "Art monedas gratis"
+      "reward": "ArtCoins"
     },
     {
       "code": "starvingart",
-      "reward": "Art monedas gratis"
+      "reward": "ArtCoins"
     },
     {
       "code": "100million",
-      "reward": "Art monedas gratis"
+      "reward": "ArtCoins"
     },
     {
       "code": "paintbrush250",
-      "reward": "Art monedas gratis"
-    },
-    {
-      "code": "pixelart",
-      "reward": "Art monedas gratis"
+      "reward": "250 ArtCoins"
     },
     {
       "code": "fartist",
-      "reward": "Art monedas gratis"
+      "reward": "Get ArtCoins"
+    },
+    {
+      "code": "pixelart",
+      "reward": "Get ArtCoins"
     },
     {
       "code": "pablo250",
-      "reward": "Art monedas gratis"
+      "reward": "Get 250 ArtCoins"
     },
     {
       "code": "monalisa200",
-      "reward": "Art monedas gratis"
+      "reward": "Get ArtCoins"
     },
     {
       "code": "easterart",
-      "reward": "Art monedas gratis"
+      "reward": "Get ArtCoins"
     },
     {
       "code": "picasso250",
-      "reward": "Art monedas gratis"
+      "reward": "Get 250 ArtCoins"
+    },
+    {
+      "code": "artcoin10000",
+      "reward": "This is an April Fool's joke code. Redeem to get 10 ArtCoins"
     },
     {
       "code": "pablo300",
-      "reward": "Art monedas gratis"
+      "reward": "Get 300 ArtCoins"
     },
     {
-      "code": "BOBUX",
-      "reward": "Art monedas gratis"
+      "code": "bobux",
+      "reward": "Get 250 ArtCoins"
     },
     {
       "code": "artcoin100",
-      "reward": "Art monedas gratis"
+      "reward": "Get 00 ArtCoins"
     },
     {
       "code": "starving",
-      "reward": "100 Art monedas"
+      "reward": "Get 100 ArtCoins"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "paint300",
+      "reward": "Art monedas gratis"
     },
     {
       "code": "aprilartist",
       "reward": "Art monedas gratis"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Starving Artists en Roblox",
     "Busca el icono de códigos en el menú",

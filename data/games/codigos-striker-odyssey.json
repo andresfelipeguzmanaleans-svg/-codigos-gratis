@@ -8,6 +8,82 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "HappyMothersDaySpins",
+      "reward": "Giros"
+    },
+    {
+      "code": "HappyMothersDaySPReset1",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "HappyMothersDaySPReset2",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "HappyMothersDaySPReset3",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "40KLikesSpins",
+      "reward": "Giros"
+    },
+    {
+      "code": "40KLikesSPReset",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "40KLikesSPReset2",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "RIPAkiraToriyama",
+      "reward": "Giros"
+    },
+    {
+      "code": "25MVisitsSpins",
+      "reward": "Giros"
+    },
+    {
+      "code": "30KGroupMembers",
+      "reward": "Giros"
+    },
+    {
+      "code": "25MVisitsSP",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "25MVisitsSP2",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "HappyNewYear24",
+      "reward": "Giros"
+    },
+    {
+      "code": "SPNewYear2024",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "SP2NewYear2024",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "CHRISTMAS23",
+      "reward": "Giros"
+    },
+    {
+      "code": "SPCHRISTMAS23",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "SP2CHRISTMAS23",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "AlmazikSolo",
+      "reward": "Giros"
+    },
+    {
       "code": "Thanksgiving23",
       "reward": "Giros"
     },
@@ -17,76 +93,106 @@
     },
     {
       "code": "50KFavoritesSP",
-      "reward": "Stat puntos reset"
+      "reward": "Reinicio de stats"
     },
     {
       "code": "50KFavoritesSP2",
-      "reward": "Stat puntos reset"
+      "reward": "Reinicio de stats"
     },
     {
       "code": "GOJONOO",
-      "reward": "Giros"
+      "reward": "Giros gratis"
     },
     {
       "code": "20MVisits",
-      "reward": "Giros"
+      "reward": "Giros gratis"
     },
     {
       "code": "45KFavorites",
-      "reward": "Giros"
+      "reward": "Giros gratis"
     },
     {
       "code": "20MVisitsSP",
-      "reward": "SP Reset"
+      "reward": "Reset Stat puntos"
     },
     {
       "code": "45KFavoritesSP",
-      "reward": "SP Reset"
+      "reward": "Reset Stat puntos"
+    },
+    {
+      "code": "SPReset1",
+      "reward": "Reset Stat puntos"
+    },
+    {
+      "code": "SPReset2",
+      "reward": "Reset Stat puntos"
+    },
+    {
+      "code": "SPINSCode",
+      "reward": "35 giros"
     },
     {
       "code": "35KLikes",
-      "reward": "Giros"
+      "reward": "35 giros"
     },
     {
       "code": "LUFFY5GEAR",
-      "reward": "Giros"
-    },
-    {
-      "code": "NewSPResetCodeWow",
-      "reward": "SP Reset"
+      "reward": "35 giros"
     },
     {
       "code": "NewCodeWow",
-      "reward": "Giros"
+      "reward": "35 giros"
+    },
+    {
+      "code": "NewSPResetCodeWow",
+      "reward": "Stat Point Reset"
     },
     {
       "code": "15MVisits",
-      "reward": "Giros"
+      "reward": "35 giros"
     },
     {
       "code": "32KLikesSPReset",
-      "reward": "SP Reset"
+      "reward": "Stat Point Reset"
     },
     {
       "code": "KAISER",
-      "reward": "Giros"
+      "reward": "35 giros and 3 Prodigy giros"
     },
     {
       "code": "KAISERSPReset",
-      "reward": "SP Reset"
+      "reward": "Reinicio de stats"
     },
     {
       "code": "30KLikes",
-      "reward": "Giros"
+      "reward": "35 giros and 3 Prodigy giros"
     },
     {
       "code": "AIKU",
-      "reward": "Giros"
+      "reward": "35 giros and 3 Prodigy giros"
     },
     {
       "code": "27KLikesSPReset",
-      "reward": "SP Reset"
+      "reward": "Skill Point Reset"
     },
+    {
+      "code": "BarouUpd",
+      "reward": "35 giros and 3 Prodigy giros"
+    },
+    {
+      "code": "10KLikes",
+      "reward": "40 giros and 3 Prodigy giros"
+    },
+    {
+      "code": "1MVisits",
+      "reward": "30 giros and 3 Progidy giros"
+    },
+    {
+      "code": "NewCode",
+      "reward": "20 giros and 1 Prodigy giro"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "10MVisits2",
       "reward": "Giros"
@@ -124,20 +230,8 @@
       "reward": "Sp reset code"
     },
     {
-      "code": "10KLikes",
-      "reward": "40 giros and 3 prodigy giros"
-    },
-    {
-      "code": "BarouUpd",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "1MVisists",
       "reward": "30 giros and 3 prodigy giros"
-    },
-    {
-      "code": "NewCode",
-      "reward": "20 giros and 1 prodigy giro"
     },
     {
       "code": "7KLikes",
@@ -192,7 +286,6 @@
       "reward": "10 giros and 1 Prodigy giro"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Striker Odyssey en Roblox",
     "Busca el icono de códigos en el menú",

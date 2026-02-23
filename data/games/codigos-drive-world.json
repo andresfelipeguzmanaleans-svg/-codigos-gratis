@@ -5,32 +5,223 @@
   "description": "Todos los códigos activos para Drive World en Roblox",
   "metaTitle": "Códigos Drive World (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Drive World en Roblox. Consigue Gold, Cash, coches, wraps y neumáticos gratis.",
-  "lastUpdated": "2026-02-21",
+  "lastUpdated": "2026-02-23",
   "playerCount": 3153,
   "totalVisits": 462253685,
   "likes": 578547,
   "genre": "Racing",
   "placeId": 10704789056,
   "activeCodes": [
-    { "code": "happy2026", "reward": "Efecto nitrous Roman Candle" },
-    { "code": "winterfestival", "reward": "300 Winter Tokens" },
-    { "code": "525klikes", "reward": "Neumáticos Off-roading Sport" },
-    { "code": "blackfriday", "reward": "70 Gold" },
-    { "code": "delayworld", "reward": "55 Gold + 75K Cash" },
-    { "code": "goldenranches", "reward": "100 Gold" },
-    { "code": "freerims", "reward": "Rims R399 y R399XX" },
-    { "code": "500K", "reward": "LUX 800 Morikawa police interceptor" },
-    { "code": "475K", "reward": "Tie Dye Wrap" },
-    { "code": "freecar", "reward": "Frontier utility SUV" },
-    { "code": "95percent", "reward": "Dazzle Camo Wrap" },
-    { "code": "400klikes", "reward": "Neumático gratis" },
-    { "code": "375klikes", "reward": "Digital Camo Wrap" },
-    { "code": "275k", "reward": "Drift Wing Spoiler" },
-    { "code": "ONE_YEAR", "reward": "Rims y wraps gratis" }
+    {
+      "code": "carchallenge",
+      "reward": "Clover stock rims"
+    },
+    {
+      "code": "newyearnewcar",
+      "reward": "Current Widebody Hybrid Sedan gratis"
+    },
+    {
+      "code": "happy2026",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "winterfestival",
+      "reward": "300 Winter tokens"
+    },
+    {
+      "code": "525klikes",
+      "reward": "Off-roading Sport Tires"
+    },
+    {
+      "code": "blackfriday",
+      "reward": "70 oro"
+    },
+    {
+      "code": "delayworld",
+      "reward": "55 oro and 75k Cash"
+    },
+    {
+      "code": "goldenranches",
+      "reward": "100 oro"
+    },
+    {
+      "code": "advent",
+      "reward": "100 oro"
+    },
+    {
+      "code": "freerims",
+      "reward": "Rims gratis"
+    },
+    {
+      "code": "MEDALTV",
+      "reward": "Rims gratis"
+    },
+    {
+      "code": "500k",
+      "reward": "LUX 800 'Morikawa' Police Sedan"
+    },
+    {
+      "code": "475k",
+      "reward": "Tie Dye Wrap"
+    },
+    {
+      "code": "jp_imports",
+      "reward": "Katana Spoilers"
+    },
+    {
+      "code": "happy4th",
+      "reward": "Fireworks and Roman Candle Backfire Effects gratis"
+    },
+    {
+      "code": "elfevent",
+      "reward": "Tires gratis"
+    },
+    {
+      "code": "450klikes",
+      "reward": "Tires gratis"
+    },
+    {
+      "code": "425k",
+      "reward": "Hanger Wing Spoiler accessory"
+    },
+    {
+      "code": "95percent",
+      "reward": "Dazzle Wrap"
+    },
+    {
+      "code": "happy2025",
+      "reward": "Roof mod"
+    },
+    {
+      "code": "cybersleigh",
+      "reward": "Limitado time Cybertruck variant"
+    },
+    {
+      "code": "400klikes",
+      "reward": "Tires gratis"
+    },
+    {
+      "code": "millionmembers",
+      "reward": "Nitrous Effect"
+    },
+    {
+      "code": "375klikes",
+      "reward": "Digital Camo wrap"
+    },
+    {
+      "code": "freecar",
+      "reward": "Frontier utility SUV"
+    },
+    {
+      "code": "ria2024",
+      "reward": "Sparkletime wrap"
+    },
+    {
+      "code": "275k",
+      "reward": "Drift Wing Spoiler accessory"
+    },
+    {
+      "code": "245k",
+      "reward": "Brand new wrap"
+    },
+    {
+      "code": "225K",
+      "reward": "40 oro"
+    },
+    {
+      "code": "CONTRAST",
+      "reward": "Contrast Nitrous Effect"
+    },
+    {
+      "code": "BIGMILESTONES",
+      "reward": "35k Cash and the new “100 Million” Rims"
+    },
+    {
+      "code": "BIG_W",
+      "reward": "Limitado Victory Wrap"
+    },
+    {
+      "code": "COLORGLITCH",
+      "reward": "CMYK Wrap"
+    },
+    {
+      "code": "ONE_YEAR",
+      "reward": "Brand new wrap and rims"
+    }
   ],
   "expiredCodes": [
-    { "code": "250k", "reward": "Cash por hito" },
-    { "code": "100klikes", "reward": "Cash por hito" }
+    {
+      "code": "250k",
+      "reward": "Cash por hito"
+    },
+    {
+      "code": "100klikes",
+      "reward": "Cash por hito"
+    },
+    {
+      "code": "HOORAY",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "WRAPPED155K",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MISSION150K",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SLIMEPAINT",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DONTSEEME",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "CHECKED110K",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "STRUCKGOLD",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DOUBLEFIVES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "tengrand",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NOTBAD",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "likesoverload",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "fourtyfive",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "fav4money",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "100KTHX",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "CODEZ",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FOURDEE",
+      "reward": "Recompensas gratis"
+    }
   ],
   "introText": "Drive World es un juego de drifting y carreras en Roblox, desarrollado por Twin Atlas. Ganador del Innovation Award 2023, cuenta con más de 462 millones de visitas y ofrece una profunda personalización de vehículos con wraps, neumáticos, rims y efectos nitrous.",
   "whatAreCodes": "Los códigos de Drive World te dan Gold, Cash, coches gratis, wraps de pintura, neumáticos, rims y efectos de nitrous para personalizar y ampliar tu garaje.",

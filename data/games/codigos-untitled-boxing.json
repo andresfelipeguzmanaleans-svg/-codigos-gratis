@@ -5,37 +5,535 @@
   "description": "Todos los códigos activos para Untitled Boxing Game en Roblox",
   "metaTitle": "Códigos Untitled Boxing Game (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Untitled Boxing Game en Roblox. Consigue spins y cash gratis.",
-  "lastUpdated": "2026-02-21",
+  "lastUpdated": "2026-02-23",
   "playerCount": 8455,
   "totalVisits": 1188690209,
   "likes": 1212857,
   "genre": "Fighting",
   "placeId": 13621938427,
   "activeCodes": [
-    { "code": "lovefromubg", "reward": "5 Lucky Spins" },
-    { "code": "loveintheair", "reward": "5 Lucky Spins" },
-    { "code": "godspeed", "reward": "5 Lucky Spins" },
-    { "code": "supernova", "reward": "5-20 Lucky Spins" },
-    { "code": "berto", "reward": "5 Lucky Spins" },
-    { "code": "adrenaline", "reward": "10 Free Spins" },
-    { "code": "justtakethecash", "reward": "9.999 Cash" },
-    { "code": "whitecash", "reward": "4.999-14.999 Cash" },
-    { "code": "ubgliveson", "reward": "3-14 Lucky Spins" },
-    { "code": "vexthegoat", "reward": "5-15 Spins" },
-    { "code": "dualemotes", "reward": "Emote gratis" },
-    { "code": "nanomachines", "reward": "5 Lucky Spins" }
+    {
+      "code": "lovefromubg",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "loveintheair",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "whitecash",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "adrenaline",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "vexthegoat",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "justtakethecash",
+      "reward": "Recompensas gratis"
+    }
   ],
   "expiredCodes": [
-    { "code": "superpity", "reward": "Free Spins" },
-    { "code": "ultrapity", "reward": "Free Spins" },
-    { "code": "feelinggenerous", "reward": "Recompensas gratis" },
-    { "code": "freeemoteforall", "reward": "Emote gratis" },
-    { "code": "christmas2025", "reward": "Recompensas navideñas" },
-    { "code": "chimera", "reward": "20 Spins" },
-    { "code": "bringus", "reward": "10 Spins" },
-    { "code": "machinelove", "reward": "5 Lucky Spins" },
-    { "code": "pocketchange", "reward": "2.000 Cash" },
-    { "code": "nice", "reward": "8.000 Cash" }
+    {
+      "code": "superpity",
+      "reward": "Free Spins"
+    },
+    {
+      "code": "ultrapity",
+      "reward": "Free Spins"
+    },
+    {
+      "code": "feelinggenerous",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "freeemoteforall",
+      "reward": "Emote gratis"
+    },
+    {
+      "code": "christmas2025",
+      "reward": "Recompensas navideñas"
+    },
+    {
+      "code": "chimera",
+      "reward": "20 Spins"
+    },
+    {
+      "code": "bringus",
+      "reward": "10 Spins"
+    },
+    {
+      "code": "machinelove",
+      "reward": "5 Lucky Spins"
+    },
+    {
+      "code": "pocketchange",
+      "reward": "2.000 Cash"
+    },
+    {
+      "code": "nice",
+      "reward": "8.000 Cash"
+    },
+    {
+      "code": "godspeed",
+      "reward": "5 Lucky Spins"
+    },
+    {
+      "code": "supernova",
+      "reward": "5-20 Lucky Spins"
+    },
+    {
+      "code": "berto",
+      "reward": "5 Lucky Spins"
+    },
+    {
+      "code": "ubgliveson",
+      "reward": "3-14 Lucky Spins"
+    },
+    {
+      "code": "dualemotes",
+      "reward": "Emote gratis"
+    },
+    {
+      "code": "nanomachines",
+      "reward": "5 Lucky Spins"
+    },
+    {
+      "code": "secretberto",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "greenscreen",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "takeover",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "morespinswhynot",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "void",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "joeisreal",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "teleport",
+      "reward": "3 giros"
+    },
+    {
+      "code": "imbald",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "aprilfools",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "lovereturns",
+      "reward": "Cofre dinero"
+    },
+    {
+      "code": "matchmaking",
+      "reward": "10 giros"
+    },
+    {
+      "code": "bigbigcode",
+      "reward": "20 giros"
+    },
+    {
+      "code": "newyear",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "jolly2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "jolly",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "supersecret",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "sale",
+      "reward": "999 Cash"
+    },
+    {
+      "code": "morefeints",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "coolchanges",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "beefy",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "beefy2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "avatar",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "knockdownfits",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "halloween",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "spooky",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "powerlevel",
+      "reward": "9001 Cash"
+    },
+    {
+      "code": "asura",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "fastservers",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "weball",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "brazil",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "activateboost",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "jumpscare",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "animetime",
+      "reward": "Cash"
+    },
+    {
+      "code": "bigcode",
+      "reward": "15 giros"
+    },
+    {
+      "code": "thegames",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "500mil",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "kocash",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "manyfixes",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "delayapology",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "oneyear",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ubgforever",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "delayingsome",
+      "reward": "20 giros"
+    },
+    {
+      "code": "watwatwat",
+      "reward": "Giros"
+    },
+    {
+      "code": "balrog",
+      "reward": "Emote gratis"
+    },
+    {
+      "code": "vegeta",
+      "reward": "Emote gratis"
+    },
+    {
+      "code": "yamcha",
+      "reward": "Cash"
+    },
+    {
+      "code": "ipporework",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "chronos",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ipposreturn",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "freeemote1",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "freeemote2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "200mil",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "freeunusual",
+      "reward": "Unusual glove gratis"
+    },
+    {
+      "code": "cashcashcash",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "hawkrework",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "morecash",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "randomcode",
+      "reward": "5 giros"
+    },
+    {
+      "code": "freeemote",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "valentines",
+      "reward": "30K Cash"
+    },
+    {
+      "code": "beowulf",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "styletitles",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "charge",
+      "reward": "5 giros"
+    },
+    {
+      "code": "newyears",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "freedom",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "emotes",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "epiccode",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "funnycode",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "250k",
+      "reward": "15 giros"
+    },
+    {
+      "code": "ironfist",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "balance1",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "trading",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "moretrading",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "gems",
+      "reward": "3 cofres"
+    },
+    {
+      "code": "bullet",
+      "reward": "10 giros gratis"
+    },
+    {
+      "code": "100mil",
+      "reward": "20 giros"
+    },
+    {
+      "code": "100mil2",
+      "reward": "30k Cash"
+    },
+    {
+      "code": "freestuff",
+      "reward": "3 giros"
+    },
+    {
+      "code": "freecrates",
+      "reward": "12,500 Cash for cofres"
+    },
+    {
+      "code": "170k",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "fps",
+      "reward": "4 giros gratis"
+    },
+    {
+      "code": "KIMURA",
+      "reward": "10 giros"
+    },
+    {
+      "code": "ghost",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "bruh",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "150k",
+      "reward": "2 giros"
+    },
+    {
+      "code": "ranked",
+      "reward": "3 giros"
+    },
+    {
+      "code": "140k",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "130k",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "120k",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "violence",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "getmoremythics",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "whitefang",
+      "reward": "20 giros"
+    },
+    {
+      "code": "100k",
+      "reward": "25 giros"
+    },
+    {
+      "code": "justiceforubg",
+      "reward": "20 giros"
+    },
+    {
+      "code": "handslow",
+      "reward": "15 giros"
+    },
+    {
+      "code": "50kdiscordmembers",
+      "reward": "50 giros"
+    },
+    {
+      "code": "performancefixes",
+      "reward": "20 giros"
+    },
+    {
+      "code": "60k likes",
+      "reward": "10 giros"
+    },
+    {
+      "code": "Shutdowns",
+      "reward": "10 giros"
+    },
+    {
+      "code": "40klikes",
+      "reward": "20 giros"
+    },
+    {
+      "code": "newlegendary",
+      "reward": "10 giros"
+    },
+    {
+      "code": "20klikes",
+      "reward": "15 giros"
+    },
+    {
+      "code": "donewithmigration",
+      "reward": "50 giros"
+    },
+    {
+      "code": "migration",
+      "reward": "20 giros"
+    },
+    {
+      "code": "1000likes",
+      "reward": "10 giros"
+    },
+    {
+      "code": "5000likes",
+      "reward": "20 giros"
+    },
+    {
+      "code": "whynot",
+      "reward": "5 giros"
+    },
+    {
+      "code": "dataissue",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "earlybird",
+      "reward": "25 giros"
+    }
   ],
   "introText": "Untitled Boxing Game es uno de los juegos de lucha más adictivos de Roblox, creado por drowningsome. Con más de 1.100 millones de visitas y más de 1,2 millones de likes, este juego PvP te pone en el ring para dominar combos, desbloquear guantes únicos y escalar en el ranking contra otros jugadores. Si buscas una ventaja para tus combates, los códigos te ayudarán a conseguirla.",
   "whatAreCodes": "Los códigos de Untitled Boxing Game te regalan principalmente Lucky Spins, que son tiradas gratuitas para desbloquear guantes y habilidades sin gastar Robux. También puedes conseguir Cash para comprar mejoras y emotes exclusivos para presumir en el ring. Cada código puede darte entre 5 y 20 spins o miles de Cash de golpe.",

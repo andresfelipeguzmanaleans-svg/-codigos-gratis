@@ -9,19 +9,23 @@
   "activeCodes": [
     {
       "code": "DeadGame",
-      "reward": "Recompensas gratis"
+      "reward": "Freebies"
     },
     {
       "code": "Colombia",
-      "reward": "Recompensas gratis"
+      "reward": "Freebies"
+    },
+    {
+      "code": "Happy4th2025",
+      "reward": "Freebies"
     },
     {
       "code": "Season3Released",
-      "reward": "Recompensas gratis"
+      "reward": "Freebies"
     },
     {
       "code": "Season2Released",
-      "reward": "Recompensas gratis"
+      "reward": "Freebies"
     },
     {
       "code": "S2Secret",
@@ -44,6 +48,14 @@
       "reward": "5 revives"
     },
     {
+      "code": "ThanksPewDiePie",
+      "reward": "500 Cash"
+    },
+    {
+      "code": "December2023",
+      "reward": "5 revives"
+    },
+    {
       "code": "456",
       "reward": "2.5k Cash"
     },
@@ -60,6 +72,10 @@
       "reward": "5k Cash"
     },
     {
+      "code": "July2023",
+      "reward": "5 revives"
+    },
+    {
       "code": "saucyvibe",
       "reward": "5 revives"
     },
@@ -74,6 +90,14 @@
     {
       "code": "SleeplessTaco",
       "reward": "5k Cash"
+    },
+    {
+      "code": "2023",
+      "reward": "Weapon skin gratis"
+    },
+    {
+      "code": "700kLikes",
+      "reward": "3 Pushes gratis"
     },
     {
       "code": "TooSoon",
@@ -216,6 +240,10 @@
     {
       "code": "700kLikes",
       "reward": "3 Pushes gratis"
+    },
+    {
+      "code": "treat",
+      "reward": "25 Souls"
     }
   ],
   "howToRedeem": [

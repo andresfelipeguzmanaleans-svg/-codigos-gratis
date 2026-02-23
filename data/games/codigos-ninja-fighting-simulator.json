@@ -32,7 +32,7 @@
       "reward": "Codes for recompensas gratis"
     },
     {
-      "code": "MISSING&nbsp;",
+      "code": "MISSING",
       "reward": "Codes for recompensas gratis"
     },
     {
@@ -52,7 +52,12 @@
       "reward": "Winged Oni gratis"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "MISSING&nbsp;",
+      "reward": "Codes for recompensas gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Ninja Fighting Simulator en Roblox",
     "Busca el icono de códigos en el menú",

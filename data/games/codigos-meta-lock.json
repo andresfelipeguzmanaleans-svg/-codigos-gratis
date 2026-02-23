@@ -5,32 +5,399 @@
   "description": "Todos los códigos activos para Meta Lock en Roblox",
   "metaTitle": "Códigos Meta Lock (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Meta Lock en Roblox. Consigue Spins y Talent Spins gratis.",
-  "lastUpdated": "2026-02-21",
+  "lastUpdated": "2026-02-23",
   "playerCount": 296,
   "totalVisits": 115697152,
   "likes": 77102,
   "genre": "Sports",
   "placeId": 13641922937,
   "activeCodes": [
-    { "code": "BlindSpotTrait", "reward": "Spins gratis" },
-    { "code": "FreestyleTalent", "reward": "Spins gratis" },
-    { "code": "AlarmClockTalent", "reward": "Spins gratis" },
-    { "code": "SpinCodeSpinCodeFr", "reward": "Spins gratis" },
-    { "code": "SorryForShutdownNelIsagi2", "reward": "30 Spins" },
-    { "code": "SorryForShutdownNelIsagi", "reward": "30 Spins" },
-    { "code": "NELIsagi", "reward": "30 Spins" },
-    { "code": "AdaptabilityGenius", "reward": "15 Talent Spins" },
-    { "code": "delaydelaydelaydelaylaylaylay", "reward": "20 Spins + 20 Talent Spins" },
-    { "code": "HAPPY_NEW_YEAR_2026", "reward": "Spins gratis" },
-    { "code": "PANTHERUPDATE", "reward": "Spins gratis" },
-    { "code": "6V6MODE", "reward": "Spins gratis" },
-    { "code": "RinRework", "reward": "Spins gratis" },
-    { "code": "ReflexWeapon", "reward": "Spins gratis" },
-    { "code": "bonuscode1", "reward": "Spins gratis" }
+    {
+      "code": "BlindSpotTrait",
+      "reward": "Giros"
+    },
+    {
+      "code": "FreestyleTalent",
+      "reward": "Giros"
+    },
+    {
+      "code": "SadistTrait",
+      "reward": "6 giros"
+    },
+    {
+      "code": "AmbidextrousTrait",
+      "reward": "6 Talent giros"
+    },
+    {
+      "code": "DestroyerTalent",
+      "reward": "6 giros"
+    },
+    {
+      "code": "SpinCodeSpinCodeFr",
+      "reward": "Giros"
+    },
+    {
+      "code": "AlarmClockTalent",
+      "reward": "Giros"
+    },
+    {
+      "code": "SorryForShutdownNelIsagi2",
+      "reward": "30 giros"
+    },
+    {
+      "code": "SorryForShutdownNelIsagi",
+      "reward": "30 giros"
+    },
+    {
+      "code": "AdaptabilityGenius",
+      "reward": "15 Talent giros"
+    },
+    {
+      "code": "NELIsagi",
+      "reward": "30 giros"
+    },
+    {
+      "code": "delaydelaydelaydelaylaylaylay",
+      "reward": "20 giros and 20 Talent giros"
+    },
+    {
+      "code": "EmperorRework2",
+      "reward": "15 Talent giros"
+    },
+    {
+      "code": "GodspeedRework2",
+      "reward": "20 giros"
+    },
+    {
+      "code": "MagicianWeapon",
+      "reward": "20 giros"
+    },
+    {
+      "code": "SorryForDelayNess",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "Sowwyyy",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "HAPPY_NEW_YEAR_2026",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "sorryforallthedelays",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "PANTHERUPDATE",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "MERRY_CHRISTMAS_METALOCK",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "SORRYFORSHUTDOWNCHRISTMAS2",
+      "reward": "10 giros"
+    },
+    {
+      "code": "6V6MODE",
+      "reward": "13 Talent giros"
+    },
+    {
+      "code": "XMAS2025x",
+      "reward": "13 Talent giros"
+    },
+    {
+      "code": "CHRISTMAS2025x",
+      "reward": "67 giros"
+    },
+    {
+      "code": "SORRYFORDELAYPANTHER",
+      "reward": "20 giros"
+    },
+    {
+      "code": "SORRYFORDELAYPANTHER2",
+      "reward": "15 giros"
+    },
+    {
+      "code": "SORRYFORDELAYPANTHER3",
+      "reward": "20 Talent giros"
+    },
+    {
+      "code": "PantherNext",
+      "reward": "15 giros"
+    },
+    {
+      "code": "QOLUpdate",
+      "reward": "4 giros"
+    },
+    {
+      "code": "SuperCoolUpdate",
+      "reward": "20 Talent giros"
+    },
+    {
+      "code": "RinRework",
+      "reward": "20 giros"
+    },
+    {
+      "code": "kaito",
+      "reward": "4 giros"
+    },
+    {
+      "code": "WILDCARDREWORK",
+      "reward": "15 giros"
+    },
+    {
+      "code": "SNIPERREWORK",
+      "reward": "15 giros"
+    },
+    {
+      "code": "EMPERORREWORK",
+      "reward": "15 giros"
+    },
+    {
+      "code": "MONSTERREWORK",
+      "reward": "15 giros"
+    },
+    {
+      "code": "BEAUTIFULDRIBBLINGREWORK",
+      "reward": "15 giros"
+    },
+    {
+      "code": "SNAKEREWORK",
+      "reward": "20 Talent giros"
+    },
+    {
+      "code": "DelayCode",
+      "reward": "50 giros"
+    },
+    {
+      "code": "ControlWeapon",
+      "reward": "20 Talent giros"
+    },
+    {
+      "code": "HajimemashiteNippon",
+      "reward": "50 giros"
+    },
+    {
+      "code": "NagiIsHere",
+      "reward": "15 giros"
+    },
+    {
+      "code": "QuickReflex",
+      "reward": "20 Talent giros"
+    },
+    {
+      "code": "GOALKEEPER",
+      "reward": "15 giros"
+    },
+    {
+      "code": "KingRework",
+      "reward": "Giros"
+    },
+    {
+      "code": "DemonRework",
+      "reward": "Giros"
+    },
+    {
+      "code": "BonusCode",
+      "reward": "Giros"
+    },
+    {
+      "code": "Copycat",
+      "reward": "20 giros"
+    },
+    {
+      "code": "TheChameleon",
+      "reward": "20 giros"
+    },
+    {
+      "code": "MetavisionRework",
+      "reward": "15 giros"
+    },
+    {
+      "code": "MarkSmellTalent",
+      "reward": "20 giros"
+    },
+    {
+      "code": "Halloween2025",
+      "reward": "15 giros"
+    },
+    {
+      "code": "SORRYFORSHUTDOWN1",
+      "reward": "20 giros"
+    },
+    {
+      "code": "bonuscode1",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "ReflexWeapon",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "TheGoat",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "NewEloSystem",
+      "reward": "15 Talent giros"
+    },
+    {
+      "code": "SorryForDelayZD",
+      "reward": "80 giros"
+    },
+    {
+      "code": "ZombieDribblingRework",
+      "reward": "30 giros"
+    }
   ],
   "expiredCodes": [
-    { "code": "SUMMERUPDATE", "reward": "Spins gratis" },
-    { "code": "100KLIKES", "reward": "Spins por hito" }
+    {
+      "code": "SUMMERUPDATE",
+      "reward": "Spins gratis"
+    },
+    {
+      "code": "100KLIKES",
+      "reward": "Spins por hito"
+    },
+    {
+      "code": "HALLOWEEN",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Favorites11K",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "CURVES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HAPPYNEWYEAR",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TRAP",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "fayreon_dev",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "update",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FixedBugs2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "LORENZO",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "rinisgood",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SORRY1",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ThxFor10KDiscord",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "WILDCARD",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "srry4shutdown",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "metalockbetter",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SorryForShutdown",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "milk",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "plspass",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "RoadTo2M",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "rin",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SorryForShutdown2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BachiraRework",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "kurona",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HappyBdayNatsu",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ThxFor4M",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "code_vollstandig",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FixedBugs",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "CHRISTMAS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ControlRework",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SorryForTheDelay",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FixedBugs3",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ACCELERATION",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "plscode",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GODPASSREWORK",
+      "reward": "Recompensas gratis"
+    }
   ],
   "introText": "Meta Lock es un juego de fútbol de Roblox inspirado en Blue Lock, creado por Reydmundo con más de 115 millones de visitas. Construyes tu propio delantero, dominas estilos de juego potentes y compites en partidos intensos contra rivales. Personaliza tu estilo de juego, desbloquea habilidades únicas y despierta tu verdadero potencial para convertirte en el delantero número 1 del mundo.",
   "whatAreCodes": "Los códigos de Meta Lock te dan Spins y Talent Spins gratis para obtener nuevos rasgos, talentos y habilidades para tu personaje. Algunos códigos otorgan hasta 30 Spins de golpe, lo que te permite rerollear tus stats y conseguir builds más potentes sin gastar recursos.",

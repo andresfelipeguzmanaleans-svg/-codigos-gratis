@@ -8,8 +8,8 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "iAintReadingAllat",
-      "reward": "Gemas gratis"
+      "code": "IDKwhatToPut",
+      "reward": "Gemas"
     },
     {
       "code": "10Mvisits",
@@ -17,11 +17,11 @@
     },
     {
       "code": "SUMMER",
-      "reward": "Gemas gratis"
+      "reward": "500 gemas"
     },
     {
       "code": "PURGATORY",
-      "reward": "Gemas gratis"
+      "reward": "500 gemas"
     },
     {
       "code": "FUSION",
@@ -29,70 +29,46 @@
     },
     {
       "code": "Optimized",
-      "reward": "Gemas gratis"
+      "reward": "250 gemas"
     },
     {
       "code": "NewQuests",
-      "reward": "Gemas gratis"
+      "reward": "500 gemas"
     },
     {
       "code": "Andromeda",
       "reward": "500 gemas"
     },
     {
-      "code": "OMGLuckEvent",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "Abilities",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "NoooMyLuckEvent",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "YESSSmyLuckEventIsBack",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "FinallyFunctioningGame",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "WORKERS",
-      "reward": "Recompensas gratis"
+      "reward": "500 gemas"
     },
     {
       "code": "EUPHORIA",
-      "reward": "Gemas"
-    },
-    {
-      "code": "QuestsWorking",
-      "reward": "Gemas"
+      "reward": "500 gemas"
     },
     {
       "code": "PleaseGiftMe",
-      "reward": "Gemas"
+      "reward": "500 gemas"
     },
     {
-      "code": "APRILFOOLS",
-      "reward": "Gemas"
+      "code": "AprilFools",
+      "reward": "5 gemas"
     },
     {
       "code": "HappyEaster",
-      "reward": "Gemas"
+      "reward": "500 gemas"
     },
     {
       "code": "ClientSpawners",
-      "reward": "Gemas"
+      "reward": "250 gemas"
     },
     {
       "code": "HappyBDAY",
-      "reward": "Gemas"
+      "reward": "250 gemas"
     },
     {
-      "code": "CHROMA",
+      "code": "Chroma",
       "reward": "500 gemas"
     },
     {
@@ -116,20 +92,20 @@
       "reward": "500 gemas"
     },
     {
-      "code": "Only499LeftToGo",
-      "reward": "1 Icy"
-    },
-    {
       "code": "DatastoreIsGoodNow",
       "reward": "500 gemas"
     },
     {
-      "code": "iLoveLife",
-      "reward": "1 life"
+      "code": "Only499LeftToGo",
+      "reward": "1 Icy"
     },
     {
       "code": "CRAFTING",
       "reward": "500 gemas"
+    },
+    {
+      "code": "iLoveLife",
+      "reward": "1 Life"
     },
     {
       "code": "sorry4bugs",
@@ -144,24 +120,16 @@
       "reward": "500 gemas"
     },
     {
-      "code": "ImLonelyOnValentines",
-      "reward": "500 gemas"
-    },
-    {
       "code": "ESCAPETHEMATRIX",
       "reward": "500 gemas"
     },
     {
       "code": "iLoveFlexxing",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "SorryDelaysAgain",
-      "reward": "Gemas"
+      "reward": "250 gemas"
     },
     {
       "code": "Tesseract",
-      "reward": "Gemas"
+      "reward": "250 gemas"
     },
     {
       "code": "MapOverhaul",
@@ -169,18 +137,14 @@
     },
     {
       "code": "Toxic",
-      "reward": "Gemas"
+      "reward": "250 gemas"
     },
     {
       "code": "FunnyInvert",
-      "reward": "Gemas"
+      "reward": "500 gemas"
     },
     {
       "code": "COMPETITION",
-      "reward": "Gemas"
-    },
-    {
-      "code": "NewYears2023",
       "reward": "500 gemas"
     },
     {
@@ -188,16 +152,12 @@
       "reward": "500 gemas"
     },
     {
-      "code": "Jolly",
-      "reward": "500 gemas"
+      "code": "INVERTED",
+      "reward": "750 gemas"
     },
     {
       "code": "SorryDelay",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "INVERTED",
-      "reward": "250 gemas"
+      "reward": "750 gemas"
     },
     {
       "code": "DEPTH",
@@ -206,9 +166,90 @@
     {
       "code": "NEWUPDATE",
       "reward": "250 gemas"
+    },
+    {
+      "code": "OneMillionVisits",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "HALLOWEEN",
+      "reward": "250 gemas"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "iAintReadingAllat",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "OMGLuckEvent",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "Abilities",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "NoooMyLuckEvent",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "YESSSmyLuckEventIsBack",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "FinallyFunctioningGame",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "QuestsWorking",
+      "reward": "Gemas"
+    },
+    {
+      "code": "ImLonelyOnValentines",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "SorryDelaysAgain",
+      "reward": "Gemas"
+    },
+    {
+      "code": "NewYears2023",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "Jolly",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "QUESTS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ARCTIC",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PLACER",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Blossom",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Update2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ForFree",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "brokebum2",
+      "reward": "Recompensas gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Block Mayhem en Roblox",
     "Busca el icono de códigos en el menú",

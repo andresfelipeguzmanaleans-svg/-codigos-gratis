@@ -8,81 +8,83 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "THIS_IS_FREEDOM",
-      "reward": "Cash, llaves, and giros"
+      "code": "STOP_THE_RUMBLING",
+      "reward": "Cash and giros"
     },
     {
       "code": "STOP_EREN",
-      "reward": "Cash, llaves, and giros"
+      "reward": "Cash and giros"
     },
     {
-      "code": "STOP_THE_RUMBLING",
-      "reward": "Cash, llaves, and giros"
+      "code": "THIS_IS_FREEDOM",
+      "reward": "Cash and giros"
     },
     {
       "code": "FREEDOM_IS_HERE",
-      "reward": "Cash, llaves, and giros"
+      "reward": "10 llaves"
     },
     {
       "code": "GIANT_SPINE",
-      "reward": "Cash, llaves, and giros"
-    },
-    {
-      "code": "BREAK_FREEEEEE",
-      "reward": "Cash, llaves, and giros"
+      "reward": "5k Cash and giros"
     },
     {
       "code": "TRUE_FREEDOM",
-      "reward": "Cash, llaves, and giros"
+      "reward": "10 llaves"
+    },
+    {
+      "code": "BREAK_FREEEEEE",
+      "reward": "5k Cash"
     },
     {
       "code": "MIKASA_SUKASA",
-      "reward": "Cash, llaves, and giros"
+      "reward": "Cash and giros"
     },
     {
       "code": "IF_I_LOSE_IT_ALL",
-      "reward": "Cash, llaves, and giros"
+      "reward": "Cash and giros"
     },
     {
       "code": "TITAN_WARFARE_IS_AWESOME",
-      "reward": "Cash, llaves, and giros"
+      "reward": "Cash"
     },
     {
       "code": "S4P3",
-      "reward": "Cash, llaves, and giros"
+      "reward": "2.5k Cash"
     },
     {
       "code": "SEASON_4!!!?",
-      "reward": "Cash, llaves, and giros"
+      "reward": "Recompensas gratis"
     },
     {
       "code": "ILOVEDBD",
-      "reward": "Cash, llaves, and giros"
+      "reward": "Recompensas gratis"
     },
     {
       "code": "CONN1E",
-      "reward": "Cash, llaves, and giros"
+      "reward": "Recompensas gratis"
     },
     {
       "code": "TITANBATTLE",
-      "reward": "Cash, llaves, and giros"
+      "reward": "Recompensas gratis"
     },
     {
       "code": "POTATO_LOVER",
-      "reward": "Cash, llaves, and giros"
+      "reward": "Recompensas gratis"
     },
     {
       "code": "AWESOME_WARFARE",
-      "reward": "Cash, llaves, and giros"
+      "reward": "Recompensas gratis"
     },
     {
       "code": "HANG3",
-      "reward": "Cash, llaves, and giros"
+      "reward": "Recompensas gratis"
     },
     {
       "code": "ILOVETITANWARFARE",
-      "reward": "Cash, llaves, and giros"
-    },
+      "reward": "Recompensas gratis"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "CALCTUTOR",
       "reward": "Cash, llaves, and giros"
@@ -154,9 +156,12 @@
     {
       "code": "MAGATH123",
       "reward": "500 Cash"
+    },
+    {
+      "code": "45KLIKES",
+      "reward": "Recompensas gratis"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Titan Warfare en Roblox",
     "Busca el icono de códigos en el menú",

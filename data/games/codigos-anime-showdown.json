@@ -8,16 +8,20 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "!redeem MERRYCHRISTMAS",
-      "reward": "Recompensas gratis"
+      "code": "20K!",
+      "reward": "3,000 monedas"
     },
     {
-      "code": "!redeem EarlyAccessReward",
-      "reward": "Recompensas gratis"
+      "code": "4MILVISITS",
+      "reward": "650 monedas"
     },
     {
-      "code": "!redeem ROBLOXSERVERSAREAWESOME",
-      "reward": "Recompensas gratis"
+      "code": "6MILVISITS",
+      "reward": "2,650 monedas"
+    },
+    {
+      "code": "ROBLOXSERVERSAREAWESOME",
+      "reward": "Monedas and gemas"
     }
   ],
   "expiredCodes": [
@@ -120,6 +124,86 @@
     {
       "code": "!redeem SORRY4SHUTDOWN",
       "reward": "Monedas and gemas gratis"
+    },
+    {
+      "code": "!redeem MERRYCHRISTMAS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "!redeem EarlyAccessReward",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "!redeem ROBLOXSERVERSAREAWESOME",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MERRYCHRISTMAS",
+      "reward": "Monedas and gemas"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "10,500 monedas and 1,000 gemas recompensa! gratis"
+    },
+    {
+      "code": "10K!",
+      "reward": "1,000 monedas and gemas recompensas! gratis"
+    },
+    {
+      "code": "SORRY4SHUTDOWN2",
+      "reward": "1,000 monedas and gemas recompensas! gratis"
+    },
+    {
+      "code": "BIRTHDAYPRESENT",
+      "reward": "In-game recompensa"
+    },
+    {
+      "code": "HITRELEASED",
+      "reward": "Monedas and gemas"
+    },
+    {
+      "code": "SHUUTDOOWN",
+      "reward": "Monedas and gemas"
+    },
+    {
+      "code": "PIXELBOUNDISCOOL",
+      "reward": "650 XP, 2500 Cash, and 10 gemas"
+    },
+    {
+      "code": "PATCHMOVED2NEXTWEEK",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "FREECOLOSSALCHEST",
+      "reward": "Cofre"
+    },
+    {
+      "code": "SORRY4SHUTDOWNONTUESDAYPATCH",
+      "reward": "Monedas"
+    },
+    {
+      "code": "TUESDAYPATCHFIX",
+      "reward": "Monedas"
+    },
+    {
+      "code": "REJOIN2FIXLOADING",
+      "reward": "Monedas"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "Monedas"
+    },
+    {
+      "code": "SORRY4BUG",
+      "reward": "Gemas and XP recompensas! gratis"
+    },
+    {
+      "code": "1MILVISITS",
+      "reward": "35 gemas, 1,000 monedas, and XP recompensas! gratis"
+    },
+    {
+      "code": "fudd10_v10",
+      "reward": "Gema, a couple of monedas, and XP recompensas! gratis"
     }
   ],
   "howToRedeem": [

@@ -8,8 +8,24 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "POTIONS",
+      "code": "CHRISTMAS",
+      "reward": "500 Snow tokens"
+    },
+    {
+      "code": "SUMMER25",
+      "reward": "2k Cash"
+    },
+    {
+      "code": "6TH ANNIVERSARY",
+      "reward": "3k Cash"
+    },
+    {
+      "code": "HUNT",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "POTIONS",
+      "reward": "3.6k Cash"
     },
     {
       "code": "JOLLY",
@@ -17,79 +33,43 @@
     },
     {
       "code": "SEASON 2",
-      "reward": "5,000 Candy"
+      "reward": "5k Candy"
     },
     {
       "code": "SEASON 1",
-      "reward": "5,000 monedas"
+      "reward": "5k monedas"
     },
     {
       "code": "INDEPENDENCE",
-      "reward": "1,000 Popsicles"
+      "reward": "1k Popsicles"
     },
     {
       "code": "500MIL",
-      "reward": "50,000 Eggs"
+      "reward": "50k Eggs and 1k Cash"
     },
     {
       "code": "SPRING",
-      "reward": "1,000 Eggs"
+      "reward": "1,5k Eggs"
     },
     {
-      "code": "TyFor355k",
-      "reward": "Del juego Cash and Gingerbread"
-    },
-    {
-      "code": "THX4LIKES",
-      "reward": "$1,200 del juego"
-    },
-    {
-      "code": "PART2FEDORA",
-      "reward": "Code  to claim the new & exclusivo Black Sparkle Fedora"
-    },
-    {
-      "code": "CANDY",
-      "reward": "25,000 Candy del juego"
-    },
-    {
-      "code": "TREASURE",
-      "reward": "Recompensas gratis"
+      "code": "TyFor315k",
+      "reward": "2k Cash"
     },
     {
       "code": "COINS",
-      "reward": "Recompensas gratis"
+      "reward": "1,5k Cash"
     },
     {
       "code": "TyFor265k",
-      "reward": "$1,500 Cash"
-    },
-    {
-      "code": "EASTER2023",
-      "reward": "1,500 Eggs"
+      "reward": "1,5k Cash"
     },
     {
       "code": "FREEP90",
-      "reward": "P90 gratis"
+      "reward": "P90"
     },
     {
-      "code": "TyFor200k",
-      "reward": "$1,500 Cash"
-    },
-    {
-      "code": "80KCANDY",
-      "reward": "80,000 Candy"
-    },
-    {
-      "code": "Candy4U",
-      "reward": "8,500 Candy"
-    },
-    {
-      "code": "FREEMP5",
-      "reward": "Gun gratis"
-    },
-    {
-      "code": "100MIL",
-      "reward": "1,200 Cash"
+      "code": "THX4LIKES",
+      "reward": "1.2k Cash"
     },
     {
       "code": "SCRIPTLY",
@@ -132,6 +112,46 @@
     {
       "code": "XMAS",
       "reward": "2,000 Snowflakes"
+    },
+    {
+      "code": "TyFor355k",
+      "reward": "Del juego Cash and Gingerbread"
+    },
+    {
+      "code": "PART2FEDORA",
+      "reward": "Code  to claim the new & exclusivo Black Sparkle Fedora"
+    },
+    {
+      "code": "CANDY",
+      "reward": "25,000 Candy del juego"
+    },
+    {
+      "code": "TREASURE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "EASTER2023",
+      "reward": "1,500 Eggs"
+    },
+    {
+      "code": "TyFor200k",
+      "reward": "$1,500 Cash"
+    },
+    {
+      "code": "80KCANDY",
+      "reward": "80,000 Candy"
+    },
+    {
+      "code": "Candy4U",
+      "reward": "8,500 Candy"
+    },
+    {
+      "code": "FREEMP5",
+      "reward": "Gun gratis"
+    },
+    {
+      "code": "100MIL",
+      "reward": "1,200 Cash"
     }
   ],
   "howToRedeem": [

@@ -8,224 +8,36 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "PrimeJuuzou",
-      "reward": "Recompensas gratis"
+      "code": "NEWYEARS2026",
+      "reward": "100 giros, 2000 Materials, 5k RC, 500k Yen, and 2h of Boosts"
     },
     {
-      "code": "NewQuest",
-      "reward": "Recompensas gratis"
+      "code": "XMAS2025",
+      "reward": "+ 100 giros + 2000 materials + 5000 Rc + 500k yen + 2h of Boosts"
     },
     {
-      "code": "AFK",
-      "reward": "Recompensas gratis"
+      "code": "80kLikes",
+      "reward": "60 giros, 1000 Materials, 4k RC, 300k Yen, and 60 minutos of Boosts"
     },
     {
-      "code": "GauntletBugFixes",
-      "reward": "Recompensas gratis"
+      "code": "NaruSneak",
+      "reward": "30 giros, 500 Materials, 2k RC, 150k Yen, and 30m of Boosts"
     },
     {
-      "code": "NakiSneak",
-      "reward": "Recompensas gratis"
+      "code": "Update67",
+      "reward": "30 giros, 500 Materials, 2k RC, 150k Yen, and 30m of Boosts"
     },
     {
-      "code": "Announcements",
-      "reward": "Recompensas gratis"
+      "code": "DoubleSneak",
+      "reward": "30 giros, 500 Materials, 2k RC, 150k Yen, and 30m of Boosts"
     },
     {
-      "code": "Gauntlet",
-      "reward": "Recompensas gratis"
+      "code": "60MVisits",
+      "reward": "200 giros, 8000 Materials, 8k RC, 3M Yen, and 120m of Boosts"
     },
     {
-      "code": "Aratas",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Optimizations",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NewSneaks",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "KAKUJASOONYEN",
-      "reward": "Yen/RC and Materials"
-    },
-    {
-      "code": "KAKUJASOONSPINS4",
-      "reward": "10 giros"
-    },
-    {
-      "code": "KAKUJASOONSPINS3",
-      "reward": "10 giros"
-    },
-    {
-      "code": "KAKUJASOONSPINS2",
-      "reward": "10 giros"
-    },
-    {
-      "code": "KAKUJASOONSPINS1",
-      "reward": "10 giros"
-    },
-    {
-      "code": "KAKUJASOONBOOST3",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "KAKUJASOONBOOST2",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "KAKUJASOONBOOST1",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "CrimsonBoost2",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "CrimsonBoost1",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "CrimsonSpins3",
-      "reward": "10 giros"
-    },
-    {
-      "code": "CrimsonSpins2",
-      "reward": "10 giros"
-    },
-    {
-      "code": "CrimsonSpins1",
-      "reward": "10 giros"
-    },
-    {
-      "code": "SSSOwl_Rework",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "50KBOOST6",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "50KBOOST5",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "50KBOOST3",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "50KBOOST2",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "50KBOOST1",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "50KMEMSPINS5",
-      "reward": "10 giros"
-    },
-    {
-      "code": "50KMEMSPINS4",
-      "reward": "10 giros"
-    },
-    {
-      "code": "50KMEMSPINS3",
-      "reward": "10 giros"
-    },
-    {
-      "code": "50KMEMSPINS2",
-      "reward": "10 giros"
-    },
-    {
-      "code": "50KMEMSPINS1",
-      "reward": "10 giros"
-    },
-    {
-      "code": "NOROSPINS1",
-      "reward": "10 giros"
-    },
-    {
-      "code": "NOROSPINS2",
-      "reward": "10 giros"
-    },
-    {
-      "code": "NOROSPINS3",
-      "reward": "10 giros"
-    },
-    {
-      "code": "NOROBOOST1",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "NOROBOOST2",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "NOROBOOST3",
-      "reward": "+10 mins of all x2 boosters"
-    },
-    {
-      "code": "MerryRoguemas!",
-      "reward": "Giros & recompensas gratis"
-    },
-    {
-      "code": "MerryRoguemas2023",
-      "reward": "Giros & recompensas gratis"
-    },
-    {
-      "code": "PG2024",
-      "reward": "Giros & recompensas gratis"
-    },
-    {
-      "code": "WelcomeBackPG!",
-      "reward": "+500 all materials, +15,000 Yen"
-    },
-    {
-      "code": "Roguemas!",
-      "reward": "+30 giros, +20 mins of all x2 boosters"
-    },
-    {
-      "code": "Festivity1",
-      "reward": "+30 giros, +20 mins of all x2 boosters"
-    },
-    {
-      "code": "Festivity2",
-      "reward": "+500 all materials, +15,000 Yen"
-    },
-    {
-      "code": "PGCHRISTMAS2023",
-      "reward": "+30 giros, +20 mins of all x2 boosters"
-    },
-    {
-      "code": "LaughingNishiki83004231",
-      "reward": "+30 giros, +20 mins of all x2 boosters"
-    },
-    {
-      "code": "BitterKureo43004232",
-      "reward": "+15,000 Yen, +500 all materials, +1500 RC"
-    },
-    {
-      "code": "Fixes",
-      "reward": "30 giros, 20 mins of all x2 boosters"
-    },
-    {
-      "code": "SweetUta51604231",
-      "reward": "+30 giros, +20 mins of all x2 boosters"
-    },
-    {
-      "code": "AwesomeTouma71604232",
-      "reward": "+15,000 Yen, +500 all materials, +1500 RC"
-    },
-    {
-      "code": "MeditatingKuramoto50804231",
-      "reward": "+30 giros, +20 mins of all x2 boosters"
-    },
-    {
-      "code": "DancingGinshi00804232",
-      "reward": "+15,000 Yen, +500 all materials, +1500 RC"
+      "code": "Halloween2025",
+      "reward": "60 giros, 1000 Materials, 4k RC, 300k Yen, and 60 minutos of Boosts"
     }
   ],
   "expiredCodes": [
@@ -508,6 +320,1002 @@
     {
       "code": "SubToKilik",
       "reward": "15 giros"
+    },
+    {
+      "code": "PrimeJuuzou",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NewQuest",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "AFK",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GauntletBugFixes",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NakiSneak",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Announcements",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Gauntlet",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Aratas",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Optimizations",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NewSneaks",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "KAKUJASOONYEN",
+      "reward": "Yen/RC and Materials"
+    },
+    {
+      "code": "KAKUJASOONSPINS4",
+      "reward": "10 giros"
+    },
+    {
+      "code": "KAKUJASOONSPINS3",
+      "reward": "10 giros"
+    },
+    {
+      "code": "KAKUJASOONSPINS2",
+      "reward": "10 giros"
+    },
+    {
+      "code": "KAKUJASOONSPINS1",
+      "reward": "10 giros"
+    },
+    {
+      "code": "KAKUJASOONBOOST3",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "KAKUJASOONBOOST2",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "KAKUJASOONBOOST1",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "CrimsonBoost2",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "CrimsonBoost1",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "CrimsonSpins3",
+      "reward": "10 giros"
+    },
+    {
+      "code": "CrimsonSpins2",
+      "reward": "10 giros"
+    },
+    {
+      "code": "CrimsonSpins1",
+      "reward": "10 giros"
+    },
+    {
+      "code": "SSSOwl_Rework",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "50KBOOST6",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "50KBOOST5",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "50KBOOST3",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "50KBOOST2",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "50KBOOST1",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "50KMEMSPINS5",
+      "reward": "10 giros"
+    },
+    {
+      "code": "50KMEMSPINS4",
+      "reward": "10 giros"
+    },
+    {
+      "code": "50KMEMSPINS3",
+      "reward": "10 giros"
+    },
+    {
+      "code": "50KMEMSPINS2",
+      "reward": "10 giros"
+    },
+    {
+      "code": "50KMEMSPINS1",
+      "reward": "10 giros"
+    },
+    {
+      "code": "NOROSPINS1",
+      "reward": "10 giros"
+    },
+    {
+      "code": "NOROSPINS2",
+      "reward": "10 giros"
+    },
+    {
+      "code": "NOROSPINS3",
+      "reward": "10 giros"
+    },
+    {
+      "code": "NOROBOOST1",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "NOROBOOST2",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "NOROBOOST3",
+      "reward": "+10 mins of all x2 boosters"
+    },
+    {
+      "code": "MerryRoguemas!",
+      "reward": "Giros & recompensas gratis"
+    },
+    {
+      "code": "MerryRoguemas2023",
+      "reward": "Giros & recompensas gratis"
+    },
+    {
+      "code": "PG2024",
+      "reward": "Giros & recompensas gratis"
+    },
+    {
+      "code": "WelcomeBackPG!",
+      "reward": "+500 all materials, +15,000 Yen"
+    },
+    {
+      "code": "Roguemas!",
+      "reward": "+30 giros, +20 mins of all x2 boosters"
+    },
+    {
+      "code": "Festivity1",
+      "reward": "+30 giros, +20 mins of all x2 boosters"
+    },
+    {
+      "code": "Festivity2",
+      "reward": "+500 all materials, +15,000 Yen"
+    },
+    {
+      "code": "PGCHRISTMAS2023",
+      "reward": "+30 giros, +20 mins of all x2 boosters"
+    },
+    {
+      "code": "LaughingNishiki83004231",
+      "reward": "+30 giros, +20 mins of all x2 boosters"
+    },
+    {
+      "code": "BitterKureo43004232",
+      "reward": "+15,000 Yen, +500 all materials, +1500 RC"
+    },
+    {
+      "code": "Fixes",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "SweetUta51604231",
+      "reward": "+30 giros, +20 mins of all x2 boosters"
+    },
+    {
+      "code": "AwesomeTouma71604232",
+      "reward": "+15,000 Yen, +500 all materials, +1500 RC"
+    },
+    {
+      "code": "MeditatingKuramoto50804231",
+      "reward": "+30 giros, +20 mins of all x2 boosters"
+    },
+    {
+      "code": "DancingGinshi00804232",
+      "reward": "+15,000 Yen, +500 all materials, +1500 RC"
+    },
+    {
+      "code": "FreePS",
+      "reward": "30 giros, 500 Materials, 2k RC, 150k Yen, and 30 minutos of Boosts"
+    },
+    {
+      "code": "OwlRevert",
+      "reward": "30 min of All Boosts, 30 giros, 100k Yen, 2k RC, and 500 All Materials"
+    },
+    {
+      "code": "Compensation",
+      "reward": "350k Yen"
+    },
+    {
+      "code": "PRIMEARIMA",
+      "reward": "25 giros, 2.5M Yen, and 3000 RC"
+    },
+    {
+      "code": "PRIMEARIMABOOST1",
+      "reward": "10 Mins All 2x Boosts"
+    },
+    {
+      "code": "PRIMEARIMABOOST2",
+      "reward": "10 Mins All 2x Boosts"
+    },
+    {
+      "code": "Boost3",
+      "reward": "10 Mins All 2x Boosts"
+    },
+    {
+      "code": "Boost2",
+      "reward": "10 Mins All 2x Boosts"
+    },
+    {
+      "code": "Boost1",
+      "reward": "10 Mins All 2x Boosts"
+    },
+    {
+      "code": "Hello3",
+      "reward": "10 giros"
+    },
+    {
+      "code": "Hello2",
+      "reward": "10 giros"
+    },
+    {
+      "code": "Hello1",
+      "reward": "10 giros"
+    },
+    {
+      "code": "UPDATE5",
+      "reward": "55 giros and 1 hora all 2x Boosts"
+    },
+    {
+      "code": "HELLOBOOST3",
+      "reward": "10 mins all X2 Boosts"
+    },
+    {
+      "code": "HELLOBOOST2",
+      "reward": "10 mins all X2 Boosts"
+    },
+    {
+      "code": "HELLOBOOST1",
+      "reward": "10 mins all X2 Boosts"
+    },
+    {
+      "code": "HereSomeRewards",
+      "reward": "25 giros, 2,5 Mil Yen, 3k RC"
+    },
+    {
+      "code": "ServerBrowser",
+      "reward": "25 giros"
+    },
+    {
+      "code": "50KBOOST4",
+      "reward": "10 Mins all X2 Boosters"
+    },
+    {
+      "code": "Sorryforshutdown",
+      "reward": "10 giros"
+    },
+    {
+      "code": "YenMatsRc1",
+      "reward": "3k RC, 1M Yen, and +500 All Materials"
+    },
+    {
+      "code": "5krc",
+      "reward": "5k RC"
+    },
+    {
+      "code": "BOOST6",
+      "reward": "10 Mins all X2 Boosters"
+    },
+    {
+      "code": "BOOST5",
+      "reward": "10 Mins all X2 Boosters"
+    },
+    {
+      "code": "BOOST4",
+      "reward": "10 Mins all X2 Boosters"
+    },
+    {
+      "code": "SPINS5",
+      "reward": "10 giros"
+    },
+    {
+      "code": "SPINS4",
+      "reward": "10 giros"
+    },
+    {
+      "code": "SPINS3",
+      "reward": "10 giros"
+    },
+    {
+      "code": "SPINS2",
+      "reward": "10 giros"
+    },
+    {
+      "code": "SPINS1",
+      "reward": "10 giros"
+    },
+    {
+      "code": "Fixes22",
+      "reward": "3k RC, 1M Yen, and +500 All Materials"
+    },
+    {
+      "code": "ReIXA",
+      "reward": "25 giros"
+    },
+    {
+      "code": "J13",
+      "reward": "15 giros"
+    },
+    {
+      "code": "RC_CODE",
+      "reward": "5k RC"
+    },
+    {
+      "code": "ReNoro",
+      "reward": "25 giros, 2.5M Yen, and 3k RC"
+    },
+    {
+      "code": "Extra",
+      "reward": "15 giros"
+    },
+    {
+      "code": "YOGUYSRCCODE",
+      "reward": "5k RC"
+    },
+    {
+      "code": "50MilVisits2",
+      "reward": "45 giros and 30 min all X2 Boosters"
+    },
+    {
+      "code": "50MilVisits1",
+      "reward": "45 giros and 30 min all X2 Boosters"
+    },
+    {
+      "code": "BloodArenaFix",
+      "reward": "15 giros"
+    },
+    {
+      "code": "HiPeople",
+      "reward": "25 giros"
+    },
+    {
+      "code": "Sorry4Issues",
+      "reward": "25 giros"
+    },
+    {
+      "code": "ARATA",
+      "reward": "25 giros, 2.5M Yen and 3k RC"
+    },
+    {
+      "code": "NARU",
+      "reward": "25 giros, 2.5M Yen and 3k RC"
+    },
+    {
+      "code": "EASTERSOON2",
+      "reward": "25 giros, 2.5M Yen and 3k RC"
+    },
+    {
+      "code": "INVENTORYREWORK",
+      "reward": "2.5k Yen, 25 giros, and 3k RC"
+    },
+    {
+      "code": "KUZENKKJREVAMP",
+      "reward": "2.5k Yen, 25 giros, and 3k RC"
+    },
+    {
+      "code": "REPLAY",
+      "reward": "2.5k Yen, 25 giros, and 3k RC"
+    },
+    {
+      "code": "SorryForShutdowns",
+      "reward": "1M Yen and 3K RC"
+    },
+    {
+      "code": "DaveIsCute",
+      "reward": "2.5M Yen, 25 giros, and 3K RC"
+    },
+    {
+      "code": "OptimizationAndFixes",
+      "reward": "3M Yen, 20 minutos of 2x Boost, and 3K RC"
+    },
+    {
+      "code": "ADAM_IS_BACK",
+      "reward": "55 giros and 1 hora of all x2 boosters"
+    },
+    {
+      "code": "RogueIsCool2024!",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "YeYe!",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "AngelCloak!",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "AmazingShikorae71102241",
+      "reward": "30 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "MeditatingKoori11102242",
+      "reward": "15,000 yen, 500 all materials, 1500 RC"
+    },
+    {
+      "code": "ShockedSuzuya40402242",
+      "reward": "15,000 yen, 500 all materials, 1500 RC"
+    },
+    {
+      "code": "AwesomeMatsumae10402241",
+      "reward": "30 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "DaveIsCool2024!",
+      "reward": "30 giros, 20 mins of all x2 boosters and 1,500 RC"
+    },
+    {
+      "code": "RogueComeBack!",
+      "reward": "+15,000 yen, +500 all materials, and +1500 RC"
+    },
+    {
+      "code": "WeekOfContent!",
+      "reward": "30 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "MeditatingHikari32801242",
+      "reward": "+15,000 yen, +500 all materials, and +1500 RC"
+    },
+    {
+      "code": "WeirdUrie42801241",
+      "reward": "30 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "SweetAura12101242",
+      "reward": "+15,000 yen, +500 all materials, +1500 RC"
+    },
+    {
+      "code": "SmilingRize22101241",
+      "reward": "+30 giros, +20 mins of all x2 boosters"
+    },
+    {
+      "code": "ShockedItori01401242",
+      "reward": "15k yen, 500 all materials, and 1,500 RC"
+    },
+    {
+      "code": "SurprisedTouka01401241",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "GigglingGinshi60701242",
+      "reward": "15k yen, 500 all materials, and 1,500 RC"
+    },
+    {
+      "code": "SurprisedShinohara30701241",
+      "reward": "30 giros, 20 mins of all x2 boosters and 1,500 RC"
+    },
+    {
+      "code": "HappyNewYears!",
+      "reward": "50 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "HappyNewYears2!",
+      "reward": "50 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "SneezingNaki03112231",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "DancingTatara13112232",
+      "reward": "15k yen, 500 all materials, 1,500 RC"
+    },
+    {
+      "code": "CoolSeidou62412232",
+      "reward": "15k yen, 500 all materials, 1,500 RC"
+    },
+    {
+      "code": "ShockedOgura22412231",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "SorryforCandyCane",
+      "reward": "50 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "CandyCanePG",
+      "reward": "50 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "MerryChristmas2023",
+      "reward": "500 All Materials and 15K yen"
+    },
+    {
+      "code": "ThankYou200KFav",
+      "reward": "50 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "NoddingKurona91712232",
+      "reward": "15k Yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "DancingNaki71712231",
+      "reward": "30 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "ChucklingNashiro01012231",
+      "reward": "30 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "SittingFuruta51012232",
+      "reward": "15k Yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "LayingKatsuya60312231",
+      "reward": "30 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "DaringAura70312232",
+      "reward": "15k Yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "ShockedIrimi32611232",
+      "reward": "15k Yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "ShockedKusaba32611231",
+      "reward": "30 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "AwesomeMougan21911232",
+      "reward": "15k Yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "HumbleItori31911231",
+      "reward": "30 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "GigglingKijima21211232",
+      "reward": "15k Yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "SmilingKasuka31211231",
+      "reward": "30 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "ShockedTaki42910231",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "ShockedSachi02910232",
+      "reward": "15k yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "SurprisedKureo42210231",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "ShockedNoroi12210232",
+      "reward": "15k yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "MeditatingShinohara21510232",
+      "reward": "15k yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "GigglingKasuka81510231",
+      "reward": "30 giros, and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "SmartKatsuya70810232",
+      "reward": "15k Yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "SneezingShikorae00810231",
+      "reward": "30 giros, and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "SurprisedSaiko80110232",
+      "reward": "15k Yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "ExcitedKoori40110231",
+      "reward": "30 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "KawaiiRize52409231",
+      "reward": "30 giros and 20 minutos of all x2 boosters"
+    },
+    {
+      "code": "AmazingNashiro42409232",
+      "reward": "15k Yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "GigglingIrimi11709232",
+      "reward": "15k Yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "SweetOgura11709231",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "HumbleShuu21009232",
+      "reward": "15k Yen, 500 All Materials, and 1.5k RC"
+    },
+    {
+      "code": "SmilingKureo11009231",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "ChucklingRoma20309231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "KawaiiEto90309232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "AmazingMutsuki42708231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "HumbleYoriko52708232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "SmartKuroiwa52008231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "SneezingKureo22008232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "FunnyYusa81308231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "CoolEto51308232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "WeirdShirazu10608231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "ShockedMatsumoto90608232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "HumbleKuramoto63007231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "CoolAmon53007232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "GigglingKanao12307231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "LaughingTatara72307232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "WeirdSeidou41607231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "SweetHouji41607232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "HumbleHikari70907231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "AwesomeKusaba30907232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "SmilingTouka20207232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "BitterRoma40207231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "WheezingUi42506232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "LayingMatsumoto22506231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "NoddingHaru11806232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "ChucklingJuuzou61806231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "LaughingFuruta81106232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "SmartAkira31106231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "KawaiiGinshi00406231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "HumbleKuramoto90406232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "SmartKureo92805231",
+      "reward": "30 giros, 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "KawaiiSachi52805232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "SurprisedTouma02105231",
+      "reward": "30 giros and 20 mins of all x2 Boosters"
+    },
+    {
+      "code": "AwesomeHouji72105232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "SittingKoma11405231",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "SneezingRikai91405232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "SmartIshida60705231",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "SmartKijima50705232",
+      "reward": "15,000 Yen, 500 All Materials, and 1500 RC"
+    },
+    {
+      "code": "ExcitedKijima52304231",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "SweetAyato52304232",
+      "reward": "15,000 Yen, 500 all materials, and1500 RC"
+    },
+    {
+      "code": "EasternEgg_1",
+      "reward": "30 giros, 20 mins of all x2 boosters"
+    },
+    {
+      "code": "EasternEgg_2",
+      "reward": "15k Yen, 500 all materials, and 1500 RC"
+    },
+    {
+      "code": "Sub2HunterGodSlayer",
+      "reward": "15 giros and 100k Yen"
+    },
+    {
+      "code": "#WeBack2024",
+      "reward": "50 giros and 20 mins of all x2 boosters"
+    },
+    {
+      "code": "SorryforCombatLog2",
+      "reward": "500 all materials and 1k yen"
+    },
+    {
+      "code": "16MVISITS!",
+      "reward": "2600 Yen!"
+    },
+    {
+      "code": "21000Likes!",
+      "reward": "Lots of Yen! gratis"
+    },
+    {
+      "code": "21500Likes!",
+      "reward": "Lots of Yen! gratis"
+    },
+    {
+      "code": "22000Likes!",
+      "reward": "Lots of Yen! gratis"
+    },
+    {
+      "code": "22500Likes!",
+      "reward": "Lots of Yen! gratis"
+    },
+    {
+      "code": "HappyThanksGiving2020!",
+      "reward": "Recompensa!"
+    },
+    {
+      "code": "PartnershipApproved!",
+      "reward": "Recompensa!"
+    },
+    {
+      "code": "Kaneki Ken",
+      "reward": "Recompensas!"
+    },
+    {
+      "code": "PG_GroupMember",
+      "reward": "Recompensas!"
+    },
+    {
+      "code": "Update2.5!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "20500Likes!",
+      "reward": "Lots of Yen! gratis"
+    },
+    {
+      "code": "19500Likes!",
+      "reward": "Lots of Yen! gratis"
+    },
+    {
+      "code": "20000Likes!",
+      "reward": "Lots of Yen! gratis"
+    },
+    {
+      "code": "14MVISITS!",
+      "reward": "Lots of Yen! gratis"
+    },
+    {
+      "code": "18000Likes!",
+      "reward": "This code for some Yen! gratis"
+    },
+    {
+      "code": "16500Likes!",
+      "reward": "Yen!"
+    },
+    {
+      "code": "11MVISITS!",
+      "reward": "Recompensa!"
+    },
+    {
+      "code": "17500Likes!",
+      "reward": "Recompensa!"
+    },
+    {
+      "code": "9.5MVISITS!",
+      "reward": "Yen!"
+    },
+    {
+      "code": "8MVISITS!",
+      "reward": "Yen!"
+    },
+    {
+      "code": "7.5MVISITS!",
+      "reward": "Yen!"
+    },
+    {
+      "code": "7MVISITS!",
+      "reward": "Yen!"
+    },
+    {
+      "code": "6MVISITS!",
+      "reward": "Yen!"
+    },
+    {
+      "code": "5.5MVISITS!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "3.6MVISITS!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "15000Likes!",
+      "reward": "Yen!"
+    },
+    {
+      "code": "14500Likes!",
+      "reward": "Yen!"
+    },
+    {
+      "code": "14000Likes!",
+      "reward": "Yen!"
+    },
+    {
+      "code": "13000Likes!",
+      "reward": "Yen!"
+    },
+    {
+      "code": "12000Likes!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "11000Likes!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "10000Likes!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "9500Likes!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "9000Likes!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "8500Likes!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "2.7MVISITS!",
+      "reward": "Giros & 250 Mats! gratis"
+    },
+    {
+      "code": "8000Likes!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "7500Likes!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "7000Likes!",
+      "reward": "2,500 Yen & giros! gratis"
+    },
+    {
+      "code": "UseCodeBenni",
+      "reward": "500 Yen & giros! gratis"
+    },
+    {
+      "code": "6500Likes!",
+      "reward": "Giros"
+    },
+    {
+      "code": "NarutoGhoul",
+      "reward": "Giros"
+    },
+    {
+      "code": "YamiRoyale",
+      "reward": "Giros"
     }
   ],
   "howToRedeem": [

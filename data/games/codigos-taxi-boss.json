@@ -8,40 +8,24 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "THX400K",
-      "reward": "Cash gratis"
-    },
-    {
-      "code": "PRO",
-      "reward": "Cash gratis"
-    },
-    {
       "code": "LETSGO",
-      "reward": "Cash gratis"
+      "reward": "$1,500 Cash"
     },
     {
       "code": "XMAS",
-      "reward": "Cash gratis"
+      "reward": "$1,500 Cash"
     },
     {
-      "code": "ONEYEAR",
-      "reward": "Bucks gratis"
+      "code": "HIGHWAY",
+      "reward": "1k Cash"
     },
     {
-      "code": "OFFICE",
-      "reward": "Bucks gratis"
+      "code": "matrix",
+      "reward": "$700 Cash"
     },
     {
-      "code": "MATRIX",
-      "reward": "800 Bucks"
-    },
-    {
-      "code": "test",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "START",
-      "reward": "1,000 Bucks"
+      "code": "start",
+      "reward": "$1k Cash"
     }
   ],
   "expiredCodes": [
@@ -84,6 +68,30 @@
     {
       "code": "BOSS",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "THX400K",
+      "reward": "Cash gratis"
+    },
+    {
+      "code": "PRO",
+      "reward": "Cash gratis"
+    },
+    {
+      "code": "ONEYEAR",
+      "reward": "Bucks gratis"
+    },
+    {
+      "code": "OFFICE",
+      "reward": "Bucks gratis"
+    },
+    {
+      "code": "test",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "update",
+      "reward": "$1,000 Cash"
     }
   ],
   "howToRedeem": [

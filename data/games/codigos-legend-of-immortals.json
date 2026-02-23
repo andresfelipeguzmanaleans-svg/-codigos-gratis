@@ -8,16 +8,8 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "OPENbeta_15Kthx",
-      "reward": "500 diamantes"
-    },
-    {
-      "code": "OPEN8Ktest_686",
-      "reward": "500 diamantes"
-    },
-    {
       "code": "openBETA_4K868",
-      "reward": "500 diamantes"
+      "reward": "100 gemas"
     },
     {
       "code": "openbeta_2K666",
@@ -28,7 +20,16 @@
       "reward": "10k monedas"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "OPENbeta_15Kthx",
+      "reward": "500 diamantes"
+    },
+    {
+      "code": "OPEN8Ktest_686",
+      "reward": "500 diamantes"
+    }
+  ],
   "howToRedeem": [
     "Abre Legend Of Immortals en Roblox",
     "Busca el icono de códigos en el menú",

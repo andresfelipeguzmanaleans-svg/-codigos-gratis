@@ -16,31 +16,60 @@
       "reward": "3000 cristales and 1500 Crushing Dust"
     },
     {
-      "code": "1M Visits Limited",
-      "reward": "Myth Crawler skin"
-    },
-    {
       "code": "1k CCU",
       "reward": "5000 cristales and 2500 Crushing Dust"
     },
     {
+      "code": "1M Visits Limited",
+      "reward": "Myth Crawler skin"
+    },
+    {
       "code": "200 Discord",
-      "reward": "Recompensas gratis"
+      "reward": "1000 Crushing Dust"
     },
     {
       "code": "100k Visits",
-      "reward": "Recompensas gratis"
+      "reward": "1500 Crushing Dust"
     },
     {
       "code": "100k Visits Limited",
-      "reward": "Skin gratis"
+      "reward": "Borealis Sword"
     },
     {
       "code": "Starter",
-      "reward": "1,000 Crushing Dust and 2,000 cristales"
+      "reward": "2800 cristales and 1000 Crushing Dust"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "ReleaseTime",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "UpdateOne",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ImPremium",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MegaUpdate",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Halloween2022",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SwampUpdate",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PrestigeUpdate",
+      "reward": "Recompensas gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Monster Slayer en Roblox",
     "Busca el icono de códigos en el menú",

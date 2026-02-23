@@ -8,16 +8,26 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "tygooglencelina&nbsp;",
-      "reward": "30 giros"
-    },
-    {
       "code": "ironfist",
       "reward": "10 giros"
     },
     {
       "code": "speedyninja",
       "reward": "10 giros"
+    },
+    {
+      "code": "tygooglencelina",
+      "reward": "30 giros"
+    },
+    {
+      "code": "resetmystats",
+      "reward": "Reinicio de stats"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "tygooglencelina&nbsp;",
+      "reward": "30 giros"
     },
     {
       "code": "samuraicode",
@@ -34,10 +44,6 @@
     {
       "code": "ourplehedgehog",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "resetmystats",
-      "reward": "Reiniciar tus stats"
     },
     {
       "code": "browncat",
@@ -70,9 +76,72 @@
     {
       "code": "anewleaf",
       "reward": "Giros reinicio de stats"
+    },
+    {
+      "code": "dinocharge",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "resetstuff",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "powerhouse",
+      "reward": "10 giros"
+    },
+    {
+      "code": "blackstar",
+      "reward": "10 Color giro"
+    },
+    {
+      "code": "bestfriend",
+      "reward": "10 giro"
+    },
+    {
+      "code": "friendly",
+      "reward": "5 giros"
+    },
+    {
+      "code": "3mvisits",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "Likes20k",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "2mvisits",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "1mvisits",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "likes10000",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "likes7500",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "likes3000",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "likes1250",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "likes500",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "launch",
+      "reward": "Giros gratis"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Soul Eater Resonance en Roblox",
     "Busca el icono de códigos en el menú",

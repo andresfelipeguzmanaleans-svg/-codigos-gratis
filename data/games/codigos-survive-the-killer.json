@@ -13,12 +13,48 @@
   "placeId": 4580204640,
   "activeCodes": [
     {
+      "code": "luckyduck",
+      "reward": "Lance Trance"
+    },
+    {
       "code": "vote1m",
-      "reward": "Valentine's Day Slycer"
+      "reward": "Millionth Slycer"
+    },
+    {
+      "code": "GHOSTS",
+      "reward": "Zombie Candy Slycer"
     },
     {
       "code": "MINING",
-      "reward": "Charcoal Slycer + receta Motherlode Slycer"
+      "reward": "Charcoal Slycer"
+    },
+    {
+      "code": "MOREPOWER",
+      "reward": "Machine Dagger"
+    },
+    {
+      "code": "HOLIDAY",
+      "reward": "Holiday Splinter"
+    },
+    {
+      "code": "TRICKORTREAT",
+      "reward": "Stab-O'-Lantern Slycer"
+    },
+    {
+      "code": "SORRY",
+      "reward": "1000 Cash"
+    },
+    {
+      "code": "RED",
+      "reward": "Code Red knife"
+    },
+    {
+      "code": "PEST",
+      "reward": "Ye Olde Slycer"
+    },
+    {
+      "code": "OOPSIES",
+      "reward": "1 hora XP Boost"
     }
   ],
   "expiredCodes": [
@@ -41,6 +77,66 @@
     {
       "code": "GHOSTS",
       "reward": "Zombie Candy Slycer"
+    },
+    {
+      "code": "NEWYEARGRIND",
+      "reward": "1 hora XP Boost"
+    },
+    {
+      "code": "SNOWMAN",
+      "reward": "The Minty Hook weapon"
+    },
+    {
+      "code": "omgfinally",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "BOO",
+      "reward": "The Dark Fiend Knife"
+    },
+    {
+      "code": "DESYNC",
+      "reward": "The Broken Clock knife"
+    },
+    {
+      "code": "LUCKY2022",
+      "reward": "Cookie Cutter Slycer"
+    },
+    {
+      "code": "SANTA",
+      "reward": "Santa Hat Slycer"
+    },
+    {
+      "code": "HAPPYNEWYEAR",
+      "reward": "2022 New Year"
+    },
+    {
+      "code": "900M",
+      "reward": "900M Slycer"
+    },
+    {
+      "code": "HALLOWVEMBER",
+      "reward": "Friendly Spirits Knife"
+    },
+    {
+      "code": "800M",
+      "reward": "800M Slycer"
+    },
+    {
+      "code": "jumpbug",
+      "reward": "The Jumping Bug Knife"
+    },
+    {
+      "code": "700M",
+      "reward": "700M Slycer"
+    },
+    {
+      "code": "PRIDE",
+      "reward": "The Pride Knife"
+    },
+    {
+      "code": "Lucky Carver Knife",
+      "reward": "LUCKY2021"
     }
   ],
   "introText": "Survive the Killer es un juego de terror y supervivencia de Roblox creado por Slyce Entertainment con más de 2.500 millones de visitas y casi 1 millón de likes. Los supervivientes deben esconderse del asesino, rescatar a sus compañeros y escapar juntos antes de que se acabe el tiempo, mientras el killer intenta eliminar a todos los jugadores.",

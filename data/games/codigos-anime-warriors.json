@@ -8,40 +8,46 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "UPDATE2",
-      "reward": "250 gemas gratis"
-    },
-    {
-      "code": "Follow@NyxunRBX",
-      "reward": "Cristales gratis"
-    },
-    {
-      "code": "Follow@_DevCrow",
-      "reward": "Cristales gratis"
-    },
-    {
-      "code": "Follow@Robro1030",
-      "reward": "Cristales gratis"
-    },
-    {
-      "code": "Follow@9sNoxxy",
-      "reward": "Cristales gratis"
-    },
-    {
-      "code": "Follow@ZartaniaRBLX",
-      "reward": "Cristales gratis"
-    },
-    {
-      "code": "Follow@dev_exile",
-      "reward": "Cristales gratis"
+      "code": "Follow@oreI_orL",
+      "reward": "Gemas"
     },
     {
       "code": "Follow@Mirzoldyc",
-      "reward": "Cristales gratis"
+      "reward": "Gemas"
+    },
+    {
+      "code": "Follow@NyxunRBX",
+      "reward": "Gemas"
+    },
+    {
+      "code": "Follow@_DevCrow",
+      "reward": "Gemas"
+    },
+    {
+      "code": "Follow@Robro1030",
+      "reward": "Gemas"
+    },
+    {
+      "code": "Follow@9sNoxxy",
+      "reward": "Gemas"
+    },
+    {
+      "code": "Follow@ZartaniaRBLX",
+      "reward": "Gemas"
+    },
+    {
+      "code": "Follow@dev_exile",
+      "reward": "50 gemas"
     },
     {
       "code": "Follow@EchoZenkai",
-      "reward": "Cristales gratis"
+      "reward": "50 gemas"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "UPDATE2",
+      "reward": "250 gemas gratis"
     },
     {
       "code": "2022RELEASE",
@@ -108,7 +114,6 @@
       "reward": "2x Yen Booster for 30 minutos"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Anime Warriors en Roblox",
     "Busca el icono de códigos en el menú",

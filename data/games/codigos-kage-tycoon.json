@@ -8,10 +8,6 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "105klikes",
-      "reward": "30,000RC, x1 EXP Boost, x1 dinero Boost & x1 RC Boost"
-    },
-    {
       "code": "95klikes",
       "reward": "40,000RC, x1 EXP Boost, x1 dinero Boost & x1 RC Boost"
     },
@@ -29,27 +25,93 @@
     },
     {
       "code": "70klikes",
-      "reward": "25,000RC, x1 EXP Boost, x1 dinero Boost & x1 RC Boost"
+      "reward": "20,000RC, x1 EXP Boost, x1 dinero Boost & x1 RC Boost"
     },
     {
       "code": "65klikes",
-      "reward": "20,000RC, x1 EXP Boost, x1 dinero Boost, and x1 RC Boost"
+      "reward": "20,000RC, x1 EXP Boost, x1 dinero Boost & x1 RC Boost"
     },
     {
       "code": "60klikes",
-      "reward": "5,000RC, x1 EXP Boost, x1 dinero Boost, and x1 RC Boost"
+      "reward": "15,000RC, x1 EXP Boost, x1 dinero Boost & x1 RC Boost"
     },
     {
       "code": "55klikes",
-      "reward": "20,000RC, x1 EXP Boost, x1 dinero Boost, and x1 RC Boost"
+      "reward": "20,000RC, x1 EXP Boost, x1 dinero Boost & x1 RC Boost"
     },
     {
       "code": "50klikes",
-      "reward": "20,000RC, x1 EXP Boost, x1 dinero Boost, and x1 RC Boost"
+      "reward": "20,000RC, x1 EXP Boost, x1 dinero Boost & x1 RC Boost"
+    },
+    {
+      "code": "125Kmembers",
+      "reward": "12,500RC and 25% dinero Boost for 30 minutos"
+    },
+    {
+      "code": "5mvisits",
+      "reward": "16,000RC and 25% Lucky Boost for 30 minutos"
+    },
+    {
+      "code": "45klikes",
+      "reward": "20,000RC, 25% EXP Boost for 90 minutos, and 25% Lucky Boost for 90 minutos"
     },
     {
       "code": "40klikes",
-      "reward": "Recompensas gratis"
+      "reward": "X1 EXP Boost"
+    },
+    {
+      "code": "HappyNewYear",
+      "reward": "15,000RC, 25% Lucky Boost for 30 minutos, and 25% EXP Boost for 30 minutos"
+    },
+    {
+      "code": "Kt2024",
+      "reward": "2,024RC, 25% Lucky Boost for 60 minutos, 25% dinero Boost for 30 minutos, and 25% EXP Boost for 60 minutos"
+    },
+    {
+      "code": "BigMonthComing",
+      "reward": "X15,000 RB monedas, x1 EXP Boost & 1 RC Boost!"
+    },
+    {
+      "code": "35klikes",
+      "reward": "X17,500RC, x1 suerte Boost, x1 dinero Boost, and x1 EXP Boost"
+    },
+    {
+      "code": "happyhalloween!",
+      "reward": "X10,000 RB monedas, x1 suerte Boost, x1 dinero Boost and x1 EXP Boost"
+    },
+    {
+      "code": "JinokuboSword",
+      "reward": "X15,000 RB monedas"
+    },
+    {
+      "code": "LikePizza!",
+      "reward": "$7,500 RC"
+    },
+    {
+      "code": "NewInsect!",
+      "reward": "25% monedas Boost and 25% suerte Boost for 30 minutos"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "80Kvisits!",
+      "reward": "20,000EXP"
+    },
+    {
+      "code": "1500likes!",
+      "reward": "10K$ and 1000RC"
+    },
+    {
+      "code": "4000visits!",
+      "reward": "1,000 Rebirth monedas"
+    },
+    {
+      "code": "800visits!",
+      "reward": "1,500 Rebirth monedas"
+    },
+    {
+      "code": "105klikes",
+      "reward": "30,000RC, x1 EXP Boost, x1 dinero Boost & x1 RC Boost"
     },
     {
       "code": "30klikes",
@@ -58,14 +120,6 @@
     {
       "code": "25klikes",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "LikePizza!",
-      "reward": "7.5K RC"
-    },
-    {
-      "code": "NewInsect!",
-      "reward": "Suerte Boost and a RC Boost"
     },
     {
       "code": "20Klikes!",
@@ -114,24 +168,10 @@
     {
       "code": "season1!",
       "reward": "$10,000 and 2000RC"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "80Kvisits!",
-      "reward": "20,000EXP"
     },
     {
-      "code": "1500likes!",
-      "reward": "10K$ and 1000RC"
-    },
-    {
-      "code": "4000visits!",
-      "reward": "1,000 Rebirth monedas"
-    },
-    {
-      "code": "800visits!",
-      "reward": "1,500 Rebirth monedas"
+      "code": "NewNamikaze",
+      "reward": "In-game recompensas"
     }
   ],
   "howToRedeem": [

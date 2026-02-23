@@ -13,14 +13,24 @@
     },
     {
       "code": "CONCERT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "2024",
-      "reward": "Recompensas gratis"
+      "reward": "50,000 Level XP"
     },
     {
       "code": "NEWYEARS",
+      "reward": "10 tickets, monedas pociones, suerte pociones, 500 monedas, 100 gemas and 3 giros"
+    },
+    {
+      "code": "THANKS20K",
+      "reward": "400 monedas and 30 gemas"
+    },
+    {
+      "code": "FREE",
+      "reward": "200 monedas and 40 gemas"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "2024",
       "reward": "Recompensas gratis"
     },
     {
@@ -32,10 +42,6 @@
       "reward": "1,000 monedas and 150 gemas"
     },
     {
-      "code": "THANKS20k",
-      "reward": "400 monedas and 30 gemas"
-    },
-    {
       "code": "BIGUPDATE",
       "reward": "Recompensas gratis"
     },
@@ -45,10 +51,6 @@
     },
     {
       "code": "THANKYOU",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FREE",
       "reward": "Recompensas gratis"
     },
     {
@@ -64,7 +66,6 @@
       "reward": "X1 cofre"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Fruit Tower Defense en Roblox",
     "Busca el icono de códigos en el menú",

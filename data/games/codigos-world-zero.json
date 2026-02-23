@@ -8,7 +8,59 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "CUPID26",
+      "reward": "25 Valentines monedas and 1 Valentines Present"
+    },
+    {
+      "code": "VALENTINES26",
+      "reward": "25 Valentines monedas and 1 Valentines Present"
+    },
+    {
+      "code": "VALENTINESHYPE",
+      "reward": "150 cristales"
+    },
+    {
       "code": "900KLIKES",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "STARBREAKER",
+      "reward": "Starbreaker título"
+    },
+    {
+      "code": "GUILDHALL",
+      "reward": "Exclusivo Miniature Guild Hall Prop"
+    },
+    {
+      "code": "SEASON19",
+      "reward": "50 Guild monedas"
+    },
+    {
+      "code": "NEWYEAR26",
+      "reward": "New Years Present"
+    },
+    {
+      "code": "BUGSMASHER",
+      "reward": "Bug Smasher título"
+    },
+    {
+      "code": "MERRYCHRISTMAS",
+      "reward": "Christmas monedas and Christmas Present"
+    },
+    {
+      "code": "FROSTBITE",
+      "reward": "25 Christmas monedas and Christmas Present"
+    },
+    {
+      "code": "SANTACHALLENGE",
+      "reward": "25 Christmas monedas and Christmas Present"
+    },
+    {
+      "code": "CRYSTALIS",
+      "reward": "300 cristales"
+    },
+    {
+      "code": "850KLIKES",
       "reward": "150 cristales"
     },
     {
@@ -16,116 +68,284 @@
       "reward": "150 cristales"
     },
     {
-      "code": "BESTRPG",
-      "reward": "Recompensas gratis"
+      "code": "JUMPJUMP",
+      "reward": "Jump Emote"
     },
     {
-      "code": "ARGHHH",
-      "reward": "Recompensas gratis"
+      "code": "EVILSANTA",
+      "reward": "25 Christmas monedas and a Christmas Present"
     },
     {
-      "code": "SUMMER",
-      "reward": "Recompensas gratis"
+      "code": "WRAPPED",
+      "reward": "World Zero 2025 Recap"
     },
     {
-      "code": "BEACHPARTY",
-      "reward": "Recompensas gratis"
+      "code": "CHRISTMAS25",
+      "reward": "25 Christmas monedas and a Green Holiday Present"
     },
     {
-      "code": "CASHSHOP",
-      "reward": "Recompensas gratis"
+      "code": "CHRISTMASGOAL",
+      "reward": "300 cristales"
     },
     {
-      "code": "SEASON16",
-      "reward": "Recompensas gratis"
+      "code": "GOBBLEGOBBLE",
+      "reward": "Turkey Head"
     },
     {
-      "code": "CELEBRATE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "GRANDBP",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "850KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ALIENS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "825KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NEWYEAR25",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "KLAUS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CONTENTDELETED",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HIGHWIND",
-      "reward": "Highwind Booth skin"
-    },
-    {
-      "code": "800KLIKES",
+      "code": "TURKEYGOAL",
       "reward": "150 cristales"
     },
     {
-      "code": "ANIME",
-      "reward": "Straw Hat and Slayer título"
-    },
-    {
-      "code": "775KLIKES",
-      "reward": "150 cristales"
-    },
-    {
-      "code": "HUNTER",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "PRIDEFUL",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "750KLIKES",
-      "reward": "150 cristales"
+      "code": "HARVEST2025",
+      "reward": "Autumn Bag"
     },
     {
       "code": "725KLIKES",
       "reward": "150 cristales"
     },
     {
-      "code": "700KLIKES",
-      "reward": "Recompensas gratis"
+      "code": "NECRO",
+      "reward": "Necro Aura"
     },
     {
-      "code": "HARVEST",
-      "reward": "15 Prize tickets"
+      "code": "WORLDZERO",
+      "reward": "Zero Player título and a Developer regalo"
     },
     {
-      "code": "WORLD10",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "WEEKLYBUG",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "675KLIKES",
+      "code": "750KLIKES",
       "reward": "150 cristales"
     },
     {
-      "code": "TIKI",
-      "reward": "Torch Hat"
+      "code": "BLUEGREENRED",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PRIDEFUL",
+      "reward": "Rainbow título"
+    },
+    {
+      "code": "DRAGON",
+      "reward": "Exclusivo cosmetics"
+    },
+    {
+      "code": "INNOVATION",
+      "reward": "Innovation Award Aura"
+    },
+    {
+      "code": "JULY4TH",
+      "reward": "Fireworks Aura"
+    },
+    {
+      "code": "HUNTER",
+      "reward": "Random dyed Back Quiver"
+    },
+    {
+      "code": "775KLIKES",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "ANIME",
+      "reward": "Straw Hat and a Slayer título"
+    },
+    {
+      "code": "VANE",
+      "reward": "15 Dragon monedas"
+    },
+    {
+      "code": "KRAKEN",
+      "reward": "15 Kraken monedas"
+    },
+    {
+      "code": "800KLIKES",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "FORSAKEN",
+      "reward": "15 Halloween monedas"
+    },
+    {
+      "code": "CONTENTDELETED",
+      "reward": "Exclusivo Aura and título"
+    },
+    {
+      "code": "HALLOWEEN24",
+      "reward": "100 Halloween monedas and a Spooky Present"
+    },
+    {
+      "code": "ARCTIC",
+      "reward": "100 Halloween monedas and a Spooky Present"
+    },
+    {
+      "code": "SANTA",
+      "reward": "150 cristales, Candycane Weapon skin, and Christmas monedas"
+    },
+    {
+      "code": "NEWYEAR25",
+      "reward": "New Year Present"
+    },
+    {
+      "code": "KLAUS",
+      "reward": "100 Christmas monedas"
+    },
+    {
+      "code": "LUCKY25",
+      "reward": "100 Christmas monedas"
+    },
+    {
+      "code": "STORM",
+      "reward": "Limitado Stormcaller Aura"
+    },
+    {
+      "code": "825KLIKES",
+      "reward": "150 Crystalls"
+    },
+    {
+      "code": "VALENTINES",
+      "reward": "150 Crystalls"
+    },
+    {
+      "code": "CUPID",
+      "reward": "25 Valentines monedas and a Valentines Present"
+    },
+    {
+      "code": "CUPIDCHALLENGE",
+      "reward": "50 Valentines monedas"
+    },
+    {
+      "code": "MERCH",
+      "reward": "150 Valentines monedas"
+    },
+    {
+      "code": "HUNT",
+      "reward": "The Hunt 2025 título"
+    },
+    {
+      "code": "TWOMILFAV",
+      "reward": "150 cristales and an exclusivo título"
+    },
+    {
+      "code": "SEASON14",
+      "reward": "50 Guild monedas"
+    },
+    {
+      "code": "HAPPYBIRTHDAY",
+      "reward": "Party Hat and an exclusivo título"
+    },
+    {
+      "code": "EASTER2025",
+      "reward": "Random Dyed Bunny Onesie"
+    },
+    {
+      "code": "FLUFFY",
+      "reward": "Easter Present"
+    },
+    {
+      "code": "MINI-MIGHT",
+      "reward": "Hypergalactic Accessory"
+    },
+    {
+      "code": "NIGHTMARE",
+      "reward": "5 Nightmare monedas"
+    },
+    {
+      "code": "MEMORIALDAY",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "PRIDE25",
+      "reward": "Rainbow título"
+    },
+    {
+      "code": "ALIENS",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "SEASON15",
+      "reward": "50 Guild monedas"
+    },
+    {
+      "code": "IMPERIAL",
+      "reward": "Título and a regalo Box (Locks you out of claiming INVADER)"
+    },
+    {
+      "code": "INVADER",
+      "reward": "Título and a regalo Box (Locks you out of claiming IMPERIAL)"
+    },
+    {
+      "code": "INVASION",
+      "reward": "Alien Saber (Locks you out of claiming IMPERIAL)"
+    },
+    {
+      "code": "GRANDBP",
+      "reward": "25 Dragon monedas and a Grand Present"
+    },
+    {
+      "code": "CELEBRATE",
+      "reward": "Fireworks Aura"
+    },
+    {
+      "code": "SEASON16",
+      "reward": "50 Guild monedas"
+    },
+    {
+      "code": "CASHSHOP",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "SUMMER",
+      "reward": "25 Kraken monedas"
+    },
+    {
+      "code": "BEACHPARTY",
+      "reward": "25 Kraken monedas"
+    },
+    {
+      "code": "ARGHHH",
+      "reward": "25 Kraken monedas"
+    },
+    {
+      "code": "BESTRPG",
+      "reward": "Cristales, Party Hat, and título"
+    },
+    {
+      "code": "SEASON17CODE",
+      "reward": "50 Guild monedas"
+    },
+    {
+      "code": "LIONFIX",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "HALLOWEENHYPE",
+      "reward": "Random Dyed Evil Pumpkin"
+    },
+    {
+      "code": "CRYSTALGOAL",
+      "reward": "300 cristales"
+    },
+    {
+      "code": "HALLOWEEN25",
+      "reward": "25 Halloween monedas"
+    },
+    {
+      "code": "FALLENKING25",
+      "reward": "25 Halloween monedas"
+    },
+    {
+      "code": "FALLENCHALLENGE",
+      "reward": "25 Halloween monedas"
+    },
+    {
+      "code": "HAPPYHALLOWEEN",
+      "reward": "25 Halloween monedas"
+    },
+    {
+      "code": "LEVIATHANDELAY",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "MERCHDROP",
+      "reward": "150 cristales"
     }
   ],
   "expiredCodes": [
@@ -216,6 +436,50 @@
     {
       "code": "APRILFOOLS",
       "reward": "Rock mascota"
+    },
+    {
+      "code": "HIGHWIND",
+      "reward": "Highwind Booth skin"
+    },
+    {
+      "code": "700KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HARVEST",
+      "reward": "15 Prize tickets"
+    },
+    {
+      "code": "WORLD10",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "WEEKLYBUG",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "675KLIKES",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "TIKI",
+      "reward": "Torch Hat"
+    },
+    {
+      "code": "625LIKES",
+      "reward": "100 cristales"
+    },
+    {
+      "code": "\"Q\" key",
+      "reward": "Sheathe sword"
+    },
+    {
+      "code": "\"C\" key",
+      "reward": "Dash"
+    },
+    {
+      "code": "\"Left click\"",
+      "reward": "Slash/attack enemy"
     }
   ],
   "howToRedeem": [

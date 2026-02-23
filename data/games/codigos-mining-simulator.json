@@ -5,28 +5,80 @@
   "description": "Todos los códigos activos para Mining Simulator en Roblox",
   "metaTitle": "Códigos Mining Simulator (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Mining Simulator en Roblox. Consigue eggs, crates, coins y tokens gratis.",
-  "lastUpdated": "2026-02-21",
+  "lastUpdated": "2026-02-23",
   "playerCount": 148,
   "totalVisits": 830067068,
   "likes": 1383169,
   "genre": "Simulator",
   "placeId": 1417427737,
   "activeCodes": [
-    { "code": "Icecream", "reward": "Rare Egg" },
-    { "code": "LegendaryEggCode", "reward": "Legendary Egg" },
-    { "code": "VALKYRIE", "reward": "Legendary Egg" },
-    { "code": "SUPERSECRETCODE", "reward": "Legendary Egg" },
-    { "code": "LUCKY", "reward": "Omega Hat Crate" },
-    { "code": "KOALA", "reward": "10.000 Coins" },
-    { "code": "WEBREAKROBLOX", "reward": "20.000 Coins" },
-    { "code": "REXEXSQUAD", "reward": "5.000 Coins" },
-    { "code": "EPICTOKENS", "reward": "250 Tokens" },
-    { "code": "ANNIVERSARYTOKENS", "reward": "250 Tokens" },
-    { "code": "4THJULY", "reward": "200 Tokens" },
-    { "code": "COMIC", "reward": "Textura Comic" },
-    { "code": "RETRO", "reward": "Textura Retro" }
+    {
+      "code": "LUCKY",
+      "reward": "1 suerte poción"
+    },
+    {
+      "code": "UNLOCKED",
+      "reward": "1 doble Wins poción"
+    },
+    {
+      "code": "BLINGSTER",
+      "reward": "1 doble Cash poción"
+    },
+    {
+      "code": "TNT",
+      "reward": "1 TNT"
+    }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "Icecream",
+      "reward": "Rare Egg"
+    },
+    {
+      "code": "LegendaryEggCode",
+      "reward": "Legendary Egg"
+    },
+    {
+      "code": "VALKYRIE",
+      "reward": "Legendary Egg"
+    },
+    {
+      "code": "SUPERSECRETCODE",
+      "reward": "Legendary Egg"
+    },
+    {
+      "code": "KOALA",
+      "reward": "10.000 Coins"
+    },
+    {
+      "code": "WEBREAKROBLOX",
+      "reward": "20.000 Coins"
+    },
+    {
+      "code": "REXEXSQUAD",
+      "reward": "5.000 Coins"
+    },
+    {
+      "code": "EPICTOKENS",
+      "reward": "250 Tokens"
+    },
+    {
+      "code": "ANNIVERSARYTOKENS",
+      "reward": "250 Tokens"
+    },
+    {
+      "code": "4THJULY",
+      "reward": "200 Tokens"
+    },
+    {
+      "code": "COMIC",
+      "reward": "Textura Comic"
+    },
+    {
+      "code": "RETRO",
+      "reward": "Textura Retro"
+    }
+  ],
   "introText": "Mining Simulator es un simulador de minería de Roblox creado por Rumble Studios con más de 830 millones de visitas y 1,3 millones de likes. Ganador del Builderman's Award of Excellence 2018, el juego te permite minar gemas y minerales raros, viajar a diferentes mundos, coleccionar mascotas y sombreros y hacerte rico. Puedes jugar solo o en equipo.",
   "whatAreCodes": "Los códigos de Mining Simulator te dan Legendary y Rare Eggs para obtener mascotas exclusivas, Hat Crates con sombreros cosméticos, Coins para comprar mejores picos, Tokens para la tienda premium y Texturas personalizadas como Comic y Retro para tu equipamiento.",
   "howToGetCodes": "Rumble Studios publicaba códigos en su Twitter y en el servidor de Discord oficial. Mining Simulator tiene una cantidad enorme de códigos acumulados que siguen funcionando. Sin embargo, el estudio ahora se enfoca en Mining Simulator 2.",

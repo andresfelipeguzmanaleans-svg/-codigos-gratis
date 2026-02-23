@@ -8,6 +8,68 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "SUKUNA",
+      "reward": "15 LP"
+    },
+    {
+      "code": "SorryForShutdown",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "WHENUPDATE",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "RESET",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "CANDY",
+      "reward": "200 Candy"
+    },
+    {
+      "code": "SorryForDelayUpdate",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "Trick or treat",
+      "reward": "50 Candy"
+    },
+    {
+      "code": "PuddingBumby",
+      "reward": "5 LP"
+    },
+    {
+      "code": "HALLOWEEN",
+      "reward": "100 Candy"
+    },
+    {
+      "code": "TORIREVAMP",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "UPDATEPART2",
+      "reward": "5 LP"
+    },
+    {
+      "code": "UPDATE!!",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "EVENT!",
+      "reward": "20k Beli"
+    },
+    {
+      "code": "N5Animation",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "lamokukung03",
+      "reward": "25k Beli"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "FixBug",
       "reward": "Reset Stats"
     },
@@ -156,20 +218,12 @@
       "reward": "10 Candy"
     },
     {
-      "code": "Update!!",
-      "reward": "5 LP"
-    },
-    {
       "code": "yy0rk",
       "reward": "10,000 Cash"
     },
     {
       "code": "GUIDE1985",
       "reward": "10,000 Cash"
-    },
-    {
-      "code": "RESET",
-      "reward": "Reset Stats"
     },
     {
       "code": "MAOKUMA",
@@ -202,9 +256,44 @@
     {
       "code": "JZ GAMMING",
       "reward": "10,000 Cash"
+    },
+    {
+      "code": "ImportantShutdown",
+      "reward": "10k dinero"
+    },
+    {
+      "code": "Update!",
+      "reward": "5 LP"
+    },
+    {
+      "code": "LPLOVER",
+      "reward": "10 LP"
+    },
+    {
+      "code": "FreeGem",
+      "reward": "10 HeartGems"
+    },
+    {
+      "code": "10MVisits",
+      "reward": "Cash recompensa"
+    },
+    {
+      "code": "DIW_TW",
+      "reward": "Cash recompensa"
+    },
+    {
+      "code": "3MVisits",
+      "reward": "Cash recompensa"
+    },
+    {
+      "code": "Rosaki",
+      "reward": "10,000 Cash"
+    },
+    {
+      "code": "snowman",
+      "reward": "Recompensa"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Last Pirates en Roblox",
     "Busca el icono de códigos en el menú",

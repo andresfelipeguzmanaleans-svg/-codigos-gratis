@@ -8,45 +8,351 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "THAKSFOR155KLIKES",
+      "code": "Voicelines",
+      "reward": "1 legendario giro and 45000 EXP"
+    },
+    {
+      "code": "SeaWarriors",
+      "reward": "6 legendario giros"
+    },
+    {
+      "code": "LetzStil",
+      "reward": "35 Clan giros"
+    },
+    {
+      "code": "ThanksFor160kLikes",
+      "reward": "2 legendario giros"
+    },
+    {
+      "code": "ThanksFor161kLikes",
+      "reward": "50 Clan giros"
+    },
+    {
+      "code": "UNITY",
+      "reward": "25 tokens"
+    },
+    {
+      "code": "XcutionRaid",
+      "reward": "25 tokens"
+    },
+    {
+      "code": "ReaperFix",
+      "reward": "2 legendario giros"
+    },
+    {
+      "code": "TensaRework",
+      "reward": "2 legendario giros"
+    },
+    {
+      "code": "DirtyBoots",
+      "reward": "50 tokens"
+    },
+    {
+      "code": "ThanksFor159kLikes",
+      "reward": "250k Cash"
+    },
+    {
+      "code": "AngelToSnake",
+      "reward": "Beyond Snake skin (only if you couldn't buy the skin from the shop due to a bug)"
+    },
+    {
+      "code": "VANITY",
+      "reward": "2 legendario giros"
+    },
+    {
+      "code": "TokenShop",
+      "reward": "15 tokens"
+    },
+    {
+      "code": "ThanksFor158kLikes",
+      "reward": "2 legendario giros and 50 Clan giros"
+    },
+    {
+      "code": "MoreFixes2",
+      "reward": "2 legendario giros and 10 Clan giros"
+    },
+    {
+      "code": "MoreFixes",
+      "reward": "2 legendario giros and 10 Clan giros"
+    },
+    {
+      "code": "NozaRework",
+      "reward": "5 legendario giros"
+    },
+    {
+      "code": "Schrifts",
+      "reward": "60 Clan giros"
+    },
+    {
+      "code": "R2Saturday",
+      "reward": "1 legendario giro and 10 Clan giros"
+    },
+    {
+      "code": "YhwachFix",
+      "reward": "4 legendario giros and 20 Clan giros"
+    },
+    {
+      "code": "Ally",
+      "reward": "2 minutos of Ulquiorra invocación"
+    },
+    {
+      "code": "ConsoleShiftlock",
+      "reward": "2 legendario giros, 20 Clan giros, 5 mascota giros, 2h of 2x Cash and 10 minutos in Dangai"
+    },
+    {
+      "code": "NewSakanade",
+      "reward": "50k Cash"
+    },
+    {
+      "code": "BowRework",
+      "reward": "5 Clan giros"
+    },
+    {
+      "code": "ThanksFor157kLikes",
+      "reward": "5 legendario giros"
+    },
+    {
+      "code": "ShinkenAndShunsui",
+      "reward": "3 legendario giros and 30 Clan giros"
+    },
+    {
+      "code": "!rejoin",
+      "reward": "2 legendario giros"
+    },
+    {
+      "code": "HunterXMayhem",
+      "reward": "9 legendario giros (exclusivo to people who stress-tested the game)"
+    },
+    {
+      "code": "FixLockOn",
+      "reward": "3 legendario giros"
+    },
+    {
+      "code": "M1TRADE",
+      "reward": "4 legendario giros"
+    },
+    {
+      "code": "R2CONSOLE",
+      "reward": "40 Clan giros"
+    },
+    {
+      "code": "CONTROLLERTEST",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NEWIDLES",
+      "reward": "10 giros and 2 mascota giros"
+    },
+    {
+      "code": "QuincySniper",
+      "reward": "30 Clan giros"
+    },
+    {
+      "code": "ThanksFor156kLikes",
+      "reward": "3 legendario giros"
+    },
+    {
+      "code": "ANCIENTVASTO",
+      "reward": "2 legendario giros"
+    },
+    {
+      "code": "MONEYBUG",
+      "reward": "50k Cash"
+    },
+    {
+      "code": "DAILYREWARDS",
+      "reward": "2 legendario giros"
+    },
+    {
+      "code": "HALLOWEEN",
+      "reward": "6 mascota giros"
+    },
+    {
+      "code": "NEWSHIFTLOCK",
+      "reward": "10 giros"
+    },
+    {
+      "code": "WALLJUMP",
+      "reward": "50k Cash"
+    },
+    {
+      "code": "THAKSFOR155KLIKES",
+      "reward": "20 Clan giros and 10 mascota giros"
     },
     {
       "code": "DDREWORK",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "REFUND",
-      "reward": "Recompensas gratis"
+      "reward": "3 legendario giros"
     },
     {
       "code": "PARKOUR",
-      "reward": "Recompensas gratis"
+      "reward": "30 Clan giros"
     },
     {
-      "code": "LOSTSOUL",
-      "reward": "Recompensas gratis"
+      "code": "REFUND",
+      "reward": "30k Cash"
     },
     {
       "code": "R2MOMENT",
-      "reward": "Recompensas gratis"
+      "reward": "20 Clan giros and 3 horas of 2x Cash"
     },
     {
       "code": "FIXEDVIP",
-      "reward": "Recompensas gratis"
+      "reward": "7 legendario giros"
     },
     {
       "code": "GAMEBROKE",
-      "reward": "Recompensas gratis"
+      "reward": "15k experiencia and 10 giros"
+    },
+    {
+      "code": "LOSTSOUL",
+      "reward": "30 Clan giros"
+    },
+    {
+      "code": "ARRANCAR",
+      "reward": "2 horas of 2x Cash"
+    },
+    {
+      "code": "QUESTFIX",
+      "reward": "2 legendario giros"
+    },
+    {
+      "code": "SANTAREWORK",
+      "reward": "65 Clan giros"
+    },
+    {
+      "code": "THEVISIONARY",
+      "reward": "40k Cash"
+    },
+    {
+      "code": "TWBY3",
+      "reward": "15k experiencia"
+    },
+    {
+      "code": "NEWMOVES",
+      "reward": "10 Normal giros"
     },
     {
       "code": "THANKYOUFOR154KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "20 Clan giros"
     },
     {
       "code": "COMBODUMMY",
-      "reward": "Recompensas gratis"
+      "reward": "3 legendario giros"
     },
+    {
+      "code": "TZAGAIN",
+      "reward": "Skill puntos Reset"
+    },
+    {
+      "code": "SHIFTLOCK",
+      "reward": "50k Cash"
+    },
+    {
+      "code": "TRUEZANGETSUBANKAI",
+      "reward": "30 Clan giros"
+    },
+    {
+      "code": "UPDATEISOUTTT",
+      "reward": "1 legendario giro"
+    },
+    {
+      "code": "THANKYOUFOR153KLIKES",
+      "reward": "25 Clan giros"
+    },
+    {
+      "code": "THANKYOUFOR7KSUBS",
+      "reward": "25 Clan giros"
+    },
+    {
+      "code": "SORRYFORSHUTDOWN2",
+      "reward": "1 legendario giro"
+    },
+    {
+      "code": "CTRLTOTOGGLESPRINT",
+      "reward": "10 Clan giros"
+    },
+    {
+      "code": "CONSOLESHIFTLOCKFIX",
+      "reward": "15 giros"
+    },
+    {
+      "code": "NEWCLANS",
+      "reward": "30 Clan giros"
+    },
+    {
+      "code": "YAMAMOTO",
+      "reward": "25 Clan giros"
+    },
+    {
+      "code": "AFKWORLD",
+      "reward": "1 legendario giro"
+    },
+    {
+      "code": "NEWUPDATE",
+      "reward": "1 legendario giro"
+    },
+    {
+      "code": "THANKYOUFORYOURSUPPORT",
+      "reward": "Skill puntos Reset"
+    },
+    {
+      "code": "THANKYOUFOR152KLIKES",
+      "reward": "25 Clan giros"
+    },
+    {
+      "code": "SORRYFORSHUTDOWN",
+      "reward": "25 Clan giros"
+    },
+    {
+      "code": "SWIFTGRADUATED",
+      "reward": "10 Normal giros"
+    },
+    {
+      "code": "UPDATESOON",
+      "reward": "5 legendario giros"
+    },
+    {
+      "code": "LUADARWIN",
+      "reward": "3 legendario giros"
+    },
+    {
+      "code": "SECRETREAPER2CODE",
+      "reward": "50k Cash and 50 legendario giros"
+    },
+    {
+      "code": "Reaper2CodesNeverWork",
+      "reward": "50k Cash and 50 legendario giros"
+    },
+    {
+      "code": "TZLEFTFIX",
+      "reward": "50k Cash and 50 legendario giros"
+    },
+    {
+      "code": "RATESCHANGED",
+      "reward": "5 legendario giros"
+    },
+    {
+      "code": "SOFTSHUTDOWN",
+      "reward": "10k Cash"
+    },
+    {
+      "code": "FIXSecondary",
+      "reward": "Secondary Reroll"
+    },
+    {
+      "code": "RETURN2",
+      "reward": "40k Cash and 40 giros"
+    },
+    {
+      "code": "SRRYFORDELAY",
+      "reward": "5 legendario giros"
+    },
+    {
+      "code": "ICHIMONJI",
+      "reward": "10k Cash and 5 giros"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "BOOKOFTHEEND",
       "reward": "15 Clan giros and 3 legendario tirada giros"
@@ -752,7 +1058,6 @@
       "reward": "10 minutos of Dangai"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Reaper 2 en Roblox",
     "Busca el icono de códigos en el menú",

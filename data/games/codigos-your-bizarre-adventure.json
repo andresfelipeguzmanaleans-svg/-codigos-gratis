@@ -8,36 +8,88 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "6YEARS",
+      "reward": "1 Lucky Arrow and 2x EXP (Expires on January 17)"
+    },
+    {
+      "code": "CHRISTMAS2025",
+      "reward": "1 Lucky Arrow and 1 Christmas Present"
+    },
+    {
       "code": "PARAGONLUCK",
       "reward": "1 Lucky Arrow"
     },
     {
-      "code": "12 HOURS WITHOUT YBA",
+      "code": "HALLOWEEN2025",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "12 HOURS WITHOUT YBA",
+      "reward": "1 Lucky Arrow (must be Prestige 1)"
     },
     {
       "code": "5YEARS",
-      "reward": "Recompensas gratis"
+      "reward": "25 Lucky Arrows and 25 Rokakaka (must be Prestige 1)"
     },
     {
-      "code": "eternal",
-      "reward": "Recompensas gratis"
+      "code": "ARE YOU WATCHING ME?",
+      "reward": "Lucky Arrow, Requiem Arrow and 25 minutos of 2x EXP (must be Prestige 1)"
     },
     {
-      "code": "StickyChristmasGift",
-      "reward": "Recompensas gratis"
+      "code": "YOUR NEXT LINE",
+      "reward": "Lucky Arrows and a random new Fighting-Style objeto"
     },
     {
-      "code": "StickyArrows",
-      "reward": "Recompensas gratis"
+      "code": "LootBug",
+      "reward": "Lucky Arrows"
+    },
+    {
+      "code": "srryforblackscreen",
+      "reward": "25 Lucky Arrows and 25 Rokakaka (must be Prestige 5+)"
+    },
+    {
+      "code": "sorry",
+      "reward": "Lucky Arrow and 20 Rokakaka (must be Prestige 5+)"
+    },
+    {
+      "code": "helpme",
+      "reward": "Sukuna's Finger (must be Prestige 5+)"
+    },
+    {
+      "code": "ybanu",
+      "reward": "50 Lucky Arrows and 50 Rokakaka"
+    },
+    {
+      "code": "weresoback",
+      "reward": "10 Lucky Arrows"
     },
     {
       "code": "StickyAndFruity2",
-      "reward": "Recompensas gratis"
+      "reward": "Recompensa gratis"
     },
     {
-      "code": "StickyAndFruity",
-      "reward": "Recompensas gratis"
+      "code": "SORRYFORGUTSQUESTBUG",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "YBANUDONTDELAYANUPDATECHALLENGE",
+      "reward": "Rokakaka"
+    },
+    {
+      "code": "MERRYCHRISTMAS",
+      "reward": "Lucky Arrow"
+    },
+    {
+      "code": "WOUREWORK",
+      "reward": "Rokakaka and The Rib Cage of the Saint's Corpse"
+    },
+    {
+      "code": "StickyArrows",
+      "reward": "20 Mysterious Arrows"
+    },
+    {
+      "code": "StickyChristmasGift",
+      "reward": "1 Christmas Present"
     }
   ],
   "expiredCodes": [
@@ -127,6 +179,14 @@
     },
     {
       "code": "ARE YOU WATCHING ME?",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "eternal",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "StickyAndFruity",
       "reward": "Recompensas gratis"
     }
   ],

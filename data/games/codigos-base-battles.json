@@ -9,67 +9,35 @@
   "activeCodes": [
     {
       "code": "winterbreak",
-      "reward": "100,000 tokens"
+      "reward": "100k tokens"
     },
     {
       "code": "LABORDAY23",
-      "reward": "15,000 tokens"
-    },
-    {
-      "code": "350K",
-      "reward": "75,000 tokens"
+      "reward": "15k tokens"
     },
     {
       "code": "OURBAD",
-      "reward": "50,000 tokens"
+      "reward": "50k tokens"
+    },
+    {
+      "code": "350K",
+      "reward": "75k tokens"
     },
     {
       "code": "FREEMONEY",
-      "reward": "10,000 tokens"
+      "reward": "10k tokens"
     },
     {
       "code": "325K",
-      "reward": "75,000 tokens"
-    },
-    {
-      "code": "CINCO",
-      "reward": "18620 tokens"
-    },
-    {
-      "code": "SPRINGBREAK",
-      "reward": "25,000 tokens"
-    },
-    {
-      "code": "WHOOPS",
-      "reward": "25,000 tokens"
-    },
-    {
-      "code": "PREZ",
-      "reward": "15,000 tokens"
+      "reward": "75k tokens"
     },
     {
       "code": "300K",
-      "reward": "50K tokens"
-    },
-    {
-      "code": "OVERTHEMOON",
-      "reward": "15,000 tokens"
-    },
-    {
-      "code": "RAINSTERGIVEAWAY",
-      "reward": "25k tokens"
-    },
-    {
-      "code": "DESTROYER",
-      "reward": "25k tokens"
-    },
-    {
-      "code": "250K",
-      "reward": "Tokens gratis"
+      "reward": "50k tokens"
     },
     {
       "code": "Rainster",
-      "reward": "Rainster skin"
+      "reward": "Support Rainster on Base Battles"
     }
   ],
   "expiredCodes": [
@@ -112,6 +80,38 @@
     {
       "code": "DEVKING",
       "reward": "3,000 tokens"
+    },
+    {
+      "code": "CINCO",
+      "reward": "18620 tokens"
+    },
+    {
+      "code": "SPRINGBREAK",
+      "reward": "25,000 tokens"
+    },
+    {
+      "code": "WHOOPS",
+      "reward": "25,000 tokens"
+    },
+    {
+      "code": "PREZ",
+      "reward": "15,000 tokens"
+    },
+    {
+      "code": "OVERTHEMOON",
+      "reward": "15,000 tokens"
+    },
+    {
+      "code": "RAINSTERGIVEAWAY",
+      "reward": "25k tokens"
+    },
+    {
+      "code": "DESTROYER",
+      "reward": "25k tokens"
+    },
+    {
+      "code": "250K",
+      "reward": "Tokens gratis"
     }
   ],
   "howToRedeem": [

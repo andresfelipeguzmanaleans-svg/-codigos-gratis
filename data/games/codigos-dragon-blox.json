@@ -5,29 +5,299 @@
   "description": "Todos los códigos activos para Dragon Blox en Roblox",
   "metaTitle": "Códigos Dragon Blox (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Dragon Blox en Roblox. Consigue Premium Wishes gratis para desbloquear personajes raros.",
-  "lastUpdated": "2026-02-21",
+  "lastUpdated": "2026-02-23",
   "playerCount": 1167,
   "totalVisits": 600892159,
   "likes": 459368,
   "genre": "RPG",
   "placeId": 3177438863,
   "activeCodes": [
-    { "code": "VALENTINE", "reward": "5 Premium Wishes" },
-    { "code": "WHENUPDATE", "reward": "10 Premium Wishes" },
-    { "code": "FEBRUARY", "reward": "5 Premium Wishes" },
-    { "code": "SNEAKSSOON", "reward": "5 Premium Wishes" },
-    { "code": "QOL", "reward": "5 Premium Wishes" },
-    { "code": "QUICKUPDATE", "reward": "10 Premium Wishes" },
-    { "code": "JANUARY", "reward": "5 Premium Wishes" },
-    { "code": "FIRSTWISH", "reward": "15 Premium Wishes" },
-    { "code": "DB2026", "reward": "15 Premium Wishes" },
-    { "code": "HAPPYNEWYEAR", "reward": "5 Premium Wishes" },
-    { "code": "HAPPYHOLIDAYS25", "reward": "5 Premium Wishes" },
-    { "code": "XMAS2025", "reward": "10 Premium Wishes" }
+    {
+      "code": "WHENUPDATE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "VALENTINE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SNEAKSSOON",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "FEBRUARY",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "QUICKUPDATE",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "QOL",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "JANUARY",
+      "reward": "5 Premium Wishes"
+    },
+    {
+      "code": "FIRSTWISH",
+      "reward": "10 Premium Wishes"
+    },
+    {
+      "code": "HAPPYNEWYEAR",
+      "reward": "5 Premium Wishes"
+    },
+    {
+      "code": "DB2026",
+      "reward": "15 Premium Wishes"
+    },
+    {
+      "code": "XMAS2025",
+      "reward": "10 Premium Wishes"
+    },
+    {
+      "code": "HAPPYHOLIDAYS25",
+      "reward": "5 Premium Wishes"
+    },
+    {
+      "code": "RAIDNOW",
+      "reward": "5 Raid tickets"
+    },
+    {
+      "code": "DUNGEONRAIDS",
+      "reward": "10 Premium Wishes"
+    },
+    {
+      "code": "HAPPYHOLIDAYS",
+      "reward": "5 Premium Wishes"
+    },
+    {
+      "code": "DELAY2",
+      "reward": "5 Premium Wishes"
+    },
+    {
+      "code": "BRUH",
+      "reward": "5x Premium Wishes"
+    },
+    {
+      "code": "DELAYAGAIN",
+      "reward": "10x Premium Wishes"
+    },
+    {
+      "code": "SHUTDOWN",
+      "reward": "2x Premium Wish tokens"
+    },
+    {
+      "code": "SSJ4ISBACK",
+      "reward": "10x Premium Wish tokens"
+    },
+    {
+      "code": "WINTER",
+      "reward": "5x Premium Wish tokens"
+    },
+    {
+      "code": "DECEMBER2025",
+      "reward": "5x Premium Wish tokens"
+    },
+    {
+      "code": "THEYRECOMING",
+      "reward": "10x Premium Wish tokens"
+    },
+    {
+      "code": "HAPPYNOVEMBER",
+      "reward": "5x Premium Wish tokens"
+    },
+    {
+      "code": "EVENTEXTEND",
+      "reward": "10x Premium Wish tokens"
+    },
+    {
+      "code": "FINALLY",
+      "reward": "5x Premium Wish tokens"
+    },
+    {
+      "code": "WEHAVECODES",
+      "reward": "15x Premium Wish tokens"
+    },
+    {
+      "code": "VASTO",
+      "reward": "5x Premium Wish tokens"
+    },
+    {
+      "code": "HAPPYHOLLOWS",
+      "reward": "10x Premium Wish tokens"
+    },
+    {
+      "code": "DBOCTOBER",
+      "reward": "5x Premium Wish tokens"
+    },
+    {
+      "code": "HOLLOW",
+      "reward": "10x Premium Wish Token"
+    },
+    {
+      "code": "MOREANDMORE",
+      "reward": "10x Premium Wish Token"
+    },
+    {
+      "code": "DBSEPTEMBER",
+      "reward": "5x Premium Wish Token"
+    },
+    {
+      "code": "GRINDEVENT",
+      "reward": "10x Premium Wish Token"
+    },
+    {
+      "code": "FREEBIESAGAIN",
+      "reward": "5x Premium Wish Token"
+    },
+    {
+      "code": "AUTUMN2025",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "FALL",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "AIZEN",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "BOARDSREWORK",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "PREMIUMSGALORE",
+      "reward": "20 Premium Wish tokens"
+    },
+    {
+      "code": "TENFREEWISHES",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "MOREFREECODES",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "PHILLY",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "100CODES",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "WISHFORBROLY",
+      "reward": "20 Premium Wish tokens"
+    },
+    {
+      "code": "GETYOURWISHES",
+      "reward": "20 Premium Wish tokens"
+    },
+    {
+      "code": "MORECODES",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "DBAUGUST",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "UNLIMITEDWISHES",
+      "reward": "20 Premium Wish tokens and 300 Rebirths"
+    },
+    {
+      "code": "DARKBROLY",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "WISHON",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "BATTLEPASSRESET",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "PREMIUMSWOO",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "SAVEYOURROLLS",
+      "reward": "20 Premium Wish tokens"
+    },
+    {
+      "code": "MOREREROLLS",
+      "reward": "20 Race giros"
+    },
+    {
+      "code": "LOLMBCHAT",
+      "reward": "20 Race giros"
+    },
+    {
+      "code": "RACES",
+      "reward": "30 Race giros"
+    },
+    {
+      "code": "MOREWISHES",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "STARTSAVING",
+      "reward": "20 Premium Wish tokens"
+    },
+    {
+      "code": "TENWISHES",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "1BILLIONWISHES",
+      "reward": "20 Premium Wish tokens"
+    },
+    {
+      "code": "SMOLWISH",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "SUMMEREVENT",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "ANEWWORLDSOONMAYBE",
+      "reward": "20 Premium Wish tokens"
+    },
+    {
+      "code": "OOPSIE",
+      "reward": "20 Premium Wish tokens"
+    },
+    {
+      "code": "INFUSEDREWORK",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "SUMMERISCOMING",
+      "reward": "5 Premium Wish tokens"
+    },
+    {
+      "code": "BPUPDATE",
+      "reward": "10 Premium Wish tokens"
+    },
+    {
+      "code": "FREEPREMIUMSAGAIN",
+      "reward": "10 Premium Wish tokens"
+    }
   ],
   "expiredCodes": [
-    { "code": "SUMMER2024", "reward": "Premium Wishes" },
-    { "code": "100MLIKES", "reward": "Premium Wishes" }
+    {
+      "code": "SUMMER2024",
+      "reward": "Premium Wishes"
+    },
+    {
+      "code": "100MLIKES",
+      "reward": "Premium Wishes"
+    }
   ],
   "introText": "Dragon Blox es un RPG inspirado en Dragon Ball en Roblox, desarrollado por G RBLX Games. Con más de 600 millones de visitas, entrena para convertirte en el Seijin más poderoso, desbloquea transformaciones únicas y usa orbes especiales para aumentar tu poder.",
   "whatAreCodes": "Los códigos de Dragon Blox te dan Premium Wishes que puedes usar para obtener personajes raros, formas y habilidades exclusivas mediante el sistema de invocación.",

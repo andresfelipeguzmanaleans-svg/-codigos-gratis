@@ -14,43 +14,59 @@
   "activeCodes": [
     {
       "code": "HAPPY2026",
-      "reward": "2015 Renault Twizy gratis"
+      "reward": "2015 Renault Twizy"
     },
     {
-      "code": "CALL911",
+      "code": "HAPPYXMAS",
+      "reward": "Snowball Bike"
+    },
+    {
+      "code": "CALL911!",
       "reward": "50,911 Cash"
     },
     {
       "code": "GOBBLEGOBBLE",
-      "reward": "10 Kits de Tuning"
+      "reward": "10 Tuning Kits"
     },
     {
       "code": "SPOOKY",
-      "reward": "80,000 Cash"
+      "reward": "80k Cash"
+    },
+    {
+      "code": "VEGAS2025",
+      "reward": "50k Cash"
     },
     {
       "code": "WHOOPS",
-      "reward": "75,000 Cash"
+      "reward": "75k Cash"
     },
     {
       "code": "RDCNASCAR25",
-      "reward": "Livery NASCAR de Driving Empire"
+      "reward": "Community-made NASCAR livery"
     },
     {
       "code": "2MLIKES",
-      "reward": "2017 Nissan GT-R Bolt"
+      "reward": "2017 Nissan GT-R"
     },
     {
       "code": "NASCAR100M",
-      "reward": "200 Trofeos"
+      "reward": "200 Trophies"
+    },
+    {
+      "code": "CUSTOMIZATION2025",
+      "reward": "10 Tuning Kits"
+    },
+    {
+      "code": "zoom",
+      "reward": "Fairway Zoomer Car"
     },
     {
       "code": "200KMEMBERS",
-      "reward": "50,000 Cash"
+      "reward": "50k Cash"
     },
     {
-      "code": "ZOOM",
-      "reward": "2023 Fairway Zoomer"
+      "code": "NEWYEAR2025",
+      "reward": "75k Cash"
     }
   ],
   "expiredCodes": [
@@ -105,6 +121,10 @@
     {
       "code": "NEWYEAR2025",
       "reward": "75,000 Cash"
+    },
+    {
+      "code": "CALL911",
+      "reward": "50,911 Cash"
     }
   ],
   "introText": "Driving Empire es la experiencia de conducción número uno en Roblox, desarrollada por Voldex. Este juego te permite coleccionar y conducir más de 200 coches con licencia oficial de marcas como Lamborghini, McLaren, Porsche y muchas más. Con casi 2,600 millones de visitas, Driving Empire ofrece carreras competitivas, personalización de vehículos con kits de tuning y un mundo abierto enorme para explorar a toda velocidad.",

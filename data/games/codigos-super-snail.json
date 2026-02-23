@@ -800,11 +800,11 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "I&nbsp;RECEIVE BTADS",
+      "code": "IRECEIVE BTADS",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "U&nbsp;RECEIVE FRAGS",
+      "code": "URECEIVE FRAGS",
       "reward": "Recompensas gratis"
     },
     {
@@ -884,7 +884,16 @@
       "reward": "Recompensas gratis"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "I&nbsp;RECEIVE BTADS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "U&nbsp;RECEIVE FRAGS",
+      "reward": "Recompensas gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Super Snail en Roblox",
     "Busca el icono de códigos en el menú",

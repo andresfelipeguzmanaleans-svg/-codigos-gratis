@@ -9,15 +9,49 @@
   "activeCodes": [
     {
       "code": "AMERICA25",
-      "reward": "Yen gratis"
+      "reward": "3.5 million Yen"
     },
     {
       "code": "Alpha",
-      "reward": "Yen gratis"
+      "reward": "5 million Yen"
+    },
+    {
+      "code": "SNOWDAY",
+      "reward": "1 million Yen"
+    },
+    {
+      "code": "100ksocial",
+      "reward": "1.5 million Yen"
+    },
+    {
+      "code": "HoldTheLine",
+      "reward": "2 million Yen"
     },
     {
       "code": "challenge",
+      "reward": "2 million Yen"
+    },
+    {
+      "code": "DataRecover",
+      "reward": "Cars/Builds overwrite (type drconfirm afterward to confirm)"
+    },
+    {
+      "code": "???",
+      "reward": "Redeem to unlock the SH1R4K4W4 code"
+    },
+    {
+      "code": "SH1R4K4W4",
+      "reward": "Shirakawa Touge (must redeem ??? code first)"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "ZOOM",
       "reward": "Yen gratis"
+    },
+    {
+      "code": "New Year 2022",
+      "reward": "8,000,000 Yen"
     },
     {
       "code": "easterbunny",
@@ -38,16 +72,6 @@
     {
       "code": "secretcode",
       "reward": "1,000,000 Yen"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "ZOOM",
-      "reward": "Yen gratis"
-    },
-    {
-      "code": "New Year 2022",
-      "reward": "8,000,000 Yen"
     }
   ],
   "howToRedeem": [

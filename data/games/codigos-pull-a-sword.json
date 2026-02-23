@@ -5,31 +5,503 @@
   "description": "Todos los códigos activos para Pull a Sword en Roblox",
   "metaTitle": "Códigos Pull a Sword (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Pull a Sword en Roblox. Consigue pociones, boosts y recompensas gratis.",
-  "lastUpdated": "2026-02-21",
+  "lastUpdated": "2026-02-23",
   "playerCount": 1226,
   "totalVisits": 374576750,
   "likes": 1332178,
   "genre": "Simulator",
   "placeId": 13827198708,
   "activeCodes": [
-    { "code": "VALENTINES", "reward": "Pociones" },
-    { "code": "ENCHANTED", "reward": "Pociones" },
-    { "code": "LUNAR", "reward": "50 Lantern" },
-    { "code": "NEWYEARNEWJOURNEY", "reward": "5 Ice Strength Potion" },
-    { "code": "2026", "reward": "5 Ice Strength Potion + 3 EXP Boost" },
-    { "code": "Hotfix", "reward": "10 Mega Potion" },
-    { "code": "HAPPYNEWYEAR", "reward": "5 Ice Strength Potion" },
-    { "code": "SEASONXX", "reward": "5 Mega Potion" },
-    { "code": "DelayAWorld", "reward": "Recompensas gratis" },
-    { "code": "Leaderboard", "reward": "Recompensas gratis" },
-    { "code": "Workshop", "reward": "Recompensas gratis" },
-    { "code": "QOL", "reward": "Recompensas gratis" },
-    { "code": "SORRYFORBUGS", "reward": "Recompensas gratis" }
+    {
+      "code": "Hotfix",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HAPPYNEWYEAR",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HAPPYBDAYBLAKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Workshop",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DISCOVERYSWORD",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HALLOWEENPARDON",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SEASON19",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SKULLKING",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HALLOWEENPARTY",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HALLOWEEN",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GloryBug",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TRICKORTREAT",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Pumpkin",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FISHINGTIME",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FISHING",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SOULKING",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DELAY_A_CODE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MATHEUSISGOAT",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "CELESTIAL",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DAILYQUESTS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "WEEKPOWER",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "REDLIGHT",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FIRSTPASLEAGUE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DELAYASQUID",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SEASONXIV",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SEASONXII",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ARISE4",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SORRYPAW",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PAWSEVENT5",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SORRYCODE91",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "BESTCODE333",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "PAWSEVENT4",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "PAWSEVENT3",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "PAWSEVENT2",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "PAWSEVENT",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "PAWGO",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "LUNACODE33",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "SEASONXI",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "EXTRAMEGA89",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "LBFIXED",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TEMPLE",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "SEASONX",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "HALLOWEENPART2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HAUNTED2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NEWLAB",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "mk190k231",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "SPINUPD",
+      "reward": "X1 fuerza poción"
+    },
+    {
+      "code": "SEASON8UPD",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "ENDLESSEVENT",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "MAGIADELUXE",
+      "reward": "X1 Deluxe regalo"
+    },
+    {
+      "code": "MAGIAV1",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "MAGIAV121",
+      "reward": "X1 Deluxe regalo"
+    },
+    {
+      "code": "NEWOCEAN",
+      "reward": "X1 fuerza poción"
+    },
+    {
+      "code": "classiccode12",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "usecodemagia1",
+      "reward": "X1 fuerza poción"
+    },
+    {
+      "code": "CODEFORAGIFT1",
+      "reward": "Classic regalo"
+    },
+    {
+      "code": "season7",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "NEWMERCHANT",
+      "reward": "X1 Mega poción"
+    },
+    {
+      "code": "i2perfectcode1",
+      "reward": "1 Mega poción"
+    },
+    {
+      "code": "newcode4891",
+      "reward": "1 Mega poción"
+    },
+    {
+      "code": "Newi2code12",
+      "reward": "1 Mega poción"
+    },
+    {
+      "code": "xfrozenstudioscode1",
+      "reward": "1 Mega poción"
+    },
+    {
+      "code": "3MPARTYEVENT",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "giftfromme1",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "opgiftfromme",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "giftfromme23",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "K123456789O",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "A39B2456B1CCCKS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "A29B2456B1",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "AXIOMUPD",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PROFILE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "THEHUNTEVENT",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "K123456789C",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "K123456789B",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "K123456789A",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "RETROPART2",
+      "reward": "Mega poción"
+    },
+    {
+      "code": "1x1x1x1upd",
+      "reward": "Mega poción"
+    },
+    {
+      "code": "THANKYOU3M",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "magiacode485",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "buff2big",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NEWEVENTCODEA2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SNOWEVENTPART3",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "A39B2456BBBC",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "K123456789D",
+      "reward": "Fuerza poción"
+    },
+    {
+      "code": "eventhalloween",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "halloweenluck",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "halloweenparty2023",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HELPFORYOU23468",
+      "reward": "Win poción"
+    },
+    {
+      "code": "HelpForYo23456",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "KingCode4321",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "KingCode1234",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "xFrozenDominus",
+      "reward": "Reddeem code for a Dominus mascota"
+    },
+    {
+      "code": "PotionCode4721",
+      "reward": "Win poción"
+    },
+    {
+      "code": "winpotion99995",
+      "reward": "Win poción"
+    },
+    {
+      "code": "xFrozenCodeB24",
+      "reward": "Frozen B mascota"
+    },
+    {
+      "code": "new21potion",
+      "reward": "Fuerza poción"
+    },
+    {
+      "code": "xfrozencodea",
+      "reward": "Frozen mascota"
+    },
+    {
+      "code": "NewPotionCode248",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ghostydog4",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PotionCode542",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ytcode24690",
+      "reward": "Win poción"
+    },
+    {
+      "code": "likedog2",
+      "reward": "Dog mascota"
+    },
+    {
+      "code": "newcode48",
+      "reward": "Win poción"
+    },
+    {
+      "code": "likecat",
+      "reward": "Mascota gratis"
+    },
+    {
+      "code": "code900",
+      "reward": "Mascota gratis"
+    },
+    {
+      "code": "code492",
+      "reward": "Mascota gratis"
+    },
+    {
+      "code": "twcode1",
+      "reward": "Mascota gratis"
+    },
+    {
+      "code": "ytopcode91",
+      "reward": "Mascota gratis"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "Recompensas gratis"
+    }
   ],
   "expiredCodes": [
-    { "code": "HALLOWEEN", "reward": "Pociones de Halloween" },
-    { "code": "SEASON10", "reward": "5 Mega Potion" },
-    { "code": "100MVISITS", "reward": "Recompensas por hito" }
+    {
+      "code": "HALLOWEEN",
+      "reward": "Pociones de Halloween"
+    },
+    {
+      "code": "SEASON10",
+      "reward": "5 Mega Potion"
+    },
+    {
+      "code": "100MVISITS",
+      "reward": "Recompensas por hito"
+    },
+    {
+      "code": "VALENTINES",
+      "reward": "Pociones"
+    },
+    {
+      "code": "ENCHANTED",
+      "reward": "Pociones"
+    },
+    {
+      "code": "LUNAR",
+      "reward": "50 Lantern"
+    },
+    {
+      "code": "NEWYEARNEWJOURNEY",
+      "reward": "5 Ice Strength Potion"
+    },
+    {
+      "code": "2026",
+      "reward": "5 Ice Strength Potion + 3 EXP Boost"
+    },
+    {
+      "code": "SEASONXX",
+      "reward": "5 Mega Potion"
+    },
+    {
+      "code": "DelayAWorld",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Leaderboard",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "QOL",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SORRYFORBUGS",
+      "reward": "Recompensas gratis"
+    }
   ],
   "introText": "Pull a Sword es un simulador de Roblox creado por xFrozen Obbys con más de 374 millones de visitas y 1,3 millones de likes. Entrenas fuerza para ser capaz de extraer espadas cada vez más poderosas, coleccionas mascotas y compites contra otros jugadores. El juego añade nuevas fases a diario.",
   "whatAreCodes": "Los códigos de Pull a Sword te dan pociones como Ice Strength Potion y Mega Potion que potencian tu fuerza temporalmente, EXP Boosts para subir de nivel más rápido y recursos especiales como Lanterns para eventos de temporada. El juego tiene más de 150 códigos activos en total.",

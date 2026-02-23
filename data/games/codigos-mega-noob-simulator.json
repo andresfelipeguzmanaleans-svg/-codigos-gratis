@@ -5,26 +5,73 @@
   "description": "Todos los códigos activos para Mega Noob Simulator en Roblox",
   "metaTitle": "Códigos Mega Noob Simulator (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Mega Noob Simulator en Roblox. Consigue coins, heads y noobs gratis.",
-  "lastUpdated": "2026-02-21",
+  "lastUpdated": "2026-02-23",
   "playerCount": 365,
   "totalVisits": 603319952,
   "likes": 468871,
   "genre": "Simulator",
   "placeId": 4543144283,
   "activeCodes": [
-    { "code": "smilefreddy", "reward": "Smile Freddy Top Hat" },
-    { "code": "SWASHBUCKLER", "reward": "500 Coins" },
-    { "code": "Winter2021", "reward": "Tree Noob" },
-    { "code": "RETRO", "reward": "500 Coins" },
-    { "code": "TRADEME", "reward": "100 Heads" },
-    { "code": "DOULIFT", "reward": "50 Strength" },
-    { "code": "100M", "reward": "100M Noob" },
-    { "code": "NEWB", "reward": "50 Heads" },
-    { "code": "HOLIDAY", "reward": "Festive Noob" },
-    { "code": "stonks", "reward": "500 Coins" },
-    { "code": "BUFFNOOB", "reward": "50 Heads" },
-    { "code": "WORKOUT", "reward": "50 Strength" },
-    { "code": "SPOOK", "reward": "Halloween Cap" }
+    {
+      "code": "smilefreddy",
+      "reward": "Top Hat"
+    },
+    {
+      "code": "TRADEME",
+      "reward": "100 Heads"
+    },
+    {
+      "code": "Winter2021",
+      "reward": "Tree Noob mascota"
+    },
+    {
+      "code": "WILD",
+      "reward": "100 monedas"
+    },
+    {
+      "code": "RETRO",
+      "reward": "500 monedas"
+    },
+    {
+      "code": "SWASHBUCKLER",
+      "reward": "500 monedas"
+    },
+    {
+      "code": "100M",
+      "reward": "100M Noob mascota"
+    },
+    {
+      "code": "HOLIDAY",
+      "reward": "Festive Noob mascota"
+    },
+    {
+      "code": "DOULIFT",
+      "reward": "50 fuerza"
+    },
+    {
+      "code": "SPOOK",
+      "reward": "Halloween Cap"
+    },
+    {
+      "code": "WORKOUT",
+      "reward": "50 fuerza"
+    },
+    {
+      "code": "BUFFNOOB",
+      "reward": "50 Heads"
+    },
+    {
+      "code": "stonk",
+      "reward": "50 monedas"
+    },
+    {
+      "code": "stonks",
+      "reward": "500 monedas"
+    },
+    {
+      "code": "NEWB",
+      "reward": "50 Heads"
+    }
   ],
   "expiredCodes": [],
   "introText": "Mega Noob Simulator es un simulador de Roblox creado por thunder1222 Productions con más de 603 millones de visitas y 468K likes. Tu objetivo es convertirte en el noob más grande: aplastas bacon hairs para ganar músculo y fuerza, creces de tamaño, compras mejoras y luchas contra Boss Bacon y sus secuaces. También hay un arena PVP para competir.",

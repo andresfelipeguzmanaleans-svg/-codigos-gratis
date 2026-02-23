@@ -9,11 +9,67 @@
   "activeCodes": [
     {
       "code": "ValentinesDay",
-      "reward": "Product Essence"
+      "reward": "25 Product Essence (Expires on March 14)"
     },
     {
       "code": "430kLikes",
-      "reward": "3 Premium Dye, + 25 Product Essence"
+      "reward": "3 Premium Dye and 25 Product Essence"
+    },
+    {
+      "code": "425kLikes",
+      "reward": "+1 New Slot, +3 Premium Dye, +10 Product Essence"
+    },
+    {
+      "code": "TheRainOfChristmasWeek",
+      "reward": "25 Product Essence (Expires on January 2)"
+    },
+    {
+      "code": "chillingwintrynights",
+      "reward": "25 Product Essence (Expires on December 27)"
+    },
+    {
+      "code": "TheEveBeforeChristmas",
+      "reward": "1 New Slot, 3 Premium Dye, and 10 Product Essence"
+    },
+    {
+      "code": "TheFirstDayOfWinter",
+      "reward": "50 Product Essence"
+    },
+    {
+      "code": "EvilWarlordTriumph",
+      "reward": "100 Product Essence"
+    },
+    {
+      "code": "HappyThanksgiving2025",
+      "reward": "30 Product Essence"
+    },
+    {
+      "code": "MayIngusRest",
+      "reward": "10 Product Essence and Dullahan Accessory"
+    },
+    {
+      "code": "Serveroutage925",
+      "reward": "15 Product Essence"
+    },
+    {
+      "code": "PLAYSTORMDELVE",
+      "reward": "30 Product Essence"
+    },
+    {
+      "code": "PeroxideHolloween2025",
+      "reward": "25 Product Essence"
+    },
+    {
+      "code": "420kLikes",
+      "reward": "25 Product Essence"
+    },
+    {
+      "code": "YayAHalloweenUpdate",
+      "reward": "10 Halloween Candy and 20 Product Essence"
+    },
+    {
+      "code": "TheEvilHalloweenDuper",
+      "reward": "50 Product Essence"
     }
   ],
   "expiredCodes": [
@@ -676,6 +732,14 @@
     {
       "code": "RELEASE!!!!",
       "reward": "50 product essence"
+    },
+    {
+      "code": "iknowwhozingusis",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ChangelogsReleased",
+      "reward": "Recompensas gratis"
     }
   ],
   "howToRedeem": [

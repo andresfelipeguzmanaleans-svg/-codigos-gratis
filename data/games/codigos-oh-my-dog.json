@@ -188,11 +188,11 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "DSKOGTJE&nbsp;",
+      "code": "DSKOGTJE",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "ONJHJSSD&nbsp;",
+      "code": "ONJHJSSD",
       "reward": "Recompensas gratis"
     },
     {
@@ -260,7 +260,16 @@
       "reward": "200 Dognotes and 50 Bones"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "DSKOGTJE&nbsp;",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ONJHJSSD&nbsp;",
+      "reward": "Recompensas gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Oh My Dog en Roblox",
     "Busca el icono de códigos en el menú",

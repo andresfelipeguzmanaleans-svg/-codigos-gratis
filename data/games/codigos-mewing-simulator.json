@@ -8,6 +8,16 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "PEAK",
+      "reward": "1,000 wins"
+    },
+    {
+      "code": "SYN",
+      "reward": "10-minuto x2 suerte Boost"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "Update3",
       "reward": "Recompensas gratis"
     },
@@ -34,17 +44,8 @@
     {
       "code": "BLESSMESYN",
       "reward": "X2 Win Boost"
-    },
-    {
-      "code": "SYN",
-      "reward": "X2 Ten-minuto suerte Boosts"
-    },
-    {
-      "code": "PEAK",
-      "reward": "1,000 Wins"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Mewing Simulator en Roblox",
     "Busca el icono de códigos en el menú",

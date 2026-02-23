@@ -8,32 +8,44 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "sport",
-      "reward": "4 2x suerte Boost"
+      "code": "130m",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "nebula",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "star",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "celestial",
-      "reward": "4 2x suerte Boost"
+      "reward": "2 2x suerte Boost"
+    },
+    {
+      "code": "sport",
+      "reward": "2 2x suerte Boost"
     },
     {
       "code": "dark",
-      "reward": "4 2x suerte Boost"
+      "reward": "2 2x suerte Boost"
     },
     {
       "code": "ice",
-      "reward": "4 2x suerte Boost"
+      "reward": "2 2x suerte Boost"
     },
     {
       "code": "pineapple",
-      "reward": "4 2x suerte Boost"
+      "reward": "2 2x suerte Boost"
     },
     {
       "code": "shell",
-      "reward": "4 2x suerte Boost"
+      "reward": "2 2x suerte Boost"
     },
     {
       "code": "mountain",
-      "reward": "4 2x suerte Boost"
+      "reward": "2 2x suerte Boost"
     },
     {
       "code": "water",
@@ -41,15 +53,15 @@
     },
     {
       "code": "electro",
-      "reward": "4 2x suerte Boost"
+      "reward": "2x suerte Boost"
     },
     {
       "code": "air",
-      "reward": "4 2x suerte Boost"
+      "reward": "2x suerte Boost"
     },
     {
       "code": "earth",
-      "reward": "4 2x suerte Boost"
+      "reward": "2x suerte Boost"
     },
     {
       "code": "school",
@@ -57,23 +69,241 @@
     },
     {
       "code": "samurai",
-      "reward": "Boosts & recompensas"
+      "reward": "4 2x suerte Boost"
     },
     {
       "code": "candy",
-      "reward": "Boosts & recompensas"
+      "reward": "4 2x suerte Boost"
     },
     {
       "code": "sandbox",
-      "reward": "Boosts & recompensas"
+      "reward": "4 2x suerte Boost"
     },
     {
       "code": "emoji",
-      "reward": "Boosts & recompensas"
+      "reward": "4 2x suerte Boost"
     },
     {
       "code": "arcade",
-      "reward": "Boosts & recompensas"
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "turkey",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "ghost",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "120m",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "volcanic",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "mushroom",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "fall",
+      "reward": "2x suerte Boost"
+    },
+    {
+      "code": "forest",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "fire",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "futuristic",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "military",
+      "reward": "2x suerte Boost"
+    },
+    {
+      "code": "viking",
+      "reward": "2x suerte Boost"
+    },
+    {
+      "code": "crystal",
+      "reward": "2x suerte Boost"
+    },
+    {
+      "code": "bunny",
+      "reward": "2x suerte Boosts"
+    },
+    {
+      "code": "easter2023",
+      "reward": "2x suerte Boosts"
+    },
+    {
+      "code": "fairy",
+      "reward": "2x suerte Boosts"
+    },
+    {
+      "code": "omgfreex3luck",
+      "reward": "3x suerte Boost"
+    },
+    {
+      "code": "clover",
+      "reward": "2x suerte Boosts"
+    },
+    {
+      "code": "dragon",
+      "reward": "4x 2 suerte Boost"
+    },
+    {
+      "code": "jungle",
+      "reward": "2x suerte Boosts"
+    },
+    {
+      "code": "anniversary",
+      "reward": "2x suerte Boosts"
+    },
+    {
+      "code": "100m",
+      "reward": "2 2x suerte Boost"
+    },
+    {
+      "code": "flower",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "molten",
+      "reward": "2x doble suerte Boosts"
+    },
+    {
+      "code": "ocean",
+      "reward": "4x doble suerte Boosts"
+    },
+    {
+      "code": "fish",
+      "reward": "4x doble suerte Boosts"
+    },
+    {
+      "code": "2023",
+      "reward": "4x doble suerte Boosts"
+    },
+    {
+      "code": "santa",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "christmas",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "95m",
+      "reward": "4 2x suerte Boost"
+    },
+    {
+      "code": "pirate",
+      "reward": "3 2x suerte Boosts"
+    },
+    {
+      "code": "90m",
+      "reward": "3 2x Rebirths Boosts"
+    },
+    {
+      "code": "update32",
+      "reward": "2 2x Click Boosts"
+    },
+    {
+      "code": "175kthanks",
+      "reward": "1 10x Click Boost"
+    },
+    {
+      "code": "75m",
+      "reward": "2 suerte Boosts"
+    },
+    {
+      "code": "150kthanks",
+      "reward": "2 Rebirths Boosts"
+    },
+    {
+      "code": "60m",
+      "reward": "2 2x suerte Boosts"
+    },
+    {
+      "code": "50m",
+      "reward": "2 2x suerte Boosts"
+    },
+    {
+      "code": "100kthanks",
+      "reward": "Two 2x Rebirths Boost"
+    },
+    {
+      "code": "75kthanks",
+      "reward": "Two 2x suerte Boosts"
+    },
+    {
+      "code": "thanksfor50k",
+      "reward": "2x suerte Boost"
+    },
+    {
+      "code": "10mthanks",
+      "reward": "2x suerte Boost"
+    },
+    {
+      "code": "wow30000",
+      "reward": "2x Boost"
+    },
+    {
+      "code": "20kthankyou",
+      "reward": "Boost"
+    },
+    {
+      "code": "freeluckboost",
+      "reward": "2x suerte Boost"
+    },
+    {
+      "code": "wow10klikesthanks",
+      "reward": "2x suerte Boost"
+    },
+    {
+      "code": "freeclicksomg",
+      "reward": "2x Click Boost"
+    },
+    {
+      "code": "5klikesthanks",
+      "reward": "2x suerte Boost"
+    },
+    {
+      "code": "wow2500likes",
+      "reward": "2x Rebirths Boost"
+    },
+    {
+      "code": "already1500likes",
+      "reward": "2x suerte Boost"
+    },
+    {
+      "code": "thanks500likes",
+      "reward": "2x Click Boost"
+    },
+    {
+      "code": "release",
+      "reward": "1k Clicks"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "moon",
+      "reward": "Boosts gratis"
+    },
+    {
+      "code": "magic",
+      "reward": "Boosts gratis"
+    },
+    {
+      "code": "CYBER",
+      "reward": "Boosts gratis"
     },
     {
       "code": "egg",
@@ -148,59 +378,11 @@
       "reward": "Boosts & recompensas"
     },
     {
-      "code": "turkey",
-      "reward": "Boosts & recompensas"
-    },
-    {
       "code": "haunted",
       "reward": "Boosts & recompensas"
     },
     {
       "code": "scary",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "ghost",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "120m",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "volcanic",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "mushroom",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "fall",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "forest",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "fire",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "futuristic",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "military",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "viking",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "crystal",
       "reward": "Boosts & recompensas"
     },
     {
@@ -260,75 +442,7 @@
       "reward": "Boosts & recompensas"
     },
     {
-      "code": "bunny",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "easter2023",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "fairy",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "omgfreex3luck",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "clover",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "dragon",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "jungle",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "anniversary",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "100m",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "flower",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "molten",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "fish",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "2023",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "santa",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "christmas",
-      "reward": "Boosts & recompensas"
-    },
-    {
       "code": "exotic",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "95m",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "pirate",
       "reward": "Boosts & recompensas"
     },
     {
@@ -337,10 +451,6 @@
     },
     {
       "code": "seacave",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "90m",
       "reward": "Boosts & recompensas"
     },
     {
@@ -353,10 +463,6 @@
     },
     {
       "code": "pixel",
-      "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "update32",
       "reward": "Boosts & recompensas"
     },
     {
@@ -388,10 +494,6 @@
       "reward": "Boosts & recompensas"
     },
     {
-      "code": "175kthanks",
-      "reward": "Boosts & recompensas"
-    },
-    {
       "code": "tutel",
       "reward": "Boosts & recompensas"
     },
@@ -402,10 +504,6 @@
     {
       "code": "neon",
       "reward": "Boosts & recompensas"
-    },
-    {
-      "code": "75m",
-      "reward": "Powerful Boosts"
     },
     {
       "code": "fantasy",
@@ -421,14 +519,6 @@
     },
     {
       "code": "summer",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "150kthanks",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "60m",
       "reward": "Recompensas gratis"
     },
     {
@@ -448,10 +538,6 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "50m",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "hell",
       "reward": "Recompensas gratis"
     },
@@ -464,19 +550,11 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "100kthanks",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "easter",
       "reward": "Recompensas gratis"
     },
     {
       "code": "cave",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "75kthanks",
       "reward": "Recompensas gratis"
     },
     {
@@ -492,70 +570,8 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "thanksfor50k",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "10mthanks",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "heaven",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "wow30000",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "20kthankyou",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "freeluckboost",
-      "reward": "Suerte Boost"
-    },
-    {
-      "code": "wow10klikesthanks",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "freeclicksomg",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "5klikesthanks",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "wow2500likes",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "already1500likes",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "thanks500likes",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "RELEASE",
-      "reward": "Clicks gratis"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "moon",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "magic",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "CYBER",
-      "reward": "Boosts gratis"
     }
   ],
   "howToRedeem": [

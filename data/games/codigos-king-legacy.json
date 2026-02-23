@@ -8,36 +8,40 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "DinoxLive",
-      "reward": "+100,000 $"
-    },
-    {
-      "code": "Peodiz",
-      "reward": "+100,000 $"
-    },
-    {
       "code": "&lt;3LEEPUNGG",
-      "reward": "2x EXP for 30 minutos gratis"
+      "reward": "30 minutos x2 Exp"
     },
     {
-      "code": "DragonColorRefund",
-      "reward": "50 gemas"
-    },
-    {
-      "code": "RainbowDragon",
-      "reward": "100 gemas"
-    },
-    {
-      "code": "FREESTATSRESET",
-      "reward": "Refund Stats gratis"
-    },
-    {
-      "code": "2MFAV",
-      "reward": "Refund Stats gratis"
+      "code": "WELCOMETOKINGLEGACY",
+      "reward": "30 minutos x2 Exp"
     },
     {
       "code": "SKGames",
-      "reward": "2x EXP for 30 minutos"
+      "reward": "15 minutos x2 Exp"
+    },
+    {
+      "code": "DragonColorRefund",
+      "reward": "50 gemas (Only for players who owned the old Rainbow Dragon color; if your old color was the original red, you will only get 10 gemas)"
+    },
+    {
+      "code": "RainbowDragon",
+      "reward": "100 gemas (Only for players who owned the old Rainbow Dragon color)"
+    },
+    {
+      "code": "FREESTATSRESET",
+      "reward": "Stats Reset"
+    },
+    {
+      "code": "2MFAV",
+      "reward": "Stats Reset"
+    },
+    {
+      "code": "Peodiz",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "DinoxLive",
+      "reward": "100k Cash"
     }
   ],
   "expiredCodes": [
@@ -524,6 +528,18 @@
     {
       "code": "WELCOMETOKINGLEGACY",
       "reward": "2x EXP for 30 minutos gratis"
+    },
+    {
+      "code": "Update8.0.4",
+      "reward": "50 gemas"
+    },
+    {
+      "code": "QuakePowerUp",
+      "reward": "1 Fate Book"
+    },
+    {
+      "code": "PassiveMaste",
+      "reward": "1 Fate Book"
     }
   ],
   "howToRedeem": [

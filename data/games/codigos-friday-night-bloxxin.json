@@ -41,62 +41,67 @@
     },
     {
       "code": "HOLIDAY",
-      "reward": "650 puntos"
+      "reward": "Puntos"
     },
     {
       "code": "SUBTOANDRENICHOLAS",
-      "reward": "1,200 puntos"
+      "reward": "Puntos"
     },
     {
       "code": "MERRYCHRISTMAS",
-      "reward": "750 puntos"
+      "reward": "Puntos"
     },
     {
       "code": "IFOUNDYOUFAKER",
-      "reward": "The Faker animation"
+      "reward": "Faker animation"
     },
     {
       "code": "OMGCODES",
-      "reward": "400 puntos"
+      "reward": "Puntos"
     },
     {
       "code": "THXBOOSTERS",
-      "reward": "800 puntos"
+      "reward": "Puntos"
     },
     {
       "code": "LAWSUIT",
-      "reward": "300 puntos"
+      "reward": "Puntos"
     },
     {
       "code": "OMG2V2",
-      "reward": "500 puntos"
+      "reward": "Puntos"
     },
     {
       "code": "SONIC",
-      "reward": "1,000 puntos"
+      "reward": "Puntos"
     },
     {
       "code": "BLOXXINISINNOCENT",
-      "reward": "600 puntos"
+      "reward": "Puntos"
     },
     {
       "code": "NOMOREDRAMAPLSTHX",
-      "reward": "Puntos gratis"
+      "reward": "Puntos"
+    },
+    {
+      "code": "SUBTOCAPTAINJACK",
+      "reward": "Puntos"
     },
     {
       "code": "MODIFIERS",
-      "reward": "300 puntos"
+      "reward": "Puntos"
     },
     {
       "code": "1M",
-      "reward": "500 puntos"
-    },
+      "reward": "Puntos"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "AUDIOPOCALYPSE",
       "reward": "500 puntos"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Friday Night Bloxxin en Roblox",
     "Busca el icono de códigos en el menú",

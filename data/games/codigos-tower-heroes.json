@@ -8,32 +8,74 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "CLAW",
+      "reward": "20 monedas"
+    },
+    {
+      "code": "DevHiloh",
+      "reward": "Skin"
+    },
+    {
+      "code": "NEWLOBBY",
+      "reward": "Skin"
+    },
+    {
+      "code": "Karts&amp;Chaos",
+      "reward": "Skin"
+    },
+    {
+      "code": "CartoonyWizard",
+      "reward": "Skin"
+    },
+    {
+      "code": "Valentine25",
+      "reward": "Skin"
+    },
+    {
+      "code": "H24_VANESSA",
+      "reward": "Stickers"
+    },
+    {
+      "code": "CAKEHEROES",
+      "reward": "Sticker"
+    },
+    {
+      "code": "EGGHUNT2024",
+      "reward": "Sticker"
+    },
+    {
+      "code": "LIVECHAT",
+      "reward": "Stream Integration Modifier"
+    },
+    {
+      "code": "Valentine2023",
+      "reward": "The Cupid Quinn"
+    },
+    {
+      "code": "RDC2022SPIN",
+      "reward": "The Wuffle, Byte, and Chirp Stickers"
+    },
+    {
+      "code": "KARTKIDPLUSH",
+      "reward": "The Kart Kid Plush Sticker"
+    },
+    {
+      "code": "pizzatime",
+      "reward": "And skin and a Sticker"
+    },
+    {
+      "code": "FRANKBDAY",
+      "reward": "The Funny Birthday Frank skin"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "BANANA",
       "reward": "Recompensas gratis"
     },
     {
       "code": "NEWDAY",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CartoonyWizard",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Karts&amp;Chaos",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NEWLOBBY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CAKEHEROES",
-      "reward": "Blorps and mascota Cake Sticker"
-    },
-    {
-      "code": "LIVECHAT",
-      "reward": "Cat Video"
     },
     {
       "code": "PixelBit",
@@ -88,18 +130,6 @@
       "reward": "Exclusivo Fracture skin"
     },
     {
-      "code": "KARTKIDPLUSH",
-      "reward": "Kart Kid Plush Sticker"
-    },
-    {
-      "code": "pizzatime",
-      "reward": "Pizza global skin + AYO Pizza! Sticker"
-    },
-    {
-      "code": "FRANKBDAY",
-      "reward": "Funny Birthday Frank skin"
-    },
-    {
       "code": "crispytyph",
       "reward": "Follower & Sticker"
     },
@@ -128,10 +158,6 @@
       "reward": "Xbox skin"
     },
     {
-      "code": "Valentine2023",
-      "reward": "Skin gratis"
-    },
-    {
       "code": "Easter2022",
       "reward": "Sticker gratis"
     },
@@ -142,9 +168,64 @@
     {
       "code": "valentine2021",
       "reward": "Get a Valentine&rsquo;s Day skin"
+    },
+    {
+      "code": "July42020",
+      "reward": "The Fireworks skin"
+    },
+    {
+      "code": "ENCORE",
+      "reward": "Stickers and Characters"
+    },
+    {
+      "code": "Valentine2022",
+      "reward": "Angel Slime skin"
+    },
+    {
+      "code": "ONEYEAR_TH",
+      "reward": "20 monedas and Concept Chef"
+    },
+    {
+      "code": "APRILFOOL",
+      "reward": "Negative 20 monedas and Gun Wizard skin"
+    },
+    {
+      "code": "happy2021",
+      "reward": "2021 Voca gratis"
+    },
+    {
+      "code": "xmas2020",
+      "reward": "Snowflake skin gratis"
+    },
+    {
+      "code": "100MIL",
+      "reward": "Skin and 20 monedas gratis"
+    },
+    {
+      "code": "TreeBranch",
+      "reward": "Leaves skin gratis"
+    },
+    {
+      "code": "PoisonShroom",
+      "reward": "Mushroom skin gratis"
+    },
+    {
+      "code": "halloween2020",
+      "reward": "Green Jack o Lantern skin gratis"
+    },
+    {
+      "code": "thxgiving",
+      "reward": "Pilgrim skin gratis"
+    },
+    {
+      "code": "FastFood",
+      "reward": "Orange Soda skin gratis"
+    },
+    {
+      "code": "1MIL",
+      "reward": "1 Million skin & 20 monedas"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Tower Heroes en Roblox",
     "Busca el icono de códigos en el menú",

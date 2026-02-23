@@ -5,30 +5,259 @@
   "description": "Todos los códigos activos para Yeet a Friend en Roblox",
   "metaTitle": "Códigos Yeet a Friend (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Yeet a Friend en Roblox. Consigue Stars, mascotas Mythic y boosts gratis.",
-  "lastUpdated": "2026-02-21",
+  "lastUpdated": "2026-02-23",
   "playerCount": 1421,
   "totalVisits": 494799449,
   "likes": 801400,
   "genre": "Simulator",
   "placeId": 11708967881,
   "activeCodes": [
-    { "code": "YEETGOAT", "reward": "10K Stars" },
-    { "code": "YEETOLYMPICS", "reward": "10K Stars" },
-    { "code": "BOMBARDINO", "reward": "1 Mythic Slime Pet" },
-    { "code": "XMAS24", "reward": "30K Stars" },
-    { "code": "SuperRebirths", "reward": "50.000 Stars" },
-    { "code": "HalfMillionInsanity", "reward": "Mythic Pet gratis" },
-    { "code": "Halloween", "reward": "50K Stars" },
-    { "code": "VALENTINE", "reward": "3x Energy, Power y Luck Boost" },
-    { "code": "Aztec", "reward": "5x Wheel Spins" },
-    { "code": "iLoveYeeting", "reward": "1 Legendary Slime Pet" },
-    { "code": "IPLAYEVERYDAY", "reward": "1 Legendary Slime Pet" },
-    { "code": "FreeStars", "reward": "750 Gems" },
-    { "code": "FreePower", "reward": "1 Power Boost" }
+    {
+      "code": "YEETGOAT",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "YEETOLYMPICS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NYCOUNTDOWN",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TURKEYEET",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "YAFTOBER",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GRAFFITI",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GOTHICSCHOOL",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "CAMP",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "OCTOPUS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BOMBARDINO",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GYMSTAR",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SUPERCAR",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "VALENTINE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "OLYMP",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "XMAS24",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SuperRebirths",
+      "reward": "50,000 estrellas"
+    },
+    {
+      "code": "HalfMillionInsanity",
+      "reward": "Mythic mascota gratis"
+    },
+    {
+      "code": "CHRISTMAS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GIFTING",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Sewer",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Halloween2023",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Aztec",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Mask",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Magic",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Library",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Glacier",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "AFK",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Enchanted",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Teleporter",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "EASYEET",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PetIndex",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Collector",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Summer",
+      "reward": "Mythic Slime"
+    },
+    {
+      "code": "Sunglasses",
+      "reward": "Mythic Slime"
+    },
+    {
+      "code": "MoneyUpdate",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Energetic",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "StarShopper",
+      "reward": "Estrellas gratis"
+    },
+    {
+      "code": "YeetCartoon",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NeonPet",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "YeetA250K",
+      "reward": "Mythic Slime mascota"
+    },
+    {
+      "code": "iLoveYeeting",
+      "reward": "Legendario Slime mascota"
+    },
+    {
+      "code": "Nightmares",
+      "reward": "2 legendario Slime mascotas"
+    },
+    {
+      "code": "FreeStars",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FreePower",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "AtomicReward",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ALIEN",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Yarrr",
+      "reward": "Recompensas gratis"
+    }
   ],
   "expiredCodes": [
-    { "code": "Summer", "reward": "Mythic Slime" },
-    { "code": "Sunglasses", "reward": "Mythic Slime" }
+    {
+      "code": "Summer",
+      "reward": "Mythic Slime"
+    },
+    {
+      "code": "Sunglasses",
+      "reward": "Mythic Slime"
+    },
+    {
+      "code": "Halloween",
+      "reward": "50K Stars"
+    },
+    {
+      "code": "IPLAYEVERYDAY",
+      "reward": "1 Legendary Slime Pet"
+    },
+    {
+      "code": "BiggestGlitch",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Easter",
+      "reward": "Exclusivo gratis"
+    },
+    {
+      "code": "LittleCyborg",
+      "reward": "Exclusivo gratis"
+    },
+    {
+      "code": "ExtraLucky",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Rocket",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "VERYCOOL5KPET",
+      "reward": "Energía gratis"
+    },
+    {
+      "code": "ATLANTIS",
+      "reward": "Energía gratis"
+    },
+    {
+      "code": "YEET",
+      "reward": "Energía gratis"
+    },
+    {
+      "code": "Trading",
+      "reward": "Energía gratis"
+    },
+    {
+      "code": "Release",
+      "reward": "Energía gratis"
+    }
   ],
   "introText": "Yeet a Friend es un simulador en Roblox creado por Low Effort Studios donde lanzas a tus amigos lo más lejos posible. Con casi 495 millones de visitas y más de 801K likes, colecciona mascotas, desbloquea cohetes y mejora tu potencia de lanzamiento para batir récords de distancia.",
   "whatAreCodes": "Los códigos de Yeet a Friend te dan Stars para mejoras, mascotas Mythic y Legendary, boosts de Energy, Power y Luck, y tiradas de Wheel Spins. Las mascotas Mythic son especialmente valiosas y difíciles de conseguir sin códigos.",

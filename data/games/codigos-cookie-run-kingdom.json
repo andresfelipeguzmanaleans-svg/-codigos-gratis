@@ -61,7 +61,7 @@
     },
     {
       "code": "POCKETGAMERAWARD",
-      "reward": "Del juego recompensas gratis"
+      "reward": "In-game recompensas gratis"
     },
     {
       "code": "MEETSORBETCOOKIE",
@@ -172,27 +172,27 @@
       "reward": "Coupon code for cristales gratis"
     },
     {
-      "code": "SAMSUNGCRKINGDOM&nbsp;",
+      "code": "SAMSUNGCRKINGDOM",
       "reward": "Coupon code for 1,000 cristales"
     },
     {
-      "code": "GETUR1SUGARGNOME&nbsp;",
+      "code": "GETUR1SUGARGNOME",
       "reward": "Coupon code for 1 Sugar Gnome"
     },
     {
-      "code": "GETUR3SUGARGNOME&nbsp;",
+      "code": "GETUR3SUGARGNOME",
       "reward": "Coupon code for 3 Sugar Gnomes"
     },
     {
-      "code": "GETUR5SUGARGNOME&nbsp;",
+      "code": "GETUR5SUGARGNOME",
       "reward": "Coupon code for 5 Sugar Gnomes"
     },
     {
-      "code": "GETUR7SUGARGNOME&nbsp;",
+      "code": "GETUR7SUGARGNOME",
       "reward": "Coupon code for 7 Sugar Gnomes"
     },
     {
-      "code": "KINGDOMWITHSONIC&nbsp;",
+      "code": "KINGDOMWITHSONIC",
       "reward": "Coupon code for 1,000 cristales"
     },
     {
@@ -244,6 +244,68 @@
       "reward": "Coupon code for 500 cristales"
     },
     {
+      "code": "XZUEYBACYHUKVRMD",
+      "reward": "Coupon code for Treasure tickets"
+    },
+    {
+      "code": "SOQCESWVJWEKZDVB",
+      "reward": "Coupon code for 1,000 cristales"
+    },
+    {
+      "code": "VANGIZJUWJPNAZGJ",
+      "reward": "Coupon code for 20x 1 minuto velocidad-ups"
+    },
+    {
+      "code": "XYOKSPZLLUJYFKJN",
+      "reward": "Coupon code for 30 EXP Star Jellies LVL 4"
+    },
+    {
+      "code": "TIYSVCUKYDPPHTNP",
+      "reward": "Coupon code for 50,000 monedas"
+    },
+    {
+      "code": "KINGDOMWELOVEYOU",
+      "reward": "Coupon code for 3,000 cristales & 100 Stamina"
+    },
+    {
+      "code": "IELLBHSLKZHBGD",
+      "reward": "Coupon code for a Cookie Cutter"
+    },
+    {
+      "code": "HAPPY100DAYSGIFT",
+      "reward": "Coupon code for 1,000 cristales"
+    },
+    {
+      "code": "50CAFEREWARD1000",
+      "reward": "Coupon code for 500 cristales"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "SAMSUNGCRKINGDOM&nbsp;",
+      "reward": "Coupon code for 1,000 cristales"
+    },
+    {
+      "code": "GETUR1SUGARGNOME&nbsp;",
+      "reward": "Coupon code for 1 Sugar Gnome"
+    },
+    {
+      "code": "GETUR3SUGARGNOME&nbsp;",
+      "reward": "Coupon code for 3 Sugar Gnomes"
+    },
+    {
+      "code": "GETUR5SUGARGNOME&nbsp;",
+      "reward": "Coupon code for 5 Sugar Gnomes"
+    },
+    {
+      "code": "GETUR7SUGARGNOME&nbsp;",
+      "reward": "Coupon code for 7 Sugar Gnomes"
+    },
+    {
+      "code": "KINGDOMWITHSONIC&nbsp;",
+      "reward": "Coupon code for 1,000 cristales"
+    },
+    {
       "code": "XZUEYBACYHUKVRMD&nbsp;",
       "reward": "Coupon code for Treasure tickets"
     },
@@ -280,7 +342,6 @@
       "reward": "Coupon code for 500 cristales"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Cookie Run Kingdom en Roblox",
     "Busca el icono de códigos en el menú",

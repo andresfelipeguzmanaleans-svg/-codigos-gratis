@@ -9,19 +9,15 @@
   "activeCodes": [
     {
       "code": "150k",
-      "reward": "Recompensa gratis"
+      "reward": "Nuke"
     },
     {
       "code": "zombie",
-      "reward": "Recompensa gratis"
+      "reward": "Nuke"
     },
     {
       "code": "Prestige4",
-      "reward": "10 minutos of 2x Income and a NUKE gratis"
-    },
-    {
-      "code": "bloater2",
-      "reward": "10 minutos of 2x Income and a NUKE gratis"
+      "reward": "2x Income for 10 min and a Nuke"
     }
   ],
   "expiredCodes": [
@@ -76,6 +72,10 @@
     {
       "code": "500likes",
       "reward": "Nuke gratis"
+    },
+    {
+      "code": "bloater2",
+      "reward": "10 minutos of 2x Income and a NUKE gratis"
     }
   ],
   "howToRedeem": [

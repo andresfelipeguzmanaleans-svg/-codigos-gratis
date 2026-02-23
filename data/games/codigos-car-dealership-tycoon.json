@@ -8,76 +8,356 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "VACATION",
-      "reward": "Del juego dinero"
+      "code": "OLDSCHOOL",
+      "reward": "80k Cash"
     },
     {
-      "code": "STYLE",
-      "reward": "Del juego dinero"
+      "code": "CUPIDSARROW",
+      "reward": "100k Cash"
     },
     {
-      "code": "SEPTEMBER",
-      "reward": "Del juego dinero"
+      "code": "GRIDIRON",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "SWISSSPEC",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "FULLSEND",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "4X4TOUGH",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "BLOSSOM",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "2026CDT",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "PartHunting",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "FACTORY",
+      "reward": "80k Cash"
     },
     {
       "code": "CHAMP",
-      "reward": "Del juego dinero"
+      "reward": "80k Cash"
     },
     {
-      "code": "ONEOFAKIND",
-      "reward": "Del juego dinero"
+      "code": "FOXZIE",
+      "reward": "15k Cash"
     },
     {
-      "code": "RSQ8LE",
-      "reward": "Del juego dinero"
+      "code": "PAGANISALE",
+      "reward": "80k Cash"
     },
     {
-      "code": "ENDURANCE",
-      "reward": "Del juego dinero"
+      "code": "INFILTRATE",
+      "reward": "80k Cash"
     },
     {
-      "code": "FASTESTSHOP",
-      "reward": "Del juego dinero"
+      "code": "DRIFTFEST",
+      "reward": "80k Cash"
     },
     {
-      "code": "TTRSrace",
-      "reward": "Del juego dinero"
+      "code": "RALLY",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "GLOSS",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "SCAVENGERHUNT",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "RETURNINGLIM",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "BEETLE",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "MoreBikes",
+      "reward": "75k Cash"
+    },
+    {
+      "code": "ROOFLESS",
+      "reward": "80k Cash"
     },
     {
       "code": "FORMULAFAN",
-      "reward": "Del juego dinero"
+      "reward": "100k Cash"
     },
     {
-      "code": "RS6FORU",
-      "reward": "Del juego dinero"
+      "code": "SEPTEMBER",
+      "reward": "80k Cash"
     },
     {
-      "code": "DOCKS",
-      "reward": "Del juego dinero"
+      "code": "12MLIMITED",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "LIMRETURN",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "TECHNO",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "Tstingray",
+      "reward": "25k Cash"
+    },
+    {
+      "code": "FORMULASEASON",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "September2023",
+      "reward": "75k Cash"
+    },
+    {
+      "code": "NEWMAP",
+      "reward": "110k Cash"
+    },
+    {
+      "code": "UTOPIA",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "MAYLIMITED",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "ITALIA",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "COPSANDCRIMS",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "DRAGRACE",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "VWCOLLECTOR",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "HALLOWEENPART2",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "ONEOFAKIND",
+      "reward": "80k Cash"
     },
     {
       "code": "ABTXGT",
-      "reward": "Del juego dinero"
+      "reward": "100k Cash"
     },
     {
-      "code": "R8FOXZIE",
-      "reward": "Del juego dinero"
+      "code": "EASTER2",
+      "reward": "80k Cash"
     },
     {
-      "code": "URAGANO",
-      "reward": "Del juego dinero"
+      "code": "PUMPKINS24",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "2BPART2",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "Spooktober",
+      "reward": "75k Cash"
+    },
+    {
+      "code": "Toulouse",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "EASTER2025",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "JINGLEBELLS",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "BackToSchool",
+      "reward": "75k Cash"
+    },
+    {
+      "code": "FASTESTSHOP",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "ENDURANCE",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "ZENVO",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "JAPANSZN",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "MOVIESEASON",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "BREAK",
+      "reward": "80k Cash"
     },
     {
       "code": "LUCKY7",
-      "reward": "Del juego dinero"
-    },
-    {
-      "code": "AUDIRS7",
-      "reward": "Del juego dinero"
+      "reward": "80k Cash"
     },
     {
       "code": "NEWLIMITED",
-      "reward": "$80,000 del juego dinero"
+      "reward": "80k Cash"
+    },
+    {
+      "code": "STYLE",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "SEASON17",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "URAGANO",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "XMASUPDATE",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "RS6FORU",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "COLLECTORCAR",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "NewChallenges",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "POLICESEASON",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "BARNFIND04",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "SEASON16",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "SAFARI",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "RSQ8LE",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "MUSCLE",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "UPGRADELAUNCH",
+      "reward": "Customization Kits"
+    },
+    {
+      "code": "CUSTOM200",
+      "reward": "200 Wrenches"
+    },
+    {
+      "code": "2BVISITS",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "HYPERCARS",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "AUDIR8",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "AUDIRS7",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "VOLKSWAGEN",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "ZENVOCOLLECTOR",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "VACATION",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "Halloween2023",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "IMMORTAL",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "EVENT03",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "DOCKS",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "Motos",
+      "reward": "75k Cash"
+    },
+    {
+      "code": "TRADING",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "R8FOXZIE",
+      "reward": "R8 Foxzie Edition Car"
+    },
+    {
+      "code": "TTRSrace",
+      "reward": "80k Cash"
+    },
+    {
+      "code": "NORTHPOLE",
+      "reward": "100k Cash"
+    },
+    {
+      "code": "NEWCHALLENGE",
+      "reward": "80k Cash"
     }
   ],
   "expiredCodes": [

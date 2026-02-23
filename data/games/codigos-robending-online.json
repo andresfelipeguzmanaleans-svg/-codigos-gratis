@@ -8,56 +8,96 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "NewYear25",
-      "reward": "1hr 2x drop rate"
+      "code": "NintyPercentageLikes",
+      "reward": "20 Sub-Element giros"
     },
     {
-      "code": "NewYearSlot",
-      "reward": "New character slot"
+      "code": "RandomFixes88",
+      "reward": "Recustomize code"
     },
     {
-      "code": "NewYearSpins",
-      "reward": "20 sub giros"
+      "code": "ForwardsWeGo",
+      "reward": "+1 New Character Slot"
     },
     {
-      "code": "SorryForTheInconvenience",
-      "reward": "30 mins of 2x drop rate"
+      "code": "YurlGoat1",
+      "reward": "8 giros"
     },
     {
-      "code": "SorryForTheInconvenience2",
-      "reward": "60 mins of 2x monedas"
+      "code": "YurlDoubleDrops1",
+      "reward": "15 mins of 2x drops"
     },
     {
-      "code": "SorryForTheInconvenience3",
-      "reward": "30 mins of 2x EXP"
+      "code": "CustomizeYesYeah",
+      "reward": "Recustomize code"
     },
     {
-      "code": "EoTySlot",
-      "reward": "+One new slot"
+      "code": "Series",
+      "reward": "1 New Slot and 10 giros"
     },
     {
-      "code": "EoTySpins",
+      "code": "SoonTM",
       "reward": "10 giros"
     },
     {
-      "code": "EoTyDrops",
-      "reward": "20 mins 2x drop rate"
+      "code": "BalancePatch1",
+      "reward": "Giros gratis"
     },
     {
-      "code": "EoDrops2",
-      "reward": "2x drop rate for 30mins"
+      "code": "DualSubs",
+      "reward": "10 giros"
     },
     {
-      "code": "EoSlot",
-      "reward": "+1 new character slot"
+      "code": "SorryFix",
+      "reward": "30 minutos 2x Droprate"
     },
     {
-      "code": "EoDrops",
-      "reward": "+20 minutos of 2x drop rate"
+      "code": "Upd1Slot",
+      "reward": "New character slot"
     },
     {
-      "code": "EoSpins",
-      "reward": "15 sub-element giros"
+      "code": "Upd1Spins",
+      "reward": "15 giros"
+    },
+    {
+      "code": "Upd1Customize",
+      "reward": "Character customization reset"
+    },
+    {
+      "code": "Fixes",
+      "reward": "15 minutos of 2x drop rate"
+    },
+    {
+      "code": "Console",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "5kLikesFreeCustomization",
+      "reward": "Character customization reset"
+    },
+    {
+      "code": "4kLikes",
+      "reward": "7 giros"
+    },
+    {
+      "code": "3000LikesReal",
+      "reward": "10 giros and 1 New Slot"
+    },
+    {
+      "code": "1500Likes",
+      "reward": "10 giros"
+    },
+    {
+      "code": "1kPlrs",
+      "reward": "Stats Reset"
+    },
+    {
+      "code": "SorryForCustomizationBug",
+      "reward": "Character customization reset"
+    },
+    {
+      "code": "Release",
+      "reward": "2 Stat puntos"
     }
   ],
   "expiredCodes": [
@@ -204,6 +244,62 @@
     {
       "code": "Release",
       "reward": "Stat puntos gratis"
+    },
+    {
+      "code": "NewYear25",
+      "reward": "1hr 2x drop rate"
+    },
+    {
+      "code": "NewYearSlot",
+      "reward": "New character slot"
+    },
+    {
+      "code": "NewYearSpins",
+      "reward": "20 sub giros"
+    },
+    {
+      "code": "SorryForTheInconvenience",
+      "reward": "30 mins of 2x drop rate"
+    },
+    {
+      "code": "SorryForTheInconvenience2",
+      "reward": "60 mins of 2x monedas"
+    },
+    {
+      "code": "SorryForTheInconvenience3",
+      "reward": "30 mins of 2x EXP"
+    },
+    {
+      "code": "EoTySlot",
+      "reward": "+One new slot"
+    },
+    {
+      "code": "EoTySpins",
+      "reward": "10 giros"
+    },
+    {
+      "code": "EoTyDrops",
+      "reward": "20 mins 2x drop rate"
+    },
+    {
+      "code": "EoDrops2",
+      "reward": "2x drop rate for 30mins"
+    },
+    {
+      "code": "EoSlot",
+      "reward": "+1 new character slot"
+    },
+    {
+      "code": "EoDrops",
+      "reward": "+20 minutos of 2x drop rate"
+    },
+    {
+      "code": "EoSpins",
+      "reward": "15 sub-element giros"
+    },
+    {
+      "code": "Bushido",
+      "reward": "This code has expired"
     }
   ],
   "howToRedeem": [

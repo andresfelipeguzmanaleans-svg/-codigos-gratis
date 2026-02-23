@@ -8,20 +8,28 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "DUNGEONFIX!",
-      "reward": "50 Aura giros and 50 Race giros"
+      "code": "REVAMPSOON!",
+      "reward": "69 Aura giros, 69 Race giros, 1 hora of doble experiencia, 1 hora of doble suerte, and 1 hora of doble Yen"
     },
     {
-      "code": "SNOWISGONE",
-      "reward": "2 hora of doble experiencia, 2 hora of doble suerte, and 2 hora of doble Yen"
-    },
-    {
-      "code": "SORRYFORCOMPASS",
+      "code": "FORGOTSPINS",
       "reward": "200 Grimoire giros"
     },
     {
-      "code": "REVAMPSOON!",
-      "reward": "69 Aura giros, 69 Race giros, 1 hora of doble experiencia, 1 hora of doble suerte, and 1 hora of doble Yen"
+      "code": "100GRIM",
+      "reward": "100 Grimoire giros"
+    },
+    {
+      "code": "QOL",
+      "reward": "25 Aura giros and 25 Race giros"
+    },
+    {
+      "code": "SORRY4DELAY",
+      "reward": "6h of doble EXP"
+    },
+    {
+      "code": "NEWUI",
+      "reward": "10k Yen"
     },
     {
       "code": "25SPINS!",
@@ -29,19 +37,75 @@
     },
     {
       "code": "2025BOOSTS!",
-      "reward": "1 hora of doble experiencia, 1 hora of doble suerte, and 1 hora of doble Yen"
+      "reward": "Hora of doble experiencia, 1 hora of doble suerte, and 1 hora of doble Yen"
     },
     {
       "code": "CLOVER",
-      "reward": "25 Aura giros & 25 Race giros"
+      "reward": "25 Aura giros and 25 Race giros"
     },
     {
       "code": "Revamp2025",
-      "reward": "2 horas of doble experiencia, 2 horas of doble suerte, 2 horas of doble Yen"
+      "reward": "Boosts gratis"
     },
     {
       "code": "SorryForDelay",
       "reward": "50 Aura giros, 50 Race giros, and 300 Grimoire giros"
+    },
+    {
+      "code": "WINTER2024",
+      "reward": "6 horas of 2x EXP, doble Yen, doble suerte and 25 Grimoire giros"
+    },
+    {
+      "code": "SORRYFORLATE",
+      "reward": "5 horas of triple experiencia, 100 Aura giros, 100 Race giros, 135 Grimoire giros, and 3 Crystal llaves"
+    },
+    {
+      "code": "RAPRESET!",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "RAPEVENT!",
+      "reward": "85 Grimoire giros"
+    },
+    {
+      "code": "LIMITED!!!",
+      "reward": "3 horas of 3x EXP, 25 Aura giros, 25 Race giros, 50 Grimoire giros, and 2 Crystal llaves"
+    },
+    {
+      "code": "THANKYOUFORPLAYING!",
+      "reward": "35 Grimoire giros"
+    },
+    {
+      "code": "3kCCU!",
+      "reward": "2 Crystal llaves, 25 Aura giros, 25 Race giros, 25 Grimoire giros, and 3 horas of 3x EXP"
+    },
+    {
+      "code": "4thOfJuly!!!",
+      "reward": "2 Crystal llaves, 25 Aura giros, 25 Race giros, and 25 Grimoire giros"
+    },
+    {
+      "code": "SORRYFORBUGS!",
+      "reward": "2 Crystal llaves, 50 Aura giros, 50 Race giros, 50 Grimoire giros, and 2 horas of 3x experiencia"
+    },
+    {
+      "code": "FIX!",
+      "reward": "25 Aura giros, 25 Grimoire giros, 2,500 Yen, and 2 horas of 3x EXP"
+    },
+    {
+      "code": "QOL!",
+      "reward": "25 Aura giros, 25 Grimoire giros, and 2,500 Yen"
+    },
+    {
+      "code": "FUNZY",
+      "reward": "10 Aura giros and 10 Race giros"
+    },
+    {
+      "code": "GAMEFUNZYTIKTOK",
+      "reward": "150 Grimiore giros, 69 Aura/Race giros, and 2 horas of 2x EXP"
+    },
+    {
+      "code": "GAMEFUNZY",
+      "reward": "5 Aura giros and 5 Race giros"
     }
   ],
   "expiredCodes": [
@@ -471,6 +535,26 @@
     },
     {
       "code": "3KPLAYERS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DUNGEONFIX!",
+      "reward": "50 Aura giros and 50 Race giros"
+    },
+    {
+      "code": "SNOWISGONE",
+      "reward": "2 hora of doble experiencia, 2 hora of doble suerte, and 2 hora of doble Yen"
+    },
+    {
+      "code": "SORRYFORCOMPASS",
+      "reward": "200 Grimoire giros"
+    },
+    {
+      "code": "TRADINGFIX",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "1KPLAYERS",
       "reward": "Recompensas gratis"
     }
   ],

@@ -348,11 +348,11 @@
       "reward": "25 giros"
     },
     {
-      "code": "DEMONUPDATE1!!&nbsp;",
+      "code": "DEMONUPDATE1!!",
       "reward": "Giros"
     },
     {
-      "code": "DEMONUPDATE2!!&nbsp;",
+      "code": "DEMONUPDATE2!!",
       "reward": "Giros"
     },
     {
@@ -396,11 +396,11 @@
       "reward": "30 giros"
     },
     {
-      "code": "5KMembers!&nbsp;",
+      "code": "5KMembers!",
       "reward": "15 giros"
     },
     {
-      "code": "1.5KPlayers!&nbsp;",
+      "code": "1.5KPlayers!",
       "reward": "20 giros"
     },
     {
@@ -412,6 +412,32 @@
       "reward": "Eye Reroll"
     },
     {
+      "code": "SORRYFORTHECLOSE",
+      "reward": "50 giros"
+    },
+    {
+      "code": "1KPLAYERS!",
+      "reward": "15 giros"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "DEMONUPDATE1!!&nbsp;",
+      "reward": "Giros"
+    },
+    {
+      "code": "DEMONUPDATE2!!&nbsp;",
+      "reward": "Giros"
+    },
+    {
+      "code": "5KMembers!&nbsp;",
+      "reward": "15 giros"
+    },
+    {
+      "code": "1.5KPlayers!&nbsp;",
+      "reward": "20 giros"
+    },
+    {
       "code": "SORRYFORTHECLOSE&nbsp;",
       "reward": "50 giros"
     },
@@ -420,7 +446,6 @@
       "reward": "15 giros"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Era Of Althea en Roblox",
     "Busca el icono de códigos en el menú",

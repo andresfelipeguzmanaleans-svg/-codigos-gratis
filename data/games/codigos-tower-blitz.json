@@ -8,11 +8,17 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "150k likes",
-      "reward": "Recompensas gratis"
+      "code": "4thanniversaryblitz",
+      "reward": "Skin gratis"
     },
     {
       "code": "100k",
+      "reward": "Green Futuristic skin"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "150k likes",
       "reward": "Recompensas gratis"
     },
     {
@@ -36,7 +42,6 @@
       "reward": "300 tokens"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Tower Blitz en Roblox",
     "Busca el icono de códigos en el menú",

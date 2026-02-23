@@ -8,128 +8,76 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "pizzatime!!",
-      "reward": "Pizza themed objeto"
-    },
-    {
-      "code": "pizzaria",
-      "reward": "Pizza themed objeto"
-    },
-    {
-      "code": "Doodle",
-      "reward": "Pencil"
-    },
-    {
-      "code": "R-A-N-D-O",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "pizzatimepizzaria",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "catnapped",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "firstnaf",
-      "reward": "Freddy objeto"
-    },
-    {
-      "code": "kingofthepirates",
-      "reward": "One Piece themed objeto"
-    },
-    {
-      "code": "steprightup!",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "jumpinjaks",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "boingboing!",
-      "reward": "Random new objeto"
-    },
-    {
-      "code": "funkimunkii",
-      "reward": "New random objeto"
-    },
-    {
-      "code": "fantasticplastic",
-      "reward": "Barbie objeto"
-    },
-    {
       "code": "whonewit?",
-      "reward": "Amanda objeto"
-    },
-    {
-      "code": "stoked",
-      "reward": "Surf objeto"
-    },
-    {
-      "code": "kreekcraft",
-      "reward": "Random objeto"
+      "reward": "VHS Tape"
     },
     {
       "code": "b5nb5n",
-      "reward": "BanBan objeto"
+      "reward": "1x Alien"
+    },
+    {
+      "code": "stoked",
+      "reward": "1x Stack of Surfboards"
     },
     {
       "code": "categg",
-      "reward": "Hello Kitty objeto"
+      "reward": "1x Hello Kitty Doll"
     },
     {
       "code": "doilookpretty",
-      "reward": "Beauty objeto"
+      "reward": "1x Makeup"
     },
     {
       "code": "pingu",
-      "reward": "Random objeto"
+      "reward": "1x Window Frame"
     },
     {
       "code": "miaminights",
-      "reward": "Miami objeto"
+      "reward": "1x Mystery objeto"
     },
     {
       "code": "letsgetweird",
-      "reward": "Weird objeto"
+      "reward": "1x Toy"
     },
     {
       "code": "heartburn",
-      "reward": "Valentine&rsquo;s Day objeto"
+      "reward": "1x Valentine's Present"
     },
     {
       "code": "ewww",
-      "reward": "Valentine&rsquo;s Day objeto"
+      "reward": "1x Valentine's Present"
     },
     {
       "code": "holasoyd0ra",
-      "reward": "Dora The Explorer objeto"
+      "reward": "1x Cake"
     },
     {
       "code": "b4nb4n",
-      "reward": "For a BanBan objeto"
+      "reward": "1x Alien"
+    },
+    {
+      "code": "itsalive!",
+      "reward": "1x Baby Animal"
     },
     {
       "code": "metacarpus",
-      "reward": "Hand objeto"
+      "reward": "1x Zombie Hand"
     },
     {
       "code": "kawa11",
-      "reward": "Kawaii objeto"
-    },
-    {
-      "code": "m3rry",
-      "reward": "Christmas objeto"
+      "reward": "1x Toy"
     },
     {
       "code": "meoooow",
-      "reward": "Random mascota Party objeto"
+      "reward": "1x Toy Cat"
+    },
+    {
+      "code": "m3rry",
+      "reward": "1x Penguin"
     },
     {
       "code": "thursday",
-      "reward": "Wednesday Addams objeto"
+      "reward": "Umbrella"
     },
     {
       "code": "candy",
@@ -137,15 +85,15 @@
     },
     {
       "code": "fifi",
-      "reward": "Fifa objeto"
-    },
-    {
-      "code": "youspinme",
-      "reward": "Flying hat"
+      "reward": "Soccer Ball objeto"
     },
     {
       "code": "yodome",
-      "reward": "Random baby yodo"
+      "reward": "Baby Yoda objeto"
+    },
+    {
+      "code": "youspinme",
+      "reward": "Spinny Hat objeto"
     },
     {
       "code": "aredsword",
@@ -153,7 +101,7 @@
     },
     {
       "code": "daegg",
-      "reward": "Alphabet Egg objeto"
+      "reward": "Egg objeto"
     },
     {
       "code": "halloweenie",
@@ -161,35 +109,35 @@
     },
     {
       "code": "callmemaybe",
-      "reward": "3am objeto"
-    },
-    {
-      "code": "lachancla",
-      "reward": "Slapping sandals objeto"
+      "reward": "Antique Phone"
     },
     {
       "code": "popit1year",
-      "reward": "Birthday objeto"
+      "reward": "Cake objeto"
     },
     {
-      "code": "knockknock",
-      "reward": "DOORS objeto"
+      "code": "knocknock",
+      "reward": "Wardrobe objeto"
     },
     {
       "code": "whaaaaaa",
-      "reward": "Random baby objeto"
+      "reward": "Baby objeto"
     },
     {
       "code": "pepto",
-      "reward": "Pink sauce objeto"
+      "reward": "Pink Sauce objeto"
     },
     {
       "code": "lasagna",
-      "reward": "Random objeto"
+      "reward": "Guinea Pig objeto"
+    },
+    {
+      "code": "m0dn4r",
+      "reward": "Guinea Pig objeto"
     },
     {
       "code": "******",
-      "reward": "Rainbow Friend objeto"
+      "reward": "Alein objeto"
     },
     {
       "code": "throne",
@@ -197,87 +145,59 @@
     },
     {
       "code": "1337",
-      "reward": "Gaming objeto"
-    },
-    {
-      "code": "m0dn4r",
-      "reward": "Random objeto"
-    },
-    {
-      "code": "madregate",
-      "reward": "Stranger Things objeto"
-    },
-    {
-      "code": "Juego",
-      "reward": "Xbox controller"
-    },
-    {
-      "code": "baila",
-      "reward": "Tiktok Phone objeto"
+      "reward": "Filming objeto"
     },
     {
       "code": "fotito",
-      "reward": "Instagram Camera objeto"
+      "reward": "Camera objeto"
     },
     {
-      "code": "p&aacute;jaro",
-      "reward": "Twitter objeto"
-    },
-    {
-      "code": "100k",
-      "reward": "YouTube objeto"
-    },
-    {
-      "code": "gub",
-      "reward": "Bug objeto"
-    },
-    {
-      "code": "lightemup",
-      "reward": "Objeto gratis"
-    },
-    {
-      "code": "wth",
-      "reward": "Monster objeto"
-    },
-    {
-      "code": "pineapple",
-      "reward": "Pineapple objeto"
+      "code": "juego",
+      "reward": "Controller objeto"
     },
     {
       "code": "portal",
       "reward": "Portal objeto"
     },
     {
-      "code": "r41nb0w",
-      "reward": "Rainbow objeto"
-    },
-    {
       "code": "farmer",
-      "reward": "Magic Seed objeto"
-    },
-    {
-      "code": "code",
-      "reward": "Poppy objeto"
-    },
-    {
-      "code": "upupup",
-      "reward": "Ladder objeto"
+      "reward": "Seed objeto"
     },
     {
       "code": "90sec",
-      "reward": "Floppa objeto"
+      "reward": "Objeto"
     },
     {
-      "code": "noclip",
-      "reward": "Backrooms objeto"
+      "code": "code",
+      "reward": "Bot objeto"
     },
     {
-      "code": "trippy",
-      "reward": "Illusion objeto"
+      "code": "upupup",
+      "reward": "Objeto"
+    },
+    {
+      "code": "baila",
+      "reward": "Tix Tox objeto"
+    },
+    {
+      "code": "gub",
+      "reward": "Bug objeto"
+    },
+    {
+      "code": "cute",
+      "reward": "Baby Long Legs objeto"
     },
     {
       "code": "naughtyornice",
-      "reward": "Good or bad Tommeh objeto"
+      "reward": "New objeto"
+    },
+    {
+      "code": "trippy",
+      "reward": "New objeto"
+    },
+    {
+      "code": "noclip",
+      "reward": "Transport monster to take you to The Backrooms game"
     },
     {
       "code": "kitty",
@@ -301,7 +221,7 @@
     },
     {
       "code": "cupid",
-      "reward": "Valentine&rsquo;s Day objeto"
+      "reward": "Valentine’s Day objeto"
     },
     {
       "code": "no",
@@ -312,7 +232,7 @@
       "reward": "Slippy Octopus"
     },
     {
-      "code": "&#38829;&#28846;",
+      "code": "鞭炮",
       "reward": "Firecrackers"
     },
     {
@@ -376,6 +296,106 @@
     {
       "code": "inazuma",
       "reward": "Lightning Katana"
+    },
+    {
+      "code": "pizzatime!!",
+      "reward": "Pizza themed objeto"
+    },
+    {
+      "code": "pizzaria",
+      "reward": "Pizza themed objeto"
+    },
+    {
+      "code": "Doodle",
+      "reward": "Pencil"
+    },
+    {
+      "code": "R-A-N-D-O",
+      "reward": "Random new objeto"
+    },
+    {
+      "code": "pizzatimepizzaria",
+      "reward": "Random new objeto"
+    },
+    {
+      "code": "catnapped",
+      "reward": "Random new objeto"
+    },
+    {
+      "code": "firstnaf",
+      "reward": "Freddy objeto"
+    },
+    {
+      "code": "kingofthepirates",
+      "reward": "One Piece themed objeto"
+    },
+    {
+      "code": "steprightup!",
+      "reward": "Random new objeto"
+    },
+    {
+      "code": "jumpinjaks",
+      "reward": "Random new objeto"
+    },
+    {
+      "code": "boingboing!",
+      "reward": "Random new objeto"
+    },
+    {
+      "code": "funkimunkii",
+      "reward": "New random objeto"
+    },
+    {
+      "code": "fantasticplastic",
+      "reward": "Barbie objeto"
+    },
+    {
+      "code": "kreekcraft",
+      "reward": "Random objeto"
+    },
+    {
+      "code": "lachancla",
+      "reward": "Slapping sandals objeto"
+    },
+    {
+      "code": "knockknock",
+      "reward": "DOORS objeto"
+    },
+    {
+      "code": "madregate",
+      "reward": "Stranger Things objeto"
+    },
+    {
+      "code": "p&aacute;jaro",
+      "reward": "Twitter objeto"
+    },
+    {
+      "code": "100k",
+      "reward": "YouTube objeto"
+    },
+    {
+      "code": "lightemup",
+      "reward": "Objeto gratis"
+    },
+    {
+      "code": "wth",
+      "reward": "Monster objeto"
+    },
+    {
+      "code": "pineapple",
+      "reward": "Pineapple objeto"
+    },
+    {
+      "code": "r41nb0w",
+      "reward": "Rainbow objeto"
+    },
+    {
+      "code": "&#38829;&#28846;",
+      "reward": "Firecrackers"
+    },
+    {
+      "code": "No expired codes yet!",
+      "reward": "Recompensas gratis"
     }
   ],
   "howToRedeem": [

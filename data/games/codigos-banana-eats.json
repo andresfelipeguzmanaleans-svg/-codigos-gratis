@@ -9,7 +9,7 @@
   "activeCodes": [
     {
       "code": "30KSUBSCRIBERS",
-      "reward": "Banana gratis"
+      "reward": "Beacon gratis"
     },
     {
       "code": "NEWPEELS",
@@ -33,11 +33,11 @@
     },
     {
       "code": "500SKINS",
-      "reward": "Banana gratis"
+      "reward": "Big Bucks skin"
     },
     {
       "code": "750MILLION",
-      "reward": "Banana gratis"
+      "reward": "Peel gratis"
     },
     {
       "code": "BANANAISHERE",
@@ -45,11 +45,11 @@
     },
     {
       "code": "NewMapSoon",
-      "reward": "Monedas gratis"
+      "reward": "250 monedas"
     },
     {
       "code": "BEACONS",
-      "reward": "Beacon gratis"
+      "reward": "Banana gratis"
     },
     {
       "code": "YUMMY",
@@ -60,56 +60,88 @@
       "reward": "Beacon gratis"
     },
     {
+      "code": "PRIDE",
+      "reward": "250 monedas"
+    },
+    {
       "code": "KETCHUP",
       "reward": "Beacon gratis"
     },
     {
       "code": "CINCO",
-      "reward": "Monedas gratis"
+      "reward": "200 monedas"
     },
     {
       "code": "FREECOINS",
-      "reward": "Monedas gratis"
+      "reward": "Monedas"
     },
     {
       "code": "HUNT",
       "reward": "Peel gratis"
     },
     {
+      "code": "STORYQUESTS",
+      "reward": "Beacon gratis"
+    },
+    {
+      "code": "RAINBOW",
+      "reward": "Monedas"
+    },
+    {
       "code": "SPRING",
       "reward": "Beacon gratis"
     },
     {
-      "code": "FREEGOLD",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FREEBURRITO",
-      "reward": "Beacon gratis"
-    },
-    {
-      "code": "HEARTS",
-      "reward": "Candy Heart"
-    },
-    {
       "code": "HAPPY2025",
-      "reward": "2025 Partier skin"
+      "reward": "Exclusivo skin"
+    },
+    {
+      "code": "CANNED",
+      "reward": "Banana gratis"
     },
     {
       "code": "THANKS",
-      "reward": "200 monedas"
+      "reward": "Monedas"
     },
     {
-      "code": "THEHAUNT",
-      "reward": "Beacon gratis"
+      "code": "PUMPKINS",
+      "reward": "Monedas"
     },
     {
       "code": "100BEACONS",
-      "reward": "Blue Beacon skin gratis"
+      "reward": "Banana"
     },
     {
       "code": "PACBLOX",
-      "reward": "Fruit Pac Beacon gratis"
+      "reward": "Beacon gratis"
+    },
+    {
+      "code": "HAPPYBIRTHDAY",
+      "reward": "Birthday skins"
+    },
+    {
+      "code": "50KFOLLOWERS",
+      "reward": "Ice Cream skin"
+    },
+    {
+      "code": "SNACK",
+      "reward": "Beacon gratis"
+    },
+    {
+      "code": "RACING",
+      "reward": "Beacon gratis"
+    },
+    {
+      "code": "EATING",
+      "reward": "Accessory gratis"
+    },
+    {
+      "code": "HEARTS",
+      "reward": "Beacon gratis"
+    },
+    {
+      "code": "&gt;:D",
+      "reward": "Banana skin"
     }
   ],
   "expiredCodes": [
@@ -224,6 +256,18 @@
     {
       "code": "FREEBEANS",
       "reward": "Beanana skin"
+    },
+    {
+      "code": "FREEGOLD",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FREEBURRITO",
+      "reward": "Beacon gratis"
+    },
+    {
+      "code": "THEHAUNT",
+      "reward": "Beacon gratis"
     }
   ],
   "howToRedeem": [

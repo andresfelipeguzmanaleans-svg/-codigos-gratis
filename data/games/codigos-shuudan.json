@@ -8,32 +8,64 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "emyiscool!",
+      "reward": "$1 Cash"
+    },
+    {
+      "code": "KokoisthebestMod!",
+      "reward": "5 Skill puntos"
+    },
+    {
+      "code": "We love we live we lie!",
+      "reward": "2 EXP for 1 hora"
+    },
+    {
+      "code": "Yukiontop!",
+      "reward": "5 Personality giros"
+    },
+    {
+      "code": "Bagthenonispecspins!",
+      "reward": "3 Specialties"
+    },
+    {
+      "code": "I just be coolin brah idc bout nun!",
+      "reward": "7k Cash"
+    },
+    {
+      "code": "BalanceIsTheBest!",
+      "reward": "Skills Reset"
+    },
+    {
+      "code": "WAVED PEOPLE STAND UP!",
+      "reward": "50k Cash"
+    },
+    {
       "code": "PINK TAPE!",
-      "reward": "5 SPEC giros + 5K Cash"
+      "reward": "5 Spec giros and 5k Cash"
     },
     {
       "code": "22K LIKES!",
-      "reward": "2 Spec / 10 Personality"
+      "reward": "2 Spec/10 Personality"
     },
     {
       "code": "ON EST ENSEMBLE!",
-      "reward": "SKILL TREE RESET!"
+      "reward": "Skill Tree Reset"
     },
     {
-      "code": "&ldquo;EXP CODE!&rdquo;",
-      "reward": "IF U HAVE 2XP IT GIVES U 10K EXP"
+      "code": "EXP CODE!",
+      "reward": "2x EXP Multiplier"
     },
     {
       "code": "welp it got fixed!",
-      "reward": "10 skill puntos"
+      "reward": "10 Skill puntos"
     },
     {
-      "code": "SpecialityRerolls!",
-      "reward": "5 Personality Reroll"
+      "code": "Seraph's Gift",
+      "reward": "Skill puntos Reset"
     },
     {
       "code": "Skillpoint Reset!",
-      "reward": "15 sp"
+      "reward": "15 Skill puntos"
     },
     {
       "code": "UPDATE 3 PART 1 / 3!",
@@ -45,11 +77,21 @@
     },
     {
       "code": "WE BACK BABY!",
-      "reward": "50+ Hair / Eye giros"
+      "reward": "50 Hair/Eye giros"
     },
     {
       "code": "21K LIKES!",
-      "reward": "5 Specialities + 15 Personality giros"
+      "reward": "5 Specialities and 15 Personality giros"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "&ldquo;EXP CODE!&rdquo;",
+      "reward": "IF U HAVE 2XP IT GIVES U 10K EXP"
+    },
+    {
+      "code": "SpecialityRerolls!",
+      "reward": "5 Personality Reroll"
     },
     {
       "code": "4 More Days!",
@@ -144,7 +186,6 @@
       "reward": "400 Cash"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Shuudan en Roblox",
     "Busca el icono de códigos en el menú",

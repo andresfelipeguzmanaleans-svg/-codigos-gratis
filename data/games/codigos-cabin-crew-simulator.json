@@ -5,31 +5,199 @@
   "description": "Todos los códigos activos para Cabin Crew Simulator en Roblox",
   "metaTitle": "Códigos Cabin Crew Simulator (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Cabin Crew Simulator en Roblox. Consigue Skybux gratis para personalizar tu aerolínea.",
-  "lastUpdated": "2026-02-21",
+  "lastUpdated": "2026-02-23",
   "playerCount": 2308,
   "totalVisits": 371822758,
   "likes": 367146,
   "genre": "Simulation",
   "placeId": 5171347293,
   "activeCodes": [
-    { "code": "concorde", "reward": "4.000 Skybux" },
-    { "code": "frost", "reward": "4.000 Skybux" },
-    { "code": "lounge", "reward": "6.000 Skybux" },
-    { "code": "avro", "reward": "6.000 Skybux" },
-    { "code": "1m", "reward": "5.000 Skybux" },
-    { "code": "dubai", "reward": "5.000 Skybux" },
-    { "code": "amenity", "reward": "5.000 Skybux" },
-    { "code": "easter2025", "reward": "3.000 Skybux" },
-    { "code": "candycane", "reward": "3.300 Skybux" },
-    { "code": "spider", "reward": "2.500 Skybux" },
-    { "code": "dreamliner", "reward": "2.500 Skybux" },
-    { "code": "200m", "reward": "3.000 Skybux" },
-    { "code": "gear", "reward": "2.000 Skybux" },
-    { "code": "myles", "reward": "2.000 Skybux" }
+    {
+      "code": "spider",
+      "reward": "Skybux"
+    },
+    {
+      "code": "dreamliner",
+      "reward": "Skybux"
+    },
+    {
+      "code": "lounge",
+      "reward": "6k Skybux"
+    },
+    {
+      "code": "avro",
+      "reward": "6k Skybux"
+    },
+    {
+      "code": "1m",
+      "reward": "5k Skybux"
+    },
+    {
+      "code": "easter2025",
+      "reward": "3k Skybux"
+    },
+    {
+      "code": "amenity",
+      "reward": "5k Skybux"
+    },
+    {
+      "code": "dubai",
+      "reward": "5k Skybux"
+    },
+    {
+      "code": "candycane",
+      "reward": "1.8k Skybux"
+    },
+    {
+      "code": "trees",
+      "reward": "1.5k Skybux"
+    },
+    {
+      "code": "spooky",
+      "reward": "2k Skybux"
+    },
+    {
+      "code": "london",
+      "reward": "1.5k Skybux"
+    },
+    {
+      "code": "200m",
+      "reward": "2k Skybux"
+    },
+    {
+      "code": "gear",
+      "reward": "1.3k Skybux"
+    },
+    {
+      "code": "ally",
+      "reward": "1.3k Skybux"
+    },
+    {
+      "code": "airport",
+      "reward": "1.3k Skybux"
+    },
+    {
+      "code": "star",
+      "reward": "1.4k Skybux"
+    },
+    {
+      "code": "100m",
+      "reward": "1k Skybux"
+    },
+    {
+      "code": "decoration",
+      "reward": "1.5k Skybux"
+    },
+    {
+      "code": "customize",
+      "reward": "1.5k Skybux"
+    },
+    {
+      "code": "airstairs",
+      "reward": "1.3k Skybux"
+    },
+    {
+      "code": "service",
+      "reward": "1.3k Skybux"
+    },
+    {
+      "code": "galley",
+      "reward": "1.3k Skybux"
+    },
+    {
+      "code": "boba",
+      "reward": "1.3k Skybux"
+    },
+    {
+      "code": "jetway",
+      "reward": "1.3k Skybux"
+    },
+    {
+      "code": "badge",
+      "reward": "1.3k Skybux"
+    }
   ],
   "expiredCodes": [
-    { "code": "launch", "reward": "1.000 Skybux" },
-    { "code": "firstflight", "reward": "Skybux" }
+    {
+      "code": "launch",
+      "reward": "1.000 Skybux"
+    },
+    {
+      "code": "firstflight",
+      "reward": "Skybux"
+    },
+    {
+      "code": "concorde",
+      "reward": "4.000 Skybux"
+    },
+    {
+      "code": "frost",
+      "reward": "4.000 Skybux"
+    },
+    {
+      "code": "myles",
+      "reward": "2.000 Skybux"
+    },
+    {
+      "code": "pilot",
+      "reward": "1.1k Skybux"
+    },
+    {
+      "code": "landing",
+      "reward": "1.1k Skybux"
+    },
+    {
+      "code": "snow",
+      "reward": "1.6k Skybux"
+    },
+    {
+      "code": "captain",
+      "reward": "1.2k Skybux"
+    },
+    {
+      "code": "turbulence",
+      "reward": "1k Skybux"
+    },
+    {
+      "code": "paris",
+      "reward": "2k SkyBux"
+    },
+    {
+      "code": "triple7",
+      "reward": "1.5k SkyBux"
+    },
+    {
+      "code": "evacuate",
+      "reward": "Claim for 1.4k Cash"
+    },
+    {
+      "code": "airliner",
+      "reward": "Claim for 1.4k Cash"
+    },
+    {
+      "code": "cruising",
+      "reward": "Claim for 1k Cash"
+    },
+    {
+      "code": "mission",
+      "reward": "Claim for 1.5k Cash"
+    },
+    {
+      "code": "wheelsup",
+      "reward": "Claim for 2k Cash"
+    },
+    {
+      "code": "flying",
+      "reward": "Claim for 200 Cash"
+    },
+    {
+      "code": "takeoff",
+      "reward": "Claim for 150 Cash"
+    },
+    {
+      "code": "clouds",
+      "reward": "Claim for 100 Cash"
+    }
   ],
   "introText": "Cabin Crew Simulator es un juego de simulación de aerolíneas en Roblox creado por Cruising Studios. Con más de 371 millones de visitas y 367K likes, crea tu propia aerolínea, diseña el interior de tus aviones, sirve a los pasajeros como auxiliar de vuelo y gestiona emergencias a bordo.",
   "whatAreCodes": "Los códigos de Cabin Crew Simulator te dan Skybux, la moneda principal del juego. Con Skybux puedes personalizar tus aviones, comprar comidas y bebidas para los pasajeros, y desbloquear mejoras para tu aerolínea.",

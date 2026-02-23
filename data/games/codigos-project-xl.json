@@ -8,20 +8,48 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "400KVISITS",
-      "reward": "Recompensas gratis"
+      "code": "10kLikes",
+      "reward": "1 hora of 2x Mastery"
     },
     {
-      "code": "1500FAVORITES",
-      "reward": "Recompensas gratis"
+      "code": "SrryForDelays!!",
+      "reward": "Set of Dragonballs"
     },
     {
-      "code": "Loves4Sol",
-      "reward": "Recompensas gratis"
+      "code": "LagFixed",
+      "reward": "500k oro, 2x Mastery for an hora"
     },
     {
-      "code": "300KVISITS",
-      "reward": "Recompensas gratis"
+      "code": "Patches",
+      "reward": "1x Lucky Arrow, 250k oro and 1 hora of doble Mastery"
+    },
+    {
+      "code": "UpdateOne",
+      "reward": "1h of doble Mastery and 1x Lucky Arrow"
+    },
+    {
+      "code": "sorryforshutdown",
+      "reward": "1h of doble Mastery and XP"
+    },
+    {
+      "code": "1mVisits",
+      "reward": "1h of doble Mastery"
+    },
+    {
+      "code": "5kLikes",
+      "reward": "1h of doble Mastery"
+    },
+    {
+      "code": "Thanksfor500likes",
+      "reward": "150k Mastery experiencia and 4h of doble Mastery"
+    },
+    {
+      "code": "ThanksFor100kPlays",
+      "reward": "500k Mastery experiencia"
+    },
+    {
+      "code": "Update1Soon",
+      "reward": "250k oro and 2x Mastery for 1 hora"
     }
   ],
   "expiredCodes": [
@@ -100,6 +128,22 @@
     {
       "code": "Reaiah",
       "reward": "30,000 Mastery experiencia"
+    },
+    {
+      "code": "400KVISITS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "1500FAVORITES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Loves4Sol",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "300KVISITS",
+      "reward": "Recompensas gratis"
     }
   ],
   "howToRedeem": [

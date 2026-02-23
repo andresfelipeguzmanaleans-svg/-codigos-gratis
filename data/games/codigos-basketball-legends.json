@@ -8,100 +8,120 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "HEARTBURST",
-      "reward": "Exclusivo effect"
-    },
-    {
-      "code": "VALENTINES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "JANUARY",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "500KFAVS",
-      "reward": "Recompensas gratis"
+      "reward": "Recompensas"
     },
     {
       "code": "TURKEY25",
-      "reward": "Recompensas gratis"
+      "reward": "Halloween Case"
+    },
+    {
+      "code": "FALLDAY",
+      "reward": "Exclusivo Banner"
+    },
+    {
+      "code": "wow",
+      "reward": "Halloween Case"
     },
     {
       "code": "CLANS",
-      "reward": "1x Halloween Case"
+      "reward": "Halloween Case"
     },
     {
       "code": "DELAYED",
-      "reward": "1x Halloween skin Case"
+      "reward": "Skin Halloween Case"
+    },
+    {
+      "code": "UPCOMING",
+      "reward": "Halloween Case"
     },
     {
       "code": "SUPERSPOOKY",
-      "reward": "1x Halloween Case"
+      "reward": "Halloween Case"
     },
     {
       "code": "SUPERSCARY",
-      "reward": "1x Halloween skin Case"
+      "reward": "Halloween skin Case"
     },
     {
       "code": "JAMALCHOCOLATEPUDDING",
-      "reward": "Recompensas gratis"
+      "reward": "UBV's Effect"
     },
     {
       "code": "JAMALBANANAPUDDING",
-      "reward": "Recompensas gratis"
+      "reward": "Jamal's Duck"
     },
     {
       "code": "banana",
-      "reward": "1x Elite Case"
+      "reward": "1 Elite cofre"
     },
     {
       "code": "MAGICAL",
-      "reward": "1x Elite Case"
+      "reward": "1 Elite cofre"
     },
     {
       "code": "SUMMER25",
-      "reward": "1x Summer25 Effect cofre"
+      "reward": "1 Summer25 Effect cofre"
     },
     {
       "code": "DELAYCASE",
-      "reward": "1x Summer25 Effect cofre"
+      "reward": "1 Summer25 Effect cofre"
     },
     {
       "code": "DELAYSKIN",
-      "reward": "1x Summer25 skin cofre"
-    },
-    {
-      "code": "ANIMEBOSSRAID",
-      "reward": "Recompensas gratis"
+      "reward": "1 Summer25 skin cofre"
     },
     {
       "code": "USA2025",
-      "reward": "10,000 monedas"
+      "reward": "For 10k monedas"
     },
     {
       "code": "CHAMPIONS",
-      "reward": "Recompensas gratis"
+      "reward": "For recompensas gratis"
     },
     {
       "code": "SPACE2",
-      "reward": "1X Space Case #2"
+      "reward": "Space Case #2"
     },
     {
       "code": "ELECTRIC",
-      "reward": "2,000 monedas"
+      "reward": "2k monedas"
+    },
+    {
+      "code": "300KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "AURORA",
+      "reward": "Aurora ball skin gratis"
     },
     {
       "code": "STPATRICKS",
-      "reward": "1x Spring 2025 Case"
+      "reward": "Spring 2025 Case"
     },
     {
       "code": "SPRING2025",
-      "reward": "1x Spring 2025 Case"
+      "reward": "Spring 2025 Case"
+    },
+    {
+      "code": "VALENTINES",
+      "reward": "10k monedas"
+    },
+    {
+      "code": "280KLIKES",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "ANIMECASE2",
       "reward": "1x Anime Case #2"
+    },
+    {
+      "code": "270KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "260KLIKES",
+      "reward": "5k monedas"
     },
     {
       "code": "2025",
@@ -109,43 +129,75 @@
     },
     {
       "code": "TYFOR100K",
-      "reward": "X1 Spring 2024 Case"
+      "reward": "Spring 2024 Case"
     },
     {
       "code": "XMAS24",
-      "reward": "X1 Christmas Case"
+      "reward": "Christmas Case"
     },
     {
       "code": "SANTA24",
-      "reward": "X1 Christmas skin Case"
+      "reward": "Christmas skin Case"
     },
     {
       "code": "FESTIVE24",
       "reward": "Warped Code Effect"
     },
     {
+      "code": "ALMOSTXMAS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "250KLIKES",
+      "reward": "5k monedas"
+    },
+    {
       "code": "THANKSGIVING24",
-      "reward": "2x Halloween 2024 case EFFECT"
+      "reward": "Effect Case"
+    },
+    {
+      "code": "240KLIKES",
+      "reward": "Monedas"
+    },
+    {
+      "code": "230KLIKES",
+      "reward": "5k monedas"
     },
     {
       "code": "220KLIKES",
-      "reward": "Monedas"
+      "reward": "5k monedas"
     },
     {
-      "code": "210KLIKES",
-      "reward": "Monedas"
+      "code": "SPOOKY2",
+      "reward": "Halloween Case"
     },
     {
       "code": "ANIMECASE",
-      "reward": "Monedas"
+      "reward": "Anime Case"
     },
     {
       "code": "200KLIKES",
-      "reward": "Monedas"
+      "reward": "15k monedas"
+    },
+    {
+      "code": "190KLIKES",
+      "reward": "5k monedas"
     },
     {
       "code": "COINBOOST",
-      "reward": "Recompensas gratis"
+      "reward": "Doble moneda Boost for 30 minutos"
+    },
+    {
+      "code": "170KLIKES",
+      "reward": "5k monedas"
+    },
+    {
+      "code": "180KLIKES",
+      "reward": "5k monedas"
+    },
+    {
+      "code": "SUMMER24",
+      "reward": "Summer Case"
     }
   ],
   "expiredCodes": [
@@ -327,6 +379,38 @@
     },
     {
       "code": "SORRY",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HEARTBURST",
+      "reward": "Exclusivo effect"
+    },
+    {
+      "code": "JANUARY",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ANIMEBOSSRAID",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "210KLIKES",
+      "reward": "Monedas"
+    },
+    {
+      "code": "TRIM",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ZEGWASLATE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "110KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SHAMROCKSZN",
       "reward": "Recompensas gratis"
     }
   ],

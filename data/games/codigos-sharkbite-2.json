@@ -5,22 +5,51 @@
   "description": "Todos los códigos activos para SharkBite 2 en Roblox",
   "metaTitle": "Códigos SharkBite 2 (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para SharkBite 2 en Roblox. Consigue Teeth, skins de barco y recompensas gratis.",
-  "lastUpdated": "2026-02-21",
+  "lastUpdated": "2026-02-23",
   "playerCount": 1904,
   "totalVisits": 450871652,
   "likes": 375601,
   "genre": "Survival",
   "placeId": 8908228901,
   "activeCodes": [
-    { "code": "300K", "reward": "Boat Builder Asset" },
-    { "code": "SB2CODES", "reward": "100 Teeth + 1 Sign" },
-    { "code": "TWOYEARS", "reward": "Two Year Anniversary Candle" },
-    { "code": "200K", "reward": "Ducky Boat Hull Skin" }
+    {
+      "code": "300K",
+      "reward": "New Shark Fin for your boat in the Boat Builder"
+    },
+    {
+      "code": "TWOYEARS",
+      "reward": "Billboard Boat"
+    },
+    {
+      "code": "ONEYEAR",
+      "reward": "Exclusivo shark skin"
+    },
+    {
+      "code": "200K",
+      "reward": "New Ducky Boat Hull skin for the Boat Builder"
+    },
+    {
+      "code": "100K",
+      "reward": "Recompensas gratis"
+    }
   ],
   "expiredCodes": [
-    { "code": "100K", "reward": "Recompensas" },
-    { "code": "ONEYEAR", "reward": "Recompensas" },
-    { "code": "FREETEETH", "reward": "Dientes gratis" }
+    {
+      "code": "100K",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "ONEYEAR",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "FREETEETH",
+      "reward": "Dientes gratis"
+    },
+    {
+      "code": "SB2CODES",
+      "reward": "100 Teeth + 1 Sign"
+    }
   ],
   "introText": "SharkBite 2 es un juego de supervivencia en Roblox creado por Abracadabra donde puedes luchar contra un tiburón gigante o jugar como él. Con más de 450 millones de visitas y 375K likes, construye tu barco, equipa armas y sobrevive los ataques del tiburón junto a otros jugadores en alta mar.",
   "whatAreCodes": "Los códigos de SharkBite 2 te dan Teeth (la moneda del juego), assets para el Boat Builder, skins cosméticas para tu barco y objetos decorativos exclusivos como velas de aniversario y señales.",

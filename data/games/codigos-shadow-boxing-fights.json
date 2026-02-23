@@ -8,10 +8,6 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
-      "code": "FollowZenokei!",
-      "reward": "10k Cash"
-    },
-    {
       "code": "JoyBoy!",
       "reward": "3k Cash"
     },
@@ -28,16 +24,12 @@
       "reward": "1,000 Cash"
     },
     {
-      "code": "Hinokami!",
-      "reward": "25 giros"
-    },
-    {
       "code": "NewMap!",
-      "reward": "Recompensas gratis"
+      "reward": "600 Cash"
     },
     {
       "code": "HinokamiSoon!",
-      "reward": "Recompensas gratis"
+      "reward": "3 giros"
     },
     {
       "code": "givemecash!",
@@ -48,15 +40,33 @@
       "reward": "3 giros"
     },
     {
-      "code": "sorryShutdown!",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "MoreCash!",
-      "reward": "Recompensas gratis"
+      "reward": "200 Cash"
     },
     {
       "code": "MoreSpins!",
+      "reward": "Giros"
+    },
+    {
+      "code": "BigUpdateTmrww!",
+      "reward": "200 Cash"
+    },
+    {
+      "code": "Update1!",
+      "reward": "150 Cash"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "FollowZenokei!",
+      "reward": "10k Cash"
+    },
+    {
+      "code": "Hinokami!",
+      "reward": "25 giros"
+    },
+    {
+      "code": "sorryShutdown!",
       "reward": "Recompensas gratis"
     },
     {
@@ -64,11 +74,10 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "Update1!",
-      "reward": "150 Cash"
+      "code": "There are no expired codes for Shadow Boxing Fights",
+      "reward": "Recompensas gratis"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Shadow Boxing Fights en Roblox",
     "Busca el icono de códigos en el menú",

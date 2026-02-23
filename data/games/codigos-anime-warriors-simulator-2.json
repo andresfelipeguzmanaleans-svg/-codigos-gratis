@@ -9,12 +9,54 @@
   "activeCodes": [
     {
       "code": "newworld",
-      "reward": "Recompensas gratis"
+      "reward": "Accessory cofre, 1 Trait Swap Token, 1 Clone Token, a 40-minuto Godly Boost, and more"
     },
     {
       "code": "sorryforupdatedelay",
-      "reward": "Recompensas gratis"
+      "reward": "Rerolls and Boosts"
     },
+    {
+      "code": "comeupsoon",
+      "reward": "Rerolls and Boosts"
+    },
+    {
+      "code": "slimecode",
+      "reward": "15 Trait Reroll tokens, a 40-minuto Godly Boost, 3x 20-minuto Hatch velocidad Boosts, and 3 Evolution Stones"
+    },
+    {
+      "code": "yaycode",
+      "reward": "4 Battle tickets, 30 minutos of 2x Drop Boost, a 20-minuto Godly Boost, and 5x 20-minuto Hatch velocidad Boost"
+    },
+    {
+      "code": "almosthere",
+      "reward": "20 Trait Reroll tokens, 3 Evolution Stones, 5 +20% Hatch velocidad Boost, and a 40-minuto Godly Boost"
+    },
+    {
+      "code": "sevendeadlyupdate",
+      "reward": "10 Trait Reroll tokens, 3 Battle tickets, and 2 20-minuto Godly Boosts"
+    },
+    {
+      "code": "enjoychainsaw",
+      "reward": "15 Trait Reroll tokens, 3 Battle tickets, and a 20-minuto Godly Boost"
+    },
+    {
+      "code": "chainsawsoon",
+      "reward": "15 Trait Reroll tokens, 3 Evolution Stones, and a 40-minuto Godly Boost"
+    },
+    {
+      "code": "updaterelease",
+      "reward": "5 Trait Reroll tokens, 2 Battle tickets, and a 20-minuto Godly Boost"
+    },
+    {
+      "code": "SamuraiCapital",
+      "reward": "5 Trait Reroll tokens, a 10-minuto 2x suerte Boost, a 10-minuto 2x daño Boost, and 2 Battle tickets"
+    },
+    {
+      "code": "SummerIsland",
+      "reward": "200 Yen and a 10-minuto 2x Yen Boost"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "100klikesomg",
       "reward": "Recompensas gratis"
@@ -24,35 +66,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "ComeUpSoon",
-      "reward": "Boosts and more gratis"
-    },
-    {
       "code": "BlastOff2023",
-      "reward": "Boosts and more gratis"
-    },
-    {
-      "code": "slimecode",
-      "reward": "Boosts and more gratis"
-    },
-    {
-      "code": "yaycode",
-      "reward": "Boosts and more gratis"
-    },
-    {
-      "code": "sevendeadlyupdate",
-      "reward": "Boosts and more gratis"
-    },
-    {
-      "code": "enjoychainsaw",
-      "reward": "Boosts and more gratis"
-    },
-    {
-      "code": "chainsawsoon",
-      "reward": "Boosts and more gratis"
-    },
-    {
-      "code": "updaterelease",
       "reward": "Boosts and more gratis"
     },
     {
@@ -68,19 +82,11 @@
       "reward": "Boosts and more gratis"
     },
     {
-      "code": "SamuraiCapital",
-      "reward": "Boosts and more gratis"
-    },
-    {
       "code": "BoosterFixes",
       "reward": "Boosts and more gratis"
     },
     {
       "code": "HappySummer",
-      "reward": "Boosts and more gratis"
-    },
-    {
-      "code": "SummerIsland",
       "reward": "Boosts and more gratis"
     },
     {
@@ -168,7 +174,6 @@
       "reward": "Boosts gratis"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Anime Warriors Simulator 2 en Roblox",
     "Busca el icono de códigos en el menú",

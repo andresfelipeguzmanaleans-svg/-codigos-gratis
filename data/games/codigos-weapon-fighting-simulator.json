@@ -8,6 +8,556 @@
   "lastUpdated": "2026-02-23",
   "activeCodes": [
     {
+      "code": "gourd",
+      "reward": "3k limitado tokens"
+    },
+    {
+      "code": "carrot",
+      "reward": "1 Lucky Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "peach",
+      "reward": "Limitado tokens"
+    },
+    {
+      "code": "level",
+      "reward": "1 Lucky Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "mogu",
+      "reward": "1 Spell Drop Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "jian",
+      "reward": "Qi Boost and Spirit Stone Boost"
+    },
+    {
+      "code": "nezha",
+      "reward": "Qi Boost and Spirit Stone Boost"
+    },
+    {
+      "code": "nni",
+      "reward": "1k limitado tokens"
+    },
+    {
+      "code": "flame",
+      "reward": "1 Lucky Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "gear",
+      "reward": "1 Lucky Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "newyear",
+      "reward": "1 Qi Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "sleigh",
+      "reward": "1 Lucky Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "pumpkin",
+      "reward": "1 Spell Drop Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "lab",
+      "reward": "1 Spell Drop Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "slime",
+      "reward": "1 Lucky Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "underground",
+      "reward": "1 Qi Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "chain",
+      "reward": "1 Lucky Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "wukong",
+      "reward": "1 Qi Boost and 1 DMG Boost"
+    },
+    {
+      "code": "clow",
+      "reward": "1 Lucky Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "candle",
+      "reward": "1 Qi Boost and 1 DMG Boost"
+    },
+    {
+      "code": "super",
+      "reward": "100k Qi, 1 Multi Open Boost, 1 Super Lucky Boost, and 1 Super Spell Drop Boost"
+    },
+    {
+      "code": "meteor",
+      "reward": "1 Qi Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "boat",
+      "reward": "1 Lucky Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "aura",
+      "reward": "1 Qi Boost and 1 DMG Boost"
+    },
+    {
+      "code": "lava",
+      "reward": "1 Spell Drop Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "mountain",
+      "reward": "1 Spell Drop Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "returner",
+      "reward": "1 Qi Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "rainbow",
+      "reward": "1 Qi Boost and 1 DMG Boost"
+    },
+    {
+      "code": "like501k",
+      "reward": "1 Qi Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "kk",
+      "reward": "1 Qi Boost and 1 DMG Boost"
+    },
+    {
+      "code": "easter",
+      "reward": "1 Spell Drop Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "sweep",
+      "reward": "1 Qi Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "bay",
+      "reward": "1 Spell Drop Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "stormwolf",
+      "reward": "Qi, 1 Lucky Boost and 1 Super Lucky Boost gratis"
+    },
+    {
+      "code": "anniv",
+      "reward": "1 Lucky Boost and 1 Super Lucky Boost"
+    },
+    {
+      "code": "sea",
+      "reward": "1 Qi Boost and 1 DMG Boost"
+    },
+    {
+      "code": "wfs2nd",
+      "reward": "1K limitado Token, 2 Multi Open Boost, 2 Super Lucky Boost, 2 Super DMG Boost, 2 Super Stone Boost, 2 Super Qi Boost, 2 Super Spell Drop Boost"
+    },
+    {
+      "code": "swordfish",
+      "reward": "100k Qi, 1 Multi Open Boost, 1 Super Lucky Boost, 1 Super Spell Drop Boost"
+    },
+    {
+      "code": "hacker",
+      "reward": "1 Spell Drop Boost and 1 Spirit stone Boost"
+    },
+    {
+      "code": "ski",
+      "reward": "1 Qi Boost and 1 Spirit Stone Boost"
+    },
+    {
+      "code": "newgears",
+      "reward": "1 Lucky Boost and 1 Spirit stone Boost"
+    },
+    {
+      "code": "victory",
+      "reward": "1 Qi Boost and 1 DMG Boost"
+    },
+    {
+      "code": "cool",
+      "reward": "1 Qi Boost, 1 Spirit stone Boost, 1 Spell Drop Boost, 1 Lucky Boost, 100 Banshie tickets"
+    },
+    {
+      "code": "street",
+      "reward": "This code for 1 Qi Boost, 1 Spirit Stone Boost"
+    },
+    {
+      "code": "latte",
+      "reward": "This code for 100 QI and 3 Boosts"
+    },
+    {
+      "code": "halloween",
+      "reward": "This code for 100 Pumpkin candy, 2 Halloween boss llaves, 100 limitado tokens"
+    },
+    {
+      "code": "valley",
+      "reward": "This code for 1 Qi Boost, 1 DMG Boost"
+    },
+    {
+      "code": "weaponfighting",
+      "reward": "This code for 1 DMG Boost"
+    },
+    {
+      "code": "welcome",
+      "reward": "This code for 1 Spirit Stone Boost"
+    },
+    {
+      "code": "goodluck",
+      "reward": "This code for 1 Lucky Boost"
+    },
+    {
+      "code": "ghost",
+      "reward": "This code for Spell Drop Boost and Spirit Stone Boost"
+    },
+    {
+      "code": "spellset",
+      "reward": "This code for Spell Drop Boost and Spirit Stone Boost"
+    },
+    {
+      "code": "b(and)ridge",
+      "reward": "This code for several in-game Boosts"
+    },
+    {
+      "code": "lightning",
+      "reward": "This code for several in-game Boosts"
+    },
+    {
+      "code": "moon",
+      "reward": "This code for 1x Qi Boost and 1x Spirit Stone Boost"
+    },
+    {
+      "code": "monkeyking",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "flying",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "qixi",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "freeugc",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "sharkie",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "jet",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "tv",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "qinglong",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "jack",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "ugc",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "Skibi",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "scorpion",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "mechwheel",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "transformers",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "ring",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "carnation",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "holo",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "mayday",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "gearpacks",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "map35",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "ascend",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "map34",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "necklace",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "spell",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "map33",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "fastmode",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "arena",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "map32",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "reforge",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "geartrading",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "like375",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "map31",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "oneyear",
+      "reward": "This code for All Boosts"
+    },
+    {
+      "code": "map30",
+      "reward": "This code for 20 minutos of x1.5 DMG and x2 Qi"
+    },
+    {
+      "code": "xmas",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "map29",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "sonic",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "clever",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "serverboss2",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "map27",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "serverboss",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "map26",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "candy3",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "candy2",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "candy",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "map25",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "newpet",
+      "reward": "New mascota Egg"
+    },
+    {
+      "code": "like350",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "map24",
+      "reward": "30 minutos All Boosts"
+    },
+    {
+      "code": "town",
+      "reward": "1 hora All Boosts"
+    },
+    {
+      "code": "map23",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "hardtrail",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "map22",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "visits250m",
+      "reward": "All Boosts"
+    },
+    {
+      "code": "newbuff",
+      "reward": "Boss llave and Boosts"
+    },
+    {
+      "code": "map21",
+      "reward": "Qi Boost and several other Boosts"
+    },
+    {
+      "code": "l325k",
+      "reward": "Suerte Boost"
+    },
+    {
+      "code": "popsicle",
+      "reward": "Daño Boost"
+    },
+    {
+      "code": "map20",
+      "reward": "Boots"
+    },
+    {
+      "code": "timetrial",
+      "reward": "Boosts"
+    },
+    {
+      "code": "map19",
+      "reward": "Boosts"
+    },
+    {
+      "code": "skin",
+      "reward": "Boosts"
+    },
+    {
+      "code": "lk300k",
+      "reward": "Boosts"
+    },
+    {
+      "code": "map18",
+      "reward": "Boosts"
+    },
+    {
+      "code": "batoidea",
+      "reward": "Boosts"
+    },
+    {
+      "code": "map17",
+      "reward": "Boosts"
+    },
+    {
+      "code": "likes275k",
+      "reward": "Boosts"
+    },
+    {
+      "code": "fighting",
+      "reward": "Boosts"
+    },
+    {
+      "code": "RAMPHobbies",
+      "reward": "Boosts"
+    },
+    {
+      "code": "Worrybear",
+      "reward": "Boosts"
+    },
+    {
+      "code": "Sub2RoboSlothGaming",
+      "reward": "Boosts"
+    },
+    {
+      "code": "Carbon",
+      "reward": "Boosts"
+    },
+    {
+      "code": "sisterguard",
+      "reward": "Boosts"
+    },
+    {
+      "code": "Skull",
+      "reward": "Boosts"
+    },
+    {
+      "code": "funrix",
+      "reward": "Boosts"
+    },
+    {
+      "code": "Kingkade",
+      "reward": "Boosts"
+    },
+    {
+      "code": "CodeNex",
+      "reward": "Boosts"
+    },
+    {
+      "code": "JazonGaming",
+      "reward": "Boosts"
+    },
+    {
+      "code": "WFS",
+      "reward": "Boosts"
+    },
+    {
+      "code": "hardmode",
+      "reward": "Boosts"
+    },
+    {
+      "code": "defense",
+      "reward": "2x Spirit and 2x Spell Drop Boost"
+    },
+    {
+      "code": "happyday",
+      "reward": "1x Qi Boost"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "ts",
       "reward": "Recompensas gratis"
     },
@@ -29,10 +579,6 @@
     },
     {
       "code": "bell",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ring",
       "reward": "Recompensas gratis"
     },
     {
@@ -136,10 +682,6 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "carrot",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "mirror",
       "reward": "Recompensas gratis"
     },
@@ -156,31 +698,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "peach",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "easter",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "theme",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "level",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "mogu",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "jian",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "nezha",
       "reward": "Recompensas gratis"
     },
     {
@@ -196,15 +714,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "flame",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "ricecake",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "gear",
       "reward": "Recompensas gratis"
     },
     {
@@ -213,14 +723,6 @@
     },
     {
       "code": "squid",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "newyear",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "sleigh",
       "reward": "Recompensas gratis"
     },
     {
@@ -248,31 +750,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "pumpkin",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "lab",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "robin",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "slime",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "underground",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "chain",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "wukong",
       "reward": "Recompensas gratis"
     },
     {
@@ -296,19 +774,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "clow",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "duc(&amp;)k",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "candle",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "super",
       "reward": "Recompensas gratis"
     },
     {
@@ -320,15 +786,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "meteor",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "soon",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "boat",
       "reward": "Recompensas gratis"
     },
     {
@@ -336,31 +794,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "aura",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "lava",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "mountain",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "returner",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "jungle",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "rainbow",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "kk",
       "reward": "Recompensas gratis"
     },
     {
@@ -368,15 +802,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "like501k",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "west",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "sweep",
       "reward": "Recompensas gratis"
     },
     {
@@ -388,10 +814,6 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "bay",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "firecracker",
       "reward": "Recompensas gratis"
     },
@@ -400,31 +822,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "wfs2nd",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "anniv",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "sea",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "ski",
-      "reward": "Boosts gratis"
-    },
-    {
       "code": "merryxmas",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "newgears",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "necklace",
       "reward": "Boosts gratis"
     },
     {
@@ -432,75 +830,7 @@
       "reward": "Boosts gratis"
     },
     {
-      "code": "street",
-      "reward": "Boosts gratis"
-    },
-    {
       "code": "marigold",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "halloween",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "valley",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "jet",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "tv",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "qinglong",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "jack",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "Skibi",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "scorpion",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "mechwheel",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "transformers",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "carnation",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "holo",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "mayday",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "map35",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "ascend",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "map34",
       "reward": "Boosts gratis"
     },
     {
@@ -508,164 +838,8 @@
       "reward": "Boosts gratis"
     },
     {
-      "code": "spell",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "map33",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "fastmode",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "arena",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "map32",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "reforge",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "like375",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "map31",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "oneyear",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "map30",
-      "reward": "All Boosts"
-    },
-    {
-      "code": "xmas",
-      "reward": "All Boosts"
-    },
-    {
-      "code": "map29",
-      "reward": "All Boosts"
-    },
-    {
-      "code": "sonic",
-      "reward": "All Boosts"
-    },
-    {
-      "code": "clever",
-      "reward": "All Boosts"
-    },
-    {
       "code": "map28",
       "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "serverboss2",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "map27",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "serverboss",
-      "reward": "All Boosts"
-    },
-    {
-      "code": "map26",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "candy2",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "candy3",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "candy",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "map25",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "like350",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "map23",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "hardtrail",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "visits250m",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "newbuff",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "l325k",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "popsicle",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "map20",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "timetrial",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "map19",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "lk300k",
-      "reward": "Powerful Boosts"
-    },
-    {
-      "code": "happyday",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "map18",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "batoidea",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "likes275k",
-      "reward": "Boosts & recompensas gratis"
-    },
-    {
-      "code": "map17",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "fighting",
-      "reward": "Boosts gratis"
     },
     {
       "code": "map16",
@@ -688,50 +862,6 @@
       "reward": "Boosts gratis"
     },
     {
-      "code": "RAMPHobbies",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "Worrybear",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "Sub2RoboSlothGaming",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "Carbon",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "sisterguard",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "Skull",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "funrix",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "Kingkade",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "CodeNex",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "JazonGaming",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "WFS",
-      "reward": "Boosts gratis"
-    },
-    {
       "code": "spellroll",
       "reward": "Boosts gratis"
     },
@@ -744,10 +874,6 @@
       "reward": "Boosts gratis"
     },
     {
-      "code": "hardmode",
-      "reward": "Boosts gratis"
-    },
-    {
       "code": "map12",
       "reward": "Boosts gratis"
     },
@@ -757,10 +883,6 @@
     },
     {
       "code": "compensation",
-      "reward": "Boosts gratis"
-    },
-    {
-      "code": "defense",
       "reward": "Boosts gratis"
     },
     {
@@ -860,19 +982,14 @@
       "reward": "Lucky Boost"
     },
     {
-      "code": "welcome",
-      "reward": "Spirit Stone Boost"
+      "code": "Likes100K",
+      "reward": "20 minuto 2x Qi Boost, 20 minuto 2x Spirit Stone Boost"
     },
     {
-      "code": "weaponfighting",
-      "reward": "Daño Boost"
-    },
-    {
-      "code": "goodluck",
-      "reward": "Lucky Boost"
+      "code": "likes5k",
+      "reward": "Boost"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Weapon Fighting Simulator en Roblox",
     "Busca el icono de códigos en el menú",
