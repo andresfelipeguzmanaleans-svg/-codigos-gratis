@@ -16,6 +16,8 @@ interface GameData {
   activeCodes: { code: string; reward: string }[];
   expiredCodes: { code: string; reward: string }[];
   howToRedeem: string[];
+  noCodeSystem?: boolean;
+  noCodeNote?: string;
   introText?: string;
   whatAreCodes?: string;
   howToGetCodes?: string;
@@ -153,9 +155,13 @@ const faqSchema = {
           <h1 class="hero__title">{game.name}</h1>
           <p class="hero__desc">{game.description}</p>
           <div class="hero__badges">
-            <a href="#codigos" class="badge badge--green badge--link">
-              {game.activeCodes.length} código{game.activeCodes.length !== 1 && 's'} activo{game.activeCodes.length !== 1 && 's'} <span class="badge__arrow">↓</span>
-            </a>
+            {game.noCodeSystem ? (
+              <span class="badge badge--dim">Sin sistema de códigos</span>
+            ) : (
+              <a href="#codigos" class="badge badge--green badge--link">
+                {game.activeCodes.length} código{game.activeCodes.length !== 1 && 's'} activo{game.activeCodes.length !== 1 && 's'} <span class="badge__arrow">↓</span>
+              </a>
+            )}
             <span class="badge badge--yellow">
               Actualizado {dateLabel}
             </span>
@@ -191,6 +197,16 @@ const faqSchema = {
       {game.introText && (
         <section class="section">
           <p class="intro-text">{game.introText}</p>
+        </section>
+      )}
+
+      <!-- Aviso: sin sistema de códigos -->
+      {game.noCodeSystem && game.noCodeNote && (
+        <section class="section">
+          <div class="no-codes-notice">
+            <span class="no-codes-notice__icon">ℹ️</span>
+            <p class="no-codes-notice__text">{game.noCodeNote}</p>
+          </div>
         </section>
       )}
 
@@ -475,6 +491,34 @@ const faqSchema = {
   .badge--yellow {
     color: var(--accent-warn);
     background: rgba(255, 209, 102, 0.1);
+  }
+
+  .badge--dim {
+    color: var(--text-dim);
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+  /* ---- No codes notice ---- */
+  .no-codes-notice {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1rem 1.25rem;
+    background: rgba(255, 209, 102, 0.08);
+    border: 1px solid rgba(255, 209, 102, 0.2);
+    border-radius: 12px;
+  }
+
+  .no-codes-notice__icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    line-height: 1.5;
+  }
+
+  .no-codes-notice__text {
+    color: var(--text);
+    font-size: 0.95rem;
+    line-height: 1.6;
   }
 
   /* ---- Stats ---- */
