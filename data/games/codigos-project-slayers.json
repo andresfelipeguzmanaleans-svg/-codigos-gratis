@@ -5,19 +5,443 @@
   "description": "Todos los códigos activos para Project Slayers en Roblox",
   "metaTitle": "Códigos Project Slayers (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Project Slayers en Roblox. Consigue spins y recompensas gratis.",
-  "lastUpdated": "2026-02-21",
+  "lastUpdated": "2026-02-23",
   "playerCount": 488,
   "totalVisits": 669656015,
   "likes": 759475,
   "genre": "RPG",
   "placeId": 5956785391,
-  "activeCodes": [],
+  "activeCodes": [
+    {
+      "code": "NewYear2024Spins",
+      "reward": "75 clan, 25 Daily, and 25 Art giro"
+    },
+    {
+      "code": "NewYear2024Breathing",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "NewYear2024Race",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "Christmas2023Spins",
+      "reward": "75 clan, 25 Daily, and 25 Art giro"
+    },
+    {
+      "code": "Christmas2023Breathing",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "Christmas2023Race",
+      "reward": "Race Reset"
+    }
+  ],
   "expiredCodes": [
-    { "code": "Slayersmassiveupdate!", "reward": "Spins gratis" },
-    { "code": "Projectslayers300k!", "reward": "Spins por hito" },
-    { "code": "SubToRazorfish", "reward": "Spins gratis" },
-    { "code": "SubToCyber", "reward": "Spins gratis" },
-    { "code": "100kactivePS!", "reward": "Spins por hito" }
+    {
+      "code": "Slayersmassiveupdate!",
+      "reward": "Spins gratis"
+    },
+    {
+      "code": "Projectslayers300k!",
+      "reward": "Spins por hito"
+    },
+    {
+      "code": "SubToRazorfish",
+      "reward": "Spins gratis"
+    },
+    {
+      "code": "SubToCyber",
+      "reward": "Spins gratis"
+    },
+    {
+      "code": "100kactivePS!",
+      "reward": "Spins por hito"
+    },
+    {
+      "code": "obishowcase",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "stone_breathing_spins",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "stone_breathing_race_reset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "stone_breathing_breathing_reset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "1millfavs",
+      "reward": "100 giros, 30 BDA giros"
+    },
+    {
+      "code": "1millfavsbreathreset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "1millfavsracereset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "ThxFor400MVisits",
+      "reward": "35 Clan giros, 5 Art giros, 1 Daily giros"
+    },
+    {
+      "code": "ThxFor650KVotes",
+      "reward": "35 Clan giros, 5 Art giros, 1 Daily giro"
+    },
+    {
+      "code": "Update309ArtSpins",
+      "reward": "25 Art giros"
+    },
+    {
+      "code": "Update309RaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "Update309BreathingReset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "ThanksFor350MVisits2",
+      "reward": "35 Clan giros, 5 Art giros, 1 Daily giro"
+    },
+    {
+      "code": "ThanksFor350MVisits",
+      "reward": "25 Clan giros, 5 Art giros, 1 Daily giro"
+    },
+    {
+      "code": "ThanksForLikes600K2",
+      "reward": "15 clan giros, 5 art giros, 1 daily giro"
+    },
+    {
+      "code": "ThanksForLikes600K",
+      "reward": "10 clan giros, 5 art giros, 1 daily giro"
+    },
+    {
+      "code": "Upd295MiniCode",
+      "reward": "25 clan giros, 5 art giros"
+    },
+    {
+      "code": "NewAntiExploit",
+      "reward": "25 clan giros, 5 art giros, 1 daily giro"
+    },
+    {
+      "code": "Thx4300MNOuwohanaIsBack",
+      "reward": "75 Clan giros, 15 Art giros, 5 daily giros"
+    },
+    {
+      "code": "Thx4300MNOuwohanaIsBackBreathReset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "Thx4300MNOuwohanaIsBackRaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "SorryForIssuesToday",
+      "reward": "25 Clan giros, 9 Art giros, 1 Daily giro"
+    },
+    {
+      "code": "Miniupdate1.5",
+      "reward": "35 clan giros"
+    },
+    {
+      "code": "!ThanksFor250MVisits",
+      "reward": "50 Clan giros, 5 Demon giros, Daily giros"
+    },
+    {
+      "code": "!500kLikeCode!",
+      "reward": "35 Clan giros, 10 Demon giros, 2 Daily giros"
+    },
+    {
+      "code": "Update1.5Spins",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "Update1.5BreathReset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "Update1.5RaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "SorryForDataIssues",
+      "reward": "75 giros"
+    },
+    {
+      "code": "H@pPY3AsTeR",
+      "reward": "35 Clan giros 15 Demon 2 Daily"
+    },
+    {
+      "code": "3AsTeRRaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "EastaBreathingR3S3T",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "Doma!WarFans",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SorryForDelay!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "New500kLikesCode!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ThanksFor200milVisitsRaceReset!",
+      "reward": "RACE RESET"
+    },
+    {
+      "code": "ThanksFor200MilVisitsBreathingReset",
+      "reward": "BREATHING RESET"
+    },
+    {
+      "code": "ThanksFor500kVotes",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ThanksFor200milVisitsRace",
+      "reward": "Race reset"
+    },
+    {
+      "code": "ThanksFor200MilVisitsBreathing",
+      "reward": "Breathing reset"
+    },
+    {
+      "code": "Roblox@ItAgain",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Roblox@ItAgainRaceReset",
+      "reward": "Race reset"
+    },
+    {
+      "code": "Roblox@ItAgainBreathingReset",
+      "reward": "Breathing reset"
+    },
+    {
+      "code": "ProjectShutdown",
+      "reward": "Huge recompensas"
+    },
+    {
+      "code": "ProjectShutdownRace",
+      "reward": "Race reset"
+    },
+    {
+      "code": "ProjectShutdownBreathing",
+      "reward": "Breathing reset"
+    },
+    {
+      "code": "450Kupv",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "450KupvRaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "450KupvBreathingReset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "HappyNewYears!",
+      "reward": "50 Clan giros, 10 Demon art giros, 5 Daily giro"
+    },
+    {
+      "code": "HappyUpdateYears!",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "2023BreathingReset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "MerryChristmas2022",
+      "reward": "50 Clan giros & 10 art giros"
+    },
+    {
+      "code": "MerryChristmas2022RaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "MerryChristmas2022BreathingReset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "IncreasedDropsBreathReset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "IncreasedDropsRaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "MUGENTRAINFINALLY",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "AkazagoBRR",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "Upd@te1B1gCodE",
+      "reward": "18 Clan giros, 8 Demon art giros, 3 Daily giros"
+    },
+    {
+      "code": "MistBreathing!OMG!",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "!UpdAtEsO0n!",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "SwShowcase",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "Sh0wC4s3beast",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "400Klikes",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "400Klikesracereset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "400Klikesbreathingreset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "Miniupdate3",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "MiniUpdate3racereset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "Miniupdate3breathingreset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "FlAm3!Shawcas31",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "1o0millvisits-_-",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "1o0millvisits-_-racereset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "1o0millvisits-_-breathingreset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "miniupd2",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "miniupd2breathreset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "miniupd2racereset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "twittaspins",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "sCyth3Showcase!",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "350Kupvotes!",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "350Kupvotes!Breathing",
+      "reward": "Reset Breathing"
+    },
+    {
+      "code": "lastcode?lol",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "anotherdayanothershutdown",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "300klikes!",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "shutdownnumb2",
+      "reward": "Clan/Demon Art giros & Daily giro gratis"
+    },
+    {
+      "code": "shutdown!",
+      "reward": "35x Clan giros, 15x Demon Art giros, 1x Daily giros"
+    },
+    {
+      "code": "miniupdate",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "miniupdatedaily",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "soryagainguys:V",
+      "reward": "75 Clan giros"
+    },
+    {
+      "code": "200K+upvotestysm",
+      "reward": "1000 exp, 50 clan giros, 30 demon art giros"
+    },
+    {
+      "code": "sorryforanothershutdownlol",
+      "reward": "40 giros"
+    },
+    {
+      "code": "100K+likesiglol",
+      "reward": "2000 exp, 75 clan giros, and 35 demon art giros"
+    },
+    {
+      "code": "werebackup",
+      "reward": "50 clan giros, 20 demon art giros, and 2000 exp"
+    },
+    {
+      "code": "gettingthere!",
+      "reward": "25 Clan giros"
+    },
+    {
+      "code": "sorryforshutdowns!",
+      "reward": "25 Clan giros and 10 Demon Art giros"
+    },
+    {
+      "code": "FINALLYRELEASETIME!",
+      "reward": "300 Wen, 120 Exp, and 15 Clan giros"
+    }
   ],
   "introText": "Project Slayers es un RPG de mundo abierto en Roblox inspirado en Demon Slayer, creado por el grupo Project Slayers con más de 669 millones de visitas y 759K likes. Exploras desde pequeños pueblos hasta ciudades y bosques tenebrosos, eligiendo entre ser un cazador de demonios o unirte al lado oscuro. El combate incluye combos aéreos y habilidades especiales.",
   "whatAreCodes": "Los códigos de Project Slayers te dan Spins gratuitos para rerollear tu raza, estilo de respiración y Blood Demon Art. Estos spins son muy valiosos ya que conseguir la habilidad perfecta puede cambiar completamente tu experiencia de juego.",
