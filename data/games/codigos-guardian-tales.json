@@ -5,11 +5,34 @@
   "description": "Todos los códigos activos para Guardian Tales",
   "metaTitle": "Códigos Guardian Tales (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Guardian Tales. Consigue gemas, stamina y recompensas gratis.",
-  "lastUpdated": "2026-02-21",
-  "activeCodes": [],
+  "lastUpdated": "2026-02-23",
+  "activeCodes": [
+    {
+      "code": "blueandshiny",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "rollingstones",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "niceaim",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "mysteriousloot",
+      "reward": "Recompensas gratis"
+    }
+  ],
   "expiredCodes": [
-    { "code": "GT2024THANKS", "reward": "Gemas y stamina" },
-    { "code": "HAPPYNEWYEAR2025", "reward": "Gemas gratis" }
+    {
+      "code": "GT2024THANKS",
+      "reward": "Gemas y stamina"
+    },
+    {
+      "code": "HAPPYNEWYEAR2025",
+      "reward": "Gemas gratis"
+    }
   ],
   "introText": "Guardian Tales es un action RPG desarrollado por Kakao Games disponible en iOS y Android. Con un estilo pixel art encantador, exploras mazmorras llenas de puzzles, combates en tiempo real y una historia principal con humor y referencias a la cultura pop. El juego incluye modos PvP, Guild Raids y eventos de temporada.",
   "whatAreCodes": "Los códigos de Guardian Tales te dan gemas gratuitas (la moneda premium para invocar héroes), stamina para seguir jugando sin esperas y materiales de mejora. Los códigos son temporales y suelen expirar en pocos días tras su publicación.",
