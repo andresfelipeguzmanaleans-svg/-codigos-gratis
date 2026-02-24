@@ -94,6 +94,8 @@ const now = new Date();
 const mesAnio = `${mesesES[now.getMonth()]} ${now.getFullYear()}`;
 const isRoblox = !!(game.placeId);
 const robloxLabel = isRoblox ? ' Roblox' : '';
+const displayName = game.name.startsWith('Códigos') ? game.name : `Códigos ${game.name}`;
+const imgAlt = game.name.startsWith('Códigos') ? `${game.name} Roblox` : `Códigos ${game.name} Roblox`;
 const activeCount = game.activeCodes.length;
 
 const dynamicTitle = `Códigos ${game.name}${robloxLabel} (${mesAnio}) — Códigos Gratis`;
@@ -101,44 +103,40 @@ const dynamicDescription = activeCount > 0
   ? `Códigos actualizados de ${game.name}${robloxLabel} para ${mesAnio}. ${activeCount} códigos activos verificados. Canjea recompensas gratis ahora. ¡Lista actualizada hoy!`
   : `Códigos de ${game.name}${robloxLabel} para ${mesAnio}. Consulta todos los códigos activos y expirados. ¡Actualizamos a diario!`;
 
-const faqEntries: { '@type': string; name: string; acceptedAnswer: { '@type': string; text: string } }[] = [
-  {
-    '@type': 'Question',
-    name: `¿Cuáles son los códigos activos de ${game.name} en Roblox?`,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text:
-        game.activeCodes.length > 0
-          ? `Los códigos activos para ${game.name} son: ${game.activeCodes.map((c) => `${c.code} (${c.reward})`).join(', ')}.`
-          : `Actualmente no hay códigos activos para ${game.name}.`,
-    },
-  },
-  {
-    '@type': 'Question',
-    name: `¿Cómo canjear códigos en ${game.name}?`,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: game.howToRedeem.map((step, i) => `${i + 1}. ${step}`).join(' '),
-    },
-  },
-];
-
-faqEntries.push({
-  '@type': 'Question',
-  name: `¿Qué son los códigos de ${game.name}?`,
-  acceptedAnswer: { '@type': 'Answer', text: whatAreCodesContent },
-});
-
-faqEntries.push({
-  '@type': 'Question',
-  name: `¿Cómo conseguir más códigos de ${game.name}?`,
-  acceptedAnswer: { '@type': 'Answer', text: howToGetCodesContent },
-});
-
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: faqEntries,
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: `¿Cuáles son los códigos activos de ${game.name}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text:
+          game.activeCodes.length > 0
+            ? `Los códigos activos de ${game.name} son: ${game.activeCodes.map((c) => c.code).join(', ')}.`
+            : `Actualmente no hay códigos activos para ${game.name}. Revisamos a diario y actualizamos esta página en cuanto se publican nuevos códigos.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `¿Cómo canjear códigos en ${game.name}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: game.howToRedeem.length > 0
+          ? game.howToRedeem.map((step, i) => `${i + 1}. ${step}`).join(' ')
+          : `Abre ${game.name} en Roblox, busca el botón de códigos en el menú del juego, escribe o pega el código y pulsa Canjear.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `¿Por qué no funcionan los códigos de ${game.name}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Los códigos de ${game.name} pueden no funcionar por varios motivos: el código ha expirado y ya no es válido, hay un error tipográfico al escribirlo (copia y pega para evitarlo), o ya lo has canjeado anteriormente en tu cuenta, ya que cada código solo se puede usar una vez.`,
+      },
+    },
+  ],
 };
 ---
 
@@ -169,7 +167,7 @@ const faqSchema = {
           {validThumb ? (
             <img
               src={game.thumbnail}
-              alt={game.name}
+              alt={imgAlt}
               class="hero__img"
               loading="eager"
             />
@@ -180,7 +178,7 @@ const faqSchema = {
           )}
         </div>
         <div class="hero__info">
-          <h1 class="hero__title">{game.name}</h1>
+          <h1 class="hero__title">{displayName}</h1>
           <p class="hero__desc">{game.description}</p>
           <div class="hero__badges">
             {game.noCodeSystem ? (
