@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(cd \"/c/Users/santi/Desktop/PROYECTOS VS CODE/WEB CODIGOS-GRATIS\" && npx astro build 2>&1)",
+      "WebSearch",
+      "WebFetch(domain:progameguides.com)",
+      "WebFetch(domain:www.bluestacks.com)",
+      "WebFetch(domain:beebom.com)",
+      "WebFetch(domain:www.pocketgamer.com)",
+      "WebFetch(domain:tryhardguides.com)",
+      "WebFetch(domain:www.destructoid.com)",
+      "WebFetch(domain:gamerant.com)",
+      "WebFetch(domain:www.pockettactics.com)",
+      "WebFetch(domain:www.dexerto.com)",
+      "WebFetch(domain:ucngame.com)",
+      "WebFetch(domain:robloxden.com)",
+      "WebFetch(domain:www.sportskeeda.com)",
+      "WebFetch(domain:twinfinite.net)",
+      "WebFetch(domain:mobilematters.gg)",
+      "WebFetch(domain:www.ldshop.gg)",
+      "WebFetch(domain:www.game.guide)",
+      "WebFetch(domain:www.gamesradar.com)",
+      "WebFetch(domain:buffbuff.com)",
+      "WebFetch(domain:frvr.com)",
+      "WebFetch(domain:www.linegames.org)",
+      "Bash(curl:*)",
+      "Bash(tail:*)",
+      "Bash(claude config:*)",
+      "Bash(cd \"/c/Users/santi/Desktop/PROYECTOS VS CODE/WEB CODIGOS-GRATIS\" && node scripts/discover-new-games.mjs 2>&1)",
+      "Bash(cd \"/c/Users/santi/Desktop/PROYECTOS VS CODE/WEB CODIGOS-GRATIS\" && node scripts/scrape-all-new-games.mjs --limit 10 2>&1)"
+    ]
+  }
+}

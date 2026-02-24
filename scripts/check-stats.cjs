@@ -1,0 +1,12 @@
+const d = require('../data/music-ids.json');
+console.log('Total songs:', d.songs.length);
+const withGenre = d.songs.filter(s => s.genre);
+const withThumb = d.songs.filter(s => s.thumbnail);
+const withBoth = d.songs.filter(s => s.genre && s.thumbnail);
+const genreNoThumb = d.songs.filter(s => s.genre && !s.thumbnail);
+const noGenre = d.songs.filter(s => !s.genre);
+console.log('With genre:', withGenre.length);
+console.log('With thumbnail:', withThumb.length);
+console.log('With genre AND thumbnail:', withBoth.length);
+console.log('With genre but NO thumbnail:', genreNoThumb.length);
+console.log('Without genre:', noGenre.length);
