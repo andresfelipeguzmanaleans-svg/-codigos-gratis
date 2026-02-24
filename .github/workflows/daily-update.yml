@@ -43,6 +43,24 @@ jobs:
         continue-on-error: true
         timeout-minutes: 10
 
+      - name: Generate summary
+        run: |
+          echo "=== RESUMEN UPDATE $(date '+%Y-%m-%d %H:%M') ===" > scripts/last-update.log
+          echo "" >> scripts/last-update.log
+          echo "Archivos modificados:" >> scripts/last-update.log
+          git diff --name-only | wc -l | xargs -I{} echo "  {} archivos cambiados" >> scripts/last-update.log
+          echo "" >> scripts/last-update.log
+          echo "Archivos nuevos:" >> scripts/last-update.log
+          git ls-files --others --exclude-standard | wc -l | xargs -I{} echo "  {} archivos nuevos" >> scripts/last-update.log
+          echo "" >> scripts/last-update.log
+          echo "Detalle cambios:" >> scripts/last-update.log
+          git diff --name-only >> scripts/last-update.log 2>/dev/null
+          echo "" >> scripts/last-update.log
+          echo "Nuevos juegos:" >> scripts/last-update.log
+          git ls-files --others --exclude-standard data/games/ >> scripts/last-update.log 2>/dev/null
+          echo "" >> scripts/last-update.log
+          cat scripts/last-update.log
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
