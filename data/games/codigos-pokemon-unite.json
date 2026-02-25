@@ -5,9 +5,59 @@
   "description": "Todos los códigos activos para Pokemon Unite en Roblox",
   "metaTitle": "Códigos Pokemon Unite (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Pokemon Unite en Roblox. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-21",
-  "activeCodes": [],
-  "expiredCodes": [],
+  "lastUpdated": "2026-02-25",
+  "activeCodes": [
+    {
+      "code": "EUIC2026",
+      "reward": "Pegatina logo EUIC 2026"
+    },
+    {
+      "code": "LAIC2026",
+      "reward": "Pegatina logo LAIC 2026"
+    },
+    {
+      "code": "MEOWTH",
+      "reward": "Licencia limitada de Meowth por 3 días"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "EMPOLEON",
+      "reward": "Licencia limitada de Empoleon por 3 días"
+    },
+    {
+      "code": "PAWMOT",
+      "reward": "Licencia limitada de Pawmot por 3 días"
+    },
+    {
+      "code": "Worlds2025",
+      "reward": "Pegatina del Campeonato Mundial 2025"
+    },
+    {
+      "code": "LATIAS",
+      "reward": "Licencia limitada de Latias por 1 día"
+    },
+    {
+      "code": "NAIC2025",
+      "reward": "Pegatina exclusiva NAIC 2025"
+    },
+    {
+      "code": "UNITE0722",
+      "reward": "Licencia de Latios, Emblemas Platino"
+    },
+    {
+      "code": "POKEDAY25",
+      "reward": "Emblema Platino de Suicune"
+    },
+    {
+      "code": "2NDANNIVERSARY",
+      "reward": "Prueba de Mew y Mewtwo, Emblemas Platino"
+    },
+    {
+      "code": "HAPPYPOKEWEEN25",
+      "reward": "Recompensas de Halloween 2025"
+    }
+  ],
   "howToRedeem": [
     "Abre Pokemon Unite en Roblox",
     "Busca el icono de códigos en el menú",

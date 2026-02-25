@@ -5,8 +5,62 @@
   "description": "Todos los códigos activos para Guardian Tales",
   "metaTitle": "Códigos Guardian Tales (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Guardian Tales. Consigue gemas, stamina y recompensas gratis.",
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-02-25",
   "activeCodes": [
+    {
+      "code": "finalgtstream",
+      "reward": "10 Controladores de Invocación"
+    },
+    {
+      "code": "tothegtfans",
+      "reward": "300 Gemas y 100 Café"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "experiment",
+      "reward": "300 Gemas y 100 Café"
+    },
+    {
+      "code": "2kdays",
+      "reward": "300 Gemas y 100 Café"
+    },
+    {
+      "code": "bonuspresents",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "holidaygift",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "nemesis",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Cannon",
+      "reward": "10 Controladores Grises y Morados"
+    },
+    {
+      "code": "Heavenly",
+      "reward": "100 Piedras de Evolución Mítica"
+    },
+    {
+      "code": "GTBF2025",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "boatknight",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "myth",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "nifty",
+      "reward": "Recompensas gratis"
+    },
     {
       "code": "blueandshiny",
       "reward": "Recompensas gratis"
@@ -22,9 +76,7 @@
     {
       "code": "mysteriousloot",
       "reward": "Recompensas gratis"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "GT2024THANKS",
       "reward": "Gemas y stamina"
@@ -32,6 +84,30 @@
     {
       "code": "HAPPYNEWYEAR2025",
       "reward": "Gemas gratis"
+    },
+    {
+      "code": "Happy2025",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "JOLLYHOLIDAYS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Notrickor",
+      "reward": "500 Gemas"
+    },
+    {
+      "code": "Treatforthewicked",
+      "reward": "1000 Café"
+    },
+    {
+      "code": "meowgnificent",
+      "reward": "50 Café y 100 Gemas"
+    },
+    {
+      "code": "GT4YEAR",
+      "reward": "Cupón de Arma"
     }
   ],
   "introText": "Guardian Tales es un action RPG desarrollado por Kakao Games disponible en iOS y Android. Con un estilo pixel art encantador, exploras mazmorras llenas de puzzles, combates en tiempo real y una historia principal con humor y referencias a la cultura pop. El juego incluye modos PvP, Guild Raids y eventos de temporada.",
