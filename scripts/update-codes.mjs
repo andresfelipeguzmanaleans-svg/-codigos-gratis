@@ -1,17 +1,20 @@
 /**
  * update-codes.mjs
  *
- * Re-scrapes codes from game.guide for ALL existing games in data/games/.
+ * Re-scrapes codes from game.guide for existing games in data/games/.
  * Replaces activeCodes and expiredCodes with fresh data.
  * Only commits if there are real changes.
+ *
+ * Uses a rotating batch system: processes 500 games per run starting from
+ * the last saved index (scripts/update-pointer.json). Wraps to 0 at the end.
  *
  * Usage:
  *   node scripts/update-codes.mjs [flags]
  *
  * Flags:
- *   --limit N    Only process N games (default: all)
+ *   --limit N    Override batch size (default: 500)
  *   --dry-run    Don't write files, just show changes
- *   --fast       Use 400ms delay instead of 800ms (more aggressive)
+ *   --fast       Use 500ms delay instead of 1000ms (more aggressive)
  */
 
 import fs from 'fs';
@@ -19,6 +22,8 @@ import path from 'path';
 import https from 'https';
 
 const GAMES_DIR = 'data/games';
+const BATCH_SIZE = 500;
+const POINTER_FILE = 'scripts/update-pointer.json';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 const BASE_URL = 'https://www.game.guide/roblox-codes';
 
@@ -196,12 +201,26 @@ async function main() {
   const dryRun = args.includes('--dry-run');
   const fast = args.includes('--fast');
   const limitIdx = args.indexOf('--limit');
-  const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1], 10) : Infinity;
-  const delayMs = fast ? 400 : 800;
+  const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1], 10) : BATCH_SIZE;
+  const delayMs = fast ? 500 : 1000;
 
   // Load all game files
-  const files = fs.readdirSync(GAMES_DIR).filter(f => f.endsWith('.json'));
-  console.log(`Juegos existentes: ${files.length}`);
+  const allFiles = fs.readdirSync(GAMES_DIR).filter(f => f.endsWith('.json'));
+  const total = allFiles.length;
+
+  // Read batch pointer
+  let lastIndex = 0;
+  try {
+    const pointer = JSON.parse(fs.readFileSync(POINTER_FILE, 'utf-8'));
+    lastIndex = pointer.lastIndex || 0;
+  } catch {}
+  if (lastIndex >= total) lastIndex = 0;
+
+  const startIdx = lastIndex;
+  const endIdx = Math.min(startIdx + limit, total);
+  const files = allFiles.slice(startIdx, endIdx);
+
+  console.log(`Procesando juegos [${startIdx}] a [${endIdx - 1}] de [${total}]`);
   console.log(`Delay: ${delayMs}ms${fast ? ' (fast mode)' : ''}`);
   if (dryRun) console.log('MODO: DRY RUN');
   console.log();
@@ -216,8 +235,6 @@ async function main() {
   const changes = [];
 
   for (const file of files) {
-    if (processed >= limit) break;
-
     const filePath = path.join(GAMES_DIR, file);
     const game = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
@@ -340,6 +357,15 @@ async function main() {
       newCodes: newCodes.map(c => c.code),
     });
   }
+
+  // Save pointer for next batch
+  const newIndex = endIdx >= total ? 0 : endIdx;
+  if (!dryRun) {
+    fs.writeFileSync(POINTER_FILE, JSON.stringify({ lastIndex: newIndex }, null, 2) + '\n');
+    console.log(`\nPuntero guardado: ${newIndex} (siguiente lote empieza en ${newIndex})`);
+  }
+
+  console.log(`\nActualizados: ${updated}, Códigos nuevos: ${totalNewActive}, Errores: ${notFound}`);
 
   // Report
   console.log('\n' + '='.repeat(70));
