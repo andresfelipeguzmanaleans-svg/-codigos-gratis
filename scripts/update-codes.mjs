@@ -329,20 +329,20 @@ async function main() {
 
     const oldActiveSet = new Set((game.activeCodes || []).map(c => c.code.toLowerCase()));
     const oldActiveMap = new Map((game.activeCodes || []).map(c => [c.code.toLowerCase(), c]));
-    const today = new Date().toISOString().split('T')[0];
+    const todayDate = new Date().toISOString().split('T')[0];
 
     for (const c of gg.active) {
       const old = oldActiveMap.get(c.code.toLowerCase());
       if (old && old.addedDate) {
         c.addedDate = old.addedDate;
       } else if (!oldActiveSet.has(c.code.toLowerCase())) {
-        c.addedDate = today;
+        c.addedDate = todayDate;
       }
     }
 
     game.activeCodes = gg.active;
     game.expiredCodes = mergedExpired;
-    game.lastUpdated = today;
+    game.lastUpdated = new Date().toISOString();
 
     if (activeAfter > 0) {
       const mesesES = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
