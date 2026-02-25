@@ -319,10 +319,25 @@ async function main() {
       continue;
     }
 
+    // Track new codes BEFORE overwriting (fix: oldActiveSet must be computed before reassignment)
+    const oldActiveSet = new Set((game.activeCodes || []).map(c => c.code.toLowerCase()));
+    const oldActiveMap = new Map((game.activeCodes || []).map(c => [c.code.toLowerCase(), c]));
+    const today = new Date().toISOString().split('T')[0];
+
+    // Apply addedDate: preserve existing for returning codes, set today for new ones
+    for (const c of gg.active) {
+      const old = oldActiveMap.get(c.code.toLowerCase());
+      if (old && old.addedDate) {
+        c.addedDate = old.addedDate;
+      } else if (!oldActiveSet.has(c.code.toLowerCase())) {
+        c.addedDate = today;
+      }
+    }
+
     // Apply changes
     game.activeCodes = gg.active;
     game.expiredCodes = mergedExpired;
-    game.lastUpdated = new Date().toISOString().split('T')[0];
+    game.lastUpdated = today;
 
     // Update metaDescription with new active count
     if (activeAfter > 0) {
@@ -340,7 +355,6 @@ async function main() {
     updated++;
 
     // Track new codes and moved-to-expired
-    const oldActiveSet = new Set((game.activeCodes || []).map(c => c.code.toLowerCase()));
     const newCodes = gg.active.filter(c => !oldActiveSet.has(c.code.toLowerCase()));
     const movedToExpired = activeBefore - activeAfter;
     if (movedToExpired > 0) totalMovedExpired += movedToExpired;

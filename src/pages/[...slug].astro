@@ -13,7 +13,7 @@ interface GameData {
   metaTitle: string;
   metaDescription: string;
   lastUpdated: string;
-  activeCodes: { code: string; reward: string }[];
+  activeCodes: { code: string; reward: string; addedDate?: string }[];
   expiredCodes: { code: string; reward: string }[];
   howToRedeem: string[];
   noCodeSystem?: boolean;
@@ -71,6 +71,13 @@ function formatNumber(n: number): string {
 }
 
 const validThumb = game.thumbnail && game.thumbnail.startsWith('https://tr.rbxcdn.com');
+
+function isNewCode(addedDate?: string): boolean {
+  if (!addedDate) return false;
+  const added = new Date(addedDate);
+  const diffMs = Date.now() - added.getTime();
+  return diffMs < 3 * 24 * 60 * 60 * 1000; // 3 days
+}
 
 // Fallback SEO texts — use JSON field if present, otherwise generate from data
 const favCount = game.favourites || game.likes || 0;
@@ -249,7 +256,7 @@ const faqSchema = {
             {game.activeCodes.map((c, i) => (
               <div class="code-numbered">
                 <span class="code-number">{i + 1}</span>
-                <CodeItem code={c.code} reward={c.reward} />
+                <CodeItem code={c.code} reward={c.reward} isNew={isNewCode(c.addedDate)} />
               </div>
             ))}
           </div>

@@ -3,15 +3,19 @@ interface Props {
   code: string;
   reward: string;
   expired?: boolean;
+  isNew?: boolean;
 }
 
-const { code, reward, expired = false } = Astro.props;
+const { code, reward, expired = false, isNew = false } = Astro.props;
 ---
 
 <div class:list={['code-item', { 'code-item--expired': expired }]}>
   <div class="code-item__info">
     <span class="code-item__code">{code}</span>
-    <span class="code-item__reward">{reward}</span>
+    <span class="code-item__reward">
+      {reward}
+      {isNew && <span class="code-item__new">NUEVO</span>}
+    </span>
   </div>
   {expired ? (
     <span class="code-item__btn code-item__btn--expired">EXPIRADO</span>
@@ -108,6 +112,20 @@ const { code, reward, expired = false } = Astro.props;
     color: var(--text-dim);
     cursor: default;
     pointer-events: none;
+  }
+
+  .code-item__new {
+    display: inline-block;
+    background: #00c853;
+    color: #fff;
+    font-family: var(--font-display);
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 0.4rem;
+    vertical-align: middle;
   }
 
   @media (min-width: 768px) {
