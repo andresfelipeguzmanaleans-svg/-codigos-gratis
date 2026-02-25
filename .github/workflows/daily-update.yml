@@ -34,7 +34,7 @@ jobs:
         timeout-minutes: 15
 
       - name: Update all existing codes
-        run: node scripts/update-codes.mjs
+        run: node scripts/update-codes.mjs --fast
         continue-on-error: true
         timeout-minutes: 25
 

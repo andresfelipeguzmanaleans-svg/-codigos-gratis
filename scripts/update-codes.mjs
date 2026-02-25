@@ -5,16 +5,19 @@
  * Replaces activeCodes and expiredCodes with fresh data.
  * Only commits if there are real changes.
  *
- * Uses a rotating batch system: processes 2000 games per run starting from
+ * Uses a rotating batch system: processes 1500 games per run starting from
  * the last saved index (scripts/update-pointer.json). Wraps to 0 at the end.
+ * Requests run concurrently (default 10) for speed.
  *
  * Usage:
  *   node scripts/update-codes.mjs [flags]
  *
  * Flags:
- *   --limit N    Override batch size (default: 2000)
- *   --dry-run    Don't write files, just show changes
- *   --fast       Use 250ms delay instead of 500ms (more aggressive)
+ *   --limit N         Override batch size (default: 1500)
+ *   --dry-run         Don't write files, just show changes
+ *   --fast            Use 100ms delay instead of 150ms (more aggressive)
+ *   --max-minutes N   Stop after N minutes (default: 22)
+ *   --concurrency N   Parallel requests (default: 10)
  */
 
 import fs from 'fs';
@@ -22,7 +25,9 @@ import path from 'path';
 import https from 'https';
 
 const GAMES_DIR = 'data/games';
-const BATCH_SIZE = 2000;
+const BATCH_SIZE = 1500;
+const CONCURRENCY = 10;
+const MAX_RUNTIME_MS = 22 * 60 * 1000;
 const POINTER_FILE = 'scripts/update-pointer.json';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 const BASE_URL = 'https://www.game.guide/roblox-codes';
@@ -59,7 +64,7 @@ function httpGet(url) {
     const parsedUrl = new URL(url);
     const req = https.get(url, {
       headers: { 'User-Agent': UA },
-      timeout: 20000,
+      timeout: 10000,
     }, res => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         const loc = res.headers.location.startsWith('http')
@@ -202,7 +207,13 @@ async function main() {
   const fast = args.includes('--fast');
   const limitIdx = args.indexOf('--limit');
   const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1], 10) : BATCH_SIZE;
-  const delayMs = fast ? 250 : 500;
+  const concIdx = args.indexOf('--concurrency');
+  const concurrency = concIdx >= 0 ? parseInt(args[concIdx + 1], 10) : CONCURRENCY;
+  const maxMinIdx = args.indexOf('--max-minutes');
+  const maxRuntimeMs = maxMinIdx >= 0 ? parseInt(args[maxMinIdx + 1], 10) * 60 * 1000 : MAX_RUNTIME_MS;
+  const delayMs = fast ? 100 : 150;
+
+  const deadline = Date.now() + maxRuntimeMs;
 
   // Load all game files
   const allFiles = fs.readdirSync(GAMES_DIR).filter(f => f.endsWith('.json'));
@@ -221,7 +232,7 @@ async function main() {
   const files = allFiles.slice(startIdx, endIdx);
 
   console.log(`Procesando juegos [${startIdx}] a [${endIdx - 1}] de [${total}]`);
-  console.log(`Delay: ${delayMs}ms${fast ? ' (fast mode)' : ''}`);
+  console.log(`Concurrencia: ${concurrency} | Delay: ${delayMs}ms${fast ? ' (fast)' : ''} | Timeout: ${Math.round(maxRuntimeMs / 60000)}min`);
   if (dryRun) console.log('MODO: DRY RUN');
   console.log();
 
@@ -232,36 +243,42 @@ async function main() {
   let skipped = 0;
   let totalNewActive = 0;
   let totalMovedExpired = 0;
+  let timedOut = false;
   const changes = [];
 
-  for (const file of files) {
+  // Shared index for the worker pool (JS is single-threaded, so this is safe)
+  let nextFileIdx = 0;
+  // Track how far we actually got for the pointer
+  let maxClaimedIdx = 0;
+
+  // Process a single game file — called by each worker
+  async function processGame(file) {
     const filePath = path.join(GAMES_DIR, file);
     const game = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
     // Skip non-Roblox or no-code games
     if (game.noCodeSystem || SKIP_SLUGS.has(game.slug)) {
       skipped++;
-      continue;
+      return;
     }
 
     const ggSlug = ourSlugToGGSlug(game.slug);
-    if (!ggSlug) { skipped++; continue; }
+    if (!ggSlug) { skipped++; return; }
 
     processed++;
 
     // Fetch page
-    await sleep(delayMs);
     let html;
     try {
       const { status, body } = await httpGet(`${BASE_URL}/${ggSlug}`);
       if (status !== 200 || !body.includes('codes-table')) {
         notFound++;
-        continue;
+        return;
       }
       html = body;
     } catch {
       notFound++;
-      continue;
+      return;
     }
 
     // Extract codes
@@ -270,38 +287,28 @@ async function main() {
     // Skip empty pages (avoid wiping data)
     if (gg.active.length === 0 && gg.expired.length === 0) {
       notFound++;
-      continue;
+      return;
     }
 
     const activeBefore = (game.activeCodes || []).length;
     const expiredBefore = (game.expiredCodes || []).length;
 
-    // Build merged expired list:
-    // 1. Our old active codes NOT in game.guide active → moved to expired
-    // 2. game.guide expired
-    // 3. Our old expired
+    // Build merged expired list
     const ggActiveSet = new Set(gg.active.map(c => c.code.toLowerCase()));
     const seenExpired = new Set();
     const mergedExpired = [];
 
-    function addExpired(code, reward) {
+    const addExpired = (code, reward) => {
       const key = code.toLowerCase();
       if (seenExpired.has(key) || ggActiveSet.has(key)) return;
       seenExpired.add(key);
       mergedExpired.push({ code, reward });
-    }
+    };
 
-    // Old active → expired (if not in new active)
     for (const c of (game.activeCodes || [])) {
-      if (!ggActiveSet.has(c.code.toLowerCase())) {
-        addExpired(c.code, c.reward);
-      }
+      if (!ggActiveSet.has(c.code.toLowerCase())) addExpired(c.code, c.reward);
     }
-
-    // game.guide expired
     for (const c of gg.expired) addExpired(c.code, c.reward);
-
-    // Our old expired
     for (const c of (game.expiredCodes || [])) addExpired(c.code, c.reward);
 
     const activeAfter = gg.active.length;
@@ -315,16 +322,14 @@ async function main() {
 
     if (oldActiveStr === newActiveStr && oldExpiredStr === newExpiredStr) {
       noChange++;
-      if (processed % 50 === 0) console.log(`  [${processed}] ...`);
-      continue;
+      if (processed % 100 === 0) console.log(`  [${processed}] ...`);
+      return;
     }
 
-    // Track new codes BEFORE overwriting (fix: oldActiveSet must be computed before reassignment)
     const oldActiveSet = new Set((game.activeCodes || []).map(c => c.code.toLowerCase()));
     const oldActiveMap = new Map((game.activeCodes || []).map(c => [c.code.toLowerCase(), c]));
     const today = new Date().toISOString().split('T')[0];
 
-    // Apply addedDate: preserve existing for returning codes, set today for new ones
     for (const c of gg.active) {
       const old = oldActiveMap.get(c.code.toLowerCase());
       if (old && old.addedDate) {
@@ -334,12 +339,10 @@ async function main() {
       }
     }
 
-    // Apply changes
     game.activeCodes = gg.active;
     game.expiredCodes = mergedExpired;
     game.lastUpdated = today;
 
-    // Update metaDescription with new active count
     if (activeAfter > 0) {
       const mesesES = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
       const now = new Date();
@@ -354,7 +357,6 @@ async function main() {
 
     updated++;
 
-    // Track new codes and moved-to-expired
     const newCodes = gg.active.filter(c => !oldActiveSet.has(c.code.toLowerCase()));
     const movedToExpired = activeBefore - activeAfter;
     if (movedToExpired > 0) totalMovedExpired += movedToExpired;
@@ -372,14 +374,35 @@ async function main() {
     });
   }
 
-  // Save pointer for next batch
-  const newIndex = endIdx >= total ? 0 : endIdx;
+  // Concurrent worker pool
+  async function worker() {
+    while (true) {
+      if (Date.now() >= deadline) { timedOut = true; break; }
+      const i = nextFileIdx++;
+      if (i >= files.length) break;
+      if (i > maxClaimedIdx) maxClaimedIdx = i;
+      await sleep(delayMs);
+      await processGame(files[i]);
+    }
+  }
+
+  const startTime = Date.now();
+  await Promise.all(Array.from({ length: concurrency }, () => worker()));
+  const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+
+  // Save pointer: advance to where we actually got
+  const gamesProcessed = Math.min(maxClaimedIdx + 1, files.length);
+  const newIndex = startIdx + gamesProcessed >= total ? 0 : startIdx + gamesProcessed;
   if (!dryRun) {
     fs.writeFileSync(POINTER_FILE, JSON.stringify({ lastIndex: newIndex }, null, 2) + '\n');
     console.log(`\nPuntero guardado: ${newIndex} (siguiente lote empieza en ${newIndex})`);
   }
 
-  console.log(`\nActualizados: ${updated}, Códigos nuevos: ${totalNewActive}, Errores: ${notFound}`);
+  if (timedOut) {
+    console.log(`\n⏱ TIME GUARD: parado tras ${elapsed}s (límite ${Math.round(maxRuntimeMs / 60000)}min). Procesados ${gamesProcessed} de ${files.length}.`);
+  }
+
+  console.log(`\nActualizados: ${updated}, Códigos nuevos: ${totalNewActive}, Errores: ${notFound} (${elapsed}s)`);
 
   // Report
   console.log('\n' + '='.repeat(70));
@@ -390,6 +413,8 @@ async function main() {
   console.log(`Sin cambios:   ${noChange}`);
   console.log(`No encontrado: ${notFound}`);
   console.log(`Saltados:      ${skipped}`);
+  console.log(`Tiempo:        ${elapsed}s`);
+  if (timedOut) console.log(`TIMEOUT:       sí (procesados ${gamesProcessed}/${files.length})`);
   if (dryRun) console.log('\nDRY RUN — no se escribieron cambios');
 
   if (changes.length > 0) {
