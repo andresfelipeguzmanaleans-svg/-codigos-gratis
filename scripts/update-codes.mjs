@@ -29,6 +29,7 @@ const BATCH_SIZE = 1500;
 const CONCURRENCY = 10;
 const MAX_RUNTIME_MS = 22 * 60 * 1000;
 const POINTER_FILE = 'scripts/update-pointer.json';
+const REPORT_FILE = 'scripts/update-codes-report.log';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 const BASE_URL = 'https://www.game.guide/roblox-codes';
 
@@ -436,6 +437,31 @@ async function main() {
     console.log(`  Códigos movidos a expirados: ${totalMovedExpired}`);
   } else {
     console.log('\nTodos los juegos están al día.');
+  }
+
+  // Write report file for status page
+  if (!dryRun) {
+    const lines = [];
+    lines.push(`Lote: [${startIdx}] a [${startIdx + gamesProcessed - 1}] de [${total}]`);
+    lines.push(`Procesados: ${processed} | Actualizados: ${updated} | Sin cambios: ${noChange}`);
+    lines.push(`No encontrado: ${notFound} | Saltados: ${skipped}`);
+    lines.push(`Códigos nuevos: ${totalNewActive} | Movidos a expirados: ${totalMovedExpired}`);
+    lines.push(`Tiempo: ${elapsed}s | Concurrencia: ${concurrency}`);
+    if (timedOut) lines.push(`TIMEOUT: procesados ${gamesProcessed}/${files.length}`);
+    if (changes.length > 0) {
+      lines.push('');
+      lines.push('Juegos actualizados:');
+      for (const c of changes) {
+        const delta = c.activeAfter - c.activeBefore;
+        const arrow = delta > 0 ? `+${delta}` : delta < 0 ? `${delta}` : '=';
+        lines.push(`  ${c.name}: ${c.activeBefore}→${c.activeAfter} activos (${arrow}), ${c.expiredBefore}→${c.expiredAfter} exp`);
+        if (c.newCodes.length > 0) {
+          lines.push(`    Nuevos: ${c.newCodes.join(', ')}`);
+        }
+      }
+    }
+    fs.writeFileSync(REPORT_FILE, lines.join('\n') + '\n');
+    console.log(`\nReporte guardado en ${REPORT_FILE}`);
   }
 }
 

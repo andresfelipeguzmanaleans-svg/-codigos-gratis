@@ -53,6 +53,11 @@ jobs:
           echo "Archivos nuevos:" >> scripts/last-update.log
           git ls-files --others --exclude-standard | wc -l | xargs -I{} echo "  {} archivos nuevos" >> scripts/last-update.log
           echo "" >> scripts/last-update.log
+          if [ -f scripts/update-codes-report.log ]; then
+            echo "--- Actualización de códigos ---" >> scripts/last-update.log
+            cat scripts/update-codes-report.log >> scripts/last-update.log
+            echo "" >> scripts/last-update.log
+          fi
           echo "Detalle cambios:" >> scripts/last-update.log
           git diff --name-only >> scripts/last-update.log 2>/dev/null
           echo "" >> scripts/last-update.log
