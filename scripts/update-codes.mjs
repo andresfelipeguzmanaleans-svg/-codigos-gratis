@@ -1,19 +1,18 @@
 /**
  * update-codes.mjs
  *
- * Re-scrapes codes from game.guide for existing games in data/games/.
+ * Re-scrapes codes from game.guide for ALL existing games in data/games/.
  * Replaces activeCodes and expiredCodes with fresh data.
  * Only commits if there are real changes.
  *
- * Uses a rotating batch system: processes 1500 games per run starting from
- * the last saved index (scripts/update-pointer.json). Wraps to 0 at the end.
- * Requests run concurrently (default 10) for speed.
+ * Processes all games every run using concurrent requests (~3 min for 4000+).
+ * Has a time guard that stops gracefully before the workflow timeout.
  *
  * Usage:
  *   node scripts/update-codes.mjs [flags]
  *
  * Flags:
- *   --limit N         Override batch size (default: 1500)
+ *   --limit N         Only process first N games (default: all)
  *   --dry-run         Don't write files, just show changes
  *   --fast            Use 100ms delay instead of 150ms (more aggressive)
  *   --max-minutes N   Stop after N minutes (default: 22)
@@ -25,10 +24,8 @@ import path from 'path';
 import https from 'https';
 
 const GAMES_DIR = 'data/games';
-const BATCH_SIZE = 1500;
 const CONCURRENCY = 10;
 const MAX_RUNTIME_MS = 22 * 60 * 1000;
-const POINTER_FILE = 'scripts/update-pointer.json';
 const REPORT_FILE = 'scripts/update-codes-report.log';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 const BASE_URL = 'https://www.game.guide/roblox-codes';
@@ -207,7 +204,7 @@ async function main() {
   const dryRun = args.includes('--dry-run');
   const fast = args.includes('--fast');
   const limitIdx = args.indexOf('--limit');
-  const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1], 10) : BATCH_SIZE;
+  const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1], 10) : Infinity;
   const concIdx = args.indexOf('--concurrency');
   const concurrency = concIdx >= 0 ? parseInt(args[concIdx + 1], 10) : CONCURRENCY;
   const maxMinIdx = args.indexOf('--max-minutes');
@@ -219,20 +216,9 @@ async function main() {
   // Load all game files
   const allFiles = fs.readdirSync(GAMES_DIR).filter(f => f.endsWith('.json'));
   const total = allFiles.length;
+  const files = allFiles.slice(0, Math.min(limit, total));
 
-  // Read batch pointer
-  let lastIndex = 0;
-  try {
-    const pointer = JSON.parse(fs.readFileSync(POINTER_FILE, 'utf-8'));
-    lastIndex = pointer.lastIndex || 0;
-  } catch {}
-  if (lastIndex >= total) lastIndex = 0;
-
-  const startIdx = lastIndex;
-  const endIdx = Math.min(startIdx + limit, total);
-  const files = allFiles.slice(startIdx, endIdx);
-
-  console.log(`Procesando juegos [${startIdx}] a [${endIdx - 1}] de [${total}]`);
+  console.log(`Procesando ${files.length} juegos de ${total}`);
   console.log(`Concurrencia: ${concurrency} | Delay: ${delayMs}ms${fast ? ' (fast)' : ''} | Timeout: ${Math.round(maxRuntimeMs / 60000)}min`);
   if (dryRun) console.log('MODO: DRY RUN');
   console.log();
@@ -249,8 +235,6 @@ async function main() {
 
   // Shared index for the worker pool (JS is single-threaded, so this is safe)
   let nextFileIdx = 0;
-  // Track how far we actually got for the pointer
-  let maxClaimedIdx = 0;
 
   // Process a single game file — called by each worker
   async function processGame(file) {
@@ -381,7 +365,6 @@ async function main() {
       if (Date.now() >= deadline) { timedOut = true; break; }
       const i = nextFileIdx++;
       if (i >= files.length) break;
-      if (i > maxClaimedIdx) maxClaimedIdx = i;
       await sleep(delayMs);
       await processGame(files[i]);
     }
@@ -390,14 +373,7 @@ async function main() {
   const startTime = Date.now();
   await Promise.all(Array.from({ length: concurrency }, () => worker()));
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-
-  // Save pointer: advance to where we actually got
-  const gamesProcessed = Math.min(maxClaimedIdx + 1, files.length);
-  const newIndex = startIdx + gamesProcessed >= total ? 0 : startIdx + gamesProcessed;
-  if (!dryRun) {
-    fs.writeFileSync(POINTER_FILE, JSON.stringify({ lastIndex: newIndex }, null, 2) + '\n');
-    console.log(`\nPuntero guardado: ${newIndex} (siguiente lote empieza en ${newIndex})`);
-  }
+  const gamesProcessed = Math.min(nextFileIdx, files.length);
 
   if (timedOut) {
     console.log(`\n⏱ TIME GUARD: parado tras ${elapsed}s (límite ${Math.round(maxRuntimeMs / 60000)}min). Procesados ${gamesProcessed} de ${files.length}.`);
@@ -415,7 +391,7 @@ async function main() {
   console.log(`No encontrado: ${notFound}`);
   console.log(`Saltados:      ${skipped}`);
   console.log(`Tiempo:        ${elapsed}s`);
-  if (timedOut) console.log(`TIMEOUT:       sí (procesados ${gamesProcessed}/${files.length})`);
+  if (timedOut) console.log(`TIMEOUT:       procesados ${gamesProcessed}/${files.length}`);
   if (dryRun) console.log('\nDRY RUN — no se escribieron cambios');
 
   if (changes.length > 0) {
@@ -442,8 +418,8 @@ async function main() {
   // Write report file for status page
   if (!dryRun) {
     const lines = [];
-    lines.push(`Lote: [${startIdx}] a [${startIdx + gamesProcessed - 1}] de [${total}]`);
-    lines.push(`Procesados: ${processed} | Actualizados: ${updated} | Sin cambios: ${noChange}`);
+    lines.push(`Total: ${files.length} juegos (${gamesProcessed} procesados)`);
+    lines.push(`Actualizados: ${updated} | Sin cambios: ${noChange}`);
     lines.push(`No encontrado: ${notFound} | Saltados: ${skipped}`);
     lines.push(`Códigos nuevos: ${totalNewActive} | Movidos a expirados: ${totalMovedExpired}`);
     lines.push(`Tiempo: ${elapsed}s | Concurrencia: ${concurrency}`);
