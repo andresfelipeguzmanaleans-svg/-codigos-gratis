@@ -5,16 +5,16 @@
  * Replaces activeCodes and expiredCodes with fresh data.
  * Only commits if there are real changes.
  *
- * Uses a rotating batch system: processes 500 games per run starting from
+ * Uses a rotating batch system: processes 2000 games per run starting from
  * the last saved index (scripts/update-pointer.json). Wraps to 0 at the end.
  *
  * Usage:
  *   node scripts/update-codes.mjs [flags]
  *
  * Flags:
- *   --limit N    Override batch size (default: 500)
+ *   --limit N    Override batch size (default: 2000)
  *   --dry-run    Don't write files, just show changes
- *   --fast       Use 500ms delay instead of 1000ms (more aggressive)
+ *   --fast       Use 250ms delay instead of 500ms (more aggressive)
  */
 
 import fs from 'fs';
@@ -22,7 +22,7 @@ import path from 'path';
 import https from 'https';
 
 const GAMES_DIR = 'data/games';
-const BATCH_SIZE = 500;
+const BATCH_SIZE = 2000;
 const POINTER_FILE = 'scripts/update-pointer.json';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 const BASE_URL = 'https://www.game.guide/roblox-codes';
@@ -202,7 +202,7 @@ async function main() {
   const fast = args.includes('--fast');
   const limitIdx = args.indexOf('--limit');
   const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1], 10) : BATCH_SIZE;
-  const delayMs = fast ? 500 : 1000;
+  const delayMs = fast ? 250 : 500;
 
   // Load all game files
   const allFiles = fs.readdirSync(GAMES_DIR).filter(f => f.endsWith('.json'));
