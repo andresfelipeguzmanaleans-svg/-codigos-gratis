@@ -1,27 +1,86 @@
-=== RESUMEN UPDATE 2026-02-26 10:34 ===
+=== RESUMEN UPDATE 2026-02-26 21:50 ===
 
 Archivos modificados:
-  4 archivos cambiados
+  24 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4121 juegos (4121 procesados)
-Actualizados: 2 | Sin cambios: 3965
+Actualizados: 22 | Sin cambios: 3945
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 3 | Movidos a expirados: 0
-Tiempo: 149.7s | Concurrencia: 10
+Códigos nuevos: 46 | Movidos a expirados: 1
+Tiempo: 161.5s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Eternal: 0→1 activos (+1), 702→702 exp
-    Nuevos: Code39AllCodesInOne
-  Dig To Find Dad: 10→12 activos (+2), 15→15 exp
-    Nuevos: 8NEWBOMBS, DAILYREWARDS
+  Action Tower Defense: 19→20 activos (+1), 41→41 exp
+    Nuevos: Likes600
+  Anime Eternal: 1→0 activos (-1), 702→703 exp
+  Anime Training Simulator: 7→10 activos (+3), 1→1 exp
+    Nuevos: Sorry4TheBugs, Release, 5klikes
+  Anime Unlimited: 7→10 activos (+3), 18→18 exp
+    Nuevos: ANNIVERSARYSOON, 100KLIKES!, UPDATE!
+  Arena Tower Defense: 3→6 activos (+3), 12→12 exp
+    Nuevos: October19, AngelicCurse, 090321
+  Captive: 6→10 activos (+4), 10→10 exp
+    Nuevos: blacklivesmatter, SORRY, 30m, CAPTIVE_COLLAB
+  Cursed Islands: 5→6 activos (+1), 14→14 exp
+    Nuevos: 7LEVELSGANGs
+  Deathrun: 5→8 activos (+3), 6→6 exp
+    Nuevos: Rudolf:, woah, decoy
+  Defender S Depot 2: 14→16 activos (+2), 10→10 exp
+    Nuevos: Release, COD3
+  Demon Blade: 2→4 activos (+2), 50→50 exp
+    Nuevos: VENOMSTRIKE, ARROWREWORK
+  Find The Button: 11→13 activos (+2), 2→2 exp
+    Nuevos: openyoureyes, SummerEvent2022
+  Kitty: 9→11 activos (+2), 112→112 exp
+    Nuevos: Noangy, ThanksYouAll
+  Mad City: 5→6 activos (+1), 35→35 exp
+    Nuevos: uNiQueEe
+  Melo Blox: 5→6 activos (+1), 4→4 exp
+    Nuevos: MeloHype9561
+  My Supermarket: 14→15 activos (+1), 17→17 exp
+    Nuevos: Welcome
+  Pet Ranch Simulator 2: 25→31 activos (+6), 32→32 exp
+    Nuevos: NEWYEAR, METEOR, 200KSTAR, 105KCELEBRATION, REWARD135K, PETRANCH140K
+  Project Baki 4: 7→8 activos (+1), 179→179 exp
+    Nuevos: THINGTORCHCLAIM
+  Reborn Skills Master: 20→21 activos (+1), 24→24 exp
+    Nuevos: update64
+  Speed City: 5→8 activos (+3), 14→14 exp
+    Nuevos: TofuuHair, Lightning, Sand
+  Ultra Un Fair: 90→92 activos (+2), 35→35 exp
+    Nuevos: !EVENMOREINSANE, !MOREINSANE
+  Undertale Crazy Multiverse Timeline: 7→10 activos (+3), 18→18 exp
+    Nuevos: reclassic, ucmtl2, hollow
+  War Simulator: 5→6 activos (+1), 2→2 exp
+    Nuevos: joineddiscord
 
 Detalle cambios:
+data/games/codigos-action-tower-defense.json
 data/games/codigos-anime-eternal.json
-data/games/codigos-dig-to-find-dad.json
+data/games/codigos-anime-training-simulator.json
+data/games/codigos-anime-unlimited.json
+data/games/codigos-arena-tower-defense.json
+data/games/codigos-captive.json
+data/games/codigos-cursed-islands.json
+data/games/codigos-deathrun.json
+data/games/codigos-defender-s-depot-2.json
+data/games/codigos-demon-blade.json
+data/games/codigos-find-the-button.json
+data/games/codigos-kitty.json
+data/games/codigos-mad-city.json
+data/games/codigos-melo-blox.json
+data/games/codigos-my-supermarket.json
+data/games/codigos-pet-ranch-simulator-2.json
+data/games/codigos-project-baki-4.json
+data/games/codigos-reborn-skills-master.json
+data/games/codigos-speed-city.json
+data/games/codigos-ultra-un-fair.json
+data/games/codigos-undertale-crazy-multiverse-timeline.json
+data/games/codigos-war-simulator.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
