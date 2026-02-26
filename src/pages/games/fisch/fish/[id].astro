@@ -149,6 +149,21 @@ const formattedMaxValue = tradingValue?.estimatedValue
   ? fmtC(tradingValue.estimatedValue.max)
   : null;
 
+// Auto-generated narrative
+const parts: string[] = [];
+parts.push(fish.name + ' is a ' + fish.rarity.toLowerCase() + ' fish');
+if (fish.location) parts.push(' found in ' + fish.location);
+if (fish.sublocation) parts.push(' (' + fish.sublocation + ')');
+parts.push('.');
+if (fish.baseValue) parts.push(' With a base value of ' + fmt(fish.baseValue) + ' C$/kg');
+if (fish.weightRange) parts.push(' and weight ranging from ' + fmt(fish.weightRange.min) + ' to ' + fmt(fish.weightRange.max) + ' kg');
+if (fish.baseValue && fish.weightRange) parts.push(', this catch can be worth up to ' + fmtC(fish.baseValue * fish.weightRange.max) + ' C$ at max weight.');
+else parts.push('.');
+if (fish.bait && fish.bait.length > 0) parts.push(' Best caught using ' + fish.bait.join(' or ') + '.');
+if (fish.weather && fish.weather.length > 0) parts.push(' Look for ' + fish.weather.join(' or ').toLowerCase() + ' weather.');
+if (fish.event) parts.push(' This is a limited event fish from ' + fish.event + '.');
+const narrative = parts.join('');
+
 ---
 
 <GameLayout
@@ -181,139 +196,228 @@ const formattedMaxValue = tradingValue?.estimatedValue
     )}
   </FischHero>
 
-  <div class="container">
-    <!-- FIELD DATA -->
-    {infoItems.length > 0 && (
-      <section class="info-section" aria-label="Fish stats">
-        <h2 class="section-heading">FIELD DATA</h2>
-        <div class="info-grid">
-          {infoItems.map(item => (
-            <div class="info-card">
-              <span class="info-card__icon">{item.icon}</span>
-              <span class="info-card__label">{item.label}</span>
-              <span class="info-card__value">{item.value}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-    )}
-
-    <!-- CONDITIONS -->
-    {conditions.length > 0 && (
-      <section class="conditions">
-        <h2 class="section-heading">CATCH INTEL</h2>
-        <div class="conditions__list">
-          {conditions.map(c => (
-            <div class="cond-row">
-              <span class="cond-row__icon">{c.icon}</span>
-              <span class="cond-row__label">{c.label}</span>
-              {c.label === 'Location' ? (
-                <a href="/games/fisch/locations/" class="cond-row__value cond-row__link">
-                  {c.value}
-                </a>
-              ) : (
-                <span class="cond-row__value">{c.value}</span>
-              )}
-            </div>
-          ))}
-        </div>
-      </section>
-    )}
-
-    <!-- VALUE CALCULATOR -->
-    {fish.baseValue != null && fish.baseValue > 0 && fish.weightRange && (
-      <section class="calc-section">
-        <h2 class="section-heading">VALUE ASSESSMENT</h2>
-        <FishValueCalc
-          client:visible
-          baseValue={fish.baseValue}
-          weightMin={fish.weightRange.min}
-          weightMax={fish.weightRange.max}
-          baseWeight={fish.baseWeight || fish.weightRange.min}
-          mutations={mutationsData as Mutation[]}
-        />
-      </section>
-    )}
-
-    <!-- TRADING VALUE -->
-    {tradingValue && tradingValue.estimatedValue && (
-      <section class="trading">
-        <h2 class="section-heading">TRADING VALUE</h2>
-        <div class="trading__card">
-          <div class="trading__row">
-            <span class="trading__label">Base Price</span>
-            <span class="trading__val">{fmt(tradingValue.basePrice)} C$/kg</span>
+  <!-- TWO-COLUMN LAYOUT -->
+  <div class="container fish-detail__grid">
+    <!-- LEFT: Main content -->
+    <div class="fish-detail__main">
+      <!-- FIELD DATA -->
+      {infoItems.length > 0 && (
+        <section class="info-section" aria-label="Fish stats" id="field-data">
+          <h2 class="section-heading">FIELD DATA</h2>
+          <div class="info-grid">
+            {infoItems.map(item => (
+              <div class="info-card">
+                <span class="info-card__icon">{item.icon}</span>
+                <span class="info-card__label">{item.label}</span>
+                <span class="info-card__value">{item.value}</span>
+              </div>
+            ))}
           </div>
-          <div class="trading__row">
-            <span class="trading__label">Est. Value (min)</span>
-            <span class="trading__val">{fmtC(tradingValue.estimatedValue.min)} C$</span>
+        </section>
+      )}
+
+      <!-- CONDITIONS -->
+      {conditions.length > 0 && (
+        <section class="conditions" id="catch-intel">
+          <h2 class="section-heading">CATCH INTEL</h2>
+          <div class="conditions__list">
+            {conditions.map(c => (
+              <div class="cond-row">
+                <span class="cond-row__icon">{c.icon}</span>
+                <span class="cond-row__label">{c.label}</span>
+                {c.label === 'Location' ? (
+                  <a href="/games/fisch/locations/" class="cond-row__value cond-row__link">
+                    {c.value}
+                  </a>
+                ) : (
+                  <span class="cond-row__value">{c.value}</span>
+                )}
+              </div>
+            ))}
           </div>
-          <div class="trading__row">
-            <span class="trading__label">Est. Value (max)</span>
-            <span class="trading__val trading__val--highlight">{fmtC(tradingValue.estimatedValue.max)} C$</span>
-          </div>
-          {tradingValue.baseCatchRate != null && tradingValue.baseCatchRate > 0 && (
+        </section>
+      )}
+
+      <!-- VALUE CALCULATOR -->
+      {fish.baseValue != null && fish.baseValue > 0 && fish.weightRange && (
+        <section class="calc-section" id="value-assessment">
+          <h2 class="section-heading">VALUE ASSESSMENT</h2>
+          <FishValueCalc
+            client:visible
+            baseValue={fish.baseValue}
+            weightMin={fish.weightRange.min}
+            weightMax={fish.weightRange.max}
+            baseWeight={fish.baseWeight || fish.weightRange.min}
+            mutations={mutationsData as Mutation[]}
+          />
+        </section>
+      )}
+
+      <!-- TRADING VALUE -->
+      {tradingValue && tradingValue.estimatedValue && (
+        <section class="trading">
+          <h2 class="section-heading">TRADING VALUE</h2>
+          <div class="trading__card">
             <div class="trading__row">
-              <span class="trading__label">Catch Rate</span>
-              <span class="trading__val">{tradingValue.baseCatchRate}%</span>
+              <span class="trading__label">Base Price</span>
+              <span class="trading__val">{fmt(tradingValue.basePrice)} C$/kg</span>
             </div>
+            <div class="trading__row">
+              <span class="trading__label">Est. Value (min)</span>
+              <span class="trading__val">{fmtC(tradingValue.estimatedValue.min)} C$</span>
+            </div>
+            <div class="trading__row">
+              <span class="trading__label">Est. Value (max)</span>
+              <span class="trading__val trading__val--highlight">{fmtC(tradingValue.estimatedValue.max)} C$</span>
+            </div>
+            {tradingValue.baseCatchRate != null && tradingValue.baseCatchRate > 0 && (
+              <div class="trading__row">
+                <span class="trading__label">Catch Rate</span>
+                <span class="trading__val">{tradingValue.baseCatchRate}%</span>
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      <!-- DESCRIPTION -->
+      {fish.description && (
+        <section class="desc-section">
+          <h2 class="section-heading">Description</h2>
+          <p class="desc-section__text">{fish.description}</p>
+        </section>
+      )}
+
+      <!-- OVERVIEW -->
+      <section class="overview">
+        <h2 class="section-heading" id="overview">OVERVIEW</h2>
+        <p class="overview__text">{narrative}</p>
+      </section>
+
+      <!-- QUICK LINKS -->
+      <section class="quick-links">
+        <h2 class="section-heading">Explore More</h2>
+        <div class="quick-links__grid">
+          {fish.baseValue != null && fish.baseValue > 0 && (
+            <a href="/games/fisch/calculator/" class="quick-link">
+              <span class="quick-link__icon">🔄</span>
+              <span class="quick-link__text">Calculate trade value</span>
+            </a>
+          )}
+          <a href="/games/fisch/values/" class="quick-link">
+            <span class="quick-link__icon">💰</span>
+            <span class="quick-link__text">See current value list</span>
+          </a>
+          <a href="/games/fisch/mutations/" class="quick-link">
+            <span class="quick-link__icon">🧬</span>
+            <span class="quick-link__text">Browse all mutations</span>
+          </a>
+          {fish.location && (
+            <a href={`/games/fisch/locations/`} class="quick-link">
+              <span class="quick-link__icon">📍</span>
+              <span class="quick-link__text">All fishing locations</span>
+            </a>
           )}
         </div>
       </section>
-    )}
 
-    <!-- DESCRIPTION -->
-    {fish.description && (
-      <section class="desc-section">
-        <h2 class="section-heading">Description</h2>
-        <p class="desc-section__text">{fish.description}</p>
-      </section>
-    )}
+      <!-- RELATED FISH -->
+      {related.length > 0 && (
+        <section class="related" id="related">
+          <h2 class="section-heading">Other {fish.rarity} Fish</h2>
+          <div class="related__grid">
+            {related.map(r => (
+              <a href={`/games/fisch/fish/${r.id}/`} class="related__card">
+                <div class="related__img-wrap">
+                  {r.imageUrl ? (
+                    <img src={r.imageUrl} alt={r.name} class="related__img" loading="lazy" />
+                  ) : (
+                    <div class="related__img-placeholder">
+                      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity: 0.3; color: var(--text-dim);">
+                        <path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.46-3.44 6-7 6-3.56 0-7.56-2.54-8.5-6Z"/>
+                        <path d="M3 12l3.5-3v6L3 12Z"/>
+                        <circle cx="16" cy="10" r="1" fill="currentColor" stroke="none"/>
+                      </svg>
+                    </div>
+                  )}
+                </div>
+                <span class="related__name">{r.name}</span>
+                {r.baseValue != null && (
+                  <span class="related__value">{fmt(r.baseValue)} C$/kg</span>
+                )}
+              </a>
+            ))}
+          </div>
+          <a href="/games/fisch/fish/" class="related__see-all">See all {fish.rarity} fish &rarr;</a>
+        </section>
+      )}
+    </div>
 
-    <!-- QUICK LINKS -->
-    <section class="quick-links">
-      <h2 class="section-heading">Explore More</h2>
-      <div class="quick-links__grid">
-        {fish.baseValue != null && fish.baseValue > 0 && (
-          <a href="/games/fisch/calculator/" class="quick-link">
-            <span class="quick-link__icon">🔄</span>
-            <span class="quick-link__text">Calculate trade value</span>
-          </a>
-        )}
-        <a href="/games/fisch/values/" class="quick-link">
-          <span class="quick-link__icon">💰</span>
-          <span class="quick-link__text">See current value list</span>
-        </a>
-        <a href="/games/fisch/mutations/" class="quick-link">
-          <span class="quick-link__icon">🧬</span>
-          <span class="quick-link__text">Browse all mutations</span>
-        </a>
-        {fish.location && (
-          <a href={`/games/fisch/locations/`} class="quick-link">
-            <span class="quick-link__icon">📍</span>
-            <span class="quick-link__text">All fishing locations</span>
-          </a>
+    <!-- RIGHT: Info sidebar -->
+    <aside class="fish-detail__aside">
+      <!-- Fish image -->
+      <div class="fish-detail__img-card">
+        {fish.imageUrl ? (
+          <img src={fish.imageUrl} alt={fish.name} class="fish-detail__img-large" loading="lazy" />
+        ) : (
+          <div class="fish-detail__img-placeholder" style={`background: ${rc.bg}`}>
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style={`opacity: 0.3; color: ${rc.border}`}>
+              <path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.46-3.44 6-7 6-3.56 0-7.56-2.54-8.5-6Z"/>
+              <path d="M3 12l3.5-3v6L3 12Z"/>
+              <circle cx="16" cy="10" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+          </div>
         )}
       </div>
-    </section>
 
-    <!-- RELATED FISH -->
-    {related.length > 0 && (
-      <section class="related">
-        <h2 class="section-heading">Other {fish.rarity} Fish</h2>
-        <div class="related__grid">
-          {related.map(r => (
-            <a href={`/games/fisch/fish/${r.id}/`} class="related__card">
-              <span class="related__name">{r.name}</span>
-              {r.baseValue != null && (
-                <span class="related__value">{fmt(r.baseValue)} C$/kg</span>
-              )}
-            </a>
-          ))}
+      <!-- Quick data table -->
+      <div class="fish-detail__qd">
+        <div class="fish-detail__qd-row">
+          <span class="fish-detail__qd-label">Rarity</span>
+          <span class="fish-detail__qd-value" style={`color: ${rc.text}`}>{fish.rarity}</span>
         </div>
-        <a href="/games/fisch/fish/" class="related__see-all">See all {fish.rarity} fish &rarr;</a>
-      </section>
-    )}
+        {fish.location && (
+          <div class="fish-detail__qd-row">
+            <span class="fish-detail__qd-label">Location</span>
+            <span class="fish-detail__qd-value">{fish.sublocation ? `${fish.location} — ${fish.sublocation}` : fish.location}</span>
+          </div>
+        )}
+        {fish.bait.length > 0 && (
+          <div class="fish-detail__qd-row">
+            <span class="fish-detail__qd-label">Bait</span>
+            <span class="fish-detail__qd-value">{fish.bait.join(', ')}</span>
+          </div>
+        )}
+        {fish.baseValue != null && (
+          <div class="fish-detail__qd-row">
+            <span class="fish-detail__qd-label">Base Value</span>
+            <span class="fish-detail__qd-value">{fmt(fish.baseValue)} C$/kg</span>
+          </div>
+        )}
+        {fish.weightRange && (
+          <div class="fish-detail__qd-row">
+            <span class="fish-detail__qd-label">Weight Range</span>
+            <span class="fish-detail__qd-value">{fmt(fish.weightRange.min)} – {fmt(fish.weightRange.max)} kg</span>
+          </div>
+        )}
+        {fish.xp != null && (
+          <div class="fish-detail__qd-row">
+            <span class="fish-detail__qd-label">XP</span>
+            <span class="fish-detail__qd-value">{fmt(fish.xp)}</span>
+          </div>
+        )}
+      </div>
+
+      <!-- Table of contents -->
+      <nav class="fish-detail__toc">
+        <span class="fish-detail__toc-title">ON THIS PAGE</span>
+        <a href="#field-data" class="fish-detail__toc-link">Field Data</a>
+        <a href="#catch-intel" class="fish-detail__toc-link">Catch Intel</a>
+        <a href="#value-assessment" class="fish-detail__toc-link">Value Assessment</a>
+        <a href="#overview" class="fish-detail__toc-link">Overview</a>
+        <a href="#related" class="fish-detail__toc-link">Related Catches</a>
+      </nav>
+    </aside>
   </div>
 </GameLayout>
 
@@ -343,6 +447,160 @@ const formattedMaxValue = tradingValue?.estimatedValue
   }
 
   /* ============================================================
+     TWO-COLUMN GRID LAYOUT
+     ============================================================ */
+
+  .fish-detail__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .fish-detail__grid {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 1.5rem;
+      align-items: start;
+    }
+  }
+
+  .fish-detail__main {
+    min-width: 0;
+  }
+
+  .fish-detail__aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  @media (max-width: 767px) {
+    .fish-detail__aside {
+      order: -1;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .fish-detail__aside {
+      position: sticky;
+      top: calc(var(--topbar-h, 56px) + 1rem);
+    }
+  }
+
+  /* ============================================================
+     SIDEBAR: FISH IMAGE
+     ============================================================ */
+
+  .fish-detail__img-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fish-detail__img-large {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+  }
+
+  .fish-detail__img-placeholder {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ============================================================
+     SIDEBAR: QUICK DATA TABLE
+     ============================================================ */
+
+  .fish-detail__qd {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .fish-detail__qd-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.85rem;
+  }
+
+  .fish-detail__qd-row:last-child {
+    border-bottom: none;
+  }
+
+  .fish-detail__qd-label {
+    color: var(--text-dim);
+    font-weight: 500;
+  }
+
+  .fish-detail__qd-value {
+    font-weight: 600;
+    color: var(--text);
+    text-align: right;
+  }
+
+  /* ============================================================
+     SIDEBAR: TABLE OF CONTENTS
+     ============================================================ */
+
+  .fish-detail__toc {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .fish-detail__toc-title {
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.25rem;
+  }
+
+  .fish-detail__toc-link {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    padding: 0.25rem 0;
+    transition: color 0.2s;
+  }
+
+  .fish-detail__toc-link:hover {
+    color: var(--accent-secondary, #22D3EE);
+  }
+
+  /* ============================================================
+     OVERVIEW SECTION
+     ============================================================ */
+
+  .overview {
+    padding-bottom: 1.5rem;
+  }
+
+  .overview__text {
+    font-size: 0.88rem;
+    color: var(--text-dim);
+    line-height: 1.7;
+  }
+
+  /* ============================================================
      INFO GRID
      ============================================================ */
 
@@ -361,6 +619,10 @@ const formattedMaxValue = tradingValue?.estimatedValue
   }
 
   @media (min-width: 768px) {
+    .info-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  @media (min-width: 1024px) {
     .info-grid { grid-template-columns: repeat(6, 1fr); }
   }
 
@@ -664,23 +926,54 @@ const formattedMaxValue = tradingValue?.estimatedValue
   }
 
   @media (min-width: 768px) {
+    .related__grid { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  @media (min-width: 1024px) {
     .related__grid { grid-template-columns: repeat(5, 1fr); }
   }
 
   .related__card {
     display: flex;
     flex-direction: column;
-    gap: 0.15rem;
+    align-items: center;
+    gap: 0.3rem;
     padding: 0.65rem 0.75rem;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 10px;
     transition: border-color 0.2s, transform 0.2s;
+    text-align: center;
   }
 
   .related__card:hover {
     border-color: rgba(6, 214, 160, 0.35);
     transform: translateY(-1px);
+  }
+
+  .related__img-wrap {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .related__img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  .related__img-placeholder {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--bg-deep, rgba(255, 255, 255, 0.05));
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .related__name {
@@ -691,6 +984,7 @@ const formattedMaxValue = tradingValue?.estimatedValue
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    max-width: 100%;
   }
 
   .related__value {

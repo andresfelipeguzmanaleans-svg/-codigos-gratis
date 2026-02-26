@@ -555,7 +555,9 @@ const itemListSchema = {
     width: 32px;
     height: 32px;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   :global(.vt__td--name) { font-weight: 600; }
@@ -576,6 +578,12 @@ const itemListSchema = {
     font-family: var(--font-display);
     font-size: 0.82rem;
     color: var(--text);
+  }
+
+  :global(.vt__val-accent) {
+    color: #22D3EE;
+    font-family: var(--font-mono);
+    font-weight: 600;
   }
 
   :global(.vt__est) {

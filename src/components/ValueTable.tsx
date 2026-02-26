@@ -237,6 +237,7 @@ export default function ValueTable({ items, rarities, maxBaseValue }: Props) {
                 <tr
                   key={f.id}
                   className="vt__row"
+                  style={{ borderLeft: `3px solid ${RARITY_COLORS[f.rarity] || '#888'}` }}
                   onClick={() => { window.location.href = `/games/fisch/fish/${f.id}/`; }}
                 >
                   <td className="vt__td vt__td--img">
@@ -249,7 +250,13 @@ export default function ValueTable({ items, rarities, maxBaseValue }: Props) {
                         onError={(e: any) => { e.target.style.display = 'none'; }}
                       />
                     ) : (
-                      <div className="vt__thumb-ph" />
+                      <div className="vt__thumb-ph" style={{ background: (RARITY_COLORS[f.rarity] || '#888') + '15' }}>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.3, color: RARITY_COLORS[f.rarity] || '#888' }}>
+                          <path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.46-3.44 6-7 6-3.56 0-7.56-2.54-8.5-6Z"/>
+                          <path d="M3 12l3.5-3v6L3 12Z"/>
+                          <circle cx="16" cy="10" r="1" fill="currentColor" stroke="none"/>
+                        </svg>
+                      </div>
                     )}
                   </td>
                   <td className="vt__td vt__td--name">
@@ -275,7 +282,7 @@ export default function ValueTable({ items, rarities, maxBaseValue }: Props) {
                   </td>
                   <td className="vt__td vt__td--val">
                     {f.baseValue != null ? (
-                      <span className="vt__val">{f.baseValue.toLocaleString('en-US')} C$/kg</span>
+                      <span className="vt__val"><span className="vt__val-accent">{f.baseValue.toLocaleString('en-US')}</span> C$/kg</span>
                     ) : '—'}
                   </td>
                   <td className="vt__td vt__td--est">
