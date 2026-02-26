@@ -1,5 +1,7 @@
 ---
 import Footer from '../components/Footer.astro';
+import SearchPalette from '../components/SearchPalette.tsx';
+import type { SearchItem } from '../components/SearchPalette.tsx';
 
 interface BreadcrumbItem {
   label: string;
@@ -112,6 +114,21 @@ const ico: Record<string, string> = {
   x: '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
   chevron: '<path d="m9 18 6-6-6-6"/>',
 };
+
+// --- Search palette data (Fisch only) ---
+let searchItems: SearchItem[] = [];
+if (gameSlug === 'fisch') {
+  const fishData = (await import('../data/games/fisch/fish.json')).default as any[];
+  const mutData = (await import('../data/games/fisch/mutations.json')).default as any[];
+  const rodData = (await import('../data/games/fisch/rods.json')).default as any[];
+  const locData = (await import('../data/games/fisch/locations.json')).default as any[];
+  searchItems = [
+    ...fishData.filter((f: any) => f.id && f.name).map((f: any) => ({ i: f.id, n: f.name, t: 'f' as const, x: f.rarity || undefined })),
+    ...mutData.filter((m: any) => m.id && m.name).map((m: any) => ({ i: m.id, n: m.name, t: 'm' as const, x: m.category || undefined })),
+    ...rodData.filter((r: any) => r.id && r.name).map((r: any) => ({ i: r.id, n: r.name, t: 'r' as const })),
+    ...locData.filter((l: any) => l.id && l.name).map((l: any) => ({ i: l.id, n: l.name, t: 'l' as const })),
+  ];
+}
 ---
 
 <!doctype html>
@@ -172,10 +189,11 @@ const ico: Record<string, string> = {
           <span class="topbar__brand-badge">Guide</span>
         </a>
 
-        <form class="topbar__search" action={`/games/${gameSlug}/fish/`} method="get">
+        <button class="topbar__search" type="button" id="searchTrigger">
           <svg class="topbar__search-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.search} />
-          <input class="topbar__search-input" type="text" name="q" placeholder="Search fish, rods, mutations..." autocomplete="off" />
-        </form>
+          <span class="topbar__search-text">Search...</span>
+          <kbd class="topbar__search-kbd">Ctrl K</kbd>
+        </button>
       </div>
     </header>
 
@@ -341,6 +359,18 @@ const ico: Record<string, string> = {
       import { inject } from '@vercel/analytics';
       inject();
     </script>
+
+    {/* Search palette trigger script */}
+    <script>
+      document.getElementById('searchTrigger')?.addEventListener('click', () => {
+        window.dispatchEvent(new CustomEvent('open-search'));
+      });
+    </script>
+
+    {/* Search palette */}
+    {gameSlug === 'fisch' && searchItems.length > 0 && (
+      <SearchPalette client:idle items={searchItems} gameSlug={gameSlug} />
+    )}
   </body>
 </html>
 
@@ -524,44 +554,54 @@ const ico: Record<string, string> = {
     position: relative;
     display: flex;
     align-items: center;
+    gap: 0.5rem;
     margin-left: auto;
-  }
-
-  .topbar__search-ico {
-    position: absolute;
-    left: 0.75rem;
-    width: 16px;
-    height: 16px;
-    color: var(--text-dim);
-    pointer-events: none;
-  }
-
-  .topbar__search-input {
-    width: 100%;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 0.45rem 0.75rem 0.45rem 2.25rem;
-    color: var(--text);
+    color: var(--text-dim);
     font-family: var(--font-body);
     font-size: 0.85rem;
-    outline: none;
-    transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
   }
 
-  .topbar__search-input:focus {
+  .topbar__search:hover {
     border-color: var(--accent);
     background: rgba(255, 255, 255, 0.08);
-    box-shadow: 0 0 0 3px rgba(29, 162, 216, 0.1);
   }
 
-  .topbar__search-input::placeholder {
+  .topbar__search-text {
+    flex: 1;
+    text-align: left;
+  }
+
+  .topbar__search-kbd {
+    font-family: var(--font-body);
+    font-size: 0.65rem;
+    font-weight: 600;
     color: var(--text-dim);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 5px;
+    line-height: 1.4;
+    white-space: nowrap;
   }
 
   @media (max-width: 479px) {
     .topbar__search {
+      max-width: none;
+      flex: 0 0 auto;
+      padding: 0.45rem 0.6rem;
+    }
+    .topbar__search-text,
+    .topbar__search-kbd {
       display: none;
+    }
+    .topbar__search-ico {
+      position: static;
     }
   }
 
@@ -1084,6 +1124,195 @@ const ico: Record<string, string> = {
 
   @media (min-width: 768px) {
     .bsheet {
+      display: none;
+    }
+  }
+
+  /* ==========================================================================
+     SEARCH PALETTE (React component global styles)
+     ========================================================================== */
+
+  :global(.sp__overlay) {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: min(20vh, 120px);
+  }
+
+  :global(.sp__modal) {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 1rem;
+    background: var(--bg-card, #0F1D35);
+    border: 1px solid var(--border, #1e293b);
+    border-radius: 16px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: 70vh;
+  }
+
+  :global(.sp__input-wrap) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border, #1e293b);
+  }
+
+  :global(.sp__input-ico) {
+    flex-shrink: 0;
+    color: var(--text-dim, #64748b);
+  }
+
+  :global(.sp__input) {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text, #e8eaf0);
+    font-family: var(--font-body, system-ui);
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  :global(.sp__input::placeholder) {
+    color: var(--text-dim, #64748b);
+  }
+
+  :global(.sp__kbd) {
+    font-family: var(--font-body, system-ui);
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: var(--text-dim, #64748b);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border, #1e293b);
+    border-radius: 4px;
+    padding: 2px 6px;
+    line-height: 1.4;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  :global(.sp__kbd--sm) {
+    font-size: 0.6rem;
+    padding: 1px 4px;
+  }
+
+  :global(.sp__results) {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0.5rem;
+  }
+
+  :global(.sp__hint),
+  :global(.sp__empty) {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    color: var(--text-dim, #64748b);
+    font-size: 0.88rem;
+  }
+
+  :global(.sp__group) {
+    margin-bottom: 0.25rem;
+  }
+
+  :global(.sp__group-header) {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-dim, #64748b);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  :global(.sp__group-icon) {
+    font-size: 0.85rem;
+  }
+
+  :global(.sp__item) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    color: var(--text, #e8eaf0);
+    font-size: 0.88rem;
+    text-decoration: none;
+    transition: background 0.1s;
+    cursor: pointer;
+  }
+
+  :global(.sp__item:hover),
+  :global(.sp__item--active) {
+    background: rgba(29, 162, 216, 0.1);
+  }
+
+  :global(.sp__item-name) {
+    flex: 1;
+    font-weight: 500;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  :global(.sp__item-extra) {
+    font-size: 0.75rem;
+    color: var(--text-dim, #64748b);
+    font-weight: 500;
+    flex-shrink: 0;
+  }
+
+  :global(.sp__item-arrow) {
+    flex-shrink: 0;
+    color: var(--text-dim, #64748b);
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+
+  :global(.sp__item:hover .sp__item-arrow),
+  :global(.sp__item--active .sp__item-arrow) {
+    opacity: 1;
+  }
+
+  :global(.sp__footer) {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-top: 1px solid var(--border, #1e293b);
+  }
+
+  :global(.sp__footer-hint) {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.7rem;
+    color: var(--text-dim, #64748b);
+  }
+
+  @media (max-width: 479px) {
+    :global(.sp__overlay) {
+      padding-top: 0;
+      align-items: flex-start;
+    }
+    :global(.sp__modal) {
+      max-height: 100vh;
+      border-radius: 0;
+      margin: 0;
+      max-width: none;
+    }
+    :global(.sp__footer) {
       display: none;
     }
   }
