@@ -26,20 +26,50 @@ const totalGames = allGames.length;
 const totalCodes = allGames.reduce((sum, g) => sum + g.activeCodes.length, 0);
 const gamesWithCodes = allGames.filter(g => g.activeCodes.length > 0).length;
 
-// All games sorted by lastUpdated (default sort)
+// Default sort: most popular first (totalVisits desc)
 const sortedGames = [...allGames]
-  .sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime());
+  .sort((a, b) => (b.totalVisits || 0) - (a.totalVisits || 0));
 
-// Extract unique genres sorted by frequency
+// Genre translation map
+const genreTranslations: Record<string, string> = {
+  'Adventure': 'Aventura',
+  'Fighting': 'Lucha',
+  'RPG': 'RPG',
+  'Town and City': 'Ciudad',
+  'Horror': 'Terror',
+  'Sports': 'Deportes',
+  'Building': 'Construcción',
+  'Comedy': 'Comedia',
+  'FPS': 'FPS',
+  'Sci-Fi': 'Ciencia Ficción',
+  'Simulator': 'Simulador',
+  'Military': 'Militar',
+  'Racing': 'Carreras',
+  'Medieval': 'Medieval',
+  'Simulation': 'Simulación',
+  'Tower Defense': 'Defensa de Torres',
+  'Tycoon': 'Tycoon',
+  'Shooter': 'Disparos',
+  'Shopping': 'Compras',
+  'Action': 'Acción',
+  'Western': 'Western',
+  'Animal Sim': 'Animales',
+  'Rhythm': 'Ritmo',
+  'Roleplay': 'Roleplay',
+  'Social': 'Social',
+  'Survival': 'Supervivencia',
+};
+
+// Extract unique genres sorted by frequency (exclude "All" — it's generic)
 const genreCounts: Record<string, number> = {};
 allGames.forEach(g => {
-  if (g.genre) {
+  if (g.genre && g.genre !== 'All') {
     genreCounts[g.genre] = (genreCounts[g.genre] || 0) + 1;
   }
 });
 const genres = Object.entries(genreCounts)
   .sort((a, b) => b[1] - a[1])
-  .map(([genre]) => genre);
+  .map(([genre]) => ({ key: genre, label: genreTranslations[genre] || genre }));
 
 // Top games with valid thumbnails for hero mosaic
 const topWithThumb = [...allGames]
@@ -132,30 +162,30 @@ const allGamesData = sortedGames.map(g => ({
         <div class="filter-dropdown-wrap">
           <span class="filter-dropdown-label">GENERO</span>
           <select class="filter-select" id="genre-select">
-            <option value="all">Todos los Generos</option>
-            {genres.map((genre) => (
-              <option value={genre}>{genre}</option>
+            <option value="all">Todos los Géneros</option>
+            {genres.map(({ key, label }) => (
+              <option value={key}>{label}</option>
             ))}
           </select>
         </div>
         <div class="filter-dropdown-wrap">
           <span class="filter-dropdown-label">ORDENAR POR</span>
           <select class="filter-select" id="sort-select">
+            <option value="most-popular">Más Populares</option>
             <option value="latest">Últimos Códigos</option>
             <option value="most-codes">Más Códigos</option>
             <option value="least-codes">Menos Códigos</option>
             <option value="name-az">Nombre A-Z</option>
             <option value="name-za">Nombre Z-A</option>
-            <option value="most-popular">Más Populares</option>
           </select>
         </div>
       </div>
 
       <!-- Genre pills -->
       <div class="genre-pills" id="genre-pills">
-        <button class="pill pill--active" data-genre="all">All</button>
-        {genres.map((genre) => (
-          <button class="pill" data-genre={genre}>{genre}</button>
+        <button class="pill pill--active" data-genre="all">Todos</button>
+        {genres.map(({ key, label }) => (
+          <button class="pill" data-genre={key}>{label}</button>
         ))}
       </div>
     </section>
@@ -261,7 +291,7 @@ const allGamesData = sortedGames.map(g => ({
 
   // ---- State ----
   let currentGenre = 'all';
-  let currentSort = 'latest';
+  let currentSort = 'most-popular';
   let filteredGames = [...allGamesData];
   let shown = Math.min(60, filteredGames.length);
   const BATCH = 60;
@@ -523,6 +553,7 @@ const allGamesData = sortedGames.map(g => ({
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid rgba(30, 41, 59, 0.5);
+    overflow: hidden;
   }
 
   .filter-header {
@@ -671,15 +702,9 @@ const allGamesData = sortedGames.map(g => ({
   /* Genre pills */
   .genre-pills {
     display: flex;
+    flex-wrap: wrap;
     gap: 0.4rem;
-    overflow-x: auto;
-    scrollbar-width: none;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 0.25rem;
-  }
-
-  .genre-pills::-webkit-scrollbar {
-    display: none;
+    max-width: 100%;
   }
 
   .pill {
