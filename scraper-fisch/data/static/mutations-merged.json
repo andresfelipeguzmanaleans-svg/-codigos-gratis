@@ -1,0 +1,3047 @@
+[
+  {
+    "id": "oceans-ruin",
+    "name": "Ocean's Ruin",
+    "multiplier": 10.2,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with Thalassar's Ruin (30% chance, 10% chance from passive)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "tryhard",
+    "name": "Tryhard",
+    "multiplier": 10,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Tryhard Rod (100% chance)",
+    "wikiNotes": "Only obtainable with Tryhard Rod (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "ascended",
+    "name": "Ascended",
+    "multiplier": 9.9,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Masterline Rod (25% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "requies",
+    "name": "Requies",
+    "multiplier": 9.8,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Requiem (20% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "astraeus",
+    "name": "Astraeus",
+    "multiplier": 9.6,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with Astraeus Serenade (15% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "withered",
+    "name": "Withered",
+    "multiplier": 9.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Withered Spear (25% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "permafrost",
+    "name": "Permafrost",
+    "multiplier": 9.5,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Fischmas 2 exclusive. Obtainable year-round with the North Pole (25% chance), or During a Frost Moon (0.5% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "darkness",
+    "name": "Darkness",
+    "multiplier": 9.4,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Sword of Darkness (100% chance during passive)",
+    "wikiNotes": "Only obtainable with Sword of Darkness (100% chance during passive)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "royal",
+    "name": "Royal",
+    "multiplier": 9.4,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Royal Spear (35% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "fabulous",
+    "name": "Fabulous",
+    "multiplier": 9.3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Fabulous Rod (26% chance)",
+    "wikiNotes": "Only obtainable with Fabulous Rod (26% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "embraced",
+    "name": "Embraced",
+    "multiplier": 9.1,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Valentides (2026) exclusive. Obtainable year-round with Cupid's Embrace (25% chance, 40% chance when fishing near another player with Cupid's Embrace)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "umbra",
+    "name": "Umbra",
+    "multiplier": 9,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with the Fang of the Eclipse during an Eclipse (10% chance)",
+    "wikiNotes": "Only obtainable with the Fang of the Eclipse during an Eclipse (10% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "mastered",
+    "name": "Mastered",
+    "multiplier": 9,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Luminescent Oath or Ruinous Oath (100% chance perfect catch)",
+    "wikiNotes": "Only obtainable with the Luminescent Oath or the Ruinous Oath (100% chance perfect catch)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "frostbitten",
+    "name": "Frostbitten",
+    "multiplier": 9,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Fischmas 2 exclusive. Obtainable year-round with the Maelstrom (30% chance), or During a Frost Moon (2% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "nightmare",
+    "name": "Nightmare",
+    "multiplier": 8.8,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with the Dusekkar Rod (20% chance)",
+    "wikiNotes": "Only obtainable with the Dusekkar Rod (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "mossy",
+    "name": "Mossy",
+    "multiplier": 8.7,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Elder Mossripper (5% base chance, 100% after passive)",
+    "wikiNotes": "Only obtainable with Elder Mossripper (5% base chance and 100% chance after the passive is active)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "puritas",
+    "name": "Puritas",
+    "multiplier": 8.7,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with the Onirifalx (3% chance, +4% with Mastery Passive)",
+    "wikiNotes": "Only obtainable with the Onirifalx (3% chance, and +4% chance when Mastery Passive is active)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "igneous",
+    "name": "Igneous",
+    "multiplier": 8.65,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Igneous Rupturer (30% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "distraught",
+    "name": "Distraught",
+    "multiplier": 8.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Dreambreaker (25% Day, 35% Night)",
+    "wikiNotes": "Only obtainable with the Dreambreaker (25% chance during Day, 35% chance during Night)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "blessed",
+    "name": "Blessed",
+    "multiplier": 8.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Seraphic Rod (30% chance, +5% with Mastery Passive)",
+    "wikiNotes": "Only obtainable with the Seraphic Rod (30% chance, and +5% chance when Mastery Passive is active) or with the Masterline Rod (2% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "jacks-curse",
+    "name": "Jack's Curse",
+    "multiplier": 8.5,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Jack-o-Blazer (2% chance)",
+    "wikiNotes": "Only obtainable with the  Jack-o-Blazer (2% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "oblivion",
+    "name": "Oblivion",
+    "multiplier": 8.5,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Continental Drift exclusive - meteor impact event",
+    "wikiNotes": "Continental Drift exclusive. Only fished up when the meteor was close to impact during the beginning of the Continental Drift update",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "noctic",
+    "name": "Noctic",
+    "multiplier": 8.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable when using Noctic Larva (100% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "santa",
+    "name": "Santa",
+    "multiplier": 8.5,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Fischmas 2 exclusive. Obtainable year-round with Santa's Miracle Rod (20% chance), or Santa Enchantment (~6% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "multiplier": 8.3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable when using Obsidian-Bone (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "breezed",
+    "name": "Breezed",
+    "multiplier": 8.2,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Wind Elemental (25% chance)",
+    "wikiNotes": "Only obtainable with the Wind Elemental (25% chance), or Astraeus Serenade (8% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "popsicle",
+    "name": "Popsicle",
+    "multiplier": 8.16,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": "Fischfest exclusive. Year-round with Popsicle Rod (15% chance)",
+    "wikiNotes": "Fischfest exclusive. Obtainable year-round with the Popsicle Rod (15% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "alien",
+    "name": "Alien",
+    "multiplier": 8,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Aliens and MEGA MAYHEM events, or UFO Bait (100% chance)",
+    "wikiNotes": "Only obtainable during the Aliens and MEGA MAYHEM events, or by using UFO at a 100% chance",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "chlorowoken",
+    "name": "Chlorowoken",
+    "multiplier": 8,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Verdant Vortex, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events",
+    "wikiNotes": "Only obtainable during the Verdant Vortex, Semi Chaos, MAYHEM, MEGA MAYHEM, and MADNESS events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "fragmented",
+    "name": "Fragmented",
+    "multiplier": 8,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Glitchstorm and MEGA MAYHEM events",
+    "wikiNotes": "Only obtainable during the Glitchstorm and MEGA MAYHEM events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "galaxy",
+    "name": "Galaxy",
+    "multiplier": 8,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Galaxy event, or Star Bait (100% chance)",
+    "wikiNotes": "Only obtainable during the Galaxy event, or by using Star at a 100% chance",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "glacial",
+    "name": "Glacial",
+    "multiplier": 8,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Snowstorm, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events",
+    "wikiNotes": "Only obtainable during Snowstorm, Semi Chaos, MAYHEM, MEGA MAYHEM, and MADNESS events, or with the Frostbane Rod at a 1% chance (3% during Winter)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "madness",
+    "name": "Madness",
+    "multiplier": 8,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "MADNESS and LEVIATHAN RAMPAGE events",
+    "wikiNotes": "Only obtainable during the MADNESS and Leviathan Rampage events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "mayhem",
+    "name": "Mayhem",
+    "multiplier": 8,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "LEVIATHAN RAMPAGE, MAYHEM, MEGA MAYHEM, MADNESS, CORRUPTION events",
+    "wikiNotes": "Only obtainable during the Leviathan Rampage, MAYHEM, MEGA MAYHEM, MADNESS, and CORRUPTION events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "radiant",
+    "name": "Radiant",
+    "multiplier": 8,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Goldstorm, Buffed Goldstorm, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events",
+    "wikiNotes": "Only obtainable during the Goldstorm, Buffed Goldstorm, Semi Chaos, MAYHEM, MEGA MAYHEM, and MADNESS events, or by using Golden Coin at a 100% chance",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "spectral",
+    "name": "Spectral",
+    "multiplier": 8,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Spectral Tide, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events",
+    "wikiNotes": "Only obtainable during the Spectral Tide, Semi Chaos, MAYHEM, MEGA MAYHEM, and MADNESS events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "spicy",
+    "name": "Spicy",
+    "multiplier": 8,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Tacos event, or Taco Bait (100% chance)",
+    "wikiNotes": "Only obtainable during the Tacos event, or by using Taco at a 100% chance",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "gleebous",
+    "name": "Gleebous",
+    "multiplier": 8,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Blade Of Glorp (23% chance, +10% with Mastery Passive), or Gleebous Abundance at Roslit Bay",
+    "wikiNotes": "Only obtainable when using Blade Of Glorp (23% chance, and +10% chance when Mastery Passive is active), or fished up naturally from Gleebous Abundance at Roslit Bay",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "glowy",
+    "name": "Glowy",
+    "multiplier": 8,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Glowworm Bait (100% chance), or Noctone (40% chance)",
+    "wikiNotes": "Only obtainable when using Glowworm Bait (100% chance), or the Noctone (40% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "chaotic",
+    "name": "Chaotic",
+    "multiplier": 8,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Chaotic Enchantment (8% chance), Duskwire (30% chance, +20% with Mastery Passive)",
+    "wikiNotes": "Only obtainable with the Chaotic Enchantment (8% chance), Duskwire (30% chance, and +20% chance when Mastery Passive is active, or 97% after a perfect catch)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "atomic",
+    "name": "Atomic",
+    "multiplier": 8,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Waters affected by Atomic Nuke (100% chance)",
+    "wikiNotes": "Only obtainable around waters affected by a Atomic Nuke (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "frostnova",
+    "name": "Frostnova",
+    "multiplier": 8,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Fischmas 2025 exclusive. Year-round with Frostnova Bait (30% chance)",
+    "wikiNotes": "Fischmas 2 exclusive. Obtainable year-round with Frostnova Bait (30% chance), or During a Frost Moon (1% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "birthday",
+    "name": "Birthday",
+    "multiplier": 8,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": "Only during Anniversary (0.04% chance)",
+    "wikiNotes": "Only obtainable during Anniversary (0.04% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "nocturnal",
+    "name": "Nocturnal",
+    "multiplier": 8,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only with Wingripper (7% chance)",
+    "wikiNotes": "Only obtainable with Wingripper (7% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "serene",
+    "name": "Serene",
+    "multiplier": 8,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Polaris Serenade (20% chance), or Duskwire (2% chance, 4% after perfect catch)",
+    "wikiNotes": "Only obtainable with the Duskwire (2% chance, or 3% after a perfect catch), Polaris Serenade (18% chance), or the Astraeus Serenade (10% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "surreal",
+    "name": "Surreal",
+    "multiplier": 8,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Nulltide, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events (0-8× variable)",
+    "wikiNotes": "Only obtainable during the Nulltide, Semi Chaos, MAYHEM, MEGA MAYHEM, and MADNESS events, or by using Singularity at a 100% chance",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "jingle-bell",
+    "name": "Jingle Bell",
+    "multiplier": 8,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "Fischmas 2 exclusive. Obtainable year-round with Jinglestar Rod (25% chance), or Santa Enchantment (~6% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "lovely",
+    "name": "Lovely",
+    "multiplier": 8,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Valentides (2026) exclusive. Obtainable year-round with the Valentine's Enchantment (~15% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "heartburst",
+    "name": "Heartburst",
+    "multiplier": 8,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Valentides (2026) exclusive. Obtainable year-round around waters affected by a Love Nuke (100% chance), with Cupid's Bow (10% chance), or with Cerebra (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "tentacle-surge",
+    "name": "Tentacle Surge",
+    "multiplier": 7.8,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Kraken Rod (10% chance)",
+    "wikiNotes": "Only obtainable with the Kraken Rod (10% chance), or the Dead Man's Rod (10% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "jackpot",
+    "name": "Jackpot",
+    "multiplier": 7.77,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Random Rod (50% chance)",
+    "wikiNotes": "Only obtainable with the Random Rod (50% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "mourned",
+    "name": "Mourned",
+    "multiplier": 7.5,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Tidemourner (35% chance); Can be fished up at Tidefall",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "necrotic",
+    "name": "Necrotic",
+    "multiplier": 7.4,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Necrotic Rod (30% chance)",
+    "wikiNotes": "Only obtainable with the Necrotic Rod 30% (chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "patriotic",
+    "name": "Patriotic",
+    "multiplier": 7.4,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Patriot Rod (20% chance)",
+    "wikiNotes": "Only obtainable with the  Patriot Rod (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "magical",
+    "name": "Magical",
+    "multiplier": 7.2,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Merlin's Staff (25% chance)",
+    "wikiNotes": "Only obtainable with the Merlin's Staff (25% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "sacratus",
+    "name": "Sacratus",
+    "multiplier": 7,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Onirifalx (7% chance, +6% with Mastery Passive)",
+    "wikiNotes": "Only obtainable with the Onirifalx (7% chance, and +6% chance when Mastery Passive is active)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "shrouded",
+    "name": "Shrouded",
+    "multiplier": 7,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Elder Mossripper; can be fished at Lost Jungle",
+    "wikiNotes": "More common with the Elder Mossripper (20% chance); Can be fished up at Lost Jungle",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "tidal",
+    "name": "Tidal",
+    "multiplier": 7,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Rod Of The Forgotten Fang (25% chance, 100% with megalodon passive)",
+    "wikiNotes": "Only obtainable with the Rod Of The Forgotten Fang (25% chance) or with the Rod Of The Forgotten Fang's megalodon passive (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "lustrous",
+    "name": "Lustrous",
+    "multiplier": 7,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Goldstorm, Buffed Goldstorm, MAYHEM, MEGA MAYHEM, MADNESS events",
+    "wikiNotes": "Only obtainable during the Goldstorm, Buffed Goldstorm, MAYHEM, MEGA MAYHEM, and MADNESS events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "multiplier": 7,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "67 Warriors, Pond Emperor Uprising, Secret Storm, Mango, MAYHEM events",
+    "wikiNotes": "Only obtainable during the 67 Warriors, Pond Emperor Uprising, Secret Storm, Mango, MAYHEM, MEGA MAYHEM, and MADNESS events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "diurnal",
+    "name": "Diurnal",
+    "multiplier": 7,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Wingripper (27% chance)",
+    "wikiNotes": "Only obtainable with Wingripper (27% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "flora",
+    "name": "Flora",
+    "multiplier": 7,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Chrysalis (8% chance)",
+    "wikiNotes": "Only obtainable with the Chrysalis (8% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "infernal",
+    "name": "Infernal",
+    "multiplier": 7,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Cinderstring (5% stage 2, 15% stage 3)",
+    "wikiNotes": "Only obtainable with the Cinderstring (5% chance at stage 2, 15% chance at stage 3)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "sweet",
+    "name": "Sweet",
+    "multiplier": 7,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "Valentides (2026) exclusive. Obtainable year-round with the Valentine's Enchantment (~15% chance), or Cupid Enchantment (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "tormented",
+    "name": "Tormented",
+    "multiplier": 6.66,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Skies of Anguish, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events",
+    "wikiNotes": "Only obtainable during the Skies of Anguish, Semi Chaos, MAYHEM, MEGA MAYHEM, and MADNESS events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "wicked",
+    "name": "Wicked",
+    "multiplier": 6.6,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Jack-o-Blazer (20% chance)",
+    "wikiNotes": "Only obtainable with the  Jack-o-Blazer (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "venomous",
+    "name": "Venomous",
+    "multiplier": 6.5,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Verdant Vortex, MAYHEM, MEGA MAYHEM, MADNESS events",
+    "wikiNotes": "Only obtainable during the Verdant Vortex, MAYHEM, MEGA MAYHEM, and MADNESS events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "evil",
+    "name": "Evil",
+    "multiplier": 6.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Evil Pitchfork (20% chance)",
+    "wikiNotes": "Only obtainable with the Evil Pitchfork (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora",
+    "multiplier": 6.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Aurora Borealis (1% chance); Aurora Rod (15% chance, 30% during Aurora)",
+    "wikiNotes": "Can be fished up during Aurora Borealis at a 1% chance; Obtainable with the Aurora Rod (15% chance, 30% during Aurora Borealis, and +10% chance when Mastery Passive is active), or when using Aurora Bait (15% chance, 30% during Aurora Borealis)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "luminescent",
+    "name": "Luminescent",
+    "multiplier": 6.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Luminescent Oath (15% chance) or Ruinous Oath (25% chance)",
+    "wikiNotes": "Only obtainable with the Luminescent Oath (15% chance) or the Ruinous Oath (25% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "oscar",
+    "name": "Oscar",
+    "multiplier": 6.4,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Great Rod of Oscar (5% chance)",
+    "wikiNotes": "Only obtainable with the Great Rod of Oscar (5% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "summer",
+    "name": "Summer",
+    "multiplier": 6.2,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": "June to August 2025 exclusive. Year-round with Tidal Wave Rod (5% chance)",
+    "wikiNotes": "Fischfest exclusive. Obtainable year-round with the Tidal Wave Rod (5% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "nuclear",
+    "name": "Nuclear",
+    "multiplier": 6,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Waters affected by Nuke or Cursed Nuke (100% chance)",
+    "wikiNotes": "Only obtainable around waters affected by a Nuke or a Cursed Nuke (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "toxic",
+    "name": "Toxic",
+    "multiplier": 6,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Toxic Spire Rod (15% chance)",
+    "wikiNotes": "Only obtainable with Toxic Spire Rod (15% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "nova",
+    "name": "Nova",
+    "multiplier": 6,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Starfall (5% chance); Rod of the Cosmos (15% chance); Cerulean Fang Rod (15% chance)",
+    "wikiNotes": "Can be fished up during Starfall at a 5% chance; Obtainable with the Rod of the Cosmos (15% chance), Cerulean Fang Rod (15% chance), and with Astraeus Serenade (8% chance) or when using Starlight Worm Bait (30% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "heavenly",
+    "name": "Heavenly",
+    "multiplier": 6,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Heaven's Rod (35% chance)",
+    "wikiNotes": "Only obtainable with the Heaven's Rod (35% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "subspace",
+    "name": "Subspace",
+    "multiplier": 6,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Quantum Enchantment (25% chance)",
+    "wikiNotes": "Only obtainable with the Quantum Enchantment (25% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "chilled",
+    "name": "Chilled",
+    "multiplier": 6,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Snowstorm, 67 Warriors, Secret Storm, MAYHEM events",
+    "wikiNotes": "Only obtainable during the Snowstorm, 67 Warriors, Secret Storm, MAYHEM, MEGA MAYHEM, and MADNESS events, or with the Frostbane Rod at a 10% chance (30% during Winter)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "fortune",
+    "name": "Fortune",
+    "multiplier": 6,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Goldstorm, Buffed Goldstorm, Secret Storm events",
+    "wikiNotes": "Only obtainable during the Goldstorm, Buffed Goldstorm, and Secret Storm events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "haunted",
+    "name": "Haunted",
+    "multiplier": 6,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Spectral Tide, MAYHEM, MEGA MAYHEM, MADNESS events",
+    "wikiNotes": "Only obtainable during the Spectral Tide, MAYHEM, MEGA MAYHEM, and MADNESS events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "eerie",
+    "name": "Eerie",
+    "multiplier": 6,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": "FischFright 2025 exclusive. Year-round with Spooky Rod or Eerie Enchantment (10% chance)",
+    "wikiNotes": "FischFright 2 exclusive. Obtainable year-round with the Spooky Rod (~3.3% chance) or Eerie Enchantment (10% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "frightful",
+    "name": "Frightful",
+    "multiplier": 6,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": "FischFright 2025 exclusive. Year-round with Spooky Rod or Frightful Enchantment (10% chance)",
+    "wikiNotes": "FischFright 2 exclusive. Obtainable year-round with the Spooky Rod (~3.3% chance) or Frightful Enchantment (10% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "snowy",
+    "name": "Snowy",
+    "multiplier": 6,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Fallen Snowblade (25% chance, 45% Winter, 5% Summer)",
+    "wikiNotes": "Only obtainable with the Fallen Snowblade (25% chance, 45% during Winter and 5% during Summer)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "spooky",
+    "name": "Spooky",
+    "multiplier": 6,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": "FischFright 2025 exclusive. Year-round with Spooky Rod or Spooky Enchantment (10% chance)",
+    "wikiNotes": "FischFright 2 exclusive. Obtainable year-round with the Spooky Rod (~3.3% chance) or Spooky Enchantment (10% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "gravy",
+    "name": "Gravy",
+    "multiplier": 6,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": "Fischgiving 2025 exclusive. Year-round with Cornucopia Rod (10% chance)",
+    "wikiNotes": "Fischgiving 2 exclusive. Obtainable year-round with the Cornucopia Rod (10% chance), or with Pumpkin Pieces, Gourd Bites, and Cranberry Cluster Baits (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "fallen",
+    "name": "Fallen",
+    "multiplier": 6,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "More common with the Fallen Rod (50% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "rainbow",
+    "name": "Rainbow",
+    "multiplier": 6,
+    "category": "unobtainable",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Previously obtainable on the Lobster King during a Rainbow (30% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "anomalous",
+    "name": "Anomalous",
+    "multiplier": 5.55,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Anomalous Enchantment (20% chance)",
+    "wikiNotes": "Only obtainable with the Anomalous Enchantment (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "kings-blessing",
+    "name": "King's Blessing",
+    "multiplier": 5.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Poseidon Rod (10% chance)",
+    "wikiNotes": "Only obtainable with the Poseidon Rod (10% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "prismize",
+    "name": "Prismize",
+    "multiplier": 5.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Ethereal Prism Rod (50% chance, +10% with Mastery Passive)",
+    "wikiNotes": "Only obtainable with Ethereal Prism Rod (50% chance, and +10% chance when Mastery Passive is active)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "mythical",
+    "name": "Mythical",
+    "multiplier": 5.5,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Mythical Rod; also during Rainbow weather",
+    "wikiNotes": "More common with the Mythical Rod (30% chance, and +5% chance when Mastery Passive is active), or during a Rainbow (15% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "abyssal",
+    "name": "Abyssal",
+    "multiplier": 5.5,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "Abyssal Specter Rod (25% chance, +10% with Mastery Passive) or Rod Of The Depths (30% chance)",
+    "wikiNotes": "Only obtainable with the Abyssal Specter Rod (25% chance, and +10% chance when Mastery Passive is active) or the Rod Of The Depths (30% chance) or with the Rod Of The Depths's spirit passive (100% chance); Can be fished up at The Depths, or anywhere with the Abyssal Enchantment (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "wisp",
+    "name": "Wisp",
+    "multiplier": 5.5,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Spectral Tide and Secret Storm events",
+    "wikiNotes": "Only obtainable during the Spectral Tide and Secret Storm events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "solar",
+    "name": "Solar",
+    "multiplier": 5.3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Daybreaker Rod (50% chance during Day, 25% chance during Night)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "spirit",
+    "name": "Spirit",
+    "multiplier": 5.2,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Spiritbinder",
+    "wikiNotes": "More common with the Spiritbinder (15% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Carrot Rod (15% chance) or within Carrot Pool spawned by Carrot Rod",
+    "wikiNotes": "Only obtainable with Carrot Rod (15% chance) or within the 'Carrot Pool' spawned by the Carrot Rod (15% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "sanguine",
+    "name": "Sanguine",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Blood Reckoning Enchantment (chance = current HP%) or Sanguine Spire (30% chance)",
+    "wikiNotes": "Only obtainable with the Blood Reckoning Enchantment at a chance equal to the players current HP or the Sanguine Spire (30% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "sirens-spite",
+    "name": "Siren's Spite",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Evil Pitchfork (25% chance)",
+    "wikiNotes": "Only obtainable with the Evil Pitchfork (25% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "rainbow-cluster",
+    "name": "Rainbow Cluster",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Rainbow (5% chance); Rainbow Cluster Rod (20% chance, 35% during Rainbow)",
+    "wikiNotes": "Only obtainable during a Rainbow (5% chance), or with the Rainbow Cluster Rod (20% chance, 35% chance during Rainbow)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "levitas",
+    "name": "Levitas",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Onirifalx (50% chance, +10% with Mastery Passive)",
+    "wikiNotes": "Only obtainable with the Onirifalx (50% chance, and +10% chance when Mastery Passive is active)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "nicos-nyantics",
+    "name": "Nico's Nyantics",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Nico's Yarncaster with Clownfish Cat Toy bobber equipped (30% chance)",
+    "wikiNotes": "Only obtainable with the Nico's Yarncaster if the player has the Clownfish Cat Toy bobber equipped (30% chance), or with the Nico's Yarncaster's cat entity passive (33% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "ashen-fortune",
+    "name": "Ashen Fortune",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Volcanic Rod (25% chance), or Magma Rod (10% chance)",
+    "wikiNotes": "Only obtainable with the Volcanic Rod (25% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "colossal-ink",
+    "name": "Colossal Ink",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Colossal Ink Bait (100% chance)",
+    "wikiNotes": "Only obtainable when using Colossal Ink Bait (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "cursed-touch",
+    "name": "Cursed Touch",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Great Dreamer Rod (50% on passive catch)",
+    "wikiNotes": "Only obtainable with the Great Dreamer Rod (50% chance on passive catch)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "galactic",
+    "name": "Galactic",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Astrolure Bait (100% chance)",
+    "wikiNotes": "Only obtainable when using Astrolure Bait (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "nullified",
+    "name": "Nullified",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Nullbit Bait (100% chance)",
+    "wikiNotes": "Only obtainable when using Nullbit Bait (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "greedy",
+    "name": "Greedy",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Rod Of The Eternal King and Noctone",
+    "wikiNotes": "More common with the Rod Of The Eternal King (60% chance), Scurvy Rod (15% chance), Noctone (20% chance), or the Dead Man's Rod (10% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "merry",
+    "name": "Merry",
+    "multiplier": 5,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": "Fischmas 2025 exclusive. Year-round with Christmas Tree Rod (25% chance)",
+    "wikiNotes": "Fischmas 2 exclusive. Obtainable year-round with the Christmas Tree Rod (25% chance), Santa's Miracle Rod (~3.3% chance), Merry Enchantment (10% chance), or Santa Enchantment (~6% chance), Winter Gloves (10% chance), with Cookie Crumble and Fruitcake Flakes Baits (10% chance), or During a Frost Moon (3% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "emberflame",
+    "name": "Emberflame",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Blazebringer Rod (5% on Stage 3)",
+    "wikiNotes": "Only obtainable with the Blazebringer Rod (5% chance on Stage 3)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "gemstone",
+    "name": "Gemstone",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Treasure Rod (20% chance)",
+    "wikiNotes": "Only obtainable with the Treasure Rod (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "lobster",
+    "name": "Lobster",
+    "multiplier": 5,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Lobster Rod",
+    "wikiNotes": "Only obtainable with the Lobster Rod (30% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "corvid",
+    "name": "Corvid",
+    "multiplier": 5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable when using Corvid Algae (100% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "gingerbread",
+    "name": "Gingerbread",
+    "multiplier": 5,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "Fischmas 2 exclusive. Obtainable year-round with the Gingerbread Rod (25% chance), Santa's Miracle Rod (~3.3% chance), Winter Gloves (10% chance), Gingerbread Enchantment (10% chance), Santa Enchantment (~6% chance), or During a Frost Moon (3% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "peppermint",
+    "name": "Peppermint",
+    "multiplier": 5,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "Fischmas 2 exclusive. Obtainable year-round with the Peppermint Rod (25% chance), Santa's Miracle Rod (~3.3% chance), Winter Gloves (10% chance), Peppermint Enchantment (10% chance), Santa Enchantment (~6% chance), or During a Frost Moon (3% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "phantom",
+    "name": "Phantom",
+    "multiplier": 4.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Eidolon Rod (35% chance)",
+    "wikiNotes": "Only obtainable with the Eidolon Rod (35% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "wrath",
+    "name": "Wrath",
+    "multiplier": 4.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Rod Of The Zenith (70% chance); Poseidon Temple during Poseidon Wrath (2% chance)",
+    "wikiNotes": "Only obtainable with the Rod Of The Zenith (70% chance), the Dead Man's Rod (10% chance), or fished up at Poseidon Temple during a Poseidon Wrath event (2% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "lost",
+    "name": "Lost",
+    "multiplier": 4.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with The Lost Rod (36% after perfect catch)",
+    "wikiNotes": "Only obtainable with the The Lost Rod (36% chance after a perfect catch)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "seasonal-spring",
+    "name": "Seasonal (Spring)",
+    "multiplier": 4.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Seasons Rod (50% chance)",
+    "wikiNotes": "Only obtainable with the Seasons Rod (50% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "sunken",
+    "name": "Sunken",
+    "multiplier": 4.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Treasure Chests (3.83% chance), or Sunken Rod (8% chance, +5% with Mastery Passive)",
+    "wikiNotes": "Only obtainable from Treasure Chests (3.83% chance), Sunken Rod (8% chance, and +5% chance when Mastery Passive is active), or the Dead Man's Rod (10% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "blarney",
+    "name": "Blarney",
+    "multiplier": 4.5,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Lucky Event exclusive. Only obtainable with Lucky Bait (50% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "clover",
+    "name": "Clover",
+    "multiplier": 4.5,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Lucky Event exclusive. Only obtainable with the Shamrock Rod (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "rose",
+    "name": "Rose",
+    "multiplier": 4.5,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Valentides (2026) exclusive. Obtainable year-round with the Rose Rod (30% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "harmonized",
+    "name": "Harmonized",
+    "multiplier": 4.2,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Pinion's Aria (42% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "crimson",
+    "name": "Crimson",
+    "multiplier": 4,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Scarlet Spincaster Rod",
+    "wikiNotes": "More common with Scarlet Spincaster Rod (30% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "fungal",
+    "name": "Fungal",
+    "multiplier": 4,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Fungal Rod (30% chance)",
+    "wikiNotes": "Only obtainable with the Fungal Rod (30% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "revitalized",
+    "name": "Revitalized",
+    "multiplier": 4,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Delivering fish with Amber to the Chiseler",
+    "wikiNotes": "It is obtained by delivering a fish with Amber to the Chiseler",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "seasonal-autumn",
+    "name": "Seasonal (Autumn)",
+    "multiplier": 4,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Seasons Rod (50% chance)",
+    "wikiNotes": "Only obtainable with the Seasons Rod (50% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "atlantean",
+    "name": "Atlantean",
+    "multiplier": 4,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Trident Rod (30% chance)",
+    "wikiNotes": "Only obtainable with the Trident Rod (30% chance), or the Dead Man's Rod (10% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "celestial",
+    "name": "Celestial",
+    "multiplier": 4,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Celestial Rod (100% during Celestial Bonus)",
+    "wikiNotes": "Only obtainable with the Celestial Rod (100% chance during Celestial Bonus), or Astraeus Serenade (8% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "cursed",
+    "name": "Cursed",
+    "multiplier": 4,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only fished up during Cursed Storm (8% chance)",
+    "wikiNotes": "Only can be fished up during Cursed Storm (8% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "moon-kissed",
+    "name": "Moon-Kissed",
+    "multiplier": 4,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only while Moon-Kissed buff from Blue Moon event is active (5% chance)",
+    "wikiNotes": "Only catchable while the Moon-Kissed buff from a Blue Moon event is active (5% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "bloom",
+    "name": "Bloom",
+    "multiplier": 4,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Free Spirit Rod (20% chance), or Chrysalis (92% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "boreal",
+    "name": "Boreal",
+    "multiplier": 4,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "Obtainable with the Boreal Rod (30% chance) or Fished up around Boreal Pines",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "amped",
+    "name": "Amped",
+    "multiplier": 4,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Microphone Rod (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "doomsday",
+    "name": "Doomsday",
+    "multiplier": 4,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Ashfall exclusive. Only obtainable during the Volcano Eruption event (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "easter",
+    "name": "Easter",
+    "multiplier": 4,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Egg Hunt exclusive. Only obtainable with Egg Rod (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "firework",
+    "name": "Firework",
+    "multiplier": 4,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Golden Tide exclusive. Only obtainable with the Firework Rod (15% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "stardust",
+    "name": "Stardust",
+    "multiplier": 4,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Astralhook Rod if the catch had a Perfect Cast and a Perfect Catch (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "lovestruck",
+    "name": "Lovestruck",
+    "multiplier": 4,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Valentides (2026) exclusive. Obtainable year-round with Cupid's Bow (60% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "blue-moon",
+    "name": "Blue Moon",
+    "multiplier": 4,
+    "category": "unobtainable",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Previously obtainable on the Lobster King during a Blue Moon (20% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "lucid",
+    "name": "Lucid",
+    "multiplier": 3.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Lucid Rod (20% chance, 30% during Clear)",
+    "wikiNotes": "Only obtainable with the Lucid Rod (20% chance, 30% during Clear)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "aureolin",
+    "name": "Aureolin",
+    "multiplier": 3.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Auric Rod (20% chance)",
+    "wikiNotes": "Only obtainable with the Auric Rod (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "electric-shock",
+    "name": "Electric Shock",
+    "multiplier": 3.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only from Zeus Rod Thunderstorm Ability (90% chance)",
+    "wikiNotes": "Only obtainable from the Zeus Rod Thunderstorm Ability (90% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "vined",
+    "name": "Vined",
+    "multiplier": 3.5,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Vineweaver Rod; can be fished at Lost Jungle",
+    "wikiNotes": "More common with the Vineweaver Rod (30% chance); Can be fished up at Lost Jungle",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "crystalized",
+    "name": "Crystalized",
+    "multiplier": 3.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Crystalized Rod (20% chance)",
+    "wikiNotes": "Only obtainable with the Crystalized Rod (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "brined",
+    "name": "Brined",
+    "multiplier": 3.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Brine-Infused Rod (50% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "fossilized",
+    "name": "Fossilized",
+    "multiplier": 3.3,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Voyager Rod",
+    "wikiNotes": "More common with the Voyager Rod (35% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "minty",
+    "name": "Minty",
+    "multiplier": 3.2,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "Fischmas exclusive",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "aurulent",
+    "name": "Aurulent",
+    "multiplier": 3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Auric Rod (20% chance)",
+    "wikiNotes": "Only obtainable with the Auric Rod (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "mother-nature",
+    "name": "Mother Nature",
+    "multiplier": 3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Verdant Shear Rod Tree Ability (33.3% chance), or Wildflower Rod (30% chance)",
+    "wikiNotes": "Only obtainable from the Verdant Shear Rod Tree Ability (33.3% chance), or with the Wildflower Rod (30% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "blighted",
+    "name": "Blighted",
+    "multiplier": 3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Blizzard event (15% chance), Ice Warpers Rod (25% chance), Summit Rod (15% chance)",
+    "wikiNotes": "Only obtainable during the Blizzard event (15% chance), or with the Ice Warpers Rod (25% chance) and Summit Rod (15% chance, and +5% chance when Mastery Passive is active)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "ember",
+    "name": "Ember",
+    "multiplier": 3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Blazebringer Rod (20% Stage 2, 25% Stage 3)",
+    "wikiNotes": "Only obtainable with the Blazebringer Rod (20% chance on Stage 2, and 25% chance on Stage 3) or Magma Rod (35% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "hexed",
+    "name": "Hexed",
+    "multiplier": 3,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with No-Life Rod or Original No-Life Rod",
+    "wikiNotes": "More common with the No-Life Rod (50% chance) or Original No-Life Rod (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "scorched",
+    "name": "Scorched",
+    "multiplier": 3,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Phoenix Rod or Cinderstring",
+    "wikiNotes": "More common with the Phoenix Rod (40% chance), or with the Cinderstring (20% chance at stage 2, 50% chance at stage 3)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "solarblaze",
+    "name": "Solarblaze",
+    "multiplier": 3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Eclipse event (10% chance); Fang of the Eclipse (10% anytime, 90% during Eclipse)",
+    "wikiNotes": "Only caught during the Eclipse event (10% chance), or with the Fang of the Eclipse (10% chance anytime, 90% chance during the Eclipse event), or with the Wicked Fang Rod (30% chance anytime), or with the Phoenix Rod (10% chance anytime)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "brown-wood",
+    "name": "Brown Wood",
+    "multiplier": 3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable from the Verdant Shear Rod Tree Ability (33.3% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "cracked",
+    "name": "Cracked",
+    "multiplier": 3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Blazebringer Rod (5% chance on Stage 2, and 10% chance on Stage 3)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "green-leaf",
+    "name": "Green Leaf",
+    "multiplier": 3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable from the Verdant Shear Rod Tree Ability (33.3% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "astral",
+    "name": "Astral",
+    "multiplier": 3,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable within the 'Enchanted Pool' spawned by the Astralhook Rod (80% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "awesome",
+    "name": "Awesome",
+    "multiplier": 3,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "LEGO Event exclusive. Obtainable year-round with the Brick Built Rod (5% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "brother",
+    "name": "Brother",
+    "multiplier": 3,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Brother's Rod (20% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "ghastly",
+    "name": "Ghastly",
+    "multiplier": 3,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "FischFright exclusive. Obtainable year-round with the Haunted Rod (10% chance).",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "quiet",
+    "name": "Quiet",
+    "multiplier": 3,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Polaris Serenade's passive (100% chance) or Astraeus Serenade's mastery enhancement (100% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "sinister",
+    "name": "Sinister",
+    "multiplier": 2.9,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "FischFright exclusive. Obtainable year-round with the Haunted Rod (10% chance).",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "new-years",
+    "name": "New Years",
+    "multiplier": 2.6,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "New Years Countdown exclusive. Obtainable year-round with the New Years Rod (15% chance).",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "seasonal-winter",
+    "name": "Seasonal (Winter)",
+    "multiplier": 2.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Seasons Rod (50% chance)",
+    "wikiNotes": "Only obtainable with the Seasons Rod (50% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "aureate",
+    "name": "Aureate",
+    "multiplier": 2.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Auric Rod (20% chance)",
+    "wikiNotes": "Only obtainable with the Auric Rod (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "lunar",
+    "name": "Lunar",
+    "multiplier": 2.5,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common during Moonlit Mirage event",
+    "wikiNotes": "More common during the Moonlit Mirage event, or with the Astral Rod and Event Horizon Rod (both 5% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "skrunkly",
+    "name": "Skrunkly",
+    "multiplier": 2.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Nico's Yarncaster (30% chance)",
+    "wikiNotes": "Only obtainable with the Nico's Yarncaster (30% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "midas",
+    "name": "Midas",
+    "multiplier": 2.5,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Midas Rod (100% chance)",
+    "wikiNotes": "More common with the Midas Rod (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "purified",
+    "name": "Purified",
+    "multiplier": 2.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Giving Amber fish to Chiseler, or Insight Enchantment (30% chance)",
+    "wikiNotes": "Only obtainable by giving Amber fish to the Chiseler, or with the Insight Enchantment (30% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "botanic",
+    "name": "Botanic",
+    "multiplier": 2.5,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Verdant Vortex and Secret Storm events",
+    "wikiNotes": "Only obtainable during the Verdant Vortex and Secret Storm events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "batty",
+    "name": "Batty",
+    "multiplier": 2.5,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the  Bat Whisperer Rod (100% chance after passive activates)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "chocolate",
+    "name": "Chocolate",
+    "multiplier": 2.5,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Valentides (2025) exclusive. Only obtainable with Chocolate Fish Bait (100% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "sleet",
+    "name": "Sleet",
+    "multiplier": 2.4,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Avalanche event (10% chance); Avalanche Rod (25% chance); Summit Rod (20% chance)",
+    "wikiNotes": "Only obtainable during the Avalanche event (10% chance), or with the Avalanche Rod (25% chance) and Summit Rod (20% chance, and +5% chance when Mastery Passive is active)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "festive",
+    "name": "Festive",
+    "multiplier": 2.4,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "Fischmas exclusive. Obtainable year-round with the Candy Cane Rod (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "oak",
+    "name": "Oak",
+    "multiplier": 2.3,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Eardrum's passive (100% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "jolly",
+    "name": "Jolly",
+    "multiplier": 2.2,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "Fischmas exclusive. Obtainable year-round with the Antler Rod (25% chance), or with Holly Berry Bait (20% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "electric",
+    "name": "Electric",
+    "multiplier": 2.1,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common in Grand Reef or with Storming Enchantment",
+    "wikiNotes": "More common fishing in Grand Reef (15% chance), or with the Storming Enchantment (50% chance during Rain)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "aurelian",
+    "name": "Aurelian",
+    "multiplier": 2,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Auric Rod (20% chance)",
+    "wikiNotes": "Only obtainable with the Auric Rod (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "lightning",
+    "name": "Lightning",
+    "multiplier": 2,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Zeus Rod Room during Zeus Storm (10% chance); Test Rod (5% chance)",
+    "wikiNotes": "Only obtainable when catching fish within the Zeus Rod Room during a Zeus Storm event (10% chance) or the Test Rod (5% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "golden",
+    "name": "Golden",
+    "multiplier": 2,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Goldstorm and Buffed Goldstorm events",
+    "wikiNotes": "Only obtainable during the Goldstorm and Buffed Goldstorm events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "mace",
+    "name": "Mace",
+    "multiplier": 2,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Bucket Bloom, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events",
+    "wikiNotes": "Only obtainable during the Bucket Bloom, Semi Chaos, MAYHEM, MEGA MAYHEM, and MADNESS events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "forgotten",
+    "name": "Forgotten",
+    "multiplier": 2,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Thalassar's Ruin's passive (100% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "honked",
+    "name": "Honked",
+    "multiplier": 2,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with Silly Fun Happy Rod (50% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "bubblegum",
+    "name": "Bubblegum",
+    "multiplier": 2,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with Nates Blade (33% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "lumpy",
+    "name": "Lumpy",
+    "multiplier": 2,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with Nates Blade (33% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "rockstar",
+    "name": "Rockstar",
+    "multiplier": 2,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with Nates Blade (33% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "beachy",
+    "name": "Beachy",
+    "multiplier": 2,
+    "category": "limited",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "Fischfest exclusive. Obtainable year-round with the Tidal Wave Rod (20% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "smurf",
+    "name": "Smurf",
+    "multiplier": 2,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Smurfs Movie Event exclusive. Only obtainable with the Smurf Rod (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "candy",
+    "name": "Candy",
+    "multiplier": 2,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Valentides (2026) exclusive. Obtainable year-round with the Valentine's Enchantment (~15% chance), or Fischversation Hearts Bait (100% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "big",
+    "name": "Big",
+    "multiplier": {
+      "min": 1,
+      "max": 1.99
+    },
+    "category": "attribute",
+    "appraisable": null,
+    "obtainMethod": null,
+    "wikiNotes": "Applied to fish that exceed their base weight. More common with the Greed, Sea Overlord, Gingerbread, Sea King, Abyssal,Resilient or Noir Enchantments; Sea Prince Secondary Enchantment; Abyssal Specter Rod's passive, Kings Rod's passive, Poseidon Rod's passive, Seasons Rod's passive in summer, Rod Of The Forgotten Fang's passive, Fang of the Eclipse's passive, Evil Pitchfork's passive, Elder Mossripper's passive, Random Rod's passive, Fabulous Rod's passive, Nates Blade's passive, Dreambreaker's passive during Night, or through Greedy's effect.",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "giant",
+    "name": "Giant",
+    "multiplier": 1.99,
+    "category": "attribute",
+    "appraisable": null,
+    "obtainMethod": null,
+    "wikiNotes": null,
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "shiny",
+    "name": "Shiny",
+    "multiplier": 1.85,
+    "category": "attribute",
+    "appraisable": null,
+    "obtainMethod": null,
+    "wikiNotes": "1% chance. More common with the Blessed.mw-parser-output .enchantment-abyssal{--enchant-color:#2739ad}.mw-parser-output .enchantment-anomalous{--enchant-color:#ff1d1d}.mw-parser-output .enchantment-blessed{--enchant-color:#ff4fa4}.mw-parser-output .enchantment-blessed-song{--enchant-color:#00aaff}.mw-parser-output .enchantment-blood-reckoning{--enchant-color:#4a0808;--enchant-stroke-color:#ffffff}.mw-parser-output .enchantment-breezed{--enchant-color:#bcd0ff}.mw-parser-output .enchantment-chaotic{--enchant-color:#141316;--enchant-stroke-color:#ffffff}.mw-parser-output .enchantment-chronos{--enchant-color:#1d54d3}.mw-parser-output .enchantment-clever{--enchant-color:#ff6ea6}.mw-parser-output .enchantment-controlled{--enchant-color:#af9bff}.mw-parser-output .enchantment-cryogenic{--enchant-color:#94ebff}.mw-parser-output .enchantment-cupid{--enchant-color:#eff2d2}.mw-parser-output .enchantment-divine{--enchant-color:#c6e5dc}.mw-parser-output .enchantment-eerie{--enchant-color:#54d372}.mw-parser-output .enchantment-ferocious{--enchant-color:#901518}.mw-parser-output .enchantment-flashline{--enchant-color:#ffffff}.mw-parser-output .enchantment-fractured{--enchant-color:#d5cfb9}.mw-parser-output .enchantment-frightful{--enchant-color:#7b68a5}.mw-parser-output .enchantment-ghastly{--enchant-color:#81dfad}.mw-parser-output .enchantment-gingerbread{--enchant-color:#8c462b}.mw-parser-output .enchantment-glittered{--enchant-color:#fff1a0}.mw-parser-output .enchantment-greed{--enchant-color:#ffbf00}.mw-parser-output .enchantment-hasty{--enchant-color:#e5d15c}.mw-parser-output .enchantment-herculean{--enchant-color:#ffea00}.mw-parser-output .enchantment-hunter{--enchant-color:#531ddc}.mw-parser-output .enchantment-immortal{--enchant-color:#e8d9ff}.mw-parser-output .enchantment-insight{--enchant-color:#80ff72}.mw-parser-output .enchantment-invincible{--enchant-color:#ff6219}.mw-parser-output .enchantment-long{--enchant-color:#dfa540}.mw-parser-output .enchantment-lucky{--enchant-color:#7ee5a4}.mw-parser-output .enchantment-merry{--enchant-color:#16831a}.mw-parser-output .enchantment-momentum{--enchant-color:#d3b380}.mw-parser-output .enchantment-mutated{--enchant-color:#93e570}.mw-parser-output .enchantment-mystical{--enchant-color:#c2dfff}.mw-parser-output .enchantment-noir{--enchant-color:#ffffff}.mw-parser-output .enchantment-overclocked{--enchant-color:#00ffcc}.mw-parser-output .enchantment-peppermint{--enchant-color:#ff0000}.mw-parser-output .enchantment-pharaohs-curse{--enchant-color:#9c8b69}.mw-parser-output .enchantment-piercing{--enchant-color:#0da78d}.mw-parser-output .enchantment-putrid{--enchant-color:#435831}.mw-parser-output .enchantment-quality{--enchant-color:#9eff37}.mw-parser-output .enchantment-quantum{--enchant-color:#ff00b3}.mw-parser-output .enchantment-rage{--enchant-color:#d11111}.mw-parser-output .enchantment-resilient{--enchant-color:#6affc6}.mw-parser-output .enchantment-restricted{--enchant-color:#FF1B3E}.mw-parser-output .enchantment-santa{--enchant-color:#ea3939}.mw-parser-output .enchantment-scavenger{--enchant-color:#ffbf66}.mw-parser-output .enchantment-scrapper{--enchant-color:#ff9b53}.mw-parser-output .enchantment-sea-king{--enchant-color:#354dd3}.mw-parser-output .enchantment-sea-overlord{--enchant-color:#33a8d3}.mw-parser-output .enchantment-sea-prince{--enchant-color:#5476d3}.mw-parser-output .enchantment-spooky{--enchant-color:#dc9751}.mw-parser-output .enchantment-steady{--enchant-color:#e5cfbf}.mw-parser-output .enchantment-storming{--enchant-color:#ffec83}.mw-parser-output .enchantment-swift{--enchant-color:#b5e3e5}.mw-parser-output .enchantment-tenacity{--enchant-color:#fff8ab}.mw-parser-output .enchantment-tryhard{--enchant-color:#ff0000}.mw-parser-output .enchantment-unbreakable{--enchant-color:#e1b3e5}.mw-parser-output .enchantment-valentine\\'s{--enchant-color:#e191c1}.mw-parser-output .enchantment-vicious{--enchant-color:#FF674C}.mw-parser-output .enchantment-weak{--enchant-color:#868686}.mw-parser-output .enchantment-wise{--enchant-color:#c869ff}.mw-parser-output .enchantment-wobbly{--enchant-color:#565b70}.mw-parser-output .enchantment-wormhole{--enchant-color:#915aff}.mw-parser-output .enchantment,.mw-parser-output .enchantment a,.mw-parser-output .enchantment-option .oo-ui-labelElement-label{color:var(--enchant-color);text-shadow:1px 1px 0 var(--enchant-stroke-color),-1px 1px 0 var(--enchant-stroke-color),-1px -1px 0 var(--enchant-stroke-color),1px -1px 0 var(--enchant-stroke-color)} Enchantment; Glittered Secondary Enchantment; Shiny Surge (Shiny) or Day/Night of the Luminous (Sparkling) events, and Rainbow weather. Rods that boost chances include the Destiny Rod.mw-parser-output .item{display:inline-flex;align-items:center;line-height:normal;gap:3px;vertical-align:text-top}.mw-parser-output .item .item-icon{display:inline-flex;align-content:center}.mw-parser-output .item .item-icon span[typeof=\"mw:File\"]{display:inline-block;margin:auto;line-height:0}.mw-parser-output .item .item-icon img{filter:drop-shadow(0 0 2px black)}.mw-parser-output .item-text>a{font-weight:500}.mw-parser-output .item-icon>span[typeof=\"mw:Error mw:File\"]{display:none}.mw-parser-output .item-abyssal-specter-rod{--item-color:rgb(81 222 135);--item-bg-color:rgb(12 32 19)}.mw-parser-output .item-adventurers-rod{--item-color:rgb(154 170 190);--item-bg-color:rgb(22 24 27)}.mw-parser-output .item-anchor-n-chain{--item-color:rgb(142 69 33);--item-bg-color:rgb(24 11 4)}.mw-parser-output .item-antler-rod{--item-color:rgb(200 140 123);--item-bg-color:rgb(29 20 18)}.mw-parser-output .item-arctic-rod{--item-color:rgb(146 179 218);--item-bg-color:rgb(21 26 31)}.mw-parser-output .item-astraeus-serenade{--item-color:rgb(255 140 0);--item-bg-color:rgb(36 20 0)}.mw-parser-output .item-astral-rod{--item-color:rgb(105 26 241);--item-bg-color:rgb(15 4 34)}.mw-parser-output .item-astralhook-rod{--item-color:rgb(200 133 0);--item-bg-color:rgb(29 19 0)}.mw-parser-output .item-auric-rod{--item-color:rgb(200 26 58);--item-bg-color:rgb(29 4 8)}.mw-parser-output .item-aurora-rod{--item-color:rgb(46 255 185);--item-bg-color:rgb(7 36 26)}.mw-parser-output .item-avalanche-rod{--item-color:rgb(98 155 222);--item-bg-color:rgb(14 22 32)}.mw-parser-output .item-azure-of-lagoon{--item-color:rgb(61 71 255);--item-bg-color:rgb(9 10 36)}.mw-parser-output .item-bat-whisperer-rod{--item-color:rgb(181 58 58);--item-bg-color:rgb(26 8 8)}.mw-parser-output .item-blade-of-glorp{--item-color:rgb(189 255 83);--item-bg-color:rgb(27 36 12)}.mw-parser-output .item-blazebringer-rod{--item-color:rgb(255 136 0);--item-bg-color:rgb(36 19 0)}.mw-parser-output .item-bone-blade{--item-color:rgb(190 185 143);--item-bg-color:rgb(27 26 20)}.mw-parser-output .item-boreal-rod{--item-color:rgb(200 161 158);--item-bg-color:rgb(29 23 23)}.mw-parser-output .item-brick-built-rod{--item-color:rgb(255 0 0);--item-bg-color:rgb(36 0 0)}.mw-parser-output .item-brick-rod{--item-color:rgb(245 90 90);--item-bg-color:rgb(35 13 13)}.mw-parser-output .item-brine-infused-rod{--item-color:rgb(55 254 178);--item-bg-color:rgb(5 28 19)}.mw-parser-output .item-brothers-rod{--item-color:rgb(75 207 196);--item-bg-color:rgb(11 30 28)}.mw-parser-output .item-buddy-bond-rod{--item-color:rgb(145 255 115);--item-bg-color:rgb(21 36 16)}.mw-parser-output .item-candy-cane-rod{--item-color:rgb(185 37 37);--item-bg-color:rgb(26 5 5)}.mw-parser-output .item-carbon-rod{--item-color:rgb(155 190 255);--item-bg-color:rgb(22 27 36)}.mw-parser-output .item-carrot-rod{--item-color:rgb(255 175 38);--item-bg-color:rgb(36 25 5)}.mw-parser-output .item-cerebra{--item-color:rgb(253 19 144);--item-bg-color:rgb(28 5 18)}.mw-parser-output .item-celestial-rod{--item-color:rgb(19 145 255);--item-bg-color:rgb(3 21 36)}.mw-parser-output .item-cerulean-fang-rod{--item-color:rgb(4 175 236);--item-bg-color:rgb(1 25 34)}.mw-parser-output .item-challengers-rod{--item-color:rgb(4 175 236);--item-bg-color:rgb(1 25 34)}.mw-parser-output .item-champions-rod{--item-color:rgb(219 163 3);--item-bg-color:rgb(31 23 0)}.mw-parser-output .item-christmas-tree-rod{--item-color:rgb(5 200 94);--item-bg-color:rgb(1 29 13)}.mw-parser-output .item-chrysalis{--item-color:rgb(255 142 249);--item-bg-color:rgb(36 20 36)}.mw-parser-output .item-cinder-block-rod{--item-color:rgb(200 200 200);--item-bg-color:rgb(29 29 29)}.mw-parser-output .item-cinderstring{--item-color:rgb(255 170 0);--item-bg-color:rgb(36 24 0)}.mw-parser-output .item-clickbait-caster{--item-color:rgb(255 0 0);--item-bg-color:rgb(36 0 0)}.mw-parser-output .item-coral-rod{--item-color:rgb(255 157 226);--item-bg-color:rgb(36 22 32)}.mw-parser-output .item-cornucopia-rod{--item-color:rgb(230 166 54);--item-bg-color:rgb(33 24 8)}.mw-parser-output .item-cryolash{--item-color:rgb(116 243 255);--item-bg-color:rgb(17 35 36)}.mw-parser-output .item-crystalized-rod{--item-color:rgb(218 112 0);--item-bg-color:rgb(31 16 0)}.mw-parser-output .item-cupids-bow{--item-color:rgb(250 237 166);--item-bg-color:rgb(30 27 12)}.mw-parser-output .item-cupids-embrace{--item-color:rgb(229 137 189);--item-bg-color:rgb(34 21 30)}.mw-parser-output .item-dave-rod{--item-color:rgb(52 52 52);--item-bg-color:rgb(12 12 12)}.mw-parser-output .item-daybreaker-rod{--item-color:rgb(255 227 119);--item-bg-color:rgb(30 26 9)}.mw-parser-output .item-dead-mans-rod{--item-color:rgb(19 72 21);--item-bg-color:rgb(4 14 6)}.mw-parser-output .item-demon-slayer{--item-color:rgb(200 200 200);--item-bg-color:rgb(29 29 29)}.mw-parser-output .item-depthseeker-rod{--item-color:rgb(47 195 255);--item-bg-color:rgb(7 28 36)}.mw-parser-output .item-destiny-rod{--item-color:rgb(255 254 220);--item-bg-color:rgb(36 36 31)}.mw-parser-output .item-dreambreaker{--item-color:rgb(200 200 200);--item-bg-color:rgb(29 29 29)}.mw-parser-output .item-dusekkar-rod{--item-color:rgb(46 60 255);--item-bg-color:rgb(7 9 36)}.mw-parser-output .item-duskwire{--item-color:rgb(200 200 200);--item-bg-color:rgb(29 29 29)}.mw-parser-output .item-eardrum{--item-color:rgb(200 141 103);--item-bg-color:rgb(29 20 15)}.mw-parser-output .item-egg-rod{--item-color:rgb(239 175 255);--item-bg-color:rgb(34 25 36)}.mw-parser-output .item-eidolon-rod{--item-color:rgb(200 200 200);--item-bg-color:rgb(29 29 29)}.mw-parser-output .item-elder-mossripper{--item-color:rgb(115 206 90);--item-bg-color:rgb(16 29 13)}.mw-parser-output .item-electric-guitar{--item-color:rgb(200 51 51);--item-bg-color:rgb(29 7 7)}.mw-parser-output .item-ethereal-prism-rod{--item-color:rgb(255 170 255);--item-bg-color:rgb(36 24 36)}.mw-parser-output .item-event-horizon-rod{--item-color:rgb(255 184 5);--item-bg-color:rgb(36 26 1)}.mw-parser-output .item-evil-pitchfork{--item-color:rgb(189 0 0);--item-bg-color:rgb(27 0 0)}.mw-parser-output .item-experimental-rod{--item-color:rgb(154 170 190);--item-bg-color:rgb(22 24 27)}.mw-parser-output .item-fabulous-rod{--item-color:rgb(218 167 235);--item-bg-color:rgb(31 24 34)}.mw-parser-output .item-fallen-rod{--item-color:rgb(248 248 248);--item-bg-color:rgb(18 18 18)}.mw-parser-output .item-fallen-snowblade{--item-color:rgb(255 255 255);--item-bg-color:rgb(36 36 36)}.mw-parser-output .item-fang-of-the-eclipse{--item-color:rgb(200 133 0);--item-bg-color:rgb(29 19 0)}.mw-parser-output .item-fast-rod{--item-color:rgb(255 101 101);--item-bg-color:rgb(36 14 14)}.mw-parser-output .item-firefly-rod{--item-color:rgb(255 255 73);--item-bg-color:rgb(36 36 10)}.mw-parser-output .item-firework-rod{--item-color:rgb(200 32 32);--item-bg-color:rgb(29 5 5)}.mw-parser-output .item-fischers-rod{--item-color:rgb(245 205 48);--item-bg-color:rgb(35 29 7)}.mw-parser-output .item-fischmas-rod{--item-color:rgb(144 240 255);--item-bg-color:rgb(21 34 36)}.mw-parser-output .item-fish-photographer{--item-color:rgb(255 241 206);--item-bg-color:rgb(36 34 29)}.mw-parser-output .item-fixers-rod{--item-color:rgb(0 170 255);--item-bg-color:rgb(0 24 36)}.mw-parser-output .item-flimsy-rod{--item-color:rgb(154 170 190);--item-bg-color:rgb(22 24 27)}.mw-parser-output .item-fortune-rod{--item-color:rgb(109 77 212);--item-bg-color:rgb(16 11 30)}.mw-parser-output .item-free-spirit-rod{--item-color:rgb(52 235 143);--item-bg-color:rgb(7 34 20)}.mw-parser-output .item-friendly-rod{--item-color:rgb(255 198 243);--item-bg-color:rgb(36 28 35)}.mw-parser-output .item-frog-rod{--item-color:rgb(188 255 190);--item-bg-color:rgb(27 36 27)}.mw-parser-output .item-frost-warden-rod{--item-color:rgb(144 240 255);--item-bg-color:rgb(21 34 36)}.mw-parser-output .item-frostbane-rod{--item-color:rgb(144 240 255);--item-bg-color:rgb(21 34 36)}.mw-parser-output .item-frostfire-rod{--item-color:rgb(144 240 255);--item-bg-color:rgb(21 34 36)}.mw-parser-output .item-fungal-rod{--item-color:rgb(78 255 78);--item-bg-color:rgb(11 36 11)}.mw-parser-output .item-gingerbread-rod{--item-color:rgb(200 108 55);--item-bg-color:rgb(29 15 8)}.mw-parser-output .item-great-dreamer-rod{--item-color:rgb(39 200 193);--item-bg-color:rgb(6 29 28)}.mw-parser-output .item-great-rod-of-oscar{--item-color:rgb(225 182 11);--item-bg-color:rgb(32 26 2)}.mw-parser-output .item-haunted-rod{--item-color:rgb(94 255 105);--item-bg-color:rgb(13 36 15)}.mw-parser-output .item-heavens-rod{--item-color:rgb(190 140 24);--item-bg-color:rgb(27 20 3)}.mw-parser-output .item-ice-warpers-rod{--item-color:rgb(110 189 247);--item-bg-color:rgb(16 27 35)}.mw-parser-output .item-igneous-rupturer{--item-color:rgb(253 101 0);--item-bg-color:rgb(30 14 3)}.mw-parser-output .item-jack-o-blazer{--item-color:rgb(255 201 66);--item-bg-color:rgb(36 29 9)}.mw-parser-output .item-jinglestar-rod{--item-color:rgb(230 209 92);--item-bg-color:rgb(33 30 13)}.mw-parser-output .item-katana-rod{--item-color:rgb(177 177 177);--item-bg-color:rgb(25 25 25)}.mw-parser-output .item-kings-rod{--item-color:rgb(52 96 255);--item-bg-color:rgb(7 14 36)}.mw-parser-output .item-kraken-rod{--item-color:rgb(200 79 81);--item-bg-color:rgb(29 11 12)}.mw-parser-output .item-krampuss-rod{--item-color:rgb(255 66 91);--item-bg-color:rgb(36 9 13)}.mw-parser-output .item-leviathans-fang-rod{--item-color:rgb(104 164 190);--item-bg-color:rgb(15 23 27)}.mw-parser-output .item-lobster-rod{--item-color:rgb(200 0 0);--item-bg-color:rgb(29 0 0)}.mw-parser-output .item-long-rod{--item-color:rgb(220 204 167);--item-bg-color:rgb(31 29 24)}.mw-parser-output .item-lucid-rod{--item-color:rgb(188 111 255);--item-bg-color:rgb(27 16 36)}.mw-parser-output .item-lucky-rod{--item-color:rgb(188 255 190);--item-bg-color:rgb(27 36 27)}.mw-parser-output .item-luminescent-oath{--item-color:rgb(69 236 255);--item-bg-color:rgb(10 34 36)}.mw-parser-output .item-maelstrom{--item-color:rgb(136 141 200);--item-bg-color:rgb(19 20 29)}.mw-parser-output .item-magma-rod{--item-color:rgb(255 122 55);--item-bg-color:rgb(36 17 8)}.mw-parser-output .item-magnet-rod{--item-color:rgb(0 34 255);--item-bg-color:rgb(0 5 36)}.mw-parser-output .item-masterline-rod{--item-color:rgb(255 255 255);--item-bg-color:rgb(18 18 18)}.mw-parser-output .item-merchant-rod{--item-color:rgb(200 0 0);--item-bg-color:rgb(29 0 0)}.mw-parser-output .item-merlins-staff{--item-color:rgb(193 70 255);--item-bg-color:rgb(28 10 36)}.mw-parser-output .item-midas-rod{--item-color:rgb(255 226 83);--item-bg-color:rgb(36 32 12)}.mw-parser-output .item-mission-specialists-rod{--item-color:rgb(255 170 0);--item-bg-color:rgb(36 24 0)}.mw-parser-output .item-mythical-rod{--item-color:rgb(255 49 159);--item-bg-color:rgb(36 7 23)}.mw-parser-output .item-nates-blade{--item-color:rgb(255 11 11);--item-bg-color:rgb(36 2 2)}.mw-parser-output .item-necrotic-rod{--item-color:rgb(200 134 134);--item-bg-color:rgb(29 19 19)}.mw-parser-output .item-new-years-rod{--item-color:rgb(255 227 144);--item-bg-color:rgb(36 32 21)}.mw-parser-output .item-nicos-yarncaster{--item-color:rgb(200 184 158);--item-bg-color:rgb(29 26 23)}.mw-parser-output .item-nilcaster{--item-color:rgb(55 255 0);--item-bg-color:rgb(8 36 0)}.mw-parser-output .item-no-life-rod{--item-color:rgb(255 42 42);--item-bg-color:rgb(36 6 6)}.mw-parser-output .item-noctone{--item-color:rgb(230 166 54);--item-bg-color:rgb(33 24 8)}.mw-parser-output .item-nocturnal-rod{--item-color:rgb(101 83 200);--item-bg-color:rgb(14 12 29)}.mw-parser-output .item-north-pole{--item-color:rgb(21 169 177);--item-bg-color:rgb(3 24 25)}.mw-parser-output .item-north-star-rod{--item-color:rgb(255 237 170);--item-bg-color:rgb(36 34 24)}.mw-parser-output .item-onirifalx{--item-color:rgb(157 208 255);--item-bg-color:rgb(22 30 36)}.mw-parser-output .item-original-no-life-rod{--item-color:rgb(255 42 42);--item-bg-color:rgb(36 6 6)}.mw-parser-output .item-paintbrush{--item-color:rgb(204 0 0);--item-bg-color:rgb(29 0 0)}.mw-parser-output .item-paleontologists-rod{--item-color:rgb(200 0 0);--item-bg-color:rgb(29 0 0)}.mw-parser-output .item-paper-fan-rod{--item-color:rgb(255 255 134);--item-bg-color:rgb(36 36 19)}.mw-parser-output .item-patriot-rod{--item-color:rgb(255 0 0);--item-bg-color:rgb(36 0 0)}.mw-parser-output .item-pen-rod{--item-color:rgb(200 200 200);--item-bg-color:rgb(29 29 29)}.mw-parser-output .item-peppermint-rod{--item-color:rgb(255 157 157);--item-bg-color:rgb(36 22 22)}.mw-parser-output .item-phoenix-rod{--item-color:rgb(255 98 87);--item-bg-color:rgb(36 14 12)}.mw-parser-output .item-pinions-aria{--item-color:rgb(201 184 255);--item-bg-color:rgb(23 20 36)}.mw-parser-output .item-plastic-rod{--item-color:rgb(73 240 255);--item-bg-color:rgb(10 34 36)}.mw-parser-output .item-polaris-serenade{--item-color:rgb(115 115 255);--item-bg-color:rgb(16 16 36)}.mw-parser-output .item-popsicle-rod{--item-color:rgb(0 221 255);--item-bg-color:rgb(0 32 36)}.mw-parser-output .item-poseidon-rod{--item-color:rgb(252 248 97);--item-bg-color:rgb(36 35 14)}.mw-parser-output .item-precision-rod{--item-color:rgb(0 58 255);--item-bg-color:rgb(0 8 36)}.mw-parser-output .item-rainbow-cluster-rod{--item-color:rgb(235 83 144);--item-bg-color:rgb(34 12 21)}.mw-parser-output .item-random-rod{--item-color:rgb(200 200 200);--item-bg-color:rgb(29 29 29)}.mw-parser-output .item-rapid-rod{--item-color:rgb(255 163 87);--item-bg-color:rgb(36 23 12)}.mw-parser-output .item-reinforced-rod{--item-color:rgb(255 178 89);--item-bg-color:rgb(36 25 13)}.mw-parser-output .item-relic-rod{--item-color:rgb(186 178 175);--item-bg-color:rgb(27 25 25)}.mw-parser-output .item-requiem{--item-color:rgb(1 250 137);--item-bg-color:rgb(2 28 17)}.mw-parser-output .item-resourceful-rod{--item-color:rgb(255 75 15);--item-bg-color:rgb(36 11 2)}.mw-parser-output .item-riptide-rod{--item-color:rgb(66 94 255);--item-bg-color:rgb(9 13 36)}.mw-parser-output .item-rod-of-the-cosmos{--item-color:rgb(93 193 255);--item-bg-color:rgb(13 28 36)}.mw-parser-output .item-rod-of-the-depths{--item-color:rgb(255 66 52);--item-bg-color:rgb(36 9 7)}.mw-parser-output .item-rod-of-the-eternal-king{--item-color:rgb(255 221 25);--item-bg-color:rgb(36 32 4)}.mw-parser-output .item-rod-of-the-exalted-one{--item-color:rgb(255 128 249);--item-bg-color:rgb(36 18 36)}.mw-parser-output .item-rod-of-the-forgotten-fang{--item-color:rgb(49 155 255);--item-bg-color:rgb(7 22 36)}.mw-parser-output .item-rod-of-the-zenith{--item-color:rgb(117 171 200);--item-bg-color:rgb(17 24 29)}.mw-parser-output .item-rod-of-time{--item-color:rgb(200 26 58);--item-bg-color:rgb(29 4 8)}.mw-parser-output .item-rose-rend{--item-color:rgb(255 80 156);--item-bg-color:rgb(36 11 22)}.mw-parser-output .item-rose-rod{--item-color:rgb(140 34 33);--item-bg-color:rgb(24 7 7)}.mw-parser-output .item-ruinous-oath{--item-color:rgb(255 0 0);--item-bg-color:rgb(36 0 0)}.mw-parser-output .item-sanguine-spire{--item-color:rgb(190 25 34);--item-bg-color:rgb(27 4 5)}.mw-parser-output .item-santas-miracle-rod{--item-color:rgb(212 0 0);--item-bg-color:rgb(30 0 0)}.mw-parser-output .item-scarlet-ravager{--item-color:rgb(200 27 39);--item-bg-color:rgb(29 4 6)}.mw-parser-output .item-scarlet-spincaster-rod{--item-color:rgb(189 0 0);--item-bg-color:rgb(27 0 0)}.mw-parser-output .item-scurvy-rod{--item-color:rgb(245 205 48);--item-bg-color:rgb(35 29 7)}.mw-parser-output .item-seasons-rod{--item-color:rgb(255 185 115);--item-bg-color:rgb(36 26 16)}.mw-parser-output .item-seraphic-rod{--item-color:rgb(255 170 0);--item-bg-color:rgb(36 24 0)}.mw-parser-output .item-shamrock-rod{--item-color:rgb(52 235 143);--item-bg-color:rgb(7 34 20)}.mw-parser-output .item-silly-fun-happy-rod{--item-color:rgb(221 210 0);--item-bg-color:rgb(32 30 0)}.mw-parser-output .item-smurf-rod{--item-color:rgb(255 0 0);--item-bg-color:rgb(36 0 0)}.mw-parser-output .item-sovereign-doombringer{--item-color:rgb(137 198 255);--item-bg-color:rgb(20 28 36)}.mw-parser-output .item-spiritbinder{--item-color:rgb(132 137 200);--item-bg-color:rgb(19 20 29)}.mw-parser-output .item-spooky-rod{--item-color:rgb(149 134 200);--item-bg-color:rgb(21 19 29)}.mw-parser-output .item-steady-rod{--item-color:rgb(255 190 160);--item-bg-color:rgb(36 27 23)}.mw-parser-output .item-stone-rod{--item-color:rgb(183 183 200);--item-bg-color:rgb(26 26 29)}.mw-parser-output .item-summit-rod{--item-color:rgb(80 202 230);--item-bg-color:rgb(11 29 33)}.mw-parser-output .item-sunken-rod{--item-color:rgb(145 255 115);--item-bg-color:rgb(21 36 16)}.mw-parser-output .item-superstar-rod{--item-color:rgb(47 98 207);--item-bg-color:rgb(7 14 30)}.mw-parser-output .item-sword-of-darkness{--item-color:rgb(200 200 200);--item-bg-color:rgb(29 29 29)}.mw-parser-output .item-tempest-rod{--item-color:rgb(55 253 255);--item-bg-color:rgb(8 36 36)}.mw-parser-output .item-test-rod{--item-color:rgb(73 240 255);--item-bg-color:rgb(10 34 36)}.mw-parser-output .item-thalassars-ruin{--item-color:rgb(158 24 24);--item-bg-color:rgb(28 6 6)}.mw-parser-output .item-the-boom-ball{--item-color:rgb(149 157 200);--item-bg-color:rgb(21 22 29)}.mw-parser-output .item-the-lost-rod{--item-color:rgb(64 255 102);--item-bg-color:rgb(9 36 15)}.mw-parser-output .item-tidal-wave-rod{--item-color:rgb(88 169 255);--item-bg-color:rgb(13 24 36)}.mw-parser-output .item-tidemourner{--item-color:rgb(31 116 243);--item-bg-color:rgb(6 18 36)}.mw-parser-output .item-toxic-spire-rod{--item-color:rgb(124 97 206);--item-bg-color:rgb(18 14 29)}.mw-parser-output .item-training-rod{--item-color:rgb(100 198 207);--item-bg-color:rgb(14 28 30)}.mw-parser-output .item-treasure-rod{--item-color:rgb(0 158 225);--item-bg-color:rgb(0 23 32)}.mw-parser-output .item-trident-rod{--item-color:rgb(255 191 80);--item-bg-color:rgb(36 27 11)}.mw-parser-output .item-tryhard-rod{--item-color:rgb(238 0 4);--item-bg-color:rgb(34 0 1)}.mw-parser-output .item-upside-down-rod{--item-color:rgb(154 170 190);--item-bg-color:rgb(22 24 27)}.mw-parser-output .item-verdant-shear-rod{--item-color:rgb(52 235 143);--item-bg-color:rgb(7 34 20)}.mw-parser-output .item-vinefang-rod{--item-color:rgb(115 206 90);--item-bg-color:rgb(16 29 13)}.mw-parser-output .item-vineweaver-rod{--item-color:rgb(112 200 87);--item-bg-color:rgb(16 29 12)}.mw-parser-output .item-volcanic-rod{--item-color:rgb(255 170 0);--item-bg-color:rgb(36 24 0)}.mw-parser-output .item-voyager-rod{--item-color:rgb(204 181 255);--item-bg-color:rgb(29 26 36)}.mw-parser-output .item-wicked-fang-rod{--item-color:rgb(223 0 0);--item-bg-color:rgb(32 0 0)}.mw-parser-output .item-wildflower-rod{--item-color:rgb(103 255 159);--item-bg-color:rgb(15 36 23)}.mw-parser-output .item-wind-elemental{--item-color:rgb(221 206 92);--item-bg-color:rgb(32 29 13)}.mw-parser-output .item-wingripper{--item-color:rgb(200 200 200);--item-bg-color:rgb(29 29 29)}.mw-parser-output .item-wisdom-rod{--item-color:rgb(200 176 15);--item-bg-color:rgb(29 25 2)}.mw-parser-output .item-zeus-rod{--item-color:rgb(245 205 48);--item-bg-color:rgb(35 29 7)}.mw-parser-output .item.no-rarity a,.mw-parser-output .rod-navbox-entry a,.mw-parser-output .rod-option .oo-ui-labelElement-label{color:var(--item-color,var(--theme-page-link-color))}.mw-parser-output span.fish-navbox-entry.rod-navbox-entry{background-color:var(--item-bg-color);border-color:var(--item-color)}, Chrysalis, Noctone, Polaris Serenade, and Seraphic Rod mastery passive.",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "sparkling",
+    "name": "Sparkling",
+    "multiplier": 1.85,
+    "category": "attribute",
+    "appraisable": null,
+    "obtainMethod": null,
+    "wikiNotes": null,
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "silver",
+    "name": "Silver",
+    "multiplier": 1.8,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "Standard appraisable mutation",
+    "wikiNotes": null,
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "studded",
+    "name": "Studded",
+    "multiplier": 1.8,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Brick Rod (100% chance)",
+    "wikiNotes": "Only obtainable with the Brick Rod (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "coral",
+    "name": "Coral",
+    "multiplier": 1.8,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": null,
+    "wikiNotes": "More common with the Coral Rod (50% chance), or with the Coral Spear (100% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "glossy",
+    "name": "Glossy",
+    "multiplier": 1.6,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Azure Of Lagoon",
+    "wikiNotes": "More common with the Azure Of Lagoon (100% Chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "aurous",
+    "name": "Aurous",
+    "multiplier": 1.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Auric Rod (20% chance)",
+    "wikiNotes": "Only obtainable with the Auric Rod (20% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "cement",
+    "name": "Cement",
+    "multiplier": 1.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Cinder Block Rod (70% chance)",
+    "wikiNotes": "Only obtainable with the Cinder Block Rod (70% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "darkened",
+    "name": "Darkened",
+    "multiplier": 1.5,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Noir Enchantment or Duskwire",
+    "wikiNotes": "More common with the Noir Enchantment (50% chance) or the Duskwire (68% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "frozen",
+    "name": "Frozen",
+    "multiplier": 1.5,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Arctic Rod or Summit Rod",
+    "wikiNotes": "More common with the Arctic Rod (100% chance), with Cryolash (50% chance) or with the Summit Rod (40% chance, and +5% chance when Mastery Passive is active)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "mosaic",
+    "name": "Mosaic",
+    "multiplier": 1.5,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "Standard appraisable mutation",
+    "wikiNotes": null,
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "negative",
+    "name": "Negative",
+    "multiplier": 1.3,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "Standard appraisable mutation",
+    "wikiNotes": null,
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "translucent",
+    "name": "Translucent",
+    "multiplier": 1.3,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "More common with Ghastly Enchantment",
+    "wikiNotes": "More common with the Ghastly Enchantment (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "fixer",
+    "name": "Fixer",
+    "multiplier": 1.25,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Jurassic World Event exclusive. Only obtainable with the Fixer's Rod (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "mission-specialist",
+    "name": "Mission Specialist",
+    "multiplier": 1.25,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Jurassic World Event exclusive. Only obtainable with the Mission Specialist's Rod (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "paleontologist",
+    "name": "Paleontologist",
+    "multiplier": 1.25,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Jurassic World Event exclusive. Only obtainable with the Paleontologist's Rod (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "albino",
+    "name": "Albino",
+    "multiplier": 1.2,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "Can be sold to Ashe for 1.5× value. More common with Noir Enchantment (50% chance)",
+    "wikiNotes": "Can be sold to Ashe for 1.5× value. More common with Noir Enchantment (50% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "amber",
+    "name": "Amber",
+    "multiplier": 1.2,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "Only fished at Ancient Isle. Can be upgraded by the Chiseler",
+    "wikiNotes": "Can only be fished up at Ancient Isle. Can be replaced with Purified (2× Value) or Revitalized (4× Value) by the Chiseler",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "sandy",
+    "name": "Sandy",
+    "multiplier": 1.2,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Pharaohs Curse Enchantment (25% chance); Onirifalx quest reward",
+    "wikiNotes": "Only obtainable with the Pharaohs Curse Enchantment (25% chance), or through the second Onirifalx quest reward as a Sandy Song of the Deep and through the  Pond Emperor Uprising Admin Event (10% chance). Previously obtainable via the Test Rod quest as a Sandy Largemouth Bass.",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "lightened",
+    "name": "Lightened",
+    "multiplier": 1.01,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Blackout, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS, HEAVENLY SPARKLES events",
+    "wikiNotes": "Only obtainable during the Blackout, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS, and HEAVENLY SPARKLES events",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "blue",
+    "name": "Blue",
+    "multiplier": 1,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Pond Emperor Uprising event",
+    "wikiNotes": "Only obtainable during the Pond Emperor Uprising event",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "female",
+    "name": "Female",
+    "multiplier": 1,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Pond Emperor Uprising (10%), MAYHEM (6.7%), MEGA MAYHEM (5.6%), MADNESS (6.3%)",
+    "wikiNotes": "Currently only obtainable during the Pond Emperor Uprising (10% chance), MAYHEM (6.7% chance), MEGA MAYHEM (5.6% chance), and MADNESS (6.3% chance) events.  Formerly, if a new player wore certain 'female-themed' avatar items, they'd have a 30% chance to be eligible to catch the Female Mutation. If they were, their first two catches would have the Female Mutation",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "green",
+    "name": "Green",
+    "multiplier": 1,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Pond Emperor Uprising event",
+    "wikiNotes": "Only obtainable during the Pond Emperor Uprising event",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "pink",
+    "name": "Pink",
+    "multiplier": 1,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Pond Emperor Uprising event",
+    "wikiNotes": "Only obtainable during the Pond Emperor Uprising event",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "red",
+    "name": "Red",
+    "multiplier": 1,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Pond Emperor Uprising event",
+    "wikiNotes": "Only obtainable during the Pond Emperor Uprising event",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "yellow",
+    "name": "Yellow",
+    "multiplier": 1,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Pond Emperor Uprising event",
+    "wikiNotes": "Only obtainable during the Pond Emperor Uprising event",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "neon",
+    "name": "Neon",
+    "multiplier": 1,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Hourglass Bait (100% chance)",
+    "wikiNotes": "Only obtainable when using Hourglass Bait (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "seasonal-summer",
+    "name": "Seasonal (Summer)",
+    "multiplier": 1,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Seasons Rod (50% chance)",
+    "wikiNotes": "Only obtainable with the Seasons Rod (50% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "upside-down",
+    "name": "Upside-Down",
+    "multiplier": 1,
+    "category": "limited",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with Upside-Down Rod (100% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "poisoned",
+    "name": "Poisoned",
+    "multiplier": 0.9,
+    "category": "standard",
+    "appraisable": true,
+    "obtainMethod": "Can only be fished up at Lost Jungle",
+    "wikiNotes": "Can only be fished up at Lost Jungle",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "rusty",
+    "name": "Rusty",
+    "multiplier": 0.7,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Anchor n' Chain (10% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "67",
+    "name": "67",
+    "multiplier": 0.67,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "67 Warriors event",
+    "wikiNotes": "Only obtainable during the 67 Warriors event",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "rooted",
+    "name": "Rooted",
+    "multiplier": 0.66,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Verdant Vortex event",
+    "wikiNotes": "Only obtainable during the Verdant Vortex event",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "soulless",
+    "name": "Soulless",
+    "multiplier": 0.66,
+    "category": "admin",
+    "appraisable": null,
+    "obtainMethod": "Spectral Tide event",
+    "wikiNotes": "Only obtainable during the Spectral Tide event",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "unlucky",
+    "name": "Unlucky",
+    "multiplier": 0.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only obtainable with Random Rod (50% chance)",
+    "wikiNotes": "Only obtainable with the Random Rod (50% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "charred",
+    "name": "Charred",
+    "multiplier": 0.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Only from Zeus Rod Thunderstorm Ability (10% chance)",
+    "wikiNotes": "Only obtainable from the Zeus Rod Thunderstorm Ability (10% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "dirty",
+    "name": "Dirty",
+    "multiplier": 0.3,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Earthworm Bait (100% chance)",
+    "wikiNotes": "Only obtainable with Earthworm Bait (100% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "husk",
+    "name": "Husk",
+    "multiplier": 0.15,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Only obtainable with the Requiem (20% chance)",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "exploded",
+    "name": "Exploded",
+    "multiplier": 0.1,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "The Boom Ball (50% chance)",
+    "wikiNotes": "Only obtainable with the The Boom Ball (50% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  },
+  {
+    "id": "unsellable",
+    "name": "Unsellable",
+    "multiplier": 0,
+    "category": "unobtainable",
+    "appraisable": false,
+    "obtainMethod": null,
+    "wikiNotes": "Found on applied rewards from codes. Also found in the first Onirifalx quest as 10× Unsellable Floppy.",
+    "dataSource": {
+      "calculator": false,
+      "wiki": true
+    }
+  },
+  {
+    "id": "putrid",
+    "name": "Putrid",
+    "multiplier": -0.5,
+    "category": "standard",
+    "appraisable": false,
+    "obtainMethod": "Putrid Enchantment (2% chance)",
+    "wikiNotes": "Only obtainable with the Putrid Enchantment (2% chance)",
+    "dataSource": {
+      "calculator": true,
+      "wiki": true
+    }
+  }
+]

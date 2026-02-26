@@ -1,0 +1,1662 @@
+[
+  {
+    "id": "cinder-block-rod",
+    "name": "Cinder Block Rod",
+    "luckBonus": 1000,
+    "control": 0.7,
+    "resilience": 1000,
+    "lureSpeed": -50,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "random-rod",
+    "name": "Random Rod",
+    "luckBonus": 1000,
+    "control": 0.1,
+    "resilience": 10,
+    "lureSpeed": 80,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "tryhard-rod",
+    "name": "Tryhard Rod",
+    "luckBonus": 999,
+    "control": -0.37,
+    "resilience": -500,
+    "lureSpeed": 80,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "blade-of-glorp",
+    "name": "Blade Of Glorp",
+    "luckBonus": 888,
+    "control": 0.05,
+    "resilience": 45,
+    "lureSpeed": 100,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "onirifalx",
+    "name": "Onirifalx",
+    "luckBonus": 777,
+    "control": 0.17,
+    "resilience": -999999999,
+    "lureSpeed": 777,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "wind-elemental",
+    "name": "Wind Elemental",
+    "luckBonus": 555,
+    "control": 0.055,
+    "resilience": 55,
+    "lureSpeed": 555,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "ruinous-oath",
+    "name": "Ruinous Oath",
+    "luckBonus": 500,
+    "control": 0.08,
+    "resilience": 25,
+    "lureSpeed": 95,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fabulous-rod",
+    "name": "Fabulous Rod",
+    "luckBonus": 500,
+    "control": 0,
+    "resilience": 50,
+    "lureSpeed": 100,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "great-rod-of-oscar",
+    "name": "Great Rod of Oscar",
+    "luckBonus": 280,
+    "control": 0.1,
+    "resilience": 20,
+    "lureSpeed": 95,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "silly-fun-happy-rod",
+    "name": "Silly Fun Happy Rod",
+    "luckBonus": 250,
+    "control": -0.01,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "destiny-rod",
+    "name": "Destiny Rod",
+    "luckBonus": 250,
+    "control": 0.2,
+    "resilience": 10,
+    "lureSpeed": 45,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "toxic-spire-rod",
+    "name": "Toxic Spire Rod",
+    "luckBonus": 248,
+    "control": 0.3,
+    "resilience": -20,
+    "lureSpeed": 87,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "heaven-s-rod",
+    "name": "Heaven's Rod",
+    "luckBonus": 225,
+    "control": 0.2,
+    "resilience": 30,
+    "lureSpeed": 40,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "elder-mossripper",
+    "name": "Elder Mossripper",
+    "luckBonus": 215,
+    "control": 0.2,
+    "resilience": 50,
+    "lureSpeed": 90,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "dreambreaker",
+    "name": "Dreambreaker",
+    "luckBonus": 215,
+    "control": 0.23,
+    "resilience": 66,
+    "lureSpeed": 120,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fortune-rod",
+    "name": "Fortune Rod",
+    "luckBonus": 200,
+    "control": 0.05,
+    "resilience": 10,
+    "lureSpeed": 30,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "ethereal-prism-rod",
+    "name": "Ethereal Prism Rod",
+    "luckBonus": 195,
+    "control": 0.25,
+    "resilience": 40,
+    "lureSpeed": 95,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "cerulean-fang-rod",
+    "name": "Cerulean Fang Rod",
+    "luckBonus": 190,
+    "control": 0.25,
+    "resilience": 35,
+    "lureSpeed": 75,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "kraken-rod",
+    "name": "Kraken Rod",
+    "luckBonus": 185,
+    "control": 0.2,
+    "resilience": 15,
+    "lureSpeed": 60,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "rainbow-cluster-rod",
+    "name": "Rainbow Cluster Rod",
+    "luckBonus": 180,
+    "control": 0,
+    "resilience": 25,
+    "lureSpeed": 65,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "leviathan-s-fang-rod",
+    "name": "Leviathan's Fang Rod",
+    "luckBonus": 180,
+    "control": 0.1,
+    "resilience": 10,
+    "lureSpeed": 85,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "lucky-rod",
+    "name": "Lucky Rod",
+    "luckBonus": 177,
+    "control": 0.07,
+    "resilience": 7,
+    "lureSpeed": 20,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "duskwire",
+    "name": "Duskwire",
+    "luckBonus": 175,
+    "control": -0.2,
+    "resilience": 175,
+    "lureSpeed": 100,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "rod-of-the-exalted-one",
+    "name": "Rod Of The Exalted One",
+    "luckBonus": 170,
+    "control": 0.15,
+    "resilience": 20,
+    "lureSpeed": 55,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "scarlet-spincaster-rod",
+    "name": "Scarlet Spincaster Rod",
+    "luckBonus": 170,
+    "control": -0.2,
+    "resilience": 150,
+    "lureSpeed": 50,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "poseidon-rod",
+    "name": "Poseidon Rod",
+    "luckBonus": 165,
+    "control": 0.2,
+    "resilience": 40,
+    "lureSpeed": 50,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "rod-of-the-eternal-king",
+    "name": "Rod Of The Eternal King",
+    "luckBonus": 160,
+    "control": 0.175,
+    "resilience": 15,
+    "lureSpeed": 50,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "precision-rod",
+    "name": "Precision Rod",
+    "luckBonus": 150,
+    "control": 0,
+    "resilience": 15,
+    "lureSpeed": 20,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "trident-rod",
+    "name": "Trident Rod",
+    "luckBonus": 150,
+    "control": 0.05,
+    "resilience": 0,
+    "lureSpeed": 35,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "sunken-rod",
+    "name": "Sunken Rod",
+    "luckBonus": 150,
+    "control": 0.15,
+    "resilience": 15,
+    "lureSpeed": 50,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "seraphic-rod",
+    "name": "Seraphic Rod",
+    "luckBonus": 150,
+    "control": 0.25,
+    "resilience": 20,
+    "lureSpeed": 95,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "great-dreamer-rod",
+    "name": "Great Dreamer Rod",
+    "luckBonus": 147,
+    "control": 0.17,
+    "resilience": 17,
+    "lureSpeed": 75,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "rod-of-the-forgotten-fang",
+    "name": "Rod Of The Forgotten Fang",
+    "luckBonus": 145,
+    "control": 0.22,
+    "resilience": 25,
+    "lureSpeed": 80,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "rod-of-the-zenith",
+    "name": "Rod Of The Zenith",
+    "luckBonus": 145,
+    "control": -0.1,
+    "resilience": 12,
+    "lureSpeed": 85,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "wicked-fang-rod",
+    "name": "Wicked Fang Rod",
+    "luckBonus": 140,
+    "control": 0,
+    "resilience": 15,
+    "lureSpeed": 95,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "rod-of-the-depths",
+    "name": "Rod Of The Depths",
+    "luckBonus": 130,
+    "control": 0.15,
+    "resilience": 10,
+    "lureSpeed": 65,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "scarlet-ravager",
+    "name": "Scarlet Ravager",
+    "luckBonus": 125,
+    "control": 0.2,
+    "resilience": 20,
+    "lureSpeed": 90,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "carrot-rod",
+    "name": "Carrot Rod",
+    "luckBonus": 125,
+    "control": 0.15,
+    "resilience": 25,
+    "lureSpeed": 85,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "tempest-rod",
+    "name": "Tempest Rod",
+    "luckBonus": 120,
+    "control": 0.15,
+    "resilience": 40,
+    "lureSpeed": 90,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "evil-pitchfork",
+    "name": "Evil Pitchfork",
+    "luckBonus": 120,
+    "control": -0.1,
+    "resilience": -10,
+    "lureSpeed": 150,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "vineweaver-rod",
+    "name": "Vineweaver Rod",
+    "luckBonus": 117,
+    "control": 0.1,
+    "resilience": 40,
+    "lureSpeed": 80,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "rose-rend",
+    "name": "Rose Rend",
+    "luckBonus": 115,
+    "control": 0.15,
+    "resilience": 15,
+    "lureSpeed": 85,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "challenger-s-rod",
+    "name": "Challenger's Rod",
+    "luckBonus": 110,
+    "control": 0.2,
+    "resilience": 20,
+    "lureSpeed": 95,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "friendly-rod",
+    "name": "Friendly Rod",
+    "luckBonus": 105,
+    "control": 0.05,
+    "resilience": 40,
+    "lureSpeed": 85,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "no-life-rod",
+    "name": "No-Life Rod",
+    "luckBonus": 105,
+    "control": 0.23,
+    "resilience": 10,
+    "lureSpeed": 90,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "merlin-s-staff",
+    "name": "Merlin's Staff",
+    "luckBonus": 102.54,
+    "control": 0.1,
+    "resilience": 50,
+    "lureSpeed": 80,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "riptide-rod",
+    "name": "Riptide Rod",
+    "luckBonus": 100,
+    "control": 0.05,
+    "resilience": 20,
+    "lureSpeed": 60,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "luminescent-oath",
+    "name": "Luminescent Oath",
+    "luckBonus": 100,
+    "control": 0.1,
+    "resilience": 12,
+    "lureSpeed": 85,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "lucid-rod",
+    "name": "Lucid Rod",
+    "luckBonus": 100,
+    "control": -0.05,
+    "resilience": 45,
+    "lureSpeed": 80,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "volcanic-rod",
+    "name": "Volcanic Rod",
+    "luckBonus": 90,
+    "control": 0.1,
+    "resilience": 15,
+    "lureSpeed": 40,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "abyssal-specter-rod",
+    "name": "Abyssal Specter Rod",
+    "luckBonus": 90,
+    "control": 0.3,
+    "resilience": 70,
+    "lureSpeed": 60,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "the-lost-rod",
+    "name": "The Lost Rod",
+    "luckBonus": 90,
+    "control": 0.08,
+    "resilience": 20,
+    "lureSpeed": 45,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "zeus-rod",
+    "name": "Zeus Rod",
+    "luckBonus": 90,
+    "control": 0.05,
+    "resilience": 20,
+    "lureSpeed": 70,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "kings-rod",
+    "name": "Kings Rod",
+    "luckBonus": 85,
+    "control": 0.15,
+    "resilience": 35,
+    "lureSpeed": 30,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "voyager-rod",
+    "name": "Voyager Rod",
+    "luckBonus": 85,
+    "control": 0.08,
+    "resilience": 20,
+    "lureSpeed": 45,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "long-rod",
+    "name": "Long Rod",
+    "luckBonus": 80,
+    "control": -0.1,
+    "resilience": 20,
+    "lureSpeed": 20,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "phoenix-rod",
+    "name": "Phoenix Rod",
+    "luckBonus": 80,
+    "control": 0.02,
+    "resilience": 15,
+    "lureSpeed": 55,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "wisdom-rod",
+    "name": "Wisdom Rod",
+    "luckBonus": 80,
+    "control": -0.02,
+    "resilience": 40,
+    "lureSpeed": 55,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "midas-rod",
+    "name": "Midas Rod",
+    "luckBonus": 79,
+    "control": 0.2,
+    "resilience": -30,
+    "lureSpeed": 70,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "wildflower-rod",
+    "name": "Wildflower Rod",
+    "luckBonus": 75,
+    "control": 0.17,
+    "resilience": 17,
+    "lureSpeed": 70,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "brick-rod",
+    "name": "Brick Rod",
+    "luckBonus": 75,
+    "control": 0.35,
+    "resilience": 35,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "summit-rod",
+    "name": "Summit Rod",
+    "luckBonus": 75,
+    "control": 0.25,
+    "resilience": 15,
+    "lureSpeed": 45,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "nico-s-yarncaster",
+    "name": "Nico's Yarncaster",
+    "luckBonus": 75,
+    "control": 0.1,
+    "resilience": 35,
+    "lureSpeed": 65,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "nocturnal-rod",
+    "name": "Nocturnal Rod",
+    "luckBonus": 70,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 50,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "depthseeker-rod",
+    "name": "Depthseeker Rod",
+    "luckBonus": 70,
+    "control": 0.17,
+    "resilience": 25,
+    "lureSpeed": 55,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "seasons-rod",
+    "name": "Seasons Rod",
+    "luckBonus": 70,
+    "control": 0.03,
+    "resilience": 20,
+    "lureSpeed": 25,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "avalanche-rod",
+    "name": "Avalanche Rod",
+    "luckBonus": 68,
+    "control": 0.15,
+    "resilience": 10,
+    "lureSpeed": 40,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "reinforced-rod",
+    "name": "Reinforced Rod",
+    "luckBonus": 65,
+    "control": 0.1,
+    "resilience": 15,
+    "lureSpeed": 40,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "champions-rod",
+    "name": "Champions Rod",
+    "luckBonus": 65,
+    "control": 0.25,
+    "resilience": 20,
+    "lureSpeed": 45,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "aurora-rod",
+    "name": "Aurora Rod",
+    "luckBonus": 60,
+    "control": 0.06,
+    "resilience": 16,
+    "lureSpeed": 45,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "mythical-rod",
+    "name": "Mythical Rod",
+    "luckBonus": 60,
+    "control": 0.05,
+    "resilience": 15,
+    "lureSpeed": 40,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "ice-warpers-rod",
+    "name": "Ice Warpers Rod",
+    "luckBonus": 60,
+    "control": 0.15,
+    "resilience": 20,
+    "lureSpeed": 50,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "resourceful-rod",
+    "name": "Resourceful Rod",
+    "luckBonus": 60,
+    "control": -0.01,
+    "resilience": 10,
+    "lureSpeed": 30,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "celestial-rod",
+    "name": "Celestial Rod",
+    "luckBonus": 60,
+    "control": 0.21,
+    "resilience": 25,
+    "lureSpeed": 50,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "magma-rod",
+    "name": "Magma Rod",
+    "luckBonus": 55,
+    "control": 0.15,
+    "resilience": 0,
+    "lureSpeed": 45,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "scurvy-rod",
+    "name": "Scurvy Rod",
+    "luckBonus": 50,
+    "control": 0,
+    "resilience": 15,
+    "lureSpeed": 25,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "eidolon-rod",
+    "name": "Eidolon Rod",
+    "luckBonus": 50,
+    "control": 0.25,
+    "resilience": 0,
+    "lureSpeed": 100,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "rapid-rod",
+    "name": "Rapid Rod",
+    "luckBonus": 49,
+    "control": 0,
+    "resilience": 9,
+    "lureSpeed": 89,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fungal-rod",
+    "name": "Fungal Rod",
+    "luckBonus": 45,
+    "control": 0,
+    "resilience": 20,
+    "lureSpeed": 40,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "arctic-rod",
+    "name": "Arctic Rod",
+    "luckBonus": 45,
+    "control": 0.06,
+    "resilience": 15,
+    "lureSpeed": 25,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "crystalized-rod",
+    "name": "Crystalized Rod",
+    "luckBonus": 45,
+    "control": 0.15,
+    "resilience": 15,
+    "lureSpeed": 35,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "auric-rod",
+    "name": "Auric Rod",
+    "luckBonus": 45,
+    "control": 0.05,
+    "resilience": 20,
+    "lureSpeed": 45,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "stone-rod",
+    "name": "Stone Rod",
+    "luckBonus": 40,
+    "control": 0.2,
+    "resilience": 5,
+    "lureSpeed": -5,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "steady-rod",
+    "name": "Steady Rod",
+    "luckBonus": 35,
+    "control": 0.05,
+    "resilience": 30,
+    "lureSpeed": -60,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "carbon-rod",
+    "name": "Carbon Rod",
+    "luckBonus": 25,
+    "control": 0.05,
+    "resilience": 10,
+    "lureSpeed": 15,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "spiritbinder",
+    "name": "Spiritbinder",
+    "luckBonus": 25,
+    "control": 0.03,
+    "resilience": 5,
+    "lureSpeed": 90,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "plastic-rod",
+    "name": "Plastic Rod",
+    "luckBonus": 15,
+    "control": 0,
+    "resilience": 10,
+    "lureSpeed": 20,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fischer-s-rod",
+    "name": "Fischer's Rod",
+    "luckBonus": 10,
+    "control": 0.05,
+    "resilience": 5,
+    "lureSpeed": 10,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fast-rod",
+    "name": "Fast Rod",
+    "luckBonus": 10,
+    "control": 0.05,
+    "resilience": -5,
+    "lureSpeed": 70,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "flimsy-rod",
+    "name": "Flimsy Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "magnet-rod",
+    "name": "Magnet Rod",
+    "luckBonus": 0,
+    "control": 0.05,
+    "resilience": 0,
+    "lureSpeed": -10,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "the-boom-ball",
+    "name": "The Boom Ball",
+    "luckBonus": 0,
+    "control": 0.5,
+    "resilience": -500,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "jinglestar-rod",
+    "name": "Jinglestar Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "christmas-tree-rod",
+    "name": "Christmas Tree Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "cornucopia-rod",
+    "name": "Cornucopia Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "bat-whisperer-rod",
+    "name": "Bat Whisperer Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "dusekkar-rod",
+    "name": "Dusekkar Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "jack-o-blazer",
+    "name": "Jack-o-Blazer",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "necrotic-rod",
+    "name": "Necrotic Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "spooky-rod",
+    "name": "Spooky Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "vinefang-rod",
+    "name": "Vinefang Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "haunted-rod",
+    "name": "Haunted Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "relic-rod",
+    "name": "Relic Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "antler-rod",
+    "name": "Antler Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "north-star-rod",
+    "name": "North-Star Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "candy-cane-rod",
+    "name": "Candy Cane Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "krampus-s-rod",
+    "name": "Krampus's Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "frost-warden-rod",
+    "name": "Frost Warden Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fischmas-rod",
+    "name": "Fischmas Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "frostfire-rod",
+    "name": "Frostfire Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "firework-rod",
+    "name": "Firework Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "shamrock-rod",
+    "name": "Shamrock Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "egg-rod",
+    "name": "Egg Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "brick-built-rod",
+    "name": "Brick Built Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "superstar-rod",
+    "name": "Superstar Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "mission-specialist-s-rod",
+    "name": "Mission Specialist's Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "paleontologist-s-rod",
+    "name": "Paleontologist's Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fixer-s-rod",
+    "name": "Fixer's Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "smurf-rod",
+    "name": "Smurf Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "popsicle-rod",
+    "name": "Popsicle Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "tidal-wave-rod",
+    "name": "Tidal Wave Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "paper-fan-rod",
+    "name": "Paper Fan Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "rod-of-the-cosmos",
+    "name": "Rod of the Cosmos",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "buddy-bond-rod",
+    "name": "Buddy Bond Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "astral-rod",
+    "name": "Astral Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "event-horizon-rod",
+    "name": "Event Horizon Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "rod-of-time",
+    "name": "Rod Of Time",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "patriot-rod",
+    "name": "Patriot Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "demon-slayer",
+    "name": "Demon-Slayer",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fang-of-the-eclipse",
+    "name": "Fang of the Eclipse",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "astralhook-rod",
+    "name": "Astralhook Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fallen-snowblade",
+    "name": "Fallen Snowblade",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "wingripper",
+    "name": "Wingripper",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "polaris-serenade",
+    "name": "Polaris Serenade",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "cinderstring",
+    "name": "Cinderstring",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "eardrum",
+    "name": "Eardrum",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "chrysalis",
+    "name": "Chrysalis",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "axe-of-rhoads",
+    "name": "Axe of Rhoads",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "test-rod",
+    "name": "Test Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "adventurer-s-rod",
+    "name": "Adventurer's Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "firefly-rod",
+    "name": "Firefly Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "frog-rod",
+    "name": "Frog Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "azure-of-lagoon",
+    "name": "Azure Of Lagoon",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "merchant-rod",
+    "name": "Merchant Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "verdant-shear-rod",
+    "name": "Verdant Shear Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "blazebringer-rod",
+    "name": "Blazebringer Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "free-spirit-rod",
+    "name": "Free Spirit Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "lobster-rod",
+    "name": "Lobster Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "sovereign-doombringer",
+    "name": "Sovereign Doombringer",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "clickbait-caster",
+    "name": "Clickbait Caster",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "view-smasher",
+    "name": "View Smasher",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fish-photographer",
+    "name": "Fish Photographer",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "paintbrush",
+    "name": "Paintbrush",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "nilcaster",
+    "name": "nilCaster",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "pen-rod",
+    "name": "Pen Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "frostbane-rod",
+    "name": "Frostbane Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "sanguine-spire",
+    "name": "Sanguine Spire",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "katana-rod",
+    "name": "Katana Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "sword-of-darkness",
+    "name": "Sword of Darkness",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "original-no-life-rod",
+    "name": "Original No-Life Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "electric-guitar",
+    "name": "Electric Guitar",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "upside-down-rod",
+    "name": "Upside-Down Rod",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "bone-blade",
+    "name": "Bone Blade",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "nates-blade",
+    "name": "Nates Blade",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "noctone",
+    "name": "Noctone",
+    "luckBonus": 0,
+    "control": 0,
+    "resilience": 0,
+    "lureSpeed": 0,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "training-rod",
+    "name": "Training Rod",
+    "luckBonus": -70,
+    "control": 0.2,
+    "resilience": 20,
+    "lureSpeed": 10,
+    "obtainMethod": "See wiki for details",
+    "source": "fischcalculator.com"
+  }
+]

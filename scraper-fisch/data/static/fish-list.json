@@ -1,0 +1,4322 @@
+[
+  {
+    "id": "8-bit-mr-tentacles",
+    "name": "8-Bit Mr. Tentacles",
+    "rarity": "Special",
+    "sourceId": "8-bit-mr-tentacles"
+  },
+  {
+    "id": "admin-bait-crate",
+    "name": "Admin Bait Crate",
+    "rarity": "Special",
+    "sourceId": "admin-bait-crate"
+  },
+  {
+    "id": "admin-crate",
+    "name": "Admin Crate",
+    "rarity": "Special",
+    "sourceId": "admin-crate"
+  },
+  {
+    "id": "admin-fish-barrel",
+    "name": "Admin Fish Barrel",
+    "rarity": "Special",
+    "sourceId": "admin-fish-barrel"
+  },
+  {
+    "id": "alien-buddy",
+    "name": "Alien Buddy",
+    "rarity": "Special",
+    "sourceId": "alien-buddy"
+  },
+  {
+    "id": "alien-hat",
+    "name": "Alien Hat",
+    "rarity": "Special",
+    "sourceId": "alien-hat"
+  },
+  {
+    "id": "black-iron-bucket",
+    "name": "Black Iron Bucket",
+    "rarity": "Special",
+    "sourceId": "black-iron-bucket"
+  },
+  {
+    "id": "blinking-egg",
+    "name": "Blinking Egg",
+    "rarity": "Special",
+    "sourceId": "blinking-egg"
+  },
+  {
+    "id": "bloxy-cola",
+    "name": "Bloxy Cola",
+    "rarity": "Special",
+    "sourceId": "bloxy-cola"
+  },
+  {
+    "id": "bluesteel-egg",
+    "name": "Bluesteel Egg",
+    "rarity": "Special",
+    "sourceId": "bluesteel-egg"
+  },
+  {
+    "id": "bombastic-egg",
+    "name": "Bombastic Egg",
+    "rarity": "Special",
+    "sourceId": "bombastic-egg"
+  },
+  {
+    "id": "bouncing-egg",
+    "name": "Bouncing Egg",
+    "rarity": "Special",
+    "sourceId": "bouncing-egg"
+  },
+  {
+    "id": "brainfreeze-egg",
+    "name": "Brainfreeze Egg",
+    "rarity": "Special",
+    "sourceId": "brainfreeze-egg"
+  },
+  {
+    "id": "brighteyes-egg",
+    "name": "Brighteyes Egg",
+    "rarity": "Special",
+    "sourceId": "brighteyes-egg"
+  },
+  {
+    "id": "broken-scylla",
+    "name": "Broken Scylla",
+    "rarity": "Special",
+    "sourceId": "broken-scylla"
+  },
+  {
+    "id": "cheezburger",
+    "name": "Cheezburger",
+    "rarity": "Special",
+    "sourceId": "cheezburger"
+  },
+  {
+    "id": "cloud",
+    "name": "Cloud",
+    "rarity": "Special",
+    "sourceId": "cloud"
+  },
+  {
+    "id": "corrupted-scylla",
+    "name": "Corrupted Scylla",
+    "rarity": "Special",
+    "sourceId": "corrupted-scylla"
+  },
+  {
+    "id": "cousin-tentacles",
+    "name": "Cousin Tentacles",
+    "rarity": "Special",
+    "sourceId": "cousin-tentacles"
+  },
+  {
+    "id": "cracked-egg",
+    "name": "Cracked Egg",
+    "rarity": "Special",
+    "sourceId": "cracked-egg"
+  },
+  {
+    "id": "dogefin",
+    "name": "Dogefin",
+    "rarity": "Special",
+    "sourceId": "dogefin"
+  },
+  {
+    "id": "dr-ishmael",
+    "name": "Dr. Ishmael",
+    "rarity": "Special",
+    "sourceId": "dr-ishmael"
+  },
+  {
+    "id": "fern",
+    "name": "Fern",
+    "rarity": "Special",
+    "sourceId": "fern"
+  },
+  {
+    "id": "fischipedia-accurate-pickle",
+    "name": "Fischipedia Accurate Pickle",
+    "rarity": "Special",
+    "sourceId": "fischipedia-accurate-pickle"
+  },
+  {
+    "id": "flashlight",
+    "name": "Flashlight",
+    "rarity": "Special",
+    "sourceId": "flashlight"
+  },
+  {
+    "id": "frank",
+    "name": "Frank",
+    "rarity": "Special",
+    "sourceId": "frank"
+  },
+  {
+    "id": "fridge",
+    "name": "Fridge",
+    "rarity": "Special",
+    "sourceId": "fridge"
+  },
+  {
+    "id": "frog",
+    "name": "Frog",
+    "rarity": "Special",
+    "sourceId": "frog"
+  },
+  {
+    "id": "gargantuan-taco",
+    "name": "Gargantuan Taco",
+    "rarity": "Special",
+    "sourceId": "gargantuan-taco"
+  },
+  {
+    "id": "ghoul",
+    "name": "Ghoul",
+    "rarity": "Special",
+    "sourceId": "ghoul"
+  },
+  {
+    "id": "glitch-cap",
+    "name": "Glitch Cap",
+    "rarity": "Special",
+    "sourceId": "glitch-cap"
+  },
+  {
+    "id": "glitched-cap",
+    "name": "Glitched Cap",
+    "rarity": "Special",
+    "sourceId": "glitched-cap"
+  },
+  {
+    "id": "golden-coin",
+    "name": "Golden Coin",
+    "rarity": "Special",
+    "sourceId": "golden-coin"
+  },
+  {
+    "id": "golden-egg",
+    "name": "Golden Egg",
+    "rarity": "Special",
+    "sourceId": "golden-egg"
+  },
+  {
+    "id": "golden-nessie",
+    "name": "Golden Nessie",
+    "rarity": "Special",
+    "sourceId": "golden-nessie"
+  },
+  {
+    "id": "golden-scylla",
+    "name": "Golden Scylla",
+    "rarity": "Special",
+    "sourceId": "golden-scylla"
+  },
+  {
+    "id": "gygax-egg",
+    "name": "Gygax Egg",
+    "rarity": "Special",
+    "sourceId": "gygax-egg"
+  },
+  {
+    "id": "jellybop",
+    "name": "JellyBop",
+    "rarity": "Special",
+    "sourceId": "jellybop"
+  },
+  {
+    "id": "kind-egg",
+    "name": "Kind Egg",
+    "rarity": "Special",
+    "sourceId": "kind-egg"
+  },
+  {
+    "id": "lava-bucket",
+    "name": "Lava Bucket",
+    "rarity": "Special",
+    "sourceId": "lava-bucket"
+  },
+  {
+    "id": "lightning-bolt",
+    "name": "Lightning Bolt",
+    "rarity": "Special",
+    "sourceId": "lightning-bolt"
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "rarity": "Special",
+    "sourceId": "mango"
+  },
+  {
+    "id": "moon",
+    "name": "Moon",
+    "rarity": "Special",
+    "sourceId": "moon"
+  },
+  {
+    "id": "mr-tentacles",
+    "name": "Mr. Tentacles",
+    "rarity": "Special",
+    "sourceId": "mr-tentacles"
+  },
+  {
+    "id": "mrs-tentacles",
+    "name": "Mrs. Tentacles",
+    "rarity": "Special",
+    "sourceId": "mrs-tentacles"
+  },
+  {
+    "id": "mustard-hat",
+    "name": "Mustard Hat",
+    "rarity": "Special",
+    "sourceId": "mustard-hat"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "rarity": "Special",
+    "sourceId": "obsidian"
+  },
+  {
+    "id": "parasite",
+    "name": "Parasite",
+    "rarity": "Special",
+    "sourceId": "parasite"
+  },
+  {
+    "id": "pine-tree",
+    "name": "Pine Tree",
+    "rarity": "Special",
+    "sourceId": "pine-tree"
+  },
+  {
+    "id": "poltergeist",
+    "name": "Poltergeist",
+    "rarity": "Special",
+    "sourceId": "poltergeist"
+  },
+  {
+    "id": "puzzle-egg",
+    "name": "Puzzle Egg",
+    "rarity": "Special",
+    "sourceId": "puzzle-egg"
+  },
+  {
+    "id": "raindrop",
+    "name": "Raindrop",
+    "rarity": "Special",
+    "sourceId": "raindrop"
+  },
+  {
+    "id": "rocket-ship",
+    "name": "Rocket Ship",
+    "rarity": "Special",
+    "sourceId": "rocket-ship"
+  },
+  {
+    "id": "royal-egg",
+    "name": "Royal Egg",
+    "rarity": "Special",
+    "sourceId": "royal-egg"
+  },
+  {
+    "id": "shadow-egg",
+    "name": "Shadow Egg",
+    "rarity": "Special",
+    "sourceId": "shadow-egg"
+  },
+  {
+    "id": "singularity",
+    "name": "Singularity",
+    "rarity": "Special",
+    "sourceId": "singularity"
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "rarity": "Special",
+    "sourceId": "snowflake"
+  },
+  {
+    "id": "snowman",
+    "name": "Snowman",
+    "rarity": "Special",
+    "sourceId": "snowman"
+  },
+  {
+    "id": "star",
+    "name": "Star",
+    "rarity": "Special",
+    "sourceId": "star"
+  },
+  {
+    "id": "stationary-egg",
+    "name": "Stationary Egg",
+    "rarity": "Special",
+    "sourceId": "stationary-egg"
+  },
+  {
+    "id": "supersized-bloop-fish",
+    "name": "Supersized Bloop Fish",
+    "rarity": "Special",
+    "sourceId": "supersized-bloop-fish"
+  },
+  {
+    "id": "supersized-driftwood",
+    "name": "Supersized Driftwood",
+    "rarity": "Special",
+    "sourceId": "supersized-driftwood"
+  },
+  {
+    "id": "supersized-floppy",
+    "name": "Supersized Floppy",
+    "rarity": "Special",
+    "sourceId": "supersized-floppy"
+  },
+  {
+    "id": "supersized-mosslurker",
+    "name": "Supersized Mosslurker",
+    "rarity": "Special",
+    "sourceId": "supersized-mosslurker"
+  },
+  {
+    "id": "supersized-scylla",
+    "name": "Supersized Scylla",
+    "rarity": "Special",
+    "sourceId": "supersized-scylla"
+  },
+  {
+    "id": "supersized-sea-pickle",
+    "name": "Supersized Sea Pickle",
+    "rarity": "Special",
+    "sourceId": "supersized-sea-pickle"
+  },
+  {
+    "id": "taco",
+    "name": "Taco",
+    "rarity": "Special",
+    "sourceId": "taco"
+  },
+  {
+    "id": "tentacles-junior",
+    "name": "Tentacles Junior",
+    "rarity": "Special",
+    "sourceId": "tentacles-junior"
+  },
+  {
+    "id": "toilet-fish",
+    "name": "Toilet Fish",
+    "rarity": "Special",
+    "sourceId": "toilet-fish"
+  },
+  {
+    "id": "turkey-leg",
+    "name": "Turkey Leg",
+    "rarity": "Special",
+    "sourceId": "turkey-leg"
+  },
+  {
+    "id": "ufo",
+    "name": "UFO",
+    "rarity": "Special",
+    "sourceId": "ufo"
+  },
+  {
+    "id": "venoblossom",
+    "name": "Venoblossom",
+    "rarity": "Special",
+    "sourceId": "venoblossom"
+  },
+  {
+    "id": "wanwood-egg",
+    "name": "Wanwood Egg",
+    "rarity": "Special",
+    "sourceId": "wanwood-egg"
+  },
+  {
+    "id": "akkorokamui",
+    "name": "Akkorokamui",
+    "rarity": "Apex",
+    "sourceId": "akkorokamui"
+  },
+  {
+    "id": "ashclaw",
+    "name": "Ashclaw",
+    "rarity": "Apex",
+    "sourceId": "ashclaw"
+  },
+  {
+    "id": "beluga",
+    "name": "Beluga",
+    "rarity": "Apex",
+    "sourceId": "beluga"
+  },
+  {
+    "id": "lusca",
+    "name": "Lusca",
+    "rarity": "Apex",
+    "sourceId": "lusca"
+  },
+  {
+    "id": "magician-narwhal",
+    "name": "Magician Narwhal",
+    "rarity": "Apex",
+    "sourceId": "magician-narwhal"
+  },
+  {
+    "id": "mosslurker",
+    "name": "Mosslurker",
+    "rarity": "Apex",
+    "sourceId": "mosslurker"
+  },
+  {
+    "id": "narwhal",
+    "name": "Narwhal",
+    "rarity": "Apex",
+    "sourceId": "narwhal"
+  },
+  {
+    "id": "skeletal-serpent",
+    "name": "Skeletal Serpent",
+    "rarity": "Apex",
+    "sourceId": "skeletal-serpent"
+  },
+  {
+    "id": "abyssal-maw",
+    "name": "Abyssal Maw",
+    "rarity": "Limited",
+    "sourceId": "abyssal-maw"
+  },
+  {
+    "id": "ancient-algae",
+    "name": "Ancient Algae",
+    "rarity": "Limited",
+    "sourceId": "ancient-algae"
+  },
+  {
+    "id": "ancient-serpent-skull",
+    "name": "Ancient Serpent Skull",
+    "rarity": "Limited",
+    "sourceId": "ancient-serpent-skull"
+  },
+  {
+    "id": "ancient-serpent-spine",
+    "name": "Ancient Serpent Spine",
+    "rarity": "Limited",
+    "sourceId": "ancient-serpent-spine"
+  },
+  {
+    "id": "ashcloud-archerfish",
+    "name": "Ashcloud Archerfish",
+    "rarity": "Limited",
+    "sourceId": "ashcloud-archerfish"
+  },
+  {
+    "id": "azure-studfish",
+    "name": "Azure Studfish",
+    "rarity": "Limited",
+    "sourceId": "azure-studfish"
+  },
+  {
+    "id": "baby-nessie",
+    "name": "Baby Nessie",
+    "rarity": "Limited",
+    "sourceId": "baby-nessie"
+  },
+  {
+    "id": "baby-s-first-balloon",
+    "name": "Baby's First Balloon",
+    "rarity": "Limited",
+    "sourceId": "babys-first-balloon"
+  },
+  {
+    "id": "barracuda-s-spine",
+    "name": "Barracuda's Spine",
+    "rarity": "Limited",
+    "sourceId": "barracudas-spine"
+  },
+  {
+    "id": "basic-present",
+    "name": "Basic Present",
+    "rarity": "Limited",
+    "sourceId": "basic-present"
+  },
+  {
+    "id": "birthday-cake",
+    "name": "Birthday Cake",
+    "rarity": "Limited",
+    "sourceId": "birthday-cake"
+  },
+  {
+    "id": "birthday-dumbo-octopus",
+    "name": "Birthday Dumbo Octopus",
+    "rarity": "Limited",
+    "sourceId": "birthday-dumbo-octopus"
+  },
+  {
+    "id": "birthday-gift",
+    "name": "Birthday Gift",
+    "rarity": "Limited",
+    "sourceId": "birthday-gift"
+  },
+  {
+    "id": "birthday-goldfish",
+    "name": "Birthday Goldfish",
+    "rarity": "Limited",
+    "sourceId": "birthday-goldfish"
+  },
+  {
+    "id": "birthday-megalodon",
+    "name": "Birthday Megalodon",
+    "rarity": "Limited",
+    "sourceId": "birthday-megalodon"
+  },
+  {
+    "id": "birthday-squid",
+    "name": "Birthday Squid",
+    "rarity": "Limited",
+    "sourceId": "birthday-squid"
+  },
+  {
+    "id": "blarney-mcbreeze",
+    "name": "Blarney McBreeze",
+    "rarity": "Limited",
+    "sourceId": "blarney-mcbreeze"
+  },
+  {
+    "id": "blistered-eel",
+    "name": "Blistered Eel",
+    "rarity": "Limited",
+    "sourceId": "blistered-eel"
+  },
+  {
+    "id": "bloodscript-eel",
+    "name": "Bloodscript Eel",
+    "rarity": "Limited",
+    "sourceId": "bloodscript-eel"
+  },
+  {
+    "id": "bone-lanternfish",
+    "name": "Bone Lanternfish",
+    "rarity": "Limited",
+    "sourceId": "bone-lanternfish"
+  },
+  {
+    "id": "bountiful-bait-crate",
+    "name": "Bountiful Bait Crate",
+    "rarity": "Limited",
+    "sourceId": "bountiful-bait-crate"
+  },
+  {
+    "id": "brickhorse",
+    "name": "Brickhorse",
+    "rarity": "Limited",
+    "sourceId": "brickhorse"
+  },
+  {
+    "id": "burnt-betta",
+    "name": "Burnt Betta",
+    "rarity": "Limited",
+    "sourceId": "burnt-betta"
+  },
+  {
+    "id": "candle-carp",
+    "name": "Candle Carp",
+    "rarity": "Limited",
+    "sourceId": "candle-carp"
+  },
+  {
+    "id": "candy-cane-carp",
+    "name": "Candy Cane Carp",
+    "rarity": "Limited",
+    "sourceId": "candy-cane-carp"
+  },
+  {
+    "id": "candy-corn-cod",
+    "name": "Candy Corn Cod",
+    "rarity": "Limited",
+    "sourceId": "candy-corn-cod"
+  },
+  {
+    "id": "candy-fish",
+    "name": "Candy Fish",
+    "rarity": "Limited",
+    "sourceId": "candy-fish"
+  },
+  {
+    "id": "caramel-chub",
+    "name": "Caramel Chub",
+    "rarity": "Limited",
+    "sourceId": "caramel-chub"
+  },
+  {
+    "id": "cardinal-studfish",
+    "name": "Cardinal Studfish",
+    "rarity": "Limited",
+    "sourceId": "cardinal-studfish"
+  },
+  {
+    "id": "cinder-carp",
+    "name": "Cinder Carp",
+    "rarity": "Limited",
+    "sourceId": "cinder-carp"
+  },
+  {
+    "id": "claw-gill",
+    "name": "Claw Gill",
+    "rarity": "Limited",
+    "sourceId": "claw-gill"
+  },
+  {
+    "id": "clown-brickfish",
+    "name": "Clown Brickfish",
+    "rarity": "Limited",
+    "sourceId": "clown-brickfish"
+  },
+  {
+    "id": "coffin-crab",
+    "name": "Coffin Crab",
+    "rarity": "Limited",
+    "sourceId": "coffin-crab"
+  },
+  {
+    "id": "confetti-shark",
+    "name": "Confetti Shark",
+    "rarity": "Limited",
+    "sourceId": "confetti-shark"
+  },
+  {
+    "id": "cookie",
+    "name": "Cookie",
+    "rarity": "Limited",
+    "sourceId": "cookie"
+  },
+  {
+    "id": "coral-turkey",
+    "name": "Coral Turkey",
+    "rarity": "Limited",
+    "sourceId": "coral-turkey"
+  },
+  {
+    "id": "countdown-perch",
+    "name": "Countdown Perch",
+    "rarity": "Limited",
+    "sourceId": "countdown-perch"
+  },
+  {
+    "id": "crab-stud",
+    "name": "Crab Stud",
+    "rarity": "Limited",
+    "sourceId": "crab-stud"
+  },
+  {
+    "id": "crystal-carp",
+    "name": "Crystal Carp",
+    "rarity": "Limited",
+    "sourceId": "crystal-carp"
+  },
+  {
+    "id": "ectoplasm-eel",
+    "name": "Ectoplasm Eel",
+    "rarity": "Limited",
+    "sourceId": "ectoplasm-eel"
+  },
+  {
+    "id": "eerie-relic",
+    "name": "Eerie Relic",
+    "rarity": "Limited",
+    "sourceId": "eerie-relic"
+  },
+  {
+    "id": "eldritch-spineback",
+    "name": "Eldritch Spineback",
+    "rarity": "Limited",
+    "sourceId": "eldritch-spineback"
+  },
+  {
+    "id": "ember-catfish",
+    "name": "Ember Catfish",
+    "rarity": "Limited",
+    "sourceId": "ember-catfish"
+  },
+  {
+    "id": "eternal-frostwhale",
+    "name": "Eternal Frostwhale",
+    "rarity": "Limited",
+    "sourceId": "eternal-frostwhale"
+  },
+  {
+    "id": "festive-bait-crate",
+    "name": "Festive Bait Crate",
+    "rarity": "Limited",
+    "sourceId": "festive-bait-crate"
+  },
+  {
+    "id": "forsaken-algae",
+    "name": "Forsaken Algae",
+    "rarity": "Limited",
+    "sourceId": "forsaken-algae"
+  },
+  {
+    "id": "fossil-fan",
+    "name": "Fossil Fan",
+    "rarity": "Limited",
+    "sourceId": "fossil-fan"
+  },
+  {
+    "id": "frankenshrimp",
+    "name": "Frankenshrimp",
+    "rarity": "Limited",
+    "sourceId": "frankenshrimp"
+  },
+  {
+    "id": "frightful-crate",
+    "name": "Frightful Crate",
+    "rarity": "Limited",
+    "sourceId": "frightful-crate"
+  },
+  {
+    "id": "frightful-relic",
+    "name": "Frightful Relic",
+    "rarity": "Limited",
+    "sourceId": "frightful-relic"
+  },
+  {
+    "id": "frosty-turkey",
+    "name": "Frosty Turkey",
+    "rarity": "Limited",
+    "sourceId": "frosty-turkey"
+  },
+  {
+    "id": "frozen-fangfish",
+    "name": "Frozen Fangfish",
+    "rarity": "Limited",
+    "sourceId": "frozen-fangfish"
+  },
+  {
+    "id": "ghost-minnow",
+    "name": "Ghost Minnow",
+    "rarity": "Limited",
+    "sourceId": "ghost-minnow"
+  },
+  {
+    "id": "ghost-turkey",
+    "name": "Ghost Turkey",
+    "rarity": "Limited",
+    "sourceId": "ghost-turkey"
+  },
+  {
+    "id": "ghoulfish",
+    "name": "Ghoulfish",
+    "rarity": "Limited",
+    "sourceId": "ghoulfish"
+  },
+  {
+    "id": "gingerbread-fish",
+    "name": "Gingerbread Fish",
+    "rarity": "Limited",
+    "sourceId": "gingerbread-fish"
+  },
+  {
+    "id": "glacier-glowfish",
+    "name": "Glacier Glowfish",
+    "rarity": "Limited",
+    "sourceId": "glacier-glowfish"
+  },
+  {
+    "id": "glass-of-milk",
+    "name": "Glass of Milk",
+    "rarity": "Limited",
+    "sourceId": "glass-of-milk"
+  },
+  {
+    "id": "glow-brick",
+    "name": "Glow Brick",
+    "rarity": "Limited",
+    "sourceId": "glow-brick"
+  },
+  {
+    "id": "goldbrick",
+    "name": "Goldbrick",
+    "rarity": "Limited",
+    "sourceId": "goldbrick"
+  },
+  {
+    "id": "gravestone-stingray",
+    "name": "Gravestone Stingray",
+    "rarity": "Limited",
+    "sourceId": "gravestone-stingray"
+  },
+  {
+    "id": "gummy-guppy",
+    "name": "Gummy Guppy",
+    "rarity": "Limited",
+    "sourceId": "gummy-guppy"
+  },
+  {
+    "id": "harbinger-koi",
+    "name": "Harbinger Koi",
+    "rarity": "Limited",
+    "sourceId": "harbinger-koi"
+  },
+  {
+    "id": "hollow-flake-catfish",
+    "name": "Hollow Flake Catfish",
+    "rarity": "Limited",
+    "sourceId": "hollow-flake-catfish"
+  },
+  {
+    "id": "hollow-gazer",
+    "name": "Hollow Gazer",
+    "rarity": "Limited",
+    "sourceId": "hollow-gazer"
+  },
+  {
+    "id": "hollyscale-trout",
+    "name": "Hollyscale Trout",
+    "rarity": "Limited",
+    "sourceId": "hollyscale-trout"
+  },
+  {
+    "id": "hourglass-bass",
+    "name": "Hourglass Bass",
+    "rarity": "Limited",
+    "sourceId": "hourglass-bass"
+  },
+  {
+    "id": "icicle",
+    "name": "Icicle",
+    "rarity": "Limited",
+    "sourceId": "icicle"
+  },
+  {
+    "id": "jack-o-lantern",
+    "name": "Jack-o-Lantern",
+    "rarity": "Limited",
+    "sourceId": "jack-o-lantern"
+  },
+  {
+    "id": "jellystud",
+    "name": "Jellystud",
+    "rarity": "Limited",
+    "sourceId": "jellystud"
+  },
+  {
+    "id": "kelpie",
+    "name": "Kelpie",
+    "rarity": "Limited",
+    "sourceId": "kelpie"
+  },
+  {
+    "id": "kittyfish",
+    "name": "Kittyfish",
+    "rarity": "Limited",
+    "sourceId": "kittyfish"
+  },
+  {
+    "id": "krabbit",
+    "name": "Krabbit",
+    "rarity": "Limited",
+    "sourceId": "krabbit"
+  },
+  {
+    "id": "lava-lamprey",
+    "name": "Lava Lamprey",
+    "rarity": "Limited",
+    "sourceId": "lava-lamprey"
+  },
+  {
+    "id": "licorice-leech",
+    "name": "Licorice Leech",
+    "rarity": "Limited",
+    "sourceId": "licorice-leech"
+  },
+  {
+    "id": "lollipop-lamprey",
+    "name": "Lollipop Lamprey",
+    "rarity": "Limited",
+    "sourceId": "lollipop-lamprey"
+  },
+  {
+    "id": "lost-turkey",
+    "name": "Lost Turkey",
+    "rarity": "Limited",
+    "sourceId": "lost-turkey"
+  },
+  {
+    "id": "lovestorm-eel",
+    "name": "Lovestorm Eel",
+    "rarity": "Limited",
+    "sourceId": "lovestorm-eel"
+  },
+  {
+    "id": "lurkerfish",
+    "name": "Lurkerfish",
+    "rarity": "Limited",
+    "sourceId": "lurkerfish"
+  },
+  {
+    "id": "magma-turkey",
+    "name": "Magma Turkey",
+    "rarity": "Limited",
+    "sourceId": "magma-turkey"
+  },
+  {
+    "id": "marshmallow-mackerel",
+    "name": "Marshmallow Mackerel",
+    "rarity": "Limited",
+    "sourceId": "marshmallow-mackerel"
+  },
+  {
+    "id": "molten-minnow",
+    "name": "Molten Minnow",
+    "rarity": "Limited",
+    "sourceId": "molten-minnow"
+  },
+  {
+    "id": "mossjaw-jaw",
+    "name": "Mossjaw Jaw",
+    "rarity": "Limited",
+    "sourceId": "mossjaw-jaw"
+  },
+  {
+    "id": "mossjaw-scapula",
+    "name": "Mossjaw Scapula",
+    "rarity": "Limited",
+    "sourceId": "mossjaw-scapula"
+  },
+  {
+    "id": "mossy-turkey",
+    "name": "Mossy Turkey",
+    "rarity": "Limited",
+    "sourceId": "mossy-turkey"
+  },
+  {
+    "id": "mourning-manta-ray",
+    "name": "Mourning Manta Ray",
+    "rarity": "Limited",
+    "sourceId": "mourning-manta-ray"
+  },
+  {
+    "id": "murky-turkey",
+    "name": "Murky Turkey",
+    "rarity": "Limited",
+    "sourceId": "murky-turkey"
+  },
+  {
+    "id": "mushgrove-algae",
+    "name": "Mushgrove Algae",
+    "rarity": "Limited",
+    "sourceId": "mushgrove-algae"
+  },
+  {
+    "id": "nessie-s-spine",
+    "name": "Nessie's Spine",
+    "rarity": "Limited",
+    "sourceId": "nessies-spine"
+  },
+  {
+    "id": "northstar-serpent",
+    "name": "Northstar Serpent",
+    "rarity": "Limited",
+    "sourceId": "northstar-serpent"
+  },
+  {
+    "id": "o-mango-goldgrin",
+    "name": "O'Mango Goldgrin",
+    "rarity": "Limited",
+    "sourceId": "omango-goldgrin"
+  },
+  {
+    "id": "olmdeer",
+    "name": "Olmdeer",
+    "rarity": "Limited",
+    "sourceId": "olmdeer"
+  },
+  {
+    "id": "ornament-fish",
+    "name": "Ornament Fish",
+    "rarity": "Limited",
+    "sourceId": "ornament-fish"
+  },
+  {
+    "id": "phantom-jellyfish",
+    "name": "Phantom Jellyfish",
+    "rarity": "Limited",
+    "sourceId": "phantom-jellyfish"
+  },
+  {
+    "id": "phantom-megalodon",
+    "name": "Phantom Megalodon",
+    "rarity": "Limited",
+    "sourceId": "phantom-megalodon"
+  },
+  {
+    "id": "pilgrim-hat",
+    "name": "Pilgrim Hat",
+    "rarity": "Limited",
+    "sourceId": "pilgrim-hat"
+  },
+  {
+    "id": "pioneer-turkey",
+    "name": "Pioneer Turkey",
+    "rarity": "Limited",
+    "sourceId": "pioneer-turkey"
+  },
+  {
+    "id": "pirate-turkey",
+    "name": "Pirate Turkey",
+    "rarity": "Limited",
+    "sourceId": "pirate-turkey"
+  },
+  {
+    "id": "plumrick-o-luck",
+    "name": "Plumrick O'Luck",
+    "rarity": "Limited",
+    "sourceId": "plumrick-oluck"
+  },
+  {
+    "id": "poseidon-turkey",
+    "name": "Poseidon Turkey",
+    "rarity": "Limited",
+    "sourceId": "poseidon-turkey"
+  },
+  {
+    "id": "potion-perch",
+    "name": "Potion Perch",
+    "rarity": "Limited",
+    "sourceId": "potion-perch"
+  },
+  {
+    "id": "profane-ray",
+    "name": "Profane Ray",
+    "rarity": "Limited",
+    "sourceId": "profane-ray"
+  },
+  {
+    "id": "pumpkin-pufferfish",
+    "name": "Pumpkin Pufferfish",
+    "rarity": "Limited",
+    "sourceId": "pumpkin-pufferfish"
+  },
+  {
+    "id": "pyro-pike",
+    "name": "Pyro Pike",
+    "rarity": "Limited",
+    "sourceId": "pyro-pike"
+  },
+  {
+    "id": "rotfin-eel",
+    "name": "Rotfin Eel",
+    "rarity": "Limited",
+    "sourceId": "rotfin-eel"
+  },
+  {
+    "id": "rowdy-mccharm",
+    "name": "Rowdy McCharm",
+    "rarity": "Limited",
+    "sourceId": "rowdy-mccharm"
+  },
+  {
+    "id": "santa-pufferfish",
+    "name": "Santa Pufferfish",
+    "rarity": "Limited",
+    "sourceId": "santa-pufferfish"
+  },
+  {
+    "id": "santa-salmon",
+    "name": "Santa Salmon",
+    "rarity": "Limited",
+    "sourceId": "santa-salmon"
+  },
+  {
+    "id": "scarecrow",
+    "name": "Scarecrow",
+    "rarity": "Limited",
+    "sourceId": "scarecrow"
+  },
+  {
+    "id": "scooty-salmon",
+    "name": "Scooty Salmon",
+    "rarity": "Limited",
+    "sourceId": "scooty-salmon"
+  },
+  {
+    "id": "shark-fang",
+    "name": "Shark Fang",
+    "rarity": "Limited",
+    "sourceId": "shark-fang"
+  },
+  {
+    "id": "siren-s-guppy",
+    "name": "Siren's Guppy",
+    "rarity": "Limited",
+    "sourceId": "sirens-guppy"
+  },
+  {
+    "id": "skelefish",
+    "name": "Skelefish",
+    "rarity": "Limited",
+    "sourceId": "skelefish"
+  },
+  {
+    "id": "skeletal-nessie",
+    "name": "Skeletal Nessie",
+    "rarity": "Limited",
+    "sourceId": "skeletal-nessie"
+  },
+  {
+    "id": "slate-turkey",
+    "name": "Slate Turkey",
+    "rarity": "Limited",
+    "sourceId": "slate-turkey"
+  },
+  {
+    "id": "snowcap-algae",
+    "name": "Snowcap Algae",
+    "rarity": "Limited",
+    "sourceId": "snowcap-algae"
+  },
+  {
+    "id": "snowflake-flounder",
+    "name": "Snowflake Flounder",
+    "rarity": "Limited",
+    "sourceId": "snowflake-flounder"
+  },
+  {
+    "id": "spider-salmon",
+    "name": "Spider Salmon",
+    "rarity": "Limited",
+    "sourceId": "spider-salmon"
+  },
+  {
+    "id": "spine-blade",
+    "name": "Spine Blade",
+    "rarity": "Limited",
+    "sourceId": "spine-blade"
+  },
+  {
+    "id": "spine-bone",
+    "name": "Spine Bone",
+    "rarity": "Limited",
+    "sourceId": "spine-bone"
+  },
+  {
+    "id": "spined-fin",
+    "name": "Spined Fin",
+    "rarity": "Limited",
+    "sourceId": "spined-fin"
+  },
+  {
+    "id": "spooky-relic",
+    "name": "Spooky Relic",
+    "rarity": "Limited",
+    "sourceId": "spooky-relic"
+  },
+  {
+    "id": "stud-koi",
+    "name": "Stud Koi",
+    "rarity": "Limited",
+    "sourceId": "stud-koi"
+  },
+  {
+    "id": "stud-shark",
+    "name": "Stud Shark",
+    "rarity": "Limited",
+    "sourceId": "stud-shark"
+  },
+  {
+    "id": "stud-turtle",
+    "name": "Stud Turtle",
+    "rarity": "Limited",
+    "sourceId": "stud-turtle"
+  },
+  {
+    "id": "studling-crab",
+    "name": "Studling Crab",
+    "rarity": "Limited",
+    "sourceId": "studling-crab"
+  },
+  {
+    "id": "studolodon",
+    "name": "Studolodon",
+    "rarity": "Limited",
+    "sourceId": "studolodon"
+  },
+  {
+    "id": "studphin",
+    "name": "Studphin",
+    "rarity": "Limited",
+    "sourceId": "studphin"
+  },
+  {
+    "id": "studster",
+    "name": "Studster",
+    "rarity": "Limited",
+    "sourceId": "studster"
+  },
+  {
+    "id": "sunny-o-coin",
+    "name": "Sunny O'Coin",
+    "rarity": "Limited",
+    "sourceId": "sunny-ocoin"
+  },
+  {
+    "id": "sunny-turkey",
+    "name": "Sunny Turkey",
+    "rarity": "Limited",
+    "sourceId": "sunny-turkey"
+  },
+  {
+    "id": "supreme-present",
+    "name": "Supreme Present",
+    "rarity": "Limited",
+    "sourceId": "supreme-present"
+  },
+  {
+    "id": "tentabrick",
+    "name": "Tentabrick",
+    "rarity": "Limited",
+    "sourceId": "tentabrick"
+  },
+  {
+    "id": "the-whispering-one",
+    "name": "The Whispering One",
+    "rarity": "Limited",
+    "sourceId": "the-whispering-one"
+  },
+  {
+    "id": "tidal-pike",
+    "name": "Tidal Pike",
+    "rarity": "Limited",
+    "sourceId": "tidal-pike"
+  },
+  {
+    "id": "turkey",
+    "name": "Turkey",
+    "rarity": "Limited",
+    "sourceId": "turkey"
+  },
+  {
+    "id": "unique-present",
+    "name": "Unique Present",
+    "rarity": "Limited",
+    "sourceId": "unique-present"
+  },
+  {
+    "id": "vampire-perch",
+    "name": "Vampire Perch",
+    "rarity": "Limited",
+    "sourceId": "vampire-perch"
+  },
+  {
+    "id": "veilborn-parasite",
+    "name": "Veilborn Parasite",
+    "rarity": "Limited",
+    "sourceId": "veilborn-parasite"
+  },
+  {
+    "id": "werewolf-walleye",
+    "name": "Werewolf Walleye",
+    "rarity": "Limited",
+    "sourceId": "werewolf-walleye"
+  },
+  {
+    "id": "wraithfin",
+    "name": "Wraithfin",
+    "rarity": "Limited",
+    "sourceId": "wraithfin"
+  },
+  {
+    "id": "wretched-guppy",
+    "name": "Wretched Guppy",
+    "rarity": "Limited",
+    "sourceId": "wretched-guppy"
+  },
+  {
+    "id": "xtra-sour-gummy-pack",
+    "name": "Xtra Sour Gummy Pack",
+    "rarity": "Limited",
+    "sourceId": "xtra-sour-gummy-pack"
+  },
+  {
+    "id": "yellow-studfish",
+    "name": "Yellow Studfish",
+    "rarity": "Limited",
+    "sourceId": "yellow-studfish"
+  },
+  {
+    "id": "zombiefish",
+    "name": "Zombiefish",
+    "rarity": "Limited",
+    "sourceId": "zombiefish"
+  },
+  {
+    "id": "apex-leviathan",
+    "name": "Apex Leviathan",
+    "rarity": "Extinct",
+    "sourceId": "apex-leviathan"
+  },
+  {
+    "id": "bigfin-squid",
+    "name": "Bigfin Squid",
+    "rarity": "Extinct",
+    "sourceId": "bigfin-squid"
+  },
+  {
+    "id": "black-swallower",
+    "name": "Black Swallower",
+    "rarity": "Extinct",
+    "sourceId": "black-swallower"
+  },
+  {
+    "id": "bogscale",
+    "name": "Bogscale",
+    "rarity": "Extinct",
+    "sourceId": "bogscale"
+  },
+  {
+    "id": "driftfin",
+    "name": "Driftfin",
+    "rarity": "Extinct",
+    "sourceId": "driftfin"
+  },
+  {
+    "id": "drifting-gildfin",
+    "name": "Drifting Gildfin",
+    "rarity": "Extinct",
+    "sourceId": "drifting-gildfin"
+  },
+  {
+    "id": "four-eyes-fish",
+    "name": "Four Eyes Fish",
+    "rarity": "Extinct",
+    "sourceId": "four-eyes-fish"
+  },
+  {
+    "id": "hogchoker",
+    "name": "Hogchoker",
+    "rarity": "Extinct",
+    "sourceId": "hogchoker"
+  },
+  {
+    "id": "horizon-tetra",
+    "name": "Horizon Tetra",
+    "rarity": "Extinct",
+    "sourceId": "horizon-tetra"
+  },
+  {
+    "id": "murkdrifter",
+    "name": "Murkdrifter",
+    "rarity": "Extinct",
+    "sourceId": "murkdrifter"
+  },
+  {
+    "id": "pelican-eel",
+    "name": "Pelican Eel",
+    "rarity": "Extinct",
+    "sourceId": "pelican-eel"
+  },
+  {
+    "id": "phantom-koi",
+    "name": "Phantom Koi",
+    "rarity": "Extinct",
+    "sourceId": "phantom-koi"
+  },
+  {
+    "id": "pine-zephyrfish",
+    "name": "Pine Zephyrfish",
+    "rarity": "Extinct",
+    "sourceId": "pine-zephyrfish"
+  },
+  {
+    "id": "snipefish",
+    "name": "Snipefish",
+    "rarity": "Extinct",
+    "sourceId": "snipefish"
+  },
+  {
+    "id": "storm-skipper",
+    "name": "Storm Skipper",
+    "rarity": "Extinct",
+    "sourceId": "storm-skipper"
+  },
+  {
+    "id": "vinefish",
+    "name": "Vinefish",
+    "rarity": "Extinct",
+    "sourceId": "vinefish"
+  },
+  {
+    "id": "vortex-ray",
+    "name": "Vortex Ray",
+    "rarity": "Extinct",
+    "sourceId": "vortex-ray"
+  },
+  {
+    "id": "x-ray-tetra",
+    "name": "X-ray Tetra",
+    "rarity": "Extinct",
+    "sourceId": "x-ray-tetra"
+  },
+  {
+    "id": "amethyst",
+    "name": "Amethyst",
+    "rarity": "Gemstone",
+    "sourceId": "amethyst"
+  },
+  {
+    "id": "radiant-crystal",
+    "name": "Radiant Crystal",
+    "rarity": "Gemstone",
+    "sourceId": "radiant-crystal"
+  },
+  {
+    "id": "glacial-fragment",
+    "name": "Glacial Fragment",
+    "rarity": "Fragment",
+    "sourceId": "glacial-fragment"
+  },
+  {
+    "id": "cosmic-relic",
+    "name": "Cosmic Relic",
+    "rarity": "Relic",
+    "sourceId": "cosmic-relic"
+  },
+  {
+    "id": "enchant-relic",
+    "name": "Enchant Relic",
+    "rarity": "Relic",
+    "sourceId": "enchant-relic"
+  },
+  {
+    "id": "exalted-relic",
+    "name": "Exalted Relic",
+    "rarity": "Relic",
+    "sourceId": "exalted-relic"
+  },
+  {
+    "id": "abyssborn-monstrosity",
+    "name": "Abyssborn Monstrosity",
+    "rarity": "Secret",
+    "sourceId": "abyssborn-monstrosity"
+  },
+  {
+    "id": "ancient-kraken",
+    "name": "Ancient Kraken",
+    "rarity": "Secret",
+    "sourceId": "ancient-kraken"
+  },
+  {
+    "id": "ancient-orca",
+    "name": "Ancient Orca",
+    "rarity": "Secret",
+    "sourceId": "ancient-orca"
+  },
+  {
+    "id": "baby-bloop-fish",
+    "name": "Baby Bloop Fish",
+    "rarity": "Secret",
+    "sourceId": "baby-bloop-fish"
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "rarity": "Secret",
+    "sourceId": "banana"
+  },
+  {
+    "id": "bloop-cosmetic-crate",
+    "name": "Bloop Cosmetic Crate",
+    "rarity": "Secret",
+    "sourceId": "bloop-cosmetic-crate"
+  },
+  {
+    "id": "colossal-ethereal-dragon",
+    "name": "Colossal Ethereal Dragon",
+    "rarity": "Secret",
+    "sourceId": "colossal-ethereal-dragon"
+  },
+  {
+    "id": "gem-blobfish",
+    "name": "Gem Blobfish",
+    "rarity": "Secret",
+    "sourceId": "gem-blobfish"
+  },
+  {
+    "id": "great-goldcursed-shark",
+    "name": "Great Goldcursed Shark",
+    "rarity": "Secret",
+    "sourceId": "great-goldcursed-shark"
+  },
+  {
+    "id": "long-pike",
+    "name": "Long Pike",
+    "rarity": "Secret",
+    "sourceId": "long-pike"
+  },
+  {
+    "id": "manatee",
+    "name": "Manatee",
+    "rarity": "Secret",
+    "sourceId": "manatee"
+  },
+  {
+    "id": "moby",
+    "name": "Moby",
+    "rarity": "Secret",
+    "sourceId": "moby"
+  },
+  {
+    "id": "molten-ripple",
+    "name": "Molten Ripple",
+    "rarity": "Secret",
+    "sourceId": "molten-ripple"
+  },
+  {
+    "id": "moon-idol",
+    "name": "Moon Idol",
+    "rarity": "Secret",
+    "sourceId": "moon-idol"
+  },
+  {
+    "id": "mustard",
+    "name": "Mustard",
+    "rarity": "Secret",
+    "sourceId": "mustard"
+  },
+  {
+    "id": "pirate-captain-s-goldfish",
+    "name": "Pirate Captain's Goldfish",
+    "rarity": "Secret",
+    "sourceId": "pirate-captains-goldfish"
+  },
+  {
+    "id": "primordial-levi",
+    "name": "Primordial Levi",
+    "rarity": "Secret",
+    "sourceId": "primordial-levi"
+  },
+  {
+    "id": "profane-leviathan",
+    "name": "Profane Leviathan",
+    "rarity": "Secret",
+    "sourceId": "profane-leviathan"
+  },
+  {
+    "id": "psychedelic-frogfish",
+    "name": "Psychedelic Frogfish",
+    "rarity": "Secret",
+    "sourceId": "psychedelic-frogfish"
+  },
+  {
+    "id": "resin",
+    "name": "Resin",
+    "rarity": "Secret",
+    "sourceId": "resin"
+  },
+  {
+    "id": "rocketfuel",
+    "name": "RocketFuel",
+    "rarity": "Secret",
+    "sourceId": "rocketfuel"
+  },
+  {
+    "id": "scylla",
+    "name": "Scylla",
+    "rarity": "Secret",
+    "sourceId": "scylla"
+  },
+  {
+    "id": "speed-core",
+    "name": "Speed Core",
+    "rarity": "Secret",
+    "sourceId": "speed-core"
+  },
+  {
+    "id": "thornfish",
+    "name": "Thornfish",
+    "rarity": "Secret",
+    "sourceId": "thornfish"
+  },
+  {
+    "id": "verdant-mirage",
+    "name": "Verdant Mirage",
+    "rarity": "Secret",
+    "sourceId": "verdant-mirage"
+  },
+  {
+    "id": "kraken",
+    "name": "Kraken",
+    "rarity": "Exotic",
+    "sourceId": "kraken"
+  },
+  {
+    "id": "ancient-depth-serpent",
+    "name": "Ancient Depth Serpent",
+    "rarity": "Exotic",
+    "sourceId": "ancient-depth-serpent"
+  },
+  {
+    "id": "blobfish",
+    "name": "Blobfish",
+    "rarity": "Exotic",
+    "sourceId": "blobfish"
+  },
+  {
+    "id": "blue-whale",
+    "name": "Blue Whale",
+    "rarity": "Exotic",
+    "sourceId": "blue-whale"
+  },
+  {
+    "id": "boots",
+    "name": "Boots",
+    "rarity": "Exotic",
+    "sourceId": "boots"
+  },
+  {
+    "id": "carrot-shark",
+    "name": "Carrot Shark",
+    "rarity": "Exotic",
+    "sourceId": "carrot-shark"
+  },
+  {
+    "id": "cathulid",
+    "name": "Cathulid",
+    "rarity": "Exotic",
+    "sourceId": "cathulid"
+  },
+  {
+    "id": "cathulith",
+    "name": "Cathulith",
+    "rarity": "Exotic",
+    "sourceId": "cathulith"
+  },
+  {
+    "id": "cave-angel-fish",
+    "name": "Cave Angel Fish",
+    "rarity": "Exotic",
+    "sourceId": "cave-angel-fish"
+  },
+  {
+    "id": "crowned-anglerfish",
+    "name": "Crowned Anglerfish",
+    "rarity": "Exotic",
+    "sourceId": "crowned-anglerfish"
+  },
+  {
+    "id": "crystallized-seadragon",
+    "name": "Crystallized Seadragon",
+    "rarity": "Exotic",
+    "sourceId": "crystallized-seadragon"
+  },
+  {
+    "id": "depth-drifter",
+    "name": "Depth Drifter",
+    "rarity": "Exotic",
+    "sourceId": "depth-drifter"
+  },
+  {
+    "id": "dreaming-aberration",
+    "name": "Dreaming Aberration",
+    "rarity": "Exotic",
+    "sourceId": "dreaming-aberration"
+  },
+  {
+    "id": "dunkleosteus",
+    "name": "Dunkleosteus",
+    "rarity": "Exotic",
+    "sourceId": "dunkleosteus"
+  },
+  {
+    "id": "frozen-leviathan",
+    "name": "Frozen Leviathan",
+    "rarity": "Exotic",
+    "sourceId": "frozen-leviathan"
+  },
+  {
+    "id": "key-of-oaths",
+    "name": "Key of Oaths",
+    "rarity": "Exotic",
+    "sourceId": "key-of-oaths"
+  },
+  {
+    "id": "key-of-whispers",
+    "name": "Key of Whispers",
+    "rarity": "Exotic",
+    "sourceId": "key-of-whispers"
+  },
+  {
+    "id": "leviathan",
+    "name": "Leviathan",
+    "rarity": "Exotic",
+    "sourceId": "leviathan"
+  },
+  {
+    "id": "lithodes-megacantha",
+    "name": "Lithodes Megacantha",
+    "rarity": "Exotic",
+    "sourceId": "lithodes-megacantha"
+  },
+  {
+    "id": "magma-leviathan",
+    "name": "Magma Leviathan",
+    "rarity": "Exotic",
+    "sourceId": "magma-leviathan"
+  },
+  {
+    "id": "megalodon",
+    "name": "Megalodon",
+    "rarity": "Exotic",
+    "sourceId": "megalodon"
+  },
+  {
+    "id": "molten-banshee",
+    "name": "Molten Banshee",
+    "rarity": "Exotic",
+    "sourceId": "molten-banshee"
+  },
+  {
+    "id": "mosasaurus",
+    "name": "Mosasaurus",
+    "rarity": "Exotic",
+    "sourceId": "mosasaurus"
+  },
+  {
+    "id": "sea-leviathan",
+    "name": "Sea Leviathan",
+    "rarity": "Exotic",
+    "sourceId": "sea-leviathan"
+  },
+  {
+    "id": "sunray-sunscale",
+    "name": "Sunray Sunscale",
+    "rarity": "Exotic",
+    "sourceId": "sunray-sunscale"
+  },
+  {
+    "id": "the-depths-key",
+    "name": "The Depths Key",
+    "rarity": "Exotic",
+    "sourceId": "the-depths-key"
+  },
+  {
+    "id": "the-kraken",
+    "name": "The Kraken",
+    "rarity": "Exotic",
+    "sourceId": "the-kraken"
+  },
+  {
+    "id": "tropicspike",
+    "name": "Tropicspike",
+    "rarity": "Exotic",
+    "sourceId": "tropicspike"
+  },
+  {
+    "id": "whisper-eel",
+    "name": "Whisper Eel",
+    "rarity": "Exotic",
+    "sourceId": "whisper-eel"
+  },
+  {
+    "id": "white-sturgeon",
+    "name": "White Sturgeon",
+    "rarity": "Exotic",
+    "sourceId": "white-sturgeon"
+  },
+  {
+    "id": "orca",
+    "name": "Orca",
+    "rarity": "Exotic",
+    "sourceId": "orca"
+  },
+  {
+    "id": "abyss-flicker",
+    "name": "Abyss Flicker",
+    "rarity": "Mythical",
+    "sourceId": "abyss-flicker"
+  },
+  {
+    "id": "abyssal-devourer",
+    "name": "Abyssal Devourer",
+    "rarity": "Mythical",
+    "sourceId": "abyssal-devourer"
+  },
+  {
+    "id": "abyssal-goliath",
+    "name": "Abyssal Goliath",
+    "rarity": "Mythical",
+    "sourceId": "abyssal-goliath"
+  },
+  {
+    "id": "abyssal-grenadier",
+    "name": "Abyssal Grenadier",
+    "rarity": "Mythical",
+    "sourceId": "abyssal-grenadier"
+  },
+  {
+    "id": "ancient-megalodon",
+    "name": "Ancient Megalodon",
+    "rarity": "Mythical",
+    "sourceId": "ancient-megalodon"
+  },
+  {
+    "id": "atolla-jellyfish",
+    "name": "Atolla Jellyfish",
+    "rarity": "Mythical",
+    "sourceId": "atolla-jellyfish"
+  },
+  {
+    "id": "aurora-trout",
+    "name": "Aurora Trout",
+    "rarity": "Mythical",
+    "sourceId": "aurora-trout"
+  },
+  {
+    "id": "barreleye-fish",
+    "name": "Barreleye Fish",
+    "rarity": "Mythical",
+    "sourceId": "barreleye-fish"
+  },
+  {
+    "id": "blisterback-blenny",
+    "name": "Blisterback Blenny",
+    "rarity": "Mythical",
+    "sourceId": "blisterback-blenny"
+  },
+  {
+    "id": "brimstone-angler",
+    "name": "Brimstone Angler",
+    "rarity": "Mythical",
+    "sourceId": "brimstone-angler"
+  },
+  {
+    "id": "carrot-snapper",
+    "name": "Carrot Snapper",
+    "rarity": "Mythical",
+    "sourceId": "carrot-snapper"
+  },
+  {
+    "id": "celestial-koi",
+    "name": "Celestial Koi",
+    "rarity": "Mythical",
+    "sourceId": "celestial-koi"
+  },
+  {
+    "id": "chasm-leech",
+    "name": "Chasm Leech",
+    "rarity": "Mythical",
+    "sourceId": "chasm-leech"
+  },
+  {
+    "id": "chillfin-chimaera",
+    "name": "Chillfin Chimaera",
+    "rarity": "Mythical",
+    "sourceId": "chillfin-chimaera"
+  },
+  {
+    "id": "colossal-squid",
+    "name": "Colossal Squid",
+    "rarity": "Mythical",
+    "sourceId": "colossal-squid"
+  },
+  {
+    "id": "cursed-thread",
+    "name": "Cursed Thread",
+    "rarity": "Mythical",
+    "sourceId": "cursed-thread"
+  },
+  {
+    "id": "dj-spinopus",
+    "name": "DJ Spinopus",
+    "rarity": "Mythical",
+    "sourceId": "dj-spinopus"
+  },
+  {
+    "id": "electric-blue-seahorse",
+    "name": "Electric Blue Seahorse",
+    "rarity": "Mythical",
+    "sourceId": "electric-blue-seahorse"
+  },
+  {
+    "id": "emperor-jellyfish",
+    "name": "Emperor Jellyfish",
+    "rarity": "Mythical",
+    "sourceId": "emperor-jellyfish"
+  },
+  {
+    "id": "gemstone-whale-shark",
+    "name": "Gemstone Whale Shark",
+    "rarity": "Mythical",
+    "sourceId": "gemstone-whale-shark"
+  },
+  {
+    "id": "giant-seadevil",
+    "name": "Giant Seadevil",
+    "rarity": "Mythical",
+    "sourceId": "giant-seadevil"
+  },
+  {
+    "id": "glacierfish",
+    "name": "Glacierfish",
+    "rarity": "Mythical",
+    "sourceId": "glacierfish"
+  },
+  {
+    "id": "great-hammerhead-shark",
+    "name": "Great Hammerhead Shark",
+    "rarity": "Mythical",
+    "sourceId": "great-hammerhead-shark"
+  },
+  {
+    "id": "great-white-shark",
+    "name": "Great White Shark",
+    "rarity": "Mythical",
+    "sourceId": "great-white-shark"
+  },
+  {
+    "id": "gust-tail",
+    "name": "Gust Tail",
+    "rarity": "Mythical",
+    "sourceId": "gust-tail"
+  },
+  {
+    "id": "helicoprion",
+    "name": "Helicoprion",
+    "rarity": "Mythical",
+    "sourceId": "helicoprion"
+  },
+  {
+    "id": "inferno-wood",
+    "name": "Inferno Wood",
+    "rarity": "Mythical",
+    "sourceId": "inferno-wood"
+  },
+  {
+    "id": "isonade",
+    "name": "Isonade",
+    "rarity": "Mythical",
+    "sourceId": "isonade"
+  },
+  {
+    "id": "jungle-phantom",
+    "name": "Jungle Phantom",
+    "rarity": "Mythical",
+    "sourceId": "jungle-phantom"
+  },
+  {
+    "id": "king-jellyfish",
+    "name": "King Jellyfish",
+    "rarity": "Mythical",
+    "sourceId": "king-jellyfish"
+  },
+  {
+    "id": "lepidotes",
+    "name": "Lepidotes",
+    "rarity": "Mythical",
+    "sourceId": "lepidotes"
+  },
+  {
+    "id": "mirage-toadfish",
+    "name": "Mirage Toadfish",
+    "rarity": "Mythical",
+    "sourceId": "mirage-toadfish"
+  },
+  {
+    "id": "mutated-shark",
+    "name": "Mutated Shark",
+    "rarity": "Mythical",
+    "sourceId": "mutated-shark"
+  },
+  {
+    "id": "mythic-fish",
+    "name": "Mythic Fish",
+    "rarity": "Mythical",
+    "sourceId": "mythic-fish"
+  },
+  {
+    "id": "oarfish",
+    "name": "Oarfish",
+    "rarity": "Mythical",
+    "sourceId": "oarfish"
+  },
+  {
+    "id": "obsidian-swordfish",
+    "name": "Obsidian Swordfish",
+    "rarity": "Mythical",
+    "sourceId": "obsidian-swordfish"
+  },
+  {
+    "id": "parktail-spinesnapper",
+    "name": "Parktail Spinesnapper",
+    "rarity": "Mythical",
+    "sourceId": "parktail-spinesnapper"
+  },
+  {
+    "id": "penguin",
+    "name": "Penguin",
+    "rarity": "Mythical",
+    "sourceId": "penguin"
+  },
+  {
+    "id": "ringle",
+    "name": "Ringle",
+    "rarity": "Mythical",
+    "sourceId": "ringle"
+  },
+  {
+    "id": "scaly-dragonfish",
+    "name": "Scaly Dragonfish",
+    "rarity": "Mythical",
+    "sourceId": "scaly-dragonfish"
+  },
+  {
+    "id": "sea-mine",
+    "name": "Sea Mine",
+    "rarity": "Mythical",
+    "sourceId": "sea-mine"
+  },
+  {
+    "id": "sea-pickle",
+    "name": "Sea Pickle",
+    "rarity": "Mythical",
+    "sourceId": "sea-pickle"
+  },
+  {
+    "id": "sea-snake",
+    "name": "Sea Snake",
+    "rarity": "Mythical",
+    "sourceId": "sea-snake"
+  },
+  {
+    "id": "sea-turtle",
+    "name": "Sea Turtle",
+    "rarity": "Mythical",
+    "sourceId": "sea-turtle"
+  },
+  {
+    "id": "shimmering-silverside",
+    "name": "Shimmering Silverside",
+    "rarity": "Mythical",
+    "sourceId": "shimmering-silverside"
+  },
+  {
+    "id": "shiny",
+    "name": "Shiny",
+    "rarity": "Mythical",
+    "sourceId": "shiny"
+  },
+  {
+    "id": "spectral-serpent",
+    "name": "Spectral Serpent",
+    "rarity": "Mythical",
+    "sourceId": "spectral-serpent"
+  },
+  {
+    "id": "stoplight-loosejaw",
+    "name": "Stoplight Loosejaw",
+    "rarity": "Mythical",
+    "sourceId": "stoplight-loosejaw"
+  },
+  {
+    "id": "tarnished-moongill",
+    "name": "Tarnished Moongill",
+    "rarity": "Mythical",
+    "sourceId": "tarnished-moongill"
+  },
+  {
+    "id": "tripod-fish",
+    "name": "Tripod Fish",
+    "rarity": "Mythical",
+    "sourceId": "tripod-fish"
+  },
+  {
+    "id": "twilight-tentaclefish",
+    "name": "Twilight Tentaclefish",
+    "rarity": "Mythical",
+    "sourceId": "twilight-tentaclefish"
+  },
+  {
+    "id": "vampire-squid",
+    "name": "Vampire Squid",
+    "rarity": "Mythical",
+    "sourceId": "vampire-squid"
+  },
+  {
+    "id": "void-angler",
+    "name": "Void Angler",
+    "rarity": "Mythical",
+    "sourceId": "void-angler"
+  },
+  {
+    "id": "void-emperor",
+    "name": "Void Emperor",
+    "rarity": "Mythical",
+    "sourceId": "void-emperor"
+  },
+  {
+    "id": "wave-piercer",
+    "name": "Wave Piercer",
+    "rarity": "Mythical",
+    "sourceId": "wave-piercer"
+  },
+  {
+    "id": "whale-shark",
+    "name": "Whale Shark",
+    "rarity": "Mythical",
+    "sourceId": "whale-shark"
+  },
+  {
+    "id": "zeus-herald",
+    "name": "Zeus' Herald",
+    "rarity": "Mythical",
+    "sourceId": "zeus-herald"
+  },
+  {
+    "id": "abyssal-king",
+    "name": "Abyssal King",
+    "rarity": "Legendary",
+    "sourceId": "abyssal-king"
+  },
+  {
+    "id": "ancient-eel",
+    "name": "Ancient Eel",
+    "rarity": "Legendary",
+    "sourceId": "ancient-eel"
+  },
+  {
+    "id": "barbed-shark",
+    "name": "Barbed Shark",
+    "rarity": "Legendary",
+    "sourceId": "barbed-shark"
+  },
+  {
+    "id": "borealis-snapper",
+    "name": "Borealis Snapper",
+    "rarity": "Legendary",
+    "sourceId": "borealis-snapper"
+  },
+  {
+    "id": "breaker-moth",
+    "name": "Breaker Moth",
+    "rarity": "Legendary",
+    "sourceId": "breaker-moth"
+  },
+  {
+    "id": "brine-phantom",
+    "name": "Brine Phantom",
+    "rarity": "Legendary",
+    "sourceId": "brine-phantom"
+  },
+  {
+    "id": "bull-shark",
+    "name": "Bull Shark",
+    "rarity": "Legendary",
+    "sourceId": "bull-shark"
+  },
+  {
+    "id": "carrot-turtle",
+    "name": "Carrot Turtle",
+    "rarity": "Legendary",
+    "sourceId": "carrot-turtle"
+  },
+  {
+    "id": "crown-bass",
+    "name": "Crown Bass",
+    "rarity": "Legendary",
+    "sourceId": "crown-bass"
+  },
+  {
+    "id": "crystal-corydoras",
+    "name": "Crystal Corydoras",
+    "rarity": "Legendary",
+    "sourceId": "crystal-corydoras"
+  },
+  {
+    "id": "crystal-geode",
+    "name": "Crystal Geode",
+    "rarity": "Legendary",
+    "sourceId": "crystal-geode"
+  },
+  {
+    "id": "deep-behemoth",
+    "name": "Deep Behemoth",
+    "rarity": "Legendary",
+    "sourceId": "deep-behemoth"
+  },
+  {
+    "id": "deep-crownfish",
+    "name": "Deep Crownfish",
+    "rarity": "Legendary",
+    "sourceId": "deep-crownfish"
+  },
+  {
+    "id": "deep-emperor",
+    "name": "Deep Emperor",
+    "rarity": "Legendary",
+    "sourceId": "deep-emperor"
+  },
+  {
+    "id": "diplurus",
+    "name": "Diplurus",
+    "rarity": "Legendary",
+    "sourceId": "diplurus"
+  },
+  {
+    "id": "dolphin",
+    "name": "Dolphin",
+    "rarity": "Legendary",
+    "sourceId": "dolphin"
+  },
+  {
+    "id": "echo-koi",
+    "name": "Echo Koi",
+    "rarity": "Legendary",
+    "sourceId": "echo-koi"
+  },
+  {
+    "id": "floppy",
+    "name": "Floppy",
+    "rarity": "Legendary",
+    "sourceId": "floppy"
+  },
+  {
+    "id": "flying-fish",
+    "name": "Flying Fish",
+    "rarity": "Legendary",
+    "sourceId": "flying-fish"
+  },
+  {
+    "id": "garra-typhlops",
+    "name": "Garra Typhlops",
+    "rarity": "Legendary",
+    "sourceId": "garra-typhlops"
+  },
+  {
+    "id": "gem-dolphin",
+    "name": "Gem Dolphin",
+    "rarity": "Legendary",
+    "sourceId": "gem-dolphin"
+  },
+  {
+    "id": "giant-oarfish",
+    "name": "Giant Oarfish",
+    "rarity": "Legendary",
+    "sourceId": "giant-oarfish"
+  },
+  {
+    "id": "giant-squid",
+    "name": "Giant Squid",
+    "rarity": "Legendary",
+    "sourceId": "giant-squid"
+  },
+  {
+    "id": "glade-lurker",
+    "name": "Glade Lurker",
+    "rarity": "Legendary",
+    "sourceId": "glade-lurker"
+  },
+  {
+    "id": "golden-smallmouth-bass",
+    "name": "Golden Smallmouth Bass",
+    "rarity": "Legendary",
+    "sourceId": "golden-smallmouth-bass"
+  },
+  {
+    "id": "hidden-pipefish",
+    "name": "Hidden Pipefish",
+    "rarity": "Legendary",
+    "sourceId": "hidden-pipefish"
+  },
+  {
+    "id": "humpback-whale",
+    "name": "Humpback Whale",
+    "rarity": "Legendary",
+    "sourceId": "humpback-whale"
+  },
+  {
+    "id": "infant-giant-seadevil",
+    "name": "Infant Giant Seadevil",
+    "rarity": "Legendary",
+    "sourceId": "infant-giant-seadevil"
+  },
+  {
+    "id": "japanese-dragon-eel",
+    "name": "Japanese Dragon Eel",
+    "rarity": "Legendary",
+    "sourceId": "japanese-dragon-eel"
+  },
+  {
+    "id": "kitefin-shark",
+    "name": "Kitefin Shark",
+    "rarity": "Legendary",
+    "sourceId": "kitefin-shark"
+  },
+  {
+    "id": "kraken-s-herald",
+    "name": "Kraken's Herald",
+    "rarity": "Legendary",
+    "sourceId": "krakens-herald"
+  },
+  {
+    "id": "lantern-snapper",
+    "name": "Lantern Snapper",
+    "rarity": "Legendary",
+    "sourceId": "lantern-snapper"
+  },
+  {
+    "id": "maelstorm-shark",
+    "name": "Maelstorm Shark",
+    "rarity": "Legendary",
+    "sourceId": "maelstorm-shark"
+  },
+  {
+    "id": "mage-marlin",
+    "name": "Mage Marlin",
+    "rarity": "Legendary",
+    "sourceId": "mage-marlin"
+  },
+  {
+    "id": "manta-ray",
+    "name": "Manta Ray",
+    "rarity": "Legendary",
+    "sourceId": "manta-ray"
+  },
+  {
+    "id": "marlin",
+    "name": "Marlin",
+    "rarity": "Legendary",
+    "sourceId": "marlin"
+  },
+  {
+    "id": "midnight-axolotl",
+    "name": "Midnight Axolotl",
+    "rarity": "Legendary",
+    "sourceId": "midnight-axolotl"
+  },
+  {
+    "id": "moonfish",
+    "name": "Moonfish",
+    "rarity": "Legendary",
+    "sourceId": "moonfish"
+  },
+  {
+    "id": "nautilus",
+    "name": "Nautilus",
+    "rarity": "Legendary",
+    "sourceId": "nautilus"
+  },
+  {
+    "id": "obsidian-salmon",
+    "name": "Obsidian Salmon",
+    "rarity": "Legendary",
+    "sourceId": "obsidian-salmon"
+  },
+  {
+    "id": "olm",
+    "name": "Olm",
+    "rarity": "Legendary",
+    "sourceId": "olm"
+  },
+  {
+    "id": "ozark-cavefish",
+    "name": "Ozark Cavefish",
+    "rarity": "Legendary",
+    "sourceId": "ozark-cavefish"
+  },
+  {
+    "id": "phantom-brine",
+    "name": "Phantom Brine",
+    "rarity": "Legendary",
+    "sourceId": "phantom-brine"
+  },
+  {
+    "id": "polar-alligator",
+    "name": "Polar Alligator",
+    "rarity": "Legendary",
+    "sourceId": "polar-alligator"
+  },
+  {
+    "id": "polar-prowler",
+    "name": "Polar Prowler",
+    "rarity": "Legendary",
+    "sourceId": "polar-prowler"
+  },
+  {
+    "id": "pond-emperor",
+    "name": "Pond Emperor",
+    "rarity": "Legendary",
+    "sourceId": "pond-emperor"
+  },
+  {
+    "id": "rabbitfish",
+    "name": "Rabbitfish",
+    "rarity": "Legendary",
+    "sourceId": "rabbitfish"
+  },
+  {
+    "id": "rubber-ducky",
+    "name": "Rubber Ducky",
+    "rarity": "Legendary",
+    "sourceId": "rubber-ducky"
+  },
+  {
+    "id": "ruby-lionfish",
+    "name": "Ruby Lionfish",
+    "rarity": "Legendary",
+    "sourceId": "ruby-lionfish"
+  },
+  {
+    "id": "sawfish",
+    "name": "Sawfish",
+    "rarity": "Legendary",
+    "sourceId": "sawfish"
+  },
+  {
+    "id": "scalding-swordfish",
+    "name": "Scalding Swordfish",
+    "rarity": "Legendary",
+    "sourceId": "scalding-swordfish"
+  },
+  {
+    "id": "screaming-fluke",
+    "name": "Screaming Fluke",
+    "rarity": "Legendary",
+    "sourceId": "screaming-fluke"
+  },
+  {
+    "id": "small-spine-chimera",
+    "name": "Small Spine Chimera",
+    "rarity": "Legendary",
+    "sourceId": "small-spine-chimera"
+  },
+  {
+    "id": "swampfish",
+    "name": "Swampfish",
+    "rarity": "Legendary",
+    "sourceId": "swampfish"
+  },
+  {
+    "id": "thunder-serpent",
+    "name": "Thunder Serpent",
+    "rarity": "Legendary",
+    "sourceId": "thunder-serpent"
+  },
+  {
+    "id": "tide-fang",
+    "name": "Tide Fang",
+    "rarity": "Legendary",
+    "sourceId": "tide-fang"
+  },
+  {
+    "id": "typhoon-tailfin",
+    "name": "Typhoon Tailfin",
+    "rarity": "Legendary",
+    "sourceId": "typhoon-tailfin"
+  },
+  {
+    "id": "umbral-shark",
+    "name": "Umbral Shark",
+    "rarity": "Legendary",
+    "sourceId": "umbral-shark"
+  },
+  {
+    "id": "veinspawn",
+    "name": "Veinspawn",
+    "rarity": "Legendary",
+    "sourceId": "veinspawn"
+  },
+  {
+    "id": "voidglow-ghostfish",
+    "name": "Voidglow Ghostfish",
+    "rarity": "Legendary",
+    "sourceId": "voidglow-ghostfish"
+  },
+  {
+    "id": "whiptail-catfish",
+    "name": "Whiptail Catfish",
+    "rarity": "Legendary",
+    "sourceId": "whiptail-catfish"
+  },
+  {
+    "id": "wiifish",
+    "name": "Wiifish",
+    "rarity": "Legendary",
+    "sourceId": "wiifish"
+  },
+  {
+    "id": "abyss-dart",
+    "name": "Abyss Dart",
+    "rarity": "Rare",
+    "sourceId": "abyss-dart"
+  },
+  {
+    "id": "abyssacuda",
+    "name": "Abyssacuda",
+    "rarity": "Rare",
+    "sourceId": "abyssacuda"
+  },
+  {
+    "id": "algae-lurker",
+    "name": "Algae Lurker",
+    "rarity": "Rare",
+    "sourceId": "algae-lurker"
+  },
+  {
+    "id": "anglerfish",
+    "name": "Anglerfish",
+    "rarity": "Rare",
+    "sourceId": "anglerfish"
+  },
+  {
+    "id": "atlantean-alchemist",
+    "name": "Atlantean Alchemist",
+    "rarity": "Rare",
+    "sourceId": "atlantean-alchemist"
+  },
+  {
+    "id": "banditfish",
+    "name": "Banditfish",
+    "rarity": "Rare",
+    "sourceId": "banditfish"
+  },
+  {
+    "id": "black-dragon-fish",
+    "name": "Black Dragon Fish",
+    "rarity": "Rare",
+    "sourceId": "black-dragon-fish"
+  },
+  {
+    "id": "black-ghost-knifefish",
+    "name": "Black Ghost Knifefish",
+    "rarity": "Rare",
+    "sourceId": "black-ghost-knifefish"
+  },
+  {
+    "id": "blue-ribbon-eel",
+    "name": "Blue Ribbon Eel",
+    "rarity": "Rare",
+    "sourceId": "blue-ribbon-eel"
+  },
+  {
+    "id": "bluefin-tuna",
+    "name": "Bluefin Tuna",
+    "rarity": "Rare",
+    "sourceId": "bluefin-tuna"
+  },
+  {
+    "id": "carbon-crate",
+    "name": "Carbon Crate",
+    "rarity": "Rare",
+    "sourceId": "carbon-crate"
+  },
+  {
+    "id": "carrot-salmon",
+    "name": "Carrot Salmon",
+    "rarity": "Rare",
+    "sourceId": "carrot-salmon"
+  },
+  {
+    "id": "cobia",
+    "name": "Cobia",
+    "rarity": "Rare",
+    "sourceId": "cobia"
+  },
+  {
+    "id": "coelacanth",
+    "name": "Coelacanth",
+    "rarity": "Rare",
+    "sourceId": "coelacanth"
+  },
+  {
+    "id": "coin-piranha",
+    "name": "Coin Piranha",
+    "rarity": "Rare",
+    "sourceId": "coin-piranha"
+  },
+  {
+    "id": "cookiecutter-shark",
+    "name": "Cookiecutter Shark",
+    "rarity": "Rare",
+    "sourceId": "cookiecutter-shark"
+  },
+  {
+    "id": "crawling-angler",
+    "name": "Crawling Angler",
+    "rarity": "Rare",
+    "sourceId": "crawling-angler"
+  },
+  {
+    "id": "cryo-coelacanth",
+    "name": "Cryo Coelacanth",
+    "rarity": "Rare",
+    "sourceId": "cryo-coelacanth"
+  },
+  {
+    "id": "cyclone-mako",
+    "name": "Cyclone Mako",
+    "rarity": "Rare",
+    "sourceId": "cyclone-mako"
+  },
+  {
+    "id": "cyclone-scorpionfish",
+    "name": "Cyclone Scorpionfish",
+    "rarity": "Rare",
+    "sourceId": "cyclone-scorpionfish"
+  },
+  {
+    "id": "deep-one",
+    "name": "Deep One",
+    "rarity": "Rare",
+    "sourceId": "deep-one"
+  },
+  {
+    "id": "deeplight-footballfish",
+    "name": "Deeplight Footballfish",
+    "rarity": "Rare",
+    "sourceId": "deeplight-footballfish"
+  },
+  {
+    "id": "dweller-catfish",
+    "name": "Dweller Catfish",
+    "rarity": "Rare",
+    "sourceId": "dweller-catfish"
+  },
+  {
+    "id": "eldritch-horror",
+    "name": "Eldritch Horror",
+    "rarity": "Rare",
+    "sourceId": "eldritch-horror"
+  },
+  {
+    "id": "electric-eel",
+    "name": "Electric Eel",
+    "rarity": "Rare",
+    "sourceId": "electric-eel"
+  },
+  {
+    "id": "frostbite-flounder",
+    "name": "Frostbite Flounder",
+    "rarity": "Rare",
+    "sourceId": "frostbite-flounder"
+  },
+  {
+    "id": "garra-andruzzii",
+    "name": "Garra Andruzzii",
+    "rarity": "Rare",
+    "sourceId": "garra-andruzzii"
+  },
+  {
+    "id": "glacier-swordfish",
+    "name": "Glacier Swordfish",
+    "rarity": "Rare",
+    "sourceId": "glacier-swordfish"
+  },
+  {
+    "id": "goblin-shark",
+    "name": "Goblin Shark",
+    "rarity": "Rare",
+    "sourceId": "goblin-shark"
+  },
+  {
+    "id": "gold-piece",
+    "name": "Gold Piece",
+    "rarity": "Rare",
+    "sourceId": "gold-piece"
+  },
+  {
+    "id": "halibut",
+    "name": "Halibut",
+    "rarity": "Rare",
+    "sourceId": "halibut"
+  },
+  {
+    "id": "iceberg-isopod",
+    "name": "Iceberg Isopod",
+    "rarity": "Rare",
+    "sourceId": "iceberg-isopod"
+  },
+  {
+    "id": "icy-tuna",
+    "name": "Icy Tuna",
+    "rarity": "Rare",
+    "sourceId": "icy-tuna"
+  },
+  {
+    "id": "keepers-guardian",
+    "name": "Keepers Guardian",
+    "rarity": "Rare",
+    "sourceId": "keepers-guardian"
+  },
+  {
+    "id": "king-oyster",
+    "name": "King Oyster",
+    "rarity": "Rare",
+    "sourceId": "king-oyster"
+  },
+  {
+    "id": "lapisjack",
+    "name": "Lapisjack",
+    "rarity": "Rare",
+    "sourceId": "lapisjack"
+  },
+  {
+    "id": "lightning-pike",
+    "name": "Lightning Pike",
+    "rarity": "Rare",
+    "sourceId": "lightning-pike"
+  },
+  {
+    "id": "mahi-mahi",
+    "name": "Mahi Mahi",
+    "rarity": "Rare",
+    "sourceId": "mahi-mahi"
+  },
+  {
+    "id": "massive-marlin",
+    "name": "Massive Marlin",
+    "rarity": "Rare",
+    "sourceId": "massive-marlin"
+  },
+  {
+    "id": "molten-moray",
+    "name": "Molten Moray",
+    "rarity": "Rare",
+    "sourceId": "molten-moray"
+  },
+  {
+    "id": "net-wolffish",
+    "name": "Net Wolffish",
+    "rarity": "Rare",
+    "sourceId": "net-wolffish"
+  },
+  {
+    "id": "opalescent-catfish",
+    "name": "Opalescent Catfish",
+    "rarity": "Rare",
+    "sourceId": "opalescent-catfish"
+  },
+  {
+    "id": "phanerorhynchus",
+    "name": "Phanerorhynchus",
+    "rarity": "Rare",
+    "sourceId": "phanerorhynchus"
+  },
+  {
+    "id": "pirarucu",
+    "name": "Pirarucu",
+    "rarity": "Rare",
+    "sourceId": "pirarucu"
+  },
+  {
+    "id": "prismatic-parrotfish",
+    "name": "Prismatic Parrotfish",
+    "rarity": "Rare",
+    "sourceId": "prismatic-parrotfish"
+  },
+  {
+    "id": "pufferflute",
+    "name": "Pufferflute",
+    "rarity": "Rare",
+    "sourceId": "pufferflute"
+  },
+  {
+    "id": "pyrite-pufferfish",
+    "name": "Pyrite Pufferfish",
+    "rarity": "Rare",
+    "sourceId": "pyrite-pufferfish"
+  },
+  {
+    "id": "pyrogrub",
+    "name": "Pyrogrub",
+    "rarity": "Rare",
+    "sourceId": "pyrogrub"
+  },
+  {
+    "id": "quality-bait-crate",
+    "name": "Quality Bait Crate",
+    "rarity": "Rare",
+    "sourceId": "quality-bait-crate"
+  },
+  {
+    "id": "queen-angelfish",
+    "name": "Queen Angelfish",
+    "rarity": "Rare",
+    "sourceId": "queen-angelfish"
+  },
+  {
+    "id": "red-crabsquid",
+    "name": "Red Crabsquid",
+    "rarity": "Rare",
+    "sourceId": "red-crabsquid"
+  },
+  {
+    "id": "red-fangtooth",
+    "name": "Red Fangtooth",
+    "rarity": "Rare",
+    "sourceId": "red-fangtooth"
+  },
+  {
+    "id": "reed-striker",
+    "name": "Reed Striker",
+    "rarity": "Rare",
+    "sourceId": "reed-striker"
+  },
+  {
+    "id": "relic-dart",
+    "name": "Relic Dart",
+    "rarity": "Rare",
+    "sourceId": "relic-dart"
+  },
+  {
+    "id": "ruby-rasbora",
+    "name": "Ruby Rasbora",
+    "rarity": "Rare",
+    "sourceId": "ruby-rasbora"
+  },
+  {
+    "id": "sailfish",
+    "name": "Sailfish",
+    "rarity": "Rare",
+    "sourceId": "sailfish"
+  },
+  {
+    "id": "sea-urchin",
+    "name": "Sea Urchin",
+    "rarity": "Rare",
+    "sourceId": "sea-urchin"
+  },
+  {
+    "id": "serpent-surgeonfish",
+    "name": "Serpent Surgeonfish",
+    "rarity": "Rare",
+    "sourceId": "serpent-surgeonfish"
+  },
+  {
+    "id": "shiverfin-haddock",
+    "name": "Shiverfin Haddock",
+    "rarity": "Rare",
+    "sourceId": "shiverfin-haddock"
+  },
+  {
+    "id": "silver-arowana",
+    "name": "Silver Arowana",
+    "rarity": "Rare",
+    "sourceId": "silver-arowana"
+  },
+  {
+    "id": "siren-sculpin",
+    "name": "Siren Sculpin",
+    "rarity": "Rare",
+    "sourceId": "siren-sculpin"
+  },
+  {
+    "id": "sloane-s-viperfish",
+    "name": "Sloane's Viperfish",
+    "rarity": "Rare",
+    "sourceId": "sloanes-viperfish"
+  },
+  {
+    "id": "snowfish",
+    "name": "Snowfish",
+    "rarity": "Rare",
+    "sourceId": "snowfish"
+  },
+  {
+    "id": "spider-crab",
+    "name": "Spider Crab",
+    "rarity": "Rare",
+    "sourceId": "spider-crab"
+  },
+  {
+    "id": "spiny-hatchetfish",
+    "name": "Spiny Hatchetfish",
+    "rarity": "Rare",
+    "sourceId": "spiny-hatchetfish"
+  },
+  {
+    "id": "starlit-weaver",
+    "name": "Starlit Weaver",
+    "rarity": "Rare",
+    "sourceId": "starlit-weaver"
+  },
+  {
+    "id": "stingray",
+    "name": "Stingray",
+    "rarity": "Rare",
+    "sourceId": "stingray"
+  },
+  {
+    "id": "stormcloud-angelfish",
+    "name": "Stormcloud Angelfish",
+    "rarity": "Rare",
+    "sourceId": "stormcloud-angelfish"
+  },
+  {
+    "id": "sturgeon",
+    "name": "Sturgeon",
+    "rarity": "Rare",
+    "sourceId": "sturgeon"
+  },
+  {
+    "id": "suckermouth-catfish",
+    "name": "Suckermouth Catfish",
+    "rarity": "Rare",
+    "sourceId": "suckermouth-catfish"
+  },
+  {
+    "id": "surge-pike",
+    "name": "Surge Pike",
+    "rarity": "Rare",
+    "sourceId": "surge-pike"
+  },
+  {
+    "id": "swordfish",
+    "name": "Swordfish",
+    "rarity": "Rare",
+    "sourceId": "swordfish"
+  },
+  {
+    "id": "temple-perch",
+    "name": "Temple Perch",
+    "rarity": "Rare",
+    "sourceId": "temple-perch"
+  },
+  {
+    "id": "titanfang-grouper",
+    "name": "Titanfang Grouper",
+    "rarity": "Rare",
+    "sourceId": "titanfang-grouper"
+  },
+  {
+    "id": "titanic-sturgeon",
+    "name": "Titanic Sturgeon",
+    "rarity": "Rare",
+    "sourceId": "titanic-sturgeon"
+  },
+  {
+    "id": "triton-s-herald",
+    "name": "Triton's Herald",
+    "rarity": "Rare",
+    "sourceId": "tritons-herald"
+  },
+  {
+    "id": "tumor-pike",
+    "name": "Tumor Pike",
+    "rarity": "Rare",
+    "sourceId": "tumor-pike"
+  },
+  {
+    "id": "tuna",
+    "name": "Tuna",
+    "rarity": "Rare",
+    "sourceId": "tuna"
+  },
+  {
+    "id": "twilight-glowfish",
+    "name": "Twilight Glowfish",
+    "rarity": "Rare",
+    "sourceId": "twilight-glowfish"
+  },
+  {
+    "id": "typhoon-tuna",
+    "name": "Typhoon Tuna",
+    "rarity": "Rare",
+    "sourceId": "typhoon-tuna"
+  },
+  {
+    "id": "viperfish",
+    "name": "Viperfish",
+    "rarity": "Rare",
+    "sourceId": "viperfish"
+  },
+  {
+    "id": "voidfin-mahi",
+    "name": "Voidfin Mahi",
+    "rarity": "Rare",
+    "sourceId": "voidfin-mahi"
+  },
+  {
+    "id": "voidscale-guppy",
+    "name": "Voidscale Guppy",
+    "rarity": "Rare",
+    "sourceId": "voidscale-guppy"
+  },
+  {
+    "id": "volcanic-geode",
+    "name": "Volcanic Geode",
+    "rarity": "Rare",
+    "sourceId": "volcanic-geode"
+  },
+  {
+    "id": "warty-frogfish",
+    "name": "Warty Frogfish",
+    "rarity": "Rare",
+    "sourceId": "warty-frogfish"
+  },
+  {
+    "id": "acanthodii",
+    "name": "Acanthodii",
+    "rarity": "Unusual",
+    "sourceId": "acanthodii"
+  },
+  {
+    "id": "atlantean-guardian",
+    "name": "Atlantean Guardian",
+    "rarity": "Unusual",
+    "sourceId": "atlantean-guardian"
+  },
+  {
+    "id": "birgeria",
+    "name": "Birgeria",
+    "rarity": "Unusual",
+    "sourceId": "birgeria"
+  },
+  {
+    "id": "blind-swamp-eel",
+    "name": "Blind Swamp Eel",
+    "rarity": "Unusual",
+    "sourceId": "blind-swamp-eel"
+  },
+  {
+    "id": "bluefish",
+    "name": "Bluefish",
+    "rarity": "Unusual",
+    "sourceId": "bluefish"
+  },
+  {
+    "id": "chillback-whitefish",
+    "name": "Chillback Whitefish",
+    "rarity": "Unusual",
+    "sourceId": "chillback-whitefish"
+  },
+  {
+    "id": "chronos-deep-swimmer",
+    "name": "Chronos Deep Swimmer",
+    "rarity": "Unusual",
+    "sourceId": "chronos-deep-swimmer"
+  },
+  {
+    "id": "cockatoo-squid",
+    "name": "Cockatoo Squid",
+    "rarity": "Unusual",
+    "sourceId": "cockatoo-squid"
+  },
+  {
+    "id": "coin-squid",
+    "name": "Coin Squid",
+    "rarity": "Unusual",
+    "sourceId": "coin-squid"
+  },
+  {
+    "id": "cutlass-fish",
+    "name": "Cutlass Fish",
+    "rarity": "Unusual",
+    "sourceId": "cutlass-fish"
+  },
+  {
+    "id": "deep-freeze-devilfish",
+    "name": "Deep Freeze Devilfish",
+    "rarity": "Unusual",
+    "sourceId": "deep-freeze-devilfish"
+  },
+  {
+    "id": "depth-lurker",
+    "name": "Depth Lurker",
+    "rarity": "Unusual",
+    "sourceId": "depth-lurker"
+  },
+  {
+    "id": "depth-octopus",
+    "name": "Depth Octopus",
+    "rarity": "Unusual",
+    "sourceId": "depth-octopus"
+  },
+  {
+    "id": "dinoflagellates",
+    "name": "Dinoflagellates",
+    "rarity": "Unusual",
+    "sourceId": "dinoflagellates"
+  },
+  {
+    "id": "ember-snapper",
+    "name": "Ember Snapper",
+    "rarity": "Unusual",
+    "sourceId": "ember-snapper"
+  },
+  {
+    "id": "fogstripe",
+    "name": "Fogstripe",
+    "rarity": "Unusual",
+    "sourceId": "fogstripe"
+  },
+  {
+    "id": "frilled-shark",
+    "name": "Frilled Shark",
+    "rarity": "Unusual",
+    "sourceId": "frilled-shark"
+  },
+  {
+    "id": "giant-manta",
+    "name": "Giant Manta",
+    "rarity": "Unusual",
+    "sourceId": "giant-manta"
+  },
+  {
+    "id": "gilded-pearl",
+    "name": "Gilded Pearl",
+    "rarity": "Unusual",
+    "sourceId": "gilded-pearl"
+  },
+  {
+    "id": "globe-jellyfish",
+    "name": "Globe Jellyfish",
+    "rarity": "Unusual",
+    "sourceId": "globe-jellyfish"
+  },
+  {
+    "id": "gorgon-grouper",
+    "name": "Gorgon Grouper",
+    "rarity": "Unusual",
+    "sourceId": "gorgon-grouper"
+  },
+  {
+    "id": "helios-ray",
+    "name": "Helios Ray",
+    "rarity": "Unusual",
+    "sourceId": "helios-ray"
+  },
+  {
+    "id": "hidden-filefish",
+    "name": "Hidden Filefish",
+    "rarity": "Unusual",
+    "sourceId": "hidden-filefish"
+  },
+  {
+    "id": "hollow-snapper",
+    "name": "Hollow Snapper",
+    "rarity": "Unusual",
+    "sourceId": "hollow-snapper"
+  },
+  {
+    "id": "ice-octopus",
+    "name": "Ice Octopus",
+    "rarity": "Unusual",
+    "sourceId": "ice-octopus"
+  },
+  {
+    "id": "leviathan-bass",
+    "name": "Leviathan Bass",
+    "rarity": "Unusual",
+    "sourceId": "leviathan-bass"
+  },
+  {
+    "id": "luminescent-minnow",
+    "name": "Luminescent Minnow",
+    "rarity": "Unusual",
+    "sourceId": "luminescent-minnow"
+  },
+  {
+    "id": "lumpclinger",
+    "name": "Lumpclinger",
+    "rarity": "Unusual",
+    "sourceId": "lumpclinger"
+  },
+  {
+    "id": "nurse-shark",
+    "name": "Nurse Shark",
+    "rarity": "Unusual",
+    "sourceId": "nurse-shark"
+  },
+  {
+    "id": "oracle-s-eye",
+    "name": "Oracle's Eye",
+    "rarity": "Unusual",
+    "sourceId": "oracles-eye"
+  },
+  {
+    "id": "palaeoniscum",
+    "name": "Palaeoniscum",
+    "rarity": "Unusual",
+    "sourceId": "palaeoniscum"
+  },
+  {
+    "id": "philosopher-s-fish",
+    "name": "Philosopher's Fish",
+    "rarity": "Unusual",
+    "sourceId": "philosophers-fish"
+  },
+  {
+    "id": "pike",
+    "name": "Pike",
+    "rarity": "Unusual",
+    "sourceId": "pike"
+  },
+  {
+    "id": "radiant-triplewart-seadevil",
+    "name": "Radiant Triplewart Seadevil",
+    "rarity": "Unusual",
+    "sourceId": "radiant-triplewart-seadevil"
+  },
+  {
+    "id": "ribbon-eel",
+    "name": "Ribbon Eel",
+    "rarity": "Unusual",
+    "sourceId": "ribbon-eel"
+  },
+  {
+    "id": "ripple-spine",
+    "name": "Ripple Spine",
+    "rarity": "Unusual",
+    "sourceId": "ripple-spine"
+  },
+  {
+    "id": "rockstar-hermit-crab",
+    "name": "Rockstar Hermit Crab",
+    "rarity": "Unusual",
+    "sourceId": "rockstar-hermit-crab"
+  },
+  {
+    "id": "sapphire-stargazer",
+    "name": "Sapphire Stargazer",
+    "rarity": "Unusual",
+    "sourceId": "sapphire-stargazer"
+  },
+  {
+    "id": "siren-singer",
+    "name": "Siren Singer",
+    "rarity": "Unusual",
+    "sourceId": "siren-singer"
+  },
+  {
+    "id": "smoldering-stingray",
+    "name": "Smoldering Stingray",
+    "rarity": "Unusual",
+    "sourceId": "smoldering-stingray"
+  },
+  {
+    "id": "split-eye-snapper",
+    "name": "Split Eye Snapper",
+    "rarity": "Unusual",
+    "sourceId": "split-eye-snapper"
+  },
+  {
+    "id": "storm-eel",
+    "name": "Storm Eel",
+    "rarity": "Unusual",
+    "sourceId": "storm-eel"
+  },
+  {
+    "id": "swamp-scallop",
+    "name": "Swamp Scallop",
+    "rarity": "Unusual",
+    "sourceId": "swamp-scallop"
+  },
+  {
+    "id": "tentacle-eel",
+    "name": "Tentacle Eel",
+    "rarity": "Unusual",
+    "sourceId": "tentacle-eel"
+  },
+  {
+    "id": "three-eyed-fish",
+    "name": "Three-eyed Fish",
+    "rarity": "Unusual",
+    "sourceId": "three-eyed-fish"
+  },
+  {
+    "id": "thunder-bass",
+    "name": "Thunder Bass",
+    "rarity": "Unusual",
+    "sourceId": "thunder-bass"
+  },
+  {
+    "id": "trevally",
+    "name": "Trevally",
+    "rarity": "Unusual",
+    "sourceId": "trevally"
+  },
+  {
+    "id": "trumpetfish",
+    "name": "Trumpetfish",
+    "rarity": "Unusual",
+    "sourceId": "trumpetfish"
+  },
+  {
+    "id": "whirlpool-marlin",
+    "name": "Whirlpool Marlin",
+    "rarity": "Unusual",
+    "sourceId": "whirlpool-marlin"
+  },
+  {
+    "id": "yellow-boxfish",
+    "name": "Yellow Boxfish",
+    "rarity": "Unusual",
+    "sourceId": "yellow-boxfish"
+  },
+  {
+    "id": "abyss-snapper",
+    "name": "Abyss Snapper",
+    "rarity": "Uncommon",
+    "sourceId": "abyss-snapper"
+  },
+  {
+    "id": "abyssal-bearded-seadevil",
+    "name": "Abyssal Bearded Seadevil",
+    "rarity": "Uncommon",
+    "sourceId": "abyssal-bearded-seadevil"
+  },
+  {
+    "id": "amberjack",
+    "name": "Amberjack",
+    "rarity": "Uncommon",
+    "sourceId": "amberjack"
+  },
+  {
+    "id": "arctic-char",
+    "name": "Arctic Char",
+    "rarity": "Uncommon",
+    "sourceId": "arctic-char"
+  },
+  {
+    "id": "bait-crate",
+    "name": "Bait Crate",
+    "rarity": "Uncommon",
+    "sourceId": "bait-crate"
+  },
+  {
+    "id": "barracuda",
+    "name": "Barracuda",
+    "rarity": "Uncommon",
+    "sourceId": "barracuda"
+  },
+  {
+    "id": "blue-tang",
+    "name": "Blue Tang",
+    "rarity": "Uncommon",
+    "sourceId": "blue-tang"
+  },
+  {
+    "id": "brine-shrimp",
+    "name": "Brine Shrimp",
+    "rarity": "Uncommon",
+    "sourceId": "brine-shrimp"
+  },
+  {
+    "id": "buccaneer-barracuda",
+    "name": "Buccaneer Barracuda",
+    "rarity": "Uncommon",
+    "sourceId": "buccaneer-barracuda"
+  },
+  {
+    "id": "burbot",
+    "name": "Burbot",
+    "rarity": "Uncommon",
+    "sourceId": "burbot"
+  },
+  {
+    "id": "butterflyfish",
+    "name": "Butterflyfish",
+    "rarity": "Uncommon",
+    "sourceId": "butterflyfish"
+  },
+  {
+    "id": "canopy-tetra",
+    "name": "Canopy Tetra",
+    "rarity": "Uncommon",
+    "sourceId": "canopy-tetra"
+  },
+  {
+    "id": "carp",
+    "name": "Carp",
+    "rarity": "Uncommon",
+    "sourceId": "carp"
+  },
+  {
+    "id": "carrot-eel",
+    "name": "Carrot Eel",
+    "rarity": "Uncommon",
+    "sourceId": "carrot-eel"
+  },
+  {
+    "id": "carrot-minnow",
+    "name": "Carrot Minnow",
+    "rarity": "Uncommon",
+    "sourceId": "carrot-minnow"
+  },
+  {
+    "id": "chillshadow-chub",
+    "name": "Chillshadow Chub",
+    "rarity": "Uncommon",
+    "sourceId": "chillshadow-chub"
+  },
+  {
+    "id": "clownfish",
+    "name": "Clownfish",
+    "rarity": "Uncommon",
+    "sourceId": "clownfish"
+  },
+  {
+    "id": "cod",
+    "name": "Cod",
+    "rarity": "Uncommon",
+    "sourceId": "cod"
+  },
+  {
+    "id": "colossal-carp",
+    "name": "Colossal Carp",
+    "rarity": "Uncommon",
+    "sourceId": "colossal-carp"
+  },
+  {
+    "id": "colossal-saccopharynx",
+    "name": "Colossal Saccopharynx",
+    "rarity": "Uncommon",
+    "sourceId": "colossal-saccopharynx"
+  },
+  {
+    "id": "common-crate",
+    "name": "Common Crate",
+    "rarity": "Uncommon",
+    "sourceId": "common-crate"
+  },
+  {
+    "id": "coral-geode",
+    "name": "Coral Geode",
+    "rarity": "Uncommon",
+    "sourceId": "coral-geode"
+  },
+  {
+    "id": "crab",
+    "name": "Crab",
+    "rarity": "Uncommon",
+    "sourceId": "crab"
+  },
+  {
+    "id": "crestscale",
+    "name": "Crestscale",
+    "rarity": "Uncommon",
+    "sourceId": "crestscale"
+  },
+  {
+    "id": "crystal-chorus",
+    "name": "Crystal Chorus",
+    "rarity": "Uncommon",
+    "sourceId": "crystal-chorus"
+  },
+  {
+    "id": "diamond-discus",
+    "name": "Diamond Discus",
+    "rarity": "Uncommon",
+    "sourceId": "diamond-discus"
+  },
+  {
+    "id": "echo-fisher",
+    "name": "Echo Fisher",
+    "rarity": "Uncommon",
+    "sourceId": "echo-fisher"
+  },
+  {
+    "id": "embertail-eel",
+    "name": "Embertail Eel",
+    "rarity": "Uncommon",
+    "sourceId": "embertail-eel"
+  },
+  {
+    "id": "emerald-elephantnose",
+    "name": "Emerald Elephantnose",
+    "rarity": "Uncommon",
+    "sourceId": "emerald-elephantnose"
+  },
+  {
+    "id": "fish-barrel",
+    "name": "Fish Barrel",
+    "rarity": "Uncommon",
+    "sourceId": "fish-barrel"
+  },
+  {
+    "id": "foamrunner",
+    "name": "Foamrunner",
+    "rarity": "Uncommon",
+    "sourceId": "foamrunner"
+  },
+  {
+    "id": "frigid-shrimp",
+    "name": "Frigid Shrimp",
+    "rarity": "Uncommon",
+    "sourceId": "frigid-shrimp"
+  },
+  {
+    "id": "frostling-goby",
+    "name": "Frostling Goby",
+    "rarity": "Uncommon",
+    "sourceId": "frostling-goby"
+  },
+  {
+    "id": "gem-eel",
+    "name": "Gem Eel",
+    "rarity": "Uncommon",
+    "sourceId": "gem-eel"
+  },
+  {
+    "id": "gemscale-mandarinfish",
+    "name": "Gemscale Mandarinfish",
+    "rarity": "Uncommon",
+    "sourceId": "gemscale-mandarinfish"
+  },
+  {
+    "id": "goldband-butterflyfish",
+    "name": "Goldband Butterflyfish",
+    "rarity": "Uncommon",
+    "sourceId": "goldband-butterflyfish"
+  },
+  {
+    "id": "golden-dorado",
+    "name": "Golden Dorado",
+    "rarity": "Uncommon",
+    "sourceId": "golden-dorado"
+  },
+  {
+    "id": "gollum-snakehead",
+    "name": "Gollum Snakehead",
+    "rarity": "Uncommon",
+    "sourceId": "gollum-snakehead"
+  },
+  {
+    "id": "hawaiian-bobtail-squid",
+    "name": "Hawaiian Bobtail Squid",
+    "rarity": "Uncommon",
+    "sourceId": "hawaiian-bobtail-squid"
+  },
+  {
+    "id": "ice-eel",
+    "name": "Ice Eel",
+    "rarity": "Uncommon",
+    "sourceId": "ice-eel"
+  },
+  {
+    "id": "infernal-iguanafish",
+    "name": "Infernal Iguanafish",
+    "rarity": "Uncommon",
+    "sourceId": "infernal-iguanafish"
+  },
+  {
+    "id": "kraken-koi",
+    "name": "Kraken Koi",
+    "rarity": "Uncommon",
+    "sourceId": "kraken-koi"
+  },
+  {
+    "id": "longtail-bass",
+    "name": "Longtail Bass",
+    "rarity": "Uncommon",
+    "sourceId": "longtail-bass"
+  },
+  {
+    "id": "magma-tang",
+    "name": "Magma Tang",
+    "rarity": "Uncommon",
+    "sourceId": "magma-tang"
+  },
+  {
+    "id": "mandarinfish",
+    "name": "Mandarinfish",
+    "rarity": "Uncommon",
+    "sourceId": "mandarinfish"
+  },
+  {
+    "id": "marble-maiden",
+    "name": "Marble Maiden",
+    "rarity": "Uncommon",
+    "sourceId": "marble-maiden"
+  },
+  {
+    "id": "mosaic-swimmer",
+    "name": "Mosaic Swimmer",
+    "rarity": "Uncommon",
+    "sourceId": "mosaic-swimmer"
+  },
+  {
+    "id": "murkslither",
+    "name": "Murkslither",
+    "rarity": "Uncommon",
+    "sourceId": "murkslither"
+  },
+  {
+    "id": "onychodus",
+    "name": "Onychodus",
+    "rarity": "Uncommon",
+    "sourceId": "onychodus"
+  },
+  {
+    "id": "oyster",
+    "name": "Oyster",
+    "rarity": "Uncommon",
+    "sourceId": "oyster"
+  },
+  {
+    "id": "oyster-toadfish",
+    "name": "Oyster Toadfish",
+    "rarity": "Uncommon",
+    "sourceId": "oyster-toadfish"
+  },
+  {
+    "id": "pale-tang",
+    "name": "Pale Tang",
+    "rarity": "Uncommon",
+    "sourceId": "pale-tang"
+  },
+  {
+    "id": "phantom-ray",
+    "name": "Phantom Ray",
+    "rarity": "Uncommon",
+    "sourceId": "phantom-ray"
+  },
+  {
+    "id": "prawn",
+    "name": "Prawn",
+    "rarity": "Uncommon",
+    "sourceId": "prawn"
+  },
+  {
+    "id": "red-tang",
+    "name": "Red Tang",
+    "rarity": "Uncommon",
+    "sourceId": "red-tang"
+  },
+  {
+    "id": "rotjaw",
+    "name": "Rotjaw",
+    "rarity": "Uncommon",
+    "sourceId": "rotjaw"
+  },
+  {
+    "id": "salmon",
+    "name": "Salmon",
+    "rarity": "Uncommon",
+    "sourceId": "salmon"
+  },
+  {
+    "id": "scallop",
+    "name": "Scallop",
+    "rarity": "Uncommon",
+    "sourceId": "scallop"
+  },
+  {
+    "id": "sea-raven",
+    "name": "Sea Raven",
+    "rarity": "Uncommon",
+    "sourceId": "sea-raven"
+  },
+  {
+    "id": "shadowfang-snapper",
+    "name": "Shadowfang Snapper",
+    "rarity": "Uncommon",
+    "sourceId": "shadowfang-snapper"
+  },
+  {
+    "id": "sinocyclocheilus",
+    "name": "Sinocyclocheilus",
+    "rarity": "Uncommon",
+    "sourceId": "sinocyclocheilus"
+  },
+  {
+    "id": "snowgill-dace",
+    "name": "Snowgill Dace",
+    "rarity": "Uncommon",
+    "sourceId": "snowgill-dace"
+  },
+  {
+    "id": "sprayfin",
+    "name": "Sprayfin",
+    "rarity": "Uncommon",
+    "sourceId": "sprayfin"
+  },
+  {
+    "id": "static-ray",
+    "name": "Static Ray",
+    "rarity": "Uncommon",
+    "sourceId": "static-ray"
+  },
+  {
+    "id": "subzero-stargazer",
+    "name": "Subzero Stargazer",
+    "rarity": "Uncommon",
+    "sourceId": "subzero-stargazer"
+  },
+  {
+    "id": "tempest-ray",
+    "name": "Tempest Ray",
+    "rarity": "Uncommon",
+    "sourceId": "tempest-ray"
+  },
+  {
+    "id": "temple-drifter",
+    "name": "Temple Drifter",
+    "rarity": "Uncommon",
+    "sourceId": "temple-drifter"
+  },
+  {
+    "id": "tentacled-horror",
+    "name": "Tentacled Horror",
+    "rarity": "Uncommon",
+    "sourceId": "tentacled-horror"
+  },
+  {
+    "id": "titan-tuna",
+    "name": "Titan Tuna",
+    "rarity": "Uncommon",
+    "sourceId": "titan-tuna"
+  },
+  {
+    "id": "twilight-eel",
+    "name": "Twilight Eel",
+    "rarity": "Uncommon",
+    "sourceId": "twilight-eel"
+  },
+  {
+    "id": "typhleotris",
+    "name": "Typhleotris",
+    "rarity": "Uncommon",
+    "sourceId": "typhleotris"
+  },
+  {
+    "id": "vortex-barracuda",
+    "name": "Vortex Barracuda",
+    "rarity": "Uncommon",
+    "sourceId": "vortex-barracuda"
+  },
+  {
+    "id": "warty-angler",
+    "name": "Warty Angler",
+    "rarity": "Uncommon",
+    "sourceId": "warty-angler"
+  },
+  {
+    "id": "white-bass",
+    "name": "White Bass",
+    "rarity": "Uncommon",
+    "sourceId": "white-bass"
+  },
+  {
+    "id": "abyssal-slickhead",
+    "name": "Abyssal Slickhead",
+    "rarity": "Common",
+    "sourceId": "abyssal-slickhead"
+  },
+  {
+    "id": "aqua-scribe",
+    "name": "Aqua Scribe",
+    "rarity": "Common",
+    "sourceId": "aqua-scribe"
+  },
+  {
+    "id": "atlantean-anchovy",
+    "name": "Atlantean Anchovy",
+    "rarity": "Common",
+    "sourceId": "atlantean-anchovy"
+  },
+  {
+    "id": "atlantean-sardine",
+    "name": "Atlantean Sardine",
+    "rarity": "Common",
+    "sourceId": "atlantean-sardine"
+  },
+  {
+    "id": "blisterfish",
+    "name": "Blisterfish",
+    "rarity": "Common",
+    "sourceId": "blisterfish"
+  },
+  {
+    "id": "bluegem-angelfish",
+    "name": "Bluegem Angelfish",
+    "rarity": "Common",
+    "sourceId": "bluegem-angelfish"
+  },
+  {
+    "id": "bluegill",
+    "name": "Bluegill",
+    "rarity": "Common",
+    "sourceId": "bluegill"
+  },
+  {
+    "id": "bluelip-batfish",
+    "name": "Bluelip Batfish",
+    "rarity": "Common",
+    "sourceId": "bluelip-batfish"
+  },
+  {
+    "id": "bream",
+    "name": "Bream",
+    "rarity": "Common",
+    "sourceId": "bream"
+  },
+  {
+    "id": "carrot-goldfish",
+    "name": "Carrot Goldfish",
+    "rarity": "Common",
+    "sourceId": "carrot-goldfish"
+  },
+  {
+    "id": "carrot-pufferfish",
+    "name": "Carrot Pufferfish",
+    "rarity": "Common",
+    "sourceId": "carrot-pufferfish"
+  },
+  {
+    "id": "cave-loach",
+    "name": "Cave Loach",
+    "rarity": "Common",
+    "sourceId": "cave-loach"
+  },
+  {
+    "id": "clowned-triggerfish",
+    "name": "Clowned Triggerfish",
+    "rarity": "Common",
+    "sourceId": "clowned-triggerfish"
+  },
+  {
+    "id": "coin-triggerfish",
+    "name": "Coin Triggerfish",
+    "rarity": "Common",
+    "sourceId": "coin-triggerfish"
+  },
+  {
+    "id": "column-crawler",
+    "name": "Column Crawler",
+    "rarity": "Common",
+    "sourceId": "column-crawler"
+  },
+  {
+    "id": "crowned-royal-gramma",
+    "name": "Crowned Royal Gramma",
+    "rarity": "Common",
+    "sourceId": "crowned-royal-gramma"
+  },
+  {
+    "id": "cryoskin",
+    "name": "Cryoskin",
+    "rarity": "Common",
+    "sourceId": "cryoskin"
+  },
+  {
+    "id": "deep-sea-dragonfish",
+    "name": "Deep-sea Dragonfish",
+    "rarity": "Common",
+    "sourceId": "deep-sea-dragonfish"
+  },
+  {
+    "id": "deep-sea-hatchetfish",
+    "name": "Deep-sea Hatchetfish",
+    "rarity": "Common",
+    "sourceId": "deep-sea-hatchetfish"
+  },
+  {
+    "id": "drift-claw",
+    "name": "Drift Claw",
+    "rarity": "Common",
+    "sourceId": "drift-claw"
+  },
+  {
+    "id": "emerald-angelfish",
+    "name": "Emerald Angelfish",
+    "rarity": "Common",
+    "sourceId": "emerald-angelfish"
+  },
+  {
+    "id": "firecrest",
+    "name": "Firecrest",
+    "rarity": "Common",
+    "sourceId": "firecrest"
+  },
+  {
+    "id": "flamekissed-hawkfish",
+    "name": "Flamekissed Hawkfish",
+    "rarity": "Common",
+    "sourceId": "flamekissed-hawkfish"
+  },
+  {
+    "id": "frostscale-fangtooth",
+    "name": "Frostscale Fangtooth",
+    "rarity": "Common",
+    "sourceId": "frostscale-fangtooth"
+  },
+  {
+    "id": "gale-snapper",
+    "name": "Gale Snapper",
+    "rarity": "Common",
+    "sourceId": "gale-snapper"
+  },
+  {
+    "id": "gazerfish",
+    "name": "Gazerfish",
+    "rarity": "Common",
+    "sourceId": "gazerfish"
+  },
+  {
+    "id": "gem-anchovy",
+    "name": "Gem Anchovy",
+    "rarity": "Common",
+    "sourceId": "gem-anchovy"
+  },
+  {
+    "id": "gem-salmon",
+    "name": "Gem Salmon",
+    "rarity": "Common",
+    "sourceId": "gem-salmon"
+  },
+  {
+    "id": "gloombiter",
+    "name": "Gloombiter",
+    "rarity": "Common",
+    "sourceId": "gloombiter"
+  },
+  {
+    "id": "goldfish",
+    "name": "Goldfish",
+    "rarity": "Common",
+    "sourceId": "goldfish"
+  },
+  {
+    "id": "grayling",
+    "name": "Grayling",
+    "rarity": "Common",
+    "sourceId": "grayling"
+  },
+  {
+    "id": "gudgeon",
+    "name": "Gudgeon",
+    "rarity": "Common",
+    "sourceId": "gudgeon"
+  },
+  {
+    "id": "gulf-toadfish",
+    "name": "Gulf Toadfish",
+    "rarity": "Common",
+    "sourceId": "gulf-toadfish"
+  },
+  {
+    "id": "haddock",
+    "name": "Haddock",
+    "rarity": "Common",
+    "sourceId": "haddock"
+  },
+  {
+    "id": "hellfire-haddock",
+    "name": "Hellfire Haddock",
+    "rarity": "Common",
+    "sourceId": "hellfire-haddock"
+  },
+  {
+    "id": "herring",
+    "name": "Herring",
+    "rarity": "Common",
+    "sourceId": "herring"
+  },
+  {
+    "id": "horseshoe-crab",
+    "name": "Horseshoe Crab",
+    "rarity": "Common",
+    "sourceId": "horseshoe-crab"
+  },
+  {
+    "id": "hydra-haddock",
+    "name": "Hydra Haddock",
+    "rarity": "Common",
+    "sourceId": "hydra-haddock"
+  },
+  {
+    "id": "inferno-hide",
+    "name": "Inferno Hide",
+    "rarity": "Common",
+    "sourceId": "inferno-hide"
+  },
+  {
+    "id": "iron-chunk",
+    "name": "Iron Chunk",
+    "rarity": "Common",
+    "sourceId": "iron-chunk"
+  },
+  {
+    "id": "largemouth-bass",
+    "name": "Largemouth Bass",
+    "rarity": "Common",
+    "sourceId": "largemouth-bass"
+  },
+  {
+    "id": "lightning-minnow",
+    "name": "Lightning Minnow",
+    "rarity": "Common",
+    "sourceId": "lightning-minnow"
+  },
+  {
+    "id": "lobster",
+    "name": "Lobster",
+    "rarity": "Common",
+    "sourceId": "lobster"
+  },
+  {
+    "id": "mackerel",
+    "name": "Mackerel",
+    "rarity": "Common",
+    "sourceId": "mackerel"
+  },
+  {
+    "id": "mexican-tetra",
+    "name": "Mexican Tetra",
+    "rarity": "Common",
+    "sourceId": "mexican-tetra"
+  },
+  {
+    "id": "minnow",
+    "name": "Minnow",
+    "rarity": "Common",
+    "sourceId": "minnow"
+  },
+  {
+    "id": "mullet",
+    "name": "Mullet",
+    "rarity": "Common",
+    "sourceId": "mullet"
+  },
+  {
+    "id": "mussel",
+    "name": "Mussel",
+    "rarity": "Common",
+    "sourceId": "mussel"
+  },
+  {
+    "id": "neptune-s-nibbler",
+    "name": "Neptune's Nibbler",
+    "rarity": "Common",
+    "sourceId": "neptunes-nibbler"
+  },
+  {
+    "id": "night-shrimp",
+    "name": "Night Shrimp",
+    "rarity": "Common",
+    "sourceId": "night-shrimp"
+  },
+  {
+    "id": "oracle-minnow",
+    "name": "Oracle Minnow",
+    "rarity": "Common",
+    "sourceId": "oracle-minnow"
+  },
+  {
+    "id": "perch",
+    "name": "Perch",
+    "rarity": "Common",
+    "sourceId": "perch"
+  },
+  {
+    "id": "porgy",
+    "name": "Porgy",
+    "rarity": "Common",
+    "sourceId": "porgy"
+  },
+  {
+    "id": "poseidon-s-perch",
+    "name": "Poseidon's Perch",
+    "rarity": "Common",
+    "sourceId": "poseidons-perch"
+  },
+  {
+    "id": "pyre-fang",
+    "name": "Pyre Fang",
+    "rarity": "Common",
+    "sourceId": "pyre-fang"
+  },
+  {
+    "id": "quartzfin-queenfish",
+    "name": "Quartzfin Queenfish",
+    "rarity": "Common",
+    "sourceId": "quartzfin-queenfish"
+  },
+  {
+    "id": "red-spotted-blenny",
+    "name": "Red Spotted Blenny",
+    "rarity": "Common",
+    "sourceId": "red-spotted-blenny"
+  },
+  {
+    "id": "reefdart",
+    "name": "Reefdart",
+    "rarity": "Common",
+    "sourceId": "reefdart"
+  },
+  {
+    "id": "sand-dollar",
+    "name": "Sand Dollar",
+    "rarity": "Common",
+    "sourceId": "sand-dollar"
+  },
+  {
+    "id": "sardine",
+    "name": "Sardine",
+    "rarity": "Common",
+    "sourceId": "sardine"
+  },
+  {
+    "id": "sea-bass",
+    "name": "Sea Bass",
+    "rarity": "Common",
+    "sourceId": "sea-bass"
+  },
+  {
+    "id": "shortfin-mako-shark",
+    "name": "Shortfin Mako Shark",
+    "rarity": "Common",
+    "sourceId": "shortfin-mako-shark"
+  },
+  {
+    "id": "shrimp-fish",
+    "name": "Shrimp (Fish)",
+    "rarity": "Common",
+    "sourceId": "shrimp-fish"
+  },
+  {
+    "id": "slate-tuna",
+    "name": "Slate Tuna",
+    "rarity": "Common",
+    "sourceId": "slate-tuna"
+  },
+  {
+    "id": "sparkfin-tetra",
+    "name": "Sparkfin Tetra",
+    "rarity": "Common",
+    "sourceId": "sparkfin-tetra"
+  },
+  {
+    "id": "spiderfish",
+    "name": "Spiderfish",
+    "rarity": "Common",
+    "sourceId": "spiderfish"
+  },
+  {
+    "id": "sunken-silverscale",
+    "name": "Sunken Silverscale",
+    "rarity": "Common",
+    "sourceId": "sunken-silverscale"
+  },
+  {
+    "id": "sweetfish",
+    "name": "Sweetfish",
+    "rarity": "Common",
+    "sourceId": "sweetfish"
+  },
+  {
+    "id": "tidallow",
+    "name": "Tidallow",
+    "rarity": "Common",
+    "sourceId": "tidallow"
+  },
+  {
+    "id": "titanic-black-seadevil",
+    "name": "Titanic Black Seadevil",
+    "rarity": "Common",
+    "sourceId": "titanic-black-seadevil"
+  },
+  {
+    "id": "voltfin-carp",
+    "name": "Voltfin Carp",
+    "rarity": "Common",
+    "sourceId": "voltfin-carp"
+  },
+  {
+    "id": "watching-glowfin",
+    "name": "Watching Glowfin",
+    "rarity": "Common",
+    "sourceId": "watching-glowfin"
+  },
+  {
+    "id": "basalt",
+    "name": "Basalt",
+    "rarity": "Trash",
+    "sourceId": "basalt"
+  },
+  {
+    "id": "bone",
+    "name": "Bone",
+    "rarity": "Trash",
+    "sourceId": "bone"
+  },
+  {
+    "id": "boot",
+    "name": "Boot",
+    "rarity": "Trash",
+    "sourceId": "boot"
+  },
+  {
+    "id": "destroyed-fossil",
+    "name": "Destroyed Fossil",
+    "rarity": "Trash",
+    "sourceId": "destroyed-fossil"
+  },
+  {
+    "id": "driftwood",
+    "name": "Driftwood",
+    "rarity": "Trash",
+    "sourceId": "driftwood"
+  },
+  {
+    "id": "ice",
+    "name": "Ice",
+    "rarity": "Trash",
+    "sourceId": "ice"
+  },
+  {
+    "id": "log",
+    "name": "Log",
+    "rarity": "Trash",
+    "sourceId": "log"
+  },
+  {
+    "id": "rock",
+    "name": "Rock",
+    "rarity": "Trash",
+    "sourceId": "rock"
+  },
+  {
+    "id": "rusty-bolt",
+    "name": "Rusty Bolt",
+    "rarity": "Trash",
+    "sourceId": "rusty-bolt"
+  },
+  {
+    "id": "scrap-metal",
+    "name": "Scrap Metal",
+    "rarity": "Trash",
+    "sourceId": "scrap-metal"
+  },
+  {
+    "id": "seaweed",
+    "name": "Seaweed",
+    "rarity": "Trash",
+    "sourceId": "seaweed"
+  },
+  {
+    "id": "stalactite",
+    "name": "Stalactite",
+    "rarity": "Trash",
+    "sourceId": "stalactite"
+  },
+  {
+    "id": "string",
+    "name": "String",
+    "rarity": "Trash",
+    "sourceId": "string"
+  },
+  {
+    "id": "tire",
+    "name": "Tire",
+    "rarity": "Trash",
+    "sourceId": "tire"
+  }
+]

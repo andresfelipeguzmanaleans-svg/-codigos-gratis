@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "tryhard",
+    "name": "Tryhard",
+    "multiplier": 10,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Tryhard Rod (100% chance)"
+  },
+  {
+    "id": "darkness",
+    "name": "Darkness",
+    "multiplier": 9.4,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with Sword of Darkness (100% chance during passive)"
+  },
+  {
+    "id": "fabulous",
+    "name": "Fabulous",
+    "multiplier": 9.3,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Fabulous Rod (26% chance)"
+  },
+  {
+    "id": "umbra",
+    "name": "Umbra",
+    "multiplier": 9,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with the Fang of the Eclipse during an Eclipse (10% chance)"
+  },
+  {
+    "id": "mastered",
+    "name": "Mastered",
+    "multiplier": 9,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Luminescent Oath or Ruinous Oath (100% chance perfect catch)"
+  },
+  {
+    "id": "nightmare",
+    "name": "Nightmare",
+    "multiplier": 8.8,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with the Dusekkar Rod (20% chance)"
+  },
+  {
+    "id": "mossy",
+    "name": "Mossy",
+    "multiplier": 8.7,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Elder Mossripper (5% base chance, 100% after passive)"
+  },
+  {
+    "id": "puritas",
+    "name": "Puritas",
+    "multiplier": 8.7,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with the Onirifalx (3% chance, +4% with Mastery Passive)"
+  },
+  {
+    "id": "distraught",
+    "name": "Distraught",
+    "multiplier": 8.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Dreambreaker (25% Day, 35% Night)"
+  },
+  {
+    "id": "blessed",
+    "name": "Blessed",
+    "multiplier": 8.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Seraphic Rod (30% chance, +5% with Mastery Passive)"
+  },
+  {
+    "id": "jacks-curse",
+    "name": "Jack's Curse",
+    "multiplier": 8.5,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with Jack-o-Blazer (2% chance)"
+  },
+  {
+    "id": "oblivion",
+    "name": "Oblivion",
+    "multiplier": 8.5,
+    "category": "limited",
+    "obtainMethod": "Continental Drift exclusive - meteor impact event"
+  },
+  {
+    "id": "breezed",
+    "name": "Breezed",
+    "multiplier": 8.2,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Wind Elemental (25% chance)"
+  },
+  {
+    "id": "popsicle",
+    "name": "Popsicle",
+    "multiplier": 8.16,
+    "category": "limited",
+    "obtainMethod": "Fischfest exclusive. Year-round with Popsicle Rod (15% chance)"
+  },
+  {
+    "id": "alien",
+    "name": "Alien",
+    "multiplier": 8,
+    "category": "admin",
+    "obtainMethod": "Aliens and MEGA MAYHEM events, or UFO Bait (100% chance)"
+  },
+  {
+    "id": "chlorowoken",
+    "name": "Chlorowoken",
+    "multiplier": 8,
+    "category": "admin",
+    "obtainMethod": "Verdant Vortex, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events"
+  },
+  {
+    "id": "fragmented",
+    "name": "Fragmented",
+    "multiplier": 8,
+    "category": "admin",
+    "obtainMethod": "Glitchstorm and MEGA MAYHEM events"
+  },
+  {
+    "id": "galaxy",
+    "name": "Galaxy",
+    "multiplier": 8,
+    "category": "admin",
+    "obtainMethod": "Galaxy event, or Star Bait (100% chance)"
+  },
+  {
+    "id": "glacial",
+    "name": "Glacial",
+    "multiplier": 8,
+    "category": "admin",
+    "obtainMethod": "Snowstorm, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events"
+  },
+  {
+    "id": "madness",
+    "name": "Madness",
+    "multiplier": 8,
+    "category": "admin",
+    "obtainMethod": "MADNESS and LEVIATHAN RAMPAGE events"
+  },
+  {
+    "id": "mayhem",
+    "name": "Mayhem",
+    "multiplier": 8,
+    "category": "admin",
+    "obtainMethod": "LEVIATHAN RAMPAGE, MAYHEM, MEGA MAYHEM, MADNESS, CORRUPTION events"
+  },
+  {
+    "id": "radiant",
+    "name": "Radiant",
+    "multiplier": 8,
+    "category": "admin",
+    "obtainMethod": "Goldstorm, Buffed Goldstorm, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events"
+  },
+  {
+    "id": "spectral",
+    "name": "Spectral",
+    "multiplier": 8,
+    "category": "admin",
+    "obtainMethod": "Spectral Tide, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events"
+  },
+  {
+    "id": "spicy",
+    "name": "Spicy",
+    "multiplier": 8,
+    "category": "admin",
+    "obtainMethod": "Tacos event, or Taco Bait (100% chance)"
+  },
+  {
+    "id": "gleebous",
+    "name": "Gleebous",
+    "multiplier": 8,
+    "category": "standard",
+    "obtainMethod": "Blade Of Glorp (23% chance, +10% with Mastery Passive), or Gleebous Abundance at Roslit Bay"
+  },
+  {
+    "id": "glowy",
+    "name": "Glowy",
+    "multiplier": 8,
+    "category": "standard",
+    "obtainMethod": "Glowworm Bait (100% chance), or Noctone (40% chance)"
+  },
+  {
+    "id": "chaotic",
+    "name": "Chaotic",
+    "multiplier": 8,
+    "category": "standard",
+    "obtainMethod": "Chaotic Enchantment (8% chance), Duskwire (30% chance, +20% with Mastery Passive)"
+  },
+  {
+    "id": "atomic",
+    "name": "Atomic",
+    "multiplier": 8,
+    "category": "standard",
+    "obtainMethod": "Waters affected by Atomic Nuke (100% chance)"
+  },
+  {
+    "id": "frostnova",
+    "name": "Frostnova",
+    "multiplier": 8,
+    "category": "limited",
+    "obtainMethod": "Fischmas 2025 exclusive. Year-round with Frostnova Bait (30% chance)"
+  },
+  {
+    "id": "birthday",
+    "name": "Birthday",
+    "multiplier": 8,
+    "category": "limited",
+    "obtainMethod": "Only during Anniversary (0.04% chance)"
+  },
+  {
+    "id": "nocturnal",
+    "name": "Nocturnal",
+    "multiplier": 8,
+    "category": "limited",
+    "obtainMethod": "Only with Wingripper (7% chance)"
+  },
+  {
+    "id": "serene",
+    "name": "Serene",
+    "multiplier": 8,
+    "category": "limited",
+    "obtainMethod": "Polaris Serenade (20% chance), or Duskwire (2% chance, 4% after perfect catch)"
+  },
+  {
+    "id": "surreal",
+    "name": "Surreal",
+    "multiplier": 8,
+    "category": "admin",
+    "obtainMethod": "Nulltide, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events (0-8× variable)"
+  },
+  {
+    "id": "tentacle-surge",
+    "name": "Tentacle Surge",
+    "multiplier": 7.8,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Kraken Rod (10% chance)"
+  },
+  {
+    "id": "jackpot",
+    "name": "Jackpot",
+    "multiplier": 7.77,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Random Rod (50% chance)"
+  },
+  {
+    "id": "necrotic",
+    "name": "Necrotic",
+    "multiplier": 7.4,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with Necrotic Rod (30% chance)"
+  },
+  {
+    "id": "patriotic",
+    "name": "Patriotic",
+    "multiplier": 7.4,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with Patriot Rod (20% chance)"
+  },
+  {
+    "id": "magical",
+    "name": "Magical",
+    "multiplier": 7.2,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Merlin's Staff (25% chance)"
+  },
+  {
+    "id": "sacratus",
+    "name": "Sacratus",
+    "multiplier": 7,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Onirifalx (7% chance, +6% with Mastery Passive)"
+  },
+  {
+    "id": "shrouded",
+    "name": "Shrouded",
+    "multiplier": 7,
+    "category": "standard",
+    "obtainMethod": "More common with Elder Mossripper; can be fished at Lost Jungle"
+  },
+  {
+    "id": "tidal",
+    "name": "Tidal",
+    "multiplier": 7,
+    "category": "standard",
+    "obtainMethod": "Rod Of The Forgotten Fang (25% chance, 100% with megalodon passive)"
+  },
+  {
+    "id": "lustrous",
+    "name": "Lustrous",
+    "multiplier": 7,
+    "category": "admin",
+    "obtainMethod": "Goldstorm, Buffed Goldstorm, MAYHEM, MEGA MAYHEM, MADNESS events"
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "multiplier": 7,
+    "category": "admin",
+    "obtainMethod": "67 Warriors, Pond Emperor Uprising, Secret Storm, Mango, MAYHEM events"
+  },
+  {
+    "id": "diurnal",
+    "name": "Diurnal",
+    "multiplier": 7,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with Wingripper (27% chance)"
+  },
+  {
+    "id": "flora",
+    "name": "Flora",
+    "multiplier": 7,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with Chrysalis (8% chance)"
+  },
+  {
+    "id": "infernal",
+    "name": "Infernal",
+    "multiplier": 7,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with Cinderstring (5% stage 2, 15% stage 3)"
+  },
+  {
+    "id": "tormented",
+    "name": "Tormented",
+    "multiplier": 6.66,
+    "category": "admin",
+    "obtainMethod": "Skies of Anguish, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events"
+  },
+  {
+    "id": "wicked",
+    "name": "Wicked",
+    "multiplier": 6.6,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with Jack-o-Blazer (20% chance)"
+  },
+  {
+    "id": "venomous",
+    "name": "Venomous",
+    "multiplier": 6.5,
+    "category": "admin",
+    "obtainMethod": "Verdant Vortex, MAYHEM, MEGA MAYHEM, MADNESS events"
+  },
+  {
+    "id": "evil",
+    "name": "Evil",
+    "multiplier": 6.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Evil Pitchfork (20% chance)"
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora",
+    "multiplier": 6.5,
+    "category": "standard",
+    "obtainMethod": "Aurora Borealis (1% chance); Aurora Rod (15% chance, 30% during Aurora)"
+  },
+  {
+    "id": "luminescent",
+    "name": "Luminescent",
+    "multiplier": 6.5,
+    "category": "standard",
+    "obtainMethod": "Luminescent Oath (15% chance) or Ruinous Oath (25% chance)"
+  },
+  {
+    "id": "oscar",
+    "name": "Oscar",
+    "multiplier": 6.4,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Great Rod of Oscar (5% chance)"
+  },
+  {
+    "id": "summer",
+    "name": "Summer",
+    "multiplier": 6.2,
+    "category": "limited",
+    "obtainMethod": "June to August 2025 exclusive. Year-round with Tidal Wave Rod (5% chance)"
+  },
+  {
+    "id": "nuclear",
+    "name": "Nuclear",
+    "multiplier": 6,
+    "category": "standard",
+    "obtainMethod": "Waters affected by Nuke or Cursed Nuke (100% chance)"
+  },
+  {
+    "id": "toxic",
+    "name": "Toxic",
+    "multiplier": 6,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Toxic Spire Rod (15% chance)"
+  },
+  {
+    "id": "nova",
+    "name": "Nova",
+    "multiplier": 6,
+    "category": "standard",
+    "obtainMethod": "Starfall (5% chance); Rod of the Cosmos (15% chance); Cerulean Fang Rod (15% chance)"
+  },
+  {
+    "id": "heavenly",
+    "name": "Heavenly",
+    "multiplier": 6,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Heaven's Rod (35% chance)"
+  },
+  {
+    "id": "subspace",
+    "name": "Subspace",
+    "multiplier": 6,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Quantum Enchantment (25% chance)"
+  },
+  {
+    "id": "chilled",
+    "name": "Chilled",
+    "multiplier": 6,
+    "category": "admin",
+    "obtainMethod": "Snowstorm, 67 Warriors, Secret Storm, MAYHEM events"
+  },
+  {
+    "id": "fortune",
+    "name": "Fortune",
+    "multiplier": 6,
+    "category": "admin",
+    "obtainMethod": "Goldstorm, Buffed Goldstorm, Secret Storm events"
+  },
+  {
+    "id": "haunted",
+    "name": "Haunted",
+    "multiplier": 6,
+    "category": "admin",
+    "obtainMethod": "Spectral Tide, MAYHEM, MEGA MAYHEM, MADNESS events"
+  },
+  {
+    "id": "eerie",
+    "name": "Eerie",
+    "multiplier": 6,
+    "category": "limited",
+    "obtainMethod": "FischFright 2025 exclusive. Year-round with Spooky Rod or Eerie Enchantment (10% chance)"
+  },
+  {
+    "id": "frightful",
+    "name": "Frightful",
+    "multiplier": 6,
+    "category": "limited",
+    "obtainMethod": "FischFright 2025 exclusive. Year-round with Spooky Rod or Frightful Enchantment (10% chance)"
+  },
+  {
+    "id": "snowy",
+    "name": "Snowy",
+    "multiplier": 6,
+    "category": "limited",
+    "obtainMethod": "Fallen Snowblade (25% chance, 45% Winter, 5% Summer)"
+  },
+  {
+    "id": "spooky",
+    "name": "Spooky",
+    "multiplier": 6,
+    "category": "limited",
+    "obtainMethod": "FischFright 2025 exclusive. Year-round with Spooky Rod or Spooky Enchantment (10% chance)"
+  },
+  {
+    "id": "gravy",
+    "name": "Gravy",
+    "multiplier": 6,
+    "category": "limited",
+    "obtainMethod": "Fischgiving 2025 exclusive. Year-round with Cornucopia Rod (10% chance)"
+  },
+  {
+    "id": "anomalous",
+    "name": "Anomalous",
+    "multiplier": 5.55,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Anomalous Enchantment (20% chance)"
+  },
+  {
+    "id": "kings-blessing",
+    "name": "King's Blessing",
+    "multiplier": 5.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Poseidon Rod (10% chance)"
+  },
+  {
+    "id": "prismize",
+    "name": "Prismize",
+    "multiplier": 5.5,
+    "category": "standard",
+    "obtainMethod": "Ethereal Prism Rod (50% chance, +10% with Mastery Passive)"
+  },
+  {
+    "id": "mythical",
+    "name": "Mythical",
+    "multiplier": 5.5,
+    "category": "standard",
+    "obtainMethod": "More common with Mythical Rod; also during Rainbow weather"
+  },
+  {
+    "id": "abyssal",
+    "name": "Abyssal",
+    "multiplier": 5.5,
+    "category": "standard",
+    "obtainMethod": "Abyssal Specter Rod (25% chance, +10% with Mastery Passive) or Rod Of The Depths (30% chance)"
+  },
+  {
+    "id": "wisp",
+    "name": "Wisp",
+    "multiplier": 5.5,
+    "category": "admin",
+    "obtainMethod": "Spectral Tide and Secret Storm events"
+  },
+  {
+    "id": "spirit",
+    "name": "Spirit",
+    "multiplier": 5.2,
+    "category": "standard",
+    "obtainMethod": "More common with Spiritbinder"
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "Carrot Rod (15% chance) or within Carrot Pool spawned by Carrot Rod"
+  },
+  {
+    "id": "sanguine",
+    "name": "Sanguine",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "Blood Reckoning Enchantment (chance = current HP%) or Sanguine Spire (30% chance)"
+  },
+  {
+    "id": "sirens-spite",
+    "name": "Siren's Spite",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Evil Pitchfork (25% chance)"
+  },
+  {
+    "id": "rainbow-cluster",
+    "name": "Rainbow Cluster",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "Rainbow (5% chance); Rainbow Cluster Rod (20% chance, 35% during Rainbow)"
+  },
+  {
+    "id": "levitas",
+    "name": "Levitas",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Onirifalx (50% chance, +10% with Mastery Passive)"
+  },
+  {
+    "id": "nicos-nyantics",
+    "name": "Nico's Nyantics",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "Nico's Yarncaster with Clownfish Cat Toy bobber equipped (30% chance)"
+  },
+  {
+    "id": "ashen-fortune",
+    "name": "Ashen Fortune",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "Volcanic Rod (25% chance), or Magma Rod (10% chance)"
+  },
+  {
+    "id": "colossal-ink",
+    "name": "Colossal Ink",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "Colossal Ink Bait (100% chance)"
+  },
+  {
+    "id": "cursed-touch",
+    "name": "Cursed Touch",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Great Dreamer Rod (50% on passive catch)"
+  },
+  {
+    "id": "galactic",
+    "name": "Galactic",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "Astrolure Bait (100% chance)"
+  },
+  {
+    "id": "nullified",
+    "name": "Nullified",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "Nullbit Bait (100% chance)"
+  },
+  {
+    "id": "greedy",
+    "name": "Greedy",
+    "multiplier": 5,
+    "category": "standard",
+    "obtainMethod": "More common with Rod Of The Eternal King and Noctone"
+  },
+  {
+    "id": "merry",
+    "name": "Merry",
+    "multiplier": 5,
+    "category": "limited",
+    "obtainMethod": "Fischmas 2025 exclusive. Year-round with Christmas Tree Rod (25% chance)"
+  },
+  {
+    "id": "emberflame",
+    "name": "Emberflame",
+    "multiplier": 5,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with Blazebringer Rod (5% on Stage 3)"
+  },
+  {
+    "id": "gemstone",
+    "name": "Gemstone",
+    "multiplier": 5,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with Treasure Rod (20% chance)"
+  },
+  {
+    "id": "lobster",
+    "name": "Lobster",
+    "multiplier": 5,
+    "category": "limited",
+    "obtainMethod": "Only obtainable with Lobster Rod"
+  },
+  {
+    "id": "phantom",
+    "name": "Phantom",
+    "multiplier": 4.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Eidolon Rod (35% chance)"
+  },
+  {
+    "id": "wrath",
+    "name": "Wrath",
+    "multiplier": 4.5,
+    "category": "standard",
+    "obtainMethod": "Rod Of The Zenith (70% chance); Poseidon Temple during Poseidon Wrath (2% chance)"
+  },
+  {
+    "id": "lost",
+    "name": "Lost",
+    "multiplier": 4.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with The Lost Rod (36% after perfect catch)"
+  },
+  {
+    "id": "seasonal-spring",
+    "name": "Seasonal (Spring)",
+    "multiplier": 4.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Seasons Rod (50% chance)"
+  },
+  {
+    "id": "sunken",
+    "name": "Sunken",
+    "multiplier": 4.5,
+    "category": "standard",
+    "obtainMethod": "Treasure Chests (3.83% chance), or Sunken Rod (8% chance, +5% with Mastery Passive)"
+  },
+  {
+    "id": "crimson",
+    "name": "Crimson",
+    "multiplier": 4,
+    "category": "standard",
+    "obtainMethod": "More common with Scarlet Spincaster Rod"
+  },
+  {
+    "id": "fungal",
+    "name": "Fungal",
+    "multiplier": 4,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Fungal Rod (30% chance)"
+  },
+  {
+    "id": "revitalized",
+    "name": "Revitalized",
+    "multiplier": 4,
+    "category": "standard",
+    "obtainMethod": "Delivering fish with Amber to the Chiseler"
+  },
+  {
+    "id": "seasonal-autumn",
+    "name": "Seasonal (Autumn)",
+    "multiplier": 4,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Seasons Rod (50% chance)"
+  },
+  {
+    "id": "atlantean",
+    "name": "Atlantean",
+    "multiplier": 4,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Trident Rod (30% chance)"
+  },
+  {
+    "id": "celestial",
+    "name": "Celestial",
+    "multiplier": 4,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Celestial Rod (100% during Celestial Bonus)"
+  },
+  {
+    "id": "cursed",
+    "name": "Cursed",
+    "multiplier": 4,
+    "category": "standard",
+    "obtainMethod": "Only fished up during Cursed Storm (8% chance)"
+  },
+  {
+    "id": "moon-kissed",
+    "name": "Moon-Kissed",
+    "multiplier": 4,
+    "category": "standard",
+    "obtainMethod": "Only while Moon-Kissed buff from Blue Moon event is active (5% chance)"
+  },
+  {
+    "id": "lucid",
+    "name": "Lucid",
+    "multiplier": 3.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Lucid Rod (20% chance, 30% during Clear)"
+  },
+  {
+    "id": "aureolin",
+    "name": "Aureolin",
+    "multiplier": 3.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Auric Rod (20% chance)"
+  },
+  {
+    "id": "electric-shock",
+    "name": "Electric Shock",
+    "multiplier": 3.5,
+    "category": "standard",
+    "obtainMethod": "Only from Zeus Rod Thunderstorm Ability (90% chance)"
+  },
+  {
+    "id": "vined",
+    "name": "Vined",
+    "multiplier": 3.5,
+    "category": "standard",
+    "obtainMethod": "More common with Vineweaver Rod; can be fished at Lost Jungle"
+  },
+  {
+    "id": "crystalized",
+    "name": "Crystalized",
+    "multiplier": 3.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Crystalized Rod (20% chance)"
+  },
+  {
+    "id": "fossilized",
+    "name": "Fossilized",
+    "multiplier": 3.3,
+    "category": "standard",
+    "obtainMethod": "More common with Voyager Rod"
+  },
+  {
+    "id": "aurulent",
+    "name": "Aurulent",
+    "multiplier": 3,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Auric Rod (20% chance)"
+  },
+  {
+    "id": "mother-nature",
+    "name": "Mother Nature",
+    "multiplier": 3,
+    "category": "standard",
+    "obtainMethod": "Verdant Shear Rod Tree Ability (33.3% chance), or Wildflower Rod (30% chance)"
+  },
+  {
+    "id": "blighted",
+    "name": "Blighted",
+    "multiplier": 3,
+    "category": "standard",
+    "obtainMethod": "Blizzard event (15% chance), Ice Warpers Rod (25% chance), Summit Rod (15% chance)"
+  },
+  {
+    "id": "ember",
+    "name": "Ember",
+    "multiplier": 3,
+    "category": "standard",
+    "obtainMethod": "Blazebringer Rod (20% Stage 2, 25% Stage 3)"
+  },
+  {
+    "id": "hexed",
+    "name": "Hexed",
+    "multiplier": 3,
+    "category": "standard",
+    "obtainMethod": "More common with No-Life Rod or Original No-Life Rod"
+  },
+  {
+    "id": "scorched",
+    "name": "Scorched",
+    "multiplier": 3,
+    "category": "standard",
+    "obtainMethod": "More common with Phoenix Rod or Cinderstring"
+  },
+  {
+    "id": "solarblaze",
+    "name": "Solarblaze",
+    "multiplier": 3,
+    "category": "standard",
+    "obtainMethod": "Eclipse event (10% chance); Fang of the Eclipse (10% anytime, 90% during Eclipse)"
+  },
+  {
+    "id": "seasonal-winter",
+    "name": "Seasonal (Winter)",
+    "multiplier": 2.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Seasons Rod (50% chance)"
+  },
+  {
+    "id": "aureate",
+    "name": "Aureate",
+    "multiplier": 2.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Auric Rod (20% chance)"
+  },
+  {
+    "id": "lunar",
+    "name": "Lunar",
+    "multiplier": 2.5,
+    "category": "standard",
+    "obtainMethod": "More common during Moonlit Mirage event"
+  },
+  {
+    "id": "skrunkly",
+    "name": "Skrunkly",
+    "multiplier": 2.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Nico's Yarncaster (30% chance)"
+  },
+  {
+    "id": "midas",
+    "name": "Midas",
+    "multiplier": 2.5,
+    "category": "standard",
+    "obtainMethod": "More common with Midas Rod (100% chance)"
+  },
+  {
+    "id": "purified",
+    "name": "Purified",
+    "multiplier": 2.5,
+    "category": "standard",
+    "obtainMethod": "Giving Amber fish to Chiseler, or Insight Enchantment (30% chance)"
+  },
+  {
+    "id": "botanic",
+    "name": "Botanic",
+    "multiplier": 2.5,
+    "category": "admin",
+    "obtainMethod": "Verdant Vortex and Secret Storm events"
+  },
+  {
+    "id": "sleet",
+    "name": "Sleet",
+    "multiplier": 2.4,
+    "category": "standard",
+    "obtainMethod": "Avalanche event (10% chance); Avalanche Rod (25% chance); Summit Rod (20% chance)"
+  },
+  {
+    "id": "electric",
+    "name": "Electric",
+    "multiplier": 2.1,
+    "category": "standard",
+    "obtainMethod": "More common in Grand Reef or with Storming Enchantment"
+  },
+  {
+    "id": "aurelian",
+    "name": "Aurelian",
+    "multiplier": 2,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Auric Rod (20% chance)"
+  },
+  {
+    "id": "lightning",
+    "name": "Lightning",
+    "multiplier": 2,
+    "category": "standard",
+    "obtainMethod": "Zeus Rod Room during Zeus Storm (10% chance); Test Rod (5% chance)"
+  },
+  {
+    "id": "golden",
+    "name": "Golden",
+    "multiplier": 2,
+    "category": "admin",
+    "obtainMethod": "Goldstorm and Buffed Goldstorm events"
+  },
+  {
+    "id": "mace",
+    "name": "Mace",
+    "multiplier": 2,
+    "category": "admin",
+    "obtainMethod": "Bucket Bloom, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS events"
+  },
+  {
+    "id": "silver",
+    "name": "Silver",
+    "multiplier": 1.8,
+    "category": "standard",
+    "obtainMethod": "Standard appraisable mutation"
+  },
+  {
+    "id": "studded",
+    "name": "Studded",
+    "multiplier": 1.8,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Brick Rod (100% chance)"
+  },
+  {
+    "id": "glossy",
+    "name": "Glossy",
+    "multiplier": 1.6,
+    "category": "standard",
+    "obtainMethod": "More common with Azure Of Lagoon"
+  },
+  {
+    "id": "aurous",
+    "name": "Aurous",
+    "multiplier": 1.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Auric Rod (20% chance)"
+  },
+  {
+    "id": "cement",
+    "name": "Cement",
+    "multiplier": 1.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Cinder Block Rod (70% chance)"
+  },
+  {
+    "id": "darkened",
+    "name": "Darkened",
+    "multiplier": 1.5,
+    "category": "standard",
+    "obtainMethod": "More common with Noir Enchantment or Duskwire"
+  },
+  {
+    "id": "frozen",
+    "name": "Frozen",
+    "multiplier": 1.5,
+    "category": "standard",
+    "obtainMethod": "More common with Arctic Rod or Summit Rod"
+  },
+  {
+    "id": "mosaic",
+    "name": "Mosaic",
+    "multiplier": 1.5,
+    "category": "standard",
+    "obtainMethod": "Standard appraisable mutation"
+  },
+  {
+    "id": "negative",
+    "name": "Negative",
+    "multiplier": 1.3,
+    "category": "standard",
+    "obtainMethod": "Standard appraisable mutation"
+  },
+  {
+    "id": "translucent",
+    "name": "Translucent",
+    "multiplier": 1.3,
+    "category": "standard",
+    "obtainMethod": "More common with Ghastly Enchantment"
+  },
+  {
+    "id": "albino",
+    "name": "Albino",
+    "multiplier": 1.2,
+    "category": "standard",
+    "obtainMethod": "Can be sold to Ashe for 1.5× value. More common with Noir Enchantment (50% chance)"
+  },
+  {
+    "id": "amber",
+    "name": "Amber",
+    "multiplier": 1.2,
+    "category": "standard",
+    "obtainMethod": "Only fished at Ancient Isle. Can be upgraded by the Chiseler"
+  },
+  {
+    "id": "sandy",
+    "name": "Sandy",
+    "multiplier": 1.2,
+    "category": "standard",
+    "obtainMethod": "Pharaohs Curse Enchantment (25% chance); Onirifalx quest reward"
+  },
+  {
+    "id": "lightened",
+    "name": "Lightened",
+    "multiplier": 1.01,
+    "category": "admin",
+    "obtainMethod": "Blackout, Semi Chaos, MAYHEM, MEGA MAYHEM, MADNESS, HEAVENLY SPARKLES events"
+  },
+  {
+    "id": "blue",
+    "name": "Blue",
+    "multiplier": 1,
+    "category": "admin",
+    "obtainMethod": "Pond Emperor Uprising event"
+  },
+  {
+    "id": "female",
+    "name": "Female",
+    "multiplier": 1,
+    "category": "admin",
+    "obtainMethod": "Pond Emperor Uprising (10%), MAYHEM (6.7%), MEGA MAYHEM (5.6%), MADNESS (6.3%)"
+  },
+  {
+    "id": "green",
+    "name": "Green",
+    "multiplier": 1,
+    "category": "admin",
+    "obtainMethod": "Pond Emperor Uprising event"
+  },
+  {
+    "id": "pink",
+    "name": "Pink",
+    "multiplier": 1,
+    "category": "admin",
+    "obtainMethod": "Pond Emperor Uprising event"
+  },
+  {
+    "id": "red",
+    "name": "Red",
+    "multiplier": 1,
+    "category": "admin",
+    "obtainMethod": "Pond Emperor Uprising event"
+  },
+  {
+    "id": "yellow",
+    "name": "Yellow",
+    "multiplier": 1,
+    "category": "admin",
+    "obtainMethod": "Pond Emperor Uprising event"
+  },
+  {
+    "id": "neon",
+    "name": "Neon",
+    "multiplier": 1,
+    "category": "standard",
+    "obtainMethod": "Hourglass Bait (100% chance)"
+  },
+  {
+    "id": "seasonal-summer",
+    "name": "Seasonal (Summer)",
+    "multiplier": 1,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Seasons Rod (50% chance)"
+  },
+  {
+    "id": "poisoned",
+    "name": "Poisoned",
+    "multiplier": 0.9,
+    "category": "standard",
+    "obtainMethod": "Can only be fished up at Lost Jungle"
+  },
+  {
+    "id": "67",
+    "name": "67",
+    "multiplier": 0.67,
+    "category": "admin",
+    "obtainMethod": "67 Warriors event"
+  },
+  {
+    "id": "rooted",
+    "name": "Rooted",
+    "multiplier": 0.66,
+    "category": "admin",
+    "obtainMethod": "Verdant Vortex event"
+  },
+  {
+    "id": "soulless",
+    "name": "Soulless",
+    "multiplier": 0.66,
+    "category": "admin",
+    "obtainMethod": "Spectral Tide event"
+  },
+  {
+    "id": "unlucky",
+    "name": "Unlucky",
+    "multiplier": 0.5,
+    "category": "standard",
+    "obtainMethod": "Only obtainable with Random Rod (50% chance)"
+  },
+  {
+    "id": "charred",
+    "name": "Charred",
+    "multiplier": 0.5,
+    "category": "standard",
+    "obtainMethod": "Only from Zeus Rod Thunderstorm Ability (10% chance)"
+  },
+  {
+    "id": "dirty",
+    "name": "Dirty",
+    "multiplier": 0.3,
+    "category": "standard",
+    "obtainMethod": "Earthworm Bait (100% chance)"
+  },
+  {
+    "id": "exploded",
+    "name": "Exploded",
+    "multiplier": 0.1,
+    "category": "standard",
+    "obtainMethod": "The Boom Ball (50% chance)"
+  },
+  {
+    "id": "putrid",
+    "name": "Putrid",
+    "multiplier": -0.5,
+    "category": "standard",
+    "obtainMethod": "Putrid Enchantment (2% chance)"
+  }
+]

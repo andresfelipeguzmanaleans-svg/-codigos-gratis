@@ -1,0 +1,515 @@
+---
+import GameLayout from '../../../../layouts/GameLayout.astro';
+import RodTable from '../../../../components/RodTable.tsx';
+import type { RodRow } from '../../../../components/RodTable.tsx';
+
+import rodsData from '../../../../data/games/fisch/rods.json';
+
+// Build rows
+const rows: RodRow[] = (rodsData as any[]).map(r => ({
+  id: r.id,
+  name: r.name,
+  luckBonus: r.luckBonus ?? 0,
+  control: r.control ?? 0,
+  resilience: r.resilience ?? 0,
+  lureSpeed: r.lureSpeed ?? 0,
+  obtainMethod: r.obtainMethod,
+  isCosmetic:
+    (r.luckBonus === 0 || r.luckBonus == null) &&
+    (r.control === 0 || r.control == null) &&
+    (r.resilience === 0 || r.resilience == null) &&
+    (r.lureSpeed === 0 || r.lureSpeed == null),
+}));
+
+const withStats = rows.filter(r => !r.isCosmetic);
+const cosmetic = rows.filter(r => r.isCosmetic);
+
+const total = rows.length;
+const fmt = (n: number) => n.toLocaleString('en-US');
+
+// Max stats for bars (excluding the -999999999 outlier)
+const saneResil = withStats.map(r => r.resilience).filter(v => v > -1_000_000);
+const maxLuck = Math.max(...withStats.map(r => r.luckBonus));
+const maxControl = Math.max(...withStats.map(r => r.control));
+const maxResil = Math.max(...saneResil, 0);
+const maxLure = Math.max(...withStats.map(r => r.lureSpeed));
+
+// Top 5 per stat
+type StatDef = { key: 'luckBonus' | 'control' | 'resilience' | 'lureSpeed'; label: string; icon: string; format: (v: number) => string };
+
+const statDefs: StatDef[] = [
+  { key: 'luckBonus', label: 'Luck Bonus', icon: '🍀', format: v => fmt(v) },
+  { key: 'control', label: 'Control', icon: '🎯', format: v => v.toFixed(2) },
+  { key: 'resilience', label: 'Resilience', icon: '🛡️', format: v => fmt(v) },
+  { key: 'lureSpeed', label: 'Lure Speed', icon: '⚡', format: v => fmt(v) },
+];
+
+const top5s = statDefs.map(sd => ({
+  ...sd,
+  rods: [...withStats]
+    .filter(r => sd.key !== 'resilience' || r.resilience > -1_000_000)
+    .sort((a, b) => (b[sd.key] as number) - (a[sd.key] as number))
+    .slice(0, 5)
+    .map(r => ({ name: r.name, value: sd.format(r[sd.key] as number) })),
+}));
+
+// Schema.org
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `All ${fmt(total)} Fishing Rods & Stats - Fisch Guide`,
+  description: `Complete Fisch fishing rod guide: ${fmt(total)} rods compared by luck, control, resilience, and lure speed.`,
+  author: { '@type': 'Organization', name: 'Codigos Gratis' },
+  publisher: { '@type': 'Organization', name: 'Codigos Gratis' },
+  mainEntityOfPage: new URL('/games/fisch/rods/', Astro.site).href,
+};
+
+const rodItemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Fisch Fishing Rods',
+  numberOfItems: total,
+  itemListElement: top5s[0].rods.map((r, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: r.name,
+  })),
+};
+---
+
+<GameLayout
+  title={`All ${fmt(total)} Fishing Rods & Stats - Fisch Guide`}
+  description={`Complete Fisch fishing rod guide: ${fmt(total)} rods compared by luck bonus, control, resilience, and lure speed. Find the best rod for your playstyle.`}
+  game="Fisch"
+  breadcrumbs={[{ label: 'Rods', href: '/games/fisch/rods/' }]}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(rodItemListSchema)} />
+  </Fragment>
+
+  <div class="container">
+    <header class="page-hdr">
+      <h1 class="page-hdr__title">Fishing Rods</h1>
+      <p class="page-hdr__sub">{fmt(withStats.length)} rods with stats + {fmt(cosmetic.length)} cosmetic/special rods</p>
+    </header>
+
+    <!-- TOP 5 PER STAT -->
+    <section class="top5s">
+      <h2 class="section-heading">Best Rods by Stat</h2>
+      <div class="top5s__grid">
+        {top5s.map(stat => (
+          <div class="top5-card">
+            <div class="top5-card__header">
+              <span class="top5-card__icon">{stat.icon}</span>
+              <h3 class="top5-card__title">{stat.label}</h3>
+            </div>
+            <ol class="top5-card__list">
+              {stat.rods.map((r, i) => (
+                <li class="top5-card__item">
+                  <span class="top5-card__rank">{i + 1}</span>
+                  <span class="top5-card__name">{r.name}</span>
+                  <span class="top5-card__val">{r.value}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- FULL TABLE -->
+    <section class="rod-list">
+      <h2 class="section-heading">All Rods</h2>
+      <RodTable
+        client:visible
+        rods={rows}
+        maxLuck={maxLuck}
+        maxControl={maxControl}
+        maxResil={maxResil}
+        maxLure={maxLure}
+      />
+    </section>
+  </div>
+</GameLayout>
+
+<style>
+  /* ============================================================
+     PAGE HEADER
+     ============================================================ */
+
+  .page-hdr {
+    padding: 0.5rem 0 1.25rem;
+  }
+
+  .page-hdr__title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .page-hdr__sub {
+    margin-top: 0.25rem;
+    font-size: 0.9rem;
+    color: var(--text-dim);
+  }
+
+  @media (min-width: 768px) {
+    .page-hdr__title { font-size: 2rem; }
+  }
+
+  .section-heading {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.75rem;
+  }
+
+  /* ============================================================
+     TOP 5 CARDS
+     ============================================================ */
+
+  .top5s {
+    padding-bottom: 1.75rem;
+  }
+
+  .top5s__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  @media (min-width: 480px) {
+    .top5s__grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (min-width: 960px) {
+    .top5s__grid { grid-template-columns: repeat(4, 1fr); }
+  }
+
+  .top5-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem;
+    transition: border-color 0.25s;
+  }
+
+  .top5-card:hover {
+    border-color: rgba(6, 214, 160, 0.3);
+  }
+
+  .top5-card__header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .top5-card__icon {
+    font-size: 1.25rem;
+  }
+
+  .top5-card__title {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .top5-card__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .top5-card__item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.82rem;
+  }
+
+  .top5-card__rank {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--text-dim);
+    width: 1.2rem;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .top5-card__name {
+    flex: 1;
+    color: var(--text);
+    font-weight: 500;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .top5-card__val {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+
+  /* ============================================================
+     ROD LIST SECTION
+     ============================================================ */
+
+  .rod-list {
+    padding-bottom: 1rem;
+  }
+
+  /* ---- React component styles (RodTable) ---- */
+
+  /* Filters */
+  :global(.rt__filters) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 0.75rem;
+  }
+
+  :global(.rt__search-wrap) {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  :global(.rt__search-ico) {
+    position: absolute;
+    left: 0.75rem;
+    color: var(--text-dim);
+    pointer-events: none;
+  }
+
+  :global(.rt__search) {
+    width: 100%;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.6rem 0.75rem 0.6rem 2.25rem;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  :global(.rt__search:focus) {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
+  }
+
+  :global(.rt__search::placeholder) {
+    color: var(--text-dim);
+  }
+
+  :global(.rt__filter-row) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  :global(.rt__toggle-label) {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  :global(.rt__toggle-label input) {
+    accent-color: var(--accent);
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+  }
+
+  :global(.rt__clear) {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.4rem 0.65rem;
+    color: var(--accent-hot);
+    font-size: 0.78rem;
+    cursor: pointer;
+    font-family: var(--font-body);
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  :global(.rt__clear:hover) {
+    border-color: var(--accent-hot);
+    background: rgba(255, 107, 107, 0.08);
+  }
+
+  :global(.rt__count) {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  /* Table */
+  :global(.rt__table-wrap) {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg-card);
+  }
+
+  :global(.rt__table) {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  :global(.rt__th) {
+    position: sticky;
+    top: 0;
+    background: var(--bg-card);
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    transition: color 0.2s;
+  }
+
+  :global(.rt__th:hover) {
+    color: var(--accent);
+  }
+
+  :global(.rt__th--stat) {
+    width: 140px;
+    min-width: 100px;
+  }
+
+  :global(.rt__row) {
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+
+  :global(.rt__row:hover) {
+    background: rgba(6, 214, 160, 0.04);
+  }
+
+  :global(.rt__row:not(:last-child) .rt__td) {
+    border-bottom: 1px solid rgba(30, 41, 59, 0.5);
+  }
+
+  :global(.rt__row--cosmetic) {
+    opacity: 0.55;
+  }
+
+  :global(.rt__row--cosmetic:hover) {
+    opacity: 0.8;
+  }
+
+  :global(.rt__td) {
+    padding: 0.5rem 0.75rem;
+    vertical-align: middle;
+  }
+
+  :global(.rt__td--name) {
+    min-width: 160px;
+  }
+
+  :global(.rt__name-wrap) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  :global(.rt__name-text) {
+    font-weight: 600;
+    color: #fff;
+  }
+
+  :global(.rt__cosmetic-tag) {
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    border-radius: 9999px;
+    padding: 0.1rem 0.4rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  :global(.rt__obtain) {
+    margin-top: 0.3rem;
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    line-height: 1.45;
+  }
+
+  /* Stat cell with bar */
+  :global(.rt__stat-cell) {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+  }
+
+  :global(.rt__stat-num) {
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1;
+  }
+
+  :global(.rt__stat-bar) {
+    height: 4px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 2px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  :global(.rt__stat-fill) {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.3s;
+  }
+
+  /* Hide resilience + lure on mobile */
+  @media (max-width: 639px) {
+    :global(.rt__th--hide-sm),
+    :global(.rt__td--hide-sm) {
+      display: none;
+    }
+  }
+
+  /* Empty */
+  :global(.rt__empty) {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+</style>

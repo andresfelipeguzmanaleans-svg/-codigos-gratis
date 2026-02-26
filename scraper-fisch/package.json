@@ -1,0 +1,13 @@
+{
+  "name": "scraper-fisch",
+  "version": "1.0.0",
+  "description": "Scraper de datos del juego Fisch de Roblox",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^2.7.0"
+  }
+}

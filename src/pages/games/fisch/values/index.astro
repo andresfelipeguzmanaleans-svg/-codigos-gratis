@@ -1,0 +1,813 @@
+---
+import GameLayout from '../../../../layouts/GameLayout.astro';
+import ValueTable from '../../../../components/ValueTable.tsx';
+import type { ValueRow } from '../../../../components/ValueTable.tsx';
+
+import fishData from '../../../../data/games/fisch/fish.json';
+import valuesData from '../../../../data/games/fisch/values.json';
+
+// ---------- Data ----------
+
+// Build combined rows: fish data + values data merged by ID
+const valuesMap = new Map<string, any>();
+(valuesData.items as any[]).forEach(v => valuesMap.set(v.itemId, v));
+
+const rows: ValueRow[] = (fishData as any[])
+  .filter(f => f.id && f.name)
+  .map(f => ({
+    id: f.id,
+    name: f.name,
+    rarity: f.rarity,
+    baseValue: f.baseValue,
+    baseWeight: f.baseWeight,
+    weightMax: f.weightRange?.max ?? null,
+    location: f.location,
+    image: f.image,
+    event: f.event,
+  }));
+
+const total = rows.length;
+const withValue = rows.filter(r => r.baseValue != null && r.baseValue > 0);
+const maxBaseValue = Math.max(...withValue.map(r => r.baseValue!));
+const fmt = (n: number) => n.toLocaleString('en-US');
+
+const rarities = [...new Set(rows.map(r => r.rarity))].sort((a, b) => {
+  const order: Record<string, number> = {
+    'Apex': 0, 'Divine Secret': 1, 'Gemstone': 2, 'Relic': 3, 'Exotic': 4,
+    'Secret': 5, 'Mythical': 6, 'Legendary': 7, 'Rare': 8, 'Unusual': 9,
+    'Uncommon': 10, 'Common': 11, 'Special': 12, 'Limited': 13, 'Extinct': 14,
+    'Fragment': 15, 'Trash': 16,
+  };
+  return (order[a] ?? 99) - (order[b] ?? 99);
+});
+
+// Top 10 most valuable (estMax = baseValue * weightMax)
+const top10 = [...rows]
+  .filter(r => r.baseValue && r.baseValue > 0 && r.weightMax && r.weightMax > 0)
+  .map(r => ({ ...r, estMax: r.baseValue! * r.weightMax! }))
+  .sort((a, b) => b.estMax - a.estMax)
+  .slice(0, 10);
+
+function fmtC(n: number): string {
+  if (n >= 1e12) return `${(n / 1e12).toFixed(1)}T`;
+  if (n >= 1e9) return `${(n / 1e9).toFixed(1)}B`;
+  if (n >= 1e6) return `${(n / 1e6).toFixed(1)}M`;
+  if (n >= 1e3) return `${(n / 1e3).toFixed(1)}K`;
+  return fmt(n);
+}
+
+// Dates
+const lastUpdated = new Date(valuesData.lastUpdated);
+const monthYear = lastUpdated.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+const fullDate = lastUpdated.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+
+// Rarity colors for top10 table
+const RARITY_COLORS: Record<string, string> = {
+  'Trash': '#71717a', 'Common': '#9ca3af', 'Uncommon': '#22c55e', 'Unusual': '#34d39e',
+  'Rare': '#3b82f6', 'Legendary': '#f59e0b', 'Mythical': '#a855f7', 'Exotic': '#ec4899',
+  'Limited': '#ef4444', 'Special': '#06b6d4', 'Secret': '#fbbf24', 'Divine Secret': '#fde68a',
+  'Apex': '#f43f5e', 'Extinct': '#a8a29e', 'Relic': '#c084fc', 'Gemstone': '#2dd4bf',
+  'Fragment': '#67e8f9',
+};
+// Schema.org
+const pageUrl = new URL('/games/fisch/values/', Astro.site).href;
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: `Fisch Value List (${monthYear})`,
+  description: `Complete Fisch value list with ${fmt(total)} fish prices.`,
+  url: pageUrl,
+  dateModified: valuesData.lastUpdated,
+  publisher: { '@type': 'Organization', name: 'Codigos Gratis' },
+};
+
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Fisch Fish Value List',
+  numberOfItems: total,
+  itemListElement: top10.map((f, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: f.name,
+    url: new URL(`/games/fisch/fish/${f.id}/`, Astro.site).href,
+  })),
+};
+---
+
+<GameLayout
+  title={`Fisch Value List (${monthYear}) - All Fish Prices & Trading Values`}
+  description={`Complete Fisch value list with ${fmt(total)} fish prices. Check base values, estimated max values, and rarity. Updated weekly.`}
+  game="Fisch"
+  breadcrumbs={[{ label: 'Value List', href: '/games/fisch/values/' }]}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
+  </Fragment>
+
+  <div class="container">
+    <header class="page-hdr">
+      <h1 class="page-hdr__title">Fisch Value List</h1>
+      <p class="page-hdr__sub">{fmt(total)} fish — Base values, estimated max values & trading prices</p>
+      <p class="page-hdr__updated">Last updated: {fullDate}</p>
+    </header>
+
+    <!-- TOP 10 MOST VALUABLE -->
+    <section class="top10">
+      <h2 class="section-heading">Top 10 Most Valuable Fish</h2>
+      <p class="top10__note">Estimated max value = Base Value (C$/kg) × Max Weight (kg)</p>
+      <div class="top10__wrap">
+        <table class="top10__table">
+          <thead>
+            <tr>
+              <th class="top10__th">#</th>
+              <th class="top10__th">Name</th>
+              <th class="top10__th">Rarity</th>
+              <th class="top10__th">Base Value</th>
+              <th class="top10__th">Max Weight</th>
+              <th class="top10__th">Est. Max Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            {top10.map((f, i) => (
+              <tr class="top10__row">
+                <td class="top10__td top10__td--rank">{i + 1}</td>
+                <td class="top10__td top10__td--name">
+                  <a href={`/games/fisch/fish/${f.id}/`} class="top10__link">{f.name}</a>
+                </td>
+                <td class="top10__td top10__td--rarity">
+                  <span style={`color: ${RARITY_COLORS[f.rarity] || '#888'}`}>{f.rarity}</span>
+                </td>
+                <td class="top10__td top10__td--num">{fmt(f.baseValue!)} C$/kg</td>
+                <td class="top10__td top10__td--num">{fmt(f.weightMax!)} kg</td>
+                <td class="top10__td top10__td--est">{fmtC(f.estMax)} C$</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- FULL VALUE TABLE (React) -->
+    <section class="value-section">
+      <h2 class="section-heading">All Fish Values</h2>
+      <ValueTable
+        client:load
+        items={rows}
+        rarities={rarities}
+        maxBaseValue={maxBaseValue}
+      />
+    </section>
+
+    <!-- CTA LINKS -->
+    <div class="cta-row">
+      <a href="/games/fisch/calculator/" class="cta-card">
+        <span class="cta-card__icon">🔄</span>
+        <div class="cta-card__body">
+          <strong class="cta-card__title">Trade Calculator</strong>
+          <span class="cta-card__desc">Check if a trade is Win, Fair, or Lose</span>
+        </div>
+        <span class="cta-card__arrow">&rarr;</span>
+      </a>
+      <a href="/games/fisch/mutations/" class="cta-card">
+        <span class="cta-card__icon">🧬</span>
+        <div class="cta-card__body">
+          <strong class="cta-card__title">Mutations Guide</strong>
+          <span class="cta-card__desc">Multipliers that boost fish value up to 10.2x</span>
+        </div>
+        <span class="cta-card__arrow">&rarr;</span>
+      </a>
+    </div>
+
+    <!-- TRADING VALUES PLACEHOLDER -->
+    <section class="trading-soon">
+      <div class="trading-soon__card">
+        <div class="trading-soon__header">
+          <span class="trading-soon__icon">🔮</span>
+          <h2 class="trading-soon__title">Trading Values in Enchant Relics</h2>
+          <span class="trading-soon__badge">Coming Soon</span>
+        </div>
+        <p class="trading-soon__text">
+          We're working on integrating <strong>Enchant Relic trading values</strong>, including
+          demand ratings and market trends. These values fluctuate based on player trading activity
+          and will provide a more accurate picture of what fish are actually worth in trades.
+        </p>
+        <div class="trading-soon__fields">
+          <div class="trading-soon__field">
+            <span class="trading-soon__field-label">Relic Value</span>
+            <span class="trading-soon__field-val">TBD</span>
+          </div>
+          <div class="trading-soon__field">
+            <span class="trading-soon__field-label">Demand</span>
+            <span class="trading-soon__field-val">TBD</span>
+          </div>
+          <div class="trading-soon__field">
+            <span class="trading-soon__field-label">Trend</span>
+            <span class="trading-soon__field-val">TBD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</GameLayout>
+
+<style>
+  /* ============================================================
+     PAGE HEADER
+     ============================================================ */
+
+  .page-hdr {
+    padding: 0.5rem 0 1.25rem;
+  }
+
+  .page-hdr__title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .page-hdr__sub {
+    margin-top: 0.25rem;
+    font-size: 0.9rem;
+    color: var(--text-dim);
+  }
+
+  .page-hdr__updated {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    color: #0ea5e9;
+    font-weight: 600;
+  }
+
+  @media (min-width: 768px) {
+    .page-hdr__title { font-size: 2rem; }
+  }
+
+  .section-heading {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.75rem;
+  }
+
+  /* ============================================================
+     TOP 10
+     ============================================================ */
+
+  .top10 {
+    padding-bottom: 1.75rem;
+  }
+
+  .top10__note {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    margin-top: -0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .top10__wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg-card);
+  }
+
+  .top10__table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  .top10__th {
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+
+  .top10__row:not(:last-child) .top10__td {
+    border-bottom: 1px solid rgba(30, 41, 59, 0.5);
+  }
+
+  .top10__td {
+    padding: 0.55rem 0.75rem;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  .top10__td--rank {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--text-dim);
+    width: 2rem;
+    text-align: center;
+  }
+
+  .top10__td--name {
+    font-weight: 600;
+  }
+
+  .top10__link {
+    color: #fff;
+    transition: color 0.2s;
+  }
+
+  .top10__link:hover {
+    color: var(--accent);
+  }
+
+  .top10__td--rarity {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .top10__td--num {
+    font-family: var(--font-display);
+    color: var(--text-dim);
+    font-size: 0.82rem;
+  }
+
+  .top10__td--est {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 639px) {
+    .top10__td--rarity,
+    .top10__th:nth-child(3) {
+      display: none;
+    }
+  }
+
+  /* ============================================================
+     VALUE SECTION
+     ============================================================ */
+
+  .value-section {
+    padding-bottom: 1.75rem;
+  }
+
+  /* ---- React component styles (ValueTable) ---- */
+
+  /* Filters */
+  :global(.vt__filters) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 0.75rem;
+  }
+
+  :global(.vt__search-wrap) {
+    position: relative;
+  }
+
+  :global(.vt__search-ico) {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-dim);
+    pointer-events: none;
+  }
+
+  :global(.vt__search) {
+    width: 100%;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.6rem 0.75rem 0.6rem 2.25rem;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  :global(.vt__search:focus) {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
+  }
+
+  :global(.vt__search::placeholder) { color: var(--text-dim); }
+
+  :global(.vt__filter-row) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  :global(.vt__filter-btn) {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.45rem 0.7rem;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  :global(.vt__filter-btn:hover) { border-color: rgba(6, 214, 160, 0.3); }
+  :global(.vt__filter-btn:focus) { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15); }
+
+  /* Rarity panel */
+  :global(.vt__rarity-wrap) { position: relative; }
+
+  :global(.vt__rarity-panel) {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    z-index: 50;
+    background: rgba(17, 24, 39, 0.97);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(6, 214, 160, 0.2);
+    border-radius: 12px;
+    padding: 0.5rem;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+    min-width: 200px;
+    max-height: 360px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  :global(.vt__rarity-opt) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    color: var(--text);
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+
+  :global(.vt__rarity-opt:hover) { background: rgba(255, 255, 255, 0.05); }
+  :global(.vt__rarity-opt input) { accent-color: var(--accent); width: 14px; height: 14px; cursor: pointer; }
+  :global(.vt__rarity-dot) { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  :global(.vt__rarity-cnt) { margin-left: auto; font-size: 0.72rem; color: var(--text-dim); font-family: var(--font-display); }
+
+  /* Slider */
+  :global(.vt__slider-wrap) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    min-width: 140px;
+  }
+
+  :global(.vt__slider-label) {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    font-weight: 500;
+  }
+
+  :global(.vt__slider) {
+    width: 100%;
+    accent-color: var(--accent);
+    height: 4px;
+    cursor: pointer;
+  }
+
+  :global(.vt__clear) {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.4rem 0.65rem;
+    color: var(--accent-hot);
+    font-size: 0.78rem;
+    cursor: pointer;
+    font-family: var(--font-body);
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  :global(.vt__clear:hover) { border-color: var(--accent-hot); background: rgba(255, 107, 107, 0.08); }
+
+  /* Count */
+  :global(.vt__count) {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  /* Table */
+  :global(.vt__table-wrap) {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg-card);
+  }
+
+  :global(.vt__table) {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  :global(.vt__th) {
+    position: sticky;
+    top: 0;
+    background: var(--bg-card);
+    padding: 0.65rem 0.75rem;
+    text-align: left;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    transition: color 0.2s;
+  }
+
+  :global(.vt__th:hover) { color: var(--accent); }
+  :global(.vt__th--img) { width: 40px; cursor: default; }
+  :global(.vt__th--loc) { cursor: default; }
+
+  :global(.vt__row) {
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+
+  :global(.vt__row:hover) { background: rgba(6, 214, 160, 0.04); }
+  :global(.vt__row:not(:last-child) .vt__td) { border-bottom: 1px solid rgba(30, 41, 59, 0.5); }
+
+  :global(.vt__td) {
+    padding: 0.5rem 0.75rem;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  :global(.vt__td--img) { width: 40px; padding: 0.35rem 0.5rem; }
+
+  :global(.vt__thumb) {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  :global(.vt__thumb-ph) {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  :global(.vt__td--name) { font-weight: 600; }
+  :global(.vt__name-link) { color: #fff; transition: color 0.2s; }
+  :global(.vt__name-link:hover) { color: var(--accent); }
+
+  :global(.vt__badge) {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border: 1px solid;
+    border-radius: 9999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+
+  :global(.vt__val) {
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    color: var(--text);
+  }
+
+  :global(.vt__est) {
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  :global(.vt__td--loc) {
+    color: var(--text-dim);
+    font-size: 0.82rem;
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Hide location on mobile */
+  @media (max-width: 639px) {
+    :global(.vt__th--loc),
+    :global(.vt__td--loc) { display: none; }
+  }
+
+  /* Pagination & empty */
+  :global(.vt__empty) {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  :global(.vt__pag) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 0 0.5rem;
+  }
+
+  :global(.vt__pag-btn) {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.4rem 0.65rem;
+    color: var(--text);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    font-family: var(--font-body);
+  }
+
+  :global(.vt__pag-btn:hover:not(:disabled)) { border-color: var(--accent); background: rgba(6, 214, 160, 0.06); }
+  :global(.vt__pag-btn:disabled) { opacity: 0.3; cursor: default; }
+
+  :global(.vt__pag-info) {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    font-family: var(--font-display);
+    min-width: 4rem;
+    text-align: center;
+  }
+
+  /* ============================================================
+     TRADING VALUES PLACEHOLDER
+     ============================================================ */
+
+  .trading-soon {
+    padding-bottom: 1rem;
+  }
+
+  .trading-soon__card {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.06), rgba(14, 165, 233, 0.04));
+    border: 1px solid rgba(168, 85, 247, 0.2);
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .trading-soon__header {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.75rem;
+  }
+
+  .trading-soon__icon {
+    font-size: 1.5rem;
+  }
+
+  .trading-soon__title {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .trading-soon__badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: #c084fc;
+    background: rgba(168, 85, 247, 0.15);
+    border: 1px solid rgba(168, 85, 247, 0.3);
+    border-radius: 9999px;
+    padding: 0.15rem 0.55rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .trading-soon__text {
+    font-size: 0.88rem;
+    color: var(--text-dim);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .trading-soon__text strong {
+    color: var(--text);
+  }
+
+  .trading-soon__fields {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .trading-soon__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.6rem 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    min-width: 100px;
+  }
+
+  .trading-soon__field-label {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .trading-soon__field-val {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(168, 85, 247, 0.5);
+  }
+
+  /* ============================================================
+     CTA ROW
+     ============================================================ */
+
+  .cta-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+    margin-bottom: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .cta-row { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .cta-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
+    background: rgba(6, 214, 160, 0.05);
+    border: 1px solid rgba(6, 214, 160, 0.2);
+    border-radius: 12px;
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .cta-card:hover {
+    border-color: rgba(6, 214, 160, 0.45);
+    background: rgba(6, 214, 160, 0.1);
+  }
+
+  .cta-card__icon {
+    font-size: 1.3rem;
+    flex-shrink: 0;
+  }
+
+  .cta-card__body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .cta-card__title {
+    display: block;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1.3;
+  }
+
+  .cta-card__desc {
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    line-height: 1.4;
+  }
+
+  .cta-card__arrow {
+    font-size: 1.1rem;
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+</style>

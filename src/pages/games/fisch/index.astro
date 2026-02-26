@@ -1,0 +1,645 @@
+---
+import GameLayout from '../../../layouts/GameLayout.astro';
+
+import fishData from '../../../data/games/fisch/fish.json';
+import mutationsData from '../../../data/games/fisch/mutations.json';
+import rodsData from '../../../data/games/fisch/rods.json';
+import locationsData from '../../../data/games/fisch/locations.json';
+import valuesData from '../../../data/games/fisch/values.json';
+
+// Dynamic counts
+const totalFish = fishData.length;
+const totalMutations = mutationsData.length;
+const totalRods = rodsData.length;
+const totalLocations = locationsData.length;
+
+// Rarity breakdown for display
+const rarities: Record<string, number> = {};
+fishData.forEach((f: any) => {
+  if (f.rarity) rarities[f.rarity] = (rarities[f.rarity] || 0) + 1;
+});
+const topRarities = Object.entries(rarities)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 8);
+
+// Last updated date from values scraping
+const lastUpdated = new Date(valuesData.lastUpdated);
+const lastUpdatedLabel = lastUpdated.toLocaleDateString('en-US', {
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+});
+
+const fmt = (n: number) => n.toLocaleString('en-US');
+
+const description = `The most complete Fisch database: ${fmt(totalFish)} fish, ${fmt(totalMutations)} mutations, ${fmt(totalRods)} rods, trade calculator, and value list. Updated daily.`;
+
+// Quick link sections
+const sections = [
+  { icon: '🐟', title: 'Fish Database', desc: `${fmt(totalFish)} species with locations, baits, values & weight ranges`, href: '/games/fisch/fish/' },
+  { icon: '💰', title: 'Value List & Prices', desc: `Base prices and estimated values for ${fmt(valuesData.items.length)} items`, href: '/games/fisch/values/' },
+  { icon: '🔄', title: 'Trade Calculator', desc: 'Check if a trade is a Win, Fair, or Lose before you trade', href: '/games/fisch/calculator/' },
+  { icon: '🧬', title: 'Mutations Guide', desc: `${fmt(totalMutations)} mutations with multipliers and how to obtain them`, href: '/games/fisch/mutations/' },
+  { icon: '🎣', title: 'Fishing Rods', desc: `${fmt(totalRods)} rods compared: luck, control, resilience & lure speed`, href: '/games/fisch/rods/' },
+  { icon: '📍', title: 'Locations', desc: `${fmt(totalLocations)} fishing spots with weather, fish counts & details`, href: '/games/fisch/locations/' },
+  { icon: '🎫', title: 'Active Codes', desc: 'Redeem codes for free in-game rewards and boosts', href: '/codigos-fisch/' },
+];
+
+// FAQ for SEO
+const faqs = [
+  {
+    q: 'What is Fisch?',
+    a: `Fisch is a popular Roblox fishing game where players catch fish across multiple locations, collect mutations, upgrade rods, and trade with other players. With over ${fmt(totalFish)} species of fish, ${fmt(totalMutations)} mutations, and ${fmt(totalRods)} fishing rods, there\'s always something new to discover.`,
+  },
+  {
+    q: 'How do you trade in Fisch?',
+    a: 'To trade in Fisch, approach another player and use the trade menu. You can offer fish, items, and C$ (in-game currency). Always check the value list before trading to make sure you\'re getting a fair deal. Our trade calculator helps you determine if a trade is a Win, Fair, or Lose.',
+  },
+  {
+    q: 'What are mutations in Fisch?',
+    a: `Mutations are special modifiers that can appear on your caught fish, multiplying their value. There are ${fmt(totalMutations)} mutations in the game, ranging from common ones with small multipliers to ultra-rare ones like Ocean\'s Ruin (10.2x) and Tryhard (10x). Some mutations are exclusive to specific rods.`,
+  },
+  {
+    q: 'How do I catch rare fish in Fisch?',
+    a: 'Rare fish depend on several factors: your fishing location, rod stats (especially luck bonus), bait, weather conditions, time of day, and season. Check our Fish Database for specific requirements for each species. Higher-tier rods significantly increase your chances of catching rare fish.',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(f => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+
+const webSiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Fisch Guide - Codigos Gratis',
+  url: new URL('/games/fisch/', Astro.site).href,
+  description,
+  publisher: { '@type': 'Organization', name: 'Codigos Gratis' },
+};
+
+// Stats for hero
+const stats = [
+  { label: 'Total Fish', value: fmt(totalFish), icon: '🐟' },
+  { label: 'Mutations', value: fmt(totalMutations), icon: '🧬' },
+  { label: 'Rods', value: fmt(totalRods), icon: '🎣' },
+  { label: 'Locations', value: fmt(totalLocations), icon: '📍' },
+];
+---
+
+<GameLayout
+  title="Fisch - Complete Companion Guide | Roblox"
+  description={description}
+  game="Fisch"
+  breadcrumbs={[]}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(webSiteSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Fisch <span class="hero__emoji">🐟</span></h1>
+      <p class="hero__tagline">{description}</p>
+
+      <div class="hero__stats">
+        {stats.map(s => (
+          <div class="stat-card">
+            <span class="stat-card__icon">{s.icon}</span>
+            <span class="stat-card__value">{s.value}</span>
+            <span class="stat-card__label">{s.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK LINKS -->
+  <section class="sections">
+    <div class="container">
+      <h2 class="section-title">Explore the Database</h2>
+      <div class="sections__grid">
+        {sections.map(s => (
+          <a href={s.href} class="section-card">
+            <span class="section-card__icon">{s.icon}</span>
+            <div class="section-card__body">
+              <h3 class="section-card__title">{s.title}</h3>
+              <p class="section-card__desc">{s.desc}</p>
+            </div>
+            <svg class="section-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- RARITY BREAKDOWN -->
+  <section class="rarities">
+    <div class="container">
+      <h2 class="section-title">Fish by Rarity</h2>
+      <div class="rarities__grid">
+        {topRarities.map(([rarity, count]) => (
+          <div class={`rarity-chip rarity-chip--${rarity.toLowerCase().replace(/\s+/g, '-')}`}>
+            <span class="rarity-chip__name">{rarity}</span>
+            <span class="rarity-chip__count">{count}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST UPDATES -->
+  <section class="updates">
+    <div class="container">
+      <div class="updates__card">
+        <div class="updates__icon">🔄</div>
+        <div class="updates__body">
+          <h2 class="updates__title">Latest Data Update</h2>
+          <p class="updates__date">{lastUpdatedLabel}</p>
+          <p class="updates__note">
+            Our database is automatically updated with the latest fish, mutations, rods, and trading values
+            from multiple sources including the Fisch Calculator and Fischipedia wiki.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq__list">
+        {faqs.map(f => (
+          <details class="faq__item">
+            <summary class="faq__question">{f.q}</summary>
+            <p class="faq__answer">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</GameLayout>
+
+<style>
+  /* ============================================================
+     HERO
+     ============================================================ */
+
+  .hero {
+    position: relative;
+    overflow: hidden;
+    padding: 2.5rem 0 2rem;
+  }
+
+  .hero__bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 30% 20%, rgba(6, 130, 200, 0.2) 0%, transparent 60%),
+      radial-gradient(ellipse at 70% 80%, rgba(6, 214, 160, 0.12) 0%, transparent 55%),
+      radial-gradient(ellipse at 50% 50%, rgba(255, 209, 102, 0.06) 0%, transparent 50%);
+    z-index: 0;
+  }
+
+  .hero__content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .hero__title {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.15;
+    background: linear-gradient(135deg, #e8eaf0 0%, #0ea5e9 50%, #06d6a0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero__emoji {
+    -webkit-text-fill-color: initial;
+    font-size: 0.8em;
+  }
+
+  .hero__tagline {
+    margin-top: 0.75rem;
+    font-size: 1rem;
+    color: var(--text-dim);
+    max-width: 620px;
+    margin-inline: auto;
+    line-height: 1.6;
+  }
+
+  .hero__stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin-top: 1.75rem;
+    max-width: 520px;
+    margin-inline: auto;
+  }
+
+  @media (min-width: 480px) {
+    .hero__stats {
+      grid-template-columns: repeat(4, 1fr);
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .hero {
+      padding: 3.5rem 0 2.5rem;
+    }
+    .hero__title {
+      font-size: 3.25rem;
+    }
+    .hero__tagline {
+      font-size: 1.1rem;
+    }
+  }
+
+  /* Stat cards */
+
+  .stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 1rem 0.5rem;
+    background: rgba(17, 24, 39, 0.6);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    transition: border-color 0.25s, transform 0.25s;
+  }
+
+  .stat-card:hover {
+    border-color: rgba(6, 214, 160, 0.3);
+    transform: translateY(-2px);
+  }
+
+  .stat-card__icon {
+    font-size: 1.5rem;
+  }
+
+  .stat-card__value {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+  }
+
+  .stat-card__label {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    font-weight: 500;
+  }
+
+  /* ============================================================
+     SECTION TITLE (shared)
+     ============================================================ */
+
+  .section-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    color: var(--text);
+  }
+
+  @media (min-width: 768px) {
+    .section-title {
+      font-size: 1.75rem;
+    }
+  }
+
+  /* ============================================================
+     QUICK LINKS GRID
+     ============================================================ */
+
+  .sections {
+    padding: 1rem 0 0;
+  }
+
+  .sections__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .section-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+  }
+
+  .section-card:hover {
+    border-color: rgba(6, 214, 160, 0.35);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  }
+
+  .section-card__icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+    width: 3rem;
+    text-align: center;
+  }
+
+  .section-card__body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .section-card__title {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.3;
+  }
+
+  .section-card__desc {
+    margin-top: 0.2rem;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    line-height: 1.45;
+  }
+
+  .section-card__arrow {
+    flex-shrink: 0;
+    color: var(--text-dim);
+    transition: color 0.2s, transform 0.2s;
+  }
+
+  .section-card:hover .section-card__arrow {
+    color: var(--accent);
+    transform: translateX(3px);
+  }
+
+  @media (min-width: 640px) {
+    .sections__grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.75rem;
+    }
+  }
+
+  @media (min-width: 960px) {
+    .sections__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .section-card {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      padding: 1.5rem;
+    }
+    .section-card__icon {
+      font-size: 2.25rem;
+    }
+    .section-card__arrow {
+      position: absolute;
+      right: 1.25rem;
+      top: 1.25rem;
+    }
+    .section-card {
+      position: relative;
+    }
+  }
+
+  /* ============================================================
+     RARITY BREAKDOWN
+     ============================================================ */
+
+  .rarities {
+    padding: 2rem 0 0;
+  }
+
+  .rarities__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .rarity-chip {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 0.85rem;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    transition: transform 0.2s;
+  }
+
+  .rarity-chip:hover {
+    transform: scale(1.04);
+  }
+
+  .rarity-chip__name {
+    color: var(--text);
+  }
+
+  .rarity-chip__count {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+
+  /* Rarity-specific colors */
+  .rarity-chip--common        { border-color: #9ca3af40; }
+  .rarity-chip--common .rarity-chip__name { color: #9ca3af; }
+
+  .rarity-chip--uncommon      { border-color: #22c55e40; }
+  .rarity-chip--uncommon .rarity-chip__name { color: #22c55e; }
+
+  .rarity-chip--unusual       { border-color: #34d39e40; }
+  .rarity-chip--unusual .rarity-chip__name { color: #34d39e; }
+
+  .rarity-chip--rare          { border-color: #3b82f640; }
+  .rarity-chip--rare .rarity-chip__name { color: #3b82f6; }
+
+  .rarity-chip--legendary     { border-color: #f59e0b40; }
+  .rarity-chip--legendary .rarity-chip__name { color: #f59e0b; }
+
+  .rarity-chip--mythical      { border-color: #a855f740; }
+  .rarity-chip--mythical .rarity-chip__name { color: #a855f7; }
+
+  .rarity-chip--exotic        { border-color: #ec489940; }
+  .rarity-chip--exotic .rarity-chip__name { color: #ec4899; }
+
+  .rarity-chip--limited       { border-color: #ef444440; }
+  .rarity-chip--limited .rarity-chip__name { color: #ef4444; }
+
+  .rarity-chip--special       { border-color: #06b6d440; }
+  .rarity-chip--special .rarity-chip__name { color: #06b6d4; }
+
+  .rarity-chip--secret        { border-color: #fbbf2440; }
+  .rarity-chip--secret .rarity-chip__name { color: #fbbf24; }
+
+  .rarity-chip--divine-secret { border-color: #fde68a50; }
+  .rarity-chip--divine-secret .rarity-chip__name {
+    background: linear-gradient(135deg, #fde68a, #fbbf24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .rarity-chip--apex          { border-color: #f43f5e50; }
+  .rarity-chip--apex .rarity-chip__name { color: #f43f5e; }
+
+  .rarity-chip--extinct       { border-color: #78716c40; }
+  .rarity-chip--extinct .rarity-chip__name { color: #a8a29e; }
+
+  .rarity-chip--trash         { border-color: #71717a40; }
+  .rarity-chip--trash .rarity-chip__name { color: #71717a; }
+
+  .rarity-chip--relic         { border-color: #c084fc50; }
+  .rarity-chip--relic .rarity-chip__name { color: #c084fc; }
+
+  .rarity-chip--fragment      { border-color: #67e8f940; }
+  .rarity-chip--fragment .rarity-chip__name { color: #67e8f9; }
+
+  .rarity-chip--gemstone      { border-color: #2dd4bf40; }
+  .rarity-chip--gemstone .rarity-chip__name { color: #2dd4bf; }
+
+  /* ============================================================
+     LATEST UPDATES
+     ============================================================ */
+
+  .updates {
+    padding: 2rem 0 0;
+  }
+
+  .updates__card {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, rgba(14, 165, 233, 0.08), rgba(6, 214, 160, 0.06));
+    border: 1px solid rgba(14, 165, 233, 0.2);
+    border-radius: 14px;
+  }
+
+  .updates__icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+    margin-top: 0.1rem;
+  }
+
+  .updates__body {
+    flex: 1;
+  }
+
+  .updates__title {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .updates__date {
+    margin-top: 0.25rem;
+    font-size: 0.95rem;
+    color: #0ea5e9;
+    font-weight: 600;
+  }
+
+  .updates__note {
+    margin-top: 0.4rem;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    line-height: 1.55;
+  }
+
+  /* ============================================================
+     FAQ
+     ============================================================ */
+
+  .faq {
+    padding: 2rem 0 0;
+  }
+
+  .faq__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .faq__item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color 0.25s;
+  }
+
+  .faq__item[open] {
+    border-color: rgba(6, 214, 160, 0.3);
+  }
+
+  .faq__question {
+    padding: 1rem 1.25rem;
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: color 0.2s;
+  }
+
+  .faq__question::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq__question::after {
+    content: '+';
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    color: var(--text-dim);
+    flex-shrink: 0;
+    transition: transform 0.25s, color 0.25s;
+  }
+
+  .faq__item[open] .faq__question::after {
+    content: '−';
+    color: var(--accent);
+  }
+
+  .faq__question:hover {
+    color: var(--accent);
+  }
+
+  .faq__answer {
+    padding: 0 1.25rem 1.15rem;
+    font-size: 0.9rem;
+    color: var(--text-dim);
+    line-height: 1.65;
+  }
+</style>

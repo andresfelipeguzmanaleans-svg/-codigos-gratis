@@ -1,0 +1,4258 @@
+[
+  {
+    "id": "the-ocean",
+    "name": "The Ocean",
+    "description": "General ocean waters with common to rare fish.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Wind",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 70,
+    "fish": [
+      {
+        "name": "Beluga",
+        "rarity": "Apex"
+      },
+      {
+        "name": "Magician Narwhal",
+        "rarity": "Apex"
+      },
+      {
+        "name": "Mosslurker",
+        "rarity": "Apex"
+      },
+      {
+        "name": "Narwhal",
+        "rarity": "Apex"
+      },
+      {
+        "name": "Ancient Orca",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Long Pike",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Moby",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Mustard",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Blobfish",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Blue Whale",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Boots",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Orca",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Colossal Squid",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Great Hammerhead Shark",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Great White Shark",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Mythic Fish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Oarfish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Sea Pickle",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Shiny",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Whale Shark",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Bull Shark",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Crown Bass",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Dolphin",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Flying Fish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Humpback Whale",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Manta Ray",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Marlin",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Moonfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Sawfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Anglerfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Bluefin Tuna",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Coelacanth",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Cookiecutter Shark",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Halibut",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sailfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sea Urchin",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Stingray",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Swordfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Tuna",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Amberjack",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Barracuda",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Cod",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Crab",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Oyster",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Oyster Toadfish",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Prawn",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Scallop",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Gulf Toadfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Haddock",
+        "rarity": "Common"
+      },
+      {
+        "name": "Lobster",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mackerel",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mullet",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mussel",
+        "rarity": "Common"
+      },
+      {
+        "name": "Porgy",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sand Dollar",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sardine",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sea Bass",
+        "rarity": "Common"
+      },
+      {
+        "name": "Shrimp (Fish)",
+        "rarity": "Common"
+      },
+      {
+        "name": "Confetti Shark",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Countdown Perch",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Crystal Carp",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Eternal Frostwhale",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Frozen Fangfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Glacier Glowfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Hollow Flake Catfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Hollyscale Trout",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Hourglass Bass",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Tidal Pike",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Cosmic Relic",
+        "rarity": "Relic"
+      },
+      {
+        "name": "Nurse Shark",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "atlantis",
+    "name": "Atlantis",
+    "description": "Underwater city with legendary fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 51,
+    "fish": [
+      {
+        "name": "Kraken",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Abyssal Goliath",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Zeus' Herald",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Abyssal King",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Deep Behemoth",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Deep Crownfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Deep Emperor",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Giant Squid",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Kraken's Herald",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Mage Marlin",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Thunder Serpent",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Deep One",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Eldritch Horror",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Lightning Pike",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Massive Marlin",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Starlit Weaver",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Stormcloud Angelfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Titanfang Grouper",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Titanic Sturgeon",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Triton's Herald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Twilight Glowfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Voidscale Guppy",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Colossal Carp",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Crystal Chorus",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Echo Fisher",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Marble Maiden",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Mosaic Swimmer",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Static Ray",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Temple Drifter",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Titan Tuna",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Aqua Scribe",
+        "rarity": "Common"
+      },
+      {
+        "name": "Atlantean Anchovy",
+        "rarity": "Common"
+      },
+      {
+        "name": "Column Crawler",
+        "rarity": "Common"
+      },
+      {
+        "name": "Lightning Minnow",
+        "rarity": "Common"
+      },
+      {
+        "name": "Neptune's Nibbler",
+        "rarity": "Common"
+      },
+      {
+        "name": "Oracle Minnow",
+        "rarity": "Common"
+      },
+      {
+        "name": "Poseidon's Perch",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sparkfin Tetra",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sunken Silverscale",
+        "rarity": "Common"
+      },
+      {
+        "name": "Voltfin Carp",
+        "rarity": "Common"
+      },
+      {
+        "name": "Atlantean Guardian",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Chronos Deep Swimmer",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Giant Manta",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Helios Ray",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Leviathan Bass",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Oracle's Eye",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Philosopher's Fish",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Siren Singer",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Storm Eel",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Tentacle Eel",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Thunder Bass",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "unknown",
+    "name": "Unknown / Various",
+    "description": "Fish that can spawn in multiple locations or have undetermined spawn locations.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 42,
+    "fish": [
+      {
+        "name": "Baby Bloop Fish",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Banana",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Bloop Cosmetic Crate",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Great Goldcursed Shark",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Manatee",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Molten Ripple",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Pirate Captain's Goldfish",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Resin",
+        "rarity": "Secret"
+      },
+      {
+        "name": "RocketFuel",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Speed Core",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Carbon Crate",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Quality Bait Crate",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Bait Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Common Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Fish Barrel",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Admin Bait Crate",
+        "rarity": "Special"
+      },
+      {
+        "name": "Moon",
+        "rarity": "Special"
+      },
+      {
+        "name": "Ancient Algae",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Ancient Serpent Skull",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Ancient Serpent Spine",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Ashcloud Archerfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Barracuda's Spine",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Blistered Eel",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Burnt Betta",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Cinder Carp",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Forsaken Algae",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Lava Lamprey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Lovestorm Eel",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Molten Minnow",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Mossjaw Scapula",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Mushgrove Algae",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Phantom Megalodon",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Shark Fang",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Boot",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Driftwood",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Enchant Relic",
+        "rarity": "Relic"
+      },
+      {
+        "name": "Exalted Relic",
+        "rarity": "Relic"
+      },
+      {
+        "name": "Log",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Rock",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Seaweed",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Tire",
+        "rarity": "Trash"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "cultist-lair",
+    "name": "Cultist Lair",
+    "description": "Dark underground lair with cursed creatures.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 23,
+    "fish": [
+      {
+        "name": "Profane Leviathan",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Cathulid",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Cathulith",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Cave Angel Fish",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Key of Oaths",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Key of Whispers",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Leviathan",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Abyssal Grenadier",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Scaly Dragonfish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Stoplight Loosejaw",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Garra Typhlops",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Ozark Cavefish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Swampfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Garra Andruzzii",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sloane's Viperfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Spiny Hatchetfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Gollum Snakehead",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Sinocyclocheilus",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Typhleotris",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Abyssal Slickhead",
+        "rarity": "Common"
+      },
+      {
+        "name": "Cave Loach",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mexican Tetra",
+        "rarity": "Common"
+      },
+      {
+        "name": "Blind Swamp Eel",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "the-depths",
+    "name": "The Depths",
+    "description": "Deep ocean zone with abyssal fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 20,
+    "fish": [
+      {
+        "name": "Ancient Depth Serpent",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Barreleye Fish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Mutated Shark",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Sea Snake",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Ancient Eel",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Giant Oarfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Giant Squid",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Nautilus",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Small Spine Chimera",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Black Dragon Fish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Goblin Shark",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Spider Crab",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Deep-sea Dragonfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Deep-sea Hatchetfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Depth Octopus",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Destroyed Fossil",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Frilled Shark",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Luminescent Minnow",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Scrap Metal",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Three-eyed Fish",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "treasure-island",
+    "name": "Treasure Island",
+    "description": "Island with treasure and valuable fish.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 19,
+    "fish": [
+      {
+        "name": "Gem Blobfish",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Gemstone Whale Shark",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Gem Dolphin",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Ruby Lionfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Coin Piranha",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Net Wolffish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Queen Angelfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Gem Eel",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Gemscale Mandarinfish",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Goldband Butterflyfish",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Golden Dorado",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bluegem Angelfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Coin Triggerfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Crowned Royal Gramma",
+        "rarity": "Common"
+      },
+      {
+        "name": "Emerald Angelfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gem Anchovy",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gem Salmon",
+        "rarity": "Common"
+      },
+      {
+        "name": "Coin Squid",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Hidden Filefish",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "roslit-bay",
+    "name": "Roslit Bay",
+    "description": "Coastal area with diverse marine life.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Wind",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 17,
+    "fish": [
+      {
+        "name": "Manta Ray",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Suckermouth Catfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Tuna",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Blue Tang",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Butterflyfish",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Clownfish",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Salmon",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bream",
+        "rarity": "Common"
+      },
+      {
+        "name": "Goldfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Minnow",
+        "rarity": "Common"
+      },
+      {
+        "name": "Perch",
+        "rarity": "Common"
+      },
+      {
+        "name": "Spine Blade",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Spine Bone",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Basalt",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Gilded Pearl",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Ribbon Eel",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Yellow Boxfish",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "open-ocean",
+    "name": "Open Ocean",
+    "description": "Deep open waters far from shore.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Wind"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 16,
+    "fish": [
+      {
+        "name": "Beluga",
+        "rarity": "Apex"
+      },
+      {
+        "name": "Narwhal",
+        "rarity": "Apex"
+      },
+      {
+        "name": "Psychedelic Frogfish",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Sea Leviathan",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Cursed Thread",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Tripod Fish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Warty Angler",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Apex Leviathan",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Bigfin Squid",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Black Swallower",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Four Eyes Fish",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Hogchoker",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Lumpclinger",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Pelican Eel",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Snipefish",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "X-ray Tetra",
+        "rarity": "Extinct"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "ethereal-abyss-pool",
+    "name": "Ethereal Abyss Pool",
+    "description": "Mystical pool with ethereal creatures.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 14,
+    "fish": [
+      {
+        "name": "King Jellyfish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Mage Marlin",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Starlit Weaver",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Voidscale Guppy",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Echo Fisher",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Mosaic Swimmer",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Temple Drifter",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Aqua Scribe",
+        "rarity": "Common"
+      },
+      {
+        "name": "Atlantean Sardine",
+        "rarity": "Common"
+      },
+      {
+        "name": "Column Crawler",
+        "rarity": "Common"
+      },
+      {
+        "name": "Neptune's Nibbler",
+        "rarity": "Common"
+      },
+      {
+        "name": "Chronos Deep Swimmer",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Oracle's Eye",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Siren Singer",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "snowcap-island",
+    "name": "Snowcap Island",
+    "description": "Frozen waters with cold-weather fish.",
+    "availableWeathers": [
+      "Snow",
+      "Blizzard",
+      "Sunny",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 13,
+    "fish": [
+      {
+        "name": "Glacierfish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Ringle",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Pond Emperor",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Sturgeon",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Arctic Char",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Burbot",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Salmon",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bluegill",
+        "rarity": "Common"
+      },
+      {
+        "name": "Grayling",
+        "rarity": "Common"
+      },
+      {
+        "name": "Herring",
+        "rarity": "Common"
+      },
+      {
+        "name": "Snowcap Algae",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Spined Fin",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Ice",
+        "rarity": "Trash"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "desolate-deep",
+    "name": "Desolate Deep",
+    "description": "Empty deep waters.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 13,
+    "fish": [
+      {
+        "name": "Emperor Jellyfish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Sea Mine",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Barbed Shark",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Midnight Axolotl",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Banditfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Coral Geode",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Phantom Ray",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Horseshoe Crab",
+        "rarity": "Common"
+      },
+      {
+        "name": "Slate Tuna",
+        "rarity": "Common"
+      },
+      {
+        "name": "Cockatoo Squid",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Rockstar Hermit Crab",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Stalactite",
+        "rarity": "Trash"
+      },
+      {
+        "name": "String",
+        "rarity": "Trash"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "waveborne",
+    "name": "Waveborne",
+    "description": "Drifting waters with unique surface fish.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Wind"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 13,
+    "fish": [
+      {
+        "name": "Gust Tail",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Wave Piercer",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Breaker Moth",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Tide Fang",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Abyss Dart",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Surge Pike",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Foamrunner",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Sprayfin",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Drift Claw",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gale Snapper",
+        "rarity": "Common"
+      },
+      {
+        "name": "Ripple Spine",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Storm Skipper",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Vortex Ray",
+        "rarity": "Extinct"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "sunken-depths-pool",
+    "name": "Sunken Depths Pool",
+    "description": "Deep pool in Atlantis with ancient fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 13,
+    "fish": [
+      {
+        "name": "Deep Crownfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Atlantean Alchemist",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Triton's Herald",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Twilight Glowfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Crystal Chorus",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Marble Maiden",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Atlantean Anchovy",
+        "rarity": "Common"
+      },
+      {
+        "name": "Oracle Minnow",
+        "rarity": "Common"
+      },
+      {
+        "name": "Poseidon's Perch",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sunken Silverscale",
+        "rarity": "Common"
+      },
+      {
+        "name": "Atlantean Guardian",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Helios Ray",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Philosopher's Fish",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "cursed-isle",
+    "name": "Cursed Isle",
+    "description": "Haunted waters with cursed fish.",
+    "availableWeathers": [
+      "Foggy",
+      "Rain",
+      "Thunder"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 12,
+    "fish": [
+      {
+        "name": "Abyssborn Monstrosity",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Dreaming Aberration",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Chasm Leech",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Screaming Fluke",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Veinspawn",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Crawling Angler",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Tumor Pike",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Murkslither",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Rotjaw",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Blisterfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gloombiter",
+        "rarity": "Common"
+      },
+      {
+        "name": "Split Eye Snapper",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "lushgrove",
+    "name": "Lushgrove",
+    "description": "Dense vegetation area with freshwater fish.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 12,
+    "fish": [
+      {
+        "name": "Primordial Levi",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Jungle Phantom",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Echo Koi",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Glade Lurker",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Relic Dart",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Temple Perch",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Canopy Tetra",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bogscale",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Fogstripe",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Hollow Snapper",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Murkdrifter",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Vinefish",
+        "rarity": "Extinct"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "moosewood",
+    "name": "Moosewood",
+    "description": "Starting location with basic fish. Great for beginners.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Wind",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 11,
+    "fish": [
+      {
+        "name": "Whiptail Catfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Lapisjack",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Carp",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Salmon",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bream",
+        "rarity": "Common"
+      },
+      {
+        "name": "Goldfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Largemouth Bass",
+        "rarity": "Common"
+      },
+      {
+        "name": "Claw Gill",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Fossil Fan",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Mossjaw Jaw",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Pike",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "ancient-isle",
+    "name": "Ancient Isle",
+    "description": "Mysterious island with ancient fish species like Megalodon.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 11,
+    "fish": [
+      {
+        "name": "Dunkleosteus",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Megalodon",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Mosasaurus",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Ancient Megalodon",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Helicoprion",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Floppy",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Rabbitfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Cobia",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Onychodus",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Acanthodii",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Amethyst",
+        "rarity": "Gemstone"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "poseidon-trial-pool",
+    "name": "Poseidon Trial Pool",
+    "description": "Trial pool blessed by Poseidon.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 10,
+    "fish": [
+      {
+        "name": "Abyssal Goliath",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Deep Behemoth",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Deep Emperor",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Massive Marlin",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Titanfang Grouper",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Titanic Sturgeon",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Colossal Carp",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Titan Tuna",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Giant Manta",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Leviathan Bass",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "challengers-deep",
+    "name": "Challenger's Deep",
+    "description": "Extreme depth challenge zone.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 10,
+    "fish": [
+      {
+        "name": "Frozen Leviathan",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Chillfin Chimaera",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Polar Prowler",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Cryo Coelacanth",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Iceberg Isopod",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Chillshadow Chub",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Subzero Stargazer",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Cryoskin",
+        "rarity": "Common"
+      },
+      {
+        "name": "Frostscale Fangtooth",
+        "rarity": "Common"
+      },
+      {
+        "name": "Deep Freeze Devilfish",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "roslit-volcano",
+    "name": "Roslit Volcano",
+    "description": "Volcanic waters with heat-resistant fish.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 9,
+    "fish": [
+      {
+        "name": "Ashclaw",
+        "rarity": "Apex"
+      },
+      {
+        "name": "Molten Banshee",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Inferno Wood",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Obsidian Swordfish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Obsidian Salmon",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Pyrogrub",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Volcanic Geode",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Magma Tang",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Ember Snapper",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "crimson-cavern",
+    "name": "Crimson Cavern",
+    "description": "Red-hued cave with unique species.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 9,
+    "fish": [
+      {
+        "name": "Colossal Ethereal Dragon",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Lithodes Megacantha",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Vampire Squid",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Japanese Dragon Eel",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Red Crabsquid",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Red Fangtooth",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Viperfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sea Raven",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Red Spotted Blenny",
+        "rarity": "Common"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "isle-of-new-beginnings",
+    "name": "Isle of New Beginnings",
+    "description": "Starting island for new adventures.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 9,
+    "fish": [
+      {
+        "name": "Whisper Eel",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Abyss Flicker",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Lantern Snapper",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Crestscale",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Reefdart",
+        "rarity": "Common"
+      },
+      {
+        "name": "Tidallow",
+        "rarity": "Common"
+      },
+      {
+        "name": "Driftfin",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Horizon Tetra",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Phantom Koi",
+        "rarity": "Extinct"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "veil-of-the-forsaken",
+    "name": "Veil of the Forsaken",
+    "description": "Mysterious veil hiding rare creatures.",
+    "availableWeathers": [
+      "Foggy",
+      "Rain"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 9,
+    "fish": [
+      {
+        "name": "Scylla",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Twilight Tentaclefish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Typhoon Tailfin",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Cyclone Scorpionfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Serpent Surgeonfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Siren Sculpin",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Kraken Koi",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Hydra Haddock",
+        "rarity": "Common"
+      },
+      {
+        "name": "Gorgon Grouper",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "atlantean-storm",
+    "name": "Atlantean Storm",
+    "description": "Storm-ridden waters near Atlantis.",
+    "availableWeathers": [
+      "Thunder",
+      "Rain"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 8,
+    "fish": [
+      {
+        "name": "Void Angler",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Maelstorm Shark",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Cyclone Mako",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Typhoon Tuna",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Abyss Snapper",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tempest Ray",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Vortex Barracuda",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Whirlpool Marlin",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "vertigo",
+    "name": "Vertigo",
+    "description": "Disorienting location with special fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 8,
+    "fish": [
+      {
+        "name": "The Depths Key",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Isonade",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Rubber Ducky",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Abyssacuda",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Voidfin Mahi",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Twilight Eel",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Night Shrimp",
+        "rarity": "Common"
+      },
+      {
+        "name": "Spiderfish",
+        "rarity": "Common"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "carrot-garden",
+    "name": "Carrot Garden",
+    "description": "Underwater garden with carrot-themed fish.",
+    "availableWeathers": [
+      "Sunny"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 8,
+    "fish": [
+      {
+        "name": "Carrot Shark",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Carrot Snapper",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Carrot Turtle",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Carrot Salmon",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Carrot Eel",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Carrot Minnow",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Carrot Goldfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Carrot Pufferfish",
+        "rarity": "Common"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "cults-curse",
+    "name": "Cult's Curse",
+    "description": "Cursed waters from ancient rituals.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 8,
+    "fish": [
+      {
+        "name": "Abyssal Maw",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Bloodscript Eel",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Eldritch Spineback",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Hollow Gazer",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Profane Ray",
+        "rarity": "Limited"
+      },
+      {
+        "name": "The Whispering One",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Veilborn Parasite",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Wretched Guppy",
+        "rarity": "Limited"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "abyssal-zenith",
+    "name": "Abyssal Zenith",
+    "description": "Highest point of the abyss with rare anglerfish.",
+    "availableWeathers": [
+      "Rain",
+      "Foggy",
+      "Thunder"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 7,
+    "fish": [
+      {
+        "name": "Giant Seadevil",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Infant Giant Seadevil",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Voidglow Ghostfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Deeplight Footballfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Colossal Saccopharynx",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Titanic Black Seadevil",
+        "rarity": "Common"
+      },
+      {
+        "name": "Radiant Triplewart Seadevil",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "luminescent-cavern",
+    "name": "Luminescent Cavern",
+    "description": "Glowing cave with bioluminescent fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 7,
+    "fish": [
+      {
+        "name": "Atolla Jellyfish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Electric Blue Seahorse",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Kitefin Shark",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Blue Ribbon Eel",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Hawaiian Bobtail Squid",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bluelip Batfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Dinoflagellates",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "glacial-grotto",
+    "name": "Glacial Grotto",
+    "description": "Frozen cave with ice fish.",
+    "availableWeathers": [
+      "Snow",
+      "Blizzard"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 7,
+    "fish": [
+      {
+        "name": "Borealis Snapper",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Frostbite Flounder",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Glacier Swordfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Shiverfin Haddock",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Frostling Goby",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Snowgill Dace",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Chillback Whitefish",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "calm-zone",
+    "name": "Calm Zone",
+    "description": "Peaceful waters with gentle fish.",
+    "availableWeathers": [
+      "Sunny"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 7,
+    "fish": [
+      {
+        "name": "Shimmering Silverside",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Crystal Corydoras",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Prismatic Parrotfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Ruby Rasbora",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Diamond Discus",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Emerald Elephantnose",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Quartzfin Queenfish",
+        "rarity": "Common"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "castaway-cliffs",
+    "name": "Castaway Cliffs",
+    "description": "Rocky cliffs with cliff-dwelling fish.",
+    "availableWeathers": [
+      "Sunny",
+      "Wind"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 7,
+    "fish": [
+      {
+        "name": "Mirage Toadfish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Hidden Pipefish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Warty Frogfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Mandarinfish",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Clowned Triggerfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Flamekissed Hawkfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Trevally",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "brine-pool",
+    "name": "Brine Pool",
+    "description": "Super salty underwater pool.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 7,
+    "fish": [
+      {
+        "name": "Spectral Serpent",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Brine Phantom",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Dweller Catfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Brine Shrimp",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Gazerfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Bone",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Globe Jellyfish",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "second-sea",
+    "name": "Second Sea",
+    "description": "The second major ocean region.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Wind"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 7,
+    "fish": [
+      {
+        "name": "Thornfish",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Sunray Sunscale",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Tropicspike",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Brimstone Angler",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Parktail Spinesnapper",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Phantom Koi",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Pine Zephyrfish",
+        "rarity": "Extinct"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "terrapin-island",
+    "name": "Terrapin Island",
+    "description": "Tropical island with exotic fish.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 6,
+    "fish": [
+      {
+        "name": "Sea Turtle",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Golden Smallmouth Bass",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Olm",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "King Oyster",
+        "rarity": "Rare"
+      },
+      {
+        "name": "White Bass",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Gudgeon",
+        "rarity": "Common"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "sunstone-island",
+    "name": "Sunstone Island",
+    "description": "Warm tropical island.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 6,
+    "fish": [
+      {
+        "name": "Wiifish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Mahi Mahi",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Longtail Bass",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Red Tang",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Sweetfish",
+        "rarity": "Common"
+      },
+      {
+        "name": "Trumpetfish",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "pine-shoals",
+    "name": "Pine Shoals",
+    "description": "Shallow waters near pine forests.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 6,
+    "fish": [
+      {
+        "name": "Thornfish",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Sunray Sunscale",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Parktail Spinesnapper",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Watching Glowfin",
+        "rarity": "Common"
+      },
+      {
+        "name": "Drifting Gildfin",
+        "rarity": "Extinct"
+      },
+      {
+        "name": "Pine Zephyrfish",
+        "rarity": "Extinct"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "marianas-veil-volcanic-vents",
+    "name": "Mariana's Veil - Volcanic Vents",
+    "description": "Volcanic vents in the Mariana region.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 6,
+    "fish": [
+      {
+        "name": "Magma Leviathan",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Blisterback Blenny",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Scalding Swordfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Infernal Iguanafish",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Hellfire Haddock",
+        "rarity": "Common"
+      },
+      {
+        "name": "Smoldering Stingray",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "atlantis-kraken-pool",
+    "name": "Atlantis Kraken Pool",
+    "description": "Pool where the Ancient Kraken dwells.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 6,
+    "fish": [
+      {
+        "name": "Ancient Kraken",
+        "rarity": "Secret"
+      },
+      {
+        "name": "The Kraken",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Abyssal Devourer",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Void Emperor",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Shadowfang Snapper",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tentacled Horror",
+        "rarity": "Uncommon"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "lost-jungle",
+    "name": "Lost Jungle",
+    "description": "Dense jungle with exotic creatures.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 5,
+    "fish": [
+      {
+        "name": "Black Ghost Knifefish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Electric Eel",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Icy Tuna",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pirarucu",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Silver Arowana",
+        "rarity": "Rare"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "ancient-archives",
+    "name": "Ancient Archives",
+    "description": "Hidden archive with relic fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 5,
+    "fish": [
+      {
+        "name": "Lepidotes",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Diplurus",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Phanerorhynchus",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Birgeria",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Palaeoniscum",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "the-chasm",
+    "name": "The Chasm",
+    "description": "Deep underwater chasm.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 5,
+    "fish": [
+      {
+        "name": "Crystal Geode",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Gold Piece",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Iron Chunk",
+        "rarity": "Common"
+      },
+      {
+        "name": "Radiant Crystal",
+        "rarity": "Gemstone"
+      },
+      {
+        "name": "Rusty Bolt",
+        "rarity": "Trash"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "kraken-pool",
+    "name": "Kraken Pool",
+    "description": "Home of the mighty Kraken.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 5,
+    "fish": [
+      {
+        "name": "Abyssal King",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Kraken's Herald",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Deep One",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Eldritch Horror",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Tentacle Eel",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "frigid-cavern",
+    "name": "Frigid Cavern",
+    "description": "Freezing cold cave system.",
+    "availableWeathers": [
+      "Snow",
+      "Blizzard"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 5,
+    "fish": [
+      {
+        "name": "Polar Alligator",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Snowfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Frigid Shrimp",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Ice Eel",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Ice Octopus",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "crypt",
+    "name": "The Crypt",
+    "description": "Underwater tomb with undead fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 5,
+    "fish": [
+      {
+        "name": "Bone Lanternfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Harbinger Koi",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Rotfin Eel",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Siren's Guppy",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Wraithfin",
+        "rarity": "Limited"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "frightful-pool",
+    "name": "Frightful Pool",
+    "description": "Scary pool with horror-themed fish.",
+    "availableWeathers": [
+      "Foggy",
+      "Rain"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 5,
+    "fish": [
+      {
+        "name": "Candy Fish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Ghoulfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Lurkerfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Skelefish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Zombiefish",
+        "rarity": "Limited"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "keepers-altar",
+    "name": "Keeper's Altar",
+    "description": "Sacred altar location.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 4,
+    "fish": [
+      {
+        "name": "Umbral Shark",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Keepers Guardian",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pale Tang",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bluefish",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "azure-lagoon",
+    "name": "Azure Lagoon",
+    "description": "Beautiful blue lagoon with tropical fish.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 4,
+    "fish": [
+      {
+        "name": "Verdant Mirage",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Phantom Brine",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Algae Lurker",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Reed Striker",
+        "rarity": "Rare"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "emberreach",
+    "name": "Emberreach",
+    "description": "Volcanic region with fire-resistant fish.",
+    "availableWeathers": [
+      "Sunny"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 4,
+    "fish": [
+      {
+        "name": "Tropicspike",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Brimstone Angler",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Firecrest",
+        "rarity": "Common"
+      },
+      {
+        "name": "Pyre Fang",
+        "rarity": "Common"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "volcanic-vents",
+    "name": "Volcanic Vents",
+    "description": "Underwater volcanic vents.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 4,
+    "fish": [
+      {
+        "name": "Molten Moray",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pyrite Pufferfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Embertail Eel",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Inferno Hide",
+        "rarity": "Common"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "forsaken-shores",
+    "name": "Forsaken Shores",
+    "description": "Dangerous waters with rare creatures.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Foggy",
+      "Wind"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 3,
+    "fish": [
+      {
+        "name": "Buccaneer Barracuda",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Shortfin Mako Shark",
+        "rarity": "Common"
+      },
+      {
+        "name": "Cutlass Fish",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "crystal-cove",
+    "name": "Crystal Cove",
+    "description": "Cave with crystal-dwelling fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 3,
+    "fish": [
+      {
+        "name": "DJ Spinopus",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Opalescent Catfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pufferflute",
+        "rarity": "Rare"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "snowburrow",
+    "name": "Snowburrow",
+    "description": "Snowy burrow with ice creatures.",
+    "availableWeathers": [
+      "Snow",
+      "Blizzard"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 3,
+    "fish": [
+      {
+        "name": "White Sturgeon",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Penguin",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Glacial Fragment",
+        "rarity": "Fragment"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "mushgrove-swamp",
+    "name": "Mushgrove Swamp",
+    "description": "Murky swamp waters with unique species.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Foggy",
+      "Thunder"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 2,
+    "fish": [
+      {
+        "name": "Nessie's Spine",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Swamp Scallop",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "marianas-veil-abyssal-zenith",
+    "name": "Mariana's Veil - Abyssal Zenith",
+    "description": "Deepest point of Mariana's Veil.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 2,
+    "fish": [
+      {
+        "name": "Crowned Anglerfish",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Abyssal Bearded Seadevil",
+        "rarity": "Uncommon"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "marianas-veil-calm-zone",
+    "name": "Mariana's Veil - Calm Zone",
+    "description": "Calm waters in Mariana's Veil.",
+    "availableWeathers": [
+      "Sunny"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 2,
+    "fish": [
+      {
+        "name": "Crystallized Seadragon",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Sapphire Stargazer",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "second-sea-azure-lagoon",
+    "name": "Second Sea - Azure Lagoon",
+    "description": "Azure Lagoon in the Second Sea.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 1,
+    "fish": [
+      {
+        "name": "Depth Drifter",
+        "rarity": "Exotic"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "second-sea-waveborne",
+    "name": "Second Sea - Waveborne",
+    "description": "Waveborne area in the Second Sea.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Wind"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 1,
+    "fish": [
+      {
+        "name": "Depth Lurker",
+        "rarity": "Unusual"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "cryogenic-canal",
+    "name": "Cryogenic Canal",
+    "description": "Frozen waterway with ice fish.",
+    "availableWeathers": [
+      "Snow",
+      "Blizzard"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 1,
+    "fish": [
+      {
+        "name": "Aurora Trout",
+        "rarity": "Mythical"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "atlantis-sunken-depths-pool",
+    "name": "Atlantis - Sunken Depths Pool",
+    "description": "Deep pool in the sunken parts of Atlantis.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 1,
+    "fish": [
+      {
+        "name": "Celestial Koi",
+        "rarity": "Mythical"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "oceanic-trench",
+    "name": "Oceanic Trench",
+    "description": "Deepest part of the ocean.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 0,
+    "fish": [],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "monster-trench",
+    "name": "Monster Trench",
+    "description": "Home to giant monster fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 0,
+    "fish": [],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "ocean",
+    "name": "Ocean",
+    "description": "Open ocean waters.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Wind",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 0,
+    "fish": [],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "executive-lake",
+    "name": "Executive Lake",
+    "description": "Private lake location.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain"
+    ],
+    "isPremium": true,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 0,
+    "fish": [],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "grand-reef",
+    "name": "Grand Reef",
+    "description": "Large coral reef with tropical fish.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 0,
+    "fish": [],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "mariana-trench",
+    "name": "Mariana Trench",
+    "description": "Deepest known location.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 0,
+    "fish": [],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "salty-reef",
+    "name": "Salty Reef",
+    "description": "Saltwater reef area.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 0,
+    "fish": [],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "admin-events",
+    "name": "Admin Events",
+    "description": "Special admin-only events with rare fish spawns. Includes Earthquake, Mayhem, and other special events.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": true,
+    "isSeasonal": false,
+    "fishCount": 93,
+    "fish": [
+      {
+        "name": "Akkorokamui",
+        "rarity": "Apex"
+      },
+      {
+        "name": "Lusca",
+        "rarity": "Apex"
+      },
+      {
+        "name": "Skeletal Serpent",
+        "rarity": "Apex"
+      },
+      {
+        "name": "Moon Idol",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Tarnished Moongill",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "8-Bit Mr. Tentacles",
+        "rarity": "Special"
+      },
+      {
+        "name": "Admin Crate",
+        "rarity": "Special"
+      },
+      {
+        "name": "Admin Fish Barrel",
+        "rarity": "Special"
+      },
+      {
+        "name": "Alien Buddy",
+        "rarity": "Special"
+      },
+      {
+        "name": "Alien Hat",
+        "rarity": "Special"
+      },
+      {
+        "name": "Black Iron Bucket",
+        "rarity": "Special"
+      },
+      {
+        "name": "Blinking Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Bloxy Cola",
+        "rarity": "Special"
+      },
+      {
+        "name": "Bluesteel Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Bombastic Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Bouncing Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Brainfreeze Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Brighteyes Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Broken Scylla",
+        "rarity": "Special"
+      },
+      {
+        "name": "Cheezburger",
+        "rarity": "Special"
+      },
+      {
+        "name": "Cloud",
+        "rarity": "Special"
+      },
+      {
+        "name": "Corrupted Scylla",
+        "rarity": "Special"
+      },
+      {
+        "name": "Cousin Tentacles",
+        "rarity": "Special"
+      },
+      {
+        "name": "Cracked Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Dogefin",
+        "rarity": "Special"
+      },
+      {
+        "name": "Dr. Ishmael",
+        "rarity": "Special"
+      },
+      {
+        "name": "Fern",
+        "rarity": "Special"
+      },
+      {
+        "name": "Fischipedia Accurate Pickle",
+        "rarity": "Special"
+      },
+      {
+        "name": "Flashlight",
+        "rarity": "Special"
+      },
+      {
+        "name": "Frank",
+        "rarity": "Special"
+      },
+      {
+        "name": "Fridge",
+        "rarity": "Special"
+      },
+      {
+        "name": "Frog",
+        "rarity": "Special"
+      },
+      {
+        "name": "Gargantuan Taco",
+        "rarity": "Special"
+      },
+      {
+        "name": "Ghoul",
+        "rarity": "Special"
+      },
+      {
+        "name": "Glitch Cap",
+        "rarity": "Special"
+      },
+      {
+        "name": "Glitched Cap",
+        "rarity": "Special"
+      },
+      {
+        "name": "Golden Coin",
+        "rarity": "Special"
+      },
+      {
+        "name": "Golden Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Golden Nessie",
+        "rarity": "Special"
+      },
+      {
+        "name": "Golden Scylla",
+        "rarity": "Special"
+      },
+      {
+        "name": "Gygax Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "JellyBop",
+        "rarity": "Special"
+      },
+      {
+        "name": "Kind Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Lava Bucket",
+        "rarity": "Special"
+      },
+      {
+        "name": "Lightning Bolt",
+        "rarity": "Special"
+      },
+      {
+        "name": "Mango",
+        "rarity": "Special"
+      },
+      {
+        "name": "Mr. Tentacles",
+        "rarity": "Special"
+      },
+      {
+        "name": "Mrs. Tentacles",
+        "rarity": "Special"
+      },
+      {
+        "name": "Mustard Hat",
+        "rarity": "Special"
+      },
+      {
+        "name": "Obsidian",
+        "rarity": "Special"
+      },
+      {
+        "name": "Parasite",
+        "rarity": "Special"
+      },
+      {
+        "name": "Pine Tree",
+        "rarity": "Special"
+      },
+      {
+        "name": "Poltergeist",
+        "rarity": "Special"
+      },
+      {
+        "name": "Puzzle Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Raindrop",
+        "rarity": "Special"
+      },
+      {
+        "name": "Rocket Ship",
+        "rarity": "Special"
+      },
+      {
+        "name": "Royal Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Shadow Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Singularity",
+        "rarity": "Special"
+      },
+      {
+        "name": "Snowflake",
+        "rarity": "Special"
+      },
+      {
+        "name": "Snowman",
+        "rarity": "Special"
+      },
+      {
+        "name": "Star",
+        "rarity": "Special"
+      },
+      {
+        "name": "Stationary Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Supersized Bloop Fish",
+        "rarity": "Special"
+      },
+      {
+        "name": "Supersized Driftwood",
+        "rarity": "Special"
+      },
+      {
+        "name": "Supersized Floppy",
+        "rarity": "Special"
+      },
+      {
+        "name": "Supersized Mosslurker",
+        "rarity": "Special"
+      },
+      {
+        "name": "Supersized Scylla",
+        "rarity": "Special"
+      },
+      {
+        "name": "Supersized Sea Pickle",
+        "rarity": "Special"
+      },
+      {
+        "name": "Taco",
+        "rarity": "Special"
+      },
+      {
+        "name": "Tentacles Junior",
+        "rarity": "Special"
+      },
+      {
+        "name": "Toilet Fish",
+        "rarity": "Special"
+      },
+      {
+        "name": "Turkey Leg",
+        "rarity": "Special"
+      },
+      {
+        "name": "UFO",
+        "rarity": "Special"
+      },
+      {
+        "name": "Venoblossom",
+        "rarity": "Special"
+      },
+      {
+        "name": "Wanwood Egg",
+        "rarity": "Special"
+      },
+      {
+        "name": "Baby's First Balloon",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Birthday Cake",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Birthday Dumbo Octopus",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Birthday Gift",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Birthday Goldfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Birthday Megalodon",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Birthday Squid",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Blarney McBreeze",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Ember Catfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Kittyfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Krabbit",
+        "rarity": "Limited"
+      },
+      {
+        "name": "O'Mango Goldgrin",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Plumrick O'Luck",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Pyro Pike",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Rowdy McCharm",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Scooty Salmon",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Sunny O'Coin",
+        "rarity": "Limited"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fischfright-2025",
+    "name": "Fischfright 2025 (Halloween)",
+    "description": "Halloween 2025 seasonal event with spooky fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": true,
+    "isSeasonal": true,
+    "fishCount": 29,
+    "fish": [
+      {
+        "name": "Baby Nessie",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Candle Carp",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Candy Corn Cod",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Caramel Chub",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Coffin Crab",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Ectoplasm Eel",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Eerie Relic",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Frankenshrimp",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Frightful Crate",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Frightful Relic",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Ghost Minnow",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Gravestone Stingray",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Gummy Guppy",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Jack-o-Lantern",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Kelpie",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Licorice Leech",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Lollipop Lamprey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Marshmallow Mackerel",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Mourning Manta Ray",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Phantom Jellyfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Potion Perch",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Pumpkin Pufferfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Scarecrow",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Skeletal Nessie",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Spider Salmon",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Spooky Relic",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Vampire Perch",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Werewolf Walleye",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Xtra Sour Gummy Pack",
+        "rarity": "Limited"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "winter-village",
+    "name": "Winter Village (Fischmas)",
+    "description": "Winter holiday event location with festive fish.",
+    "availableWeathers": [
+      "Snow",
+      "Blizzard"
+    ],
+    "isPremium": false,
+    "isEvent": true,
+    "isSeasonal": true,
+    "fishCount": 18,
+    "fish": [
+      {
+        "name": "Basic Present",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Candy Cane Carp",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Cookie",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Crystal Carp",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Festive Bait Crate",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Frozen Fangfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Gingerbread Fish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Glacier Glowfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Glass of Milk",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Icicle",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Northstar Serpent",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Olmdeer",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Ornament Fish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Santa Pufferfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Santa Salmon",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Snowflake Flounder",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Supreme Present",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Unique Present",
+        "rarity": "Limited"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "lego-event-2025",
+    "name": "LEGO Event 2025",
+    "description": "Special LEGO collaboration event with brick-themed fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": true,
+    "isSeasonal": false,
+    "fishCount": 17,
+    "fish": [
+      {
+        "name": "Azure Studfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Brickhorse",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Cardinal Studfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Clown Brickfish",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Crab Stud",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Glow Brick",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Goldbrick",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Jellystud",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Stud Koi",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Stud Shark",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Stud Turtle",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Studling Crab",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Studolodon",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Studphin",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Studster",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Tentabrick",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Yellow Studfish",
+        "rarity": "Limited"
+      }
+    ],
+    "source": "fischcalculator.com"
+  },
+  {
+    "id": "fischgiving-2025",
+    "name": "Fischgiving 2025 (Thanksgiving)",
+    "description": "Thanksgiving 2025 seasonal event with turkey-themed fish.",
+    "availableWeathers": [
+      "Any"
+    ],
+    "isPremium": false,
+    "isEvent": true,
+    "isSeasonal": true,
+    "fishCount": 14,
+    "fish": [
+      {
+        "name": "Bountiful Bait Crate",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Coral Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Frosty Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Ghost Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Lost Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Magma Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Mossy Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Murky Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Pilgrim Hat",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Pioneer Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Pirate Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Poseidon Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Slate Turkey",
+        "rarity": "Limited"
+      },
+      {
+        "name": "Sunny Turkey",
+        "rarity": "Limited"
+      }
+    ],
+    "source": "fischcalculator.com"
+  }
+]
