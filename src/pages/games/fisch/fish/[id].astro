@@ -29,8 +29,14 @@ interface Fish {
   baseResil: number | null;
   event: string | null;
   description: string | null;
+  descriptionIsGenerated: boolean;
   image: string | null;
   imageUrl: string | null;
+  recommendedRod: { name: string; rodId: string; resilience: number } | null;
+  difficulty: string;
+  estimatedCsPerHour: number | null;
+  recommendation: string;
+  estimatedNpcValue: string | null;
 }
 
 interface Mutation {
@@ -114,6 +120,18 @@ const rarityColors: Record<string, { bg: string; border: string; text: string }>
 };
 const rc = rarityColors[fish.rarity] || { bg: '#ffffff10', border: '#ffffff40', text: '#e8eaf0' };
 
+// Difficulty color map
+const difficultyColors: Record<string, { bg: string; border: string; text: string }> = {
+  'Easy':    { bg: '#22c55e20', border: '#22c55e', text: '#4ade80' },
+  'Medium':  { bg: '#eab30820', border: '#eab308', text: '#facc15' },
+  'Hard':    { bg: '#f9731620', border: '#f97316', text: '#fb923c' },
+  'Extreme': { bg: '#ef444420', border: '#ef4444', text: '#f87171' },
+};
+const dc = difficultyColors[fish.difficulty] || { bg: '#ffffff10', border: '#ffffff40', text: '#e8eaf0' };
+
+// Recommendation banner
+const isKeep = fish.recommendation === 'KEEP FOR TRADING';
+
 // Schema.org
 const articleSchema = {
   '@context': 'https://schema.org',
@@ -133,6 +151,8 @@ if (fish.baseWeight != null) infoItems.push({ label: 'Base Weight', value: `${fm
 if (fish.xp != null) infoItems.push({ label: 'XP', value: fmt(fish.xp), icon: '⭐' });
 if (fish.baseChance != null && fish.baseChance > 0) infoItems.push({ label: 'Catch Chance', value: `${fish.baseChance}%`, icon: '🎯' });
 if (fish.baseResil != null) infoItems.push({ label: 'Resilience', value: fmt(fish.baseResil), icon: '🛡️' });
+if (fish.estimatedNpcValue) infoItems.push({ label: 'NPC Value (avg)', value: fish.estimatedNpcValue, icon: '🏪' });
+if (fish.estimatedCsPerHour != null) infoItems.push({ label: 'C$/Hour (est.)', value: `${fmtC(fish.estimatedCsPerHour)} C$`, icon: '⏱️' });
 
 // Conditions
 const conditions: { label: string; value: string; icon: string }[] = [];
@@ -143,6 +163,7 @@ if (fish.time) conditions.push({ label: 'Time', value: fish.time, icon: '🕐' }
 if (fish.season.length > 0) conditions.push({ label: 'Season', value: fish.season.join(', '), icon: '📅' });
 if (fish.event) conditions.push({ label: 'Event', value: fish.event, icon: '🎉' });
 if (fish.sources.length > 0) conditions.push({ label: 'Source', value: fish.sources.join(', '), icon: '🎣' });
+if (fish.recommendedRod) conditions.push({ label: 'Rec. Rod', value: fish.recommendedRod.name, icon: '🎣' });
 
 // Hero max value
 const formattedMaxValue = tradingValue?.estimatedValue
@@ -191,10 +212,31 @@ const narrative = parts.join('');
     >
       {fish.rarity}
     </span>
+    <span
+      class="fish-detail__diff-badge"
+      style={`background:${dc.bg}; border-color:${dc.border}; color:${dc.text};`}
+    >
+      {fish.difficulty}
+    </span>
     {formattedMaxValue && (
       <div class="fish-detail__giant-val">{formattedMaxValue} C$</div>
     )}
   </FischHero>
+
+  <!-- KEEP / SELL BANNER -->
+  <div class="container">
+    <div
+      class:list={['fish-detail__rec-banner', { 'fish-detail__rec-banner--keep': isKeep }]}
+    >
+      <span class="fish-detail__rec-icon">{isKeep ? '💎' : '💰'}</span>
+      <span class="fish-detail__rec-text" style={`color:${isKeep ? '#fbbf24' : '#4ade80'};`}>
+        {fish.recommendation}
+      </span>
+      <span class="fish-detail__rec-hint">
+        {isKeep ? 'Trade with other players for best value' : 'Sell at NPC for quick C$'}
+      </span>
+    </div>
+  </div>
 
   <!-- TWO-COLUMN LAYOUT -->
   <div class="container fish-detail__grid">
@@ -280,8 +322,8 @@ const narrative = parts.join('');
         </section>
       )}
 
-      <!-- DESCRIPTION -->
-      {fish.description && (
+      <!-- DESCRIPTION (manual only) -->
+      {fish.description && !fish.descriptionIsGenerated && (
         <section class="desc-section">
           <h2 class="section-heading">Description</h2>
           <p class="desc-section__text">{fish.description}</p>
@@ -291,7 +333,7 @@ const narrative = parts.join('');
       <!-- OVERVIEW -->
       <section class="overview">
         <h2 class="section-heading" id="overview">OVERVIEW</h2>
-        <p class="overview__text">{narrative}</p>
+        <p class="overview__text">{fish.descriptionIsGenerated ? fish.description : narrative}</p>
       </section>
 
       <!-- QUICK LINKS -->
@@ -358,7 +400,7 @@ const narrative = parts.join('');
       <!-- Fish image -->
       <div class="fish-detail__img-card">
         {fish.imageUrl ? (
-          <img src={fish.imageUrl} alt={fish.name} class="fish-detail__img-large" loading="lazy" />
+          <img src={fish.imageUrl} alt={fish.name} class="fish-detail__img-large" />
         ) : (
           <div class="fish-detail__img-placeholder" style={`background: ${rc.bg}`}>
             <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style={`opacity: 0.3; color: ${rc.border}`}>
@@ -437,6 +479,18 @@ const narrative = parts.join('');
     letter-spacing: 0.5px;
   }
 
+  .fish-detail__diff-badge {
+    display: inline-block;
+    margin-top: 0.25rem;
+    margin-left: 0.4rem;
+    padding: 0.2rem 0.75rem;
+    border: 1px solid;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
   .fish-detail__giant-val {
     font-family: var(--font-mono);
     font-size: clamp(2.5rem, 6vw, 4rem);
@@ -444,6 +498,51 @@ const narrative = parts.join('');
     color: var(--accent-secondary, #22D3EE);
     margin-top: 0.5rem;
     text-shadow: 0 0 40px rgba(34, 211, 238, 0.4);
+  }
+
+  /* ============================================================
+     RECOMMENDATION BANNER
+     ============================================================ */
+
+  .fish-detail__rec-banner {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.12), rgba(22, 163, 74, 0.08));
+  }
+
+  .fish-detail__rec-banner--keep {
+    border-color: rgba(245, 158, 11, 0.3);
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(217, 119, 6, 0.08));
+  }
+
+  .fish-detail__rec-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+  }
+
+  .fish-detail__rec-text {
+    font-family: var(--font-display);
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .fish-detail__rec-hint {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-left: auto;
+  }
+
+  @media (max-width: 479px) {
+    .fish-detail__rec-hint {
+      display: none;
+    }
   }
 
   /* ============================================================
@@ -478,6 +577,20 @@ const narrative = parts.join('');
   @media (max-width: 767px) {
     .fish-detail__aside {
       order: -1;
+    }
+
+    .fish-detail__img-card {
+      padding: 1rem;
+      background: rgba(15, 29, 53, 0.8);
+      border-color: rgba(29, 162, 216, 0.15);
+    }
+
+    .fish-detail__img-large {
+      max-height: 160px;
+    }
+
+    .fish-detail__toc {
+      display: none;
     }
   }
 

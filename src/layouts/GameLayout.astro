@@ -179,12 +179,12 @@ if (gameSlug === 'fisch') {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.menu} />
         </button>
 
-        <a href="/" class="topbar__back" title="Volver a codigosgratis.com">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-          codigosgratis.com
+        <a href="/" class="topbar__home" title="codigosgratis.com">
+          <span class="topbar__home-logo">CG</span>
         </a>
-
+        <span class="topbar__sep" aria-hidden="true"></span>
         <a href={`/games/${gameSlug}/`} class="topbar__brand">
+          <img src="/images/fisch-icon.webp" alt="" class="topbar__brand-icon" width="24" height="24" />
           <span class="topbar__brand-name">{game}</span>
           <span class="topbar__brand-badge">Guide</span>
         </a>
@@ -204,19 +204,6 @@ if (gameSlug === 'fisch') {
     <div class="app-shell">
       <!-- SIDEBAR -->
       <aside class="sidebar" id="sidebar">
-        {gameSlug === 'fisch' && (
-          <div class="sidebar__game-hdr">
-            <img src="/images/fisch-icon.webp" alt="Fisch" class="sidebar__game-thumb" loading="lazy" />
-            <span class="sidebar__game-name">Fisch</span>
-            <div class="sidebar__game-stats">
-              <span class="sidebar__mini-stat">🐟 1,235</span>
-              <span class="sidebar__mini-stat">🧬 234</span>
-              <span class="sidebar__mini-stat">🎣 166</span>
-              <span class="sidebar__mini-stat">📍 72</span>
-            </div>
-          </div>
-        )}
-
         <nav class="sidebar__nav">
           {sidebarSections.map(section => (
             <div class="sidebar__group">
@@ -515,25 +502,50 @@ if (gameSlug === 'fisch') {
     color: #fff;
   }
 
-  .topbar__back {
-    display: none;
+  .topbar__home {
+    display: flex;
     align-items: center;
-    gap: 0.3rem;
-    font-size: 0.75rem;
-    font-weight: 500;
-    color: var(--text-dim);
-    transition: color 0.2s;
-    white-space: nowrap;
     flex-shrink: 0;
   }
 
-  .topbar__back:hover {
-    color: #22D3EE;
+  .topbar__home-logo {
+    font-weight: 800;
+    font-size: 0.85rem;
+    color: var(--accent);
+    background: rgba(29, 162, 216, 0.12);
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+    transition: background 0.2s;
   }
 
-  @media (min-width: 768px) {
-    .topbar__back {
-      display: flex;
+  .topbar__home:hover .topbar__home-logo {
+    background: rgba(29, 162, 216, 0.22);
+  }
+
+  .topbar__sep {
+    width: 1px;
+    height: 20px;
+    background: var(--border);
+    flex-shrink: 0;
+    margin: 0 0.15rem;
+  }
+
+  .topbar__brand-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 639px) {
+    .topbar__home-logo {
+      font-size: 0.75rem;
+      padding: 0.15rem 0.4rem;
+    }
+    .topbar__sep {
+      height: 16px;
     }
   }
 
@@ -704,57 +716,6 @@ if (gameSlug === 'fisch') {
     to { transform: translateX(0); }
   }
 
-  /* Sidebar game header */
-  .sidebar__game-hdr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.35rem;
-    padding-bottom: 0.75rem;
-    margin-bottom: 0.75rem;
-    border-bottom: 1px solid var(--border);
-    text-align: center;
-  }
-
-  .sidebar__game-thumb {
-    width: 56px;
-    height: 56px;
-    border-radius: 12px;
-    object-fit: cover;
-  }
-
-  .sidebar__game-name {
-    font-weight: 700;
-    font-size: 1rem;
-    color: #fff;
-  }
-
-  .sidebar__game-stats {
-    display: flex;
-    gap: 0.35rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .sidebar__mini-stat {
-    font-size: 0.62rem;
-    font-weight: 600;
-    color: var(--text-dim);
-    background: rgba(255, 255, 255, 0.04);
-    padding: 0.15rem 0.4rem;
-    border-radius: 20px;
-  }
-
-  :global(html.sidebar-collapsed) .sidebar__game-name,
-  :global(html.sidebar-collapsed) .sidebar__game-stats {
-    display: none;
-  }
-
-  :global(html.sidebar-collapsed) .sidebar__game-thumb {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-  }
 
   /* Sidebar external links */
   .sidebar__links {
