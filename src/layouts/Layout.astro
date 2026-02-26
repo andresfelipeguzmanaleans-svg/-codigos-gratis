@@ -37,7 +37,7 @@ const ogImageURL = new URL(ogImage, Astro.site).href;
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@900&family=Oxanium:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap"
       rel="stylesheet"
     />
 
@@ -66,17 +66,20 @@ const ogImageURL = new URL(ogImage, Astro.site).href;
   }
 
   :root {
-    --bg-deep: #0a0e1a;
+    --bg-deep: #0A0F1C;
     --bg-card: #111827;
     --bg-code: #0d1520;
-    --accent: #06d6a0;
-    --accent-hot: #ff6b6b;
-    --accent-warn: #ffd166;
-    --text: #e8eaf0;
-    --text-dim: #8892a4;
-    --border: #1e293b;
-    --font-display: 'Oxanium', cursive;
-    --font-body: 'DM Sans', sans-serif;
+    --accent: #6366F1;
+    --accent-light: #818CF8;
+    --accent-secondary: #22D3EE;
+    --accent-hot: #F43F5E;
+    --accent-warn: #FBBF24;
+    --text: #F1F5F9;
+    --text-dim: #94A3B8;
+    --border: rgba(255, 255, 255, 0.06);
+    --font-display: 'Inter', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
   }
 
   html {
@@ -86,9 +89,6 @@ const ogImageURL = new URL(ogImage, Astro.site).href;
 
   body {
     overflow-x: hidden;
-  }
-
-  body {
     font-family: var(--font-body);
     background: var(--bg-deep);
     color: var(--text);

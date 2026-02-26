@@ -1,6 +1,7 @@
 ---
 const path = Astro.url.pathname;
 const isHome = path === '/';
+const isFisch = path.startsWith('/games/fisch');
 const isHerramientas = path.startsWith('/herramientas');
 ---
 
@@ -13,7 +14,12 @@ const isHerramientas = path.startsWith('/herramientas');
 
     <!-- Nav desktop -->
     <nav class="hdr__nav" id="desktop-nav">
-      <a href="/" class={`hdr__link ${isHome ? 'hdr__link--active' : ''}`}>Códigos</a>
+      <a href="/" class={`hdr__link ${isHome ? 'hdr__link--active' : ''}`}>Inicio</a>
+
+      <a href="/games/fisch/" class={`hdr__link hdr__link--fisch ${isFisch ? 'hdr__link--active' : ''}`}>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6-3.56 0-7.56-2.53-8.5-6Z"/><circle cx="2" cy="12" r="1"/></svg>
+        Fisch Companion
+      </a>
 
       <div class="hdr__dd">
         <button class={`hdr__link hdr__dd-trigger ${isHerramientas ? 'hdr__link--active' : ''}`} type="button">
@@ -21,28 +27,26 @@ const isHerramientas = path.startsWith('/herramientas');
           <svg class="hdr__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
         </button>
         <div class="hdr__dd-menu">
-          <a href="/herramientas/calculadora-robux/" class="hdr__dd-item"><span class="hdr__dd-ico">💰</span>Calculadora de Robux</a>
-          <a href="/herramientas/ids-musica-roblox/" class="hdr__dd-item"><span class="hdr__dd-ico">🎵</span>IDs de Música</a>
-          <a href="/herramientas/buscador-perfil-roblox/" class="hdr__dd-item"><span class="hdr__dd-ico">👤</span>Buscador de Perfil</a>
-          <a href="/herramientas/extractor-ids-roblox/" class="hdr__dd-item"><span class="hdr__dd-ico">🔗</span>Extractor de IDs</a>
-          <a href="/herramientas/comandos-admin-roblox/" class="hdr__dd-item"><span class="hdr__dd-ico">⌨️</span>Comandos Admin</a>
-        </div>
-      </div>
-
-      <div class="hdr__dd">
-        <button class="hdr__link hdr__dd-trigger" type="button">
-          Categorías
-          <svg class="hdr__chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-        </button>
-        <div class="hdr__dd-menu">
-          <a href="/#categorias" class="hdr__dd-item" data-cat="Fighting"><span class="hdr__dd-ico">⚔️</span>Fighting</a>
-          <a href="/#categorias" class="hdr__dd-item" data-cat="Simulator"><span class="hdr__dd-ico">🎮</span>Simulator</a>
-          <a href="/#categorias" class="hdr__dd-item" data-cat="Tycoon"><span class="hdr__dd-ico">🏗️</span>Tycoon</a>
-          <a href="/#categorias" class="hdr__dd-item" data-cat="RPG"><span class="hdr__dd-ico">🗡️</span>RPG</a>
-          <a href="/#categorias" class="hdr__dd-item" data-cat="Racing"><span class="hdr__dd-ico">🏎️</span>Racing</a>
-          <a href="/#categorias" class="hdr__dd-item" data-cat="Tower Defense"><span class="hdr__dd-ico">🏰</span>Tower Defense</a>
-          <a href="/#categorias" class="hdr__dd-item" data-cat="Adventure"><span class="hdr__dd-ico">🌍</span>Adventure</a>
-          <a href="/#categorias" class="hdr__dd-item" data-cat="Sports"><span class="hdr__dd-ico">⚽</span>Sports</a>
+          <a href="/herramientas/calculadora-robux/" class="hdr__dd-item">
+            <svg class="hdr__dd-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="16" y2="14"/><line x1="8" y1="18" x2="16" y2="18"/></svg>
+            Calculadora de Robux
+          </a>
+          <a href="/herramientas/ids-musica-roblox/" class="hdr__dd-item">
+            <svg class="hdr__dd-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            IDs de Música
+          </a>
+          <a href="/herramientas/buscador-perfil-roblox/" class="hdr__dd-item">
+            <svg class="hdr__dd-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            Buscador de Perfil
+          </a>
+          <a href="/herramientas/extractor-ids-roblox/" class="hdr__dd-item">
+            <svg class="hdr__dd-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            Extractor de IDs
+          </a>
+          <a href="/herramientas/comandos-admin-roblox/" class="hdr__dd-item">
+            <svg class="hdr__dd-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+            Comandos Admin
+          </a>
         </div>
       </div>
     </nav>
@@ -80,7 +84,14 @@ const isHerramientas = path.startsWith('/herramientas');
 
     <!-- Mobile links -->
     <nav class="mob__nav">
-      <a href="/" class={`mob__link ${isHome ? 'mob__link--active' : ''}`}>Códigos</a>
+      <a href="/" class={`mob__link ${isHome ? 'mob__link--active' : ''}`}>Inicio</a>
+
+      <a href="/games/fisch/" class={`mob__link mob__link--fisch ${isFisch ? 'mob__link--active' : ''}`}>
+        <span class="mob__fisch-inner">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6-3.56 0-7.56-2.53-8.5-6Z"/><circle cx="2" cy="12" r="1"/></svg>
+          Fisch Companion
+        </span>
+      </a>
 
       <div class="mob__acc">
         <button class={`mob__link mob__acc-trigger ${isHerramientas ? 'mob__link--active' : ''}`} type="button">
@@ -88,11 +99,26 @@ const isHerramientas = path.startsWith('/herramientas');
           <svg class="mob__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
         </button>
         <div class="mob__acc-panel">
-          <a href="/herramientas/calculadora-robux/" class="mob__sub-link"><span class="mob__sub-ico">💰</span>Calculadora de Robux</a>
-          <a href="/herramientas/ids-musica-roblox/" class="mob__sub-link"><span class="mob__sub-ico">🎵</span>IDs de Música</a>
-          <a href="/herramientas/buscador-perfil-roblox/" class="mob__sub-link"><span class="mob__sub-ico">👤</span>Buscador de Perfil</a>
-          <a href="/herramientas/extractor-ids-roblox/" class="mob__sub-link"><span class="mob__sub-ico">🔗</span>Extractor de IDs</a>
-          <a href="/herramientas/comandos-admin-roblox/" class="mob__sub-link"><span class="mob__sub-ico">⌨️</span>Comandos Admin</a>
+          <a href="/herramientas/calculadora-robux/" class="mob__sub-link">
+            <svg class="mob__sub-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/></svg>
+            Calculadora de Robux
+          </a>
+          <a href="/herramientas/ids-musica-roblox/" class="mob__sub-link">
+            <svg class="mob__sub-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+            IDs de Música
+          </a>
+          <a href="/herramientas/buscador-perfil-roblox/" class="mob__sub-link">
+            <svg class="mob__sub-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            Buscador de Perfil
+          </a>
+          <a href="/herramientas/extractor-ids-roblox/" class="mob__sub-link">
+            <svg class="mob__sub-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            Extractor de IDs
+          </a>
+          <a href="/herramientas/comandos-admin-roblox/" class="mob__sub-link">
+            <svg class="mob__sub-ico" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+            Comandos Admin
+          </a>
         </div>
       </div>
 
@@ -102,14 +128,14 @@ const isHerramientas = path.startsWith('/herramientas');
           <svg class="mob__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
         </button>
         <div class="mob__acc-panel">
-          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Fighting"><span class="mob__sub-ico">⚔️</span>Fighting</a>
-          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Simulator"><span class="mob__sub-ico">🎮</span>Simulator</a>
-          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Tycoon"><span class="mob__sub-ico">🏗️</span>Tycoon</a>
-          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="RPG"><span class="mob__sub-ico">🗡️</span>RPG</a>
-          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Racing"><span class="mob__sub-ico">🏎️</span>Racing</a>
-          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Tower Defense"><span class="mob__sub-ico">🏰</span>Tower Defense</a>
-          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Adventure"><span class="mob__sub-ico">🌍</span>Adventure</a>
-          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Sports"><span class="mob__sub-ico">⚽</span>Sports</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Fighting">Lucha</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Simulator">Simulador</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Tycoon">Tycoon</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="RPG">RPG</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Racing">Carreras</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Tower Defense">Defensa de Torres</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Adventure">Aventura</a>
+          <a href="/#categorias" class="mob__sub-link mob__cat-link" data-cat="Sports">Deportes</a>
         </div>
       </div>
     </nav>
@@ -125,16 +151,16 @@ const isHerramientas = path.startsWith('/herramientas');
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(11, 15, 25, 0.85);
+    background: rgba(10, 15, 28, 0.85);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(6, 214, 160, 0.15);
+    border-bottom: 1px solid rgba(99, 102, 241, 0.12);
     transition: padding 0.3s, background 0.3s;
   }
 
   .hdr.hdr--scrolled {
-    background: rgba(11, 15, 25, 0.95);
-    border-bottom-color: rgba(6, 214, 160, 0.25);
+    background: rgba(10, 15, 28, 0.95);
+    border-bottom-color: rgba(99, 102, 241, 0.2);
   }
 
   .hdr__inner {
@@ -151,7 +177,7 @@ const isHerramientas = path.startsWith('/herramientas');
   /* ---------- Logo ---------- */
 
   .hdr__logo {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-display);
     font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
@@ -165,19 +191,19 @@ const isHerramientas = path.startsWith('/herramientas');
   .hdr__logo:hover { opacity: 0.8; }
 
   @media (min-width: 769px) {
-    .hdr__logo { font-size: 26px; }
+    .hdr__logo { font-size: 24px; }
   }
 
   .hdr__logo-c { color: #fff; }
-  .hdr__logo-g { color: #06d6a0; }
-  .hdr__logo-d { color: rgba(255,255,255,0.35); font-size: 0.7em; letter-spacing: 1px; }
+  .hdr__logo-g { color: var(--accent); }
+  .hdr__logo-d { color: rgba(255,255,255,0.3); font-size: 0.65em; letter-spacing: 1px; }
 
   /* ---------- Desktop nav ---------- */
 
   .hdr__nav {
     display: none;
     align-items: center;
-    gap: 0.25rem;
+    gap: 0.15rem;
     margin-left: auto;
   }
 
@@ -188,41 +214,68 @@ const isHerramientas = path.startsWith('/herramientas');
   .hdr__link {
     position: relative;
     font-family: var(--font-body);
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-dim);
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 0.7rem;
     display: flex;
     align-items: center;
-    gap: 4px;
-    transition: color 0.3s;
+    gap: 5px;
+    transition: color 0.25s;
     white-space: nowrap;
+    border-radius: 8px;
   }
 
   .hdr__link::after {
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 2px;
     left: 50%;
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background: #06d6a0;
+    background: var(--accent);
     border-radius: 1px;
-    transition: width 0.3s;
+    transition: width 0.25s;
   }
 
-  .hdr__link:hover,
+  .hdr__link:hover {
+    color: var(--text);
+  }
+
   .hdr__link--active {
-    color: #06d6a0;
+    color: var(--text);
   }
 
   .hdr__link:hover::after,
   .hdr__link--active::after {
-    width: 60%;
+    width: 50%;
+  }
+
+  /* Fisch Companion — special highlighted link */
+  .hdr__link--fisch {
+    color: #22D3EE;
+    font-weight: 600;
+    background: rgba(34, 211, 238, 0.08);
+    border-radius: 8px;
+    padding: 0.4rem 0.75rem;
+  }
+
+  .hdr__link--fisch::after {
+    background: #22D3EE;
+  }
+
+  .hdr__link--fisch:hover {
+    color: #67e8f9;
+    background: rgba(34, 211, 238, 0.12);
+  }
+
+  .hdr__link--fisch.hdr__link--active {
+    color: #22D3EE;
+    background: rgba(34, 211, 238, 0.15);
   }
 
   .hdr__chevron {
@@ -241,10 +294,10 @@ const isHerramientas = path.startsWith('/herramientas');
     left: 50%;
     transform: translateX(-50%) translateY(-8px);
     min-width: 220px;
-    background: rgba(17, 24, 39, 0.95);
+    background: rgba(17, 24, 39, 0.97);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(6, 214, 160, 0.2);
+    border: 1px solid rgba(99, 102, 241, 0.15);
     border-radius: 12px;
     padding: 8px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
@@ -270,24 +323,27 @@ const isHerramientas = path.startsWith('/herramientas');
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 10px 16px;
+    padding: 10px 14px;
     border-radius: 8px;
     font-size: 0.875rem;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--text-dim);
     transition: background 0.2s, color 0.2s;
   }
 
   .hdr__dd-item:hover {
-    background: rgba(6, 214, 160, 0.1);
-    color: #06d6a0;
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--text);
   }
 
   .hdr__dd-ico {
-    font-size: 1rem;
-    width: 1.25rem;
-    text-align: center;
     flex-shrink: 0;
+    color: var(--text-dim);
+    transition: color 0.2s;
+  }
+
+  .hdr__dd-item:hover .hdr__dd-ico {
+    color: var(--accent-light);
   }
 
   /* ---------- Search (desktop) ---------- */
@@ -310,18 +366,19 @@ const isHerramientas = path.startsWith('/herramientas');
     justify-content: center;
     width: 36px;
     height: 36px;
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    border: 1px solid var(--border);
     background: transparent;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-dim);
     cursor: pointer;
-    transition: border-color 0.3s, color 0.3s, background 0.3s;
+    transition: border-color 0.25s, color 0.25s, background 0.25s;
     flex-shrink: 0;
   }
 
   .hdr__search-btn:hover {
-    border-color: #06d6a0;
-    color: #06d6a0;
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(99, 102, 241, 0.08);
   }
 
   .hdr__search.hdr__search--open .hdr__search-btn {
@@ -348,8 +405,8 @@ const isHerramientas = path.startsWith('/herramientas');
   }
 
   .hdr__search-field:focus-within {
-    border-color: #06d6a0;
-    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
   }
 
   .hdr__search-ico {
@@ -376,10 +433,10 @@ const isHerramientas = path.startsWith('/herramientas');
     top: calc(100% + 8px);
     right: 0;
     width: 300px;
-    background: rgba(17, 24, 39, 0.95);
+    background: rgba(17, 24, 39, 0.97);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(6, 214, 160, 0.2);
+    border: 1px solid rgba(99, 102, 241, 0.15);
     border-radius: 12px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     display: none;
@@ -396,7 +453,7 @@ const isHerramientas = path.startsWith('/herramientas');
   }
 
   .hdr__sr-item:hover {
-    background: rgba(6, 214, 160, 0.08);
+    background: rgba(99, 102, 241, 0.08);
   }
 
   .hdr__sr-item__img {
@@ -504,7 +561,7 @@ const isHerramientas = path.startsWith('/herramientas');
     position: fixed;
     inset: 0;
     z-index: 999;
-    background: rgba(11, 15, 25, 0.98);
+    background: rgba(10, 15, 28, 0.98);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     opacity: 0;
@@ -543,8 +600,8 @@ const isHerramientas = path.startsWith('/herramientas');
   }
 
   .mob__search:focus-within {
-    border-color: #06d6a0;
-    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
   }
 
   .mob__search-ico {
@@ -589,9 +646,9 @@ const isHerramientas = path.startsWith('/herramientas');
     align-items: center;
     justify-content: space-between;
     font-family: var(--font-body);
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--text-dim);
     background: none;
     border: none;
     cursor: pointer;
@@ -604,7 +661,31 @@ const isHerramientas = path.startsWith('/herramientas');
 
   .mob__link:hover,
   .mob__link--active {
-    color: #06d6a0;
+    color: var(--text);
+  }
+
+  /* Fisch link — special highlight in mobile */
+  .mob__link--fisch {
+    color: #22D3EE;
+    background: rgba(34, 211, 238, 0.06);
+    border-radius: 10px;
+    margin: 0.25rem 0;
+  }
+
+  .mob__link--fisch .mob__fisch-inner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .mob__link--fisch:hover {
+    color: #67e8f9;
+    background: rgba(34, 211, 238, 0.12);
+  }
+
+  .mob__link--fisch.mob__link--active {
+    color: #22D3EE;
+    background: rgba(34, 211, 238, 0.15);
   }
 
   .mob__chevron {
@@ -635,30 +716,28 @@ const isHerramientas = path.startsWith('/herramientas');
     gap: 10px;
     padding: 0.7rem 1rem;
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.75);
+    color: var(--text-dim);
     transition: background 0.2s, color 0.2s;
   }
 
   .mob__sub-link:hover {
-    background: rgba(6, 214, 160, 0.1);
-    color: #06d6a0;
+    background: rgba(99, 102, 241, 0.08);
+    color: var(--text);
   }
 
   .mob__sub-ico {
-    font-size: 1.1rem;
-    width: 1.5rem;
-    text-align: center;
     flex-shrink: 0;
+    color: var(--text-dim);
   }
 </style>
 
 <script is:inline>
 (function() {
   /* ---------- Scroll class ---------- */
-  const hdr = document.getElementById('site-header');
-  let ticking = false;
+  var hdr = document.getElementById('site-header');
+  var ticking = false;
   function onScroll() {
     if (!ticking) {
       ticking = true;
@@ -814,7 +893,7 @@ const isHerramientas = path.startsWith('/herramientas');
       var cat = link.dataset.cat;
       if (window.location.pathname === '/') {
         e.preventDefault();
-        var pill = document.querySelector('.cat-pill[data-category="' + cat + '"]');
+        var pill = document.querySelector('.pill[data-genre="' + cat + '"]');
         if (pill) {
           pill.click();
           pill.scrollIntoView({ behavior: 'smooth', block: 'center' });

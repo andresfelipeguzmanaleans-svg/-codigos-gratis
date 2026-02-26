@@ -4,17 +4,52 @@ const year = new Date().getFullYear();
 
 <footer class="footer">
   <div class="container footer__inner">
-    <p class="footer__copy">&copy; {year} códigosgratis.com</p>
-    <nav class="footer__links">
-      <a href="/sobre-nosotros/">Sobre nosotros</a>
-      <a href="/politica-de-privacidad/">Privacidad</a>
-      <a href="/terminos-de-uso/">Términos</a>
-      <a href="/disclaimer/">Disclaimer</a>
-      <a href="/herramientas/calculadora-robux/">Calculadora Robux</a>
-    </nav>
-    <p class="footer__disclaimer">
-      No estamos afiliados, asociados ni respaldados por Roblox Corporation. Roblox y los logos de Roblox son marcas registradas de Roblox Corporation.
-    </p>
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo">
+          <span class="footer__logo-c">codigos</span><span class="footer__logo-g">gratis</span><span class="footer__logo-d">.com</span>
+        </a>
+        <p class="footer__tagline">Códigos actualizados para juegos de Roblox</p>
+      </div>
+
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h4 class="footer__col-title">Sitio</h4>
+          <nav class="footer__col-links">
+            <a href="/">Inicio</a>
+            <a href="/sobre-nosotros/">Sobre nosotros</a>
+            <a href="/politica-de-privacidad/">Privacidad</a>
+            <a href="/terminos-de-uso/">Términos</a>
+            <a href="/disclaimer/">Disclaimer</a>
+          </nav>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__col-title">Herramientas</h4>
+          <nav class="footer__col-links">
+            <a href="/herramientas/calculadora-robux/">Calculadora Robux</a>
+            <a href="/herramientas/ids-musica-roblox/">IDs de Música</a>
+            <a href="/herramientas/buscador-perfil-roblox/">Buscador de Perfil</a>
+          </nav>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__col-title">Guías</h4>
+          <nav class="footer__col-links">
+            <a href="/games/fisch/" class="footer__fisch-link">Fisch Companion</a>
+            <a href="/games/fisch/fish/">Fish Database</a>
+            <a href="/games/fisch/values/">Values</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copy">&copy; {year} códigosgratis.com</p>
+      <p class="footer__disclaimer">
+        No estamos afiliados, asociados ni respaldados por Roblox Corporation. Roblox y los logos de Roblox son marcas registradas de Roblox Corporation.
+      </p>
+    </div>
   </div>
 </footer>
 
@@ -22,56 +57,120 @@ const year = new Date().getFullYear();
   .footer {
     margin-top: auto;
     border-top: 1px solid var(--border);
-    padding: 2rem 0;
+    padding: 2.5rem 0 1.5rem;
+    background: rgba(17, 24, 39, 0.3);
   }
 
   .footer__inner {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer__top {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    .footer__top {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 3rem;
+    }
+  }
+
+  .footer__brand {
+    flex-shrink: 0;
+  }
+
+  .footer__logo {
+    font-family: var(--font-display);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1;
+    display: inline-block;
+  }
+
+  .footer__logo-c { color: #fff; }
+  .footer__logo-g { color: var(--accent); }
+  .footer__logo-d { color: rgba(255,255,255,0.3); font-size: 0.65em; }
+
+  .footer__tagline {
+    margin-top: 0.5rem;
+    font-size: 0.82rem;
+    color: var(--text-dim);
+  }
+
+  .footer__cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 480px) {
+    .footer__cols {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .footer__col-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.6rem;
+  }
+
+  .footer__col-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .footer__col-links a {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    transition: color 0.2s;
+    padding: 0.2rem 0;
+  }
+
+  .footer__col-links a:hover {
+    color: var(--text);
+  }
+
+  .footer__fisch-link {
+    color: #22D3EE !important;
+  }
+
+  .footer__fisch-link:hover {
+    color: #67e8f9 !important;
+  }
+
+  .footer__bottom {
+    border-top: 1px solid var(--border);
+    padding-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.5rem;
     text-align: center;
   }
 
   .footer__copy {
-    font-family: var(--font-display);
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     color: var(--text-dim);
-  }
-
-  .footer__links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.4rem 1.25rem;
-  }
-
-  .footer__links a {
-    font-size: 0.85rem;
-    color: var(--text-dim);
-    text-decoration: none;
-    transition: color 0.2s;
-    padding: 0.35rem 0;
-    min-height: 44px;
-    display: inline-flex;
-    align-items: center;
-  }
-
-  .footer__links a:hover {
-    color: var(--accent);
   }
 
   .footer__disclaimer {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     color: var(--text-dim);
     max-width: 540px;
     line-height: 1.5;
-    opacity: 0.7;
-  }
-
-  @media (max-width: 640px) {
-    .footer__links {
-      gap: 0.25rem 0.75rem;
-    }
+    opacity: 0.6;
   }
 </style>
