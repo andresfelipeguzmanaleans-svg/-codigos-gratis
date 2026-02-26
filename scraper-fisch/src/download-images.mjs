@@ -80,6 +80,22 @@ async function main() {
   console.log(`\nDone: ${downloaded} downloaded, ${skipped} cached, ${failed} failed`);
   console.log(`Total images in ${OUT_DIR}: ${downloaded + skipped}`);
 
+  // Clean up: null out imageUrl for local paths where file doesn't exist
+  let cleaned = 0;
+  for (const f of fish) {
+    if (f.imageUrl && f.imageUrl.startsWith('/images/fish/') && !f.imageUrl.startsWith('http')) {
+      const filename = f.imageUrl.replace('/images/fish/', '');
+      const filepath = join(OUT_DIR, filename);
+      if (!existsSync(filepath)) {
+        f.imageUrl = null;
+        cleaned++;
+      }
+    }
+  }
+  if (cleaned > 0) {
+    console.log(`Cleaned ${cleaned} imageUrl entries (file not found, will use placeholder)`);
+  }
+
   // Write back
   writeFileSync(DATA_PATH, JSON.stringify(fish, null, 2));
   console.log('Updated fish-merged.json with local paths');

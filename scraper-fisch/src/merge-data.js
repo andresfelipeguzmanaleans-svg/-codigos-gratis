@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'data', 'static');
+const IMAGES_DIR = path.join(__dirname, '..', '..', 'public', 'images', 'fish');
 
 // ---- Utils ----
 
@@ -110,10 +111,17 @@ function mergeFish(calc, wiki) {
 
   // Calculator-exclusive fields
   const description = pickStr(calc?.description);
-  const imageUrl = pickStr(calc?.imageUrl);
+  let imageUrl = pickStr(calc?.imageUrl);
 
   // Wiki image (filename only, can build URL later)
   const image = wiki?.image || null;
+
+  // If no imageUrl from calculator but wiki has an image filename,
+  // generate the local path following /images/fish/{id}.png convention.
+  // After download-images runs, files that don't exist will be cleaned up.
+  if (!imageUrl && image) {
+    imageUrl = `/images/fish/${id}.png`;
+  }
 
   return {
     id,
@@ -177,6 +185,8 @@ function main() {
   let onlyCalc = 0, onlyWiki = 0, both = 0;
 
   for (const normName of allNames) {
+    if (!normName) continue; // Skip empty names
+
     const calc = calcMap.get(normName) || null;
     const wiki = wikiMap.get(normName) || null;
 
@@ -184,7 +194,10 @@ function main() {
     else if (calc) onlyCalc++;
     else onlyWiki++;
 
-    merged.push(mergeFish(calc, wiki));
+    const fish = mergeFish(calc, wiki);
+    if (!fish.id || !fish.name) continue; // Skip entries with no id/name
+
+    merged.push(fish);
   }
 
   // Sort by name
