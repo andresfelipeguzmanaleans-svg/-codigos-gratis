@@ -164,7 +164,8 @@ const faqSchema = {
     <div class="page-wrap">
       <!-- Breadcrumbs -->
       <nav class="breadcrumbs">
-        <a href="/">Inicio</a> <span class="breadcrumbs__sep">›</span>
+        <a href="/">Inicio</a>
+        <svg class="breadcrumbs__sep" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
         <span>Códigos de {game.name}</span>
       </nav>
 
@@ -199,10 +200,12 @@ const faqSchema = {
                 <span class="badge badge--dim">Sin sistema de códigos</span>
               ) : (
                 <a href="#codigos" class="badge badge--green badge--link">
-                  {game.activeCodes.length} código{game.activeCodes.length !== 1 && 's'} activo{game.activeCodes.length !== 1 && 's'} <span class="badge__arrow">↓</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                  {game.activeCodes.length} código{game.activeCodes.length !== 1 && 's'} activo{game.activeCodes.length !== 1 && 's'}
                 </a>
               )}
               <span class="badge badge--yellow">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                 Actualizado {dateLabel}
               </span>
             </div>
@@ -215,24 +218,36 @@ const faqSchema = {
         <div class="stats">
           {game.playerCount && (
             <div class="stat">
+              <div class="stat__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
               <span class="stat__value">{formatNumber(game.playerCount)}</span>
               <span class="stat__label">Jugando ahora</span>
             </div>
           )}
           {game.totalVisits && (
             <div class="stat">
+              <div class="stat__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+              </div>
               <span class="stat__value">{formatNumber(game.totalVisits)}</span>
               <span class="stat__label">Visitas totales</span>
             </div>
           )}
           {game.favourites && (
             <div class="stat">
+              <div class="stat__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+              </div>
               <span class="stat__value">{formatNumber(game.favourites)}</span>
               <span class="stat__label">Favoritos</span>
             </div>
           )}
           {game.likes && !game.favourites && (
             <div class="stat">
+              <div class="stat__icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z"/></svg>
+              </div>
               <span class="stat__value">{formatNumber(game.likes)}</span>
               <span class="stat__label">Likes</span>
             </div>
@@ -249,7 +264,7 @@ const faqSchema = {
       {game.noCodeSystem && game.noCodeNote && (
         <section class="section">
           <div class="no-codes-notice">
-            <span class="no-codes-notice__icon">ℹ️</span>
+            <svg class="no-codes-notice__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
             <p class="no-codes-notice__text">{game.noCodeNote}</p>
           </div>
         </section>
@@ -258,14 +273,16 @@ const faqSchema = {
       <!-- Códigos activos -->
       {game.activeCodes.length > 0 && (
         <section class="section" id="codigos">
-          <h2 class="section__title">Códigos activos</h2>
-          <p class="codes-check">Última comprobación: {dateLabel}</p>
+          <div class="section__header">
+            <h2 class="section__title">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Códigos activos
+            </h2>
+            <span class="codes-check">Verificado {dateLabel}</span>
+          </div>
           <div class="codes-list">
-            {game.activeCodes.map((c, i) => (
-              <div class="code-numbered">
-                <span class="code-number">{i + 1}</span>
-                <CodeItem code={c.code} reward={c.reward} isNew={isNewCode(c.addedDate)} />
-              </div>
+            {game.activeCodes.map((c) => (
+              <CodeItem code={c.code} reward={c.reward} isNew={isNewCode(c.addedDate)} />
             ))}
           </div>
         </section>
@@ -273,14 +290,19 @@ const faqSchema = {
 
       <!-- ¿Qué son los códigos? -->
       <section class="section">
-        <h2 class="section__title">¿Qué son los códigos de {game.name}?</h2>
+        <h2 class="section__title section__title--plain">¿Qué son los códigos de {game.name}?</h2>
         <p class="section__text">{whatAreCodesContent}</p>
       </section>
 
       <!-- Códigos expirados -->
       {game.expiredCodes.length > 0 && (
         <section class="section">
-          <h2 class="section__title section__title--dim">Códigos expirados</h2>
+          <div class="section__header">
+            <h2 class="section__title section__title--dim">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+              Códigos expirados
+            </h2>
+          </div>
           <div class="codes-list">
             {game.expiredCodes.map((c) => (
               <CodeItem code={c.code} reward={c.reward} expired />
@@ -292,7 +314,7 @@ const faqSchema = {
       <!-- Cómo canjear -->
       {game.howToRedeem.length > 0 && (
         <section class="section">
-          <h2 class="section__title">Cómo canjear códigos</h2>
+          <h2 class="section__title section__title--plain">Cómo canjear códigos</h2>
           <div class="redeem-box">
             <ol class="redeem-steps">
               {game.howToRedeem.map((step) => (
@@ -306,6 +328,7 @@ const faqSchema = {
                 rel="noopener noreferrer"
                 class="roblox-link"
               >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                 Abrir {game.name} en Roblox
               </a>
             )}
@@ -315,13 +338,13 @@ const faqSchema = {
 
       <!-- ¿Cómo conseguir más códigos? -->
       <section class="section">
-        <h2 class="section__title">¿Cómo conseguir más códigos de {game.name}?</h2>
+        <h2 class="section__title section__title--plain">¿Cómo conseguir más códigos de {game.name}?</h2>
         <p class="section__text">{howToGetCodesContent}</p>
       </section>
 
       <!-- ¿Por qué no funcionan los códigos? -->
       <section class="section">
-        <h2 class="section__title">¿Por qué no funcionan los códigos?</h2>
+        <h2 class="section__title section__title--plain">¿Por qué no funcionan los códigos?</h2>
         <div class="reasons-box">
           <ul class="reasons-list">
             <li><strong>El código ha expirado:</strong> los desarrolladores desactivan códigos sin previo aviso. Consulta nuestra lista de códigos expirados más arriba.</li>
@@ -335,7 +358,7 @@ const faqSchema = {
       <!-- Tabla sobre el juego -->
       {(game.genre || game.totalVisits || game.likes || game.favourites || game.developer || game.placeId) && (
         <section class="section">
-          <h2 class="section__title">Sobre {game.name}</h2>
+          <h2 class="section__title section__title--plain">Sobre {game.name}</h2>
           <div class="info-table-wrap">
             <table class="info-table">
               <tbody>
@@ -375,6 +398,7 @@ const faqSchema = {
                     <td class="info-table__value">
                       <a href={`https://www.roblox.com/games/${game.placeId}`} target="_blank" rel="noopener noreferrer" class="info-table__link">
                         Jugar en Roblox
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                       </a>
                     </td>
                   </tr>
@@ -388,7 +412,7 @@ const faqSchema = {
       <!-- Más juegos con códigos -->
       {relatedGames.length > 0 && (
         <section class="section">
-          <h2 class="section__title">Más juegos con códigos</h2>
+          <h2 class="section__title section__title--plain">Más juegos con códigos</h2>
           <div class="related-grid">
             {relatedGames.map((g) => (
               <GameCard
@@ -424,6 +448,36 @@ const faqSchema = {
     padding: 0 1rem;
   }
 
+  /* ---- Breadcrumbs ---- */
+  .breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    margin-bottom: 0.75rem;
+  }
+
+  @media (min-width: 640px) {
+    .breadcrumbs { font-size: 0.85rem; margin-bottom: 1.25rem; }
+  }
+
+  .breadcrumbs a {
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--accent);
+  }
+
+  .breadcrumbs__sep {
+    color: var(--text-dim);
+    opacity: 0.4;
+    flex-shrink: 0;
+  }
+
   /* ---- Hero ---- */
   .hero {
     position: relative;
@@ -431,6 +485,7 @@ const faqSchema = {
     overflow: hidden;
     margin-bottom: 1.5rem;
     border: 1px solid var(--border);
+    background: var(--bg-card);
   }
 
   .hero__bg {
@@ -443,14 +498,14 @@ const faqSchema = {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: blur(8px) saturate(1.3) brightness(0.7);
-    transform: scale(1.1);
+    filter: blur(10px) saturate(1.2) brightness(0.5);
+    transform: scale(1.15);
   }
 
   .hero__bg-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(11,15,25,0.55) 0%, rgba(11,15,25,0.4) 100%);
+    background: linear-gradient(135deg, rgba(10,15,28,0.6) 0%, rgba(10,15,28,0.45) 100%);
   }
 
   .hero__content {
@@ -466,7 +521,7 @@ const faqSchema = {
   .hero__img-wrap {
     border-radius: 10px;
     overflow: hidden;
-    border: 1px solid rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.1);
     background: var(--bg-card);
     flex-shrink: 0;
     width: 80px;
@@ -483,7 +538,7 @@ const faqSchema = {
   .hero__placeholder {
     width: 100%;
     aspect-ratio: 1 / 1;
-    background: linear-gradient(135deg, #1a2236 0%, #0f3460 100%);
+    background: linear-gradient(135deg, #1a2236 0%, #1e3a5f 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -511,12 +566,12 @@ const faqSchema = {
   .hero__title {
     font-family: var(--font-display);
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 1.2;
   }
 
   .hero__desc {
-    color: var(--text-dim);
+    color: rgba(241, 245, 249, 0.7);
     font-size: 0.85rem;
     line-height: 1.4;
     display: -webkit-box;
@@ -526,71 +581,48 @@ const faqSchema = {
   }
 
   @media (min-width: 480px) {
-    .hero__content {
-      padding: 1rem;
-    }
-    .hero__img-wrap {
-      width: 110px;
-    }
-    .hero__title {
-      font-size: 1.45rem;
-    }
-    .hero__desc {
-      -webkit-line-clamp: 3;
-    }
+    .hero__content { padding: 1rem; }
+    .hero__img-wrap { width: 110px; }
+    .hero__title { font-size: 1.45rem; }
+    .hero__desc { -webkit-line-clamp: 3; }
   }
 
   @media (min-width: 640px) {
-    .hero {
-      border-radius: 16px;
-    }
-    .hero__content {
-      gap: 1.25rem;
-      padding: 1.25rem;
-    }
-    .hero__img-wrap {
-      width: 180px;
-      border-radius: 12px;
-    }
-    .hero__title {
-      font-size: 1.85rem;
-    }
-    .hero__desc {
-      font-size: 0.95rem;
-      -webkit-line-clamp: unset;
-      display: block;
-    }
-    .hero__placeholder-text {
-      font-size: 1.5rem;
-    }
-    .hero__bg-img {
-      filter: blur(10px) saturate(1.3) brightness(0.65);
-    }
+    .hero { border-radius: 16px; }
+    .hero__content { gap: 1.25rem; padding: 1.25rem; }
+    .hero__img-wrap { width: 180px; border-radius: 12px; }
+    .hero__title { font-size: 1.85rem; }
+    .hero__desc { font-size: 0.95rem; -webkit-line-clamp: unset; display: block; }
+    .hero__placeholder-text { font-size: 1.5rem; }
   }
 
   .hero__badges {
     display: flex;
     flex-wrap: wrap;
     gap: 0.35rem;
-    margin-top: 0.15rem;
+    margin-top: 0.25rem;
   }
 
   .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
     font-family: var(--font-display);
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     font-weight: 700;
     padding: 0.2rem 0.6rem;
     border-radius: 9999px;
   }
 
   @media (min-width: 640px) {
-    .hero__badges { gap: 0.5rem; margin-top: 0.25rem; }
-    .badge { font-size: 0.78rem; padding: 0.3rem 0.75rem; }
+    .hero__badges { gap: 0.5rem; margin-top: 0.35rem; }
+    .badge { font-size: 0.76rem; padding: 0.3rem 0.75rem; }
   }
 
   .badge--green {
-    color: var(--accent);
-    background: rgba(6, 214, 160, 0.1);
+    color: #22C55E;
+    background: rgba(34, 197, 94, 0.12);
+    border: 1px solid rgba(34, 197, 94, 0.2);
   }
 
   .badge--link {
@@ -600,29 +632,20 @@ const faqSchema = {
   }
 
   .badge--link:hover {
-    background: rgba(6, 214, 160, 0.22);
-    box-shadow: 0 0 12px rgba(6, 214, 160, 0.15);
-  }
-
-  .badge__arrow {
-    font-size: 0.7em;
-    margin-left: 0.15rem;
-    display: inline-block;
-    transition: transform 0.2s;
-  }
-
-  .badge--link:hover .badge__arrow {
-    transform: translateY(2px);
+    background: rgba(34, 197, 94, 0.2);
+    box-shadow: 0 0 12px rgba(34, 197, 94, 0.15);
   }
 
   .badge--yellow {
-    color: var(--accent-warn);
-    background: rgba(255, 209, 102, 0.1);
+    color: #FBBF24;
+    background: rgba(251, 191, 36, 0.1);
+    border: 1px solid rgba(251, 191, 36, 0.15);
   }
 
   .badge--dim {
     color: var(--text-dim);
-    background: rgba(255, 255, 255, 0.06);
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border);
   }
 
   /* ---- No codes notice ---- */
@@ -631,15 +654,15 @@ const faqSchema = {
     align-items: flex-start;
     gap: 0.75rem;
     padding: 1rem 1.25rem;
-    background: rgba(255, 209, 102, 0.08);
-    border: 1px solid rgba(255, 209, 102, 0.2);
+    background: rgba(251, 191, 36, 0.06);
+    border: 1px solid rgba(251, 191, 36, 0.15);
     border-radius: 12px;
   }
 
   .no-codes-notice__icon {
-    font-size: 1.25rem;
     flex-shrink: 0;
-    line-height: 1.5;
+    color: #FBBF24;
+    margin-top: 2px;
   }
 
   .no-codes-notice__text {
@@ -659,23 +682,55 @@ const faqSchema = {
   .stat {
     display: flex;
     align-items: center;
-    gap: 0.35rem;
+    gap: 0.5rem;
     background: var(--bg-card);
     border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.5rem 0.75rem;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .stat__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
     border-radius: 8px;
-    padding: 0.4rem 0.65rem;
+    background: rgba(99, 102, 241, 0.08);
+    color: var(--accent, #6366F1);
+    flex-shrink: 0;
   }
 
   .stat__value {
-    font-family: var(--font-display);
-    font-size: 0.82rem;
+    font-family: var(--font-mono, var(--font-display));
+    font-size: 1rem;
     font-weight: 700;
-    color: var(--accent);
+    color: var(--text);
   }
 
   .stat__label {
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     color: var(--text-dim);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  @media (max-width: 479px) {
+    .stat {
+      flex: 1 1 calc(50% - 0.25rem);
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 0.25rem;
+      padding: 0.6rem 0.5rem;
+    }
+    .stat__icon {
+      width: 28px;
+      height: 28px;
+    }
   }
 
   @media (min-width: 640px) {
@@ -683,14 +738,13 @@ const faqSchema = {
     .stat {
       flex-direction: column;
       align-items: center;
-      gap: 0.2rem;
-      flex: 1;
-      min-width: 90px;
-      border-radius: 10px;
-      padding: 0.75rem 0.5rem;
+      text-align: center;
+      gap: 0.3rem;
+      padding: 0.85rem 0.5rem;
+      border-radius: 12px;
     }
-    .stat__value { font-size: 1.15rem; }
-    .stat__label { font-size: 0.75rem; text-align: center; }
+    .stat__value { font-size: 1.25rem; }
+    .stat__label { font-size: 0.75rem; }
   }
 
   /* ---- Secciones ---- */
@@ -702,15 +756,44 @@ const faqSchema = {
     .section { margin-bottom: 2.5rem; }
   }
 
+  .section__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  @media (min-width: 640px) {
+    .section__header { margin-bottom: 1rem; }
+  }
+
   .section__title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     font-family: var(--font-display);
     font-size: 1.15rem;
     font-weight: 700;
     margin-bottom: 0.75rem;
   }
 
+  .section__header .section__title {
+    margin-bottom: 0;
+  }
+
   @media (min-width: 640px) {
     .section__title { font-size: 1.25rem; margin-bottom: 1rem; }
+    .section__header .section__title { margin-bottom: 0; }
+  }
+
+  .section__title--plain {
+    padding-left: 0.85rem;
+    border-left: 3px solid var(--accent, #6366F1);
+  }
+
+  .section__title--plain svg {
+    display: none;
   }
 
   .section__title--dim {
@@ -739,6 +822,12 @@ const faqSchema = {
     gap: 0.65rem;
   }
 
+  .codes-check {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    white-space: nowrap;
+  }
+
   /* ---- Cómo canjear ---- */
   .redeem-box {
     background: var(--bg-card);
@@ -762,15 +851,16 @@ const faqSchema = {
     gap: 0.75rem;
     font-size: 0.95rem;
     line-height: 1.5;
+    color: var(--text-dim);
   }
 
   .redeem-steps__item::before {
     content: counter(step);
     font-family: var(--font-display);
     font-weight: 700;
-    font-size: 0.85rem;
-    color: var(--accent);
-    background: rgba(6, 214, 160, 0.1);
+    font-size: 0.8rem;
+    color: var(--accent, #6366F1);
+    background: rgba(99, 102, 241, 0.1);
     min-width: 1.75rem;
     height: 1.75rem;
     display: flex;
@@ -784,80 +874,22 @@ const faqSchema = {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    margin-top: 1rem;
-    padding: 0.6rem 1.25rem;
-    background: var(--accent);
-    color: var(--bg-deep);
+    margin-top: 1.25rem;
+    padding: 0.65rem 1.25rem;
+    background: var(--accent, #6366F1);
+    color: #fff;
     font-family: var(--font-display);
     font-size: 0.85rem;
     font-weight: 700;
-    border-radius: 8px;
+    border-radius: 10px;
     text-decoration: none;
-    transition: opacity 0.2s;
+    transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
   }
 
   .roblox-link:hover {
-    opacity: 0.85;
-  }
-
-  /* ---- Breadcrumbs ---- */
-  .breadcrumbs {
-    font-size: 0.78rem;
-    color: var(--text-dim);
-    margin-bottom: 0.75rem;
-  }
-
-  @media (min-width: 640px) {
-    .breadcrumbs { font-size: 0.85rem; margin-bottom: 1.25rem; }
-  }
-
-  .breadcrumbs a {
-    color: var(--text-dim);
-    text-decoration: none;
-    transition: color 0.2s;
-  }
-
-  .breadcrumbs a:hover {
-    color: var(--accent);
-  }
-
-  .breadcrumbs__sep {
-    margin: 0 0.35rem;
-    opacity: 0.5;
-  }
-
-  /* ---- Última comprobación ---- */
-  .codes-check {
-    font-size: 0.8rem;
-    color: var(--text-dim);
-    margin-bottom: 0.75rem;
-  }
-
-  /* ---- Códigos numerados ---- */
-  .code-numbered {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-  }
-
-  .code-number {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 0.85rem;
-    color: var(--accent);
-    background: rgba(6, 214, 160, 0.1);
-    min-width: 1.75rem;
-    height: 1.75rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-
-  .code-numbered :global(.code-item) {
-    flex: 1;
-    min-width: 0;
+    background: #818CF8;
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3);
+    transform: translateY(-1px);
   }
 
   /* ---- Por qué no funcionan ---- */
@@ -886,11 +918,14 @@ const faqSchema = {
   }
 
   .reasons-list li::before {
-    content: '•';
+    content: '';
     position: absolute;
     left: 0;
-    color: var(--accent-hot);
-    font-weight: 700;
+    top: 0.6rem;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent-hot, #F43F5E);
   }
 
   .reasons-list li strong {
@@ -923,6 +958,7 @@ const faqSchema = {
     color: var(--text-dim);
     width: 40%;
     font-weight: 600;
+    font-size: 0.82rem;
   }
 
   .info-table__value {
@@ -930,14 +966,17 @@ const faqSchema = {
   }
 
   .info-table__link {
-    color: var(--accent);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--accent, #6366F1);
     text-decoration: none;
     font-weight: 600;
-    transition: opacity 0.2s;
+    transition: color 0.2s;
   }
 
   .info-table__link:hover {
-    opacity: 0.8;
+    color: #818CF8;
   }
 
   /* ---- Juegos relacionados ---- */
