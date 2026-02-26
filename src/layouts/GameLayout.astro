@@ -549,8 +549,11 @@ if (gameSlug === 'fisch') {
   }
 
   .topbar__search {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
     flex: 1;
-    max-width: 400px;
+    max-width: 360px;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -558,10 +561,11 @@ if (gameSlug === 'fisch') {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 0.45rem 0.75rem;
+    padding: 0.4rem 0.75rem;
     color: var(--text-dim);
     font-family: var(--font-body);
     font-size: 0.85rem;
+    line-height: 1.4;
     cursor: pointer;
     transition: border-color 0.2s, background 0.2s;
   }
@@ -569,6 +573,11 @@ if (gameSlug === 'fisch') {
   .topbar__search:hover {
     border-color: var(--accent);
     background: rgba(255, 255, 255, 0.08);
+  }
+
+  .topbar__search:focus-visible {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgba(29, 162, 216, 0.15);
   }
 
   .topbar__search-ico {
@@ -581,6 +590,9 @@ if (gameSlug === 'fisch') {
   .topbar__search-text {
     flex: 1;
     text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .topbar__search-kbd {
@@ -597,11 +609,12 @@ if (gameSlug === 'fisch') {
     flex-shrink: 0;
   }
 
-  @media (max-width: 479px) {
+  @media (max-width: 639px) {
     .topbar__search {
       max-width: none;
       flex: 0 0 auto;
-      padding: 0.45rem 0.6rem;
+      padding: 0.4rem 0.55rem;
+      border-radius: var(--radius-sm);
     }
     .topbar__search-text,
     .topbar__search-kbd {
