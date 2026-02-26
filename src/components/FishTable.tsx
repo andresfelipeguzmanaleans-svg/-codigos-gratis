@@ -11,6 +11,7 @@ export interface FishRow {
   event: string | null;
   baseWeight: number | null;
   image: string | null;
+  imageUrl: string | null;
 }
 
 interface Props {
@@ -243,10 +244,10 @@ export default function FishTable({ fish, rarities, locations }: Props) {
                 onClick={() => { window.location.href = `/games/fisch/fish/${f.id}/`; }}
               >
                 <td className="ft__td ft__td--img">
-                  {f.image && f.image !== '.png' ? (
+                  {f.imageUrl ? (
                     <img
                       className="ft__thumb"
-                      src={`https://fischipedia.org/w/images/${encodeURIComponent(f.image)}`}
+                      src={f.imageUrl}
                       alt=""
                       loading="lazy"
                       onError={(e: any) => { e.target.style.display = 'none'; }}

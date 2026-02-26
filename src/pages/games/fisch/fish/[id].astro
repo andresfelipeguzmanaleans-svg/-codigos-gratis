@@ -143,10 +143,6 @@ if (fish.season.length > 0) conditions.push({ label: 'Season', value: fish.seaso
 if (fish.event) conditions.push({ label: 'Event', value: fish.event, icon: '🎉' });
 if (fish.sources.length > 0) conditions.push({ label: 'Source', value: fish.sources.join(', '), icon: '🎣' });
 
-// Location slug for linking
-const locSlug = fish.location
-  ? fish.location.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
-  : null;
 ---
 
 <GameLayout
@@ -165,10 +161,10 @@ const locSlug = fish.location
   <div class="container">
     <!-- HEADER -->
     <header class="fish-hdr">
-      {fish.image && fish.image !== '.png' && (
+      {fish.imageUrl && (
         <div class="fish-hdr__img-wrap">
           <img
-            src={fish.imageUrl || `https://fischipedia.org/w/images/${encodeURIComponent(fish.image)}`}
+            src={fish.imageUrl}
             alt={fish.name}
             class="fish-hdr__img"
             loading="eager"
@@ -209,8 +205,8 @@ const locSlug = fish.location
             <div class="cond-row">
               <span class="cond-row__icon">{c.icon}</span>
               <span class="cond-row__label">{c.label}</span>
-              {c.label === 'Location' && locSlug ? (
-                <a href={`/games/fisch/locations/${locSlug}/`} class="cond-row__value cond-row__link">
+              {c.label === 'Location' ? (
+                <a href="/games/fisch/locations/" class="cond-row__value cond-row__link">
                   {c.value}
                 </a>
               ) : (

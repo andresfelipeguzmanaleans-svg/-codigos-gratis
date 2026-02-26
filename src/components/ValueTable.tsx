@@ -11,6 +11,7 @@ export interface ValueRow {
   weightMax: number | null;
   location: string | null;
   image: string | null;
+  imageUrl: string | null;
   event: string | null;
 }
 
@@ -239,10 +240,10 @@ export default function ValueTable({ items, rarities, maxBaseValue }: Props) {
                   onClick={() => { window.location.href = `/games/fisch/fish/${f.id}/`; }}
                 >
                   <td className="vt__td vt__td--img">
-                    {f.image && f.image !== '.png' ? (
+                    {f.imageUrl ? (
                       <img
                         className="vt__thumb"
-                        src={`https://fischipedia.org/w/images/${encodeURIComponent(f.image)}`}
+                        src={f.imageUrl}
                         alt=""
                         loading="lazy"
                         onError={(e: any) => { e.target.style.display = 'none'; }}

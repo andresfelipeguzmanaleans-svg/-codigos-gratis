@@ -17,6 +17,7 @@ const fishRows: FishRow[] = (fishData as any[])
     event: f.event,
     baseWeight: f.baseWeight,
     image: f.image,
+    imageUrl: f.imageUrl,
   }));
 
 const rarities = [...new Set(fishRows.map(f => f.rarity))].sort((a, b) => {
