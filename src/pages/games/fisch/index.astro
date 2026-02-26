@@ -7,22 +7,29 @@ import rodsData from '../../../data/games/fisch/rods.json';
 import locationsData from '../../../data/games/fisch/locations.json';
 import valuesData from '../../../data/games/fisch/values.json';
 
-// Dynamic counts
 const totalFish = fishData.length;
 const totalMutations = mutationsData.length;
 const totalRods = rodsData.length;
 const totalLocations = locationsData.length;
 
-// Rarity breakdown for display
+// Rarity breakdown
 const rarities: Record<string, number> = {};
 fishData.forEach((f: any) => {
   if (f.rarity) rarities[f.rarity] = (rarities[f.rarity] || 0) + 1;
 });
 const topRarities = Object.entries(rarities)
   .sort((a, b) => b[1] - a[1])
-  .slice(0, 8);
+  .slice(0, 10);
 
-// Last updated date from values scraping
+const RARITY_COLORS: Record<string, string> = {
+  'Trash': '#808080', 'Common': '#B0B0B0', 'Uncommon': '#2ECC71', 'Unusual': '#A3D977',
+  'Rare': '#3498DB', 'Legendary': '#F39C12', 'Mythical': '#9B59B6', 'Exotic': '#E74C3C',
+  'Secret': '#1ABC9C', 'Relic': '#CD7F32', 'Fragment': '#E056A0', 'Gemstone': '#00FFFF',
+  'Extinct': '#5D6D7E', 'Limited': '#FFD700', 'Apex': '#FF4500', 'Special': '#FF69B4',
+  'Divine Secret': '#FFE066',
+};
+
+// Last updated
 const lastUpdated = new Date(valuesData.lastUpdated);
 const lastUpdatedLabel = lastUpdated.toLocaleDateString('en-US', {
   month: 'long',
@@ -34,18 +41,39 @@ const fmt = (n: number) => n.toLocaleString('en-US');
 
 const description = `The most complete Fisch database: ${fmt(totalFish)} fish, ${fmt(totalMutations)} mutations, ${fmt(totalRods)} rods, trade calculator, and value list. Updated daily.`;
 
+// Icons (24x24 viewBox SVG inner content)
+const ico: Record<string, string> = {
+  fish: '<path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.46-3.44 6-7 6-3.56 0-7.56-2.54-8.5-6Z"/><path d="M3 12l3.5-3v6L3 12Z"/><circle cx="16" cy="10" r="1" fill="currentColor" stroke="none"/>',
+  dna: '<path d="M2 15c6.667-6 13.333 0 20-6"/><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"/><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"/><path d="m17 6-2.5 2.5"/><path d="M14 8.5 15.5 10"/><path d="m7 18 2.5-2.5"/><path d="M3.5 14.5 4 14"/>',
+  rod: '<path d="M3 21l8-8"/><path d="M13 11l5-5"/><path d="M21 3l-3 1 1 3 3-1z"/><path d="M11 13l2-2"/>',
+  map: '<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>',
+  coins: '<line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>',
+  calc: '<rect width="16" height="20" x="4" y="2" rx="2"/><path d="M8 6h8"/><path d="M16 10h.01M12 10h.01M8 10h.01M16 14h.01M12 14h.01M8 14h.01M16 18h.01M12 18h.01M8 18h.01"/>',
+  gift: '<rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5C10 3 12 8 12 8Z"/><path d="M16.5 8a2.5 2.5 0 0 0 0-5C14 3 12 8 12 8Z"/>',
+  refresh: '<path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/>',
+  arrow: '<path d="m9 18 6-6-6-6"/>',
+};
+
 // Quick link sections
 const sections = [
-  { icon: '🐟', title: 'Fish Database', desc: `${fmt(totalFish)} species with locations, baits, values & weight ranges`, href: '/games/fisch/fish/' },
-  { icon: '💰', title: 'Value List & Prices', desc: `Base prices and estimated values for ${fmt(valuesData.items.length)} items`, href: '/games/fisch/values/' },
-  { icon: '🔄', title: 'Trade Calculator', desc: 'Check if a trade is a Win, Fair, or Lose before you trade', href: '/games/fisch/calculator/' },
-  { icon: '🧬', title: 'Mutations Guide', desc: `${fmt(totalMutations)} mutations with multipliers and how to obtain them`, href: '/games/fisch/mutations/' },
-  { icon: '🎣', title: 'Fishing Rods', desc: `${fmt(totalRods)} rods compared: luck, control, resilience & lure speed`, href: '/games/fisch/rods/' },
-  { icon: '📍', title: 'Locations', desc: `${fmt(totalLocations)} fishing spots with weather, fish counts & details`, href: '/games/fisch/locations/' },
-  { icon: '🎫', title: 'Active Codes', desc: 'Redeem codes for free in-game rewards and boosts', href: '/codigos-fisch/' },
+  { title: 'Fish Database', desc: `${fmt(totalFish)} species with locations, baits, values & weight ranges`, href: '/games/fisch/fish/', icon: 'fish', color: '#1DA2D8' },
+  { title: 'Value List', desc: `Base prices and estimated values for ${fmt(valuesData.items.length)} items`, href: '/games/fisch/values/', icon: 'coins', color: '#22D3EE' },
+  { title: 'Trade Calculator', desc: 'Check if a trade is a Win, Fair, or Lose before you trade', href: '/games/fisch/calculator/', icon: 'calc', color: '#F97316' },
+  { title: 'Mutations Guide', desc: `${fmt(totalMutations)} mutations with multipliers and how to obtain them`, href: '/games/fisch/mutations/', icon: 'dna', color: '#9B59B6' },
+  { title: 'Fishing Rods', desc: `${fmt(totalRods)} rods compared: luck, control, resilience & lure speed`, href: '/games/fisch/rods/', icon: 'rod', color: '#F39C12' },
+  { title: 'Locations', desc: `${fmt(totalLocations)} fishing spots with weather, fish counts & details`, href: '/games/fisch/locations/', icon: 'map', color: '#2ECC71' },
+  { title: 'Active Codes', desc: 'Redeem codes for free in-game rewards and boosts', href: '/codigos-fisch/', icon: 'gift', color: '#E74C3C' },
 ];
 
-// FAQ for SEO
+// Stats for hero
+const stats = [
+  { label: 'Total Fish', value: fmt(totalFish), icon: 'fish', color: '#1DA2D8' },
+  { label: 'Mutations', value: fmt(totalMutations), icon: 'dna', color: '#9B59B6' },
+  { label: 'Rods', value: fmt(totalRods), icon: 'rod', color: '#F97316' },
+  { label: 'Locations', value: fmt(totalLocations), icon: 'map', color: '#22D3EE' },
+];
+
+// FAQ
 const faqs = [
   {
     q: 'What is Fisch?',
@@ -83,14 +111,6 @@ const webSiteSchema = {
   description,
   publisher: { '@type': 'Organization', name: 'Codigos Gratis' },
 };
-
-// Stats for hero
-const stats = [
-  { label: 'Total Fish', value: fmt(totalFish), icon: '🐟' },
-  { label: 'Mutations', value: fmt(totalMutations), icon: '🧬' },
-  { label: 'Rods', value: fmt(totalRods), icon: '🎣' },
-  { label: 'Locations', value: fmt(totalLocations), icon: '📍' },
-];
 ---
 
 <GameLayout
@@ -107,14 +127,15 @@ const stats = [
   <!-- HERO -->
   <section class="hero">
     <div class="hero__bg"></div>
+    <div class="hero__ambient"></div>
     <div class="container hero__content">
-      <h1 class="hero__title">Fisch <span class="hero__emoji">🐟</span></h1>
-      <p class="hero__tagline">{description}</p>
+      <h1 class="hero__title">Fisch</h1>
+      <p class="hero__sub">{description}</p>
 
       <div class="hero__stats">
         {stats.map(s => (
           <div class="stat-card">
-            <span class="stat-card__icon">{s.icon}</span>
+            <svg class="stat-card__ico" viewBox="0 0 24 24" fill="none" stroke={s.color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[s.icon]} />
             <span class="stat-card__value">{s.value}</span>
             <span class="stat-card__label">{s.label}</span>
           </div>
@@ -124,18 +145,20 @@ const stats = [
   </section>
 
   <!-- QUICK LINKS -->
-  <section class="sections">
+  <section class="explore">
     <div class="container">
-      <h2 class="section-title">Explore the Database</h2>
-      <div class="sections__grid">
+      <h2 class="sec-title">Explore the Database</h2>
+      <div class="explore__grid">
         {sections.map(s => (
-          <a href={s.href} class="section-card">
-            <span class="section-card__icon">{s.icon}</span>
-            <div class="section-card__body">
-              <h3 class="section-card__title">{s.title}</h3>
-              <p class="section-card__desc">{s.desc}</p>
+          <a href={s.href} class="ecard" style={`--card-color: ${s.color}`}>
+            <div class="ecard__icon-wrap">
+              <svg class="ecard__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[s.icon]} />
             </div>
-            <svg class="section-card__arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            <div class="ecard__body">
+              <h3 class="ecard__title">{s.title}</h3>
+              <p class="ecard__desc">{s.desc}</p>
+            </div>
+            <svg class="ecard__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.arrow} />
           </a>
         ))}
       </div>
@@ -145,14 +168,18 @@ const stats = [
   <!-- RARITY BREAKDOWN -->
   <section class="rarities">
     <div class="container">
-      <h2 class="section-title">Fish by Rarity</h2>
+      <h2 class="sec-title">Fish by Rarity</h2>
       <div class="rarities__grid">
-        {topRarities.map(([rarity, count]) => (
-          <div class={`rarity-chip rarity-chip--${rarity.toLowerCase().replace(/\s+/g, '-')}`}>
-            <span class="rarity-chip__name">{rarity}</span>
-            <span class="rarity-chip__count">{count}</span>
-          </div>
-        ))}
+        {topRarities.map(([rarity, count]) => {
+          const c = RARITY_COLORS[rarity] || '#888';
+          return (
+            <div class="rchip" style={`--r: ${c}`}>
+              <span class="rchip__dot" style={`background: ${c}`}></span>
+              <span class="rchip__name">{rarity}</span>
+              <span class="rchip__count">{count}</span>
+            </div>
+          );
+        })}
       </div>
     </div>
   </section>
@@ -161,7 +188,9 @@ const stats = [
   <section class="updates">
     <div class="container">
       <div class="updates__card">
-        <div class="updates__icon">🔄</div>
+        <div class="updates__ico-wrap">
+          <svg class="updates__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.refresh} />
+        </div>
         <div class="updates__body">
           <h2 class="updates__title">Latest Data Update</h2>
           <p class="updates__date">{lastUpdatedLabel}</p>
@@ -177,12 +206,12 @@ const stats = [
   <!-- FAQ -->
   <section class="faq">
     <div class="container">
-      <h2 class="section-title">Frequently Asked Questions</h2>
+      <h2 class="sec-title">Frequently Asked Questions</h2>
       <div class="faq__list">
         {faqs.map(f => (
           <details class="faq__item">
-            <summary class="faq__question">{f.q}</summary>
-            <p class="faq__answer">{f.a}</p>
+            <summary class="faq__q">{f.q}</summary>
+            <p class="faq__a">{f.a}</p>
           </details>
         ))}
       </div>
@@ -191,9 +220,9 @@ const stats = [
 </GameLayout>
 
 <style>
-  /* ============================================================
+  /* ==========================================================================
      HERO
-     ============================================================ */
+     ========================================================================== */
 
   .hero {
     position: relative;
@@ -204,58 +233,54 @@ const stats = [
   .hero__bg {
     position: absolute;
     inset: 0;
-    background:
-      radial-gradient(ellipse at 30% 20%, rgba(6, 130, 200, 0.2) 0%, transparent 60%),
-      radial-gradient(ellipse at 70% 80%, rgba(6, 214, 160, 0.12) 0%, transparent 55%),
-      radial-gradient(ellipse at 50% 50%, rgba(255, 209, 102, 0.06) 0%, transparent 50%);
+    background: linear-gradient(180deg, #060B18 0%, #0B1426 40%, #0F2847 80%, #1A4F6E 100%);
     z-index: 0;
+  }
+
+  .hero__ambient {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 30%, rgba(29, 162, 216, 0.1) 0%, transparent 70%);
+    z-index: 1;
   }
 
   .hero__content {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     text-align: center;
   }
 
   .hero__title {
-    font-family: var(--font-display);
-    font-size: 2.5rem;
+    font-size: clamp(2.5rem, 6vw, 4rem);
     font-weight: 700;
-    letter-spacing: 1px;
-    line-height: 1.15;
-    background: linear-gradient(135deg, #e8eaf0 0%, #0ea5e9 50%, #06d6a0 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #fff;
+    line-height: 1.1;
+    text-shadow: 0 0 60px rgba(29, 162, 216, 0.3);
   }
 
-  .hero__emoji {
-    -webkit-text-fill-color: initial;
-    font-size: 0.8em;
-  }
-
-  .hero__tagline {
+  .hero__sub {
     margin-top: 0.75rem;
-    font-size: 1rem;
+    font-size: clamp(0.9rem, 2vw, 1.05rem);
     color: var(--text-dim);
     max-width: 620px;
     margin-inline: auto;
     line-height: 1.6;
   }
 
+  /* Stat cards */
   .hero__stats {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.75rem;
-    margin-top: 1.75rem;
-    max-width: 520px;
+    margin-top: 2rem;
+    max-width: 560px;
     margin-inline: auto;
   }
 
   @media (min-width: 480px) {
     .hero__stats {
       grid-template-columns: repeat(4, 1fr);
-      max-width: 640px;
+      max-width: 680px;
     }
   }
 
@@ -263,39 +288,35 @@ const stats = [
     .hero {
       padding: 3.5rem 0 2.5rem;
     }
-    .hero__title {
-      font-size: 3.25rem;
-    }
-    .hero__tagline {
-      font-size: 1.1rem;
-    }
   }
-
-  /* Stat cards */
 
   .stat-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.2rem;
-    padding: 1rem 0.5rem;
-    background: rgba(17, 24, 39, 0.6);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    transition: border-color 0.25s, transform 0.25s;
+    gap: 0.25rem;
+    padding: 1.25rem 0.75rem;
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    transition: border-color 0.2s, transform 0.2s;
   }
 
   .stat-card:hover {
-    border-color: rgba(6, 214, 160, 0.3);
+    border-color: rgba(29, 162, 216, 0.25);
     transform: translateY(-2px);
   }
 
-  .stat-card__icon {
-    font-size: 1.5rem;
+  .stat-card__ico {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 4px;
   }
 
   .stat-card__value {
-    font-family: var(--font-display);
+    font-family: var(--font-mono);
     font-size: 1.5rem;
     font-weight: 700;
     color: #fff;
@@ -303,100 +324,106 @@ const stats = [
   }
 
   .stat-card__label {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: var(--text-dim);
     font-weight: 500;
+    letter-spacing: 0.3px;
   }
 
-  /* ============================================================
-     SECTION TITLE (shared)
-     ============================================================ */
+  /* ==========================================================================
+     SECTION TITLE
+     ========================================================================== */
 
-  .section-title {
-    font-family: var(--font-display);
-    font-size: 1.5rem;
+  .sec-title {
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
     font-weight: 700;
     margin-bottom: 1.25rem;
     color: var(--text);
   }
 
-  @media (min-width: 768px) {
-    .section-title {
-      font-size: 1.75rem;
-    }
+  /* ==========================================================================
+     EXPLORE / QUICK LINKS
+     ========================================================================== */
+
+  .explore {
+    padding: 1.5rem 0 0;
   }
 
-  /* ============================================================
-     QUICK LINKS GRID
-     ============================================================ */
-
-  .sections {
-    padding: 1rem 0 0;
-  }
-
-  .sections__grid {
+  .explore__grid {
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 0.5rem;
   }
 
-  .section-card {
+  .ecard {
     display: flex;
     align-items: center;
     gap: 1rem;
     padding: 1rem 1.25rem;
     background: var(--bg-card);
     border: 1px solid var(--border);
-    border-radius: 14px;
-    transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+    border-left: 4px solid var(--card-color, var(--accent));
+    border-radius: var(--radius);
+    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
   }
 
-  .section-card:hover {
-    border-color: rgba(6, 214, 160, 0.35);
+  .ecard:hover {
+    border-color: var(--card-color, var(--accent));
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   }
 
-  .section-card__icon {
-    font-size: 2rem;
+  .ecard__icon-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius);
+    background: color-mix(in srgb, var(--card-color) 12%, transparent);
+    color: var(--card-color);
     flex-shrink: 0;
-    width: 3rem;
-    text-align: center;
   }
 
-  .section-card__body {
+  .ecard__ico {
+    width: 22px;
+    height: 22px;
+  }
+
+  .ecard__body {
     flex: 1;
     min-width: 0;
   }
 
-  .section-card__title {
-    font-family: var(--font-display);
-    font-size: 1.05rem;
-    font-weight: 700;
+  .ecard__title {
+    font-size: 0.95rem;
+    font-weight: 600;
     color: #fff;
     line-height: 1.3;
   }
 
-  .section-card__desc {
-    margin-top: 0.2rem;
-    font-size: 0.85rem;
+  .ecard__desc {
+    margin-top: 2px;
+    font-size: 0.8rem;
     color: var(--text-dim);
     line-height: 1.45;
   }
 
-  .section-card__arrow {
+  .ecard__arrow {
+    width: 18px;
+    height: 18px;
     flex-shrink: 0;
     color: var(--text-dim);
     transition: color 0.2s, transform 0.2s;
   }
 
-  .section-card:hover .section-card__arrow {
-    color: var(--accent);
+  .ecard:hover .ecard__arrow {
+    color: var(--card-color, var(--accent));
     transform: translateX(3px);
   }
 
   @media (min-width: 640px) {
-    .sections__grid {
+    .explore__grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 0.75rem;
@@ -404,31 +431,27 @@ const stats = [
   }
 
   @media (min-width: 960px) {
-    .sections__grid {
+    .explore__grid {
       grid-template-columns: repeat(3, 1fr);
     }
-    .section-card {
+
+    .ecard {
       flex-direction: column;
       align-items: flex-start;
-      text-align: left;
-      padding: 1.5rem;
-    }
-    .section-card__icon {
-      font-size: 2.25rem;
-    }
-    .section-card__arrow {
-      position: absolute;
-      right: 1.25rem;
-      top: 1.25rem;
-    }
-    .section-card {
+      padding: 1.25rem;
       position: relative;
+    }
+
+    .ecard__arrow {
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
     }
   }
 
-  /* ============================================================
+  /* ==========================================================================
      RARITY BREAKDOWN
-     ============================================================ */
+     ========================================================================== */
 
   .rarities {
     padding: 2rem 0 0;
@@ -440,93 +463,43 @@ const stats = [
     gap: 0.5rem;
   }
 
-  .rarity-chip {
+  .rchip {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.45rem 0.85rem;
-    border-radius: 9999px;
+    padding: 0.4rem 0.85rem;
+    border-radius: var(--radius-pill);
     font-size: 0.85rem;
     font-weight: 600;
-    border: 1px solid var(--border);
-    background: var(--bg-card);
+    border: 1px solid color-mix(in srgb, var(--r) 25%, transparent);
+    background: color-mix(in srgb, var(--r) 8%, transparent);
     transition: transform 0.2s;
   }
 
-  .rarity-chip:hover {
+  .rchip:hover {
     transform: scale(1.04);
   }
 
-  .rarity-chip__name {
-    color: var(--text);
+  .rchip__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
   }
 
-  .rarity-chip__count {
-    font-family: var(--font-display);
-    font-size: 0.8rem;
+  .rchip__name {
+    color: var(--r);
+  }
+
+  .rchip__count {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
     color: var(--text-dim);
   }
 
-  /* Rarity-specific colors */
-  .rarity-chip--common        { border-color: #9ca3af40; }
-  .rarity-chip--common .rarity-chip__name { color: #9ca3af; }
-
-  .rarity-chip--uncommon      { border-color: #22c55e40; }
-  .rarity-chip--uncommon .rarity-chip__name { color: #22c55e; }
-
-  .rarity-chip--unusual       { border-color: #34d39e40; }
-  .rarity-chip--unusual .rarity-chip__name { color: #34d39e; }
-
-  .rarity-chip--rare          { border-color: #3b82f640; }
-  .rarity-chip--rare .rarity-chip__name { color: #3b82f6; }
-
-  .rarity-chip--legendary     { border-color: #f59e0b40; }
-  .rarity-chip--legendary .rarity-chip__name { color: #f59e0b; }
-
-  .rarity-chip--mythical      { border-color: #a855f740; }
-  .rarity-chip--mythical .rarity-chip__name { color: #a855f7; }
-
-  .rarity-chip--exotic        { border-color: #ec489940; }
-  .rarity-chip--exotic .rarity-chip__name { color: #ec4899; }
-
-  .rarity-chip--limited       { border-color: #ef444440; }
-  .rarity-chip--limited .rarity-chip__name { color: #ef4444; }
-
-  .rarity-chip--special       { border-color: #06b6d440; }
-  .rarity-chip--special .rarity-chip__name { color: #06b6d4; }
-
-  .rarity-chip--secret        { border-color: #fbbf2440; }
-  .rarity-chip--secret .rarity-chip__name { color: #fbbf24; }
-
-  .rarity-chip--divine-secret { border-color: #fde68a50; }
-  .rarity-chip--divine-secret .rarity-chip__name {
-    background: linear-gradient(135deg, #fde68a, #fbbf24);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-
-  .rarity-chip--apex          { border-color: #f43f5e50; }
-  .rarity-chip--apex .rarity-chip__name { color: #f43f5e; }
-
-  .rarity-chip--extinct       { border-color: #78716c40; }
-  .rarity-chip--extinct .rarity-chip__name { color: #a8a29e; }
-
-  .rarity-chip--trash         { border-color: #71717a40; }
-  .rarity-chip--trash .rarity-chip__name { color: #71717a; }
-
-  .rarity-chip--relic         { border-color: #c084fc50; }
-  .rarity-chip--relic .rarity-chip__name { color: #c084fc; }
-
-  .rarity-chip--fragment      { border-color: #67e8f940; }
-  .rarity-chip--fragment .rarity-chip__name { color: #67e8f9; }
-
-  .rarity-chip--gemstone      { border-color: #2dd4bf40; }
-  .rarity-chip--gemstone .rarity-chip__name { color: #2dd4bf; }
-
-  /* ============================================================
+  /* ==========================================================================
      LATEST UPDATES
-     ============================================================ */
+     ========================================================================== */
 
   .updates {
     padding: 2rem 0 0;
@@ -534,18 +507,31 @@ const stats = [
 
   .updates__card {
     display: flex;
-    gap: 1.25rem;
+    gap: 1rem;
     align-items: flex-start;
     padding: 1.25rem 1.5rem;
-    background: linear-gradient(135deg, rgba(14, 165, 233, 0.08), rgba(6, 214, 160, 0.06));
-    border: 1px solid rgba(14, 165, 233, 0.2);
-    border-radius: 14px;
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(29, 162, 216, 0.15);
+    border-radius: 12px;
   }
 
-  .updates__icon {
-    font-size: 2rem;
+  .updates__ico-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius);
+    background: rgba(29, 162, 216, 0.12);
+    color: var(--accent);
     flex-shrink: 0;
-    margin-top: 0.1rem;
+  }
+
+  .updates__ico {
+    width: 22px;
+    height: 22px;
   }
 
   .updates__body {
@@ -553,29 +539,29 @@ const stats = [
   }
 
   .updates__title {
-    font-family: var(--font-display);
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #fff;
   }
 
   .updates__date {
     margin-top: 0.25rem;
-    font-size: 0.95rem;
-    color: #0ea5e9;
+    font-size: 0.9rem;
+    color: var(--accent);
     font-weight: 600;
+    font-family: var(--font-mono);
   }
 
   .updates__note {
     margin-top: 0.4rem;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--text-dim);
     line-height: 1.55;
   }
 
-  /* ============================================================
+  /* ==========================================================================
      FAQ
-     ============================================================ */
+     ========================================================================== */
 
   .faq {
     padding: 2rem 0 0;
@@ -584,26 +570,25 @@ const stats = [
   .faq__list {
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 0.5rem;
   }
 
   .faq__item {
     background: var(--bg-card);
     border: 1px solid var(--border);
-    border-radius: 12px;
+    border-radius: var(--radius);
     overflow: hidden;
-    transition: border-color 0.25s;
+    transition: border-color 0.2s;
   }
 
   .faq__item[open] {
-    border-color: rgba(6, 214, 160, 0.3);
+    border-color: rgba(29, 162, 216, 0.25);
   }
 
-  .faq__question {
+  .faq__q {
     padding: 1rem 1.25rem;
-    font-family: var(--font-display);
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 0.95rem;
+    font-weight: 600;
     color: #fff;
     cursor: pointer;
     list-style: none;
@@ -614,31 +599,31 @@ const stats = [
     transition: color 0.2s;
   }
 
-  .faq__question::-webkit-details-marker {
+  .faq__q::-webkit-details-marker {
     display: none;
   }
 
-  .faq__question::after {
+  .faq__q::after {
     content: '+';
-    font-family: var(--font-display);
     font-size: 1.25rem;
     color: var(--text-dim);
     flex-shrink: 0;
-    transition: transform 0.25s, color 0.25s;
+    transition: transform 0.2s, color 0.2s;
+    font-weight: 300;
   }
 
-  .faq__item[open] .faq__question::after {
-    content: '−';
+  .faq__item[open] .faq__q::after {
+    content: '\2212';
     color: var(--accent);
   }
 
-  .faq__question:hover {
+  .faq__q:hover {
     color: var(--accent);
   }
 
-  .faq__answer {
-    padding: 0 1.25rem 1.15rem;
-    font-size: 0.9rem;
+  .faq__a {
+    padding: 0 1.25rem 1rem;
+    font-size: 0.85rem;
     color: var(--text-dim);
     line-height: 1.65;
   }

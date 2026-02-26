@@ -1,5 +1,4 @@
 ---
-import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
 interface BreadcrumbItem {
@@ -26,7 +25,6 @@ const {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
 const ogImageURL = new URL(ogImage, Astro.site).href;
 
-// Build full breadcrumb chain: Home > Games > {game} > ...page breadcrumbs
 const fullBreadcrumbs: BreadcrumbItem[] = [
   { label: 'Home', href: '/' },
   { label: 'Games', href: '/games/' },
@@ -34,7 +32,6 @@ const fullBreadcrumbs: BreadcrumbItem[] = [
   ...breadcrumbs,
 ];
 
-// Schema.org BreadcrumbList
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
@@ -46,18 +43,72 @@ const breadcrumbSchema = {
   })),
 };
 
-// Game sub-navigation
 const gameSlug = game.toLowerCase();
-const gameNav = [
-  { label: 'Fish',      href: `/games/${gameSlug}/` },
-  { label: 'Values',    href: `/games/${gameSlug}/values/` },
-  { label: 'Calculator',href: `/games/${gameSlug}/calculator/` },
-  { label: 'Mutations', href: `/games/${gameSlug}/mutations/` },
-  { label: 'Rods',      href: `/games/${gameSlug}/rods/` },
-  { label: 'Codes',     href: `/codigos-${gameSlug}/` },
+const currentPath = Astro.url.pathname;
+
+function isActive(href: string): boolean {
+  if (currentPath === href) return true;
+  if (href.startsWith('/games/') && href !== `/games/${gameSlug}/`) {
+    return currentPath.startsWith(href);
+  }
+  return false;
+}
+
+// --- Navigation ---
+const sidebarSections = [
+  {
+    label: 'DATA',
+    items: [
+      { label: 'Fish', href: `/games/${gameSlug}/fish/`, icon: 'fish' },
+      { label: 'Rods', href: `/games/${gameSlug}/rods/`, icon: 'rod' },
+      { label: 'Locations', href: `/games/${gameSlug}/locations/`, icon: 'map' },
+    ],
+  },
+  {
+    label: 'TOOLS',
+    items: [
+      { label: 'Calculator', href: `/games/${gameSlug}/calculator/`, icon: 'calc' },
+      { label: 'Values', href: `/games/${gameSlug}/values/`, icon: 'coins' },
+    ],
+  },
+  {
+    label: 'GUIDES',
+    items: [
+      { label: 'Mutations', href: `/games/${gameSlug}/mutations/`, icon: 'dna' },
+      { label: 'Codes', href: `/codigos-${gameSlug}/`, icon: 'gift' },
+    ],
+  },
 ];
 
-const currentPath = Astro.url.pathname;
+const mobileTabs = [
+  { label: 'Fish', href: `/games/${gameSlug}/fish/`, icon: 'fish' },
+  { label: 'Values', href: `/games/${gameSlug}/values/`, icon: 'coins' },
+  { label: 'Calc', href: `/games/${gameSlug}/calculator/`, icon: 'calc' },
+  { label: 'Rods', href: `/games/${gameSlug}/rods/`, icon: 'rod' },
+];
+
+const moreItems = [
+  { label: 'Locations', href: `/games/${gameSlug}/locations/`, icon: 'map' },
+  { label: 'Mutations', href: `/games/${gameSlug}/mutations/`, icon: 'dna' },
+  { label: 'Codes', href: `/codigos-${gameSlug}/`, icon: 'gift' },
+];
+
+// SVG icon inner content (24x24 viewBox, stroke-based)
+const ico: Record<string, string> = {
+  fish: '<path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.46-3.44 6-7 6-3.56 0-7.56-2.54-8.5-6Z"/><path d="M3 12l3.5-3v6L3 12Z"/><circle cx="16" cy="10" r="1" fill="currentColor" stroke="none"/>',
+  rod: '<path d="M3 21l8-8"/><path d="M13 11l5-5"/><path d="M21 3l-3 1 1 3 3-1z"/><path d="M11 13l2-2"/>',
+  map: '<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>',
+  calc: '<rect width="16" height="20" x="4" y="2" rx="2"/><path d="M8 6h8"/><path d="M16 10h.01M12 10h.01M8 10h.01M16 14h.01M12 14h.01M8 14h.01M16 18h.01M12 18h.01M8 18h.01"/>',
+  coins: '<line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>',
+  dna: '<path d="M2 15c6.667-6 13.333 0 20-6"/><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"/><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"/><path d="m17 6-2.5 2.5"/><path d="M14 8.5 15.5 10"/><path d="m7 18 2.5-2.5"/><path d="M3.5 14.5 4 14"/>',
+  gift: '<rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5C10 3 12 8 12 8Z"/><path d="M16.5 8a2.5 2.5 0 0 0 0-5C14 3 12 8 12 8Z"/>',
+  search: '<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>',
+  menu: '<line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>',
+  panelLeft: '<rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/>',
+  more: '<circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/>',
+  x: '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
+  chevron: '<path d="m9 18 6-6-6-6"/>',
+};
 ---
 
 <!doctype html>
@@ -69,12 +120,10 @@ const currentPath = Astro.url.pathname;
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
 
-    <!-- Bilingual meta -->
     <link rel="alternate" hreflang="en" href={canonicalURL} />
     <link rel="alternate" hreflang="es" href={canonicalURL} />
     <link rel="alternate" hreflang="x-default" href={canonicalURL} />
 
-    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -84,67 +133,170 @@ const currentPath = Astro.url.pathname;
     <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    <!-- Schema.org Breadcrumbs -->
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@900&family=Oxanium:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
 
+    <!-- Restore sidebar state before paint -->
+    <script is:inline>try{if(localStorage.getItem('sb-c')==='1')document.documentElement.classList.add('sidebar-collapsed')}catch(e){}</script>
+
     <slot name="head" />
 
-    <!-- AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5467700828296629"
      crossorigin="anonymous"></script>
   </head>
   <body>
-    <Header />
+    <!-- TOPBAR -->
+    <header class="topbar">
+      <div class="topbar__inner">
+        <button class="topbar__menu-btn" id="menuToggle" type="button" aria-label="Toggle menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.menu} />
+        </button>
 
-    <!-- Game sub-navigation -->
-    <nav class="game-nav" aria-label="Game navigation">
-      <div class="container">
-        <div class="game-nav__inner">
-          {gameNav.map(item => (
+        <a href={`/games/${gameSlug}/`} class="topbar__brand">
+          <span class="topbar__brand-name">{game}</span>
+          <span class="topbar__brand-badge">Guide</span>
+        </a>
+
+        <form class="topbar__search" action={`/games/${gameSlug}/fish/`} method="get">
+          <svg class="topbar__search-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.search} />
+          <input class="topbar__search-input" type="text" name="q" placeholder="Search fish, rods, mutations..." autocomplete="off" />
+        </form>
+      </div>
+    </header>
+
+    <!-- Sidebar overlay (mobile) -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- APP SHELL -->
+    <div class="app-shell">
+      <!-- SIDEBAR -->
+      <aside class="sidebar" id="sidebar">
+        <nav class="sidebar__nav">
+          {sidebarSections.map(section => (
+            <div class="sidebar__group">
+              <span class="sidebar__group-label">{section.label}</span>
+              {section.items.map(item => (
+                <a
+                  href={item.href}
+                  class:list={['sidebar__link', { active: isActive(item.href) }]}
+                >
+                  <svg class="sidebar__link-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[item.icon]} />
+                  <span class="sidebar__link-text">{item.label}</span>
+                </a>
+              ))}
+            </div>
+          ))}
+        </nav>
+
+        <button class="sidebar__toggle" id="sidebarToggle" type="button" aria-label="Toggle sidebar width">
+          <svg class="sidebar__toggle-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.panelLeft} />
+        </button>
+      </aside>
+
+      <!-- MAIN AREA -->
+      <div class="main-area">
+        <nav class="bc" aria-label="Breadcrumb">
+          <ol class="bc__list">
+            {fullBreadcrumbs.map((crumb, i) => (
+              <li class="bc__item">
+                {i < fullBreadcrumbs.length - 1 ? (
+                  <>
+                    <a href={crumb.href} class="bc__link">{crumb.label}</a>
+                    <svg class="bc__sep" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={ico.chevron} />
+                  </>
+                ) : (
+                  <span class="bc__current" aria-current="page">{crumb.label}</span>
+                )}
+              </li>
+            ))}
+          </ol>
+        </nav>
+
+        <main class="content">
+          <slot />
+        </main>
+
+        <Footer />
+      </div>
+    </div>
+
+    <!-- MOBILE BOTTOM TABS -->
+    <nav class="mtabs" aria-label="Mobile navigation">
+      {mobileTabs.map(tab => (
+        <a
+          href={tab.href}
+          class:list={['mtabs__item', { active: isActive(tab.href) }]}
+        >
+          <svg class="mtabs__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[tab.icon]} />
+          <span class="mtabs__label">{tab.label}</span>
+        </a>
+      ))}
+      <button class="mtabs__item" id="moreBtn" type="button">
+        <svg class="mtabs__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.more} />
+        <span class="mtabs__label">More</span>
+      </button>
+    </nav>
+
+    <!-- BOTTOM SHEET -->
+    <div class="bsheet" id="bsheet">
+      <div class="bsheet__overlay"></div>
+      <div class="bsheet__panel">
+        <div class="bsheet__header">
+          <span class="bsheet__title">More</span>
+          <button class="bsheet__close" id="bsheetClose" type="button" aria-label="Close">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.x} />
+          </button>
+        </div>
+        <nav class="bsheet__nav">
+          {moreItems.map(item => (
             <a
               href={item.href}
-              class:list={['game-nav__link', { 'game-nav__link--active': currentPath === item.href }]}
+              class:list={['bsheet__link', { active: isActive(item.href) }]}
             >
-              {item.label}
+              <svg class="bsheet__link-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[item.icon]} />
+              <span>{item.label}</span>
             </a>
           ))}
-        </div>
+        </nav>
       </div>
-    </nav>
+    </div>
 
-    <!-- Breadcrumbs -->
-    <nav class="breadcrumbs" aria-label="Breadcrumb">
-      <div class="container">
-        <ol class="breadcrumbs__list">
-          {fullBreadcrumbs.map((crumb, i) => (
-            <li class="breadcrumbs__item">
-              {i < fullBreadcrumbs.length - 1 ? (
-                <>
-                  <a href={crumb.href} class="breadcrumbs__link">{crumb.label}</a>
-                  <span class="breadcrumbs__sep" aria-hidden="true">/</span>
-                </>
-              ) : (
-                <span class="breadcrumbs__current" aria-current="page">{crumb.label}</span>
-              )}
-            </li>
-          ))}
-        </ol>
-      </div>
-    </nav>
+    <!-- Interactions -->
+    <script is:inline>
+      (function(){
+        var sb=document.getElementById('sidebarToggle');
+        var mb=document.getElementById('menuToggle');
+        var ov=document.getElementById('sidebarOverlay');
+        var mo=document.getElementById('moreBtn');
+        var bs=document.getElementById('bsheet');
+        var bc=document.getElementById('bsheetClose');
 
-    <main class="game-main">
-      <slot />
-    </main>
+        if(sb)sb.onclick=function(){
+          document.documentElement.classList.toggle('sidebar-collapsed');
+          try{localStorage.setItem('sb-c',document.documentElement.classList.contains('sidebar-collapsed')?'1':'0')}catch(e){}
+        };
+        if(mb)mb.onclick=function(){document.body.classList.toggle('menu-open')};
+        if(ov)ov.onclick=function(){document.body.classList.remove('menu-open')};
 
-    <Footer />
+        document.querySelectorAll('.sidebar__link').forEach(function(l){
+          l.addEventListener('click',function(){document.body.classList.remove('menu-open')});
+        });
+
+        if(mo)mo.onclick=function(){bs&&bs.classList.add('open')};
+        if(bs){
+          var ol=bs.querySelector('.bsheet__overlay');
+          if(ol)ol.onclick=function(){bs.classList.remove('open')};
+        }
+        if(bc)bc.onclick=function(){bs&&bs.classList.remove('open')};
+      })();
+    </script>
 
     <script>
       import { inject } from '@vercel/analytics';
@@ -163,17 +315,28 @@ const currentPath = Astro.url.pathname;
   }
 
   :root {
-    --bg-deep: #0a0e1a;
-    --bg-card: #111827;
-    --bg-code: #0d1520;
-    --accent: #06d6a0;
-    --accent-hot: #ff6b6b;
-    --accent-warn: #ffd166;
-    --text: #e8eaf0;
-    --text-dim: #8892a4;
-    --border: #1e293b;
-    --font-display: 'Oxanium', cursive;
-    --font-body: 'DM Sans', sans-serif;
+    --bg-deep: #060B18;
+    --bg-card: #0F1D35;
+    --bg-elevated: #142847;
+    --bg-code: #0A1628;
+    --accent: #1DA2D8;
+    --accent-secondary: #22D3EE;
+    --accent-hot: #F97316;
+    --accent-warn: #EAB308;
+    --accent-success: #22C55E;
+    --text: #E2E8F0;
+    --text-dim: #94A3B8;
+    --border: rgba(255, 255, 255, 0.08);
+    --font-body: 'Inter', system-ui, sans-serif;
+    --font-display: 'Inter', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+    --topbar-h: 56px;
+    --sidebar-w: 240px;
+    --sidebar-w-sm: 64px;
+    --mtabs-h: 60px;
+    --radius: 8px;
+    --radius-sm: 6px;
+    --radius-pill: 9999px;
   }
 
   html {
@@ -184,12 +347,11 @@ const currentPath = Astro.url.pathname;
   body {
     overflow-x: hidden;
     font-family: var(--font-body);
+    font-weight: 400;
     background: var(--bg-deep);
     color: var(--text);
     line-height: 1.6;
     min-height: 100dvh;
-    display: flex;
-    flex-direction: column;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -205,8 +367,6 @@ const currentPath = Astro.url.pathname;
 
   .container {
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 0 1rem;
   }
 
@@ -218,103 +378,591 @@ const currentPath = Astro.url.pathname;
 </style>
 
 <style>
-  /* ============================================================
-     GAME SUB-NAVIGATION
-     ============================================================ */
+  /* ==========================================================================
+     TOPBAR
+     ========================================================================== */
 
-  .game-nav {
-    background: rgba(17, 24, 39, 0.6);
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: var(--topbar-h);
+    background: rgba(6, 11, 24, 0.88);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
   }
 
-  .game-nav__inner {
+  .topbar__inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100%;
     display: flex;
-    gap: 0.25rem;
-    overflow-x: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    padding: 0.5rem 0;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0 1rem;
   }
 
-  .game-nav__inner::-webkit-scrollbar {
-    display: none;
-  }
-
-  .game-nav__link {
-    font-family: var(--font-body);
-    font-size: 0.85rem;
-    font-weight: 500;
+  .topbar__menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
     color: var(--text-dim);
-    padding: 0.4rem 0.85rem;
-    border-radius: 8px;
-    white-space: nowrap;
+    cursor: pointer;
+    border-radius: var(--radius);
     transition: color 0.2s, background 0.2s;
   }
 
-  .game-nav__link:hover {
+  .topbar__menu-btn:hover {
     color: var(--text);
     background: rgba(255, 255, 255, 0.05);
   }
 
-  .game-nav__link--active {
+  .topbar__menu-btn :global(svg) {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (min-width: 768px) {
+    .topbar__menu-btn {
+      display: none;
+    }
+  }
+
+  .topbar__brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+  }
+
+  .topbar__brand-name {
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #fff;
+  }
+
+  .topbar__brand-badge {
+    font-size: 0.625rem;
+    font-weight: 600;
     color: var(--accent);
-    background: rgba(6, 214, 160, 0.1);
+    background: rgba(29, 162, 216, 0.12);
+    padding: 2px 8px;
+    border-radius: var(--radius-pill);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
 
-  /* ============================================================
+  .topbar__search {
+    flex: 1;
+    max-width: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .topbar__search-ico {
+    position: absolute;
+    left: 0.75rem;
+    width: 16px;
+    height: 16px;
+    color: var(--text-dim);
+    pointer-events: none;
+  }
+
+  .topbar__search-input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.45rem 0.75rem 0.45rem 2.25rem;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    outline: none;
+    transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+  }
+
+  .topbar__search-input:focus {
+    border-color: var(--accent);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 0 3px rgba(29, 162, 216, 0.1);
+  }
+
+  .topbar__search-input::placeholder {
+    color: var(--text-dim);
+  }
+
+  @media (max-width: 479px) {
+    .topbar__search {
+      display: none;
+    }
+  }
+
+  /* ==========================================================================
+     SIDEBAR OVERLAY (mobile)
+     ========================================================================== */
+
+  .sidebar-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    top: var(--topbar-h);
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 89;
+  }
+
+  :global(body.menu-open) .sidebar-overlay {
+    display: block;
+  }
+
+  /* ==========================================================================
+     APP SHELL
+     ========================================================================== */
+
+  .app-shell {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: calc(100dvh - var(--topbar-h));
+  }
+
+  /* ==========================================================================
+     SIDEBAR
+     ========================================================================== */
+
+  .sidebar {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      width: var(--sidebar-w);
+      flex-shrink: 0;
+      position: sticky;
+      top: var(--topbar-h);
+      height: calc(100dvh - var(--topbar-h));
+      overflow-y: auto;
+      border-right: 1px solid var(--border);
+      padding: 1rem 0.75rem;
+      transition: width 0.2s ease;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(255, 255, 255, 0.06) transparent;
+    }
+
+    :global(html.sidebar-collapsed) .sidebar {
+      width: var(--sidebar-w-sm);
+      padding: 1rem 0.5rem;
+    }
+  }
+
+  /* Mobile sidebar */
+  @media (max-width: 767px) {
+    :global(body.menu-open) .sidebar {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: var(--topbar-h);
+      left: 0;
+      bottom: 0;
+      width: 280px;
+      z-index: 90;
+      background: var(--bg-deep);
+      border-right: 1px solid var(--border);
+      padding: 1rem 0.75rem;
+      animation: slideIn 0.2s ease;
+    }
+  }
+
+  @keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+  }
+
+  .sidebar__nav {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .sidebar__group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .sidebar__group-label {
+    font-size: 0.625rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0 0.75rem;
+    margin-bottom: 4px;
+    transition: opacity 0.15s;
+  }
+
+  :global(html.sidebar-collapsed) .sidebar__group-label {
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .sidebar__link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius);
+    color: var(--text-dim);
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: color 0.2s, background 0.2s;
+    min-height: 40px;
+  }
+
+  .sidebar__link:hover {
+    color: var(--text);
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .sidebar__link.active {
+    color: var(--accent);
+    background: rgba(29, 162, 216, 0.1);
+  }
+
+  .sidebar__link-ico {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  .sidebar__link-text {
+    white-space: nowrap;
+    transition: opacity 0.15s;
+  }
+
+  :global(html.sidebar-collapsed) .sidebar__link-text {
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+  }
+
+  :global(html.sidebar-collapsed) .sidebar__link {
+    justify-content: center;
+    padding: 0.5rem;
+  }
+
+  /* Collapse toggle */
+  .sidebar__toggle {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .sidebar__toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 36px;
+      margin-top: 0.75rem;
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: color 0.2s, background 0.2s;
+    }
+
+    .sidebar__toggle:hover {
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .sidebar__toggle-ico {
+      width: 18px;
+      height: 18px;
+      transition: transform 0.2s;
+    }
+
+    :global(html.sidebar-collapsed) .sidebar__toggle-ico {
+      transform: scaleX(-1);
+    }
+  }
+
+  /* ==========================================================================
+     MAIN AREA
+     ========================================================================== */
+
+  .main-area {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width: 767px) {
+    .main-area {
+      padding-bottom: calc(var(--mtabs-h) + 8px);
+    }
+  }
+
+  /* ==========================================================================
      BREADCRUMBS
-     ============================================================ */
+     ========================================================================== */
 
-  .breadcrumbs {
-    padding: 0.75rem 0 0;
+  .bc {
+    padding: 0.75rem 1rem 0;
   }
 
-  .breadcrumbs__list {
+  @media (min-width: 768px) {
+    .bc {
+      padding: 1rem 1.5rem 0;
+    }
+  }
+
+  .bc__list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0;
     list-style: none;
   }
 
-  .breadcrumbs__item {
+  .bc__item {
     display: flex;
     align-items: center;
     font-size: 0.8rem;
   }
 
-  .breadcrumbs__link {
+  .bc__link {
     color: var(--text-dim);
     transition: color 0.2s;
   }
 
-  .breadcrumbs__link:hover {
+  .bc__link:hover {
     color: var(--accent);
   }
 
-  .breadcrumbs__sep {
-    margin: 0 0.4rem;
+  .bc__sep {
+    width: 12px;
+    height: 12px;
+    margin: 0 0.25rem;
     color: var(--text-dim);
-    opacity: 0.5;
+    opacity: 0.4;
   }
 
-  .breadcrumbs__current {
+  .bc__current {
     color: var(--text);
     font-weight: 500;
   }
 
-  /* ============================================================
-     GAME MAIN CONTENT
-     ============================================================ */
+  /* ==========================================================================
+     CONTENT
+     ========================================================================== */
 
-  .game-main {
+  .content {
     flex: 1;
     padding: 1rem 0 2rem;
   }
 
   @media (min-width: 768px) {
-    .game-main {
-      padding: 1.5rem 0 3rem;
+    .content {
+      padding: 1.25rem 0 3rem;
+    }
+  }
+
+  /* ==========================================================================
+     MOBILE BOTTOM TABS
+     ========================================================================== */
+
+  .mtabs {
+    display: none;
+  }
+
+  @media (max-width: 767px) {
+    .mtabs {
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(6, 11, 24, 0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-top: 1px solid var(--border);
+      align-items: center;
+      justify-content: space-around;
+      padding: 4px 0;
+      padding-bottom: max(4px, env(safe-area-inset-bottom, 0px));
+    }
+  }
+
+  .mtabs__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 6px 0;
+    min-width: 48px;
+    min-height: 48px;
+    color: var(--text-dim);
+    background: none;
+    border: none;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: color 0.2s;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .mtabs__item:hover,
+  .mtabs__item.active {
+    color: var(--accent);
+  }
+
+  .mtabs__ico {
+    width: 22px;
+    height: 22px;
+  }
+
+  .mtabs__label {
+    font-size: 0.6rem;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+  }
+
+  /* ==========================================================================
+     BOTTOM SHEET (More)
+     ========================================================================== */
+
+  .bsheet {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .bsheet.open {
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .bsheet__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .bsheet.open .bsheet__overlay {
+    opacity: 1;
+  }
+
+  .bsheet__panel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg-card);
+    border-radius: 16px 16px 0 0;
+    padding: 1.25rem 1rem;
+    padding-bottom: max(1.25rem, calc(0.5rem + env(safe-area-inset-bottom, 0px)));
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+
+  .bsheet.open .bsheet__panel {
+    transform: translateY(0);
+  }
+
+  .bsheet__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+  }
+
+  .bsheet__title {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--text);
+  }
+
+  .bsheet__close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    cursor: pointer;
+    border-radius: var(--radius);
+    transition: color 0.2s, background 0.2s;
+  }
+
+  .bsheet__close:hover {
+    color: var(--text);
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .bsheet__close :global(svg) {
+    width: 20px;
+    height: 20px;
+  }
+
+  .bsheet__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .bsheet__link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-dim);
+    min-height: 48px;
+    transition: color 0.2s, background 0.2s;
+  }
+
+  .bsheet__link:hover {
+    color: var(--text);
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .bsheet__link.active {
+    color: var(--accent);
+    background: rgba(29, 162, 216, 0.1);
+  }
+
+  .bsheet__link-ico {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+  }
+
+  @media (min-width: 768px) {
+    .bsheet {
+      display: none;
     }
   }
 </style>
