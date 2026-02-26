@@ -1,24 +1,27 @@
-=== RESUMEN UPDATE 2026-02-25 23:15 ===
+=== RESUMEN UPDATE 2026-02-26 10:34 ===
 
 Archivos modificados:
-  3 archivos cambiados
+  4 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4121 juegos (4121 procesados)
-Actualizados: 1 | Sin cambios: 3966
+Actualizados: 2 | Sin cambios: 3965
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 1 | Movidos a expirados: 0
-Tiempo: 109.3s | Concurrencia: 10
+Códigos nuevos: 3 | Movidos a expirados: 0
+Tiempo: 149.7s | Concurrencia: 10
 
 Juegos actualizados:
-  Gabbys Dollhouse Official: 20→21 activos (+1), 0→0 exp
-    Nuevos: Gabby2026
+  Anime Eternal: 0→1 activos (+1), 702→702 exp
+    Nuevos: Code39AllCodesInOne
+  Dig To Find Dad: 10→12 activos (+2), 15→15 exp
+    Nuevos: 8NEWBOMBS, DAILYREWARDS
 
 Detalle cambios:
-data/games/codigos-gabbys-dollhouse-official.json
+data/games/codigos-anime-eternal.json
+data/games/codigos-dig-to-find-dad.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
