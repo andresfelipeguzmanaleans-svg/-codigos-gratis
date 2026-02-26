@@ -333,7 +333,7 @@ export default function TradeCalc({ fish, mutations }: Props) {
       <div className="tc__columns">
         {/* YOUR ITEMS */}
         <div className="tc__column">
-          <h3 className="tc__col-title tc__col-title--yours">Your Items</h3>
+          <h3 className="tc__col-title tc__col-title--yours">OFFERING</h3>
           {yourItems.map(entry => (
             <TradeEntryRow
               key={entry.key}
@@ -358,7 +358,7 @@ export default function TradeCalc({ fish, mutations }: Props) {
 
         {/* THEIR ITEMS */}
         <div className="tc__column">
-          <h3 className="tc__col-title tc__col-title--theirs">Their Items</h3>
+          <h3 className="tc__col-title tc__col-title--theirs">RECEIVING</h3>
           {theirItems.map(entry => (
             <TradeEntryRow
               key={entry.key}
@@ -382,13 +382,14 @@ export default function TradeCalc({ fish, mutations }: Props) {
       {/* RESULT */}
       {result !== null && (
         <div className={`tc__result tc__result--${result.toLowerCase()}`}>
+          <div className="tc__result-title">TRADE VERDICT</div>
           <div className="tc__result-badge">{result}</div>
           <div className="tc__result-diff">
             {diffPct > 0 ? `You gain +${diffPct.toFixed(1)}%` : diffPct < 0 ? `You lose ${diffPct.toFixed(1)}%` : 'Even trade'}
           </div>
           <div className="tc__result-vals">
-            <span>You give: {fmtC(yourTotal)} C$</span>
-            <span>You get: {fmtC(theirTotal)} C$</span>
+            <span>Offering: {fmtC(yourTotal)} C$</span>
+            <span>Receiving: {fmtC(theirTotal)} C$</span>
           </div>
 
           {/* Proportion bar */}
@@ -401,8 +402,8 @@ export default function TradeCalc({ fish, mutations }: Props) {
             </div>
           </div>
           <div className="tc__bar-legend">
-            <span className="tc__bar-legend-yours">You give</span>
-            <span className="tc__bar-legend-theirs">You get</span>
+            <span className="tc__bar-legend-yours">Offering</span>
+            <span className="tc__bar-legend-theirs">Receiving</span>
           </div>
 
           <button className="tc__save-btn" onClick={saveToHistory} type="button">Save to History</button>

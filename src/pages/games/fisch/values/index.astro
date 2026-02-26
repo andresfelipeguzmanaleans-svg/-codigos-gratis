@@ -1,5 +1,6 @@
 ---
 import GameLayout from '../../../../layouts/GameLayout.astro';
+import FischHero from '../../../../components/FischHero.astro';
 import ValueTable from '../../../../components/ValueTable.tsx';
 import type { ValueRow } from '../../../../components/ValueTable.tsx';
 
@@ -108,16 +109,14 @@ const itemListSchema = {
     <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
   </Fragment>
 
+  <FischHero title="VALUE LIST" subtitle="Current market intelligence" />
+
   <div class="container">
-    <header class="page-hdr">
-      <h1 class="page-hdr__title">Fisch Value List</h1>
-      <p class="page-hdr__sub">{fmt(total)} fish — Base values, estimated max values & trading prices</p>
-      <p class="page-hdr__updated">Last updated: {fullDate}</p>
-    </header>
+    <p class="last-updated">Last updated: {fullDate}</p>
 
     <!-- TOP 10 MOST VALUABLE -->
     <section class="top10">
-      <h2 class="section-heading">Top 10 Most Valuable Fish</h2>
+      <h2 class="section-heading">MOST VALUABLE</h2>
       <p class="top10__note">Estimated max value = Base Value (C$/kg) × Max Weight (kg)</p>
       <div class="top10__wrap">
         <table class="top10__table">
@@ -216,35 +215,14 @@ const itemListSchema = {
 
 <style>
   /* ============================================================
-     PAGE HEADER
+     LAST UPDATED
      ============================================================ */
 
-  .page-hdr {
-    padding: 0.5rem 0 1.25rem;
-  }
-
-  .page-hdr__title {
-    font-family: var(--font-display);
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: #fff;
-  }
-
-  .page-hdr__sub {
-    margin-top: 0.25rem;
-    font-size: 0.9rem;
-    color: var(--text-dim);
-  }
-
-  .page-hdr__updated {
-    margin-top: 0.2rem;
+  .last-updated {
     font-size: 0.8rem;
     color: #0ea5e9;
     font-weight: 600;
-  }
-
-  @media (min-width: 768px) {
-    .page-hdr__title { font-size: 2rem; }
+    margin-bottom: 1rem;
   }
 
   .section-heading {
@@ -253,6 +231,8 @@ const itemListSchema = {
     font-weight: 700;
     color: var(--text);
     margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
   }
 
   /* ============================================================

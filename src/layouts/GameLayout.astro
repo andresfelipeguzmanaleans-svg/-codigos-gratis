@@ -102,6 +102,9 @@ const ico: Record<string, string> = {
   coins: '<line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>',
   dna: '<path d="M2 15c6.667-6 13.333 0 20-6"/><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"/><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"/><path d="m17 6-2.5 2.5"/><path d="M14 8.5 15.5 10"/><path d="m7 18 2.5-2.5"/><path d="M3.5 14.5 4 14"/>',
   gift: '<rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5C10 3 12 8 12 8Z"/><path d="M16.5 8a2.5 2.5 0 0 0 0-5C14 3 12 8 12 8Z"/>',
+  play: '<polygon points="5 3 19 12 5 21 5 3"/>',
+  wiki: '<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="M12 6v7l3-3"/>',
+  extLink: '<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>',
   search: '<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>',
   menu: '<line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>',
   panelLeft: '<rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 3v18"/>',
@@ -183,6 +186,19 @@ const ico: Record<string, string> = {
     <div class="app-shell">
       <!-- SIDEBAR -->
       <aside class="sidebar" id="sidebar">
+        {gameSlug === 'fisch' && (
+          <div class="sidebar__game-hdr">
+            <img src="/images/fisch-icon.webp" alt="Fisch" class="sidebar__game-thumb" loading="lazy" />
+            <span class="sidebar__game-name">Fisch</span>
+            <div class="sidebar__game-stats">
+              <span class="sidebar__mini-stat">🐟 1,235</span>
+              <span class="sidebar__mini-stat">🧬 234</span>
+              <span class="sidebar__mini-stat">🎣 166</span>
+              <span class="sidebar__mini-stat">📍 72</span>
+            </div>
+          </div>
+        )}
+
         <nav class="sidebar__nav">
           {sidebarSections.map(section => (
             <div class="sidebar__group">
@@ -199,6 +215,24 @@ const ico: Record<string, string> = {
             </div>
           ))}
         </nav>
+
+        {gameSlug === 'fisch' && (
+          <div class="sidebar__links">
+            <span class="sidebar__group-label">LINKS</span>
+            <a href="https://www.roblox.com/games/16732694052" class="sidebar__link" target="_blank" rel="noopener">
+              <svg class="sidebar__link-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.play} />
+              <span class="sidebar__link-text">Play on Roblox</span>
+            </a>
+            <a href="https://fischipedia.org" class="sidebar__link" target="_blank" rel="noopener">
+              <svg class="sidebar__link-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.wiki} />
+              <span class="sidebar__link-text">Official Wiki</span>
+            </a>
+            <a href="/codigos-fisch/" class="sidebar__link">
+              <svg class="sidebar__link-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.gift} />
+              <span class="sidebar__link-text">Active Codes</span>
+            </a>
+          </div>
+        )}
 
         <button class="sidebar__toggle" id="sidebarToggle" type="button" aria-label="Toggle sidebar width">
           <svg class="sidebar__toggle-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.panelLeft} />
@@ -611,6 +645,67 @@ const ico: Record<string, string> = {
   @keyframes slideIn {
     from { transform: translateX(-100%); }
     to { transform: translateX(0); }
+  }
+
+  /* Sidebar game header */
+  .sidebar__game-hdr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+  }
+
+  .sidebar__game-thumb {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+
+  .sidebar__game-name {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  .sidebar__game-stats {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sidebar__mini-stat {
+    font-size: 0.62rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    background: rgba(255, 255, 255, 0.04);
+    padding: 0.15rem 0.4rem;
+    border-radius: 20px;
+  }
+
+  :global(html.sidebar-collapsed) .sidebar__game-name,
+  :global(html.sidebar-collapsed) .sidebar__game-stats {
+    display: none;
+  }
+
+  :global(html.sidebar-collapsed) .sidebar__game-thumb {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+  }
+
+  /* Sidebar external links */
+  .sidebar__links {
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
   }
 
   .sidebar__nav {

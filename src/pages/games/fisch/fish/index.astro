@@ -1,5 +1,6 @@
 ---
 import GameLayout from '../../../../layouts/GameLayout.astro';
+import FischHero from '../../../../components/FischHero.astro';
 import FishTable from '../../../../components/FishTable.tsx';
 import type { FishRow } from '../../../../components/FishTable.tsx';
 
@@ -42,12 +43,9 @@ const fmt = (n: number) => n.toLocaleString('en-US');
   game="Fisch"
   breadcrumbs={[{ label: 'Fish Database', href: '/games/fisch/fish/' }]}
 >
-  <div class="container">
-    <header class="page-hdr">
-      <h1 class="page-hdr__title">Fish Database</h1>
-      <p class="page-hdr__sub">{fmt(total)} species across {locations.length} locations and {rarities.length} rarity tiers</p>
-    </header>
+  <FischHero title="FISH DATABASE" subtitle={`${fmt(total)} species to discover`} />
 
+  <div class="container">
     <FishTable
       client:load
       fish={fishRows}
@@ -58,29 +56,6 @@ const fmt = (n: number) => n.toLocaleString('en-US');
 </GameLayout>
 
 <style>
-  .page-hdr {
-    padding: 0.5rem 0 1.25rem;
-  }
-
-  .page-hdr__title {
-    font-family: var(--font-display);
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: #fff;
-  }
-
-  .page-hdr__sub {
-    margin-top: 0.25rem;
-    font-size: 0.9rem;
-    color: var(--text-dim);
-  }
-
-  @media (min-width: 768px) {
-    .page-hdr__title {
-      font-size: 2rem;
-    }
-  }
-
   /* ============================================================
      FISH TABLE — styles for the React component
      ============================================================ */

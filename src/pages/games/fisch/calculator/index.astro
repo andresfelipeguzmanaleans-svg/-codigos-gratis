@@ -1,5 +1,6 @@
 ---
 import GameLayout from '../../../../layouts/GameLayout.astro';
+import FischHero from '../../../../components/FischHero.astro';
 import TradeCalc from '../../../../components/TradeCalc.tsx';
 import type { SlimFish, SlimMutation } from '../../../../components/TradeCalc.tsx';
 
@@ -53,16 +54,13 @@ const webAppSchema = {
     <script type="application/ld+json" set:html={JSON.stringify(webAppSchema)} />
   </Fragment>
 
-  <div class="container">
-    <header class="page-hdr">
-      <h1 class="page-hdr__title">Trade Calculator</h1>
-      <p class="page-hdr__sub">Add fish to both sides and check if the trade is a Win, Fair, or Lose</p>
-    </header>
+  <FischHero title="TRADE CALCULATOR" subtitle="Analyze exchange protocols" />
 
+  <div class="container">
     <!-- HOW IT WORKS -->
     <section class="tc-explainer">
       <div class="tc-explainer__card">
-        <h2 class="tc-explainer__title">How it Works</h2>
+        <h2 class="tc-explainer__title">EXCHANGE PROTOCOL</h2>
         <div class="formula">
           <span class="formula__part">Base Value (C$/kg)</span>
           <span class="formula__op">&times;</span>
@@ -120,31 +118,6 @@ const webAppSchema = {
 </GameLayout>
 
 <style>
-  /* ============================================================
-     PAGE HEADER
-     ============================================================ */
-
-  .page-hdr {
-    padding: 0.5rem 0 1.25rem;
-  }
-
-  .page-hdr__title {
-    font-family: var(--font-display);
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: #fff;
-  }
-
-  .page-hdr__sub {
-    margin-top: 0.25rem;
-    font-size: 0.9rem;
-    color: var(--text-dim);
-  }
-
-  @media (min-width: 768px) {
-    .page-hdr__title { font-size: 2rem; }
-  }
-
   /* ============================================================
      EXPLAINER
      ============================================================ */
@@ -588,6 +561,15 @@ const webAppSchema = {
   :global(.tc__result--lose) {
     border-color: rgba(255, 107, 107, 0.4);
     background: rgba(255, 107, 107, 0.06);
+  }
+
+  :global(.tc__result-title) {
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.25rem;
   }
 
   :global(.tc__result-badge) {

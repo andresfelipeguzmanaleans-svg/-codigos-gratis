@@ -1,0 +1,77 @@
+---
+interface Props {
+  title: string;
+  subtitle: string;
+  bgImage?: string;
+}
+
+const { title, subtitle, bgImage = '/images/fisch-hero.webp' } = Astro.props;
+---
+
+<section class="fhero">
+  <img src={bgImage} alt="" class="fhero__bg-img" loading="eager" />
+  <div class="fhero__gradient"></div>
+  <div class="container fhero__content">
+    <h1 class="fhero__title">{title}</h1>
+    <p class="fhero__sub">{subtitle}</p>
+    <slot />
+  </div>
+</section>
+
+<style>
+  .fhero {
+    position: relative;
+    overflow: hidden;
+    padding: 2.5rem 0 2rem;
+    margin-top: -1rem;
+  }
+
+  @media (min-width: 768px) {
+    .fhero {
+      padding: 3.5rem 0 2.5rem;
+      margin-top: -1.25rem;
+    }
+  }
+
+  .fhero__bg-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+    z-index: 0;
+  }
+
+  .fhero__gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(6, 11, 24, 0.6) 0%, rgba(6, 11, 24, 0.8) 50%, #060B18 100%);
+    z-index: 1;
+  }
+
+  .fhero__content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+
+  .fhero__title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+    text-shadow: 0 0 60px rgba(29, 162, 216, 0.3);
+  }
+
+  .fhero__sub {
+    margin-top: 0.5rem;
+    font-size: clamp(0.75rem, 1.5vw, 0.88rem);
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+  }
+</style>

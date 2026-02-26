@@ -1,5 +1,6 @@
 ---
 import GameLayout from '../../../../layouts/GameLayout.astro';
+import FischHero from '../../../../components/FischHero.astro';
 import RodTable from '../../../../components/RodTable.tsx';
 import type { RodRow } from '../../../../components/RodTable.tsx';
 
@@ -88,12 +89,9 @@ const rodItemListSchema = {
     <script type="application/ld+json" set:html={JSON.stringify(rodItemListSchema)} />
   </Fragment>
 
-  <div class="container">
-    <header class="page-hdr">
-      <h1 class="page-hdr__title">Fishing Rods</h1>
-      <p class="page-hdr__sub">{fmt(withStats.length)} rods with stats + {fmt(cosmetic.length)} cosmetic/special rods</p>
-    </header>
+  <FischHero title="FISHING RODS" subtitle={`${fmt(total)} rods with complete stats`} />
 
+  <div class="container">
     <!-- TOP 5 PER STAT -->
     <section class="top5s">
       <h2 class="section-heading">Best Rods by Stat</h2>
@@ -134,37 +132,14 @@ const rodItemListSchema = {
 </GameLayout>
 
 <style>
-  /* ============================================================
-     PAGE HEADER
-     ============================================================ */
-
-  .page-hdr {
-    padding: 0.5rem 0 1.25rem;
-  }
-
-  .page-hdr__title {
-    font-family: var(--font-display);
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: #fff;
-  }
-
-  .page-hdr__sub {
-    margin-top: 0.25rem;
-    font-size: 0.9rem;
-    color: var(--text-dim);
-  }
-
-  @media (min-width: 768px) {
-    .page-hdr__title { font-size: 2rem; }
-  }
-
   .section-heading {
     font-family: var(--font-display);
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--text);
     margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
   }
 
   /* ============================================================

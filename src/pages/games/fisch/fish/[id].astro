@@ -1,5 +1,6 @@
 ---
 import GameLayout from '../../../../layouts/GameLayout.astro';
+import FischHero from '../../../../components/FischHero.astro';
 import FishValueCalc from '../../../../components/FishValueCalc.tsx';
 
 import fishData from '../../../../data/games/fisch/fish.json';
@@ -143,6 +144,11 @@ if (fish.season.length > 0) conditions.push({ label: 'Season', value: fish.seaso
 if (fish.event) conditions.push({ label: 'Event', value: fish.event, icon: '🎉' });
 if (fish.sources.length > 0) conditions.push({ label: 'Source', value: fish.sources.join(', '), icon: '🎣' });
 
+// Hero max value
+const formattedMaxValue = tradingValue?.estimatedValue
+  ? fmtC(tradingValue.estimatedValue.max)
+  : null;
+
 ---
 
 <GameLayout
@@ -158,48 +164,44 @@ if (fish.sources.length > 0) conditions.push({ label: 'Source', value: fish.sour
     <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   </Fragment>
 
-  <div class="container">
-    <!-- HEADER -->
-    <header class="fish-hdr">
-      {fish.imageUrl && (
-        <div class="fish-hdr__img-wrap">
-          <img
-            src={fish.imageUrl}
-            alt={fish.name}
-            class="fish-hdr__img"
-            loading="eager"
-            onerror="this.style.display='none'"
-          />
-        </div>
-      )}
-      <div class="fish-hdr__text">
-        <h1 class="fish-hdr__name">{fish.name}</h1>
-        <span
-          class="fish-hdr__rarity"
-          style={`background:${rc.bg}; border-color:${rc.border}; color:${rc.text};`}
-        >
-          {fish.rarity}
-        </span>
-      </div>
-    </header>
+  <!-- HERO -->
+  <FischHero
+    title={fish.name.toUpperCase()}
+    subtitle={fish.rarity}
+    bgImage={fish.imageUrl || '/images/fisch-hero.webp'}
+  >
+    <span
+      class="fish-detail__rarity-badge"
+      style={`background:${rc.bg}; border-color:${rc.border}; color:${rc.text};`}
+    >
+      {fish.rarity}
+    </span>
+    {formattedMaxValue && (
+      <div class="fish-detail__giant-val">{formattedMaxValue} C$</div>
+    )}
+  </FischHero>
 
-    <!-- INFO CARDS -->
+  <div class="container">
+    <!-- FIELD DATA -->
     {infoItems.length > 0 && (
-      <section class="info-grid" aria-label="Fish stats">
-        {infoItems.map(item => (
-          <div class="info-card">
-            <span class="info-card__icon">{item.icon}</span>
-            <span class="info-card__label">{item.label}</span>
-            <span class="info-card__value">{item.value}</span>
-          </div>
-        ))}
+      <section class="info-section" aria-label="Fish stats">
+        <h2 class="section-heading">FIELD DATA</h2>
+        <div class="info-grid">
+          {infoItems.map(item => (
+            <div class="info-card">
+              <span class="info-card__icon">{item.icon}</span>
+              <span class="info-card__label">{item.label}</span>
+              <span class="info-card__value">{item.value}</span>
+            </div>
+          ))}
+        </div>
       </section>
     )}
 
     <!-- CONDITIONS -->
     {conditions.length > 0 && (
       <section class="conditions">
-        <h2 class="section-heading">How to Catch</h2>
+        <h2 class="section-heading">CATCH INTEL</h2>
         <div class="conditions__list">
           {conditions.map(c => (
             <div class="cond-row">
@@ -221,7 +223,7 @@ if (fish.sources.length > 0) conditions.push({ label: 'Source', value: fish.sour
     <!-- VALUE CALCULATOR -->
     {fish.baseValue != null && fish.baseValue > 0 && fish.weightRange && (
       <section class="calc-section">
-        <h2 class="section-heading">Value Calculator</h2>
+        <h2 class="section-heading">VALUE ASSESSMENT</h2>
         <FishValueCalc
           client:visible
           baseValue={fish.baseValue}
@@ -236,7 +238,7 @@ if (fish.sources.length > 0) conditions.push({ label: 'Source', value: fish.sour
     <!-- TRADING VALUE -->
     {tradingValue && tradingValue.estimatedValue && (
       <section class="trading">
-        <h2 class="section-heading">Trading Value</h2>
+        <h2 class="section-heading">TRADING VALUE</h2>
         <div class="trading__card">
           <div class="trading__row">
             <span class="trading__label">Base Price</span>
@@ -317,52 +319,12 @@ if (fish.sources.length > 0) conditions.push({ label: 'Source', value: fish.sour
 
 <style>
   /* ============================================================
-     FISH HEADER
+     HERO SLOT ELEMENTS
      ============================================================ */
 
-  .fish-hdr {
-    display: flex;
-    align-items: center;
-    gap: 1.25rem;
-    padding: 0.5rem 0 1.5rem;
-  }
-
-  .fish-hdr__img-wrap {
-    width: 96px;
-    height: 96px;
-    flex-shrink: 0;
-    border-radius: 16px;
-    overflow: hidden;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .fish-hdr__img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    image-rendering: auto;
-  }
-
-  .fish-hdr__text {
-    min-width: 0;
-  }
-
-  .fish-hdr__name {
-    font-family: var(--font-display);
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: #fff;
-    line-height: 1.2;
-    word-break: break-word;
-  }
-
-  .fish-hdr__rarity {
+  .fish-detail__rarity-badge {
     display: inline-block;
-    margin-top: 0.4rem;
+    margin-top: 0.25rem;
     padding: 0.2rem 0.75rem;
     border: 1px solid;
     border-radius: 9999px;
@@ -371,25 +333,27 @@ if (fish.sources.length > 0) conditions.push({ label: 'Source', value: fish.sour
     letter-spacing: 0.5px;
   }
 
-  @media (min-width: 640px) {
-    .fish-hdr__img-wrap {
-      width: 128px;
-      height: 128px;
-    }
-    .fish-hdr__name {
-      font-size: 2.25rem;
-    }
+  .fish-detail__giant-val {
+    font-family: var(--font-mono);
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 700;
+    color: var(--accent-secondary, #22D3EE);
+    margin-top: 0.5rem;
+    text-shadow: 0 0 40px rgba(34, 211, 238, 0.4);
   }
 
   /* ============================================================
      INFO GRID
      ============================================================ */
 
+  .info-section {
+    padding-bottom: 1.5rem;
+  }
+
   .info-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.6rem;
-    padding-bottom: 1.5rem;
   }
 
   @media (min-width: 480px) {
@@ -447,6 +411,8 @@ if (fish.sources.length > 0) conditions.push({ label: 'Source', value: fish.sour
     font-weight: 700;
     color: var(--text);
     margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
   }
 
   .conditions {

@@ -1,5 +1,6 @@
 ---
 import GameLayout from '../../../layouts/GameLayout.astro';
+import FischHero from '../../../components/FischHero.astro';
 
 import fishData from '../../../data/games/fisch/fish.json';
 import mutationsData from '../../../data/games/fisch/mutations.json';
@@ -56,13 +57,13 @@ const ico: Record<string, string> = {
 
 // Quick link sections
 const sections = [
-  { title: 'Fish Database', desc: `${fmt(totalFish)} species with locations, baits, values & weight ranges`, href: '/games/fisch/fish/', icon: 'fish', color: '#1DA2D8' },
-  { title: 'Value List', desc: `Base prices and estimated values for ${fmt(valuesData.items.length)} items`, href: '/games/fisch/values/', icon: 'coins', color: '#22D3EE' },
-  { title: 'Trade Calculator', desc: 'Check if a trade is a Win, Fair, or Lose before you trade', href: '/games/fisch/calculator/', icon: 'calc', color: '#F97316' },
-  { title: 'Mutations Guide', desc: `${fmt(totalMutations)} mutations with multipliers and how to obtain them`, href: '/games/fisch/mutations/', icon: 'dna', color: '#9B59B6' },
-  { title: 'Fishing Rods', desc: `${fmt(totalRods)} rods compared: luck, control, resilience & lure speed`, href: '/games/fisch/rods/', icon: 'rod', color: '#F39C12' },
-  { title: 'Locations', desc: `${fmt(totalLocations)} fishing spots with weather, fish counts & details`, href: '/games/fisch/locations/', icon: 'map', color: '#2ECC71' },
-  { title: 'Active Codes', desc: 'Redeem codes for free in-game rewards and boosts', href: '/codigos-fisch/', icon: 'gift', color: '#E74C3C' },
+  { title: 'Fish Database', desc: `${fmt(totalFish)} species catalogued — complete intelligence across all waters`, href: '/games/fisch/fish/', icon: 'fish', color: '#1DA2D8' },
+  { title: 'Value List', desc: `Real-time market data for ${fmt(valuesData.items.length)} items — informed trading starts here`, href: '/games/fisch/values/', icon: 'coins', color: '#22D3EE' },
+  { title: 'Trade Calculator', desc: 'Win/Fair/Lose analysis for every exchange — never get scammed again', href: '/games/fisch/calculator/', icon: 'calc', color: '#F97316' },
+  { title: 'Mutations Guide', desc: `${fmt(totalMutations)} genetic modifiers documented — multiply your fortune`, href: '/games/fisch/mutations/', icon: 'dna', color: '#9B59B6' },
+  { title: 'Fishing Rods', desc: `${fmt(totalRods)} rods compared — full stat breakdown for optimal loadout`, href: '/games/fisch/rods/', icon: 'rod', color: '#F39C12' },
+  { title: 'Locations', desc: `${fmt(totalLocations)} fishing spots charted — every location catalogued`, href: '/games/fisch/locations/', icon: 'map', color: '#2ECC71' },
+  { title: 'Active Codes', desc: 'Free rewards and active promotions — redeem before they expire', href: '/codigos-fisch/', icon: 'gift', color: '#E74C3C' },
 ];
 
 // Stats for hero
@@ -125,29 +126,22 @@ const webSiteSchema = {
   </Fragment>
 
   <!-- HERO -->
-  <section class="hero">
-    <div class="hero__bg"></div>
-    <div class="hero__ambient"></div>
-    <div class="container hero__content">
-      <h1 class="hero__title">Fisch</h1>
-      <p class="hero__sub">{description}</p>
-
-      <div class="hero__stats">
-        {stats.map(s => (
-          <div class="stat-card">
-            <svg class="stat-card__ico" viewBox="0 0 24 24" fill="none" stroke={s.color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[s.icon]} />
-            <span class="stat-card__value">{s.value}</span>
-            <span class="stat-card__label">{s.label}</span>
-          </div>
-        ))}
-      </div>
+  <FischHero title="FISCH" subtitle="COMMAND CENTER">
+    <div class="hero__stats">
+      {stats.map(s => (
+        <div class="stat-card">
+          <svg class="stat-card__ico" viewBox="0 0 24 24" fill="none" stroke={s.color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[s.icon]} />
+          <span class="stat-card__value">{s.value}</span>
+          <span class="stat-card__label">{s.label}</span>
+        </div>
+      ))}
     </div>
-  </section>
+  </FischHero>
 
   <!-- QUICK LINKS -->
   <section class="explore">
     <div class="container">
-      <h2 class="sec-title">Explore the Database</h2>
+      <h2 class="sec-title">EXPLORE THE DATABASE</h2>
       <div class="explore__grid">
         {sections.map(s => (
           <a href={s.href} class="ecard" style={`--card-color: ${s.color}`}>
@@ -224,49 +218,6 @@ const webSiteSchema = {
      HERO
      ========================================================================== */
 
-  .hero {
-    position: relative;
-    overflow: hidden;
-    padding: 2.5rem 0 2rem;
-  }
-
-  .hero__bg {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, #060B18 0%, #0B1426 40%, #0F2847 80%, #1A4F6E 100%);
-    z-index: 0;
-  }
-
-  .hero__ambient {
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(ellipse at 50% 30%, rgba(29, 162, 216, 0.1) 0%, transparent 70%);
-    z-index: 1;
-  }
-
-  .hero__content {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-  }
-
-  .hero__title {
-    font-size: clamp(2.5rem, 6vw, 4rem);
-    font-weight: 700;
-    color: #fff;
-    line-height: 1.1;
-    text-shadow: 0 0 60px rgba(29, 162, 216, 0.3);
-  }
-
-  .hero__sub {
-    margin-top: 0.75rem;
-    font-size: clamp(0.9rem, 2vw, 1.05rem);
-    color: var(--text-dim);
-    max-width: 620px;
-    margin-inline: auto;
-    line-height: 1.6;
-  }
-
   /* Stat cards */
   .hero__stats {
     display: grid;
@@ -339,6 +290,7 @@ const webSiteSchema = {
     font-weight: 700;
     margin-bottom: 1.25rem;
     color: var(--text);
+    letter-spacing: 0.08em;
   }
 
   /* ==========================================================================
