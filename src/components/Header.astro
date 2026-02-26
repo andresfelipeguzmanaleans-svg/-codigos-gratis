@@ -19,6 +19,7 @@ const isHerramientas = path.startsWith('/herramientas');
       <a href="/games/fisch/" class={`hdr__link hdr__link--fisch ${isFisch ? 'hdr__link--active' : ''}`}>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6-3.56 0-7.56-2.53-8.5-6Z"/><circle cx="2" cy="12" r="1"/></svg>
         Fisch Companion
+        <span class="hdr__new-badge">NEW</span>
       </a>
 
       <div class="hdr__dd">
@@ -90,6 +91,7 @@ const isHerramientas = path.startsWith('/herramientas');
         <span class="mob__fisch-inner">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6-3.56 0-7.56-2.53-8.5-6Z"/><circle cx="2" cy="12" r="1"/></svg>
           Fisch Companion
+          <span class="mob__new-badge">NEW</span>
         </span>
       </a>
 
@@ -276,6 +278,23 @@ const isHerramientas = path.startsWith('/herramientas');
   .hdr__link--fisch.hdr__link--active {
     color: #22D3EE;
     background: rgba(34, 211, 238, 0.15);
+  }
+
+  .hdr__new-badge {
+    font-size: 0.55rem;
+    font-weight: 800;
+    color: #fff;
+    background: #E74C3C;
+    padding: 1px 5px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    animation: hdr-badge-pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes hdr-badge-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
   }
 
   .hdr__chevron {
@@ -686,6 +705,17 @@ const isHerramientas = path.startsWith('/herramientas');
   .mob__link--fisch.mob__link--active {
     color: #22D3EE;
     background: rgba(34, 211, 238, 0.15);
+  }
+
+  .mob__new-badge {
+    font-size: 0.55rem;
+    font-weight: 800;
+    color: #fff;
+    background: #E74C3C;
+    padding: 1px 5px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
   }
 
   .mob__chevron {

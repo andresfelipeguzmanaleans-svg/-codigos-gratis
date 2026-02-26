@@ -26,7 +26,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
 const ogImageURL = new URL(ogImage, Astro.site).href;
 
 const fullBreadcrumbs: BreadcrumbItem[] = [
-  { label: 'Home', href: '/' },
+  { label: 'codigosgratis.com', href: '/' },
   { label: 'Games', href: '/games/' },
   { label: game, href: `/games/${game.toLowerCase()}/` },
   ...breadcrumbs,
@@ -158,6 +158,11 @@ const ico: Record<string, string> = {
         <button class="topbar__menu-btn" id="menuToggle" type="button" aria-label="Toggle menu">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.menu} />
         </button>
+
+        <a href="/" class="topbar__back" title="Volver a codigosgratis.com">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+          codigosgratis.com
+        </a>
 
         <a href={`/games/${gameSlug}/`} class="topbar__brand">
           <span class="topbar__brand-name">{game}</span>
@@ -444,6 +449,28 @@ const ico: Record<string, string> = {
     font-weight: 700;
     font-size: 1.125rem;
     color: #fff;
+  }
+
+  .topbar__back {
+    display: none;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-dim);
+    transition: color 0.2s;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .topbar__back:hover {
+    color: #22D3EE;
+  }
+
+  @media (min-width: 768px) {
+    .topbar__back {
+      display: flex;
+    }
   }
 
   .topbar__brand-badge {

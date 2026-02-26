@@ -44,6 +44,12 @@ const year = new Date().getFullYear();
       </div>
     </div>
 
+    <a href="/games/fisch/" class="footer__fisch-banner">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.46-3.44 6-7 6-3.56 0-7.56-2.54-8.5-6Z"/><path d="M3 12l3.5-3v6L3 12Z"/><circle cx="16" cy="10" r="1" fill="#22D3EE" stroke="none"/></svg>
+      <span>Fisch Companion: 1,235+ Fish &middot; Trade Calculator &middot; Value List</span>
+      <svg class="footer__fisch-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+    </a>
+
     <div class="footer__bottom">
       <p class="footer__copy">&copy; {year} códigosgratis.com</p>
       <p class="footer__disclaimer">
@@ -149,6 +155,41 @@ const year = new Date().getFullYear();
 
   .footer__fisch-link:hover {
     color: #67e8f9 !important;
+  }
+
+  .footer__fisch-banner {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1.25rem;
+    background: rgba(34, 211, 238, 0.06);
+    border: 1px solid rgba(34, 211, 238, 0.15);
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .footer__fisch-banner:hover {
+    border-color: rgba(34, 211, 238, 0.35);
+    background: rgba(34, 211, 238, 0.1);
+  }
+
+  .footer__fisch-banner span {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #22D3EE;
+    flex: 1;
+  }
+
+  .footer__fisch-arrow {
+    color: var(--text-dim);
+    flex-shrink: 0;
+    transition: transform 0.2s, color 0.2s;
+  }
+
+  .footer__fisch-banner:hover .footer__fisch-arrow {
+    color: #22D3EE;
+    transform: translateX(3px);
   }
 
   .footer__bottom {
