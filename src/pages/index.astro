@@ -1,7 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
-import GameCard from '../components/GameCard.astro';
 import Footer from '../components/Footer.astro';
 
 interface GameData {
@@ -26,44 +25,26 @@ const allGames = Object.values(gameModules);
 const totalGames = allGames.length;
 const totalCodes = allGames.reduce((sum, g) => sum + g.activeCodes.length, 0);
 
-// Recent 12 for slider
-const recentGames = [...allGames]
-  .sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime())
-  .slice(0, 12);
-
-const recentSlugs = new Set(recentGames.map(g => g.slug));
-
-// Popular 8 (excluding recent to avoid duplication)
-const popularGames = [...allGames]
-  .filter((g) => g.totalVisits && g.totalVisits > 0 && !recentSlugs.has(g.slug))
-  .sort((a, b) => {
-    const aHas = a.activeCodes.length > 0 ? 1 : 0;
-    const bHas = b.activeCodes.length > 0 ? 1 : 0;
-    if (bHas !== aHas) return bHas - aHas;
-    return (b.totalVisits || 0) - (a.totalVisits || 0);
-  })
-  .slice(0, 8);
-
-// All games sorted by lastUpdated
+// All games sorted by lastUpdated (default sort)
 const sortedGames = [...allGames]
   .sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime());
 
-// Categories
-const categories = ['Fighting', 'Simulator', 'Tycoon', 'RPG', 'Racing', 'Tower Defense', 'Adventure', 'Sports'];
+// Extract unique genres sorted by frequency
+const genreCounts: Record<string, number> = {};
+allGames.forEach(g => {
+  if (g.genre) {
+    genreCounts[g.genre] = (genreCounts[g.genre] || 0) + 1;
+  }
+});
+const genres = Object.entries(genreCounts)
+  .sort((a, b) => b[1] - a[1])
+  .map(([genre]) => genre);
 
-const gamesByCategory: Record<string, { name: string; slug: string; thumbnail: string; activeCodes: number; lastUpdated: string }[]> = {};
-for (const cat of categories) {
-  gamesByCategory[cat] = allGames
-    .filter((g) => g.genre && g.genre.toLowerCase().includes(cat.toLowerCase()))
-    .map((g) => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length, lastUpdated: g.lastUpdated }));
-}
-
-// Top games with valid thumbnails for hero
+// Top games with valid thumbnails for hero mosaic
 const topWithThumb = [...allGames]
   .filter((g) => g.totalVisits && g.totalVisits > 0 && g.thumbnail && g.thumbnail.startsWith('https://tr.rbxcdn.com'))
   .sort((a, b) => (b.totalVisits || 0) - (a.totalVisits || 0));
 
-// 80 for dense rotated mosaic (10 cols × 8 rows)
 const mosaicTop = topWithThumb.slice(0, 66);
 const mosaicGames: { thumbnail: string; name: string }[] = [];
 while (mosaicGames.length < 80 && mosaicTop.length > 0) {
@@ -72,21 +53,36 @@ while (mosaicGames.length < 80 && mosaicTop.length > 0) {
     mosaicGames.push({ thumbnail: g.thumbnail, name: g.name });
   }
 }
-const centerIndex = 34; // center of 10×8 grid (row 4, col 5)
+const centerIndex = 34;
 
 // Month label for stats
 const monthLabel = new Date().toLocaleDateString('es-ES', { month: 'long', year: 'numeric' });
 const monthCapital = monthLabel.charAt(0).toUpperCase() + monthLabel.slice(1);
 
+// Initial batch
+const BATCH = 60;
+const initialGames = sortedGames.slice(0, BATCH);
+
 // Search data for JS
 const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length }));
+
+// All games data for JS (filtering/sorting)
+const allGamesData = sortedGames.map(g => ({
+  name: g.name,
+  slug: g.slug,
+  thumbnail: g.thumbnail,
+  activeCodes: g.activeCodes.length,
+  lastUpdated: g.lastUpdated,
+  genre: g.genre || '',
+  totalVisits: g.totalVisits || 0
+}));
 ---
 
 <Layout title="Códigos Gratis para Roblox — Actualizados hoy">
   <Header />
 
   <main class="main">
-    <!-- Hero -->
+    <!-- Hero with mosaic -->
     <section class="hero">
       <div class="hero__mosaic-wrap">
         <div class="hero__mosaic">
@@ -128,79 +124,55 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
       </div>
     </section>
 
-    <!-- Actualizados recientemente — slider -->
-    <section class="section container slider-section">
-      <div class="section__header">
-        <h2 class="section__title"><span class="slider-live"></span> Códigos Actualizados Hoy</h2>
-      </div>
-      <div class="slider-wrap">
-        <button class="slider-arrow slider-arrow--left" id="slider-left" aria-label="Anterior">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-        </button>
-        <div class="slider-track" id="slider-track">
-          {recentGames.map((game) => {
-            const validThumb = game.thumbnail && game.thumbnail.startsWith('https://tr.rbxcdn.com');
-            const date = new Date(game.lastUpdated).toLocaleDateString('es-ES', { day: 'numeric', month: 'short' });
-            return (
-              <a href={`/${game.slug}/`} class="slider-card">
-                <div class="slider-card__img-wrap">
-                  {validThumb ? (
-                    <img src={game.thumbnail} alt={game.name} class="slider-card__img" loading="lazy" />
-                  ) : (
-                    <div class="slider-card__placeholder">
-                      <span class="slider-card__initial">{game.name.charAt(0)}</span>
-                    </div>
-                  )}
-                </div>
-                <div class="slider-card__body">
-                  <h3 class="slider-card__name">{game.name}</h3>
-                  <div class="slider-card__meta">
-                    <span class={`slider-card__badge${game.activeCodes.length === 0 ? ' slider-card__badge--zero' : ''}`}>{game.activeCodes.length} códigos</span>
-                    <span class="slider-card__date">{date}</span>
-                  </div>
-                </div>
-              </a>
-            );
-          })}
-        </div>
-        <button class="slider-arrow slider-arrow--right" id="slider-right" aria-label="Siguiente">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-        </button>
-      </div>
-      <div class="slider-dots" id="slider-dots"></div>
-    </section>
-
-    <!-- Juegos más populares -->
-    {popularGames.length > 0 && (
-      <section class="section container">
-        <div class="section__header">
-          <h2 class="section__title">Códigos de los Juegos Más Populares</h2>
-        </div>
-        <div class="games-grid games-grid--animated">
-          {popularGames.map((game) => (
-            <GameCard
-              name={game.name}
-              slug={game.slug}
-              image={game.thumbnail}
-              activeCodes={game.activeCodes.length}
-              lastUpdated={game.lastUpdated}
-            />
-          ))}
-        </div>
-      </section>
-    )}
-
-    <!-- Buscar por categoría -->
-    <section class="section container">
-      <div class="section__header">
-        <h2 class="section__title">Códigos por Categoría</h2>
-      </div>
-      <div class="categories" id="categories">
-        {categories.map((cat) => (
-          <button class="cat-pill" data-category={cat}>{cat}</button>
+    <!-- Filters + Sort -->
+    <section class="filters container">
+      <div class="genre-pills" id="genre-pills">
+        <button class="pill pill--active" data-genre="all">Todos</button>
+        {genres.map((genre) => (
+          <button class="pill" data-genre={genre}>{genre}</button>
         ))}
       </div>
-      <div id="category-grid" class="games-grid category-grid" style="display:none;"></div>
+      <select class="sort-select" id="sort-select">
+        <option value="latest">Últimos códigos</option>
+        <option value="most-codes">Más códigos</option>
+        <option value="least-codes">Menos códigos</option>
+        <option value="name-az">Nombre A-Z</option>
+        <option value="name-za">Nombre Z-A</option>
+        <option value="most-popular">Más populares</option>
+      </select>
+    </section>
+
+    <!-- Games Grid -->
+    <section class="section container">
+      <p class="showing-count">Mostrando <span id="shown-count">{Math.min(BATCH, totalGames)}</span> de <span id="total-count">{totalGames}</span> juegos</p>
+      <div class="games-grid" id="games-grid">
+        {initialGames.map((game) => {
+          const validThumb = game.thumbnail && game.thumbnail.startsWith('https://tr.rbxcdn.com');
+          return (
+            <a href={`/${game.slug}/`} class="game-card">
+              {validThumb ? (
+                <img src={game.thumbnail} alt={game.name} class="game-card__img" loading="lazy" />
+              ) : (
+                <div class="game-card__img game-card__img--placeholder">
+                  <span>{game.name.charAt(0)}</span>
+                </div>
+              )}
+              <div class="game-card__info">
+                <h3 class="game-card__name">{game.name}</h3>
+                <div class="game-card__meta">
+                  <span class={`game-card__codes${game.activeCodes.length === 0 ? ' game-card__codes--zero' : ''}`}>{game.activeCodes.length} códigos</span>
+                  {game.genre && <span class="game-card__genre">{game.genre}</span>}
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+      {totalGames > BATCH && (
+        <div class="load-more-wrap">
+          <button id="load-more" class="load-more-btn">Cargar más juegos</button>
+        </div>
+      )}
     </section>
 
     <!-- Herramientas -->
@@ -246,42 +218,118 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
         </a>
       </div>
     </section>
-
-    <!-- Todos los juegos -->
-    <section class="section container">
-      <div class="section__header">
-        <h2 class="section__title">Todos los Códigos de Roblox</h2>
-      </div>
-      <div class="games-grid" id="all-games-grid">
-        {sortedGames.slice(0, 20).map((game) => (
-          <GameCard
-            name={game.name}
-            slug={game.slug}
-            image={game.thumbnail}
-            activeCodes={game.activeCodes.length}
-            lastUpdated={game.lastUpdated}
-          />
-        ))}
-      </div>
-      {sortedGames.length > 20 && (
-        <div class="load-more-wrap">
-          <button id="load-more" class="load-more-btn">Cargar más juegos</button>
-        </div>
-      )}
-    </section>
   </main>
 
   <Footer />
 </Layout>
 
-<script define:vars={{ searchData, gamesByCategory, sortedGamesData: sortedGames.map(g => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length, lastUpdated: g.lastUpdated })) }}>
-  // ---- Search ----
-  const searchInput = document.getElementById('hero-search');
-  const searchResults = document.getElementById('search-results');
-
+<script define:vars={{ searchData, allGamesData }}>
+  // ---- Helpers ----
   function getValidThumb(thumb) {
     return thumb && thumb.startsWith('https://tr.rbxcdn.com') ? thumb : null;
   }
+
+  function escapeHtml(str) {
+    return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function createCardHTML(g) {
+    const thumb = getValidThumb(g.thumbnail);
+    const name = escapeHtml(g.name);
+    const imgHtml = thumb
+      ? `<img src="${thumb}" alt="${name}" class="game-card__img" loading="lazy" />`
+      : `<div class="game-card__img game-card__img--placeholder"><span>${name.charAt(0)}</span></div>`;
+    const codesClass = g.activeCodes === 0 ? 'game-card__codes game-card__codes--zero' : 'game-card__codes';
+    const genreHtml = g.genre ? `<span class="game-card__genre">${escapeHtml(g.genre)}</span>` : '';
+    return `<a href="/${g.slug}/" class="game-card">${imgHtml}<div class="game-card__info"><h3 class="game-card__name">${name}</h3><div class="game-card__meta"><span class="${codesClass}">${g.activeCodes} códigos</span>${genreHtml}</div></div></a>`;
+  }
+
+  // ---- State ----
+  let currentGenre = 'all';
+  let currentSort = 'latest';
+  let filteredGames = [...allGamesData];
+  let shown = Math.min(60, filteredGames.length);
+  const BATCH = 60;
+
+  const grid = document.getElementById('games-grid');
+  const loadMoreBtn = document.getElementById('load-more');
+  const shownCount = document.getElementById('shown-count');
+  const totalCount = document.getElementById('total-count');
+
+  // ---- Filter + Sort Logic ----
+  function getFilteredSorted() {
+    let games = currentGenre === 'all'
+      ? [...allGamesData]
+      : allGamesData.filter(g => g.genre === currentGenre);
+
+    switch (currentSort) {
+      case 'latest':
+        games.sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime());
+        break;
+      case 'most-codes':
+        games.sort((a, b) => b.activeCodes - a.activeCodes);
+        break;
+      case 'least-codes':
+        games.sort((a, b) => a.activeCodes - b.activeCodes);
+        break;
+      case 'name-az':
+        games.sort((a, b) => a.name.localeCompare(b.name));
+        break;
+      case 'name-za':
+        games.sort((a, b) => b.name.localeCompare(a.name));
+        break;
+      case 'most-popular':
+        games.sort((a, b) => b.totalVisits - a.totalVisits);
+        break;
+    }
+
+    return games;
+  }
+
+  function renderGrid() {
+    filteredGames = getFilteredSorted();
+    shown = Math.min(BATCH, filteredGames.length);
+    grid.innerHTML = filteredGames.slice(0, shown).map(createCardHTML).join('');
+    updateCounter();
+  }
+
+  function updateCounter() {
+    shownCount.textContent = shown;
+    totalCount.textContent = filteredGames.length;
+    if (loadMoreBtn) {
+      loadMoreBtn.style.display = shown >= filteredGames.length ? 'none' : '';
+    }
+  }
+
+  // ---- Genre Pills ----
+  document.getElementById('genre-pills').addEventListener('click', (e) => {
+    const pill = e.target.closest('.pill');
+    if (!pill) return;
+    document.querySelectorAll('.pill').forEach(p => p.classList.remove('pill--active'));
+    pill.classList.add('pill--active');
+    currentGenre = pill.dataset.genre;
+    renderGrid();
+  });
+
+  // ---- Sort ----
+  document.getElementById('sort-select').addEventListener('change', (e) => {
+    currentSort = e.target.value;
+    renderGrid();
+  });
+
+  // ---- Load More ----
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+      const next = filteredGames.slice(shown, shown + BATCH);
+      grid.insertAdjacentHTML('beforeend', next.map(createCardHTML).join(''));
+      shown += next.length;
+      updateCounter();
+    });
+  }
+
+  // ---- Search ----
+  const searchInput = document.getElementById('hero-search');
+  const searchResults = document.getElementById('search-results');
 
   searchInput.addEventListener('input', () => {
     const q = searchInput.value.trim().toLowerCase();
@@ -304,10 +352,11 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     searchResults.style.display = 'block';
     searchResults.innerHTML = matches.map(g => {
       const thumb = getValidThumb(g.thumbnail);
+      const name = escapeHtml(g.name);
       const imgHtml = thumb
         ? `<img src="${thumb}" alt="" class="sr-item__img" />`
         : `<div class="sr-item__placeholder"></div>`;
-      return `<a href="/${g.slug}/" class="sr-item">${imgHtml}<div class="sr-item__info"><span class="sr-item__name">${g.name}</span><span class="sr-item__codes">${g.activeCodes} códigos</span></div></a>`;
+      return `<a href="/${g.slug}/" class="sr-item">${imgHtml}<div class="sr-item__info"><span class="sr-item__name">${name}</span><span class="sr-item__codes">${g.activeCodes} códigos</span></div></a>`;
     }).join('');
   });
 
@@ -316,155 +365,6 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
       searchResults.style.display = 'none';
     }
   });
-
-  // ---- Categories ----
-  const catButtons = document.querySelectorAll('.cat-pill');
-  const categoryGrid = document.getElementById('category-grid');
-  let activeCategory = null;
-
-  function createCardHTML(g) {
-    const thumb = getValidThumb(g.thumbnail);
-    const date = new Date(g.lastUpdated).toLocaleDateString('es-ES', { day: 'numeric', month: 'short' });
-    const imgHtml = thumb
-      ? `<img src="${thumb}" alt="${g.name}" class="card__img" loading="lazy" />`
-      : `<div class="card__placeholder"><span class="card__placeholder-text">${g.name}</span></div>`;
-    const badgeClass = g.activeCodes === 0 ? 'card__badge card__badge--zero' : 'card__badge';
-    return `<a href="/${g.slug}/" class="card"><div class="card__img-wrap">${imgHtml}</div><div class="card__body"><h2 class="card__name">${g.name}</h2><div class="card__meta"><span class="${badgeClass}">${g.activeCodes} códigos</span><span class="card__date">Actualizado ${date}</span></div></div></a>`;
-  }
-
-  catButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const cat = btn.dataset.category;
-
-      if (activeCategory === cat) {
-        btn.classList.remove('cat-pill--active');
-        categoryGrid.style.display = 'none';
-        categoryGrid.innerHTML = '';
-        activeCategory = null;
-        return;
-      }
-
-      catButtons.forEach(b => b.classList.remove('cat-pill--active'));
-      btn.classList.add('cat-pill--active');
-      activeCategory = cat;
-
-      const games = gamesByCategory[cat] || [];
-      if (games.length === 0) {
-        categoryGrid.style.display = 'block';
-        categoryGrid.innerHTML = '<p class="empty-cat">No hay juegos en esta categoría</p>';
-        return;
-      }
-
-      categoryGrid.style.display = 'grid';
-      categoryGrid.innerHTML = games.map(createCardHTML).join('');
-    });
-  });
-
-  // ---- Slider (Actualizados recientemente) ----
-  const sliderTrack = document.getElementById('slider-track');
-  const sliderLeft = document.getElementById('slider-left');
-  const sliderRight = document.getElementById('slider-right');
-  const sliderDots = document.getElementById('slider-dots');
-
-  if (sliderTrack && sliderLeft && sliderRight && sliderDots) {
-    const cards = sliderTrack.querySelectorAll('.slider-card');
-    const totalCards = cards.length;
-
-    // Calculate visible cards based on viewport
-    function getVisibleCount() {
-      if (window.innerWidth >= 1024) return 4;
-      return 2;
-    }
-
-    // Build dots
-    function buildDots() {
-      const visible = getVisibleCount();
-      const pages = Math.ceil(totalCards / visible);
-      sliderDots.innerHTML = '';
-      for (let i = 0; i < pages; i++) {
-        const dot = document.createElement('button');
-        dot.className = 'slider-dot' + (i === 0 ? ' slider-dot--active' : '');
-        dot.setAttribute('aria-label', 'Página ' + (i + 1));
-        dot.dataset.page = i;
-        sliderDots.appendChild(dot);
-      }
-    }
-    buildDots();
-    window.addEventListener('resize', buildDots);
-
-    function getGap() {
-      if (window.innerWidth >= 1024) return 16;
-      if (window.innerWidth >= 640) return 12;
-      return 10;
-    }
-
-    function updateDots() {
-      const visible = getVisibleCount();
-      const cardW = cards[0].offsetWidth + getGap();
-      const page = Math.round(sliderTrack.scrollLeft / (cardW * visible));
-      sliderDots.querySelectorAll('.slider-dot').forEach(function(d, i) {
-        d.classList.toggle('slider-dot--active', i === page);
-      });
-    }
-
-    function scrollByCards(dir) {
-      const visible = getVisibleCount();
-      const cardW = cards[0].offsetWidth + getGap();
-      sliderTrack.scrollBy({ left: dir * cardW * visible, behavior: 'smooth' });
-    }
-
-    sliderLeft.addEventListener('click', function() { scrollByCards(-1); });
-    sliderRight.addEventListener('click', function() { scrollByCards(1); });
-
-    sliderTrack.addEventListener('scroll', function() {
-      requestAnimationFrame(updateDots);
-    });
-
-    sliderDots.addEventListener('click', function(e) {
-      var dot = e.target.closest('.slider-dot');
-      if (!dot) return;
-      var page = parseInt(dot.dataset.page);
-      var visible = getVisibleCount();
-      var cardW = cards[0].offsetWidth + getGap();
-      sliderTrack.scrollTo({ left: page * cardW * visible, behavior: 'smooth' });
-    });
-
-    // Auto-scroll every 5s, pause on hover
-    var autoInterval;
-    function startAuto() {
-      autoInterval = setInterval(function() {
-        var maxScroll = sliderTrack.scrollWidth - sliderTrack.clientWidth;
-        if (sliderTrack.scrollLeft >= maxScroll - 10) {
-          sliderTrack.scrollTo({ left: 0, behavior: 'smooth' });
-        } else {
-          scrollByCards(1);
-        }
-      }, 5000);
-    }
-    startAuto();
-
-    sliderTrack.addEventListener('mouseenter', function() { clearInterval(autoInterval); });
-    sliderTrack.addEventListener('mouseleave', function() { startAuto(); });
-  }
-
-  // ---- Load More ----
-  const allGamesGrid = document.getElementById('all-games-grid');
-  const loadMoreBtn = document.getElementById('load-more');
-  let shown = 20;
-  const BATCH = 20;
-
-  if (loadMoreBtn) {
-    loadMoreBtn.addEventListener('click', () => {
-      const next = sortedGamesData.slice(shown, shown + BATCH);
-      next.forEach(g => {
-        allGamesGrid.insertAdjacentHTML('beforeend', createCardHTML(g));
-      });
-      shown += next.length;
-      if (shown >= sortedGamesData.length) {
-        loadMoreBtn.style.display = 'none';
-      }
-    });
-  }
 </script>
 
 <style>
@@ -529,7 +429,6 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
   }
 
-  /* Vignette overlay for readability */
   .hero__overlay {
     position: absolute;
     inset: 0;
@@ -568,244 +467,6 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     .hero__title {
       font-size: 2rem;
     }
-  }
-
-  /* ---- Slider (Actualizados recientemente) ---- */
-  .slider-section {
-    position: relative;
-  }
-
-  .slider-live {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #06d6a0;
-    margin-right: 0.35rem;
-    vertical-align: middle;
-    animation: sliderPulse 1.5s ease-in-out infinite;
-  }
-
-  @keyframes sliderPulse {
-    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(6, 214, 160, 0.5); }
-    50% { opacity: 0.7; box-shadow: 0 0 0 6px rgba(6, 214, 160, 0); }
-  }
-
-  .slider-wrap {
-    position: relative;
-  }
-
-  .slider-track {
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    padding: 0.25rem 0;
-  }
-
-  .slider-track::-webkit-scrollbar {
-    display: none;
-  }
-
-  /* Mobile-first: 2 cards visible */
-  .slider-card {
-    flex: 0 0 calc(50% - 5px);
-    scroll-snap-align: start;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    overflow: hidden;
-    text-decoration: none;
-    color: var(--text);
-    transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
-  }
-
-  .slider-card:hover {
-    border-color: #06d6a0;
-    box-shadow: 0 4px 24px rgba(6, 214, 160, 0.18), 0 0 0 1px rgba(6, 214, 160, 0.1);
-    transform: translateY(-3px);
-  }
-
-  .slider-card__img-wrap {
-    height: 140px;
-    overflow: hidden;
-    background: var(--bg-deep);
-  }
-
-  .slider-card__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.35s;
-  }
-
-  .slider-card:hover .slider-card__img {
-    transform: scale(1.07);
-  }
-
-  .slider-card__placeholder {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #1a2236 0%, #0f3460 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .slider-card__initial {
-    font-family: var(--font-display);
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.7);
-  }
-
-  .slider-card__body {
-    padding: 0.6rem 0.65rem;
-  }
-
-  .slider-card__name {
-    font-family: var(--font-display);
-    font-size: 0.875rem;
-    font-weight: 700;
-    margin: 0 0 0.35rem;
-    line-height: 1.3;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .slider-card__meta {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.35rem;
-  }
-
-  .slider-card__badge {
-    font-family: var(--font-display);
-    font-size: 0.6875rem;
-    font-weight: 700;
-    color: #06d6a0;
-    background: rgba(6, 214, 160, 0.12);
-    padding: 0.2rem 0.55rem;
-    border-radius: 9999px;
-    border: 1px solid rgba(6, 214, 160, 0.2);
-  }
-
-  .slider-card__badge--zero {
-    color: var(--text-dim);
-    background: rgba(255, 255, 255, 0.06);
-    border-color: rgba(255, 255, 255, 0.1);
-  }
-
-  .slider-card__date {
-    font-size: 0.6875rem;
-    color: var(--text-dim);
-  }
-
-  /* Slider arrows — mobile-first (small) */
-  .slider-arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 5;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: 1.5px solid rgba(6, 214, 160, 0.4);
-    background: rgba(6, 214, 160, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    color: #06d6a0;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    transition: background 0.25s, border-color 0.25s, box-shadow 0.25s;
-  }
-
-  .slider-arrow svg {
-    width: 16px;
-    height: 16px;
-  }
-
-  .slider-arrow:hover {
-    background: #06d6a0;
-    border-color: #06d6a0;
-    color: #0a0e1a;
-    box-shadow: 0 0 16px rgba(6, 214, 160, 0.3);
-  }
-
-  .slider-arrow--left { left: -2px; }
-  .slider-arrow--right { right: -2px; }
-
-  /* Slider dots — mobile-first (compact) */
-  .slider-dots {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-    margin-top: 0.75rem;
-  }
-
-  .slider-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    border: none;
-    background: rgba(255, 255, 255, 0.2);
-    cursor: pointer;
-    padding: 0;
-    transition: background 0.25s, transform 0.25s;
-  }
-
-  .slider-dot--active {
-    background: #06d6a0;
-    transform: scale(1.3);
-  }
-
-  .slider-dot:hover:not(.slider-dot--active) {
-    background: rgba(255, 255, 255, 0.4);
-  }
-
-  /* Tablet: 2 cards, slightly larger */
-  @media (min-width: 640px) {
-    .slider-track { gap: 0.75rem; }
-    .slider-card {
-      flex: 0 0 calc(50% - 0.375rem);
-      border-radius: 14px;
-    }
-    .slider-card__img-wrap { height: 160px; }
-    .slider-card__body { padding: 0.75rem 0.85rem; }
-    .slider-card__name { font-size: 0.95rem; margin-bottom: 0.4rem; }
-    .slider-card__badge { font-size: 0.72rem; padding: 0.25rem 0.65rem; }
-    .slider-card__date { font-size: 0.72rem; }
-    .slider-arrow { width: 36px; height: 36px; }
-    .slider-arrow svg { width: 17px; height: 17px; }
-    .slider-arrow--left { left: -6px; }
-    .slider-arrow--right { right: -6px; }
-    .slider-dots { gap: 7px; margin-top: 0.85rem; }
-    .slider-dot { width: 7px; height: 7px; }
-  }
-
-  /* Desktop: 4 cards */
-  @media (min-width: 1024px) {
-    .slider-track { gap: 1rem; }
-    .slider-card {
-      flex: 0 0 calc(25% - 0.75rem);
-    }
-    .slider-card__img-wrap { height: auto; aspect-ratio: 16 / 9; }
-    .slider-card__body { padding: 0.875rem 1rem; }
-    .slider-card__name { font-size: 1rem; margin-bottom: 0.5rem; }
-    .slider-arrow { width: 38px; height: 38px; }
-    .slider-arrow svg { width: 18px; height: 18px; }
-    .slider-arrow--left { left: -12px; }
-    .slider-arrow--right { right: -12px; }
-    .slider-dots { gap: 8px; margin-top: 1rem; }
-    .slider-dot { width: 8px; height: 8px; }
   }
 
   @media (max-width: 768px) {
@@ -879,7 +540,6 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     color: #06d6a0;
   }
 
-  /* ---- Search results dropdown ---- */
   .search-results {
     display: none;
     position: absolute;
@@ -896,7 +556,7 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
   }
 
-  /* ---- Stats (inline in hero) ---- */
+  /* ---- Stats ---- */
   .stats {
     display: flex;
     align-items: center;
@@ -921,11 +581,100 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     opacity: 0.4;
   }
 
+  /* ---- Filters Bar ---- */
+  .filters {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-top: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(30, 41, 59, 0.5);
+    margin-bottom: 1rem;
+  }
+
+  .genre-pills {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.25rem;
+  }
+
+  .genre-pills::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pill {
+    flex-shrink: 0;
+    font-family: var(--font-display);
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 0.45rem 1rem;
+    background: transparent;
+    color: var(--text-dim);
+    border: 1.5px solid var(--border);
+    border-radius: 9999px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .pill:hover {
+    border-color: #06d6a0;
+    color: #06d6a0;
+  }
+
+  .pill--active {
+    background: #06d6a0;
+    border-color: #06d6a0;
+    color: #0a0e1a;
+  }
+
+  .sort-select {
+    align-self: flex-start;
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.5rem 2rem 0.5rem 0.85rem;
+    background: var(--bg-card);
+    color: var(--text);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem center;
+    transition: border-color 0.2s;
+  }
+
+  .sort-select:hover,
+  .sort-select:focus {
+    border-color: #06d6a0;
+  }
+
+  @media (min-width: 640px) {
+    .filters {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .genre-pills {
+      flex: 1;
+      min-width: 0;
+    }
+    .sort-select {
+      align-self: center;
+    }
+  }
+
   /* ---- Sections ---- */
   .section {
     margin-bottom: 3rem;
     padding-top: 1rem;
-    border-top: 1px solid rgba(30, 41, 59, 0.5);
   }
 
   .section__header {
@@ -943,51 +692,37 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     border-left: 3px solid #06d6a0;
   }
 
+  /* ---- Showing Count ---- */
+  .showing-count {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    margin-bottom: 1rem;
+  }
+
+  .showing-count span {
+    font-weight: 700;
+    color: #06d6a0;
+  }
+
   /* ---- Games Grid ---- */
   .games-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 10px;
   }
 
   @media (min-width: 640px) {
     .games-grid {
       grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
     }
   }
 
   @media (min-width: 1024px) {
     .games-grid {
       grid-template-columns: repeat(4, 1fr);
-      gap: 1.25rem;
+      gap: 16px;
     }
-  }
-
-  /* ---- Staggered fadeInUp ---- */
-  .games-grid--animated > :global(*) {
-    animation: fadeInUp 0.5s ease-out both;
-  }
-
-  .games-grid--animated > :global(*:nth-child(1)) { animation-delay: 0s; }
-  .games-grid--animated > :global(*:nth-child(2)) { animation-delay: 0.05s; }
-  .games-grid--animated > :global(*:nth-child(3)) { animation-delay: 0.1s; }
-  .games-grid--animated > :global(*:nth-child(4)) { animation-delay: 0.15s; }
-  .games-grid--animated > :global(*:nth-child(5)) { animation-delay: 0.2s; }
-  .games-grid--animated > :global(*:nth-child(6)) { animation-delay: 0.25s; }
-  .games-grid--animated > :global(*:nth-child(7)) { animation-delay: 0.3s; }
-  .games-grid--animated > :global(*:nth-child(8)) { animation-delay: 0.35s; }
-
-  @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(16px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  /* ---- Categories ---- */
-  .categories {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1.25rem;
   }
 
   /* ---- Tools ---- */
@@ -1136,147 +871,107 @@ const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbna
     font-size: 0.85rem;
   }
 
-  /* Category pills */
-  .cat-pill {
-    font-family: var(--font-display);
-    font-size: 0.8rem;
-    font-weight: 700;
-    padding: 0.5rem 1.1rem;
-    background: transparent;
-    color: var(--text-dim);
-    border: 1.5px solid var(--border);
-    border-radius: 9999px;
-    cursor: pointer;
-    transition: all 0.25s;
-  }
-
-  .cat-pill:hover {
-    background: #06d6a0;
-    border-color: #06d6a0;
-    color: #0a0e1a;
-  }
-
-  .cat-pill--active {
-    background: #06d6a0;
-    border-color: #06d6a0;
-    color: #0a0e1a;
-  }
-
-  /* JS-generated cards (category & load-more) */
-  .category-grid .card,
-  #all-games-grid .card {
+  /* JS-generated game cards (for load-more and filter re-renders) */
+  .game-card {
     display: block;
     background: var(--bg-card);
     border: 1px solid var(--border);
-    border-radius: 14px;
+    border-radius: 12px;
     overflow: hidden;
     text-decoration: none;
     color: var(--text);
     transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
   }
 
-  .category-grid .card:hover,
-  #all-games-grid .card:hover {
+  .game-card:hover {
     border-color: #06d6a0;
-    box-shadow: 0 4px 24px rgba(6, 214, 160, 0.18), 0 0 0 1px rgba(6, 214, 160, 0.1);
-    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 4px 20px rgba(6, 214, 160, 0.18), 0 0 0 1px rgba(6, 214, 160, 0.1);
+    transform: translateY(-3px);
   }
 
-  .category-grid .card__img-wrap,
-  #all-games-grid .card__img-wrap {
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-    background: var(--bg-deep);
-    border-radius: 14px 14px 0 0;
-  }
-
-  .category-grid .card__img,
-  #all-games-grid .card__img {
+  .game-card__img {
     width: 100%;
-    height: 100%;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
+    display: block;
+    background: var(--bg-deep);
     transition: transform 0.35s;
   }
 
-  .category-grid .card:hover .card__img,
-  #all-games-grid .card:hover .card__img {
-    transform: scale(1.07);
+  .game-card:hover .game-card__img {
+    transform: scale(1.05);
   }
 
-  .category-grid .card__placeholder,
-  #all-games-grid .card__placeholder {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #1a2236 0%, #0f3460 100%);
+  .game-card__img--placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
-  }
-
-  .category-grid .card__placeholder-text,
-  #all-games-grid .card__placeholder-text {
+    background: linear-gradient(135deg, #1a2236 0%, #0f3460 100%);
     font-family: var(--font-display);
-    font-size: 1.05rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    color: #fff;
-    text-align: center;
-    line-height: 1.2;
-    opacity: 0.9;
+    color: rgba(255, 255, 255, 0.6);
   }
 
-  .category-grid .card__body,
-  #all-games-grid .card__body {
-    padding: 0.875rem 1rem;
+  .game-card__info {
+    padding: 0.6rem 0.65rem;
   }
 
-  .category-grid .card__name,
-  #all-games-grid .card__name {
+  .game-card__name {
     font-family: var(--font-display);
-    font-size: 1rem;
+    font-size: 0.82rem;
     font-weight: 700;
-    margin: 0 0 0.5rem;
+    margin: 0 0 0.3rem;
     line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
-  .category-grid .card__meta,
-  #all-games-grid .card__meta {
+  .game-card__meta {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 0.5rem;
+    flex-wrap: wrap;
+    gap: 0.3rem;
   }
 
-  .category-grid .card__badge,
-  #all-games-grid .card__badge {
+  .game-card__codes {
     font-family: var(--font-display);
-    font-size: 0.72rem;
+    font-size: 0.65rem;
     font-weight: 700;
     color: #06d6a0;
     background: rgba(6, 214, 160, 0.12);
-    padding: 0.25rem 0.7rem;
+    padding: 0.15rem 0.5rem;
     border-radius: 9999px;
     border: 1px solid rgba(6, 214, 160, 0.2);
   }
 
-  .category-grid .card__badge--zero,
-  #all-games-grid .card__badge--zero {
+  .game-card__codes--zero {
     color: var(--text-dim);
     background: rgba(255, 255, 255, 0.06);
     border-color: rgba(255, 255, 255, 0.1);
   }
 
-  .category-grid .card__date,
-  #all-games-grid .card__date {
-    font-size: 0.72rem;
+  .game-card__genre {
+    font-size: 0.62rem;
     color: var(--text-dim);
+    background: rgba(255, 255, 255, 0.06);
+    padding: 0.15rem 0.45rem;
+    border-radius: 9999px;
   }
 
-  .empty-cat {
-    grid-column: 1 / -1;
-    text-align: center;
-    color: var(--text-dim);
-    padding: 2rem 0;
-    font-size: 0.9rem;
+  @media (min-width: 640px) {
+    .game-card__info { padding: 0.7rem 0.75rem; }
+    .game-card__name { font-size: 0.88rem; }
+    .game-card__codes { font-size: 0.68rem; }
+    .game-card__genre { font-size: 0.65rem; }
+  }
+
+  @media (min-width: 1024px) {
+    .game-card__info { padding: 0.75rem 0.85rem; }
+    .game-card__name { font-size: 0.92rem; }
+    .game-card__codes { font-size: 0.7rem; padding: 0.2rem 0.55rem; }
+    .game-card__genre { font-size: 0.67rem; }
   }
 </style>
