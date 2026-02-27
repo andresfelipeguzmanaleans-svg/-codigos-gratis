@@ -10,7 +10,7 @@
     "stock": "1,000",
     "sold": "1,000",
     "cost": 1699,
-    "imageUrl": "https://www.game.guide/images/fisch/Curse-IV-Boat.png",
+    "imageUrl": "/images/boats/curse-iv.png",
     "detailUrl": "https://www.game.guide/curse-iv-value-fisch"
   },
   {
@@ -24,7 +24,7 @@
     "stock": "1,250",
     "sold": "1,250",
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Nocturne-Value-Fisch.png",
+    "imageUrl": "/images/boats/nocturne.png",
     "detailUrl": "https://www.game.guide/nocturne-value-fisch"
   },
   {
@@ -38,7 +38,7 @@
     "stock": "1,500",
     "sold": "1,500",
     "cost": 1899,
-    "imageUrl": "https://www.game.guide/images/fisch/Evangeline-Boat.png",
+    "imageUrl": "/images/boats/evangeline.png",
     "detailUrl": "https://www.game.guide/evangeline-value-fisch"
   },
   {
@@ -52,7 +52,7 @@
     "stock": "1,250",
     "sold": "1,250",
     "cost": 1799,
-    "imageUrl": "https://www.game.guide/images/fisch/Black-Comet-Boat.png",
+    "imageUrl": "/images/boats/black-comet.png",
     "detailUrl": "https://www.game.guide/black-comet-value-fisch"
   },
   {
@@ -66,7 +66,7 @@
     "stock": "1,500",
     "sold": "1,500",
     "cost": 1599,
-    "imageUrl": "https://www.game.guide/images/fisch/Pastel-Impulse-Boat.png",
+    "imageUrl": "/images/boats/pastel-impulse.png",
     "detailUrl": "https://www.game.guide/pastel-impulse-value-fisch"
   },
   {
@@ -80,7 +80,7 @@
     "stock": "1,500",
     "sold": "1,500",
     "cost": 1599,
-    "imageUrl": "https://www.game.guide/images/fisch/Demonwake-Value-Fisch.png",
+    "imageUrl": "/images/boats/demonwake.png",
     "detailUrl": "https://www.game.guide/demonwake-value-fisch"
   },
   {
@@ -94,7 +94,7 @@
     "stock": "2,000",
     "sold": "2,000",
     "cost": 1799,
-    "imageUrl": "https://www.game.guide/images/fisch/Violet-Viper-Boat.png",
+    "imageUrl": "/images/boats/violet-viper.png",
     "detailUrl": "https://www.game.guide/violet-viper-value-fisch"
   },
   {
@@ -108,7 +108,7 @@
     "stock": "1,500",
     "sold": "1,500",
     "cost": 1500,
-    "imageUrl": "https://www.game.guide/images/fisch/Kraken-of-the-Void.png",
+    "imageUrl": "/images/boats/kraken-of-the-void.png",
     "detailUrl": "https://www.game.guide/kraken-of-the-void-value-fisch"
   },
   {
@@ -122,7 +122,7 @@
     "stock": "10,000",
     "sold": "10,000",
     "cost": 2499,
-    "imageUrl": "https://www.game.guide/images/fisch/Curse-III-Boat.png",
+    "imageUrl": "/images/boats/curse-iii.png",
     "detailUrl": "https://www.game.guide/curse-iii-value-fisch"
   },
   {
@@ -136,7 +136,7 @@
     "stock": "1,200",
     "sold": "1,200",
     "cost": 1499,
-    "imageUrl": "https://www.game.guide/images/fisch/Elysian-Jolt-Boat.png",
+    "imageUrl": "/images/boats/elysian-jolt.png",
     "detailUrl": "https://www.game.guide/elysian-jolt-value-fisch"
   },
   {
@@ -150,7 +150,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 869,
-    "imageUrl": "https://www.game.guide/images/fisch/Cuddly-Claw-Boat.png",
+    "imageUrl": "/images/boats/cuddly-claw.png",
     "detailUrl": "https://www.game.guide/cuddly-claw-value-fisch"
   },
   {
@@ -164,7 +164,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Cthulhu-Boat.png",
+    "imageUrl": "/images/boats/cthulhu-boat.png",
     "detailUrl": "https://www.game.guide/cthulhu-boat-value-fisch"
   },
   {
@@ -178,7 +178,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 869,
-    "imageUrl": "https://www.game.guide/images/fisch/Meowmobile-Value-Fisch.png",
+    "imageUrl": "/images/boats/meowmobile.png",
     "detailUrl": "https://www.game.guide/meowmobile-value-fisch"
   },
   {
@@ -192,7 +192,7 @@
     "stock": "5,000",
     "sold": "5,000",
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Pantheress-Boat.png",
+    "imageUrl": "/images/boats/pantheress.png",
     "detailUrl": "https://www.game.guide/pantheress-value-fisch"
   },
   {
@@ -206,7 +206,7 @@
     "stock": "7,500",
     "sold": "6,239",
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Frostbite-Value-Fisch.png",
+    "imageUrl": "/images/boats/frostbite.png",
     "detailUrl": "https://www.game.guide/frostbite-value-fisch"
   },
   {
@@ -220,7 +220,7 @@
     "stock": "7,500",
     "sold": "7,500",
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Nullprawn-Value-Fisch.png",
+    "imageUrl": "/images/boats/nullprawn.png",
     "detailUrl": "https://www.game.guide/nullprawn-value-fisch"
   },
   {
@@ -234,7 +234,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Inky-Pal-Value-Fisch.png",
+    "imageUrl": "/images/boats/inky-pal.png",
     "detailUrl": "https://www.game.guide/inky-pal-value-fisch"
   },
   {
@@ -248,7 +248,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Dreadcurrent-Boat.png",
+    "imageUrl": "/images/boats/dreadcurrent.png",
     "detailUrl": "https://www.game.guide/dreadcurrent-value-fisch"
   },
   {
@@ -262,7 +262,7 @@
     "stock": "Merch",
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Captains-Goldfish-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/captains-goldfish.png",
     "detailUrl": "https://www.game.guide/captains-goldfish-value-fisch"
   },
   {
@@ -276,7 +276,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 869,
-    "imageUrl": "https://www.game.guide/images/fisch/Sushi-Rider-Boat.png",
+    "imageUrl": "/images/boats/sushi-rider.png",
     "detailUrl": "https://www.game.guide/sushi-rider-value-fisch"
   },
   {
@@ -290,7 +290,7 @@
     "stock": "7,500",
     "sold": "7,500",
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Riptide-Value-Fisch.png",
+    "imageUrl": "/images/boats/riptide.png",
     "detailUrl": "https://www.game.guide/riptide-value-fisch"
   },
   {
@@ -304,7 +304,7 @@
     "stock": "1,650",
     "sold": "1,650",
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Dreadmarrow-Boat.png",
+    "imageUrl": "/images/boats/dreadmarrow.png",
     "detailUrl": "https://www.game.guide/dreadmarrow-value-fisch"
   },
   {
@@ -318,7 +318,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Purrari-Boat.png",
+    "imageUrl": "/images/boats/purrari.png",
     "detailUrl": "https://www.game.guide/purrari-value-fisch"
   },
   {
@@ -332,7 +332,7 @@
     "stock": "5,000",
     "sold": null,
     "cost": 2999,
-    "imageUrl": "https://www.game.guide/images/fisch/Volcanic-Speedboat-Boat.png",
+    "imageUrl": "/images/boats/volcanic-speedboat.png",
     "detailUrl": "https://www.game.guide/volcanic-speedboat-value-fisch"
   },
   {
@@ -346,7 +346,7 @@
     "stock": null,
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Phantom-Pawster-Value-Fisch.png",
+    "imageUrl": "/images/boats/phantom-pawster.png",
     "detailUrl": "https://www.game.guide/phantom-pawster-value-fisch"
   },
   {
@@ -360,7 +360,7 @@
     "stock": "15,000",
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Krampus-Curse-Value-Fisch.png",
+    "imageUrl": "/images/boats/krampus-curse.png",
     "detailUrl": "https://www.game.guide/krampus-curse-value-fisch"
   },
   {
@@ -374,7 +374,7 @@
     "stock": "9,000",
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Corruptor-Value-Fisch.png",
+    "imageUrl": "/images/boats/corruptor.png",
     "detailUrl": "https://www.game.guide/corruptor-value-fisch"
   },
   {
@@ -388,7 +388,7 @@
     "stock": null,
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Razorella-Value-Fisch.png",
+    "imageUrl": "/images/boats/razorella.png",
     "detailUrl": "https://www.game.guide/razorella-value-fisch"
   },
   {
@@ -402,7 +402,7 @@
     "stock": "2,500",
     "sold": null,
     "cost": 999,
-    "imageUrl": "https://www.game.guide/images/fisch/Popsicle-Value-Fisch.png",
+    "imageUrl": "/images/boats/popsicle-jetski.png",
     "detailUrl": "https://www.game.guide/popsicle-jetski-value-fisch"
   },
   {
@@ -416,7 +416,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/King-of-the-Kraken-Boat.png",
+    "imageUrl": "/images/boats/king-of-the-kraken.png",
     "detailUrl": "https://www.game.guide/king-of-the-kraken-value-fisch"
   },
   {
@@ -430,7 +430,7 @@
     "stock": null,
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/api/images/fisch/Arteria-Value-Fisch.png",
+    "imageUrl": "/images/boats/arteria.png",
     "detailUrl": "https://www.game.guide/arteria-value-fisch"
   },
   {
@@ -444,7 +444,7 @@
     "stock": "Merch",
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Skygold-Sprinter-Boat.png",
+    "imageUrl": "/images/boats/skygold-sprinter.png",
     "detailUrl": "https://www.game.guide/skygold-sprinter-value-fisch"
   },
   {
@@ -458,7 +458,7 @@
     "stock": "20,000",
     "sold": null,
     "cost": 499,
-    "imageUrl": "https://www.game.guide/api/images/fisch/Orange-Unicycle-Value-Fisch.png",
+    "imageUrl": "/images/boats/orange-unicycle.png",
     "detailUrl": "https://www.game.guide/orange-unicycle-value-fisch"
   },
   {
@@ -472,7 +472,7 @@
     "stock": "15,000",
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Macabre-Mistress-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/macabre-mistress.png",
     "detailUrl": "https://www.game.guide/macabre-mistress-value-fisch"
   },
   {
@@ -486,7 +486,7 @@
     "stock": "10,000",
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Ivorous-Value-Fisch.png",
+    "imageUrl": "/images/boats/ivorous.png",
     "detailUrl": "https://www.game.guide/ivorous-value-fisch"
   },
   {
@@ -500,7 +500,7 @@
     "stock": "Merch",
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Cobalt-Corsair-Boat.png",
+    "imageUrl": "/images/boats/cobalt-corsair.png",
     "detailUrl": "https://www.game.guide/cobalt-corsair-value-fisch"
   },
   {
@@ -514,7 +514,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/api/images/fisch/Coquette-Value-Fisch.png",
+    "imageUrl": "/images/boats/coquette.png",
     "detailUrl": "https://www.game.guide/coquette-value-fisch"
   },
   {
@@ -528,7 +528,7 @@
     "stock": "6,300",
     "sold": "3,879",
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Gleeb-9000-Value-Fisch.png",
+    "imageUrl": "/images/boats/gleeb-9000.png",
     "detailUrl": "https://www.game.guide/gleeb-9000-value-fisch"
   },
   {
@@ -542,7 +542,7 @@
     "stock": null,
     "sold": null,
     "cost": 1499,
-    "imageUrl": "https://www.game.guide/images/fisch/s-more-speedster-value-fisch.png",
+    "imageUrl": "/images/boats/smore-speedster.png",
     "detailUrl": "https://www.game.guide/smore-speedster-value-fisch"
   },
   {
@@ -556,7 +556,7 @@
     "stock": "10,000",
     "sold": null,
     "cost": 2499,
-    "imageUrl": "https://www.game.guide/images/fisch/Celestial-Cruiser-Boat.png",
+    "imageUrl": "/images/boats/celestial-cruiser.png",
     "detailUrl": "https://www.game.guide/celestial-cruiser-value-fisch"
   },
   {
@@ -570,7 +570,7 @@
     "stock": null,
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/api/images/fisch/Arachne-Value-Fisch-obxv.png",
+    "imageUrl": "/images/boats/arachne.png",
     "detailUrl": "https://www.game.guide/arachne-value-fisch"
   },
   {
@@ -584,7 +584,7 @@
     "stock": "15,000",
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Mecha-Ray-Value-Fisch.png",
+    "imageUrl": "/images/boats/mecha-ray.png",
     "detailUrl": "https://www.game.guide/mecha-ray-value-fisch"
   },
   {
@@ -598,7 +598,7 @@
     "stock": "10,000",
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Scorpferno-Value-Fisch.png",
+    "imageUrl": "/images/boats/scorpferno.png",
     "detailUrl": "https://www.game.guide/scorpferno-value-fisch"
   },
   {
@@ -612,7 +612,7 @@
     "stock": "7,500",
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Novaris-Boat.png",
+    "imageUrl": "/images/boats/novaris.png",
     "detailUrl": "https://www.game.guide/novaris-value-fisch"
   },
   {
@@ -626,7 +626,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 869,
-    "imageUrl": "https://www.game.guide/images/fisch/Banana-Cruiser-Value-Fisch.png",
+    "imageUrl": "/images/boats/banana-cruiser.png",
     "detailUrl": "https://www.game.guide/banana-cruiser-value-fisch"
   },
   {
@@ -640,7 +640,7 @@
     "stock": "11,000",
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Nemesis-Value-Fisch.png",
+    "imageUrl": "/images/boats/nemesis.png",
     "detailUrl": "https://www.game.guide/nemesis-value-fisch"
   },
   {
@@ -654,7 +654,7 @@
     "stock": "7,000",
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Thief-of-Time-Value-Fisch.png",
+    "imageUrl": "/images/boats/thief-of-time.png",
     "detailUrl": "https://www.game.guide/thief-of-time-value-fisch"
   },
   {
@@ -668,7 +668,7 @@
     "stock": "15,000",
     "sold": null,
     "cost": 1499,
-    "imageUrl": "https://www.game.guide/images/fisch/Toro-Veloce-Boat.png",
+    "imageUrl": "/images/boats/toro-veloce.png",
     "detailUrl": "https://www.game.guide/toro-veloce-value-fisch"
   },
   {
@@ -682,7 +682,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/api/images/fisch/Midnight-Cruiser-Value-Fisch-1.png",
+    "imageUrl": "/images/boats/midnight-cruiser.png",
     "detailUrl": "https://www.game.guide/midnight-cruiser-value-fisch"
   },
   {
@@ -696,7 +696,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Mega-Seal-Value-Fisch.png",
+    "imageUrl": "/images/boats/mega-seal.png",
     "detailUrl": "https://www.game.guide/mega-seal-value-fisch"
   },
   {
@@ -710,7 +710,7 @@
     "stock": "12,000",
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Gravedigger-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/gravedigger.png",
     "detailUrl": "https://www.game.guide/gravedigger-value-fisch"
   },
   {
@@ -724,7 +724,7 @@
     "stock": "8,000",
     "sold": null,
     "cost": 1599,
-    "imageUrl": "https://www.game.guide/images/fisch/Love-Crasher-Boat.png",
+    "imageUrl": "/images/boats/love-crasher.png",
     "detailUrl": "https://www.game.guide/love-crasher-value-fisch"
   },
   {
@@ -738,7 +738,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 1299,
-    "imageUrl": "https://www.game.guide/images/fisch/Gondola-Boat.png",
+    "imageUrl": "/images/boats/gondola.png",
     "detailUrl": "https://www.game.guide/gondola-value-fisch"
   },
   {
@@ -752,7 +752,7 @@
     "stock": "5,000",
     "sold": null,
     "cost": 2499,
-    "imageUrl": "https://www.game.guide/images/fisch/The-Mawrider-Boat.png",
+    "imageUrl": "/images/boats/the-mawrider.png",
     "detailUrl": "https://www.game.guide/the-mawrider-value-fisch"
   },
   {
@@ -766,7 +766,7 @@
     "stock": "30,000",
     "sold": null,
     "cost": 4499,
-    "imageUrl": "https://www.game.guide/images/fisch/Hollywave-Cruiser-Boat.png",
+    "imageUrl": "/images/boats/hollywave-cruiser.png",
     "detailUrl": "https://www.game.guide/hollywave-cruiser-value-fisch"
   },
   {
@@ -780,7 +780,7 @@
     "stock": "10,000",
     "sold": null,
     "cost": 1799,
-    "imageUrl": "https://www.game.guide/images/fisch/Fishscale-Waverider-Boat.png",
+    "imageUrl": "/images/boats/fishscale-waverider.png",
     "detailUrl": "https://www.game.guide/fishscale-waverider-value-fisch"
   },
   {
@@ -794,7 +794,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Carrot-Hopper-Boat.png",
+    "imageUrl": "/images/boats/carrot-hopper.png",
     "detailUrl": "https://www.game.guide/carrot-hopper-value-fisch"
   },
   {
@@ -808,7 +808,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 1299,
-    "imageUrl": "https://www.game.guide/images/fisch/Bunny-Jetski-Boat.png",
+    "imageUrl": "/images/boats/bunny-jetski.png",
     "detailUrl": "https://www.game.guide/bunny-jetski-value-fisch"
   },
   {
@@ -822,7 +822,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Candy-Crawlie-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/candy-crawlie.png",
     "detailUrl": "https://www.game.guide/candy-crawlie-value-fisch"
   },
   {
@@ -836,7 +836,7 @@
     "stock": "15,000",
     "sold": null,
     "cost": 1999,
-    "imageUrl": "https://www.game.guide/images/fisch/Widows-Veil-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/widows-veil.png",
     "detailUrl": "https://www.game.guide/widows-veil-value-fisch"
   },
   {
@@ -850,7 +850,7 @@
     "stock": "25,000",
     "sold": null,
     "cost": 499,
-    "imageUrl": "https://www.game.guide/images/fisch/Dumbo-Boat.png",
+    "imageUrl": "/images/boats/dumbo.png",
     "detailUrl": "https://www.game.guide/dumbo-value-fisch"
   },
   {
@@ -864,7 +864,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Sharkie-Floatie-Boat.png",
+    "imageUrl": "/images/boats/sharkie-floatie.png",
     "detailUrl": "https://www.game.guide/sharkie-floatie-value-fisch"
   },
   {
@@ -878,7 +878,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/api/images/fisch/Hourglass-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/hourglass-boat.png",
     "detailUrl": "https://www.game.guide/hourglass-boat-value-fisch"
   },
   {
@@ -892,7 +892,7 @@
     "stock": "15,000",
     "sold": null,
     "cost": 1799,
-    "imageUrl": "https://www.game.guide/images/fisch/Atlantean-Jetski-Boat.png",
+    "imageUrl": "/images/boats/atlantean-jetski.png",
     "detailUrl": "https://www.game.guide/atlantean-jetski-value-fisch"
   },
   {
@@ -906,7 +906,7 @@
     "stock": null,
     "sold": null,
     "cost": 599,
-    "imageUrl": "https://www.game.guide/images/fisch/Santas-Jetski-Boat.png",
+    "imageUrl": "/images/boats/santas-jetski.png",
     "detailUrl": "https://www.game.guide/santas-jetski-value-fisch"
   },
   {
@@ -920,7 +920,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/api/images/fisch/Lovebyte-Value-Fisch.png",
+    "imageUrl": "/images/boats/lovebyte.png",
     "detailUrl": "https://www.game.guide/lovebyte-value-fisch"
   },
   {
@@ -934,7 +934,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Pride-of-Fisch-Boat.png",
+    "imageUrl": "/images/boats/pride-of-fisch.png",
     "detailUrl": "https://www.game.guide/pride-of-fisch-value-fisch"
   },
   {
@@ -948,7 +948,7 @@
     "stock": null,
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Evil-Meows-Value-Fisch.png",
+    "imageUrl": "/images/boats/evil-meows.png",
     "detailUrl": "https://www.game.guide/evil-meows-value-fisch"
   },
   {
@@ -962,7 +962,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 399,
-    "imageUrl": "https://www.game.guide/images/fisch/majestys-wand.png",
+    "imageUrl": "/images/boats/majestys-wand.png",
     "detailUrl": "https://www.game.guide/majestys-wand-value-fisch"
   },
   {
@@ -976,7 +976,7 @@
     "stock": null,
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/api/images/fisch/Mourning-Bloom-Value-Fisch-0o93.png",
+    "imageUrl": "/images/boats/mourning-bloom.png",
     "detailUrl": "https://www.game.guide/mourning-bloom-value-fisch"
   },
   {
@@ -990,7 +990,7 @@
     "stock": null,
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Angelic-Meows-Value-Fisch.png",
+    "imageUrl": "/images/boats/angelic-meows.png",
     "detailUrl": "https://www.game.guide/angelic-meows-value-fisch"
   },
   {
@@ -1004,7 +1004,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Flipper-Express-Value-Fisch.png",
+    "imageUrl": "/images/boats/flipper-express.png",
     "detailUrl": "https://www.game.guide/flipper-express-value-fisch"
   },
   {
@@ -1018,7 +1018,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/midas-spirit.png",
+    "imageUrl": "/images/boats/midas-spirit.png",
     "detailUrl": "https://www.game.guide/midas-spirit-value-fisch"
   },
   {
@@ -1032,7 +1032,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Little-Boo-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/little-boo.png",
     "detailUrl": "https://www.game.guide/little-boo-value-fisch"
   },
   {
@@ -1046,7 +1046,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Whaleski-Boat.png",
+    "imageUrl": "/images/boats/whaleski.png",
     "detailUrl": "https://www.game.guide/whaleski-value-fisch"
   },
   {
@@ -1060,7 +1060,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Guardian-of-Atlantis-Boat.png",
+    "imageUrl": "/images/boats/guardian-of-atlantis.png",
     "detailUrl": "https://www.game.guide/guardian-of-atlantis-value-fisch"
   },
   {
@@ -1074,7 +1074,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Loot-Rider-Boat.png",
+    "imageUrl": "/images/boats/loot-rider.png",
     "detailUrl": "https://www.game.guide/loot-rider-value-fisch"
   },
   {
@@ -1088,7 +1088,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Mr-Thankful-Value-Fisch.png",
+    "imageUrl": "/images/boats/mr-thankful.png",
     "detailUrl": "https://www.game.guide/mr-thankful-value-fisch"
   },
   {
@@ -1102,7 +1102,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Mummy-Puppy-Value-Fisch.png",
+    "imageUrl": "/images/boats/mummy-puppy.png",
     "detailUrl": "https://www.game.guide/mummy-puppy-value-fisch"
   },
   {
@@ -1116,7 +1116,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Pengu-Value-Fisch.png",
+    "imageUrl": "/images/boats/pengu.png",
     "detailUrl": "https://www.game.guide/pengu-value-fisch"
   },
   {
@@ -1130,7 +1130,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Axofloatie-Value-Fisch.png",
+    "imageUrl": "/images/boats/axofloatie.png",
     "detailUrl": "https://www.game.guide/axofloatie-value-fisch"
   },
   {
@@ -1144,7 +1144,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/red-racer.png",
     "detailUrl": "https://www.game.guide/red-racer-value-fisch"
   },
   {
@@ -1158,7 +1158,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Waffle-Boat.png",
+    "imageUrl": "/images/boats/waffle.png",
     "detailUrl": "https://www.game.guide/waffle-value-fisch"
   },
   {
@@ -1172,7 +1172,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Chilly-Cub-Value-Fisch.png",
+    "imageUrl": "/images/boats/chilly-cub.png",
     "detailUrl": "https://www.game.guide/chilly-cub-value-fisch"
   },
   {
@@ -1186,7 +1186,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Cozy-Sled-Value-Fisch.png",
+    "imageUrl": "/images/boats/cozy-sled.png",
     "detailUrl": "https://www.game.guide/cozy-sled-value-fisch"
   },
   {
@@ -1200,7 +1200,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Head-of-Cthulu-Boat.png",
+    "imageUrl": "/images/boats/head-of-cthulu.png",
     "detailUrl": "https://www.game.guide/head-of-cthulu-value-fisch"
   },
   {
@@ -1214,7 +1214,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 869,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/sunny-ducky.png",
     "detailUrl": "https://www.game.guide/sunny-ducky-value-fisch"
   },
   {
@@ -1228,7 +1228,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Tubert-Beetle-Value-Fisch.png",
+    "imageUrl": "/images/boats/tubert-beetle.png",
     "detailUrl": "https://www.game.guide/tubert-beetle-value-fisch"
   },
   {
@@ -1242,7 +1242,7 @@
     "stock": null,
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/api/images/fisch/Lovely-Locket-Value-Fisch.png",
+    "imageUrl": "/images/boats/lovely-locket.png",
     "detailUrl": "https://www.game.guide/lovely-locket-value-fisch"
   },
   {
@@ -1256,7 +1256,7 @@
     "stock": null,
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/api/images/fisch/Lovely-Key-Value-Fisch.png",
+    "imageUrl": "/images/boats/lovely-key.png",
     "detailUrl": "https://www.game.guide/lovely-key-value-fisch"
   },
   {
@@ -1270,7 +1270,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/midas-shears.png",
+    "imageUrl": "/images/boats/midas-shears.png",
     "detailUrl": "https://www.game.guide/midas-shears-value-fisch"
   },
   {
@@ -1284,7 +1284,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/spirit-of-the-depths.png",
+    "imageUrl": "/images/boats/spirit-of-the-depths.png",
     "detailUrl": "https://www.game.guide/spirit-of-the-depths-value-fisch"
   },
   {
@@ -1298,7 +1298,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Mosslurker-Boat.png",
+    "imageUrl": "/images/boats/mosslurker-boat.png",
     "detailUrl": "https://www.game.guide/mosslurker-boat-value-fisch"
   },
   {
@@ -1312,7 +1312,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Molten-Jetski-Boat.png",
+    "imageUrl": "/images/boats/molten-jetski.png",
     "detailUrl": "https://www.game.guide/molten-jetski-value-fisch"
   },
   {
@@ -1326,7 +1326,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Nessie-Nomad-Boat.png",
+    "imageUrl": "/images/boats/nessie-nomad.png",
     "detailUrl": "https://www.game.guide/nessie-nomad-value-fisch"
   },
   {
@@ -1340,7 +1340,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/holiday-steampunk-ship.png",
     "detailUrl": "https://www.game.guide/holiday-steampunk-ship-value-fisch"
   },
   {
@@ -1354,7 +1354,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Jet-Boat.png",
+    "imageUrl": "/images/boats/fisch-jet.png",
     "detailUrl": "https://www.game.guide/fisch-jet-value-fisch"
   },
   {
@@ -1368,7 +1368,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/blue-cat.png",
     "detailUrl": "https://www.game.guide/blue-cat-value-fisch"
   },
   {
@@ -1382,7 +1382,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/dead-fish-express.png",
     "detailUrl": "https://www.game.guide/dead-fish-express-value-fisch"
   },
   {
@@ -1396,7 +1396,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Lotus-Value-Fisch.png",
+    "imageUrl": "/images/boats/lotus.png",
     "detailUrl": "https://www.game.guide/lotus-value-fisch"
   },
   {
@@ -1410,7 +1410,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Reef-Ripper-Boat.png",
+    "imageUrl": "/images/boats/reef-ripper.png",
     "detailUrl": "https://www.game.guide/reef-ripper-value-fisch"
   },
   {
@@ -1424,7 +1424,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/midas-lagoon.png",
+    "imageUrl": "/images/boats/midas-lagoon.png",
     "detailUrl": "https://www.game.guide/midas-lagoon-value-fisch"
   },
   {
@@ -1438,7 +1438,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/eternal-marlin.png",
+    "imageUrl": "/images/boats/eternal-marlin.png",
     "detailUrl": "https://www.game.guide/eternal-marlin-value-fisch"
   },
   {
@@ -1452,7 +1452,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/spirit-seeker.png",
+    "imageUrl": "/images/boats/spirit-seeker.png",
     "detailUrl": "https://www.game.guide/spirit-seeker-value-fisch"
   },
   {
@@ -1466,7 +1466,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/snowmobile-jetski.png",
     "detailUrl": "https://www.game.guide/snowmobile-jetski-value-fisch"
   },
   {
@@ -1480,7 +1480,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/fishbowl.png",
     "detailUrl": "https://www.game.guide/fishbowl-value-fisch"
   },
   {
@@ -1494,7 +1494,7 @@
     "stock": null,
     "sold": null,
     "cost": 1899,
-    "imageUrl": "https://www.game.guide/images/fisch/Lions-Fury-Value-Fisch.png",
+    "imageUrl": "/images/boats/lions-fury.png",
     "detailUrl": "https://www.game.guide/lions-fury-value-fisch"
   },
   {
@@ -1508,7 +1508,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/fischmas-jetski.png",
     "detailUrl": "https://www.game.guide/fischmas-jetski-value-fisch"
   },
   {
@@ -1522,7 +1522,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Sleepy-Bear-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/sleepy-bear.png",
     "detailUrl": "https://www.game.guide/sleepy-bear-value-fisch"
   },
   {
@@ -1536,7 +1536,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/mighty-magma.png",
+    "imageUrl": "/images/boats/mighty-magma.png",
     "detailUrl": "https://www.game.guide/mighty-magma-value-fisch"
   },
   {
@@ -1550,7 +1550,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Sunflower-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/sunflower.png",
     "detailUrl": "https://www.game.guide/sunflower-value-fisch"
   },
   {
@@ -1564,7 +1564,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/silent-speeder.png",
     "detailUrl": "https://www.game.guide/silent-speeder-value-fisch"
   },
   {
@@ -1578,7 +1578,7 @@
     "stock": "15,000",
     "sold": null,
     "cost": 1499,
-    "imageUrl": "https://www.game.guide/images/fisch/Lucky-Racer-Value-Fisch.png",
+    "imageUrl": "/images/boats/lucky-racer.png",
     "detailUrl": "https://www.game.guide/lucky-racer-value-fisch"
   },
   {
@@ -1592,7 +1592,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Flying-Dutchman-Boat-Value-in-Fisch.png",
+    "imageUrl": "/images/boats/dutchmans-spirit.png",
     "detailUrl": "https://www.game.guide/dutchmans-spirit-value-fisch"
   },
   {
@@ -1606,7 +1606,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/eternal-ghoul.png",
+    "imageUrl": "/images/boats/eternal-ghoul.png",
     "detailUrl": "https://www.game.guide/eternal-ghoul-value-fisch"
   },
   {
@@ -1620,7 +1620,7 @@
     "stock": null,
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/dreamers-redemption.png",
     "detailUrl": "https://www.game.guide/dreamers-redemption-value-fisch"
   },
   {
@@ -1634,7 +1634,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Witchs-Broom-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/witchs-broom.png",
     "detailUrl": "https://www.game.guide/witchs-broom-value-fisch"
   },
   {
@@ -1648,7 +1648,7 @@
     "stock": "Unlimited",
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Warp-Star-Boat.png",
+    "imageUrl": "/images/boats/warp-star.png",
     "detailUrl": "https://www.game.guide/warp-star-value-fisch"
   },
   {
@@ -1662,7 +1662,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/violet-kraken.png",
+    "imageUrl": "/images/boats/violet-kraken.png",
     "detailUrl": "https://www.game.guide/violet-kraken-value-fisch"
   },
   {
@@ -1676,7 +1676,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/serpent-cruiser.png",
     "detailUrl": "https://www.game.guide/serpent-cruiser-value-fisch"
   },
   {
@@ -1690,7 +1690,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/fischmas-speedboat.png",
     "detailUrl": "https://www.game.guide/fischmas-speedboat-value-fisch"
   },
   {
@@ -1704,7 +1704,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/red-carbon.png",
+    "imageUrl": "/images/boats/red-carbon.png",
     "detailUrl": "https://www.game.guide/red-carbon-value-fisch"
   },
   {
@@ -1718,7 +1718,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/tri-brick-rider.png",
     "detailUrl": "https://www.game.guide/tri-brick-rider-value-fisch"
   },
   {
@@ -1732,7 +1732,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/leviathans-trident.png",
+    "imageUrl": "/images/boats/leviathans-trident.png",
     "detailUrl": "https://www.game.guide/leviathans-trident-value-fisch"
   },
   {
@@ -1746,7 +1746,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Easter-Basket-Boat.png",
+    "imageUrl": "/images/boats/easter-basket.png",
     "detailUrl": "https://www.game.guide/easter-basket-value-fisch"
   },
   {
@@ -1760,7 +1760,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/white-blade.png",
+    "imageUrl": "/images/boats/white-blade.png",
     "detailUrl": "https://www.game.guide/white-blade-value-fisch"
   },
   {
@@ -1774,7 +1774,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/eldritch-sovereign.png",
+    "imageUrl": "/images/boats/eldritch-sovereign.png",
     "detailUrl": "https://www.game.guide/eldritch-sovereign-value-fisch"
   },
   {
@@ -1788,7 +1788,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Reborn-Flying-Dutchman-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/reborn-flying-dutchman.png",
     "detailUrl": "https://www.game.guide/reborn-flying-dutchman-value-fisch"
   },
   {
@@ -1802,7 +1802,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Cthulus-Cranium-Boat.png",
+    "imageUrl": "/images/boats/cthulus-cranium.png",
     "detailUrl": "https://www.game.guide/cthulus-cranium-value-fisch"
   },
   {
@@ -1816,7 +1816,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/soul-of-scylla.png",
+    "imageUrl": "/images/boats/soul-of-scylla.png",
     "detailUrl": "https://www.game.guide/soul-of-scylla-value-fisch"
   },
   {
@@ -1830,7 +1830,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/flying-dutchman.png",
     "detailUrl": "https://www.game.guide/flying-dutchman-value-fisch"
   },
   {
@@ -1844,7 +1844,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Driftblub-Boat.png",
+    "imageUrl": "/images/boats/driftblub.png",
     "detailUrl": "https://www.game.guide/driftblub-value-fisch"
   },
   {
@@ -1858,7 +1858,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/desolate-dragon.png",
     "detailUrl": "https://www.game.guide/desolate-dragon-value-fisch"
   },
   {
@@ -1872,7 +1872,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/stormbringer.png",
+    "imageUrl": "/images/boats/stormbringer.png",
     "detailUrl": "https://www.game.guide/stormbringer-value-fisch"
   },
   {
@@ -1886,7 +1886,7 @@
     "stock": null,
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Atlantean-Quacker-Boat.png",
+    "imageUrl": "/images/boats/atlantean-quacker.png",
     "detailUrl": "https://www.game.guide/atlantean-quacker-value-fisch"
   },
   {
@@ -1900,7 +1900,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/sleigh.png",
     "detailUrl": "https://www.game.guide/sleigh-value-fisch"
   },
   {
@@ -1914,7 +1914,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/anchor-of-the-sleeper.png",
+    "imageUrl": "/images/boats/anchor-of-the-sleeper.png",
     "detailUrl": "https://www.game.guide/anchor-of-the-sleeper-value-fisch"
   },
   {
@@ -1928,7 +1928,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Evil-Quacker-Boat.png",
+    "imageUrl": "/images/boats/evil-quacker.png",
     "detailUrl": "https://www.game.guide/evil-quacker-value-fisch"
   },
   {
@@ -1942,7 +1942,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/stormbreaker-trident.png",
+    "imageUrl": "/images/boats/stormbreaker-trident.png",
     "detailUrl": "https://www.game.guide/stormbreaker-trident-value-fisch"
   },
   {
@@ -1956,7 +1956,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/ss-tuskhorn.png",
     "detailUrl": "https://www.game.guide/ss-tuskhorn-value-fisch"
   },
   {
@@ -1970,7 +1970,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/clawberus.png",
     "detailUrl": "https://www.game.guide/clawberus-value-fisch"
   },
   {
@@ -1984,7 +1984,7 @@
     "stock": null,
     "sold": null,
     "cost": 899,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/kings-throne.png",
     "detailUrl": "https://www.game.guide/kings-throne-value-fisch"
   },
   {
@@ -1998,7 +1998,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/irish-jig.png",
     "detailUrl": "https://www.game.guide/irish-jig-value-fisch"
   },
   {
@@ -2012,7 +2012,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/vintage-hatchboat.png",
     "detailUrl": "https://www.game.guide/vintage-hatchboat-value-fisch"
   },
   {
@@ -2026,7 +2026,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/bloop-boat.png",
     "detailUrl": "https://www.game.guide/bloop-boat-value-fisch"
   },
   {
@@ -2040,7 +2040,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/sea-pegasus.png",
     "detailUrl": "https://www.game.guide/sea-pegasus-value-fisch"
   },
   {
@@ -2054,7 +2054,7 @@
     "stock": null,
     "sold": null,
     "cost": 899,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/orca-boat.png",
     "detailUrl": "https://www.game.guide/orca-boat-value-fisch"
   },
   {
@@ -2068,7 +2068,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/silent-zenith.png",
+    "imageUrl": "/images/boats/silent-zenith.png",
     "detailUrl": "https://www.game.guide/silent-zenith-value-fisch"
   },
   {
@@ -2082,7 +2082,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/ocean-monarch.png",
+    "imageUrl": "/images/boats/ocean-monarch.png",
     "detailUrl": "https://www.game.guide/ocean-monarch-value-fisch"
   },
   {
@@ -2096,7 +2096,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/fallen-angel.png",
+    "imageUrl": "/images/boats/fallen-angel.png",
     "detailUrl": "https://www.game.guide/fallen-angel-value-fisch"
   },
   {
@@ -2110,7 +2110,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/neptunes-demand.png",
+    "imageUrl": "/images/boats/neptunes-demand.png",
     "detailUrl": "https://www.game.guide/neptunes-demand-value-fisch"
   },
   {
@@ -2124,7 +2124,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/swan-boat.png",
     "detailUrl": "https://www.game.guide/swan-boat-value-fisch"
   },
   {
@@ -2138,7 +2138,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/crowned-glory.png",
+    "imageUrl": "/images/boats/crowned-glory.png",
     "detailUrl": "https://www.game.guide/crowned-glory-value-fisch"
   },
   {
@@ -2152,7 +2152,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Sandslasher-Boat.png",
+    "imageUrl": "/images/boats/sandslasher-boat.png",
     "detailUrl": "https://www.game.guide/sandslasher-boat-value-fisch"
   },
   {
@@ -2166,7 +2166,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/reindeer-cruiser.png",
     "detailUrl": "https://www.game.guide/reindeer-cruiser-value-fisch"
   },
   {
@@ -2180,7 +2180,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/frostledge.png",
+    "imageUrl": "/images/boats/frostledge.png",
     "detailUrl": "https://www.game.guide/frostledge-value-fisch"
   },
   {
@@ -2194,7 +2194,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/phantom-ghoul.png",
+    "imageUrl": "/images/boats/phantom-ghoul.png",
     "detailUrl": "https://www.game.guide/phantom-ghoul-value-fisch"
   },
   {
@@ -2208,7 +2208,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/curser-banner-ship.png",
     "detailUrl": "https://www.game.guide/curser-banner-ship-value-fisch"
   },
   {
@@ -2222,7 +2222,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/crimson-crystal.png",
+    "imageUrl": "/images/boats/crimson-crystal.png",
     "detailUrl": "https://www.game.guide/crimson-crystal-value-fisch"
   },
   {
@@ -2236,7 +2236,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/dark-monarch.png",
+    "imageUrl": "/images/boats/dark-monarch.png",
     "detailUrl": "https://www.game.guide/dark-monarch-value-fisch"
   },
   {
@@ -2250,7 +2250,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/depths-darkness.png",
+    "imageUrl": "/images/boats/depths-darkness.png",
     "detailUrl": "https://www.game.guide/depths-darkness-value-fisch"
   },
   {
@@ -2264,7 +2264,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/driftwood-voyager.png",
+    "imageUrl": "/images/boats/driftwood-voyager.png",
     "detailUrl": "https://www.game.guide/driftwood-voyager-value-fisch"
   },
   {
@@ -2278,7 +2278,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/nebula.png",
+    "imageUrl": "/images/boats/nebula.png",
     "detailUrl": "https://www.game.guide/nebula-value-fisch"
   },
   {
@@ -2292,7 +2292,7 @@
     "stock": null,
     "sold": null,
     "cost": 20000,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/archaeological-boat.png",
     "detailUrl": "https://www.game.guide/archaeological-boat-value-fisch"
   },
   {
@@ -2306,7 +2306,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/lunar-halo.png",
+    "imageUrl": "/images/boats/lunar-halo.png",
     "detailUrl": "https://www.game.guide/lunar-halo-value-fisch"
   },
   {
@@ -2320,7 +2320,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/thornspike-branch.png",
+    "imageUrl": "/images/boats/thornspike-branch.png",
     "detailUrl": "https://www.game.guide/thornspike-branch-value-fisch"
   },
   {
@@ -2334,7 +2334,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/coral-champion.png",
+    "imageUrl": "/images/boats/coral-champion.png",
     "detailUrl": "https://www.game.guide/coral-champion-value-fisch"
   },
   {
@@ -2348,7 +2348,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/celestial-aurora.png",
+    "imageUrl": "/images/boats/celestial-aurora.png",
     "detailUrl": "https://www.game.guide/celestial-aurora-value-fisch"
   },
   {
@@ -2362,7 +2362,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Arctic-Explorer-Boat.png",
+    "imageUrl": "/images/boats/arctic-explorer.png",
     "detailUrl": "https://www.game.guide/arctic-explorer-value-fisch"
   },
   {
@@ -2376,7 +2376,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/cursed-rowboat.png",
     "detailUrl": "https://www.game.guide/cursed-rowboat-value-fisch"
   },
   {
@@ -2390,7 +2390,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/emberlight.png",
+    "imageUrl": "/images/boats/emberlight.png",
     "detailUrl": "https://www.game.guide/emberlight-value-fisch"
   },
   {
@@ -2404,7 +2404,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/nessies-revelation.png",
+    "imageUrl": "/images/boats/nessies-revelation.png",
     "detailUrl": "https://www.game.guide/nessies-revelation-value-fisch"
   },
   {
@@ -2418,7 +2418,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/sages-staff.png",
+    "imageUrl": "/images/boats/sages-staff.png",
     "detailUrl": "https://www.game.guide/sages-staff-value-fisch"
   },
   {
@@ -2432,7 +2432,7 @@
     "stock": null,
     "sold": null,
     "cost": 1899,
-    "imageUrl": "https://www.game.guide/images/fisch/Scarlet-Pirate-Ship.png",
+    "imageUrl": "/images/boats/scarlet-pirate-ship.png",
     "detailUrl": "https://www.game.guide/scarlet-pirate-ship-value-fisch"
   },
   {
@@ -2446,7 +2446,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/sunken-relic.png",
+    "imageUrl": "/images/boats/sunken-relic.png",
     "detailUrl": "https://www.game.guide/sunken-relic-value-fisch"
   },
   {
@@ -2460,7 +2460,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Jungle-Explorer-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/jungle-explorer-boat.png",
     "detailUrl": "https://www.game.guide/jungle-explorer-boat-value-fisch"
   },
   {
@@ -2474,7 +2474,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Fisch-Boat-Placeholder.png",
+    "imageUrl": "/images/boats/coral-cruiser.png",
     "detailUrl": "https://www.game.guide/coral-cruiser-value-fisch"
   },
   {
@@ -2488,7 +2488,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/abyssal-wreck.png",
+    "imageUrl": "/images/boats/abyssal-wreck.png",
     "detailUrl": "https://www.game.guide/abyssal-wreck-value-fisch"
   },
   {
@@ -2502,7 +2502,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/volcanos-maw.png",
+    "imageUrl": "/images/boats/volcanos-maw.png",
     "detailUrl": "https://www.game.guide/volcanos-maw-value-fisch"
   },
   {
@@ -2516,7 +2516,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/the-lost-relic.png",
+    "imageUrl": "/images/boats/the-lost-relic.png",
     "detailUrl": "https://www.game.guide/the-lost-relic-value-fisch"
   },
   {
@@ -2530,7 +2530,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/archers-mark.png",
+    "imageUrl": "/images/boats/archers-mark.png",
     "detailUrl": "https://www.game.guide/archers-mark-value-fisch"
   },
   {
@@ -2544,7 +2544,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/polar.png",
+    "imageUrl": "/images/boats/polar.png",
     "detailUrl": "https://www.game.guide/polar-value-fisch"
   },
   {
@@ -2558,7 +2558,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/The-Essex-Boat.png",
+    "imageUrl": "/images/boats/the-essex-boat.png",
     "detailUrl": "https://www.game.guide/the-essex-boat-value-fisch"
   },
   {
@@ -2572,7 +2572,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Explorer-Diving-Boat.png",
+    "imageUrl": "/images/boats/explorer-diving-boat.png",
     "detailUrl": "https://www.game.guide/explorer-diving-boat-value-fisch"
   },
   {
@@ -2586,7 +2586,7 @@
     "stock": null,
     "sold": null,
     "cost": 5000000,
-    "imageUrl": "https://www.game.guide/images/fisch/A-Rock-Value-Fisch.png",
+    "imageUrl": "/images/boats/a-rock.png",
     "detailUrl": "https://www.game.guide/a-rock-value-fisch"
   },
   {
@@ -2600,7 +2600,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Whale-Shark-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/whale-shark-boat.png",
     "detailUrl": "https://www.game.guide/whale-shark-boat-value-fisch"
   },
   {
@@ -2614,7 +2614,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Brick-Value-Fisch.png",
+    "imageUrl": "/images/boats/brick.png",
     "detailUrl": "https://www.game.guide/brick-value-fisch"
   },
   {
@@ -2628,7 +2628,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/lumpy-boghopper.png",
+    "imageUrl": "/images/boats/lumpy-boghopper.png",
     "detailUrl": "https://www.game.guide/lumpy-boghopper-value-fisch"
   },
   {
@@ -2642,7 +2642,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/foragers-twig.png",
+    "imageUrl": "/images/boats/foragers-twig.png",
     "detailUrl": "https://www.game.guide/foragers-twig-value-fisch"
   },
   {
@@ -2656,7 +2656,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/glowtail-branch.png",
+    "imageUrl": "/images/boats/glowtail-branch.png",
     "detailUrl": "https://www.game.guide/glowtail-branch-value-fisch"
   },
   {
@@ -2670,7 +2670,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/petalwork-stem.png",
+    "imageUrl": "/images/boats/petalwork-stem.png",
     "detailUrl": "https://www.game.guide/petalwork-stem-value-fisch"
   },
   {
@@ -2684,7 +2684,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/pathfinders-grip.png",
+    "imageUrl": "/images/boats/pathfinders-grip.png",
     "detailUrl": "https://www.game.guide/pathfinders-grip-value-fisch"
   },
   {
@@ -2698,7 +2698,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Dr-Glimmerfins-Boat.png",
+    "imageUrl": "/images/boats/dr-glimmerfins-boat.png",
     "detailUrl": "https://www.game.guide/dr-glimmerfins-boat-value-fisch"
   },
   {
@@ -2712,7 +2712,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Lucky-Pot-Boat.png",
+    "imageUrl": "/images/boats/lucky-pot.png",
     "detailUrl": "https://www.game.guide/lucky-pot-value-fisch"
   },
   {
@@ -2726,7 +2726,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Holiday-Themed-Speedboat.png",
+    "imageUrl": "/images/boats/holiday-themed-speedboat.png",
     "detailUrl": "https://www.game.guide/holiday-themed-speedboat-value-fisch"
   },
   {
@@ -2740,7 +2740,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/snowman-boat-value-fisch.png",
+    "imageUrl": "/images/boats/snowman-boat.png",
     "detailUrl": "https://www.game.guide/snowman-boat-value-fisch"
   },
   {
@@ -2754,7 +2754,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Witchs-Pot-Boat-Value-Fisch.png",
+    "imageUrl": "/images/boats/witchs-pot.png",
     "detailUrl": "https://www.game.guide/witchs-pot-value-fisch"
   },
   {
@@ -2768,7 +2768,7 @@
     "stock": null,
     "sold": null,
     "cost": null,
-    "imageUrl": "https://www.game.guide/images/fisch/Rowboat-Value-Fisch.png",
+    "imageUrl": "/images/boats/rowboat.png",
     "detailUrl": "https://www.game.guide/rowboat-value-fisch"
   },
   {
@@ -2782,7 +2782,7 @@
     "stock": null,
     "sold": null,
     "cost": 799,
-    "imageUrl": "https://www.game.guide/images/fisch/Burger-Buggy-Value-Fisch.png",
+    "imageUrl": "/images/boats/burger-buggy.png",
     "detailUrl": "https://www.game.guide/burger-buggy-value-fisch"
   }
 ]
