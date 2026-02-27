@@ -613,12 +613,23 @@ const narrative = parts.join('');
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 800px;
   }
 
   .fish-detail__img-large {
     max-width: 100%;
     max-height: 200px;
     object-fit: contain;
+    animation: fish-spin 8s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+    filter: drop-shadow(0 0 12px rgba(34, 211, 238, 0.15));
+  }
+
+  @keyframes fish-spin {
+    0%   { transform: rotateY(0deg)   scale(1);    filter: drop-shadow(0 0 12px rgba(34, 211, 238, 0.15)); }
+    25%  { transform: rotateY(90deg)  scale(1.05); filter: drop-shadow(0 0 20px rgba(34, 211, 238, 0.3)); }
+    50%  { transform: rotateY(180deg) scale(1);    filter: drop-shadow(0 0 12px rgba(34, 211, 238, 0.15)); }
+    75%  { transform: rotateY(270deg) scale(1.05); filter: drop-shadow(0 0 20px rgba(34, 211, 238, 0.3)); }
+    100% { transform: rotateY(360deg) scale(1);    filter: drop-shadow(0 0 12px rgba(34, 211, 238, 0.15)); }
   }
 
   .fish-detail__img-placeholder {
