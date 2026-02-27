@@ -120,6 +120,16 @@ const rarityColors: Record<string, { bg: string; border: string; text: string }>
 };
 const rc = rarityColors[fish.rarity] || { bg: '#ffffff10', border: '#ffffff40', text: '#e8eaf0' };
 
+// Rarity → visual theme
+const rarityTheme: Record<string, string> = {
+  'Trash': 'murk', 'Common': 'water', 'Uncommon': 'water', 'Unusual': 'nature', 'Rare': 'deep',
+  'Legendary': 'flame', 'Limited': 'flame', 'Apex': 'inferno',
+  'Mythical': 'mystic', 'Secret': 'mystic', 'Divine Secret': 'divine', 'Relic': 'mystic',
+  'Exotic': 'cosmic', 'Fragment': 'cosmic', 'Gemstone': 'crystal', 'Special': 'electric',
+  'Extinct': 'stone',
+};
+const theme = rarityTheme[fish.rarity] || 'water';
+
 // Difficulty color map
 const difficultyColors: Record<string, { bg: string; border: string; text: string }> = {
   'Easy':    { bg: '#22c55e20', border: '#22c55e', text: '#4ade80' },
@@ -398,7 +408,7 @@ const narrative = parts.join('');
     <!-- RIGHT: Info sidebar -->
     <aside class="fish-detail__aside">
       <!-- Fish image -->
-      <div class="fish-detail__img-card">
+      <div class="fish-detail__img-card" data-theme={theme} style={`--r-clr: ${rc.border}`}>
         {fish.imageUrl ? (
           <img src={fish.imageUrl} alt={fish.name} class="fish-detail__img-large" />
         ) : (
@@ -602,7 +612,7 @@ const narrative = parts.join('');
   }
 
   /* ============================================================
-     SIDEBAR: FISH IMAGE
+     SIDEBAR: FISH IMAGE — rarity-themed environment
      ============================================================ */
 
   .fish-detail__img-card {
@@ -615,20 +625,33 @@ const narrative = parts.join('');
     justify-content: center;
     overflow: hidden;
     position: relative;
+    min-height: 200px;
   }
 
-  /* Ambient glow behind the fish */
+  /* ---------- Ambient glow (rarity-colored) ---------- */
   .fish-detail__img-card::before {
     content: '';
     position: absolute;
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(34, 211, 238, 0.18) 0%, transparent 70%);
+    background: radial-gradient(circle, color-mix(in srgb, var(--r-clr) 22%, transparent) 0%, transparent 70%);
     animation: fish-glow 4s ease-in-out infinite;
     pointer-events: none;
+    z-index: 0;
   }
 
+  /* ---------- Texture overlay (::after) ---------- */
+  .fish-detail__img-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    border-radius: 12px;
+  }
+
+  /* ---------- Fish image ---------- */
   .fish-detail__img-large {
     max-width: 100%;
     max-height: 200px;
@@ -638,22 +661,20 @@ const narrative = parts.join('');
     animation:
       fish-float 3s ease-in-out infinite,
       fish-swim  6s ease-in-out infinite;
-    filter: drop-shadow(0 4px 12px rgba(34, 211, 238, 0.12));
+    filter: drop-shadow(0 4px 16px color-mix(in srgb, var(--r-clr) 25%, transparent));
     transition: filter 0.3s;
   }
 
   .fish-detail__img-card:hover .fish-detail__img-large {
     animation-play-state: paused;
-    filter: drop-shadow(0 0 24px rgba(34, 211, 238, 0.45));
+    filter: drop-shadow(0 0 28px color-mix(in srgb, var(--r-clr) 55%, transparent));
   }
 
-  /* Gentle floating up & down */
   @keyframes fish-float {
     0%, 100% { transform: translateY(0); }
     50%      { transform: translateY(-8px); }
   }
 
-  /* Subtle swimming sway — tilt + horizontal drift */
   @keyframes fish-swim {
     0%, 100% { transform: translateX(0) rotate(0deg)   scaleX(1); }
     25%      { transform: translateX(4px) rotate(2deg)  scaleX(1.01); }
@@ -661,10 +682,315 @@ const narrative = parts.join('');
     75%      { transform: translateX(-4px) rotate(-2deg) scaleX(1.01); }
   }
 
-  /* Pulsing ambient light */
   @keyframes fish-glow {
     0%, 100% { opacity: 0.4; transform: scale(1); }
-    50%      { opacity: 0.8; transform: scale(1.3); }
+    50%      { opacity: 0.85; transform: scale(1.35); }
+  }
+
+  /* ==========================================================
+     WATER — Common, Uncommon (calm blue/green ripples)
+     ========================================================== */
+  [data-theme="water"] {
+    background:
+      radial-gradient(ellipse at 25% 40%, color-mix(in srgb, var(--r-clr) 14%, transparent), transparent 65%),
+      radial-gradient(ellipse at 75% 75%, color-mix(in srgb, var(--r-clr) 10%, transparent), transparent 55%),
+      var(--bg-card);
+  }
+  [data-theme="water"]::after {
+    background:
+      repeating-linear-gradient(175deg, transparent 0px, transparent 28px, color-mix(in srgb, var(--r-clr) 5%, transparent) 29px, transparent 31px);
+    animation: env-drift 10s linear infinite;
+  }
+
+  /* ==========================================================
+     MURK — Trash (dark murky water, slight greenish)
+     ========================================================== */
+  [data-theme="murk"] {
+    background:
+      radial-gradient(ellipse at 50% 100%, rgba(113, 113, 122, 0.15), transparent 70%),
+      linear-gradient(180deg, var(--bg-card), color-mix(in srgb, var(--r-clr) 8%, var(--bg-card))),
+      var(--bg-card);
+  }
+  [data-theme="murk"]::after {
+    background:
+      repeating-linear-gradient(185deg, transparent 0px, transparent 20px, rgba(113,113,122,0.04) 21px, transparent 23px),
+      repeating-linear-gradient(170deg, transparent 0px, transparent 35px, rgba(113,113,122,0.03) 36px, transparent 38px);
+    animation: env-drift 14s linear infinite;
+  }
+
+  /* ==========================================================
+     DEEP — Rare (deep ocean, slow dark waves)
+     ========================================================== */
+  [data-theme="deep"] {
+    background:
+      radial-gradient(ellipse at 30% 30%, color-mix(in srgb, var(--r-clr) 18%, transparent), transparent 60%),
+      radial-gradient(ellipse at 80% 70%, rgba(59, 130, 246, 0.08), transparent 50%),
+      linear-gradient(180deg, var(--bg-card), color-mix(in srgb, var(--r-clr) 6%, var(--bg-card))),
+      var(--bg-card);
+  }
+  [data-theme="deep"]::after {
+    background:
+      repeating-linear-gradient(172deg, transparent 0px, transparent 22px, color-mix(in srgb, var(--r-clr) 6%, transparent) 23px, transparent 25px),
+      repeating-linear-gradient(188deg, transparent 0px, transparent 35px, color-mix(in srgb, var(--r-clr) 4%, transparent) 36px, transparent 38px);
+    animation: env-drift 12s linear infinite;
+  }
+
+  /* ==========================================================
+     NATURE — Unusual (organic green, leaf-like movement)
+     ========================================================== */
+  [data-theme="nature"] {
+    background:
+      radial-gradient(ellipse at 20% 80%, color-mix(in srgb, var(--r-clr) 16%, transparent), transparent 60%),
+      radial-gradient(ellipse at 80% 20%, color-mix(in srgb, var(--r-clr) 10%, transparent), transparent 50%),
+      linear-gradient(160deg, var(--bg-card), color-mix(in srgb, var(--r-clr) 5%, var(--bg-card))),
+      var(--bg-card);
+  }
+  [data-theme="nature"]::after {
+    background:
+      radial-gradient(circle 40px at 15% 85%, color-mix(in srgb, var(--r-clr) 8%, transparent), transparent),
+      radial-gradient(circle 30px at 85% 15%, color-mix(in srgb, var(--r-clr) 6%, transparent), transparent),
+      radial-gradient(circle 25px at 50% 50%, color-mix(in srgb, var(--r-clr) 5%, transparent), transparent);
+    animation: env-breathe 6s ease-in-out infinite;
+  }
+
+  /* ==========================================================
+     FLAME — Legendary, Limited (golden fire rising)
+     ========================================================== */
+  [data-theme="flame"] {
+    background:
+      linear-gradient(0deg, color-mix(in srgb, var(--r-clr) 18%, transparent), transparent 55%),
+      radial-gradient(ellipse at 50% 90%, color-mix(in srgb, var(--r-clr) 14%, transparent), transparent 65%),
+      var(--bg-card);
+  }
+  [data-theme="flame"]::after {
+    background:
+      radial-gradient(circle 3px at 20% 75%, var(--r-clr), transparent 4px),
+      radial-gradient(circle 2px at 40% 85%, var(--r-clr), transparent 3px),
+      radial-gradient(circle 2.5px at 60% 70%, var(--r-clr), transparent 4px),
+      radial-gradient(circle 1.5px at 75% 80%, var(--r-clr), transparent 3px),
+      radial-gradient(circle 2px at 35% 65%, var(--r-clr), transparent 3px),
+      radial-gradient(circle 3px at 55% 90%, var(--r-clr), transparent 4px),
+      radial-gradient(circle 1.5px at 85% 72%, var(--r-clr), transparent 3px);
+    opacity: 0.3;
+    animation: env-rise 3.5s ease-in-out infinite;
+  }
+
+  /* ==========================================================
+     INFERNO — Apex (intense red/orange, violent embers)
+     ========================================================== */
+  [data-theme="inferno"] {
+    background:
+      linear-gradient(0deg, color-mix(in srgb, var(--r-clr) 24%, transparent), transparent 50%),
+      radial-gradient(ellipse at 50% 85%, color-mix(in srgb, var(--r-clr) 18%, transparent), transparent 60%),
+      radial-gradient(ellipse at 30% 60%, rgba(249, 115, 22, 0.08), transparent 50%),
+      var(--bg-card);
+    border-color: color-mix(in srgb, var(--r-clr) 25%, var(--border));
+  }
+  [data-theme="inferno"]::after {
+    background:
+      radial-gradient(circle 3px at 15% 70%, var(--r-clr), transparent 5px),
+      radial-gradient(circle 2.5px at 30% 85%, var(--r-clr), transparent 4px),
+      radial-gradient(circle 4px at 50% 65%, var(--r-clr), transparent 6px),
+      radial-gradient(circle 2px at 65% 80%, var(--r-clr), transparent 4px),
+      radial-gradient(circle 3px at 80% 70%, var(--r-clr), transparent 5px),
+      radial-gradient(circle 2px at 45% 92%, var(--r-clr), transparent 3px),
+      radial-gradient(circle 3.5px at 25% 60%, rgba(249, 115, 22, 0.9), transparent 5px),
+      radial-gradient(circle 2px at 70% 55%, rgba(249, 115, 22, 0.7), transparent 4px);
+    opacity: 0.35;
+    animation: env-rise 2.5s ease-in-out infinite;
+  }
+
+  /* ==========================================================
+     MYSTIC — Mythical, Secret, Relic (swirling vortex)
+     ========================================================== */
+  [data-theme="mystic"] {
+    background:
+      radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--r-clr) 12%, transparent), transparent 65%),
+      conic-gradient(from 0deg at 50% 50%, transparent, color-mix(in srgb, var(--r-clr) 6%, transparent) 25%, transparent 50%),
+      var(--bg-card);
+  }
+  [data-theme="mystic"]::after {
+    inset: -30%;
+    background: conic-gradient(
+      from 0deg at 50% 50%,
+      transparent 0deg,
+      color-mix(in srgb, var(--r-clr) 7%, transparent) 60deg,
+      transparent 120deg,
+      color-mix(in srgb, var(--r-clr) 5%, transparent) 200deg,
+      transparent 260deg,
+      color-mix(in srgb, var(--r-clr) 6%, transparent) 320deg,
+      transparent 360deg
+    );
+    animation: env-swirl 25s linear infinite;
+    border-radius: 0;
+  }
+
+  /* ==========================================================
+     DIVINE — Divine Secret (radiant golden light rays)
+     ========================================================== */
+  [data-theme="divine"] {
+    background:
+      radial-gradient(circle at 50% 30%, color-mix(in srgb, var(--r-clr) 20%, transparent), transparent 60%),
+      linear-gradient(180deg, color-mix(in srgb, var(--r-clr) 8%, transparent), transparent 70%),
+      var(--bg-card);
+    border-color: color-mix(in srgb, var(--r-clr) 30%, var(--border));
+  }
+  [data-theme="divine"]::after {
+    inset: -50%;
+    background: conic-gradient(
+      from 0deg at 50% 50%,
+      transparent 0deg,
+      color-mix(in srgb, var(--r-clr) 10%, transparent) 15deg,
+      transparent 30deg,
+      color-mix(in srgb, var(--r-clr) 8%, transparent) 55deg,
+      transparent 70deg,
+      color-mix(in srgb, var(--r-clr) 10%, transparent) 100deg,
+      transparent 115deg,
+      color-mix(in srgb, var(--r-clr) 7%, transparent) 145deg,
+      transparent 160deg,
+      color-mix(in srgb, var(--r-clr) 9%, transparent) 195deg,
+      transparent 210deg,
+      color-mix(in srgb, var(--r-clr) 10%, transparent) 245deg,
+      transparent 260deg,
+      color-mix(in srgb, var(--r-clr) 8%, transparent) 300deg,
+      transparent 315deg,
+      color-mix(in srgb, var(--r-clr) 9%, transparent) 345deg,
+      transparent 360deg
+    );
+    animation: env-swirl 40s linear infinite;
+    border-radius: 0;
+  }
+
+  /* ==========================================================
+     COSMIC — Exotic, Fragment (twinkling starfield)
+     ========================================================== */
+  [data-theme="cosmic"] {
+    background:
+      radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--r-clr) 10%, transparent), transparent 60%),
+      radial-gradient(circle at 20% 30%, color-mix(in srgb, var(--r-clr) 6%, transparent), transparent 40%),
+      radial-gradient(circle at 80% 70%, color-mix(in srgb, var(--r-clr) 6%, transparent), transparent 40%),
+      var(--bg-card);
+  }
+  [data-theme="cosmic"]::after {
+    background:
+      radial-gradient(circle 1.5px at 12% 20%, var(--r-clr), transparent 2px),
+      radial-gradient(circle 1px   at 88% 15%, var(--r-clr), transparent 2px),
+      radial-gradient(circle 2px   at 45% 82%, var(--r-clr), transparent 3px),
+      radial-gradient(circle 1px   at 72% 50%, var(--r-clr), transparent 2px),
+      radial-gradient(circle 1.5px at 22% 68%, var(--r-clr), transparent 2px),
+      radial-gradient(circle 1px   at 92% 78%, var(--r-clr), transparent 2px),
+      radial-gradient(circle 2px   at 55% 30%, var(--r-clr), transparent 3px),
+      radial-gradient(circle 1px   at 35% 45%, var(--r-clr), transparent 2px),
+      radial-gradient(circle 1.5px at 68% 88%, var(--r-clr), transparent 2px);
+    animation: env-twinkle 3s ease-in-out infinite alternate;
+  }
+
+  /* ==========================================================
+     CRYSTAL — Gemstone (prismatic shimmer)
+     ========================================================== */
+  [data-theme="crystal"] {
+    background:
+      linear-gradient(135deg,
+        color-mix(in srgb, var(--r-clr) 10%, transparent),
+        transparent 30%,
+        rgba(168, 85, 247, 0.06) 50%,
+        transparent 70%,
+        color-mix(in srgb, var(--r-clr) 8%, transparent)
+      ),
+      radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--r-clr) 12%, transparent), transparent 60%),
+      var(--bg-card);
+    border-color: color-mix(in srgb, var(--r-clr) 20%, var(--border));
+  }
+  [data-theme="crystal"]::after {
+    background:
+      linear-gradient(135deg, transparent 40%, color-mix(in srgb, var(--r-clr) 12%, transparent) 50%, transparent 60%);
+    background-size: 200% 200%;
+    animation: env-shimmer 4s ease-in-out infinite;
+  }
+
+  /* ==========================================================
+     ELECTRIC — Special (pulsing electric arcs)
+     ========================================================== */
+  [data-theme="electric"] {
+    background:
+      radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--r-clr) 15%, transparent), transparent 55%),
+      var(--bg-card);
+    border-color: color-mix(in srgb, var(--r-clr) 18%, var(--border));
+  }
+  [data-theme="electric"]::after {
+    background:
+      linear-gradient(90deg, transparent 48%, color-mix(in srgb, var(--r-clr) 15%, transparent) 50%, transparent 52%),
+      linear-gradient(0deg, transparent 48%, color-mix(in srgb, var(--r-clr) 10%, transparent) 50%, transparent 52%),
+      radial-gradient(circle 2px at 30% 30%, var(--r-clr), transparent 3px),
+      radial-gradient(circle 2px at 70% 70%, var(--r-clr), transparent 3px);
+    animation: env-pulse 2s ease-in-out infinite;
+  }
+
+  /* ==========================================================
+     STONE — Extinct (cracked rock, static + faint shimmer)
+     ========================================================== */
+  [data-theme="stone"] {
+    background:
+      linear-gradient(137deg, transparent 38%, color-mix(in srgb, var(--r-clr) 6%, transparent) 39%, transparent 40%),
+      linear-gradient(52deg, transparent 53%, color-mix(in srgb, var(--r-clr) 5%, transparent) 54%, transparent 55%),
+      linear-gradient(195deg, transparent 28%, color-mix(in srgb, var(--r-clr) 4%, transparent) 29%, transparent 30%),
+      linear-gradient(310deg, transparent 63%, color-mix(in srgb, var(--r-clr) 4%, transparent) 64%, transparent 65%),
+      radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--r-clr) 6%, transparent), transparent 70%),
+      var(--bg-card);
+  }
+  [data-theme="stone"]::after {
+    background: radial-gradient(ellipse at 50% 50%, color-mix(in srgb, var(--r-clr) 5%, transparent), transparent 70%);
+    animation: env-breathe 8s ease-in-out infinite;
+  }
+
+  /* ==========================================================
+     THEME KEYFRAMES
+     ========================================================== */
+
+  /* Water/deep/murk: slow diagonal drift */
+  @keyframes env-drift {
+    from { transform: translate(-30px, 0); }
+    to   { transform: translate(0, -15px); }
+  }
+
+  /* Nature/stone: slow breathing scale */
+  @keyframes env-breathe {
+    0%, 100% { opacity: 0.5; transform: scale(1); }
+    50%      { opacity: 1;   transform: scale(1.15); }
+  }
+
+  /* Flame/inferno: rising embers */
+  @keyframes env-rise {
+    0%   { transform: translateY(0);     opacity: 0.35; }
+    60%  { transform: translateY(-25px); opacity: 0.5; }
+    100% { transform: translateY(-50px); opacity: 0; }
+  }
+
+  /* Mystic/divine: slow rotation */
+  @keyframes env-swirl {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+  }
+
+  /* Cosmic: twinkling stars */
+  @keyframes env-twinkle {
+    0%   { opacity: 0.15; }
+    33%  { opacity: 0.55; }
+    66%  { opacity: 0.2; }
+    100% { opacity: 0.6; }
+  }
+
+  /* Crystal: sliding shimmer */
+  @keyframes env-shimmer {
+    0%   { background-position: 200% 200%; }
+    50%  { background-position: 0% 0%; }
+    100% { background-position: 200% 200%; }
+  }
+
+  /* Electric: pulsing */
+  @keyframes env-pulse {
+    0%, 100% { opacity: 0.15; }
+    50%      { opacity: 0.45; }
   }
 
   .fish-detail__img-placeholder {
