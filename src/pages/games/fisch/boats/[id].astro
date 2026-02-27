@@ -1,0 +1,204 @@
+---
+import GameLayout from '../../../../layouts/GameLayout.astro';
+import rawData from '../../../../data/games/fisch/boats.json';
+
+interface TradeItemData {
+  name: string;
+  slug: string;
+  tradeValue: number | null;
+  demand: string | null;
+  trend: string | null;
+  rarity: string | null;
+  itemType: string | null;
+  stock: string | null;
+  sold: string | null;
+  cost: number | null;
+  imageUrl: string | null;
+  detailUrl: string | null;
+}
+
+export function getStaticPaths() {
+  return (rawData as TradeItemData[])
+    .filter(i => i.slug && i.name)
+    .map(item => ({ params: { id: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props as { item: TradeItemData };
+
+const SOURCE_COLORS: Record<string, string> = {
+  Limited: '#ef4444', Robux: '#22c55e', Regular: '#3b82f6', Code: '#f59e0b',
+  Egg: '#ec4899', Merch: '#a855f7', 'Pirate Faction': '#f97316', Challenge: '#06b6d4',
+  'Friend Quest': '#8b5cf6', DLC: '#14b8a6', Event: '#f43f5e', Exclusive: '#fbbf24',
+  'Skin Merchant': '#c084fc',
+};
+
+const DEMAND_COLORS: Record<string, string> = {
+  'Very High': '#ef4444', High: '#f59e0b', Medium: '#22c55e', Low: '#3b82f6', 'Very Low': '#6b7280',
+};
+
+const TREND_COLORS: Record<string, string> = {
+  Stable: '#22c55e', Unstable: '#f59e0b',
+};
+
+const srcColor = SOURCE_COLORS[item.rarity || ''] || '#3b82f6';
+const demandColor = DEMAND_COLORS[item.demand || ''] || '#6b7280';
+const trendColor = TREND_COLORS[item.trend || ''] || '#6b7280';
+
+function fmtValue(n: number | null): string {
+  if (n == null) return '—';
+  if (n >= 1000) return `${(n / 1000).toFixed(n % 1000 === 0 ? 0 : 1)}K`;
+  if (Number.isInteger(n)) return String(n);
+  return n.toFixed(1);
+}
+
+const SOURCE_HINTS: Record<string, string> = {
+  Limited: 'Limited-time item, no longer obtainable through normal gameplay.',
+  Robux: 'Purchased from the Robux shop in-game.',
+  Regular: 'Available through regular gameplay.',
+  Code: 'Obtained by redeeming a promotional code.',
+  Egg: 'Hatched from an egg.',
+  Merch: 'Obtained through official merchandise redemption.',
+  'Pirate Faction': 'Earned through the Pirate Faction system.',
+  Challenge: 'Reward for completing a challenge.',
+  'Friend Quest': 'Reward from the Friend Quest system.',
+  DLC: 'Part of a downloadable content pack.',
+  Event: 'Obtained during a special in-game event.',
+  Exclusive: 'Exclusive item with limited availability.',
+  'Skin Merchant': 'Purchased from the Skin Merchant NPC.',
+};
+
+const description = `${item.name} is a tradeable boat in Fisch${item.rarity ? ` (${item.rarity})` : ''}. ${item.tradeValue ? `Current trade value: ${fmtValue(item.tradeValue)} Enchant Relics.` : ''} ${item.demand ? `Demand: ${item.demand}.` : ''} ${item.trend ? `Market trend: ${item.trend}.` : ''}`;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: item.name,
+  description,
+  image: item.imageUrl || undefined,
+  offers: item.tradeValue ? {
+    '@type': 'Offer',
+    price: item.tradeValue,
+    priceCurrency: 'ER',
+  } : undefined,
+};
+---
+
+<GameLayout
+  title={`${item.name} - Boat Value & Demand | Fisch`}
+  description={description}
+  game="Fisch"
+  breadcrumbs={[
+    { label: 'Boats', href: '/games/fisch/boats/' },
+    { label: item.name, href: `/games/fisch/boats/${item.slug}/` },
+  ]}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </Fragment>
+
+  <div class="td">
+    <div class="td__hero" style={`--accent-clr: ${srcColor}`}>
+      <div class="td__hero-img">
+        {item.imageUrl ? (
+          <img src={item.imageUrl} alt={item.name} width="280" height="280" />
+        ) : (
+          <div class="td__hero-ph">🚤</div>
+        )}
+      </div>
+      <div class="td__hero-info">
+        <div class="td__badges-top">
+          {item.rarity && (
+            <span class="td__source-badge" style={`--badge-clr: ${srcColor}`}>{item.rarity}</span>
+          )}
+          <span class="td__type-badge">Boat</span>
+        </div>
+        <h1 class="td__title">{item.name}</h1>
+        <div class="td__value-hero">
+          <span class="td__value-num">{fmtValue(item.tradeValue)}</span>
+          <span class="td__value-unit">Enchant Relics</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="td__grid">
+      <div class="td__stat">
+        <span class="td__stat-label">Trade Value</span>
+        <span class="td__stat-val td__stat-val--cyan">{fmtValue(item.tradeValue)} ER</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Demand</span>
+        <span class="td__stat-val" style={`color: ${demandColor}`}>{item.demand || '—'}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Trend</span>
+        <span class="td__stat-val" style={`color: ${trendColor}`}>{item.trend || '—'}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Source</span>
+        <span class="td__stat-val" style={`color: ${srcColor}`}>{item.rarity || '—'}</span>
+      </div>
+      {item.stock && (
+        <div class="td__stat">
+          <span class="td__stat-label">Stock</span>
+          <span class="td__stat-val">{item.stock}</span>
+        </div>
+      )}
+      {item.sold && (
+        <div class="td__stat">
+          <span class="td__stat-label">Sold</span>
+          <span class="td__stat-val">{item.sold}</span>
+        </div>
+      )}
+      {item.cost != null && (
+        <div class="td__stat">
+          <span class="td__stat-label">Robux Price</span>
+          <span class="td__stat-val">{item.cost.toLocaleString('en-US')} R$</span>
+        </div>
+      )}
+    </div>
+
+    {item.rarity && SOURCE_HINTS[item.rarity] && (
+      <div class="td__obtain">
+        <h2 class="td__section-title">How to Obtain</h2>
+        <p class="td__obtain-text">{SOURCE_HINTS[item.rarity]}</p>
+      </div>
+    )}
+
+    <a href="/games/fisch/boats/" class="td__back">&larr; All Boats</a>
+  </div>
+</GameLayout>
+
+<style>
+  .td { max-width: 720px; margin: 0 auto; padding: 1rem; }
+  .td__hero { display: flex; gap: 1.5rem; align-items: center; background: linear-gradient(135deg, color-mix(in srgb, var(--accent-clr) 12%, transparent), var(--bg-card)); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.25rem; }
+  .td__hero-img { flex-shrink: 0; width: 140px; height: 140px; display: flex; align-items: center; justify-content: center; }
+  .td__hero-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .td__hero-ph { font-size: 3rem; }
+  .td__hero-info { flex: 1; min-width: 0; }
+  .td__badges-top { display: flex; gap: 0.4rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+  .td__source-badge { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 0.15rem 0.55rem; border-radius: 9999px; color: var(--badge-clr); border: 1px solid var(--badge-clr); background: color-mix(in srgb, var(--badge-clr) 12%, transparent); }
+  .td__type-badge { font-size: 0.7rem; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 9999px; color: var(--text-dim); border: 1px solid var(--border); background: rgba(255,255,255,0.03); }
+  .td__title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: #fff; margin: 0 0 0.5rem; }
+  .td__value-hero { display: flex; align-items: baseline; gap: 0.4rem; }
+  .td__value-num { font-family: var(--font-mono); font-size: 2rem; font-weight: 700; color: #22D3EE; }
+  .td__value-unit { font-size: 0.85rem; color: var(--text-dim); font-weight: 500; }
+  .td__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-bottom: 1.25rem; }
+  @media (min-width: 640px) { .td__grid { grid-template-columns: repeat(3, 1fr); } }
+  .td__stat { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 0.75rem 1rem; display: flex; flex-direction: column; gap: 0.2rem; }
+  .td__stat-label { font-size: 0.7rem; font-weight: 500; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+  .td__stat-val { font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; color: var(--text); }
+  .td__stat-val--cyan { color: #22D3EE; }
+  .td__obtain { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1.25rem; }
+  .td__section-title { font-family: var(--font-display); font-size: 0.9rem; font-weight: 700; color: var(--text); margin: 0 0 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .td__obtain-text { font-size: 0.88rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+  .td__back { display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.85rem; color: var(--accent); font-weight: 500; transition: opacity 0.2s; }
+  .td__back:hover { opacity: 0.8; }
+  @media (max-width: 639px) {
+    .td__hero { flex-direction: column; text-align: center; padding: 1rem; }
+    .td__hero-img { width: 120px; height: 120px; }
+    .td__badges-top { justify-content: center; }
+    .td__value-hero { justify-content: center; }
+    .td__title { font-size: 1.25rem; }
+    .td__value-num { font-size: 1.5rem; }
+  }
+</style>

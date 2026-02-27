@@ -146,6 +146,9 @@ function mergeFish(calc, wiki) {
     description,
     image,
     imageUrl,
+    tradeValue: null,  // Filled by game.guide cross-reference
+    demand: null,
+    trend: null,
     dataSource: {
       calculator: hasCalc,
       wiki: hasWiki,
@@ -203,6 +206,32 @@ function main() {
   // Sort by name
   merged.sort((a, b) => a.name.localeCompare(b.name));
 
+  // Cross-reference with game.guide trade values
+  const tradeValuesPath = path.join(DATA_DIR, '..', 'trade-values.json');
+  if (fs.existsSync(tradeValuesPath)) {
+    const tradeData = JSON.parse(fs.readFileSync(tradeValuesPath, 'utf8'));
+    const tradeMap = new Map();
+    for (const item of tradeData.items) {
+      tradeMap.set(normalize(item.name), item);
+    }
+    let matched = 0, imagesFilled = 0;
+    for (const fish of merged) {
+      const trade = tradeMap.get(normalize(fish.name));
+      if (trade) {
+        fish.tradeValue = trade.tradeValue;
+        fish.demand = trade.demand;
+        fish.trend = trade.trend;
+        matched++;
+        // Backfill image if missing
+        if (!fish.imageUrl && trade.imageUrl) {
+          fish.imageUrl = trade.imageUrl;
+          imagesFilled++;
+        }
+      }
+    }
+    console.log(`\nTrade values (game.guide): ${matched}/${merged.length} matched, ${imagesFilled} images backfilled`);
+  }
+
   // Save
   const outFile = path.join(DATA_DIR, 'fish-merged.json');
   fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
@@ -235,6 +264,9 @@ function main() {
     ['sea', f => f.sea !== null],
     ['sources', f => f.sources.length > 0],
     ['sublocation', f => f.sublocation !== null],
+    ['tradeValue', f => f.tradeValue !== null],
+    ['demand', f => f.demand !== null],
+    ['trend', f => f.trend !== null],
   ];
 
   console.log(`\nCobertura de campos (de ${merged.length}):`);

@@ -1,0 +1,126 @@
+---
+import GameLayout from '../../../../layouts/GameLayout.astro';
+import FischHero from '../../../../components/FischHero.astro';
+import TradeItemGrid from '../../../../components/TradeItemGrid.tsx';
+import type { TradeItem } from '../../../../components/TradeItemGrid.tsx';
+
+import rawData from '../../../../data/games/fisch/rod-skins.json';
+
+const items: TradeItem[] = (rawData as any[])
+  .filter(i => i.name && i.slug)
+  .map(i => ({
+    name: i.name,
+    slug: i.slug,
+    tradeValue: i.tradeValue,
+    demand: i.demand,
+    trend: i.trend,
+    rarity: i.rarity,
+    imageUrl: i.imageUrl,
+  }));
+
+const sources = [...new Set(items.map(i => i.rarity).filter(Boolean) as string[])]
+  .sort((a, b) => {
+    const count = (s: string) => items.filter(i => i.rarity === s).length;
+    return count(b) - count(a);
+  });
+
+const total = items.length;
+const fmt = (n: number) => n.toLocaleString('en-US');
+
+const pageUrl = new URL('/games/fisch/rod-skins/', Astro.site).href;
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Fisch Rod Skins Value List',
+  numberOfItems: total,
+  itemListElement: items
+    .sort((a, b) => (b.tradeValue || 0) - (a.tradeValue || 0))
+    .slice(0, 20)
+    .map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      url: new URL(`/games/fisch/rod-skins/${item.slug}/`, Astro.site).href,
+    })),
+};
+---
+
+<GameLayout
+  title={`All ${fmt(total)} Rod Skins - Fisch Trading Values & Demand`}
+  description={`Complete list of ${fmt(total)} tradeable rod skins in Fisch. Trade values in Enchant Relics, demand levels, and market trends.`}
+  game="Fisch"
+  breadcrumbs={[{ label: 'Rod Skins', href: '/games/fisch/rod-skins/' }]}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </Fragment>
+
+  <FischHero title="ROD SKINS" subtitle={`${fmt(total)} tradeable rod skins`} />
+
+  <div class="container">
+    <TradeItemGrid
+      client:load
+      items={items}
+      sources={sources}
+      basePath="/games/fisch/rod-skins"
+    />
+  </div>
+</GameLayout>
+
+<style>
+  /* ---- TradeItemGrid component styles ---- */
+
+  :global(.tig__filters) { display:flex; flex-direction:column; gap:0.6rem; margin-bottom:0.75rem; }
+  :global(.tig__search-wrap) { position:relative; }
+  :global(.tig__search-ico) { position:absolute; left:0.75rem; top:50%; transform:translateY(-50%); color:var(--text-dim); pointer-events:none; }
+  :global(.tig__search) { width:100%; background:var(--bg-card); border:1px solid var(--border); border-radius:10px; padding:0.6rem 0.75rem 0.6rem 2.25rem; color:var(--text); font-family:var(--font-body); font-size:0.9rem; outline:none; transition:border-color 0.2s, box-shadow 0.2s; }
+  :global(.tig__search:focus) { border-color:var(--accent); box-shadow:0 0 0 3px rgba(6,214,160,0.15); }
+  :global(.tig__search::placeholder) { color:var(--text-dim); }
+
+  :global(.tig__filter-row) { display:flex; flex-wrap:wrap; gap:0.4rem; align-items:center; }
+  :global(.tig__sort-btn),
+  :global(.tig__src-btn) { background:var(--bg-card); border:1px solid var(--border); border-radius:8px; padding:0.35rem 0.6rem; color:var(--text); font-family:var(--font-body); font-size:0.78rem; cursor:pointer; outline:none; transition:border-color 0.2s, background 0.2s; }
+  :global(.tig__sort-btn:hover),
+  :global(.tig__src-btn:hover) { border-color:rgba(6,214,160,0.3); }
+  :global(.tig__sort-btn--active) { border-color:var(--accent); background:rgba(6,214,160,0.1); color:var(--accent); }
+  :global(.tig__src-btn--active) { border-color:var(--src-color); background:color-mix(in srgb, var(--src-color) 12%, transparent); color:var(--src-color); }
+  :global(.tig__divider) { width:1px; height:20px; background:var(--border); margin:0 0.25rem; }
+  :global(.tig__clear) { background:none; border:1px solid var(--border); border-radius:8px; padding:0.35rem 0.55rem; color:var(--accent-hot); font-size:0.75rem; cursor:pointer; font-family:var(--font-body); transition:border-color 0.2s; }
+  :global(.tig__clear:hover) { border-color:var(--accent-hot); }
+
+  :global(.tig__count) { font-size:0.8rem; color:var(--text-dim); margin-bottom:0.6rem; font-weight:500; }
+
+  /* Grid */
+  :global(.tig__grid) { display:grid; grid-template-columns:repeat(2, 1fr); gap:0.75rem; }
+  @media (min-width:640px)  { :global(.tig__grid) { grid-template-columns:repeat(3, 1fr); } }
+  @media (min-width:1024px) { :global(.tig__grid) { grid-template-columns:repeat(4, 1fr); } }
+
+  /* Card */
+  :global(.tig__card) {
+    display:flex; flex-direction:column; background:var(--bg-card); border:1px solid var(--border); border-radius:12px;
+    overflow:hidden; transition:border-color 0.2s, transform 0.15s, box-shadow 0.2s; text-decoration:none;
+  }
+  :global(.tig__card:hover) { border-color:var(--card-accent); transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,0.3); }
+
+  :global(.tig__card-img) {
+    aspect-ratio:1; display:flex; align-items:center; justify-content:center;
+    background:linear-gradient(180deg, color-mix(in srgb, var(--card-accent) 18%, transparent) 0%, var(--bg-card) 100%);
+    padding:0.75rem;
+  }
+  :global(.tig__card-img img) { max-width:100%; max-height:100%; object-fit:contain; }
+  :global(.tig__card-ph) { font-size:2rem; color:var(--text-dim); }
+
+  :global(.tig__card-body) { padding:0.6rem 0.75rem 0.75rem; display:flex; flex-direction:column; gap:0.3rem; }
+  :global(.tig__card-name) { font-size:0.82rem; font-weight:600; color:#fff; line-height:1.3; margin:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  :global(.tig__card-value) { font-family:var(--font-mono); font-size:0.9rem; font-weight:700; color:#22D3EE; }
+
+  :global(.tig__card-badges) { display:flex; flex-wrap:wrap; gap:0.3rem; margin-top:0.1rem; }
+  :global(.tig__badge) {
+    display:inline-block; padding:0.1rem 0.4rem; border:1px solid var(--badge-color);
+    border-radius:9999px; font-size:0.65rem; font-weight:600; letter-spacing:0.3px;
+    color:var(--badge-color); background:color-mix(in srgb, var(--badge-color) 10%, transparent);
+  }
+  :global(.tig__badge--src) { font-size:0.6rem; }
+
+  :global(.tig__empty) { text-align:center; padding:2rem 1rem; color:var(--text-dim); font-size:0.9rem; display:flex; flex-direction:column; align-items:center; gap:0.75rem; }
+</style>

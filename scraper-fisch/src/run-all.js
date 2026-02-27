@@ -88,6 +88,17 @@ const STEPS = [
     summarize: data => `${data.length} mutaciones merged`,
   },
   {
+    id: 'game-guide-values',
+    label: 'Scrapeando valores de game.guide',
+    script: 'src/sources/scrape-game-guide-values.js',
+    outputFile: () => path.join(DATA_DIR, 'trade-values.json'),
+    summarize: data => {
+      const items = data.items || [];
+      const withVal = items.filter(i => i.tradeValue !== null);
+      return `${items.length} items (${withVal.length} con trade value)`;
+    },
+  },
+  {
     id: 'merge',
     label: 'Combinando fuentes de peces',
     script: 'src/merge-data.js',

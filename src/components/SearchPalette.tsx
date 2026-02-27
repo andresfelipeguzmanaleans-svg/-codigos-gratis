@@ -7,8 +7,8 @@ export interface SearchItem {
   i: string;
   /** Display name */
   n: string;
-  /** Type: f=fish, m=mutation, r=rod, l=location */
-  t: 'f' | 'm' | 'r' | 'l';
+  /** Type: f=fish, m=mutation, r=rod, l=location, s=rod skin, b=boat */
+  t: 'f' | 'm' | 'r' | 'l' | 's' | 'b';
   /** Extra info (rarity for fish, category for mutations, etc.) */
   x?: string;
 }
@@ -22,12 +22,14 @@ interface Props {
 
 const TYPE_META: Record<string, { label: string; icon: string; max: number }> = {
   f: { label: 'Fish', icon: '🐟', max: 6 },
+  s: { label: 'Rod Skins', icon: '🎨', max: 4 },
+  b: { label: 'Boats', icon: '🚤', max: 4 },
   m: { label: 'Mutations', icon: '🧬', max: 4 },
   r: { label: 'Rods', icon: '🎣', max: 4 },
   l: { label: 'Locations', icon: '📍', max: 4 },
 };
 
-const TYPE_ORDER = ['f', 'm', 'r', 'l'] as const;
+const TYPE_ORDER = ['f', 's', 'b', 'm', 'r', 'l'] as const;
 
 function getHref(item: SearchItem, gameSlug: string): string {
   switch (item.t) {
@@ -35,6 +37,8 @@ function getHref(item: SearchItem, gameSlug: string): string {
     case 'm': return `/games/${gameSlug}/mutations/`;
     case 'r': return `/games/${gameSlug}/rods/`;
     case 'l': return `/games/${gameSlug}/locations/`;
+    case 's': return `/games/${gameSlug}/rod-skins/${item.i}/`;
+    case 'b': return `/games/${gameSlug}/boats/${item.i}/`;
   }
 }
 

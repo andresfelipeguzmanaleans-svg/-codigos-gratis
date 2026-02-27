@@ -13,6 +13,28 @@ const FILES = [
   { src: 'data/dynamic/trading-values.json',    dest: 'values.json' },
 ];
 
+// Split trade-values.json into rod-skins.json and boats.json
+function splitTradeValues() {
+  const srcPath = path.join(SCRAPER_ROOT, 'data', 'trade-values.json');
+  if (!fs.existsSync(srcPath)) return;
+
+  const data = JSON.parse(fs.readFileSync(srcPath, 'utf8'));
+  const items = data.items || [];
+
+  const rodSkins = items.filter(i => i.itemType === 'rod_skin');
+  const boats = items.filter(i => i.itemType === 'boat');
+
+  const writeJson = (name, arr) => {
+    const destPath = path.join(DEST, name);
+    fs.writeFileSync(destPath, JSON.stringify(arr, null, 2));
+    const size = (fs.statSync(destPath).size / 1024).toFixed(0);
+    console.log(`  [OK]   trade-values.json -> ${name} (${size} KB, ${arr.length} items)`);
+  };
+
+  writeJson('rod-skins.json', rodSkins);
+  writeJson('boats.json', boats);
+}
+
 function main() {
   // Ensure destination exists
   fs.mkdirSync(DEST, { recursive: true });
@@ -38,6 +60,9 @@ function main() {
   }
 
   console.log(`  Copiados: ${copied}/${FILES.length}${skipped > 0 ? `, ${skipped} saltados` : ''}`);
+
+  // Split trade values into rod skins and boats
+  splitTradeValues();
 }
 
 main();
