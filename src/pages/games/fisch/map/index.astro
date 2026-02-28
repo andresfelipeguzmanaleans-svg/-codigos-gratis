@@ -1,6 +1,6 @@
 ---
 import GameLayout from '../../../../layouts/GameLayout.astro';
-import FischMap from '../../../../components/FischMap.tsx';
+import FischWorldMap from '../../../../components/FischWorldMap.tsx';
 import locationsData from '../../../../data/games/fisch/locations.json';
 
 // Prepare map locations
@@ -21,10 +21,10 @@ const mapLocations = (locationsData as any[]).map(loc => ({
   availableWeathers: loc.availableWeathers || [],
 }));
 
-const withCoords = mapLocations.filter(l => l.coords).length;
-const totalFish = mapLocations.reduce((sum, l) => sum + l.fishCount, 0);
+const totalLocations = Object.keys(mapLocations).length;
+const totalFish = mapLocations.reduce((sum: number, l: any) => sum + l.fishCount, 0);
 
-const description = `Interactive map of all ${withCoords} Fisch fishing locations. Click any island to see its fish, weather, and rarity breakdown.`;
+const description = `Interactive hand-crafted world map of all ${totalLocations} Fisch fishing locations. Click any island to see its fish, weather, and rarity breakdown.`;
 ---
 
 <GameLayout
@@ -43,12 +43,12 @@ const description = `Interactive map of all ${withCoords} Fisch fishing location
           INTERACTIVE MAP
         </h1>
         <p class="map-hero__sub">
-          {withCoords} locations &bull; {totalFish.toLocaleString('en-US')} fish &bull; Click any island to explore
+          {totalLocations} locations &bull; {totalFish.toLocaleString('en-US')} fish &bull; Click any island to explore
         </p>
       </div>
     </div>
     <div class="map-wrap container">
-      <FischMap
+      <FischWorldMap
         client:load
         locations={mapLocations}
         gameSlug="fisch"
@@ -75,130 +75,149 @@ const description = `Interactive map of all ${withCoords} Fisch fishing location
   }
 
   /* ================================================
-     FischMap component styles (React island)
+     FischWorldMap component styles (React island)
      ================================================ */
 
   /* Container */
-  :global(.fm) {
+  :global(.fwm) {
     background: #060B18; border-radius: 12px; overflow: hidden;
     border: 1px solid rgba(255,255,255,0.08);
   }
 
   /* Toolbar */
-  :global(.fm-toolbar) {
+  :global(.fwm-bar) {
     display: flex; align-items: center; gap: 0.75rem; padding: 0.75rem 1rem;
     border-bottom: 1px solid rgba(255,255,255,0.08);
     background: rgba(15,29,53,0.8); flex-wrap: wrap;
   }
-  :global(.fm-search) {
+  :global(.fwm-srch) {
     display: flex; align-items: center; gap: 0.5rem; flex: 1 1 200px; min-width: 160px;
     background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
     border-radius: 8px; padding: 0.4rem 0.75rem;
   }
-  :global(.fm-search__ico) { width: 16px; height: 16px; color: #94A3B8; flex-shrink: 0; }
-  :global(.fm-search__input) {
+  :global(.fwm-srch__ico) { width: 16px; height: 16px; color: #94A3B8; flex-shrink: 0; }
+  :global(.fwm-srch__in) {
     flex: 1; background: transparent; border: none; outline: none;
     color: #E2E8F0; font-family: Inter, system-ui, sans-serif; font-size: 0.85rem;
   }
-  :global(.fm-search__input::placeholder) { color: #64748b; }
-  :global(.fm-search__clear) {
+  :global(.fwm-srch__in::placeholder) { color: #64748b; }
+  :global(.fwm-srch__x) {
     background: none; border: none; color: #94A3B8; cursor: pointer;
     font-size: 1.2rem; line-height: 1; padding: 0;
   }
-  :global(.fm-filters) { display: flex; gap: 0.35rem; flex-wrap: wrap; align-items: center; }
-  :global(.fm-chip) {
+  :global(.fwm-chips) { display: flex; gap: 0.35rem; flex-wrap: wrap; align-items: center; }
+  :global(.fwm-ch) {
     padding: 0.3rem 0.7rem; border-radius: 9999px;
     border: 1px solid rgba(255,255,255,0.08); background: transparent;
     color: #94A3B8; font-size: 0.75rem; font-weight: 500;
     font-family: Inter, system-ui, sans-serif; cursor: pointer;
     transition: all 0.15s; white-space: nowrap;
   }
-  :global(.fm-chip:hover) { border-color: rgba(29,162,216,0.3); color: #CBD5E1; }
-  :global(.fm-chip--on) { border-color: #1DA2D8; color: #1DA2D8; background: rgba(29,162,216,0.1); }
-  :global(.fm-count) { font-size: 0.7rem; color: #64748b; font-weight: 500; margin-left: 0.25rem; }
+  :global(.fwm-ch:hover) { border-color: rgba(29,162,216,0.3); color: #CBD5E1; }
+  :global(.fwm-ch--on) { border-color: #1DA2D8; color: #1DA2D8; background: rgba(29,162,216,0.1); }
+  :global(.fwm-cnt) { font-size: 0.7rem; color: #64748b; font-weight: 500; margin-left: 0.25rem; }
 
-  /* Body: map + panel side by side on desktop */
-  :global(.fm-body) { display: flex; }
+  /* SVG Map */
+  :global(.fwm-map) { width: 100%; overflow: hidden; }
+  :global(.fwm-svg) { width: 100%; height: auto; display: block; }
+  :global(.fwm-isle) { transition: opacity 0.2s; }
+  :global(.fwm-isle:hover) { opacity: 1 !important; }
+  :global(.fwm-isle__shape) { transition: stroke 0.15s, stroke-width 0.15s; }
+  :global(.fwm-isle:hover .fwm-isle__shape) { stroke-width: 1.5; }
+  :global(.fwm-isle__label) { pointer-events: none; }
 
-  /* Map wrapper */
-  :global(.fm-map-wrap) { flex: 1; min-width: 0; }
-  :global(.fm-svg) { width: 100%; height: auto; display: block; }
-  :global(.fm-node) { transition: opacity 0.2s; }
-  :global(.fm-node:hover) { opacity: 1 !important; }
-
-  /* Panel */
-  :global(.fm-panel) {
-    width: 340px; flex-shrink: 0; display: flex; flex-direction: column;
-    background: #0F1D35; border-left: 1px solid rgba(255,255,255,0.08);
-    max-height: 600px; overflow: hidden;
+  /* Panel — below the map */
+  :global(.fwm-panel) {
+    display: flex; flex-direction: column;
+    background: #0F1D35; border-top: 1px solid rgba(255,255,255,0.08);
+    overflow: hidden; animation: fwm-slide 0.25s ease;
   }
-  :global(.fm-panel__head) {
+  @keyframes fwm-slide {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  :global(.fwm-panel__head) {
     display: flex; align-items: flex-start; justify-content: space-between;
     padding: 1rem 1rem 0.75rem; border-bottom: 1px solid rgba(255,255,255,0.08);
   }
-  :global(.fm-panel__title) { font-size: 1.1rem; font-weight: 700; color: #fff; margin: 0; line-height: 1.3; }
-  :global(.fm-panel__meta) { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; color: #94A3B8; margin-top: 4px; }
-  :global(.fm-panel__close) {
+  :global(.fwm-panel__title) { font-size: 1.1rem; font-weight: 700; color: #fff; margin: 0; line-height: 1.3; }
+  :global(.fwm-panel__meta) { display: flex; align-items: center; gap: 0.4rem; font-size: 0.8rem; color: #94A3B8; margin-top: 4px; flex-wrap: wrap; }
+  :global(.fwm-panel__coords) { font-family: monospace; font-size: 0.7rem; color: #64748b; }
+  :global(.fwm-panel__close) {
     display: flex; align-items: center; justify-content: center;
     width: 32px; height: 32px; background: none;
     border: 1px solid rgba(255,255,255,0.08); border-radius: 8px;
     color: #94A3B8; cursor: pointer; font-size: 1.4rem; line-height: 1; flex-shrink: 0;
   }
-  :global(.fm-panel__close:hover) { color: #fff; border-color: rgba(255,255,255,0.2); }
-  :global(.fm-panel__img) { width: 100%; height: 120px; object-fit: cover; border-bottom: 1px solid rgba(255,255,255,0.08); }
-  :global(.fm-panel__weather) {
+  :global(.fwm-panel__close:hover) { color: #fff; border-color: rgba(255,255,255,0.2); }
+
+  :global(.fwm-panel__body) {
+    display: flex; gap: 0; overflow: hidden;
+  }
+  :global(.fwm-panel__img) {
+    width: 200px; flex-shrink: 0; object-fit: cover;
+    border-right: 1px solid rgba(255,255,255,0.08);
+  }
+  :global(.fwm-panel__info) { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+
+  :global(.fwm-panel__weath) {
     display: flex; align-items: center; gap: 0.35rem; padding: 0.5rem 1rem;
     flex-wrap: wrap; border-bottom: 1px solid rgba(255,255,255,0.08);
   }
-  :global(.fm-panel__label) { font-size: 0.7rem; font-weight: 600; color: #94A3B8; text-transform: uppercase; letter-spacing: 0.5px; }
-  :global(.fm-weather-chip) {
+  :global(.fwm-panel__lbl) { font-size: 0.7rem; font-weight: 600; color: #94A3B8; text-transform: uppercase; letter-spacing: 0.5px; }
+  :global(.fwm-wtag) {
     font-size: 0.7rem; font-weight: 500; padding: 2px 8px; border-radius: 4px;
     background: rgba(29,162,216,0.1); color: #1DA2D8; border: 1px solid rgba(29,162,216,0.2);
   }
-  :global(.fm-panel__rchips) {
+
+  :global(.fwm-panel__rchips) {
     display: flex; gap: 0.25rem; padding: 0.5rem 1rem; flex-wrap: wrap;
     border-bottom: 1px solid rgba(255,255,255,0.08);
   }
-  :global(.fm-rchip) {
+  :global(.fwm-rch) {
     font-size: 0.65rem; font-weight: 600; padding: 2px 8px; border-radius: 9999px;
     background: transparent; border: 1px solid rgba(255,255,255,0.08);
     color: #94A3B8; cursor: pointer; font-family: Inter, system-ui, sans-serif; white-space: nowrap;
+    transition: all 0.15s;
   }
-  :global(.fm-panel__fish) { flex: 1; overflow-y: auto; padding: 0.5rem; }
-  :global(.fm-panel__empty) { text-align: center; padding: 2rem 1rem; color: #64748b; font-size: 0.85rem; }
+  :global(.fwm-rch:hover) { border-color: rgba(255,255,255,0.2); color: #CBD5E1; }
+  :global(.fwm-rch--on) { border-color: #1DA2D8; color: #1DA2D8; background: rgba(29,162,216,0.1); }
 
-  :global(.fm-fish) {
+  :global(.fwm-panel__fish) { flex: 1; overflow-y: auto; padding: 0.5rem; max-height: 300px; }
+  :global(.fwm-panel__empty) { text-align: center; padding: 2rem 1rem; color: #64748b; font-size: 0.85rem; }
+
+  :global(.fwm-f) {
     display: flex; align-items: center; gap: 0.5rem; padding: 0.35rem 0.6rem;
     border-radius: 6px; text-decoration: none; color: #E2E8F0; font-size: 0.82rem;
     transition: background 0.1s;
   }
-  :global(.fm-fish:hover) { background: rgba(29,162,216,0.08); }
-  :global(.fm-fish__dot) { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-  :global(.fm-fish__name) { flex: 1; font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  :global(.fm-fish__rarity) { font-size: 0.7rem; font-weight: 600; flex-shrink: 0; }
+  :global(.fwm-f:hover) { background: rgba(29,162,216,0.08); }
+  :global(.fwm-f__dot) { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  :global(.fwm-f__name) { flex: 1; font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  :global(.fwm-f__rar) { font-size: 0.7rem; font-weight: 600; flex-shrink: 0; }
 
-  :global(.fm-panel__viewall) {
+  :global(.fwm-panel__all) {
     display: block; padding: 0.75rem 1rem; text-align: center;
     color: #1DA2D8; font-size: 0.8rem; font-weight: 600;
     border-top: 1px solid rgba(255,255,255,0.08); text-decoration: none;
   }
-  :global(.fm-panel__viewall:hover) { background: rgba(29,162,216,0.06); }
+  :global(.fwm-panel__all:hover) { background: rgba(29,162,216,0.06); }
 
   /* Badges */
-  :global(.fm-badge) { font-size: 0.6rem; font-weight: 600; padding: 1px 5px; border-radius: 4px; }
-  :global(.fm-badge--premium) { background: rgba(249,115,22,0.15); color: #F97316; border: 1px solid rgba(249,115,22,0.3); }
-  :global(.fm-badge--event) { background: rgba(168,85,247,0.15); color: #a855f7; border: 1px solid rgba(168,85,247,0.3); }
-  :global(.fm-badge--seasonal) { background: rgba(34,211,238,0.15); color: #22D3EE; border: 1px solid rgba(34,211,238,0.3); }
+  :global(.fwm-badge) { font-size: 0.6rem; font-weight: 600; padding: 1px 5px; border-radius: 4px; }
+  :global(.fwm-badge--p) { background: rgba(249,115,22,0.15); color: #F97316; border: 1px solid rgba(249,115,22,0.3); }
+  :global(.fwm-badge--e) { background: rgba(168,85,247,0.15); color: #a855f7; border: 1px solid rgba(168,85,247,0.3); }
+  :global(.fwm-badge--s) { background: rgba(34,211,238,0.15); color: #22D3EE; border: 1px solid rgba(34,211,238,0.3); }
 
-  /* ---- Mobile: panel below map ---- */
+  /* ---- Mobile ---- */
   @media (max-width: 767px) {
-    :global(.fm-body) { flex-direction: column; }
-    :global(.fm-panel) {
-      width: 100%; max-height: 50vh; border-left: none;
-      border-top: 1px solid rgba(255,255,255,0.12);
+    :global(.fwm-bar) { gap: 0.5rem; padding: 0.6rem 0.75rem; }
+    :global(.fwm-srch) { flex: 1 1 100%; }
+    :global(.fwm-panel__body) { flex-direction: column; }
+    :global(.fwm-panel__img) {
+      width: 100%; height: 120px; border-right: none;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
     }
-    :global(.fm-panel__img) { height: 100px; }
-    :global(.fm-toolbar) { gap: 0.5rem; padding: 0.6rem 0.75rem; }
-    :global(.fm-search) { flex: 1 1 100%; }
+    :global(.fwm-panel__fish) { max-height: 200px; }
   }
 </style>
