@@ -84,8 +84,9 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
   /* ====== MAP FRAME ====== */
   :global(.fwm-frame) {
     position: relative; width: 100%; aspect-ratio: 16 / 9;
-    border-radius: 16px; border: 1px solid rgba(34,211,238,0.1);
+    border-radius: 16px; border: 2px solid rgba(255,255,255,0.08);
     overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.04);
   }
 
   /* ====== BACK BUTTON ====== */
@@ -101,95 +102,106 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
   :global(.fwm-back:hover) { background: rgba(0,0,0,0.75); border-color: #22d3ee; }
   :global(.fwm-back svg) { flex-shrink: 0; }
 
-  /* ====== LEVEL 1: WORLD MAP ====== */
+  /* ====== LEVEL 1: WORLD MAP (anime-illustrated style) ====== */
   :global(.fwm-world) {
     position: absolute; inset: 0;
-    background: linear-gradient(180deg, #0a1e3d 0%, #0c2748 30%, #0a1f3a 60%, #081628 100%);
+    background: linear-gradient(180deg, #546478 0%, #4f5f72 25%, #4a5a6d 50%, #435267 75%, #3c4b5e 100%);
     transition: opacity 0.4s, transform 0.4s;
   }
   :global(.fwm-world::before) {
     content: ''; position: absolute; inset: 0; pointer-events: none;
     background:
-      radial-gradient(ellipse 80% 50% at 30% 40%, rgba(34,211,238,0.03) 0%, transparent 70%),
-      radial-gradient(ellipse 60% 40% at 70% 60%, rgba(99,102,241,0.03) 0%, transparent 70%);
+      radial-gradient(ellipse 90% 60% at 25% 30%, rgba(80,160,200,0.06) 0%, transparent 60%),
+      radial-gradient(ellipse 70% 50% at 75% 65%, rgba(60,100,150,0.05) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 30% at 50% 50%, rgba(100,180,220,0.03) 0%, transparent 50%);
   }
   :global(.fwm-world--out) { opacity: 0; pointer-events: none; transform: scale(1.1); }
 
   :global(.fwm-grid) {
-    position: absolute; inset: 0; opacity: 0.03; pointer-events: none;
+    position: absolute; inset: 0; opacity: 0.04; pointer-events: none;
     background-image:
-      linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px);
+      linear-gradient(rgba(255,255,255,0.4) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.4) 1px, transparent 1px);
     background-size: 80px 80px;
   }
+  :global(.fwm-waves) {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    pointer-events: none; z-index: 1;
+  }
   :global(.fwm-rl) {
-    position: absolute; font-size: 11px; font-weight: 700;
-    letter-spacing: 4px; text-transform: uppercase; pointer-events: none; opacity: 0.1;
+    position: absolute; font-size: 12px; font-weight: 800;
+    letter-spacing: 5px; text-transform: uppercase; pointer-events: none; opacity: 0.15;
   }
-  :global(.fwm-rl--1) { top: 8%; left: 50%; transform: translateX(-50%); color: #22d3ee; }
-  :global(.fwm-rl--2) { bottom: 12%; left: 50%; transform: translateX(-50%); color: #a78bfa; }
-  :global(.fwm-compass) {
-    position: absolute; top: 12px; right: 12px; width: 40px; height: 40px;
-    border-radius: 50%; border: 1px solid rgba(255,255,255,0.06);
-    background: rgba(0,0,0,0.25); pointer-events: none; z-index: 5;
-  }
-  :global(.fwm-compass::before) {
-    content: 'N'; position: absolute; top: 4px; left: 50%; transform: translateX(-50%);
-    color: #ef4444; font-size: 9px; font-weight: 700;
-  }
-  :global(.fwm-compass::after) {
-    content: ''; width: 1px; height: 18px; position: absolute;
-    top: 50%; left: 50%; transform: translate(-50%,-50%);
-    background: linear-gradient(#ef4444, rgba(255,255,255,0.15));
+  :global(.fwm-rl--1) { top: 6%; left: 50%; transform: translateX(-50%); color: #7dd3fc; }
+  :global(.fwm-rl--2) { bottom: 10%; left: 50%; transform: translateX(-50%); color: #c4b5fd; }
+  :global(.fwm-compass-svg) {
+    position: absolute; top: 12px; right: 12px;
+    pointer-events: none; z-index: 5;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
   }
 
-  /* ====== ISLAND NODES (Level 1) ====== */
+  /* ====== ISLAND NODES (Level 1 — anime-illustrated) ====== */
   :global(.fwm-isle) {
     position: absolute; display: flex; flex-direction: column; align-items: center;
-    cursor: pointer; transition: transform 0.2s, opacity 0.2s; z-index: 2;
+    cursor: pointer; transition: transform 0.25s, opacity 0.2s; z-index: 2;
     transform: translate(-50%, -50%);
+    filter: drop-shadow(0 3px 8px rgba(0,0,0,0.4));
   }
-  :global(.fwm-isle:hover) { transform: translate(-50%,-50%) scale(1.15); z-index: 10; }
+  :global(.fwm-isle:hover) { transform: translate(-50%,-50%) scale(1.12); z-index: 10; }
   :global(.fwm-isle::after) {
-    content: ''; position: absolute; top: 0; left: 50%;
+    content: ''; position: absolute; top: -4px; left: 50%;
     transform: translateX(-50%); border-radius: 50%;
-    border: 1px solid rgba(34,211,238,0.2);
+    border: 2px solid rgba(255,255,255,0.15);
     animation: fwm-pulse 3s ease-in-out infinite;
     pointer-events: none; opacity: 0; z-index: -1;
   }
   :global(.fwm-isle:hover::after) { opacity: 1; }
   @keyframes fwm-pulse {
     0%,100% { transform: translateX(-50%) scale(1); opacity: 0; }
-    50% { transform: translateX(-50%) scale(1.4); opacity: 0.5; }
+    50% { transform: translateX(-50%) scale(1.5); opacity: 0.6; }
   }
 
   :global(.fwm-isle__w) {
-    border-radius: 50%; overflow: hidden;
-    border: 2px solid rgba(255,255,255,0.12);
-    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    overflow: hidden;
+    border: 3px solid rgba(255,255,255,0.2);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.05), inset 0 1px 0 rgba(255,255,255,0.1);
     transition: all 0.25s; display: flex; align-items: center; justify-content: center;
   }
-  :global(.fwm-isle:hover .fwm-isle__w) { border-color: #22d3ee; box-shadow: 0 0 22px rgba(34,211,238,0.35); }
-  :global(.fwm-isle--xl .fwm-isle__w) { width: 72px; height: 72px; }
-  :global(.fwm-isle--xl::after) { width: 72px; height: 72px; }
-  :global(.fwm-isle--lg .fwm-isle__w) { width: 60px; height: 60px; }
-  :global(.fwm-isle--lg::after) { width: 60px; height: 60px; }
-  :global(.fwm-isle--md .fwm-isle__w) { width: 50px; height: 50px; }
-  :global(.fwm-isle--md::after) { width: 50px; height: 50px; }
-  :global(.fwm-isle--sm .fwm-isle__w) { width: 40px; height: 40px; }
-  :global(.fwm-isle--sm::after) { width: 40px; height: 40px; }
-
-  :global(.fwm-isle__img) { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
-  :global(.fwm-isle__ph) { width: 100%; height: 100%; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 22px; }
-  :global(.fwm-isle__n) {
-    margin-top: 3px; font-size: 9px; font-weight: 600;
-    color: rgba(255,255,255,0.7); text-shadow: 0 1px 3px rgba(0,0,0,0.9);
-    white-space: nowrap; transition: color 0.2s;
+  :global(.fwm-isle:hover .fwm-isle__w) {
+    border-color: rgba(255,255,255,0.5);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4), 0 0 20px rgba(34,211,238,0.25), inset 0 1px 0 rgba(255,255,255,0.15);
   }
-  :global(.fwm-isle:hover .fwm-isle__n) { color: #22d3ee; }
+  :global(.fwm-isle--xl .fwm-isle__w) { width: 76px; height: 76px; }
+  :global(.fwm-isle--xl::after) { width: 76px; height: 76px; }
+  :global(.fwm-isle--lg .fwm-isle__w) { width: 64px; height: 64px; }
+  :global(.fwm-isle--lg::after) { width: 64px; height: 64px; }
+  :global(.fwm-isle--md .fwm-isle__w) { width: 52px; height: 52px; }
+  :global(.fwm-isle--md::after) { width: 52px; height: 52px; }
+  :global(.fwm-isle--sm .fwm-isle__w) { width: 42px; height: 42px; }
+  :global(.fwm-isle--sm::after) { width: 42px; height: 42px; }
+
+  :global(.fwm-isle__img) {
+    width: 100%; height: 100%; object-fit: cover; border-radius: inherit;
+    filter: saturate(1.25) contrast(1.08) brightness(1.05);
+  }
+  :global(.fwm-isle__ph) {
+    width: 100%; height: 100%; border-radius: inherit;
+    display: flex; align-items: center; justify-content: center; font-size: 22px;
+  }
+  :global(.fwm-isle__n) {
+    margin-top: 4px; font-size: 10px; font-weight: 700;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.95), 0 0 10px rgba(0,0,0,0.6);
+    white-space: nowrap; transition: color 0.2s; letter-spacing: 0.3px;
+  }
+  :global(.fwm-isle:hover .fwm-isle__n) { filter: brightness(1.3); }
   :global(.fwm-isle__f) {
-    font-size: 8px; font-weight: 700; color: #22d3ee;
-    background: rgba(34,211,238,0.12); padding: 1px 5px; border-radius: 6px; margin-top: 1px;
+    font-size: 8px; font-weight: 700; color: #e2e8f0;
+    background: rgba(0,0,0,0.35); padding: 1px 6px; border-radius: 6px; margin-top: 2px;
+    backdrop-filter: blur(4px); border: 1px solid rgba(255,255,255,0.08);
+  }
+  :global(.fwm-isle__c) {
+    font-size: 7px; font-weight: 600; color: rgba(255,255,255,0.35);
+    font-family: monospace; margin-top: 1px; letter-spacing: 0.5px;
   }
 
   /* Biome bg */
@@ -403,12 +415,13 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     :global(.fwm-ctrls) { flex-direction: column; }
     :global(.fwm-search) { width: 100%; }
 
-    :global(.fwm-isle--xl .fwm-isle__w) { width: 56px; height: 56px; }
-    :global(.fwm-isle--lg .fwm-isle__w) { width: 48px; height: 48px; }
-    :global(.fwm-isle--md .fwm-isle__w) { width: 42px; height: 42px; }
-    :global(.fwm-isle--sm .fwm-isle__w) { width: 36px; height: 36px; }
-    :global(.fwm-isle__n) { font-size: 7px; }
-    :global(.fwm-isle__f) { font-size: 7px; padding: 0 3px; }
+    :global(.fwm-isle--xl .fwm-isle__w) { width: 60px; height: 60px; }
+    :global(.fwm-isle--lg .fwm-isle__w) { width: 50px; height: 50px; }
+    :global(.fwm-isle--md .fwm-isle__w) { width: 44px; height: 44px; }
+    :global(.fwm-isle--sm .fwm-isle__w) { width: 38px; height: 38px; }
+    :global(.fwm-isle__n) { font-size: 8px; }
+    :global(.fwm-isle__f) { font-size: 7px; padding: 0 4px; }
+    :global(.fwm-isle__c) { display: none; }
 
     :global(.fwm-det) { flex-direction: column; }
     :global(.fwm-mm) { min-height: 55%; }

@@ -40,6 +40,13 @@ function bestRar(fish: FishEntry[]): string {
 function islSize(c: number) { return c >= 50 ? 'xl' : c >= 30 ? 'lg' : c >= 15 ? 'md' : 'sm'; }
 function subSize(c: number) { return c >= 20 ? 'xl' : c >= 10 ? 'lg' : c >= 5 ? 'md' : 'sm'; }
 
+/* Organic blob border-radius per island (anime-style) */
+function blobRadius(name: string): string {
+  const r = rng(hashStr(name + 'blob'));
+  const v = () => 36 + Math.floor(r() * 28); // 36-64%
+  return `${v()}% ${v()}% ${v()}% ${v()}% / ${v()}% ${v()}% ${v()}% ${v()}%`;
+}
+
 /* ---- Weather ---- */
 const WX_CLS: Record<string,string> = {
   'Sunny':'fwm-wx--sun','Rain':'fwm-wx--rain','Thunder':'fwm-wx--thun',
@@ -374,26 +381,60 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           </button>
         )}
 
-        {/* LEVEL 1: WORLD MAP */}
+        {/* LEVEL 1: WORLD MAP (anime-illustrated style) */}
         <div className={`fwm-world${level!==1?' fwm-world--out':''}`}>
           <div className="fwm-grid"/>
+
+          {/* Decorative ocean waves */}
+          <svg className="fwm-waves" viewBox="0 0 1000 600" preserveAspectRatio="none">
+            {[120, 200, 300, 380, 470, 540].map((y, i) => (
+              <path key={i}
+                d={`M-20,${y} Q${150+i*20},${y-12-i*2} ${300+i*10},${y} T${620-i*10},${y} T${940+i*5},${y}`}
+                fill="none" stroke={`rgba(255,255,255,${0.05 - i*0.006})`}
+                strokeWidth={2 - i*0.2} strokeLinecap="round"/>
+            ))}
+            {/* Small foam dots */}
+            {[{x:120,y:160},{x:450,y:280},{x:780,y:350},{x:300,y:450},{x:650,y:180},{x:880,y:500}].map((p, i) => (
+              <circle key={`f${i}`} cx={p.x} cy={p.y} r={1.5} fill={`rgba(255,255,255,${0.04})`}/>
+            ))}
+          </svg>
+
           <span className="fwm-rl fwm-rl--1">— First Sea —</span>
           <span className="fwm-rl fwm-rl--2">— Second Sea —</span>
-          <div className="fwm-compass"/>
 
+          {/* Compass rose */}
+          <svg className="fwm-compass-svg" viewBox="0 0 60 60" width="48" height="48">
+            <circle cx="30" cy="30" r="27" fill="rgba(0,0,0,0.35)" stroke="rgba(255,255,255,0.12)" strokeWidth="1"/>
+            <circle cx="30" cy="30" r="22" fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="0.5"/>
+            <line x1="30" y1="5" x2="30" y2="55" stroke="rgba(255,255,255,0.06)" strokeWidth="0.5"/>
+            <line x1="5" y1="30" x2="55" y2="30" stroke="rgba(255,255,255,0.06)" strokeWidth="0.5"/>
+            <polygon points="30,7 33,25 30,21 27,25" fill="#ef4444" opacity="0.9"/>
+            <polygon points="30,53 33,35 30,39 27,35" fill="rgba(255,255,255,0.25)"/>
+            <polygon points="7,30 25,27 21,30 25,33" fill="rgba(255,255,255,0.2)"/>
+            <polygon points="53,30 35,27 39,30 35,33" fill="rgba(255,255,255,0.2)"/>
+            <text x="30" y="16" textAnchor="middle" fill="#ef4444" fontSize="7" fontWeight="700" fontFamily="inherit">N</text>
+            <text x="30" y="49" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">S</text>
+            <text x="13" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">W</text>
+            <text x="47" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">E</text>
+          </svg>
+
+          {/* Island nodes */}
           {groups.map(g => {
             const vis = visIds.has(g.id);
+            const blob = blobRadius(g.name);
+            const bClr = BIOME[g.biome]?.stroke || '#22d3ee';
             return (
               <div key={g.id} className={`fwm-isle fwm-isle--${islSize(g.totalFish)}`}
                 style={{ left: g.left, top: g.top, opacity: vis ? 1 : 0.15 }}
                 onClick={() => vis && enter(g.id)}>
-                <div className="fwm-isle__w">
+                <div className="fwm-isle__w" style={{ borderRadius: blob, borderColor: `${bClr}70` }}>
                   {g.imagePath
-                    ? <img src={g.imagePath} alt={g.name} className="fwm-isle__img"/>
-                    : <div className={`fwm-isle__ph fwm-b--${g.biome}`}><span>{g.icon}</span></div>}
+                    ? <img src={g.imagePath} alt={g.name} className="fwm-isle__img" style={{ borderRadius: blob }}/>
+                    : <div className={`fwm-isle__ph fwm-b--${g.biome}`} style={{ borderRadius: blob }}><span>{g.icon}</span></div>}
                 </div>
-                <span className="fwm-isle__n">{g.name}</span>
+                <span className="fwm-isle__n" style={{ color: bClr }}>{g.name}</span>
                 {g.totalFish > 0 && <span className="fwm-isle__f">{g.totalFish} fish</span>}
+                {g.coords && <span className="fwm-isle__c">{g.coords.x}, {g.coords.z}</span>}
               </div>
             );
           })}
