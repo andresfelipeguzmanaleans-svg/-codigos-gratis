@@ -165,6 +165,11 @@ if (fish.baseResil != null) infoItems.push({ label: 'Resilience', value: fmt(fis
 if (fish.estimatedNpcValue) infoItems.push({ label: 'NPC Value (avg)', value: fish.estimatedNpcValue, icon: '🏪' });
 if (fish.estimatedCsPerHour != null) infoItems.push({ label: 'C$/Hour (est.)', value: `${fmtC(fish.estimatedCsPerHour)} C$`, icon: '⏱️' });
 
+// Location slug for "View on Map" link
+const locationSlug = fish.location
+  ? fish.location.toLowerCase().replace(/['']/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  : null;
+
 // Conditions
 const conditions: { label: string; value: string; icon: string }[] = [];
 if (fish.location) conditions.push({ label: 'Location', value: fish.sublocation ? `${fish.location} — ${fish.sublocation}` : fish.location, icon: '📍' });
@@ -199,7 +204,7 @@ const narrative = parts.join('');
 ---
 
 <GameLayout
-  title={`${fish.name} - How to Catch, Value & Location | Fisch Guide`}
+  title={`${fish.name} - How to Catch, Value & Location | Fisch Roblox`}
   description={metaDesc}
   game="Fisch"
   breadcrumbs={[
@@ -297,9 +302,16 @@ const narrative = parts.join('');
                 <span class="cond-row__icon">{c.icon}</span>
                 <span class="cond-row__label">{c.label}</span>
                 {c.label === 'Location' ? (
-                  <a href="/games/fisch/locations/" class="cond-row__value cond-row__link">
-                    {c.value}
-                  </a>
+                  <span class="cond-row__value cond-row__loc-wrap">
+                    <a href="/games/fisch/locations/" class="cond-row__link">
+                      {c.value}
+                    </a>
+                    {locationSlug && (
+                      <a href={`/games/fisch/map/?loc=${locationSlug}`} class="cond-row__map-link" title="View on Map">
+                        🗺️
+                      </a>
+                    )}
+                  </span>
                 ) : (
                   <span class="cond-row__value">{c.value}</span>
                 )}
@@ -1251,6 +1263,24 @@ const narrative = parts.join('');
 
   .cond-row__link:hover {
     opacity: 0.8;
+  }
+
+  .cond-row__loc-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .cond-row__map-link {
+    font-size: 0.85rem;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    text-decoration: none;
+    line-height: 1;
+  }
+
+  .cond-row__map-link:hover {
+    opacity: 1;
   }
 
   /* ============================================================

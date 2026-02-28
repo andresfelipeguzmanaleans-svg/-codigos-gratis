@@ -1,0 +1,862 @@
+{
+  "the-ocean": {
+    "coords": {
+      "x": 0,
+      "y": 0,
+      "z": -800
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "atlantis": {
+    "coords": {
+      "x": -4300,
+      "y": -580,
+      "z": 1800
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Atlantis",
+    "mainImage": "Atlantis.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/atlantis.png"
+  },
+  "unknown": {
+    "coords": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "cultist-lair": {
+    "coords": {
+      "x": 4450,
+      "y": -2000,
+      "z": -4675
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Cultist Lair",
+    "mainImage": "Location_Context_Cultist_Lair_Lever.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/cultist-lair.png"
+  },
+  "the-depths": {
+    "coords": {
+      "x": 472,
+      "y": -706,
+      "z": 1231
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "The Depths",
+    "mainImage": "The_Depths.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/the-depths.png"
+  },
+  "treasure-island": {
+    "coords": {
+      "x": 8582,
+      "y": 175,
+      "z": -17304
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Treasure Island",
+    "mainImage": "Treasure_Island.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/treasure-island.png"
+  },
+  "roslit-bay": {
+    "coords": {
+      "x": -1450,
+      "y": 135,
+      "z": 750
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Roslit Bay",
+    "mainImage": "RoslitFar.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/roslit-bay.png"
+  },
+  "open-ocean": {
+    "coords": {
+      "x": 500,
+      "y": 0,
+      "z": -1200
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Open Ocean",
+    "mainImage": "OpenOcean.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/open-ocean.png"
+  },
+  "ethereal-abyss-pool": {
+    "coords": {
+      "x": 50,
+      "y": -300,
+      "z": 150
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "snowcap-island": {
+    "coords": {
+      "x": 2600,
+      "y": 150,
+      "z": 2400
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Snowcap Island",
+    "mainImage": "SnowcapFar.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/snowcap-island.png"
+  },
+  "desolate-deep": {
+    "coords": {
+      "x": -790,
+      "y": 125,
+      "z": -3100
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Desolate Deep",
+    "mainImage": "BestiaryDesolateDeep.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/desolate-deep.png"
+  },
+  "waveborne": {
+    "coords": {
+      "x": 360,
+      "y": 90,
+      "z": 780
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Waveborne",
+    "mainImage": "Waveborne.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/waveborne.png"
+  },
+  "sunken-depths-pool": {
+    "coords": {
+      "x": 450,
+      "y": -400,
+      "z": -2950
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "cursed-isle": {
+    "coords": {
+      "x": 1860,
+      "y": 135,
+      "z": 1210
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Cursed Isle",
+    "mainImage": "CursedIsle.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/cursed-isle.png"
+  },
+  "lushgrove": {
+    "coords": {
+      "x": 1133,
+      "y": 105,
+      "z": -560
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Lushgrove",
+    "mainImage": "Lushgrove.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/lushgrove.png"
+  },
+  "moosewood": {
+    "coords": {
+      "x": 350,
+      "y": 135,
+      "z": 250
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Moosewood",
+    "mainImage": "Moosewood.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/moosewood.png"
+  },
+  "ancient-isle": {
+    "coords": {
+      "x": 5833,
+      "y": 125,
+      "z": 401
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Ancient Isle",
+    "mainImage": "AncientIslesFar.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/ancient-isle.png"
+  },
+  "poseidon-trial-pool": {
+    "coords": {
+      "x": 500,
+      "y": -450,
+      "z": -3100
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "challengers-deep": {
+    "coords": {
+      "x": 1500,
+      "y": -800,
+      "z": -3500
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Challenger's Deep",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "roslit-volcano": {
+    "coords": {
+      "x": -1515,
+      "y": 250,
+      "z": 760
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Roslit Volcano",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "crimson-cavern": {
+    "coords": {
+      "x": -1035,
+      "y": -360,
+      "z": -4800
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Crimson Cavern",
+    "mainImage": "Crimson_Cavern.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/crimson-cavern.png"
+  },
+  "isle-of-new-beginnings": {
+    "coords": {
+      "x": -300,
+      "y": 83,
+      "z": -380
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Isle of New Beginnings",
+    "mainImage": "IsleOfNewBeginnings.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/isle-of-new-beginnings.png"
+  },
+  "veil-of-the-forsaken": {
+    "coords": {
+      "x": -2800,
+      "y": -200,
+      "z": 1900
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Veil of the Forsaken",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "atlantean-storm": {
+    "coords": {
+      "x": 300,
+      "y": -450,
+      "z": -3200
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Atlantean Storm",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "vertigo": {
+    "coords": {
+      "x": -110,
+      "y": -515,
+      "z": 1040
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Vertigo",
+    "mainImage": "VertigoCaves.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/vertigo.png"
+  },
+  "carrot-garden": {
+    "coords": {
+      "x": -250,
+      "y": 140,
+      "z": 2300
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Carrot Garden",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "cults-curse": {
+    "coords": {
+      "x": 2300,
+      "y": -100,
+      "z": -2900
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "abyssal-zenith": {
+    "coords": {
+      "x": -2000,
+      "y": -400,
+      "z": 2500
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Abyssal Zenith",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "luminescent-cavern": {
+    "coords": {
+      "x": -1013,
+      "y": -313,
+      "z": -4038
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Luminescent Cavern",
+    "mainImage": "Luminescent_Cavern.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/luminescent-cavern.png"
+  },
+  "glacial-grotto": {
+    "coords": {
+      "x": 2850,
+      "y": 50,
+      "z": 2800
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Glacial Grotto",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "calm-zone": {
+    "coords": {
+      "x": -1800,
+      "y": -300,
+      "z": 2800
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Calm Zone",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "castaway-cliffs": {
+    "coords": {
+      "x": 690,
+      "y": 135,
+      "z": -1693
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Castaway Cliffs",
+    "mainImage": "Castaway_Cliffs.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/castaway-cliffs.png"
+  },
+  "brine-pool": {
+    "coords": {
+      "x": -2700,
+      "y": -50,
+      "z": 1820
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Brine Pool",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "second-sea": {
+    "coords": {
+      "x": -1000,
+      "y": 0,
+      "z": 3500
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Second Sea",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "terrapin-island": {
+    "coords": {
+      "x": -200,
+      "y": 130,
+      "z": 1925
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Terrapin Island",
+    "mainImage": "TerrapinFar.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/terrapin-island.png"
+  },
+  "sunstone-island": {
+    "coords": {
+      "x": -935,
+      "y": 130,
+      "z": -1105
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Sunstone Island",
+    "mainImage": "SunstoneClose.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/sunstone-island.png"
+  },
+  "pine-shoals": {
+    "coords": {
+      "x": 1165,
+      "y": 80,
+      "z": 480
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Pine Shoals",
+    "mainImage": "PineShoals.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/pine-shoals.png"
+  },
+  "marianas-veil-volcanic-vents": {
+    "coords": {
+      "x": -1500,
+      "y": -200,
+      "z": 650
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "atlantis-kraken-pool": {
+    "coords": {
+      "x": 450,
+      "y": -500,
+      "z": -3050
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "lost-jungle": {
+    "coords": {
+      "x": -2680,
+      "y": 154,
+      "z": -2078
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Lost Jungle",
+    "mainImage": "LostJungle.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/lost-jungle.png"
+  },
+  "ancient-archives": {
+    "coords": {
+      "x": 1900,
+      "y": 50,
+      "z": -1700
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Ancient Archives",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "the-chasm": {
+    "coords": {
+      "x": -500,
+      "y": -600,
+      "z": -2000
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "The Chasm",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "kraken-pool": {
+    "coords": {
+      "x": 1850,
+      "y": -50,
+      "z": -1850
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Kraken Pool",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "frigid-cavern": {
+    "coords": {
+      "x": 2950,
+      "y": 50,
+      "z": 2600
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Frigid Cavern",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "crypt": {
+    "coords": {
+      "x": 2200,
+      "y": 50,
+      "z": -2700
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "frightful-pool": {
+    "coords": {
+      "x": 2300,
+      "y": -50,
+      "z": -2750
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Frightful Pool",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "keepers-altar": {
+    "coords": {
+      "x": -950,
+      "y": 50,
+      "z": -1050
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "azure-lagoon": {
+    "coords": {
+      "x": 1310,
+      "y": 80,
+      "z": 2113
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Azure Lagoon",
+    "mainImage": "AzureLagoon.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/azure-lagoon.png"
+  },
+  "emberreach": {
+    "coords": {
+      "x": 2390,
+      "y": 83,
+      "z": -490
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Emberreach",
+    "mainImage": "Emberreach.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/emberreach.png"
+  },
+  "volcanic-vents": {
+    "coords": {
+      "x": -1450,
+      "y": -100,
+      "z": 700
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Volcanic Vents",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "forsaken-shores": {
+    "coords": {
+      "x": -2425,
+      "y": 135,
+      "z": 1555
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Forsaken Shores",
+    "mainImage": "ForsakenFar.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/forsaken-shores.png"
+  },
+  "crystal-cove": {
+    "coords": {
+      "x": 1364,
+      "y": -612,
+      "z": 2472
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Crystal Cove",
+    "mainImage": "Location_Contex_Crystal_Cove_Entrance.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/crystal-cove.png"
+  },
+  "snowburrow": {
+    "coords": {
+      "x": 2750,
+      "y": 50,
+      "z": 2750
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Snowburrow",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "mushgrove-swamp": {
+    "coords": {
+      "x": 2425,
+      "y": 130,
+      "z": -670
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Mushgrove Swamp",
+    "mainImage": "MushgroveGuardTower.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/mushgrove-swamp.png"
+  },
+  "marianas-veil-abyssal-zenith": {
+    "coords": {
+      "x": -2050,
+      "y": -400,
+      "z": 2550
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "marianas-veil-calm-zone": {
+    "coords": {
+      "x": -1850,
+      "y": -300,
+      "z": 2850
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "second-sea-azure-lagoon": {
+    "coords": {
+      "x": -650,
+      "y": 140,
+      "z": 2850
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "second-sea-waveborne": {
+    "coords": {
+      "x": -1050,
+      "y": 140,
+      "z": 3400
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "cryogenic-canal": {
+    "coords": {
+      "x": 2900,
+      "y": 50,
+      "z": 2650
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Cryogenic Canal",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "atlantis-sunken-depths-pool": {
+    "coords": null,
+    "coordSource": "none",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "oceanic-trench": {
+    "coords": {
+      "x": 1000,
+      "y": -600,
+      "z": -3000
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "monster-trench": {
+    "coords": {
+      "x": 1200,
+      "y": -700,
+      "z": -3200
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "ocean": {
+    "coords": {
+      "x": -1270,
+      "y": 125,
+      "z": 1580
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Ocean",
+    "mainImage": "Ocean.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/ocean.png"
+  },
+  "executive-lake": {
+    "coords": {
+      "x": 100,
+      "y": 140,
+      "z": 200
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "grand-reef": {
+    "coords": {
+      "x": -3530,
+      "y": 130,
+      "z": 550
+    },
+    "coordSource": "wiki",
+    "wikiTitle": "Grand Reef",
+    "mainImage": "GrandReef.png",
+    "imageDownloaded": true,
+    "imagePath": "/images/locations/grand-reef.png"
+  },
+  "mariana-trench": {
+    "coords": {
+      "x": -1800,
+      "y": -500,
+      "z": 2600
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "salty-reef": {
+    "coords": {
+      "x": -500,
+      "y": -50,
+      "z": 1500
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "admin-events": {
+    "coords": {
+      "x": 0,
+      "y": 200,
+      "z": 0
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": "Admin Events",
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "fischfright-2025": {
+    "coords": {
+      "x": 2200,
+      "y": 140,
+      "z": -2800
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "winter-village": {
+    "coords": {
+      "x": 2850,
+      "y": 180,
+      "z": 2700
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "lego-event-2025": {
+    "coords": {
+      "x": 0,
+      "y": 140,
+      "z": 0
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  },
+  "fischgiving-2025": {
+    "coords": {
+      "x": 0,
+      "y": 140,
+      "z": 0
+    },
+    "coordSource": "hardcoded",
+    "wikiTitle": null,
+    "mainImage": null,
+    "imageDownloaded": false,
+    "imagePath": null
+  }
+}

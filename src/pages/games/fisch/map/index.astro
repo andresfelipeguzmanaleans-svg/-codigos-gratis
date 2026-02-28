@@ -1,0 +1,109 @@
+---
+import GameLayout from '../../../../layouts/GameLayout.astro';
+import FischMap from '../../../../components/FischMap.tsx';
+import locationsData from '../../../../data/games/fisch/locations.json';
+
+// Prepare map locations
+const mapLocations = (locationsData as any[]).map(loc => ({
+  id: loc.id,
+  name: loc.name,
+  fishCount: loc.fishCount || 0,
+  isPremium: loc.isPremium || false,
+  isEvent: loc.isEvent || false,
+  isSeasonal: loc.isSeasonal || false,
+  coords: loc.coords || null,
+  imagePath: loc.imagePath || null,
+  fish: (loc.fish || []).map((f: any) => ({
+    name: f.name,
+    rarity: f.rarity,
+    id: f.name.toLowerCase().replace(/['']/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+  })),
+  availableWeathers: loc.availableWeathers || [],
+}));
+
+const withCoords = mapLocations.filter(l => l.coords).length;
+const totalFish = mapLocations.reduce((sum, l) => sum + l.fishCount, 0);
+
+const description = `Interactive map of all ${withCoords} Fisch fishing locations. Explore islands, caves, and seas — click any location to see its fish, weather, and requirements.`;
+---
+
+<GameLayout
+  title="Interactive Map - All Fishing Locations | Fisch Roblox"
+  description={description}
+  game="Fisch"
+  breadcrumbs={[{ label: 'Map', href: '/games/fisch/map/' }]}
+>
+  <div class="map-page">
+    <div class="map-hero">
+      <div class="container">
+        <h1 class="map-hero__title">
+          <svg class="map-hero__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>
+          </svg>
+          INTERACTIVE MAP
+        </h1>
+        <p class="map-hero__sub">
+          {withCoords} locations plotted &bull; {totalFish.toLocaleString('en-US')} fish catalogued &bull; Zoom, pan, and click to explore
+        </p>
+      </div>
+    </div>
+    <div class="map-wrap container">
+      <FischMap
+        client:load
+        locations={mapLocations}
+        gameSlug="fisch"
+      />
+    </div>
+  </div>
+</GameLayout>
+
+<style>
+  .map-page {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .map-hero {
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .map-hero__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 0.08em;
+    margin: 0;
+  }
+
+  .map-hero__ico {
+    width: 28px;
+    height: 28px;
+    color: var(--accent);
+  }
+
+  .map-hero__sub {
+    margin: 0.35rem 0 0;
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    line-height: 1.5;
+  }
+
+  .map-wrap {
+    padding-bottom: 1rem;
+  }
+
+  @media (max-width: 767px) {
+    .map-hero {
+      padding: 0.25rem 0;
+    }
+    .map-hero__sub {
+      font-size: 0.75rem;
+    }
+  }
+</style>
