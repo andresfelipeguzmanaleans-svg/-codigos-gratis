@@ -4,9 +4,16 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-62360b50a58a3677781c156de85dda5e/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Combat Arena en Roblox",
   "metaTitle": "Códigos Combat Arena Roblox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Combat Arena en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-23",
+  "metaDescription": "Lista actualizada de códigos para Combat Arena en Roblox. 1 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-02-28T08:56:36.652Z",
   "activeCodes": [
+    {
+      "code": "JUSTFORFUN",
+      "reward": "Primordial cofre gratis",
+      "addedDate": "2026-02-28"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "HOLIDAY2025",
       "reward": "1,000 Cookies"
@@ -14,16 +21,10 @@
     {
       "code": "THANKYOU",
       "reward": "5000 monedas"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "ONESHOT",
-      "reward": "A Red Awp gratis"
     },
     {
-      "code": "bounty",
-      "reward": "Street cofre and 5,000 monedas gratis"
+      "code": "GENEROSITY",
+      "reward": "2,500 monedas and a Woodland Camo skin for the AR-15"
     },
     {
       "code": "HAL9000",
@@ -38,6 +39,10 @@
       "reward": "2 Street cofres"
     },
     {
+      "code": "bounty",
+      "reward": "Street cofre and 5,000 monedas gratis"
+    },
+    {
       "code": "ATRIPLE",
       "reward": "A Desert Camo skin gratis"
     },
@@ -46,8 +51,8 @@
       "reward": "Redline P90 skin and 5000 monedas gratis"
     },
     {
-      "code": "GENEROSITY",
-      "reward": "2,500 monedas and a Woodland Camo skin for the AR-15"
+      "code": "ONESHOT",
+      "reward": "A Red Awp gratis"
     }
   ],
   "howToRedeem": [
