@@ -1,6 +1,7 @@
 /**
  * Enrich fish-merged.json with computed fields.
- * Reads fish-merged.json + rods.json, computes 6 fields, writes back.
+ * Reads fish-merged.json + rods.json + wiki-descriptions.json,
+ * computes 7 fields, writes back.
  *
  * Run AFTER merge-data.js and BEFORE copy-to-astro.js.
  */
@@ -167,6 +168,101 @@ function computeDescription(fish, difficulty) {
   return parts.join('');
 }
 
+// ---- Field 7: How to Catch ----
+
+function computeHowToCatch(fish, wikiDesc) {
+  const paragraphs = [];
+
+  // a) Wiki lore (trimmed to 1-2 sentences)
+  if (wikiDesc && wikiDesc.lore) {
+    paragraphs.push(wikiDesc.lore);
+  }
+
+  // b) Location
+  if (fish.location) {
+    let loc = 'Head to ' + fish.location;
+    if (fish.sublocation) loc += ' (' + fish.sublocation + ')';
+    loc += '.';
+    if (fish.sea) loc += ' You will need a boat to reach this sea location.';
+    paragraphs.push(loc);
+  }
+
+  // c) Rod + bait
+  if (fish.recommendedRod) {
+    let gear = 'Equip the ' + fish.recommendedRod.name + ' (or higher)';
+    if (fish.bait && fish.bait.length > 0) {
+      gear += ' and use ' + fish.bait.join(' or ') + ' as bait';
+    }
+    gear += '.';
+    paragraphs.push(gear);
+  } else if (fish.bait && fish.bait.length > 0) {
+    paragraphs.push('Use ' + fish.bait.join(' or ') + ' as bait.');
+  }
+
+  // d) Weather, time, season conditions
+  const conditions = [];
+  if (fish.weather && fish.weather.length > 0) {
+    conditions.push('Wait for ' + fish.weather.join(' or ') + ' weather.');
+  }
+  if (fish.time) {
+    conditions.push('Fish at ' + fish.time + '.');
+  }
+  if (fish.season && fish.season.length > 0) {
+    conditions.push('Available during ' + fish.season.join(' or ') + '.');
+  }
+  if (conditions.length > 0) {
+    paragraphs.push(conditions.join(' '));
+  }
+
+  // e) Non-rod source
+  const wikiSource = wikiDesc && wikiDesc.wikiSource;
+  const sources = fish.sources || [];
+  const hasRod = (wikiSource && wikiSource.includes('Fishing Rod'))
+    || sources.includes('Fishing Rod');
+  const isNonRod = !hasRod && (
+    (wikiSource != null)
+    || (sources.length > 0)
+  );
+  if (isNonRod) {
+    const src = wikiSource || sources.join(', ');
+    paragraphs.push('This fish is caught using ' + src + ', not a regular fishing rod.');
+  }
+
+  // f) Event-limited
+  if (fish.event) {
+    paragraphs.push('This is a limited fish from the ' + fish.event + ' event. It may not be currently obtainable.');
+  }
+
+  // g) Difficulty tip + recommendation + C$/hr
+  const tips = [];
+  if (fish.difficulty) {
+    const diffTips = {
+      Easy: 'This is an easy catch, great for beginners.',
+      Medium: 'A moderate catch that requires some preparation.',
+      Hard: 'A challenging catch — bring your best gear and time it right.',
+      Extreme: 'An extremely difficult catch reserved for experienced anglers with top-tier equipment.',
+    };
+    tips.push(diffTips[fish.difficulty] || '');
+  }
+  if (fish.recommendation) {
+    if (fish.recommendation === 'KEEP FOR TRADING') {
+      tips.push('Recommended to keep for trading rather than selling to NPC.');
+    } else {
+      tips.push('Best sold to NPC for quick profit.');
+    }
+  }
+  if (fish.estimatedCsPerHour != null && fish.estimatedCsPerHour > 0) {
+    tips.push('Estimated earnings: ~' + formatCurrency(fish.estimatedCsPerHour) + '/hr.');
+  }
+  if (tips.length > 0) {
+    paragraphs.push(tips.join(' '));
+  }
+
+  if (paragraphs.length === 0) return null;
+
+  return paragraphs.join('\n\n');
+}
+
 // ---- Main ----
 
 function main() {
@@ -175,6 +271,20 @@ function main() {
   const fish = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'fish-merged.json'), 'utf8'));
   const rods = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'rods.json'), 'utf8'));
 
+  // Load wiki descriptions (graceful fallback)
+  let wikiDescs = {};
+  const wikiDescFile = path.join(DATA_DIR, 'wiki-descriptions.json');
+  if (fs.existsSync(wikiDescFile)) {
+    try {
+      wikiDescs = JSON.parse(fs.readFileSync(wikiDescFile, 'utf8'));
+      console.log('Wiki descriptions loaded: ' + Object.keys(wikiDescs).length + ' entries');
+    } catch {
+      console.log('Warning: could not parse wiki-descriptions.json, skipping');
+    }
+  } else {
+    console.log('No wiki-descriptions.json found, howToCatch will use structured data only');
+  }
+
   // Pre-sort rods: positive resilience only, ascending
   const candidateRods = rods
     .filter(r => r.resilience > 0)
@@ -182,7 +292,7 @@ function main() {
 
   console.log('Fish: ' + fish.length + ', Candidate rods: ' + candidateRods.length);
 
-  const stats = { rod: 0, difficulty: {}, csPerHour: 0, keep: 0, sell: 0, npcVal: 0, descGen: 0 };
+  const stats = { rod: 0, difficulty: {}, csPerHour: 0, keep: 0, sell: 0, npcVal: 0, descGen: 0, howToCatch: 0 };
 
   for (const f of fish) {
     // 1. Recommended Rod
@@ -215,6 +325,11 @@ function main() {
       f.descriptionIsGenerated = true;
       stats.descGen++;
     }
+
+    // 7. How to Catch
+    const wikiDesc = wikiDescs[f.id] || null;
+    f.howToCatch = computeHowToCatch(f, wikiDesc);
+    if (f.howToCatch) stats.howToCatch++;
   }
 
   // Write back
@@ -232,6 +347,7 @@ function main() {
   console.log('  SELL TO NPC:      ' + stats.sell);
   console.log('  NPC Value:        ' + stats.npcVal + '/' + fish.length);
   console.log('  Descriptions gen: ' + stats.descGen);
+  console.log('  How to Catch:     ' + stats.howToCatch + '/' + fish.length);
   console.log('========================================\n');
 }
 
