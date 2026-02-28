@@ -234,13 +234,21 @@ const narrative = parts.join('');
     )}
   </FischHero>
 
-  <!-- MOBILE: How to Catch CTA (visible only on mobile, after hero) -->
+  <!-- MOBILE: How to Catch accordion (visible only on mobile, after hero) -->
   {fish.howToCatch && (
     <div class="container htc-cta-mobile-wrap">
-      <a href="#how-to-catch" class="htc-cta htc-cta--mobile">
-        <span class="htc-cta__icon">📖</span>
-        <span class="htc-cta__text">How to Catch</span>
-      </a>
+      <details class="htc-accordion htc-accordion--mobile">
+        <summary class="htc-accordion__toggle">
+          <span class="htc-accordion__icon">📖</span>
+          <span class="htc-accordion__text">How to Catch</span>
+          <svg class="htc-accordion__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 8 10 12 14 8"/></svg>
+        </summary>
+        <div class="htc-accordion__body">
+          {fish.howToCatch.split('\n\n').map(p => (
+            <p class="htc-accordion__para">{p}</p>
+          ))}
+        </div>
+      </details>
     </div>
   )}
 
@@ -296,18 +304,6 @@ const narrative = parts.join('');
                   <span class="cond-row__value">{c.value}</span>
                 )}
               </div>
-            ))}
-          </div>
-        </section>
-      )}
-
-      <!-- HOW TO CATCH -->
-      {fish.howToCatch && (
-        <section class="htc-section" id="how-to-catch">
-          <h2 class="section-heading">HOW TO CATCH</h2>
-          <div class="htc-section__body">
-            {fish.howToCatch.split('\n\n').map(p => (
-              <p class="htc-section__para">{p}</p>
             ))}
           </div>
         </section>
@@ -445,12 +441,20 @@ const narrative = parts.join('');
         )}
       </div>
 
-      <!-- How to Catch CTA (desktop sidebar) -->
+      <!-- How to Catch accordion (desktop sidebar) -->
       {fish.howToCatch && (
-        <a href="#how-to-catch" class="htc-cta htc-cta--sidebar">
-          <span class="htc-cta__icon">📖</span>
-          <span class="htc-cta__text">How to Catch</span>
-        </a>
+        <details class="htc-accordion htc-accordion--sidebar">
+          <summary class="htc-accordion__toggle">
+            <span class="htc-accordion__icon">📖</span>
+            <span class="htc-accordion__text">How to Catch</span>
+            <svg class="htc-accordion__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 8 10 12 14 8"/></svg>
+          </summary>
+          <div class="htc-accordion__body">
+            {fish.howToCatch.split('\n\n').map(p => (
+              <p class="htc-accordion__para">{p}</p>
+            ))}
+          </div>
+        </details>
       )}
 
       <!-- Quick data table -->
@@ -496,7 +500,6 @@ const narrative = parts.join('');
         <span class="fish-detail__toc-title">ON THIS PAGE</span>
         <a href="#field-data" class="fish-detail__toc-link">Field Data</a>
         <a href="#catch-intel" class="fish-detail__toc-link">Catch Intel</a>
-        <a href="#how-to-catch" class="fish-detail__toc-link">How to Catch</a>
         <a href="#value-assessment" class="fish-detail__toc-link">Value Assessment</a>
         <a href="#overview" class="fish-detail__toc-link">Overview</a>
         <a href="#related" class="fish-detail__toc-link">Related Catches</a>
@@ -1251,114 +1254,118 @@ const narrative = parts.join('');
   }
 
   /* ============================================================
-     HOW TO CATCH — CTA BUTTON
+     HOW TO CATCH — ACCORDION
      ============================================================ */
 
-  .htc-cta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 0.7rem 1rem;
-    background: rgba(34, 211, 238, 0.15);
+  .htc-accordion {
     border: 1px solid rgba(34, 211, 238, 0.4);
     border-radius: 12px;
-    color: #22d3ee;
-    text-decoration: none;
-    transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+    background: rgba(34, 211, 238, 0.08);
+    overflow: hidden;
+  }
+
+  .htc-accordion__toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
     cursor: pointer;
+    color: #22d3ee;
+    list-style: none;
+    transition: background 0.2s;
   }
 
-  .htc-cta:hover {
-    background: rgba(34, 211, 238, 0.25);
-    border-color: rgba(34, 211, 238, 0.7);
-    box-shadow: 0 0 16px rgba(34, 211, 238, 0.2);
+  .htc-accordion__toggle::-webkit-details-marker { display: none; }
+
+  .htc-accordion__toggle:hover {
+    background: rgba(34, 211, 238, 0.18);
   }
 
-  .htc-cta__icon {
+  .htc-accordion__icon {
     font-size: 1.1rem;
     flex-shrink: 0;
   }
 
-  .htc-cta__text {
+  .htc-accordion__text {
     font-family: var(--font-display);
     font-size: 0.95rem;
     font-weight: 700;
     letter-spacing: 0.04em;
   }
 
-  /* Desktop sidebar CTA */
-  .htc-cta--sidebar {
-    width: 100%;
+  .htc-accordion__chevron {
+    margin-left: auto;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
   }
 
-  /* Mobile CTA container */
-  .htc-cta-mobile-wrap {
-    margin-bottom: 0.75rem;
+  .htc-accordion[open] > .htc-accordion__toggle .htc-accordion__chevron {
+    transform: rotate(180deg);
   }
 
-  .htc-cta--mobile {
-    width: 100%;
-    min-height: 48px;
-    font-size: 1rem;
+  .htc-accordion__body {
+    padding: 0 1rem 1rem;
+    border-top: 1px solid rgba(34, 211, 238, 0.2);
+    animation: htc-slide-down 0.3s ease;
   }
 
-  .htc-cta--mobile .htc-cta__text {
-    font-size: 1rem;
+  @keyframes htc-slide-down {
+    from { opacity: 0; transform: translateY(-8px); }
+    to   { opacity: 1; transform: translateY(0); }
   }
 
-  /* Mobile: show mobile CTA, hide sidebar CTA */
-  @media (max-width: 767px) {
-    .htc-cta--sidebar {
-      display: none;
-    }
-  }
-
-  /* Desktop: hide mobile CTA, show sidebar CTA */
-  @media (min-width: 768px) {
-    .htc-cta-mobile-wrap {
-      display: none;
-    }
-  }
-
-  /* ============================================================
-     HOW TO CATCH — SECTION
-     ============================================================ */
-
-  .htc-section {
-    padding-bottom: 1.5rem;
-  }
-
-  .htc-section__body {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 1rem 1.25rem;
-  }
-
-  .htc-section__para {
-    font-size: 0.9rem;
+  .htc-accordion__para {
+    font-size: 0.88rem;
     color: var(--text-dim);
     line-height: 1.65;
   }
 
-  .htc-section__para + .htc-section__para {
+  .htc-accordion__para:first-child {
+    margin-top: 1rem;
+  }
+
+  .htc-accordion__para + .htc-accordion__para {
     margin-top: 0.75rem;
   }
 
-  /* Mobile: bigger text to avoid iOS zoom, more padding */
+  /* Desktop sidebar accordion */
+  .htc-accordion--sidebar {
+    width: 100%;
+  }
+
+  /* Mobile accordion container */
+  .htc-cta-mobile-wrap {
+    margin-bottom: 0.75rem;
+  }
+
+  .htc-accordion--mobile .htc-accordion__toggle {
+    min-height: 48px;
+  }
+
+  .htc-accordion--mobile .htc-accordion__text {
+    font-size: 1rem;
+  }
+
+  /* Mobile: show mobile, hide sidebar */
   @media (max-width: 767px) {
-    .htc-section__body {
-      padding: 1.25rem 1rem;
+    .htc-accordion--sidebar {
+      display: none;
     }
 
-    .htc-section__para {
+    .htc-accordion__para {
       font-size: 1rem;
       line-height: 1.7;
     }
 
-    .htc-section__para + .htc-section__para {
+    .htc-accordion__para + .htc-accordion__para {
       margin-top: 1rem;
+    }
+  }
+
+  /* Desktop: hide mobile, show sidebar */
+  @media (min-width: 768px) {
+    .htc-cta-mobile-wrap {
+      display: none;
     }
   }
 
