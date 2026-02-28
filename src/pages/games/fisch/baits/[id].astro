@@ -1,0 +1,221 @@
+---
+import GameLayout from '../../../../layouts/GameLayout.astro';
+import rawData from '../../../../data/games/fisch/baits.json';
+
+interface BaitData {
+  name: string;
+  slug: string;
+  rarity: string | null;
+  imageUrl: string | null;
+  stats: {
+    preferredLuck: number | null;
+    universalLuck: number | null;
+    resilience: number | null;
+    lureSpeed: number | null;
+  };
+  ability: string | null;
+  crates: { name: string; rate: number | null }[] | null;
+  obtainment: string[] | null;
+  source: string;
+}
+
+export function getStaticPaths() {
+  return (rawData as BaitData[])
+    .filter(i => i.slug && i.name)
+    .map(item => ({ params: { id: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props as { item: BaitData };
+
+const RARITY_COLORS: Record<string, string> = {
+  'Trash': '#808080', 'Common': '#B0B0B0', 'Uncommon': '#2ECC71', 'Unusual': '#A3D977',
+  'Rare': '#3498DB', 'Legendary': '#F39C12', 'Mythical': '#9B59B6', 'Exotic': '#E74C3C',
+  'Secret': '#1ABC9C', 'Limited': '#FFD700', 'Special': '#FF69B4',
+};
+
+const rarityColor = RARITY_COLORS[item.rarity || ''] || '#6b7280';
+
+function fmtStat(n: number | null): string {
+  if (n == null) return '—';
+  if (n > 0) return `+${n}`;
+  return String(n);
+}
+
+const description = `${item.name} is a ${item.rarity || ''} bait in Fisch.${item.stats.preferredLuck ? ` Preferred Luck: ${item.stats.preferredLuck}.` : ''}`;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Thing',
+  name: item.name,
+  description,
+  image: item.imageUrl || undefined,
+};
+---
+
+<GameLayout
+  title={`${item.name} - ${item.rarity || ''} Bait | Fisch`}
+  description={description}
+  game="Fisch"
+  breadcrumbs={[
+    { label: 'Baits', href: '/games/fisch/baits/' },
+    { label: item.name, href: `/games/fisch/baits/${item.slug}/` },
+  ]}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </Fragment>
+
+  <div class="td">
+    <!-- Hero -->
+    <div class="td__hero" style={`--accent-clr: ${rarityColor}`}>
+      <div class="td__hero-img">
+        {item.imageUrl ? (
+          <img src={item.imageUrl} alt={item.name} width="140" height="140" />
+        ) : (
+          <div class="td__hero-ph">🪱</div>
+        )}
+      </div>
+      <div class="td__hero-info">
+        <div class="td__badges-top">
+          {item.rarity && (
+            <span class="td__source-badge" style={`--badge-clr: ${rarityColor}`}>{item.rarity}</span>
+          )}
+          <span class="td__type-badge">Bait</span>
+        </div>
+        <h1 class="td__title">{item.name}</h1>
+      </div>
+    </div>
+
+    <!-- Stats grid -->
+    <div class="td__grid">
+      <div class="td__stat">
+        <span class="td__stat-label">Preferred Luck</span>
+        <span class="td__stat-val td__stat-val--cyan">{fmtStat(item.stats.preferredLuck)}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Universal Luck</span>
+        <span class="td__stat-val">{fmtStat(item.stats.universalLuck)}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Resilience</span>
+        <span class="td__stat-val">{fmtStat(item.stats.resilience)}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Lure Speed</span>
+        <span class="td__stat-val">{fmtStat(item.stats.lureSpeed)}</span>
+      </div>
+    </div>
+
+    <!-- Ability -->
+    {item.ability && (
+      <div class="td__section">
+        <h2 class="td__section-title">Ability</h2>
+        <p class="td__text">{item.ability}</p>
+      </div>
+    )}
+
+    <!-- Crates -->
+    {item.crates && item.crates.length > 0 && (
+      <div class="td__section">
+        <h2 class="td__section-title">Found in Crates</h2>
+        <div class="td__crate-list">
+          {item.crates.map(c => (
+            <div class="td__crate-row">
+              <span class="td__crate-name">{c.name}</span>
+              {c.rate != null && (
+                <span class="td__crate-rate">{c.rate}/crate avg.</span>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- How to Obtain -->
+    {item.obtainment && item.obtainment.length > 0 && (
+      <div class="td__section">
+        <h2 class="td__section-title">How to Obtain</h2>
+        <ul class="td__obtain-list">
+          {item.obtainment.map(o => (
+            <li class="td__obtain-item">{o}</li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <a href="/games/fisch/baits/" class="td__back">&larr; All Baits</a>
+  </div>
+</GameLayout>
+
+<style>
+  .td { max-width: 720px; margin: 0 auto; padding: 1rem; }
+
+  .td__hero {
+    display: flex; gap: 1.5rem; align-items: center;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--accent-clr) 12%, transparent), var(--bg-card));
+    border: 1px solid var(--border); border-radius: 16px;
+    padding: 1.5rem; margin-bottom: 1.25rem;
+  }
+
+  .td__hero-img { flex-shrink: 0; width: 140px; height: 140px; display: flex; align-items: center; justify-content: center; }
+  .td__hero-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .td__hero-ph { font-size: 3rem; }
+  .td__hero-info { flex: 1; min-width: 0; }
+
+  .td__badges-top { display: flex; gap: 0.4rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+  .td__source-badge {
+    font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+    padding: 0.15rem 0.55rem; border-radius: 9999px;
+    color: var(--badge-clr); border: 1px solid var(--badge-clr);
+    background: color-mix(in srgb, var(--badge-clr) 12%, transparent);
+  }
+  .td__type-badge {
+    font-size: 0.7rem; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 9999px;
+    color: var(--text-dim); border: 1px solid var(--border); background: rgba(255,255,255,0.03);
+  }
+
+  .td__title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: #fff; margin: 0; }
+
+  .td__grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  @media (min-width: 640px) { .td__grid { grid-template-columns: repeat(4, 1fr); } }
+
+  .td__stat {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 0.75rem 1rem; display: flex; flex-direction: column; gap: 0.2rem;
+  }
+  .td__stat-label { font-size: 0.7rem; font-weight: 500; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+  .td__stat-val { font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; color: var(--text); }
+  .td__stat-val--cyan { color: #22D3EE; }
+
+  .td__section {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 1rem 1.25rem; margin-bottom: 1.25rem;
+  }
+  .td__section-title { font-family: var(--font-display); font-size: 0.9rem; font-weight: 700; color: var(--text); margin: 0 0 0.6rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .td__text { font-size: 0.88rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+
+  .td__crate-list { display: flex; flex-direction: column; gap: 0.4rem; }
+  .td__crate-row { display: flex; justify-content: space-between; align-items: center; padding: 0.4rem 0.6rem; background: rgba(255,255,255,0.02); border-radius: 8px; }
+  .td__crate-name { font-size: 0.88rem; color: var(--text); font-weight: 500; }
+  .td__crate-rate { font-size: 0.78rem; color: var(--text-dim); font-family: var(--font-mono); }
+
+  .td__obtain-list { margin: 0; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.35rem; }
+  .td__obtain-item { font-size: 0.88rem; color: var(--text-dim); line-height: 1.6; }
+
+  .td__back {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    font-size: 0.85rem; color: var(--accent); font-weight: 500;
+    transition: opacity 0.2s;
+  }
+  .td__back:hover { opacity: 0.8; }
+
+  @media (max-width: 639px) {
+    .td__hero { flex-direction: column; text-align: center; padding: 1rem; }
+    .td__hero-img { width: 120px; height: 120px; }
+    .td__badges-top { justify-content: center; }
+    .td__title { font-size: 1.25rem; }
+  }
+</style>

@@ -66,6 +66,9 @@ const sidebarSections = [
       { label: 'Boats', href: `/games/${gameSlug}/boats/`, icon: 'boat' },
       { label: 'Rod Skins', href: `/games/${gameSlug}/rod-skins/`, icon: 'palette' },
       { label: 'Locations', href: `/games/${gameSlug}/locations/`, icon: 'map' },
+      { label: 'Enchantments', href: `/games/${gameSlug}/enchantments/`, icon: 'sparkle' },
+      { label: 'Baits', href: `/games/${gameSlug}/baits/`, icon: 'worm' },
+      { label: 'Bobbers', href: `/games/${gameSlug}/bobbers/`, icon: 'bobber' },
     ],
   },
   {
@@ -95,6 +98,9 @@ const moreItems = [
   { label: 'Rod Skins', href: `/games/${gameSlug}/rod-skins/`, icon: 'palette' },
   { label: 'Boats', href: `/games/${gameSlug}/boats/`, icon: 'boat' },
   { label: 'Locations', href: `/games/${gameSlug}/locations/`, icon: 'map' },
+  { label: 'Enchantments', href: `/games/${gameSlug}/enchantments/`, icon: 'sparkle' },
+  { label: 'Baits', href: `/games/${gameSlug}/baits/`, icon: 'worm' },
+  { label: 'Bobbers', href: `/games/${gameSlug}/bobbers/`, icon: 'bobber' },
   { label: 'Mutations', href: `/games/${gameSlug}/mutations/`, icon: 'dna' },
   { label: 'Codes', href: `/codigos-${gameSlug}/`, icon: 'gift' },
 ];
@@ -119,6 +125,9 @@ const ico: Record<string, string> = {
   more: '<circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/>',
   x: '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
   chevron: '<path d="m9 18 6-6-6-6"/>',
+  sparkle: '<path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>',
+  worm: '<path d="M18 4c-1 0-2 .5-2.8 1.5C14 7 14 9 14 11c0 3-2 5-4 5s-3-1-3-3"/><path d="M7 13c-2 0-3 1-3 3 0 2.5 2.5 4 5 4 1.5 0 3-.5 4-1.5"/><circle cx="18" cy="4" r="1"/>',
+  bobber: '<path d="M12 2v4"/><circle cx="12" cy="9" r="3"/><path d="M12 12v3"/><path d="M8 22c0-3.3 1.8-6 4-7 2.2 1 4 3.7 4 7"/><path d="M9 6.8a3 3 0 0 1 6 0"/>',
 };
 
 // --- Search palette data (Fisch only) ---
@@ -130,6 +139,9 @@ if (gameSlug === 'fisch') {
   const locData = (await import('../data/games/fisch/locations.json')).default as any[];
   const rodSkinsData = (await import('../data/games/fisch/rod-skins.json')).default as any[];
   const boatsData = (await import('../data/games/fisch/boats.json')).default as any[];
+  const enchData = (await import('../data/games/fisch/enchantments.json')).default as any[];
+  const baitData = (await import('../data/games/fisch/baits.json')).default as any[];
+  const bobberData = (await import('../data/games/fisch/bobbers.json')).default as any[];
   searchItems = [
     ...fishData.filter((f: any) => f.id && f.name).map((f: any) => ({ i: f.id, n: f.name, t: 'f' as const, x: f.rarity || undefined })),
     ...mutData.filter((m: any) => m.id && m.name).map((m: any) => ({ i: m.id, n: m.name, t: 'm' as const, x: m.category || undefined })),
@@ -137,6 +149,9 @@ if (gameSlug === 'fisch') {
     ...locData.filter((l: any) => l.id && l.name).map((l: any) => ({ i: l.id, n: l.name, t: 'l' as const })),
     ...rodSkinsData.filter((s: any) => s.slug && s.name).map((s: any) => ({ i: s.slug, n: s.name, t: 's' as const, x: s.rarity || undefined })),
     ...boatsData.filter((b: any) => b.slug && b.name).map((b: any) => ({ i: b.slug, n: b.name, t: 'b' as const, x: b.rarity || undefined })),
+    ...enchData.filter((e: any) => e.slug && e.name).map((e: any) => ({ i: e.slug, n: e.name, t: 'e' as const, x: e.type || undefined })),
+    ...baitData.filter((a: any) => a.slug && a.name).map((a: any) => ({ i: a.slug, n: a.name, t: 'a' as const, x: a.rarity || undefined })),
+    ...bobberData.filter((o: any) => o.slug && o.name).map((o: any) => ({ i: o.slug, n: o.name, t: 'o' as const, x: o.category || undefined })),
   ];
 }
 ---

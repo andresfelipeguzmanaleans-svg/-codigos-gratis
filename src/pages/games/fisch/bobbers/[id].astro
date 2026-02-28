@@ -1,0 +1,188 @@
+---
+import GameLayout from '../../../../layouts/GameLayout.astro';
+import rawData from '../../../../data/games/fisch/bobbers.json';
+
+interface BobberData {
+  name: string;
+  slug: string;
+  rarity: string | null;
+  category: string;
+  source: string | null;
+  event: string | null;
+  notes: string | null;
+  wikiSource: string;
+}
+
+export function getStaticPaths() {
+  return (rawData as BobberData[])
+    .filter(i => i.slug && i.name)
+    .map(item => ({ params: { id: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props as { item: BobberData };
+
+const RARITY_COLORS: Record<string, string> = {
+  'Trash': '#808080', 'Common': '#B0B0B0', 'Uncommon': '#2ECC71', 'Unusual': '#A3D977',
+  'Rare': '#3498DB', 'Legendary': '#F39C12', 'Mythical': '#9B59B6', 'Exotic': '#E74C3C',
+  'Secret': '#1ABC9C', 'Limited': '#FFD700', 'Special': '#FF69B4', 'Apex': '#FF4500',
+  'Event': '#f43f5e',
+};
+
+const CATEGORY_COLORS: Record<string, string> = {
+  'Bestiary': '#3b82f6', 'Event': '#f43f5e', 'Shop (Weekly)': '#22c55e',
+  'Shop (Bundle)': '#14b8a6', 'Shop (Pack)': '#06b6d4', 'Rod Mastery': '#f59e0b',
+  'Limited': '#ef4444', 'Gamepass': '#a855f7', 'Other': '#6b7280',
+  'Unobtainable': '#5D6D7E', 'Merch': '#c084fc',
+};
+
+const rarityColor = RARITY_COLORS[item.rarity || ''] || '#6b7280';
+const categoryColor = CATEGORY_COLORS[item.category] || '#6b7280';
+
+const description = `${item.name} is a ${item.rarity || ''} bobber in Fisch (${item.category}).${item.source ? ` Source: ${item.source}.` : ''}`;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Thing',
+  name: item.name,
+  description,
+};
+
+const noteLines = (item.notes || '').split(';').map(s => s.trim()).filter(Boolean);
+---
+
+<GameLayout
+  title={`${item.name} - ${item.rarity || ''} Bobber | Fisch`}
+  description={description}
+  game="Fisch"
+  breadcrumbs={[
+    { label: 'Bobbers', href: '/games/fisch/bobbers/' },
+    { label: item.name, href: `/games/fisch/bobbers/${item.slug}/` },
+  ]}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </Fragment>
+
+  <div class="td">
+    <!-- Hero -->
+    <div class="td__hero" style={`--accent-clr: ${rarityColor}`}>
+      <div class="td__hero-icon">🎈</div>
+      <div class="td__hero-info">
+        <div class="td__badges-top">
+          {item.rarity && (
+            <span class="td__source-badge" style={`--badge-clr: ${rarityColor}`}>{item.rarity}</span>
+          )}
+          <span class="td__cat-badge" style={`--badge-clr: ${categoryColor}`}>{item.category}</span>
+          <span class="td__type-badge">Bobber</span>
+        </div>
+        <h1 class="td__title">{item.name}</h1>
+      </div>
+    </div>
+
+    <!-- Stats grid -->
+    <div class="td__grid">
+      {item.rarity && (
+        <div class="td__stat">
+          <span class="td__stat-label">Rarity</span>
+          <span class="td__stat-val" style={`color: ${rarityColor}`}>{item.rarity}</span>
+        </div>
+      )}
+      <div class="td__stat">
+        <span class="td__stat-label">Category</span>
+        <span class="td__stat-val" style={`color: ${categoryColor}`}>{item.category}</span>
+      </div>
+      {item.event && (
+        <div class="td__stat">
+          <span class="td__stat-label">Event</span>
+          <span class="td__stat-val">{item.event}</span>
+        </div>
+      )}
+    </div>
+
+    <!-- Source -->
+    {item.source && (
+      <div class="td__section">
+        <h2 class="td__section-title">Source</h2>
+        <p class="td__text">{item.source}</p>
+      </div>
+    )}
+
+    <!-- Notes -->
+    {noteLines.length > 0 && (
+      <div class="td__section">
+        <h2 class="td__section-title">Notes</h2>
+        <ul class="td__note-list">
+          {noteLines.map(n => (
+            <li class="td__note-item">{n}</li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <a href="/games/fisch/bobbers/" class="td__back">&larr; All Bobbers</a>
+  </div>
+</GameLayout>
+
+<style>
+  .td { max-width: 720px; margin: 0 auto; padding: 1rem; }
+
+  .td__hero {
+    display: flex; gap: 1.5rem; align-items: center;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--accent-clr) 12%, transparent), var(--bg-card));
+    border: 1px solid var(--border); border-radius: 16px;
+    padding: 1.5rem; margin-bottom: 1.25rem;
+  }
+
+  .td__hero-icon { font-size: 3.5rem; flex-shrink: 0; }
+  .td__hero-info { flex: 1; min-width: 0; }
+
+  .td__badges-top { display: flex; gap: 0.4rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+  .td__source-badge, .td__cat-badge {
+    font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+    padding: 0.15rem 0.55rem; border-radius: 9999px;
+    color: var(--badge-clr); border: 1px solid var(--badge-clr);
+    background: color-mix(in srgb, var(--badge-clr) 12%, transparent);
+  }
+  .td__type-badge {
+    font-size: 0.7rem; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 9999px;
+    color: var(--text-dim); border: 1px solid var(--border); background: rgba(255,255,255,0.03);
+  }
+
+  .td__title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: #fff; margin: 0; }
+
+  .td__grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  @media (min-width: 640px) { .td__grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .td__stat {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 0.75rem 1rem; display: flex; flex-direction: column; gap: 0.2rem;
+  }
+  .td__stat-label { font-size: 0.7rem; font-weight: 500; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+  .td__stat-val { font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; color: var(--text); }
+
+  .td__section {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 1rem 1.25rem; margin-bottom: 1.25rem;
+  }
+  .td__section-title { font-family: var(--font-display); font-size: 0.9rem; font-weight: 700; color: var(--text); margin: 0 0 0.6rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .td__text { font-size: 0.88rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+
+  .td__note-list { margin: 0; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.35rem; }
+  .td__note-item { font-size: 0.88rem; color: var(--text-dim); line-height: 1.6; }
+
+  .td__back {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    font-size: 0.85rem; color: var(--accent); font-weight: 500;
+    transition: opacity 0.2s;
+  }
+  .td__back:hover { opacity: 0.8; }
+
+  @media (max-width: 639px) {
+    .td__hero { flex-direction: column; text-align: center; padding: 1rem; }
+    .td__badges-top { justify-content: center; }
+    .td__title { font-size: 1.25rem; }
+  }
+</style>

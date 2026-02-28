@@ -1,0 +1,651 @@
+[
+  {
+    "name": "Abyssal",
+    "slug": "abyssal",
+    "type": "Regular",
+    "effect": "• 20% chance for Abyssal (5.5×).\n• 80% chance for +30% fish weight.\n• 20% chance for -40% fish weight.",
+    "tips": "Decent option for money income.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Blessed",
+    "slug": "blessed",
+    "type": "Regular",
+    "effect": "• +5% increased chance for Shiny/Sparkling (1.85×).\n• +5% Lure Speed.\n• +5% Progress Speed.",
+    "tips": "Useful when hunting for Shiny or Sparkling fishes.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Blood Reckoning",
+    "slug": "blood-reckoning",
+    "type": "Regular",
+    "effect": "Sacrifice health for a health-dependant chance for Sanguine (5×)",
+    "tips": "Most useful on non-meta rods that have a guaranteed fish size increase passive ability such as Kings Rod.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Breezed",
+    "slug": "breezed",
+    "type": "Regular",
+    "effect": "• +50% Luck.\n• +20% Lure Speed.\n• +10% Progress Speed.\n(Outside of Windy).\n+100% Luck.\n• +40% Lure Speed.\n• +20% Progress Speed.\n(during Windy)",
+    "tips": "Useful for Rods with low Luck.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Chaotic",
+    "slug": "chaotic",
+    "type": "Regular",
+    "effect": "• 15% chance per fish movement to stab for +6% progress.\n• 8% chance for Chaotic (8×).",
+    "tips": "Useful for Rods with low Resilience and Stabs for Progress, also great option for money income.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Chronos",
+    "slug": "chronos",
+    "type": "Regular",
+    "effect": "Every 2.5 seconds, there is a 50% chance to freeze a fish for 3 seconds.",
+    "tips": "Useful on rods with an increase progress speed passive.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Clever",
+    "slug": "clever",
+    "type": "Regular",
+    "effect": "×2.25 XP from all catches.",
+    "tips": "Useful on Rods such as Great Rod of Oscar for greater XP boost.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Controlled",
+    "slug": "controlled",
+    "type": "Regular",
+    "effect": "+0.15 Control.",
+    "tips": "Useful for rods with low control. One of the four enchantments that makes Tryhard Rod usable.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Divine",
+    "slug": "divine",
+    "type": "Regular",
+    "effect": "• +50% Luck.\n• +20% Resilience.\n• +25% Lure Speed.",
+    "tips": "The better option for rods with low luck stats.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Flashline",
+    "slug": "flashline",
+    "type": "Regular",
+    "effect": "• 25% chance for +100% Progress Speed.\n• 75% chance for +15% Progress Speed.",
+    "tips": "Useful in replacement of Steady while catching fish with negative Progress Speed modifiers.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Ghastly",
+    "slug": "ghastly",
+    "type": "Regular",
+    "effect": "• 100% chance for Translucent (1.3×).\n• 10% chance to catch a duplicate fish.",
+    "tips": "Useful on rods like Lucid Rod to increase fish duplication.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Hasty",
+    "slug": "hasty",
+    "type": "Regular",
+    "effect": "+55% Lure Speed.",
+    "tips": "The better option for higher lure speed, generally useful on almost all rods, some allowing for instant lure times.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Hunter",
+    "slug": "hunter",
+    "type": "Regular",
+    "effect": "Increases Disturbance by +2",
+    "tips": "The better option for higher Disturbance, generally useful on almost all rods, with some allowing hunts to spawn more easily as Disturbance increases.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Insight",
+    "slug": "insight",
+    "type": "Regular",
+    "effect": "• ×1.5 XP from all catches.\n• +30% Lure Speed.\n• 30% chance for Purified(2.5×).",
+    "tips": "Useful for increasing level as well as increasing lure speed.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Long",
+    "slug": "long",
+    "type": "Regular",
+    "effect": "• +150 Line Distance.\n• +35% Resilience.\n• +15% Progress Speed.",
+    "tips": "Useful for increasing line distance of some rods, while also increasing Resilience and Progress Speed.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Lucky",
+    "slug": "lucky",
+    "type": "Regular",
+    "effect": "• +25% Luck.\n• +15% Lure Speed.\n• +50% chance for Mutation.",
+    "tips": "Good for rods with low luck.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Momentum",
+    "slug": "momentum",
+    "type": "Regular",
+    "effect": "Every perfect catch increases:\n• Lure Speed by 2%.\n• Resilience by 2%.\n• Progress Speed by 2%.\nRegular catch reduces this by 4% each.\nGoes up to 40%.",
+    "tips": "Useful on rods with a high control and resilience.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Mutated",
+    "slug": "mutated",
+    "type": "Regular",
+    "effect": "+90% Mutation chance.",
+    "tips": "Only boosts chances for natural Mutations.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Noir",
+    "slug": "noir",
+    "type": "Regular",
+    "effect": "• 100% chance for Albino (1.2×) or Darkened (1.5×).\n• +20% Fish Size.",
+    "tips": "Decent for increasing money income, while also increasing fish size.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Quality",
+    "slug": "quality",
+    "type": "Regular",
+    "effect": "• +20% Luck.\n• +10% Resilience.\n• +20% Lure Speed.\n• +5% Progress Speed.",
+    "tips": "Useful on rods that have amazing base lure speed (No-Life Rod, Rod Of The Forgotten Fang, etc.)",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Resilient",
+    "slug": "resilient",
+    "type": "Regular",
+    "effect": "+35% Resilience\n• +10% size boost.",
+    "tips": "Useful for rods with low Resilience.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Scavenger",
+    "slug": "scavenger",
+    "type": "Regular",
+    "effect": "3× higher chance to catch:\n• Enchant Relics.\n• Nukes.\n• Treasure Maps.\n• Threads.\nAdditionally:\n• 1.75× higher chance for Exalted Relics.\n• 1.5× higher chance for Atomic Nukes.",
+    "tips": "Useful on rods that increase the chance of one of these items.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Sea King",
+    "slug": "sea-king",
+    "type": "Regular",
+    "effect": "+30% Fish Size.",
+    "tips": "Can be useful on rods with a high mutation chance.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Scrapper",
+    "slug": "scrapper",
+    "type": "Regular",
+    "effect": "60% chance not to consume Bait.",
+    "tips": "Useful when using baits with extremely limited quantity such as the Chocolate Fish, Kraken Tentacle, Aurora Bait, etc.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Steady",
+    "slug": "steady",
+    "type": "Regular",
+    "effect": "+20% Progress Speed.\n• +0.05 Control.",
+    "tips": "Useful for catching fish with negative Progress Speed modifiers.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Storming",
+    "slug": "storming",
+    "type": "Regular",
+    "effect": "• +50% Luck.\n• +25% Lure Speed.\n• 25% chance for Electric (2.1×).\n(outside Rain).\n+100% Luck.\n• +50% Lure Speed.\n• 50% chance for Electric (2.1×).\n(during Rain)",
+    "tips": "Useful for Rods with good overall Stats but lack of Luck, that need some sort of mutation for money.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Swift",
+    "slug": "swift",
+    "type": "Regular",
+    "effect": "• +30% Lure Speed.\n• +10% Progress Speed.",
+    "tips": "Useful for rods with low lure speed.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Unbreakable",
+    "slug": "unbreakable",
+    "type": "Regular",
+    "effect": "• +10,000 Max Kg.\n• +0.1 Control.",
+    "tips": "Useful for rods with limited weight capacity and low control. One of the four enchantments that makes Tryhard Rod usable.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Wormhole",
+    "slug": "wormhole",
+    "type": "Regular",
+    "effect": "80% chance to catch Fish from a random location.\n(excludes Megalodons, Krakens, Limited fish, or Special fish).",
+    "tips": "Useful for completing the Bestiary.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Anomalous",
+    "slug": "anomalous",
+    "type": "Exalted",
+    "effect": "20% chance to catch a duplicate fish with Anomalous (5.55×).",
+    "tips": "Useful on rods like Lucid Rod to increase fish duplication.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Ferocious",
+    "slug": "ferocious",
+    "type": "Exalted",
+    "effect": "Increases Disturbance by +4",
+    "tips": "The better option for higher Disturbance, generally useful on almost all rods, with some allowing hunts to spawn more easily as Disturbance increases.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Herculean",
+    "slug": "herculean",
+    "type": "Exalted",
+    "effect": "• +25,000 Max Kg.\n• +0.2 Control.\n• +10% Progress Speed.",
+    "tips": "Useful for rods with limited weight capacity or low control. One of the four enchantments that makes Tryhard Rod usable.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Immortal",
+    "slug": "immortal",
+    "type": "Exalted",
+    "effect": "• +75% Luck.\n• +30% Progress Speed.",
+    "tips": "Great for boosting catch speed and luck of most rods.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Invincible",
+    "slug": "invincible",
+    "type": "Exalted",
+    "effect": "• +inf Max Kg.\n• Allows fishing in the Roslit Volcano, Scoria Reach, & Brine Pool.",
+    "tips": "Useful on rods with unique mutation passives. Required for Duskwire to be usable.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Mystical",
+    "slug": "mystical",
+    "type": "Exalted",
+    "effect": "• +25% Luck.\n• +45% Resilience.\n• +15% Lure Speed.\n• +10% Progress Speed.",
+    "tips": "Overall great stat improvement that suits many rods.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Piercing",
+    "slug": "piercing",
+    "type": "Exalted",
+    "effect": "• 30% chance per fish movement to stab for +6% progress.\n• +15% Progress Speed.",
+    "tips": "Useful on rods with decent stats and low resilience or control.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Quantum",
+    "slug": "quantum",
+    "type": "Exalted",
+    "effect": "+25% Resilience.\n•25% chance for Subspace (6×).",
+    "tips": "Good for money earning, pairs well with rods that have great base stats such as the No-Life Rod, Challenger Rod, Katana Rod, etc.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Sea Overlord",
+    "slug": "sea-overlord",
+    "type": "Exalted",
+    "effect": "+40% Fish Size.",
+    "tips": "Useful for rods with an already good mutation passive such as the Dreambreaker, Fabulous Rod, etc.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Cryogenic",
+    "slug": "cryogenic",
+    "type": "Cosmic",
+    "effect": "20% chance to fully freeze a lured fish in the first second.",
+    "tips": "Stops movement-based stabs. Great on fishes with low Resilience such as the Scylla, Mosslurker, etc.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Glittered",
+    "slug": "glittered",
+    "type": "Cosmic",
+    "effect": "3% increased chance for Shiny/Sparkling.",
+    "tips": "Useful when hunting for Shiny or Sparkling fishes.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Overclocked",
+    "slug": "overclocked",
+    "type": "Cosmic",
+    "effect": "+5% Forced Progress Speed on any fish.",
+    "tips": "Bypasses fish that ignore progress speed boosts, making it great for boosting catch speed for Progress Lock fishes.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Sea Prince",
+    "slug": "sea-prince",
+    "type": "Cosmic",
+    "effect": "+15% Fish Size.",
+    "tips": "Useful for money making with a consistent 15% value increase.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Tenacity",
+    "slug": "tenacity",
+    "type": "Cosmic",
+    "effect": "+20% Progress Speed for every snapped reel (stacks to inf).",
+    "tips": "Useful for catching any specific fish that is not Progress Locked. Benefits Rod Of The Forgotten Fang the most, also allows for a massive progress speed boost for Leviathan's Fang Rod while catching the Scylla.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Tryhard",
+    "slug": "tryhard",
+    "type": "Cosmic",
+    "effect": "• +30% Progress Speed.\n• -0.1 Control.",
+    "tips": "Useful for rods with already decent control (Polaris Serenade, Brick Rod, etc.). Causes the Duskwire to become unusable.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Vicious",
+    "slug": "vicious",
+    "type": "Cosmic",
+    "effect": "• Increases Disturbance by +1.\n• +10% Progress Speed.",
+    "tips": "Useful for spawning hunts and increasing progress speed.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Wise",
+    "slug": "wise",
+    "type": "Cosmic",
+    "effect": "×1.2 XP from all catches.",
+    "tips": "Useful for players who need more levels without sacrificing other enchants.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Rage",
+    "slug": "rage",
+    "type": "Twisted",
+    "effect": "• 25% chance per fish movement to stab for +8% progress.\n• -50% Luck.\n• -20% Resilience",
+    "tips": "Great for rods with high Luck that lack a passive stab ability.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Greed",
+    "slug": "greed",
+    "type": "Twisted",
+    "effect": "• +50% Fish Size.\n• -30% Lure Speed.\n• -5% Progress Speed.",
+    "tips": "Great for rods that have high Lure Speed and a Mutation passive.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Fractured",
+    "slug": "fractured",
+    "type": "Twisted",
+    "effect": "• +50% Progress Speed.\n• -0.1 Control.",
+    "tips": "Great for rods that have high Control but lack a Progress Speed increasing passive.",
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Putrid",
+    "slug": "putrid",
+    "type": "Twisted",
+    "effect": "• -10% Luck.\n• 2% chance for Putrid (-0.5×)",
+    "tips": null,
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Pharaohs Curse",
+    "slug": "pharaohs-curse",
+    "type": "Twisted",
+    "effect": "25% chance for Sandy (1.2×)",
+    "tips": null,
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Weak",
+    "slug": "weak",
+    "type": "Twisted",
+    "effect": "-10% Max KG",
+    "tips": null,
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Wobbly",
+    "slug": "wobbly",
+    "type": "Twisted",
+    "effect": "-0.05 Control",
+    "tips": null,
+    "obtainment": null,
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Blessed Song",
+    "slug": "blessed-song",
+    "type": "Quest",
+    "effect": "+40% Progress Speed.",
+    "tips": "Useful for catching fish with negative Progress Speed modifiers",
+    "obtainment": "Guaranteed when enchanting a rod with Song of the Deep.",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Restricted",
+    "slug": "restricted",
+    "type": "Quest",
+    "effect": "• Blocks Shiny, Sparkling, and Mutations from applying.\n• Prevents Enchanting\n• Restricts fishing to specific locations.",
+    "tips": "Son...",
+    "obtainment": "Applied to Pinion's Aria while completing Mysterious Songstress quest and is removed upon completion.",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Valentine's",
+    "slug": "valentines",
+    "type": "Limited",
+    "effect": "• 45% Chance to give one of the following Mutations:\n• Lovely (8×)\n• Sweet (7×)\n• Candy (2×)\n• +10% Resilience.\n• +30% Progress Speed.",
+    "tips": null,
+    "obtainment": "Guaranteed when enchanting with Valentine's Relic from Valentides (2026).",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org",
+    "subType": "Primary"
+  },
+  {
+    "name": "Cupid",
+    "slug": "cupid",
+    "type": "Limited",
+    "effect": "• 10% Chance for Sweet (7×).\n• +25% Lure Speed.\n• +30% Progress Speed.",
+    "tips": null,
+    "obtainment": "Guaranteed when enchanting with Cupid Relic from Valentides (2026).",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org",
+    "subType": "Primary"
+  },
+  {
+    "name": "Santa",
+    "slug": "santa",
+    "type": "Limited",
+    "effect": "• 30% Chance to give one of the following Mutations:\n• Santa (8.5×)\n• Jingle Bell (8×)\n• Merry (5×)\n• Gingerbread (5×)\n• Peppermint (5×)\n• +30% Fish Size.\n• +30% Progress Speed.",
+    "tips": null,
+    "obtainment": "Guaranteed when enchanting with Santa's Relic from Fischmas (2025).",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org",
+    "subType": "Primary"
+  },
+  {
+    "name": "Gingerbread",
+    "slug": "gingerbread",
+    "type": "Limited",
+    "effect": "• 10% chance for Gingerbread (5×).\n• +40% Fish Size.\n• +10% Progress Speed.",
+    "tips": "Useful for rods with already good mutation passive.",
+    "obtainment": "Chance when enchanting with Festive Relic from Fischmas (2025).",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org",
+    "subType": "Primary"
+  },
+  {
+    "name": "Merry",
+    "slug": "merry",
+    "type": "Limited",
+    "effect": "• 10% chance for Merry (5×).\n• +35% Progress Speed.\n• 35% Lure Speed.",
+    "tips": "Useful for catching fish with negative Progress Speed modifiers.",
+    "obtainment": "Chance when enchanting with Festive Relic from Fischmas (2025).",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org",
+    "subType": "Primary"
+  },
+  {
+    "name": "Peppermint",
+    "slug": "peppermint",
+    "type": "Limited",
+    "effect": "• 10% chance for Peppermint (5×).\n• 40% chance per fish movement to stab for +1% progress.\n• +25% Luck.",
+    "tips": "Useful for rods without a built-in stab mechanic.",
+    "obtainment": "Chance when enchanting with Festive Relic from Fischmas (2025).",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org",
+    "subType": "Secondary"
+  },
+  {
+    "name": "Frightful",
+    "slug": "frightful",
+    "type": "Limited",
+    "effect": "• 10% chance for Frightful (6×).\n• +50% Progress Speed.\n• -20% Resilience.",
+    "tips": "Useful for rods with a built-in stab mechanic.",
+    "obtainment": "Guaranteed when enchanting with Frightful Relic from FischFright (2025).",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org",
+    "subType": "Primary"
+  },
+  {
+    "name": "Spooky",
+    "slug": "spooky",
+    "type": "Limited",
+    "effect": "• 10% chance for Spooky (6×).\n• +0.1 Control.\n• 30% chance per fish movement to stab for +3% progress.",
+    "tips": "Useful for rods without a built-in stab mechanic. One of the four enchantments that makes Tryhard Rod usable.",
+    "obtainment": "Guaranteed when enchanting with Spooky Relic from FischFright (2025).",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org",
+    "subType": "Primary"
+  },
+  {
+    "name": "Eerie",
+    "slug": "eerie",
+    "type": "Limited",
+    "effect": "• 10% chance for Eerie (6×).\n• +10% Progress Speed.\n• +10% Fish Size.",
+    "tips": "Useful for rods without an innate mutation passive",
+    "obtainment": "Guaranteed when enchanting with Eerie Relic from FischFright (2025).",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Enchanting.png",
+    "source": "fischipedia.org",
+    "subType": "Secondary"
+  }
+]

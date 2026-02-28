@@ -1,0 +1,132 @@
+---
+import GameLayout from '../../../../layouts/GameLayout.astro';
+import FischHero from '../../../../components/FischHero.astro';
+import WikiItemGrid from '../../../../components/WikiItemGrid.tsx';
+import type { WikiItem } from '../../../../components/WikiItemGrid.tsx';
+
+import rawData from '../../../../data/games/fisch/baits.json';
+
+const RARITY_COLORS: Record<string, string> = {
+  'Trash': '#808080', 'Common': '#B0B0B0', 'Uncommon': '#2ECC71', 'Unusual': '#A3D977',
+  'Rare': '#3498DB', 'Legendary': '#F39C12', 'Mythical': '#9B59B6', 'Exotic': '#E74C3C',
+  'Secret': '#1ABC9C', 'Limited': '#FFD700', 'Special': '#FF69B4',
+};
+
+const items: WikiItem[] = (rawData as any[])
+  .filter(i => i.name && i.slug)
+  .map(i => {
+    const stats = i.stats || {};
+    const parts: string[] = [];
+    if (stats.preferredLuck != null) parts.push(`Luck: ${stats.preferredLuck}`);
+    if (stats.lureSpeed != null) parts.push(`Lure: ${stats.lureSpeed > 0 ? '+' : ''}${stats.lureSpeed}`);
+    if (stats.resilience != null) parts.push(`Res: ${stats.resilience > 0 ? '+' : ''}${stats.resilience}`);
+    return {
+      name: i.name,
+      slug: i.slug,
+      badge: i.rarity || 'Unknown',
+      badgeColor: RARITY_COLORS[i.rarity] || '#6b7280',
+      subtitle: parts.join(' | ') || 'No stats',
+      imageUrl: i.imageUrl || null,
+    };
+  });
+
+const filters = [...new Set(items.map(i => i.badge))]
+  .sort((a, b) => items.filter(i => i.badge === b).length - items.filter(i => i.badge === a).length);
+
+const total = items.length;
+const fmt = (n: number) => n.toLocaleString('en-US');
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Fisch Baits List',
+  numberOfItems: total,
+  itemListElement: items.slice(0, 20).map((item, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: item.name,
+    url: new URL(`/games/fisch/baits/${item.slug}/`, Astro.site).href,
+  })),
+};
+---
+
+<GameLayout
+  title={`All ${fmt(total)} Baits - Fisch Guide`}
+  description={`Complete list of ${fmt(total)} baits in Fisch with stats, obtainment methods, and crate sources.`}
+  game="Fisch"
+  breadcrumbs={[{ label: 'Baits', href: '/games/fisch/baits/' }]}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </Fragment>
+
+  <FischHero title="BAITS" subtitle={`${fmt(total)} fishing baits`} />
+
+  <div class="container">
+    <WikiItemGrid
+      client:load
+      items={items}
+      filters={filters}
+      filterColors={RARITY_COLORS}
+      basePath="/games/fisch/baits"
+      placeholder="Search baits…"
+    />
+  </div>
+</GameLayout>
+
+<style>
+  :global(.tig__filters) { display:flex; flex-direction:column; gap:0.6rem; margin-bottom:0.75rem; }
+  :global(.tig__search-wrap) { position:relative; }
+  :global(.tig__search-ico) { position:absolute; left:0.75rem; top:50%; transform:translateY(-50%); color:var(--text-dim); pointer-events:none; }
+  :global(.tig__search) { width:100%; background:var(--bg-card); border:1px solid var(--border); border-radius:10px; padding:0.6rem 0.75rem 0.6rem 2.25rem; color:var(--text); font-family:var(--font-body); font-size:0.9rem; outline:none; transition:border-color 0.2s, box-shadow 0.2s; }
+  :global(.tig__search:focus) { border-color:var(--accent); box-shadow:0 0 0 3px rgba(6,214,160,0.15); }
+  :global(.tig__search::placeholder) { color:var(--text-dim); }
+
+  :global(.tig__filter-row) { display:flex; flex-wrap:wrap; gap:0.4rem; align-items:center; }
+  :global(.tig__sort-btn),
+  :global(.tig__src-btn) { background:var(--bg-card); border:1px solid var(--border); border-radius:8px; padding:0.35rem 0.6rem; color:var(--text); font-family:var(--font-body); font-size:0.78rem; cursor:pointer; outline:none; transition:border-color 0.2s, background 0.2s; }
+  :global(.tig__sort-btn:hover),
+  :global(.tig__src-btn:hover) { border-color:rgba(6,214,160,0.3); }
+  :global(.tig__sort-btn--active) { border-color:var(--accent); background:rgba(6,214,160,0.1); color:var(--accent); }
+  :global(.tig__src-btn--active) { border-color:var(--src-color); background:color-mix(in srgb, var(--src-color) 12%, transparent); color:var(--src-color); }
+  :global(.tig__divider) { width:1px; height:20px; background:var(--border); margin:0 0.25rem; }
+  :global(.tig__clear) { background:none; border:1px solid var(--border); border-radius:8px; padding:0.35rem 0.55rem; color:var(--accent-hot); font-size:0.75rem; cursor:pointer; font-family:var(--font-body); transition:border-color 0.2s; }
+  :global(.tig__clear:hover) { border-color:var(--accent-hot); }
+
+  :global(.tig__count) { font-size:0.8rem; color:var(--text-dim); margin-bottom:0.6rem; font-weight:500; }
+
+  :global(.tig__grid) { display:grid; grid-template-columns:repeat(2, 1fr); gap:0.75rem; }
+  @media (min-width:640px)  { :global(.tig__grid) { grid-template-columns:repeat(3, 1fr); } }
+  @media (min-width:1024px) { :global(.tig__grid) { grid-template-columns:repeat(4, 1fr); } }
+
+  :global(.tig__card) {
+    display:flex; flex-direction:column; background:var(--bg-card); border:1px solid var(--border); border-radius:12px;
+    overflow:hidden; transition:border-color 0.2s, transform 0.15s, box-shadow 0.2s; text-decoration:none;
+  }
+  :global(.tig__card:hover) { border-color:var(--card-accent); transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,0.3); }
+
+  :global(.tig__card-img) {
+    aspect-ratio:1; display:flex; align-items:center; justify-content:center;
+    background:linear-gradient(180deg, color-mix(in srgb, var(--card-accent) 18%, transparent) 0%, var(--bg-card) 100%);
+    padding:0.75rem;
+  }
+  :global(.tig__card-img img) { max-width:100%; max-height:100%; object-fit:contain; }
+  :global(.tig__card-ph) { font-size:2rem; color:var(--text-dim); }
+
+  :global(.tig__card-body) { padding:0.6rem 0.75rem 0.75rem; display:flex; flex-direction:column; gap:0.3rem; }
+  :global(.tig__card-name) { font-size:0.82rem; font-weight:600; color:#fff; line-height:1.3; margin:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+
+  :global(.tig__card-badges) { display:flex; flex-wrap:wrap; gap:0.3rem; margin-top:0.1rem; }
+  :global(.tig__badge) {
+    display:inline-block; padding:0.1rem 0.4rem; border:1px solid var(--badge-color);
+    border-radius:9999px; font-size:0.65rem; font-weight:600; letter-spacing:0.3px;
+    color:var(--badge-color); background:color-mix(in srgb, var(--badge-color) 10%, transparent);
+  }
+
+  :global(.tig__card-sub) {
+    font-size:0.7rem; color:var(--text-dim); line-height:1.4; margin:0;
+    overflow:hidden; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+  }
+
+  :global(.tig__empty) { text-align:center; padding:2rem 1rem; color:var(--text-dim); font-size:0.9rem; display:flex; flex-direction:column; align-items:center; gap:0.75rem; }
+</style>

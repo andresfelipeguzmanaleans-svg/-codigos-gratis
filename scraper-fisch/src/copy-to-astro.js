@@ -11,6 +11,9 @@ const FILES = [
   { src: 'data/static/rods.json',               dest: 'rods.json' },
   { src: 'data/static/locations.json',          dest: 'locations.json' },
   { src: 'data/dynamic/trading-values.json',    dest: 'values.json' },
+  { src: 'data/static/enchantments.json',       dest: 'enchantments.json' },
+  { src: 'data/static/baits.json',              dest: 'baits.json' },
+  { src: 'data/static/bobbers.json',            dest: 'bobbers.json' },
 ];
 
 // Split trade-values.json into rod-skins.json and boats.json

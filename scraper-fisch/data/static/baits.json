@@ -1,0 +1,2297 @@
+[
+  {
+    "name": "Ant",
+    "slug": "ant",
+    "rarity": "Trash",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Ant.png",
+    "stats": {
+      "preferredLuck": 40,
+      "universalLuck": 5,
+      "resilience": -15,
+      "lureSpeed": -10
+    },
+    "ability": "'''+5%''' Progress Speed",
+    "crates": null,
+    "obtainment": [
+      "Find and catch in the Lost Jungle"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Astrolure",
+    "slug": "astrolure",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Astrolure.png",
+    "stats": {
+      "preferredLuck": 175,
+      "universalLuck": 60,
+      "resilience": 60,
+      "lureSpeed": 90
+    },
+    "ability": "100% chance for {{Mutation|Galactic",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Redeemable Exotic DLC from Fisch Micro Figure Pack."
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Aurora Bait",
+    "slug": "aurora-bait",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Aurora%20Bait.png",
+    "stats": {
+      "preferredLuck": 100,
+      "universalLuck": 30,
+      "resilience": 10,
+      "lureSpeed": -5
+    },
+    "ability": "30% chance for {{Mutation|Aurora",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Completing Aurora Rod's \"Lights of the North\" mastery quest",
+      "Fischmas (2024) Advent Calendar",
+      "Codes"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Bagel",
+    "slug": "bagel",
+    "rarity": "Common",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Bagel.png",
+    "stats": {
+      "preferredLuck": 25,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Common Crate",
+        "rate": 0.18
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Bagel)",
+      "Common Crate (0.18/crate on average, C$1 per Bagel)",
+      "Sunken Chests (13.20% from normal, 6% from mythic)",
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (8.4% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Beach Ball",
+    "slug": "beach-ball",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Beach%20Ball.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 5,
+      "resilience": null,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Beach Crate",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Beach Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Beached Pearl",
+    "slug": "beached-pearl",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Beached%20Pearl.png",
+    "stats": {
+      "preferredLuck": 250,
+      "universalLuck": 300,
+      "resilience": 30,
+      "lureSpeed": 95
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Shell Merchant for 20"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Beetle Grub",
+    "slug": "beetle-grub",
+    "rarity": "Uncommon",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Beetle%20Grub.png",
+    "stats": {
+      "preferredLuck": 70,
+      "universalLuck": 15,
+      "resilience": 5,
+      "lureSpeed": -5
+    },
+    "ability": "'''3%''' chance per fish movement to stab for '''2.5%''' progress",
+    "crates": null,
+    "obtainment": [
+      "Find and catch in the Lost Jungle"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Berry Vine",
+    "slug": "berry-vine",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Berry%20Vine.png",
+    "stats": {
+      "preferredLuck": 10,
+      "universalLuck": 20,
+      "resilience": null,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Redeemable Common DLC from Fisch Trading Card Pack."
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Bread Crumbs",
+    "slug": "bread-crumbs",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Bread%20Crumbs.png",
+    "stats": {
+      "preferredLuck": 12,
+      "universalLuck": 12,
+      "resilience": 8,
+      "lureSpeed": 8
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Redeemable Common DLC from Fisch Trading Card Pack."
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Candy Corn",
+    "slug": "candy-corn",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Candy%20Corn.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 90,
+      "resilience": -40,
+      "lureSpeed": 80
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Frightful Crate",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Frightful Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Centipede",
+    "slug": "centipede",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Centipede.png",
+    "stats": {
+      "preferredLuck": 200,
+      "universalLuck": 60,
+      "resilience": -10,
+      "lureSpeed": 20
+    },
+    "ability": "'''+100%''' [[XP]] from fish",
+    "crates": null,
+    "obtainment": [
+      "Find and catch in the Lost Jungle"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Chocolate Fish",
+    "slug": "chocolate-fish",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Chocolate%20Fish.png",
+    "stats": {
+      "preferredLuck": 200,
+      "universalLuck": 150,
+      "resilience": 15,
+      "lureSpeed": 20
+    },
+    "ability": "100% chance for {{Mutation|Chocolate",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Valentine's Day Event"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Coal",
+    "slug": "coal",
+    "rarity": "Rare",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Coal.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Volcanic Geode",
+        "rate": 0.6
+      }
+    ],
+    "obtainment": [
+      "Volcanic Geode (0.6/crate on average, C$1 per Coal)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Colossal Ink Bait",
+    "slug": "colossal-ink-bait",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Colossal%20Ink%20Bait.png",
+    "stats": {
+      "preferredLuck": 150,
+      "universalLuck": 150,
+      "resilience": 40,
+      "lureSpeed": 5
+    },
+    "ability": "'''+200%''' Fish Size.<br>'''100%''' chance for {{Mutation|Colossal Ink",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Alongside the purchase of the Fisch Tee - Squid (Cream & Blue) Merch item (25×)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Cookie Crumble",
+    "slug": "cookie-crumble",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Cookie%20Crumble.png",
+    "stats": {
+      "preferredLuck": 320,
+      "universalLuck": 190,
+      "resilience": 15,
+      "lureSpeed": 35
+    },
+    "ability": "'''10%''' chance for {{Mutation|Merry",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Fischmas (2025) Advent Calendar",
+      "Jolly Bait Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Coral",
+    "slug": "coral",
+    "rarity": "Unusual",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Coral.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": 20
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Coral Geode",
+        "rate": 0.46
+      }
+    ],
+    "obtainment": [
+      "Coral Geode (0.46/crate on average, C$1 per Coral)",
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (5% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Corvid Algae",
+    "slug": "corvid-algae",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Corvid%20Algae.png",
+    "stats": {
+      "preferredLuck": 350,
+      "universalLuck": 350,
+      "resilience": 5,
+      "lureSpeed": 20
+    },
+    "ability": "'''+5%''' Progress Speed <br> 100% chance for {{Mutation|Corvid",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Redeemable Legendary DLC from Fisch Trading Card Pack."
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Cranberry Cluster",
+    "slug": "cranberry-cluster",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Cranberry%20Cluster.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 90,
+      "resilience": -5,
+      "lureSpeed": 60
+    },
+    "ability": "'''20%''' chance for {{Mutation|Gravy",
+    "crates": [
+      {
+        "name": "Bountiful Bait Crate",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Bountiful Bait Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Crawlurion",
+    "slug": "crawlurion",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Crawlurion.png",
+    "stats": {
+      "preferredLuck": 25,
+      "universalLuck": 30,
+      "resilience": 10,
+      "lureSpeed": 10
+    },
+    "ability": "<!--Unknown, but likely not-->",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Redeemable Common DLC from Fisch Micro Figure Pack."
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Cricket",
+    "slug": "cricket",
+    "rarity": "Unusual",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Cricket.png",
+    "stats": {
+      "preferredLuck": 90,
+      "universalLuck": 25,
+      "resilience": 0,
+      "lureSpeed": 10
+    },
+    "ability": "'''+50%''' [[XP]] from fish",
+    "crates": null,
+    "obtainment": [
+      "Find and catch in the Lost Jungle"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Crystal Bananas",
+    "slug": "crystal-bananas",
+    "rarity": "Rare",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Crystal%20Bananas.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 90,
+      "resilience": 25,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Tropical Bait Crate",
+        "rate": 0.52
+      }
+    ],
+    "obtainment": [
+      "Tropical Bait Crate (0.52/crate on average, C$1 per Crystal Bananas)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Deep Coral",
+    "slug": "deep-coral",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Deep%20Coral.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": -10,
+      "resilience": 50,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Coral Geode",
+        "rate": 0.28
+      }
+    ],
+    "obtainment": [
+      "Coral Geode (0.28/crate on average, C$1 per Deep Coral)",
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (4% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Dragonfly",
+    "slug": "dragonfly",
+    "rarity": "Exotic",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Dragonfly.png",
+    "stats": {
+      "preferredLuck": 160,
+      "universalLuck": 50,
+      "resilience": -5,
+      "lureSpeed": 25
+    },
+    "ability": "'''+20%''' Progress Speed",
+    "crates": null,
+    "obtainment": [
+      "Find and catch in the Lost Jungle"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Earthworm",
+    "slug": "earthworm",
+    "rarity": "Common",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Earthworm.png",
+    "stats": {
+      "preferredLuck": 60,
+      "universalLuck": 10,
+      "resilience": 20,
+      "lureSpeed": -15
+    },
+    "ability": "'''100%''' chance for {{Mutation|Dirty",
+    "crates": null,
+    "obtainment": [
+      "Find and catch in the Lost Jungle"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Ember Berries",
+    "slug": "ember-berries",
+    "rarity": "Unusual",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Ember%20Berries.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 45,
+      "resilience": 15,
+      "lureSpeed": 5
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Tropical Bait Crate",
+        "rate": 0.64
+      }
+    ],
+    "obtainment": [
+      "Tropical Bait Crate (0.64/crate on average, C$1 per Ember Berries)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Fischversation Hearts",
+    "slug": "fischversation-hearts",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Fischversation%20Hearts.png",
+    "stats": {
+      "preferredLuck": 200,
+      "universalLuck": 150,
+      "resilience": 15,
+      "lureSpeed": 20
+    },
+    "ability": "'''100%''' chance for {{Mutation|Candy",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Fishing in Sweet Stream 5×",
+      "Fischversation Hearts Box"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Fish Head",
+    "slug": "fish-head",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Fish%20Head.png",
+    "stats": {
+      "preferredLuck": 150,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": 10
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Quality Bait Crate",
+        "rate": 0.45
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Fish Head)",
+      "Quality Bait Crate (0.45/crate on average, C$1 per Fish Head)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Flakes",
+    "slug": "flakes",
+    "rarity": "Common",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Flakes.png",
+    "stats": {
+      "preferredLuck": 55,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": 10
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Common Crate",
+        "rate": 0.18
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Flakes)",
+      "Common Crate (0.18/crate on average, C$1 per Flakes)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Frostnova Bait",
+    "slug": "frostnova-bait",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Frostnova%20Bait.png",
+    "stats": {
+      "preferredLuck": 120,
+      "universalLuck": 150,
+      "resilience": 50,
+      "lureSpeed": 35
+    },
+    "ability": "'''30%''' chance for {{Mutation|Frostnova",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Fischmas (2025) Advent Calendar",
+      "Code: \"BorealPines\"",
+      "Code: \"MerryFischmas2\""
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Fruitcake Flakes",
+    "slug": "fruitcake-flakes",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Fruitcake%20Flakes.png",
+    "stats": {
+      "preferredLuck": 135,
+      "universalLuck": 180,
+      "resilience": 50,
+      "lureSpeed": 15
+    },
+    "ability": "'''10%''' chance for {{Mutation|Merry",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Fischmas (2025) Advent Calendar",
+      "Jolly Bait Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Gale Grub",
+    "slug": "gale-grub",
+    "rarity": "Common",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Gale%20Grub.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": -10,
+      "resilience": -5,
+      "lureSpeed": 30
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Tropical Bait Crate",
+        "rate": 0.76
+      }
+    ],
+    "obtainment": [
+      "Tropical Bait Crate (0.76/crate on average, C$1 per Gale Grub)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Garbage",
+    "slug": "garbage",
+    "rarity": "Common",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Garbage.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": -500,
+      "resilience": 50,
+      "lureSpeed": -5
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 1.02
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (1.02/crate on average, C$1 per Garbage)",
+      "Sunken Chests (22% from normal, 6% from mythic)",
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (8.88% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Glass Beetle",
+    "slug": "glass-beetle",
+    "rarity": "Rare",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Glass%20Beetle.png",
+    "stats": {
+      "preferredLuck": 125,
+      "universalLuck": -80,
+      "resilience": 30,
+      "lureSpeed": 30
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (5% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Glowworm",
+    "slug": "glowworm",
+    "rarity": "Secret",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Glowworm.png",
+    "stats": {
+      "preferredLuck": 300,
+      "universalLuck": 100,
+      "resilience": 5,
+      "lureSpeed": 15
+    },
+    "ability": "'''100%''' chance for {{Mutation|Glowy",
+    "crates": null,
+    "obtainment": [
+      "Find and catch in the Lost Jungle",
+      "Obtained in the Personal Aquarium at a 0.5% Chance"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Gobstopper",
+    "slug": "gobstopper",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Gobstopper.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 150,
+      "resilience": 100,
+      "lureSpeed": -50
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Frightful Crate",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Frightful Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Golden Coin (Bait)",
+    "slug": "golden-coin-bait",
+    "rarity": "Special",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Golden%20Coin.png",
+    "stats": {
+      "preferredLuck": 300,
+      "universalLuck": 300,
+      "resilience": null,
+      "lureSpeed": null
+    },
+    "ability": "100% chance for {{Mutation|Radiant",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Black Market Event (5×, C$1 each)",
+      "Opening Admin Crate and Admin Bait Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Golden Shrimp Bait",
+    "slug": "golden-shrimp-bait",
+    "rarity": "Mythical",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Golden%20Shrimp%20Bait.png",
+    "stats": {
+      "preferredLuck": 120,
+      "universalLuck": 90,
+      "resilience": 10,
+      "lureSpeed": 15
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Golden Tentacle",
+    "slug": "golden-tentacle",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Golden%20Tentacle.png",
+    "stats": {
+      "preferredLuck": 150,
+      "universalLuck": 40,
+      "resilience": 20,
+      "lureSpeed": 50
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Codes",
+      "Faberge Egg Eggs",
+      "Cursed Egg Eggs"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Golden Worm",
+    "slug": "golden-worm",
+    "rarity": "Exotic",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Golden%20Worm.png",
+    "stats": {
+      "preferredLuck": 200,
+      "universalLuck": 100,
+      "resilience": 45,
+      "lureSpeed": 20
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (2% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Gourd Bites",
+    "slug": "gourd-bites",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Gourd%20Bites.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 80,
+      "resilience": 35,
+      "lureSpeed": 10
+    },
+    "ability": "'''20%''' chance for {{Mutation|Gravy",
+    "crates": [
+      {
+        "name": "Bountiful Bait Crate",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Bountiful Bait Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Gummy Fish",
+    "slug": "gummy-fish",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Gummy%20Fish.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 85,
+      "resilience": -5,
+      "lureSpeed": 30
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Frightful Crate",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Frightful Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Hallow-Pop",
+    "slug": "hallow-pop",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Hallow-Pop.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 65,
+      "resilience": 10,
+      "lureSpeed": 30
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Frightful Crate",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Frightful Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Hangman's Hook",
+    "slug": "hangmans-hook",
+    "rarity": "Mythical",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Hangman's%20Hook.png",
+    "stats": {
+      "preferredLuck": 150,
+      "universalLuck": 35,
+      "resilience": 20,
+      "lureSpeed": -5
+    },
+    "ability": "'''+45%''' Progress Speed",
+    "crates": [
+      {
+        "name": "|angler_quests  = <!--TBD-->",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "8× after completing Captain Neptune's quest",
+      "2× from the Code \"ATLANTEANSTORM\"",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Holly Berry",
+    "slug": "holly-berry",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Holly%20Berry.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 30,
+      "resilience": 10,
+      "lureSpeed": -5
+    },
+    "ability": "20% chance for {{Mutation|Jolly",
+    "crates": [
+      {
+        "name": "Festive Bait Crate",
+        "rate": 2.9
+      }
+    ],
+    "obtainment": [
+      "Festive Bait Crate (2.9/crate on average)",
+      "Fischmas (2024) Advent Calendar",
+      "Codes"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Hourglass Bait",
+    "slug": "hourglass-bait",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Hourglass%20Bait.png",
+    "stats": {
+      "preferredLuck": 150,
+      "universalLuck": 150,
+      "resilience": 40,
+      "lureSpeed": 5
+    },
+    "ability": "'''+200%''' Fish Weight.<br>'''+100%''' [[XP]] from fish.<br>'''100%''' chance for {{Mutation|Neon",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Alongside the purchase of the Fisch Tee - Squid (Black) Merch item (25×)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Insect",
+    "slug": "insect",
+    "rarity": "Common",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Insect.png",
+    "stats": {
+      "preferredLuck": 35,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": 5
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Common Crate",
+        "rate": 0.18
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Insect)",
+      "Common Crate (0.18/crate on average, C$1 per Insect)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Instant Catcher",
+    "slug": "instant-catcher",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Instant%20Catcher.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": -20,
+      "resilience": -15,
+      "lureSpeed": 65
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Coral Geode",
+        "rate": 0.09
+      },
+      {
+        "name": "Quality Bait Crate",
+        "rate": 0.45
+      },
+      {
+        "name": "Volcanic Geode",
+        "rate": 0.12
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Instant Catcher)",
+      "Coral Geode (0.09/crate on average, C$1 per Instant Catcher)",
+      "Quality Bait Crate (0.45/crate on average, C$1 per Instant Catcher)",
+      "Volcanic Geode (0.12/crate on average, C$1 per Instant Catcher)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Kraken Tentacle",
+    "slug": "kraken-tentacle",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Kraken%20Tentacle.png",
+    "stats": {
+      "preferredLuck": 100,
+      "universalLuck": 35,
+      "resilience": 15,
+      "lureSpeed": 35
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  = <!--TBD-->",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Using code \"SORRYGUYS\" for 2x Kraken Tentacle.",
+      "Completing Captain Neptune's quest for 10x Kraken Tentacle.",
+      "Completing Message In a Bottle quest in moosewood for 15x Kraken Tentacles.",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Lagoon Leech",
+    "slug": "lagoon-leech",
+    "rarity": "Rare",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Lagoon%20Leech.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": -10,
+      "resilience": 20,
+      "lureSpeed": 15
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Tropical Bait Crate",
+        "rate": 0.52
+      }
+    ],
+    "obtainment": [
+      "Tropical Bait Crate (0.52/crate on average, C$1 per Lagoon Leech)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Lucky",
+    "slug": "lucky",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Lucky.png",
+    "stats": {
+      "preferredLuck": 200,
+      "universalLuck": 150,
+      "resilience": 15,
+      "lureSpeed": 20
+    },
+    "ability": "50% chance to catch {{Mutation|Blarney",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Turning in 1 Event Fish to Clover McRich rewards Lucky",
+      "Turning in 3 Event Fish to Clover McRich rewards Lucky",
+      "Opening Lucky Chests has a 35.5% chance to reward Lucky"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Luminous Larva",
+    "slug": "luminous-larva",
+    "rarity": "Exotic",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Luminous%20Larva.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 125,
+      "resilience": 50,
+      "lureSpeed": 10
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Tropical Bait Crate",
+        "rate": 0.12
+      }
+    ],
+    "obtainment": [
+      "Tropical Bait Crate (0.12/crate on average, C$1 per Luminous Larva)",
+      "Treasure chests with a 6.13% chance to obtain 5-10.",
+      "Merchant Rod Passive Ability",
+      "25% chance to obtain from Challenges (15-25×)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Lushrooms",
+    "slug": "lushrooms",
+    "rarity": "Common",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Lushrooms.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 20,
+      "resilience": 10,
+      "lureSpeed": 10
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Tropical Bait Crate",
+        "rate": 0.76
+      }
+    ],
+    "obtainment": [
+      "Tropical Bait Crate (0.76/crate on average, C$1 per Lushrooms)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Maggot",
+    "slug": "maggot",
+    "rarity": "Uncommon",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Maggot.png",
+    "stats": {
+      "preferredLuck": 50,
+      "universalLuck": 35,
+      "resilience": null,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Common Crate",
+        "rate": 0.18
+      },
+      {
+        "name": "Coral Geode",
+        "rate": 0.18
+      },
+      {
+        "name": "Quality Bait Crate",
+        "rate": 1.34
+      },
+      {
+        "name": "Volcanic Geode",
+        "rate": 0.24
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Maggot)",
+      "Common Crate (0.18/crate on average, C$1 per Maggot)",
+      "Coral Geode (0.18/crate on average, C$1 per Maggot)",
+      "Quality Bait Crate (1.34/crate on average, C$1 per Maggot)",
+      "Volcanic Geode (0.24/crate on average, C$1 per Maggot)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Magnet",
+    "slug": "magnet",
+    "rarity": "Unusual",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Magnet.png",
+    "stats": {
+      "preferredLuck": 200,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Common Crate",
+        "rate": 0.18
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Magnet)",
+      "Common Crate (0.18/crate on average, C$1 per Magnet)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Meteor",
+    "slug": "meteor",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Meteor.png",
+    "stats": {
+      "preferredLuck": 55,
+      "universalLuck": 65,
+      "resilience": 100,
+      "lureSpeed": 10
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "10× for every Meteor Shard given to the Meteorologist after giving 6 shards."
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Minnow (Bait)",
+    "slug": "minnow-bait",
+    "rarity": "Unusual",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Minnow.png",
+    "stats": {
+      "preferredLuck": 65,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Common Crate",
+        "rate": 0.18
+      },
+      {
+        "name": "Coral Geode",
+        "rate": 0.09
+      },
+      {
+        "name": "Volcanic Geode",
+        "rate": 0.12
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Minnow)",
+      "Common Crate (0.18/crate on average, C$1 per Minnow)",
+      "Coral Geode (0.09/crate on average, C$1 per Minnow)",
+      "Volcanic Geode (0.12/crate on average, C$1 per Minnow)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Mist Worms",
+    "slug": "mist-worms",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Mist%20Worms.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 80,
+      "resilience": 25,
+      "lureSpeed": 20
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Tropical Bait Crate",
+        "rate": 0.4
+      }
+    ],
+    "obtainment": [
+      "Tropical Bait Crate (0.4/crate on average, C$1 per Mist Worms)",
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (5% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Moonhaze",
+    "slug": "moonhaze",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Moonhaze.png",
+    "stats": {
+      "preferredLuck": 225,
+      "universalLuck": 230,
+      "resilience": 5,
+      "lureSpeed": 60
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Redeemable Legendary DLC from Fisch Micro Figure Pack"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Neuro Slug",
+    "slug": "neuro-slug",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Neuro%20Slug.png",
+    "stats": {
+      "preferredLuck": 90,
+      "universalLuck": 100,
+      "resilience": 60,
+      "lureSpeed": -20
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (4% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Night Shrimp (Bait)",
+    "slug": "night-shrimp-bait",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Night%20Shrimp.png",
+    "stats": {
+      "preferredLuck": 100,
+      "universalLuck": 90,
+      "resilience": null,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Coral Geode",
+        "rate": 0.18
+      },
+      {
+        "name": "Quality Bait Crate",
+        "rate": 0.45
+      },
+      {
+        "name": "Volcanic Geode",
+        "rate": 0.24
+      }
+    ],
+    "obtainment": [
+      "Coral Geode (0.18/crate on average, C$1 per Night Shrimp)",
+      "Quality Bait Crate (0.45/crate on average, C$1 per Night Shrimp)",
+      "Volcanic Geode (0.24/crate on average, C$1 per Night Shrimp)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Nightmare Larva",
+    "slug": "nightmare-larva",
+    "rarity": "Mythical",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Nightmare%20Larva.png",
+    "stats": {
+      "preferredLuck": 120,
+      "universalLuck": 35,
+      "resilience": 25,
+      "lureSpeed": 25
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (3% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Noctic Larva",
+    "slug": "noctic-larva",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Noctic%20Larva.png",
+    "stats": {
+      "preferredLuck": 300,
+      "universalLuck": 250,
+      "resilience": 35,
+      "lureSpeed": 45
+    },
+    "ability": "'''+15%''' Progress Speed <br> 100% chance for {{Mutation|Noctic",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Redeemable Exotic DLC from Fisch Trading Card Pack."
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Nullbit",
+    "slug": "nullbit",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Nullbit.png",
+    "stats": {
+      "preferredLuck": 120,
+      "universalLuck": 120,
+      "resilience": -20,
+      "lureSpeed": 60
+    },
+    "ability": "100% chance for {{Mutation|Nullified",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Redeemable Exotic DLC from Fisch Micro Figure Pack."
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Obsidian-Bone",
+    "slug": "obsidian-bone",
+    "rarity": "Exotic",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Obsidian-Bone.png",
+    "stats": {
+      "preferredLuck": 250,
+      "universalLuck": 180,
+      "resilience": 55,
+      "lureSpeed": -5
+    },
+    "ability": "'''10%''' chance for {{Mutation|Obsidian",
+    "crates": [
+      {
+        "name": "<!--crate name",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Purchasable at the Scoria Reach for C$1"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Peppermint Worm",
+    "slug": "peppermint-worm",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Peppermint%20Worm.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 30,
+      "resilience": 20,
+      "lureSpeed": -5
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Festive Bait Crate",
+        "rate": 2.9
+      }
+    ],
+    "obtainment": [
+      "Festive Bait Crate (2.9/crate on average)",
+      "Fischmas (2024) Advent Calendar",
+      "Codes"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Phantom Leech",
+    "slug": "phantom-leech",
+    "rarity": "Rare",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Phantom%20Leech.png",
+    "stats": {
+      "preferredLuck": 55,
+      "universalLuck": 30,
+      "resilience": 25,
+      "lureSpeed": 10
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (5% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Pumpkin Pieces",
+    "slug": "pumpkin-pieces",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Pumpkin%20Pieces.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 150,
+      "resilience": 50,
+      "lureSpeed": 5
+    },
+    "ability": "'''20%''' chance for {{Mutation|Gravy",
+    "crates": [
+      {
+        "name": "Bountiful Bait Crate",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Bountiful Bait Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Rapid Catcher",
+    "slug": "rapid-catcher",
+    "rarity": "Rare",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Rapid%20Catcher.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": 35
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Common Crate",
+        "rate": 0.18
+      },
+      {
+        "name": "Coral Geode",
+        "rate": 0.18
+      },
+      {
+        "name": "Quality Bait Crate",
+        "rate": 0.45
+      },
+      {
+        "name": "Volcanic Geode",
+        "rate": 0.24
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Rapid Catcher)",
+      "Common Crate (0.18/crate on average, C$1 per Rapid Catcher)",
+      "Coral Geode (0.18/crate on average, C$1 per Rapid Catcher)",
+      "Quality Bait Crate (0.45/crate on average, C$1 per Rapid Catcher)",
+      "Volcanic Geode (0.24/crate on average, C$1 per Rapid Catcher)",
+      "Sunken Chests (2.16% from normal, 2.8% from mythic)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Sapphire Krill",
+    "slug": "sapphire-krill",
+    "rarity": "Mythical",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Sapphire%20Krill.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 125,
+      "resilience": 40,
+      "lureSpeed": 5
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Tropical Bait Crate",
+        "rate": 0.24
+      }
+    ],
+    "obtainment": [
+      "Tropical Bait Crate (0.24/crate on average, C$1 per Sapphire Krill)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Seaweed (Bait)",
+    "slug": "seaweed-bait",
+    "rarity": "Unusual",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Seaweed.png",
+    "stats": {
+      "preferredLuck": 35,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": 20
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Common Crate",
+        "rate": 0.18
+      },
+      {
+        "name": "Quality Bait Crate",
+        "rate": 0.89
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Seaweed)",
+      "Common Crate (0.18/crate on average, C$1 per Seaweed)",
+      "Quality Bait Crate (0.89/crate on average, C$1 per Seaweed)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Shark Head",
+    "slug": "shark-head",
+    "rarity": "Mythical",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Shark%20Head.png",
+    "stats": {
+      "preferredLuck": 225,
+      "universalLuck": 30,
+      "resilience": 10,
+      "lureSpeed": -5
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Quality Bait Crate",
+        "rate": 0.45
+      }
+    ],
+    "obtainment": [
+      "Quality Bait Crate (0.45/crate on average, C$1 per Shark Head)",
+      "Sunken Chests (0.4% from normal, 0.2% from mythic)",
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (3% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Shrimp (Bait)",
+    "slug": "shrimp-bait",
+    "rarity": "Uncommon",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Shrimp.png",
+    "stats": {
+      "preferredLuck": 45,
+      "universalLuck": 25,
+      "resilience": -5,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Common Crate",
+        "rate": 0.18
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Shrimp)",
+      "Common Crate (0.18/crate on average, C$1 per Shrimp)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Singularity (Bait)",
+    "slug": "singularity-bait",
+    "rarity": "Special",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Singularity.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": null,
+      "resilience": 150,
+      "lureSpeed": -20
+    },
+    "ability": "100% chance for {{Mutation|Surreal",
+    "crates": null,
+    "obtainment": [
+      "Black Market Event (5×, C$1 each)",
+      "Opening Admin Crate and Admin Bait Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Small Pebbles",
+    "slug": "small-pebbles",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Small%20Pebbles.png",
+    "stats": {
+      "preferredLuck": 10,
+      "universalLuck": 20,
+      "resilience": 5,
+      "lureSpeed": 5
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Redeemable Common DLC from Fisch Trading Card Pack."
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Snail",
+    "slug": "snail",
+    "rarity": "Rare",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Snail.png",
+    "stats": {
+      "preferredLuck": 80,
+      "universalLuck": -30,
+      "resilience": 30,
+      "lureSpeed": -20
+    },
+    "ability": "'''+0.1''' Control",
+    "crates": null,
+    "obtainment": [
+      "Find and catch in the Lost Jungle"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Snare",
+    "slug": "snare",
+    "rarity": "Secret",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Snare.png",
+    "stats": {
+      "preferredLuck": 125,
+      "universalLuck": -10,
+      "resilience": -20,
+      "lureSpeed": 80
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  = <!--TBD-->",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Upon completion of Holladay's first quest in the Underground Music Venue (100x)",
+      "Merchant Rod Passive Ability."
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Sour Gummy Worm",
+    "slug": "sour-gummy-worm",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Sour%20Gummy%20Worm.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 85,
+      "resilience": -20,
+      "lureSpeed": 40
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Xtra Sour Gummy Pack",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Xtra Sour Gummy Pack"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Squid (Bait)",
+    "slug": "squid-bait",
+    "rarity": "Unusual",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Squid.png",
+    "stats": {
+      "preferredLuck": 55,
+      "universalLuck": 45,
+      "resilience": null,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Common Crate",
+        "rate": 0.18
+      },
+      {
+        "name": "Quality Bait Crate",
+        "rate": 0.45
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Squid)",
+      "Common Crate (0.18/crate on average, C$1 per Squid)",
+      "Quality Bait Crate (0.45/crate on average, C$1 per Squid)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Stag Beetle",
+    "slug": "stag-beetle",
+    "rarity": "Mythical",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Stag%20Beetle.png",
+    "stats": {
+      "preferredLuck": 120,
+      "universalLuck": 35,
+      "resilience": -5,
+      "lureSpeed": 35
+    },
+    "ability": "'''10%''' chance per fish movement to stab for '''2.5%''' progress",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Find and catch in the Lost Jungle",
+      "Fourth reward from Jungle Adventurer (×20)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Star (Bait)",
+    "slug": "star-bait",
+    "rarity": "Special",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Star.png",
+    "stats": {
+      "preferredLuck": 120,
+      "universalLuck": 120,
+      "resilience": -10,
+      "lureSpeed": 80
+    },
+    "ability": "100% chance for {{Mutation|Galaxy",
+    "crates": null,
+    "obtainment": [
+      "Black Market Event (5×, C$1 each)",
+      "Opening Admin Crate and Admin Bait Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Starlight Worm",
+    "slug": "starlight-worm",
+    "rarity": "Secret",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Starlight%20Worm.png",
+    "stats": {
+      "preferredLuck": 300,
+      "universalLuck": 100,
+      "resilience": 15,
+      "lureSpeed": 30
+    },
+    "ability": "'''30%''' chance for {{Mutation|Nova",
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "2-5× from the Angler at a 16.02% chance"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Stud Bait",
+    "slug": "stud-bait",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Stud%20Bait.png",
+    "stats": {
+      "preferredLuck": 150,
+      "universalLuck": 40,
+      "resilience": 20,
+      "lureSpeed": 50
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "From the LEGO Event",
+      "Each event fish returned to Brickford Masterson awarded 3 bait, for a total of 48 when all fish are turned in."
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Super Flakes",
+    "slug": "super-flakes",
+    "rarity": "Rare",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Super%20Flakes.png",
+    "stats": {
+      "preferredLuck": 100,
+      "universalLuck": 70,
+      "resilience": -15,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Coral Geode",
+        "rate": 0.18
+      },
+      {
+        "name": "Quality Bait Crate",
+        "rate": 0.45
+      },
+      {
+        "name": "Volcanic Geode",
+        "rate": 0.24
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Super Flakes)",
+      "Coral Geode (0.18/crate on average, C$1 per Super Flakes)",
+      "Quality Bait Crate (0.45/crate on average, C$1 per Super Flakes)",
+      "Volcanic Geode (0.24/crate on average, C$1 per Super Flakes)",
+      "Sunken Chests (6.6% from normal, 5% from mythic)",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Taco (Bait)",
+    "slug": "taco-bait",
+    "rarity": "Special",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Taco.png",
+    "stats": {
+      "preferredLuck": 100,
+      "universalLuck": 100,
+      "resilience": -20,
+      "lureSpeed": 100
+    },
+    "ability": "100% chance for {{Mutation|Spicy",
+    "crates": null,
+    "obtainment": [
+      "Black Market Event (5×, C$1 each)",
+      "Opening Admin Crate and Admin Bait Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Toxic Jelly Core",
+    "slug": "toxic-jelly-core",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Toxic%20Jelly%20Core.png",
+    "stats": {
+      "preferredLuck": 180,
+      "universalLuck": 90,
+      "resilience": 35,
+      "lureSpeed": -5
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (4% chance)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Truffle Worm",
+    "slug": "truffle-worm",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Truffle%20Worm.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": -10
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Coral Geode",
+        "rate": 0.28
+      },
+      {
+        "name": "Volcanic Geode",
+        "rate": 0.12
+      }
+    ],
+    "obtainment": [
+      "Coral Geode (0.28/crate on average, C$1 per Truffle Worm)",
+      "Volcanic Geode (0.12/crate on average, C$1 per Truffle Worm)",
+      "Egg rewards at a 40.04% chance with Megalodon, Kraken, Orca, and Whale eggs",
+      "Treasure chests with a 6.13% chance to obtain 5-20.",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Tryhard Worm",
+    "slug": "tryhard-worm",
+    "rarity": "Special",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Tryhard%20Worm.png",
+    "stats": {
+      "preferredLuck": 5,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": 45
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "From starting RoRed's third quest.",
+      "Talking to RoRed during the third quest after running out of Tryhard Worms.",
+      "Purchase from the Black Market (25×, C$1 each)"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "UFO (Bait)",
+    "slug": "ufo-bait",
+    "rarity": "Special",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20UFO.png",
+    "stats": {
+      "preferredLuck": 110,
+      "universalLuck": 177,
+      "resilience": 70,
+      "lureSpeed": 77
+    },
+    "ability": "100% chance for {{Mutation|Alien",
+    "crates": null,
+    "obtainment": [
+      "Black Market Event (5×, C$1 each)",
+      "Opening Admin Crate and Admin Bait Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Umbrella",
+    "slug": "umbrella",
+    "rarity": "Limited",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Umbrella.png",
+    "stats": {
+      "preferredLuck": null,
+      "universalLuck": 50,
+      "resilience": 30,
+      "lureSpeed": 50
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Beach Crate",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Beach Crate"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Weird Algae",
+    "slug": "weird-algae",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Weird%20Algae.png",
+    "stats": {
+      "preferredLuck": 100,
+      "universalLuck": 200,
+      "resilience": null,
+      "lureSpeed": null
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Quality Bait Crate",
+        "rate": 0.45
+      }
+    ],
+    "obtainment": [
+      "Quality Bait Crate (0.45/crate on average, C$1 per Weird Algae)",
+      "Treasure chests with a 6.13% chance to obtain 5-20.",
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Whale Bait",
+    "slug": "whale-bait",
+    "rarity": "Legendary",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Whale%20Bait.png",
+    "stats": {
+      "preferredLuck": 180,
+      "universalLuck": 20,
+      "resilience": 30,
+      "lureSpeed": -5
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "|angler_quests  =",
+        "rate": null
+      }
+    ],
+    "obtainment": [
+      "Merchant Rod Passive Ability"
+    ],
+    "source": "fischipedia.org"
+  },
+  {
+    "name": "Worm",
+    "slug": "worm",
+    "rarity": "Common",
+    "imageUrl": "https://fischipedia.org/wiki/Special:FilePath/Bait%20Worm.png",
+    "stats": {
+      "preferredLuck": 25,
+      "universalLuck": null,
+      "resilience": null,
+      "lureSpeed": 15
+    },
+    "ability": null,
+    "crates": [
+      {
+        "name": "Bait Crate",
+        "rate": 0.34
+      },
+      {
+        "name": "Common Crate",
+        "rate": 0.18
+      }
+    ],
+    "obtainment": [
+      "Bait Crate (0.34/crate on average, C$1 per Worm)",
+      "Common Crate (0.18/crate on average, C$1 per Worm)",
+      "Merchant Rod Passive Ability",
+      "Personal Aquarium's hourly items (8% chance)"
+    ],
+    "source": "fischipedia.org"
+  }
+]
