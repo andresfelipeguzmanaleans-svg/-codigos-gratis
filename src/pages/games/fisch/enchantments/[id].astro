@@ -42,6 +42,32 @@ const schema = {
 };
 
 const effectLines = (item.effect || '').split('\n').filter(Boolean);
+
+// Generate How to Get text
+function getHowToGetText(): string[] {
+  const lines: string[] = [];
+
+  if (item.obtainment) {
+    lines.push(item.obtainment);
+  }
+
+  const typeHints: Record<string, string> = {
+    Regular: 'Enchant your rod at the Statue of Sovereignty using Enchant Relics. Regular enchantments are available in the standard enchanting pool.',
+    Exalted: 'Enchant your rod at the Statue of Sovereignty using Enchant Relics. Exalted enchantments are rarer and more powerful than Regular ones.',
+    Cosmic: 'Enchant your rod at the Statue of Sovereignty using Enchant Relics. Cosmic enchantments are extremely rare and offer unique effects.',
+    Twisted: 'Enchant your rod at the Statue of Sovereignty using Enchant Relics. Twisted enchantments have powerful but double-edged effects.',
+    Limited: 'This enchantment was available for a limited time only. It may return during special events.',
+    Quest: 'This enchantment is obtained through a specific quest. Complete the required quest to unlock it.',
+  };
+
+  if (!item.obtainment && typeHints[item.type]) {
+    lines.push(typeHints[item.type]);
+  }
+
+  return lines;
+}
+
+const howToGetLines = getHowToGetText();
 ---
 
 <GameLayout
@@ -111,12 +137,20 @@ const effectLines = (item.effect || '').split('\n').filter(Boolean);
       </div>
     )}
 
-    <!-- How to Obtain -->
-    {item.obtainment && (
-      <div class="td__section">
-        <h2 class="td__section-title">How to Obtain</h2>
-        <p class="td__text">{item.obtainment}</p>
-      </div>
+    <!-- How to Get -->
+    {howToGetLines.length > 0 && (
+      <details class="htg-accordion" open>
+        <summary class="htg-accordion__toggle">
+          <span class="htg-accordion__icon">📖</span>
+          <span class="htg-accordion__text">How to Get</span>
+          <svg class="htg-accordion__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 8 10 12 14 8"/></svg>
+        </summary>
+        <div class="htg-accordion__body">
+          {howToGetLines.map(line => (
+            <p class="htg-accordion__para">{line}</p>
+          ))}
+        </div>
+      </details>
     )}
 
     <a href="/games/fisch/enchantments/" class="td__back">&larr; All Enchantments</a>
@@ -174,6 +208,21 @@ const effectLines = (item.effect || '').split('\n').filter(Boolean);
 
   .td__text { font-size: 0.88rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
 
+  /* How to Get Accordion */
+  .htg-accordion { border: 1px solid rgba(34, 211, 238, 0.4); border-radius: 12px; background: rgba(34, 211, 238, 0.08); overflow: hidden; margin-bottom: 1.25rem; }
+  .htg-accordion__toggle { display: flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1rem; cursor: pointer; color: #22d3ee; list-style: none; transition: background 0.2s; }
+  .htg-accordion__toggle::-webkit-details-marker { display: none; }
+  .htg-accordion__toggle:hover { background: rgba(34, 211, 238, 0.18); }
+  .htg-accordion__icon { font-size: 1.1rem; flex-shrink: 0; }
+  .htg-accordion__text { font-family: var(--font-display); font-size: 0.95rem; font-weight: 700; letter-spacing: 0.04em; }
+  .htg-accordion__chevron { margin-left: auto; flex-shrink: 0; transition: transform 0.3s ease; }
+  .htg-accordion[open] > .htg-accordion__toggle .htg-accordion__chevron { transform: rotate(180deg); }
+  .htg-accordion__body { padding: 0 1rem 1rem; border-top: 1px solid rgba(34, 211, 238, 0.2); animation: htg-slide-down 0.3s ease; }
+  @keyframes htg-slide-down { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+  .htg-accordion__para { font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; }
+  .htg-accordion__para:first-child { margin-top: 1rem; }
+  .htg-accordion__para + .htg-accordion__para { margin-top: 0.75rem; }
+
   .td__back {
     display: inline-flex; align-items: center; gap: 0.3rem;
     font-size: 0.85rem; color: var(--accent); font-weight: 500;
@@ -185,5 +234,9 @@ const effectLines = (item.effect || '').split('\n').filter(Boolean);
     .td__hero { flex-direction: column; text-align: center; padding: 1rem; }
     .td__badges-top { justify-content: center; }
     .td__title { font-size: 1.25rem; }
+    .htg-accordion__toggle { min-height: 48px; }
+    .htg-accordion__text { font-size: 1rem; }
+    .htg-accordion__para { font-size: 1rem; line-height: 1.7; }
+    .htg-accordion__para + .htg-accordion__para { margin-top: 1rem; }
   }
 </style>

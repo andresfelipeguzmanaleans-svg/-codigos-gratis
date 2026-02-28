@@ -1,0 +1,280 @@
+---
+import GameLayout from '../../../../layouts/GameLayout.astro';
+import rawData from '../../../../data/games/fisch/rods.json';
+
+interface RodData {
+  id: string;
+  name: string;
+  luckBonus: number;
+  control: number;
+  resilience: number;
+  lureSpeed: number;
+  obtainMethod: string | null;
+  description: string | null;
+  howToGet: string | null;
+  obtainedFrom: string | null;
+  price: string | null;
+  stage: number | null;
+  wikiLocation: string | null;
+  passive: string | null;
+  maxWeight: string | null;
+}
+
+export function getStaticPaths() {
+  return (rawData as RodData[])
+    .filter(i => i.id && i.name)
+    .map(item => ({ params: { id: item.id }, props: { item } }));
+}
+
+const { item } = Astro.props as { item: RodData };
+
+function fmtStat(n: number | null): string {
+  if (n == null) return '—';
+  if (n > 0) return `+${n}`;
+  return String(n);
+}
+
+function fmtControl(n: number | null): string {
+  if (n == null) return '—';
+  return n.toFixed(2);
+}
+
+const STAGE_COLORS: Record<number, string> = {
+  1: '#6b7280', 2: '#3b82f6', 3: '#22c55e', 4: '#f59e0b',
+  5: '#ef4444', 6: '#8b5cf6', 7: '#ec4899', 8: '#14b8a6',
+};
+
+const stageColor = STAGE_COLORS[item.stage || 0] || '#6b7280';
+
+const description = `${item.name} is a${item.stage ? ` Stage ${item.stage}` : ''} fishing rod in Fisch. Luck: ${fmtStat(item.luckBonus)}, Control: ${fmtControl(item.control)}, Resilience: ${fmtStat(item.resilience)}, Lure Speed: ${fmtStat(item.lureSpeed)}.${item.obtainedFrom ? ` Obtained from ${item.obtainedFrom}.` : ''}`;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Thing',
+  name: item.name,
+  description,
+};
+---
+
+<GameLayout
+  title={`${item.name} - Stats & How to Get | Fisch Roblox`}
+  description={description}
+  game="Fisch"
+  breadcrumbs={[
+    { label: 'Rods', href: '/games/fisch/rods/' },
+    { label: item.name, href: `/games/fisch/rods/${item.id}/` },
+  ]}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </Fragment>
+
+  <div class="td">
+    <!-- Hero -->
+    <div class="td__hero" style={`--accent-clr: ${stageColor}`}>
+      <div class="td__hero-icon">🎣</div>
+      <div class="td__hero-info">
+        <div class="td__badges-top">
+          {item.stage && (
+            <span class="td__source-badge" style={`--badge-clr: ${stageColor}`}>Stage {item.stage}</span>
+          )}
+          <span class="td__type-badge">Fishing Rod</span>
+        </div>
+        <h1 class="td__title">{item.name}</h1>
+        {item.price && (
+          <div class="td__price-hero">
+            <span class="td__price-val">{item.price}</span>
+          </div>
+        )}
+      </div>
+    </div>
+
+    <!-- How to Get accordion -->
+    {item.howToGet && (
+      <details class="htg-accordion" open>
+        <summary class="htg-accordion__toggle">
+          <span class="htg-accordion__icon">📖</span>
+          <span class="htg-accordion__text">How to Get</span>
+          <svg class="htg-accordion__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 8 10 12 14 8"/></svg>
+        </summary>
+        <div class="htg-accordion__body">
+          {item.howToGet.split('\n\n').map(p => (
+            <p class="htg-accordion__para">{p}</p>
+          ))}
+        </div>
+      </details>
+    )}
+
+    <!-- Stats grid -->
+    <div class="td__grid">
+      <div class="td__stat">
+        <span class="td__stat-label">Luck Bonus</span>
+        <span class="td__stat-val td__stat-val--cyan">{fmtStat(item.luckBonus)}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Control</span>
+        <span class="td__stat-val">{fmtControl(item.control)}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Resilience</span>
+        <span class="td__stat-val">{fmtStat(item.resilience)}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Lure Speed</span>
+        <span class="td__stat-val">{fmtStat(item.lureSpeed)}</span>
+      </div>
+      {item.obtainedFrom && (
+        <div class="td__stat">
+          <span class="td__stat-label">Location</span>
+          <span class="td__stat-val">{item.obtainedFrom}</span>
+        </div>
+      )}
+      {item.maxWeight && (
+        <div class="td__stat">
+          <span class="td__stat-label">Max Weight</span>
+          <span class="td__stat-val">{item.maxWeight} lb</span>
+        </div>
+      )}
+    </div>
+
+    <!-- Passive -->
+    {item.passive && (
+      <div class="td__section">
+        <h2 class="td__section-title">Passive Ability</h2>
+        <p class="td__text">{item.passive}</p>
+      </div>
+    )}
+
+    <!-- Description -->
+    {item.description && (
+      <div class="td__section">
+        <h2 class="td__section-title">Overview</h2>
+        {item.description.split('\n\n').map(p => (
+          <p class="td__text td__text--spaced">{p}</p>
+        ))}
+      </div>
+    )}
+
+    <a href="/games/fisch/rods/" class="td__back">&larr; All Rods</a>
+  </div>
+</GameLayout>
+
+<style>
+  .td { max-width: 720px; margin: 0 auto; padding: 1rem; }
+
+  .td__hero {
+    display: flex; gap: 1.5rem; align-items: center;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--accent-clr) 12%, transparent), var(--bg-card));
+    border: 1px solid var(--border); border-radius: 16px;
+    padding: 1.5rem; margin-bottom: 1.25rem;
+  }
+
+  .td__hero-icon { font-size: 3.5rem; flex-shrink: 0; }
+  .td__hero-info { flex: 1; min-width: 0; }
+
+  .td__badges-top { display: flex; gap: 0.4rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+  .td__source-badge {
+    font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+    padding: 0.15rem 0.55rem; border-radius: 9999px;
+    color: var(--badge-clr); border: 1px solid var(--badge-clr);
+    background: color-mix(in srgb, var(--badge-clr) 12%, transparent);
+  }
+  .td__type-badge {
+    font-size: 0.7rem; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 9999px;
+    color: var(--text-dim); border: 1px solid var(--border); background: rgba(255,255,255,0.03);
+  }
+
+  .td__title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: #fff; margin: 0 0 0.35rem; }
+
+  .td__price-hero { display: flex; align-items: baseline; gap: 0.4rem; }
+  .td__price-val { font-family: var(--font-mono); font-size: 1.35rem; font-weight: 700; color: #22D3EE; }
+
+  /* ---- How to Get Accordion ---- */
+  .htg-accordion {
+    border: 1px solid rgba(34, 211, 238, 0.4);
+    border-radius: 12px;
+    background: rgba(34, 211, 238, 0.08);
+    overflow: hidden;
+    margin-bottom: 1.25rem;
+  }
+
+  .htg-accordion__toggle {
+    display: flex; align-items: center; gap: 0.5rem;
+    padding: 0.75rem 1rem; cursor: pointer; color: #22d3ee;
+    list-style: none; transition: background 0.2s;
+  }
+  .htg-accordion__toggle::-webkit-details-marker { display: none; }
+  .htg-accordion__toggle:hover { background: rgba(34, 211, 238, 0.18); }
+
+  .htg-accordion__icon { font-size: 1.1rem; flex-shrink: 0; }
+  .htg-accordion__text {
+    font-family: var(--font-display); font-size: 0.95rem;
+    font-weight: 700; letter-spacing: 0.04em;
+  }
+  .htg-accordion__chevron {
+    margin-left: auto; flex-shrink: 0; transition: transform 0.3s ease;
+  }
+  .htg-accordion[open] > .htg-accordion__toggle .htg-accordion__chevron {
+    transform: rotate(180deg);
+  }
+
+  .htg-accordion__body {
+    padding: 0 1rem 1rem;
+    border-top: 1px solid rgba(34, 211, 238, 0.2);
+    animation: htg-slide-down 0.3s ease;
+  }
+
+  @keyframes htg-slide-down {
+    from { opacity: 0; transform: translateY(-8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .htg-accordion__para {
+    font-size: 0.88rem; color: var(--text-dim); line-height: 1.65;
+  }
+  .htg-accordion__para:first-child { margin-top: 1rem; }
+  .htg-accordion__para + .htg-accordion__para { margin-top: 0.75rem; }
+
+  /* ---- Stats Grid ---- */
+  .td__grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  @media (min-width: 640px) { .td__grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .td__stat {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 0.75rem 1rem; display: flex; flex-direction: column; gap: 0.2rem;
+  }
+  .td__stat-label { font-size: 0.7rem; font-weight: 500; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+  .td__stat-val { font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; color: var(--text); }
+  .td__stat-val--cyan { color: #22D3EE; }
+
+  /* ---- Sections ---- */
+  .td__section {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 1rem 1.25rem; margin-bottom: 1.25rem;
+  }
+  .td__section-title { font-family: var(--font-display); font-size: 0.9rem; font-weight: 700; color: var(--text); margin: 0 0 0.6rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .td__text { font-size: 0.88rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+  .td__text--spaced + .td__text--spaced { margin-top: 0.6rem; }
+
+  .td__back {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    font-size: 0.85rem; color: var(--accent); font-weight: 500;
+    transition: opacity 0.2s;
+  }
+  .td__back:hover { opacity: 0.8; }
+
+  @media (max-width: 639px) {
+    .td__hero { flex-direction: column; text-align: center; padding: 1rem; }
+    .td__badges-top { justify-content: center; }
+    .td__title { font-size: 1.25rem; }
+    .td__price-val { font-size: 1.1rem; }
+    .td__price-hero { justify-content: center; }
+    .htg-accordion__toggle { min-height: 48px; }
+    .htg-accordion__text { font-size: 1rem; }
+    .htg-accordion__para { font-size: 1rem; line-height: 1.7; }
+    .htg-accordion__para + .htg-accordion__para { margin-top: 1rem; }
+  }
+</style>

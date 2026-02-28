@@ -52,19 +52,19 @@ function fmtValue(n: number | null): string {
 }
 
 const SOURCE_HINTS: Record<string, string> = {
-  Limited: 'Limited-time item, no longer obtainable through normal gameplay.',
-  Robux: 'Purchased from the Robux shop in-game.',
-  Regular: 'Available through regular gameplay.',
-  Code: 'Obtained by redeeming a promotional code.',
-  Egg: 'Hatched from an egg.',
-  Merch: 'Obtained through official merchandise redemption.',
-  'Pirate Faction': 'Earned through the Pirate Faction system.',
-  Challenge: 'Reward for completing a challenge.',
-  'Friend Quest': 'Reward from the Friend Quest system.',
-  DLC: 'Part of a downloadable content pack.',
-  Event: 'Obtained during a special in-game event.',
-  Exclusive: 'Exclusive item with limited availability.',
-  'Skin Merchant': 'Purchased from the Skin Merchant NPC.',
+  Limited: 'This rod skin was a limited-time item and is no longer obtainable. It can only be acquired through trading with other players.',
+  Robux: `Purchase from the Rod Skin Shop for ${item.cost ? item.cost.toLocaleString('en-US') + ' Robux' : 'Robux'}.`,
+  Regular: 'Available through regular gameplay from the Skin Merchant NPC.',
+  Code: 'Obtained by redeeming a promotional code. Check the codes page for active codes.',
+  Egg: 'Hatched from an egg. Eggs can be obtained through gameplay events and special promotions.',
+  Merch: 'Obtained through official merchandise redemption. Purchase official Fisch merchandise to unlock this skin.',
+  'Pirate Faction': 'Earned through the Pirate Faction system. Complete Pirate Faction quests and milestones to unlock.',
+  Challenge: 'Reward for completing a specific challenge. Check in-game challenges for requirements.',
+  'Friend Quest': 'Reward from the Friend Quest system. Complete friend-related quests to earn this skin.',
+  DLC: 'Part of a downloadable content pack. Purchase the DLC from the Roblox game page.',
+  Event: 'Obtained during a special in-game event. This item may return in future events.',
+  Exclusive: 'Exclusive item with very limited availability. Can only be acquired through trading.',
+  'Skin Merchant': 'Purchased from the Skin Merchant NPC in-game.',
 };
 
 const description = `${item.name} is a tradeable rod skin in Fisch${item.rarity ? ` (${item.rarity})` : ''}. ${item.tradeValue ? `Current trade value: ${fmtValue(item.tradeValue)} Enchant Relics.` : ''} ${item.demand ? `Demand: ${item.demand}.` : ''} ${item.trend ? `Market trend: ${item.trend}.` : ''}`;
@@ -159,12 +159,21 @@ const schema = {
       )}
     </div>
 
-    <!-- How to obtain -->
+    <!-- How to Get -->
     {item.rarity && SOURCE_HINTS[item.rarity] && (
-      <div class="td__obtain">
-        <h2 class="td__section-title">How to Obtain</h2>
-        <p class="td__obtain-text">{SOURCE_HINTS[item.rarity]}</p>
-      </div>
+      <details class="htg-accordion" open>
+        <summary class="htg-accordion__toggle">
+          <span class="htg-accordion__icon">📖</span>
+          <span class="htg-accordion__text">How to Get</span>
+          <svg class="htg-accordion__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 8 10 12 14 8"/></svg>
+        </summary>
+        <div class="htg-accordion__body">
+          <p class="htg-accordion__para">{SOURCE_HINTS[item.rarity]}</p>
+          {item.stock && item.stock !== 'Unknown' && (
+            <p class="htg-accordion__para">Stock: {item.stock} units{item.sold ? ` (${item.sold} sold)` : ''}.</p>
+          )}
+        </div>
+      </details>
     )}
 
     <!-- Back link -->
@@ -219,12 +228,20 @@ const schema = {
   .td__stat-val { font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; color: var(--text); }
   .td__stat-val--cyan { color: #22D3EE; }
 
-  .td__obtain {
-    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
-    padding: 1rem 1.25rem; margin-bottom: 1.25rem;
-  }
-  .td__section-title { font-family: var(--font-display); font-size: 0.9rem; font-weight: 700; color: var(--text); margin: 0 0 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
-  .td__obtain-text { font-size: 0.88rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+  /* How to Get Accordion */
+  .htg-accordion { border: 1px solid rgba(34, 211, 238, 0.4); border-radius: 12px; background: rgba(34, 211, 238, 0.08); overflow: hidden; margin-bottom: 1.25rem; }
+  .htg-accordion__toggle { display: flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1rem; cursor: pointer; color: #22d3ee; list-style: none; transition: background 0.2s; }
+  .htg-accordion__toggle::-webkit-details-marker { display: none; }
+  .htg-accordion__toggle:hover { background: rgba(34, 211, 238, 0.18); }
+  .htg-accordion__icon { font-size: 1.1rem; flex-shrink: 0; }
+  .htg-accordion__text { font-family: var(--font-display); font-size: 0.95rem; font-weight: 700; letter-spacing: 0.04em; }
+  .htg-accordion__chevron { margin-left: auto; flex-shrink: 0; transition: transform 0.3s ease; }
+  .htg-accordion[open] > .htg-accordion__toggle .htg-accordion__chevron { transform: rotate(180deg); }
+  .htg-accordion__body { padding: 0 1rem 1rem; border-top: 1px solid rgba(34, 211, 238, 0.2); animation: htg-slide-down 0.3s ease; }
+  @keyframes htg-slide-down { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+  .htg-accordion__para { font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; }
+  .htg-accordion__para:first-child { margin-top: 1rem; }
+  .htg-accordion__para + .htg-accordion__para { margin-top: 0.75rem; }
 
   .td__back {
     display: inline-flex; align-items: center; gap: 0.3rem;
@@ -240,5 +257,9 @@ const schema = {
     .td__value-hero { justify-content: center; }
     .td__title { font-size: 1.25rem; }
     .td__value-num { font-size: 1.5rem; }
+    .htg-accordion__toggle { min-height: 48px; }
+    .htg-accordion__text { font-size: 1rem; }
+    .htg-accordion__para { font-size: 1rem; line-height: 1.7; }
+    .htg-accordion__para + .htg-accordion__para { margin-top: 1rem; }
   }
 </style>

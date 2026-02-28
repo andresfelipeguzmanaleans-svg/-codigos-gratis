@@ -1,0 +1,1777 @@
+{
+  "cinder-block-rod": {
+    "description": "The Cinder Block Rod is a Stage 3 Fishing Rod obtained at The Laboratory for C$50,000.\n\nseems a little heavy...\nThe Cinder Block Rod is a Stage 3 Fishing Rod with extremely high Luck and Resilience, combined with very high Control and massive Weight. Its negative Lure Speed makes it slow to attract fish, but its other stats make it exceptionally durable and capable of handling the toughest catches.",
+    "obtainment": "Ocean",
+    "infoboxStats": {
+      "obtainedFrom": "Ocean",
+      "price": "C$50,000",
+      "stage": "3",
+      "passive": "70% chance for Cement (1.5×)\n Always sets Progress Speed to -85% (Hidden)",
+      "maxWeight": "100,000,000,000"
+    }
+  },
+  "random-rod": {
+    "description": "The Random Rod is a Stage 7 Fishing Rod obtained from Daily Shop for a random price between C$1C$-1,000,000C$.\n\n?\nThe Random Rod is a high-tier rod centered entirely around unpredictability. It features high Luck and decent Lure Speed, but low Resilience, with other stats fluctuating wildly on each cast.",
+    "obtainment": "Daily Shop",
+    "infoboxStats": {
+      "obtainedFrom": "Daily Shop",
+      "price": "C$1 - 1,000,000",
+      "stage": "7",
+      "passive": "50% chance for Jackpot (7.77x)\n50% chance for Unlucky (0.5x)\n50% chance for caught fish to have double weight, 50% chance for caught fish to have half weight\n\nEach cast randomizes a boost to stats:\n• -80% to +80% Resilience\n• -0.3 to +0.3 Control\n• -77% to +100% Progress Speed"
+    }
+  },
+  "tryhard-rod": {
+    "description": "The Tryhard Rod is a Fishing Rod previously awarded exclusively to various Official Fisch Content Creators and developers but now publicly available by completing RoRed's questline.\n\nEvery cast is a challenge. Every catch, a victory. -RoReddo [Controlled/Herculean Enchant REQUIRED]\nThe Tryhard Rod is a Stage 10 Fishing Rod with extreme Luck and massive Weight.",
+    "obtainment": "Roslit Volcano",
+    "infoboxStats": {
+      "obtainedFrom": "Roslit Volcano",
+      "stage": "10",
+      "location": "Roslit Bay",
+      "passive": "All fish caught are Tryhard (10×) \n +300% Progress Speed",
+      "maxWeight": "999,999,999,999,999",
+      "durability": "200"
+    }
+  },
+  "blade-of-glorp": {
+    "description": "The Blade Of Glorp is a Stage 8 Fishing Rod obtainable via a set of quests within Roslit Bay.\n\nA sharp Blade & friendly UFO crafted by Glorp harnesses the power of Lasers. Be careful, it is hot and will melt your hands if touched. [For @uhvanni]\nThe Blade Of Glorp is a high-tier Fishing Rod with a powerful, high-risk, and high-reward progress affecting ability.",
+    "obtainment": "Roslit Bay",
+    "infoboxStats": {
+      "obtainedFrom": "Roslit Bay",
+      "price": "|stage = 8",
+      "stage": "8",
+      "passive": "23% chance for Gleebous (8×)\nEvery 2 seconds, there is a 20% chance for a laser to strike after 2 warning pulses\nAfter the laser strikes:\n• -66% Control for 0.3 seconds\n(Reduces Control to 1/3 of it's current value)\n• Sets Progress Gain/Loss rate to 0.25% per frame, decaying over 2.5 seconds\n• If the fish has not left the bar during the 0.3 seconds duration, gains +10% Progress"
+    }
+  },
+  "onirifalx": {
+    "description": "The Onirifalx is a Stage 10 Fishing Rod obtainable via a set of quests within The Depths.\n\nTempered in dreams and sharpened by peril, the Onirifalx reaps catches with unrivaled speed for those who can hold their ground. [For @animepunk]\nThe Onirifalx has strong stats in all aspects allowing most fish in the game to be caught in a short amount of time. The Onirifalx features a high progress speed boost that is balanced out by very low resilience, making the player have to either be skilled with moving the bar or take advantage of certain Enchantments to keep the fish in the control bar.",
+    "obtainment": "The Depths",
+    "infoboxStats": {
+      "obtainedFrom": "The Depths",
+      "stage": "10",
+      "location": "Vertigo",
+      "passive": "+70% Progress Speed \n +5% Progress Speed per perfect catch (+50% max) \n -0.01 Control per perfect catch (-0.1 max) \n 30% chance to fill around half of progress instantly \n 50% chance for Levitas (5×) \n 7% chance for Sacratus (7×) \n 3% chance for Puritas (8.7×)",
+      "durability": "200"
+    }
+  },
+  "wind-elemental": {
+    "description": "The Wind Elemental is a Stage 10 Fishing Rod obtained from a set of quests at the Glacial Grotto.\n\nMay you slash with all the colors of the wind.\nThe Wind Elemental is a high-tier Fishing Rod with extremely high Lure Speed and Luck, paired with solid Resilience and low Control. Its stats make it exceptionally efficient at catching high-value and difficult fish, while its infinite Weight allows it to handle the largest catches without limitation.",
+    "obtainment": "Glacial Grotto",
+    "infoboxStats": {
+      "obtainedFrom": "Glacial Grotto",
+      "price": "|stage = 10",
+      "stage": "10",
+      "location": "Northern Expedition",
+      "passive": "Instantly fills 50% of the bar every catch \n 30% chance for Breezed (8.6×) \n During Windy:\n• +50% Progress Speed"
+    }
+  },
+  "ruinous-oath": {
+    "description": "The Ruinous Oath is a Stage 10 Fishing Rod obtained in Crimson Cavern for C$5,000,000 after Level 750.\n\nBorn from radiant crystals scorched by crimson fury, this blade blazes with unbound strength; its power no longer knows restraint...\nThe Ruinous Oath is a late-game Fishing Rod with very high Luck and substantial Weight, complemented by moderate Lure Speed and low Control. Its stats make it extremely effective for large and valuable catches, though its handling requires some precision.",
+    "obtainment": "Crimson Cavern",
+    "infoboxStats": {
+      "obtainedFrom": "Crimson Cavern",
+      "price": "C$5,000,000",
+      "stage": "10",
+      "location": "Desolate Deep",
+      "passive": "5% chance for slashes that fills up 2% progress every 0.25 second. Chances for slashes increase by 8% every second. \n 25% chance for Luminescent (6.5×)\n 15% chance to fill up 80% of the progress bar instantly \n \n During Perfect Catch : \n The control bar gradually decreases in size, however the progress speed gradually increases by 5% every second. \n 100% chance for Mastered (9×)"
+    }
+  },
+  "fabulous-rod": {
+    "description": "we are so fr\n\nThe Fabulous Rod is a Stage 12 Fishing Rod obtained from Fabulous Deity's quest.\n\nAs fabulous as possible! Actually, even more than that. [For @GreenResolve]\nThe Fabulous Rod is a powerful late-game rod that excels in catching high-value and rare fish thanks to its extremely high Luck, instant Lure Speed, and exceptional Resilience.",
+    "obtainment": "Calm Zone",
+    "infoboxStats": {
+      "obtainedFrom": "Calm Zone",
+      "price": "|stage = 12",
+      "stage": "12",
+      "location": "Mariana's Veil",
+      "passive": "+25% Fish Weight.\n26% chance for Fabulous (9.6×)\nEvery 0.25 seconds 25% chance to Slash for 3% progress.\n\nAfter 3 Slash gain the following: \n• +0.2 Control \n• +200% Forced Progress Speed. \n• Effects gradually diminishing over a span of 3 seconds."
+    }
+  },
+  "great-rod-of-oscar": {
+    "description": "The Great Rod of Oscar is a Stage 7 Fishing Rod obtained in Oscar's Locker for C$2,500,000 after Level 250.\n\nA relic of the Dead Mans Tale, with a moderate boost to experience... Has a 5% chance to apply the spirits of Oscar.\nThe Great Rod of Oscar is a high-tier Fishing Rod built for fast, high-reward fishing.",
+    "obtainment": "Ocean",
+    "infoboxStats": {
+      "obtainedFrom": "Ocean",
+      "price": "C$2,500,000",
+      "stage": "7",
+      "passive": "+30% Progress Speed \n 1.35× XP from fish \n 5% chance for Oscar (6.4×)",
+      "maxWeight": "100,000"
+    }
+  },
+  "silly-fun-happy-rod": {
+    "description": "fishing rod\n\nThe Silly Fun Happy Rod is a Stage 4 Fishing Rod obtained from a set of quests at the Underground Music Venue.\n\n:P\n[@newandreformedlyth]\nThe Silly Fun Happy Rod is a Stage 4 fishing rod with extreme, exaggerated stats. It has infinite Lure Speed, very high Luck, and infinite Resilience and Weight, though it also comes with no measurable Control. These stats make it powerful on paper, but its design offsets that advantage through chaotic mechanics.",
+    "obtainment": "Underground Music Venue",
+    "infoboxStats": {
+      "obtainedFrom": "Underground Music Venue",
+      "price": "|stage = 4",
+      "stage": "4",
+      "passive": "Instantly loses fish when it gets out of the fishing bar\n+50% Progress Speed\n+50% Forced Progress Speed\n50% chance for Honked (2×)\n\nWhen fishing, one of 5 minigames are guaranteed to happen:\n• Spinning Bar: The player's fishing bar will continuously spin.\n• Random Movement: The player's fishing bar will erratically move across the screen.\n• Fake Catch: The player will get the notification of catching Nessie, these notifications are fake and the player will not receive them.\n• Jumpscare: After finishing the minigame, the player will get a jumpscare.\n• Bossfight: The player's Control will be set to -0.29."
+    }
+  },
+  "destiny-rod": {
+    "description": "The Destiny Rod is a Stage 6 Fishing Rod obtained from Caleia for C$190,000.\n\nThe Destiny Rod pulses continuously with the pure essence of luck. (10% Higher chance of Shiny & Sparkling fish)\n\nThe Destiny Rod is a direct upgrade to the Fortune Rod, with a high Luck stat of 250. The rod also has a strong 0.",
+    "obtainment": "Ocean",
+    "infoboxStats": {
+      "obtainedFrom": "Ocean",
+      "price": "C$190,000",
+      "stage": "6",
+      "passive": "+10% chance for Shiny (1.85×)\n+10% chance for Sparkling (1.85×)",
+      "maxWeight": "77,777"
+    }
+  },
+  "toxic-spire-rod": {
+    "description": "The Toxic Spire Rod is a Stage 6 Fishing Rod acquired by Crafting.\n\nTainted power seeps into the catch, slowing it with each struggle. A 15% toxic strike will paralyze it completely, granting 70% faster progress. [+20% Progress Speed]\nThe Toxic Spire Rod is a high-end rod with very high Lure Speed and exceptionally strong Luck, paired with high Control but slightly negative Resilience, giving it fast, responsive casts with a bit less stability.",
+    "obtainment": "Lost Jungle",
+    "infoboxStats": {
+      "obtainedFrom": "Lost Jungle",
+      "price": "C$170,000",
+      "stage": "6",
+      "passive": "+20% Progress Speed \n 15% chance to slow fish movement by 5× and grant +70% Progress Speed \n15% chance for Toxic (6×)",
+      "maxWeight": "100,000"
+    }
+  },
+  "heaven-s-rod": {
+    "description": "The Heaven's Rod is a Stage 7 Fishing Rod obtained in Glacial Grotto for C$1,750,000 after Level 220.\n\nA heavenly rod with glowing floating parts and a divine halo, emitting mythical particles and celestial animations. Has a 35% chance for fish to become Heavenly.\nThe Heaven's Rod is a high-tier Fishing Rod built for high-value catches.",
+    "obtainment": "Glacial Grotto",
+    "infoboxStats": {
+      "obtainedFrom": "Glacial Grotto",
+      "price": "C$1,750,000",
+      "stage": "7",
+      "location": "Northern Expedition",
+      "passive": "35% chance for Heavenly (6×)",
+      "maxWeight": "200,000"
+    }
+  },
+  "elder-mossripper": {
+    "description": "The Elder Mossripper is a Stage 9 Fishing Rod acquired by Crafting.\n\nAncient fangs lash at the hooked, forcing weight to rise by 45%. With a 20% rate for Shrouded, and 5% for Moss: the lurking Mossjaw waits to strike... [+30% Progress Speed]\n\nThe Elder Mossripper is a craftable end-game rod, of which the crafting recipe is unlocked at Level 350.",
+    "obtainment": "Lost Jungle",
+    "infoboxStats": {
+      "obtainedFrom": "Lost Jungle",
+      "price": "C$350,000",
+      "stage": "9",
+      "passive": "+45% Fish Weight \n 20% chance for Shrouded (7×) \n 5% chance for Mossy (8.7×) \n Every 2 minutes receive higher chance to catch a higher rarity fish with Mossy \n +30% Progress Speed"
+    }
+  },
+  "dreambreaker": {
+    "description": "The Dreambreaker is a Stage 11 Fishing Rod obtained from The Restless One questline.\n\nA rod born of torment and twilight, empowering night fishing with violent surges and larger prey; but twisting the mind with slower progress and unpredictable control.\nThe Dreambreaker is a high-tier rod with balanced stats and a strong focus on adaptability. It offers high Lure Speed, solid Luck, and good Control, making it effective for most types of fishing.",
+    "obtainment": "Cultist Lair",
+    "infoboxStats": {
+      "obtainedFrom": "Cultist Lair",
+      "price": "C$5,000,000",
+      "stage": "11",
+      "location": "Terrapin Island",
+      "passive": "After 20% progress, the borders of the player's screen reach a certain dimness, and the fishing minigame's input is inverted. \n +15% Progress Speed \n During Day: \n• -50% Fish Weight \n• 25% chance for Distraught (8.5x) \n During Night: \n• +50% Fish Weight \n• 35% chance for Distraught (8.5x) \n• Every 0.25 seconds 33% chance to Slash for 5% progress. \n• -15% Forced Progress Speed"
+    }
+  },
+  "fortune-rod": {
+    "description": "The Fortune Rod is a Stage 2 Fishing Rod obtained in Roslit Bay for C$11,000.\n\nExtremely lucky rod with an odd tendency to attract significantly rarer fish than usual.\nThe Fortune Rod acts as an upgrade to the Lucky Rod. Its high Luck stat means that rarer fish will be easier to find.",
+    "obtainment": "Roslit Bay",
+    "infoboxStats": {
+      "obtainedFrom": "Roslit Bay",
+      "price": "C$11,000",
+      "stage": "2",
+      "maxWeight": "3,000"
+    }
+  },
+  "ethereal-prism-rod": {
+    "description": "The Ethereal Prism Rod is a Stage 9 Fishing Rod obtained in Calm Zone for C$3,500,000 after Level 250.\n\nA rod infused with spectral essence and alluring gems, allowing for 50% of fish to become Prismized.\nThe Ethereal Prism Rod is a top-tier Fishing Rod with high Lure Speed and Luck, supported by strong Control and Resilience. Its substantial Weight allows it to handle large and challenging fish reliably, making it effective for late-game fishing.",
+    "obtainment": "Calm Zone",
+    "infoboxStats": {
+      "obtainedFrom": "Calm Zone",
+      "price": "C$3,500,000",
+      "stage": "9",
+      "location": "Mariana's Veil",
+      "passive": "50% chance for Prismize (5.5×)",
+      "maxWeight": "250,000"
+    }
+  },
+  "cerulean-fang-rod": {
+    "description": "The Cerulean Fang Rod is a Stage 8 Fishing Rod obtained from Luminescent Cavern for C$800,000 after Level 400.\n\nSwift as the spirits, this rod carves through the sea with rapid, cutting precision; its fangs strike fast and unrelenting.\nThe Cerulean Fang Rod is a high-tier Fishing Rod designed for fast, aggressive catch speed and strong handling. It offers high Lure Speed and excellent Luck, backed by strong Control and solid Resilience.",
+    "obtainment": "Luminescent Cavern",
+    "infoboxStats": {
+      "obtainedFrom": "Luminescent Cavern",
+      "price": "C$800,000",
+      "stage": "8",
+      "location": "Desolate Deep",
+      "passive": "15% for Nova (6×)\n40% chance per fish movement to stab for 8% progress \n +15% Progress Speed"
+    }
+  },
+  "kraken-rod": {
+    "description": "The Kraken Rod is a Stage 7 Fishing Rod obtained in Atlantis for C$950,000 after Level 180.\n\nCrafted from the tentacle of an ancient Kraken, this mysterious rod pulses with dark energy. Gives you a random Legendary/Mythical/Exotic fish every 5 catches. 20% chance of giving you 2x the amount of fish.",
+    "obtainment": "Atlantis",
+    "infoboxStats": {
+      "obtainedFrom": "Atlantis",
+      "price": "C$950,000",
+      "stage": "7",
+      "passive": "After 5 fish caught receive random Legendary/Mythical/Exotic fish from bestiary collection \n 20% chance to double fish on catch \n 10% chance to double fish with Tentacle Surge (7.8×)",
+      "maxWeight": "115,000"
+    }
+  },
+  "rainbow-cluster-rod": {
+    "description": "The Rainbow Cluster Rod is a Stage 5 Fishing Rod obtained from Castaway Cliffs during Rainbow weather.\n\nEnhanced by the Rainbow energy! (20% chance for Rainbow mutation) Rainbow weather grants a 35% chance for the Rainbow mutation & +50% Progress Speed\n\nThe Rainbow Cluster Rod features a fairly decent lure speed of 65%, which allows for instant catching when paired with the Hasty enchantment. Additionally, the rod provides a fast progress speed increase of +50%, and grants a 35% chance for fish to become mutated with Rainbow Cluster (5×) during Rainbow weather, or a 20% chance other times.",
+    "obtainment": "Castaway Cliffs",
+    "infoboxStats": {
+      "obtainedFrom": "Castaway Cliffs",
+      "price": "C$250,000",
+      "stage": "5",
+      "passive": "20% chance for Rainbow Cluster (5×) \n During Rainbow weather: \n +50% Progress Speed \n 35% chance for Rainbow Cluster (5×)",
+      "maxWeight": "50,000"
+    }
+  },
+  "leviathan-s-fang-rod": {
+    "description": "The Leviathan's Fang Rod is a Stage 7 Fishing Rod obtained in Veil of the Forsaken for C$350,000.\n\nA weaponized rod forged to withstand the wrath of Scylla, carving through its relentless assaults with unyielding force.\n\nThe Leviathan's Fang Rod, while not being particularly good for or XP grinding, excels specifically when catching Scylla during Scylla Hunts, providing a bonus of +50 Resilience and +4% initial reeling completion.\n\nAdditionally, it has a stab ability similar to Trident Rod and the No-Life Rod, but providing an additional boost equal to 3% of current completion.",
+    "obtainment": "Veil of the Forsaken",
+    "infoboxStats": {
+      "obtainedFrom": "Veil of the Forsaken",
+      "price": "C$350,000",
+      "stage": "7",
+      "location": "Mariana's Veil",
+      "passive": "25% chance per fish movement to stab for +3% progress \n If catching Scylla gain +50% resilience and fill up 4% of progress \n Bypasses Scylla Progress Speed lock",
+      "maxWeight": "230,000"
+    }
+  },
+  "lucky-rod": {
+    "description": "the Fishing Rod\n\nThe Lucky Rod is a Stage 1 Fishing Rod obtained in Moosewood for C$4,500.\n\nSeems to attract a handful of rare fish. Not sure why?.. Maybe I should buy a lottery ticket?",
+    "obtainment": "Moosewood",
+    "infoboxStats": {
+      "obtainedFrom": "Moosewood",
+      "price": "C$4,500",
+      "stage": "1",
+      "maxWeight": "175"
+    }
+  },
+  "duskwire": {
+    "description": "The Duskwire is a Stage 5 Fishing Rod obtained from a set of quests at the Underground Music Venue.\n\nIntertwined with souls of the masses; a reminder that we are all human after all.\nThe Duskwire is a Stage 5 Fishing Rod obtained through a questline at the Underground Music Venue. It features very high Lure Speed and strong Luck, supported by extremely high Resilience.",
+    "obtainment": "Underground Music Venue",
+    "infoboxStats": {
+      "obtainedFrom": "Underground Music Venue",
+      "price": "C$500,000",
+      "stage": "5",
+      "location": "Vertigo",
+      "passive": "+25% Progress Speed \n 5% chance to fill the progress bar instantly \n 68% chance for Darkened (1.5×) \n 30% chance for Chaotic (8×) \n 2% chance for Serene (8.5×) \n After a Perfect Catch : \n 97% chance for Chaotic (8×) Mutation \n 3% chance for Serene (8.5×) Mutation"
+    }
+  },
+  "rod-of-the-exalted-one": {
+    "description": "The Rod Of The Exalted One is a Stage 6 Fishing Rod obtained by completing the The Keeper's Secret puzzle.\n\nOriginally created for the most magnificent royals, was lost in time and sealed away. Exalted Relics now have a 4x higher chance to be caught.\nThe Rod Of The Exalted One offers great Lure Speed, which plays wonderfully into its primary purpose of farming Exalted Relic.",
+    "obtainment": "The Keeper's Secret",
+    "infoboxStats": {
+      "obtainedFrom": "The Keeper's Secret",
+      "price": "|stage = 6",
+      "stage": "6",
+      "passive": "4× more likely to catch Exalted Relic",
+      "maxWeight": "57,000"
+    }
+  },
+  "scarlet-spincaster-rod": {
+    "description": "The Scarlet Spincaster Rod is a Stage 6 Fishing Rod obtained from Crimson Cavern for C$180,000\n\nA rod steeped in sanguine essence, pulsing with forbidden vigor and granting a 30% chance for the Crimson mutation\nThe Scarlet Spincaster Rod is a high-tier rod with moderate Lure Speed and very high Luck, along with slightly negative Control and extremely high Resilience, making it effective for catching heavy and active fish. Its Weight allows it to handle very large catches reliably.\n\nIts passive provides a 30% chance to apply the Crimson mutation, increasing a fish’s value by 4×.\n\nOverall, the Scarlet Spincaster Rod is a powerful rod for players who want to target high-value and heavy fish, combining strong durability with consistent mutation potential.",
+    "obtainment": "Crimson Cavern",
+    "infoboxStats": {
+      "obtainedFrom": "Crimson Cavern",
+      "price": "C$180,000",
+      "stage": "6",
+      "location": "Desolate Deep",
+      "passive": "30% chance for Crimson (4×)",
+      "maxWeight": "250,000"
+    }
+  },
+  "poseidon-rod": {
+    "description": "The Poseidon Rod is a Stage 7 Fishing Rod obtained in Atlantis for C$700,000 after Level 100.\n\nBlessed by the God of the Seas himself, this trident-inspired rod commands...\nThe Poseidon Rod is a high-tier Fishing Rod focused on value generation and catch stability. It features moderate Lure Speed and strong Luck, supported by good Control and above-average Resilience.",
+    "obtainment": "Atlantis",
+    "infoboxStats": {
+      "obtainedFrom": "Atlantis",
+      "price": "C$700,000",
+      "stage": "7",
+      "passive": "25% chance to gain 75% of caught fish's base value; \n 10% chance for 75-150% weight buff with King's Blessing (5.5×)",
+      "maxWeight": "100,000"
+    }
+  },
+  "rod-of-the-eternal-king": {
+    "description": "The Rod Of The Eternal King is a Stage 8 Fishing Rod acquired by Crafting.\n\nEvery 30 seconds, a 5% chance summons a 'Royal Escort', boosting luck by 150% for 10 seconds. If you miss a catch, there's a 15% chance of immediately catching a higher rarity fish. All fish have a 60% chance to be Greedy.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$0",
+      "stage": "8",
+      "passive": "Every 30 seconds, 5% chance to get 150% luck for 45 seconds \n If a reel is snapped, 15% chance to get a higher-rarity fish \n 60% chance for Greedy (5×)",
+      "maxWeight": "75,000"
+    }
+  },
+  "precision-rod": {
+    "description": "The Precision Rod is a Stage 2 Fishing Rod acquired by Crafting.\n\nCounterpart to rapid rod, with much better resilience!\nThe Precision Rod is an early-game rod with low Lure Speed but very high Luck for its tier, making it effective for catching rarer fish despite slower hook times. It has no Control and modest Resilience, but its high Weight allows it to handle larger fish than most Stage 2 rods.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$0",
+      "stage": "2",
+      "maxWeight": "12,000"
+    }
+  },
+  "trident-rod": {
+    "description": "The Trident Rod is a Stage 5 Fishing Rod obtained at the Tridents Temple for C$150,000.\n\nWas originally the King of the Sea's way of defending the kingdom. All fish have a 30% chance to be atlantean. [Has a chance to stab a fish while catching it, briefly stunning it and increasing progress]\nThe Trident Rod is notable for its ability to randomly 'stab' a fish when reeling it similarly to the Leviathan's Fang Rod and No-Life Rod, briefly stunning it and advancing minigame progress by 6%.",
+    "obtainment": "Desolate Deep",
+    "infoboxStats": {
+      "obtainedFrom": "Desolate Deep",
+      "price": "C$150,000",
+      "stage": "5",
+      "passive": "25% chance per fish movement to stab for +6% progress \n 30% chance for Atlantean (4×)",
+      "maxWeight": "6,000"
+    }
+  },
+  "sunken-rod": {
+    "description": "the fishing rod\n\nThe Sunken Rod is a Stage 6 Fishing Rod obtained from Treasure Chests with a 1.6% chance or after opening 50 Treasure Chests.\n\nAn ancient, coral-encrusted rod found in shipwreck depths, radiating faint power to lure rare fish. Every 10 catches, gain a 25% higher chance to pull up a Treasure Map!",
+    "obtainment": "Ocean",
+    "infoboxStats": {
+      "obtainedFrom": "Ocean",
+      "price": "|stage = 6",
+      "stage": "6",
+      "passive": "25% chance for Treasure Map every 10 catches \n Guaranteed Treasure Map every 230 catches \n 8% chance for Sunken (6.3×)",
+      "maxWeight": "25,000"
+    }
+  },
+  "seraphic-rod": {
+    "description": "The Seraphic Rod is a Stage 9 Fishing Rod acquired by reaching Level 1000.\n\nTOUCH SOME GRASS BUDDY\nThe Seraphic Rod bears incredibly powerful stats, capable of near-instant luring as well as boasting great Control and Resilience for catching most fish in the game with ease.\n\nThe Seraphic Rod has the ability to summon a beam of light down from above, causing it to rapidly fill 60% of the fishing game and ignoring any reductions in progress speed. The ability is applied every cast and always has the same effect.",
+    "obtainment": "Level 1000",
+    "infoboxStats": {
+      "obtainedFrom": "Level 1000",
+      "price": "|stage = 9",
+      "stage": "9",
+      "passive": "Beam that rapidly fills up the Progress bar to 60% \n 30% chance for Blessed (8.5×)"
+    }
+  },
+  "great-dreamer-rod": {
+    "description": "The Great Dreamer Rod is a Stage 5 Fishing Rod obtained in Cursed Isle for C$700,000.\n\nPulsing with energy and madness, some say the Dreamer himself occasionally awakens to seize a fish, with a 50% chance of Cursed Touch.\nThe Great Dreamer Rod is a high-tier rod with high Lure Speed and strong Luck, along with solid Control and Resilience, making it effective for handling a variety of fish. Its Weight allows it to catch moderately heavy fish reliably.",
+    "obtainment": "Cursed Isle",
+    "infoboxStats": {
+      "obtainedFrom": "Cursed Isle",
+      "price": "C$700,000",
+      "stage": "5",
+      "passive": "Every 1-3 catches, gain another fish with a 50% chance for Cursed Touch (5×)",
+      "maxWeight": "15,000"
+    }
+  },
+  "rod-of-the-forgotten-fang": {
+    "description": "The Rod Of The Forgotten Fang is a Stage 8 Fishing Rod acquired by Crafting.\n\nAfter 3 perfect catches, triggers a special mode where a Meg jumps out of the Deeps with a higher-tier fish. Boosting a 25-50% size buff.\nThe Rod Of The Forgotten Fang is a high-tier Fishing Rod with strong Lure Speed and Luck, supported by good Control and stable Resilience.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$0",
+      "stage": "8",
+      "passive": "25% chance for Tidal (7×)\n After 3 perfect catches, the next catch will summon a Megalodon to catch a higher-rarity fish with Tidal, boosting its weight by 25-50%",
+      "maxWeight": "300,000"
+    }
+  },
+  "rod-of-the-zenith": {
+    "description": "The Rod Of The Zenith is a Stage 9 Fishing Rod obtained in Abyssal Zenith for C$1,500,000 after Level 150.\n\nA legendary rod that defies limits, allowing a challenge for those seeking the ultimate reward. Has a 70% chance to apply the Wrath mutation to fish.\nThe Rod Of The Zenith is a top-tier Fishing Rod with high Lure Speed and Luck, supported by moderate Resilience but slightly negative Control, making it a bit more challenging to handle.",
+    "obtainment": "Abyssal Zenith",
+    "infoboxStats": {
+      "obtainedFrom": "Abyssal Zenith",
+      "price": "C$1,500,000",
+      "stage": "9",
+      "location": "Mariana's Veil",
+      "passive": "70% chance for Wrath (4.5×)\n+20% weight buff to all fish caught",
+      "maxWeight": "250,000"
+    }
+  },
+  "wicked-fang-rod": {
+    "description": "The Wicked Fang Rod is a Stage 8 Fishing Rod obtained in Crimson Cavern for C$400,000 after Level 300.\n\nForged in malice, its fangs bite slow but devastatingly deep; every strike leaves ruins in its wake.\nThe Wicked Fang Rod is a high-tier Fishing Rod offering strong Lure Speed and Luck, with solid Resilience and moderate Control. Its infinite Weight makes it capable of handling the largest and most resistant fish without issue, making it a reliable choice for challenging catches.",
+    "obtainment": "Crimson Cavern",
+    "infoboxStats": {
+      "obtainedFrom": "Crimson Cavern",
+      "price": "C$400,000",
+      "stage": "8",
+      "location": "Desolate Deep",
+      "passive": "25% chance per fish movement to stab for +10% progress \n 30% chance for Solarblaze (3×) \n +20% Progress Speed"
+    }
+  },
+  "rod-of-the-depths": {
+    "description": "The Rod Of The Depths is a Stage 6 Fishing Rod obtained in The Depths Maze for C$750,000.\n\nThis Rod was crafted by the Legendary King of The Depths... Legends say, every once in a while the Spirit of the King visits you to hand you a gift from the deep waters!\nThe Rod Of The Depths is a high-tier rod with moderate Lure Speed and strong Luck, along with solid Control and low Resilience, making it effective for a variety of fish.",
+    "obtainment": "The Depths",
+    "infoboxStats": {
+      "obtainedFrom": "The Depths",
+      "price": "C$750,000",
+      "stage": "6",
+      "location": "Vertigo",
+      "passive": "Every 3 catches, gain another Abyssal fish, with a 10% chance of it being an Enchant Relic \n 30% chance for Abyssal (5.5×)",
+      "maxWeight": "30,000"
+    }
+  },
+  "scarlet-ravager": {
+    "description": "The Scarlet Ravager is a Stage 1 Fishing Rod obtained from DLC codes.\n\nForged in fury, this rod tears through the depths like a blade soaked in blood. [TOY-EXCLUSIVE]\n\nThis rod is an excellent starter rod, but is only obtainable from DLC codes, making it a decent rod if the player is able to purchase it. The rod possesses great Lure, good Luck, decent Resilience and Control stats, and a good passive ability for such a rod obtainable early on in the game.",
+    "obtainment": "DLC codes",
+    "infoboxStats": {
+      "obtainedFrom": "DLC codes",
+      "price": "|stage =",
+      "passive": "+20% Progress Speed",
+      "maxWeight": "125,000"
+    }
+  },
+  "carrot-rod": {
+    "description": "The Carrot Rod is a Stage 4 Fishing Rod obtained from the Carrot Garden for C$75,000.\n\nRich in nutrients!\nThe Carrot Rod is a mid-tier rod with high Lure Speed and strong Luck, along with solid Control and Resilience, making it effective for a wide range of fish. Its Weight allows it to handle moderately heavy catches reliably.",
+    "obtainment": "Carrot Garden",
+    "infoboxStats": {
+      "obtainedFrom": "Carrot Garden",
+      "price": "C$75,000",
+      "stage": "4",
+      "location": "Mushgrove Swamp",
+      "passive": "15% chance for Carrot (5×) \n 10% chance to create a Carrot Pool which lasts 30 seconds and offers 15% for Carrot Mutation for all players nearby.",
+      "maxWeight": "10,000"
+    }
+  },
+  "tempest-rod": {
+    "description": "The Tempest Rod is a Stage 7 Fishing Rod obtained in Atlantis for C$500,000 after Level 80.\n\nBorn from the essence of a perpetual storm, this rod moves faster than the eye can follow. Boosts Progress Speed by 15%.\nThe Tempest Rod is a Stage 7 Fishing Rod built for fast and consistent catching.",
+    "obtainment": "Atlantis",
+    "infoboxStats": {
+      "obtainedFrom": "Atlantis",
+      "price": "C$500,000",
+      "stage": "7",
+      "passive": "+15% Progress Speed",
+      "maxWeight": "80,000"
+    }
+  },
+  "evil-pitchfork": {
+    "description": "The Evil Pitchfork is a Stage 9 Fishing Rod acquired by Crafting.\n\nCursed by the Deep Below, this twisted trident tempts fate with unnatural fortune. 50% chance to gain 5× your fish's base value, occasionally twisting the gain. 25% chance to summon Poseidon's shade, inflicting the Siren's Spite mutation to greatly increase weight.",
+    "obtainment": "Crimson Cavern",
+    "infoboxStats": {
+      "obtainedFrom": "Crimson Cavern",
+      "price": "C$2,500,000",
+      "stage": "9",
+      "location": "Desolate Deep",
+      "passive": "50% chance to gain 500% of caught fish's base value, 30% to lose the same amount \n 25% chance for 100-200% weight buff with Siren's Spite (5×) \n 20% chance for Evil (6.5×) \n 25% chance per fish movement to stab for +6% progress \n +35% Progress Speed"
+    }
+  },
+  "vineweaver-rod": {
+    "description": "The Vineweaver Rod is a Stage 6 Fishing Rod acquired by Crafting.\n\nVines twist across the line, halting prey in its tracks. In the last 30%, the fish is bound, with a 30% chance of gaining a Vined form. [+10% Forced Progress Speed]\nThe Vineweaver Rod is a mid-tier rod designed for handling tougher catches.",
+    "obtainment": "Lost Jungle",
+    "infoboxStats": {
+      "obtainedFrom": "Lost Jungle",
+      "price": "C$150,000",
+      "stage": "6",
+      "passive": "Freezes fish after 70% of progress bar was filled \n30% chance for Vined (3.5×) \n+10% Forced Progress Speed",
+      "maxWeight": "50,000"
+    }
+  },
+  "rose-rend": {
+    "description": "The Rose Rend is a Stage 1 Fishing Rod obtained from DLC codes.\n\nA thorn-kissed weapon that strikes with the elegance & cruelty of a wilting rose. [TOY-EXCLUSIVE]\n\nThis rod is an excellent starter rod, but is only obtainable from DLC codes, making it a decent rod if the player is able to purchase it. The rod possesses great Lure, good Luck, decent Resilience and Control stats, and a good passive ability for such a rod obtainable early on in the game.",
+    "obtainment": "DLC codes",
+    "infoboxStats": {
+      "obtainedFrom": "DLC codes",
+      "price": "|stage =",
+      "passive": "+15% Progress Speed",
+      "maxWeight": "100,000"
+    }
+  },
+  "challenger-s-rod": {
+    "description": "The Challenger's Rod is a Stage 7 Fishing Rod obtained in Challenger's Deep for C$750,000 after reaching Level 110.\n\nAn ice-imbued rod for the most dedicated fishers, boosting Progress Speed by 25%.\nThe Challenger's Rod is a high-tier Fishing Rod built for fast and consistent catching. It offers strong Lure Speed and Luck, supported by moderate Resilience and high Weight.",
+    "obtainment": "Challenger's Deep",
+    "infoboxStats": {
+      "obtainedFrom": "Challenger's Deep",
+      "price": "C$750,000",
+      "stage": "7",
+      "location": "Mariana's Veil",
+      "passive": "+25% Progress Speed",
+      "maxWeight": "200,000"
+    }
+  },
+  "friendly-rod": {
+    "description": "The Friendly Rod is a Stage 4 Fishing Rod obtained from Friend Quest spins at a 1% chance.\n\nMade for friends and good times!\n\nThe Friendly Rod is not recommended for grinding or any serious fishing use unless the player obtains it incredibly early on from a Friend Quest as it is very easily outclassed by other money-focused rods in almost any stage of the game. It is instead recommended to use this rod for its ability to catch Friend Fish, if the player wishes to collect them for novelty or trade value, or simply for the sake of having them as this rod is the only way to catch them.",
+    "obtainment": "Moosewood",
+    "infoboxStats": {
+      "obtainedFrom": "Moosewood",
+      "price": "|stage = 4",
+      "stage": "4",
+      "passive": "10% chance to catch a Friend Fish"
+    }
+  },
+  "no-life-rod": {
+    "description": "The No-Life Rod is a Stage 7 Fishing Rod acquired by reaching Level 500.\n\nFisching 24/7/365. Are you okay?\nThe No-Life Rod is a high-tier Fishing Rod designed for consistent progress and high-value catches.",
+    "obtainment": "Level 500",
+    "infoboxStats": {
+      "obtainedFrom": "Level 500",
+      "price": "|stage = 7",
+      "stage": "7",
+      "passive": "25% chance per fish movement to stab for +6% progress \n 50% chance for Hexed (3×)"
+    }
+  },
+  "merlin-s-staff": {
+    "description": "The Merlin's Staff is a Stage 7 Fishing Rod obtained in Sunstone Island for C$1,000,000.\n\nChannels Merlin's rift-woven magic to trap unsuspecting fish between realms...\nThe Merlin's Staff is a Stage 7 Fishing Rod with a balanced stat profile focused on stability. It offers solid Lure Speed and moderate Luck, supported by strong Resilience and dependable Control.",
+    "obtainment": "Sunstone Island",
+    "infoboxStats": {
+      "obtainedFrom": "Sunstone Island",
+      "price": "C$1,000,000",
+      "stage": "7",
+      "passive": "25% chance for Magical (7.2×)\nWhile the fish is inside the fishing bar:\n1. Control gradually decreases until it reaches -0.2\n2. Gains +30% Progress after Control reaches -0.2\n3. Control is reset to its original value, and the ability goes on a cooldown\nIf the fish gets out of the bar before reaching -0.2 Control, the Control is reset to its original value\nThe ability will restart after the fish is back inside the fishing bar"
+    }
+  },
+  "riptide-rod": {
+    "description": "The Riptide Rod is a Stage 5 Fishing Rod acquired by Crafting.\n\nThe Riptide Rod fills its Tide Meter by 1/3 with each Perfect Catch. At max, it enters 'High Tide' for 5 casts. This will boost \nThe Riptide Rod is a high-tier rod with moderate Lure Speed and strong Luck, along with low Control and modest Resilience, making it effective for catching rare fishes.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$0",
+      "stage": "5",
+      "passive": "After 3 Perfect Catches gain 5 Enhanced Casts granting:\n• 30% chance to hook a higher-rarity fish\n• +25% Lure Speed",
+      "maxWeight": "3,500"
+    }
+  },
+  "luminescent-oath": {
+    "description": "the Fishing Rod\n\nThe Luminescent Oath is a Stage 7 Fishing Rod obtained in Luminescent Cavern for C$1,000,000 after Level 500.\n\nForged from the radiant crystals of the Luminescent Cavern, this blade hums with sealed brilliance; its true power is seemingly forbidden from awakening...\nThe Luminescent Oath is a high-tier Fishing Rod built for players who want strong control and high-value catches. It offers high Lure Speed and solid Luck, supported by modest Control and low Resilience.",
+    "obtainment": "Luminescent Cavern",
+    "infoboxStats": {
+      "obtainedFrom": "Luminescent Cavern",
+      "price": "C$1,000,000",
+      "stage": "7",
+      "location": "Desolate Deep",
+      "passive": "5% chance for slashes that fills up 2% progress every 0.25 second. Chances for slashes increase by 10% every second. \n 15% chance for Luminescent (6.5×) \n 15% chance to fill up 40% of the progress bar instantly \n \n During Perfect Catch : \n The control bar gradually decreases in size, however the progress speed gradually increases by 2% every second. \n 100% chance for Mastered (9×)",
+      "maxWeight": "25,000"
+    }
+  },
+  "lucid-rod": {
+    "description": "The Lucid Rod is a Stage 7 Fishing Rod acquired by Crafting.\n\nA radiant rod that channels the power of dreams, granting the Lucid mutation and rarely cloning catches; particularly under clear skies.\nThe Lucid Rod is a mid-tier rod with balanced stats and a strong emphasis on profit generation. It provides decent Lure Speed and Luck, along with moderate Resilience for stable performance, though its slightly negative Control makes catching fish a bit more challenging compared to similar rods.",
+    "obtainment": "Cultist Lair",
+    "infoboxStats": {
+      "obtainedFrom": "Cultist Lair",
+      "price": "C$80,000",
+      "stage": "7",
+      "location": "Terrapin Island",
+      "passive": "20% chance for Lucid (3.5x) and to dupe fish caught.\n+10% Progress Speed\n\nDuring Clear Weather:\n• Increases Lucid chance to 30% and provides an additional dupe.",
+      "maxWeight": "500,000"
+    }
+  },
+  "volcanic-rod": {
+    "description": "The Volcanic Rod is a Stage 5 Fishing Rod obtained in Volcanic Vents for C$250,000.\n\nA rod forged in the heart of molten fury, granting a 25% chance for the Ashen Fortune mutation.\nThe Volcanic Rod is a high-tier rod with moderate Lure Speed and strong Luck, along with solid Control and modest Resilience, making it effective for catching a variety of fish. Its Weight allows it to handle very heavy catches reliably.",
+    "obtainment": "Volcanic Vents",
+    "infoboxStats": {
+      "obtainedFrom": "Volcanic Vents",
+      "price": "C$250,000",
+      "stage": "5",
+      "location": "Mariana's Veil",
+      "passive": "25% chance for Ashen Fortune (5×)",
+      "maxWeight": "50,000",
+      "durability": "100"
+    }
+  },
+  "abyssal-specter-rod": {
+    "description": "The Abyssal Specter Rod is a Stage 7 Fishing Rod obtained in Atlantis for C$850,000 after reaching Level 170.\n\nForged in the darkest depths of the ocean's trenches, this spectral rod radiates an otherworldly strength. Its phantom line reaches impossible depths, while its ghostly power grants the ability to haul in catches that would snap lesser rods. All fish are 20% larger, & have a 25% chance to be Abyssal.",
+    "obtainment": "Atlantis",
+    "infoboxStats": {
+      "obtainedFrom": "Atlantis",
+      "price": "C$850,000",
+      "stage": "7",
+      "passive": "+20% weight buff to all fish caught \n 25% chance for Abyssal (5.5×)"
+    }
+  },
+  "the-lost-rod": {
+    "description": "The Lost Rod is a Stage 6 Fishing Rod acquired by Crafting.\n\nAfter a Perfect Catch, there is a 36% chance for next catch to become Lost.\nThe Lost Rod is a balanced high-tier rod with moderate Lure Speed and solid Luck, supported by good Control and Resilience. Its Weight capacity allows it to handle a wide range of medium-to-heavy fish reliably, making it useful across many fishing locations.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$0",
+      "stage": "6",
+      "passive": "36% chance for Lost (4.5×) after a perfect catch",
+      "maxWeight": "55,000"
+    }
+  },
+  "zeus-rod": {
+    "description": "The Zeus Rod is a Stage 7 Fishing Rod obtained in Atlantis for C$850,000 after Level 150.\n\nForged in the heart of Mount Olympus, this divine rod crackles with Zeus's lightning. Its power grants the ability to command storms, with a 90% chance to inflict the Electric Shock mutation on fish; all others are Charred.\nThe Zeus Rod is a high-tier Fishing Rod focused on chance-based value generation.",
+    "obtainment": "Atlantis",
+    "infoboxStats": {
+      "obtainedFrom": "Atlantis",
+      "price": "C$850,000",
+      "stage": "7",
+      "passive": "Each catch has a 20% chance for a thunderstorm, that lasts 2 minutes. \n\n Catches inside it provide: \n• +175 Luck (total 265 Luck); \n• 90% chance for Electric Shock (3.5×); \n• 10% chance for Charred (0.5×)",
+      "maxWeight": "65,000"
+    }
+  },
+  "kings-rod": {
+    "description": "The Kings Rod is a Stage 4 Fishing Rod obtained at the Keepers Altar for C$100,000.\n\nAll fish caught are 30% bigger.\nThe Kings Rod is a mid-tier rod with moderate Lure Speed and high Luck, along with solid Control and Resilience, allowing it to handle a wide range of fish reliably. Its Weight is unlimited, making it suitable for catching the heaviest fish without restriction.",
+    "obtainment": "Keepers Altar",
+    "infoboxStats": {
+      "obtainedFrom": "Keepers Altar",
+      "price": "C$100,000",
+      "stage": "4",
+      "passive": "+30% weight buff to all fish caught"
+    }
+  },
+  "voyager-rod": {
+    "description": "The Voyager Rod is a Stage 5 Fishing Rod acquired by Crafting.\n\nA rod forged by an ancient civilization, capable of mass destruction. All fish have a 35% chance to be fossilized. [Lasers fish with an orbital cannon]\nThe Voyager Rod is a high-tier rod with moderate Lure Speed and strong Luck, along with low Control and solid Resilience, making it effective for a variety of fish.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$0",
+      "stage": "5",
+      "passive": "Laser that fills up 20% progress \n 35% chance for Fossilized (3.3×)",
+      "maxWeight": "300,000"
+    }
+  },
+  "long-rod": {
+    "description": "Not to be confused with Long, an Enchantment for increasing line distance.\n\nThe Long Rod is a Stage 1 Fishing Rod obtained in Moosewood for C$3,000.\n\nNot the strongest, but it’s sure the longest! Is this really needed?",
+    "obtainment": "Moosewood",
+    "infoboxStats": {
+      "obtainedFrom": "Moosewood",
+      "price": "C$3,000",
+      "stage": "1",
+      "maxWeight": "250"
+    }
+  },
+  "phoenix-rod": {
+    "description": "The Phoenix Rod is a Stage 3 Fishing Rod obtained in Ancient Isles for C$50,000.\n\nEmbued with the spirit of the graceful Phoenix. All fish have a 40% chance to be set ablaze.\nThe Phoenix Rod is a mid-game rod with moderate Lure Speed and high Luck, making it effective for catching rarer fish.",
+    "obtainment": "Ancient Isle",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Isle",
+      "price": "C$50,000",
+      "stage": "3",
+      "passive": "40% chance for Scorched (3×)\n10% chance for Solarblaze (3×)",
+      "maxWeight": "8,000"
+    }
+  },
+  "wisdom-rod": {
+    "description": "The Wisdom Rod is a Stage 5 Fishing Rod acquired by Crafting.\n\nA mystical rod that rewards skilled fishers, granting a stackable 5% XP bonus for every perfect catch in a row up to 80%.\nThe Wisdom Rod is a high-tier rod with moderate Lure Speed and strong Luck, along with slightly negative Control and high Resilience, making it effective for handling active fish. Its Weight allows it to catch moderately heavy fish reliably.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$0",
+      "stage": "5",
+      "passive": "+5% XP for every perfect catch streak \n -10% XP for every perfect catch failed \n Capping at +80%, cant go below 0%",
+      "maxWeight": "2,000"
+    }
+  },
+  "midas-rod": {
+    "description": "the fishing rod\n\nThe Midas Rod is a Stage 3 Fishing Rod obtained from the Travelling Merchant for C$55,000.\n\nBlessed with the power of Midas. All caught fish will be golden\nThe Midas Rod has relatively lackluster stats, but has a passive ability for a 100% chance to catch a fish with the Midas Mutation, which doubles their sell value. Its best suited for fishing in areas with easier to catch fish unless enchanted due to its decreased resilience.",
+    "obtainment": "Ocean",
+    "infoboxStats": {
+      "obtainedFrom": "Ocean",
+      "price": "C$55,000",
+      "stage": "3",
+      "passive": "All fish caught are Midas (2.5×)",
+      "maxWeight": "4,000"
+    }
+  },
+  "wildflower-rod": {
+    "description": "The Wildflower Rod is a Stage 3 Fishing Rod obtained in Terrapin Island for C$40,000.\n\nEntwined with blooming vines and the essence of the wild. Fish drawn to nature will find it hard to resist.\n\nThe Wildflower Rod is the one of the cheapest rods with a mutation that can be purchased in the First Sea.",
+    "obtainment": "Terrapin Island",
+    "infoboxStats": {
+      "obtainedFrom": "Terrapin Island",
+      "price": "C$40,000",
+      "stage": "3",
+      "passive": "30% chance to catch Mother Nature (3× Value)",
+      "maxWeight": "700"
+    }
+  },
+  "brick-rod": {
+    "description": "The Brick Rod is a Stage 4 Fishing Rod obtained by completing an elaborate set of puzzles.\n\nWait.. it's real?\nThe Brick Rod has decent Luck, alongside very high Resilience and Control.",
+    "obtainment": "Minish",
+    "infoboxStats": {
+      "obtainedFrom": "Minish",
+      "price": "C$13,337",
+      "stage": "4",
+      "passive": "100% chance for Studded (1.8×)"
+    }
+  },
+  "summit-rod": {
+    "description": "The Summit Rod is a Stage 5 Fishing Rod obtained in Cryogenic Canal for C$500,000.\n\nA refined rod with snow-white highlights and shimmering blue effects, boosts Progress Speed by 10%. Has a 40% chance for fish to be Frozen, 20% chance for Sleet, & a 15% chance for Blighted.\nThe Summit Rod is a good mid-game rod.",
+    "obtainment": "Cryogenic Canal",
+    "infoboxStats": {
+      "obtainedFrom": "Cryogenic Canal",
+      "price": "C$500,000",
+      "stage": "5",
+      "location": "Northern Expedition",
+      "passive": "+10% Progress Speed \n 40% chance for Frozen (1.5×) \n 20% chance for Sleet (2.4×) \n 15% chance for Blighted (3×)",
+      "maxWeight": "200,000"
+    }
+  },
+  "nico-s-yarncaster": {
+    "description": "The Nico's Yarncaster is a Stage 6 Fishing Rod obtained from Crazy Cat Lady.\n\na kitty who trots by your side and sneakily snags extra fish when you're not looking! [extra power with clownfish cat toy!]\nNico's Yarncaster is a Stage 6 fishing rod that features unique passives.",
+    "obtainment": "Crystal Cove",
+    "infoboxStats": {
+      "obtainedFrom": "Crystal Cove",
+      "price": "|stage = 6",
+      "stage": "6",
+      "location": "Vertigo",
+      "passive": "30% chance for Skrunkly (2.5x)\nEvery 60s while idle, 33% chance for Nico the cat to give a Nico's Nyantics (5x) fish with a size equal to its base weight + minimum weight. \n\nIf Clownfish Cat Toy is equipped:\n30% chance for Nico's Nyantics (5x)",
+      "maxWeight": "10,000"
+    }
+  },
+  "nocturnal-rod": {
+    "description": "The Nocturnal Rod is a Stage 2 Fishing Rod obtained in Vertigo for C$11,000.\n\nSeems to wake up fish just by throwing the bobber in!-- Can catch nocturnal and diurnal fish at any time!\nThe Nocturnal Rod is an early-game rod with moderate Lure Speed and higher-than-average Luck for its tier.",
+    "obtainment": "Vertigo",
+    "infoboxStats": {
+      "obtainedFrom": "Vertigo",
+      "price": "C$11,000",
+      "stage": "2",
+      "passive": "Removes time preference Luck penalty",
+      "maxWeight": "10,000"
+    }
+  },
+  "depthseeker-rod": {
+    "description": "The Depthseeker Rod is a Stage 3 Fishing Rod obtained in Atlantis for C$40,000.\n\nEngineered with deep-sea technology, this resilient rod thrives in challenging conditions.\nThe Depthseeker Rod is a mid-game rod with moderate Lure Speed and Luck, along with solid Control and Resilience for its tier, allowing it to handle larger and more active fish reliably. Its high Weight lets it catch significantly heavier fish than earlier rods.",
+    "obtainment": "Atlantis",
+    "infoboxStats": {
+      "obtainedFrom": "Atlantis",
+      "price": "C$40,000",
+      "stage": "3",
+      "passive": "+5% Progress Speed",
+      "maxWeight": "70,000"
+    }
+  },
+  "seasons-rod": {
+    "description": "The Seasons Rod is a Stage 5 Fishing Rod acquired by Crafting.\n\nBoosts fish luck by 40% for the current season. It also has a 50% chance to grant a \"Seasonal\" mutation that changes the fish's colors based on the season it was caught. \n\nSeasonal Mutation Buffs -&gt; Spring: 4.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$0",
+      "stage": "5",
+      "passive": "Depending on current Season, receive the following: \n +40% luck for fish preferring current season \n 50% chance for Seasonal Mutation: \n Spring: 3.5× Value \n Summer: +25% Size \n Autumn: 4× Value \n Winter: 2.5× Value",
+      "maxWeight": "8,000"
+    }
+  },
+  "avalanche-rod": {
+    "description": "The Avalanche Rod is a Stage 3 Fishing Rod obtained in Frigid Cavern for C$35,000.\n\nA sleek rod with an icy blue spiral design and glowing blue accents, has a 25% chance for fish to be covered in Sleet.\n\nThe Avalanche Rod boasts similar stats when compared to the Depthseeker Rod and can be an alright alternative to it but it is still recommended to purchased the Depthseeker Rod due to it having more Resilience for a slightly higher price.\n\nThe rod includes a 25% chance to apply the Sleet Mutation.",
+    "obtainment": "Frigid Cavern",
+    "infoboxStats": {
+      "obtainedFrom": "Frigid Cavern",
+      "price": "C$35,000",
+      "stage": "3",
+      "location": "Northern Expedition",
+      "passive": "25% chance for Sleet (2.4×)",
+      "maxWeight": "65,000"
+    }
+  },
+  "reinforced-rod": {
+    "description": "The Reinforced Rod is a Stage 3 Fishing Rod obtained from the small cave in Desolate Deep for C$20,000.\n\nCrafted by a metal stronger than diamond, making it capable of fishing in any harmful liquid\nThe Reinforced Rod has unremarkable stats, only notable for its ability to fish in both the Brine Pool and Roslit Volcano. This makes it a necessary purchase for any players determined to explore these hazardous areas and fill their bestiary. It is not advisable to use outside of these areas due to its low stats.",
+    "obtainment": "Desolate Deep",
+    "infoboxStats": {
+      "obtainedFrom": "Desolate Deep",
+      "price": "C$20,000",
+      "stage": "3",
+      "durability": "200"
+    }
+  },
+  "champions-rod": {
+    "description": "The Champions Rod is a Stage 4 Fishing Rod obtained in Atlantis for C$90,000.\n\nWielded by legendary tournament winners, this balanced rod embodies competitive excellence.\nThe Champions Rod offers strong overall stats for its price, and is often recommended for users having difficulty catching higher-rarity fish.\n\nHowever, due to a lack of any passive to assist in profitability, this rod generally shouldn't be used for optimal C$C$ farming.",
+    "obtainment": "Atlantis",
+    "infoboxStats": {
+      "obtainedFrom": "Atlantis",
+      "price": "C$90,000",
+      "stage": "4",
+      "maxWeight": "100,000"
+    }
+  },
+  "aurora-rod": {
+    "description": "the rod\n\nThe Aurora Rod is a unique Stage 4 Fishing Rod obtained in Vertigo for C$70,000 during an Aurora Borealis.\n\nEnhanced by the Aurora Borealis' energy. All fish have a 15% chance to have the Aurora mutation. Chances increase to 30% during Aurora Borealis.",
+    "obtainment": "Vertigo",
+    "infoboxStats": {
+      "obtainedFrom": "Vertigo",
+      "price": "C$70,000",
+      "stage": "4",
+      "passive": "15% chance for Aurora (6.5×) \n 30% chance for Aurora during Aurora Borealis",
+      "maxWeight": "6,000"
+    }
+  },
+  "mythical-rod": {
+    "description": "the Fishing Rod\n\nThe Mythical Rod is a Stage 4 Fishing Rod obtained from the Travelling Merchant for C$90,000.\n\nBlessed with the power of The Keepers. All fish have a 30% chance to be rainbow.\nThe Mythical Rod is a mid-tier rod with moderate Lure Speed and Luck, along with low Control and modest Resilience, making it suitable for handling light to medium fish.",
+    "obtainment": "Ocean",
+    "infoboxStats": {
+      "obtainedFrom": "Ocean",
+      "price": "C$90,000",
+      "stage": "4",
+      "passive": "30% chance for Mythical (5.5×)",
+      "maxWeight": "2,500"
+    }
+  },
+  "ice-warpers-rod": {
+    "description": "The Ice Warpers Rod is a Stage 4 Fishing Rod obtained in Frigid Cavern for C$65,000 after completing the Levers Puzzle.\n\nA frost-themed rod with glowing blue accents and icy particle effects. Has a 25% chance to mutate fish with Blighted.\n\nAn overall decent rod with high lure speeds and resilience, with a good passive ability to come with this rod.",
+    "obtainment": "Frigid Cavern",
+    "infoboxStats": {
+      "obtainedFrom": "Frigid Cavern",
+      "price": "C$65,000",
+      "stage": "4",
+      "location": "Northern Expedition",
+      "passive": "25% chance for Blighted (3×)",
+      "maxWeight": "75,000"
+    }
+  },
+  "resourceful-rod": {
+    "description": "The Resourceful Rod is a Stage 5 Fishing Rod acquired by Crafting.\n\nDoubles the effects of all bait, and has a 60% chance to not consume bait, increasing the efficiency of every catch.\nThe Resourceful Rod is a mid-tier rod with low Lure Speed and moderate Luck, along with slightly negative Control and low Resilience, making it less effective for handling active or heavy fish. Its Weight is limited, restricting it to lighter catches.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$0",
+      "stage": "5",
+      "passive": "Doubles the effect of all Bait \n 60% chance to not consume Bait",
+      "maxWeight": "1,000"
+    }
+  },
+  "celestial-rod": {
+    "description": "the fishing rod\n\nThe Celestial Rod is a Stage 8 Fishing Rod acquired by Crafting.\n\nAfter catching 15 fish, summon Celestial powers for 2 minutes, boosting +100% luck, +60% lure speed. Caught fish also get the Celestial mutation & +50% XP on them!\nThe Celestial Rod is a high-tier Fishing Rod that offers a balanced stat spread with moderate Lure Speed, Luck, and Control, supported by solid Resilience and a high Weight capacity.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$0",
+      "stage": "8",
+      "passive": "For 2 minutes after 15 fish are caught:\n• +60% Lure Speed\n• +100% Luck\n• 100% chance for Celestial (4×)\n• +50% XP",
+      "maxWeight": "350,000"
+    }
+  },
+  "magma-rod": {
+    "description": "The Magma Rod is a Stage 2 Fishing Rod obtained by completing Orc's Quest in Roslit Bay.\n\nHot to the touch. Engulfed with constantly burning passion to fish. [Capable of fishing in lava, 5% chance for fish to become mutated with Ashen Fortune]\nThe Magma Rod is an early-game rod with moderate Lure Speed and Luck, along with solid Control for its tier, making it easier to maintain progress during catches than most Stage 2 options.",
+    "obtainment": "Roslit Volcano",
+    "infoboxStats": {
+      "obtainedFrom": "Roslit Volcano",
+      "price": "|stage = 2",
+      "stage": "2",
+      "location": "Roslit Bay",
+      "passive": "35% chance for Ember (3×)",
+      "maxWeight": "1,200",
+      "durability": "100"
+    }
+  },
+  "scurvy-rod": {
+    "description": "The Scurvy Rod is a Stage 3 Fishing Rod obtained in Forsaken Shores for C$40,000.\n\nThis rod has been on every pirate ship imaginable. Decent at everything, bad at nothing. Just like a pirate should!",
+    "obtainment": "Forsaken Shores",
+    "infoboxStats": {
+      "obtainedFrom": "Forsaken Shores",
+      "price": "C$40,000",
+      "stage": "3",
+      "passive": "15% chance for Greedy (5×)",
+      "maxWeight": "2,000"
+    }
+  },
+  "eidolon-rod": {
+    "description": "The Eidolon Rod is a Stage 9 Fishing Rod obtained from The Sanctum after Level 350.\n\nA spectral rod infused with phantom energy, hastening progress and drawing forth the Phantom mutation; even completing your catch as reality begins to fade...\nThe Eidolon Rod is a top-tier Fishing Rod with very high Lure Speed and solid Control, but low Luck and minimal Resilience. Its infinite Weight allows it to handle the largest and most difficult fish without limitation, making it suitable for late-game catches.",
+    "obtainment": "Cultist Lair",
+    "infoboxStats": {
+      "obtainedFrom": "Cultist Lair",
+      "price": "C$2,000,000",
+      "stage": "9",
+      "location": "Terrapin Island",
+      "passive": "35% chance for Phantom (4.5×)\n +40% Progress Speed\nAfter reaching 70% Progress:\n• Sets Progress Speed to +666%\n• Sets Control to 0.7"
+    }
+  },
+  "rapid-rod": {
+    "description": "The Rapid Rod is a Stage 2 Fishing Rod obtained in Roslit Bay for C$12,000.\n\nExtremely fast rod that catches fish at record speeds! -it even has racing wings!\nThe Rapid Rod is an early-game rod with high Lure Speed and moderate Luck, making it well-suited for quickly hooking fish.",
+    "obtainment": "Roslit Bay",
+    "infoboxStats": {
+      "obtainedFrom": "Roslit Bay",
+      "price": "C$12,000",
+      "stage": "2",
+      "maxWeight": "800"
+    }
+  },
+  "fungal-rod": {
+    "description": "The Fungal Rod is a Stage 2 Fishing Rod obtained by completing Agaric's quest in Mushgrove Swamp.\n\nHas a 30% chance for fish to be Fungal, & a 70% chance for the rod to sprout suspicious spores, giving you Luck X for 45 seconds! Prettyy funky!\nThe Fungal Rod is an early-game rod with modest stats suited for introductory fishing.",
+    "obtainment": "Mushgrove Swamp",
+    "infoboxStats": {
+      "obtainedFrom": "Mushgrove Swamp",
+      "stage": "2",
+      "passive": "70% chance to give 45s of +50% Luck after a catch \n 30% chance for Fungal (4×)",
+      "maxWeight": "200"
+    }
+  },
+  "arctic-rod": {
+    "description": "The Arctic Rod is a Stage 3 Fishing Rod obtained in Overgrowth Caves for C$25,000.\n\nA white rod with frost effects and a cool blue glow, all fish become Frozen.\nThe Arctic Rod is an early game rod with fairly decent stats. However, it is recommended to buy the Depthseeker Rod, as it has vastly superior stats, for a slightly higher price.",
+    "obtainment": "Overgrowth Caves",
+    "infoboxStats": {
+      "obtainedFrom": "Overgrowth Caves",
+      "price": "C$25,000",
+      "stage": "3",
+      "location": "Northern Expedition",
+      "passive": "All fish caught are Frozen (1.5×)",
+      "maxWeight": "7,500"
+    }
+  },
+  "crystalized-rod": {
+    "description": "the fishing rod\n\nThe Crystalized Rod is a Stage 3 Fishing Rod obtained in Overgrowth Caves for C$35,000 after completing the Diamond Puzzle.\n\nA luminous rod with a bright yellow glow and crystal-like effects. Has a 20% chance to Crystalize fish.\n\nThe Crystalized Rod is a fairly good fishing rod targeted to newer players.",
+    "obtainment": "Overgrowth Caves",
+    "infoboxStats": {
+      "obtainedFrom": "Overgrowth Caves",
+      "price": "C$35,000",
+      "stage": "3",
+      "location": "Northern Expedition",
+      "passive": "20% chance for Crystalized (3.5×)",
+      "maxWeight": "25,000"
+    }
+  },
+  "auric-rod": {
+    "description": "The Auric Rod is a Stage 6 Fishing Rod obtained from Sunken Chests.\n\nA rod forged with many valuable gemstones. Fish caught with this rod have a random sell value between 2-4x\nAll fish caught with the Auric Rod are guaranteed to have one of the following mutations, each with an equal chance of 20% being applied:\n- Aurous (1.5×)\n- Aurelian (2×)\n- Aureate (2.",
+    "obtainment": "Ocean",
+    "infoboxStats": {
+      "obtainedFrom": "Ocean",
+      "price": "|stage = 6",
+      "stage": "6",
+      "passive": "All fish caught will be one of following, with an equal 20% chance for each: \n Aurous (1.5×) \n Aurelian (2×) \n Aureate (2.5×) \n Aurulent (3×) \n Aureolin (3.5×)",
+      "maxWeight": "25,000"
+    }
+  },
+  "stone-rod": {
+    "description": "The Stone Rod is a Stage 1 Fishing Rod obtained in Ancient Isle for C$2,000.\n\nA rock-hard rod made purely from stone, which also makes it quite heavy.\nThe Stone Rod is a Stage 1 Fishing Rod with a focus on control and durability. It offers slightly negative Lure Speed but compensates with high Control and moderate Luck, making it easier to manage fish during the catch.",
+    "obtainment": "Ancient Isle",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Isle",
+      "price": "C$2,000",
+      "stage": "1",
+      "maxWeight": "50,000"
+    }
+  },
+  "steady-rod": {
+    "description": "the fishing rod\n\nThe Steady Rod is a Stage 2 Fishing Rod obtained in Roslit Bay for C$7,000.\n\nInsanely stiff and strong. Can withstand immense pressure and tension. - Increases shake UI size.",
+    "obtainment": "Roslit Bay",
+    "infoboxStats": {
+      "obtainedFrom": "Roslit Bay",
+      "price": "C$7,000",
+      "stage": "2",
+      "passive": "Increases shake button size",
+      "maxWeight": "250,000"
+    }
+  },
+  "carbon-rod": {
+    "description": "The Carbon Rod is a Stage 1 Fishing Rod obtained in Moosewood for C$2,000.\n\nStiff, strong, and easier to handle than other rods out there, however it is slightly shorter.\nThe Carbon Rod is a well-rounded Stage 1 Fishing Rod that provides a noticeable upgrade from the early-game options. It offers moderate improvements to Lure Speed and Luck, making it a reliable pick for players who want more consistent catch rates without major drawbacks.",
+    "obtainment": "Moosewood",
+    "infoboxStats": {
+      "obtainedFrom": "Moosewood",
+      "price": "C$2,000",
+      "stage": "1",
+      "maxWeight": "600"
+    }
+  },
+  "spiritbinder": {
+    "description": "The Spiritbinder is a Stage 9 Fishing Rod obtained from Crafting.\n\nSpirits occasionally leave fish behind... Their presence subtly draws high-rarity fish closer...\nThe Spiritbinder is a high-tier Fishing Rod with solid Lure Speed and minimal Control, complemented by moderate Resilience and substantial Weight.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$500,000",
+      "stage": "9",
+      "passive": "25% chance for Spirit (5.2×) \n 5% chance to gain the highest rarity fish from current pool with Spirit Mutation \n Every 60 seconds gain random fish from current pool with Spirit Mutation",
+      "maxWeight": "150,000"
+    }
+  },
+  "plastic-rod": {
+    "description": "The Plastic Rod is a Stage 1 Fishing Rod obtained in Moosewood for C$750.\n\nMade of ABS plastic; You can trust this rod will last you.\nThe Plastic Rod is a Stage 1 Fishing Rod that offers a modest step up from early-game options. With a small increase to Lure Speed and Luck, it provides noticeably faster hook times and a slightly higher chance of catching valuable fish.",
+    "obtainment": "Moosewood",
+    "infoboxStats": {
+      "obtainedFrom": "Moosewood",
+      "price": "C$750",
+      "stage": "1",
+      "maxWeight": "100"
+    }
+  },
+  "fischer-s-rod": {
+    "description": "The Fischer's Rod is a Stage 1 Fishing Rod obtained from the Starter Pack for 99 Robux.\n\nA fischer's starter rod to get started with Fisching! What else would you do with this?..\nThe Fischer’s Rod is a Stage 1 Fishing Rod obtained from the Starter Pack.",
+    "obtainment": "Starter Pack",
+    "infoboxStats": {
+      "obtainedFrom": "Starter Pack",
+      "price": "99 Robux",
+      "maxWeight": "100"
+    }
+  },
+  "fast-rod": {
+    "description": "The Fast Rod is a Stage 1 Fishing Rod obtained in Moosewood for C$4,000.\n\nQuick rod that seems to catch fish in a fly! You can tell it’s fast from the racing stripes.\nThe Fast Rod is a Stage 1 Fishing Rod built around extremely high Lure Speed, making it one of the quickest early-game rods for getting bites.",
+    "obtainment": "Moosewood",
+    "infoboxStats": {
+      "obtainedFrom": "Moosewood",
+      "price": "C$4,000",
+      "stage": "1",
+      "maxWeight": "175"
+    }
+  },
+  "flimsy-rod": {
+    "description": "The Flimsy Rod is a Stage 1 Fishing Rod obtained at the start of the game.\n\nQuite the weak and unreliable rod. But, it can get the job done!\nThe Flimsy Rod is the starter rod given to every new player upon beginning the game.",
+    "obtainment": "Moosewood",
+    "infoboxStats": {
+      "obtainedFrom": "Moosewood",
+      "price": "C$0",
+      "stage": "1",
+      "maxWeight": "10"
+    }
+  },
+  "magnet-rod": {
+    "description": "The Magnet Rod is a Stage 2 Fishing Rod obtained on Terrapin Island for C$15,000.\n\nThis rod has an advanced magnetic field, allowing it to quickly attract crates and loot.\nThe Magnet Rod is a unique fishing rod which specialises in collecting Crates rather than fish thanks to its passive effect. Attracting a fish is still possible, but is exceptionally rare.",
+    "obtainment": "Terrapin Island",
+    "infoboxStats": {
+      "obtainedFrom": "Terrapin Island",
+      "price": "C$15,000",
+      "stage": "2",
+      "passive": "Greatly increases chances for catching Crates.",
+      "maxWeight": "10,000"
+    }
+  },
+  "the-boom-ball": {
+    "description": "The Boom Ball is a Stage 6 Fishing Rod obtained from a hidden sub-location in Desolate Deep.\n\nhow could this possibly be a good idea?\nThe Boom Ball is an unusual rod with no Lure Speed or Luck, but extremely high Control and heavily negative Resilience, giving it very fast movement but almost no stability. Its Weight capacity is extremely high, allowing it to reel in even the absolute heaviest fish without restriction.",
+    "obtainment": "Desolate Deep",
+    "infoboxStats": {
+      "obtainedFrom": "Desolate Deep",
+      "price": "C$50,000",
+      "stage": "6",
+      "passive": "50% chance for Exploded (0.1×) with +100% Progress Speed",
+      "maxWeight": "500,000,000"
+    }
+  },
+  "jinglestar-rod": {
+    "description": "fishing rod\nFischmas2025.png\n\nThe Jinglestar Rod is a Stage 1 Fishing Rod obtained from the Fischmas (2025) Advent Calendar during the Fischmas (2025) event.\n\nOnly obtainable during Fischmas; A legendary rod of starlight and bells, its full strength will return when real Christmas magic awakens...\nThe Jinglestar Rod is a fishing rod with extremely high overall stats for progression.",
+    "obtainment": "Advent Calendar",
+    "infoboxStats": {
+      "obtainedFrom": "Advent Calendar",
+      "stage": "1",
+      "passive": "25% chance for Jingle Bell (8×)\n +25% Progress Speed\n While fishing, there will be a visible Bell with a ring counter above it:\n• The ring counter always starts at 0\n• An input from the player will ring the Bell once, increasing the ring counter\n• The player must ring the Bell 10 times in a row with the correct timing\n\nIf the player succeeds:\n• +20% Progress\n\n• The ability goes on a 2 second cooldown\n(If the player fails, the ring counter will reset to 0)"
+    }
+  },
+  "christmas-tree-rod": {
+    "description": "fishing rod\nFischmas2025.png\n\nThe Christmas Tree Rod is a Stage 1 Fishing Rod obtained from the Advent Calendar during the Fischmas (2025) event.\n\nOnly obtainable during Fischmas; A festively lit tree repurposed as a rod! All fish have a 25% chance to be Merry.",
+    "obtainment": "Advent Calendar",
+    "infoboxStats": {
+      "obtainedFrom": "Advent Calendar",
+      "stage": "1",
+      "location": "Moosewood",
+      "passive": "25% chance for Merry (5×)"
+    }
+  },
+  "cornucopia-rod": {
+    "description": "fishing rod\nFischgiving 2025.png\n\nThe Cornucopia Rod is a Stage 7 Fishing Rod obtained from completing the Pilgrim questline during the Fischgiving (2025) event.\n\nOnly obtainable during Fischgiving: A bountiful horn-of-plenty rod that spills Fischgiving treats onto fish, making them easy pickings!\nThe Cornucopia Rod is a Stage 7 fishing rod that offers a balanced spread of stats, featuring strong Lure Speed, solid Luck, dependable Control, and high Resilience.",
+    "obtainment": "Pilgrim",
+    "infoboxStats": {
+      "obtainedFrom": "Pilgrim",
+      "stage": "7",
+      "location": "Moosewood",
+      "passive": "10% chance for Gravy (6×)\n Drops a random piece of food on the fish every 2-3s, each giving +10% progress",
+      "maxWeight": "250,000"
+    }
+  },
+  "bat-whisperer-rod": {
+    "description": "fishing rod\nFischFright2025.png\n\nThe Bat Whisperer Rod is a Stage 6 Fishing Rod that was purchasable in FischFright 2 for 10,000.\n\nOnly obtainable during FischFright; A cursed rod that summons swarms of bats to snatch fish from under the water; their numbers multiplying under unknown conditions…\n\nThe Bat Whisperer Rod is a high-end rod that with strong Lure Speed and Luck, with moderate Control and Resilience. Its passive allows the player to catch additional fish at a high frequency with a guaranteed mutation, making it a strong rod for money making.",
+    "obtainment": "Flying Dutchman (NPC)",
+    "infoboxStats": {
+      "obtainedFrom": "Flying Dutchman (NPC)",
+      "price": "10,000",
+      "stage": "6",
+      "location": "Crook’s Hallow",
+      "passive": "+10% Progress Speed \n 1 Bat is always present \n +1 Bat during Night \n +1 Bat for 15 seconds after a catch \n For each Bat, receive a Batty (2.5×) random fish from the last pool the player fished in every 30 seconds",
+      "maxWeight": "200,000"
+    }
+  },
+  "dusekkar-rod": {
+    "description": "fishing rod\nFischFright2025.png\n\nThe Dusekkar Rod is a Stage 7 Fishing Rod that was purchasable in FischFright 2 for 25,000.\n\nOnly obtainable during FischFright; Haunted by the fireless spirit of Matt Dusek; this rod is haunted with a spectral blaze...\nThe Dusekkar Rod is a great all-rounder rod most notable for its great money-making techniques and overall great stats.",
+    "obtainment": "Flying Dutchman (NPC)",
+    "infoboxStats": {
+      "obtainedFrom": "Flying Dutchman (NPC)",
+      "price": "25,000",
+      "stage": "7",
+      "location": "Crook’s Hallow",
+      "passive": "+25% Progress Speed\n20% chance for Nightmare (8.8x)\n12% chance per fish movement to stab for +20% progress",
+      "maxWeight": "700,000"
+    }
+  },
+  "jack-o-blazer": {
+    "description": "fishing rod\nFischFright2025.png\n\nThe Jack-o-Blazer is a Stage 6 Fishing Rod obtained from doing Headless Horseman's quest line.\n\nOnly obtainable during FischFright: A flame-engulfed rod wreathed in Halloween-spirit, launching blazing jack-o-lanterns that explode on impact; incinerating the waters and anything daring to swim within!\n\nThe Jack-o-Blazer is overall a fantastic fishing rod that is capable of catching almost all fish in the game with relative ease.",
+    "obtainment": "Crook's Hallow",
+    "infoboxStats": {
+      "obtainedFrom": "Crook's Hallow",
+      "price": "|stage = 6",
+      "stage": "6",
+      "passive": "+15% Progress Speed\n 20% chance for Wicked (6.6x)\n 2% chance for Jack's Curse (8.5x)\n Every 1 second Jack-o-Lanterns fall, increasing Progress by +8%"
+    }
+  },
+  "necrotic-rod": {
+    "description": "fishing rod\nFischFright2025.png\n\nThe Necrotic Rod is a Stage 8 Fishing Rod acquired by Crafting during FischFright 2.\n\nOnly obtainable during FischFright; A rod infused with necrotic energy that saps the life from its prey; reeling in fish as their vitality withers away.\n(To be added.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$660,000",
+      "stage": "8",
+      "passive": "+13% Progress Speed \n 30% chance for Necrotic (7.4x) \n Every 2 seconds whilst reeling a fish: \n• Reduces Control by 10% of its current value\n• Increases Progress Speed by 10% of its current value, increased by 100%\n• Increases Resilience by 10%",
+      "maxWeight": "400,000"
+    }
+  },
+  "spooky-rod": {
+    "description": "fishing rod\nFischFright2025.png\n\nThe Spooky Rod is a Stage 4 Event-exclusive Fishing Rod obtained during FischFright 2025.\n\n(Only obtainable during FischFright; The rod is cursed the constant energy of FischFright, allowing it to catch FischFright mutations all year round.)\n\n0.",
+    "obtainment": "Crook's Hallow",
+    "infoboxStats": {
+      "obtainedFrom": "Crook's Hallow",
+      "price": "|stage = 4",
+      "stage": "4",
+      "passive": "+5% Progress Speed \n 10% chance for Frightful (6×) \n 10% chance for Spooky (6×) \n 10% chance for Eerie (6×) \n Every 1 second 50% chance to gain +4% Progress and freeze the fish for 1 second",
+      "maxWeight": "150,000"
+    }
+  },
+  "vinefang-rod": {
+    "description": "fishing rod\n\nThe Vinefang Rod is a Fishing Rod obtained as a reward from the Jungle's Echo Bone Hunt.\n\nOnly obtainable during Jungle's Echo Bone Hunt; \nA fragile rod of bone and vine, hiding absurd, untamed power that awakens only in the Jungle.\n\nThe Vinefang Rod is Rod Of The Forgotten Fang's weaker, limited-time counterpart. This rod trades its Control and Resilience for a stab ability that differs from the traditional stabs like the Trident Rod's stabs, where instead of relying on fish movement, it rolls a 15% chance every second to unleash a flurry of 3-5 slashes onto the fish, filling 1% of the progress bar per stab and stunning the fish for 1 second.",
+    "obtainment": "Jungle Adventurer",
+    "infoboxStats": {
+      "obtainedFrom": "Jungle Adventurer",
+      "stage": "8",
+      "passive": "+50% Progress Speed \n After 2 perfect catches, the next catch will summon a green Megalodon to catch a higher-rarity fish, boosting its weight by 15-20% \n Every 1 second, 15% chance to unleash 3-5 Slash (0.3s interval) each granting 1% Progress and stunning the fish for 1 second",
+      "maxWeight": "25000"
+    }
+  },
+  "haunted-rod": {
+    "description": "FischFrightBackground.png\nfishing rod\n\nThe Haunted Rod is a Stage 2 Event-exclusive Fishing Rod obtained during FischFright (2024).\n\nOnly obtainable during FischFright; The rod is cursed the constant energy of FischFright, allowing it to catch FischFright mutations all year round.\n\nThe Haunted Rod is an early game rod previously obtainable during FischFright.",
+    "obtainment": "Witch",
+    "infoboxStats": {
+      "obtainedFrom": "Witch",
+      "price": "|stage = 2",
+      "stage": "2",
+      "passive": "10% chance for Sinister (2.9×) \n 10% chance for Ghastly (3×)",
+      "maxWeight": "1,000"
+    }
+  },
+  "relic-rod": {
+    "description": "fishing rod\nArchaeologicalSiteFar.png\n\nThe Relic Rod is a Stage 2 Event-exclusive Fishing Rod obtained for C$8000 after completing the Archaeological Hunt puzzle.\n\nA really old rod, found from the tombs of ancient isles, crafted out of ancient bone, but does it hold a mysterious power within it?\n\nThe Relic Rod is not a great fishing rod.",
+    "obtainment": "Archeological Site",
+    "infoboxStats": {
+      "obtainedFrom": "Archeological Site",
+      "price": "C$8000",
+      "stage": "2",
+      "maxWeight": "250,000"
+    }
+  },
+  "antler-rod": {
+    "description": "fishing rod\nFischmasTree.png\n\nThe Antler Rod is a Stage 1 Event-exclusive Fishing Rod obtained from the Advent Calendar during the Fischmas (2024) event.\n\nA rod bearing the magnificent antlers of a reindeer. All fish have a 25% chance to be Jolly.",
+    "obtainment": "Advent Calendar",
+    "infoboxStats": {
+      "obtainedFrom": "Advent Calendar",
+      "price": "|stage = 1",
+      "stage": "1",
+      "passive": "25% chance for Jolly (2.2×)",
+      "maxWeight": "200"
+    }
+  },
+  "north-star-rod": {
+    "description": "fishing rod\nFischmasTree.png\n\nThe North-Star Rod is a Stage 1 Event-exclusive Fishing Rod obtained from the Advent Calendar during the Fischmas (2024) event.\n\nPowered by the intensely bright shine of the Northern Star\nThe North-Star Rod is a special, limited-time fishing rod, exclusively available during the Fischmas (2024) event via the Advent calendar on Day 9. This rod is a coveted prize for players looking to enhance their early-game fishing experience, offering a balanced mix of speed, luck, and resilience.",
+    "obtainment": "Advent Calendar",
+    "infoboxStats": {
+      "obtainedFrom": "Advent Calendar",
+      "price": "|stage = 1",
+      "stage": "1",
+      "maxWeight": "875"
+    }
+  },
+  "candy-cane-rod": {
+    "description": "fishing rod\nFischmasTree.png\n\nThe Candy Cane Rod is a Stage 1 Event-exclusive Fishing Rod obtained in the Winter Village for C$1,500 during the Fischmas (2024) event.\n\nA sweet and minty rod with a festive pattern. All fish have a 10% chance to be Festive.",
+    "obtainment": "Winter Village",
+    "infoboxStats": {
+      "obtainedFrom": "Winter Village",
+      "price": "C$1,500",
+      "stage": "1",
+      "passive": "10% chance for Festive (2.4×)",
+      "maxWeight": "150"
+    }
+  },
+  "krampus-s-rod": {
+    "description": "fishing rod\nFischmasTree.png\n\nKrampus's Rod is a Stage 5 Event-exclusive Fishing Rod acquired by Crafting during the Fischmas (2024) event.\n\nHaunted with the evil spirit of Krampus himself. Every 10 catches, gain a random temporary buff.",
+    "obtainment": "Ancient Archives",
+    "infoboxStats": {
+      "obtainedFrom": "Ancient Archives",
+      "price": "C$30,000",
+      "stage": "5",
+      "passive": "Every 10 catches, gain Luck V or Lure V for 3 minutes",
+      "maxWeight": "50,000"
+    }
+  },
+  "frost-warden-rod": {
+    "description": "fishing rod \nfishing rod\nFischmasTree.png\n\nThe Frost Warden Rod is a Stage 1 Fishing Rod obtained from the Limited Time Winter Bundle for 799 Robux.\n\nA frigid rod weilded by fierce angels. Build to fish in the coldest of waters.",
+    "obtainment": "Limited Time Winter Bundle",
+    "infoboxStats": {
+      "obtainedFrom": "Limited Time Winter Bundle",
+      "price": "799 Robux",
+      "stage": "1",
+      "maxWeight": "2,200"
+    }
+  },
+  "fischmas-rod": {
+    "description": "fishing rod\nfishing rod\nFischmasTree.png\n\nThe Fischmas Rod is a Stage 1 Fishing Rod obtained from the XMAS Pack for 799 Robux.\n\nA festive fishing rod wrapped in holiday cheer, perfect for reeling in seasonal treasures.\nThe Fischmas Rod is a special, limited-time fishing rod, exclusively available by buying the XMAS Pack for 799 Robux.",
+    "obtainment": "XMAS Pack",
+    "infoboxStats": {
+      "obtainedFrom": "XMAS Pack",
+      "price": "799 Robux",
+      "stage": "1",
+      "maxWeight": "2,200"
+    }
+  },
+  "frostfire-rod": {
+    "description": "fishing rod\nfishing rod\nFischmasTree.png\n\nThe Frostfire Rod is a Stage 1 Fishing Rod obtained from the XMAS Pack (II) for 799 Robux.\n\n A sleek fishing rod wreathed in flames and frost, designed to tackle the toughest catches with elemental flair.\nThe Frostfire Rod is a special, limited-time fishing rod, exclusively available by buying the XMAS Pack (II) for 799 Robux.",
+    "obtainment": "XMAS Pack (II)",
+    "infoboxStats": {
+      "obtainedFrom": "XMAS Pack (II)",
+      "price": "799 Robux",
+      "stage": "1",
+      "maxWeight": "2,200"
+    }
+  },
+  "firework-rod": {
+    "description": "fishing rod\nGoldenTide.png\n\nThe Firework Rod is a Stage 2 Event-exclusive Fishing Rod obtained from Dr Glimmerfin's Quest during the Golden Tide event.\n\nA rod imbued with festive magic. 15% chance for Firework Mutation (3.",
+    "obtainment": "Dr Glimmerfin",
+    "infoboxStats": {
+      "obtainedFrom": "Dr Glimmerfin",
+      "price": "|stage = 2",
+      "stage": "2",
+      "passive": "15% chance for Firework (4×); \nWhen reeling an Eternal Frostwhale gains +20% Progress Speed \n +0.2% Eternal Frostwhale encounter rate",
+      "maxWeight": "25,000"
+    }
+  },
+  "shamrock-rod": {
+    "description": "rod\nLuckyEventBackground.png\n\nThe Shamrock Rod is a Stage 2 Event-exclusive Fishing Rod obtained from Lucky Event.\n\nSurely the pot of gold at the end of the rainbow is real... Right?",
+    "obtainment": "Clover McRich",
+    "infoboxStats": {
+      "obtainedFrom": "Clover McRich",
+      "price": "|stage = 2",
+      "stage": "2",
+      "passive": "10% chance for Clover (4.5×)",
+      "maxWeight": "5,000"
+    }
+  },
+  "egg-rod": {
+    "description": "fishing rod\nFischEggHuntUpdateThumbnail.png\n\nThe Egg Rod is a Stage 2 Event-exclusive Fishing Rod obtained from Egg Hunt.\n\nCast your bobber for a bite sweeter than chocolate!\nThe Egg Rod contains fairly decent stats for an early game rod, making it a great choice for early game players looking to progress further through the game.",
+    "obtainment": "Easter Bunny",
+    "infoboxStats": {
+      "obtainedFrom": "Easter Bunny",
+      "price": "|stage = 2",
+      "stage": "2",
+      "passive": "10% chance for Easter (4×)",
+      "maxWeight": "20,000"
+    }
+  },
+  "brick-built-rod": {
+    "description": "Rod\nLegoEventBackground.png\n\nThe Brick Built Rod is a Stage 1 Event-exclusive Fishing Rod obtained from LEGO Event.\n\nStacked with color, packed with fun! Fish have a 5% chance to become Awesome.",
+    "obtainment": "Brickford Masterson",
+    "infoboxStats": {
+      "obtainedFrom": "Brickford Masterson",
+      "price": "|stage = 1",
+      "stage": "1",
+      "passive": "5% chance for Awesome (3×)",
+      "maxWeight": "200"
+    }
+  },
+  "superstar-rod": {
+    "description": "fishing rod\nfishing rod\n\nThe Superstar Rod is a Stage 1 Fishing Rod, exclusively available for buying the Walmart Discovered Pass for 199 Robux.\n\nIt glows with unmatched shopping energy!\nThe Superstar Rod is a special, limited-time fishing rod, exclusively obtainable through the Walmart Discovered Pass.\n\nIt offers incredibly high stats compared to other microtransaction-exclusive rods, making it a great choice if the player already owns the Discovered Pass or if they are just starting out.",
+    "obtainment": "Walmart Discovered Pass",
+    "infoboxStats": {
+      "obtainedFrom": "Walmart Discovered Pass",
+      "price": "199 Robux",
+      "stage": "1",
+      "maxWeight": "10,000"
+    }
+  },
+  "mission-specialist-s-rod": {
+    "description": "JurassicWorldEvent.png\nfishing rod\n\nThe Mission Specialist's Rod is a Stage 1 Event-exclusive Fishing Rod obtained during Jurassic World Event.\n\nYou chose the Mission Specialist's Rod in your Jurassic missions!\nThe Mission Specialists Rod is one of the three rods offered to the player in the event.",
+    "obtainment": "Mission Specialist",
+    "infoboxStats": {
+      "obtainedFrom": "Mission Specialist",
+      "price": "|stage = 1",
+      "stage": "1",
+      "passive": "10% chance for Mission Specialist (1.25×)",
+      "maxWeight": "5,000"
+    }
+  },
+  "paleontologist-s-rod": {
+    "description": "JurassicWorldEvent.png\nfishing rod\n\nThe Paleontologist's Rod is a Stage 1 Event-exclusive Fishing Rod obtained during Jurassic World Event.\n\nYou chose the Paleontologist's Rod in your Jurassic missions!\n\n0.",
+    "obtainment": "Paleontologist",
+    "infoboxStats": {
+      "obtainedFrom": "Paleontologist",
+      "price": "|stage = 1",
+      "stage": "1",
+      "passive": "10% chance for Paleontologist (1.25×)",
+      "maxWeight": "5,000"
+    }
+  },
+  "fixer-s-rod": {
+    "description": "JurassicWorldEvent.png\nfishing rod\n\nThe Fixer's Rod is a Stage 1 Event-exclusive Fishing Rod obtained during Jurassic World Event.\n\nYou chose the Fixer's Rod in your Jurassic missions!\nThe Fixer's Rod is one of three rods offered to the player in the event.",
+    "obtainment": "Fixer",
+    "infoboxStats": {
+      "obtainedFrom": "Fixer",
+      "price": "|stage = 1",
+      "stage": "1",
+      "passive": "10% chance for Fixer (1.25×)",
+      "maxWeight": "5,000"
+    }
+  },
+  "smurf-rod": {
+    "description": "brainrot slop alert!! 🚨\nfishing rod\n\nThe Smurf Rod is a Stage 1 Event-exclusive Fishing Rod obtained from the Smurf Event.\n\nSmurf-themed rod with a smiling head and mushroom details. Cute and magical!",
+    "obtainment": "Smurfette",
+    "infoboxStats": {
+      "obtainedFrom": "Smurfette",
+      "price": "|stage = 1",
+      "stage": "1",
+      "passive": "10% chance for Smurf (2x)",
+      "maxWeight": "200"
+    }
+  },
+  "popsicle-rod": {
+    "description": "fishing rod\n\nThe Popsicle Rod is a Stage 7 Fishing Rod that was purchasable during Fischfest from the Shell Merchant for 3000.\n\nThe Popsicle Rod is notable for its high lure and luck stat, allowing to catch high-rarity fish. Additionally, it provides a 15% chance for the Popsicle Mutation (8.16×).",
+    "obtainment": "Shell Merchant",
+    "infoboxStats": {
+      "obtainedFrom": "Shell Merchant",
+      "price": "3000",
+      "stage": "7",
+      "passive": "15% chance for Popsicle (8.16×) \nDuring Summer:\n• +50% Progress Speed",
+      "maxWeight": "100"
+    }
+  },
+  "tidal-wave-rod": {
+    "description": "fishing rod\n\nThe Tidal Wave Rod is a Stage 4 Fishing Rod that can be obtained after completing from Barnacle Bill second stage quest.\n\nOnly obtainable during Fischfest; \n A crashing surge of power with a 20% chance to wash your fish in Beachy style, and a small chance to infuse it with the glow of Summer!\n\nThe Tidal Wave Rod is a fairly decent for beginner rod, offering a 50% lure speed that can be paired with the Hasty Enchantment for instant catches and a high max kg.\n\nHowever, its low luck stat places it at a disadvantage for grinding purposes.",
+    "obtainment": "Barnacle Bill",
+    "infoboxStats": {
+      "obtainedFrom": "Barnacle Bill",
+      "price": "|stage = 4",
+      "stage": "4",
+      "passive": "20% chance for Beachy (2×) \n 5% chance for Summer (6.2×)",
+      "maxWeight": "8,500"
+    }
+  },
+  "paper-fan-rod": {
+    "description": "fishing rod\n\nThe Paper Fan Rod is a Stage 4 Event-exclusive Fishing Rod obtained during Fischfest for C$70,000.\n\nOnly obtainable during Fischfest; A lightweight paper fan rod that slices through the water, striking fish with swift, cutting blows\nThe Paper Fan Rod is an early-game event rod obtained during Fischfest. It features moderate Lure Speed and Luck, but low Resilience and slightly negative Control, making it more challenging to use compared to other rods in its tier. Its limited Weight also restricts it to smaller catches.",
+    "obtainment": "Fischfest Island",
+    "infoboxStats": {
+      "obtainedFrom": "Fischfest Island",
+      "price": "C$70,000",
+      "stage": "4",
+      "passive": "70% chance per fish movement to stab for +1.5% progress",
+      "maxWeight": "1,500"
+    }
+  },
+  "rod-of-the-cosmos": {
+    "description": "fishing rod\n\nThe Rod of the Cosmos is a Stage 8 Fishing Rod obtained from Meteor Shard.\n\n|+}} Skins\n|\nExample Skin.png|Example Skin\n(C$250,000, ?%)\n\n|}\n-->\n<!--",
+    "obtainment": "Meteorologist",
+    "infoboxStats": {
+      "obtainedFrom": "Meteorologist",
+      "price": "|stage = 8",
+      "stage": "8",
+      "passive": "1 in 1000 chance to catch Cosmic Relic.\n15% for Nova (6×). \n\n During Starfall: \n• 1 in 50 chance to catch Cosmic Relic. \n• +50% Progress Speed.",
+      "maxWeight": "10,000"
+    }
+  },
+  "buddy-bond-rod": {
+    "description": "fishing rod\n\nThe Buddy Bond Rod is a Stage 1 Fishing Rod. It was given for free for inviting a friend using Bob's menu.\n\nA friendly Rod!\nIt was previously stated in-game that the Buddy Bond Rod had an effect that adds 30% to all stats for every friend in the server, however this rod is now capped at just 1 friend for a single 30% boost to all stats.",
+    "obtainment": null,
+    "infoboxStats": {
+      "price": "|stage = 1",
+      "stage": "1",
+      "passive": "Adds 30% to all stats when playing with a friend",
+      "maxWeight": "300"
+    }
+  },
+  "astral-rod": {
+    "description": "fishing rod\nNot to be confused with the Astralhook Rod, a Stage 10 Fishing Rod previously obtainable by reaching Level 2500 before the Second Sea was removed.\n\nThe Astral Rod is a Stage 1 Fishing Rod. It was obtainable by redeeming the ThankYouFollowers2 Code.\n\nAn intergalactic rod, powered by the harmonious essence of all stars in the night sky.",
+    "obtainment": "|stage = 1",
+    "infoboxStats": {
+      "obtainedFrom": "|stage = 1",
+      "stage": "1",
+      "passive": "5% chance for Lunar (2.5×)",
+      "maxWeight": "1,000"
+    }
+  },
+  "event-horizon-rod": {
+    "description": "fishing rod\n\nThe Event Horizon Rod is a Stage 1 Fishing Rod. It was obtainable by redeeming the ThankYouFollowers3 Code.\n\nThe powerful black hole within this rod decimates everything that in its path. All fish have a 5% chance to be Lunar.",
+    "obtainment": "|stage = 1",
+    "infoboxStats": {
+      "obtainedFrom": "|stage = 1",
+      "stage": "1",
+      "passive": "5% chance for Lunar (2.5×)",
+      "maxWeight": "1,000"
+    }
+  },
+  "rod-of-time": {
+    "description": "rod\n\nThe Rod Of Time is a Stage 2 Fishing Rod obtained from Crafting.\n\nA time rod!\nThe Rod Of Time was overall a low tier rod for its stage. While it does possess decent stats for an early game rod and has a passive of +25% XP gain from all fish, its passive is easily outclassed by other rods like the Wisdom Rod which can be obtained later in the game.",
+    "obtainment": "Moosewood",
+    "infoboxStats": {
+      "obtainedFrom": "Moosewood",
+      "price": "|stage = 2",
+      "stage": "2",
+      "passive": "+25% XP from all fish",
+      "maxWeight": "2500"
+    }
+  },
+  "patriot-rod": {
+    "description": "fishing rod\n\nThe Patriot Rod is a Stage 1 Fishing Rod previously obtainable by redeeming the 4THOFJULY Code.\n\nHappy 4th of July!\nThe Patriot Rod is considered an effective rod for beginners, as it was easily obtainable by redeeming the 4THOFJULY Code while available. It provides very high Luck and Lure Speed considering its simple obtainability.",
+    "obtainment": "|stage = 1",
+    "infoboxStats": {
+      "obtainedFrom": "|stage = 1",
+      "stage": "1",
+      "passive": "20% Chance for Patriotic (7.4x) with +100% Progress Speed",
+      "maxWeight": "742,025"
+    }
+  },
+  "demon-slayer": {
+    "description": "fishing rod\n\nThe Demon Slayer is a Stage 1 Fishing Rod. It was obtainable by redeeming the EVENTFIXED Code.\n\nDesigned for cutting magic with its precise edges, although ineffective as a typical sword...\nThe Demon-Slayer is designed to be more of a keepsake item rather than a practical fishing rod.",
+    "obtainment": "Code",
+    "infoboxStats": {
+      "obtainedFrom": "Code",
+      "stage": "1",
+      "passive": "+50% Progress Speed"
+    }
+  },
+  "fang-of-the-eclipse": {
+    "description": "fishing rod\n\nThe Fang of the Eclipse is a Stage 10 Fishing Rod that is no longer obtainable, originally acquired by reaching Level 2000.\n\nA quiet antique under normal conditions... Under the presence of an Eclipse, it becomes a power beyond comprehension–an intricate yet worthy challenge.\nThe Fang of the Eclipse bears modest stats on its own, featuring a high Lure Speed and more than enough Control and Resilience for catching most fish in the game with ease, as well as a built-in 10% chance to catch Solarblaze fish at any time.",
+    "obtainment": "Level 2000",
+    "infoboxStats": {
+      "obtainedFrom": "Level 2000",
+      "price": "|stage = 10",
+      "stage": "10",
+      "passive": "10% chance for Solarblaze (3×) \n\nGains the following for 15-minutes after an Eclipse occurs: \n\n- +99 Lure (total 179 Lure) \n\n- +150 Luck (total 230 Luck) \n\n- -0.35 Control (total -0.2 Control) \n\n- -50 Resilience (total -30 Resilience) \n\n- Sets kg to inf \n\n- +50% progress speed \n\n- Grants a mutation with 10% chance for Umbra (9×), remaining 90% for Solarblaze (3×) \n\n- 1.2× weight buff to all fish caught \n\n- 20% to double-catch, 5% to triple-catch",
+      "maxWeight": "25,000"
+    }
+  },
+  "astralhook-rod": {
+    "description": "fishing rod\nNot to be confused with the Astral Rod, a Stage 1 Fishing Rod previously obtainable by redeeming the Code ThankYouFollowers2 before it expired.\n\nThe Astralhook Rod is a Stage 10 Fishing Rod that is no longer obtainable, originally acquired by reaching Level 2500.\n\nTempered from the silence within descending stars, it draws from the power of the Milky Way to assemble powers beyond conceivability.\nThe Astralhook Rod bears strong stats in general, allowing all fish in the game to be caught quickly and easily, as well as abilities allowing for decent value mutations to be applied to caught fish, increasing C$C$ gains.",
+    "obtainment": "Level 2500",
+    "infoboxStats": {
+      "obtainedFrom": "Level 2500",
+      "price": "|stage = 10",
+      "stage": "10",
+      "passive": "+15% Progress Speed \n Every 2-4 seconds Stars fall increasing progress by 15% \n Every 12 catches spawns pool which lasts 44 seconds and applies Astral (3×) at a 63% chance to all players \n Perfect casts followed by perfect catches grant a 10% chance to catch any Fish and apply Stardust (4×), with the exception of Limited, Special and Divine Secret fish."
+    }
+  },
+  "fallen-snowblade": {
+    "description": "fishing rod\n\nThe Fallen Snowblade is a Stage 10 Fishing Rod that was obtainable through a series of missions on Snowcap Island.\n\nWielded by a lost soul, this divine blade now conjures snow and silence - a cursed echo of his eternal search for home. It's true strength may vary relative to the current Season... [For @rDevSno]\nThe Fallen Snowblade possesses strong stats across the board, which allows it to catch most fish in the game in a short amount of time.",
+    "obtainment": "Snowcap Island",
+    "infoboxStats": {
+      "obtainedFrom": "Snowcap Island",
+      "stage": "10",
+      "passive": "10% chance to fill the progress bar rapidly\nDuring Winter:\n• +75% Progress Speed\n• 45% chance for Snowy (6×)\n• 55% chance for Frozen (1.5×)\n\nDuring Spring and Autumn:\n• +50% Progress Speed\n• 25% chance for Snowy (6×)\n• 75% chance for Frozen (1.5×)\n\nDuring Summer:\n• +25% Progress Speed\n• 5% chance for Snowy (6×)\n• 95% chance for Frozen (1.5×)",
+      "maxWeight": "21,512,406"
+    }
+  },
+  "wingripper": {
+    "description": "fishing rod\n\nThe Wingripper is a Stage 11 Fishing Rod obtained from a set of quests at the Underground Music Venue.\n\nname a few dimensions we can flow between with no obstructions, another timeline.\n\nWingripper's obtainablity is challenging but the reward is even better.\n\nThe Wingripper features the following passives:\n\nDuring the Day:\n\n• +22% Progress Speed\n\n• 27% chance for Diurnal (7x)\n\nDuring the Night:\n\n• +222% Progress Speed\n\n• 7% chance for Nocturnal (8x)\n\n• Set Base Control to -0.",
+    "obtainment": "Underground Music Venue",
+    "infoboxStats": {
+      "obtainedFrom": "Underground Music Venue",
+      "price": "|stage = 11",
+      "stage": "11",
+      "passive": "During Day:\n• +22% Progress Speed\n• 27% chance for Diurnal (7×)\n\nDuring Night:\n• +222% Progress Speed\n• 7% chance for Nocturnal (8×)\n• Sets Base Control to -0.28"
+    }
+  },
+  "polaris-serenade": {
+    "description": "fishing rod\n\nThe Polaris Serenade is a Stage 11 Fishing Rod obtained from a set of quests at the Underground Music Venue.\n\n💫\nThe Polaris Serenade possesses strong stats across the board, which allows it to catch all fish in the game with relative ease.\n\nThe Polaris Serenade features the following unique abilities:\n- +30% Progress Speed\n- 4% chance to cause many particles to fall, rapidly adding progress. \n- 18% chance for Serene Mutation\n- Every 72 seconds the player gets given a Quiet fish with a +3% Shiny/Sparkling chance with every perfect catch reducing the timer by 24 seconds.",
+    "obtainment": "Underground Music Venue",
+    "infoboxStats": {
+      "obtainedFrom": "Underground Music Venue",
+      "price": "C$50,000,000",
+      "stage": "11",
+      "passive": "+30% Progress Speed \n 4% chance to fill the progress bar rapidly \n 18% chance for Serene (8.5×) \n Every 72 seconds the player gains a fish with:\n• 100% chance for Quiet (3×)\n• +3% chance for Shiny (1.85×)\n• +3% chance for Sparkling (1.85×) \nEvery perfect catch reduces the time by 24 seconds"
+    }
+  },
+  "cinderstring": {
+    "description": "fishing rod\n\nThe Cinderstring is a Stage 7 Fishing Rod obtained from a set of quests at the Underground Music Venue.\n\nWe feel the pain of a lifetime lost in a thousand days...\nThe Cinderstring is a great late-game rod for those who want a challenge. With high Resilience, Luck, and infinite Max Kg, this rod is well-equipped to tackle any fish.",
+    "obtainment": "Underground Music Venue",
+    "infoboxStats": {
+      "obtainedFrom": "Underground Music Venue",
+      "price": "|stage = 7",
+      "stage": "7",
+      "passive": "+10% Progress Speed \n After 2 Perfect Catches for 30 seconds receive: \n 20% chance for Scorched (3x) \n 5% chance for Infernal (7x) \n +25% Progress Speed \n +10% Luck \n -20% Resilience \n -0.05 Control \n After 2 additional Perfect Catches for 1 minute receive: \n +100% Progress Speed \n 15% chance for Infernal (7×) \n 50% chance for Scorched (3×) \n +25% Luck \n -40% Resilience \n -0.15 Control"
+    }
+  },
+  "eardrum": {
+    "description": "fishing rod\n\nThe Eardrum is a Stage 10 Fishing Rod obtained from Holladay's questline in the Underground Music Venue.\n\nIs there no standard anymore?\nThe Eardrum is a Stage 10 fishing rod with a fast, responsive stat spread. It provides high Lure Speed and strong Control, helping players secure quick hooks and maintain stable reels.",
+    "obtainment": "Underground Music Venue",
+    "infoboxStats": {
+      "obtainedFrom": "Underground Music Venue",
+      "price": "|stage = 10",
+      "stage": "10",
+      "passive": "Every 2 catches gives an additional fish with Oak (2.3x) from the current pool, with Log having a higher chance to be caught regardless of the pool the player is fishing in.",
+      "maxWeight": "100,000"
+    }
+  },
+  "chrysalis": {
+    "description": "fishing rod\n\nThe Chrysalis is a Stage 9 Fishing Rod obtained from a set of quests at the Underground Music Venue.\n\n🍡\nThe Chrysalis possesses a majority of strong stats across the board, which allows it to catch most fish in the game with relative ease.\n\nThe Chrysalis features the following unique abilities:\n- +10% Progress Speed\n- 92% chance for Bloom Mutation\n- 8% chance for Flora Mutation\n- 12% chance for an eye to spawn and catch an additional fish with Flora and additional 20% to either be Shiny / Sparkling or both\n\nThe abilities the Chrysalis possess alongside its strong stats make it powerful for C$C$ grinding, with it only having a slight drawback of low control.\n\n0\n\nThe Chrysalis was obtained through completing the third and final quest from Hex, who was found at the Underground Music Venue.",
+    "obtainment": "Underground Music Venue",
+    "infoboxStats": {
+      "obtainedFrom": "Underground Music Venue",
+      "stage": "9",
+      "passive": "+10% Progress Speed \n 92% chance for Bloom (4×) \n 8% chance for Flora (7×) \n 12% chance for an eye to spawn and catch an additional fish with:\n• 100% chance for Flora (7×) \n• +20% chance for Shiny (1.85×)\n• +20% chance for Sparkling (1.85×)"
+    }
+  },
+  "axe-of-rhoads": {
+    "description": "the removed Rod\n\nThe Axe Of Rhoads was a Stage 10 Fishing Rod obtained from a set of quests at the Underground Music Venue.\n\nOver and under, in between the ups and downs...\n\nThe Axe Of Rhoads features the following passives:\n- 40% chance for Heavenly\n- 10% chance for Blessed\n- 5% chance for Chaotic \n- 5% chance for Shiny and Sparkling\n\nAxe Of Rhoads passives make it a great rod for C$C$ grinding and getting mutations for other quest you need to do.\n\n0.",
+    "obtainment": "Underground Music Venue",
+    "infoboxStats": {
+      "obtainedFrom": "Underground Music Venue",
+      "price": "|stage = 10",
+      "stage": "10",
+      "passive": "40% chance for Heavenly (6×) \n 10% chance for Blessed (8.5×) \n 5% chance for Chaotic (8×) \n 5% chance for Shiny (1.85×) \n 5% chance for Sparkling (1.85×)",
+      "maxWeight": "20,000"
+    }
+  },
+  "test-rod": {
+    "description": "fishing rod\n\nThe Test Rod is a Stage 6 Fishing Rod obtainable via a set of quests from Buildaroo at the Underground Music Venue.\n\nTest Rod Description\nThe Test Rod has strong Lure speed and luck, but low control and resilience, making the player have to either be skilled with moving the bar or take advantage of certain Enchantments to keep the fish in the control bar. \n\nThe Test Rod has a very low 5% chance to catch the Lightning mutation. This is the only other way to obtain this mutation other than during a Zeus Storm.",
+    "obtainment": "Underground Music Venue",
+    "infoboxStats": {
+      "obtainedFrom": "Underground Music Venue",
+      "price": "|sea = First Sea",
+      "stage": "6",
+      "passive": "5% Chance for Lightning (2×)",
+      "maxWeight": "150000"
+    }
+  },
+  "adventurer-s-rod": {
+    "description": "fishing rod\n\nThe Adventurer's Rod is a Stage 1 Fishing Rod obtained once the player enters the Second Sea for the first time.\n\nIt has a feeble, yet strongly familiar feel...\nThe Adventurer's Rod can be very similarly compared to that of the Flimsy Rod from the First Sea. The rod acts as the very first rod the player will obtain from the Second Sea and has mediocre stats to go along with it.",
+    "obtainment": "Waveborne",
+    "infoboxStats": {
+      "obtainedFrom": "Waveborne",
+      "price": "|stage = 1",
+      "stage": "1",
+      "passive": "+5% natural Mutation chance",
+      "maxWeight": "104"
+    }
+  },
+  "firefly-rod": {
+    "description": "The Firefly Rod is a Stage 1 Fishing Rod obtained in Castaway Cliffs for C$9,500.\n\nHumming with energy, and a line glowing like a trail of fireflies in the night. Some say the faster you reel, the brighter it shines.\nThe Firefly rod offers a very high Lure Speed and good Resilience but is offset by its subpar Control.",
+    "obtainment": "Castaway Cliffs",
+    "infoboxStats": {
+      "obtainedFrom": "Castaway Cliffs",
+      "price": "C$9,500",
+      "stage": "1",
+      "passive": "During Night:\n• +15% Progress Speed",
+      "maxWeight": "175"
+    }
+  },
+  "frog-rod": {
+    "description": "The Frog Rod is a Stage 1 Fishing Rod obtained in Mushgrove Swamp for C$12,000.\n\nA peculiar infused with amphibian magic. Only those with a steady and keen eye can earn the frogs' assistance, guiding them to where the most elusive catches may be hiding.\nThe Frog Rod offers one of the highest max weights for Stage 1 rods and the highest luck stat.",
+    "obtainment": "Mushgrove Swamp",
+    "infoboxStats": {
+      "obtainedFrom": "Mushgrove Swamp",
+      "price": "C$12,000",
+      "stage": "1",
+      "passive": "Perfect catches streak gives +0.5x luck for 2 minutes up to 3 stacks. \n (Missing streak will instead remove one stack)",
+      "maxWeight": "650"
+    }
+  },
+  "azure-of-lagoon": {
+    "description": "The Azure Of Lagoon is a Stage 5 Fishing Rod obtained in Lost Jungle for C$100,000.\n\nIts delicate form belies a sharp, cutting force with an almost eerie precision. Has a chance to slash fish.\nThe Azure of Lagoon offers the highest resilience and max weight out of any Second Sea fishing rod currently available, making it an excellent rod for catch difficult high weight fish.",
+    "obtainment": "Lost Jungle",
+    "infoboxStats": {
+      "obtainedFrom": "Lost Jungle",
+      "price": "C$100,000",
+      "stage": "5",
+      "passive": "25% chance per fish movement to stab for +6% progress \n100% chance for Glossy (1.6×)",
+      "maxWeight": "200,000"
+    }
+  },
+  "merchant-rod": {
+    "description": "fishing rod\n\nThe Merchant Rod is a Stage 2 Fishing Rod obtained in the Whale Interior for 20000.\n\nA rod designed for Merchants! Has a 50% chance to create a whirlpool, allowing for random bait to be caught.\n\nThe Merchant Rod offering solid overall performance for its cost and stats.",
+    "obtainment": "Whale Interior",
+    "infoboxStats": {
+      "obtainedFrom": "Whale Interior",
+      "price": "20000",
+      "stage": "2",
+      "passive": "50% chance to catch a random bait (excluding Limited Time Baits)",
+      "maxWeight": "5,000"
+    }
+  },
+  "verdant-shear-rod": {
+    "description": "The Verdant Shear Rod is a Stage 4 Fishing Rod obtained in Lost Jungle for C$50,000.\n\nA rod entwined with nature's will. Has a 20% chance to sprout a tree, blessing each catch with triple its worth.\nThe Verdant Shear Rod offers exceptionally high Lure Speed with very solid control and resilience stats, making it a great all rounded rod.",
+    "obtainment": "Lost Jungle",
+    "infoboxStats": {
+      "obtainedFrom": "Lost Jungle",
+      "price": "C$50,000",
+      "stage": "4",
+      "passive": "20% chance to grow a tree for 1 minute \n Fish around the tree for:\n• Mother Nature (3×)\n• Green Leaf (3×)\n• Brown Wood (3×)\nAll three Mutations have equal chances.",
+      "maxWeight": "2,000"
+    }
+  },
+  "blazebringer-rod": {
+    "description": "The Blazebringer Rod is a Stage 4 Fishing Rod obtained in Roslit Volcano for C$70,000.\n\nA flaming rod with power that builds with every perfect catch, yielding a variety of unique mutations & a luck boost.\nThe Blazebringer Rod offers an excellent amount of Lure Speed, Control, and Resilience. The true power of this rod, however, lies behind its 3 stage passive ability.",
+    "obtainment": "Roslit Volcano",
+    "infoboxStats": {
+      "obtainedFrom": "Roslit Volcano",
+      "price": "C$70,000",
+      "stage": "4",
+      "location": "Roslit Bay",
+      "passive": "After 4 perfect catches for 2 minutes receive: \n• 20% chance for Ember (3×) \n• 5% chance for Cracked (3×) \n• +10% Luck \n After 8 additional for 3 minutes receive: \n• 25% chance for Ember (3×) \n• 10% chance for Cracked (3×) \n• 5% chance for Emberflame (5×) \n• +25% Luck",
+      "maxWeight": "5,000"
+    }
+  },
+  "free-spirit-rod": {
+    "description": "The Free Spirit Rod is a Stage 6 Fishing Rod obtained in the Mineshaft for C$200,000.\n\nA rod infused with untamed blooming spirits. Occasional slashes, & all caught fish have a 30% chance to be mutated with Bloom.\nThe Free Spirit Rod offers decently high luck while also having optimal resilience and control, making it a solid all-rounder rod.",
+    "obtainment": "Mineshaft",
+    "infoboxStats": {
+      "obtainedFrom": "Mineshaft",
+      "price": "C$200,000",
+      "stage": "6",
+      "location": "Sunstone Island",
+      "passive": "25% chance per fish movement to stab for +6% progress \n 30% chance for Bloom (4×)",
+      "maxWeight": "5,000"
+    }
+  },
+  "lobster-rod": {
+    "description": "fishing rod\n\nThe Lobster Rod is a Stage 3 Fishing Rod obtained from Mike at Waveborne after completing his quest.\n\nAs tough as a lobster's shell, built to withstand immense force. Has a 30% chance to apply the Lobster mutation.\nThe Lobster Rod offers decent stats, with enough lure to instant-catch with certain setups and enough Control to catch most fish in the game with ease.",
+    "obtainment": "Mike",
+    "infoboxStats": {
+      "obtainedFrom": "Mike",
+      "price": "|stage = 3",
+      "stage": "3",
+      "passive": "30% Chance for Lobster (5× Value)",
+      "maxWeight": "50,000"
+    }
+  },
+  "sovereign-doombringer": {
+    "description": "fishing rod\n\nThe Sovereign Doombringer is a Fishing Rod that was awarded exclusively to Official Fisch Content Creators who promoted the Northern Expedition Update.\n\nObliterate fish with a huge hammer.\nThe Sovereign Doombringer has fairly good stats, with more than enough Lure speed to instant-catch with specific enchantments, paired with high enough resilience and control to catch any fish with ease (provided the player is skilled enough).\n\nAdditionally, this rod has the ability of swinging a hammer down during each catch which instantly fills the catch progress bar by 30% and shakes the player's screen.",
+    "obtainment": "|stage =",
+    "infoboxStats": {
+      "obtainedFrom": "|stage =",
+      "passive": "Summons a Hammer to fill up 30% progress"
+    }
+  },
+  "clickbait-caster": {
+    "description": "fishing rod\n\nThe Clickbait Caster is a Fishing Rod awarded exclusively to Official Fisch Content Creators who promoted the Mariana's Veil Update.\n\nLights, camera, action—now bite already! [CC Only]\nThe Clickbait Caster's decently high Lure Speed and more than enough in Control/Resilience stats to catch any fish with ease. Additionally, it possesses the spirit passive from the Rod Of The Depths, allowing the Clickbait Caster to catch many fish in a short timespan.",
+    "obtainment": "|stage =",
+    "infoboxStats": {
+      "obtainedFrom": "|stage =",
+      "passive": "Every 3 catches gain another fish"
+    }
+  },
+  "view-smasher": {
+    "description": "fishing rod\n\nThe View Smasher is a Fishing Rod that was awarded exclusively to Official Fisch Content Creators who promoted the Cursed Seas Update.\n\nHIT THAT FOLLOW BUTTON!!\nThe View Smasher has fairly good stats, with more than enough Lure speed to instant-catch with specific enchantments, paired with high enough resilience and control to catch any fish with ease.\n\nAdditionally, this rod has the ability of swinging a hammer down during each catch which instantly fills the catch progress bar by 30% and shakes the player's screen.",
+    "obtainment": "|stage =",
+    "infoboxStats": {
+      "obtainedFrom": "|stage =",
+      "passive": "Summons a Hammer to fill up 30% progress"
+    }
+  },
+  "fish-photographer": {
+    "description": "fishing rod\n\nThe Fish Photographer is a Fishing Rod that was awarded exclusively to Official Fisch Content Creators who promoted the Cursed Seas Update.\n\nIf I catch you fishy.. if I catch you\nThe Fish Photographer has fairly good stats, with more than enough Lure speed to instant-catch with specific enchantments, paired with high enough resilience and control to catch any fish with ease.\n\nAdditionally, it possesses the spirit passive from the Rod Of The Depths, allowing the Fish Photographer to catch many fish in a short timespan.",
+    "obtainment": "|stage =",
+    "infoboxStats": {
+      "obtainedFrom": "|stage =",
+      "passive": "Every 3 catches gain another fish"
+    }
+  },
+  "paintbrush": {
+    "description": "fishing rod\n\nThe Paintbrush is an exclusive Fishing Rod that was awarded to finalists in the top 3 of an art contest in the Fisch Discord server.\n\nAwarded to only the best artists of Fisch! This rod shows that you have excelled and rose above everyone else.\nThe Paintbrush is an exceptional rod for all possible use-cases, allowing for and XP to be easily farmed.",
+    "obtainment": "|stage =",
+    "infoboxStats": {
+      "obtainedFrom": "|stage =",
+      "passive": "+314% Progress Speed\n50% chance to catch Mythical (5.5×)\n10% chance to catch Sparkling/Shiny",
+      "maxWeight": "123,456,789"
+    }
+  },
+  "nilcaster": {
+    "description": "The nilCaster is an exclusive Fishing Rod that is awarded to game testers who have made significant testing contributions.\n\noops my data corrupt\nThe nilCaster is an fairly good rod for all possible use-cases, allowing for and XP to be fairly easily farmed, provided the player utilizes boosts to Resilience and Control to avoid difficult catches. \n\nThe nilCaster features instant-lure, near-instant catching from a base +101% progress speed boost, a 50% chance for the Nuclear mutation (6× value), up to +100% fish size, as well as applying random boosts to its other stats on every cast. If the player is unlucky, it offers the possibility of incredibly difficult catches with low control and resilience.",
+    "obtainment": "|stage =",
+    "infoboxStats": {
+      "obtainedFrom": "|stage =",
+      "passive": "-+101.010101% Progress Speed boost\n50% chance to apply the Nuclear Mutation (6× Value)\n-Each cast randomizes a boost to stats (±80 Resilience, +0.4/-0.35 Control, ±100% Progress Speed boost, and -99%/+200% fish weight)",
+      "maxWeight": "1,010,101"
+    }
+  },
+  "pen-rod": {
+    "description": "hello im trying to get the pen rod thank you for reading\nGlyphed Background.png\n\nThe Pen Rod is an exclusive Fishing Rod that is given to players who have consistently made meaningful contributions to Fischipedia.\n\nGiven to editors of the Official Fisch Wiki for their continued contributions! [Originally for @ZooWeeMamaMoment]\nThe Pen Rod is a fairly good rod for all possible use-cases, allowing the player to fish in any type of liquid.",
+    "obtainment": "|sea =",
+    "infoboxStats": {
+      "obtainedFrom": "|sea =",
+      "passive": "52% chance per fish movement to stab for 2.5% progress \n 52% chance for Glyphed (5.2×)",
+      "durability": "200"
+    }
+  },
+  "frostbane-rod": {
+    "description": "fishing rod\n\nThe Frostbane Rod is a Fishing Rod obtained from Northern Expedition during a Snowstorm or Icestorm.\n\nAn unwieldy blade laced with frost magic, its true power dormant; until the darkest cold deepens, unlocking a surge of strength few can withstand\n\nThe Frostbane Rod is a well-rounded rod, offering an 80% lure speed, which allows for instant catching when combined with bait that provides over 20% lure speed (e.g., Coral) and decent luck.",
+    "obtainment": "Frigid Cavern",
+    "infoboxStats": {
+      "obtainedFrom": "Frigid Cavern",
+      "price": "C$1,500,000",
+      "passive": "1% (3% during Winter) chance for Glacial (8×) \n 10% (30% during Winter) chance for Chilled (6×) \n Infinite Max Kg during Winter \n +20% Progress Speed during Winter or Night \n +50% Progress Speed during Winter Night",
+      "maxWeight": "1,500"
+    }
+  },
+  "sanguine-spire": {
+    "description": "fishing rod\n\nThe Sanguine Spire is a Fishing Rod obtained from Underground Music Venue during the CORRUPTION Admin Event.\n\ni am emo rod!\nThe Sanguine Spire is a fishing rod that provides balanced stats, offering strong Lure Speed and Luck alongside steady Control and moderate Resilience. Its Weight is effectively infinite, allowing it to handle any catch without risk of being overpowered.",
+    "obtainment": "Underground Music Venue",
+    "infoboxStats": {
+      "obtainedFrom": "Underground Music Venue",
+      "price": "C$10,000,000",
+      "passive": "25% chance per fish movement to stab for +2% progress \n 30% chance for Sanguine (5×) \n +30% Progress Speed"
+    }
+  },
+  "katana-rod": {
+    "description": "fishing rod\n\nThe Katana Rod is a Fishing Rod obtained from the Black Market.\n\nGood at cutting fruit. [Black Market Exclusive]\nThe Katana Rod is a Stage 6 Fishing Rod with strong balanced stats, featuring high Lure Speed and Luck alongside solid Control. Its infinite Weight capacity allows it to handle any fish, making it a reliable choice for a wide range of catches.",
+    "obtainment": "Black Market",
+    "infoboxStats": {
+      "obtainedFrom": "Black Market",
+      "price": "C$1,000,000",
+      "stage": "6",
+      "passive": "25% chance per fish movement to stab for +6% progress"
+    }
+  },
+  "sword-of-darkness": {
+    "description": "fishing rod\n\nThe Sword of Darkness is a Fishing Rod obtained from the Black Market.\n\nDare to reach out your hand into the darkness, to pull another hand into the dark from the light. \n[Black Market Exclusive]\nThe Sword of Darkness is an extremely powerful and rare rod available from the Black Market. It features exceptionally high Lure Speed and Luck, but suffers from negative Control and Resilience, making it difficult to handle and punishing to use without precision.",
+    "obtainment": "Black Market",
+    "infoboxStats": {
+      "obtainedFrom": "Black Market",
+      "price": "C$50,000,000",
+      "stage": "10",
+      "passive": "25% chance per fish movement to stab for 3% progress \nAfter 3 successful catches in a row, receives an additional +150% Progress Speed and guaranteed Darkness (9.4&times;) for 30 seconds.\nIf a reel is snapped at any point, or the player takes more than 30 seconds between catches, the stacks are reset and the bonus ends.",
+      "maxWeight": "1,000,000"
+    }
+  },
+  "original-no-life-rod": {
+    "description": "fishing rod\n\nThe Original No-Life Rod is a Fishing Rod in obtainable only from Admin Events.\n\nFisching 24/7/365. Are you okay?\nThe Original No-Life Rod bears a similar resemblance to the Trident Rod.",
+    "obtainment": "Admin Events",
+    "infoboxStats": {
+      "obtainedFrom": "Admin Events",
+      "price": "C$1",
+      "passive": "20% chance for Hexed (3×)"
+    }
+  },
+  "electric-guitar": {
+    "description": "fishing rod\n\nThe Electric Guitar is a Fishing Rod which was obtainable from the Black Market.\n\nWOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!\nThe Electric Guitar is a high-performance rod built for speed and consistency, offering excellent Lure Speed and Luck alongside strong Control for smoother and more manageable catches. Its balanced stats make it a reliable all-around option that performs well in nearly any fishing environment.",
+    "obtainment": "Black Market",
+    "infoboxStats": {
+      "obtainedFrom": "Black Market",
+      "price": "C$14,444,444",
+      "stage": "10",
+      "passive": "16.7% chance to fill the progress bar rapidly",
+      "maxWeight": "444,444,444",
+      "durability": "200"
+    }
+  },
+  "upside-down-rod": {
+    "description": "fishing rod\n\nThe Upside-Down Rod is a Fishing Rod obtained during the Black Market.\n\nwhat happened!\nThe Upside-Down Rod has the exact same stats as the Flimsy Rod, except a 100% chance to catch Upside-Down fish. Because of this, the Upside-Down Rod is only useful if the player wishes to attain the unique Upside-Down Mutation on a fish.",
+    "obtainment": "Black Market",
+    "infoboxStats": {
+      "obtainedFrom": "Black Market",
+      "price": "C$15,000",
+      "stage": "2",
+      "passive": "100% chance for Upside-Down (1×)",
+      "maxWeight": "10"
+    }
+  },
+  "bone-blade": {
+    "description": "fishing rod\n\nThe Bone Blade is a Fishing Rod obtained from the Black Market.\n\n🦴\nThe Bone Blade is a Stage 7 Fishing Rod built around extreme stat contrasts. It features very high Lure Speed and unusually strong Resilience, giving it fast bites and exceptional protection against line snaps. However, it also comes with no Luck and significantly reduced Control, making its baseline handling more demanding than most rods in its tier.",
+    "obtainment": "Black Market",
+    "infoboxStats": {
+      "obtainedFrom": "Black Market",
+      "price": "C$2,500,000",
+      "stage": "7",
+      "passive": "30% chance per fish movement to stab for +4% progress",
+      "maxWeight": "1,000,000",
+      "durability": "200"
+    }
+  },
+  "nates-blade": {
+    "description": "fishing rod\n\nThe Nates Blade is a Fishing Rod which was obtainable from the Black Market.\n\nA sword wielded by the one and only Nate The human. Created by Nates father, out of Kee-Oths Blood. [For @Woozynate]\nThe Nates Blade is a Stage 10 Fishing Rod with high-end stats, offering strong Lure Speed, exceptional Luck, and solid Resilience.",
+    "obtainment": "Black Market",
+    "infoboxStats": {
+      "obtainedFrom": "Black Market",
+      "price": "C$200,000,000",
+      "stage": "10",
+      "passive": "Control bar gradually increases in size whilst catching a fish.\n+100% weight buff to all fish caught.\n100% chance to obtain one of the three mutations:\n• Lumpy (2×)\n• Rockstar (2×)\n• Bubblegum (2×)\nAll three Mutations have equal chances.\n25% chance per fish movement to stab for +6% progress.\n+50% Progress Speed."
+    }
+  },
+  "noctone": {
+    "description": "fishing rod\n\nThe Noctone is a Fishing Rod given to players who originally owned the Axe of Rhoads prior to its removal.\n\nWherever we end up; Know that you've made your mark...\nThe Noctone is a Stage 10 fishing rod with a well-rounded stat profile, offering solid Lure Speed, strong Luck, steady Control, and dependable Resilience. Its Weight stat is notably high for this stage, giving it enough strength to handle heavier catches while keeping reel stability consistent.",
+    "obtainment": "|price =",
+    "infoboxStats": {
+      "obtainedFrom": "|price =",
+      "price": "|stage = 10",
+      "stage": "10",
+      "passive": "40% chance for Glowy (8×)\n20% chance for Greedy (5×)\n+7% chance for Shiny (1.85×)\n+7% chance for Sparkling (1.85×)",
+      "maxWeight": "200,000"
+    }
+  },
+  "training-rod": {
+    "description": "The Training Rod is a Stage 1 Fishing Rod obtained in Moosewood for C$300.\n\nHandy fishing rod for honing your fishing skills. Remember, stay calm.\nThe Training Rod is a Stage 1 Fishing Rod with low overall stats and a focus on stability and control.",
+    "obtainment": "Moosewood",
+    "infoboxStats": {
+      "obtainedFrom": "Moosewood",
+      "price": "C$300",
+      "stage": "1",
+      "maxWeight": "9"
+    }
+  }
+}

@@ -131,16 +131,25 @@ const schema = {
       </div>
     )}
 
-    <!-- How to Obtain -->
-    {item.obtainment && item.obtainment.length > 0 && (
-      <div class="td__section">
-        <h2 class="td__section-title">How to Obtain</h2>
-        <ul class="td__obtain-list">
+    <!-- How to Get -->
+    {(item.obtainment && item.obtainment.length > 0) && (
+      <details class="htg-accordion" open>
+        <summary class="htg-accordion__toggle">
+          <span class="htg-accordion__icon">📖</span>
+          <span class="htg-accordion__text">How to Get</span>
+          <svg class="htg-accordion__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 8 10 12 14 8"/></svg>
+        </summary>
+        <div class="htg-accordion__body">
           {item.obtainment.map(o => (
-            <li class="td__obtain-item">{o}</li>
+            <p class="htg-accordion__para">{o}</p>
           ))}
-        </ul>
-      </div>
+          {item.crates && item.crates.length > 0 && item.crates[0].name && !item.crates[0].name.includes('angler_quests') && (
+            <p class="htg-accordion__para">
+              Found in crates: {item.crates.filter(c => c.name && !c.name.includes('angler_quests')).map(c => c.name + (c.rate ? ` (${c.rate}/crate avg.)` : '')).join(', ')}.
+            </p>
+          )}
+        </div>
+      </details>
     )}
 
     <a href="/games/fisch/baits/" class="td__back">&larr; All Baits</a>
@@ -202,8 +211,20 @@ const schema = {
   .td__crate-name { font-size: 0.88rem; color: var(--text); font-weight: 500; }
   .td__crate-rate { font-size: 0.78rem; color: var(--text-dim); font-family: var(--font-mono); }
 
-  .td__obtain-list { margin: 0; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.35rem; }
-  .td__obtain-item { font-size: 0.88rem; color: var(--text-dim); line-height: 1.6; }
+  /* How to Get Accordion */
+  .htg-accordion { border: 1px solid rgba(34, 211, 238, 0.4); border-radius: 12px; background: rgba(34, 211, 238, 0.08); overflow: hidden; margin-bottom: 1.25rem; }
+  .htg-accordion__toggle { display: flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1rem; cursor: pointer; color: #22d3ee; list-style: none; transition: background 0.2s; }
+  .htg-accordion__toggle::-webkit-details-marker { display: none; }
+  .htg-accordion__toggle:hover { background: rgba(34, 211, 238, 0.18); }
+  .htg-accordion__icon { font-size: 1.1rem; flex-shrink: 0; }
+  .htg-accordion__text { font-family: var(--font-display); font-size: 0.95rem; font-weight: 700; letter-spacing: 0.04em; }
+  .htg-accordion__chevron { margin-left: auto; flex-shrink: 0; transition: transform 0.3s ease; }
+  .htg-accordion[open] > .htg-accordion__toggle .htg-accordion__chevron { transform: rotate(180deg); }
+  .htg-accordion__body { padding: 0 1rem 1rem; border-top: 1px solid rgba(34, 211, 238, 0.2); animation: htg-slide-down 0.3s ease; }
+  @keyframes htg-slide-down { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+  .htg-accordion__para { font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; }
+  .htg-accordion__para:first-child { margin-top: 1rem; }
+  .htg-accordion__para + .htg-accordion__para { margin-top: 0.75rem; }
 
   .td__back {
     display: inline-flex; align-items: center; gap: 0.3rem;
@@ -217,5 +238,9 @@ const schema = {
     .td__hero-img { width: 120px; height: 120px; }
     .td__badges-top { justify-content: center; }
     .td__title { font-size: 1.25rem; }
+    .htg-accordion__toggle { min-height: 48px; }
+    .htg-accordion__text { font-size: 1rem; }
+    .htg-accordion__para { font-size: 1rem; line-height: 1.7; }
+    .htg-accordion__para + .htg-accordion__para { margin-top: 1rem; }
   }
 </style>
