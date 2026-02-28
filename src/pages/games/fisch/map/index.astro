@@ -210,8 +210,18 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
   }
   :global(.fwm-det--on) { opacity: 1; pointer-events: all; transform: scale(1); }
 
+  /* ====== BALLOON AERIAL BACKGROUND ====== */
+  :global(.fwm-balloon) {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; z-index: 0; pointer-events: none;
+  }
+  :global(.fwm-balloon-ov) {
+    position: absolute; inset: 0; z-index: 1; pointer-events: none;
+    background: rgba(0,0,0,0.3);
+  }
+
   /* ====== MINIMAP (left) ====== */
-  :global(.fwm-mm) { flex: 1; position: relative; overflow: visible; cursor: default; }
+  :global(.fwm-mm) { flex: 1; position: relative; overflow: visible; cursor: default; z-index: 2; }
   :global(.fwm-mm__bg) { position: absolute; inset: 0; }
   :global(.fwm-sil) {
     position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
@@ -307,7 +317,7 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
 
   /* ====== INFO PANEL (right) ====== */
   :global(.fwm-ip) {
-    width: 280px; flex-shrink: 0;
+    width: 280px; flex-shrink: 0; z-index: 2;
     background: rgba(8,14,26,0.92); backdrop-filter: blur(12px);
     border-left: 1px solid rgba(255,255,255,0.06);
     display: flex; flex-direction: column; overflow-y: auto;
@@ -401,8 +411,8 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     :global(.fwm-isle__f) { font-size: 7px; padding: 0 3px; }
 
     :global(.fwm-det) { flex-direction: column; }
-    :global(.fwm-mm) { min-height: 45%; }
-    :global(.fwm-ip) { width: 100%; border-left: none; border-top: 1px solid rgba(255,255,255,0.06); max-height: 55%; }
+    :global(.fwm-mm) { min-height: 55%; }
+    :global(.fwm-ip) { width: 100%; border-left: none; border-top: 1px solid rgba(255,255,255,0.06); max-height: 45%; }
 
     :global(.fwm-sub--xl .fwm-sub__w) { width: 48px; height: 48px; }
     :global(.fwm-sub--lg .fwm-sub__w) { width: 42px; height: 42px; }

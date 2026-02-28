@@ -141,6 +141,20 @@ const BIOME: Record<string, { fill: string; stroke: string }> = {
   mystic:   { fill: '#581c87', stroke: '#9333ea' },
 };
 
+/* ---- Balloon aerial images ---- */
+const BALLOON: Record<string,string> = {
+  'moosewood': '/images/locations/balloon/balloon-moosewood.png',
+  'roslit-bay': '/images/locations/balloon/balloon-roslit-bay.png',
+  'snowcap-island': '/images/locations/balloon/balloon-snowcap-island.png',
+  'sunstone-island': '/images/locations/balloon/balloon-sunstone.png',
+  'mushgrove-swamp': '/images/locations/balloon/balloon-mushgrove.png',
+  'terrapin-island': '/images/locations/balloon/balloon-terrapin.png',
+  'ancient-isle': '/images/locations/balloon/balloon-ancient-isle.png',
+  'forsaken-shores': '/images/locations/balloon/balloon-forsaken-shores.png',
+  'castaway-cliffs': '/images/locations/balloon/balloon-castaway-cliffs.png',
+  'keepers-altar': '/images/locations/balloon/balloon-statue-of-sovereignty.png',
+};
+
 /* ---- Island groups ---- */
 interface IslandGroup {
   id: string; name: string; icon: string; biome: string;
@@ -307,6 +321,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const oPos = useMemo(() => orbitPos(oFish.length), [oFish.length]);
 
   const biome = selGrp ? BIOME[selGrp.biome] || BIOME.ocean : BIOME.ocean;
+  const balloonUrl = selGrp ? BALLOON[selGrp.id] || null : null;
 
   /* Center position for Level 3 (selected sub moves here) */
   const CENTER = { left: '42%', top: '42%' };
@@ -387,18 +402,31 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
         {/* LEVEL 2+3: ISLAND DETAIL */}
         <div className={`fwm-det${level>=2?' fwm-det--on':''}`}>
           {selGrp && (<>
+            {/* Full-frame balloon aerial background */}
+            {balloonUrl && (
+              <>
+                <img src={balloonUrl} className="fwm-balloon" alt={selGrp.name} />
+                <div className="fwm-balloon-ov"/>
+              </>
+            )}
+
             {/* Left: minimap with sub-zone image circles */}
             <div className="fwm-mm" onClick={() => level===3 && back()}>
-              <div className="fwm-mm__bg"
-                style={{ background: `linear-gradient(180deg, ${biome.fill} 0%, ${biome.fill}80 40%, #0a1f3a 100%)` }}>
-                <div className="fwm-grid" style={{ opacity: 0.02 }}/>
-              </div>
+              {/* Fallback gradient background when no balloon */}
+              {!balloonUrl && (
+                <div className="fwm-mm__bg"
+                  style={{ background: `linear-gradient(180deg, ${biome.fill} 0%, ${biome.fill}80 40%, #0a1f3a 100%)` }}>
+                  <div className="fwm-grid" style={{ opacity: 0.02 }}/>
+                </div>
+              )}
 
-              {/* Silhouette SVG */}
-              <svg className="fwm-sil" viewBox="0 0 340 220">
-                <path d={islandPath(selGrp.name, 170, 110, 130, 85)}
-                  fill={`${biome.fill}25`} stroke={`${biome.stroke}30`} strokeWidth="1"/>
-              </svg>
+              {/* Procedural silhouette only when no balloon */}
+              {!balloonUrl && (
+                <svg className="fwm-sil" viewBox="0 0 340 220">
+                  <path d={islandPath(selGrp.name, 170, 110, 130, 85)}
+                    fill={`${biome.fill}25`} stroke={`${biome.stroke}30`} strokeWidth="1"/>
+                </svg>
+              )}
 
               {/* Sub-zone IMAGE circles */}
               {selGrp.childLocs.map((loc, i) => {
