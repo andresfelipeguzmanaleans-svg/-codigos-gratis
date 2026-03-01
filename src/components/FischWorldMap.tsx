@@ -48,7 +48,7 @@ function blobClipPath(name: string): string {
   for (let i = 0; i < n; i++) {
     const a = (i / n) * Math.PI * 2;
     const noise = 0.78 + r() * 0.44;
-    pts.push([50 + Math.cos(a) * 42 * noise, 50 + Math.sin(a) * 42 * noise]);
+    pts.push([50 + Math.cos(a) * 46 * noise, 50 + Math.sin(a) * 46 * noise]);
   }
   let d = `M${pts[0][0].toFixed(1)},${pts[0][1].toFixed(1)}`;
   for (let i = 0; i < n; i++) {
@@ -208,11 +208,17 @@ const BALLOON: Record<string,string> = {
 /* ---- GPS → map position ---- */
 const GPS_BOUNDS = { minX: -3800, maxX: 6300, minZ: -3400, maxZ: 3900 };
 function gpsToPercent(gx: number, gz: number): { left: number; top: number } {
+  // Compress X beyond ±3000 to reclaim space from outliers (Ancient Isle)
+  const cx = gx > 3000 ? 3000 + (gx - 3000) * 0.4
+           : gx < -3000 ? -3000 + (gx + 3000) * 0.4
+           : gx;
   const rZ = GPS_BOUNDS.maxZ - GPS_BOUNDS.minZ; // 7300
   const rX = rZ * (16 / 9);                     // ~12978 (16:9 adjusted)
-  const cX = (GPS_BOUNDS.minX + GPS_BOUNDS.maxX) / 2; // 1250
+  const cMinX = -3000 + (GPS_BOUNDS.minX + 3000) * 0.4;
+  const cMaxX = 3000 + (GPS_BOUNDS.maxX - 3000) * 0.4;
+  const centerX = (cMinX + cMaxX) / 2;
   return {
-    left: ((gx - (cX - rX / 2)) / rX) * 94 + 3,
+    left: ((cx - (centerX - rX / 2)) / rX) * 94 + 3,
     top: ((gz - GPS_BOUNDS.minZ) / rZ) * 94 + 3,
   };
 }
@@ -233,7 +239,7 @@ function resolveOverlaps(
     x: (parseFloat(it.left) / 100) * MW,
     y: (parseFloat(it.top) / 100) * MH,
     rw: it.w / 2 + 10,
-    rh: it.w * 0.375 + 22,
+    rh: it.w / 2 + 24,
   }));
   for (let iter = 0; iter < 40; iter++) {
     let moved = false;
@@ -359,6 +365,10 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const [showAllOrbit, setShowAllOrbit] = useState(false);
   const [filter, setFilter] = useState<string>('all');
   const [search, setSearch] = useState('');
+  const [whereX, setWhereX] = useState('');
+  const [whereY, setWhereY] = useState('');
+  const [whereZ, setWhereZ] = useState('');
+  const [marker, setMarker] = useState<{ left: string; top: string; nearest: string; dist: number } | null>(null);
 
   /* Selected group (or virtual for events) */
   const selGrp = useMemo(() => {
@@ -411,6 +421,20 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     if (level === 3) { setSelSubId(null); setLevel(2); }
     else if (level === 2) exit();
   }, [level, exit]);
+
+  /* "Where Am I?" — find position on map */
+  const findMe = useCallback(() => {
+    const x = parseFloat(whereX), z = parseFloat(whereZ);
+    if (isNaN(x) || isNaN(z)) return;
+    const pos = gpsPos(x, z);
+    let nearest = '', minDist = Infinity;
+    for (const g of GROUPS) {
+      const dx = g.gps.x - x, dz = g.gps.z - z;
+      const dist = Math.sqrt(dx * dx + dz * dz);
+      if (dist < minDist) { minDist = dist; nearest = g.name; }
+    }
+    setMarker({ ...pos, nearest, dist: Math.round(minDist) });
+  }, [whereX, whereZ]);
 
   /* Escape key */
   useEffect(() => {
@@ -476,6 +500,23 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
         </div>
       </div>
 
+      {/* Where Am I? */}
+      <div className="fwm-where">
+        <span className="fwm-where__lbl">📍 Where Am I?</span>
+        <div className="fwm-where__row">
+          <input type="number" placeholder="X" value={whereX}
+            onChange={e => setWhereX(e.target.value)} className="fwm-where__in"
+            onKeyDown={e => e.key === 'Enter' && findMe()} />
+          <input type="number" placeholder="Y" value={whereY}
+            onChange={e => setWhereY(e.target.value)} className="fwm-where__in fwm-where__in--y" />
+          <input type="number" placeholder="Z" value={whereZ}
+            onChange={e => setWhereZ(e.target.value)} className="fwm-where__in"
+            onKeyDown={e => e.key === 'Enter' && findMe()} />
+          <button className="fwm-where__btn" onClick={findMe}>Find me</button>
+          {marker && <button className="fwm-where__clr" onClick={() => setMarker(null)}>✕</button>}
+        </div>
+      </div>
+
       {/* Breadcrumb */}
       <div className="fwm-bread">
         {level === 1 ? (
@@ -520,7 +561,11 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           </svg>
 
           <span className="fwm-rl fwm-rl--1">— First Sea —</span>
-          <span className="fwm-rl fwm-rl--2">— Second Sea —</span>
+
+          {/* Sea divider */}
+          <div className="fwm-sea-div" style={{ top: `${gpsToPercent(0, 2900).top}%` }}>
+            <span>Second Sea</span>
+          </div>
 
           {/* Compass rose */}
           <svg className="fwm-compass" viewBox="0 0 60 60" width="44" height="44">
@@ -572,31 +617,30 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             const b = BIOME[g.biome] || BIOME.ocean;
             const imgSrc = ISLE_IMG[g.id] || g.imagePath;
             const pos = resolvedPos[gi];
-            const h = g.w * 0.75;
             const clipId = `clip-${g.id}`;
             const clipD = blobClipPath(g.name);
             return (
               <div key={g.id} className="fwm-isle"
                 style={{
                   left: pos?.left || g.left, top: pos?.top || g.top,
-                  width: g.w, height: h,
+                  width: g.w, height: g.w,
                   opacity: vis ? 1 : 0.15,
                 }}
                 onClick={() => vis && enter(g.id)}>
-                <svg className="fwm-isle__svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <svg className="fwm-isle__svg" viewBox="-10 -10 120 120" preserveAspectRatio="none">
                   <defs>
                     <clipPath id={clipId} clipPathUnits="userSpaceOnUse">
                       <path d={clipD}/>
                     </clipPath>
                   </defs>
                   <g clipPath={`url(#${clipId})`}>
-                    <rect width="100" height="100" fill={b.fill}/>
+                    <rect x="-10" y="-10" width="120" height="120" fill={b.fill}/>
                     {imgSrc && (
-                      <image href={imgSrc} x="-10" y="-10" width="120" height="120"
+                      <image href={imgSrc} x="-20" y="-20" width="140" height="140"
                         preserveAspectRatio="xMidYMid slice"/>
                     )}
-                    <rect className="fwm-isle__ov" width="100" height="100"
-                      fill={b.fill} opacity="0.3"/>
+                    <rect className="fwm-isle__ov" x="-10" y="-10" width="120" height="120"
+                      fill={b.fill} opacity="0.25"/>
                   </g>
                 </svg>
                 <span className="fwm-isle__n" style={{ color: b.stroke }}>{g.name}</span>
@@ -604,6 +648,18 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
               </div>
             );
           })}
+
+          {/* Where Am I? marker */}
+          {marker && level === 1 && (
+            <div className="fwm-marker" style={{ left: marker.left, top: marker.top }}>
+              <div className="fwm-marker__dot"/>
+              <div className="fwm-marker__tip">
+                <strong>📍 You are here</strong><br/>
+                Nearest: {marker.nearest}<br/>
+                ~{marker.dist} studs away
+              </div>
+            </div>
+          )}
         </div>
 
         {/* LEVEL 2+3: ISLAND DETAIL */}
