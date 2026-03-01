@@ -80,11 +80,11 @@ const ISLE_IMG: Record<string,string> = {
   'snowcap-island': '/images/locations/snowcap-island.png',
   'waveborne': '/images/locations/waveborne.png',
   'treasure-island': '/images/locations/treasure-island.png',
-  'birch-cay': '/images/locations/balloon/balloon-birch-cay.png',
-  'the-arch': '/images/locations/balloon/balloon-the-arch.png',
+  'birch-cay': '/images/locations/birch-cay.png',
+  'the-arch': '/images/locations/the-arch.png',
   'earmark-island': '/images/locations/balloon/balloon-earmark-island.png',
   'harvesters-spike': '/images/locations/balloon/balloon-harvesters-spike.png',
-  'statue-of-sovereignty': '/images/locations/balloon/balloon-statue-of-sovereignty.png',
+  'statue-of-sovereignty': '/images/locations/statue-of-sovereignty.png',
   'the-laboratory': '/images/locations/balloon/balloon-laboratory.png',
 };
 
