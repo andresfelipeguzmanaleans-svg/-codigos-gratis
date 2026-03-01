@@ -94,7 +94,7 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     background: #0f1b2d;
   }
   /* Override Leaflet default icon styles */
-  :global(.leaflet-div-icon) { background: transparent !important; border: none !important; }
+  :global(.leaflet-div-icon) { background: transparent !important; border: none !important; overflow: visible !important; }
   /* Leaflet zoom controls styled to match site */
   :global(.leaflet-control-zoom) { border: none !important; }
   :global(.leaflet-control-zoom a) {
@@ -193,6 +193,7 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
 
   /* ====== ISLAND NODES (inside Leaflet divIcon) ====== */
   :global(.fwm-isle) {
+    position: relative;
     display: flex; flex-direction: column; align-items: center;
     cursor: pointer;
     filter: drop-shadow(0 4px 12px rgba(0,0,0,0.6));
@@ -247,22 +248,23 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
   }
   :global(.fwm-poi:hover .fwm-poi__n) { color: #22d3ee; }
 
-  /* ====== FISH ORBIT DOTS ====== */
+  /* ====== FISH ORBIT (children of island divIcon) ====== */
+  :global(.fwm-orbit) {
+    position: absolute; width: 0; height: 0;
+    pointer-events: none; z-index: 10;
+  }
   :global(.fwm-fdot) {
+    position: absolute;
     display: flex; align-items: center; justify-content: center;
     border-radius: 50%; overflow: hidden;
     border: 1.5px solid rgba(255,255,255,0.15);
     box-shadow: 0 1px 4px rgba(0,0,0,0.4);
     text-decoration: none; cursor: pointer;
-    transition: transform 0.15s;
+    pointer-events: auto;
+    transition: scale 0.15s;
   }
-  :global(.fwm-fdot:hover) { transform: scale(1.3); z-index: 100 !important; }
+  :global(.fwm-fdot:hover) { scale: 1.3; z-index: 100 !important; }
   :global(.fwm-fdot img) { filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4)); }
-  :global(.fwm-fdot__n) {
-    display: block; font-size: 6px; font-weight: 600; color: #fff;
-    text-shadow: 0 1px 3px #000; white-space: nowrap; text-align: center;
-    margin-top: 1px;
-  }
 
   /* ====== INFO PANEL ====== */
   :global(.fwm-panel) {

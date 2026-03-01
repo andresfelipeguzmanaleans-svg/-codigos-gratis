@@ -264,7 +264,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const mapRef = useRef<L.Map | null>(null);
   const islandLayerRef = useRef<L.LayerGroup>(L.layerGroup());
   const specialLayerRef = useRef<L.LayerGroup>(L.layerGroup());
-  const fishLayerRef = useRef<L.LayerGroup>(L.layerGroup());
   const gridLayerRef = useRef<L.LayerGroup>(L.layerGroup());
   const whereMarkerRef = useRef<L.Marker | null>(null);
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
@@ -438,6 +437,39 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
         const imgSrc = ISLE_IMG[g.id] || g.imagePath || '';
         const clipD = blobClipPath(g.name);
 
+        // Fish orbit as children of this divIcon (CSS pixel positioning)
+        let fishOrbitHtml = '';
+        if (currentZoom >= 0 && g.allFish.length > 0) {
+          const fishList = getFishForZoom(g.allFish, currentZoom);
+          if (fishList.length > 0) {
+            const dotSz = currentZoom >= 1 ? 22 : 16;
+            const half = dotSz / 2;
+            let dots = '';
+
+            let rings: { fish: typeof fishList; r: number }[];
+            if (fishList.length > 12) {
+              const rare = fishList.filter(f => (RAR_ORD[f.rarity] || 0) >= 7);
+              const rest = fishList.filter(f => (RAR_ORD[f.rarity] || 0) < 7);
+              rings = [];
+              if (rare.length > 0) rings.push({ fish: rare, r: 60 });
+              if (rest.length > 0) rings.push({ fish: rest, r: 100 });
+            } else {
+              rings = [{ fish: fishList, r: 70 }];
+            }
+
+            for (const ring of rings) {
+              const n = ring.fish.length;
+              ring.fish.forEach((f, i) => {
+                const deg = Math.round((360 / n) * i - 90);
+                const fid = f.id || slug(f.name);
+                const rc = RAR_CLR[f.rarity] || '#94a3b8';
+                dots += `<a href="/games/${gameSlug}/fish/${fid}/" class="fwm-fdot" onclick="event.stopPropagation()" title="${f.name} (${f.rarity})" style="left:${-half}px;top:${-half}px;transform:rotate(${deg}deg) translateX(${ring.r}px) rotate(${-deg}deg);width:${dotSz}px;height:${dotSz}px;border-color:${rc}60;background:linear-gradient(135deg,${rc}30,${rc}0d);"><img src="/images/fish/${fid}.png" alt="" loading="lazy" style="width:${dotSz-4}px;height:${dotSz-4}px;object-fit:contain;"/></a>`;
+              });
+            }
+            fishOrbitHtml = `<div class="fwm-orbit" style="left:${iconPx/2}px;top:${iconPx/2}px;">${dots}</div>`;
+          }
+        }
+
         const html = `
           <div class="fwm-isle${isSelected ? ' fwm-isle--sel' : ''}" style="width:${iconPx}px;">
             <svg class="fwm-isle__svg" viewBox="-10 -10 120 120" style="width:${iconPx}px;height:${iconPx}px;">
@@ -450,6 +482,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             </svg>
             <span class="fwm-isle__n">${g.name}</span>
             ${g.totalFish > 0 ? `<span class="fwm-isle__f">${g.totalFish} fish</span>` : ''}
+            ${fishOrbitHtml}
           </div>
         `;
 
@@ -490,70 +523,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
         markersRef.current.set(g.id, m);
       }
     }
-  }, [groups, currentZoom, visIds, selectedId, selectItem, containerWidth]);
-
-  /* ---- Fish orbit markers (zoom-dependent) ---- */
-  useEffect(() => {
-    const map = mapRef.current;
-    if (!map) return;
-
-    fishLayerRef.current.clearLayers();
-
-    if (currentZoom < 0) return; // no fish at overview zoom
-
-    // Only show fish for islands in current viewport
-    const bounds = map.getBounds();
-
-    for (const g of groups) {
-      if (!visIds.has(g.id)) continue;
-      const latLng = gameToLatLng(g.gps);
-      if (!bounds.contains(latLng as L.LatLngExpression)) continue;
-
-      const fishList = getFishForZoom(g.allFish, currentZoom);
-      if (fishList.length === 0) continue;
-
-      // Orbit radius in GPS units (fixed, so it grows visually with zoom)
-      const orbitR = g.size === 'lg' ? 120 : g.size === 'md' ? 90 : 60;
-
-      fishList.forEach((f, i) => {
-        const angle = (i / fishList.length) * Math.PI * 2 - Math.PI / 2;
-        const offsetZ = Math.sin(angle) * orbitR; // negative because lat = -Z
-        const offsetX = Math.cos(angle) * orbitR;
-        const fishLatLng: L.LatLngExpression = [
-          -g.gps.z - offsetZ,
-          g.gps.x + offsetX,
-        ];
-
-        const fid = f.id || slug(f.name);
-        const rarColor = RAR_CLR[f.rarity] || '#94a3b8';
-        const showName = currentZoom >= 2;
-        const dotSize = currentZoom >= 1 ? 24 : 18;
-
-        const html = `
-          <a href="/games/${gameSlug}/fish/${fid}/" class="fwm-fdot" title="${f.name} (${f.rarity})"
-            style="width:${dotSize}px;height:${dotSize}px;border-color:${rarColor}60;background:linear-gradient(135deg,${rarColor}30,${rarColor}0d);">
-            <img src="/images/fish/${fid}.png" alt="${f.name}" loading="lazy"
-              style="width:${dotSize - 4}px;height:${dotSize - 4}px;object-fit:contain;"/>
-          </a>
-          ${showName ? `<span class="fwm-fdot__n">${f.name}</span>` : ''}
-        `;
-
-        const icon = L.divIcon({
-          html,
-          className: '',
-          iconSize: [dotSize, showName ? dotSize + 14 : dotSize],
-          iconAnchor: [dotSize / 2, dotSize / 2],
-        });
-
-        L.marker(fishLatLng, { icon }).addTo(fishLayerRef.current);
-      });
-    }
-
-    // Also add fish layer to map if not already
-    if (!map.hasLayer(fishLayerRef.current)) {
-      fishLayerRef.current.addTo(map);
-    }
-  }, [currentZoom, groups, visIds, gameSlug]);
+  }, [groups, currentZoom, visIds, selectedId, selectItem, containerWidth, gameSlug]);
 
   /* "Where Am I?" */
   const findMe = useCallback(() => {
