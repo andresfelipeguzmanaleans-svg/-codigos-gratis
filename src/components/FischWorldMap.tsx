@@ -419,7 +419,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const canvasRef = useRef<HTMLDivElement>(null);
   const dragRef = useRef<{ x: number; y: number; panX: number; panY: number; moved: boolean } | null>(null);
   const wasDrag = useRef(false);
-  const clickTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pinchRef = useRef<{ dist: number; zoom: number; cx: number; cy: number } | null>(null);
 
   /* Dynamic grid ticks based on zoom */
@@ -441,7 +440,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const canvasStyle: React.CSSProperties = useMemo(() => ({
     transform: `translate(${pan.x}px,${pan.y}px) scale(${zoom})`,
     transformOrigin: '0 0',
-    transition: isDragging ? 'none' : 'transform 0.15s ease-out',
+    transition: isDragging ? 'none' : 'transform 0.25s ease-out',
   }), [pan, zoom, isDragging]);
 
   /* Ancient Isle Y position on screen (for off-screen indicator) */
@@ -521,17 +520,10 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     else if (level === 2) exit();
   }, [level, exit]);
 
-  /* Island click with debounce for double-click distinction */
+  /* Island click — direct, no debounce */
   const handleIslandClick = useCallback((id: string) => {
-    if (clickTimer.current) {
-      clearTimeout(clickTimer.current);
-      clickTimer.current = null;
-      return;
-    }
-    clickTimer.current = setTimeout(() => {
-      clickTimer.current = null;
-      enter(id);
-    }, 250);
+    if (wasDrag.current) return;
+    enter(id);
   }, [enter]);
 
   /* ---- Zoom helpers ---- */
@@ -551,44 +543,48 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     setZoom(1); setPan({ x: 0, y: 0 });
   }, []);
 
-  /* ---- Pointer drag ---- */
+  /* ---- Pointer drag (only starts after 8px movement) ---- */
   const handlePointerDown = useCallback((e: React.PointerEvent) => {
     if (level !== 1 || e.button !== 0) return;
+    if (zoom <= 1) return; // No drag at zoom 1x
     dragRef.current = { x: e.clientX, y: e.clientY, panX: pan.x, panY: pan.y, moved: false };
-    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
-  }, [pan, level]);
+  }, [pan, level, zoom]);
 
   const handlePointerMove = useCallback((e: React.PointerEvent) => {
     const d = dragRef.current;
     if (!d) return;
     const dx = e.clientX - d.x, dy = e.clientY - d.y;
-    if (!d.moved && Math.abs(dx) < 5 && Math.abs(dy) < 5) return;
-    d.moved = true;
-    setIsDragging(true);
+    if (!d.moved) {
+      if (Math.abs(dx) < 8 && Math.abs(dy) < 8) return;
+      d.moved = true;
+      setIsDragging(true);
+      // Start capture only after confirmed drag
+      try { (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId); } catch {}
+    }
     const frame = frameRef.current;
     if (!frame) return;
     setPan(clampPan(d.panX + dx, d.panY + dy, zoom, frame.clientWidth, frame.clientHeight));
   }, [zoom]);
 
   const handlePointerUp = useCallback((e: React.PointerEvent) => {
-    wasDrag.current = dragRef.current?.moved || false;
+    const d = dragRef.current;
+    wasDrag.current = d?.moved || false;
     dragRef.current = null;
-    setIsDragging(false);
-    try { (e.currentTarget as HTMLElement).releasePointerCapture(e.pointerId); } catch {}
+    if (d?.moved) {
+      setIsDragging(false);
+      try { (e.currentTarget as HTMLElement).releasePointerCapture(e.pointerId); } catch {}
+    }
   }, []);
 
-  /* ---- Double-click zoom ---- */
+  /* ---- Double-click zoom (zoom 2x centered on click) ---- */
   const handleDblClick = useCallback((e: React.MouseEvent) => {
-    if (clickTimer.current) {
-      clearTimeout(clickTimer.current);
-      clickTimer.current = null;
-    }
     if (level !== 1) return;
+    e.preventDefault();
     const frame = frameRef.current;
     if (!frame) return;
     const rect = frame.getBoundingClientRect();
     const mx = e.clientX - rect.left, my = e.clientY - rect.top;
-    const nz = Math.min(ZOOM_MAX, zoom < 2 ? 2 : zoom < 4 ? 4 : 4);
+    const nz = Math.min(ZOOM_MAX, zoom + 1);
     if (nz === zoom) return;
     const newPanX = mx - ((mx - pan.x) / zoom) * nz;
     const newPanY = my - ((my - pan.y) / zoom) * nz;
@@ -612,7 +608,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
   /* ---- Effects ---- */
 
-  /* Wheel zoom (needs passive:false) */
+  /* Wheel zoom (needs passive:false) — smooth step-based zoom */
   useEffect(() => {
     const frame = frameRef.current;
     if (!frame || level !== 1) return;
@@ -620,9 +616,11 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
       e.preventDefault();
       const rect = frame.getBoundingClientRect();
       const mx = e.clientX - rect.left, my = e.clientY - rect.top;
-      const delta = -e.deltaY * 0.001;
+      // Step-based zoom: 0.15x per scroll tick, centered on cursor
+      const step = e.deltaY > 0 ? -0.15 : 0.15;
       setZoom(prevZoom => {
-        const nz = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, prevZoom * (1 + delta)));
+        const nz = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, prevZoom + step));
+        if (nz === prevZoom) return prevZoom;
         setPan(prevPan => {
           const newPanX = mx - ((mx - prevPan.x) / prevZoom) * nz;
           const newPanY = my - ((my - prevPan.y) / prevZoom) * nz;
@@ -860,36 +858,55 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
               })}
             </svg>
 
-            {/* ===== SPECIAL ZONE ICONS (appear at zoom >= 2x) ===== */}
+            {/* ===== SPECIAL ZONE ICONS (blurred hint at 1x, clear at >=1.8x) ===== */}
             {groups.map((g, gi) => {
               if (g.type !== 'special') return null;
               const vis = visIds.has(g.id);
-              // POI icons fade in at zoom >= 1.8
-              const zoomOp = zoom < 1.8 ? 0 : zoom < 2.3 ? (zoom - 1.8) / 0.5 : 1;
-              if (zoomOp <= 0 && vis) return null;
+              // Blurred hint at low zoom, fully clear at 1.8+
+              const revealed = zoom >= 1.8;
+              const hintOp = revealed ? 1 : 0.25;
+              const hintBlur = revealed ? 0 : 2;
               const pos = resolvedPos[gi];
               const posLeft = pos?.left || g.left;
               const posTop = pos?.top || g.top;
               return (
                 <div key={g.id} className="fwm-poi"
-                  style={{ left: posLeft, top: posTop, opacity: vis ? zoomOp : 0.15, transition: 'opacity 0.3s' }}
-                  onClick={(e) => { e.stopPropagation(); if (!wasDrag.current && vis && zoomOp > 0.5) handleIslandClick(g.id); }}>
+                  style={{
+                    left: posLeft, top: posTop,
+                    opacity: vis ? hintOp : 0.1,
+                    filter: hintBlur > 0 ? `blur(${hintBlur}px)` : 'none',
+                    transition: 'opacity 0.4s, filter 0.4s',
+                  }}
+                  onClick={(e) => { e.stopPropagation(); if (!wasDrag.current && vis && revealed) handleIslandClick(g.id); }}>
                   <span className="fwm-poi__i">{g.icon}</span>
                   <span className="fwm-poi__n">{g.label || g.name} · {g.totalFish} fish</span>
                 </div>
               );
             })}
 
-            {/* ===== ISLAND BLOBS (lg always visible, md/sm appear with zoom) ===== */}
+            {/* ===== ISLAND BLOBS (lg clear, md/sm blurred hints that sharpen with zoom) ===== */}
             {groups.map((g, gi) => {
               if (g.type !== 'island' || g.id === 'ancient-isle') return null;
               const vis = visIds.has(g.id);
-              // Progressive reveal: lg=always, md=zoom>=1.3, sm=zoom>=1.6
-              const zoomOp = g.size === 'lg' ? 1
-                : g.size === 'md' ? (zoom < 1.3 ? 0 : zoom < 1.6 ? (zoom - 1.3) / 0.3 : 1)
-                : (zoom < 1.6 ? 0 : zoom < 2.0 ? (zoom - 1.6) / 0.4 : 1);
-              if (zoomOp <= 0 && vis) return null;
-              const finalOp = vis ? zoomOp : 0.1;
+              // Progressive reveal with blur hint:
+              // lg: always clear
+              // md: blurred hint at 1x, clear at 1.3+
+              // sm: blurred hint at 1x, clear at 1.6+
+              let opacity: number, blur: number, clickable: boolean;
+              if (g.size === 'lg') {
+                opacity = 1; blur = 0; clickable = true;
+              } else if (g.size === 'md') {
+                const t = zoom < 1.3 ? 0 : zoom < 1.6 ? (zoom - 1.3) / 0.3 : 1;
+                opacity = 0.2 + t * 0.8;  // 0.2 → 1
+                blur = (1 - t) * 3;       // 3px → 0
+                clickable = t > 0.3;
+              } else {
+                const t = zoom < 1.6 ? 0 : zoom < 2.0 ? (zoom - 1.6) / 0.4 : 1;
+                opacity = 0.15 + t * 0.85;  // 0.15 → 1
+                blur = (1 - t) * 4;          // 4px → 0
+                clickable = t > 0.3;
+              }
+              if (!vis) opacity = 0.08;
               const pos = resolvedPos[gi];
               const posLeft = pos?.left || g.left;
               const posTop = pos?.top || g.top;
@@ -899,8 +916,13 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
               const clipD = blobClipPath(g.name);
               return (
                 <div key={g.id} className={`fwm-isle fwm-isle--${g.size}`}
-                  style={{ left: posLeft, top: posTop, opacity: finalOp, transition: 'opacity 0.3s' }}
-                  onClick={() => { if (!wasDrag.current && vis && zoomOp > 0.5) handleIslandClick(g.id); }}>
+                  style={{
+                    left: posLeft, top: posTop,
+                    opacity,
+                    filter: blur > 0.1 ? `blur(${blur.toFixed(1)}px)` : 'none',
+                    transition: 'opacity 0.4s, filter 0.4s',
+                  }}
+                  onClick={() => { if (!wasDrag.current && vis && clickable) handleIslandClick(g.id); }}>
                   <svg className="fwm-isle__svg" viewBox="-10 -10 120 120" preserveAspectRatio="none">
                     <defs>
                       <clipPath id={clipId} clipPathUnits="userSpaceOnUse">
@@ -938,10 +960,10 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
           {/* ===== VIEWPORT-FIXED UI (does NOT zoom) ===== */}
           <div className="fwm-viewport-ui">
-            {/* Zoom hint (fades out after zoom >1.2) */}
-            {zoom < 1.2 && (
-              <div className="fwm-zoom-hint">
-                Zoom in to discover more islands
+            {/* Zoom hint (fades out after zoom >1.3) */}
+            {zoom < 1.3 && (
+              <div className="fwm-zoom-hint" style={{ opacity: zoom < 1.1 ? 1 : Math.max(0, (1.3 - zoom) / 0.2) }}>
+                🔍 Zoom in to discover more islands
               </div>
             )}
             {/* Dynamic X-axis labels (bottom) */}
