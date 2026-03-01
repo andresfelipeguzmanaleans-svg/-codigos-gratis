@@ -82,10 +82,10 @@ const ISLE_IMG: Record<string,string> = {
   'treasure-island': '/images/locations/treasure-island.png',
   'birch-cay': '/images/locations/birch-cay.png',
   'the-arch': '/images/locations/the-arch.png',
-  'earmark-island': '/images/locations/balloon/balloon-earmark-island.png',
-  'harvesters-spike': '/images/locations/balloon/balloon-harvesters-spike.png',
+  'earmark-island': '/images/locations/earmark-island.png',
+  'harvesters-spike': '/images/locations/harvesters-spike.png',
   'statue-of-sovereignty': '/images/locations/statue-of-sovereignty.png',
-  'the-laboratory': '/images/locations/balloon/balloon-laboratory.png',
+  'the-laboratory': '/images/locations/the-laboratory.png',
 };
 
 /* ---- Weather ---- */
