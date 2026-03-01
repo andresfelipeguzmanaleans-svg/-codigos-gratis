@@ -199,14 +199,11 @@ const EVT_ICO: Record<string,string> = {
   'admin-events':'⭐','fischfright-2025':'🎃','winter-village':'🎄','lego-event-2025':'🧱','fischgiving-2025':'🦃',
 };
 
-/* Icon size by group size and zoom */
-const SIZE_BASE: Record<string, number> = { lg: 48, md: 36, sm: 26 };
+/* Icon size by group size — proportional to container width */
+const SIZE_PCT: Record<string, number> = { lg: 0.12, md: 0.08, sm: 0.05 };
 
-function getIconSize(size: 'lg'|'md'|'sm', zoom: number): number {
-  const base = SIZE_BASE[size];
-  // Scale icon with zoom: at zoom -2 icons are small, at zoom 2 they're large
-  const scale = Math.pow(1.4, zoom + 1);
-  return Math.round(Math.max(16, Math.min(120, base * scale)));
+function getIconSize(size: 'lg'|'md'|'sm', containerWidth: number): number {
+  return Math.round(Math.max(20, containerWidth * SIZE_PCT[size]));
 }
 
 /* Fish to show at a given zoom level */
@@ -260,6 +257,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const [marker, setMarker] = useState<{ nearest: string; dist: number } | null>(null);
   const [currentZoom, setCurrentZoom] = useState(-1);
   const [mapActive, setMapActive] = useState(true);
+  const [containerWidth, setContainerWidth] = useState(1100);
 
   /* Refs */
   const containerRef = useRef<HTMLDivElement>(null);
@@ -330,8 +328,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
       touchZoom: true,
     });
 
-    // Fit to First Sea initially
-    map.fitBounds(L.latLngBounds([-2500, -2800], [2500, 2800]));
+    // Fit to First Sea: Forsaken(-2750) → Snowcap(2625) X, Birch Cay(-2351) → Snowcap(2370) Z
+    map.fitBounds(L.latLngBounds([-2370, -2750], [2351, 2625]), { padding: [50, 50] });
 
     // Add zoom control
     L.control.zoom({ position: 'bottomright' }).addTo(map);
@@ -399,6 +397,18 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     };
   }, []);
 
+  /* Track container width for proportional icon sizes */
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(entries => {
+      for (const e of entries) setContainerWidth(e.contentRect.width);
+    });
+    ro.observe(el);
+    setContainerWidth(el.clientWidth);
+    return () => ro.disconnect();
+  }, []);
+
   /* Mobile tap to interact */
   const activateMap = useCallback(() => {
     setMapActive(true);
@@ -423,7 +433,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
       const isSelected = selectedId === g.id;
 
       if (g.type === 'island') {
-        const iconPx = getIconSize(g.size, currentZoom);
+        const iconPx = getIconSize(g.size, containerWidth);
         const b = BIOME[g.biome] || BIOME.ocean;
         const imgSrc = ISLE_IMG[g.id] || g.imagePath || '';
         const clipD = blobClipPath(g.name);
@@ -480,7 +490,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
         markersRef.current.set(g.id, m);
       }
     }
-  }, [groups, currentZoom, visIds, selectedId, selectItem]);
+  }, [groups, currentZoom, visIds, selectedId, selectItem, containerWidth]);
 
   /* ---- Fish orbit markers (zoom-dependent) ---- */
   useEffect(() => {
