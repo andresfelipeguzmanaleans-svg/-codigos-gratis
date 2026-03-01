@@ -40,20 +40,15 @@ function bestRar(fish: FishEntry[]): string {
 function islSize(c: number) { return c >= 50 ? 'xl' : c >= 30 ? 'lg' : c >= 15 ? 'md' : 'sm'; }
 function subSize(c: number) { return c >= 20 ? 'xl' : c >= 10 ? 'lg' : c >= 5 ? 'md' : 'sm'; }
 
-/* ---- SVG island drawing (anime hand-drawn style) ---- */
-
-/* Rocky island base path — irregular organic shape */
-function rockyPath(name: string, cx: number, cy: number, w: number, h: number): string {
-  const r = rng(hashStr(name + 'rock'));
-  const n = 14 + Math.floor(r() * 4); // 14-17 points
+/* ---- Blob clip-path for islands (organic outline, 0-100 coords) ---- */
+function blobClipPath(name: string): string {
+  const r = rng(hashStr(name + 'blob'));
+  const n = 12;
   const pts: [number,number][] = [];
   for (let i = 0; i < n; i++) {
     const a = (i / n) * Math.PI * 2;
-    const rx = w / 2, ry = h / 2;
-    // More noise at top, flatter at bottom (like a rock sitting in water)
-    const topBias = Math.sin(a) < 0 ? 0.15 : 0.05;
-    const noise = 0.82 + r() * 0.36 + (Math.sin(a) < -0.3 ? r() * topBias : 0);
-    pts.push([cx + Math.cos(a) * rx * noise, cy + Math.sin(a) * ry * noise]);
+    const noise = 0.78 + r() * 0.44;
+    pts.push([50 + Math.cos(a) * 42 * noise, 50 + Math.sin(a) * 42 * noise]);
   }
   let d = `M${pts[0][0].toFixed(1)},${pts[0][1].toFixed(1)}`;
   for (let i = 0; i < n; i++) {
@@ -63,169 +58,47 @@ function rockyPath(name: string, cx: number, cy: number, w: number, h: number): 
   return d + 'Z';
 }
 
-/* Generate decoration elements (trees, snow, lava, etc.) based on biome */
-function biomeDecorations(name: string, cx: number, cy: number, w: number, h: number, biome: string): React.ReactElement[] {
-  const r = rng(hashStr(name + 'deco'));
-  const els: React.ReactElement[] = [];
-  const hw = w * 0.35, hh = h * 0.3;
-
-  if (biome === 'tropical' || biome === 'swamp') {
-    // Palm trees / round trees
-    const count = 3 + Math.floor(r() * 3);
-    for (let i = 0; i < count; i++) {
-      const tx = cx + (r() - 0.5) * hw * 2;
-      const ty = cy - hh * 0.3 + (r() - 0.5) * hh;
-      const th = 8 + r() * 6;
-      const treeColor = biome === 'swamp' ? '#2d5016' : '#15803d';
-      const trunkColor = biome === 'swamp' ? '#4a3520' : '#78350f';
-      els.push(
-        <g key={`t${i}`}>
-          <line x1={tx} y1={ty} x2={tx} y2={ty - th} stroke={trunkColor} strokeWidth="1.5" strokeLinecap="round"/>
-          <ellipse cx={tx} cy={ty - th - 3} rx={4 + r() * 3} ry={3 + r() * 2} fill={treeColor} opacity="0.9"/>
-          <ellipse cx={tx + 1} cy={ty - th - 5} rx={3 + r() * 2} ry={2.5 + r() * 1.5} fill={biome === 'swamp' ? '#3f6212' : '#22c55e'} opacity="0.7"/>
-        </g>
-      );
-    }
-    if (biome === 'swamp') {
-      // Mushrooms
-      for (let i = 0; i < 2; i++) {
-        const mx = cx + (r() - 0.5) * hw;
-        const my = cy - r() * hh * 0.5;
-        els.push(
-          <g key={`m${i}`}>
-            <line x1={mx} y1={my} x2={mx} y2={my - 4} stroke="#d4d4d4" strokeWidth="1"/>
-            <ellipse cx={mx} cy={my - 5} rx={3} ry={2} fill="#dc2626" opacity="0.8"/>
-            <circle cx={mx - 1} cy={my - 5.5} r={0.6} fill="#fff" opacity="0.7"/>
-          </g>
-        );
-      }
-    }
-  } else if (biome === 'volcanic') {
-    // Volcano peak + lava glow
-    const vx = cx, vy = cy - hh * 0.6;
-    els.push(
-      <g key="volcano">
-        <polygon points={`${vx},${vy - 10} ${vx - 8},${vy + 4} ${vx + 8},${vy + 4}`} fill="#44403c" opacity="0.9"/>
-        <polygon points={`${vx},${vy - 7} ${vx - 4},${vy + 1} ${vx + 4},${vy + 1}`} fill="#dc2626" opacity="0.6"/>
-        <ellipse cx={vx} cy={vy - 9} rx={3} ry={1.5} fill="#f97316" opacity="0.8"/>
-        <circle cx={vx} cy={vy - 11} r={2} fill="#fbbf24" opacity="0.4"/>
-      </g>
-    );
-    // Rocks
-    for (let i = 0; i < 2; i++) {
-      const rx2 = cx + (r() - 0.5) * hw * 1.2;
-      const ry2 = cy - r() * hh * 0.3;
-      els.push(<ellipse key={`vr${i}`} cx={rx2} cy={ry2} rx={3+r()*2} ry={2+r()} fill="#57534e" opacity="0.6"/>);
-    }
-  } else if (biome === 'snow') {
-    // Snow cap + ice crystals + evergreen trees
-    els.push(
-      <ellipse key="snowcap" cx={cx} cy={cy - hh * 0.5} rx={hw * 0.8} ry={hh * 0.4} fill="#e2e8f0" opacity="0.5"/>
-    );
-    const count = 2 + Math.floor(r() * 2);
-    for (let i = 0; i < count; i++) {
-      const tx = cx + (r() - 0.5) * hw * 1.5;
-      const ty = cy - hh * 0.2 + (r() - 0.5) * hh * 0.5;
-      const th = 7 + r() * 4;
-      // Triangular evergreen
-      els.push(
-        <g key={`st${i}`}>
-          <polygon points={`${tx},${ty - th} ${tx - 4},${ty} ${tx + 4},${ty}`} fill="#1e3a2f" opacity="0.8"/>
-          <polygon points={`${tx},${ty - th + 2} ${tx - 3},${ty - 2} ${tx + 3},${ty - 2}`} fill="#e2e8f0" opacity="0.4"/>
-        </g>
-      );
-    }
-    // Snowflake dots
-    for (let i = 0; i < 3; i++) {
-      const sx = cx + (r() - 0.5) * hw;
-      const sy = cy - hh * 0.6 - r() * 5;
-      els.push(<circle key={`sf${i}`} cx={sx} cy={sy} r={1} fill="#fff" opacity="0.5"/>);
-    }
-  } else if (biome === 'sand') {
-    // Sandy dunes + palm + ruins
-    els.push(
-      <ellipse key="dune" cx={cx + hw * 0.3} cy={cy - hh * 0.1} rx={hw * 0.5} ry={hh * 0.15} fill="#d97706" opacity="0.25"/>
-    );
-    // A palm tree
-    const px = cx - hw * 0.4, py = cy - hh * 0.4;
-    els.push(
-      <g key="palm">
-        <path d={`M${px},${py} Q${px + 2},${py - 8} ${px + 1},${py - 12}`} fill="none" stroke="#78350f" strokeWidth="1.5" strokeLinecap="round"/>
-        <ellipse cx={px + 1} cy={py - 14} rx={5} ry={3} fill="#15803d" opacity="0.8"/>
-        <ellipse cx={px + 3} cy={py - 13} rx={4} ry={2.5} fill="#22c55e" opacity="0.6"/>
-      </g>
-    );
-    // Stone ruins
-    const sx = cx + hw * 0.3, sy = cy - hh * 0.3;
-    els.push(
-      <g key="ruins">
-        <rect x={sx - 3} y={sy - 5} width={2} height={5} fill="#78716c" opacity="0.6" rx="0.5"/>
-        <rect x={sx + 1} y={sy - 4} width={2} height={4} fill="#78716c" opacity="0.5" rx="0.5"/>
-      </g>
-    );
-  } else if (biome === 'dark') {
-    // Dark crystals + eerie glow
-    for (let i = 0; i < 3; i++) {
-      const dx = cx + (r() - 0.5) * hw * 1.2;
-      const dy = cy - hh * 0.3 + (r() - 0.5) * hh * 0.5;
-      const ch = 5 + r() * 5;
-      const tilt = (r() - 0.5) * 15;
-      els.push(
-        <g key={`cr${i}`} transform={`rotate(${tilt},${dx},${dy})`}>
-          <polygon points={`${dx},${dy - ch} ${dx - 2},${dy} ${dx + 2},${dy}`} fill="#7c3aed" opacity="0.7"/>
-          <polygon points={`${dx},${dy - ch + 1} ${dx - 1},${dy - 1} ${dx + 1},${dy - 1}`} fill="#a78bfa" opacity="0.4"/>
-        </g>
-      );
-    }
-    // Eerie glow
-    els.push(<circle key="glow" cx={cx} cy={cy - hh * 0.3} r={hw * 0.4} fill="#7c3aed" opacity="0.08"/>);
-  } else if (biome === 'ocean') {
-    // Waves + buoy
-    for (let i = 0; i < 2; i++) {
-      const wy = cy - hh * 0.1 + i * 5;
-      els.push(
-        <path key={`ow${i}`}
-          d={`M${cx - hw * 0.6},${wy} Q${cx - hw * 0.2},${wy - 3} ${cx},${wy} T${cx + hw * 0.6},${wy}`}
-          fill="none" stroke="#38bdf8" strokeWidth="1" opacity="0.3" strokeLinecap="round"/>
-      );
-    }
-    // Buoy
-    els.push(
-      <g key="buoy">
-        <line x1={cx} y1={cy - hh * 0.5} x2={cx} y2={cy - hh * 0.5 - 6} stroke="#dc2626" strokeWidth="1.5"/>
-        <circle cx={cx} cy={cy - hh * 0.5 - 7} r={2} fill="#dc2626" opacity="0.8"/>
-      </g>
-    );
-  } else if (biome === 'mystic') {
-    // Floating runes + portal glow
-    for (let i = 0; i < 3; i++) {
-      const rx2 = cx + (r() - 0.5) * hw;
-      const ry2 = cy - hh * 0.5 - r() * 6;
-      els.push(<circle key={`rune${i}`} cx={rx2} cy={ry2} r={1.5 + r()} fill="#c084fc" opacity={0.3 + r() * 0.3}/>);
-    }
-    els.push(<ellipse key="portal" cx={cx} cy={cy - hh * 0.3} rx={5} ry={7} fill="none" stroke="#a855f7" strokeWidth="1" opacity="0.3"/>);
-    els.push(<circle key="pglow" cx={cx} cy={cy - hh * 0.3} r={hw * 0.3} fill="#9333ea" opacity="0.1"/>);
+/* Sketch-style SVG outline (wobbly stroke around the blob) in absolute px */
+function sketchOutline(name: string, w: number, h: number): string {
+  const r = rng(hashStr(name + 'sketch'));
+  const n = 18;
+  const pts: [number,number][] = [];
+  for (let i = 0; i < n; i++) {
+    const a = (i / n) * Math.PI * 2;
+    const noise = 0.76 + r() * 0.48;
+    pts.push([w/2 + Math.cos(a) * (w/2) * noise * 0.92, h/2 + Math.sin(a) * (h/2) * noise * 0.92]);
   }
-
-  return els;
+  let d = `M${pts[0][0].toFixed(1)},${pts[0][1].toFixed(1)}`;
+  for (let i = 0; i < n; i++) {
+    const p0 = pts[(i-1+n)%n], p1 = pts[i], p2 = pts[(i+1)%n], p3 = pts[(i+2)%n];
+    d += ` C${(p1[0]+(p2[0]-p0[0])/5).toFixed(1)},${(p1[1]+(p2[1]-p0[1])/5).toFixed(1)} ${(p2[0]-(p3[0]-p1[0])/5).toFixed(1)},${(p2[1]-(p3[1]-p1[1])/5).toFixed(1)} ${p2[0].toFixed(1)},${p2[1].toFixed(1)}`;
+  }
+  return d + 'Z';
 }
 
-/* Water ripples around island base */
-function waterRipples(name: string, cx: number, cy: number, w: number, h: number): React.ReactElement[] {
-  const r = rng(hashStr(name + 'rip'));
-  const els: React.ReactElement[] = [];
-  for (let i = 0; i < 3; i++) {
-    const off = 3 + i * 3;
-    const rw = w * 0.5 + off * 2 + r() * 4;
-    const ry = h * 0.15 + off + r() * 2;
-    els.push(
-      <ellipse key={`rip${i}`} cx={cx + (r() - 0.5) * 4} cy={cy + h * 0.25 + off}
-        rx={rw} ry={ry} fill="none" stroke="rgba(255,255,255,0.06)"
-        strokeWidth={1 - i * 0.2} strokeDasharray={i === 2 ? '3,4' : 'none'}/>
-    );
-  }
-  return els;
-}
+/* Island image mapping */
+const ISLE_IMG: Record<string,string> = {
+  'sunstone-island': '/images/locations/sunstone-island.png',
+  'northern-caves': '/images/locations/crimson-cavern.png',
+  'castaway-cliffs': '/images/locations/castaway-cliffs.png',
+  'emberreach': '/images/locations/emberreach.png',
+  'ancient-isle': '/images/locations/ancient-isle.png',
+  'keepers-altar': '/images/locations/ocean.png',
+  'the-ocean': '/images/locations/ocean.png',
+  'roslit-bay': '/images/locations/roslit-bay.png',
+  'moosewood': '/images/locations/moosewood.png',
+  'lushgrove': '/images/locations/lushgrove.png',
+  'mushgrove-swamp': '/images/locations/mushgrove-swamp.png',
+  'cursed-isle': '/images/locations/cursed-isle.png',
+  'forsaken-shores': '/images/locations/forsaken-shores.png',
+  'deep-trenches': '/images/locations/atlantis.png',
+  'vertigo': '/images/locations/vertigo.png',
+  'terrapin-island': '/images/locations/terrapin-island.png',
+  'azure-lagoon': '/images/locations/azure-lagoon.png',
+  'snowcap-island': '/images/locations/snowcap-island.png',
+  'waveborne': '/images/locations/waveborne.png',
+  'treasure-island': '/images/locations/treasure-island.png',
+};
 
 /* ---- Weather ---- */
 const WX_CLS: Record<string,string> = {
@@ -342,33 +215,38 @@ const BALLOON: Record<string,string> = {
   'keepers-altar': '/images/locations/balloon/balloon-statue-of-sovereignty.png',
 };
 
-/* ---- Island groups (SVG coordinates on 1000x600 canvas) ---- */
+/* ---- Island groups (% positions + px width) ---- */
 interface IslandGroup {
   id: string; name: string; icon: string; biome: string;
-  children: string[]; x: number; y: number; sz: number;
+  children: string[]; left: string; top: string; w: number;
   sea: 'first'|'second'|'deep';
 }
 const GROUPS: IslandGroup[] = [
-  { id:'sunstone-island', name:'Sunstone Island', icon:'☀️', biome:'sand', children:['sunstone-island','desolate-deep'], x:110, y:85, sz:1.1, sea:'first' },
-  { id:'northern-caves', name:'Northern Caves', icon:'🦇', biome:'dark', children:['crimson-cavern','luminescent-cavern','lost-jungle','the-chasm','ancient-archives'], x:310, y:55, sz:1.2, sea:'deep' },
-  { id:'castaway-cliffs', name:'Castaway Cliffs', icon:'🪨', biome:'tropical', children:['castaway-cliffs'], x:490, y:42, sz:0.8, sea:'first' },
-  { id:'emberreach', name:'Emberreach', icon:'🔥', biome:'volcanic', children:['emberreach'], x:635, y:65, sz:0.9, sea:'first' },
-  { id:'ancient-isle', name:'Ancient Isle', icon:'🏛️', biome:'sand', children:['ancient-isle'], x:820, y:80, sz:1.2, sea:'first' },
-  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', children:['keepers-altar'], x:230, y:160, sz:0.85, sea:'first' },
-  { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], x:380, y:175, sz:1.3, sea:'first' },
-  { id:'roslit-bay', name:'Roslit Bay', icon:'🌋', biome:'volcanic', children:['roslit-bay','roslit-volcano','volcanic-vents','marianas-veil-volcanic-vents','brine-pool'], x:60, y:245, sz:1.4, sea:'first' },
-  { id:'moosewood', name:'Moosewood', icon:'🏠', biome:'tropical', children:['moosewood','executive-lake','isle-of-new-beginnings'], x:440, y:250, sz:1.3, sea:'first' },
-  { id:'lushgrove', name:'Lushgrove', icon:'🌿', biome:'tropical', children:['lushgrove'], x:580, y:185, sz:0.75, sea:'first' },
-  { id:'mushgrove-swamp', name:'Mushgrove Swamp', icon:'🍄', biome:'swamp', children:['mushgrove-swamp'], x:720, y:200, sz:1.0, sea:'first' },
-  { id:'cursed-isle', name:'Cursed Isle', icon:'💀', biome:'dark', children:['cursed-isle','cults-curse','crypt','frightful-pool','cultist-lair'], x:870, y:235, sz:1.1, sea:'first' },
-  { id:'forsaken-shores', name:'Forsaken Shores', icon:'🏝️', biome:'sand', children:['forsaken-shores','grand-reef','atlantis','veil-of-the-forsaken'], x:80, y:390, sz:1.3, sea:'first' },
-  { id:'deep-trenches', name:'Deep Trenches', icon:'🕳️', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], x:220, y:355, sz:1.0, sea:'deep' },
-  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', children:['vertigo','the-depths'], x:340, y:370, sz:0.85, sea:'first' },
-  { id:'terrapin-island', name:'Terrapin Island', icon:'🐢', biome:'tropical', children:['terrapin-island','pine-shoals','carrot-garden'], x:500, y:380, sz:1.0, sea:'first' },
-  { id:'azure-lagoon', name:'Azure Lagoon', icon:'💎', biome:'ocean', children:['azure-lagoon'], x:640, y:345, sz:0.8, sea:'first' },
-  { id:'snowcap-island', name:'Snowcap Island', icon:'❄️', biome:'snow', children:['snowcap-island','snowburrow','glacial-grotto','frigid-cavern','cryogenic-canal','crystal-cove'], x:780, y:370, sz:1.3, sea:'first' },
-  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], x:380, y:505, sz:1.1, sea:'second' },
-  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], x:620, y:510, sz:0.9, sea:'second' },
+  // Row 1
+  { id:'sunstone-island', name:'Sunstone Island', icon:'☀️', biome:'sand', children:['sunstone-island','desolate-deep'], left:'10%', top:'10%', w:80, sea:'first' },
+  { id:'northern-caves', name:'Northern Caves', icon:'🦇', biome:'dark', children:['crimson-cavern','luminescent-cavern','lost-jungle','the-chasm','ancient-archives'], left:'28%', top:'5%', w:100, sea:'deep' },
+  { id:'castaway-cliffs', name:'Castaway Cliffs', icon:'🪨', biome:'tropical', children:['castaway-cliffs'], left:'44%', top:'5%', w:80, sea:'first' },
+  { id:'emberreach', name:'Emberreach', icon:'🔥', biome:'volcanic', children:['emberreach'], left:'58%', top:'5%', w:80, sea:'first' },
+  { id:'ancient-isle', name:'Ancient Isle', icon:'🏛️', biome:'sand', children:['ancient-isle'], left:'84%', top:'9%', w:100, sea:'first' },
+  // Row 2
+  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', children:['keepers-altar'], left:'20%', top:'21%', w:80, sea:'first' },
+  { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], left:'36%', top:'20%', w:130, sea:'first' },
+  { id:'lushgrove', name:'Lushgrove', icon:'🌿', biome:'tropical', children:['lushgrove'], left:'53%', top:'20%', w:90, sea:'first' },
+  { id:'mushgrove-swamp', name:'Mushgrove Swamp', icon:'🍄', biome:'swamp', children:['mushgrove-swamp'], left:'70%', top:'21%', w:80, sea:'first' },
+  { id:'cursed-isle', name:'Cursed Isle', icon:'💀', biome:'dark', children:['cursed-isle','cults-curse','crypt','frightful-pool','cultist-lair'], left:'89%', top:'25%', w:100, sea:'first' },
+  // Row 3
+  { id:'roslit-bay', name:'Roslit Bay', icon:'🌋', biome:'volcanic', children:['roslit-bay','roslit-volcano','volcanic-vents','marianas-veil-volcanic-vents','brine-pool'], left:'7%', top:'30%', w:130, sea:'first' },
+  { id:'moosewood', name:'Moosewood', icon:'🏠', biome:'tropical', children:['moosewood','executive-lake','isle-of-new-beginnings'], left:'39%', top:'30%', w:130, sea:'first' },
+  // Row 4
+  { id:'forsaken-shores', name:'Forsaken Shores', icon:'🏝️', biome:'sand', children:['forsaken-shores','grand-reef','atlantis','veil-of-the-forsaken'], left:'8%', top:'42%', w:130, sea:'first' },
+  { id:'deep-trenches', name:'Deep Trenches', icon:'🕳️', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], left:'22%', top:'42%', w:100, sea:'deep' },
+  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', children:['vertigo','the-depths'], left:'32%', top:'42%', w:80, sea:'first' },
+  { id:'terrapin-island', name:'Terrapin Island', icon:'🐢', biome:'tropical', children:['terrapin-island','pine-shoals','carrot-garden'], left:'45%', top:'42%', w:120, sea:'first' },
+  { id:'azure-lagoon', name:'Azure Lagoon', icon:'💎', biome:'ocean', children:['azure-lagoon'], left:'59%', top:'40%', w:80, sea:'first' },
+  { id:'snowcap-island', name:'Snowcap Island', icon:'❄️', biome:'snow', children:['snowcap-island','snowburrow','glacial-grotto','frigid-cavern','cryogenic-canal','crystal-cove'], left:'76%', top:'42%', w:130, sea:'first' },
+  // Row 5 (Second Sea)
+  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], left:'34%', top:'56%', w:100, sea:'second' },
+  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], left:'56%', top:'56%', w:80, sea:'second' },
 ];
 
 const EVENT_IDS = ['admin-events','fischfright-2025','winter-village','lego-event-2025','fischgiving-2025'];
@@ -425,7 +303,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     if (!loc) return null;
     return {
       id: loc.id, name: loc.name, icon: EVT_ICO[loc.id]||'📍',
-      biome: 'dark', children: [loc.id], x: 0, y: 0, sz: 1,
+      biome: 'dark', children: [loc.id], left: '0%', top: '0%', w: 80,
       sea: 'first' as const,
       childLocs: [loc], allFish: [...loc.fish], totalFish: loc.fishCount,
       imagePath: loc.imagePath, weathers: loc.availableWeathers,
@@ -561,110 +439,82 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           </button>
         )}
 
-        {/* LEVEL 1: WORLD MAP (anime-illustrated SVG) */}
+        {/* LEVEL 1: WORLD MAP */}
         <div className={`fwm-world${level!==1?' fwm-world--out':''}`}>
-          <svg className="fwm-svg" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid meet">
-            <defs>
-              {/* Shadow filter for islands */}
-              <filter id="isle-shadow" x="-20%" y="-20%" width="140%" height="140%">
-                <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#000" floodOpacity="0.5"/>
-              </filter>
-              {/* Glow for hover */}
-              <filter id="isle-glow" x="-30%" y="-30%" width="160%" height="160%">
-                <feDropShadow dx="0" dy="0" stdDeviation="6" floodColor="#22d3ee" floodOpacity="0.5"/>
-              </filter>
-              {/* Dark highlight on rock top */}
-              <linearGradient id="rock-hi" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0%" stopColor="rgba(255,255,255,0.12)"/>
-                <stop offset="40%" stopColor="rgba(255,255,255,0)"/>
-                <stop offset="100%" stopColor="rgba(0,0,0,0.15)"/>
-              </linearGradient>
-            </defs>
+          <div className="fwm-grid"/>
 
-            {/* Grid lines */}
-            <g opacity="0.035">
-              {Array.from({length: 13}, (_, i) => <line key={`gv${i}`} x1={i*80} y1="0" x2={i*80} y2="600" stroke="#fff" strokeWidth="0.5"/>)}
-              {Array.from({length: 8}, (_, i) => <line key={`gh${i}`} x1="0" y1={i*80} x2="1000" y2={i*80} stroke="#fff" strokeWidth="0.5"/>)}
-            </g>
-
-            {/* Ocean waves */}
-            {[100, 180, 280, 360, 440, 530].map((y, i) => (
-              <path key={`w${i}`}
-                d={`M-20,${y} Q${140+i*18},${y-10-i*1.5} ${290+i*8},${y} T${610-i*8},${y} T${960+i*4},${y}`}
-                fill="none" stroke={`rgba(255,255,255,${0.045 - i*0.005})`}
-                strokeWidth={1.5 - i*0.15} strokeLinecap="round"/>
+          {/* Ocean waves */}
+          <svg className="fwm-waves" viewBox="0 0 1000 600" preserveAspectRatio="none">
+            {[100, 200, 310, 400, 480, 560].map((y, i) => (
+              <path key={i}
+                d={`M-20,${y} Q${150+i*20},${y-12-i*2} ${300+i*10},${y} T${620-i*10},${y} T${940+i*5},${y}`}
+                fill="none" stroke={`rgba(255,255,255,${0.05 - i*0.006})`}
+                strokeWidth={2 - i*0.2} strokeLinecap="round"/>
             ))}
-
-            {/* Sea labels */}
-            <text x="500" y="30" textAnchor="middle" fill="#7dd3fc" fontSize="11" fontWeight="800"
-              letterSpacing="5" opacity="0.15" fontFamily="inherit">— FIRST SEA —</text>
-            <text x="500" y="555" textAnchor="middle" fill="#c4b5fd" fontSize="11" fontWeight="800"
-              letterSpacing="5" opacity="0.15" fontFamily="inherit">— SECOND SEA —</text>
-
-            {/* Compass rose */}
-            <g transform="translate(955, 35)">
-              <circle r="22" fill="rgba(0,0,0,0.35)" stroke="rgba(255,255,255,0.12)" strokeWidth="0.8"/>
-              <circle r="18" fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="0.4"/>
-              <line x1="0" y1="-20" x2="0" y2="20" stroke="rgba(255,255,255,0.06)" strokeWidth="0.4"/>
-              <line x1="-20" y1="0" x2="20" y2="0" stroke="rgba(255,255,255,0.06)" strokeWidth="0.4"/>
-              <polygon points="0,-19 2.5,-6 0,-9 -2.5,-6" fill="#ef4444" opacity="0.9"/>
-              <polygon points="0,19 2.5,6 0,9 -2.5,6" fill="rgba(255,255,255,0.25)"/>
-              <polygon points="-19,0 -6,-2.5 -9,0 -6,2.5" fill="rgba(255,255,255,0.2)"/>
-              <polygon points="19,0 6,-2.5 9,0 6,2.5" fill="rgba(255,255,255,0.2)"/>
-              <text y="-11" textAnchor="middle" fill="#ef4444" fontSize="6" fontWeight="700" fontFamily="inherit">N</text>
-              <text y="16" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="5" fontWeight="600" fontFamily="inherit">S</text>
-              <text x="-13" y="2" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="5" fontWeight="600" fontFamily="inherit">W</text>
-              <text x="13" y="2" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="5" fontWeight="600" fontFamily="inherit">E</text>
-            </g>
-
-            {/* ===== ISLANDS ===== */}
-            {groups.map(g => {
-              const vis = visIds.has(g.id);
-              const b = BIOME[g.biome] || BIOME.ocean;
-              const baseW = 55 * g.sz, baseH = 35 * g.sz;
-              return (
-                <g key={g.id} className="fwm-ig" opacity={vis ? 1 : 0.15}
-                  onClick={() => vis && enter(g.id)} style={{ cursor: vis ? 'pointer' : 'default' }}>
-                  {/* Water ripples */}
-                  {waterRipples(g.name, g.x, g.y, baseW, baseH)}
-                  {/* Rock base */}
-                  <path d={rockyPath(g.name, g.x, g.y, baseW, baseH)}
-                    fill={b.fill} stroke={b.stroke} strokeWidth="1.2" filter="url(#isle-shadow)" opacity="0.95"/>
-                  {/* Rock highlight overlay */}
-                  <path d={rockyPath(g.name, g.x, g.y, baseW, baseH)}
-                    fill="url(#rock-hi)" stroke="none"/>
-                  {/* Darker rock edge (inner shape) */}
-                  <path d={rockyPath(g.name + 'inner', g.x, g.y + baseH * 0.08, baseW * 0.75, baseH * 0.6)}
-                    fill={b.fill} stroke="none" opacity="0.4"/>
-                  {/* Biome decorations */}
-                  {biomeDecorations(g.name, g.x, g.y, baseW, baseH, g.biome)}
-                  {/* Island name */}
-                  <text x={g.x} y={g.y + baseH * 0.5 + 14} textAnchor="middle"
-                    fill={b.stroke} fontSize="9" fontWeight="700" fontFamily="inherit"
-                    style={{ textShadow: '0 1px 3px rgba(0,0,0,0.9)' } as any}>
-                    {g.name}
-                  </text>
-                  {/* Fish count badge */}
-                  {g.totalFish > 0 && (<>
-                    <rect x={g.x - 16} y={g.y + baseH * 0.5 + 17} width={32} height={11}
-                      rx="5" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.08)" strokeWidth="0.5"/>
-                    <text x={g.x} y={g.y + baseH * 0.5 + 25} textAnchor="middle"
-                      fill="#e2e8f0" fontSize="7" fontWeight="700" fontFamily="inherit">
-                      {g.totalFish} fish
-                    </text>
-                  </>)}
-                  {/* Coordinates */}
-                  {g.coords && (
-                    <text x={g.x} y={g.y + baseH * 0.5 + 35} textAnchor="middle"
-                      fill="rgba(255,255,255,0.3)" fontSize="6" fontWeight="600"
-                      fontFamily="monospace">
-                      {g.coords.x}, {g.coords.z}
-                    </text>
-                  )}
-                </g>
-              );
-            })}
           </svg>
+
+          <span className="fwm-rl fwm-rl--1">— First Sea —</span>
+          <span className="fwm-rl fwm-rl--2">— Second Sea —</span>
+
+          {/* Compass rose */}
+          <svg className="fwm-compass" viewBox="0 0 60 60" width="44" height="44">
+            <circle cx="30" cy="30" r="27" fill="rgba(0,0,0,0.35)" stroke="rgba(255,255,255,0.12)" strokeWidth="1"/>
+            <polygon points="30,7 33,25 30,21 27,25" fill="#ef4444" opacity="0.9"/>
+            <polygon points="30,53 33,35 30,39 27,35" fill="rgba(255,255,255,0.25)"/>
+            <polygon points="7,30 25,27 21,30 25,33" fill="rgba(255,255,255,0.2)"/>
+            <polygon points="53,30 35,27 39,30 35,33" fill="rgba(255,255,255,0.2)"/>
+            <text x="30" y="16" textAnchor="middle" fill="#ef4444" fontSize="7" fontWeight="700" fontFamily="inherit">N</text>
+            <text x="30" y="49" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">S</text>
+            <text x="13" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">W</text>
+            <text x="47" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">E</text>
+          </svg>
+
+          {/* ===== ISLAND NODES ===== */}
+          {groups.map(g => {
+            const vis = visIds.has(g.id);
+            const b = BIOME[g.biome] || BIOME.ocean;
+            const imgSrc = ISLE_IMG[g.id] || g.imagePath;
+            const h = g.w * 0.75;
+            const clipId = `clip-${g.id}`;
+            const clipD = blobClipPath(g.name);    // 0-100 coords
+            const outD = sketchOutline(g.name, 100, 75); // 0-100 coords
+            return (
+              <div key={g.id} className="fwm-isle"
+                style={{
+                  left: g.left, top: g.top,
+                  width: g.w, height: h,
+                  opacity: vis ? 1 : 0.15,
+                }}
+                onClick={() => vis && enter(g.id)}>
+                {/* Inline SVG: clipPath def + clipped image + outline */}
+                <svg className="fwm-isle__svg" viewBox="0 0 100 75" preserveAspectRatio="none">
+                  <defs>
+                    <clipPath id={clipId} clipPathUnits="userSpaceOnUse">
+                      <path d={clipD} transform="scale(1, 0.75)"/>
+                    </clipPath>
+                  </defs>
+                  {/* Clipped group: bg color + image + overlay */}
+                  <g clipPath={`url(#${clipId})`}>
+                    <rect width="100" height="75" fill={b.fill}/>
+                    {imgSrc && (
+                      <image href={imgSrc} x="0" y="0" width="100" height="75"
+                        preserveAspectRatio="xMidYMid slice"/>
+                    )}
+                    <rect className="fwm-isle__ov" width="100" height="75"
+                      fill={b.fill} opacity="0.3"/>
+                  </g>
+                  {/* Sketch outline on top */}
+                  <path d={outD} fill="none" stroke={b.stroke} strokeWidth="2.5"
+                    strokeLinejoin="round" strokeLinecap="round" opacity="0.7"
+                    vectorEffect="non-scaling-stroke"/>
+                </svg>
+                {/* Name */}
+                <span className="fwm-isle__n" style={{ color: b.stroke }}>{g.name}</span>
+                {/* Fish count */}
+                {g.totalFish > 0 && <span className="fwm-isle__f">{g.totalFish} fish</span>}
+              </div>
+            );
+          })}
         </div>
 
         {/* LEVEL 2+3: ISLAND DETAIL */}
