@@ -207,17 +207,69 @@ const BALLOON: Record<string,string> = {
 
 /* ---- GPS → map position ---- */
 const GPS_BOUNDS = { minX: -3800, maxX: 6300, minZ: -3400, maxZ: 3900 };
-function gpsPos(gx: number, gz: number): { left: string; top: string } {
+function gpsToPercent(gx: number, gz: number): { left: number; top: number } {
   const rZ = GPS_BOUNDS.maxZ - GPS_BOUNDS.minZ; // 7300
   const rX = rZ * (16 / 9);                     // ~12978 (16:9 adjusted)
   const cX = (GPS_BOUNDS.minX + GPS_BOUNDS.maxX) / 2; // 1250
-  const left = ((gx - (cX - rX / 2)) / rX) * 94 + 3;
-  const top = ((gz - GPS_BOUNDS.minZ) / rZ) * 94 + 3;
   return {
-    left: `${Math.max(3, Math.min(97, left)).toFixed(1)}%`,
-    top: `${Math.max(3, Math.min(97, top)).toFixed(1)}%`,
+    left: ((gx - (cX - rX / 2)) / rX) * 94 + 3,
+    top: ((gz - GPS_BOUNDS.minZ) / rZ) * 94 + 3,
   };
 }
+function gpsPos(gx: number, gz: number): { left: string; top: string } {
+  const p = gpsToPercent(gx, gz);
+  return {
+    left: `${Math.max(3, Math.min(97, p.left)).toFixed(1)}%`,
+    top: `${Math.max(3, Math.min(97, p.top)).toFixed(1)}%`,
+  };
+}
+
+/* Collision resolution — nudge overlapping islands apart */
+function resolveOverlaps(
+  items: { left: string; top: string; w: number }[]
+): { left: string; top: string }[] {
+  const MW = 1100, MH = MW * 9 / 16;
+  const pos = items.map(it => ({
+    x: (parseFloat(it.left) / 100) * MW,
+    y: (parseFloat(it.top) / 100) * MH,
+    rw: it.w / 2 + 10,
+    rh: it.w * 0.375 + 22,
+  }));
+  for (let iter = 0; iter < 40; iter++) {
+    let moved = false;
+    for (let i = 0; i < pos.length; i++) {
+      for (let j = i + 1; j < pos.length; j++) {
+        const a = pos[i], b = pos[j];
+        const dx = b.x - a.x, dy = b.y - a.y;
+        const ox = (a.rw + b.rw) - Math.abs(dx);
+        const oy = (a.rh + b.rh) - Math.abs(dy);
+        if (ox > 0 && oy > 0) {
+          moved = true;
+          if (ox < oy) {
+            const push = ox / 2 + 1;
+            if (dx >= 0) { a.x -= push; b.x += push; } else { a.x += push; b.x -= push; }
+          } else {
+            const push = oy / 2 + 1;
+            if (dy >= 0) { a.y -= push; b.y += push; } else { a.y += push; b.y -= push; }
+          }
+        }
+      }
+    }
+    if (!moved) break;
+    for (const p of pos) {
+      p.x = Math.max(p.rw + 4, Math.min(MW - p.rw - 4, p.x));
+      p.y = Math.max(p.rh + 4, Math.min(MH - p.rh - 4, p.y));
+    }
+  }
+  return pos.map(p => ({
+    left: `${(p.x / MW * 100).toFixed(1)}%`,
+    top: `${(p.y / MH * 100).toFixed(1)}%`,
+  }));
+}
+
+/* GPS grid tick values */
+const GPS_X_TICKS = [-3000, -1000, 0, 1000, 3000, 5000];
+const GPS_Z_TICKS = [-3000, -1000, 0, 1000, 3000];
 
 /* ---- Island groups (GPS-positioned) ---- */
 interface IslandGroup {
@@ -290,6 +342,11 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
       };
     });
   }, [locMap]);
+
+  /* Resolved positions (collision-free) */
+  const resolvedPos = useMemo(() =>
+    resolveOverlaps(groups.map(g => ({ left: g.left, top: g.top, w: g.w })))
+  , [groups]);
 
   const eventLocs = useMemo(() =>
     EVENT_IDS.map(id => locMap.get(id)).filter(Boolean) as MapLocation[]
@@ -478,23 +535,54 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             <text x="47" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">E</text>
           </svg>
 
+          {/* ===== GPS COORDINATE GRID ===== */}
+          <svg className="fwm-gps-grid" viewBox="0 0 100 100" preserveAspectRatio="none">
+            {GPS_X_TICKS.map(v => {
+              const x = gpsToPercent(v, 0).left;
+              return <line key={`gx${v}`} x1={x} y1={0} x2={x} y2={100}
+                stroke={v === 0 ? 'rgba(34,211,238,0.08)' : 'rgba(255,255,255,0.04)'}
+                strokeWidth={v === 0 ? 0.3 : 0.15}
+                strokeDasharray={v === 0 ? '1,0.5' : 'none'}/>;
+            })}
+            {GPS_Z_TICKS.map(v => {
+              const y = gpsToPercent(0, v).top;
+              return <line key={`gz${v}`} x1={0} y1={y} x2={100} y2={y}
+                stroke={v === 0 ? 'rgba(34,211,238,0.08)' : 'rgba(255,255,255,0.04)'}
+                strokeWidth={v === 0 ? 0.3 : 0.15}
+                strokeDasharray={v === 0 ? '1,0.5' : 'none'}/>;
+            })}
+          </svg>
+
+          {/* X-axis labels (bottom) */}
+          <div className="fwm-axis fwm-axis--x">
+            {GPS_X_TICKS.map(v => (
+              <span key={v} style={{ left: `${gpsToPercent(v, 0).left}%` }}>X:{v}</span>
+            ))}
+          </div>
+          {/* Z-axis labels (left) */}
+          <div className="fwm-axis fwm-axis--z">
+            {GPS_Z_TICKS.map(v => (
+              <span key={v} style={{ top: `${gpsToPercent(0, v).top}%` }}>Z:{v}</span>
+            ))}
+          </div>
+
           {/* ===== ISLAND NODES ===== */}
-          {groups.map(g => {
+          {groups.map((g, gi) => {
             const vis = visIds.has(g.id);
             const b = BIOME[g.biome] || BIOME.ocean;
             const imgSrc = ISLE_IMG[g.id] || g.imagePath;
+            const pos = resolvedPos[gi];
             const h = g.w * 0.75;
             const clipId = `clip-${g.id}`;
-            const clipD = blobClipPath(g.name); // 0-100 coords
+            const clipD = blobClipPath(g.name);
             return (
               <div key={g.id} className="fwm-isle"
                 style={{
-                  left: g.left, top: g.top,
+                  left: pos?.left || g.left, top: pos?.top || g.top,
                   width: g.w, height: h,
                   opacity: vis ? 1 : 0.15,
                 }}
                 onClick={() => vis && enter(g.id)}>
-                {/* Inline SVG: clipPath + clipped image, NO outline */}
                 <svg className="fwm-isle__svg" viewBox="0 0 100 100" preserveAspectRatio="none">
                   <defs>
                     <clipPath id={clipId} clipPathUnits="userSpaceOnUse">
@@ -511,11 +599,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
                       fill={b.fill} opacity="0.3"/>
                   </g>
                 </svg>
-                {/* Name */}
                 <span className="fwm-isle__n" style={{ color: b.stroke }}>{g.name}</span>
-                {/* Fish count */}
                 {g.totalFish > 0 && <span className="fwm-isle__f">{g.totalFish} fish</span>}
-                <span className="fwm-isle__gps">X:{g.gps.x} Z:{g.gps.z}</span>
               </div>
             );
           })}

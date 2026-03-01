@@ -140,6 +140,31 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
   }
 
+  /* GPS coordinate grid */
+  :global(.fwm-gps-grid) {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    pointer-events: none; z-index: 0;
+  }
+  :global(.fwm-axis) { position: absolute; pointer-events: none; z-index: 1; }
+  :global(.fwm-axis--x) {
+    bottom: 0; left: 0; right: 0; height: 18px;
+    background: linear-gradient(to top, rgba(0,0,0,0.3), transparent);
+  }
+  :global(.fwm-axis--x span) {
+    position: absolute; bottom: 2px; transform: translateX(-50%);
+    font-size: 8px; font-weight: 600; color: rgba(255,255,255,0.2);
+    font-family: monospace; white-space: nowrap;
+  }
+  :global(.fwm-axis--z) {
+    top: 0; left: 0; bottom: 0; width: 36px;
+    background: linear-gradient(to right, rgba(0,0,0,0.3), transparent);
+  }
+  :global(.fwm-axis--z span) {
+    position: absolute; left: 2px; transform: translateY(-50%);
+    font-size: 8px; font-weight: 600; color: rgba(255,255,255,0.2);
+    font-family: monospace; white-space: nowrap;
+  }
+
   /* ====== ISLAND NODES ====== */
   :global(.fwm-isle) {
     position: absolute; display: flex; flex-direction: column; align-items: center;
@@ -176,10 +201,6 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     font-size: 8px; font-weight: 700; color: #e2e8f0;
     background: rgba(0,0,0,0.4); padding: 1px 6px; border-radius: 6px; margin-top: 1px;
     border: 1px solid rgba(255,255,255,0.08);
-  }
-  :global(.fwm-isle__gps) {
-    font-size: 7px; color: #475569; font-family: monospace;
-    white-space: nowrap; margin-top: 1px;
   }
 
   /* Biome bg */
