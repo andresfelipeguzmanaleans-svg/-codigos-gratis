@@ -30,12 +30,15 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
   game="Fisch"
   breadcrumbs={[{ label: 'Map', href: '/games/fisch/map/' }]}
 >
+  <Fragment slot="head">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  </Fragment>
   <div class="map-page">
     <div class="map-hero">
       <h1 class="mh-t">🗺️ <span class="mh-a">INTERACTIVE</span> MAP</h1>
       <p class="mh-s">26 locations &bull; {totalFish.toLocaleString('en-US')} fish &bull; Click any island to explore</p>
     </div>
-    <FischWorldMap client:load locations={mapLocations} gameSlug="fisch"/>
+    <FischWorldMap client:only="react" locations={mapLocations} gameSlug="fisch"/>
   </div>
 </GameLayout>
 
@@ -80,155 +83,57 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
 
   /* ====== MAP FRAME ====== */
   :global(.fwm-frame) {
-    position: relative; width: 100%; aspect-ratio: 16 / 10;
+    position: relative; width: 100%; height: 70vh;
     border-radius: 16px; border: 2px solid rgba(255,255,255,0.08);
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.04);
-    touch-action: none;
   }
-  :global(.fwm-frame--grab) { cursor: grab; }
-  :global(.fwm-frame--grabbing) { cursor: grabbing; }
 
-  /* ====== WORLD MAP ====== */
-  :global(.fwm-world) {
-    position: absolute; inset: 0;
+  /* ====== LEAFLET CONTAINER ====== */
+  :global(.fwm-leaflet-container) {
     background: linear-gradient(180deg, #546478 0%, #4f5f72 25%, #4a5a6d 50%, #435267 75%, #3c4b5e 100%);
   }
-  :global(.fwm-world::before) {
-    content: ''; position: absolute; inset: 0; pointer-events: none;
-    background:
-      radial-gradient(ellipse 90% 60% at 25% 30%, rgba(80,160,200,0.06) 0%, transparent 60%),
-      radial-gradient(ellipse 70% 50% at 75% 65%, rgba(60,100,150,0.05) 0%, transparent 60%),
-      radial-gradient(ellipse 40% 30% at 50% 50%, rgba(100,180,220,0.03) 0%, transparent 50%);
+  /* Override Leaflet default icon styles */
+  :global(.leaflet-div-icon) { background: transparent !important; border: none !important; }
+  /* Leaflet zoom controls styled to match site */
+  :global(.leaflet-control-zoom) { border: none !important; }
+  :global(.leaflet-control-zoom a) {
+    background: rgba(0,0,0,0.6) !important;
+    color: #e2e8f0 !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
+    backdrop-filter: blur(8px);
+    width: 32px !important; height: 32px !important;
+    line-height: 32px !important; font-size: 16px !important;
+    border-radius: 8px !important;
+    margin-bottom: 4px;
+  }
+  :global(.leaflet-control-zoom a:hover) {
+    background: rgba(0,0,0,0.8) !important;
+    color: #22d3ee !important;
+    border-color: #22d3ee !important;
   }
 
-  /* ====== ZOOMABLE CANVAS ====== */
-  :global(.fwm-canvas) {
-    position: absolute; inset: 0;
-    transform-origin: 0 0;
-    will-change: transform;
-  }
-
-  /* ====== VIEWPORT-FIXED UI ====== */
-  :global(.fwm-viewport-ui) {
-    position: absolute; inset: 0;
-    z-index: 20; pointer-events: none;
-  }
-
-  /* ====== ZOOM CONTROLS ====== */
-  :global(.fwm-zoom-ctrls) {
-    position: absolute; bottom: 12px; right: 12px; z-index: 25;
-    display: flex; flex-direction: column; gap: 4px;
-  }
-  :global(.fwm-zoom-ctrls button) {
-    width: 28px; height: 28px; border-radius: 6px;
-    background: rgba(0,0,0,0.6); backdrop-filter: blur(8px);
-    border: 1px solid rgba(255,255,255,0.1);
-    color: #e2e8f0; font-size: 14px; font-weight: 700;
-    cursor: pointer; display: flex; align-items: center; justify-content: center;
-    font-family: inherit; transition: all 0.15s; min-height: 28px;
-  }
-  :global(.fwm-zoom-ctrls button:hover) {
-    background: rgba(0,0,0,0.75); border-color: #22d3ee; color: #22d3ee;
-  }
-
-  /* ====== OFF-SCREEN INDICATOR ====== */
-  :global(.fwm-offscreen) {
-    position: absolute; z-index: 22; pointer-events: auto;
-    display: flex; align-items: center; gap: 6px;
-    padding: 6px 10px; border-radius: 8px 0 0 8px;
-    background: rgba(0,0,0,0.6); backdrop-filter: blur(8px);
-    border: 1px solid rgba(255,255,255,0.1); border-right: none;
-    cursor: pointer; transition: all 0.2s;
-    transform: translateY(-50%);
-  }
-  :global(.fwm-offscreen--right) { right: 0; }
-  :global(.fwm-offscreen:hover) { background: rgba(0,0,0,0.8); border-color: #22d3ee; }
-  :global(.fwm-offscreen--dim) { opacity: 0.2; pointer-events: none; }
-  :global(.fwm-offscreen__arrow) { color: #22d3ee; font-size: 16px; font-weight: 700; }
-  :global(.fwm-offscreen__name) { color: #fff; font-size: 11px; font-weight: 700; }
-  :global(.fwm-offscreen__meta) { color: #64748b; font-size: 9px; }
-
-  /* ====== SECOND SEA STRIP ====== */
-  :global(.fwm-second-sea) {
-    position: absolute; left: 0; right: 0; top: 80%; bottom: 0;
-    background: rgba(88, 28, 135, 0.08);
+  /* ====== REGION LABELS ====== */
+  :global(.fwm-region-label) {
+    font-size: 11px; font-weight: 800; letter-spacing: 4px; text-transform: uppercase;
+    color: rgba(255,255,255,0.1); white-space: nowrap; text-align: center;
     pointer-events: none;
   }
 
-  /* ====== SEA DIVIDER ====== */
-  :global(.fwm-sea-div) {
-    position: absolute; left: 5%; right: 5%;
-    border-top: 1px dashed rgba(196,181,253,0.25);
-    display: flex; justify-content: center;
-    z-index: 1; pointer-events: none;
+  /* ====== TAP OVERLAY (mobile) ====== */
+  :global(.fwm-tap-overlay) {
+    position: absolute; inset: 0; z-index: 1000;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(0,0,0,0.2); cursor: pointer;
   }
-  :global(.fwm-sea-div span) {
-    position: relative; top: -8px;
-    background: linear-gradient(90deg, transparent, rgba(76,61,128,0.5), transparent);
-    padding: 2px 24px;
-    font-size: 10px; font-weight: 700; color: rgba(196,181,253,0.5);
-    letter-spacing: 5px; text-transform: uppercase;
+  :global(.fwm-tap-overlay span) {
+    padding: 10px 20px; border-radius: 12px;
+    background: rgba(0,0,0,0.7); backdrop-filter: blur(8px);
+    color: #fff; font-size: 14px; font-weight: 600;
+    border: 1px solid rgba(255,255,255,0.1);
   }
 
-  :global(.fwm-grid) {
-    position: absolute; inset: 0; opacity: 0.04; pointer-events: none;
-    background-image:
-      linear-gradient(rgba(255,255,255,0.4) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,0.4) 1px, transparent 1px);
-    background-size: 80px 80px;
-  }
-  :global(.fwm-waves) {
-    position: absolute; inset: 0; width: 100%; height: 100%;
-    pointer-events: none; z-index: 1;
-  }
-  :global(.fwm-rl) {
-    position: absolute; font-size: 10px; font-weight: 800;
-    letter-spacing: 3px; text-transform: uppercase; pointer-events: none; opacity: 0.12; z-index: 1;
-  }
-  :global(.fwm-rl--1) { top: 1%; left: 50%; transform: translateX(-50%); color: #7dd3fc; }
-  :global(.fwm-compass) {
-    position: absolute; top: 10px; right: 10px;
-    pointer-events: none; z-index: 5;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
-  }
-
-  /* Zoom hint */
-  :global(.fwm-zoom-hint) {
-    position: absolute; top: 8px; left: 8px;
-    padding: 3px 8px; border-radius: 10px;
-    font-size: 8px; font-weight: 500; color: rgba(255,255,255,0.3);
-    pointer-events: none; white-space: nowrap;
-    letter-spacing: 0.2px;
-    transition: opacity 0.4s;
-  }
-
-  /* GPS coordinate grid */
-  :global(.fwm-gps-grid) {
-    position: absolute; inset: 0; width: 100%; height: 100%;
-    pointer-events: none; z-index: 0;
-  }
-  :global(.fwm-axis) { position: absolute; pointer-events: none; z-index: 1; }
-  :global(.fwm-axis--x) {
-    bottom: 0; left: 0; right: 0; height: 18px;
-    background: linear-gradient(to top, rgba(0,0,0,0.3), transparent);
-  }
-  :global(.fwm-axis--x span) {
-    position: absolute; bottom: 2px; transform: translateX(-50%);
-    font-size: 8px; font-weight: 600; color: rgba(255,255,255,0.2);
-    font-family: monospace; white-space: nowrap;
-  }
-  :global(.fwm-axis--z) {
-    top: 0; left: 0; bottom: 0; width: 36px;
-    background: linear-gradient(to right, rgba(0,0,0,0.3), transparent);
-  }
-  :global(.fwm-axis--z span) {
-    position: absolute; left: 2px; transform: translateY(-50%);
-    font-size: 8px; font-weight: 600; color: rgba(255,255,255,0.2);
-    font-family: monospace; white-space: nowrap;
-  }
-
-  /* ====== WHERE AM I? ====== */
+  /* ====== WHERE AM I ====== */
   :global(.fwm-where) {
     display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
     margin-bottom: 8px; padding: 8px 12px;
@@ -264,8 +169,8 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
 
   /* ====== MARKER ====== */
   :global(.fwm-marker) {
-    position: absolute; transform: translate(-50%, -50%); z-index: 20;
-    pointer-events: none;
+    position: relative;
+    display: flex; flex-direction: column; align-items: center;
   }
   :global(.fwm-marker__dot) {
     width: 18px; height: 18px; border-radius: 50%;
@@ -286,61 +191,50 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     box-shadow: 0 4px 16px rgba(0,0,0,0.4);
   }
 
-  /* ====== ISLAND NODES ====== */
+  /* ====== ISLAND NODES (inside Leaflet divIcon) ====== */
   :global(.fwm-isle) {
-    position: absolute; display: flex; flex-direction: column; align-items: center;
-    cursor: pointer; aspect-ratio: 1;
-    transform: translate(-50%, -50%);
-    transition: transform 0.25s ease, opacity 0.2s, filter 0.25s ease;
+    display: flex; flex-direction: column; align-items: center;
+    cursor: pointer;
     filter: drop-shadow(0 4px 12px rgba(0,0,0,0.6));
+    transition: filter 0.2s;
   }
-  :global(.fwm-isle--lg) { width: 5.5%; z-index: 3; }
-  :global(.fwm-isle--md) { width: 3.8%; z-index: 3; }
-  :global(.fwm-isle--sm) { width: 2.5%; z-index: 2; }
   :global(.fwm-isle:hover) {
-    transform: translate(-50%, -50%) scale(1.1) translateY(-3px);
-    z-index: 10;
     filter: drop-shadow(0 0 16px rgba(34,211,238,0.5)) drop-shadow(0 4px 8px rgba(0,0,0,0.4));
   }
   :global(.fwm-isle--sel) {
     filter: drop-shadow(0 0 20px rgba(34,211,238,0.6)) drop-shadow(0 4px 8px rgba(0,0,0,0.4));
   }
   :global(.fwm-isle__svg) {
-    width: 100%; height: 100%; display: block;
+    display: block;
     filter: brightness(0.85);
-    transition: filter 0.25s ease;
+    transition: filter 0.2s;
   }
   :global(.fwm-isle:hover .fwm-isle__svg) { filter: brightness(1.15); }
   :global(.fwm-isle--sel .fwm-isle__svg) { filter: brightness(1.1); }
-  :global(.fwm-isle:hover .fwm-isle__ov) { opacity: 0 !important; }
   :global(.fwm-isle__n) {
-    margin-top: 2px; font-size: 7px; font-weight: 700; color: #fff;
+    margin-top: 2px; font-size: 9px; font-weight: 700; color: #fff;
     text-shadow: 0 1px 4px rgba(0,0,0,0.95), 0 0 8px rgba(0,0,0,0.6);
     white-space: nowrap; letter-spacing: 0.2px;
-    transition: font-size 0.2s;
-    transform: scale(var(--label-inv, 1)); transform-origin: center top;
+    text-align: center;
   }
-  :global(.fwm-isle:hover .fwm-isle__n) { font-size: 9px; }
   :global(.fwm-isle__f) {
-    font-size: 6px; font-weight: 700; color: #22d3ee;
-    background: rgba(0,0,0,0.5); padding: 0px 4px; border-radius: 4px; margin-top: 1px;
-    transform: scale(var(--label-inv, 1)); transform-origin: center top;
+    font-size: 7px; font-weight: 700; color: #22d3ee;
+    background: rgba(0,0,0,0.5); padding: 1px 5px; border-radius: 4px; margin-top: 1px;
   }
 
   /* ====== POI ICONS ====== */
   :global(.fwm-poi) {
-    position: absolute; transform: translate(-50%, -50%) scale(var(--label-inv, 1));
     display: flex; flex-direction: column; align-items: center;
-    cursor: pointer; z-index: 1;
-    transition: transform 0.25s ease, opacity 0.2s;
+    cursor: pointer;
+    transition: transform 0.2s;
   }
-  :global(.fwm-poi:hover) { transform: translate(-50%, -50%) scale(calc(var(--label-inv, 1) * 1.15)); z-index: 10; }
+  :global(.fwm-poi:hover) { transform: scale(1.1); }
   :global(.fwm-poi--sel .fwm-poi__i) { border-color: #22d3ee; box-shadow: 0 0 16px rgba(34,211,238,0.5); }
   :global(.fwm-poi__i) {
-    width: 20px; height: 20px; border-radius: 50%;
+    width: 24px; height: 24px; border-radius: 50%;
     background: rgba(0,0,0,0.5); border: 1.5px solid rgba(255,255,255,0.15);
     display: flex; align-items: center; justify-content: center;
-    font-size: 10px; line-height: 1;
+    font-size: 12px; line-height: 1;
     box-shadow: 0 2px 6px rgba(0,0,0,0.5);
     transition: all 0.2s;
   }
@@ -349,78 +243,31 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     font-size: 7px; font-weight: 700; color: #fff;
     white-space: nowrap; margin-top: 2px;
     text-shadow: 0 1px 4px rgba(0,0,0,0.95), 0 0 6px rgba(0,0,0,0.5);
+    text-align: center;
   }
   :global(.fwm-poi:hover .fwm-poi__n) { color: #22d3ee; }
 
-  /* Biome bg */
-  :global(.fwm-b--tropical) { background: linear-gradient(135deg, #065f46, #059669); }
-  :global(.fwm-b--volcanic) { background: linear-gradient(135deg, #7f1d1d, #dc2626); }
-  :global(.fwm-b--snow) { background: linear-gradient(135deg, #cbd5e1, #94a3b8); }
-  :global(.fwm-b--swamp) { background: linear-gradient(135deg, #365314, #4d7c0f); }
-  :global(.fwm-b--dark) { background: linear-gradient(135deg, #1e1b4b, #4338ca); }
-  :global(.fwm-b--sand) { background: linear-gradient(135deg, #92400e, #d97706); }
-  :global(.fwm-b--ocean) { background: linear-gradient(135deg, #0c4a6e, #0284c7); }
-  :global(.fwm-b--mystic) { background: linear-gradient(135deg, #581c87, #9333ea); }
-
-  /* ====== SUB-ZONE NODES (zoom 2x+) ====== */
-  :global(.fwm-szn) {
-    position: absolute; transform: translate(-50%, -50%) scale(var(--label-inv, 1));
-    display: flex; flex-direction: column; align-items: center;
-    cursor: pointer; z-index: 4;
-    transition: opacity 0.4s, filter 0.4s;
-  }
-  :global(.fwm-szn:hover) { transform: translate(-50%, -50%) scale(calc(var(--label-inv, 1) * 1.15)); z-index: 12; }
-  :global(.fwm-szn--sel) { z-index: 11; }
-  :global(.fwm-szn--sel .fwm-szn__circle) {
-    border-color: #22d3ee;
-    box-shadow: 0 0 16px rgba(34,211,238,0.5);
-  }
-  :global(.fwm-szn__circle) {
-    width: 28px; height: 28px; border-radius: 50%; overflow: hidden;
-    border: 1.5px solid rgba(255,255,255,0.2);
-    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
-    transition: all 0.2s;
-    display: flex; align-items: center; justify-content: center;
-  }
-  :global(.fwm-szn:hover .fwm-szn__circle) {
-    border-color: #22d3ee; box-shadow: 0 0 14px rgba(34,211,238,0.4);
-  }
-  :global(.fwm-szn__img) { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
-  :global(.fwm-szn__ph) { font-size: 14px; }
-  :global(.fwm-szn__name) {
-    font-size: 7px; font-weight: 700; color: #fff;
-    white-space: nowrap; margin-top: 2px;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.95);
-    transition: color 0.2s;
-  }
-  :global(.fwm-szn:hover .fwm-szn__name) { color: #22d3ee; }
-  :global(.fwm-szn__count) {
-    font-size: 6px; font-weight: 700; color: #22d3ee;
-    background: rgba(0,0,0,0.4); padding: 0 4px; border-radius: 4px; margin-top: 1px;
-  }
-
-  /* ====== FISH ORBIT DOTS (zoom 2.5x+) ====== */
+  /* ====== FISH ORBIT DOTS ====== */
   :global(.fwm-fdot) {
-    position: absolute;
-    width: 20px; height: 20px; border-radius: 50%; overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%; overflow: hidden;
     border: 1.5px solid rgba(255,255,255,0.15);
     box-shadow: 0 1px 4px rgba(0,0,0,0.4);
-    display: flex; align-items: center; justify-content: center;
-    transition: opacity 0.3s;
-    animation: fwm-fdot-in 0.3s ease backwards;
-    text-decoration: none; z-index: 5; pointer-events: auto;
+    text-decoration: none; cursor: pointer;
+    transition: transform 0.15s;
   }
-  :global(.fwm-fdot:hover) { z-index: 15; filter: brightness(1.3); }
-  :global(.fwm-fdot img) { width: 80%; height: 80%; object-fit: contain; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4)); }
-  @keyframes fwm-fdot-in {
-    from { opacity: 0; transform: scale(0.5); }
-    to { opacity: 1; }
+  :global(.fwm-fdot:hover) { transform: scale(1.3); z-index: 100 !important; }
+  :global(.fwm-fdot img) { filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4)); }
+  :global(.fwm-fdot__n) {
+    display: block; font-size: 6px; font-weight: 600; color: #fff;
+    text-shadow: 0 1px 3px #000; white-space: nowrap; text-align: center;
+    margin-top: 1px;
   }
 
-  /* ====== INFO PANEL (slides from right) ====== */
+  /* ====== INFO PANEL ====== */
   :global(.fwm-panel) {
     position: absolute; top: 0; right: 0; bottom: 0;
-    width: 300px; z-index: 30;
+    width: 300px; z-index: 1001;
     background: rgba(8,14,26,0.95); backdrop-filter: blur(16px);
     border-left: 1px solid rgba(255,255,255,0.08);
     transform: translateX(100%); transition: transform 0.3s ease;
@@ -438,9 +285,7 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     font-family: inherit; transition: all 0.15s;
   }
   :global(.fwm-panel__close:hover) { background: rgba(239,68,68,0.3); border-color: #ef4444; color: #ef4444; }
-  :global(.fwm-panel__hero-wrap) {
-    position: relative; width: 100%; height: 120px; overflow: hidden;
-  }
+  :global(.fwm-panel__hero-wrap) { position: relative; width: 100%; height: 120px; overflow: hidden; }
   :global(.fwm-panel__hero) { width: 100%; height: 100%; object-fit: cover; }
   :global(.fwm-panel__hero-ov) {
     position: absolute; inset: 0;
@@ -462,8 +307,6 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     padding: 10px 16px; display: flex; gap: 4px; flex-wrap: wrap;
     border-bottom: 1px solid rgba(255,255,255,0.04);
   }
-
-  /* Weather chips */
   :global(.fwm-wxc) { padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 600; }
   :global(.fwm-wx--sun) { background: rgba(250,204,21,0.12); color: #facc15; }
   :global(.fwm-wx--rain) { background: rgba(59,130,246,0.12); color: #3b82f6; }
@@ -474,7 +317,6 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
   :global(.fwm-wx--snow) { background: rgba(226,232,240,0.1); color: #e2e8f0; }
   :global(.fwm-wx--any) { background: rgba(250,204,21,0.08); color: #fbbf24; }
 
-  /* Panel sub-locations */
   :global(.fwm-panel__subs) { padding: 10px 16px; border-bottom: 1px solid rgba(255,255,255,0.04); }
   :global(.fwm-panel__slbl) { font-size: 9px; font-weight: 700; color: #475569; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
   :global(.fwm-panel__si) {
@@ -487,7 +329,6 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
   :global(.fwm-panel__sid) { width: 8px; height: 8px; border-radius: 50%; background: #22d3ee; flex-shrink: 0; }
   :global(.fwm-panel__sic) { margin-left: auto; font-size: 10px; color: #475569; }
 
-  /* Panel fish list */
   :global(.fwm-panel__fl) { padding: 8px 16px 16px; flex: 1; overflow-y: auto; }
   :global(.fwm-panel__fll) { font-size: 9px; font-weight: 700; color: #475569; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
   :global(.fwm-panel__emp) { text-align: center; padding: 1rem; color: #475569; font-size: 12px; }
@@ -527,7 +368,7 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
   /* ====== MOBILE ====== */
   @media (max-width: 768px) {
     :global(.fwm) { padding: 0 8px 24px; }
-    :global(.fwm-frame) { aspect-ratio: 16 / 10; border-radius: 12px; }
+    :global(.fwm-frame) { height: 55vh; border-radius: 12px; }
     :global(.fwm-ctrls) { flex-direction: column; }
     :global(.fwm-search) { width: 100%; }
 
@@ -535,27 +376,6 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     :global(.fwm-where__row) { flex-wrap: wrap; }
     :global(.fwm-where__in) { flex: 1; min-width: 50px; width: auto; }
     :global(.fwm-where__btn) { flex: 1; }
-
-    :global(.fwm-isle--lg) { width: 8%; }
-    :global(.fwm-isle--md) { width: 5.5%; }
-    :global(.fwm-isle--sm) { width: 3.5%; }
-    :global(.fwm-isle__n) { font-size: 6px; }
-    :global(.fwm-isle:hover .fwm-isle__n) { font-size: 7px; }
-    :global(.fwm-isle__f) { font-size: 5px; }
-
-    :global(.fwm-poi__i) { width: 22px; height: 22px; font-size: 11px; }
-    :global(.fwm-poi__n) { font-size: 6px; }
-
-    :global(.fwm-szn__circle) { width: 24px; height: 24px; }
-    :global(.fwm-szn__name) { font-size: 5px; }
-
-    :global(.fwm-fdot) { width: 16px; height: 16px; }
-
-    :global(.fwm-axis--z) { width: 28px; }
-    :global(.fwm-axis--z span) { font-size: 7px; }
-    :global(.fwm-axis--x span) { font-size: 7px; }
-
-    :global(.fwm-marker__tip) { font-size: 10px; padding: 6px 10px; }
 
     /* Panel slides from bottom on mobile */
     :global(.fwm-panel) {
@@ -572,10 +392,6 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
 
     :global(.fwm-ec) { min-height: 44px; }
 
-    :global(.fwm-zoom-ctrls) { bottom: 8px; right: 8px; }
-    :global(.fwm-zoom-ctrls button) { width: 36px; height: 36px; font-size: 16px; }
-    :global(.fwm-offscreen) { padding: 4px 8px; }
-    :global(.fwm-offscreen__name) { font-size: 10px; }
-    :global(.fwm-offscreen__meta) { font-size: 8px; }
+    :global(.leaflet-control-zoom a) { width: 40px !important; height: 40px !important; line-height: 40px !important; font-size: 18px !important; }
   }
 </style>
