@@ -87,7 +87,10 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     border-radius: 16px; border: 2px solid rgba(255,255,255,0.08);
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.04);
+    touch-action: none;
   }
+  :global(.fwm-frame--grab) { cursor: grab; }
+  :global(.fwm-frame--grabbing) { cursor: grabbing; }
 
   /* ====== BACK BUTTON ====== */
   :global(.fwm-back) {
@@ -116,6 +119,60 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
       radial-gradient(ellipse 40% 30% at 50% 50%, rgba(100,180,220,0.03) 0%, transparent 50%);
   }
   :global(.fwm-world--out) { opacity: 0; pointer-events: none; transform: scale(1.1); }
+
+  /* ====== ZOOMABLE CANVAS ====== */
+  :global(.fwm-canvas) {
+    position: absolute; inset: 0;
+    transform-origin: 0 0;
+    will-change: transform;
+  }
+
+  /* ====== VIEWPORT-FIXED UI (axis labels, compass, off-screen indicators) ====== */
+  :global(.fwm-viewport-ui) {
+    position: absolute; inset: 0;
+    z-index: 20; pointer-events: none;
+  }
+
+  /* ====== ZOOM CONTROLS ====== */
+  :global(.fwm-zoom-ctrls) {
+    position: absolute; bottom: 12px; right: 12px; z-index: 25;
+    display: flex; flex-direction: column; gap: 4px;
+  }
+  :global(.fwm-zoom-ctrls button) {
+    width: 36px; height: 36px; border-radius: 8px;
+    background: rgba(0,0,0,0.6); backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #e2e8f0; font-size: 18px; font-weight: 700;
+    cursor: pointer; display: flex; align-items: center; justify-content: center;
+    font-family: inherit; transition: all 0.15s; min-height: 36px;
+  }
+  :global(.fwm-zoom-ctrls button:hover) {
+    background: rgba(0,0,0,0.75); border-color: #22d3ee; color: #22d3ee;
+  }
+
+  /* ====== OFF-SCREEN INDICATOR (Ancient Isle) ====== */
+  :global(.fwm-offscreen) {
+    position: absolute; z-index: 22; pointer-events: auto;
+    display: flex; align-items: center; gap: 6px;
+    padding: 6px 10px; border-radius: 8px 0 0 8px;
+    background: rgba(0,0,0,0.6); backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.1); border-right: none;
+    cursor: pointer; transition: all 0.2s;
+    transform: translateY(-50%);
+  }
+  :global(.fwm-offscreen--right) { right: 0; }
+  :global(.fwm-offscreen:hover) { background: rgba(0,0,0,0.8); border-color: #22d3ee; }
+  :global(.fwm-offscreen--dim) { opacity: 0.2; pointer-events: none; }
+  :global(.fwm-offscreen__arrow) { color: #22d3ee; font-size: 16px; font-weight: 700; }
+  :global(.fwm-offscreen__name) { color: #fff; font-size: 11px; font-weight: 700; }
+  :global(.fwm-offscreen__meta) { color: #64748b; font-size: 9px; }
+
+  /* ====== SECOND SEA STRIP ====== */
+  :global(.fwm-second-sea) {
+    position: absolute; left: 0; right: 0; top: 87%; bottom: 0;
+    background: rgba(88, 28, 135, 0.08);
+    pointer-events: none;
+  }
 
   :global(.fwm-grid) {
     position: absolute; inset: 0; opacity: 0.04; pointer-events: none;
@@ -245,7 +302,7 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     transition: transform 0.25s ease, opacity 0.2s, filter 0.25s ease;
     filter: drop-shadow(0 4px 12px rgba(0,0,0,0.6));
   }
-  :global(.fwm-isle--lg) { width: 12%; z-index: 3; }
+  :global(.fwm-isle--lg) { width: 13%; z-index: 3; }
   :global(.fwm-isle--md) { width: 9%; z-index: 3; }
   :global(.fwm-isle--sm) { width: 6%; z-index: 2; }
   :global(.fwm-isle:hover) {
@@ -269,21 +326,23 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     text-shadow: 0 1px 4px rgba(0,0,0,0.95), 0 0 8px rgba(0,0,0,0.6);
     white-space: nowrap; letter-spacing: 0.3px;
     transition: font-size 0.2s;
+    transform: scale(var(--label-inv, 1)); transform-origin: center top;
   }
   :global(.fwm-isle:hover .fwm-isle__n) { font-size: 11px; }
   :global(.fwm-isle__f) {
-    font-size: 8px; font-weight: 700; color: #e2e8f0;
+    font-size: 8px; font-weight: 700; color: #22d3ee;
     background: rgba(0,0,0,0.5); padding: 1px 6px; border-radius: 6px; margin-top: 1px;
+    transform: scale(var(--label-inv, 1)); transform-origin: center top;
   }
 
   /* ====== POI — Small special-zone icons (Ocean, Trenches, etc.) ====== */
   :global(.fwm-poi) {
-    position: absolute; transform: translate(-50%, -50%);
+    position: absolute; transform: translate(-50%, -50%) scale(var(--label-inv, 1));
     display: flex; flex-direction: column; align-items: center;
     cursor: pointer; z-index: 1;
     transition: transform 0.25s ease, opacity 0.2s;
   }
-  :global(.fwm-poi:hover) { transform: translate(-50%, -50%) scale(1.15); z-index: 10; }
+  :global(.fwm-poi:hover) { transform: translate(-50%, -50%) scale(calc(var(--label-inv, 1) * 1.15)); z-index: 10; }
   :global(.fwm-poi__i) {
     width: 26px; height: 26px; border-radius: 50%;
     background: rgba(0,0,0,0.5); border: 1.5px solid rgba(255,255,255,0.15);
@@ -516,7 +575,7 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     :global(.fwm-where__in) { flex: 1; min-width: 50px; width: auto; }
     :global(.fwm-where__btn) { flex: 1; }
 
-    :global(.fwm-isle--lg) { width: 18%; }
+    :global(.fwm-isle--lg) { width: 19%; }
     :global(.fwm-isle--md) { width: 14%; }
     :global(.fwm-isle--sm) { width: 10%; }
     :global(.fwm-isle__n) { font-size: 8px; }
@@ -551,5 +610,11 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     :global(.fwm-ip__si) { min-height: 44px; }
     :global(.fwm-ip__fi) { min-height: 44px; }
     :global(.fwm-ec) { min-height: 44px; }
+
+    :global(.fwm-zoom-ctrls) { bottom: 8px; right: 8px; }
+    :global(.fwm-zoom-ctrls button) { width: 44px; height: 44px; font-size: 20px; }
+    :global(.fwm-offscreen) { font-size: 10px; padding: 4px 8px; }
+    :global(.fwm-offscreen__name) { font-size: 10px; }
+    :global(.fwm-offscreen__meta) { font-size: 8px; }
   }
 </style>

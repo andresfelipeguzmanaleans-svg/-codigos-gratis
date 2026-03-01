@@ -1,11 +1,10 @@
-import { useState, useMemo, useEffect, useCallback } from 'react';
+import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 
 /* ================================================================
    FischWorldMap — 3-level drill-down interactive map
-   Level 1: World map with ~20 island circles (images)
+   Level 1: World map with island blobs + POI icons (zoom & pan)
    Level 2: Island interior — sub-zones as image circles
    Level 3: Fish orbit around selected sub-zone
-   Everything inside the same viewport.
    ================================================================ */
 
 interface FishEntry { name: string; rarity: string; id?: string; }
@@ -37,7 +36,6 @@ function bestRar(fish: FishEntry[]): string {
   for (const f of fish) { const o = RAR_ORD[f.rarity]||0; if (o > bo) { bo = o; b = f.rarity; } }
   return b;
 }
-function islSize(c: number) { return c >= 50 ? 'xl' : c >= 30 ? 'lg' : c >= 15 ? 'md' : 'sm'; }
 function subSize(c: number) { return c >= 20 ? 'xl' : c >= 10 ? 'lg' : c >= 5 ? 'md' : 'sm'; }
 
 /* ---- Blob clip-path for islands (organic outline, 0-100 coords) ---- */
@@ -210,30 +208,26 @@ const BALLOON: Record<string,string> = {
 };
 
 /* ---- GPS → map position ---- */
-const GPS_BOUNDS = { minX: -3800, maxX: 6300, minZ: -3400, maxZ: 3900 };
-function gpsToPercent(gx: number, gz: number): { left: number; top: number } {
-  // Compress X beyond ±3000 (Ancient Isle) and Z beyond 3000 (Second Sea)
-  const cx = gx > 3000 ? 3000 + (gx - 3000) * 0.4
-           : gx < -3000 ? -3000 + (gx + 3000) * 0.4
-           : gx;
-  const cz = gz > 3000 ? 3000 + (gz - 3000) * 0.4 : gz;
-  const cMinZ = GPS_BOUNDS.minZ;
-  const cMaxZ = 3000 + (GPS_BOUNDS.maxZ - 3000) * 0.4;
-  const rZ = cMaxZ - cMinZ;
-  const rX = rZ * (16 / 9);
-  const cMinX = -3000 + (GPS_BOUNDS.minX + 3000) * 0.4;
-  const cMaxX = 3000 + (GPS_BOUNDS.maxX - 3000) * 0.4;
-  const centerX = (cMinX + cMaxX) / 2;
-  return {
-    left: ((cx - (centerX - rX / 2)) / rX) * 94 + 3,
-    top: ((cz - cMinZ) / rZ) * 94 + 3,
-  };
+const FIRST_SEA = { minX: -2800, maxX: 2800, minZ: -2500, maxZ: 2500 };
+const SECOND_SEA_Y = { top: 89, bottom: 97, minZ: 3400, maxZ: 3800 };
+const ZOOM_MIN = 1;
+const ZOOM_MAX = 4;
+
+function gpsToPercent(gx: number, gz: number, sea: 'first' | 'second' = 'first'): { left: number; top: number } {
+  const left = 3 + ((gx - FIRST_SEA.minX) / (FIRST_SEA.maxX - FIRST_SEA.minX)) * 94;
+  let top: number;
+  if (sea === 'second') {
+    top = SECOND_SEA_Y.top + ((gz - SECOND_SEA_Y.minZ) / (SECOND_SEA_Y.maxZ - SECOND_SEA_Y.minZ)) * (SECOND_SEA_Y.bottom - SECOND_SEA_Y.top);
+  } else {
+    top = 3 + ((gz - FIRST_SEA.minZ) / (FIRST_SEA.maxZ - FIRST_SEA.minZ)) * 82;
+  }
+  return { left, top };
 }
-function gpsPos(gx: number, gz: number): { left: string; top: string } {
-  const p = gpsToPercent(gx, gz);
+function gpsPos(gx: number, gz: number, sea: 'first' | 'second' = 'first'): { left: string; top: string } {
+  const p = gpsToPercent(gx, gz, sea);
   return {
-    left: `${Math.max(3, Math.min(97, p.left)).toFixed(1)}%`,
-    top: `${Math.max(3, Math.min(97, p.top)).toFixed(1)}%`,
+    left: `${Math.max(2, Math.min(98, p.left)).toFixed(1)}%`,
+    top: `${Math.max(2, Math.min(98, p.top)).toFixed(1)}%`,
   };
 }
 
@@ -280,36 +274,43 @@ function resolveOverlaps(
   }));
 }
 
-/* GPS grid tick values */
-const GPS_X_TICKS = [-3000, -1000, 0, 1000, 3000, 5000];
-const GPS_Z_TICKS = [-3000, -1000, 0, 1000, 3000];
+/* Pan clamping */
+function clampPan(px: number, py: number, z: number, fw: number, fh: number): { x: number; y: number } {
+  if (z <= 1) return { x: 0, y: 0 };
+  return {
+    x: Math.min(0, Math.max(-(fw * z - fw), px)),
+    y: Math.min(0, Math.max(-(fh * z - fh), py)),
+  };
+}
 
 /* ---- Island groups (GPS-positioned) ---- */
-const SIZE_PCT: Record<string, number> = { lg: 12, md: 9, sm: 6 };
+const SIZE_PCT: Record<string, number> = { lg: 13, md: 9, sm: 6 };
 interface IslandGroup {
   id: string; name: string; icon: string; biome: string;
   children: string[]; gps: { x: number; z: number };
   left: string; top: string;
   size: 'lg'|'md'|'sm';
-  type: 'island'|'water'|'special';
+  type: 'island'|'special';
   sea: 'first'|'second'|'deep';
+  label?: string;
 }
 const GROUPS: IslandGroup[] = [
-  // === ISLANDS (20) — blob with image ===
+  // === ISLANDS — blob with image ===
   // First Sea — Large
   { id:'moosewood', name:'Moosewood', icon:'🏠', biome:'tropical', children:['moosewood','executive-lake','isle-of-new-beginnings'], gps:{x:400,z:250}, ...gpsPos(400,250), size:'lg', type:'island', sea:'first' },
   { id:'roslit-bay', name:'Roslit Bay', icon:'🌋', biome:'volcanic', children:['roslit-bay','roslit-volcano','volcanic-vents','marianas-veil-volcanic-vents','brine-pool'], gps:{x:-1600,z:500}, ...gpsPos(-1600,500), size:'lg', type:'island', sea:'first' },
   { id:'snowcap-island', name:'Snowcap Island', icon:'❄️', biome:'snow', children:['snowcap-island','snowburrow','glacial-grotto','frigid-cavern','cryogenic-canal','crystal-cove'], gps:{x:2625,z:2370}, ...gpsPos(2625,2370), size:'lg', type:'island', sea:'first' },
   { id:'terrapin-island', name:'Terrapin Island', icon:'🐢', biome:'tropical', children:['terrapin-island','pine-shoals','carrot-garden'], gps:{x:-96,z:1872}, ...gpsPos(-96,1872), size:'lg', type:'island', sea:'first' },
   { id:'forsaken-shores', name:'Forsaken Shores', icon:'🏝️', biome:'sand', children:['forsaken-shores','grand-reef','atlantis','veil-of-the-forsaken'], gps:{x:-2750,z:1450}, ...gpsPos(-2750,1450), size:'lg', type:'island', sea:'first' },
+  { id:'cursed-isle', name:'Cursed Isle', icon:'💀', biome:'dark', children:['cursed-isle','cults-curse','crypt','frightful-pool','cultist-lair'], gps:{x:1800,z:1210}, ...gpsPos(1800,1210), size:'lg', type:'island', sea:'first' },
   // First Sea — Medium
   { id:'sunstone-island', name:'Sunstone Island', icon:'☀️', biome:'sand', children:['sunstone-island','desolate-deep'], gps:{x:-870,z:-1100}, ...gpsPos(-870,-1100), size:'md', type:'island', sea:'first' },
-  { id:'ancient-isle', name:'Ancient Isle', icon:'🏛️', biome:'sand', children:['ancient-isle'], gps:{x:6000,z:300}, ...gpsPos(6000,300), size:'md', type:'island', sea:'first' },
+  { id:'ancient-isle', name:'Ancient Isle', icon:'🏛️', biome:'sand', children:['ancient-isle'], gps:{x:6000,z:300}, left:'98%', top:'50%', size:'md', type:'island', sea:'first' },
   { id:'mushgrove-swamp', name:'Mushgrove Swamp', icon:'🍄', biome:'swamp', children:['mushgrove-swamp'], gps:{x:2420,z:-270}, ...gpsPos(2420,-270), size:'md', type:'island', sea:'first' },
   { id:'lushgrove', name:'Lushgrove', icon:'🌿', biome:'tropical', children:['lushgrove'], gps:{x:1132,z:-388}, ...gpsPos(1132,-388), size:'md', type:'island', sea:'first' },
-  { id:'cursed-isle', name:'Cursed Isle', icon:'💀', biome:'dark', children:['cursed-isle','cults-curse','crypt','frightful-pool','cultist-lair'], gps:{x:1800,z:1210}, ...gpsPos(1800,1210), size:'md', type:'island', sea:'first' },
+  { id:'emberreach', name:'Emberreach', icon:'🔥', biome:'volcanic', children:['emberreach'], gps:{x:2300,z:-800}, ...gpsPos(2300,-800), size:'md', type:'island', sea:'first' },
+  { id:'northern-caves', name:'Northern Caves', icon:'🦇', biome:'dark', children:['crimson-cavern','luminescent-cavern','lost-jungle','the-chasm','ancient-archives'], gps:{x:-1750,z:-1500}, ...gpsPos(-1750,-1500), size:'md', type:'island', sea:'deep' },
   // First Sea — Small
-  { id:'emberreach', name:'Emberreach', icon:'🔥', biome:'volcanic', children:['emberreach'], gps:{x:2300,z:-800}, ...gpsPos(2300,-800), size:'sm', type:'island', sea:'first' },
   { id:'birch-cay', name:'Birch Cay', icon:'🌲', biome:'tropical', children:['birch-cay'], gps:{x:1448,z:-2351}, ...gpsPos(1448,-2351), size:'sm', type:'island', sea:'first' },
   { id:'earmark-island', name:'Earmark Island', icon:'🏷️', biome:'tropical', children:['earmark-island'], gps:{x:1195,z:971}, ...gpsPos(1195,971), size:'sm', type:'island', sea:'first' },
   { id:'castaway-cliffs', name:'Castaway Cliffs', icon:'🪨', biome:'tropical', children:['castaway-cliffs'], gps:{x:690,z:-1693}, ...gpsPos(690,-1693), size:'sm', type:'island', sea:'first' },
@@ -318,15 +319,14 @@ const GROUPS: IslandGroup[] = [
   { id:'statue-of-sovereignty', name:'Statue of Sovereignty', icon:'🗽', biome:'sand', children:['statue-of-sovereignty'], gps:{x:37,z:-1017}, ...gpsPos(37,-1017), size:'sm', type:'island', sea:'first' },
   { id:'the-laboratory', name:'The Laboratory', icon:'🔬', biome:'dark', children:['the-laboratory'], gps:{x:-474,z:-583}, ...gpsPos(-474,-583), size:'sm', type:'island', sea:'first' },
   // Second Sea
-  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], gps:{x:2000,z:3500}, ...gpsPos(2000,3500), size:'md', type:'island', sea:'second' },
-  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], gps:{x:3500,z:3700}, ...gpsPos(3500,3700), size:'sm', type:'island', sea:'second' },
-  // === SPECIAL ZONES (5) — small icons next to nearby islands ===
+  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], gps:{x:2000,z:3500}, ...gpsPos(2000,3500,'second'), size:'md', type:'island', sea:'second' },
+  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], gps:{x:3500,z:3700}, ...gpsPos(3500,3700,'second'), size:'sm', type:'island', sea:'second' },
+  // === SPECIAL ZONES — small icons next to nearby islands ===
   { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], gps:{x:400,z:-200}, ...gpsPos(400,-200), size:'sm', type:'special', sea:'first' },
   { id:'deep-trenches', name:'Deep Trenches', icon:'🔱', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], gps:{x:-1600,z:900}, ...gpsPos(-1600,900), size:'sm', type:'special', sea:'deep' },
-  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', children:['vertigo','the-depths'], gps:{x:150,z:1100}, ...gpsPos(150,1100), size:'sm', type:'special', sea:'first' },
+  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', label:'⚡ Random location', children:['vertigo','the-depths'], gps:{x:150,z:1100}, ...gpsPos(150,1100), size:'sm', type:'special', sea:'first' },
   { id:'azure-lagoon', name:'Azure Lagoon', icon:'💧', biome:'ocean', children:['azure-lagoon'], gps:{x:1400,z:1100}, ...gpsPos(1400,1100), size:'sm', type:'special', sea:'first' },
-  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', children:['keepers-altar'], gps:{x:250,z:-900}, ...gpsPos(250,-900), size:'sm', type:'special', sea:'first' },
-  { id:'northern-caves', name:'Northern Caves', icon:'🦇', biome:'dark', children:['crimson-cavern','luminescent-cavern','lost-jungle','the-chasm','ancient-archives'], gps:{x:-1750,z:-1500}, ...gpsPos(-1750,-1500), size:'md', type:'island', sea:'deep' },
+  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', label:'Under Statue', children:['keepers-altar'], gps:{x:250,z:-900}, ...gpsPos(250,-900), size:'sm', type:'special', sea:'first' },
 ];
 
 const EVENT_IDS = ['admin-events','fischfright-2025','winter-village','lego-event-2025','fischgiving-2025'];
@@ -362,14 +362,14 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     });
   }, [locMap]);
 
-  /* Resolved positions (collision-free) — only islands participate */
+  /* Resolved positions (collision-free) — only First Sea islands participate */
   const resolvedPos = useMemo(() => {
     const REF_W = 1100;
     const positions = groups.map(g => ({ left: g.left, top: g.top }));
     const islandIdx: number[] = [];
     const islandItems: { left: string; top: string; w: number }[] = [];
     groups.forEach((g, i) => {
-      if (g.type === 'island') {
+      if (g.type === 'island' && g.sea !== 'second' && g.id !== 'ancient-isle') {
         islandIdx.push(i);
         islandItems.push({ left: g.left, top: g.top, w: (SIZE_PCT[g.size] / 100) * REF_W });
       }
@@ -383,6 +383,9 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     EVENT_IDS.map(id => locMap.get(id)).filter(Boolean) as MapLocation[]
   , [locMap]);
 
+  /* Ancient Isle enriched data */
+  const ancientIsle = useMemo(() => groups.find(g => g.id === 'ancient-isle'), [groups]);
+
   /* ---- State ---- */
   const [level, setLevel] = useState<1|2|3>(1);
   const [selGrpId, setSelGrpId] = useState<string|null>(null);
@@ -394,6 +397,66 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const [whereY, setWhereY] = useState('');
   const [whereZ, setWhereZ] = useState('');
   const [marker, setMarker] = useState<{ left: string; top: string; nearest: string; dist: number } | null>(null);
+
+  /* Zoom & Pan state */
+  const [zoom, setZoom] = useState(1);
+  const [pan, setPan] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
+  const [frameSize, setFrameSize] = useState({ w: 1100, h: 618 });
+
+  /* Refs */
+  const frameRef = useRef<HTMLDivElement>(null);
+  const canvasRef = useRef<HTMLDivElement>(null);
+  const dragRef = useRef<{ x: number; y: number; panX: number; panY: number; moved: boolean } | null>(null);
+  const wasDrag = useRef(false);
+  const clickTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const pinchRef = useRef<{ dist: number; zoom: number; cx: number; cy: number } | null>(null);
+
+  /* Dynamic grid ticks based on zoom */
+  const gridTicks = useMemo(() => {
+    const step = zoom >= 3 ? 500 : zoom >= 2 ? 1000 : 2000;
+    const xTicks: number[] = [];
+    const zTicks: number[] = [];
+    for (let x = Math.ceil(FIRST_SEA.minX / step) * step; x <= FIRST_SEA.maxX; x += step) xTicks.push(x);
+    for (let z = Math.ceil(FIRST_SEA.minZ / step) * step; z <= FIRST_SEA.maxZ; z += step) zTicks.push(z);
+    if (!xTicks.includes(0)) { xTicks.push(0); xTicks.sort((a, b) => a - b); }
+    if (!zTicks.includes(0)) { zTicks.push(0); zTicks.sort((a, b) => a - b); }
+    return { xTicks, zTicks };
+  }, [zoom]);
+
+  /* Label counter-scale: at 4x zoom, labels should be ~1.75x not 4x */
+  const labelInv = useMemo(() => (1 + (zoom - 1) * 0.25) / zoom, [zoom]);
+
+  /* Canvas transform style */
+  const canvasStyle: React.CSSProperties = useMemo(() => ({
+    transform: `translate(${pan.x}px,${pan.y}px) scale(${zoom})`,
+    transformOrigin: '0 0',
+    transition: isDragging ? 'none' : 'transform 0.15s ease-out',
+  }), [pan, zoom, isDragging]);
+
+  /* Visible axis ticks (screen positions) */
+  const visibleXTicks = useMemo(() => {
+    return gridTicks.xTicks.map(v => {
+      const pct = gpsToPercent(v, 0).left / 100;
+      const x = pct * frameSize.w * zoom + pan.x;
+      return { value: v, x };
+    }).filter(t => t.x >= 0 && t.x <= frameSize.w);
+  }, [gridTicks.xTicks, zoom, pan.x, frameSize.w]);
+
+  const visibleZTicks = useMemo(() => {
+    return gridTicks.zTicks.map(v => {
+      const pct = gpsToPercent(0, v).top / 100;
+      const y = pct * frameSize.h * zoom + pan.y;
+      return { value: v, y };
+    }).filter(t => t.y >= 0 && t.y <= frameSize.h);
+  }, [gridTicks.zTicks, zoom, pan.y, frameSize.h]);
+
+  /* Ancient Isle Y position on screen */
+  const ancientIsleY = useMemo(() => {
+    const pct = gpsToPercent(0, 300).top / 100;
+    const y = pct * frameSize.h * zoom + pan.y;
+    return Math.max(50, Math.min(frameSize.h - 50, y));
+  }, [zoom, pan.y, frameSize.h]);
 
   /* Selected group (or virtual for events) */
   const selGrp = useMemo(() => {
@@ -432,6 +495,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
   /* ---- Navigation ---- */
   const enter = useCallback((id: string) => {
+    setZoom(1); setPan({ x: 0, y: 0 });
     setSelGrpId(id); setSelSubId(null); setShowAllOrbit(false); setLevel(2);
   }, []);
   const exit = useCallback(() => {
@@ -447,6 +511,81 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     else if (level === 2) exit();
   }, [level, exit]);
 
+  /* Island click with debounce for double-click distinction */
+  const handleIslandClick = useCallback((id: string) => {
+    if (clickTimer.current) {
+      clearTimeout(clickTimer.current);
+      clickTimer.current = null;
+      return;
+    }
+    clickTimer.current = setTimeout(() => {
+      clickTimer.current = null;
+      enter(id);
+    }, 250);
+  }, [enter]);
+
+  /* ---- Zoom helpers ---- */
+  const zoomTo = useCallback((newZoom: number) => {
+    const frame = frameRef.current;
+    if (!frame) return;
+    const fw = frame.clientWidth, fh = frame.clientHeight;
+    const cx = fw / 2, cy = fh / 2;
+    const nz = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, newZoom));
+    const newPanX = cx - ((cx - pan.x) / zoom) * nz;
+    const newPanY = cy - ((cy - pan.y) / zoom) * nz;
+    setPan(clampPan(newPanX, newPanY, nz, fw, fh));
+    setZoom(nz);
+  }, [zoom, pan]);
+
+  const resetZoom = useCallback(() => {
+    setZoom(1); setPan({ x: 0, y: 0 });
+  }, []);
+
+  /* ---- Pointer drag ---- */
+  const handlePointerDown = useCallback((e: React.PointerEvent) => {
+    if (level !== 1 || e.button !== 0) return;
+    dragRef.current = { x: e.clientX, y: e.clientY, panX: pan.x, panY: pan.y, moved: false };
+    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+  }, [pan, level]);
+
+  const handlePointerMove = useCallback((e: React.PointerEvent) => {
+    const d = dragRef.current;
+    if (!d) return;
+    const dx = e.clientX - d.x, dy = e.clientY - d.y;
+    if (!d.moved && Math.abs(dx) < 5 && Math.abs(dy) < 5) return;
+    d.moved = true;
+    setIsDragging(true);
+    const frame = frameRef.current;
+    if (!frame) return;
+    setPan(clampPan(d.panX + dx, d.panY + dy, zoom, frame.clientWidth, frame.clientHeight));
+  }, [zoom]);
+
+  const handlePointerUp = useCallback((e: React.PointerEvent) => {
+    wasDrag.current = dragRef.current?.moved || false;
+    dragRef.current = null;
+    setIsDragging(false);
+    try { (e.currentTarget as HTMLElement).releasePointerCapture(e.pointerId); } catch {}
+  }, []);
+
+  /* ---- Double-click zoom ---- */
+  const handleDblClick = useCallback((e: React.MouseEvent) => {
+    if (clickTimer.current) {
+      clearTimeout(clickTimer.current);
+      clickTimer.current = null;
+    }
+    if (level !== 1) return;
+    const frame = frameRef.current;
+    if (!frame) return;
+    const rect = frame.getBoundingClientRect();
+    const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+    const nz = Math.min(ZOOM_MAX, zoom < 2 ? 2 : zoom < 4 ? 4 : 4);
+    if (nz === zoom) return;
+    const newPanX = mx - ((mx - pan.x) / zoom) * nz;
+    const newPanY = my - ((my - pan.y) / zoom) * nz;
+    setPan(clampPan(newPanX, newPanY, nz, frame.clientWidth, frame.clientHeight));
+    setZoom(nz);
+  }, [level, zoom, pan]);
+
   /* "Where Am I?" — find position on map */
   const findMe = useCallback(() => {
     const x = parseFloat(whereX), z = parseFloat(whereZ);
@@ -460,6 +599,84 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     }
     setMarker({ ...pos, nearest, dist: Math.round(minDist) });
   }, [whereX, whereZ]);
+
+  /* ---- Effects ---- */
+
+  /* Wheel zoom (needs passive:false) */
+  useEffect(() => {
+    const frame = frameRef.current;
+    if (!frame || level !== 1) return;
+    const handler = (e: WheelEvent) => {
+      e.preventDefault();
+      const rect = frame.getBoundingClientRect();
+      const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+      const delta = -e.deltaY * 0.001;
+      setZoom(prevZoom => {
+        const nz = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, prevZoom * (1 + delta)));
+        setPan(prevPan => {
+          const newPanX = mx - ((mx - prevPan.x) / prevZoom) * nz;
+          const newPanY = my - ((my - prevPan.y) / prevZoom) * nz;
+          return clampPan(newPanX, newPanY, nz, frame.clientWidth, frame.clientHeight);
+        });
+        return nz;
+      });
+    };
+    frame.addEventListener('wheel', handler, { passive: false });
+    return () => frame.removeEventListener('wheel', handler);
+  }, [level]);
+
+  /* Touch pinch zoom */
+  useEffect(() => {
+    const frame = frameRef.current;
+    if (!frame || level !== 1) return;
+    const onTouchStart = (e: TouchEvent) => {
+      if (e.touches.length === 2) {
+        const t0 = e.touches[0], t1 = e.touches[1];
+        const dist = Math.hypot(t1.clientX - t0.clientX, t1.clientY - t0.clientY);
+        pinchRef.current = { dist, zoom, cx: (t0.clientX + t1.clientX) / 2, cy: (t0.clientY + t1.clientY) / 2 };
+      }
+    };
+    const onTouchMove = (e: TouchEvent) => {
+      if (e.touches.length === 2 && pinchRef.current) {
+        e.preventDefault();
+        const t0 = e.touches[0], t1 = e.touches[1];
+        const dist = Math.hypot(t1.clientX - t0.clientX, t1.clientY - t0.clientY);
+        const scale = dist / pinchRef.current.dist;
+        const nz = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, pinchRef.current.zoom * scale));
+        const rect = frame.getBoundingClientRect();
+        const mx = pinchRef.current.cx - rect.left, my = pinchRef.current.cy - rect.top;
+        setZoom(prev => {
+          setPan(prevPan => {
+            const newPanX = mx - ((mx - prevPan.x) / prev) * nz;
+            const newPanY = my - ((my - prevPan.y) / prev) * nz;
+            return clampPan(newPanX, newPanY, nz, frame.clientWidth, frame.clientHeight);
+          });
+          return nz;
+        });
+      }
+    };
+    const onTouchEnd = () => { pinchRef.current = null; };
+    frame.addEventListener('touchstart', onTouchStart, { passive: true });
+    frame.addEventListener('touchmove', onTouchMove, { passive: false });
+    frame.addEventListener('touchend', onTouchEnd, { passive: true });
+    return () => {
+      frame.removeEventListener('touchstart', onTouchStart);
+      frame.removeEventListener('touchmove', onTouchMove);
+      frame.removeEventListener('touchend', onTouchEnd);
+    };
+  }, [level, zoom]);
+
+  /* Frame resize observer */
+  useEffect(() => {
+    const el = frameRef.current;
+    if (!el) return;
+    const ro = new ResizeObserver(entries => {
+      const { width, height } = entries[0].contentRect;
+      setFrameSize({ w: width, h: height });
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
 
   /* Escape key */
   useEffect(() => {
@@ -505,6 +722,9 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
   /* Center position for Level 3 (selected sub moves here) */
   const CENTER = { left: '42%', top: '42%' };
+
+  /* Frame cursor class */
+  const frameCursor = level === 1 && zoom > 1 ? (isDragging ? ' fwm-frame--grabbing' : ' fwm-frame--grab') : '';
 
   /* ================================================================
      RENDER
@@ -562,7 +782,12 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
       </div>
 
       {/* ===== MAP FRAME ===== */}
-      <div className="fwm-frame">
+      <div className={`fwm-frame${frameCursor}`} ref={frameRef}
+        onPointerDown={handlePointerDown}
+        onPointerMove={handlePointerMove}
+        onPointerUp={handlePointerUp}
+        onDoubleClick={handleDblClick}>
+
         {/* Back button */}
         {level >= 2 && (
           <button className="fwm-back" onClick={back}>
@@ -571,136 +796,170 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           </button>
         )}
 
+        {/* Zoom controls */}
+        {level === 1 && (
+          <div className="fwm-zoom-ctrls">
+            <button onClick={() => zoomTo(zoom + 0.5)} title="Zoom in">+</button>
+            <button onClick={() => zoomTo(zoom - 0.5)} title="Zoom out">&minus;</button>
+            <button onClick={resetZoom} title="Reset view">&#x27F2;</button>
+          </div>
+        )}
+
         {/* LEVEL 1: WORLD MAP */}
         <div className={`fwm-world${level!==1?' fwm-world--out':''}`}>
-          <div className="fwm-grid"/>
 
-          {/* Ocean waves */}
-          <svg className="fwm-waves" viewBox="0 0 1000 600" preserveAspectRatio="none">
-            {[100, 200, 310, 400, 480, 560].map((y, i) => (
-              <path key={i}
-                d={`M-20,${y} Q${150+i*20},${y-12-i*2} ${300+i*10},${y} T${620-i*10},${y} T${940+i*5},${y}`}
-                fill="none" stroke={`rgba(255,255,255,${0.05 - i*0.006})`}
-                strokeWidth={2 - i*0.2} strokeLinecap="round"/>
-            ))}
-          </svg>
+          {/* ===== ZOOMABLE CANVAS ===== */}
+          <div className="fwm-canvas" ref={canvasRef} style={{ ...canvasStyle, ['--label-inv' as string]: labelInv }}>
+            <div className="fwm-grid"/>
 
-          <span className="fwm-rl fwm-rl--1">— First Sea —</span>
+            {/* Ocean waves */}
+            <svg className="fwm-waves" viewBox="0 0 1000 600" preserveAspectRatio="none">
+              {[100, 200, 310, 400, 480, 560].map((y, i) => (
+                <path key={i}
+                  d={`M-20,${y} Q${150+i*20},${y-12-i*2} ${300+i*10},${y} T${620-i*10},${y} T${940+i*5},${y}`}
+                  fill="none" stroke={`rgba(255,255,255,${0.05 - i*0.006})`}
+                  strokeWidth={2 - i*0.2} strokeLinecap="round"/>
+              ))}
+            </svg>
 
-          {/* Sea divider */}
-          <div className="fwm-sea-div" style={{ top: `${gpsToPercent(0, 2900).top}%` }}>
-            <span>Second Sea</span>
-          </div>
+            <span className="fwm-rl fwm-rl--1">— First Sea —</span>
 
-          {/* Compass rose */}
-          <svg className="fwm-compass" viewBox="0 0 60 60" width="44" height="44">
-            <circle cx="30" cy="30" r="27" fill="rgba(0,0,0,0.35)" stroke="rgba(255,255,255,0.12)" strokeWidth="1"/>
-            <polygon points="30,7 33,25 30,21 27,25" fill="#ef4444" opacity="0.9"/>
-            <polygon points="30,53 33,35 30,39 27,35" fill="rgba(255,255,255,0.25)"/>
-            <polygon points="7,30 25,27 21,30 25,33" fill="rgba(255,255,255,0.2)"/>
-            <polygon points="53,30 35,27 39,30 35,33" fill="rgba(255,255,255,0.2)"/>
-            <text x="30" y="16" textAnchor="middle" fill="#ef4444" fontSize="7" fontWeight="700" fontFamily="inherit">N</text>
-            <text x="30" y="49" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">S</text>
-            <text x="13" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">W</text>
-            <text x="47" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">E</text>
-          </svg>
+            {/* Second Sea strip background */}
+            <div className="fwm-second-sea"/>
 
-          {/* ===== GPS COORDINATE GRID ===== */}
-          <svg className="fwm-gps-grid" viewBox="0 0 100 100" preserveAspectRatio="none">
-            {GPS_X_TICKS.map(v => {
-              const x = gpsToPercent(v, 0).left;
-              return <line key={`gx${v}`} x1={x} y1={0} x2={x} y2={100}
-                stroke={v === 0 ? 'rgba(34,211,238,0.08)' : 'rgba(255,255,255,0.04)'}
-                strokeWidth={v === 0 ? 0.3 : 0.15}
-                strokeDasharray={v === 0 ? '1,0.5' : 'none'}/>;
-            })}
-            {GPS_Z_TICKS.map(v => {
-              const y = gpsToPercent(0, v).top;
-              return <line key={`gz${v}`} x1={0} y1={y} x2={100} y2={y}
-                stroke={v === 0 ? 'rgba(34,211,238,0.08)' : 'rgba(255,255,255,0.04)'}
-                strokeWidth={v === 0 ? 0.3 : 0.15}
-                strokeDasharray={v === 0 ? '1,0.5' : 'none'}/>;
-            })}
-          </svg>
-
-          {/* X-axis labels (bottom) */}
-          <div className="fwm-axis fwm-axis--x">
-            {GPS_X_TICKS.map(v => (
-              <span key={v} style={{ left: `${gpsToPercent(v, 0).left}%` }}>X:{v}</span>
-            ))}
-          </div>
-          {/* Z-axis labels (left) */}
-          <div className="fwm-axis fwm-axis--z">
-            {GPS_Z_TICKS.map(v => (
-              <span key={v} style={{ top: `${gpsToPercent(0, v).top}%` }}>Z:{v}</span>
-            ))}
-          </div>
-
-          {/* ===== SPECIAL ZONE ICONS (small, behind islands) ===== */}
-          {groups.map((g, gi) => {
-            if (g.type !== 'special') return null;
-            const vis = visIds.has(g.id);
-            const pos = resolvedPos[gi];
-            const posLeft = pos?.left || g.left;
-            const posTop = pos?.top || g.top;
-            return (
-              <div key={g.id} className="fwm-poi"
-                style={{ left: posLeft, top: posTop, opacity: vis ? 1 : 0.2 }}
-                onClick={() => vis && enter(g.id)}>
-                <span className="fwm-poi__i">{g.icon}</span>
-                <span className="fwm-poi__n">{g.name} · {g.totalFish} fish</span>
-              </div>
-            );
-          })}
-
-          {/* ===== ISLAND BLOBS ===== */}
-          {groups.map((g, gi) => {
-            if (g.type !== 'island') return null;
-            const vis = visIds.has(g.id);
-            const pos = resolvedPos[gi];
-            const posLeft = pos?.left || g.left;
-            const posTop = pos?.top || g.top;
-            const b = BIOME[g.biome] || BIOME.ocean;
-            const imgSrc = ISLE_IMG[g.id] || g.imagePath;
-            const clipId = `clip-${g.id}`;
-            const clipD = blobClipPath(g.name);
-            return (
-              <div key={g.id} className={`fwm-isle fwm-isle--${g.size}`}
-                style={{ left: posLeft, top: posTop, opacity: vis ? 1 : 0.15 }}
-                onClick={() => vis && enter(g.id)}>
-                <svg className="fwm-isle__svg" viewBox="-10 -10 120 120" preserveAspectRatio="none">
-                  <defs>
-                    <clipPath id={clipId} clipPathUnits="userSpaceOnUse">
-                      <path d={clipD}/>
-                    </clipPath>
-                  </defs>
-                  <g clipPath={`url(#${clipId})`}>
-                    <rect x="-10" y="-10" width="120" height="120" fill={b.fill}/>
-                    {imgSrc && (
-                      <image href={imgSrc} x="-20" y="-20" width="140" height="140"
-                        preserveAspectRatio="xMidYMid slice"/>
-                    )}
-                    <rect className="fwm-isle__ov" x="-10" y="-10" width="120" height="120"
-                      fill={b.fill} opacity="0.25"/>
-                  </g>
-                </svg>
-                <span className="fwm-isle__n">{g.name}</span>
-                {g.totalFish > 0 && <span className="fwm-isle__f">{g.totalFish} fish</span>}
-              </div>
-            );
-          })}
-
-          {/* Where Am I? marker */}
-          {marker && level === 1 && (
-            <div className="fwm-marker" style={{ left: marker.left, top: marker.top }}>
-              <div className="fwm-marker__dot"/>
-              <div className="fwm-marker__tip">
-                <strong>📍 You are here</strong><br/>
-                Nearest: {marker.nearest}<br/>
-                ~{marker.dist} studs away
-              </div>
+            {/* Sea divider */}
+            <div className="fwm-sea-div" style={{ top: '87%' }}>
+              <span>Second Sea</span>
             </div>
-          )}
+
+            {/* GPS Grid (dynamic ticks based on zoom) */}
+            <svg className="fwm-gps-grid" viewBox="0 0 100 100" preserveAspectRatio="none">
+              {gridTicks.xTicks.map(v => {
+                const x = gpsToPercent(v, 0).left;
+                return <line key={`gx${v}`} x1={x} y1={0} x2={x} y2={100}
+                  stroke={v === 0 ? 'rgba(34,211,238,0.08)' : 'rgba(255,255,255,0.04)'}
+                  strokeWidth={v === 0 ? 0.3 : 0.15}
+                  strokeDasharray={v === 0 ? '1,0.5' : 'none'}/>;
+              })}
+              {gridTicks.zTicks.map(v => {
+                const y = gpsToPercent(0, v).top;
+                return <line key={`gz${v}`} x1={0} y1={y} x2={100} y2={y}
+                  stroke={v === 0 ? 'rgba(34,211,238,0.08)' : 'rgba(255,255,255,0.04)'}
+                  strokeWidth={v === 0 ? 0.3 : 0.15}
+                  strokeDasharray={v === 0 ? '1,0.5' : 'none'}/>;
+              })}
+            </svg>
+
+            {/* ===== SPECIAL ZONE ICONS (small, behind islands) ===== */}
+            {groups.map((g, gi) => {
+              if (g.type !== 'special') return null;
+              const vis = visIds.has(g.id);
+              const pos = resolvedPos[gi];
+              const posLeft = pos?.left || g.left;
+              const posTop = pos?.top || g.top;
+              return (
+                <div key={g.id} className="fwm-poi"
+                  style={{ left: posLeft, top: posTop, opacity: vis ? 1 : 0.2 }}
+                  onClick={(e) => { e.stopPropagation(); if (!wasDrag.current && vis) handleIslandClick(g.id); }}>
+                  <span className="fwm-poi__i">{g.icon}</span>
+                  <span className="fwm-poi__n">{g.label || g.name} · {g.totalFish} fish</span>
+                </div>
+              );
+            })}
+
+            {/* ===== ISLAND BLOBS (except Ancient Isle) ===== */}
+            {groups.map((g, gi) => {
+              if (g.type !== 'island' || g.id === 'ancient-isle') return null;
+              const vis = visIds.has(g.id);
+              const pos = resolvedPos[gi];
+              const posLeft = pos?.left || g.left;
+              const posTop = pos?.top || g.top;
+              const b = BIOME[g.biome] || BIOME.ocean;
+              const imgSrc = ISLE_IMG[g.id] || g.imagePath;
+              const clipId = `clip-${g.id}`;
+              const clipD = blobClipPath(g.name);
+              return (
+                <div key={g.id} className={`fwm-isle fwm-isle--${g.size}`}
+                  style={{ left: posLeft, top: posTop, opacity: vis ? 1 : 0.15 }}
+                  onClick={() => { if (!wasDrag.current && vis) handleIslandClick(g.id); }}>
+                  <svg className="fwm-isle__svg" viewBox="-10 -10 120 120" preserveAspectRatio="none">
+                    <defs>
+                      <clipPath id={clipId} clipPathUnits="userSpaceOnUse">
+                        <path d={clipD}/>
+                      </clipPath>
+                    </defs>
+                    <g clipPath={`url(#${clipId})`}>
+                      <rect x="-10" y="-10" width="120" height="120" fill={b.fill}/>
+                      {imgSrc && (
+                        <image href={imgSrc} x="-20" y="-20" width="140" height="140"
+                          preserveAspectRatio="xMidYMid slice"/>
+                      )}
+                      <rect className="fwm-isle__ov" x="-10" y="-10" width="120" height="120"
+                        fill={b.fill} opacity="0.25"/>
+                    </g>
+                  </svg>
+                  <span className="fwm-isle__n">{g.name}</span>
+                  {g.totalFish > 0 && <span className="fwm-isle__f">{g.totalFish} fish</span>}
+                </div>
+              );
+            })}
+
+            {/* Where Am I? marker */}
+            {marker && level === 1 && (
+              <div className="fwm-marker" style={{ left: marker.left, top: marker.top }}>
+                <div className="fwm-marker__dot"/>
+                <div className="fwm-marker__tip" style={{ transform: `scale(${labelInv})` }}>
+                  <strong>📍 You are here</strong><br/>
+                  Nearest: {marker.nearest}<br/>
+                  ~{marker.dist} studs away
+                </div>
+              </div>
+            )}
+          </div>
+
+          {/* ===== VIEWPORT-FIXED UI (does NOT zoom) ===== */}
+          <div className="fwm-viewport-ui">
+            {/* Dynamic X-axis labels (bottom) */}
+            <div className="fwm-axis fwm-axis--x">
+              {visibleXTicks.map(t => (
+                <span key={t.value} style={{ left: `${t.x}px`, position: 'absolute', transform: 'translateX(-50%)' }}>
+                  X:{t.value}
+                </span>
+              ))}
+            </div>
+            {/* Dynamic Z-axis labels (left) */}
+            <div className="fwm-axis fwm-axis--z">
+              {visibleZTicks.map(t => (
+                <span key={t.value} style={{ top: `${t.y}px`, position: 'absolute', transform: 'translateY(-50%)' }}>
+                  Z:{t.value}
+                </span>
+              ))}
+            </div>
+
+            {/* Compass rose */}
+            <svg className="fwm-compass" viewBox="0 0 60 60" width="44" height="44">
+              <circle cx="30" cy="30" r="27" fill="rgba(0,0,0,0.35)" stroke="rgba(255,255,255,0.12)" strokeWidth="1"/>
+              <polygon points="30,7 33,25 30,21 27,25" fill="#ef4444" opacity="0.9"/>
+              <polygon points="30,53 33,35 30,39 27,35" fill="rgba(255,255,255,0.25)"/>
+              <polygon points="7,30 25,27 21,30 25,33" fill="rgba(255,255,255,0.2)"/>
+              <polygon points="53,30 35,27 39,30 35,33" fill="rgba(255,255,255,0.2)"/>
+              <text x="30" y="16" textAnchor="middle" fill="#ef4444" fontSize="7" fontWeight="700" fontFamily="inherit">N</text>
+              <text x="30" y="49" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">S</text>
+              <text x="13" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">W</text>
+              <text x="47" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">E</text>
+            </svg>
+
+            {/* Ancient Isle off-screen indicator */}
+            {ancientIsle && (
+              <div className={`fwm-offscreen fwm-offscreen--right${visIds.has('ancient-isle') ? '' : ' fwm-offscreen--dim'}`}
+                style={{ top: `${ancientIsleY}px` }}
+                onClick={() => visIds.has('ancient-isle') && handleIslandClick('ancient-isle')}>
+                <span className="fwm-offscreen__arrow">→</span>
+                <span className="fwm-offscreen__name">Ancient Isle</span>
+                <span className="fwm-offscreen__meta">X:6000 · {ancientIsle.totalFish} fish</span>
+              </div>
+            )}
+          </div>
         </div>
 
         {/* LEVEL 2+3: ISLAND DETAIL */}
@@ -738,7 +997,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
                 if (!pos) return null;
                 const isActive = selSubId === loc.id;
                 const isL3 = level === 3;
-                /* In Level 3: selected moves to center, others fade */
                 const style: React.CSSProperties = {
                   left: isL3 && isActive ? CENTER.left : pos.left,
                   top: isL3 && isActive ? CENTER.top : pos.top,
