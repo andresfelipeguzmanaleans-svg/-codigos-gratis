@@ -84,6 +84,8 @@ const ISLE_IMG: Record<string,string> = {
   'the-arch': '/images/locations/balloon/balloon-the-arch.png',
   'earmark-island': '/images/locations/balloon/balloon-earmark-island.png',
   'harvesters-spike': '/images/locations/balloon/balloon-harvesters-spike.png',
+  'statue-of-sovereignty': '/images/locations/balloon/balloon-statue-of-sovereignty.png',
+  'the-laboratory': '/images/locations/balloon/balloon-laboratory.png',
 };
 
 /* ---- Weather ---- */
@@ -203,23 +205,28 @@ const BALLOON: Record<string,string> = {
   'the-arch': '/images/locations/balloon/balloon-the-arch.png',
   'earmark-island': '/images/locations/balloon/balloon-earmark-island.png',
   'harvesters-spike': '/images/locations/balloon/balloon-harvesters-spike.png',
+  'statue-of-sovereignty': '/images/locations/balloon/balloon-statue-of-sovereignty.png',
+  'the-laboratory': '/images/locations/balloon/balloon-laboratory.png',
 };
 
 /* ---- GPS → map position ---- */
 const GPS_BOUNDS = { minX: -3800, maxX: 6300, minZ: -3400, maxZ: 3900 };
 function gpsToPercent(gx: number, gz: number): { left: number; top: number } {
-  // Compress X beyond ±3000 to reclaim space from outliers (Ancient Isle)
+  // Compress X beyond ±3000 (Ancient Isle) and Z beyond 3000 (Second Sea)
   const cx = gx > 3000 ? 3000 + (gx - 3000) * 0.4
            : gx < -3000 ? -3000 + (gx + 3000) * 0.4
            : gx;
-  const rZ = GPS_BOUNDS.maxZ - GPS_BOUNDS.minZ; // 7300
-  const rX = rZ * (16 / 9);                     // ~12978 (16:9 adjusted)
+  const cz = gz > 3000 ? 3000 + (gz - 3000) * 0.4 : gz;
+  const cMinZ = GPS_BOUNDS.minZ;
+  const cMaxZ = 3000 + (GPS_BOUNDS.maxZ - 3000) * 0.4;
+  const rZ = cMaxZ - cMinZ;
+  const rX = rZ * (16 / 9);
   const cMinX = -3000 + (GPS_BOUNDS.minX + 3000) * 0.4;
   const cMaxX = 3000 + (GPS_BOUNDS.maxX - 3000) * 0.4;
   const centerX = (cMinX + cMaxX) / 2;
   return {
     left: ((cx - (centerX - rX / 2)) / rX) * 94 + 3,
-    top: ((gz - GPS_BOUNDS.minZ) / rZ) * 94 + 3,
+    top: ((cz - cMinZ) / rZ) * 94 + 3,
   };
 }
 function gpsPos(gx: number, gz: number): { left: string; top: string } {
@@ -278,42 +285,49 @@ const GPS_X_TICKS = [-3000, -1000, 0, 1000, 3000, 5000];
 const GPS_Z_TICKS = [-3000, -1000, 0, 1000, 3000];
 
 /* ---- Island groups (GPS-positioned) ---- */
+const SIZE_PCT: Record<string, number> = { lg: 12, md: 9, sm: 6 };
 interface IslandGroup {
   id: string; name: string; icon: string; biome: string;
   children: string[]; gps: { x: number; z: number };
-  left: string; top: string; w: number;
+  left: string; top: string;
+  size: 'lg'|'md'|'sm';
+  type: 'island'|'water'|'special';
   sea: 'first'|'second'|'deep';
 }
 const GROUPS: IslandGroup[] = [
-  // --- Northern First Sea (negative Z = north) ---
-  { id:'birch-cay', name:'Birch Cay', icon:'🌲', biome:'tropical', children:['birch-cay'], gps:{x:1448,z:-2351}, ...gpsPos(1448,-2351), w:65, sea:'first' },
-  { id:'the-arch', name:'The Arch', icon:'🌉', biome:'sand', children:['the-arch'], gps:{x:981,z:-1834}, ...gpsPos(981,-1834), w:65, sea:'first' },
-  { id:'castaway-cliffs', name:'Castaway Cliffs', icon:'🪨', biome:'tropical', children:['castaway-cliffs'], gps:{x:690,z:-1693}, ...gpsPos(690,-1693), w:65, sea:'first' },
-  { id:'northern-caves', name:'Northern Caves', icon:'🦇', biome:'dark', children:['crimson-cavern','luminescent-cavern','lost-jungle','the-chasm','ancient-archives'], gps:{x:-1750,z:-1500}, ...gpsPos(-1750,-1500), w:90, sea:'deep' },
-  { id:'sunstone-island', name:'Sunstone Island', icon:'☀️', biome:'sand', children:['sunstone-island','desolate-deep'], gps:{x:-870,z:-1100}, ...gpsPos(-870,-1100), w:75, sea:'first' },
-  { id:'emberreach', name:'Emberreach', icon:'🔥', biome:'volcanic', children:['emberreach'], gps:{x:2300,z:-800}, ...gpsPos(2300,-800), w:65, sea:'first' },
-  // --- Central First Sea ---
-  { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], gps:{x:0,z:-400}, ...gpsPos(0,-400), w:85, sea:'first' },
-  { id:'lushgrove', name:'Lushgrove', icon:'🌿', biome:'tropical', children:['lushgrove'], gps:{x:1132,z:-388}, ...gpsPos(1132,-388), w:70, sea:'first' },
-  { id:'mushgrove-swamp', name:'Mushgrove Swamp', icon:'🍄', biome:'swamp', children:['mushgrove-swamp'], gps:{x:2420,z:-270}, ...gpsPos(2420,-270), w:65, sea:'first' },
-  { id:'harvesters-spike', name:"Harvester's Spike", icon:'⛏️', biome:'sand', children:['harvesters-spike'], gps:{x:-1463,z:58}, ...gpsPos(-1463,58), w:65, sea:'first' },
-  { id:'moosewood', name:'Moosewood', icon:'🏠', biome:'tropical', children:['moosewood','executive-lake','isle-of-new-beginnings'], gps:{x:400,z:250}, ...gpsPos(400,250), w:110, sea:'first' },
-  { id:'roslit-bay', name:'Roslit Bay', icon:'🌋', biome:'volcanic', children:['roslit-bay','roslit-volcano','volcanic-vents','marianas-veil-volcanic-vents','brine-pool'], gps:{x:-1600,z:500}, ...gpsPos(-1600,500), w:110, sea:'first' },
-  { id:'ancient-isle', name:'Ancient Isle', icon:'🏛️', biome:'sand', children:['ancient-isle'], gps:{x:6000,z:300}, ...gpsPos(6000,300), w:80, sea:'first' },
-  // --- Southern First Sea ---
-  { id:'earmark-island', name:'Earmark Island', icon:'🏷️', biome:'tropical', children:['earmark-island'], gps:{x:1195,z:971}, ...gpsPos(1195,971), w:55, sea:'first' },
-  { id:'deep-trenches', name:'Deep Trenches', icon:'🕳️', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], gps:{x:-1800,z:1000}, ...gpsPos(-1800,1000), w:90, sea:'deep' },
-  { id:'azure-lagoon', name:'Azure Lagoon', icon:'💎', biome:'ocean', children:['azure-lagoon'], gps:{x:1318,z:1113}, ...gpsPos(1318,1113), w:55, sea:'first' },
-  { id:'cursed-isle', name:'Cursed Isle', icon:'💀', biome:'dark', children:['cursed-isle','cults-curse','crypt','frightful-pool','cultist-lair'], gps:{x:1800,z:1210}, ...gpsPos(1800,1210), w:85, sea:'first' },
-  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', children:['vertigo','the-depths'], gps:{x:-500,z:1400}, ...gpsPos(-500,1400), w:70, sea:'first' },
-  { id:'forsaken-shores', name:'Forsaken Shores', icon:'🏝️', biome:'sand', children:['forsaken-shores','grand-reef','atlantis','veil-of-the-forsaken'], gps:{x:-2750,z:1450}, ...gpsPos(-2750,1450), w:100, sea:'first' },
-  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', children:['keepers-altar'], gps:{x:-800,z:1800}, ...gpsPos(-800,1800), w:65, sea:'first' },
-  { id:'terrapin-island', name:'Terrapin Island', icon:'🐢', biome:'tropical', children:['terrapin-island','pine-shoals','carrot-garden'], gps:{x:-96,z:1872}, ...gpsPos(-96,1872), w:95, sea:'first' },
-  // --- Far south First Sea ---
-  { id:'snowcap-island', name:'Snowcap Island', icon:'❄️', biome:'snow', children:['snowcap-island','snowburrow','glacial-grotto','frigid-cavern','cryogenic-canal','crystal-cove'], gps:{x:2625,z:2370}, ...gpsPos(2625,2370), w:110, sea:'first' },
-  // --- Second Sea ---
-  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], gps:{x:2000,z:3500}, ...gpsPos(2000,3500), w:85, sea:'second' },
-  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], gps:{x:3500,z:3700}, ...gpsPos(3500,3700), w:70, sea:'second' },
+  // === ISLANDS (20) — blob with image ===
+  // First Sea — Large
+  { id:'moosewood', name:'Moosewood', icon:'🏠', biome:'tropical', children:['moosewood','executive-lake','isle-of-new-beginnings'], gps:{x:400,z:250}, ...gpsPos(400,250), size:'lg', type:'island', sea:'first' },
+  { id:'roslit-bay', name:'Roslit Bay', icon:'🌋', biome:'volcanic', children:['roslit-bay','roslit-volcano','volcanic-vents','marianas-veil-volcanic-vents','brine-pool'], gps:{x:-1600,z:500}, ...gpsPos(-1600,500), size:'lg', type:'island', sea:'first' },
+  { id:'snowcap-island', name:'Snowcap Island', icon:'❄️', biome:'snow', children:['snowcap-island','snowburrow','glacial-grotto','frigid-cavern','cryogenic-canal','crystal-cove'], gps:{x:2625,z:2370}, ...gpsPos(2625,2370), size:'lg', type:'island', sea:'first' },
+  { id:'terrapin-island', name:'Terrapin Island', icon:'🐢', biome:'tropical', children:['terrapin-island','pine-shoals','carrot-garden'], gps:{x:-96,z:1872}, ...gpsPos(-96,1872), size:'lg', type:'island', sea:'first' },
+  { id:'forsaken-shores', name:'Forsaken Shores', icon:'🏝️', biome:'sand', children:['forsaken-shores','grand-reef','atlantis','veil-of-the-forsaken'], gps:{x:-2750,z:1450}, ...gpsPos(-2750,1450), size:'lg', type:'island', sea:'first' },
+  // First Sea — Medium
+  { id:'sunstone-island', name:'Sunstone Island', icon:'☀️', biome:'sand', children:['sunstone-island','desolate-deep'], gps:{x:-870,z:-1100}, ...gpsPos(-870,-1100), size:'md', type:'island', sea:'first' },
+  { id:'ancient-isle', name:'Ancient Isle', icon:'🏛️', biome:'sand', children:['ancient-isle'], gps:{x:6000,z:300}, ...gpsPos(6000,300), size:'md', type:'island', sea:'first' },
+  { id:'mushgrove-swamp', name:'Mushgrove Swamp', icon:'🍄', biome:'swamp', children:['mushgrove-swamp'], gps:{x:2420,z:-270}, ...gpsPos(2420,-270), size:'md', type:'island', sea:'first' },
+  { id:'lushgrove', name:'Lushgrove', icon:'🌿', biome:'tropical', children:['lushgrove'], gps:{x:1132,z:-388}, ...gpsPos(1132,-388), size:'md', type:'island', sea:'first' },
+  { id:'cursed-isle', name:'Cursed Isle', icon:'💀', biome:'dark', children:['cursed-isle','cults-curse','crypt','frightful-pool','cultist-lair'], gps:{x:1800,z:1210}, ...gpsPos(1800,1210), size:'md', type:'island', sea:'first' },
+  // First Sea — Small
+  { id:'emberreach', name:'Emberreach', icon:'🔥', biome:'volcanic', children:['emberreach'], gps:{x:2300,z:-800}, ...gpsPos(2300,-800), size:'sm', type:'island', sea:'first' },
+  { id:'birch-cay', name:'Birch Cay', icon:'🌲', biome:'tropical', children:['birch-cay'], gps:{x:1448,z:-2351}, ...gpsPos(1448,-2351), size:'sm', type:'island', sea:'first' },
+  { id:'earmark-island', name:'Earmark Island', icon:'🏷️', biome:'tropical', children:['earmark-island'], gps:{x:1195,z:971}, ...gpsPos(1195,971), size:'sm', type:'island', sea:'first' },
+  { id:'castaway-cliffs', name:'Castaway Cliffs', icon:'🪨', biome:'tropical', children:['castaway-cliffs'], gps:{x:690,z:-1693}, ...gpsPos(690,-1693), size:'sm', type:'island', sea:'first' },
+  { id:'harvesters-spike', name:"Harvester's Spike", icon:'⛏️', biome:'sand', children:['harvesters-spike'], gps:{x:-1463,z:58}, ...gpsPos(-1463,58), size:'sm', type:'island', sea:'first' },
+  { id:'the-arch', name:'The Arch', icon:'🌉', biome:'sand', children:['the-arch'], gps:{x:981,z:-1834}, ...gpsPos(981,-1834), size:'sm', type:'island', sea:'first' },
+  { id:'statue-of-sovereignty', name:'Statue of Sovereignty', icon:'🗽', biome:'sand', children:['statue-of-sovereignty'], gps:{x:37,z:-1017}, ...gpsPos(37,-1017), size:'sm', type:'island', sea:'first' },
+  { id:'the-laboratory', name:'The Laboratory', icon:'🔬', biome:'dark', children:['the-laboratory'], gps:{x:-174,z:-583}, ...gpsPos(-174,-583), size:'sm', type:'island', sea:'first' },
+  // Second Sea
+  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], gps:{x:2000,z:3500}, ...gpsPos(2000,3500), size:'md', type:'island', sea:'second' },
+  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], gps:{x:3500,z:3700}, ...gpsPos(3500,3700), size:'sm', type:'island', sea:'second' },
+  // === WATER ZONES (4) — dashed outline areas ===
+  { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], gps:{x:0,z:-400}, ...gpsPos(0,-400), size:'lg', type:'water', sea:'first' },
+  { id:'deep-trenches', name:'Deep Trenches', icon:'🕳️', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], gps:{x:-1800,z:1000}, ...gpsPos(-1800,1000), size:'lg', type:'water', sea:'deep' },
+  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', children:['vertigo','the-depths'], gps:{x:-500,z:1400}, ...gpsPos(-500,1400), size:'md', type:'water', sea:'first' },
+  { id:'azure-lagoon', name:'Azure Lagoon', icon:'💎', biome:'ocean', children:['azure-lagoon'], gps:{x:1318,z:1113}, ...gpsPos(1318,1113), size:'sm', type:'water', sea:'first' },
+  // === SPECIAL LOCATIONS (2) — small icons ===
+  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', children:['keepers-altar'], gps:{x:-800,z:1800}, ...gpsPos(-800,1800), size:'sm', type:'special', sea:'first' },
+  { id:'northern-caves', name:'Northern Caves', icon:'🦇', biome:'dark', children:['crimson-cavern','luminescent-cavern','lost-jungle','the-chasm','ancient-archives'], gps:{x:-1750,z:-1500}, ...gpsPos(-1750,-1500), size:'sm', type:'special', sea:'deep' },
 ];
 
 const EVENT_IDS = ['admin-events','fischfright-2025','winter-village','lego-event-2025','fischgiving-2025'];
@@ -349,10 +363,22 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     });
   }, [locMap]);
 
-  /* Resolved positions (collision-free) */
-  const resolvedPos = useMemo(() =>
-    resolveOverlaps(groups.map(g => ({ left: g.left, top: g.top, w: g.w })))
-  , [groups]);
+  /* Resolved positions (collision-free) — only islands participate */
+  const resolvedPos = useMemo(() => {
+    const REF_W = 1100;
+    const positions = groups.map(g => ({ left: g.left, top: g.top }));
+    const islandIdx: number[] = [];
+    const islandItems: { left: string; top: string; w: number }[] = [];
+    groups.forEach((g, i) => {
+      if (g.type === 'island') {
+        islandIdx.push(i);
+        islandItems.push({ left: g.left, top: g.top, w: (SIZE_PCT[g.size] / 100) * REF_W });
+      }
+    });
+    const resolved = resolveOverlaps(islandItems);
+    islandIdx.forEach((gi, ri) => { positions[gi] = resolved[ri]; });
+    return positions;
+  }, [groups]);
 
   const eventLocs = useMemo(() =>
     EVENT_IDS.map(id => locMap.get(id)).filter(Boolean) as MapLocation[]
@@ -379,8 +405,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     if (!loc) return null;
     return {
       id: loc.id, name: loc.name, icon: EVT_ICO[loc.id]||'📍',
-      biome: 'dark', children: [loc.id], gps: { x: 0, z: 0 }, left: '0%', top: '0%', w: 80,
-      sea: 'first' as const,
+      biome: 'dark', children: [loc.id], gps: { x: 0, z: 0 }, left: '0%', top: '0%',
+      size: 'md' as const, type: 'island' as const, sea: 'first' as const,
       childLocs: [loc], allFish: [...loc.fish], totalFish: loc.fishCount,
       imagePath: loc.imagePath, weathers: loc.availableWeathers,
       coords: loc.coords, isPremium: loc.isPremium, isSeasonal: loc.isSeasonal,
@@ -611,21 +637,47 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             ))}
           </div>
 
-          {/* ===== ISLAND NODES ===== */}
+          {/* ===== MAP NODES (islands / water zones / special) ===== */}
           {groups.map((g, gi) => {
             const vis = visIds.has(g.id);
+            const pos = resolvedPos[gi];
+            const posLeft = pos?.left || g.left;
+            const posTop = pos?.top || g.top;
+
+            /* --- Water Zone: dashed outline ellipse --- */
+            if (g.type === 'water') {
+              return (
+                <div key={g.id} className={`fwm-zone fwm-zone--${g.size}`}
+                  style={{ left: posLeft, top: posTop, opacity: vis ? 0.85 : 0.1 }}
+                  onClick={() => vis && enter(g.id)}>
+                  <span className="fwm-zone__ico">{g.icon}</span>
+                  <span className="fwm-zone__n">{g.name}</span>
+                  {g.totalFish > 0 && <span className="fwm-zone__f">{g.totalFish} fish</span>}
+                </div>
+              );
+            }
+
+            /* --- Special Location: small icon --- */
+            if (g.type === 'special') {
+              return (
+                <div key={g.id} className="fwm-spec"
+                  style={{ left: posLeft, top: posTop, opacity: vis ? 1 : 0.15 }}
+                  onClick={() => vis && enter(g.id)}>
+                  <span className="fwm-spec__i">{g.icon}</span>
+                  <span className="fwm-spec__n">{g.name}</span>
+                  {g.totalFish > 0 && <span className="fwm-spec__f">{g.totalFish} fish</span>}
+                </div>
+              );
+            }
+
+            /* --- Island: blob with image --- */
             const b = BIOME[g.biome] || BIOME.ocean;
             const imgSrc = ISLE_IMG[g.id] || g.imagePath;
-            const pos = resolvedPos[gi];
             const clipId = `clip-${g.id}`;
             const clipD = blobClipPath(g.name);
             return (
-              <div key={g.id} className="fwm-isle"
-                style={{
-                  left: pos?.left || g.left, top: pos?.top || g.top,
-                  width: g.w, height: g.w,
-                  opacity: vis ? 1 : 0.15,
-                }}
+              <div key={g.id} className={`fwm-isle fwm-isle--${g.size}`}
+                style={{ left: posLeft, top: posTop, opacity: vis ? 1 : 0.15 }}
                 onClick={() => vis && enter(g.id)}>
                 <svg className="fwm-isle__svg" viewBox="-10 -10 120 120" preserveAspectRatio="none">
                   <defs>

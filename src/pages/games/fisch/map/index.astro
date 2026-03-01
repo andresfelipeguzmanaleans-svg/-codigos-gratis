@@ -33,7 +33,7 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
   <div class="map-page">
     <div class="map-hero">
       <h1 class="mh-t">🗺️ <span class="mh-a">INTERACTIVE</span> MAP</h1>
-      <p class="mh-s">20 regions &bull; {totalFish.toLocaleString('en-US')} fish &bull; Click any island to explore</p>
+      <p class="mh-s">26 locations &bull; {totalFish.toLocaleString('en-US')} fish &bull; Click any island to explore</p>
     </div>
     <FischWorldMap client:load locations={mapLocations} gameSlug="fisch"/>
   </div>
@@ -240,11 +240,14 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
   /* ====== ISLAND NODES ====== */
   :global(.fwm-isle) {
     position: absolute; display: flex; flex-direction: column; align-items: center;
-    cursor: pointer; z-index: 2;
+    cursor: pointer; z-index: 2; aspect-ratio: 1;
     transform: translate(-50%, -50%);
     transition: transform 0.25s ease, opacity 0.2s, filter 0.25s ease;
     filter: drop-shadow(0 4px 12px rgba(0,0,0,0.6));
   }
+  :global(.fwm-isle--lg) { width: 12%; }
+  :global(.fwm-isle--md) { width: 9%; }
+  :global(.fwm-isle--sm) { width: 6%; }
   :global(.fwm-isle:hover) {
     transform: translate(-50%, -50%) scale(1.1) translateY(-3px);
     z-index: 10;
@@ -272,6 +275,59 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     font-size: 8px; font-weight: 700; color: #e2e8f0;
     background: rgba(0,0,0,0.5); padding: 1px 6px; border-radius: 6px; margin-top: 1px;
   }
+
+  /* ====== WATER ZONES ====== */
+  :global(.fwm-zone) {
+    position: absolute; transform: translate(-50%, -50%);
+    border: 2px dashed rgba(34,211,238,0.25);
+    border-radius: 50%;
+    background: rgba(34,211,238,0.04);
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    cursor: pointer; z-index: 1;
+    transition: all 0.25s ease;
+  }
+  :global(.fwm-zone:hover) {
+    border-color: rgba(34,211,238,0.5);
+    background: rgba(34,211,238,0.1);
+    z-index: 10;
+  }
+  :global(.fwm-zone--lg) { width: 18%; aspect-ratio: 1.4; }
+  :global(.fwm-zone--md) { width: 13%; aspect-ratio: 1.3; }
+  :global(.fwm-zone--sm) { width: 9%; aspect-ratio: 1.2; }
+  :global(.fwm-zone__ico) { font-size: 18px; margin-bottom: 2px; filter: drop-shadow(0 1px 3px rgba(0,0,0,0.6)); }
+  :global(.fwm-zone__n) {
+    font-size: 9px; font-weight: 700; color: rgba(34,211,238,0.6);
+    white-space: nowrap; text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+  }
+  :global(.fwm-zone:hover .fwm-zone__n) { color: rgba(34,211,238,0.9); }
+  :global(.fwm-zone__f) {
+    font-size: 7px; color: rgba(34,211,238,0.45); margin-top: 1px;
+    background: rgba(0,0,0,0.3); padding: 1px 5px; border-radius: 4px;
+  }
+
+  /* ====== SPECIAL LOCATIONS ====== */
+  :global(.fwm-spec) {
+    position: absolute; transform: translate(-50%, -50%);
+    display: flex; flex-direction: column; align-items: center;
+    cursor: pointer; z-index: 3;
+    transition: transform 0.25s ease, opacity 0.2s;
+  }
+  :global(.fwm-spec:hover) { transform: translate(-50%, -50%) scale(1.15); z-index: 10; }
+  :global(.fwm-spec__i) {
+    width: 30px; height: 30px; border-radius: 50%;
+    background: rgba(0,0,0,0.55); border: 1.5px solid rgba(255,255,255,0.2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    transition: all 0.2s;
+  }
+  :global(.fwm-spec:hover .fwm-spec__i) { border-color: #22d3ee; box-shadow: 0 0 12px rgba(34,211,238,0.3); }
+  :global(.fwm-spec__n) {
+    font-size: 8px; font-weight: 600; color: rgba(255,255,255,0.6);
+    white-space: nowrap; margin-top: 2px; text-shadow: 0 1px 3px rgba(0,0,0,0.9);
+  }
+  :global(.fwm-spec:hover .fwm-spec__n) { color: #22d3ee; }
+  :global(.fwm-spec__f) { font-size: 7px; color: rgba(34,211,238,0.5); }
 
   /* Biome bg */
   :global(.fwm-b--tropical) { background: linear-gradient(135deg, #065f46, #059669); }
@@ -489,9 +545,21 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     :global(.fwm-where__in) { flex: 1; min-width: 50px; width: auto; }
     :global(.fwm-where__btn) { flex: 1; }
 
+    :global(.fwm-isle--lg) { width: 18%; }
+    :global(.fwm-isle--md) { width: 14%; }
+    :global(.fwm-isle--sm) { width: 10%; }
     :global(.fwm-isle__n) { font-size: 8px; }
     :global(.fwm-isle:hover .fwm-isle__n) { font-size: 9px; }
     :global(.fwm-isle__f) { font-size: 7px; }
+
+    :global(.fwm-zone--lg) { width: 24%; }
+    :global(.fwm-zone--md) { width: 18%; }
+    :global(.fwm-zone--sm) { width: 13%; }
+    :global(.fwm-zone__ico) { font-size: 16px; }
+    :global(.fwm-zone__n) { font-size: 8px; }
+
+    :global(.fwm-spec__i) { width: 34px; height: 34px; font-size: 16px; }
+    :global(.fwm-spec__n) { font-size: 9px; }
 
     :global(.fwm-axis--z) { width: 28px; }
     :global(.fwm-axis--z span) { font-size: 7px; }
