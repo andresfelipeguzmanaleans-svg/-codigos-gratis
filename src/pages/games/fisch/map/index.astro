@@ -211,20 +211,14 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.4));
   }
 
-  /* Zoom hint */
+  /* Zoom hint — subtle, top-left */
   :global(.fwm-zoom-hint) {
-    position: absolute; bottom: 52px; left: 50%; transform: translateX(-50%);
-    background: rgba(0,0,0,0.6); backdrop-filter: blur(8px);
-    padding: 6px 16px; border-radius: 20px;
-    font-size: 11px; font-weight: 600; color: #94a3b8;
-    border: 1px solid rgba(255,255,255,0.08);
+    position: absolute; top: 10px; left: 10px;
+    padding: 4px 10px; border-radius: 12px;
+    font-size: 10px; font-weight: 500; color: rgba(255,255,255,0.35);
     pointer-events: none; white-space: nowrap;
-    animation: fwm-hint-pulse 2s ease-in-out infinite;
-    z-index: 5;
-  }
-  @keyframes fwm-hint-pulse {
-    0%, 100% { opacity: 0.7; }
-    50% { opacity: 1; }
+    letter-spacing: 0.3px;
+    transition: opacity 0.4s;
   }
 
   /* GPS coordinate grid */

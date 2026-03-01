@@ -962,8 +962,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           <div className="fwm-viewport-ui">
             {/* Zoom hint (fades out after zoom >1.3) */}
             {zoom < 1.3 && (
-              <div className="fwm-zoom-hint" style={{ opacity: zoom < 1.1 ? 1 : Math.max(0, (1.3 - zoom) / 0.2) }}>
-                🔍 Zoom in to discover more islands
+              <div className="fwm-zoom-hint" style={{ opacity: zoom < 1.1 ? 0.5 : Math.max(0, (1.3 - zoom) / 0.4) }}>
+                Zoom to explore
               </div>
             )}
             {/* Dynamic X-axis labels (bottom) */}
