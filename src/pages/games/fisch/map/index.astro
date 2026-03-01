@@ -133,7 +133,7 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     letter-spacing: 5px; text-transform: uppercase; pointer-events: none; opacity: 0.15; z-index: 1;
   }
   :global(.fwm-rl--1) { top: 1%; left: 50%; transform: translateX(-50%); color: #7dd3fc; }
-  :global(.fwm-rl--2) { top: 53%; left: 50%; transform: translateX(-50%); color: #c4b5fd; }
+  :global(.fwm-rl--2) { top: 58%; left: 50%; transform: translateX(-50%); color: #c4b5fd; }
   :global(.fwm-compass) {
     position: absolute; top: 10px; right: 10px;
     pointer-events: none; z-index: 5;
@@ -145,24 +145,25 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     position: absolute; display: flex; flex-direction: column; align-items: center;
     cursor: pointer; z-index: 2;
     transform: translate(-50%, -50%);
-    transition: transform 0.2s, opacity 0.2s;
-    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5));
+    transition: transform 0.25s ease, opacity 0.2s, filter 0.25s ease;
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.5));
   }
   :global(.fwm-isle:hover) {
-    transform: translate(-50%, -50%) scale(1.08);
+    transform: translate(-50%, -50%) scale(1.08) translateY(-4px);
     z-index: 10;
-    filter: drop-shadow(0 4px 20px rgba(0,0,0,0.4)) drop-shadow(0 0 12px rgba(34,211,238,0.4));
+    filter: drop-shadow(0 0 12px rgba(34,211,238,0.4));
   }
   :global(.fwm-isle__svg) {
     width: 100%; height: auto; display: block;
+    filter: brightness(0.85);
+    transition: filter 0.25s ease;
+  }
+  :global(.fwm-isle:hover .fwm-isle__svg) {
+    filter: brightness(1.1);
   }
   /* On hover: remove biome overlay to reveal full image */
   :global(.fwm-isle:hover .fwm-isle__ov) {
     opacity: 0 !important;
-  }
-  :global(.fwm-isle:hover .fwm-isle__svg path[stroke]) {
-    stroke: #22d3ee !important;
-    opacity: 1 !important;
   }
   :global(.fwm-isle__n) {
     margin-top: 2px; font-size: 10px; font-weight: 700;

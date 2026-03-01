@@ -58,24 +58,6 @@ function blobClipPath(name: string): string {
   return d + 'Z';
 }
 
-/* Sketch-style SVG outline (wobbly stroke around the blob) in absolute px */
-function sketchOutline(name: string, w: number, h: number): string {
-  const r = rng(hashStr(name + 'sketch'));
-  const n = 18;
-  const pts: [number,number][] = [];
-  for (let i = 0; i < n; i++) {
-    const a = (i / n) * Math.PI * 2;
-    const noise = 0.76 + r() * 0.48;
-    pts.push([w/2 + Math.cos(a) * (w/2) * noise * 0.92, h/2 + Math.sin(a) * (h/2) * noise * 0.92]);
-  }
-  let d = `M${pts[0][0].toFixed(1)},${pts[0][1].toFixed(1)}`;
-  for (let i = 0; i < n; i++) {
-    const p0 = pts[(i-1+n)%n], p1 = pts[i], p2 = pts[(i+1)%n], p3 = pts[(i+2)%n];
-    d += ` C${(p1[0]+(p2[0]-p0[0])/5).toFixed(1)},${(p1[1]+(p2[1]-p0[1])/5).toFixed(1)} ${(p2[0]-(p3[0]-p1[0])/5).toFixed(1)},${(p2[1]-(p3[1]-p1[1])/5).toFixed(1)} ${p2[0].toFixed(1)},${p2[1].toFixed(1)}`;
-  }
-  return d + 'Z';
-}
-
 /* Island image mapping */
 const ISLE_IMG: Record<string,string> = {
   'sunstone-island': '/images/locations/sunstone-island.png',
@@ -98,6 +80,10 @@ const ISLE_IMG: Record<string,string> = {
   'snowcap-island': '/images/locations/snowcap-island.png',
   'waveborne': '/images/locations/waveborne.png',
   'treasure-island': '/images/locations/treasure-island.png',
+  'birch-cay': '/images/locations/balloon/balloon-birch-cay.png',
+  'the-arch': '/images/locations/balloon/balloon-the-arch.png',
+  'earmark-island': '/images/locations/balloon/balloon-earmark-island.png',
+  'harvesters-spike': '/images/locations/balloon/balloon-harvesters-spike.png',
 };
 
 /* ---- Weather ---- */
@@ -213,6 +199,10 @@ const BALLOON: Record<string,string> = {
   'forsaken-shores': '/images/locations/balloon/balloon-forsaken-shores.png',
   'castaway-cliffs': '/images/locations/balloon/balloon-castaway-cliffs.png',
   'keepers-altar': '/images/locations/balloon/balloon-statue-of-sovereignty.png',
+  'birch-cay': '/images/locations/balloon/balloon-birch-cay.png',
+  'the-arch': '/images/locations/balloon/balloon-the-arch.png',
+  'earmark-island': '/images/locations/balloon/balloon-earmark-island.png',
+  'harvesters-spike': '/images/locations/balloon/balloon-harvesters-spike.png',
 };
 
 /* ---- Island groups (% positions + px width) ---- */
@@ -229,24 +219,28 @@ const GROUPS: IslandGroup[] = [
   { id:'emberreach', name:'Emberreach', icon:'🔥', biome:'volcanic', children:['emberreach'], left:'58%', top:'5%', w:80, sea:'first' },
   { id:'ancient-isle', name:'Ancient Isle', icon:'🏛️', biome:'sand', children:['ancient-isle'], left:'84%', top:'9%', w:100, sea:'first' },
   // Row 2
-  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', children:['keepers-altar'], left:'20%', top:'21%', w:80, sea:'first' },
-  { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], left:'36%', top:'20%', w:130, sea:'first' },
-  { id:'lushgrove', name:'Lushgrove', icon:'🌿', biome:'tropical', children:['lushgrove'], left:'53%', top:'20%', w:90, sea:'first' },
-  { id:'mushgrove-swamp', name:'Mushgrove Swamp', icon:'🍄', biome:'swamp', children:['mushgrove-swamp'], left:'70%', top:'21%', w:80, sea:'first' },
-  { id:'cursed-isle', name:'Cursed Isle', icon:'💀', biome:'dark', children:['cursed-isle','cults-curse','crypt','frightful-pool','cultist-lair'], left:'89%', top:'25%', w:100, sea:'first' },
+  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', children:['keepers-altar'], left:'14%', top:'21%', w:80, sea:'first' },
+  { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], left:'30%', top:'20%', w:100, sea:'first' },
+  { id:'lushgrove', name:'Lushgrove', icon:'🌿', biome:'tropical', children:['lushgrove'], left:'46%', top:'20%', w:90, sea:'first' },
+  { id:'mushgrove-swamp', name:'Mushgrove Swamp', icon:'🍄', biome:'swamp', children:['mushgrove-swamp'], left:'62%', top:'21%', w:80, sea:'first' },
+  { id:'cursed-isle', name:'Cursed Isle', icon:'💀', biome:'dark', children:['cursed-isle','cults-curse','crypt','frightful-pool','cultist-lair'], left:'78%', top:'20%', w:100, sea:'first' },
+  { id:'earmark-island', name:'Earmark Island', icon:'🏷️', biome:'tropical', children:['earmark-island'], left:'92%', top:'21%', w:75, sea:'first' },
   // Row 3
-  { id:'roslit-bay', name:'Roslit Bay', icon:'🌋', biome:'volcanic', children:['roslit-bay','roslit-volcano','volcanic-vents','marianas-veil-volcanic-vents','brine-pool'], left:'7%', top:'30%', w:130, sea:'first' },
-  { id:'moosewood', name:'Moosewood', icon:'🏠', biome:'tropical', children:['moosewood','executive-lake','isle-of-new-beginnings'], left:'39%', top:'30%', w:130, sea:'first' },
-  // Row 4
-  { id:'forsaken-shores', name:'Forsaken Shores', icon:'🏝️', biome:'sand', children:['forsaken-shores','grand-reef','atlantis','veil-of-the-forsaken'], left:'8%', top:'42%', w:130, sea:'first' },
-  { id:'deep-trenches', name:'Deep Trenches', icon:'🕳️', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], left:'22%', top:'42%', w:100, sea:'deep' },
-  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', children:['vertigo','the-depths'], left:'32%', top:'42%', w:80, sea:'first' },
-  { id:'terrapin-island', name:'Terrapin Island', icon:'🐢', biome:'tropical', children:['terrapin-island','pine-shoals','carrot-garden'], left:'45%', top:'42%', w:120, sea:'first' },
-  { id:'azure-lagoon', name:'Azure Lagoon', icon:'💎', biome:'ocean', children:['azure-lagoon'], left:'59%', top:'40%', w:80, sea:'first' },
-  { id:'snowcap-island', name:'Snowcap Island', icon:'❄️', biome:'snow', children:['snowcap-island','snowburrow','glacial-grotto','frigid-cavern','cryogenic-canal','crystal-cove'], left:'76%', top:'42%', w:130, sea:'first' },
+  { id:'roslit-bay', name:'Roslit Bay', icon:'🌋', biome:'volcanic', children:['roslit-bay','roslit-volcano','volcanic-vents','marianas-veil-volcanic-vents','brine-pool'], left:'7%', top:'33%', w:130, sea:'first' },
+  { id:'moosewood', name:'Moosewood', icon:'🏠', biome:'tropical', children:['moosewood','executive-lake','isle-of-new-beginnings'], left:'28%', top:'33%', w:130, sea:'first' },
+  { id:'birch-cay', name:'Birch Cay', icon:'🌲', biome:'tropical', children:['birch-cay'], left:'48%', top:'34%', w:75, sea:'first' },
+  { id:'harvesters-spike', name:"Harvester's Spike", icon:'⛏️', biome:'sand', children:['harvesters-spike'], left:'62%', top:'33%', w:80, sea:'first' },
+  { id:'the-arch', name:'The Arch', icon:'🌉', biome:'sand', children:['the-arch'], left:'78%', top:'34%', w:80, sea:'first' },
+  // Row 4 (spread out)
+  { id:'forsaken-shores', name:'Forsaken Shores', icon:'🏝️', biome:'sand', children:['forsaken-shores','grand-reef','atlantis','veil-of-the-forsaken'], left:'6%', top:'48%', w:120, sea:'first' },
+  { id:'deep-trenches', name:'Deep Trenches', icon:'🕳️', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], left:'22%', top:'48%', w:100, sea:'deep' },
+  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', children:['vertigo','the-depths'], left:'36%', top:'48%', w:80, sea:'first' },
+  { id:'terrapin-island', name:'Terrapin Island', icon:'🐢', biome:'tropical', children:['terrapin-island','pine-shoals','carrot-garden'], left:'50%', top:'48%', w:120, sea:'first' },
+  { id:'azure-lagoon', name:'Azure Lagoon', icon:'💎', biome:'ocean', children:['azure-lagoon'], left:'66%', top:'47%', w:80, sea:'first' },
+  { id:'snowcap-island', name:'Snowcap Island', icon:'❄️', biome:'snow', children:['snowcap-island','snowburrow','glacial-grotto','frigid-cavern','cryogenic-canal','crystal-cove'], left:'82%', top:'48%', w:130, sea:'first' },
   // Row 5 (Second Sea)
-  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], left:'34%', top:'56%', w:100, sea:'second' },
-  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], left:'56%', top:'56%', w:80, sea:'second' },
+  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], left:'34%', top:'62%', w:100, sea:'second' },
+  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], left:'56%', top:'62%', w:80, sea:'second' },
 ];
 
 const EVENT_IDS = ['admin-events','fischfright-2025','winter-village','lego-event-2025','fischgiving-2025'];
@@ -476,8 +470,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             const imgSrc = ISLE_IMG[g.id] || g.imagePath;
             const h = g.w * 0.75;
             const clipId = `clip-${g.id}`;
-            const clipD = blobClipPath(g.name);    // 0-100 coords
-            const outD = sketchOutline(g.name, 100, 75); // 0-100 coords
+            const clipD = blobClipPath(g.name); // 0-100 coords
             return (
               <div key={g.id} className="fwm-isle"
                 style={{
@@ -486,27 +479,22 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
                   opacity: vis ? 1 : 0.15,
                 }}
                 onClick={() => vis && enter(g.id)}>
-                {/* Inline SVG: clipPath def + clipped image + outline */}
-                <svg className="fwm-isle__svg" viewBox="0 0 100 75" preserveAspectRatio="none">
+                {/* Inline SVG: clipPath + clipped image, NO outline */}
+                <svg className="fwm-isle__svg" viewBox="0 0 100 100" preserveAspectRatio="none">
                   <defs>
                     <clipPath id={clipId} clipPathUnits="userSpaceOnUse">
-                      <path d={clipD} transform="scale(1, 0.75)"/>
+                      <path d={clipD}/>
                     </clipPath>
                   </defs>
-                  {/* Clipped group: bg color + image + overlay */}
                   <g clipPath={`url(#${clipId})`}>
-                    <rect width="100" height="75" fill={b.fill}/>
+                    <rect width="100" height="100" fill={b.fill}/>
                     {imgSrc && (
-                      <image href={imgSrc} x="0" y="0" width="100" height="75"
+                      <image href={imgSrc} x="-10" y="-10" width="120" height="120"
                         preserveAspectRatio="xMidYMid slice"/>
                     )}
-                    <rect className="fwm-isle__ov" width="100" height="75"
+                    <rect className="fwm-isle__ov" width="100" height="100"
                       fill={b.fill} opacity="0.3"/>
                   </g>
-                  {/* Sketch outline on top */}
-                  <path d={outD} fill="none" stroke={b.stroke} strokeWidth="2.5"
-                    strokeLinejoin="round" strokeLinecap="round" opacity="0.7"
-                    vectorEffect="non-scaling-stroke"/>
                 </svg>
                 {/* Name */}
                 <span className="fwm-isle__n" style={{ color: b.stroke }}>{g.name}</span>
