@@ -418,7 +418,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
   /* Dynamic grid ticks based on zoom */
   const gridTicks = useMemo(() => {
-    const step = zoom >= 3 ? 500 : zoom >= 2 ? 1000 : 2000;
+    const step = zoom >= 3 ? 500 : 1000;
     const xTicks: number[] = [];
     const zTicks: number[] = [];
     for (let x = Math.ceil(GPS_BOUNDS.minX / step) * step; x <= GPS_BOUNDS.maxX; x += step) xTicks.push(x);
