@@ -208,26 +208,33 @@ const BALLOON: Record<string,string> = {
 };
 
 /* ---- GPS → map position ---- */
-const FIRST_SEA = { minX: -2800, maxX: 2800, minZ: -2500, maxZ: 2500 };
-const SECOND_SEA_Y = { top: 89, bottom: 97, minZ: 3400, maxZ: 3800 };
+const GPS_BOUNDS = { minX: -3800, maxX: 6300, minZ: -3400, maxZ: 3900 };
 const ZOOM_MIN = 1;
 const ZOOM_MAX = 4;
 
-function gpsToPercent(gx: number, gz: number, sea: 'first' | 'second' = 'first'): { left: number; top: number } {
-  const left = 3 + ((gx - FIRST_SEA.minX) / (FIRST_SEA.maxX - FIRST_SEA.minX)) * 94;
-  let top: number;
-  if (sea === 'second') {
-    top = SECOND_SEA_Y.top + ((gz - SECOND_SEA_Y.minZ) / (SECOND_SEA_Y.maxZ - SECOND_SEA_Y.minZ)) * (SECOND_SEA_Y.bottom - SECOND_SEA_Y.top);
-  } else {
-    top = 3 + ((gz - FIRST_SEA.minZ) / (FIRST_SEA.maxZ - FIRST_SEA.minZ)) * 82;
-  }
-  return { left, top };
-}
-function gpsPos(gx: number, gz: number, sea: 'first' | 'second' = 'first'): { left: string; top: string } {
-  const p = gpsToPercent(gx, gz, sea);
+function gpsToPercent(gx: number, gz: number): { left: number; top: number } {
+  // Compress X beyond ±3000 (Ancient Isle) and Z beyond 3000 (Second Sea)
+  const cx = gx > 3000 ? 3000 + (gx - 3000) * 0.4
+           : gx < -3000 ? -3000 + (gx + 3000) * 0.4
+           : gx;
+  const cz = gz > 3000 ? 3000 + (gz - 3000) * 0.4 : gz;
+  const cMinZ = GPS_BOUNDS.minZ;
+  const cMaxZ = 3000 + (GPS_BOUNDS.maxZ - 3000) * 0.4;
+  const rZ = cMaxZ - cMinZ;
+  const rX = rZ * (16 / 9);
+  const cMinX = -3000 + (GPS_BOUNDS.minX + 3000) * 0.4;
+  const cMaxX = 3000 + (GPS_BOUNDS.maxX - 3000) * 0.4;
+  const centerX = (cMinX + cMaxX) / 2;
   return {
-    left: `${Math.max(2, Math.min(98, p.left)).toFixed(1)}%`,
-    top: `${Math.max(2, Math.min(98, p.top)).toFixed(1)}%`,
+    left: ((cx - (centerX - rX / 2)) / rX) * 94 + 3,
+    top: ((cz - cMinZ) / rZ) * 94 + 3,
+  };
+}
+function gpsPos(gx: number, gz: number): { left: string; top: string } {
+  const p = gpsToPercent(gx, gz);
+  return {
+    left: `${Math.max(3, Math.min(97, p.left)).toFixed(1)}%`,
+    top: `${Math.max(3, Math.min(97, p.top)).toFixed(1)}%`,
   };
 }
 
@@ -305,7 +312,7 @@ const GROUPS: IslandGroup[] = [
   { id:'cursed-isle', name:'Cursed Isle', icon:'💀', biome:'dark', children:['cursed-isle','cults-curse','crypt','frightful-pool','cultist-lair'], gps:{x:1800,z:1210}, ...gpsPos(1800,1210), size:'lg', type:'island', sea:'first' },
   // First Sea — Medium
   { id:'sunstone-island', name:'Sunstone Island', icon:'☀️', biome:'sand', children:['sunstone-island','desolate-deep'], gps:{x:-870,z:-1100}, ...gpsPos(-870,-1100), size:'md', type:'island', sea:'first' },
-  { id:'ancient-isle', name:'Ancient Isle', icon:'🏛️', biome:'sand', children:['ancient-isle'], gps:{x:6000,z:300}, left:'98%', top:'50%', size:'md', type:'island', sea:'first' },
+  { id:'ancient-isle', name:'Ancient Isle', icon:'🏛️', biome:'sand', children:['ancient-isle'], gps:{x:6000,z:300}, ...gpsPos(6000,300), size:'md', type:'island', sea:'first' },
   { id:'mushgrove-swamp', name:'Mushgrove Swamp', icon:'🍄', biome:'swamp', children:['mushgrove-swamp'], gps:{x:2420,z:-270}, ...gpsPos(2420,-270), size:'md', type:'island', sea:'first' },
   { id:'lushgrove', name:'Lushgrove', icon:'🌿', biome:'tropical', children:['lushgrove'], gps:{x:1132,z:-388}, ...gpsPos(1132,-388), size:'md', type:'island', sea:'first' },
   { id:'emberreach', name:'Emberreach', icon:'🔥', biome:'volcanic', children:['emberreach'], gps:{x:2300,z:-800}, ...gpsPos(2300,-800), size:'md', type:'island', sea:'first' },
@@ -319,8 +326,8 @@ const GROUPS: IslandGroup[] = [
   { id:'statue-of-sovereignty', name:'Statue of Sovereignty', icon:'🗽', biome:'sand', children:['statue-of-sovereignty'], gps:{x:37,z:-1017}, ...gpsPos(37,-1017), size:'sm', type:'island', sea:'first' },
   { id:'the-laboratory', name:'The Laboratory', icon:'🔬', biome:'dark', children:['the-laboratory'], gps:{x:-474,z:-583}, ...gpsPos(-474,-583), size:'sm', type:'island', sea:'first' },
   // Second Sea
-  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], gps:{x:2000,z:3500}, ...gpsPos(2000,3500,'second'), size:'md', type:'island', sea:'second' },
-  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], gps:{x:3500,z:3700}, ...gpsPos(3500,3700,'second'), size:'sm', type:'island', sea:'second' },
+  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], gps:{x:2000,z:3500}, ...gpsPos(2000,3500), size:'md', type:'island', sea:'second' },
+  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], gps:{x:3500,z:3700}, ...gpsPos(3500,3700), size:'sm', type:'island', sea:'second' },
   // === SPECIAL ZONES — small icons next to nearby islands ===
   { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], gps:{x:400,z:-200}, ...gpsPos(400,-200), size:'sm', type:'special', sea:'first' },
   { id:'deep-trenches', name:'Deep Trenches', icon:'🔱', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], gps:{x:-1600,z:900}, ...gpsPos(-1600,900), size:'sm', type:'special', sea:'deep' },
@@ -362,14 +369,14 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     });
   }, [locMap]);
 
-  /* Resolved positions (collision-free) — only First Sea islands participate */
+  /* Resolved positions (collision-free) — only islands participate */
   const resolvedPos = useMemo(() => {
     const REF_W = 1100;
     const positions = groups.map(g => ({ left: g.left, top: g.top }));
     const islandIdx: number[] = [];
     const islandItems: { left: string; top: string; w: number }[] = [];
     groups.forEach((g, i) => {
-      if (g.type === 'island' && g.sea !== 'second' && g.id !== 'ancient-isle') {
+      if (g.type === 'island') {
         islandIdx.push(i);
         islandItems.push({ left: g.left, top: g.top, w: (SIZE_PCT[g.size] / 100) * REF_W });
       }
@@ -382,9 +389,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const eventLocs = useMemo(() =>
     EVENT_IDS.map(id => locMap.get(id)).filter(Boolean) as MapLocation[]
   , [locMap]);
-
-  /* Ancient Isle enriched data */
-  const ancientIsle = useMemo(() => groups.find(g => g.id === 'ancient-isle'), [groups]);
 
   /* ---- State ---- */
   const [level, setLevel] = useState<1|2|3>(1);
@@ -417,8 +421,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     const step = zoom >= 3 ? 500 : zoom >= 2 ? 1000 : 2000;
     const xTicks: number[] = [];
     const zTicks: number[] = [];
-    for (let x = Math.ceil(FIRST_SEA.minX / step) * step; x <= FIRST_SEA.maxX; x += step) xTicks.push(x);
-    for (let z = Math.ceil(FIRST_SEA.minZ / step) * step; z <= FIRST_SEA.maxZ; z += step) zTicks.push(z);
+    for (let x = Math.ceil(GPS_BOUNDS.minX / step) * step; x <= GPS_BOUNDS.maxX; x += step) xTicks.push(x);
+    for (let z = Math.ceil(GPS_BOUNDS.minZ / step) * step; z <= GPS_BOUNDS.maxZ; z += step) zTicks.push(z);
     if (!xTicks.includes(0)) { xTicks.push(0); xTicks.sort((a, b) => a - b); }
     if (!zTicks.includes(0)) { zTicks.push(0); zTicks.sort((a, b) => a - b); }
     return { xTicks, zTicks };
@@ -450,13 +454,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
       return { value: v, y };
     }).filter(t => t.y >= 0 && t.y <= frameSize.h);
   }, [gridTicks.zTicks, zoom, pan.y, frameSize.h]);
-
-  /* Ancient Isle Y position on screen */
-  const ancientIsleY = useMemo(() => {
-    const pct = gpsToPercent(0, 300).top / 100;
-    const y = pct * frameSize.h * zoom + pan.y;
-    return Math.max(50, Math.min(frameSize.h - 50, y));
-  }, [zoom, pan.y, frameSize.h]);
 
   /* Selected group (or virtual for events) */
   const selGrp = useMemo(() => {
@@ -824,14 +821,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
             <span className="fwm-rl fwm-rl--1">— First Sea —</span>
 
-            {/* Second Sea strip background */}
-            <div className="fwm-second-sea"/>
-
-            {/* Sea divider */}
-            <div className="fwm-sea-div" style={{ top: '87%' }}>
-              <span>Second Sea</span>
-            </div>
-
             {/* GPS Grid (dynamic ticks based on zoom) */}
             <svg className="fwm-gps-grid" viewBox="0 0 100 100" preserveAspectRatio="none">
               {gridTicks.xTicks.map(v => {
@@ -850,27 +839,36 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
               })}
             </svg>
 
-            {/* ===== SPECIAL ZONE ICONS (small, behind islands) ===== */}
+            {/* ===== SPECIAL ZONE ICONS (appear at zoom >= 2x) ===== */}
             {groups.map((g, gi) => {
               if (g.type !== 'special') return null;
               const vis = visIds.has(g.id);
+              // POI icons fade in at zoom >= 1.8
+              const zoomOp = zoom < 1.8 ? 0 : zoom < 2.3 ? (zoom - 1.8) / 0.5 : 1;
+              if (zoomOp <= 0 && vis) return null;
               const pos = resolvedPos[gi];
               const posLeft = pos?.left || g.left;
               const posTop = pos?.top || g.top;
               return (
                 <div key={g.id} className="fwm-poi"
-                  style={{ left: posLeft, top: posTop, opacity: vis ? 1 : 0.2 }}
-                  onClick={(e) => { e.stopPropagation(); if (!wasDrag.current && vis) handleIslandClick(g.id); }}>
+                  style={{ left: posLeft, top: posTop, opacity: vis ? zoomOp : 0.15, transition: 'opacity 0.3s' }}
+                  onClick={(e) => { e.stopPropagation(); if (!wasDrag.current && vis && zoomOp > 0.5) handleIslandClick(g.id); }}>
                   <span className="fwm-poi__i">{g.icon}</span>
                   <span className="fwm-poi__n">{g.label || g.name} · {g.totalFish} fish</span>
                 </div>
               );
             })}
 
-            {/* ===== ISLAND BLOBS (except Ancient Isle) ===== */}
+            {/* ===== ISLAND BLOBS (lg always visible, md/sm appear with zoom) ===== */}
             {groups.map((g, gi) => {
-              if (g.type !== 'island' || g.id === 'ancient-isle') return null;
+              if (g.type !== 'island') return null;
               const vis = visIds.has(g.id);
+              // Progressive reveal: lg=always, md=zoom>=1.3, sm=zoom>=1.6
+              const zoomOp = g.size === 'lg' ? 1
+                : g.size === 'md' ? (zoom < 1.3 ? 0 : zoom < 1.6 ? (zoom - 1.3) / 0.3 : 1)
+                : (zoom < 1.6 ? 0 : zoom < 2.0 ? (zoom - 1.6) / 0.4 : 1);
+              if (zoomOp <= 0 && vis) return null;
+              const finalOp = vis ? zoomOp : 0.1;
               const pos = resolvedPos[gi];
               const posLeft = pos?.left || g.left;
               const posTop = pos?.top || g.top;
@@ -880,8 +878,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
               const clipD = blobClipPath(g.name);
               return (
                 <div key={g.id} className={`fwm-isle fwm-isle--${g.size}`}
-                  style={{ left: posLeft, top: posTop, opacity: vis ? 1 : 0.15 }}
-                  onClick={() => { if (!wasDrag.current && vis) handleIslandClick(g.id); }}>
+                  style={{ left: posLeft, top: posTop, opacity: finalOp, transition: 'opacity 0.3s' }}
+                  onClick={() => { if (!wasDrag.current && vis && zoomOp > 0.5) handleIslandClick(g.id); }}>
                   <svg className="fwm-isle__svg" viewBox="-10 -10 120 120" preserveAspectRatio="none">
                     <defs>
                       <clipPath id={clipId} clipPathUnits="userSpaceOnUse">
@@ -919,6 +917,12 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
           {/* ===== VIEWPORT-FIXED UI (does NOT zoom) ===== */}
           <div className="fwm-viewport-ui">
+            {/* Zoom hint (fades out after zoom >1.2) */}
+            {zoom < 1.2 && (
+              <div className="fwm-zoom-hint">
+                Zoom in to discover more islands
+              </div>
+            )}
             {/* Dynamic X-axis labels (bottom) */}
             <div className="fwm-axis fwm-axis--x">
               {visibleXTicks.map(t => (
@@ -949,16 +953,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
               <text x="47" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">E</text>
             </svg>
 
-            {/* Ancient Isle off-screen indicator */}
-            {ancientIsle && (
-              <div className={`fwm-offscreen fwm-offscreen--right${visIds.has('ancient-isle') ? '' : ' fwm-offscreen--dim'}`}
-                style={{ top: `${ancientIsleY}px` }}
-                onClick={() => visIds.has('ancient-isle') && handleIslandClick('ancient-isle')}>
-                <span className="fwm-offscreen__arrow">→</span>
-                <span className="fwm-offscreen__name">Ancient Isle</span>
-                <span className="fwm-offscreen__meta">X:6000 · {ancientIsle.totalFish} fish</span>
-              </div>
-            )}
           </div>
         </div>
 
