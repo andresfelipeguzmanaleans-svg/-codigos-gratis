@@ -151,7 +151,7 @@ const SECOND_SEA = { minX: 1500, maxX: 4000, minZ: 3300, maxZ: 3900 };
 const SECOND_SEA_TOP = 82;
 const SECOND_SEA_BOT = 97;
 const ZOOM_MIN = 1;
-const ZOOM_MAX = 4;
+const ZOOM_MAX = 5;
 
 function gpsToPercent(gx: number, gz: number, sea: 'first' | 'second' = 'first'): { left: number; top: number } {
   if (sea === 'second') {
@@ -185,10 +185,10 @@ function resolveOverlaps(
   const pos = items.map(it => ({
     x: (parseFloat(it.left) / 100) * MW,
     y: (parseFloat(it.top) / 100) * MH,
-    rw: it.w / 2 + 10,
-    rh: it.w / 2 + 24,
+    rw: it.w / 2 + 20,
+    rh: it.w / 2 + 30,
   }));
-  for (let iter = 0; iter < 40; iter++) {
+  for (let iter = 0; iter < 60; iter++) {
     let moved = false;
     for (let i = 0; i < pos.length; i++) {
       for (let j = i + 1; j < pos.length; j++) {
@@ -230,7 +230,7 @@ function clampPan(px: number, py: number, z: number, fw: number, fh: number): { 
 }
 
 /* ---- Island groups (GPS-positioned) ---- */
-const SIZE_PCT: Record<string, number> = { lg: 10, md: 7, sm: 4.5 };
+const SIZE_PCT: Record<string, number> = { lg: 5.5, md: 3.8, sm: 2.5 };
 interface IslandGroup {
   id: string; name: string; icon: string; biome: string;
   children: string[]; gps: { x: number; z: number };
@@ -308,20 +308,22 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     });
   }, [locMap]);
 
-  /* Resolved positions (collision-free) — First Sea islands only */
+  /* Resolved positions (collision-free) — ALL groups */
   const resolvedPos = useMemo(() => {
     const REF_W = 1100;
     const positions = groups.map(g => ({ left: g.left, top: g.top }));
-    const islandIdx: number[] = [];
-    const islandItems: { left: string; top: string; w: number }[] = [];
+    const itemIdx: number[] = [];
+    const items: { left: string; top: string; w: number }[] = [];
     groups.forEach((g, i) => {
-      if (g.type === 'island' && g.sea !== 'second' && g.id !== 'ancient-isle') {
-        islandIdx.push(i);
-        islandItems.push({ left: g.left, top: g.top, w: (SIZE_PCT[g.size] / 100) * REF_W });
-      }
+      if (g.id === 'ancient-isle') return; // off-screen
+      const basePx = g.type === 'island'
+        ? (SIZE_PCT[g.size] / 100) * REF_W
+        : 20; // special zones are small icons
+      itemIdx.push(i);
+      items.push({ left: g.left, top: g.top, w: basePx });
     });
-    const resolved = resolveOverlaps(islandItems);
-    islandIdx.forEach((gi, ri) => { positions[gi] = resolved[ri]; });
+    const resolved = resolveOverlaps(items);
+    itemIdx.forEach((gi, ri) => { positions[gi] = resolved[ri]; });
     return positions;
   }, [groups]);
 
@@ -338,7 +340,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     for (const g of groups) {
       if (g.childLocs.length <= 1) continue;
       const parentGps = g.gps;
-      const radius = g.size === 'lg' ? 350 : g.size === 'md' ? 250 : 180;
+      const radius = g.size === 'lg' ? 220 : g.size === 'md' ? 160 : 120;
       g.childLocs.forEach((loc, i) => {
         // Skip the first child if it has the same ID as the group (it's the island itself)
         if (i === 0 && loc.id === g.id) return;
@@ -370,7 +372,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
       for (const loc of g.childLocs) {
         if (loc.fish.length === 0) continue;
         const sorted = [...loc.fish].sort((a, b) => (RAR_ORD[b.rarity]||0) - (RAR_ORD[a.rarity]||0));
-        map.set(loc.id, sorted.slice(0, 3));
+        map.set(loc.id, sorted.slice(0, 5));
       }
     }
     return map;
@@ -391,12 +393,18 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const [isDragging, setIsDragging] = useState(false);
   const [frameSize, setFrameSize] = useState({ w: 1100, h: 687 });
 
+  /* Inertia state */
+  const [isInertia, setIsInertia] = useState(false);
+
   /* Refs */
   const frameRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLDivElement>(null);
   const dragRef = useRef<{ x: number; y: number; panX: number; panY: number; moved: boolean } | null>(null);
   const wasDrag = useRef(false);
   const pinchRef = useRef<{ dist: number; zoom: number; cx: number; cy: number } | null>(null);
+  const velocityRef = useRef({ vx: 0, vy: 0 });
+  const lastMoveRef = useRef({ x: 0, y: 0, t: 0 });
+  const inertiaRaf = useRef<number>(0);
 
   /* Dynamic grid ticks based on zoom */
   const gridTicks = useMemo(() => {
@@ -417,8 +425,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const canvasStyle: React.CSSProperties = useMemo(() => ({
     transform: `translate(${pan.x}px,${pan.y}px) scale(${zoom})`,
     transformOrigin: '0 0',
-    transition: isDragging ? 'none' : 'transform 0.25s ease-out',
-  }), [pan, zoom, isDragging]);
+    transition: (isDragging || isInertia) ? 'none' : 'transform 0.18s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+  }), [pan, zoom, isDragging, isInertia]);
 
   /* Ancient Isle Y position on screen */
   const ancientIsleY = useMemo(() => {
@@ -496,10 +504,15 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     setZoom(1); setPan({ x: 0, y: 0 });
   }, []);
 
-  /* ---- Pointer drag ---- */
+  /* ---- Pointer drag with inertia ---- */
   const handlePointerDown = useCallback((e: React.PointerEvent) => {
     if (e.button !== 0) return;
     if (zoom <= 1) return;
+    // Cancel any ongoing inertia
+    cancelAnimationFrame(inertiaRaf.current);
+    setIsInertia(false);
+    velocityRef.current = { vx: 0, vy: 0 };
+    lastMoveRef.current = { x: e.clientX, y: e.clientY, t: performance.now() };
     dragRef.current = { x: e.clientX, y: e.clientY, panX: pan.x, panY: pan.y, moved: false };
   }, [pan, zoom]);
 
@@ -508,11 +521,22 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     if (!d) return;
     const dx = e.clientX - d.x, dy = e.clientY - d.y;
     if (!d.moved) {
-      if (Math.abs(dx) < 8 && Math.abs(dy) < 8) return;
+      if (Math.abs(dx) < 4 && Math.abs(dy) < 4) return;
       d.moved = true;
       setIsDragging(true);
       try { (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId); } catch {}
     }
+    // Track velocity for inertia
+    const now = performance.now();
+    const dt = now - lastMoveRef.current.t;
+    if (dt > 0 && dt < 100) {
+      velocityRef.current = {
+        vx: (e.clientX - lastMoveRef.current.x) / dt * 16,
+        vy: (e.clientY - lastMoveRef.current.y) / dt * 16,
+      };
+    }
+    lastMoveRef.current = { x: e.clientX, y: e.clientY, t: now };
+
     const frame = frameRef.current;
     if (!frame) return;
     setPan(clampPan(d.panX + dx, d.panY + dy, zoom, frame.clientWidth, frame.clientHeight));
@@ -525,8 +549,28 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     if (d?.moved) {
       setIsDragging(false);
       try { (e.currentTarget as HTMLElement).releasePointerCapture(e.pointerId); } catch {}
+      // Apply inertia if there's velocity
+      const v = velocityRef.current;
+      if (Math.abs(v.vx) > 0.5 || Math.abs(v.vy) > 0.5) {
+        setIsInertia(true);
+        const decay = 0.92;
+        const frame = frameRef.current;
+        if (frame) {
+          const animate = () => {
+            v.vx *= decay;
+            v.vy *= decay;
+            if (Math.abs(v.vx) < 0.3 && Math.abs(v.vy) < 0.3) {
+              setIsInertia(false);
+              return;
+            }
+            setPan(prev => clampPan(prev.x + v.vx, prev.y + v.vy, zoom, frame.clientWidth, frame.clientHeight));
+            inertiaRaf.current = requestAnimationFrame(animate);
+          };
+          inertiaRaf.current = requestAnimationFrame(animate);
+        }
+      }
     }
-  }, []);
+  }, [zoom]);
 
   /* ---- Double-click zoom ---- */
   const handleDblClick = useCallback((e: React.MouseEvent) => {
@@ -535,7 +579,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     if (!frame) return;
     const rect = frame.getBoundingClientRect();
     const mx = e.clientX - rect.left, my = e.clientY - rect.top;
-    const nz = Math.min(ZOOM_MAX, zoom + 1);
+    const nz = Math.min(ZOOM_MAX, zoom + 0.5);
     if (nz === zoom) return;
     const newPanX = mx - ((mx - pan.x) / zoom) * nz;
     const newPanY = my - ((my - pan.y) / zoom) * nz;
@@ -567,7 +611,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
       e.preventDefault();
       const rect = frame.getBoundingClientRect();
       const mx = e.clientX - rect.left, my = e.clientY - rect.top;
-      const step = e.deltaY > 0 ? -0.15 : 0.15;
+      const step = e.deltaY > 0 ? -0.1 : 0.1;
       setZoom(prevZoom => {
         const nz = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, prevZoom + step));
         if (nz === prevZoom) return prevZoom;
@@ -723,8 +767,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
         {/* Zoom controls */}
         <div className="fwm-zoom-ctrls">
-          <button onClick={() => zoomTo(zoom + 0.5)} title="Zoom in">+</button>
-          <button onClick={() => zoomTo(zoom - 0.5)} title="Zoom out">&minus;</button>
+          <button onClick={() => zoomTo(zoom + 0.3)} title="Zoom in">+</button>
+          <button onClick={() => zoomTo(zoom - 0.3)} title="Zoom out">&minus;</button>
           <button onClick={resetZoom} title="Reset view">&#x27F2;</button>
         </div>
 
@@ -777,9 +821,9 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             {groups.map((g, gi) => {
               if (g.type !== 'special') return null;
               const vis = visIds.has(g.id);
-              const revealed = zoom >= 1.8;
-              const hintOp = revealed ? 1 : 0.25;
-              const hintBlur = revealed ? 0 : 2;
+              // All special zones visible at 1x — no blur gating
+              const hintOp = vis ? 1 : 0.1;
+              const hintBlur = 0;
               const pos = resolvedPos[gi];
               const posLeft = pos?.left || g.left;
               const posTop = pos?.top || g.top;
@@ -792,7 +836,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
                     filter: hintBlur > 0 ? `blur(${hintBlur}px)` : 'none',
                     transition: 'opacity 0.4s, filter 0.4s',
                   }}
-                  onClick={(e) => { e.stopPropagation(); if (vis && revealed) selectItem(g.id); }}>
+                  onClick={(e) => { e.stopPropagation(); if (vis) selectItem(g.id); }}>
                   <span className="fwm-poi__i">{g.icon}</span>
                   <span className="fwm-poi__n">{g.label || g.name} · {g.totalFish} fish</span>
                 </div>
@@ -803,21 +847,10 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             {groups.map((g, gi) => {
               if (g.type !== 'island' || g.id === 'ancient-isle') return null;
               const vis = visIds.has(g.id);
-              let opacity: number, blur: number, clickable: boolean;
-              if (g.size === 'lg') {
-                opacity = 1; blur = 0; clickable = true;
-              } else if (g.size === 'md') {
-                const t = zoom < 1.3 ? 0 : zoom < 1.6 ? (zoom - 1.3) / 0.3 : 1;
-                opacity = 0.2 + t * 0.8;
-                blur = (1 - t) * 3;
-                clickable = t > 0.3;
-              } else {
-                const t = zoom < 1.6 ? 0 : zoom < 2.0 ? (zoom - 1.6) / 0.4 : 1;
-                opacity = 0.15 + t * 0.85;
-                blur = (1 - t) * 4;
-                clickable = t > 0.3;
-              }
-              if (!vis) opacity = 0.08;
+              // ALL islands visible at 1x — no progressive blur
+              const opacity = vis ? 1 : 0.08;
+              const blur = 0;
+              const clickable = vis;
               const pos = resolvedPos[gi];
               const posLeft = pos?.left || g.left;
               const posTop = pos?.top || g.top;
@@ -890,7 +923,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
               });
             })}
 
-            {/* ===== FISH DOTS (zoom >= 2.8) ===== */}
+            {/* ===== FISH ORBIT (zoom >= 2.5) ===== */}
             {zoom >= 2.5 && groups.map(g => {
               if (!visIds.has(g.id)) return null;
               return g.childLocs.map(loc => {
@@ -904,32 +937,31 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
                 if (!basePos) return null;
                 const t = zoom < 2.8 ? Math.max(0, (zoom - 2.5) / 0.3) : 1;
                 if (t <= 0) return null;
-                return (
-                  <div key={`fdots-${loc.id}`} className="fwm-fdots"
-                    style={{
-                      left: basePos.left,
-                      top: basePos.top,
-                      opacity: t,
-                      transition: 'opacity 0.3s',
-                    }}>
-                    {topFish.map((f, fi) => {
-                      const fid = f.id || slug(f.name);
-                      return (
-                        <a key={fid} className="fwm-fdot"
-                          href={`/games/${gameSlug}/fish/${fid}/`}
-                          style={{
-                            ...rarBg(f.rarity),
-                            borderColor: `${RAR_CLR[f.rarity] || '#94a3b8'}50`,
-                            animationDelay: `${fi * 0.05}s`,
-                          }}
-                          title={`${f.name} (${f.rarity})`}
-                          onClick={(e) => e.stopPropagation()}>
-                          <img src={`/images/fish/${fid}.png`} alt={f.name} loading="lazy"/>
-                        </a>
-                      );
-                    })}
-                  </div>
-                );
+                // Fish orbit in circle around location
+                const orbitR = 28;
+                return topFish.map((f, fi) => {
+                  const angle = (fi / topFish.length) * Math.PI * 2 - Math.PI / 2;
+                  const ox = Math.cos(angle) * orbitR;
+                  const oy = Math.sin(angle) * orbitR;
+                  const fid = f.id || slug(f.name);
+                  return (
+                    <a key={`fo-${loc.id}-${fid}`} className="fwm-fdot"
+                      href={`/games/${gameSlug}/fish/${fid}/`}
+                      style={{
+                        left: basePos.left,
+                        top: basePos.top,
+                        transform: `translate(calc(-50% + ${ox.toFixed(1)}px), calc(-50% + ${oy.toFixed(1)}px)) scale(var(--label-inv, 1))`,
+                        opacity: t,
+                        ...rarBg(f.rarity),
+                        borderColor: `${RAR_CLR[f.rarity] || '#94a3b8'}50`,
+                        animationDelay: `${fi * 0.06}s`,
+                      }}
+                      title={`${f.name} (${f.rarity})`}
+                      onClick={(e) => e.stopPropagation()}>
+                      <img src={`/images/fish/${fid}.png`} alt={f.name} loading="lazy"/>
+                    </a>
+                  );
+                });
               });
             })}
 
@@ -972,7 +1004,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             </div>
 
             {/* Compass rose */}
-            <svg className="fwm-compass" viewBox="0 0 60 60" width="44" height="44">
+            <svg className="fwm-compass" viewBox="0 0 60 60" width="36" height="36">
               <circle cx="30" cy="30" r="27" fill="rgba(0,0,0,0.35)" stroke="rgba(255,255,255,0.12)" strokeWidth="1"/>
               <polygon points="30,7 33,25 30,21 27,25" fill="#ef4444" opacity="0.9"/>
               <polygon points="30,53 33,35 30,39 27,35" fill="rgba(255,255,255,0.25)"/>

@@ -121,12 +121,12 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     display: flex; flex-direction: column; gap: 4px;
   }
   :global(.fwm-zoom-ctrls button) {
-    width: 36px; height: 36px; border-radius: 8px;
+    width: 28px; height: 28px; border-radius: 6px;
     background: rgba(0,0,0,0.6); backdrop-filter: blur(8px);
     border: 1px solid rgba(255,255,255,0.1);
-    color: #e2e8f0; font-size: 18px; font-weight: 700;
+    color: #e2e8f0; font-size: 14px; font-weight: 700;
     cursor: pointer; display: flex; align-items: center; justify-content: center;
-    font-family: inherit; transition: all 0.15s; min-height: 36px;
+    font-family: inherit; transition: all 0.15s; min-height: 28px;
   }
   :global(.fwm-zoom-ctrls button:hover) {
     background: rgba(0,0,0,0.75); border-color: #22d3ee; color: #22d3ee;
@@ -183,8 +183,8 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     pointer-events: none; z-index: 1;
   }
   :global(.fwm-rl) {
-    position: absolute; font-size: 12px; font-weight: 800;
-    letter-spacing: 5px; text-transform: uppercase; pointer-events: none; opacity: 0.15; z-index: 1;
+    position: absolute; font-size: 10px; font-weight: 800;
+    letter-spacing: 3px; text-transform: uppercase; pointer-events: none; opacity: 0.12; z-index: 1;
   }
   :global(.fwm-rl--1) { top: 1%; left: 50%; transform: translateX(-50%); color: #7dd3fc; }
   :global(.fwm-compass) {
@@ -195,11 +195,11 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
 
   /* Zoom hint */
   :global(.fwm-zoom-hint) {
-    position: absolute; top: 10px; left: 10px;
-    padding: 4px 10px; border-radius: 12px;
-    font-size: 10px; font-weight: 500; color: rgba(255,255,255,0.35);
+    position: absolute; top: 8px; left: 8px;
+    padding: 3px 8px; border-radius: 10px;
+    font-size: 8px; font-weight: 500; color: rgba(255,255,255,0.3);
     pointer-events: none; white-space: nowrap;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.2px;
     transition: opacity 0.4s;
   }
 
@@ -294,9 +294,9 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     transition: transform 0.25s ease, opacity 0.2s, filter 0.25s ease;
     filter: drop-shadow(0 4px 12px rgba(0,0,0,0.6));
   }
-  :global(.fwm-isle--lg) { width: 10%; z-index: 3; }
-  :global(.fwm-isle--md) { width: 7%; z-index: 3; }
-  :global(.fwm-isle--sm) { width: 4.5%; z-index: 2; }
+  :global(.fwm-isle--lg) { width: 5.5%; z-index: 3; }
+  :global(.fwm-isle--md) { width: 3.8%; z-index: 3; }
+  :global(.fwm-isle--sm) { width: 2.5%; z-index: 2; }
   :global(.fwm-isle:hover) {
     transform: translate(-50%, -50%) scale(1.1) translateY(-3px);
     z-index: 10;
@@ -314,16 +314,16 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
   :global(.fwm-isle--sel .fwm-isle__svg) { filter: brightness(1.1); }
   :global(.fwm-isle:hover .fwm-isle__ov) { opacity: 0 !important; }
   :global(.fwm-isle__n) {
-    margin-top: 3px; font-size: 9px; font-weight: 700; color: #fff;
+    margin-top: 2px; font-size: 7px; font-weight: 700; color: #fff;
     text-shadow: 0 1px 4px rgba(0,0,0,0.95), 0 0 8px rgba(0,0,0,0.6);
-    white-space: nowrap; letter-spacing: 0.3px;
+    white-space: nowrap; letter-spacing: 0.2px;
     transition: font-size 0.2s;
     transform: scale(var(--label-inv, 1)); transform-origin: center top;
   }
-  :global(.fwm-isle:hover .fwm-isle__n) { font-size: 11px; }
+  :global(.fwm-isle:hover .fwm-isle__n) { font-size: 9px; }
   :global(.fwm-isle__f) {
-    font-size: 8px; font-weight: 700; color: #22d3ee;
-    background: rgba(0,0,0,0.5); padding: 1px 6px; border-radius: 6px; margin-top: 1px;
+    font-size: 6px; font-weight: 700; color: #22d3ee;
+    background: rgba(0,0,0,0.5); padding: 0px 4px; border-radius: 4px; margin-top: 1px;
     transform: scale(var(--label-inv, 1)); transform-origin: center top;
   }
 
@@ -337,11 +337,11 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
   :global(.fwm-poi:hover) { transform: translate(-50%, -50%) scale(calc(var(--label-inv, 1) * 1.15)); z-index: 10; }
   :global(.fwm-poi--sel .fwm-poi__i) { border-color: #22d3ee; box-shadow: 0 0 16px rgba(34,211,238,0.5); }
   :global(.fwm-poi__i) {
-    width: 26px; height: 26px; border-radius: 50%;
+    width: 20px; height: 20px; border-radius: 50%;
     background: rgba(0,0,0,0.5); border: 1.5px solid rgba(255,255,255,0.15);
     display: flex; align-items: center; justify-content: center;
-    font-size: 13px; line-height: 1;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    font-size: 10px; line-height: 1;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
     transition: all 0.2s;
   }
   :global(.fwm-poi:hover .fwm-poi__i) { border-color: #22d3ee; box-shadow: 0 0 12px rgba(34,211,238,0.35); }
@@ -376,9 +376,9 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     box-shadow: 0 0 16px rgba(34,211,238,0.5);
   }
   :global(.fwm-szn__circle) {
-    width: 36px; height: 36px; border-radius: 50%; overflow: hidden;
-    border: 2px solid rgba(255,255,255,0.2);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    width: 28px; height: 28px; border-radius: 50%; overflow: hidden;
+    border: 1.5px solid rgba(255,255,255,0.2);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
     transition: all 0.2s;
     display: flex; align-items: center; justify-content: center;
   }
@@ -399,26 +399,22 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     background: rgba(0,0,0,0.4); padding: 0 4px; border-radius: 4px; margin-top: 1px;
   }
 
-  /* ====== FISH DOTS (zoom 3x+) ====== */
-  :global(.fwm-fdots) {
-    position: absolute; transform: translate(-50%, 14px) scale(var(--label-inv, 1));
-    display: flex; gap: 3px; z-index: 5; pointer-events: auto;
-    transition: opacity 0.3s;
-  }
+  /* ====== FISH ORBIT DOTS (zoom 2.5x+) ====== */
   :global(.fwm-fdot) {
-    width: 24px; height: 24px; border-radius: 6px; overflow: hidden;
+    position: absolute;
+    width: 20px; height: 20px; border-radius: 50%; overflow: hidden;
     border: 1.5px solid rgba(255,255,255,0.15);
     box-shadow: 0 1px 4px rgba(0,0,0,0.4);
     display: flex; align-items: center; justify-content: center;
-    transition: transform 0.2s;
+    transition: opacity 0.3s;
     animation: fwm-fdot-in 0.3s ease backwards;
-    text-decoration: none;
+    text-decoration: none; z-index: 5; pointer-events: auto;
   }
-  :global(.fwm-fdot:hover) { transform: scale(1.3); z-index: 15; }
+  :global(.fwm-fdot:hover) { z-index: 15; filter: brightness(1.3); }
   :global(.fwm-fdot img) { width: 80%; height: 80%; object-fit: contain; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4)); }
   @keyframes fwm-fdot-in {
     from { opacity: 0; transform: scale(0.5); }
-    to { opacity: 1; transform: scale(1); }
+    to { opacity: 1; }
   }
 
   /* ====== INFO PANEL (slides from right) ====== */
@@ -540,20 +536,20 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     :global(.fwm-where__in) { flex: 1; min-width: 50px; width: auto; }
     :global(.fwm-where__btn) { flex: 1; }
 
-    :global(.fwm-isle--lg) { width: 14%; }
-    :global(.fwm-isle--md) { width: 9%; }
-    :global(.fwm-isle--sm) { width: 6%; }
-    :global(.fwm-isle__n) { font-size: 8px; }
-    :global(.fwm-isle:hover .fwm-isle__n) { font-size: 9px; }
-    :global(.fwm-isle__f) { font-size: 7px; }
+    :global(.fwm-isle--lg) { width: 8%; }
+    :global(.fwm-isle--md) { width: 5.5%; }
+    :global(.fwm-isle--sm) { width: 3.5%; }
+    :global(.fwm-isle__n) { font-size: 6px; }
+    :global(.fwm-isle:hover .fwm-isle__n) { font-size: 7px; }
+    :global(.fwm-isle__f) { font-size: 5px; }
 
-    :global(.fwm-poi__i) { width: 28px; height: 28px; font-size: 14px; }
-    :global(.fwm-poi__n) { font-size: 7px; }
+    :global(.fwm-poi__i) { width: 22px; height: 22px; font-size: 11px; }
+    :global(.fwm-poi__n) { font-size: 6px; }
 
-    :global(.fwm-szn__circle) { width: 30px; height: 30px; }
-    :global(.fwm-szn__name) { font-size: 6px; }
+    :global(.fwm-szn__circle) { width: 24px; height: 24px; }
+    :global(.fwm-szn__name) { font-size: 5px; }
 
-    :global(.fwm-fdot) { width: 20px; height: 20px; }
+    :global(.fwm-fdot) { width: 16px; height: 16px; }
 
     :global(.fwm-axis--z) { width: 28px; }
     :global(.fwm-axis--z span) { font-size: 7px; }
@@ -577,7 +573,7 @@ const description = `Interactive zoom-based map of all Fisch fishing locations. 
     :global(.fwm-ec) { min-height: 44px; }
 
     :global(.fwm-zoom-ctrls) { bottom: 8px; right: 8px; }
-    :global(.fwm-zoom-ctrls button) { width: 44px; height: 44px; font-size: 20px; }
+    :global(.fwm-zoom-ctrls button) { width: 36px; height: 36px; font-size: 16px; }
     :global(.fwm-offscreen) { padding: 4px 8px; }
     :global(.fwm-offscreen__name) { font-size: 10px; }
     :global(.fwm-offscreen__meta) { font-size: 8px; }
