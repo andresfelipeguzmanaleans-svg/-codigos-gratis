@@ -8,11 +8,11 @@ OUT_DIR = r'C:\Users\santi\Desktop\PROYECTOS VS CODE\WEB CODIGOS-GRATIS\public\i
 os.makedirs(OUT_DIR, exist_ok=True)
 
 img = Image.open(MAP_PATH).convert('RGBA')
-W, H = img.size  # 3072 x 1729
+W, H = img.size  # 5504 x 3072
 print(f'Source image: {W}x{H}')
 
 # Island crops: name -> (center_x, center_y, half_width, half_height)
-# Centers derived from % positions mapped to actual 5504x3072 image
+# Coordinates are for the 5504x3072 map image
 ISLANDS = {
     'northern-caves':        (660, 246, 400, 300),
     'sunstone-island':       (991, 553, 320, 250),
@@ -34,40 +34,57 @@ ISLANDS = {
 }
 
 def remove_ocean(crop_img):
-    """Make ocean (grey, low-saturation) pixels transparent."""
-    arr = np.array(crop_img, dtype=np.int16)
-    r, g, b, a = arr[:,:,0], arr[:,:,1], arr[:,:,2], arr[:,:,3]
+    """Make ocean pixels transparent using color distance from edge-sampled ocean."""
+    arr = np.array(crop_img, dtype=np.float32)
+    h, w = arr.shape[:2]
 
-    rgb_max = np.maximum(np.maximum(r, g), b)
-    rgb_min = np.minimum(np.minimum(r, g), b)
-    spread = rgb_max - rgb_min
-    brightness = (r + g + b) / 3
+    # Sample ocean color from all edges (8px border)
+    b = min(8, h // 4, w // 4)
+    edge_pixels = np.concatenate([
+        arr[:b, :, :3].reshape(-1, 3),       # top rows
+        arr[-b:, :, :3].reshape(-1, 3),      # bottom rows
+        arr[b:-b, :b, :3].reshape(-1, 3),    # left cols (excluding corners already counted)
+        arr[b:-b, -b:, :3].reshape(-1, 3),   # right cols
+    ], axis=0)
 
-    # Ocean: low color spread + medium brightness
-    is_ocean = (spread < 38) & (brightness > 65) & (brightness < 168)
+    # Use median (robust to island pixels that touch edges)
+    ocean_color = np.median(edge_pixels, axis=0)
+    print(f'    ocean color: R={ocean_color[0]:.0f} G={ocean_color[1]:.0f} B={ocean_color[2]:.0f}')
 
-    new_alpha = a.copy()
+    # Color distance from ocean
+    diff = np.sqrt(np.sum((arr[:,:,:3] - ocean_color) ** 2, axis=2))
+
+    # Pixels close to ocean color → transparent
+    is_ocean = diff < 42
+
+    new_alpha = arr[:,:,3].copy()
     new_alpha[is_ocean] = 0
     arr[:,:,3] = new_alpha
 
     result = Image.fromarray(arr.astype(np.uint8))
 
-    # Smooth alpha edges
+    # Smooth alpha edges for clean transition
     alpha = result.split()[3]
-    alpha = alpha.filter(ImageFilter.GaussianBlur(radius=1.2))
+    alpha = alpha.filter(ImageFilter.GaussianBlur(radius=1.5))
     result.putalpha(alpha)
 
     return result
 
+# Also output positions as CSS % for FischWorldMap.tsx
+print('\n--- CSS positions (left, top, width) ---')
 for name, (cx, cy, hw, hh) in ISLANDS.items():
     x1, y1 = max(0, cx - hw), max(0, cy - hh)
     x2, y2 = min(W, cx + hw), min(H, cy + hh)
+
+    left_pct = x1 / W * 100
+    top_pct = y1 / H * 100
+    width_pct = (x2 - x1) / W * 100
 
     crop = img.crop((x1, y1, x2, y2))
     crop = remove_ocean(crop)
 
     out = os.path.join(OUT_DIR, f'{name}.png')
     crop.save(out, 'PNG')
-    print(f'  {name}: {x2-x1}x{y2-y1}px')
+    print(f'  {name}: {x2-x1}x{y2-y1}px => left:{left_pct:.2f}% top:{top_pct:.2f}% w:{width_pct:.2f}%')
 
 print(f'\nDone: {len(ISLANDS)} islands cropped')

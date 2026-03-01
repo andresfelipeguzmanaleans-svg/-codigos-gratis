@@ -144,29 +144,33 @@ const GROUPS: IslandGroup[] = [
   { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', label:'Under Statue', children:['keepers-altar'], gps:{x:100,z:-1100}, type:'special', sea:'first' },
 ];
 
-/* ---- Island button positions (CSS %) ---- */
+/* ---- Island button positions (CSS %) ----
+   Derived from crop-islands.py bounding boxes on the 5504x3072 map.
+   left/top = top-left corner of the crop rectangle as % of map.
+   w = crop width as % of map width. No translate(-50%,-50%) — exact overlay. */
 const ISLAND_POS: Record<string, { left: string; top: string; w: string }> = {
-  'northern-caves':        { left: '12%', top: '8%', w: '8%' },
-  'sunstone-island':       { left: '18%', top: '18%', w: '7%' },
-  'statue-of-sovereignty': { left: '38%', top: '22%', w: '4%' },
-  'the-laboratory':        { left: '33%', top: '27%', w: '4%' },
-  'castaway-cliffs':       { left: '46%', top: '15%', w: '5%' },
-  'the-arch':              { left: '52%', top: '22%', w: '5%' },
-  'birch-cay':             { left: '58%', top: '12%', w: '5%' },
-  'mushgrove-swamp':       { left: '78%', top: '12%', w: '10%' },
-  'harvesters-spike':      { left: '22%', top: '44%', w: '5%' },
-  'roslit-bay':            { left: '16%', top: '42%', w: '9%' },
-  'moosewood':             { left: '42%', top: '42%', w: '12%' },
-  'lushgrove':             { left: '56%', top: '28%', w: '6%' },
-  'emberreach':            { left: '66%', top: '22%', w: '5%' },
-  'earmark-island':        { left: '56%', top: '48%', w: '4%' },
-  'cursed-isle':           { left: '66%', top: '50%', w: '8%' },
-  'forsaken-shores':       { left: '12%', top: '65%', w: '10%' },
-  'terrapin-island':       { left: '38%', top: '68%', w: '11%' },
-  'snowcap-island':        { left: '75%', top: '65%', w: '10%' },
-  'ancient-isle':          { left: '95%', top: '35%', w: '6%' },
-  'waveborne':             { left: '40%', top: '88%', w: '6%' },
-  'treasure-island':       { left: '58%', top: '90%', w: '5%' },
+  'northern-caves':        { left: '4.72%',  top: '0%',      w: '14.53%' },
+  'sunstone-island':       { left: '12.19%', top: '9.86%',   w: '11.63%' },
+  'statue-of-sovereignty': { left: '34.74%', top: '14%',     w: '6.54%' },
+  'the-laboratory':        { left: '29.72%', top: '21.81%',  w: '6.54%' },
+  'the-arch':              { left: '48%',    top: '14.84%',  w: '7.99%' },
+  'birch-cay':             { left: '53.27%', top: '4.85%',   w: '9.45%' },
+  'mushgrove-swamp':       { left: '67.82%', top: '0%',      w: '20.35%' },
+  'harvesters-spike':      { left: '18.19%', top: '35.87%',  w: '7.63%' },
+  'roslit-bay':            { left: '7.65%',  top: '30.27%',  w: '16.72%' },
+  'moosewood':             { left: '31.10%', top: '28.32%',  w: '21.80%' },
+  'lushgrove':             { left: '50.18%', top: '19.21%',  w: '11.63%' },
+  'earmark-island':        { left: '52.36%', top: '42.81%',  w: '7.27%' },
+  'cursed-isle':           { left: '58.19%', top: '38.28%',  w: '15.62%' },
+  'forsaken-shores':       { left: '2.36%',  top: '51.01%',  w: '19.26%' },
+  'terrapin-island':       { left: '27.11%', top: '53.68%',  w: '21.80%' },
+  'snowcap-island':        { left: '64.46%', top: '50.03%',  w: '21.08%' },
+  'ancient-isle':          { left: '88.46%', top: '21.97%',  w: '11.54%' },
+  /* Islands not on the painted map — manual positions */
+  'castaway-cliffs':       { left: '46%',    top: '15%',     w: '5%' },
+  'emberreach':            { left: '66%',    top: '18%',     w: '5%' },
+  'waveborne':             { left: '40%',    top: '88%',     w: '6%' },
+  'treasure-island':       { left: '58%',    top: '90%',     w: '5%' },
 };
 
 /* Special zone positions */
