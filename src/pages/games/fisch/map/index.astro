@@ -88,40 +88,38 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     cursor: default;
   }
 
-  /* ====== ISLAND BUTTONS ====== */
+  /* ====== ISLAND BUTTONS (invisible hitbox over map) ====== */
   :global(.fwm-btn) {
     position: absolute;
-    background: none; border: 2px solid transparent; padding: 0;
+    background: transparent; border: none; padding: 0;
     cursor: pointer; z-index: 2;
     display: flex; flex-direction: column; align-items: center;
+    justify-content: flex-end;
     border-radius: 12px;
-    transition: filter 0.2s, border-color 0.2s;
+    transition: background 0.2s, box-shadow 0.2s;
     font-family: inherit;
-    transform-origin: center;
   }
   :global(.fwm-btn:hover) {
-    filter: brightness(1.15) drop-shadow(0 0 12px rgba(34,211,238,0.5));
+    background: rgba(34,211,238,0.06);
+    box-shadow: 0 0 0 2px rgba(34,211,238,0.3), 0 0 20px rgba(34,211,238,0.15);
     z-index: 10;
   }
   :global(.fwm-btn--on) {
-    border-color: #22d3ee;
-    filter: brightness(1.1) drop-shadow(0 0 20px rgba(34,211,238,0.6));
+    background: rgba(34,211,238,0.08);
+    box-shadow: 0 0 0 2px rgba(34,211,238,0.5), 0 0 30px rgba(34,211,238,0.2);
     z-index: 20;
-  }
-  :global(.fwm-btn__img) {
-    width: 100%; height: auto;
-    pointer-events: none;
-    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.5));
   }
   :global(.fwm-btn__n) {
     font-size: 9px; font-weight: 700; color: #fff;
     text-shadow: 0 1px 4px rgba(0,0,0,0.95), 0 0 8px rgba(0,0,0,0.6);
-    white-space: nowrap; margin-top: 2px; text-align: center;
+    white-space: nowrap; text-align: center;
+    pointer-events: none;
   }
   :global(.fwm-btn__f) {
     font-size: 7px; font-weight: 700; color: #22d3ee;
     background: rgba(0,0,0,0.6); padding: 1px 6px; border-radius: 4px;
     margin-top: 1px; white-space: nowrap;
+    pointer-events: none;
   }
 
   /* ====== FISH ORBIT ====== */
@@ -365,7 +363,6 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
 
     :global(.fwm-btn__n) { font-size: 7px; }
     :global(.fwm-btn__f) { font-size: 6px; }
-    :global(.fwm-btn) { min-width: 40px; }
 
     :global(.fwm-fdot) { width: 22px; height: 22px; margin: -11px 0 0 -11px; }
     :global(.fwm-fdot img) { width: 20px; height: 20px; }

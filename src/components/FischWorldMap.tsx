@@ -146,31 +146,30 @@ const GROUPS: IslandGroup[] = [
 
 /* ---- Island button positions (CSS %) ----
    Derived from crop-islands.py bounding boxes on the 5504x3072 map.
-   left/top = top-left corner of the crop rectangle as % of map.
-   w = crop width as % of map width. No translate(-50%,-50%) — exact overlay. */
-const ISLAND_POS: Record<string, { left: string; top: string; w: string }> = {
-  'northern-caves':        { left: '4.72%',  top: '0%',      w: '14.53%' },
-  'sunstone-island':       { left: '12.19%', top: '9.86%',   w: '11.63%' },
-  'statue-of-sovereignty': { left: '34.74%', top: '14%',     w: '6.54%' },
-  'the-laboratory':        { left: '29.72%', top: '21.81%',  w: '6.54%' },
-  'the-arch':              { left: '48%',    top: '14.84%',  w: '7.99%' },
-  'birch-cay':             { left: '53.27%', top: '4.85%',   w: '9.45%' },
-  'mushgrove-swamp':       { left: '67.82%', top: '0%',      w: '20.35%' },
-  'harvesters-spike':      { left: '18.19%', top: '35.87%',  w: '7.63%' },
-  'roslit-bay':            { left: '7.65%',  top: '30.27%',  w: '16.72%' },
-  'moosewood':             { left: '31.10%', top: '28.32%',  w: '21.80%' },
-  'lushgrove':             { left: '50.18%', top: '19.21%',  w: '11.63%' },
-  'earmark-island':        { left: '52.36%', top: '42.81%',  w: '7.27%' },
-  'cursed-isle':           { left: '58.19%', top: '38.28%',  w: '15.62%' },
-  'forsaken-shores':       { left: '2.36%',  top: '51.01%',  w: '19.26%' },
-  'terrapin-island':       { left: '27.11%', top: '53.68%',  w: '21.80%' },
-  'snowcap-island':        { left: '64.46%', top: '50.03%',  w: '21.08%' },
-  'ancient-isle':          { left: '88.46%', top: '21.97%',  w: '11.54%' },
-  /* Islands not on the painted map — manual positions */
-  'castaway-cliffs':       { left: '46%',    top: '15%',     w: '5%' },
-  'emberreach':            { left: '66%',    top: '18%',     w: '5%' },
-  'waveborne':             { left: '40%',    top: '88%',     w: '6%' },
-  'treasure-island':       { left: '58%',    top: '90%',     w: '5%' },
+   left/top = top-left corner as % of map. w/h = size as % of map. */
+const ISLAND_POS: Record<string, { left: string; top: string; w: string; h: string }> = {
+  'northern-caves':        { left: '4.72%',  top: '0%',      w: '14.53%', h: '17.77%' },
+  'sunstone-island':       { left: '12.19%', top: '9.86%',   w: '11.63%', h: '16.28%' },
+  'statue-of-sovereignty': { left: '34.74%', top: '14%',     w: '6.54%',  h: '14.97%' },
+  'the-laboratory':        { left: '29.72%', top: '21.81%',  w: '6.54%',  h: '10.42%' },
+  'the-arch':              { left: '48%',    top: '14.84%',  w: '7.99%',  h: '14.32%' },
+  'birch-cay':             { left: '53.27%', top: '4.85%',   w: '9.45%',  h: '14.32%' },
+  'mushgrove-swamp':       { left: '67.82%', top: '0%',      w: '20.35%', h: '25.68%' },
+  'harvesters-spike':      { left: '18.19%', top: '35.87%',  w: '7.63%',  h: '16.28%' },
+  'roslit-bay':            { left: '7.65%',  top: '30.27%',  w: '16.72%', h: '23.44%' },
+  'moosewood':             { left: '31.10%', top: '28.32%',  w: '21.80%', h: '27.34%' },
+  'lushgrove':             { left: '50.18%', top: '19.21%',  w: '11.63%', h: '17.58%' },
+  'earmark-island':        { left: '52.36%', top: '42.81%',  w: '7.27%',  h: '10.42%' },
+  'cursed-isle':           { left: '58.19%', top: '38.28%',  w: '15.62%', h: '23.44%' },
+  'forsaken-shores':       { left: '2.36%',  top: '51.01%',  w: '19.26%', h: '27.99%' },
+  'terrapin-island':       { left: '27.11%', top: '53.68%',  w: '21.80%', h: '28.65%' },
+  'snowcap-island':        { left: '64.46%', top: '50.03%',  w: '21.08%', h: '29.95%' },
+  'ancient-isle':          { left: '88.46%', top: '21.97%',  w: '11.54%', h: '26.04%' },
+  /* Islands not on the painted map */
+  'castaway-cliffs':       { left: '46%',    top: '15%',     w: '5%',     h: '6%' },
+  'emberreach':            { left: '66%',    top: '18%',     w: '5%',     h: '6%' },
+  'waveborne':             { left: '40%',    top: '88%',     w: '6%',     h: '6%' },
+  'treasure-island':       { left: '58%',    top: '90%',     w: '5%',     h: '6%' },
 };
 
 /* Special zone positions */
@@ -181,15 +180,6 @@ const SPECIAL_POS: Record<string, { left: string; top: string }> = {
   'keepers-altar':  { left: '40%', top: '20%' },
   'vertigo':        { left: '82%', top: '72%' },
 };
-
-/* Islands that use wiki images instead of cropped map images */
-const WIKI_FALLBACK = new Set(['castaway-cliffs', 'emberreach', 'waveborne', 'treasure-island']);
-
-function getIslandImg(id: string): string {
-  return WIKI_FALLBACK.has(id)
-    ? `/images/locations/${id}.png`
-    : `/images/map/islands/${id}.png`;
-}
 
 /* GPS → map position for "Where Am I?" */
 function gpsToPosition(gpsX: number, gpsZ: number) {
@@ -347,9 +337,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           return (
             <button key={g.id} className={`fwm-btn${isActive ? ' fwm-btn--on' : ''}`}
               aria-label={`${g.name} — ${g.totalFish} fish`}
-              style={{ left: pos.left, top: pos.top, width: pos.w, opacity: isVisible ? 1 : 0.2 }}
+              style={{ left: pos.left, top: pos.top, width: pos.w, height: pos.h, opacity: isVisible ? 1 : 0.2 }}
               onClick={e => { e.stopPropagation(); selectItem(g.id); }}>
-              <img src={getIslandImg(g.id)} alt={g.name} className="fwm-btn__img" loading="lazy" />
               <span className="fwm-btn__n">{g.name}</span>
               {g.totalFish > 0 && <span className="fwm-btn__f">{g.totalFish} fish</span>}
 
