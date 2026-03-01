@@ -276,60 +276,29 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     background: rgba(0,0,0,0.5); padding: 1px 6px; border-radius: 6px; margin-top: 1px;
   }
 
-  /* ====== WATER ZONES — pointer-events:none so islands always clickable ====== */
-  :global(.fwm-zone) {
-    position: absolute; transform: translate(-50%, -50%);
-    border: 1.5px dashed rgba(34,211,238,0.2);
-    border-radius: 50%;
-    background: none;
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
-    pointer-events: none; z-index: 0;
-    transition: border-color 0.25s ease;
-  }
-  :global(.fwm-zone--lg) { width: 14%; aspect-ratio: 1.4; }
-  :global(.fwm-zone--md) { width: 10%; aspect-ratio: 1.3; }
-  :global(.fwm-zone--sm) { width: 7%; aspect-ratio: 1.2; }
-  :global(.fwm-zone__lbl) {
-    pointer-events: auto; cursor: pointer;
-    display: flex; flex-direction: column; align-items: center;
-    padding: 4px 8px; border-radius: 8px;
-    transition: background 0.2s;
-  }
-  :global(.fwm-zone__lbl:hover) {
-    background: rgba(34,211,238,0.1);
-  }
-  :global(.fwm-zone__n) {
-    font-size: 9px; font-weight: 700; color: rgba(34,211,238,0.5);
-    white-space: nowrap; text-shadow: 0 1px 4px rgba(0,0,0,0.8);
-  }
-  :global(.fwm-zone__lbl:hover .fwm-zone__n) { color: rgba(34,211,238,0.85); }
-  :global(.fwm-zone__f) {
-    font-size: 7px; color: rgba(34,211,238,0.35); margin-top: 1px;
-  }
-
-  /* ====== SPECIAL LOCATIONS — z-index below islands ====== */
-  :global(.fwm-spec) {
+  /* ====== POI — Small special-zone icons (Ocean, Trenches, etc.) ====== */
+  :global(.fwm-poi) {
     position: absolute; transform: translate(-50%, -50%);
     display: flex; flex-direction: column; align-items: center;
     cursor: pointer; z-index: 1;
     transition: transform 0.25s ease, opacity 0.2s;
   }
-  :global(.fwm-spec:hover) { transform: translate(-50%, -50%) scale(1.15); z-index: 10; }
-  :global(.fwm-spec__i) {
+  :global(.fwm-poi:hover) { transform: translate(-50%, -50%) scale(1.15); z-index: 10; }
+  :global(.fwm-poi__i) {
     width: 26px; height: 26px; border-radius: 50%;
-    background: rgba(0,0,0,0.45); border: 1.5px solid rgba(255,255,255,0.15);
+    background: rgba(0,0,0,0.5); border: 1.5px solid rgba(255,255,255,0.15);
     display: flex; align-items: center; justify-content: center;
-    font-size: 12px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    font-size: 13px; line-height: 1;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
     transition: all 0.2s;
   }
-  :global(.fwm-spec:hover .fwm-spec__i) { border-color: #22d3ee; box-shadow: 0 0 10px rgba(34,211,238,0.3); }
-  :global(.fwm-spec__n) {
-    font-size: 7px; font-weight: 600; color: rgba(255,255,255,0.5);
-    white-space: nowrap; margin-top: 2px; text-shadow: 0 1px 3px rgba(0,0,0,0.9);
+  :global(.fwm-poi:hover .fwm-poi__i) { border-color: #22d3ee; box-shadow: 0 0 12px rgba(34,211,238,0.35); }
+  :global(.fwm-poi__n) {
+    font-size: 7px; font-weight: 700; color: #fff;
+    white-space: nowrap; margin-top: 2px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.95), 0 0 6px rgba(0,0,0,0.5);
   }
-  :global(.fwm-spec:hover .fwm-spec__n) { color: #22d3ee; }
-  :global(.fwm-spec__f) { font-size: 7px; color: rgba(34,211,238,0.4); }
+  :global(.fwm-poi:hover .fwm-poi__n) { color: #22d3ee; }
 
   /* Biome bg */
   :global(.fwm-b--tropical) { background: linear-gradient(135deg, #065f46, #059669); }
@@ -554,13 +523,8 @@ const description = `Interactive 3-level drill-down map of all Fisch fishing loc
     :global(.fwm-isle:hover .fwm-isle__n) { font-size: 9px; }
     :global(.fwm-isle__f) { font-size: 7px; }
 
-    :global(.fwm-zone--lg) { width: 18%; }
-    :global(.fwm-zone--md) { width: 13%; }
-    :global(.fwm-zone--sm) { width: 9%; }
-    :global(.fwm-zone__n) { font-size: 8px; }
-
-    :global(.fwm-spec__i) { width: 30px; height: 30px; font-size: 14px; }
-    :global(.fwm-spec__n) { font-size: 8px; }
+    :global(.fwm-poi__i) { width: 28px; height: 28px; font-size: 14px; }
+    :global(.fwm-poi__n) { font-size: 7px; }
 
     :global(.fwm-axis--z) { width: 28px; }
     :global(.fwm-axis--z span) { font-size: 7px; }

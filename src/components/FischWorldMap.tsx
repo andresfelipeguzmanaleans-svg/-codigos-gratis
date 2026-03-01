@@ -320,13 +320,12 @@ const GROUPS: IslandGroup[] = [
   // Second Sea
   { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], gps:{x:2000,z:3500}, ...gpsPos(2000,3500), size:'md', type:'island', sea:'second' },
   { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], gps:{x:3500,z:3700}, ...gpsPos(3500,3700), size:'sm', type:'island', sea:'second' },
-  // === WATER ZONES (4) — dashed outline areas, pointer-events:none ===
-  { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], gps:{x:0,z:-800}, ...gpsPos(0,-800), size:'sm', type:'water', sea:'first' },
-  { id:'deep-trenches', name:'Deep Trenches', icon:'🕳️', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], gps:{x:-2400,z:1400}, ...gpsPos(-2400,1400), size:'md', type:'water', sea:'deep' },
-  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', children:['vertigo','the-depths'], gps:{x:-500,z:1400}, ...gpsPos(-500,1400), size:'sm', type:'water', sea:'first' },
-  { id:'azure-lagoon', name:'Azure Lagoon', icon:'💎', biome:'ocean', children:['azure-lagoon'], gps:{x:1500,z:1200}, ...gpsPos(1500,1200), size:'sm', type:'water', sea:'first' },
-  // === SPECIAL LOCATIONS (2) — small icons ===
-  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', children:['keepers-altar'], gps:{x:-800,z:1800}, ...gpsPos(-800,1800), size:'sm', type:'special', sea:'first' },
+  // === SPECIAL ZONES (5) — small icons next to nearby islands ===
+  { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], gps:{x:400,z:-200}, ...gpsPos(400,-200), size:'sm', type:'special', sea:'first' },
+  { id:'deep-trenches', name:'Deep Trenches', icon:'🔱', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], gps:{x:-1600,z:900}, ...gpsPos(-1600,900), size:'sm', type:'special', sea:'deep' },
+  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', children:['vertigo','the-depths'], gps:{x:150,z:1100}, ...gpsPos(150,1100), size:'sm', type:'special', sea:'first' },
+  { id:'azure-lagoon', name:'Azure Lagoon', icon:'💧', biome:'ocean', children:['azure-lagoon'], gps:{x:1400,z:1100}, ...gpsPos(1400,1100), size:'sm', type:'special', sea:'first' },
+  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', children:['keepers-altar'], gps:{x:250,z:-900}, ...gpsPos(250,-900), size:'sm', type:'special', sea:'first' },
   { id:'northern-caves', name:'Northern Caves', icon:'🦇', biome:'dark', children:['crimson-cavern','luminescent-cavern','lost-jungle','the-chasm','ancient-archives'], gps:{x:-1750,z:-1500}, ...gpsPos(-1750,-1500), size:'md', type:'island', sea:'deep' },
 ];
 
@@ -637,7 +636,24 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             ))}
           </div>
 
-          {/* ===== ISLAND NODES (Level 1 = only islands, clean) ===== */}
+          {/* ===== SPECIAL ZONE ICONS (small, behind islands) ===== */}
+          {groups.map((g, gi) => {
+            if (g.type !== 'special') return null;
+            const vis = visIds.has(g.id);
+            const pos = resolvedPos[gi];
+            const posLeft = pos?.left || g.left;
+            const posTop = pos?.top || g.top;
+            return (
+              <div key={g.id} className="fwm-poi"
+                style={{ left: posLeft, top: posTop, opacity: vis ? 1 : 0.2 }}
+                onClick={() => vis && enter(g.id)}>
+                <span className="fwm-poi__i">{g.icon}</span>
+                <span className="fwm-poi__n">{g.name} · {g.totalFish} fish</span>
+              </div>
+            );
+          })}
+
+          {/* ===== ISLAND BLOBS ===== */}
           {groups.map((g, gi) => {
             if (g.type !== 'island') return null;
             const vis = visIds.has(g.id);
