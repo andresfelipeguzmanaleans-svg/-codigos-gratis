@@ -1,35 +1,43 @@
-=== RESUMEN UPDATE 2026-03-01 09:02 ===
+=== RESUMEN UPDATE 2026-03-01 20:56 ===
 
 Archivos modificados:
-  6 archivos cambiados
+  9 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4121 juegos (4121 procesados)
-Actualizados: 4 | Sin cambios: 3963
+Total: 4122 juegos (4122 procesados)
+Actualizados: 6 | Sin cambios: 3962
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 5 | Movidos a expirados: 0
-Tiempo: 135.6s | Concurrencia: 10
+Códigos nuevos: 19 | Movidos a expirados: 7
+Tiempo: 151.3s | Concurrencia: 10
 
 Juegos actualizados:
-  Car Zone: 9→11 activos (+2), 76→76 exp
-    Nuevos: FREEVEHICLES, UPDATE44
-  Hots Rng: 40→41 activos (+1), 54→54 exp
-    Nuevos: Valentine2026
-  Jujutsu Infinite: 2→2 activos (=), 83→84 exp
-    Nuevos: 300K_SUBS
-  Special Forces Simulator: 13→14 activos (+1), 8→8 exp
-    Nuevos: 359KLIKES
+  A One Piece Game: 192→194 activos (+2), 200→200 exp
+    Nuevos: LonelyElf, AncientMagic
+  Animatronic Nights: 3→4 activos (+1), 48→48 exp
+    Nuevos: UPD31
+  Block Tales Tower Defense: 1→2 activos (+1), 6→6 exp
+    Nuevos: WhiteNoob
+  Champion Simulator: 5→13 activos (+8), 33→33 exp
+    Nuevos: FreeChest, FreeBoost, 62MPlayers, 140KLIKES, CogCoinBoost, Spooky, RandomPet, RebirthUpdate
+  Garden Horizons: 3→4 activos (+1), 0→1 exp
+    Nuevos: ADMIN
+  Highschool Hoops: 20→13 activos (-7), 10→23 exp
+    Nuevos: ERASEERASE!, IMNEXTUP!, INEED20BANDZ!, MOREFREEITEMS!, WEEKENDPARTY!, INEEDCODES!
 
 Detalle cambios:
-data/games/codigos-car-zone.json
-data/games/codigos-hots-rng.json
-data/games/codigos-jujutsu-infinite.json
-data/games/codigos-special-forces-simulator.json
+data/gameguide-urls.json
+data/games/codigos-a-one-piece-game.json
+data/games/codigos-animatronic-nights.json
+data/games/codigos-block-tales-tower-defense.json
+data/games/codigos-champion-simulator.json
+data/games/codigos-garden-horizons.json
+data/games/codigos-highschool-hoops.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-halloween-simulator.json
 
