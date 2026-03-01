@@ -316,7 +316,7 @@ const GROUPS: IslandGroup[] = [
   { id:'harvesters-spike', name:"Harvester's Spike", icon:'⛏️', biome:'sand', children:['harvesters-spike'], gps:{x:-1463,z:58}, ...gpsPos(-1463,58), size:'sm', type:'island', sea:'first' },
   { id:'the-arch', name:'The Arch', icon:'🌉', biome:'sand', children:['the-arch'], gps:{x:981,z:-1834}, ...gpsPos(981,-1834), size:'sm', type:'island', sea:'first' },
   { id:'statue-of-sovereignty', name:'Statue of Sovereignty', icon:'🗽', biome:'sand', children:['statue-of-sovereignty'], gps:{x:37,z:-1017}, ...gpsPos(37,-1017), size:'sm', type:'island', sea:'first' },
-  { id:'the-laboratory', name:'The Laboratory', icon:'🔬', biome:'dark', children:['the-laboratory'], gps:{x:-174,z:-583}, ...gpsPos(-174,-583), size:'sm', type:'island', sea:'first' },
+  { id:'the-laboratory', name:'The Laboratory', icon:'🔬', biome:'dark', children:['the-laboratory'], gps:{x:-474,z:-583}, ...gpsPos(-474,-583), size:'sm', type:'island', sea:'first' },
   // Second Sea
   { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], gps:{x:2000,z:3500}, ...gpsPos(2000,3500), size:'md', type:'island', sea:'second' },
   { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], gps:{x:3500,z:3700}, ...gpsPos(3500,3700), size:'sm', type:'island', sea:'second' },
@@ -327,7 +327,7 @@ const GROUPS: IslandGroup[] = [
   { id:'azure-lagoon', name:'Azure Lagoon', icon:'💎', biome:'ocean', children:['azure-lagoon'], gps:{x:1500,z:1200}, ...gpsPos(1500,1200), size:'sm', type:'water', sea:'first' },
   // === SPECIAL LOCATIONS (2) — small icons ===
   { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', children:['keepers-altar'], gps:{x:-800,z:1800}, ...gpsPos(-800,1800), size:'sm', type:'special', sea:'first' },
-  { id:'northern-caves', name:'Northern Caves', icon:'🦇', biome:'dark', children:['crimson-cavern','luminescent-cavern','lost-jungle','the-chasm','ancient-archives'], gps:{x:-1750,z:-1500}, ...gpsPos(-1750,-1500), size:'sm', type:'special', sea:'deep' },
+  { id:'northern-caves', name:'Northern Caves', icon:'🦇', biome:'dark', children:['crimson-cavern','luminescent-cavern','lost-jungle','the-chasm','ancient-archives'], gps:{x:-1750,z:-1500}, ...gpsPos(-1750,-1500), size:'md', type:'island', sea:'deep' },
 ];
 
 const EVENT_IDS = ['admin-events','fischfright-2025','winter-village','lego-event-2025','fischgiving-2025'];
@@ -637,40 +637,13 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             ))}
           </div>
 
-          {/* ===== MAP NODES (islands / water zones / special) ===== */}
+          {/* ===== ISLAND NODES (Level 1 = only islands, clean) ===== */}
           {groups.map((g, gi) => {
+            if (g.type !== 'island') return null;
             const vis = visIds.has(g.id);
             const pos = resolvedPos[gi];
             const posLeft = pos?.left || g.left;
             const posTop = pos?.top || g.top;
-
-            /* --- Water Zone: dashed outline, pointer-events:none so islands stay clickable --- */
-            if (g.type === 'water') {
-              return (
-                <div key={g.id} className={`fwm-zone fwm-zone--${g.size}`}
-                  style={{ left: posLeft, top: posTop, opacity: vis ? 0.7 : 0.1 }}>
-                  <span className="fwm-zone__lbl" onClick={() => vis && enter(g.id)}>
-                    <span className="fwm-zone__n">{g.name}</span>
-                    {g.totalFish > 0 && <span className="fwm-zone__f">{g.totalFish} fish</span>}
-                  </span>
-                </div>
-              );
-            }
-
-            /* --- Special Location: small icon --- */
-            if (g.type === 'special') {
-              return (
-                <div key={g.id} className="fwm-spec"
-                  style={{ left: posLeft, top: posTop, opacity: vis ? 1 : 0.15 }}
-                  onClick={() => vis && enter(g.id)}>
-                  <span className="fwm-spec__i">{g.icon}</span>
-                  <span className="fwm-spec__n">{g.name}</span>
-                  {g.totalFish > 0 && <span className="fwm-spec__f">{g.totalFish} fish</span>}
-                </div>
-              );
-            }
-
-            /* --- Island: blob with image --- */
             const b = BIOME[g.biome] || BIOME.ocean;
             const imgSrc = ISLE_IMG[g.id] || g.imagePath;
             const clipId = `clip-${g.id}`;
@@ -695,7 +668,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
                       fill={b.fill} opacity="0.25"/>
                   </g>
                 </svg>
-                <span className="fwm-isle__n" style={{ color: b.stroke }}>{g.name}</span>
+                <span className="fwm-isle__n">{g.name}</span>
                 {g.totalFish > 0 && <span className="fwm-isle__f">{g.totalFish} fish</span>}
               </div>
             );
