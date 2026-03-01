@@ -208,33 +208,36 @@ const BALLOON: Record<string,string> = {
 };
 
 /* ---- GPS → map position ---- */
-const GPS_BOUNDS = { minX: -3800, maxX: 6300, minZ: -3400, maxZ: 3900 };
+/* First Sea: X[-2800,2800] Z[-2500,2500] → top 80% of map */
+/* Second Sea: X[1500,4000] Z[3300,3900] → bottom 20% strip */
+const FIRST_SEA = { minX: -2800, maxX: 2800, minZ: -2500, maxZ: 2500 };
+const SECOND_SEA = { minX: 1500, maxX: 4000, minZ: 3300, maxZ: 3900 };
+const SECOND_SEA_TOP = 82; // % — start of Second Sea strip
+const SECOND_SEA_BOT = 97; // % — end
 const ZOOM_MIN = 1;
 const ZOOM_MAX = 4;
 
-function gpsToPercent(gx: number, gz: number): { left: number; top: number } {
-  // Compress X beyond ±3000 (Ancient Isle) and Z beyond 3000 (Second Sea)
-  const cx = gx > 3000 ? 3000 + (gx - 3000) * 0.4
-           : gx < -3000 ? -3000 + (gx + 3000) * 0.4
-           : gx;
-  const cz = gz > 3000 ? 3000 + (gz - 3000) * 0.4 : gz;
-  const cMinZ = GPS_BOUNDS.minZ;
-  const cMaxZ = 3000 + (GPS_BOUNDS.maxZ - 3000) * 0.4;
-  const rZ = cMaxZ - cMinZ;
-  const rX = rZ * (16 / 9);
-  const cMinX = -3000 + (GPS_BOUNDS.minX + 3000) * 0.4;
-  const cMaxX = 3000 + (GPS_BOUNDS.maxX - 3000) * 0.4;
-  const centerX = (cMinX + cMaxX) / 2;
+function gpsToPercent(gx: number, gz: number, sea: 'first' | 'second' = 'first'): { left: number; top: number } {
+  if (sea === 'second') {
+    const normX = (gx - SECOND_SEA.minX) / (SECOND_SEA.maxX - SECOND_SEA.minX);
+    const normZ = (gz - SECOND_SEA.minZ) / (SECOND_SEA.maxZ - SECOND_SEA.minZ);
+    return {
+      left: 3 + Math.max(0, Math.min(1, normX)) * 94,
+      top: SECOND_SEA_TOP + Math.max(0, Math.min(1, normZ)) * (SECOND_SEA_BOT - SECOND_SEA_TOP),
+    };
+  }
+  const normX = (gx - FIRST_SEA.minX) / (FIRST_SEA.maxX - FIRST_SEA.minX);
+  const normZ = (gz - FIRST_SEA.minZ) / (FIRST_SEA.maxZ - FIRST_SEA.minZ);
   return {
-    left: ((cx - (centerX - rX / 2)) / rX) * 94 + 3,
-    top: ((cz - cMinZ) / rZ) * 94 + 3,
+    left: 3 + Math.max(0, Math.min(1, normX)) * 94,
+    top: 3 + Math.max(0, Math.min(1, normZ)) * 75,  // First Sea: 3% to 78%
   };
 }
-function gpsPos(gx: number, gz: number): { left: string; top: string } {
-  const p = gpsToPercent(gx, gz);
+function gpsPos(gx: number, gz: number, sea: 'first' | 'second' = 'first'): { left: string; top: string } {
+  const p = gpsToPercent(gx, gz, sea);
   return {
-    left: `${Math.max(3, Math.min(97, p.left)).toFixed(1)}%`,
-    top: `${Math.max(3, Math.min(97, p.top)).toFixed(1)}%`,
+    left: `${Math.max(2, Math.min(98, p.left)).toFixed(1)}%`,
+    top: `${Math.max(2, Math.min(98, p.top)).toFixed(1)}%`,
   };
 }
 
@@ -242,7 +245,7 @@ function gpsPos(gx: number, gz: number): { left: string; top: string } {
 function resolveOverlaps(
   items: { left: string; top: string; w: number }[]
 ): { left: string; top: string }[] {
-  const MW = 1100, MH = MW * 9 / 16;
+  const MW = 1100, MH = MW * 10 / 16;
   const pos = items.map(it => ({
     x: (parseFloat(it.left) / 100) * MW,
     y: (parseFloat(it.top) / 100) * MH,
@@ -312,7 +315,7 @@ const GROUPS: IslandGroup[] = [
   { id:'cursed-isle', name:'Cursed Isle', icon:'💀', biome:'dark', children:['cursed-isle','cults-curse','crypt','frightful-pool','cultist-lair'], gps:{x:1800,z:1210}, ...gpsPos(1800,1210), size:'lg', type:'island', sea:'first' },
   // First Sea — Medium
   { id:'sunstone-island', name:'Sunstone Island', icon:'☀️', biome:'sand', children:['sunstone-island','desolate-deep'], gps:{x:-870,z:-1100}, ...gpsPos(-870,-1100), size:'md', type:'island', sea:'first' },
-  { id:'ancient-isle', name:'Ancient Isle', icon:'🏛️', biome:'sand', children:['ancient-isle'], gps:{x:6000,z:300}, ...gpsPos(6000,300), size:'md', type:'island', sea:'first' },
+  { id:'ancient-isle', name:'Ancient Isle', icon:'🏛️', biome:'sand', children:['ancient-isle'], gps:{x:6000,z:300}, left:'0%', top:'0%', size:'md', type:'island', sea:'first' },  // Off-screen indicator
   { id:'mushgrove-swamp', name:'Mushgrove Swamp', icon:'🍄', biome:'swamp', children:['mushgrove-swamp'], gps:{x:2420,z:-270}, ...gpsPos(2420,-270), size:'md', type:'island', sea:'first' },
   { id:'lushgrove', name:'Lushgrove', icon:'🌿', biome:'tropical', children:['lushgrove'], gps:{x:1132,z:-388}, ...gpsPos(1132,-388), size:'md', type:'island', sea:'first' },
   { id:'emberreach', name:'Emberreach', icon:'🔥', biome:'volcanic', children:['emberreach'], gps:{x:2300,z:-800}, ...gpsPos(2300,-800), size:'md', type:'island', sea:'first' },
@@ -324,16 +327,16 @@ const GROUPS: IslandGroup[] = [
   { id:'harvesters-spike', name:"Harvester's Spike", icon:'⛏️', biome:'sand', children:['harvesters-spike'], gps:{x:-1463,z:58}, ...gpsPos(-1463,58), size:'sm', type:'island', sea:'first' },
   { id:'the-arch', name:'The Arch', icon:'🌉', biome:'sand', children:['the-arch'], gps:{x:981,z:-1834}, ...gpsPos(981,-1834), size:'sm', type:'island', sea:'first' },
   { id:'statue-of-sovereignty', name:'Statue of Sovereignty', icon:'🗽', biome:'sand', children:['statue-of-sovereignty'], gps:{x:37,z:-1017}, ...gpsPos(37,-1017), size:'sm', type:'island', sea:'first' },
-  { id:'the-laboratory', name:'The Laboratory', icon:'🔬', biome:'dark', children:['the-laboratory'], gps:{x:-474,z:-583}, ...gpsPos(-474,-583), size:'sm', type:'island', sea:'first' },
+  { id:'the-laboratory', name:'The Laboratory', icon:'🔬', biome:'dark', children:['the-laboratory'], gps:{x:-400,z:-700}, ...gpsPos(-400,-700), size:'sm', type:'island', sea:'first' },
   // Second Sea
-  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], gps:{x:2000,z:3500}, ...gpsPos(2000,3500), size:'md', type:'island', sea:'second' },
-  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], gps:{x:3500,z:3700}, ...gpsPos(3500,3700), size:'sm', type:'island', sea:'second' },
+  { id:'waveborne', name:'Waveborne', icon:'⛵', biome:'mystic', children:['waveborne','second-sea','second-sea-waveborne','second-sea-azure-lagoon'], gps:{x:2000,z:3500}, ...gpsPos(2000,3500,'second'), size:'md', type:'island', sea:'second' },
+  { id:'treasure-island', name:'Treasure Island', icon:'💰', biome:'sand', children:['treasure-island'], gps:{x:3500,z:3700}, ...gpsPos(3500,3700,'second'), size:'sm', type:'island', sea:'second' },
   // === SPECIAL ZONES — small icons next to nearby islands ===
-  { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], gps:{x:400,z:-200}, ...gpsPos(400,-200), size:'sm', type:'special', sea:'first' },
-  { id:'deep-trenches', name:'Deep Trenches', icon:'🔱', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], gps:{x:-1600,z:900}, ...gpsPos(-1600,900), size:'sm', type:'special', sea:'deep' },
-  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', label:'⚡ Random location', children:['vertigo','the-depths'], gps:{x:150,z:1100}, ...gpsPos(150,1100), size:'sm', type:'special', sea:'first' },
-  { id:'azure-lagoon', name:'Azure Lagoon', icon:'💧', biome:'ocean', children:['azure-lagoon'], gps:{x:1400,z:1100}, ...gpsPos(1400,1100), size:'sm', type:'special', sea:'first' },
-  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', label:'Under Statue', children:['keepers-altar'], gps:{x:250,z:-900}, ...gpsPos(250,-900), size:'sm', type:'special', sea:'first' },
+  { id:'the-ocean', name:'The Ocean', icon:'🌊', biome:'ocean', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], gps:{x:200,z:-200}, ...gpsPos(200,-200), size:'sm', type:'special', sea:'first' },
+  { id:'deep-trenches', name:'Deep Trenches', icon:'🔱', biome:'dark', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], gps:{x:-2200,z:900}, ...gpsPos(-2200,900), size:'sm', type:'special', sea:'deep' },
+  { id:'vertigo', name:'Vertigo', icon:'🌀', biome:'dark', label:'⚡ Random location', children:['vertigo','the-depths'], gps:{x:3000,z:2500}, ...gpsPos(3000,2500), size:'sm', type:'special', sea:'first' },
+  { id:'azure-lagoon', name:'Azure Lagoon', icon:'💧', biome:'ocean', children:['azure-lagoon'], gps:{x:1500,z:1100}, ...gpsPos(1500,1100), size:'sm', type:'special', sea:'first' },
+  { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', biome:'mystic', label:'Under Statue', children:['keepers-altar'], gps:{x:100,z:-1100}, ...gpsPos(100,-1100), size:'sm', type:'special', sea:'first' },
 ];
 
 const EVENT_IDS = ['admin-events','fischfright-2025','winter-village','lego-event-2025','fischgiving-2025'];
@@ -369,14 +372,14 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     });
   }, [locMap]);
 
-  /* Resolved positions (collision-free) — only islands participate */
+  /* Resolved positions (collision-free) — First Sea islands only */
   const resolvedPos = useMemo(() => {
     const REF_W = 1100;
     const positions = groups.map(g => ({ left: g.left, top: g.top }));
     const islandIdx: number[] = [];
     const islandItems: { left: string; top: string; w: number }[] = [];
     groups.forEach((g, i) => {
-      if (g.type === 'island') {
+      if (g.type === 'island' && g.sea !== 'second' && g.id !== 'ancient-isle') {
         islandIdx.push(i);
         islandItems.push({ left: g.left, top: g.top, w: (SIZE_PCT[g.size] / 100) * REF_W });
       }
@@ -389,6 +392,9 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const eventLocs = useMemo(() =>
     EVENT_IDS.map(id => locMap.get(id)).filter(Boolean) as MapLocation[]
   , [locMap]);
+
+  /* Ancient Isle (off-screen indicator) */
+  const ancientIsle = useMemo(() => groups.find(g => g.id === 'ancient-isle'), [groups]);
 
   /* ---- State ---- */
   const [level, setLevel] = useState<1|2|3>(1);
@@ -406,7 +412,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const [zoom, setZoom] = useState(1);
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false);
-  const [frameSize, setFrameSize] = useState({ w: 1100, h: 618 });
+  const [frameSize, setFrameSize] = useState({ w: 1100, h: 687 });
 
   /* Refs */
   const frameRef = useRef<HTMLDivElement>(null);
@@ -421,8 +427,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     const step = zoom >= 3 ? 500 : 1000;
     const xTicks: number[] = [];
     const zTicks: number[] = [];
-    for (let x = Math.ceil(GPS_BOUNDS.minX / step) * step; x <= GPS_BOUNDS.maxX; x += step) xTicks.push(x);
-    for (let z = Math.ceil(GPS_BOUNDS.minZ / step) * step; z <= GPS_BOUNDS.maxZ; z += step) zTicks.push(z);
+    for (let x = Math.ceil(FIRST_SEA.minX / step) * step; x <= FIRST_SEA.maxX; x += step) xTicks.push(x);
+    for (let z = Math.ceil(FIRST_SEA.minZ / step) * step; z <= FIRST_SEA.maxZ; z += step) zTicks.push(z);
     if (!xTicks.includes(0)) { xTicks.push(0); xTicks.sort((a, b) => a - b); }
     if (!zTicks.includes(0)) { zTicks.push(0); zTicks.sort((a, b) => a - b); }
     return { xTicks, zTicks };
@@ -437,6 +443,13 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     transformOrigin: '0 0',
     transition: isDragging ? 'none' : 'transform 0.15s ease-out',
   }), [pan, zoom, isDragging]);
+
+  /* Ancient Isle Y position on screen (for off-screen indicator) */
+  const ancientIsleY = useMemo(() => {
+    const pct = gpsToPercent(0, 300).top / 100;
+    const y = pct * frameSize.h * zoom + pan.y;
+    return Math.max(50, Math.min(frameSize.h - 50, y));
+  }, [zoom, pan.y, frameSize.h]);
 
   /* Visible axis ticks (screen positions) */
   const visibleXTicks = useMemo(() => {
@@ -821,6 +834,14 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
             <span className="fwm-rl fwm-rl--1">— First Sea —</span>
 
+            {/* Second Sea strip background */}
+            <div className="fwm-second-sea"/>
+
+            {/* Sea divider */}
+            <div className="fwm-sea-div" style={{ top: '80%' }}>
+              <span>Second Sea</span>
+            </div>
+
             {/* GPS Grid (dynamic ticks based on zoom) */}
             <svg className="fwm-gps-grid" viewBox="0 0 100 100" preserveAspectRatio="none">
               {gridTicks.xTicks.map(v => {
@@ -861,7 +882,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
             {/* ===== ISLAND BLOBS (lg always visible, md/sm appear with zoom) ===== */}
             {groups.map((g, gi) => {
-              if (g.type !== 'island') return null;
+              if (g.type !== 'island' || g.id === 'ancient-isle') return null;
               const vis = visIds.has(g.id);
               // Progressive reveal: lg=always, md=zoom>=1.3, sm=zoom>=1.6
               const zoomOp = g.size === 'lg' ? 1
@@ -952,6 +973,17 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
               <text x="13" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">W</text>
               <text x="47" y="33" textAnchor="middle" fill="rgba(255,255,255,0.35)" fontSize="6" fontWeight="600" fontFamily="inherit">E</text>
             </svg>
+
+            {/* Ancient Isle off-screen indicator */}
+            {ancientIsle && (
+              <div className={`fwm-offscreen fwm-offscreen--right${visIds.has('ancient-isle') ? '' : ' fwm-offscreen--dim'}`}
+                style={{ top: `${ancientIsleY}px` }}
+                onClick={() => visIds.has('ancient-isle') && handleIslandClick('ancient-isle')}>
+                <span className="fwm-offscreen__arrow">→</span>
+                <span className="fwm-offscreen__name">Ancient Isle</span>
+                <span className="fwm-offscreen__meta">X:6000 · {ancientIsle.totalFish} fish</span>
+              </div>
+            )}
 
           </div>
         </div>
