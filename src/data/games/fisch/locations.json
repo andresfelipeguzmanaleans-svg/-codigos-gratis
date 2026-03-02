@@ -3895,6 +3895,765 @@
     "imagePath": null
   },
   {
+    "id": "the-laboratory",
+    "name": "The Laboratory",
+    "description": "Research facility north of Roslit Bay. No unique fish. Home to Dr. Glimmerfin (submarine quest).",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Wind",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 37,
+    "fish": [
+      {
+        "name": "Long Pike",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Mustard",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Boots",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Mythic Fish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Sea Pickle",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Crown Bass",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Dolphin",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Flying Fish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Moonfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Sawfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Bluefin Tuna",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Halibut",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pufferfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sailfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Stingray",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Swordfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Chinook Salmon",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Nurse Shark",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Amberjack",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bait Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Barracuda",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Cod",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Common Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Fish Barrel",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Salmon",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Yellowfin Tuna",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tuskmaw",
+        "rarity": "Divine Secret"
+      },
+      {
+        "name": "Haddock",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mackerel",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mullet",
+        "rarity": "Common"
+      },
+      {
+        "name": "Porgy",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sardine",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sea Bass",
+        "rarity": "Common"
+      },
+      {
+        "name": "Boot",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Device Display",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Seaweed",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Tire",
+        "rarity": "Trash"
+      }
+    ],
+    "source": "fischipedia.org",
+    "coords": {
+      "x": -400,
+      "z": -700
+    },
+    "coordSource": "wiki",
+    "imagePath": "/images/locations/the-laboratory.png"
+  },
+  {
+    "id": "statue-of-sovereignty",
+    "name": "Statue of Sovereignty",
+    "description": "Statue of the Founding Fischer. Water is lethal. Keeper's Altar is underground (see Hidden Zones).",
+    "availableWeathers": [],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 0,
+    "fish": [],
+    "source": "fischipedia.org",
+    "coords": {
+      "x": 37,
+      "z": -1017
+    },
+    "coordSource": "wiki",
+    "imagePath": "/images/locations/statue-of-sovereignty.png"
+  },
+  {
+    "id": "earmark-island",
+    "name": "Earmark Island",
+    "description": "A small island west of Moosewood. Fishing here catches general Ocean fish.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Wind",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 37,
+    "fish": [
+      {
+        "name": "Long Pike",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Mustard",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Boots",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Mythic Fish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Sea Pickle",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Crown Bass",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Dolphin",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Flying Fish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Moonfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Sawfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Bluefin Tuna",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Halibut",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pufferfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sailfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Stingray",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Swordfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Chinook Salmon",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Nurse Shark",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Amberjack",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bait Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Barracuda",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Cod",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Common Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Fish Barrel",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Salmon",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Yellowfin Tuna",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tuskmaw",
+        "rarity": "Divine Secret"
+      },
+      {
+        "name": "Haddock",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mackerel",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mullet",
+        "rarity": "Common"
+      },
+      {
+        "name": "Porgy",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sardine",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sea Bass",
+        "rarity": "Common"
+      },
+      {
+        "name": "Boot",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Device Display",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Seaweed",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Tire",
+        "rarity": "Trash"
+      }
+    ],
+    "source": "fischipedia.org",
+    "coords": {
+      "x": 1195,
+      "z": 971
+    },
+    "coordSource": "wiki",
+    "imagePath": "/images/locations/earmark-island.png"
+  },
+  {
+    "id": "birch-cay",
+    "name": "Birch Cay",
+    "description": "A small forested island with a cellar. Fishing here catches general Ocean fish.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Wind",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 37,
+    "fish": [
+      {
+        "name": "Long Pike",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Mustard",
+        "rarity": "Secret"
+      },
+      {
+        "name": "Boots",
+        "rarity": "Exotic"
+      },
+      {
+        "name": "Mythic Fish",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Sea Pickle",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Crown Bass",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Dolphin",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Flying Fish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Moonfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Sawfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Bluefin Tuna",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Halibut",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pufferfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sailfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Stingray",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Swordfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Chinook Salmon",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Nurse Shark",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Amberjack",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bait Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Barracuda",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Cod",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Common Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Fish Barrel",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Salmon",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Yellowfin Tuna",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Tuskmaw",
+        "rarity": "Divine Secret"
+      },
+      {
+        "name": "Haddock",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mackerel",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mullet",
+        "rarity": "Common"
+      },
+      {
+        "name": "Porgy",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sardine",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sea Bass",
+        "rarity": "Common"
+      },
+      {
+        "name": "Boot",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Device Display",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Seaweed",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Tire",
+        "rarity": "Trash"
+      }
+    ],
+    "source": "fischipedia.org",
+    "coords": {
+      "x": 1448,
+      "z": -2351
+    },
+    "coordSource": "wiki",
+    "imagePath": "/images/locations/birch-cay.png"
+  },
+  {
+    "id": "the-arch",
+    "name": "The Arch",
+    "description": "A natural stone arch formation in the ocean, a landmark between Birch Cay and Castaway Cliffs.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Wind",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 23,
+    "fish": [
+      {
+        "name": "Crown Bass",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Dolphin",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Bluefin Tuna",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pufferfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Sailfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Stingray",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Chinook Salmon",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Nurse Shark",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Amberjack",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bait Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Barracuda",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Cod",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Common Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Fish Barrel",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Salmon",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Haddock",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mackerel",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mullet",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sardine",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sea Bass",
+        "rarity": "Common"
+      },
+      {
+        "name": "Boot",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Seaweed",
+        "rarity": "Trash"
+      },
+      {
+        "name": "Tire",
+        "rarity": "Trash"
+      }
+    ],
+    "source": "fischipedia.org",
+    "coords": {
+      "x": 981,
+      "z": -1834
+    },
+    "coordSource": "wiki",
+    "imagePath": "/images/locations/the-arch.png"
+  },
+  {
+    "id": "harvesters-spike",
+    "name": "Harvester's Spike",
+    "description": "A rocky spike formation in the ocean between Roslit Bay and Moosewood.",
+    "availableWeathers": [
+      "Sunny",
+      "Rain",
+      "Thunder",
+      "Wind",
+      "Foggy"
+    ],
+    "isPremium": false,
+    "isEvent": false,
+    "isSeasonal": false,
+    "fishCount": 20,
+    "fish": [
+      {
+        "name": "Sea Pickle",
+        "rarity": "Mythical"
+      },
+      {
+        "name": "Sawfish",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Bluefin Tuna",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Carbon Crate",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Halibut",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Pufferfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Swordfish",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Chinook Salmon",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Nurse Shark",
+        "rarity": "Unusual"
+      },
+      {
+        "name": "Amberjack",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Bait Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Barracuda",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Cod",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Common Crate",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Salmon",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Mackerel",
+        "rarity": "Common"
+      },
+      {
+        "name": "Mullet",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sardine",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sea Bass",
+        "rarity": "Common"
+      },
+      {
+        "name": "Sockeye Salmon",
+        "rarity": "Common"
+      }
+    ],
+    "source": "fischipedia.org",
+    "coords": {
+      "x": -1463,
+      "z": 58
+    },
+    "coordSource": "wiki",
+    "imagePath": "/images/locations/harvesters-spike.png"
+  },
+  {
     "id": "admin-events",
     "name": "Admin Events",
     "description": "Special admin-only events with rare fish spawns. Includes Earthquake, Mayhem, and other special events.",
