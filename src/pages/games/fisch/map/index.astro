@@ -513,18 +513,8 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
 
   /* ====== TABLET (769–1024px) ====== */
   @media (max-width: 1024px) and (min-width: 769px) {
-    /* Frame scrolls horizontally; flex makes map child size by aspect-ratio */
-    :global(.fwm-frame) {
-      display: flex;
-      overflow-x: auto; overflow-y: hidden;
-      -webkit-overflow-scrolling: touch;
-    }
-    :global(.fwm-map) {
-      flex: 0 0 auto;
-      width: auto;
-      min-width: 800px;
-      aspect-ratio: 2000 / 1116;
-    }
+    :global(.fwm-frame) { overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
+    :global(.fwm-map) { min-width: 800px; }
     :global(.fwm-panel) { width: 280px; }
     :global(.fwm-hp) { width: 280px; }
   }
@@ -554,22 +544,24 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     }
 
     /* ---- Map frame: height-driven, horizontal swipe ----
-       display:flex prevents .fwm-map from stretching to parent width.
-       flex:0 0 auto + aspect-ratio computes width from the fixed height.
-       This creates real overflow for horizontal scroll. */
+       Frame has explicit height. Map width is CALCULATED from that height
+       using the exact aspect ratio (2000/1116). No auto-sizing, no
+       aspect-ratio property, no flex — just pure CSS math.
+       This guarantees the map div is wider than the frame, creating
+       real horizontal scroll on every browser. */
     :global(.fwm-frame) {
-      display: flex;
       border-radius: 12px;
       overflow-x: auto; overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
       height: 50vh; max-height: 420px;
     }
     :global(.fwm-map) {
-      flex: 0 0 auto;
       position: relative;
       height: 100%;
-      width: auto;
-      aspect-ratio: 2000 / 1116;
+      /* Width = height × aspect_ratio. min() caps it when max-height kicks in.
+         50vh × (2000/1116) for short viewports, 420px × (2000/1116) = 753px for tall ones */
+      width: min(calc(50vh * 2000 / 1116), calc(420px * 2000 / 1116));
+      aspect-ratio: auto;
     }
     :global(.fwm-map__img) {
       display: block;
