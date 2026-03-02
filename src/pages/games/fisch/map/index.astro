@@ -322,6 +322,9 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     border-color: rgba(168,85,247,0.35);
   }
 
+  /* Expand button — hidden on desktop (panel is always full) */
+  :global(.fwm-panel__expand) { display: none; }
+
   /* ====== WHERE AM I (inline below controls) ====== */
   :global(.fwm-where) {
     margin-bottom: 10px; padding: 10px 14px;
@@ -627,16 +630,18 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     :global(.fwm-ent__ico) { font-size: 7px; }
     :global(.fwm-ent__name) { font-size: 7px; margin-top: 6px; }
 
-    /* ---- Info panel: bottom sheet ---- */
+    /* ---- Info panel: mini-bar (default) + expandable ---- */
     :global(.fwm-panel) {
       position: fixed;
-      top: auto; left: 0; right: 0; bottom: 0;
-      width: 100%; height: 45vh; max-height: 380px;
+      left: 0; right: 0; bottom: 0;
+      width: 100%; height: auto;
       transform: translateY(100%);
       border-left: none;
       border-top: 1px solid rgba(255,255,255,0.1);
       border-radius: 16px 16px 0 0;
       z-index: 1000;
+      transition: transform 0.3s ease;
+      overflow: hidden;
     }
     :global(.fwm-panel--open) { transform: translateY(0); }
     :global(.fwm-panel--open::before) {
@@ -645,10 +650,35 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
       background: rgba(255,255,255,0.2);
       margin: 8px auto 4px;
     }
-    :global(.fwm-panel__hero-wrap) { height: 60px; }
+
+    /* Mini-bar mode: hide heavy sections */
+    :global(.fwm-panel--open:not(.fwm-panel--exp) .fwm-panel__fl) { display: none; }
+    :global(.fwm-panel--open:not(.fwm-panel--exp) .fwm-panel__subs) { display: none; }
+    :global(.fwm-panel--open:not(.fwm-panel--exp) .fwm-panel__gw) { display: none; }
+    :global(.fwm-panel--open:not(.fwm-panel--exp) .fwm-panel__hero-wrap) { height: 0; overflow: hidden; }
+    :global(.fwm-panel--open:not(.fwm-panel--exp) .fwm-panel__wx) { padding: 4px 14px; border-bottom: none; }
+
+    /* Expand button */
+    :global(.fwm-panel__expand) {
+      display: flex; align-items: center; justify-content: center; gap: 4px;
+      width: calc(100% - 28px); margin: 4px 14px 10px; padding: 10px;
+      border-radius: 10px; background: rgba(34,211,238,0.12);
+      border: 1px solid rgba(34,211,238,0.25);
+      color: #22d3ee; font-size: 13px; font-weight: 700;
+      font-family: inherit; cursor: pointer;
+      transition: background 0.2s;
+    }
+    :global(.fwm-panel__expand:active) { background: rgba(34,211,238,0.2); }
+
+    /* Expanded mode: show everything */
+    :global(.fwm-panel--exp) { height: 60vh; max-height: 500px; overflow-y: auto; }
+    :global(.fwm-panel--exp .fwm-panel__expand) { display: none; }
+
+    /* Compact sizes for both modes */
     :global(.fwm-panel__title) { font-size: 15px; }
     :global(.fwm-panel__hd-text) { padding: 8px 14px; }
     :global(.fwm-panel__meta) { font-size: 10px; }
+    :global(.fwm-panel__hero-wrap) { height: 60px; }
     :global(.fwm-panel__si) { min-height: 40px; }
     :global(.fwm-panel__fi) { min-height: 40px; padding: 4px 6px; }
     :global(.fwm-panel__fimg) { width: 28px; height: 28px; }

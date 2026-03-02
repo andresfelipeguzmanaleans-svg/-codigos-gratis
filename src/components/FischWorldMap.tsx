@@ -288,6 +288,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const [whereZ, setWhereZ] = useState('');
   const [marker, setMarker] = useState<{ nearestId: string; nearest: string; dist: number } | null>(null);
   const [whereOpen, setWhereOpen] = useState(false);
+  const [panelExpanded, setPanelExpanded] = useState(false);
 
   /* Panel data */
   const panelData = useMemo(() => {
@@ -309,9 +310,12 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   }, [selectedId, groups, locMap]);
 
   const selectItem = useCallback((id: string) => {
-    setSelectedId(prev => prev === id ? null : id);
+    setSelectedId(prev => {
+      if (prev !== id) setPanelExpanded(false);
+      return prev === id ? null : id;
+    });
   }, []);
-  const closePanel = useCallback(() => setSelectedId(null), []);
+  const closePanel = useCallback(() => { setSelectedId(null); setPanelExpanded(false); }, []);
 
   /* Filtered groups */
   const visGroups = useMemo(() => groups.filter(g => {
@@ -601,7 +605,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
         </div>
 
         {/* ===== INFO PANEL ===== */}
-        <div className={`fwm-panel${panelData ? ' fwm-panel--open' : ''}`} onClick={e => e.stopPropagation()}>
+        <div className={`fwm-panel${panelData ? ' fwm-panel--open' : ''}${panelExpanded ? ' fwm-panel--exp' : ''}`} onClick={e => e.stopPropagation()}>
           {panelData && (() => {
             const isGroup = panelData.type === 'group';
             const grp = panelData.group;
@@ -647,6 +651,10 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
                     ))}
                   </div>
                 )}
+
+                <button className="fwm-panel__expand" onClick={(e) => { e.stopPropagation(); setPanelExpanded(true); }}>
+                  {'\uD83D\uDC1F'} Ver {totalFish} peces {'\u2192'}
+                </button>
 
                 {(() => {
                   const gwId = isGroup ? grp!.id : loc!.id;
