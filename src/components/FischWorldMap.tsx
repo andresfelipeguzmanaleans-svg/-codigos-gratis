@@ -382,7 +382,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           const isActive = selectedId === g.id;
           const isHovered = hoveredId === g.id;
           const isVisible = visIds.has(g.id);
-          const orbitFish = isActive ? [...g.allFish].sort((a, b) => (RAR_ORD[b.rarity]||0) - (RAR_ORD[a.rarity]||0)) : [];
+          const orbitFish = isActive ? [...g.allFish].sort((a, b) => (RAR_ORD[b.rarity]||0) - (RAR_ORD[a.rarity]||0)).slice(0, 48) : [];
           const seaLabel = g.sea === 'second' ? 'Second Sea' : g.sea === 'deep' ? 'Deep' : 'First Sea';
           const pinColor = BIOME_CLR[g.id] || '#6b7280';
 
@@ -418,34 +418,43 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
                 </div>
               )}
 
-              {orbitFish.length > 0 && (
-                <div className="fwm-orbit">
-                  {orbitFish.map((f, i) => {
-                    const perRing = 8;
-                    const ring = Math.floor(i / perRing);
-                    const posInRing = i % perRing;
-                    const countInRing = Math.min(perRing, orbitFish.length - ring * perRing);
-                    const deg = Math.round((360 / countInRing) * posInRing - 90);
-                    const radius = 60 + ring * 50;
-                    const fid = f.id || slug(f.name);
-                    const rc = RAR_CLR[f.rarity] || '#aaa';
-                    return (
-                      <a key={fid + i} href={`/games/${gameSlug}/fish/${fid}/`}
-                        className="fwm-fdot"
-                        onClick={e => e.stopPropagation()}
-                        style={{ transform: `rotate(${deg}deg) translateX(${radius}px) rotate(${-deg}deg)` }}>
-                        <div className="fwm-fdot__wrap" style={{ borderColor: rc }}>
-                          <img src={`/images/fish/${fid}.png`} alt={f.name} loading="lazy" />
-                        </div>
-                        <div className="fwm-fdot__tip">
-                          <strong>{f.name}</strong>
-                          <span className="fwm-fdot__rar" style={{ color: rc, background: `${rc}20` }}>{f.rarity}</span>
-                        </div>
-                      </a>
-                    );
-                  })}
-                </div>
-              )}
+              {orbitFish.length > 0 && (() => {
+                /* Build concentric rings: each outer ring fits more fish */
+                const rings: { start: number; count: number; radius: number }[] = [];
+                let placed = 0;
+                for (let r = 0; placed < orbitFish.length; r++) {
+                  const capacity = 8 + r * 3;          /* 8, 11, 14, 17, 20 ... */
+                  const count = Math.min(capacity, orbitFish.length - placed);
+                  const radius = 46 + r * 28;          /* 46, 74, 102, 130, 158 */
+                  rings.push({ start: placed, count, radius });
+                  placed += count;
+                }
+                return (
+                  <div className="fwm-orbit">
+                    {rings.map((ring) =>
+                      orbitFish.slice(ring.start, ring.start + ring.count).map((f, i) => {
+                        const deg = Math.round((360 / ring.count) * i - 90);
+                        const fid = f.id || slug(f.name);
+                        const rc = RAR_CLR[f.rarity] || '#aaa';
+                        return (
+                          <a key={fid + ring.start + i} href={`/games/${gameSlug}/fish/${fid}/`}
+                            className="fwm-fdot"
+                            onClick={e => e.stopPropagation()}
+                            style={{ transform: `rotate(${deg}deg) translateX(${ring.radius}px) rotate(${-deg}deg)` }}>
+                            <div className="fwm-fdot__wrap" style={{ borderColor: rc }}>
+                              <img src={`/images/fish/${fid}.png`} alt={f.name} loading="lazy" />
+                            </div>
+                            <div className="fwm-fdot__tip">
+                              <strong>{f.name}</strong>
+                              <span className="fwm-fdot__rar" style={{ color: rc, background: `${rc}20` }}>{f.rarity}</span>
+                            </div>
+                          </a>
+                        );
+                      })
+                    )}
+                  </div>
+                );
+              })()}
             </div>
           );
         })}
