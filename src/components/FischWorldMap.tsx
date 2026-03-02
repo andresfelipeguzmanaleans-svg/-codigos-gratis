@@ -379,7 +379,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           const isActive = selectedId === g.id;
           const isHovered = hoveredId === g.id;
           const isVisible = visIds.has(g.id);
-          const orbitFish = isActive ? topFish(g.allFish, 10) : [];
+          const orbitFish = isActive ? [...g.allFish].sort((a, b) => (RAR_ORD[b.rarity]||0) - (RAR_ORD[a.rarity]||0)) : [];
           const seaLabel = g.sea === 'second' ? 'Second Sea' : g.sea === 'deep' ? 'Deep' : 'First Sea';
           const pinColor = BIOME_CLR[g.id] || '#6b7280';
 
@@ -418,16 +418,26 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
               {orbitFish.length > 0 && (
                 <div className="fwm-orbit">
                   {orbitFish.map((f, i) => {
-                    const deg = Math.round((360 / orbitFish.length) * i - 90);
+                    const perRing = 8;
+                    const ring = Math.floor(i / perRing);
+                    const posInRing = i % perRing;
+                    const countInRing = Math.min(perRing, orbitFish.length - ring * perRing);
+                    const deg = Math.round((360 / countInRing) * posInRing - 90);
+                    const radius = 60 + ring * 50;
                     const fid = f.id || slug(f.name);
                     const rc = RAR_CLR[f.rarity] || '#aaa';
                     return (
                       <a key={fid + i} href={`/games/${gameSlug}/fish/${fid}/`}
-                        className="fwm-fdot" title={`${f.name} (${f.rarity})`}
+                        className="fwm-fdot"
                         onClick={e => e.stopPropagation()}
-                        style={{ transform: `rotate(${deg}deg) translateX(70px) rotate(${-deg}deg)`, borderColor: rc }}>
-                        <img src={`/images/fish/${fid}.png`} alt={f.name} loading="lazy" />
-                        <span className="fwm-fdot__n">{f.name}</span>
+                        style={{ transform: `rotate(${deg}deg) translateX(${radius}px) rotate(${-deg}deg)` }}>
+                        <div className="fwm-fdot__wrap" style={{ borderColor: rc }}>
+                          <img src={`/images/fish/${fid}.png`} alt={f.name} loading="lazy" />
+                        </div>
+                        <div className="fwm-fdot__tip">
+                          <strong>{f.name}</strong>
+                          <span className="fwm-fdot__rar" style={{ color: rc, background: `${rc}20` }}>{f.rarity}</span>
+                        </div>
                       </a>
                     );
                   })}

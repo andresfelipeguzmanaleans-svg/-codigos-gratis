@@ -185,22 +185,43 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
   :global(.fwm-fdot) {
     position: absolute; left: 0; top: 0;
     width: 30px; height: 30px; margin: -15px 0 0 -15px;
-    display: flex; flex-direction: column; align-items: center;
     text-decoration: none; cursor: pointer;
     pointer-events: auto;
-    transition: transform 0.15s;
   }
-  :global(.fwm-fdot:hover) { transform: scale(1.3) !important; z-index: 40 !important; }
-  :global(.fwm-fdot img) {
-    width: 28px; height: 28px; border-radius: 50%; object-fit: contain;
-    border: 2px solid inherit; background: rgba(0,0,0,0.5);
-    box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+  :global(.fwm-fdot:hover) { z-index: 40; }
+  :global(.fwm-fdot__wrap) {
+    width: 100%; height: 100%; border-radius: 50%;
+    border: 2px solid; background: rgba(0,0,0,0.6);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  :global(.fwm-fdot:hover .fwm-fdot__wrap) {
+    transform: scale(1.35);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.7);
+  }
+  :global(.fwm-fdot__wrap img) {
+    width: 24px; height: 24px; border-radius: 50%; object-fit: contain;
     filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
   }
-  :global(.fwm-fdot__n) {
-    font-size: 6px; font-weight: 600; color: #fff;
-    text-shadow: 0 1px 3px #000; white-space: nowrap; text-align: center;
-    margin-top: 1px; max-width: 60px; overflow: hidden; text-overflow: ellipsis;
+  /* Fish info tooltip (shown on hover) */
+  :global(.fwm-fdot__tip) {
+    position: absolute; bottom: calc(100% + 6px); left: 50%;
+    transform: translateX(-50%);
+    background: rgba(15,23,42,0.95); backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px; padding: 6px 10px;
+    white-space: nowrap; pointer-events: none;
+    opacity: 0; transition: opacity 0.15s;
+    z-index: 50;
+    display: flex; flex-direction: column; align-items: center; gap: 3px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+  }
+  :global(.fwm-fdot:hover .fwm-fdot__tip) { opacity: 1; }
+  :global(.fwm-fdot__tip strong) { font-size: 11px; color: #fff; }
+  :global(.fwm-fdot__rar) {
+    font-size: 8px; font-weight: 700; text-transform: uppercase;
+    padding: 1px 6px; border-radius: 4px;
   }
 
   /* ====== CONNECTING LINES (SVG) ====== */
@@ -468,9 +489,9 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     :global(.fwm-pin-hit) { width: 80px; height: 80px; }
     :global(.fwm-tooltip) { display: none; }
 
-    :global(.fwm-fdot) { width: 22px; height: 22px; margin: -11px 0 0 -11px; }
-    :global(.fwm-fdot img) { width: 20px; height: 20px; }
-    :global(.fwm-fdot__n) { font-size: 5px; }
+    :global(.fwm-fdot) { width: 24px; height: 24px; margin: -12px 0 0 -12px; }
+    :global(.fwm-fdot__wrap img) { width: 20px; height: 20px; }
+    :global(.fwm-fdot__tip) { display: none; }
 
     /* Panel slides from bottom on mobile */
     :global(.fwm-panel) {
