@@ -511,25 +511,30 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     font-size: 10px; color: #94a3b8; margin: 6px 0 0; line-height: 1.4;
   }
 
-  /* ====== TABLET ====== */
+  /* ====== TABLET (769–1024px) ====== */
   @media (max-width: 1024px) and (min-width: 769px) {
     :global(.fwm-frame) { overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
     :global(.fwm-map) { min-width: 800px; }
+    :global(.fwm-panel) { width: 280px; }
+    :global(.fwm-hp) { width: 280px; }
   }
 
-  /* ====== MOBILE ====== */
+  /* ====== MOBILE (≤768px) ====== */
   @media (max-width: 768px) {
     :global(.fwm) { padding: 0 8px 24px; }
-    :global(.fwm-ctrls) { flex-direction: column; align-items: stretch; }
-    :global(.fwm-pills) { flex-wrap: wrap; }
-    :global(.fwm-search) { width: 100%; margin-left: 0; }
 
-    /* Scrollable map — user swipes horizontally */
+    /* Controls — compact layout */
+    :global(.fwm-ctrls) { flex-direction: column; align-items: stretch; gap: 6px; }
+    :global(.fwm-pills) { flex-wrap: wrap; gap: 4px; }
+    :global(.fwm-pill) { padding: 5px 10px; font-size: 11px; }
+    :global(.fwm-search) { width: 100%; margin-left: 0; padding: 8px 12px; font-size: 12px; }
+
+    /* Map frame — horizontally scrollable */
     :global(.fwm-frame) {
       border-radius: 12px;
       overflow-x: auto; overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
-      height: 55vh; max-height: 420px;
+      height: 60vh; max-height: 500px;
     }
     :global(.fwm-map) {
       aspect-ratio: 2000 / 1116;
@@ -537,43 +542,57 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     }
     :global(.fwm-map__img) { width: auto; height: 100%; }
 
-    :global(.fwm-pin__name) { font-size: 9px; }
-    :global(.fwm-pin__fish) { font-size: 7px; }
-    :global(.fwm-pin-hit) { width: 80px; height: 80px; }
+    /* Pins — mobile sizing */
+    :global(.fwm-pin) { width: 22px; height: 22px; border-width: 2px; }
+    :global(.fwm-pin__ico) { font-size: 10px; }
+    :global(.fwm-pin__name) { font-size: 9px; margin-top: 6px; }
+    :global(.fwm-pin__fish) { font-size: 7px; padding: 1px 4px; }
+    :global(.fwm-pin-hit) { width: 60px; height: 60px; }
     :global(.fwm-tooltip) { display: none; }
 
+    /* Fish orbit — smaller dots */
     :global(.fwm-fdot) { width: 22px; height: 22px; margin: -11px 0 0 -11px; }
     :global(.fwm-fdot__wrap img) { width: 18px; height: 18px; }
     :global(.fwm-fdot__tip) { display: none; }
 
-    /* Panel slides from bottom on mobile */
+    /* Entrance diamonds — smaller on mobile */
+    :global(.fwm-ent__diamond) { width: 16px; height: 16px; border-width: 1.5px; }
+    :global(.fwm-ent__ico) { font-size: 7px; }
+    :global(.fwm-ent__name) { font-size: 7px; margin-top: 7px; }
+
+    /* ---- Info panel: FIXED to viewport, slides from bottom ----
+       Key fix: position:fixed so panel doesn't scroll with the map */
     :global(.fwm-panel) {
-      width: 100%; height: 70%; top: auto;
+      position: fixed; top: auto; left: 0; right: 0; bottom: 0;
+      width: 100%; height: 70vh;
       transform: translateY(100%); border-left: none;
       border-top: 1px solid rgba(255,255,255,0.08);
       border-radius: 16px 16px 0 0;
+      z-index: 1000;
     }
     :global(.fwm-panel--open) { transform: translateY(0); }
     :global(.fwm-panel__hero-wrap) { height: 80px; }
+    :global(.fwm-panel__title) { font-size: 16px; }
     :global(.fwm-panel__si) { min-height: 44px; }
     :global(.fwm-panel__fi) { min-height: 44px; }
     :global(.fwm-panel__close) { width: 44px; height: 44px; }
-    :global(.fwm-ec) { min-height: 44px; }
 
-    /* Hidden panel on mobile: full width from bottom */
+    /* ---- Hidden zones panel: FIXED to viewport, slides from bottom ---- */
     :global(.fwm-hp) {
-      width: 100%; height: 70%; top: auto;
+      position: fixed; top: auto; left: 0; right: 0; bottom: 0;
+      width: 100%; height: 70vh;
       transform: translateY(100%); border-right: none;
       border-top: 1px solid rgba(255,255,255,0.08);
       border-radius: 16px 16px 0 0;
+      z-index: 1000;
     }
     :global(.fwm-hp--open) { transform: translateY(0); }
     :global(.fwm-hp__close) { width: 44px; height: 44px; }
 
-    :global(.fwm-ent__diamond) { width: 18px; height: 18px; }
-    :global(.fwm-ent__ico) { font-size: 8px; }
-    :global(.fwm-ent__name) { font-size: 7px; margin-top: 8px; }
+    /* Events */
+    :global(.fwm-ec) { min-height: 44px; }
 
+    /* Where Am I */
     :global(.fwm-where__row) { flex-wrap: wrap; }
     :global(.fwm-where__in) { flex: 1; min-width: 50px; }
   }
