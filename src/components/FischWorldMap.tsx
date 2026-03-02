@@ -673,8 +673,14 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
                       <div key={cl.id}
                         className={`fwm-panel__si${selectedId === cl.id ? ' fwm-panel__si--on' : ''}`}
                         onClick={() => setSelectedId(cl.id)}>
-                        <span className="fwm-panel__sid"/>
-                        <span>{cl.name}</span>
+                        {cl.imagePath
+                          ? <img src={cl.imagePath} alt="" className="fwm-panel__simg" loading="lazy"/>
+                          : <span className="fwm-panel__sid"/>
+                        }
+                        <div className="fwm-panel__stx">
+                          <span>{cl.name}</span>
+                          {cl.coords && <span className="fwm-panel__sxy">X:{cl.coords.x} Z:{cl.coords.z}</span>}
+                        </div>
                         <span className="fwm-panel__sic">{cl.fishCount} fish</span>
                       </div>
                     ))}
