@@ -302,7 +302,7 @@
       "z": -800
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/ocean.png"
   },
   {
     "id": "atlantis",
@@ -1286,7 +1286,7 @@
       "z": 150
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/ethereal-abyss-pool.png"
   },
   {
     "id": "snowcap-island",
@@ -1583,7 +1583,7 @@
       "z": -2950
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/sunken-depths-pool.png"
   },
   {
     "id": "cursed-isle",
@@ -1923,7 +1923,7 @@
       "z": -3100
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/poseidon-trial-pool.png"
   },
   {
     "id": "challengers-deep",
@@ -1984,7 +1984,7 @@
       "z": -3500
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/challengers-deep.png"
   },
   {
     "id": "roslit-volcano",
@@ -2042,7 +2042,7 @@
       "z": 760
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/roslit-volcano.png"
   },
   {
     "id": "crimson-cavern",
@@ -2215,7 +2215,7 @@
       "z": 1900
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/veil-of-the-forsaken.png"
   },
   {
     "id": "atlantean-storm",
@@ -2269,7 +2269,7 @@
       "z": -3200
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/atlantean-storm.png"
   },
   {
     "id": "vertigo",
@@ -2375,7 +2375,7 @@
       "z": 2300
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/carrot-garden.png"
   },
   {
     "id": "cults-curse",
@@ -2428,7 +2428,7 @@
       "z": -2900
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/cults-curse.png"
   },
   {
     "id": "abyssal-zenith",
@@ -2479,7 +2479,7 @@
       "z": 2500
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/abyssal-zenith.png"
   },
   {
     "id": "luminescent-cavern",
@@ -2578,7 +2578,7 @@
       "z": 2800
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/glacial-grotto.png"
   },
   {
     "id": "calm-zone",
@@ -2627,7 +2627,7 @@
       "z": 2800
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/calm-zone.png"
   },
   {
     "id": "castaway-cliffs",
@@ -2726,7 +2726,7 @@
       "z": 1820
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/brine-pool.png"
   },
   {
     "id": "second-sea",
@@ -2778,7 +2778,7 @@
       "z": 3500
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/waveborne.png"
   },
   {
     "id": "terrapin-island",
@@ -2964,7 +2964,7 @@
       "z": 650
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/marianas-veil.png"
   },
   {
     "id": "atlantis-kraken-pool",
@@ -3009,7 +3009,7 @@
       "z": -3050
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/atlantis.png"
   },
   {
     "id": "lost-jungle",
@@ -3094,7 +3094,7 @@
       "z": -1700
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/ancient-archives.png"
   },
   {
     "id": "the-chasm",
@@ -3135,7 +3135,7 @@
       "z": -2000
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/the-chasm.png"
   },
   {
     "id": "kraken-pool",
@@ -3176,7 +3176,7 @@
       "z": -1850
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/kraken-pool.png"
   },
   {
     "id": "frigid-cavern",
@@ -3218,7 +3218,7 @@
       "z": 2600
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/frigid-cavern.png"
   },
   {
     "id": "crypt",
@@ -3259,7 +3259,7 @@
       "z": -2700
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/crypt.png"
   },
   {
     "id": "frightful-pool",
@@ -3301,7 +3301,7 @@
       "z": -2750
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/frightful-pool.png"
   },
   {
     "id": "keepers-altar",
@@ -3338,7 +3338,7 @@
       "z": -1050
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/keepers-altar.png"
   },
   {
     "id": "azure-lagoon",
@@ -3450,7 +3450,7 @@
       "z": 700
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/volcanic-vents.png"
   },
   {
     "id": "forsaken-shores",
@@ -3554,7 +3554,7 @@
       "z": 2750
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/snowburrow.png"
   },
   {
     "id": "mushgrove-swamp",
@@ -3615,7 +3615,7 @@
       "z": 2550
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/marianas-veil.png"
   },
   {
     "id": "marianas-veil-calm-zone",
@@ -3644,7 +3644,7 @@
       "z": 2850
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/marianas-veil.png"
   },
   {
     "id": "second-sea-azure-lagoon",
@@ -3670,7 +3670,7 @@
       "z": 2850
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/azure-lagoon.png"
   },
   {
     "id": "second-sea-waveborne",
@@ -3697,7 +3697,7 @@
       "z": 3400
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/waveborne.png"
   },
   {
     "id": "cryogenic-canal",
@@ -3723,7 +3723,7 @@
       "z": 2650
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/snowcap-island.png"
   },
   {
     "id": "atlantis-sunken-depths-pool",
@@ -3745,7 +3745,7 @@
     "source": "fischcalculator.com",
     "coords": null,
     "coordSource": null,
-    "imagePath": null
+    "imagePath": "/images/locations/atlantis.png"
   },
   {
     "id": "oceanic-trench",
@@ -3765,7 +3765,7 @@
       "z": -3000
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/the-depths.png"
   },
   {
     "id": "monster-trench",
@@ -3785,7 +3785,7 @@
       "z": -3200
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/the-depths.png"
   },
   {
     "id": "ocean",
@@ -3830,7 +3830,7 @@
       "z": 200
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/moosewood.png"
   },
   {
     "id": "grand-reef",
@@ -3871,7 +3871,7 @@
       "z": 2600
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/marianas-veil.png"
   },
   {
     "id": "salty-reef",
@@ -3892,7 +3892,7 @@
       "z": 1500
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/ocean.png"
   },
   {
     "id": "the-laboratory",
@@ -5181,7 +5181,7 @@
       "z": -2800
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/fischfright-2025.png"
   },
   {
     "id": "winter-village",
@@ -5275,7 +5275,7 @@
       "z": 2700
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/winter-village.png"
   },
   {
     "id": "lego-event-2025",
@@ -5364,7 +5364,7 @@
       "z": 0
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/lego-event-2025.png"
   },
   {
     "id": "fischgiving-2025",
@@ -5441,6 +5441,6 @@
       "z": 0
     },
     "coordSource": "hardcoded",
-    "imagePath": null
+    "imagePath": "/images/locations/fischgiving-2025.png"
   }
 ]
