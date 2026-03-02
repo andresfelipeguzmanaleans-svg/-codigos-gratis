@@ -138,7 +138,7 @@ const GROUPS: IslandGroup[] = [
   { id:'treasure-island', name:'Treasure Island', icon:'💰', children:['treasure-island'], gps:{x:3500,z:3700}, type:'island', sea:'second' },
   // Special zones
   { id:'the-ocean', name:'The Ocean', icon:'🌊', children:['the-ocean','ocean','open-ocean','ethereal-abyss-pool','salty-reef'], gps:{x:200,z:-200}, type:'special', sea:'first' },
-  { id:'deep-trenches', name:'Deep Trenches', icon:'🔱', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], gps:{x:-2200,z:900}, type:'special', sea:'deep' },
+  { id:'deep-trenches', name:'Deep Ocean', icon:'🔱', children:['mariana-trench','abyssal-zenith','marianas-veil-abyssal-zenith','calm-zone','marianas-veil-calm-zone','oceanic-trench','monster-trench','challengers-deep','sunken-depths-pool','atlantis-kraken-pool','poseidon-trial-pool','atlantean-storm','kraken-pool'], gps:{x:-2200,z:900}, type:'special', sea:'deep' },
   { id:'vertigo', name:'Vertigo', icon:'🌀', label:'Random loc', children:['vertigo','the-depths'], gps:{x:3000,z:2500}, type:'special', sea:'first' },
   { id:'azure-lagoon', name:'Azure Lagoon', icon:'💧', children:['azure-lagoon'], gps:{x:1500,z:1100}, type:'special', sea:'first' },
   { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', label:'Under Statue', children:['keepers-altar'], gps:{x:100,z:-1100}, type:'special', sea:'first' },
@@ -166,8 +166,6 @@ const PIN_POS: Record<string, { left: string; top: string }> = {
   'forsaken-shores':       { left: '12%',    top: '75.3%' },
   'terrapin-island':       { left: '37%',    top: '71.7%' },
   'snowcap-island':        { left: '69%',    top: '78%' },
-  'waveborne':             { left: '35%',    top: '88.7%' },
-  'treasure-island':       { left: '50%',    top: '89.6%' },
 };
 
 /* Biome colors for pins (from reference) */
@@ -195,26 +193,15 @@ const PIN_ICON: Record<string, string> = {
 
 /* Special zone positions (from reference) */
 const SPECIAL_POS: Record<string, { left: string; top: string }> = {
-  'the-ocean':      { left: '30%',   top: '35.8%' },
-  'deep-trenches':  { left: '4%',    top: '46.6%' },
-  'azure-lagoon':   { left: '57.5%', top: '55.6%' },
   'keepers-altar':  { left: '44%',   top: '26.4%' },
   'vertigo':        { left: '79%',   top: '67.2%' },
 };
-
-/* Extra ocean zone markers (sub-locations shown on map) */
-const EXTRA_ZONES = [
-  { id: 'grand-reef', name: 'Grand Reef', icon: '🪸', clickId: 'forsaken-shores', left: '45%', top: '65.4%' },
-  { id: 'marianas-veil', name: "Mariana's Veil", icon: '🌑', clickId: 'deep-trenches', left: '24%', top: '49.3%' },
-  { id: 'atlantean-storm', name: 'Atlantean Storm', icon: '⛈️', clickId: 'deep-trenches', left: '60%', top: '60.9%' },
-];
 
 /* Hidden satellite locations (red markers connected to parents) */
 const SATELLITES = [
   { id: 'n-expedition', name: 'N. Expedition', icon: '❄️', clickId: 'northern-caves', left: '9.5%', top: '2.7%' },
   { id: 'desolate-deep-sat', name: 'Desolate Deep', icon: '🕳️', clickId: 'sunstone-island', left: '21%', top: '7.6%' },
   { id: 'the-depths-sat', name: 'The Depths', icon: '🔴', clickId: 'vertigo', left: '82.5%', top: '69.9%' },
-  { id: 'atlantis-sat', name: 'Atlantis', icon: '🏛️', clickId: 'forsaken-shores', left: '48.5%', top: '68.1%' },
 ];
 
 /* SVG connecting lines (parent → satellite, coordinates in %) */
@@ -222,7 +209,30 @@ const CONNECT_LINES = [
   { x1: 13, y1: 5.4, x2: 9.5, y2: 2.7 },
   { x1: 17, y1: 11.2, x2: 21, y2: 7.6 },
   { x1: 79, y1: 67.2, x2: 82.5, y2: 69.9 },
-  { x1: 45, y1: 65.4, x2: 48.5, y2: 68.1 },
+];
+
+/* ---- Card sections below map ---- */
+const HIDDEN_ZONES = [
+  { id: 'the-ocean', name: 'The Ocean', icon: '🌊', fish: '100+',
+    access: 'Fish from any boat in open sea between islands' },
+  { id: 'deep-trenches', name: 'Deep Ocean', icon: '🌊', fish: '~20',
+    access: 'Sail to map edge, far from all islands' },
+  { id: 'atlantean-storm', name: 'Atlantean Storm', icon: '⛈️', fish: '8',
+    access: 'Whirlpools near Grand Reef, west of Moosewood' },
+  { id: 'grand-reef', name: 'Grand Reef', icon: '🪸', fish: '8',
+    access: 'Island west of Roslit Bay (GPS: -3576, 151, 523)' },
+  { id: 'atlantis', name: 'Atlantis', icon: '🏛️', fish: '59',
+    access: 'Grand Reef: 10k C$ pirate \u2192 5 levers Forsaken Shores \u2192 TNT \u2192 submarine door \u2192 Heart of Zeus at night' },
+  { id: 'marianas-veil', name: "Mariana\u2019s Veil", icon: '🌑', fish: '50+',
+    access: 'Roslit Bay: Dr. Glimmerfin \u2192 build submarine \u2192 underwater cave. 5 progressive layers' },
+];
+const SPECIAL_ACCESS = [
+  { id: 'waveborne', name: 'Waveborne', icon: '🌊', fish: '22',
+    access: 'Second Sea via Sea Traveler in Terrapin \u2192 boss Cthulhu. Req: Level 250' },
+  { id: 'treasure-island', name: 'Treasure Island', icon: '💰', fish: '21',
+    access: 'Crazy Man in Isle of New Beginnings \u2192 Tornado \u2192 Golden Whale \u2192 90s' },
+  { id: 'azure-lagoon', name: 'Azure Lagoon', icon: '💧', fish: '12',
+    access: 'Second Sea, SW of Waveborne. Req: Level 250 + boss Cthulhu' },
 ];
 
 /* GPS → map position for "Where Am I?" */
@@ -483,16 +493,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           ))}
         </svg>
 
-        {/* Extra ocean zones */}
-        {EXTRA_ZONES.map(z => (
-          <button key={z.id} className="fwm-oz"
-            style={{ left: z.left, top: z.top }}
-            onClick={e => { e.stopPropagation(); selectItem(z.clickId); }}>
-            <span className="fwm-oz__i">{z.icon}</span>
-            <span className="fwm-oz__n">{z.name}</span>
-          </button>
-        ))}
-
         {/* Hidden satellite locations (red) */}
         {SATELLITES.map(s => (
           <button key={s.id} className="fwm-sat"
@@ -626,6 +626,44 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             )}
           </div>
         )}
+      </div>
+
+      {/* Ocean & Hidden Zones */}
+      <div className="fwm-hz">
+        <div className="fwm-hz__lbl">🌊 Ocean & Hidden Zones</div>
+        <div className="fwm-hz__row">
+          {HIDDEN_ZONES.map(z => (
+            <div key={z.id} className="fwm-hzc" onClick={() => selectItem(z.id)}>
+              <div className="fwm-hzc__hd">
+                <span className="fwm-hzc__i">{z.icon}</span>
+                <div>
+                  <span className="fwm-hzc__n">{z.name}</span>
+                  <span className="fwm-hzc__f">{z.fish} fish</span>
+                </div>
+              </div>
+              <p className="fwm-hzc__a">{z.access}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Special Access */}
+      <div className="fwm-hz">
+        <div className="fwm-hz__lbl">🔒 Special Access</div>
+        <div className="fwm-hz__row">
+          {SPECIAL_ACCESS.map(z => (
+            <div key={z.id} className="fwm-hzc fwm-hzc--lock" onClick={() => selectItem(z.id)}>
+              <div className="fwm-hzc__hd">
+                <span className="fwm-hzc__i">{z.icon}</span>
+                <div>
+                  <span className="fwm-hzc__n">{z.name}</span>
+                  <span className="fwm-hzc__f">{z.fish} fish</span>
+                </div>
+              </div>
+              <p className="fwm-hzc__a">{z.access}</p>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* Events */}
