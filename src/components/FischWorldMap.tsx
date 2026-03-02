@@ -360,8 +360,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
     <div className="fwm">
       {/* Controls */}
       <div className="fwm-ctrls">
-        <input type="text" className="fwm-search" placeholder="Search island or fish..."
-          value={search} onChange={e => setSearch(e.target.value)} />
         <div className="fwm-pills">
           {(['all','first','second','deep'] as const).map(f => (
             <button key={f} onClick={() => setFilter(f)}
@@ -373,8 +371,37 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             onClick={() => setHiddenOpen(!hiddenOpen)}>
             🔮 Hidden Zones
           </button>
+          <button className={`fwm-pill fwm-pill--wh${whereOpen?' fwm-pill--on':''}`}
+            onClick={() => setWhereOpen(!whereOpen)}>
+            📍 Where Am I?
+          </button>
         </div>
+        <input type="text" className="fwm-search" placeholder="Search island or fish..."
+          value={search} onChange={e => setSearch(e.target.value)} />
       </div>
+
+      {/* Where Am I (inline below controls) */}
+      {whereOpen && (
+        <div className="fwm-where">
+          <div className="fwm-where__row">
+            <input type="number" placeholder="X" value={whereX}
+              onChange={e => setWhereX(e.target.value)} className="fwm-where__in"
+              onKeyDown={e => e.key === 'Enter' && findMe()} />
+            <input type="number" placeholder="Y" value={whereY}
+              onChange={e => setWhereY(e.target.value)} className="fwm-where__in fwm-where__in--y" />
+            <input type="number" placeholder="Z" value={whereZ}
+              onChange={e => setWhereZ(e.target.value)} className="fwm-where__in"
+              onKeyDown={e => e.key === 'Enter' && findMe()} />
+            <button className="fwm-where__btn" onClick={findMe}>Find</button>
+          </div>
+          {marker && (
+            <div className="fwm-where__result">
+              Near <strong>{marker.nearest}</strong> (~{marker.dist} studs)
+              <button className="fwm-where__clr" onClick={() => setMarker(null)}>✕</button>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* ===== MAP FRAME ===== */}
       <div className="fwm-frame" onClick={closePanel}>
@@ -618,34 +645,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             );
           })()}
         </div>
-      </div>
-
-      {/* Where Am I */}
-      <div className={`fwm-where${whereOpen ? ' fwm-where--open' : ''}`}>
-        <button className="fwm-where__toggle" onClick={() => setWhereOpen(!whereOpen)}>
-          📍 Where Am I?
-        </button>
-        {whereOpen && (
-          <div className="fwm-where__body">
-            <div className="fwm-where__row">
-              <input type="number" placeholder="X" value={whereX}
-                onChange={e => setWhereX(e.target.value)} className="fwm-where__in"
-                onKeyDown={e => e.key === 'Enter' && findMe()} />
-              <input type="number" placeholder="Y" value={whereY}
-                onChange={e => setWhereY(e.target.value)} className="fwm-where__in fwm-where__in--y" />
-              <input type="number" placeholder="Z" value={whereZ}
-                onChange={e => setWhereZ(e.target.value)} className="fwm-where__in"
-                onKeyDown={e => e.key === 'Enter' && findMe()} />
-              <button className="fwm-where__btn" onClick={findMe}>Find</button>
-            </div>
-            {marker && (
-              <div className="fwm-where__result">
-                Near <strong>{marker.nearest}</strong> (~{marker.dist} studs)
-                <button className="fwm-where__clr" onClick={() => setMarker(null)}>✕</button>
-              </div>
-            )}
-          </div>
-        )}
       </div>
 
       {/* Events */}
