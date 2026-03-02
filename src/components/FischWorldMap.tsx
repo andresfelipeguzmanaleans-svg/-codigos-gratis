@@ -169,6 +169,20 @@ const PIN_POS: Record<string, { left: string; top: string }> = {
   'snowcap-island':        { left: '69%',    top: '78%' },
 };
 
+/* ---- Entrance diamonds (physical entrances to hidden zones on the map) ---- */
+const ENTRANCES = [
+  { id: 'keepers-altar', name: "Keeper's Altar", icon: '\u26E9\uFE0F', left: 43, top: 30, parentPin: 'statue-of-sovereignty' },
+  { id: 'desolate-deep', name: 'Desolate Deep', icon: '\uD83D\uDD73\uFE0F', left: 14, top: 3, parentPin: 'sunstone-island' },
+  { id: 'grand-reef', name: 'Grand Reef', icon: '\uD83E\uDEB8', left: 4, top: 40, parentPin: 'roslit-bay' },
+  { id: 'n-expedition', name: 'N. Expedition', icon: '\u2744\uFE0F', left: 8, top: 88 },
+] as const;
+
+/* Gateway notes shown in island info panels */
+const GATEWAYS: Record<string, { target: string; targetId: string; fish: string }> = {
+  'roslit-bay': { target: "Mariana\u2019s Veil", targetId: 'marianas-veil', fish: '50+' },
+  'grand-reef': { target: 'Atlantis', targetId: 'atlantis', fish: '59' },
+};
+
 /* Biome colors for pins (from reference) */
 const BIOME_CLR: Record<string, string> = {
   'moosewood':'#22c55e', 'terrapin-island':'#22c55e', 'lushgrove':'#16a34a', 'birch-cay':'#22c55e',
@@ -498,6 +512,35 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
         })}
 
 
+        {/* ---- Entrance dashed connecting lines (SVG overlay) ---- */}
+        <svg className="fwm-ent-lines" viewBox="0 0 100 100" preserveAspectRatio="none">
+          {ENTRANCES.filter(e => e.parentPin && PIN_POS[e.parentPin]).map(ent => {
+            const p = PIN_POS[ent.parentPin!];
+            return (
+              <line key={ent.id}
+                x1={ent.left} y1={ent.top}
+                x2={parseFloat(p.left)} y2={parseFloat(p.top)}
+                stroke="rgba(168,85,247,0.45)"
+                strokeWidth="0.25"
+                strokeDasharray="0.8,0.5"
+              />
+            );
+          })}
+        </svg>
+
+        {/* ---- Entrance diamond markers ---- */}
+        {ENTRANCES.map(ent => (
+          <div key={ent.id}
+            className={`fwm-ent${hiddenOpen ? ' fwm-ent--glow' : ''}${selectedId === ent.id ? ' fwm-ent--on' : ''}`}
+            style={{ left: `${ent.left}%`, top: `${ent.top}%` }}
+            onClick={e => { e.stopPropagation(); selectItem(ent.id); }}>
+            <div className="fwm-ent__diamond">
+              <span className="fwm-ent__ico">{ent.icon}</span>
+            </div>
+            <span className="fwm-ent__name">{ent.name}</span>
+          </div>
+        ))}
+
        </div>{/* end .fwm-map */}
 
         {/* ===== HIDDEN ZONES PANEL (left) ===== */}
@@ -604,6 +647,16 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
                     ))}
                   </div>
                 )}
+
+                {(() => {
+                  const gwId = isGroup ? grp!.id : loc!.id;
+                  const gw = GATEWAYS[gwId];
+                  return gw ? (
+                    <div className="fwm-panel__gw" onClick={() => selectItem(gw.targetId)}>
+                      {'\uD83D\uDD2E'} Gateway to {gw.target} ({gw.fish} fish)
+                    </div>
+                  ) : null;
+                })()}
 
                 {isGroup && childLocs.length > 1 && (
                   <div className="fwm-panel__subs">
