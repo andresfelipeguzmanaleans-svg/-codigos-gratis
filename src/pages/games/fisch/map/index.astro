@@ -513,47 +513,70 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
 
   /* ====== TABLET (769–1024px) ====== */
   @media (max-width: 1024px) and (min-width: 769px) {
-    :global(.fwm-frame) { overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
-    :global(.fwm-map) { min-width: 800px; }
+    /* Frame scrolls horizontally; flex makes map child size by aspect-ratio */
+    :global(.fwm-frame) {
+      display: flex;
+      overflow-x: auto; overflow-y: hidden;
+      -webkit-overflow-scrolling: touch;
+    }
+    :global(.fwm-map) {
+      flex: 0 0 auto;
+      width: auto;
+      min-width: 800px;
+      aspect-ratio: 2000 / 1116;
+    }
     :global(.fwm-panel) { width: 280px; }
     :global(.fwm-hp) { width: 280px; }
   }
 
   /* ====== MOBILE (≤768px) ====== */
   @media (max-width: 768px) {
-    :global(.fwm) { padding: 0 8px 24px; }
+    :global(.fwm) { padding: 0 6px 20px; }
 
-    /* Controls — compact layout */
-    :global(.fwm-ctrls) { flex-direction: column; align-items: stretch; gap: 6px; }
-    :global(.fwm-pills) { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
-    :global(.fwm-pill) { padding: 7px 6px; font-size: 11px; text-align: center; }
-    :global(.fwm-search) { width: 100%; margin-left: 0; padding: 8px 12px; font-size: 13px; }
+    /* ---- Controls: pills scroll horizontally like app tabs ---- */
+    :global(.fwm-ctrls) {
+      flex-direction: column; align-items: stretch; gap: 6px;
+    }
+    :global(.fwm-pills) {
+      display: flex; gap: 4px;
+      overflow-x: auto; scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      padding-bottom: 2px;
+    }
+    :global(.fwm-pills::-webkit-scrollbar) { display: none; }
+    :global(.fwm-pill) {
+      flex-shrink: 0; padding: 7px 12px;
+      font-size: 11px;
+    }
+    :global(.fwm-search) {
+      width: 100%; margin-left: 0;
+      padding: 8px 12px; font-size: 13px;
+    }
 
-    /* ---- Map frame: height-driven, horizontal scroll ----
-       The map fills the frame height; width is determined by the image
-       aspect ratio. User swipes horizontally to explore. */
+    /* ---- Map frame: height-driven, horizontal swipe ----
+       display:flex prevents .fwm-map from stretching to parent width.
+       flex:0 0 auto + aspect-ratio computes width from the fixed height.
+       This creates real overflow for horizontal scroll. */
     :global(.fwm-frame) {
+      display: flex;
       border-radius: 12px;
       overflow-x: auto; overflow-y: hidden;
       -webkit-overflow-scrolling: touch;
-      height: 50vh; max-height: 400px;
+      height: 50vh; max-height: 420px;
     }
-    /* CRITICAL: width:max-content makes the div size to its image content,
-       NOT stretch to parent width. Without this, the div is ~374px (phone width)
-       while the image is ~720px, causing pins to be mispositioned and
-       no horizontal scroll (frame thinks content fits). */
     :global(.fwm-map) {
-      width: max-content;
+      flex: 0 0 auto;
+      position: relative;
       height: 100%;
-      aspect-ratio: auto;
-      min-width: 0;
+      width: auto;
+      aspect-ratio: 2000 / 1116;
     }
     :global(.fwm-map__img) {
       display: block;
-      width: auto; height: 100%;
+      width: 100%; height: 100%;
     }
 
-    /* Pins — mobile sizing */
+    /* Pins */
     :global(.fwm-pin) { width: 20px; height: 20px; border-width: 2px; }
     :global(.fwm-pin__ico) { font-size: 9px; }
     :global(.fwm-pin__name) { font-size: 8px; margin-top: 5px; }
@@ -561,7 +584,7 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     :global(.fwm-pin-hit) { width: 50px; height: 50px; }
     :global(.fwm-tooltip) { display: none; }
 
-    /* Fish orbit — smaller dots, fewer rings */
+    /* Fish orbit */
     :global(.fwm-fdot) { width: 20px; height: 20px; margin: -10px 0 0 -10px; }
     :global(.fwm-fdot__wrap img) { width: 16px; height: 16px; }
     :global(.fwm-fdot__tip) { display: none; }
@@ -571,9 +594,7 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     :global(.fwm-ent__ico) { font-size: 7px; }
     :global(.fwm-ent__name) { font-size: 7px; margin-top: 6px; }
 
-    /* ---- Info panel: compact bottom sheet (not full-screen) ----
-       position:fixed so it doesn't scroll with the map.
-       45vh = shows island info while keeping map visible above. */
+    /* ---- Info panel: compact bottom sheet ---- */
     :global(.fwm-panel) {
       position: fixed; top: auto; left: 0; right: 0; bottom: 0;
       width: 100%; height: 45vh; max-height: 380px;
@@ -583,7 +604,6 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
       z-index: 1000;
     }
     :global(.fwm-panel--open) { transform: translateY(0); }
-    /* Grab handle indicator */
     :global(.fwm-panel--open::before) {
       content: ''; display: block;
       width: 36px; height: 4px; border-radius: 2px;
