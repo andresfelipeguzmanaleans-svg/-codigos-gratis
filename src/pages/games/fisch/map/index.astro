@@ -539,26 +539,22 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     }
     :global(.fwm-pills) {
       display: flex;
-      flex-wrap: nowrap;     /* override desktop flex-wrap: wrap */
+      flex-wrap: wrap;        /* wrap to 2 rows so all pills are visible */
       gap: 4px;
-      overflow-x: auto;
-      scrollbar-width: none;
-      -webkit-overflow-scrolling: touch;
-      padding-bottom: 2px;
+      overflow: visible;
     }
-    :global(.fwm-pills::-webkit-scrollbar) { display: none; }
     :global(.fwm-pill) {
       flex-shrink: 0;
-      padding: 7px 12px;
-      font-size: 11px;
+      padding: 6px 10px;
+      font-size: 10px;
     }
     :global(.fwm-search) {
       width: 100%;
       flex: none;            /* override desktop flex: 1 */
       min-width: 0;          /* override desktop min-width: 160px */
       margin-left: 0;
-      padding: 8px 12px;
-      font-size: 13px;
+      padding: 7px 10px;
+      font-size: 12px;
     }
 
     /* ---- Map frame: fills available width, no scroll ---- */
