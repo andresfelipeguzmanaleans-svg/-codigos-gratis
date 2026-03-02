@@ -191,48 +191,40 @@ const PIN_ICON: Record<string, string> = {
   'treasure-island':'💰','waveborne':'🌊',
 };
 
-/* Special zone positions (from reference) */
-const SPECIAL_POS: Record<string, { left: string; top: string }> = {
-  'keepers-altar':  { left: '44%',   top: '26.4%' },
-  'vertigo':        { left: '79%',   top: '67.2%' },
-};
-
-/* Hidden satellite locations (red markers connected to parents) */
-const SATELLITES = [
-  { id: 'n-expedition', name: 'N. Expedition', icon: '❄️', clickId: 'northern-caves', left: '9.5%', top: '2.7%' },
-  { id: 'desolate-deep-sat', name: 'Desolate Deep', icon: '🕳️', clickId: 'sunstone-island', left: '21%', top: '7.6%' },
-  { id: 'the-depths-sat', name: 'The Depths', icon: '🔴', clickId: 'vertigo', left: '82.5%', top: '69.9%' },
-];
-
-/* SVG connecting lines (parent → satellite, coordinates in %) */
-const CONNECT_LINES = [
-  { x1: 13, y1: 5.4, x2: 9.5, y2: 2.7 },
-  { x1: 17, y1: 11.2, x2: 21, y2: 7.6 },
-  { x1: 79, y1: 67.2, x2: 82.5, y2: 69.9 },
-];
-
-/* ---- Card sections below map ---- */
-const HIDDEN_ZONES = [
+/* ---- Hidden Zones panel data (3 blocks) ---- */
+const OCEAN_ZONES = [
   { id: 'the-ocean', name: 'The Ocean', icon: '🌊', fish: '100+',
     access: 'Fish from any boat in open sea between islands' },
   { id: 'deep-trenches', name: 'Deep Ocean', icon: '🌊', fish: '~20',
     access: 'Sail to map edge, far from all islands' },
   { id: 'atlantean-storm', name: 'Atlantean Storm', icon: '⛈️', fish: '8',
-    access: 'Whirlpools near Grand Reef, west of Moosewood' },
+    access: 'Whirlpools near Grand Reef. Fish inside storm circles' },
+];
+const QUEST_ZONES = [
+  { id: 'keepers-altar', name: "Keeper’s Altar", icon: '⛩️', fish: '5',
+    access: 'Under Statue of Sovereignty. Climb ladder → Sovereignty Mines → pay 400C$ to Cole → elevator down' },
+  { id: 'desolate-deep', name: 'Desolate Deep', icon: '🕳️', fish: '11+',
+    access: 'Buoy north of Sunstone (GPS: -791, 142, -3102). Diving Gear required. Dive through seafloor hole → cave with mines' },
+  { id: 'vertigo', name: 'Vertigo', icon: '🌀', fish: '8',
+    access: 'Jump into Strange Whirlpool (random spawn ~15 min near Moosewood/Forsaken/Roslit). Need Conception Conch (444C$) to exit' },
+  { id: 'the-depths', name: 'The Depths', icon: '🔴', fish: '8+',
+    access: "Inside Vertigo. Door at bottom of Vertigo’s Dip. Requires 100% Vertigo bestiary + Depths Key (fished in Vertigo)" },
+  { id: 'n-expedition', name: 'N. Expedition', icon: '❄️', fish: '36+',
+    access: 'Portal in southern ocean (GPS: -1733, 137, 3820). Ice mountain area. Needs Oxygen Tank + Winter Cloak. 5 sub-zones' },
   { id: 'grand-reef', name: 'Grand Reef', icon: '🪸', fish: '8',
-    access: 'Island west of Roslit Bay (GPS: -3576, 151, 523)' },
+    access: 'Island west of Roslit Bay (GPS: -3576, 151, 523). Permanent storm + lightning' },
   { id: 'atlantis', name: 'Atlantis', icon: '🏛️', fish: '59',
-    access: 'Grand Reef: 10k C$ pirate \u2192 5 levers Forsaken Shores \u2192 TNT \u2192 submarine door \u2192 Heart of Zeus at night' },
-  { id: 'marianas-veil', name: "Mariana\u2019s Veil", icon: '🌑', fish: '50+',
-    access: 'Roslit Bay: Dr. Glimmerfin \u2192 build submarine \u2192 underwater cave. 5 progressive layers' },
+    access: 'Grand Reef: 10k C$ pirate → 5 levers Forsaken Shores → TNT from skull → submarine door → Heart of Zeus at night → central island crack' },
+  { id: 'marianas-veil', name: "Mariana’s Veil", icon: '🌑', fish: '50+',
+    access: 'Roslit Bay: Dr. Glimmerfin → build submarine (drill 5 obsidian rocks) → underwater cave. 5 layers. Boss: Scylla' },
 ];
 const SPECIAL_ACCESS = [
-  { id: 'waveborne', name: 'Waveborne', icon: '🌊', fish: '22',
-    access: 'Second Sea via Sea Traveler in Terrapin \u2192 boss Cthulhu. Req: Level 250' },
   { id: 'treasure-island', name: 'Treasure Island', icon: '💰', fish: '21',
-    access: 'Crazy Man in Isle of New Beginnings \u2192 Tornado \u2192 Golden Whale \u2192 90s' },
+    access: 'Crazy Man in Isle of New Beginnings → Tornado event → Golden Whale → 90s ride. GPS: 8582, 175, -17304' },
+  { id: 'waveborne', name: 'Waveborne', icon: '🌊', fish: '22',
+    access: 'Second Sea via Sea Traveler in Terrapin → boss Cthulhu. Req: Level 250. (Second Sea removed Aug 2025, content relocated)' },
   { id: 'azure-lagoon', name: 'Azure Lagoon', icon: '💧', fish: '12',
-    access: 'Second Sea, SW of Waveborne. Req: Level 250 + boss Cthulhu' },
+    access: 'Second Sea, SW of Waveborne. Same access as Waveborne. Req: Level 250 + Cthulhu' },
 ];
 
 /* GPS → map position for "Where Am I?" */
@@ -283,6 +275,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [filter, setFilter] = useState<string>('all');
   const [search, setSearch] = useState('');
+  const [hiddenOpen, setHiddenOpen] = useState(false);
   const [whereX, setWhereX] = useState('');
   const [whereY, setWhereY] = useState('');
   const [whereZ, setWhereZ] = useState('');
@@ -376,6 +369,10 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
               {f==='all'?'All':f==='first'?'First Sea':f==='second'?'Second Sea':'Deep'}
             </button>
           ))}
+          <button className={`fwm-pill fwm-pill--hz${hiddenOpen?' fwm-pill--on':''}`}
+            onClick={() => setHiddenOpen(!hiddenOpen)}>
+            🔮 Hidden Zones
+          </button>
         </div>
       </div>
 
@@ -469,40 +466,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           );
         })}
 
-        {/* Special zones */}
-        {groups.filter(g => g.type === 'special' && SPECIAL_POS[g.id]).map(g => {
-          const pos = SPECIAL_POS[g.id];
-          const isActive = selectedId === g.id;
-          const isVisible = visIds.has(g.id);
-          return (
-            <button key={g.id} className={`fwm-sz${isActive ? ' fwm-sz--on' : ''}`}
-              aria-label={`${g.name} — ${g.totalFish} fish`}
-              style={{ left: pos.left, top: pos.top, opacity: isVisible ? 1 : 0.2 }}
-              onClick={e => { e.stopPropagation(); selectItem(g.id); }}>
-              <span className="fwm-sz__i">{g.icon}</span>
-              <span className="fwm-sz__n">{g.label || g.name} · {g.totalFish}</span>
-            </button>
-          );
-        })}
-
-        {/* Connecting lines (SVG) */}
-        <svg className="fwm-lines" viewBox="0 0 100 100" preserveAspectRatio="none">
-          {CONNECT_LINES.map((l, i) => (
-            <line key={i} x1={l.x1} y1={l.y1} x2={l.x2} y2={l.y2}
-              stroke="rgba(255,120,120,0.4)" strokeWidth="0.15" strokeDasharray="0.3,0.2" />
-          ))}
-        </svg>
-
-        {/* Hidden satellite locations (red) */}
-        {SATELLITES.map(s => (
-          <button key={s.id} className="fwm-sat"
-            style={{ left: s.left, top: s.top }}
-            onClick={e => { e.stopPropagation(); selectItem(s.clickId); }}>
-            <span className="fwm-sat__i">{s.icon}</span>
-            <span className="fwm-sat__n">{s.name}</span>
-          </button>
-        ))}
-
         {/* Where Am I marker */}
         {marker && (
           <div className="fwm-marker" style={{ left: marker.left, top: marker.top }}>
@@ -514,6 +477,63 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             </div>
           </div>
         )}
+
+        {/* ===== HIDDEN ZONES PANEL (left) ===== */}
+        <div className={`fwm-hp${hiddenOpen ? ' fwm-hp--open' : ''}`} onClick={e => e.stopPropagation()}>
+          <button className="fwm-hp__close" onClick={() => setHiddenOpen(false)}>✕</button>
+          <h3 className="fwm-hp__title">🔮 Hidden Zones</h3>
+
+          <div className="fwm-hp__sec">
+            <div className="fwm-hp__lbl">🌊 Ocean Zones</div>
+            {OCEAN_ZONES.map(z => (
+              <div key={z.id} className="fwm-hzc"
+                onClick={() => { selectItem(z.id); setHiddenOpen(false); }}>
+                <div className="fwm-hzc__hd">
+                  <span className="fwm-hzc__i">{z.icon}</span>
+                  <div>
+                    <span className="fwm-hzc__n">{z.name}</span>
+                    <span className="fwm-hzc__f">{z.fish} fish</span>
+                  </div>
+                </div>
+                <p className="fwm-hzc__a">{z.access}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="fwm-hp__sec">
+            <div className="fwm-hp__lbl">🔒 Quest Zones</div>
+            {QUEST_ZONES.map(z => (
+              <div key={z.id} className="fwm-hzc fwm-hzc--hid"
+                onClick={() => { selectItem(z.id); setHiddenOpen(false); }}>
+                <div className="fwm-hzc__hd">
+                  <span className="fwm-hzc__i">{z.icon}</span>
+                  <div>
+                    <span className="fwm-hzc__n">{z.name}</span>
+                    <span className="fwm-hzc__f">{z.fish} fish</span>
+                  </div>
+                </div>
+                <p className="fwm-hzc__a">{z.access}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="fwm-hp__sec">
+            <div className="fwm-hp__lbl">🚢 Special Access</div>
+            {SPECIAL_ACCESS.map(z => (
+              <div key={z.id} className="fwm-hzc fwm-hzc--lock"
+                onClick={() => { selectItem(z.id); setHiddenOpen(false); }}>
+                <div className="fwm-hzc__hd">
+                  <span className="fwm-hzc__i">{z.icon}</span>
+                  <div>
+                    <span className="fwm-hzc__n">{z.name}</span>
+                    <span className="fwm-hzc__f">{z.fish} fish</span>
+                  </div>
+                </div>
+                <p className="fwm-hzc__a">{z.access}</p>
+              </div>
+            ))}
+          </div>
+        </div>
 
         {/* ===== INFO PANEL ===== */}
         <div className={`fwm-panel${panelData ? ' fwm-panel--open' : ''}`} onClick={e => e.stopPropagation()}>
@@ -626,44 +646,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             )}
           </div>
         )}
-      </div>
-
-      {/* Ocean & Hidden Zones */}
-      <div className="fwm-hz">
-        <div className="fwm-hz__lbl">🌊 Ocean & Hidden Zones</div>
-        <div className="fwm-hz__row">
-          {HIDDEN_ZONES.map(z => (
-            <div key={z.id} className="fwm-hzc" onClick={() => selectItem(z.id)}>
-              <div className="fwm-hzc__hd">
-                <span className="fwm-hzc__i">{z.icon}</span>
-                <div>
-                  <span className="fwm-hzc__n">{z.name}</span>
-                  <span className="fwm-hzc__f">{z.fish} fish</span>
-                </div>
-              </div>
-              <p className="fwm-hzc__a">{z.access}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Special Access */}
-      <div className="fwm-hz">
-        <div className="fwm-hz__lbl">🔒 Special Access</div>
-        <div className="fwm-hz__row">
-          {SPECIAL_ACCESS.map(z => (
-            <div key={z.id} className="fwm-hzc fwm-hzc--lock" onClick={() => selectItem(z.id)}>
-              <div className="fwm-hzc__hd">
-                <span className="fwm-hzc__i">{z.icon}</span>
-                <div>
-                  <span className="fwm-hzc__n">{z.name}</span>
-                  <span className="fwm-hzc__f">{z.fish} fish</span>
-                </div>
-              </div>
-              <p className="fwm-hzc__a">{z.access}</p>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Events */}
