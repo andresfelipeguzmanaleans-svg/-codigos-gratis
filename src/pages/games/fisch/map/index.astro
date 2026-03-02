@@ -513,38 +513,74 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
 
   /* ====== TABLET (769–1024px) ====== */
   @media (max-width: 1024px) and (min-width: 769px) {
+    :global(.fwm) { padding: 0 12px 30px; }
     :global(.fwm-panel) { width: 280px; }
     :global(.fwm-hp) { width: 280px; }
   }
 
-  /* ====== MOBILE (≤768px) ====== */
+  /* ====== MOBILE (≤768px) ======
+     Every property that matters is EXPLICITLY set here.
+     Nothing relies on desktop inheritance for layout. */
   @media (max-width: 768px) {
-    :global(.fwm) { padding: 0 6px 20px; }
 
-    /* ---- Controls: pills scroll horizontally like app tabs ---- */
+    /* ---- Root: full width, prevent any overflow ---- */
+    :global(.fwm) {
+      padding: 0 8px 20px;
+      max-width: 100%;      /* override desktop 1200px */
+      margin: 0;            /* override desktop 0 auto */
+      overflow-x: hidden;   /* prevent children from widening page */
+    }
+
+    /* ---- Controls ---- */
     :global(.fwm-ctrls) {
-      flex-direction: column; align-items: stretch; gap: 6px;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 6px;
     }
     :global(.fwm-pills) {
-      display: flex; gap: 4px;
-      overflow-x: auto; scrollbar-width: none;
+      display: flex;
+      flex-wrap: nowrap;     /* override desktop flex-wrap: wrap */
+      gap: 4px;
+      overflow-x: auto;
+      scrollbar-width: none;
       -webkit-overflow-scrolling: touch;
       padding-bottom: 2px;
     }
     :global(.fwm-pills::-webkit-scrollbar) { display: none; }
     :global(.fwm-pill) {
-      flex-shrink: 0; padding: 7px 12px;
+      flex-shrink: 0;
+      padding: 7px 12px;
       font-size: 11px;
     }
     :global(.fwm-search) {
-      width: 100%; margin-left: 0;
-      padding: 8px 12px; font-size: 13px;
+      width: 100%;
+      flex: none;            /* override desktop flex: 1 */
+      min-width: 0;          /* override desktop min-width: 160px */
+      margin-left: 0;
+      padding: 8px 12px;
+      font-size: 13px;
     }
 
-    /* ---- Map: scale to full width, no horizontal scroll ---- */
-    :global(.fwm-frame) { border-radius: 12px; }
+    /* ---- Map frame: fills available width, no scroll ---- */
+    :global(.fwm-frame) {
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    :global(.fwm-map) {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 2000 / 1116;
+    }
+    :global(.fwm-map__img) {
+      display: block;
+      width: 100%;
+      height: auto;          /* safer than height:100% — uses image natural ratio */
+    }
 
-    /* Pins */
+    /* ---- Pins (scaled down for small screens) ---- */
     :global(.fwm-pin) { width: 20px; height: 20px; border-width: 2px; }
     :global(.fwm-pin__ico) { font-size: 9px; }
     :global(.fwm-pin__name) { font-size: 8px; margin-top: 5px; }
@@ -552,21 +588,23 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     :global(.fwm-pin-hit) { width: 50px; height: 50px; }
     :global(.fwm-tooltip) { display: none; }
 
-    /* Fish orbit */
+    /* ---- Fish orbit ---- */
     :global(.fwm-fdot) { width: 20px; height: 20px; margin: -10px 0 0 -10px; }
     :global(.fwm-fdot__wrap img) { width: 16px; height: 16px; }
     :global(.fwm-fdot__tip) { display: none; }
 
-    /* Entrance diamonds */
+    /* ---- Entrance diamonds ---- */
     :global(.fwm-ent__diamond) { width: 14px; height: 14px; border-width: 1.5px; }
     :global(.fwm-ent__ico) { font-size: 7px; }
     :global(.fwm-ent__name) { font-size: 7px; margin-top: 6px; }
 
-    /* ---- Info panel: compact bottom sheet ---- */
+    /* ---- Info panel: bottom sheet ---- */
     :global(.fwm-panel) {
-      position: fixed; top: auto; left: 0; right: 0; bottom: 0;
+      position: fixed;
+      top: auto; left: 0; right: 0; bottom: 0;
       width: 100%; height: 45vh; max-height: 380px;
-      transform: translateY(100%); border-left: none;
+      transform: translateY(100%);
+      border-left: none;
       border-top: 1px solid rgba(255,255,255,0.1);
       border-radius: 16px 16px 0 0;
       z-index: 1000;
@@ -588,11 +626,13 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     :global(.fwm-panel__fn) { font-size: 11px; }
     :global(.fwm-panel__close) { width: 36px; height: 36px; top: 6px; right: 6px; }
 
-    /* ---- Hidden zones panel: compact bottom sheet ---- */
+    /* ---- Hidden zones panel: bottom sheet ---- */
     :global(.fwm-hp) {
-      position: fixed; top: auto; left: 0; right: 0; bottom: 0;
+      position: fixed;
+      top: auto; left: 0; right: 0; bottom: 0;
       width: 100%; height: 55vh; max-height: 440px;
-      transform: translateY(100%); border-right: none;
+      transform: translateY(100%);
+      border-right: none;
       border-top: 1px solid rgba(255,255,255,0.1);
       border-radius: 16px 16px 0 0;
       z-index: 1000;
@@ -611,15 +651,15 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     :global(.fwm-hzc__n) { font-size: 11px; }
     :global(.fwm-hzc__a) { font-size: 9px; margin-top: 4px; }
 
-    /* Events */
+    /* ---- Events ---- */
     :global(.fwm-ec) { min-height: 44px; }
 
-    /* Where Am I */
+    /* ---- Where Am I ---- */
     :global(.fwm-where) { padding: 8px 10px; }
     :global(.fwm-where__row) { flex-wrap: wrap; }
     :global(.fwm-where__in) { flex: 1; min-width: 50px; }
 
-    /* Gateway note */
+    /* ---- Gateway note ---- */
     :global(.fwm-panel__gw) { margin: 0 14px 6px; padding: 6px 10px; font-size: 11px; }
   }
 </style>
