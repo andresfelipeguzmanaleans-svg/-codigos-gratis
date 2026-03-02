@@ -150,8 +150,8 @@ const PIN_POS: Record<string, { left: string; top: string }> = {
   'northern-caves':        { left: '13%',    top: '5.4%' },
   'sunstone-island':       { left: '17%',    top: '11.2%' },
   'roslit-bay':            { left: '17%',    top: '38.5%' },
-  'statue-of-sovereignty': { left: '33%',    top: '25.1%' },
-  'the-laboratory':        { left: '37%',    top: '22%' },
+  'statue-of-sovereignty': { left: '44%',    top: '23.3%' },
+  'the-laboratory':        { left: '38.5%',  top: '18.8%' },
   'castaway-cliffs':       { left: '47%',    top: '12.1%' },
   'the-arch':              { left: '50%',    top: '26%' },
   'birch-cay':             { left: '55%',    top: '12.1%' },
@@ -160,7 +160,7 @@ const PIN_POS: Record<string, { left: string; top: string }> = {
   'mushgrove-swamp':       { left: '86%',    top: '14.3%' },
   'harvesters-spike':      { left: '22%',    top: '59.1%' },
   'moosewood':             { left: '42%',    top: '45.7%' },
-  'earmark-island':        { left: '55%',    top: '52%' },
+  'earmark-island':        { left: '66%',    top: '41.2%' },
   'cursed-isle':           { left: '67%',    top: '54.7%' },
   'ancient-isle':          { left: '97.5%',  top: '44.8%' },
   'forsaken-shores':       { left: '12%',    top: '75.3%' },
@@ -198,7 +198,7 @@ const SPECIAL_POS: Record<string, { left: string; top: string }> = {
   'the-ocean':      { left: '30%',   top: '35.8%' },
   'deep-trenches':  { left: '4%',    top: '46.6%' },
   'azure-lagoon':   { left: '57.5%', top: '55.6%' },
-  'keepers-altar':  { left: '35%',   top: '27.8%' },
+  'keepers-altar':  { left: '44%',   top: '26.4%' },
   'vertigo':        { left: '79%',   top: '67.2%' },
 };
 
