@@ -89,6 +89,15 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     pointer-events: none;
   }
 
+  /* ====== DARK OVERLAY (when island selected) ====== */
+  :global(.fwm-overlay) {
+    position: absolute; inset: 0;
+    background: rgba(0,0,0,0.55);
+    z-index: 15;
+    pointer-events: none;
+    animation: fwm-fadein 0.25s ease;
+  }
+
   /* ====== PIN MARKERS ====== */
   :global(.fwm-pin-area) {
     position: absolute; transform: translate(-50%, -50%);
@@ -128,6 +137,7 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     box-shadow: 0 4px 16px rgba(0,0,0,0.5);
     z-index: 10;
   }
+  :global(.fwm-pin-area--on) { z-index: 25; }
   :global(.fwm-pin--on) {
     border-color: #22d3ee;
     box-shadow: 0 0 0 3px rgba(34,211,238,0.3), 0 4px 16px rgba(0,0,0,0.5) !important;

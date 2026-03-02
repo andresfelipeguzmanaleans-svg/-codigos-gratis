@@ -373,6 +373,9 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
       <div className="fwm-frame" onClick={closePanel}>
         <img src="/images/map/fisch-world-map.png" alt="Fisch World Map" className="fwm-frame__img" />
 
+        {/* Dark overlay when island selected */}
+        {selectedId && <div className="fwm-overlay" />}
+
         {/* Island pin markers */}
         {groups.filter(g => g.type === 'island' && PIN_POS[g.id]).map(g => {
           const pos = PIN_POS[g.id];
@@ -384,7 +387,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           const pinColor = BIOME_CLR[g.id] || '#6b7280';
 
           return (
-            <div key={g.id} className="fwm-pin-area"
+            <div key={g.id} className={`fwm-pin-area${isActive ? ' fwm-pin-area--on' : ''}`}
               style={{ left: pos.left, top: pos.top, opacity: isVisible ? 1 : 0.15 }}
               onClick={e => { e.stopPropagation(); selectItem(g.id); }}
               onMouseEnter={() => setHoveredId(g.id)}
