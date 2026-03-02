@@ -30,36 +30,6 @@ const gamesWithCodes = allGames.filter(g => g.activeCodes.length > 0).length;
 const sortedGames = [...allGames]
   .sort((a, b) => (b.totalVisits || 0) - (a.totalVisits || 0));
 
-// Genre translation map
-const genreTranslations: Record<string, string> = {
-  'Adventure': 'Aventura',
-  'Fighting': 'Lucha',
-  'RPG': 'RPG',
-  'Town and City': 'Ciudad',
-  'Horror': 'Terror',
-  'Sports': 'Deportes',
-  'Building': 'Construcción',
-  'Comedy': 'Comedia',
-  'FPS': 'FPS',
-  'Sci-Fi': 'Ciencia Ficción',
-  'Simulator': 'Simulador',
-  'Military': 'Militar',
-  'Racing': 'Carreras',
-  'Medieval': 'Medieval',
-  'Simulation': 'Simulación',
-  'Tower Defense': 'Defensa de Torres',
-  'Tycoon': 'Tycoon',
-  'Shooter': 'Disparos',
-  'Shopping': 'Compras',
-  'Action': 'Acción',
-  'Western': 'Western',
-  'Animal Sim': 'Animales',
-  'Rhythm': 'Ritmo',
-  'Roleplay': 'Roleplay',
-  'Social': 'Social',
-  'Survival': 'Supervivencia',
-};
-
 // Extract unique genres sorted by frequency (exclude "All" — it's generic)
 const genreCounts: Record<string, number> = {};
 allGames.forEach(g => {
@@ -69,7 +39,7 @@ allGames.forEach(g => {
 });
 const genres = Object.entries(genreCounts)
   .sort((a, b) => b[1] - a[1])
-  .map(([genre]) => ({ key: genre, label: genreTranslations[genre] || genre }));
+  .map(([genre]) => ({ key: genre, label: genre }));
 
 // Top games with valid thumbnails for hero mosaic
 const topWithThumb = [...allGames]
@@ -87,12 +57,45 @@ while (mosaicGames.length < 80 && mosaicTop.length > 0) {
 const centerIndex = 34;
 
 // Month label for stats
-const monthLabel = new Date().toLocaleDateString('es-ES', { month: 'long', year: 'numeric' });
-const monthCapital = monthLabel.charAt(0).toUpperCase() + monthLabel.slice(1);
+const monthLabel = new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
 
 // Initial batch
 const BATCH = 60;
 const initialGames = sortedGames.slice(0, BATCH);
+
+// Latest codes: top 10 most recently updated games with active codes
+const latestCodes = [...allGames]
+  .filter(g => g.activeCodes.length > 0)
+  .sort((a, b) => new Date(b.lastUpdated).getTime() - new Date(a.lastUpdated).getTime())
+  .slice(0, 10);
+
+// Schema.org
+const siteUrl = 'https://codigos-gratis.com';
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Codigos Gratis',
+  url: siteUrl,
+  description: `Free Roblox game codes, tools & guides. ${totalGames}+ games, ${totalCodes}+ active codes.`,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: `${siteUrl}/?q={search_term_string}` },
+    'query-input': 'required name=search_term_string',
+  },
+};
+
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Popular Roblox Games with Codes',
+  numberOfItems: Math.min(10, sortedGames.length),
+  itemListElement: sortedGames.slice(0, 10).map((g, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: g.name,
+    url: `${siteUrl}/${g.slug}/`,
+  })),
+};
 
 // Search data for JS
 const searchData = sortedGames.map((g) => ({ name: g.name, slug: g.slug, thumbnail: g.thumbnail, activeCodes: g.activeCodes.length }));
@@ -109,7 +112,11 @@ const allGamesData = sortedGames.map(g => ({
 }));
 ---
 
-<Layout title="Códigos Gratis para Roblox — Actualizados hoy">
+<Layout title="Free Roblox Game Codes — Updated Daily | Codigos Gratis" description={`Find free updated codes for ${totalGames}+ Roblox games. ${totalCodes} active codes, tools, and game guides.`} lang="en">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
+  </Fragment>
   <Header />
 
   <main class="main">
@@ -129,8 +136,8 @@ const allGamesData = sortedGames.map(g => ({
       </div>
       <div class="hero__overlay"></div>
       <div class="container hero__inner">
-        <h1 class="hero__title"><span class="hero__gradient">Códigos Gratis</span> para Roblox</h1>
-        <p class="hero__subtitle">Explora nuestra base de datos de <strong>{totalGames.toLocaleString()}</strong> juegos de Roblox con <strong>{totalCodes.toLocaleString()}</strong> códigos activos. Actualmente <strong>{gamesWithCodes.toLocaleString()}</strong> juegos tienen códigos activos. Actualizado {monthCapital}.</p>
+        <h1 class="hero__title"><span class="hero__gradient">Free Codes</span> for Roblox</h1>
+        <p class="hero__subtitle">Browse our database of <strong>{totalGames.toLocaleString()}</strong> Roblox games with <strong>{totalCodes.toLocaleString()}</strong> active codes. Currently <strong>{gamesWithCodes.toLocaleString()}</strong> games have redeemable codes. Updated {monthLabel}.</p>
       </div>
     </section>
 
@@ -139,13 +146,13 @@ const allGamesData = sortedGames.map(g => ({
       <a href="/games/fisch/" class="featured__card">
         <div class="featured__glow"></div>
         <div class="featured__content">
-          <div class="featured__badge">Nuevo</div>
+          <div class="featured__badge">New</div>
           <h2 class="featured__title">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6-3.56 0-7.56-2.53-8.5-6Z"/><circle cx="2" cy="12" r="1"/></svg>
             Fisch Companion
           </h2>
-          <p class="featured__desc">Base de datos completa: 500+ peces, valores, mutaciones, cañas, localizaciones y calculadora de trades.</p>
-          <span class="featured__cta">Explorar guía
+          <p class="featured__desc">Complete database: 1,235+ fish, values, mutations, rods, locations, and trade calculator.</p>
+          <span class="featured__cta">Explore guide
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </span>
         </div>
@@ -155,14 +162,14 @@ const allGamesData = sortedGames.map(g => ({
     <!-- Filter Games section -->
     <section class="filter-section container" id="categorias">
       <div class="filter-header">
-        <h2 class="filter-title">Filtrar Juegos</h2>
-        <span class="filter-badge" id="filter-badge">{totalGames.toLocaleString()} juegos</span>
+        <h2 class="filter-title">Supported Games</h2>
+        <span class="filter-badge" id="filter-badge">{totalGames.toLocaleString()} games</span>
       </div>
 
       <!-- Search + Dropdowns row -->
       <div class="filter-controls">
         <div class="filter-search-wrap">
-          <span class="filter-search-label">BUSCAR</span>
+          <span class="filter-search-label">SEARCH</span>
           <div class="filter-search">
             <svg class="filter-search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
               <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
@@ -171,37 +178,37 @@ const allGamesData = sortedGames.map(g => ({
               type="text"
               id="hero-search"
               class="filter-search__input"
-              placeholder="Buscar juegos..."
+              placeholder="Search games..."
               autocomplete="off"
             />
             <div id="search-results" class="search-results"></div>
           </div>
         </div>
         <div class="filter-dropdown-wrap">
-          <span class="filter-dropdown-label">GENERO</span>
+          <span class="filter-dropdown-label">GENRE</span>
           <select class="filter-select" id="genre-select">
-            <option value="all">Todos los Géneros</option>
+            <option value="all">All Genres</option>
             {genres.map(({ key, label }) => (
               <option value={key}>{label}</option>
             ))}
           </select>
         </div>
         <div class="filter-dropdown-wrap">
-          <span class="filter-dropdown-label">ORDENAR POR</span>
+          <span class="filter-dropdown-label">SORT BY</span>
           <select class="filter-select" id="sort-select">
-            <option value="most-popular">Más Populares</option>
-            <option value="latest">Últimos Códigos</option>
-            <option value="most-codes">Más Códigos</option>
-            <option value="least-codes">Menos Códigos</option>
-            <option value="name-az">Nombre A-Z</option>
-            <option value="name-za">Nombre Z-A</option>
+            <option value="most-popular">Most Popular</option>
+            <option value="latest">Latest Codes</option>
+            <option value="most-codes">Most Codes</option>
+            <option value="least-codes">Least Codes</option>
+            <option value="name-az">Name A-Z</option>
+            <option value="name-za">Name Z-A</option>
           </select>
         </div>
       </div>
 
       <!-- Genre pills -->
       <div class="genre-pills" id="genre-pills">
-        <button class="pill pill--active" data-genre="all">Todos</button>
+        <button class="pill pill--active" data-genre="all">All</button>
         {genres.map(({ key, label }) => (
           <button class="pill" data-genre={key}>{label}</button>
         ))}
@@ -234,15 +241,46 @@ const allGamesData = sortedGames.map(g => ({
       </div>
       {totalGames > BATCH && (
         <div class="load-more-wrap">
-          <button id="load-more" class="load-more-btn">Cargar más juegos</button>
+          <button id="load-more" class="load-more-btn">Load more games</button>
         </div>
       )}
     </section>
 
-    <!-- Herramientas -->
+    <!-- Latest Codes -->
     <section class="section container">
       <div class="section__header">
-        <h2 class="section__title">Herramientas Gratis para Roblox</h2>
+        <h2 class="section__title">Latest Codes</h2>
+      </div>
+      <div class="latest-scroll">
+        {latestCodes.map((g) => {
+          const validThumb = g.thumbnail && g.thumbnail.startsWith('https://tr.rbxcdn.com');
+          const updDate = new Date(g.lastUpdated);
+          const diffMs = Date.now() - updDate.getTime();
+          const diffH = Math.floor(diffMs / 3600000);
+          const timeAgo = diffH < 1 ? 'Just now' : diffH < 24 ? `${diffH}h ago` : `${Math.floor(diffH / 24)}d ago`;
+          return (
+            <a href={`/${g.slug}/`} class="latest-card">
+              {validThumb ? (
+                <img src={g.thumbnail} alt={g.name} class="latest-card__img" loading="lazy" />
+              ) : (
+                <div class="latest-card__img latest-card__img--placeholder">
+                  <span>{g.name.charAt(0)}</span>
+                </div>
+              )}
+              <div class="latest-card__info">
+                <span class="latest-card__name">{g.name}</span>
+                <span class="latest-card__meta">{g.activeCodes.length} codes &middot; {timeAgo}</span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section class="section container">
+      <div class="section__header">
+        <h2 class="section__title">Free Roblox Tools</h2>
       </div>
       <div class="tools-grid">
         <a href="/herramientas/calculadora-robux/" class="tool-card">
@@ -250,8 +288,8 @@ const allGamesData = sortedGames.map(g => ({
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="16" y2="14"/><line x1="8" y1="18" x2="16" y2="18"/></svg>
           </div>
           <div class="tool-card__info">
-            <span class="tool-card__name">Calculadora de Robux</span>
-            <span class="tool-card__desc">Calcula cuánto cuestan los Robux en tu moneda</span>
+            <span class="tool-card__name">Robux Calculator</span>
+            <span class="tool-card__desc">Calculate how much Robux cost in your currency</span>
           </div>
         </a>
         <a href="/herramientas/ids-musica-roblox/" class="tool-card">
@@ -259,8 +297,8 @@ const allGamesData = sortedGames.map(g => ({
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
           </div>
           <div class="tool-card__info">
-            <span class="tool-card__name">IDs de Música Roblox</span>
-            <span class="tool-card__desc">41,000+ canciones con buscador y filtros</span>
+            <span class="tool-card__name">Roblox Music IDs</span>
+            <span class="tool-card__desc">41,000+ songs with search and filters</span>
           </div>
         </a>
         <a href="/herramientas/buscador-perfil-roblox/" class="tool-card">
@@ -268,8 +306,8 @@ const allGamesData = sortedGames.map(g => ({
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
           </div>
           <div class="tool-card__info">
-            <span class="tool-card__name">Buscador de Perfil Roblox</span>
-            <span class="tool-card__desc">Consulta el perfil de cualquier jugador de Roblox</span>
+            <span class="tool-card__name">Roblox Profile Search</span>
+            <span class="tool-card__desc">Look up any Roblox player's profile</span>
           </div>
         </a>
         <a href="/herramientas/extractor-ids-roblox/" class="tool-card">
@@ -277,8 +315,8 @@ const allGamesData = sortedGames.map(g => ({
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
           </div>
           <div class="tool-card__info">
-            <span class="tool-card__name">Extractor de IDs Roblox</span>
-            <span class="tool-card__desc">Extrae Place ID, Universe ID, Asset ID de cualquier enlace</span>
+            <span class="tool-card__name">Roblox ID Extractor</span>
+            <span class="tool-card__desc">Extract Place ID, Universe ID, Asset ID from any link</span>
           </div>
         </a>
         <a href="/herramientas/comandos-admin-roblox/" class="tool-card">
@@ -286,8 +324,8 @@ const allGamesData = sortedGames.map(g => ({
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
           </div>
           <div class="tool-card__info">
-            <span class="tool-card__name">Comandos Admin Roblox</span>
-            <span class="tool-card__desc">1,000+ comandos de HD Admin, Kohl's, Adonis y Basic Admin</span>
+            <span class="tool-card__name">Roblox Admin Commands</span>
+            <span class="tool-card__desc">1,000+ commands for HD Admin, Kohl's, Adonis & Basic Admin</span>
           </div>
         </a>
       </div>
@@ -367,7 +405,7 @@ const allGamesData = sortedGames.map(g => ({
   }
 
   function updateCounter() {
-    filterBadge.textContent = filteredGames.length.toLocaleString() + ' juegos';
+    filterBadge.textContent = filteredGames.length.toLocaleString() + ' games';
     if (loadMoreBtn) {
       loadMoreBtn.style.display = shown >= filteredGames.length ? 'none' : '';
     }
@@ -429,7 +467,7 @@ const allGamesData = sortedGames.map(g => ({
 
     if (matches.length === 0) {
       searchResults.style.display = 'block';
-      searchResults.innerHTML = '<div class="sr-empty">No se encontraron juegos</div>';
+      searchResults.innerHTML = '<div class="sr-empty">No games found</div>';
       return;
     }
 
@@ -440,7 +478,7 @@ const allGamesData = sortedGames.map(g => ({
       const imgHtml = thumb
         ? `<img src="${thumb}" alt="" class="sr-item__img" />`
         : `<div class="sr-item__placeholder"></div>`;
-      return `<a href="/${g.slug}/" class="sr-item">${imgHtml}<div class="sr-item__info"><span class="sr-item__name">${name}</span><span class="sr-item__codes">${g.activeCodes} códigos</span></div></a>`;
+      return `<a href="/${g.slug}/" class="sr-item">${imgHtml}<div class="sr-item__info"><span class="sr-item__name">${name}</span><span class="sr-item__codes">${g.activeCodes} codes</span></div></a>`;
     }).join('');
   });
 
@@ -863,29 +901,116 @@ const allGamesData = sortedGames.map(g => ({
   /* ---- Games Grid ---- */
   .games-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 8px;
   }
 
   @media (min-width: 480px) {
     .games-grid {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 10px;
     }
   }
 
   @media (min-width: 768px) {
     .games-grid {
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 10px;
     }
   }
 
   @media (min-width: 1024px) {
     .games-grid {
-      grid-template-columns: repeat(7, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       gap: 10px;
     }
+  }
+
+  /* ---- Latest Codes ---- */
+  .latest-scroll {
+    display: flex;
+    gap: 0.75rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(99, 102, 241, 0.3) transparent;
+  }
+
+  .latest-scroll::-webkit-scrollbar {
+    height: 4px;
+  }
+  .latest-scroll::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .latest-scroll::-webkit-scrollbar-thumb {
+    background: rgba(99, 102, 241, 0.3);
+    border-radius: 4px;
+  }
+
+  .latest-card {
+    flex: 0 0 160px;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: var(--text);
+    scroll-snap-align: start;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+
+  .latest-card:hover {
+    border-color: rgba(99, 102, 241, 0.3);
+    transform: translateY(-2px);
+  }
+
+  .latest-card__img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .latest-card__img--placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1a2236 0%, #1e3a5f 100%);
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .latest-card__info {
+    padding: 0.5rem 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .latest-card__name {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.25;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .latest-card__meta {
+    font-size: 0.65rem;
+    color: var(--accent-light);
+    font-weight: 600;
+  }
+
+  @media (min-width: 480px) {
+    .latest-card { flex: 0 0 180px; }
   }
 
   /* ---- Sections ---- */

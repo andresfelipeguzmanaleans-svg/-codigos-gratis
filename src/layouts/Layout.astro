@@ -4,6 +4,7 @@ interface Props {
   description?: string;
   ogImage?: string;
   canonical?: string;
+  lang?: string;
 }
 
 const {
@@ -11,6 +12,7 @@ const {
   description = 'Encuentra códigos gratis actualizados para tus juegos favoritos de Roblox. Códigos activos, recompensas y más.',
   ogImage = '/images/og-default.jpg',
   canonical,
+  lang = 'es',
 } = Astro.props;
 
 const canonicalURL = canonical || new URL(Astro.url.pathname, Astro.site).href;
@@ -18,7 +20,7 @@ const ogImageURL = new URL(ogImage, Astro.site).href;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
