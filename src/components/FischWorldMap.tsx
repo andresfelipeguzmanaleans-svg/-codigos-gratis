@@ -399,7 +399,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
       {/* ===== MAP FRAME ===== */}
       <div className="fwm-frame" onClick={closePanel}>
-        <img src="/images/map/fisch-world-map.png" alt="Fisch World Map" className="fwm-frame__img" />
+       <div className="fwm-map">
+        <img src="/images/map/fisch-world-map.png" alt="Fisch World Map" className="fwm-map__img" />
 
         {/* Dark overlay when island selected */}
         {selectedId && <div className="fwm-overlay" />}
@@ -496,6 +497,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           );
         })}
 
+
+       </div>{/* end .fwm-map */}
 
         {/* ===== HIDDEN ZONES PANEL (left) ===== */}
         <div className={`fwm-hp${hiddenOpen ? ' fwm-hp--open' : ''}`} onClick={e => e.stopPropagation()}>
