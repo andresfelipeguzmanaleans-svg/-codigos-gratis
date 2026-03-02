@@ -88,38 +88,86 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     cursor: default;
   }
 
-  /* ====== ISLAND BUTTONS (invisible hitbox over map) ====== */
-  :global(.fwm-btn) {
-    position: absolute;
-    background: transparent; border: none; padding: 0;
-    cursor: pointer; z-index: 2;
+  /* ====== PIN MARKERS ====== */
+  :global(.fwm-pin-area) {
+    position: absolute; transform: translate(-50%, -50%);
     display: flex; flex-direction: column; align-items: center;
-    justify-content: flex-end;
-    border-radius: 12px;
-    transition: background 0.2s, box-shadow 0.2s;
-    font-family: inherit;
+    z-index: 2; cursor: pointer;
+    transition: opacity 0.2s;
   }
-  :global(.fwm-btn:hover) {
-    background: rgba(34,211,238,0.06);
-    box-shadow: 0 0 0 2px rgba(34,211,238,0.3), 0 0 20px rgba(34,211,238,0.15);
+  :global(.fwm-pin-hit) {
+    position: absolute;
+    width: 70px; height: 70px;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  :global(.fwm-pin) {
+    position: relative;
+    width: 24px; height: 24px; border-radius: 50%;
+    background: var(--pin-clr, #6b7280);
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 3;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  :global(.fwm-pin__ico) { font-size: 11px; line-height: 1; }
+  :global(.fwm-pin__tip) {
+    position: absolute; bottom: -6px; left: 50%;
+    transform: translateX(-50%);
+    width: 0; height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid var(--pin-clr, #6b7280);
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.3));
+  }
+  :global(.fwm-pin-area:hover .fwm-pin) {
+    transform: scale(1.3);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5);
     z-index: 10;
   }
-  :global(.fwm-btn--on) {
-    background: rgba(34,211,238,0.08);
-    box-shadow: 0 0 0 2px rgba(34,211,238,0.5), 0 0 30px rgba(34,211,238,0.2);
+  :global(.fwm-pin--on) {
+    border-color: #22d3ee;
+    box-shadow: 0 0 0 3px rgba(34,211,238,0.3), 0 4px 16px rgba(0,0,0,0.5) !important;
     z-index: 20;
   }
-  :global(.fwm-btn__n) {
-    font-size: 9px; font-weight: 700; color: #fff;
+  :global(.fwm-pin__name) {
+    font-size: 11px; font-weight: 700; color: #fff;
     text-shadow: 0 1px 4px rgba(0,0,0,0.95), 0 0 8px rgba(0,0,0,0.6);
-    white-space: nowrap; text-align: center;
+    white-space: nowrap; margin-top: 8px; text-align: center;
     pointer-events: none;
   }
-  :global(.fwm-btn__f) {
-    font-size: 7px; font-weight: 700; color: #22d3ee;
-    background: rgba(0,0,0,0.6); padding: 1px 6px; border-radius: 4px;
-    margin-top: 1px; white-space: nowrap;
+  :global(.fwm-pin__fish) {
+    font-size: 9px; font-weight: 700; color: #0e1525;
+    background: #22d3ee; padding: 1px 6px; border-radius: 4px;
+    margin-top: 2px; white-space: nowrap;
     pointer-events: none;
+  }
+
+  /* ====== TOOLTIP ====== */
+  :global(.fwm-tooltip) {
+    position: absolute; bottom: calc(100% + 12px); left: 50%;
+    transform: translateX(-50%);
+    background: #1e293b; border-radius: 8px;
+    padding: 8px 12px; max-width: 200px; min-width: 140px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.08);
+    z-index: 50;
+    pointer-events: none;
+    animation: fwm-fadein 0.15s ease;
+  }
+  :global(.fwm-tooltip strong) { font-size: 12px; color: #fff; }
+  :global(.fwm-tooltip__meta) { font-size: 10px; color: #94a3b8; margin-top: 2px; }
+  :global(.fwm-tooltip__wx) { font-size: 12px; margin-top: 4px; letter-spacing: 2px; }
+  :global(.fwm-tooltip__cta) { font-size: 9px; color: #22d3ee; margin-top: 4px; }
+  :global(.fwm-tooltip__arrow) {
+    position: absolute; bottom: -5px; left: 50%;
+    transform: translateX(-50%);
+    width: 0; height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #1e293b;
   }
 
   /* ====== FISH ORBIT ====== */
@@ -361,8 +409,10 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     :global(.fwm-ctrls) { flex-direction: column; }
     :global(.fwm-search) { width: 100%; }
 
-    :global(.fwm-btn__n) { font-size: 7px; }
-    :global(.fwm-btn__f) { font-size: 6px; }
+    :global(.fwm-pin__name) { font-size: 9px; }
+    :global(.fwm-pin__fish) { font-size: 7px; }
+    :global(.fwm-pin-hit) { width: 80px; height: 80px; }
+    :global(.fwm-tooltip) { display: none; }
 
     :global(.fwm-fdot) { width: 22px; height: 22px; margin: -11px 0 0 -11px; }
     :global(.fwm-fdot img) { width: 20px; height: 20px; }

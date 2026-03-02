@@ -144,32 +144,52 @@ const GROUPS: IslandGroup[] = [
   { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', label:'Under Statue', children:['keepers-altar'], gps:{x:100,z:-1100}, type:'special', sea:'first' },
 ];
 
-/* ---- Island button positions (CSS %) ----
-   Derived from crop-islands.py bounding boxes on the 5504x3072 map.
-   left/top = top-left corner as % of map. w/h = size as % of map. */
-const ISLAND_POS: Record<string, { left: string; top: string; w: string; h: string }> = {
-  'northern-caves':        { left: '4.72%',  top: '0%',      w: '14.53%', h: '17.77%' },
-  'sunstone-island':       { left: '12.19%', top: '9.86%',   w: '11.63%', h: '16.28%' },
-  'statue-of-sovereignty': { left: '34.74%', top: '14%',     w: '6.54%',  h: '14.97%' },
-  'the-laboratory':        { left: '29.72%', top: '21.81%',  w: '6.54%',  h: '10.42%' },
-  'the-arch':              { left: '48%',    top: '14.84%',  w: '7.99%',  h: '14.32%' },
-  'birch-cay':             { left: '53.27%', top: '4.85%',   w: '9.45%',  h: '14.32%' },
-  'mushgrove-swamp':       { left: '67.82%', top: '0%',      w: '20.35%', h: '25.68%' },
-  'harvesters-spike':      { left: '18.19%', top: '35.87%',  w: '7.63%',  h: '16.28%' },
-  'roslit-bay':            { left: '7.65%',  top: '30.27%',  w: '16.72%', h: '23.44%' },
-  'moosewood':             { left: '31.10%', top: '28.32%',  w: '21.80%', h: '27.34%' },
-  'lushgrove':             { left: '50.18%', top: '19.21%',  w: '11.63%', h: '17.58%' },
-  'earmark-island':        { left: '52.36%', top: '42.81%',  w: '7.27%',  h: '10.42%' },
-  'cursed-isle':           { left: '58.19%', top: '38.28%',  w: '15.62%', h: '23.44%' },
-  'forsaken-shores':       { left: '2.36%',  top: '51.01%',  w: '19.26%', h: '27.99%' },
-  'terrapin-island':       { left: '27.11%', top: '53.68%',  w: '21.80%', h: '28.65%' },
-  'snowcap-island':        { left: '64.46%', top: '50.03%',  w: '21.08%', h: '29.95%' },
-  'ancient-isle':          { left: '88.46%', top: '21.97%',  w: '11.54%', h: '26.04%' },
-  /* Islands not on the painted map */
-  'castaway-cliffs':       { left: '46%',    top: '15%',     w: '5%',     h: '6%' },
-  'emberreach':            { left: '66%',    top: '18%',     w: '5%',     h: '6%' },
-  'waveborne':             { left: '40%',    top: '88%',     w: '6%',     h: '6%' },
-  'treasure-island':       { left: '58%',    top: '90%',     w: '5%',     h: '6%' },
+/* ---- Pin positions (center of each island as % of map) ---- */
+const PIN_POS: Record<string, { left: string; top: string }> = {
+  'northern-caves':        { left: '12%',    top: '8.9%' },
+  'sunstone-island':       { left: '18%',    top: '18%' },
+  'statue-of-sovereignty': { left: '38%',    top: '21.5%' },
+  'the-laboratory':        { left: '33%',    top: '27%' },
+  'the-arch':              { left: '52%',    top: '22%' },
+  'birch-cay':             { left: '58%',    top: '12%' },
+  'mushgrove-swamp':       { left: '78%',    top: '12.8%' },
+  'harvesters-spike':      { left: '22%',    top: '44%' },
+  'roslit-bay':            { left: '16%',    top: '42%' },
+  'moosewood':             { left: '42%',    top: '42%' },
+  'lushgrove':             { left: '56%',    top: '28%' },
+  'earmark-island':        { left: '56%',    top: '48%' },
+  'cursed-isle':           { left: '66%',    top: '50%' },
+  'forsaken-shores':       { left: '12%',    top: '65%' },
+  'terrapin-island':       { left: '38%',    top: '68%' },
+  'snowcap-island':        { left: '75%',    top: '65%' },
+  'ancient-isle':          { left: '94.2%',  top: '35%' },
+  'castaway-cliffs':       { left: '48.5%',  top: '18%' },
+  'emberreach':            { left: '68.5%',  top: '21%' },
+  'waveborne':             { left: '43%',    top: '91%' },
+  'treasure-island':       { left: '60.5%',  top: '93%' },
+};
+
+/* Biome colors for pins */
+const BIOME_CLR: Record<string, string> = {
+  'moosewood':'#22c55e', 'terrapin-island':'#22c55e', 'lushgrove':'#22c55e', 'birch-cay':'#22c55e',
+  'roslit-bay':'#ef4444', 'emberreach':'#ef4444',
+  'cursed-isle':'#a855f7', 'mushgrove-swamp':'#a855f7',
+  'the-arch':'#6b7280', 'harvesters-spike':'#6b7280', 'earmark-island':'#6b7280',
+  'castaway-cliffs':'#6b7280', 'statue-of-sovereignty':'#6b7280', 'the-laboratory':'#6b7280',
+  'northern-caves':'#3b82f6', 'snowcap-island':'#3b82f6', 'waveborne':'#3b82f6',
+  'sunstone-island':'#f97316', 'ancient-isle':'#f97316',
+  'forsaken-shores':'#1f2937',
+  'treasure-island':'#eab308',
+};
+
+/* Pin icons */
+const PIN_ICON: Record<string, string> = {
+  'moosewood':'🏠','roslit-bay':'🌋','mushgrove-swamp':'🍄','snowcap-island':'🏔️',
+  'forsaken-shores':'💀','cursed-isle':'🔮','ancient-isle':'🏛️','terrapin-island':'🏖️',
+  'lushgrove':'🌿','emberreach':'🔥','statue-of-sovereignty':'🗿','the-laboratory':'🏭',
+  'northern-caves':'⛰️','sunstone-island':'🌵','harvesters-spike':'🪨',
+  'castaway-cliffs':'🧱','the-arch':'🌉','birch-cay':'🌳','earmark-island':'📦',
+  'treasure-island':'💰','waveborne':'🌊',
 };
 
 /* Special zone positions */
@@ -226,6 +246,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
   /* State */
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [filter, setFilter] = useState<string>('all');
   const [search, setSearch] = useState('');
   const [whereX, setWhereX] = useState('');
@@ -327,22 +348,48 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
       {/* ===== MAP FRAME ===== */}
       <div className="fwm-frame" onClick={closePanel}>
 
-        {/* Island buttons */}
-        {groups.filter(g => g.type === 'island' && ISLAND_POS[g.id]).map(g => {
-          const pos = ISLAND_POS[g.id];
+        {/* Island pin markers */}
+        {groups.filter(g => g.type === 'island' && PIN_POS[g.id]).map(g => {
+          const pos = PIN_POS[g.id];
           const isActive = selectedId === g.id;
+          const isHovered = hoveredId === g.id;
           const isVisible = visIds.has(g.id);
           const orbitFish = isActive ? topFish(g.allFish, 10) : [];
+          const seaLabel = g.sea === 'second' ? 'Second Sea' : g.sea === 'deep' ? 'Deep' : 'First Sea';
+          const pinColor = BIOME_CLR[g.id] || '#6b7280';
 
           return (
-            <button key={g.id} className={`fwm-btn${isActive ? ' fwm-btn--on' : ''}`}
-              aria-label={`${g.name} — ${g.totalFish} fish`}
-              style={{ left: pos.left, top: pos.top, width: pos.w, height: pos.h, opacity: isVisible ? 1 : 0.2 }}
-              onClick={e => { e.stopPropagation(); selectItem(g.id); }}>
-              <span className="fwm-btn__n">{g.name}</span>
-              {g.totalFish > 0 && <span className="fwm-btn__f">{g.totalFish} fish</span>}
+            <div key={g.id} className="fwm-pin-area"
+              style={{ left: pos.left, top: pos.top, opacity: isVisible ? 1 : 0.15 }}
+              onClick={e => { e.stopPropagation(); selectItem(g.id); }}
+              onMouseEnter={() => setHoveredId(g.id)}
+              onMouseLeave={() => setHoveredId(null)}>
 
-              {/* Fish orbit */}
+              <div className="fwm-pin-hit" />
+
+              <div className={`fwm-pin${isActive ? ' fwm-pin--on' : ''}`}
+                style={{ '--pin-clr': pinColor } as React.CSSProperties}>
+                <span className="fwm-pin__ico">{PIN_ICON[g.id] || g.icon}</span>
+                <div className="fwm-pin__tip" />
+              </div>
+
+              <span className="fwm-pin__name">{g.name}</span>
+              {g.totalFish > 0 && <span className="fwm-pin__fish">{g.totalFish} fish</span>}
+
+              {isHovered && !isActive && (
+                <div className="fwm-tooltip">
+                  <strong>{g.name}</strong>
+                  <div className="fwm-tooltip__meta">{g.totalFish} fish &middot; {seaLabel}</div>
+                  {g.weathers.length > 0 && (
+                    <div className="fwm-tooltip__wx">
+                      {g.weathers.map(w => WX_ICO[w] || '').join(' ')}
+                    </div>
+                  )}
+                  <div className="fwm-tooltip__cta">Click to explore &rarr;</div>
+                  <div className="fwm-tooltip__arrow" />
+                </div>
+              )}
+
               {orbitFish.length > 0 && (
                 <div className="fwm-orbit">
                   {orbitFish.map((f, i) => {
@@ -361,7 +408,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
                   })}
                 </div>
               )}
-            </button>
+            </div>
           );
         })}
 
