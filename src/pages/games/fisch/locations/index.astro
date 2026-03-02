@@ -22,6 +22,8 @@ interface Location {
   isSeasonal: boolean;
   fishCount: number;
   fish: LocFish[];
+  coords: { x: number; z: number } | null;
+  imagePath: string | null;
 }
 
 // ---------- Data ----------
@@ -147,7 +149,20 @@ const locItemListSchema = {
                   <svg class="loc-card__chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                 </button>
                 <div class="loc-card__panel">
-                  {loc.description && <p class="loc-card__desc">{loc.description}</p>}
+                  <div class="loc-card__details">
+                    {loc.imagePath && (
+                      <img src={loc.imagePath} alt={loc.name} class="loc-card__img" loading="lazy" />
+                    )}
+                    <div class="loc-card__details-text">
+                      {loc.coords && (
+                        <span class="loc-card__coords">
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                          X: {loc.coords.x} &nbsp; Z: {loc.coords.z}
+                        </span>
+                      )}
+                      {loc.description && <p class="loc-card__desc">{loc.description}</p>}
+                    </div>
+                  </div>
                   <div class="loc-card__fish-grid">
                     {sortedFish.map(f => {
                       const fishId = fishIdMap[f.name];
@@ -195,7 +210,20 @@ const locItemListSchema = {
                   <svg class="loc-card__chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                 </button>
                 <div class="loc-card__panel">
-                  {loc.description && <p class="loc-card__desc">{loc.description}</p>}
+                  <div class="loc-card__details">
+                    {loc.imagePath && (
+                      <img src={loc.imagePath} alt={loc.name} class="loc-card__img" loading="lazy" />
+                    )}
+                    <div class="loc-card__details-text">
+                      {loc.coords && (
+                        <span class="loc-card__coords">
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                          X: {loc.coords.x} &nbsp; Z: {loc.coords.z}
+                        </span>
+                      )}
+                      {loc.description && <p class="loc-card__desc">{loc.description}</p>}
+                    </div>
+                  </div>
                   <div class="loc-card__fish-grid">
                     {sortedFish.map(f => {
                       const fishId = fishIdMap[f.name];
@@ -504,14 +532,54 @@ const locItemListSchema = {
     max-height: 2000px;
   }
 
+  /* Details row: image + text side by side */
+
+  .loc-card__details {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.6rem 1rem 0.5rem;
+    border-top: 1px solid var(--border);
+    margin: 0 0.25rem;
+  }
+
+  .loc-card__img {
+    width: 120px;
+    height: 68px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+  }
+
+  .loc-card__details-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    min-width: 0;
+    flex: 1;
+  }
+
+  .loc-card__coords {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.75rem;
+    color: var(--accent);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+
+  .loc-card__coords svg {
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+
   .loc-card__desc {
-    padding: 0 1rem 0.6rem;
     font-size: 0.82rem;
     color: var(--text-dim);
     line-height: 1.55;
-    border-top: 1px solid var(--border);
-    padding-top: 0.6rem;
-    margin: 0 0.25rem;
+    margin: 0;
   }
 
   .loc-card__fish-grid {
@@ -519,17 +587,6 @@ const locItemListSchema = {
     flex-wrap: wrap;
     gap: 0.35rem;
     padding: 0.5rem 1rem 0.85rem;
-  }
-
-  /* No description + fish grid: add top border */
-  .loc-card__desc + .loc-card__fish-grid {
-    padding-top: 0;
-  }
-
-  .loc-card__panel > .loc-card__fish-grid:first-child {
-    border-top: 1px solid var(--border);
-    margin: 0 0.25rem;
-    padding-top: 0.6rem;
   }
 
   /* ============================================================
@@ -577,6 +634,16 @@ const locItemListSchema = {
      ============================================================ */
 
   @media (max-width: 479px) {
+    .loc-card__details {
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 0.5rem 0.75rem;
+    }
+    .loc-card__img {
+      width: 100%;
+      height: auto;
+      max-height: 140px;
+    }
     .loc-card__fish-grid {
       gap: 0.25rem;
       padding: 0.4rem 0.75rem 0.7rem;
