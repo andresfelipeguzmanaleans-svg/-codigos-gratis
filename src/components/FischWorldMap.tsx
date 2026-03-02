@@ -202,6 +202,29 @@ const SPECIAL_POS: Record<string, { left: string; top: string }> = {
   'vertigo':        { left: '79%',   top: '67.2%' },
 };
 
+/* Extra ocean zone markers (sub-locations shown on map) */
+const EXTRA_ZONES = [
+  { id: 'grand-reef', name: 'Grand Reef', icon: '🪸', clickId: 'forsaken-shores', left: '45%', top: '65.4%' },
+  { id: 'marianas-veil', name: "Mariana's Veil", icon: '🌑', clickId: 'deep-trenches', left: '24%', top: '49.3%' },
+  { id: 'atlantean-storm', name: 'Atlantean Storm', icon: '⛈️', clickId: 'deep-trenches', left: '60%', top: '60.9%' },
+];
+
+/* Hidden satellite locations (red markers connected to parents) */
+const SATELLITES = [
+  { id: 'n-expedition', name: 'N. Expedition', icon: '❄️', clickId: 'northern-caves', left: '9.5%', top: '2.7%' },
+  { id: 'desolate-deep-sat', name: 'Desolate Deep', icon: '🕳️', clickId: 'sunstone-island', left: '21%', top: '7.6%' },
+  { id: 'the-depths-sat', name: 'The Depths', icon: '🔴', clickId: 'vertigo', left: '82.5%', top: '69.9%' },
+  { id: 'atlantis-sat', name: 'Atlantis', icon: '🏛️', clickId: 'forsaken-shores', left: '48.5%', top: '68.1%' },
+];
+
+/* SVG connecting lines (parent → satellite, coordinates in %) */
+const CONNECT_LINES = [
+  { x1: 13, y1: 5.4, x2: 9.5, y2: 2.7 },
+  { x1: 17, y1: 11.2, x2: 21, y2: 7.6 },
+  { x1: 79, y1: 67.2, x2: 82.5, y2: 69.9 },
+  { x1: 45, y1: 65.4, x2: 48.5, y2: 68.1 },
+];
+
 /* GPS → map position for "Where Am I?" */
 function gpsToPosition(gpsX: number, gpsZ: number) {
   const normX = (gpsX + 2800) / 5600;
@@ -429,6 +452,34 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             </button>
           );
         })}
+
+        {/* Connecting lines (SVG) */}
+        <svg className="fwm-lines" viewBox="0 0 100 100" preserveAspectRatio="none">
+          {CONNECT_LINES.map((l, i) => (
+            <line key={i} x1={l.x1} y1={l.y1} x2={l.x2} y2={l.y2}
+              stroke="rgba(255,120,120,0.4)" strokeWidth="0.15" strokeDasharray="0.3,0.2" />
+          ))}
+        </svg>
+
+        {/* Extra ocean zones */}
+        {EXTRA_ZONES.map(z => (
+          <button key={z.id} className="fwm-oz"
+            style={{ left: z.left, top: z.top }}
+            onClick={e => { e.stopPropagation(); selectItem(z.clickId); }}>
+            <span className="fwm-oz__i">{z.icon}</span>
+            <span className="fwm-oz__n">{z.name}</span>
+          </button>
+        ))}
+
+        {/* Hidden satellite locations (red) */}
+        {SATELLITES.map(s => (
+          <button key={s.id} className="fwm-sat"
+            style={{ left: s.left, top: s.top }}
+            onClick={e => { e.stopPropagation(); selectItem(s.clickId); }}>
+            <span className="fwm-sat__i">{s.icon}</span>
+            <span className="fwm-sat__n">{s.name}</span>
+          </button>
+        ))}
 
         {/* Where Am I marker */}
         {marker && (
