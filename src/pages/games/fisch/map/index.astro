@@ -74,18 +74,19 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
   :global(.fwm-pill:hover) { border-color: #22d3ee; color: #22d3ee; }
   :global(.fwm-pill--on) { background: #22d3ee; color: #080e1a; border-color: #22d3ee; }
 
-  /* ====== MAP FRAME (painted background) ====== */
+  /* ====== MAP FRAME ====== */
   :global(.fwm-frame) {
     position: relative; width: 100%;
-    aspect-ratio: 5504 / 3072;
-    background-image: url('/images/map/fisch-world-map.png');
-    background-size: 100% 100%;
-    background-position: center;
-    border-radius: 16px;
-    border: 2px solid rgba(255,255,255,0.08);
+    aspect-ratio: 2000 / 1116;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 8px 32px rgba(0,0,0,0.4);
     cursor: default;
+  }
+  :global(.fwm-frame__img) {
+    width: 100%; height: 100%;
+    display: block; border-radius: 8px;
+    pointer-events: none;
   }
 
   /* ====== PIN MARKERS ====== */

@@ -144,40 +144,41 @@ const GROUPS: IslandGroup[] = [
   { id:'keepers-altar', name:"Keeper's Altar", icon:'⛩️', label:'Under Statue', children:['keepers-altar'], gps:{x:100,z:-1100}, type:'special', sea:'first' },
 ];
 
-/* ---- Pin positions (center of each island as % of map) ---- */
+/* ---- Pin positions (center of each island as % of map) ----
+   From fisch-map-final.html reference */
 const PIN_POS: Record<string, { left: string; top: string }> = {
-  'northern-caves':        { left: '12%',    top: '8.9%' },
-  'sunstone-island':       { left: '18%',    top: '18%' },
-  'statue-of-sovereignty': { left: '38%',    top: '21.5%' },
-  'the-laboratory':        { left: '33%',    top: '27%' },
-  'the-arch':              { left: '52%',    top: '22%' },
-  'birch-cay':             { left: '58%',    top: '12%' },
-  'mushgrove-swamp':       { left: '78%',    top: '12.8%' },
-  'harvesters-spike':      { left: '22%',    top: '44%' },
-  'roslit-bay':            { left: '16%',    top: '42%' },
-  'moosewood':             { left: '42%',    top: '42%' },
-  'lushgrove':             { left: '56%',    top: '28%' },
-  'earmark-island':        { left: '56%',    top: '48%' },
-  'cursed-isle':           { left: '66%',    top: '50%' },
-  'forsaken-shores':       { left: '12%',    top: '65%' },
-  'terrapin-island':       { left: '38%',    top: '68%' },
-  'snowcap-island':        { left: '75%',    top: '65%' },
-  'ancient-isle':          { left: '94.2%',  top: '35%' },
-  'castaway-cliffs':       { left: '48.5%',  top: '18%' },
-  'emberreach':            { left: '68.5%',  top: '21%' },
-  'waveborne':             { left: '43%',    top: '91%' },
-  'treasure-island':       { left: '60.5%',  top: '93%' },
+  'northern-caves':        { left: '13%',    top: '5.4%' },
+  'sunstone-island':       { left: '17%',    top: '11.2%' },
+  'roslit-bay':            { left: '17%',    top: '38.5%' },
+  'statue-of-sovereignty': { left: '33%',    top: '25.1%' },
+  'the-laboratory':        { left: '37%',    top: '22%' },
+  'castaway-cliffs':       { left: '47%',    top: '12.1%' },
+  'the-arch':              { left: '50%',    top: '26%' },
+  'birch-cay':             { left: '55%',    top: '12.1%' },
+  'lushgrove':             { left: '57%',    top: '27.3%' },
+  'emberreach':            { left: '72%',    top: '17.9%' },
+  'mushgrove-swamp':       { left: '86%',    top: '14.3%' },
+  'harvesters-spike':      { left: '22%',    top: '59.1%' },
+  'moosewood':             { left: '42%',    top: '45.7%' },
+  'earmark-island':        { left: '55%',    top: '52%' },
+  'cursed-isle':           { left: '67%',    top: '54.7%' },
+  'ancient-isle':          { left: '97.5%',  top: '44.8%' },
+  'forsaken-shores':       { left: '12%',    top: '75.3%' },
+  'terrapin-island':       { left: '37%',    top: '71.7%' },
+  'snowcap-island':        { left: '69%',    top: '78%' },
+  'waveborne':             { left: '35%',    top: '88.7%' },
+  'treasure-island':       { left: '50%',    top: '89.6%' },
 };
 
-/* Biome colors for pins */
+/* Biome colors for pins (from reference) */
 const BIOME_CLR: Record<string, string> = {
-  'moosewood':'#22c55e', 'terrapin-island':'#22c55e', 'lushgrove':'#22c55e', 'birch-cay':'#22c55e',
-  'roslit-bay':'#ef4444', 'emberreach':'#ef4444',
-  'cursed-isle':'#a855f7', 'mushgrove-swamp':'#a855f7',
-  'the-arch':'#6b7280', 'harvesters-spike':'#6b7280', 'earmark-island':'#6b7280',
-  'castaway-cliffs':'#6b7280', 'statue-of-sovereignty':'#6b7280', 'the-laboratory':'#6b7280',
-  'northern-caves':'#3b82f6', 'snowcap-island':'#3b82f6', 'waveborne':'#3b82f6',
-  'sunstone-island':'#f97316', 'ancient-isle':'#f97316',
+  'moosewood':'#22c55e', 'terrapin-island':'#22c55e', 'lushgrove':'#16a34a', 'birch-cay':'#22c55e',
+  'roslit-bay':'#ef4444', 'emberreach':'#dc2626',
+  'cursed-isle':'#7c3aed', 'mushgrove-swamp':'#a855f7',
+  'the-arch':'#6b7280', 'harvesters-spike':'#374151', 'earmark-island':'#9ca3af',
+  'castaway-cliffs':'#6b7280', 'statue-of-sovereignty':'#4b5563', 'the-laboratory':'#6b7280',
+  'northern-caves':'#3b82f6', 'snowcap-island':'#60a5fa', 'waveborne':'#8b5cf6',
+  'sunstone-island':'#f97316', 'ancient-isle':'#d97706',
   'forsaken-shores':'#1f2937',
   'treasure-island':'#eab308',
 };
@@ -192,13 +193,13 @@ const PIN_ICON: Record<string, string> = {
   'treasure-island':'💰','waveborne':'🌊',
 };
 
-/* Special zone positions */
+/* Special zone positions (from reference) */
 const SPECIAL_POS: Record<string, { left: string; top: string }> = {
-  'the-ocean':      { left: '36%', top: '36%' },
-  'deep-trenches':  { left: '6%', top: '55%' },
-  'azure-lagoon':   { left: '60%', top: '54%' },
-  'keepers-altar':  { left: '40%', top: '20%' },
-  'vertigo':        { left: '82%', top: '72%' },
+  'the-ocean':      { left: '30%',   top: '35.8%' },
+  'deep-trenches':  { left: '4%',    top: '46.6%' },
+  'azure-lagoon':   { left: '57.5%', top: '55.6%' },
+  'keepers-altar':  { left: '35%',   top: '27.8%' },
+  'vertigo':        { left: '79%',   top: '67.2%' },
 };
 
 /* GPS → map position for "Where Am I?" */
@@ -347,6 +348,7 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
       {/* ===== MAP FRAME ===== */}
       <div className="fwm-frame" onClick={closePanel}>
+        <img src="/images/map/fisch-world-map.png" alt="Fisch World Map" className="fwm-frame__img" />
 
         {/* Island pin markers */}
         {groups.filter(g => g.type === 'island' && PIN_POS[g.id]).map(g => {
