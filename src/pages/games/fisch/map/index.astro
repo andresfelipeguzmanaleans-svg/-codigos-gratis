@@ -239,29 +239,24 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
     padding: 1px 6px; border-radius: 4px;
   }
 
-  /* ====== MARKER (Where Am I) ====== */
-  :global(.fwm-marker) {
-    position: absolute; transform: translate(-50%, -50%); z-index: 50;
-    pointer-events: none;
-    display: flex; flex-direction: column; align-items: center;
+  /* ====== WHERE AM I ZONE CIRCLE ====== */
+  :global(.fwm-zone) {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: rgba(239,68,68,0.15);
+    border: 2px solid rgba(239,68,68,0.4);
+    pointer-events: none; z-index: 4;
+    animation: fwm-zone-pulse 2s ease-in-out infinite;
   }
-  :global(.fwm-marker__dot) {
-    width: 16px; height: 16px; border-radius: 50%;
-    background: #ef4444; border: 3px solid #fff;
-    box-shadow: 0 0 0 4px rgba(239,68,68,0.3);
-    animation: fwm-pulse 1.5s ease-in-out infinite;
+  @keyframes fwm-zone-pulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.8; }
   }
-  @keyframes fwm-pulse {
-    0%, 100% { box-shadow: 0 0 0 4px rgba(239,68,68,0.3); }
-    50% { box-shadow: 0 0 0 14px rgba(239,68,68,0.08); }
-  }
-  :global(.fwm-marker__tip) {
-    position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%);
-    background: rgba(0,0,0,0.88); backdrop-filter: blur(8px);
-    padding: 6px 12px; border-radius: 8px;
-    font-size: 10px; color: #e2e8f0; white-space: nowrap; line-height: 1.5;
-    border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  :global(.fwm-pin-area--located) { z-index: 20; }
+  :global(.fwm-pin--located) {
+    border-color: #22d3ee !important;
+    box-shadow: 0 0 0 4px rgba(34,211,238,0.3), 0 0 16px rgba(34,211,238,0.4) !important;
   }
 
   /* ====== WHERE AM I (inline below controls) ====== */
@@ -279,7 +274,6 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
   }
   :global(.fwm-where__in:focus) { border-color: #ef4444; }
   :global(.fwm-where__in::placeholder) { color: #475569; }
-  :global(.fwm-where__in--y) { opacity: 0.5; width: 50px; }
   :global(.fwm-where__btn) {
     padding: 6px 14px; border-radius: 8px;
     background: #ef4444; color: #fff; font-weight: 700;

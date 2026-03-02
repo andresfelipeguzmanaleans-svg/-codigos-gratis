@@ -227,13 +227,6 @@ const SPECIAL_ACCESS = [
     access: 'Second Sea, SW of Waveborne. Same access as Waveborne. Req: Level 250 + Cthulhu' },
 ];
 
-/* GPS → map position for "Where Am I?" */
-function gpsToPosition(gpsX: number, gpsZ: number) {
-  const normX = (gpsX + 2800) / 5600;
-  const normZ = (gpsZ + 2500) / 5000;
-  return { left: (5 + normX * 90) + '%', top: (5 + normZ * 75) + '%' };
-}
-
 /* Top fish by rarity */
 function topFish(allFish: FishEntry[], max: number): FishEntry[] {
   return [...allFish].sort((a, b) => (RAR_ORD[b.rarity]||0) - (RAR_ORD[a.rarity]||0)).slice(0, max);
@@ -277,9 +270,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   const [search, setSearch] = useState('');
   const [hiddenOpen, setHiddenOpen] = useState(false);
   const [whereX, setWhereX] = useState('');
-  const [whereY, setWhereY] = useState('');
   const [whereZ, setWhereZ] = useState('');
-  const [marker, setMarker] = useState<{ left: string; top: string; nearest: string; dist: number } | null>(null);
+  const [marker, setMarker] = useState<{ nearestId: string; nearest: string; dist: number } | null>(null);
   const [whereOpen, setWhereOpen] = useState(false);
 
   /* Panel data */
@@ -321,18 +313,18 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
   }), [groups, filter, search]);
   const visIds = useMemo(() => new Set(visGroups.map(g => g.id)), [visGroups]);
 
-  /* Where Am I */
+  /* Where Am I — find nearest island pin */
   const findMe = useCallback(() => {
     const x = parseFloat(whereX), z = parseFloat(whereZ);
     if (isNaN(x) || isNaN(z)) return;
-    const pos = gpsToPosition(x, z);
-    let nearest = '', minDist = Infinity;
+    let nearestId = '', nearest = '', minDist = Infinity;
     for (const g of GROUPS) {
+      if (!PIN_POS[g.id]) continue; // only physical islands
       const dx = g.gps.x - x, dz = g.gps.z - z;
       const dist = Math.sqrt(dx * dx + dz * dz);
-      if (dist < minDist) { minDist = dist; nearest = g.name; }
+      if (dist < minDist) { minDist = dist; nearestId = g.id; nearest = g.name; }
     }
-    setMarker({ ...pos, nearest, dist: Math.round(minDist) });
+    setMarker({ nearestId, nearest, dist: Math.round(minDist) });
   }, [whereX, whereZ]);
 
   /* Escape → close panel */
@@ -387,8 +379,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
             <input type="number" placeholder="X" value={whereX}
               onChange={e => setWhereX(e.target.value)} className="fwm-where__in"
               onKeyDown={e => e.key === 'Enter' && findMe()} />
-            <input type="number" placeholder="Y" value={whereY}
-              onChange={e => setWhereY(e.target.value)} className="fwm-where__in fwm-where__in--y" />
             <input type="number" placeholder="Z" value={whereZ}
               onChange={e => setWhereZ(e.target.value)} className="fwm-where__in"
               onKeyDown={e => e.key === 'Enter' && findMe()} />
@@ -396,7 +386,10 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           </div>
           {marker && (
             <div className="fwm-where__result">
-              Near <strong>{marker.nearest}</strong> (~{marker.dist} studs)
+              {marker.dist > 1000
+                ? <>Far from islands &middot; nearest: <strong>{marker.nearest}</strong> (~{marker.dist} studs)</>
+                : <>Near <strong>{marker.nearest}</strong> (~{marker.dist} studs)</>
+              }
               <button className="fwm-where__clr" onClick={() => setMarker(null)}>✕</button>
             </div>
           )}
@@ -419,9 +412,13 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           const orbitFish = isActive ? [...g.allFish].sort((a, b) => (RAR_ORD[b.rarity]||0) - (RAR_ORD[a.rarity]||0)).slice(0, 48) : [];
           const seaLabel = g.sea === 'second' ? 'Second Sea' : g.sea === 'deep' ? 'Deep' : 'First Sea';
           const pinColor = BIOME_CLR[g.id] || '#6b7280';
+          const isLocated = marker?.nearestId === g.id;
+          const zoneRadius = isLocated
+            ? marker.dist < 100 ? 30 : marker.dist < 500 ? 60 : marker.dist < 1000 ? 100 : 140
+            : 0;
 
           return (
-            <div key={g.id} className={`fwm-pin-area${isActive ? ' fwm-pin-area--on' : ''}`}
+            <div key={g.id} className={`fwm-pin-area${isActive ? ' fwm-pin-area--on' : ''}${isLocated ? ' fwm-pin-area--located' : ''}`}
               style={{ left: pos.left, top: pos.top, opacity: isVisible ? 1 : 0.15 }}
               onClick={e => { e.stopPropagation(); selectItem(g.id); }}
               onMouseEnter={() => setHoveredId(g.id)}
@@ -429,7 +426,12 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
               <div className="fwm-pin-hit" />
 
-              <div className={`fwm-pin${isActive ? ' fwm-pin--on' : ''}`}
+              {/* Where Am I zone circle */}
+              {isLocated && (
+                <div className="fwm-zone" style={{ width: zoneRadius * 2, height: zoneRadius * 2 }} />
+              )}
+
+              <div className={`fwm-pin${isActive ? ' fwm-pin--on' : ''}${isLocated ? ' fwm-pin--located' : ''}`}
                 style={{ '--pin-clr': pinColor } as React.CSSProperties}>
                 <span className="fwm-pin__ico">{PIN_ICON[g.id] || g.icon}</span>
                 <div className="fwm-pin__tip" />
@@ -493,17 +495,6 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
           );
         })}
 
-        {/* Where Am I marker */}
-        {marker && (
-          <div className="fwm-marker" style={{ left: marker.left, top: marker.top }}>
-            <div className="fwm-marker__dot" />
-            <div className="fwm-marker__tip">
-              <strong>You are here</strong><br/>
-              Nearest: {marker.nearest}<br/>
-              ~{marker.dist} studs
-            </div>
-          </div>
-        )}
 
         {/* ===== HIDDEN ZONES PANEL (left) ===== */}
         <div className={`fwm-hp${hiddenOpen ? ' fwm-hp--open' : ''}`} onClick={e => e.stopPropagation()}>
