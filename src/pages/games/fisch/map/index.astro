@@ -513,8 +513,6 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
 
   /* ====== TABLET (769–1024px) ====== */
   @media (max-width: 1024px) and (min-width: 769px) {
-    :global(.fwm-frame) { overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
-    :global(.fwm-map) { min-width: 800px; }
     :global(.fwm-panel) { width: 280px; }
     :global(.fwm-hp) { width: 280px; }
   }
@@ -543,30 +541,8 @@ const description = `Interactive painted map of all Fisch fishing locations. Cli
       padding: 8px 12px; font-size: 13px;
     }
 
-    /* ---- Map frame: height-driven, horizontal swipe ----
-       Frame has explicit height. Map width is CALCULATED from that height
-       using the exact aspect ratio (2000/1116). No auto-sizing, no
-       aspect-ratio property, no flex — just pure CSS math.
-       This guarantees the map div is wider than the frame, creating
-       real horizontal scroll on every browser. */
-    :global(.fwm-frame) {
-      border-radius: 12px;
-      overflow-x: auto; overflow-y: hidden;
-      -webkit-overflow-scrolling: touch;
-      height: 50vh; max-height: 420px;
-    }
-    :global(.fwm-map) {
-      position: relative;
-      height: 100%;
-      /* Width = height × aspect_ratio. min() caps it when max-height kicks in.
-         50vh × (2000/1116) for short viewports, 420px × (2000/1116) = 753px for tall ones */
-      width: min(calc(50vh * 2000 / 1116), calc(420px * 2000 / 1116));
-      aspect-ratio: auto;
-    }
-    :global(.fwm-map__img) {
-      display: block;
-      width: 100%; height: 100%;
-    }
+    /* ---- Map: scale to full width, no horizontal scroll ---- */
+    :global(.fwm-frame) { border-radius: 12px; }
 
     /* Pins */
     :global(.fwm-pin) { width: 20px; height: 20px; border-width: 2px; }
