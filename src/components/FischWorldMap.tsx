@@ -15,9 +15,9 @@ interface Props { locations: MapLocation[]; gameSlug: string; }
 
 /* ---- Rarity ---- */
 const RAR_ORD: Record<string,number> = {
-  'Divine Secret':17,'Gemstone':16,'Fragment':15,'Relic':14,'Apex':13,
-  'Special':12,'Limited':11,'Extinct':10,'Secret':9,'Exotic':8,
-  'Mythical':7,'Legendary':6,'Rare':5,'Unusual':4,'Uncommon':3,'Common':2,'Trash':1,
+  'Apex':17,'Divine Secret':16,'Gemstone':15,'Relic':14,'Exotic':13,
+  'Secret':12,'Mythical':11,'Legendary':10,'Rare':9,'Unusual':8,
+  'Uncommon':7,'Common':6,'Special':5,'Limited':4,'Extinct':3,'Fragment':2,'Trash':1,
 };
 const RAR_CLR: Record<string,string> = {
   'Trash':'#808080','Common':'#aaaaaa','Uncommon':'#44ff44','Unusual':'#6366f1',
