@@ -64,7 +64,9 @@ const sidebarSections = [
       { label: 'Trading Hub', href: `/games/${gameSlug}/trading/`, icon: 'coins' },
       { label: 'Value List', href: `/games/${gameSlug}/values/`, icon: 'chart' },
       { label: 'Boats', href: `/games/${gameSlug}/boats/`, icon: 'boat' },
+      { label: 'Boat Tier List', href: `/games/${gameSlug}/boats/tier-list/`, icon: 'trophy' },
       { label: 'Rod Skins', href: `/games/${gameSlug}/rod-skins/`, icon: 'palette' },
+      { label: 'Rod Skins Tier List', href: `/games/${gameSlug}/rod-skins/tier-list/`, icon: 'trophy' },
       { label: 'Calculator', href: `/games/${gameSlug}/calculator/`, icon: 'calc' },
     ],
   },
@@ -98,7 +100,9 @@ const mobileTabs = [
 const moreItems = [
   { label: 'Trading Hub', href: `/games/${gameSlug}/trading/`, icon: 'coins' },
   { label: 'Boats', href: `/games/${gameSlug}/boats/`, icon: 'boat' },
+  { label: 'Boat Tier List', href: `/games/${gameSlug}/boats/tier-list/`, icon: 'trophy' },
   { label: 'Rod Skins', href: `/games/${gameSlug}/rod-skins/`, icon: 'palette' },
+  { label: 'Rod Skins Tier List', href: `/games/${gameSlug}/rod-skins/tier-list/`, icon: 'trophy' },
   { label: 'Rods', href: `/games/${gameSlug}/rods/`, icon: 'rod' },
   { label: 'Enchantments', href: `/games/${gameSlug}/enchantments/`, icon: 'sparkle' },
   { label: 'Baits', href: `/games/${gameSlug}/baits/`, icon: 'worm' },
@@ -132,6 +136,7 @@ const ico: Record<string, string> = {
   sparkle: '<path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>',
   worm: '<path d="M18 4c-1 0-2 .5-2.8 1.5C14 7 14 9 14 11c0 3-2 5-4 5s-3-1-3-3"/><path d="M7 13c-2 0-3 1-3 3 0 2.5 2.5 4 5 4 1.5 0 3-.5 4-1.5"/><circle cx="18" cy="4" r="1"/>',
   bobber: '<path d="M12 2v4"/><circle cx="12" cy="9" r="3"/><path d="M12 12v3"/><path d="M8 22c0-3.3 1.8-6 4-7 2.2 1 4 3.7 4 7"/><path d="M9 6.8a3 3 0 0 1 6 0"/>',
+  trophy: '<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>',
 };
 
 // --- Search palette data (Fisch only) ---
