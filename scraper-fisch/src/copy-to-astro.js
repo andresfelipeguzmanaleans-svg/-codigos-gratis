@@ -88,6 +88,26 @@ function splitTradeValues() {
       ({ name, slug, value, imageUrl, itemType }));
   });
 
+  // Replace external game.guide imageUrls with local paths
+  const ASTRO_PUBLIC = path.join(ASTRO_ROOT, 'public');
+  enriched.forEach(item => {
+    const folder = item.itemType === 'boat' ? 'boats' : 'rod-skins';
+    const localPath = `/images/${folder}/${item.slug}.png`;
+    if (fs.existsSync(path.join(ASTRO_PUBLIC, localPath))) {
+      item.imageUrl = localPath;
+    }
+    // Also fix relatedItems imageUrls
+    if (item.relatedItems) {
+      item.relatedItems.forEach(rel => {
+        const relFolder = rel.itemType === 'boat' ? 'boats' : 'rod-skins';
+        const relLocal = `/images/${relFolder}/${rel.slug}.png`;
+        if (fs.existsSync(path.join(ASTRO_PUBLIC, relLocal))) {
+          rel.imageUrl = relLocal;
+        }
+      });
+    }
+  });
+
   const rodSkins = enriched.filter(i => i.itemType === 'rod_skin');
   const boats = enriched.filter(i => i.itemType === 'boat');
 

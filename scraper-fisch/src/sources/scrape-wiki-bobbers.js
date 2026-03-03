@@ -219,7 +219,7 @@ function parseBobberTables(wikitext) {
         source: source ? cleanWikitext(source) : null,
         event: event ? cleanWikitext(event) : null,
         notes: notes ? cleanWikitext(notes) : null,
-        imageUrl: `https://fischipedia.org/wiki/Special:FilePath/${encodeURIComponent(name.replace(/ /g, '_'))}_Bobber.png`,
+        imageUrl: `https://fischipedia.org/wiki/Special:FilePath/Bobber_${encodeURIComponent(name.replace(/ /g, '_'))}.png`,
         wikiSource: 'fischipedia.org',
       });
     }
