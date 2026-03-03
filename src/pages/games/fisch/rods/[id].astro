@@ -19,6 +19,7 @@ interface RodData {
   wikiLocation: string | null;
   passive: string | null;
   maxWeight: string | null;
+  imageUrl: string | null;
 }
 
 export function getStaticPaths() {
@@ -79,7 +80,11 @@ const schema = {
   <div class="td">
     <!-- Hero -->
     <div class="td__hero" style={`--accent-clr: ${stageColor}`}>
-      <div class="td__hero-icon">🎣</div>
+      {item.imageUrl ? (
+        <img class="td__hero-img" src={item.imageUrl} alt={item.name} width="96" height="96" loading="eager" />
+      ) : (
+        <div class="td__hero-icon">🎣</div>
+      )}
       <div class="td__hero-info">
         <div class="td__badges-top">
           {item.stage && (
@@ -177,6 +182,7 @@ const schema = {
   }
 
   .td__hero-icon { font-size: 3.5rem; flex-shrink: 0; }
+  .td__hero-img { width: 96px; height: 96px; object-fit: contain; flex-shrink: 0; filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4)); border-radius: 8px; }
   .td__hero-info { flex: 1; min-width: 0; }
 
   .td__badges-top { display: flex; gap: 0.4rem; margin-bottom: 0.5rem; flex-wrap: wrap; }

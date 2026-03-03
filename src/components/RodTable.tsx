@@ -11,6 +11,7 @@ export interface RodRow {
   lureSpeed: number;
   obtainMethod: string | null;
   isCosmetic: boolean;
+  imageUrl: string | null;
 }
 
 interface Props {
@@ -174,6 +175,7 @@ export default function RodTable({ rods, maxLuck, maxControl, maxResil, maxLure 
                 >
                   <td className="rt__td rt__td--name">
                     <div className="rt__name-wrap">
+                      {r.imageUrl && <img className="rt__name-img" src={r.imageUrl} alt="" width="28" height="28" loading="lazy" />}
                       <span className="rt__name-text">{r.name}</span>
                       {r.isCosmetic && <span className="rt__cosmetic-tag">Cosmetic</span>}
                     </div>

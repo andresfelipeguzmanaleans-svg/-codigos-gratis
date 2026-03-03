@@ -15,6 +15,7 @@ const rows: RodRow[] = (rodsData as any[]).map(r => ({
   resilience: r.resilience ?? 0,
   lureSpeed: r.lureSpeed ?? 0,
   obtainMethod: r.obtainMethod,
+  imageUrl: r.imageUrl || null,
   isCosmetic:
     (r.luckBonus === 0 || r.luckBonus == null) &&
     (r.control === 0 || r.control == null) &&
@@ -412,6 +413,14 @@ const rodItemListSchema = {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+  }
+
+  :global(.rt__name-img) {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    border-radius: 4px;
+    flex-shrink: 0;
   }
 
   :global(.rt__name-text) {
