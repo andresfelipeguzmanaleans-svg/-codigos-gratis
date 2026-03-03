@@ -39,8 +39,20 @@ const RARITY_COLORS: Record<string, string> = {
   'Fragment': '#67e8f9',
 };
 
-type SortKey = 'name' | 'value' | 'rarity' | 'weight';
+type SortKey = 'random' | 'name' | 'value' | 'rarity' | 'weight';
 type SortDir = 'asc' | 'desc';
+
+// Deterministic shuffle using a seed (so it's stable per session but different each load)
+function seededShuffle<T>(arr: T[]): T[] {
+  const result = [...arr];
+  let seed = Date.now() % 2147483647;
+  for (let i = result.length - 1; i > 0; i--) {
+    seed = (seed * 16807) % 2147483647;
+    const j = seed % (i + 1);
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
 
 // ---------- Component ----------
 
@@ -49,8 +61,9 @@ export default function FishTable({ fish, rarities, locations }: Props) {
   const [selRarities, setSelRarities] = useState<Set<string>>(new Set());
   const [selLocation, setSelLocation] = useState('');
   const [eventOnly, setEventOnly] = useState(false);
-  const [sortKey, setSortKey] = useState<SortKey>('value');
+  const [sortKey, setSortKey] = useState<SortKey>('random');
   const [sortDir, setSortDir] = useState<SortDir>('desc');
+  const shuffled = useMemo(() => seededShuffle(fish), [fish]);
   const [page, setPage] = useState(0);
   const [showRarityPanel, setShowRarityPanel] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -86,31 +99,33 @@ export default function FishTable({ fish, rarities, locations }: Props) {
   // Filter + sort
   const filtered = useMemo(() => {
     const q = search.toLowerCase().trim();
-    let list = fish;
+    let list = sortKey === 'random' ? shuffled : fish;
 
     if (q) list = list.filter(f => f.name.toLowerCase().includes(q));
     if (selRarities.size > 0) list = list.filter(f => selRarities.has(f.rarity));
     if (selLocation) list = list.filter(f => f.location === selLocation);
     if (eventOnly) list = list.filter(f => f.event);
 
-    const dir = sortDir === 'asc' ? 1 : -1;
-    list = [...list].sort((a, b) => {
-      switch (sortKey) {
-        case 'name':
-          return dir * a.name.localeCompare(b.name);
-        case 'value':
-          return dir * ((a.baseValue ?? -1) - (b.baseValue ?? -1));
-        case 'rarity':
-          return dir * ((RARITY_ORDER[a.rarity] ?? 99) - (RARITY_ORDER[b.rarity] ?? 99));
-        case 'weight':
-          return dir * ((a.baseWeight ?? -1) - (b.baseWeight ?? -1));
-        default:
-          return 0;
-      }
-    });
+    if (sortKey !== 'random') {
+      const dir = sortDir === 'asc' ? 1 : -1;
+      list = [...list].sort((a, b) => {
+        switch (sortKey) {
+          case 'name':
+            return dir * a.name.localeCompare(b.name);
+          case 'value':
+            return dir * ((a.baseValue ?? -1) - (b.baseValue ?? -1));
+          case 'rarity':
+            return dir * ((RARITY_ORDER[a.rarity] ?? 99) - (RARITY_ORDER[b.rarity] ?? 99));
+          case 'weight':
+            return dir * ((a.baseWeight ?? -1) - (b.baseWeight ?? -1));
+          default:
+            return 0;
+        }
+      });
+    }
 
     return list;
-  }, [fish, search, selRarities, selLocation, eventOnly, sortKey, sortDir]);
+  }, [fish, shuffled, search, selRarities, selLocation, eventOnly, sortKey, sortDir]);
 
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   const paginated = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
