@@ -133,7 +133,7 @@ const locItemListSchema = {
               (RARITY_ORDER[a.rarity] ?? 99) - (RARITY_ORDER[b.rarity] ?? 99)
             );
             return (
-              <div class="loc-card" data-name={loc.name.toLowerCase()} data-fish={loc.fishCount}>
+              <div class="loc-card" id={loc.id} data-name={loc.name.toLowerCase()} data-fish={loc.fishCount}>
                 <button class="loc-card__header" type="button" aria-expanded="false">
                   <div class="loc-card__info">
                     <span class="loc-card__name">{loc.name}</span>
@@ -198,7 +198,7 @@ const locItemListSchema = {
               (RARITY_ORDER[a.rarity] ?? 99) - (RARITY_ORDER[b.rarity] ?? 99)
             );
             return (
-              <div class="loc-card" data-name={loc.name.toLowerCase()} data-fish={loc.fishCount}>
+              <div class="loc-card" id={loc.id} data-name={loc.name.toLowerCase()} data-fish={loc.fishCount}>
                 <button class="loc-card__header" type="button" aria-expanded="false">
                   <div class="loc-card__info">
                     <span class="loc-card__name">{loc.name}</span>
@@ -301,6 +301,22 @@ const locItemListSchema = {
       });
     });
   });
+
+  // Anchor: auto-expand and scroll to location
+  function openFromHash() {
+    var hash = window.location.hash.slice(1);
+    if (!hash) return;
+    var card = document.getElementById(hash);
+    if (!card || !card.classList.contains('loc-card')) return;
+    if (!card.classList.contains('loc-card--open')) {
+      card.classList.add('loc-card--open');
+      var btn = card.querySelector('.loc-card__header');
+      if (btn) btn.setAttribute('aria-expanded', 'true');
+    }
+    setTimeout(function() { card.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);
+  }
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
 })();
 </script>
 

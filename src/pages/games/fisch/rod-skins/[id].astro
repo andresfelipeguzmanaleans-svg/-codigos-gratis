@@ -1,6 +1,11 @@
 ---
 import GameLayout from '../../../../layouts/GameLayout.astro';
+import PriceHistoryChart from '../../../../components/PriceHistoryChart.tsx';
+import RelatedValues from '../../../../components/RelatedValues.astro';
 import rawData from '../../../../data/games/fisch/rod-skins.json';
+
+interface PricePoint { date: string; value: number; }
+interface RelatedItem { name: string; slug: string; value: number; imageUrl: string | null; itemType: string; }
 
 interface TradeItemData {
   name: string;
@@ -15,6 +20,8 @@ interface TradeItemData {
   cost: number | null;
   imageUrl: string | null;
   detailUrl: string | null;
+  priceHistory: PricePoint[] | null;
+  relatedItems: RelatedItem[] | null;
 }
 
 export function getStaticPaths() {
@@ -176,6 +183,28 @@ const schema = {
       </details>
     )}
 
+    <!-- Price History -->
+    {item.priceHistory && item.priceHistory.length >= 2 && (
+      <section class="td__section">
+        <h2 class="td__section-title">Price History</h2>
+        <div class="td__chart-wrap">
+          <PriceHistoryChart client:visible data={item.priceHistory} color="#22d3ee" unit="ER" />
+        </div>
+      </section>
+    )}
+
+    <!-- Market Summary -->
+    {item.tradeValue && (
+      <div class="td__market-summary">
+        <p>{item.name} currently holds a trade value of <strong>{fmtValue(item.tradeValue)} Enchant Relics</strong>{item.demand ? ` with ${item.demand.toLowerCase()} demand` : ''}{item.trend ? `. Market trend is ${item.trend.toLowerCase()}` : ''}.</p>
+      </div>
+    )}
+
+    <!-- Related Values -->
+    {item.relatedItems && item.relatedItems.length > 0 && (
+      <RelatedValues items={item.relatedItems} currentItemType="rod_skin" />
+    )}
+
     <!-- Back link -->
     <a href="/games/fisch/rod-skins/" class="td__back">&larr; All Rod Skins</a>
   </div>
@@ -242,6 +271,22 @@ const schema = {
   .htg-accordion__para { font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; }
   .htg-accordion__para:first-child { margin-top: 1rem; }
   .htg-accordion__para + .htg-accordion__para { margin-top: 0.75rem; }
+
+  .td__section { margin-bottom: 1.25rem; }
+  .td__section-title {
+    font-size: 0.85rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: #94a3b8; margin-bottom: 0.75rem;
+  }
+  .td__chart-wrap {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1rem; overflow: hidden;
+  }
+  .td__market-summary {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1.25rem;
+    font-size: 0.9rem; color: var(--text-dim); line-height: 1.6;
+  }
+  .td__market-summary strong { color: #22d3ee; font-weight: 700; }
 
   .td__back {
     display: inline-flex; align-items: center; gap: 0.3rem;

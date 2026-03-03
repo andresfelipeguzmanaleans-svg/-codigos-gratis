@@ -6,6 +6,10 @@ import FishValueCalc from '../../../../components/FishValueCalc.tsx';
 import fishData from '../../../../data/games/fisch/fish.json';
 import mutationsData from '../../../../data/games/fisch/mutations.json';
 import valuesData from '../../../../data/games/fisch/values.json';
+import rodsData from '../../../../data/games/fisch/rods.json';
+import baitsData from '../../../../data/games/fisch/baits.json';
+import locationsData from '../../../../data/games/fisch/locations.json';
+import { cleanStr, cleanArr } from '../../../../utils/cleanRawData';
 
 // ---------- Types ----------
 
@@ -66,6 +70,16 @@ export function getStaticPaths() {
 }
 
 const { fish } = Astro.props as { fish: Fish };
+
+// Defensive: strip any leftover wiki/scraping syntax
+fish.sublocation = cleanStr(fish.sublocation);
+fish.sea = cleanStr(fish.sea);
+fish.time = cleanStr(fish.time);
+fish.description = cleanStr(fish.description);
+fish.howToCatch = cleanStr(fish.howToCatch);
+fish.weather = cleanArr(fish.weather);
+fish.season = cleanArr(fish.season);
+fish.bait = cleanArr(fish.bait);
 
 // ---------- Derived data ----------
 
@@ -168,6 +182,25 @@ if (fish.estimatedCsPerHour != null) infoItems.push({ label: 'C$/Hour (est.)', v
 // Location slug for "View on Map" link
 const locationSlug = fish.location
   ? fish.location.toLowerCase().replace(/['']/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  : null;
+
+// Bait name → slug lookup
+const baitSlugMap: Record<string, string> = {};
+(baitsData as any[]).forEach(b => { if (b.name && b.slug) baitSlugMap[b.name] = b.slug; });
+
+// Rod ID validation set
+const rodIdSet = new Set((rodsData as any[]).map((r: any) => r.id));
+
+// Location name → id lookup
+const locationIdMap: Record<string, string> = {};
+(locationsData as any[]).forEach((l: any) => { if (l.name && l.id) locationIdMap[l.name] = l.id; });
+
+// Location ID for anchor links
+const locationId = fish.location ? locationIdMap[fish.location] : null;
+
+// Full rod data for "Best Rod" section
+const rodData = fish.recommendedRod?.rodId && rodIdSet.has(fish.recommendedRod.rodId)
+  ? (rodsData as any[]).find((r: any) => r.id === fish.recommendedRod!.rodId)
   : null;
 
 // Conditions
@@ -303,7 +336,7 @@ const narrative = parts.join('');
                 <span class="cond-row__label">{c.label}</span>
                 {c.label === 'Location' ? (
                   <span class="cond-row__value cond-row__loc-wrap">
-                    <a href="/games/fisch/locations/" class="cond-row__link">
+                    <a href={locationId ? `/games/fisch/locations/#${locationId}` : '/games/fisch/locations/'} class="cond-row__link">
                       {c.value}
                     </a>
                     {locationSlug && (
@@ -312,12 +345,51 @@ const narrative = parts.join('');
                       </a>
                     )}
                   </span>
+                ) : c.label === 'Bait' ? (
+                  <span class="cond-row__value">
+                    {fish.bait.map((b, i) => {
+                      const slug = baitSlugMap[b];
+                      return (<>{i > 0 && ', '}{slug ? <a href={`/games/fisch/baits/${slug}/`} class="cond-row__link">{b}</a> : b}</>);
+                    })}
+                  </span>
+                ) : c.label === 'Rec. Rod' && fish.recommendedRod?.rodId && rodIdSet.has(fish.recommendedRod.rodId) ? (
+                  <span class="cond-row__value">
+                    <a href={`/games/fisch/rods/${fish.recommendedRod.rodId}/`} class="cond-row__link">{c.value}</a>
+                  </span>
+                ) : c.label === 'Source' ? (
+                  <span class="cond-row__value">
+                    {fish.sources.map((s, i) => {
+                      let href: string | null = null;
+                      if (s === 'Fishing Rod' || s === 'Fishing Rods') href = '/games/fisch/rods/';
+                      return (<>{i > 0 && ', '}{href ? <a href={href} class="cond-row__link">{s}</a> : s}</>);
+                    })}
+                  </span>
                 ) : (
                   <span class="cond-row__value">{c.value}</span>
                 )}
               </div>
             ))}
           </div>
+        </section>
+      )}
+
+      <!-- BEST ROD -->
+      {rodData && (
+        <section class="best-rod" id="best-rod">
+          <h2 class="section-heading">BEST ROD FOR THIS FISH</h2>
+          <a href={`/games/fisch/rods/${rodData.id}/`} class="best-rod__card">
+            <div class="best-rod__info">
+              <span class="best-rod__name">{rodData.name}</span>
+              <div class="best-rod__stats">
+                <span>Resilience: {rodData.resilience?.toLocaleString('en-US')}</span>
+                <span>Luck: +{rodData.luckBonus}</span>
+                <span>Control: {rodData.control}</span>
+                {rodData.lureSpeed != null && <span>Lure Speed: {rodData.lureSpeed > 0 ? '+' : ''}{rodData.lureSpeed}%</span>}
+              </div>
+              {rodData.stage != null && <span class="best-rod__stage">Stage {rodData.stage}</span>}
+            </div>
+            <span class="best-rod__arrow">&rarr;</span>
+          </a>
         </section>
       )}
 
@@ -478,13 +550,22 @@ const narrative = parts.join('');
         {fish.location && (
           <div class="fish-detail__qd-row">
             <span class="fish-detail__qd-label">Location</span>
-            <span class="fish-detail__qd-value">{fish.sublocation ? `${fish.location} — ${fish.sublocation}` : fish.location}</span>
+            <span class="fish-detail__qd-value">
+              <a href={locationId ? `/games/fisch/locations/#${locationId}` : '/games/fisch/locations/'} class="fish-detail__qd-link">
+                {fish.sublocation ? `${fish.location} — ${fish.sublocation}` : fish.location}
+              </a>
+            </span>
           </div>
         )}
         {fish.bait.length > 0 && (
           <div class="fish-detail__qd-row">
             <span class="fish-detail__qd-label">Bait</span>
-            <span class="fish-detail__qd-value">{fish.bait.join(', ')}</span>
+            <span class="fish-detail__qd-value">
+              {fish.bait.map((b, i) => {
+                const slug = baitSlugMap[b];
+                return (<>{i > 0 && ', '}{slug ? <a href={`/games/fisch/baits/${slug}/`} class="fish-detail__qd-link">{b}</a> : b}</>);
+              })}
+            </span>
           </div>
         )}
         {fish.baseValue != null && (
@@ -1084,6 +1165,18 @@ const narrative = parts.join('');
     text-align: right;
   }
 
+  .fish-detail__qd-link {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.2s;
+    font-weight: 600;
+  }
+
+  .fish-detail__qd-link:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
   /* ============================================================
      SIDEBAR: TABLE OF CONTENTS
      ============================================================ */
@@ -1258,11 +1351,13 @@ const narrative = parts.join('');
 
   .cond-row__link {
     color: var(--accent);
-    transition: opacity 0.2s;
+    text-decoration: none;
+    transition: color 0.2s;
   }
 
   .cond-row__link:hover {
-    opacity: 0.8;
+    color: #fff;
+    text-decoration: underline;
   }
 
   .cond-row__loc-wrap {
@@ -1281,6 +1376,69 @@ const narrative = parts.join('');
 
   .cond-row__map-link:hover {
     opacity: 1;
+  }
+
+  /* ============================================================
+     BEST ROD SECTION
+     ============================================================ */
+
+  .best-rod {
+    margin-bottom: 1.5rem;
+  }
+
+  .best-rod__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .best-rod__card:hover {
+    border-color: rgba(6, 214, 160, 0.4);
+    background: rgba(6, 214, 160, 0.05);
+  }
+
+  .best-rod__info {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .best-rod__name {
+    font-weight: 600;
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .best-rod__stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-top: 0.3rem;
+  }
+
+  .best-rod__stage {
+    display: inline-block;
+    margin-top: 0.35rem;
+    font-size: 0.7rem;
+    color: var(--accent);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .best-rod__arrow {
+    font-size: 1.25rem;
+    color: var(--accent);
+    flex-shrink: 0;
   }
 
   /* ============================================================

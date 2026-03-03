@@ -1,6 +1,7 @@
 ---
 import GameLayout from '../../../../layouts/GameLayout.astro';
 import rawData from '../../../../data/games/fisch/rods.json';
+import { cleanStr } from '../../../../utils/cleanRawData';
 
 interface RodData {
   id: string;
@@ -27,6 +28,12 @@ export function getStaticPaths() {
 }
 
 const { item } = Astro.props as { item: RodData };
+
+// Defensive: strip leftover wiki/scraping syntax
+item.price = cleanStr(item.price);
+item.howToGet = cleanStr(item.howToGet);
+item.description = cleanStr(item.description);
+item.obtainedFrom = cleanStr(item.obtainedFrom);
 
 function fmtStat(n: number | null): string {
   if (n == null) return '—';

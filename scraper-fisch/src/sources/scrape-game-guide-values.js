@@ -230,14 +230,29 @@ async function main() {
     rarDist[r] = (rarDist[r] || 0) + 1;
   });
 
+  // ---- Detect new / removed items vs previous run ----
+  const outFile = path.join(__dirname, '..', '..', 'data', 'trade-values.json');
+  let prevSlugs = new Set();
+  if (fs.existsSync(outFile)) {
+    try {
+      const prev = JSON.parse(fs.readFileSync(outFile, 'utf8'));
+      (prev.items || []).forEach(i => prevSlugs.add(i.slug));
+    } catch { /* first run */ }
+  }
+
+  const currSlugs = new Set(unique.map(i => i.slug));
+  const newItems = unique.filter(i => !prevSlugs.has(i.slug));
+  const removedSlugs = [...prevSlugs].filter(s => !currSlugs.has(s));
+
   const output = {
     lastUpdated: new Date().toISOString(),
     source: 'game.guide',
     totalItems: unique.length,
+    newItems: newItems.length,
+    removedItems: removedSlugs.length,
     items: unique,
   };
 
-  const outFile = path.join(__dirname, '..', '..', 'data', 'trade-values.json');
   fs.writeFileSync(outFile, JSON.stringify(output, null, 2));
 
   console.log('\n========================================');
@@ -257,6 +272,21 @@ async function main() {
   Object.entries(rarDist).sort((a, b) => b[1] - a[1]).forEach(([r, c]) => {
     console.log(`  ${r}: ${c}`);
   });
+
+  if (prevSlugs.size > 0) {
+    console.log(`\nItem changes vs previous run:`);
+    if (newItems.length > 0) {
+      console.log(`  NEW (${newItems.length}):`);
+      newItems.forEach(i => console.log(`    + ${i.name} (${i.itemType}, ${i.tradeValue} ER)`));
+    }
+    if (removedSlugs.length > 0) {
+      console.log(`  REMOVED (${removedSlugs.length}):`);
+      removedSlugs.forEach(s => console.log(`    - ${s}`));
+    }
+    if (newItems.length === 0 && removedSlugs.length === 0) {
+      console.log('  No new or removed items.');
+    }
+  }
 
   console.log('\nTop 10 by value:');
   unique.slice(0, 10).forEach(i => {

@@ -1,6 +1,7 @@
 ---
 import GameLayout from '../../../../layouts/GameLayout.astro';
 import rawData from '../../../../data/games/fisch/baits.json';
+import { cleanStr } from '../../../../utils/cleanRawData';
 
 interface BaitData {
   name: string;
@@ -26,6 +27,12 @@ export function getStaticPaths() {
 }
 
 const { item } = Astro.props as { item: BaitData };
+
+// Defensive: strip leftover wiki/scraping syntax
+item.ability = cleanStr(item.ability);
+if (item.crates) {
+  item.crates = item.crates.filter(c => c.name && !c.name.includes('|') && !c.name.includes('<!--'));
+}
 
 const RARITY_COLORS: Record<string, string> = {
   'Trash': '#808080', 'Common': '#B0B0B0', 'Uncommon': '#2ECC71', 'Unusual': '#A3D977',
