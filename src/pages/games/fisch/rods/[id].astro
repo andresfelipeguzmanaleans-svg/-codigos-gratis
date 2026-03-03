@@ -1,12 +1,7 @@
 ---
 import GameLayout from '../../../../layouts/GameLayout.astro';
-import FischHero from '../../../../components/FischHero.astro';
-
 import rawData from '../../../../data/games/fisch/rods.json';
-import locationsData from '../../../../data/games/fisch/locations.json';
 import { cleanStr } from '../../../../utils/cleanRawData';
-
-// ---------- Types ----------
 
 interface RodData {
   id: string;
@@ -27,8 +22,6 @@ interface RodData {
   imageUrl: string | null;
 }
 
-// ---------- Static paths ----------
-
 export function getStaticPaths() {
   return (rawData as RodData[])
     .filter(i => i.id && i.name)
@@ -44,8 +37,6 @@ item.description = cleanStr(item.description);
 item.obtainedFrom = cleanStr(item.obtainedFrom);
 item.passive = cleanStr(item.passive);
 
-// ---------- Helpers ----------
-
 function fmtStat(n: number | null): string {
   if (n == null) return '\u2014';
   if (n > 0) return `+${n.toLocaleString('en-US')}`;
@@ -57,9 +48,13 @@ function fmtControl(n: number | null): string {
   return n.toFixed(2);
 }
 
-const fmt = (n: number) => n.toLocaleString('en-US');
+const STAGE_COLORS: Record<number, string> = {
+  1: '#6b7280', 2: '#3b82f6', 3: '#22c55e', 4: '#f59e0b',
+  5: '#ef4444', 6: '#8b5cf6', 7: '#ec4899', 8: '#14b8a6',
+  9: '#f97316', 10: '#06b6d4', 11: '#fbbf24', 12: '#e11d48',
+};
 
-// ---------- Derived data ----------
+const stageColor = STAGE_COLORS[item.stage || 0] || '#6b7280';
 
 const isCosmetic =
   (item.luckBonus === 0 || item.luckBonus == null) &&
@@ -67,69 +62,29 @@ const isCosmetic =
   (item.resilience === 0 || item.resilience == null) &&
   (item.lureSpeed === 0 || item.lureSpeed == null);
 
-// Stage colors
-const STAGE_COLORS: Record<number, string> = {
-  1: '#6b7280', 2: '#3b82f6', 3: '#22c55e', 4: '#f59e0b',
-  5: '#ef4444', 6: '#8b5cf6', 7: '#ec4899', 8: '#14b8a6',
-  9: '#f97316', 10: '#06b6d4', 11: '#fbbf24', 12: '#e11d48',
-};
-const stageColor = STAGE_COLORS[item.stage || 0] || '#6b7280';
-
-// Stage → visual theme for image card
-const stageTheme: Record<number, string> = {
-  1: 'water', 2: 'deep', 3: 'nature', 4: 'flame',
-  5: 'inferno', 6: 'mystic', 7: 'cosmic', 8: 'crystal',
-  9: 'flame', 10: 'electric', 11: 'divine', 12: 'inferno',
-};
-const theme = stageTheme[item.stage || 0] || 'water';
-
-// Related rods (same stage, deterministic shuffle by id hash)
+// Related rods (same stage)
 const sameStage = (rawData as RodData[])
   .filter(r => r.stage === item.stage && r.id !== item.id && r.id && r.name);
 const related = sameStage
   .map(r => ({ r, k: r.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0) }))
   .sort((a, b) => a.k - b.k)
   .map(x => x.r)
-  .slice(0, 8);
+  .slice(0, 6);
 
-// Location name → id lookup
-const locationIdMap: Record<string, string> = {};
-(locationsData as any[]).forEach((l: any) => { if (l.name && l.id) locationIdMap[l.name] = l.id; });
-const locationId = item.obtainedFrom ? locationIdMap[item.obtainedFrom] : null;
+const description = `${item.name} is a${item.stage ? ` Stage ${item.stage}` : ''} fishing rod in Fisch. Luck: ${fmtStat(item.luckBonus)}, Control: ${fmtControl(item.control)}, Resilience: ${fmtStat(item.resilience)}, Lure Speed: ${fmtStat(item.lureSpeed)}.${item.obtainedFrom ? ` Obtained from ${item.obtainedFrom}.` : ''}`;
 
-// Info grid items
-const infoItems: { label: string; value: string; icon: string }[] = [];
-infoItems.push({ label: 'Luck Bonus', value: fmtStat(item.luckBonus), icon: '\uD83C\uDF40' });
-infoItems.push({ label: 'Control', value: fmtControl(item.control), icon: '\uD83C\uDFAF' });
-infoItems.push({ label: 'Resilience', value: item.resilience > -1_000_000 ? fmtStat(item.resilience) : '\u221E', icon: '\uD83D\uDEE1\uFE0F' });
-infoItems.push({ label: 'Lure Speed', value: fmtStat(item.lureSpeed), icon: '\u26A1' });
-if (item.maxWeight) infoItems.push({ label: 'Max Weight', value: `${item.maxWeight} lb`, icon: '\uD83C\uDFCB\uFE0F' });
-if (item.price) infoItems.push({ label: 'Price', value: item.price, icon: '\uD83D\uDCB0' });
-
-// Conditions / details
-const details: { label: string; value: string; icon: string }[] = [];
-if (item.obtainedFrom) details.push({ label: 'Location', value: item.obtainedFrom, icon: '\uD83D\uDCCD' });
-if (item.stage) details.push({ label: 'Stage Required', value: `Stage ${item.stage}`, icon: '\u2B50' });
-if (item.price) details.push({ label: 'Cost', value: item.price, icon: '\uD83D\uDCB0' });
-
-// Meta description
-const metaDesc = `${item.name} is a${item.stage ? ` Stage ${item.stage}` : ''} fishing rod in Fisch. Luck: ${fmtStat(item.luckBonus)}, Control: ${fmtControl(item.control)}, Resilience: ${fmtStat(item.resilience)}, Lure Speed: ${fmtStat(item.lureSpeed)}.${item.obtainedFrom ? ` Obtained from ${item.obtainedFrom}.` : ''}`;
-
-// Schema.org
-const articleSchema = {
+const schema = {
   '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: `${item.name} - Fisch Rod Guide`,
-  description: metaDesc,
-  author: { '@type': 'Organization', name: 'Codigos Gratis' },
-  publisher: { '@type': 'Organization', name: 'Codigos Gratis' },
-  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
+  '@type': 'Product',
+  name: item.name,
+  description,
+  image: item.imageUrl || undefined,
 };
 ---
 
 <GameLayout
   title={`${item.name} - Stats & How to Get | Fisch Roblox`}
-  description={metaDesc}
+  description={description}
   game="Fisch"
   breadcrumbs={[
     { label: 'Rods', href: '/games/fisch/rods/' },
@@ -137,40 +92,72 @@ const articleSchema = {
   ]}
 >
   <Fragment slot="head">
-    <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   </Fragment>
 
-  <!-- HERO -->
-  <FischHero
-    title={item.name.toUpperCase()}
-    subtitle={item.stage ? `Stage ${item.stage} Fishing Rod` : 'Fishing Rod'}
-    bgImage={item.imageUrl || '/images/fisch-hero.webp'}
-  >
-    {item.stage && (
-      <span
-        class="rd__stage-badge"
-        style={`background:${stageColor}20; border-color:${stageColor}; color:${stageColor};`}
-      >
-        Stage {item.stage}
-      </span>
-    )}
-    <span
-      class="rd__type-badge"
-      style="background:rgba(255,255,255,0.06); border-color:rgba(255,255,255,0.15); color:var(--text-dim);"
-    >
-      {isCosmetic ? 'Cosmetic Rod' : 'Fishing Rod'}
-    </span>
-    {item.price && (
-      <div class="rd__giant-price">{item.price}</div>
-    )}
-  </FischHero>
+  <div class="td">
+    <!-- Hero -->
+    <div class="td__hero" style={`--accent-clr: ${stageColor}`}>
+      <div class="td__hero-img">
+        {item.imageUrl ? (
+          <img src={item.imageUrl} alt={item.name} width="280" height="280" />
+        ) : (
+          <div class="td__hero-ph">{'\uD83C\uDFA3'}</div>
+        )}
+      </div>
+      <div class="td__hero-info">
+        <div class="td__badges-top">
+          {item.stage && (
+            <span class="td__source-badge" style={`--badge-clr: ${stageColor}`}>Stage {item.stage}</span>
+          )}
+          <span class="td__type-badge">{isCosmetic ? 'Cosmetic Rod' : 'Fishing Rod'}</span>
+        </div>
+        <h1 class="td__title">{item.name}</h1>
+        {item.price && (
+          <div class="td__value-hero">
+            <span class="td__value-num">{item.price}</span>
+          </div>
+        )}
+      </div>
+    </div>
 
-  <!-- MOBILE: How to Get accordion -->
-  {item.howToGet && (
-    <div class="container htg-mobile-wrap">
-      <details class="htg-accordion htg-accordion--mobile">
+    <!-- Stats grid -->
+    <div class="td__grid">
+      <div class="td__stat">
+        <span class="td__stat-label">Luck Bonus</span>
+        <span class="td__stat-val td__stat-val--cyan">{fmtStat(item.luckBonus)}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Control</span>
+        <span class="td__stat-val">{fmtControl(item.control)}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Resilience</span>
+        <span class="td__stat-val">{item.resilience > -1_000_000 ? fmtStat(item.resilience) : '\u221E'}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Lure Speed</span>
+        <span class="td__stat-val">{fmtStat(item.lureSpeed)}</span>
+      </div>
+      {item.obtainedFrom && (
+        <div class="td__stat">
+          <span class="td__stat-label">Location</span>
+          <span class="td__stat-val">{item.obtainedFrom}</span>
+        </div>
+      )}
+      {item.maxWeight && (
+        <div class="td__stat">
+          <span class="td__stat-label">Max Weight</span>
+          <span class="td__stat-val">{item.maxWeight} lb</span>
+        </div>
+      )}
+    </div>
+
+    <!-- How to Get -->
+    {item.howToGet && (
+      <details class="htg-accordion">
         <summary class="htg-accordion__toggle">
-          <span class="htg-accordion__icon">\uD83D\uDCD6</span>
+          <span class="htg-accordion__icon">{'\uD83D\uDCD6'}</span>
           <span class="htg-accordion__text">How to Get</span>
           <svg class="htg-accordion__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 8 10 12 14 8"/></svg>
         </summary>
@@ -180,1087 +167,187 @@ const articleSchema = {
           ))}
         </div>
       </details>
-    </div>
-  )}
+    )}
 
-  <!-- TWO-COLUMN LAYOUT -->
-  <div class="container rd__grid">
-    <!-- LEFT: Main content -->
-    <div class="rd__main">
-      <!-- STATS -->
-      <section class="info-section" id="stats">
-        <h2 class="section-heading">ROD STATS</h2>
-        <div class="info-grid">
-          {infoItems.map(item => (
-            <div class="info-card">
-              <span class="info-card__icon">{item.icon}</span>
-              <span class="info-card__label">{item.label}</span>
-              <span class="info-card__value">{item.value}</span>
-            </div>
-          ))}
+    <!-- Passive Ability -->
+    {item.passive && (
+      <div class="td__section">
+        <h2 class="td__section-title">Passive Ability</h2>
+        <div class="td__passive">
+          <span class="td__passive-icon">{'\u2728'}</span>
+          <p class="td__passive-text">{item.passive}</p>
         </div>
-      </section>
+      </div>
+    )}
 
-      <!-- DETAILS / CONDITIONS -->
-      {details.length > 0 && (
-        <section class="conditions" id="details">
-          <h2 class="section-heading">HOW TO OBTAIN</h2>
-          <div class="conditions__list">
-            {details.map(c => (
-              <div class="cond-row">
-                <span class="cond-row__icon">{c.icon}</span>
-                <span class="cond-row__label">{c.label}</span>
-                {c.label === 'Location' && locationId ? (
-                  <span class="cond-row__value">
-                    <a href={`/games/fisch/locations/#${locationId}`} class="cond-row__link">{c.value}</a>
-                  </span>
+    <!-- Description / Overview -->
+    {item.description && (
+      <div class="td__section">
+        <h2 class="td__section-title">Overview</h2>
+        {item.description.split('\n\n').map(p => (
+          <p class="td__text">{p}</p>
+        ))}
+      </div>
+    )}
+
+    <!-- Related Rods -->
+    {related.length > 0 && (
+      <div class="td__section">
+        <h2 class="td__section-title">Other {item.stage ? `Stage ${item.stage}` : ''} Rods</h2>
+        <div class="td__related">
+          {related.map(r => (
+            <a href={`/games/fisch/rods/${r.id}/`} class="td__rel-card" style={`--card-accent: ${STAGE_COLORS[r.stage || 0] || '#6b7280'}`}>
+              <div class="td__rel-img">
+                {r.imageUrl ? (
+                  <img src={r.imageUrl} alt={r.name} loading="lazy" />
                 ) : (
-                  <span class="cond-row__value">{c.value}</span>
+                  <span class="td__rel-ph">{'\uD83C\uDFA3'}</span>
                 )}
               </div>
-            ))}
-          </div>
-        </section>
-      )}
-
-      <!-- PASSIVE ABILITY -->
-      {item.passive && (
-        <section class="passive-section" id="passive">
-          <h2 class="section-heading">PASSIVE ABILITY</h2>
-          <div class="passive-card">
-            <span class="passive-card__icon">\u2728</span>
-            <p class="passive-card__text">{item.passive}</p>
-          </div>
-        </section>
-      )}
-
-      <!-- DESCRIPTION / OVERVIEW -->
-      {item.description && (
-        <section class="overview" id="overview">
-          <h2 class="section-heading">OVERVIEW</h2>
-          {item.description.split('\n\n').map(p => (
-            <p class="overview__text">{p}</p>
+              <span class="td__rel-name">{r.name}</span>
+              {r.stage && (
+                <span class="td__rel-stage" style={`color: ${STAGE_COLORS[r.stage] || '#6b7280'}`}>Stage {r.stage}</span>
+              )}
+            </a>
           ))}
-        </section>
-      )}
-
-      <!-- QUICK LINKS -->
-      <section class="quick-links">
-        <h2 class="section-heading">Explore More</h2>
-        <div class="quick-links__grid">
-          <a href="/games/fisch/rods/" class="quick-link">
-            <span class="quick-link__icon">\uD83C\uDFA3</span>
-            <span class="quick-link__text">All Fishing Rods</span>
-          </a>
-          <a href="/games/fisch/enchantments/" class="quick-link">
-            <span class="quick-link__icon">\u2728</span>
-            <span class="quick-link__text">Enchantments</span>
-          </a>
-          <a href="/games/fisch/fish/" class="quick-link">
-            <span class="quick-link__icon">\uD83D\uDC1F</span>
-            <span class="quick-link__text">Fish Database</span>
-          </a>
-          <a href="/games/fisch/locations/" class="quick-link">
-            <span class="quick-link__icon">\uD83D\uDCCD</span>
-            <span class="quick-link__text">All Locations</span>
-          </a>
         </div>
-      </section>
-
-      <!-- RELATED RODS -->
-      {related.length > 0 && (
-        <section class="related" id="related">
-          <h2 class="section-heading">Other {item.stage ? `Stage ${item.stage}` : ''} Rods</h2>
-          <div class="related__grid">
-            {related.map(r => (
-              <a href={`/games/fisch/rods/${r.id}/`} class="related__card">
-                <div class="related__img-wrap">
-                  {r.imageUrl ? (
-                    <img src={r.imageUrl} alt={r.name} class="related__img" loading="lazy" />
-                  ) : (
-                    <div class="related__img-placeholder">
-                      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="opacity: 0.3; color: var(--text-dim);">
-                        <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/>
-                      </svg>
-                    </div>
-                  )}
-                </div>
-                <span class="related__name">{r.name}</span>
-                {r.stage && (
-                  <span class="related__stage" style={`color: ${STAGE_COLORS[r.stage] || '#6b7280'}`}>Stage {r.stage}</span>
-                )}
-              </a>
-            ))}
-          </div>
-          <a href="/games/fisch/rods/" class="related__see-all">See all rods &rarr;</a>
-        </section>
-      )}
-    </div>
-
-    <!-- RIGHT: Info sidebar -->
-    <aside class="rd__aside">
-      <!-- Rod image card -->
-      <div class="rd__img-card" data-theme={theme} style={`--r-clr: ${stageColor}`}>
-        {item.imageUrl ? (
-          <img src={item.imageUrl} alt={item.name} class="rd__img-large" />
-        ) : (
-          <div class="rd__img-placeholder" style={`background: ${stageColor}20`}>
-            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style={`opacity: 0.3; color: ${stageColor}`}>
-              <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/>
-            </svg>
-          </div>
-        )}
       </div>
+    )}
 
-      <!-- How to Get accordion (desktop sidebar) -->
-      {item.howToGet && (
-        <details class="htg-accordion htg-accordion--sidebar">
-          <summary class="htg-accordion__toggle">
-            <span class="htg-accordion__icon">\uD83D\uDCD6</span>
-            <span class="htg-accordion__text">How to Get</span>
-            <svg class="htg-accordion__chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 8 10 12 14 8"/></svg>
-          </summary>
-          <div class="htg-accordion__body">
-            {item.howToGet.split('\n\n').map(p => (
-              <p class="htg-accordion__para">{p}</p>
-            ))}
-          </div>
-        </details>
-      )}
-
-      <!-- Quick data table -->
-      <div class="rd__qd">
-        {item.stage && (
-          <div class="rd__qd-row">
-            <span class="rd__qd-label">Stage</span>
-            <span class="rd__qd-value" style={`color: ${stageColor}`}>Stage {item.stage}</span>
-          </div>
-        )}
-        <div class="rd__qd-row">
-          <span class="rd__qd-label">Luck</span>
-          <span class="rd__qd-value" style="color: #22D3EE">{fmtStat(item.luckBonus)}</span>
-        </div>
-        <div class="rd__qd-row">
-          <span class="rd__qd-label">Control</span>
-          <span class="rd__qd-value">{fmtControl(item.control)}</span>
-        </div>
-        <div class="rd__qd-row">
-          <span class="rd__qd-label">Resilience</span>
-          <span class="rd__qd-value">{item.resilience > -1_000_000 ? fmtStat(item.resilience) : '\u221E'}</span>
-        </div>
-        <div class="rd__qd-row">
-          <span class="rd__qd-label">Lure Speed</span>
-          <span class="rd__qd-value">{fmtStat(item.lureSpeed)}</span>
-        </div>
-        {item.obtainedFrom && (
-          <div class="rd__qd-row">
-            <span class="rd__qd-label">Location</span>
-            <span class="rd__qd-value">
-              {locationId ? (
-                <a href={`/games/fisch/locations/#${locationId}`} class="rd__qd-link">{item.obtainedFrom}</a>
-              ) : item.obtainedFrom}
-            </span>
-          </div>
-        )}
-        {item.price && (
-          <div class="rd__qd-row">
-            <span class="rd__qd-label">Price</span>
-            <span class="rd__qd-value">{item.price}</span>
-          </div>
-        )}
-        {item.maxWeight && (
-          <div class="rd__qd-row">
-            <span class="rd__qd-label">Max Weight</span>
-            <span class="rd__qd-value">{item.maxWeight} lb</span>
-          </div>
-        )}
-      </div>
-
-      <!-- Table of contents -->
-      <nav class="rd__toc">
-        <span class="rd__toc-title">ON THIS PAGE</span>
-        <a href="#stats" class="rd__toc-link">Rod Stats</a>
-        {details.length > 0 && <a href="#details" class="rd__toc-link">How to Obtain</a>}
-        {item.passive && <a href="#passive" class="rd__toc-link">Passive Ability</a>}
-        {item.description && <a href="#overview" class="rd__toc-link">Overview</a>}
-        {related.length > 0 && <a href="#related" class="rd__toc-link">Related Rods</a>}
-      </nav>
-    </aside>
+    <a href="/games/fisch/rods/" class="td__back">&larr; All Rods</a>
   </div>
 </GameLayout>
 
 <style>
-  /* ============================================================
-     HERO SLOT ELEMENTS
-     ============================================================ */
+  .td { max-width: 720px; margin: 0 auto; padding: 1rem; }
 
-  .rd__stage-badge {
-    display: inline-block;
-    margin-top: 0.25rem;
-    padding: 0.2rem 0.75rem;
-    border: 1px solid;
-    border-radius: 9999px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
+  /* ---- Hero ---- */
+  .td__hero {
+    display: flex; gap: 1.5rem; align-items: center;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--accent-clr) 12%, transparent), var(--bg-card));
+    border: 1px solid var(--border); border-radius: 16px;
+    padding: 1.5rem; margin-bottom: 1.25rem;
   }
 
-  .rd__type-badge {
-    display: inline-block;
-    margin-top: 0.25rem;
-    margin-left: 0.4rem;
-    padding: 0.2rem 0.75rem;
-    border: 1px solid;
-    border-radius: 9999px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
+  .td__hero-img { flex-shrink: 0; width: 140px; height: 140px; display: flex; align-items: center; justify-content: center; }
+  .td__hero-img img { max-width: 100%; max-height: 100%; object-fit: contain; filter: drop-shadow(0 2px 12px rgba(0,0,0,0.4)); }
+  .td__hero-ph { font-size: 3rem; }
+  .td__hero-info { flex: 1; min-width: 0; }
+
+  .td__badges-top { display: flex; gap: 0.4rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+  .td__source-badge {
+    font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+    padding: 0.15rem 0.55rem; border-radius: 9999px;
+    color: var(--badge-clr); border: 1px solid var(--badge-clr);
+    background: color-mix(in srgb, var(--badge-clr) 12%, transparent);
+  }
+  .td__type-badge {
+    font-size: 0.7rem; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 9999px;
+    color: var(--text-dim); border: 1px solid var(--border); background: rgba(255,255,255,0.03);
   }
 
-  .rd__giant-price {
-    font-family: var(--font-mono);
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    font-weight: 700;
-    color: #22D3EE;
-    margin-top: 0.5rem;
-    text-shadow: 0 0 40px rgba(34, 211, 238, 0.4);
+  .td__title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: #fff; margin: 0 0 0.5rem; }
+
+  .td__value-hero { display: flex; align-items: baseline; gap: 0.4rem; }
+  .td__value-num { font-family: var(--font-mono); font-size: 1.5rem; font-weight: 700; color: #22D3EE; }
+
+  /* ---- Stats Grid ---- */
+  .td__grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem;
+    margin-bottom: 1.25rem;
   }
+  @media (min-width: 640px) { .td__grid { grid-template-columns: repeat(3, 1fr); } }
 
-  /* ============================================================
-     TWO-COLUMN GRID LAYOUT
-     ============================================================ */
-
-  .rd__grid {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+  .td__stat {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 0.75rem 1rem; display: flex; flex-direction: column; gap: 0.2rem;
   }
+  .td__stat-label { font-size: 0.7rem; font-weight: 500; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+  .td__stat-val { font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; color: var(--text); }
+  .td__stat-val--cyan { color: #22D3EE; }
 
-  @media (min-width: 768px) {
-    .rd__grid {
-      display: grid;
-      grid-template-columns: 1fr 280px;
-      gap: 1.5rem;
-      align-items: start;
-    }
+  /* ---- How to Get Accordion ---- */
+  .htg-accordion { border: 1px solid rgba(34, 211, 238, 0.4); border-radius: 12px; background: rgba(34, 211, 238, 0.08); overflow: hidden; margin-bottom: 1.25rem; }
+  .htg-accordion__toggle { display: flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1rem; cursor: pointer; color: #22d3ee; list-style: none; transition: background 0.2s; }
+  .htg-accordion__toggle::-webkit-details-marker { display: none; }
+  .htg-accordion__toggle:hover { background: rgba(34, 211, 238, 0.18); }
+  .htg-accordion__icon { font-size: 1.1rem; flex-shrink: 0; }
+  .htg-accordion__text { font-family: var(--font-display); font-size: 0.95rem; font-weight: 700; letter-spacing: 0.04em; }
+  .htg-accordion__chevron { margin-left: auto; flex-shrink: 0; transition: transform 0.3s ease; }
+  .htg-accordion[open] > .htg-accordion__toggle .htg-accordion__chevron { transform: rotate(180deg); }
+  .htg-accordion__body { padding: 0 1rem 1rem; border-top: 1px solid rgba(34, 211, 238, 0.2); animation: htg-slide-down 0.3s ease; }
+  @keyframes htg-slide-down { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+  .htg-accordion__para { font-size: 0.88rem; color: var(--text-dim); line-height: 1.65; }
+  .htg-accordion__para:first-child { margin-top: 1rem; }
+  .htg-accordion__para + .htg-accordion__para { margin-top: 0.75rem; }
+
+  /* ---- Sections ---- */
+  .td__section { margin-bottom: 1.25rem; }
+  .td__section-title {
+    font-size: 0.85rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: #94a3b8; margin-bottom: 0.75rem;
   }
+  .td__text { font-size: 0.9rem; color: var(--text-dim); line-height: 1.6; margin: 0; }
+  .td__text + .td__text { margin-top: 0.6rem; }
 
-  .rd__main {
-    min-width: 0;
+  /* ---- Passive Ability ---- */
+  .td__passive {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(139, 92, 246, 0.04));
+    border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 12px;
+    padding: 1rem 1.25rem; display: flex; gap: 0.75rem; align-items: flex-start;
   }
+  .td__passive-icon { font-size: 1.3rem; flex-shrink: 0; line-height: 1; }
+  .td__passive-text { font-size: 0.9rem; color: var(--text); line-height: 1.6; margin: 0; }
 
-  .rd__aside {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  /* ---- Related Rods ---- */
+  .td__related {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem;
   }
+  @media (min-width: 640px) { .td__related { grid-template-columns: repeat(3, 1fr); } }
 
-  @media (max-width: 767px) {
-    .rd__aside {
-      order: -1;
-    }
-
-    .rd__img-card {
-      padding: 1rem;
-      background: rgba(15, 29, 53, 0.8);
-    }
-
-    .rd__img-large {
-      max-height: 160px;
-    }
-
-    .rd__toc {
-      display: none;
-    }
+  .td__rel-card {
+    display: flex; flex-direction: column; align-items: center; gap: 0.35rem;
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+    overflow: hidden; text-decoration: none; transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
   }
+  .td__rel-card:hover { border-color: var(--card-accent); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
 
-  @media (min-width: 768px) {
-    .rd__aside {
-      position: sticky;
-      top: calc(var(--topbar-h, 56px) + 1rem);
-    }
-  }
-
-  /* ============================================================
-     SECTION HEADINGS
-     ============================================================ */
-
-  .section-heading {
-    font-family: var(--font-display);
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-  }
-
-  /* ============================================================
-     STATS INFO GRID
-     ============================================================ */
-
-  .info-section {
-    margin-bottom: 1.5rem;
-  }
-
-  .info-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.6rem;
-  }
-
-  @media (min-width: 480px) {
-    .info-grid { grid-template-columns: repeat(3, 1fr); }
-  }
-
-  @media (min-width: 768px) {
-    .info-grid { grid-template-columns: repeat(3, 1fr); }
-  }
-
-  .info-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
+  .td__rel-img {
+    width: 100%; aspect-ratio: 1; display: flex; align-items: center; justify-content: center;
+    background: linear-gradient(180deg, color-mix(in srgb, var(--card-accent) 18%, transparent) 0%, var(--bg-card) 100%);
     padding: 0.75rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.15rem;
-    text-align: center;
-    transition: border-color 0.2s;
+  }
+  .td__rel-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .td__rel-ph { font-size: 2rem; color: var(--text-dim); }
+
+  .td__rel-name {
+    font-size: 0.8rem; font-weight: 600; color: #fff; padding: 0 0.6rem;
+    text-align: center; line-height: 1.3;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%;
+  }
+  .td__rel-stage {
+    font-size: 0.68rem; font-weight: 600; padding-bottom: 0.6rem;
   }
 
-  .info-card:hover {
-    border-color: rgba(6, 214, 160, 0.2);
-  }
-
-  .info-card__icon {
-    font-size: 1.4rem;
-    line-height: 1;
-  }
-
-  .info-card__label {
-    font-size: 0.65rem;
-    font-weight: 500;
-    color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-
-  .info-card__value {
-    font-family: var(--font-display);
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--text);
-    word-break: break-word;
-  }
-
-  /* ============================================================
-     CONDITIONS / DETAILS LIST
-     ============================================================ */
-
-  .conditions {
-    margin-bottom: 1.5rem;
-  }
-
-  .conditions__list {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    overflow: hidden;
-  }
-
-  .cond-row {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 0.7rem 1rem;
-    font-size: 0.88rem;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .cond-row:last-child {
-    border-bottom: none;
-  }
-
-  .cond-row__icon {
-    font-size: 1.1rem;
-    flex-shrink: 0;
-    width: 1.5rem;
-    text-align: center;
-  }
-
-  .cond-row__label {
-    font-weight: 500;
-    color: var(--text-dim);
-    min-width: 80px;
-    flex-shrink: 0;
-  }
-
-  .cond-row__value {
-    font-weight: 600;
-    color: var(--text);
-    flex: 1;
-    text-align: right;
-  }
-
-  .cond-row__link {
-    color: #22d3ee;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.2s;
-  }
-
-  .cond-row__link:hover {
-    color: #fff;
-    text-decoration: underline;
-  }
-
-  /* ============================================================
-     PASSIVE ABILITY
-     ============================================================ */
-
-  .passive-section {
-    margin-bottom: 1.5rem;
-  }
-
-  .passive-card {
-    background: linear-gradient(135deg, rgba(139, 92, 246, 0.12), rgba(139, 92, 246, 0.04));
-    border: 1px solid rgba(139, 92, 246, 0.3);
-    border-radius: 12px;
-    padding: 1rem 1.25rem;
-    display: flex;
-    gap: 0.75rem;
-    align-items: flex-start;
-  }
-
-  .passive-card__icon {
-    font-size: 1.4rem;
-    flex-shrink: 0;
-    line-height: 1;
-  }
-
-  .passive-card__text {
-    font-size: 0.9rem;
-    color: var(--text);
-    line-height: 1.6;
-    margin: 0;
-  }
-
-  /* ============================================================
-     OVERVIEW
-     ============================================================ */
-
-  .overview {
-    margin-bottom: 1.5rem;
-  }
-
-  .overview__text {
-    font-size: 0.9rem;
-    color: var(--text-dim);
-    line-height: 1.7;
-    margin: 0;
-  }
-
-  .overview__text + .overview__text {
-    margin-top: 0.75rem;
-  }
-
-  /* ============================================================
-     QUICK LINKS
-     ============================================================ */
-
-  .quick-links {
-    margin-bottom: 1.5rem;
-  }
-
-  .quick-links__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
-  }
-
-  .quick-link {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.65rem 0.85rem;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    color: var(--text);
-    font-size: 0.82rem;
-    font-weight: 500;
-    text-decoration: none;
-    transition: border-color 0.2s, background 0.2s;
-  }
-
-  .quick-link:hover {
-    border-color: rgba(6, 214, 160, 0.3);
-    background: rgba(6, 214, 160, 0.04);
-  }
-
-  .quick-link__icon {
-    font-size: 1.1rem;
-    flex-shrink: 0;
-  }
-
-  /* ============================================================
-     RELATED RODS
-     ============================================================ */
-
-  .related {
-    margin-bottom: 1.5rem;
-  }
-
-  .related__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.6rem;
-  }
-
-  @media (min-width: 480px) {
-    .related__grid { grid-template-columns: repeat(3, 1fr); }
-  }
-
-  @media (min-width: 768px) {
-    .related__grid { grid-template-columns: repeat(4, 1fr); }
-  }
-
-  .related__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.35rem;
-    padding: 0.75rem 0.5rem;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    text-decoration: none;
-    transition: border-color 0.2s, transform 0.15s;
-    text-align: center;
-  }
-
-  .related__card:hover {
-    border-color: rgba(6, 214, 160, 0.3);
-    transform: translateY(-2px);
-  }
-
-  .related__img-wrap {
-    width: 56px;
-    height: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-  }
-
-  .related__img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-  }
-
-  .related__img-placeholder {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.03);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .related__name {
-    font-size: 0.78rem;
-    font-weight: 600;
-    color: #fff;
-    line-height: 1.2;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  .related__stage {
-    font-size: 0.68rem;
-    font-weight: 600;
-  }
-
-  .related__see-all {
-    display: block;
-    text-align: center;
-    margin-top: 0.75rem;
-    font-size: 0.85rem;
-    color: var(--accent);
-    font-weight: 500;
+  /* ---- Back ---- */
+  .td__back {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    font-size: 0.85rem; color: var(--accent); font-weight: 500;
     transition: opacity 0.2s;
   }
+  .td__back:hover { opacity: 0.8; }
 
-  .related__see-all:hover {
-    opacity: 0.8;
-  }
-
-  /* ============================================================
-     SIDEBAR: ROD IMAGE — stage-themed environment
-     ============================================================ */
-
-  .rd__img-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-    min-height: 200px;
-  }
-
-  .rd__img-card::before {
-    content: '';
-    position: absolute;
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    background: radial-gradient(circle, color-mix(in srgb, var(--r-clr) 22%, transparent) 0%, transparent 70%);
-    animation: rod-glow 4s ease-in-out infinite;
-    pointer-events: none;
-    z-index: 0;
-  }
-
-  .rd__img-card::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    z-index: 0;
-    border-radius: 12px;
-  }
-
-  .rd__img-large {
-    max-width: 100%;
-    max-height: 200px;
-    object-fit: contain;
-    position: relative;
-    z-index: 1;
-    animation: rod-float 3s ease-in-out infinite;
-    filter: drop-shadow(0 4px 16px color-mix(in srgb, var(--r-clr) 25%, transparent));
-    transition: filter 0.3s;
-  }
-
-  .rd__img-card:hover .rd__img-large {
-    animation-play-state: paused;
-    filter: drop-shadow(0 0 28px color-mix(in srgb, var(--r-clr) 55%, transparent));
-  }
-
-  @keyframes rod-float {
-    0%, 100% { transform: translateY(0) rotate(0deg); }
-    50%      { transform: translateY(-8px) rotate(1deg); }
-  }
-
-  @keyframes rod-glow {
-    0%, 100% { opacity: 0.4; transform: scale(1); }
-    50%      { opacity: 0.85; transform: scale(1.35); }
-  }
-
-  .rd__img-placeholder {
-    width: 128px;
-    height: 128px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  /* ---- Theme environments (reuse fish patterns) ---- */
-  [data-theme="water"] {
-    background:
-      radial-gradient(ellipse at 25% 40%, color-mix(in srgb, var(--r-clr) 14%, transparent), transparent 65%),
-      radial-gradient(ellipse at 75% 75%, color-mix(in srgb, var(--r-clr) 10%, transparent), transparent 55%),
-      var(--bg-card);
-  }
-  [data-theme="water"]::after {
-    background: repeating-linear-gradient(175deg, transparent 0px, transparent 28px, color-mix(in srgb, var(--r-clr) 5%, transparent) 29px, transparent 31px);
-    animation: env-drift 10s linear infinite;
-  }
-
-  [data-theme="deep"] {
-    background:
-      radial-gradient(ellipse at 30% 30%, color-mix(in srgb, var(--r-clr) 18%, transparent), transparent 60%),
-      radial-gradient(ellipse at 80% 70%, rgba(59, 130, 246, 0.08), transparent 50%),
-      linear-gradient(180deg, var(--bg-card), color-mix(in srgb, var(--r-clr) 6%, var(--bg-card))),
-      var(--bg-card);
-  }
-  [data-theme="deep"]::after {
-    background: repeating-linear-gradient(172deg, transparent 0px, transparent 22px, color-mix(in srgb, var(--r-clr) 6%, transparent) 23px, transparent 25px);
-    animation: env-drift 12s linear infinite;
-  }
-
-  [data-theme="nature"] {
-    background:
-      radial-gradient(ellipse at 20% 80%, color-mix(in srgb, var(--r-clr) 16%, transparent), transparent 60%),
-      radial-gradient(ellipse at 80% 20%, color-mix(in srgb, var(--r-clr) 10%, transparent), transparent 50%),
-      var(--bg-card);
-  }
-  [data-theme="nature"]::after {
-    background:
-      radial-gradient(circle 40px at 15% 85%, color-mix(in srgb, var(--r-clr) 8%, transparent), transparent),
-      radial-gradient(circle 30px at 85% 15%, color-mix(in srgb, var(--r-clr) 6%, transparent), transparent);
-    animation: env-breathe 6s ease-in-out infinite;
-  }
-
-  [data-theme="flame"] {
-    background:
-      linear-gradient(0deg, color-mix(in srgb, var(--r-clr) 18%, transparent), transparent 55%),
-      radial-gradient(ellipse at 50% 90%, color-mix(in srgb, var(--r-clr) 14%, transparent), transparent 65%),
-      var(--bg-card);
-  }
-  [data-theme="flame"]::after {
-    background:
-      radial-gradient(circle 3px at 20% 75%, var(--r-clr), transparent 4px),
-      radial-gradient(circle 2px at 40% 85%, var(--r-clr), transparent 3px),
-      radial-gradient(circle 2.5px at 60% 70%, var(--r-clr), transparent 4px),
-      radial-gradient(circle 1.5px at 75% 80%, var(--r-clr), transparent 3px);
-    opacity: 0.3;
-    animation: env-rise 3.5s ease-in-out infinite;
-  }
-
-  [data-theme="inferno"] {
-    background:
-      linear-gradient(0deg, color-mix(in srgb, var(--r-clr) 24%, transparent), transparent 50%),
-      radial-gradient(ellipse at 50% 85%, color-mix(in srgb, var(--r-clr) 18%, transparent), transparent 60%),
-      var(--bg-card);
-    border-color: color-mix(in srgb, var(--r-clr) 25%, var(--border));
-  }
-  [data-theme="inferno"]::after {
-    background:
-      radial-gradient(circle 3px at 15% 70%, var(--r-clr), transparent 5px),
-      radial-gradient(circle 2.5px at 30% 85%, var(--r-clr), transparent 4px),
-      radial-gradient(circle 4px at 50% 65%, var(--r-clr), transparent 6px),
-      radial-gradient(circle 2px at 65% 80%, var(--r-clr), transparent 4px),
-      radial-gradient(circle 3px at 80% 70%, var(--r-clr), transparent 5px);
-    opacity: 0.35;
-    animation: env-rise 2.5s ease-in-out infinite;
-  }
-
-  [data-theme="mystic"] {
-    background:
-      radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--r-clr) 12%, transparent), transparent 65%),
-      conic-gradient(from 0deg at 50% 50%, transparent, color-mix(in srgb, var(--r-clr) 6%, transparent) 25%, transparent 50%),
-      var(--bg-card);
-  }
-  [data-theme="mystic"]::after {
-    inset: -30%;
-    background: conic-gradient(from 0deg at 50% 50%, transparent 0deg, color-mix(in srgb, var(--r-clr) 7%, transparent) 60deg, transparent 120deg, color-mix(in srgb, var(--r-clr) 5%, transparent) 200deg, transparent 260deg, color-mix(in srgb, var(--r-clr) 6%, transparent) 320deg, transparent 360deg);
-    animation: env-swirl 25s linear infinite;
-    border-radius: 0;
-  }
-
-  [data-theme="cosmic"] {
-    background:
-      radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--r-clr) 10%, transparent), transparent 60%),
-      radial-gradient(circle at 20% 30%, color-mix(in srgb, var(--r-clr) 6%, transparent), transparent 40%),
-      var(--bg-card);
-  }
-  [data-theme="cosmic"]::after {
-    background:
-      radial-gradient(circle 1.5px at 12% 20%, var(--r-clr), transparent 2px),
-      radial-gradient(circle 1px at 88% 15%, var(--r-clr), transparent 2px),
-      radial-gradient(circle 2px at 45% 82%, var(--r-clr), transparent 3px),
-      radial-gradient(circle 1px at 72% 50%, var(--r-clr), transparent 2px),
-      radial-gradient(circle 1.5px at 22% 68%, var(--r-clr), transparent 2px);
-    animation: env-twinkle 3s ease-in-out infinite alternate;
-  }
-
-  [data-theme="crystal"] {
-    background:
-      linear-gradient(135deg, color-mix(in srgb, var(--r-clr) 10%, transparent), transparent 30%, rgba(168, 85, 247, 0.06) 50%, transparent 70%, color-mix(in srgb, var(--r-clr) 8%, transparent)),
-      radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--r-clr) 12%, transparent), transparent 60%),
-      var(--bg-card);
-    border-color: color-mix(in srgb, var(--r-clr) 20%, var(--border));
-  }
-  [data-theme="crystal"]::after {
-    background: linear-gradient(135deg, transparent 40%, color-mix(in srgb, var(--r-clr) 12%, transparent) 50%, transparent 60%);
-    background-size: 200% 200%;
-    animation: env-shimmer 4s ease-in-out infinite;
-  }
-
-  [data-theme="electric"] {
-    background:
-      radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--r-clr) 15%, transparent), transparent 55%),
-      var(--bg-card);
-    border-color: color-mix(in srgb, var(--r-clr) 18%, var(--border));
-  }
-  [data-theme="electric"]::after {
-    background:
-      linear-gradient(90deg, transparent 48%, color-mix(in srgb, var(--r-clr) 15%, transparent) 50%, transparent 52%),
-      linear-gradient(0deg, transparent 48%, color-mix(in srgb, var(--r-clr) 10%, transparent) 50%, transparent 52%);
-    animation: env-pulse 2s ease-in-out infinite;
-  }
-
-  [data-theme="divine"] {
-    background:
-      radial-gradient(circle at 50% 30%, color-mix(in srgb, var(--r-clr) 20%, transparent), transparent 60%),
-      linear-gradient(180deg, color-mix(in srgb, var(--r-clr) 8%, transparent), transparent 70%),
-      var(--bg-card);
-    border-color: color-mix(in srgb, var(--r-clr) 30%, var(--border));
-  }
-  [data-theme="divine"]::after {
-    inset: -50%;
-    background: conic-gradient(from 0deg at 50% 50%, transparent 0deg, color-mix(in srgb, var(--r-clr) 10%, transparent) 15deg, transparent 30deg, color-mix(in srgb, var(--r-clr) 8%, transparent) 55deg, transparent 70deg, color-mix(in srgb, var(--r-clr) 10%, transparent) 100deg, transparent 115deg, color-mix(in srgb, var(--r-clr) 7%, transparent) 145deg, transparent 160deg, color-mix(in srgb, var(--r-clr) 9%, transparent) 195deg, transparent 210deg, color-mix(in srgb, var(--r-clr) 10%, transparent) 245deg, transparent 260deg);
-    animation: env-swirl 40s linear infinite;
-    border-radius: 0;
-  }
-
-  @keyframes env-drift {
-    from { transform: translate(-30px, 0); }
-    to   { transform: translate(0, -15px); }
-  }
-  @keyframes env-breathe {
-    0%, 100% { opacity: 0.5; transform: scale(1); }
-    50%      { opacity: 1;   transform: scale(1.15); }
-  }
-  @keyframes env-rise {
-    0%   { transform: translateY(0);     opacity: 0.35; }
-    60%  { transform: translateY(-25px); opacity: 0.5; }
-    100% { transform: translateY(-50px); opacity: 0; }
-  }
-  @keyframes env-swirl {
-    from { transform: rotate(0deg); }
-    to   { transform: rotate(360deg); }
-  }
-  @keyframes env-twinkle {
-    0%   { opacity: 0.15; }
-    33%  { opacity: 0.55; }
-    66%  { opacity: 0.2; }
-    100% { opacity: 0.6; }
-  }
-  @keyframes env-shimmer {
-    0%   { background-position: 200% 200%; }
-    50%  { background-position: 0% 0%; }
-    100% { background-position: 200% 200%; }
-  }
-  @keyframes env-pulse {
-    0%, 100% { opacity: 0.15; }
-    50%      { opacity: 0.45; }
-  }
-
-  /* ============================================================
-     SIDEBAR: QUICK DATA TABLE
-     ============================================================ */
-
-  .rd__qd {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    overflow: hidden;
-  }
-
-  .rd__qd-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.6rem 1rem;
-    border-bottom: 1px solid var(--border);
-    font-size: 0.85rem;
-  }
-
-  .rd__qd-row:last-child {
-    border-bottom: none;
-  }
-
-  .rd__qd-label {
-    color: var(--text-dim);
-    font-weight: 500;
-  }
-
-  .rd__qd-value {
-    font-weight: 600;
-    color: var(--text);
-    text-align: right;
-  }
-
-  .rd__qd-link {
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.2s;
-  }
-
-  .rd__qd-link:hover {
-    color: #fff;
-    text-decoration: underline;
-  }
-
-  /* ============================================================
-     SIDEBAR: TABLE OF CONTENTS
-     ============================================================ */
-
-  .rd__toc {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-  }
-
-  .rd__toc-title {
-    font-size: 0.65rem;
-    font-weight: 600;
-    color: var(--text-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.4rem;
-  }
-
-  .rd__toc-link {
-    font-size: 0.82rem;
-    color: var(--text-dim);
-    text-decoration: none;
-    padding: 0.2rem 0;
-    transition: color 0.2s;
-  }
-
-  .rd__toc-link:hover {
-    color: var(--accent);
-  }
-
-  /* ============================================================
-     HOW TO GET ACCORDION (shared between mobile & sidebar)
-     ============================================================ */
-
-  .htg-accordion {
-    border: 1px solid rgba(34, 211, 238, 0.4);
-    border-radius: 12px;
-    background: rgba(34, 211, 238, 0.08);
-    overflow: hidden;
-  }
-
-  .htg-accordion__toggle {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.75rem 1rem;
-    cursor: pointer;
-    color: #22d3ee;
-    list-style: none;
-    transition: background 0.2s;
-  }
-
-  .htg-accordion__toggle::-webkit-details-marker {
-    display: none;
-  }
-
-  .htg-accordion__toggle:hover {
-    background: rgba(34, 211, 238, 0.18);
-  }
-
-  .htg-accordion__icon {
-    font-size: 1.1rem;
-    flex-shrink: 0;
-  }
-
-  .htg-accordion__text {
-    font-family: var(--font-display);
-    font-size: 0.95rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-  }
-
-  .htg-accordion__chevron {
-    margin-left: auto;
-    flex-shrink: 0;
-    transition: transform 0.3s ease;
-  }
-
-  .htg-accordion[open] > .htg-accordion__toggle .htg-accordion__chevron {
-    transform: rotate(180deg);
-  }
-
-  .htg-accordion__body {
-    padding: 0 1rem 1rem;
-    border-top: 1px solid rgba(34, 211, 238, 0.2);
-    animation: htg-slide-down 0.3s ease;
-  }
-
-  @keyframes htg-slide-down {
-    from { opacity: 0; transform: translateY(-8px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-
-  .htg-accordion__para {
-    font-size: 0.88rem;
-    color: var(--text-dim);
-    line-height: 1.65;
-  }
-
-  .htg-accordion__para:first-child {
-    margin-top: 1rem;
-  }
-
-  .htg-accordion__para + .htg-accordion__para {
-    margin-top: 0.75rem;
-  }
-
-  /* Mobile: show mobile accordion, hide sidebar one */
-  .htg-mobile-wrap {
-    margin-bottom: 1rem;
-  }
-
-  .htg-accordion--sidebar {
-    display: none;
-  }
-
-  @media (min-width: 768px) {
-    .htg-mobile-wrap {
-      display: none;
-    }
-
-    .htg-accordion--sidebar {
-      display: block;
-    }
-  }
-
-  /* ============================================================
-     MOBILE ADJUSTMENTS
-     ============================================================ */
-
-  @media (max-width: 767px) {
-    .section-heading {
-      font-size: 1rem;
-    }
-
-    .info-card__value {
-      font-size: 0.9rem;
-    }
-
-    .overview__text {
-      font-size: 0.95rem;
-    }
-
-    .htg-accordion__toggle {
-      min-height: 48px;
-    }
-
-    .htg-accordion__text {
-      font-size: 1rem;
-    }
-
-    .htg-accordion__para {
-      font-size: 1rem;
-      line-height: 1.7;
-    }
-
-    .quick-links__grid {
-      grid-template-columns: 1fr;
-    }
-
-    .related__grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
+  /* ---- Mobile ---- */
+  @media (max-width: 639px) {
+    .td__hero { flex-direction: column; text-align: center; padding: 1rem; }
+    .td__hero-img { width: 120px; height: 120px; }
+    .td__badges-top { justify-content: center; }
+    .td__value-hero { justify-content: center; }
+    .td__title { font-size: 1.25rem; }
+    .td__value-num { font-size: 1.25rem; }
+    .htg-accordion__toggle { min-height: 48px; }
+    .htg-accordion__text { font-size: 1rem; }
+    .htg-accordion__para { font-size: 1rem; line-height: 1.7; }
+    .htg-accordion__para + .htg-accordion__para { margin-top: 1rem; }
   }
 </style>
