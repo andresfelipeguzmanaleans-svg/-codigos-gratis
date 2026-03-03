@@ -55,5 +55,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add scraper-fisch/data/
+          git add src/data/games/fisch/
           git diff --staged --quiet || git commit -m "data: actualizacion Fisch $(date +%Y-%m-%d) (${{ steps.detect.outputs.summary }})"
           git push

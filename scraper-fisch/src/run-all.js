@@ -284,36 +284,83 @@ async function main() {
   console.log('  ════════════════════════════════════════');
   console.log('');
 
-  // ---- Save errors log ----
-  const errorsFile = path.join(DATA_DIR, 'scrape-errors.json');
-  const errorsLog = {
+  // ---- Always copy to Astro (even if some steps failed) ----
+  console.log('');
+  console.log('  Copiando datos a Astro...');
+  let copyOk = false;
+  try {
+    require('./copy-to-astro');
+    copyOk = true;
+    console.log('  [OK] Datos copiados a src/data/games/fisch/');
+  } catch (err) {
+    console.error(`  [ERROR] copy-to-astro: ${err.message}`);
+    errors.push({
+      step: 'copy-to-astro',
+      script: 'src/copy-to-astro.js',
+      error: err.message,
+      stdout: '',
+      stderr: err.stack || '',
+      elapsed: 0,
+    });
+  }
+
+  // ---- Save errors/run log (always, even on success) ----
+  const logFile = path.join(DATA_DIR, 'scrape-log.json');
+  const runLog = {
     timestamp: new Date().toISOString(),
     totalSteps: total,
     ok: okCount,
     skipped: skipCount,
     errors: errorCount,
+    copyToAstro: copyOk ? 'ok' : 'error',
     totalElapsed,
-    details: errors,
     stepResults: results,
+    errorDetails: errors.length > 0 ? errors : undefined,
   };
-  fs.writeFileSync(errorsFile, JSON.stringify(errorsLog, null, 2));
+  fs.writeFileSync(logFile, JSON.stringify(runLog, null, 2));
+
+  // Also append to history log (keeps last 30 runs)
+  const historyFile = path.join(DATA_DIR, 'scrape-history.json');
+  let history = [];
+  try {
+    if (fs.existsSync(historyFile)) {
+      history = JSON.parse(fs.readFileSync(historyFile, 'utf8'));
+    }
+  } catch { /* ignore */ }
+  history.push({
+    timestamp: runLog.timestamp,
+    ok: okCount,
+    skipped: skipCount,
+    errors: errorCount,
+    copyToAstro: runLog.copyToAstro,
+    elapsed: totalElapsed,
+  });
+  if (history.length > 30) history = history.slice(-30);
+  fs.writeFileSync(historyFile, JSON.stringify(history, null, 2));
+
+  console.log('  ════════════════════════════════════════');
+  console.log(`  Log guardado en data/scrape-log.json`);
+  console.log('  ════════════════════════════════════════');
+  console.log('');
 
   if (errorCount > 0) {
-    process.exit(1);
-  }
-
-  // ---- Copy to Astro ----
-  console.log('  Copiando datos a Astro...');
-  try {
-    require('./copy-to-astro');
-    console.log('  ════════════════════════════════════════');
-    console.log('');
-  } catch (err) {
-    console.error('  [ERROR] copy-to-astro:', err.message);
+    console.log(`  [WARN] ${errorCount} pasos fallaron. Revisa scrape-log.json`);
+    // Exit 0 anyway so the workflow can commit partial data
+    // The log file tracks errors for review
   }
 }
 
 main().catch(err => {
   console.error('Fatal:', err);
+  // Save crash log
+  const crashFile = path.join(DATA_DIR, 'scrape-log.json');
+  try {
+    fs.writeFileSync(crashFile, JSON.stringify({
+      timestamp: new Date().toISOString(),
+      fatal: true,
+      error: err.message,
+      stack: err.stack,
+    }, null, 2));
+  } catch { /* ignore */ }
   process.exit(1);
 });

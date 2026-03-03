@@ -26,12 +26,27 @@ jobs:
         working-directory: scraper-fisch
 
       - name: Update price history
+        id: scrape
         run: node scraper-fisch/src/sources/update-price-history.js
+        continue-on-error: true
+
+      - name: Copy to Astro (enrich items with new price data)
+        if: steps.scrape.outcome == 'success'
+        run: node scraper-fisch/src/copy-to-astro.js
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add scraper-fisch/data/price-history.json
-          git diff --staged --quiet || git commit -m "data: price history $(date +%Y-%m-%d)"
-          git push
+          git add src/data/games/fisch/
+          if ! git diff --staged --quiet; then
+            git commit -m "data: price history $(date +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Log failure
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "::error::Price history scrape failed"
+          exit 1
