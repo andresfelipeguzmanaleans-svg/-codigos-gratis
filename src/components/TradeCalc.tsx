@@ -1,6 +1,8 @@
 import { useState, useMemo, useCallback, useRef, useEffect } from 'react';
 
-// ---------- Types ----------
+/* ================================================================
+   Types
+   ================================================================ */
 
 export interface SlimFish {
   id: string;
@@ -10,6 +12,7 @@ export interface SlimFish {
   baseWeight: number;
   weightMin: number;
   weightMax: number;
+  imageUrl?: string | null;
 }
 
 export interface SlimMutation {
@@ -19,37 +22,68 @@ export interface SlimMutation {
   category: string;
 }
 
+export interface TradeItem {
+  id: string;
+  name: string;
+  rarity: string;
+  value: number;
+  imageUrl?: string | null;
+  itemType: 'boat' | 'rod_skin';
+}
+
 interface Props {
   fish: SlimFish[];
   mutations: SlimMutation[];
+  tradeItems: TradeItem[];
 }
+
+type Category = 'all' | 'fish' | 'boat' | 'rod_skin';
 
 interface TradeEntry {
   key: number;
+  type: 'fish' | 'item';
+  // fish fields
   fishId: string;
   weight: string;
   mutationId: string;
+  // item fields
+  itemId: string;
+  qty: number;
 }
 
 interface HistoryEntry {
-  yourTotal: number;
-  theirTotal: number;
-  result: 'WIN' | 'FAIR' | 'LOSE';
+  offerTotal: number;
+  requestTotal: number;
+  verdict: 'PROFIT' | 'BALANCED' | 'OVERPAY';
   diff: number;
-  timestamp: number;
+  ts: number;
 }
 
-// ---------- Constants ----------
+/* ================================================================
+   Constants
+   ================================================================ */
 
 const RARITY_COLORS: Record<string, string> = {
-  'Trash': '#71717a', 'Common': '#9ca3af', 'Uncommon': '#22c55e', 'Unusual': '#34d39e',
-  'Rare': '#3b82f6', 'Legendary': '#f59e0b', 'Mythical': '#a855f7', 'Exotic': '#ec4899',
-  'Limited': '#ef4444', 'Special': '#06b6d4', 'Secret': '#fbbf24', 'Divine Secret': '#fde68a',
-  'Apex': '#f43f5e', 'Extinct': '#a8a29e', 'Relic': '#c084fc', 'Gemstone': '#2dd4bf',
-  'Fragment': '#67e8f9',
+  Trash: '#71717a', Common: '#9ca3af', Uncommon: '#22c55e', Unusual: '#34d39e',
+  Rare: '#3b82f6', Legendary: '#f59e0b', Mythical: '#a855f7', Exotic: '#ec4899',
+  Limited: '#ef4444', Special: '#06b6d4', Secret: '#fbbf24', 'Divine Secret': '#fde68a',
+  Apex: '#f43f5e', Extinct: '#a8a29e', Relic: '#c084fc', Gemstone: '#2dd4bf',
+  Fragment: '#67e8f9', Regular: '#3b82f6', Robux: '#22c55e', Code: '#f59e0b',
+  Egg: '#ec4899', Merch: '#a855f7', DLC: '#14b8a6', Event: '#f43f5e',
+  Exclusive: '#fbbf24', Challenge: '#06b6d4', 'Pirate Faction': '#f97316',
+  'Friend Quest': '#8b5cf6', 'Skin Merchant': '#c084fc',
 };
 
-function fmtC(n: number): string {
+const RARITY_GRADIENTS: Record<string, string> = {
+  Limited: 'linear-gradient(135deg, rgba(239,68,68,0.15), rgba(249,115,22,0.08))',
+  Robux: 'linear-gradient(135deg, rgba(34,197,94,0.15), rgba(6,182,212,0.08))',
+  Exclusive: 'linear-gradient(135deg, rgba(251,191,36,0.15), rgba(236,72,153,0.08))',
+  Legendary: 'linear-gradient(135deg, rgba(245,158,11,0.15), rgba(234,179,8,0.08))',
+  Mythical: 'linear-gradient(135deg, rgba(168,85,247,0.15), rgba(139,92,246,0.08))',
+  'Divine Secret': 'linear-gradient(135deg, rgba(253,230,138,0.15), rgba(251,191,36,0.08))',
+};
+
+function fmt(n: number): string {
   if (n >= 1e12) return `${(n / 1e12).toFixed(1)}T`;
   if (n >= 1e9) return `${(n / 1e9).toFixed(1)}B`;
   if (n >= 1e6) return `${(n / 1e6).toFixed(1)}M`;
@@ -57,39 +91,52 @@ function fmtC(n: number): string {
   return n.toLocaleString('en-US');
 }
 
-// ---------- Helpers ----------
+/* ================================================================
+   Entry value calculation
+   ================================================================ */
 
-function calcEntryValue(
+function calcValue(
   entry: TradeEntry,
   fishMap: Map<string, SlimFish>,
+  itemMap: Map<string, TradeItem>,
   mutations: SlimMutation[],
 ): number {
+  if (entry.type === 'item') {
+    const item = itemMap.get(entry.itemId);
+    return item ? item.value * entry.qty : 0;
+  }
+  // fish
   if (!entry.fishId) return 0;
   const f = fishMap.get(entry.fishId);
   if (!f) return 0;
   const w = parseFloat(entry.weight) || 0;
   if (w <= 0) return 0;
   const mut = mutations.find(m => m.id === entry.mutationId);
-  const mult = mut ? mut.multiplier : 1;
-  return f.baseValue * w * mult;
+  return f.baseValue * w * (mut ? mut.multiplier : 1);
 }
 
 function makeEntry(key: number): TradeEntry {
-  return { key, fishId: '', weight: '', mutationId: 'none' };
+  return { key, type: 'fish', fishId: '', weight: '', mutationId: 'none', itemId: '', qty: 1 };
 }
 
-// ---------- FishSearch sub-component ----------
+/* ================================================================
+   Unified Item Picker
+   ================================================================ */
 
-interface FishSearchProps {
+interface PickerProps {
   fish: SlimFish[];
-  selectedId: string;
-  onSelect: (fishId: string) => void;
-  idPrefix: string;
+  tradeItems: TradeItem[];
+  onSelectFish: (id: string) => void;
+  onSelectItem: (id: string) => void;
+  selectedFishId: string;
+  selectedItemId: string;
+  entryType: 'fish' | 'item';
 }
 
-function FishSearch({ fish, selectedId, onSelect, idPrefix }: FishSearchProps) {
+function ItemPicker({ fish, tradeItems, onSelectFish, onSelectItem, selectedFishId, selectedItemId, entryType }: PickerProps) {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
+  const [cat, setCat] = useState<Category>('all');
   const wrapRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -100,327 +147,409 @@ function FishSearch({ fish, selectedId, onSelect, idPrefix }: FishSearchProps) {
     return () => document.removeEventListener('mousedown', handle);
   }, [open]);
 
-  const filtered = useMemo(() => {
-    const q = query.toLowerCase().trim();
-    if (!q) return fish.slice(0, 30);
-    return fish.filter(f => f.name.toLowerCase().includes(q)).slice(0, 30);
-  }, [fish, query]);
+  // Build unified list
+  const allItems = useMemo(() => {
+    const items: { id: string; name: string; rarity: string; value: number; unit: string; type: 'fish' | 'boat' | 'rod_skin'; imageUrl?: string | null }[] = [];
+    fish.forEach(f => items.push({ id: f.id, name: f.name, rarity: f.rarity, value: f.baseValue, unit: 'C$/kg', type: 'fish', imageUrl: f.imageUrl }));
+    tradeItems.forEach(t => items.push({ id: t.id, name: t.name, rarity: t.rarity, value: t.value, unit: 'ER', type: t.itemType, imageUrl: t.imageUrl }));
+    return items;
+  }, [fish, tradeItems]);
 
-  const selectedFish = useMemo(
-    () => (selectedId ? fish.find(f => f.id === selectedId) : null),
-    [fish, selectedId],
-  );
+  const filtered = useMemo(() => {
+    let list = allItems;
+    if (cat !== 'all') list = list.filter(i => i.type === cat);
+    const q = query.toLowerCase().trim();
+    if (q) list = list.filter(i => i.name.toLowerCase().includes(q));
+    return list.slice(0, 40);
+  }, [allItems, cat, query]);
+
+  // Selected display name
+  const selectedName = useMemo(() => {
+    if (entryType === 'fish' && selectedFishId) {
+      const f = fish.find(x => x.id === selectedFishId);
+      return f?.name || '';
+    }
+    if (entryType === 'item' && selectedItemId) {
+      const t = tradeItems.find(x => x.id === selectedItemId);
+      return t?.name || '';
+    }
+    return '';
+  }, [entryType, selectedFishId, selectedItemId, fish, tradeItems]);
+
+  const handleSelect = (item: typeof allItems[0]) => {
+    if (item.type === 'fish') {
+      onSelectFish(item.id);
+    } else {
+      onSelectItem(item.id);
+    }
+    setOpen(false);
+    setQuery('');
+  };
+
+  const categories: { key: Category; label: string }[] = [
+    { key: 'all', label: 'All' },
+    { key: 'fish', label: 'Fish' },
+    { key: 'boat', label: 'Boats' },
+    { key: 'rod_skin', label: 'Rod Skins' },
+  ];
 
   return (
-    <div className="tc__fish-search" ref={wrapRef}>
+    <div className="tc2__picker" ref={wrapRef}>
       <input
-        className="tc__fish-input"
+        className="tc2__picker-input"
         type="text"
-        placeholder="Search fish..."
-        value={open ? query : (selectedFish?.name || '')}
+        placeholder="Search items..."
+        value={open ? query : selectedName}
         onFocus={() => { setOpen(true); setQuery(''); }}
         onChange={e => setQuery(e.target.value)}
       />
       {open && (
-        <div className="tc__fish-dropdown">
-          {filtered.map(f => (
-            <div
-              key={f.id}
-              className={`tc__fish-option${f.id === selectedId ? ' tc__fish-option--sel' : ''}`}
-              onMouseDown={() => { onSelect(f.id); setOpen(false); setQuery(''); }}
-            >
-              <span className="tc__fish-dot" style={{ background: RARITY_COLORS[f.rarity] || '#888' }} />
-              <span className="tc__fish-option-name">{f.name}</span>
-              <span className="tc__fish-option-val">{f.baseValue.toLocaleString('en-US')} C$/kg</span>
-            </div>
-          ))}
-          {filtered.length === 0 && (
-            <div className="tc__fish-no-match">No fish found</div>
-          )}
+        <div className="tc2__picker-dropdown">
+          <div className="tc2__picker-tabs">
+            {categories.map(c => (
+              <button
+                key={c.key}
+                className={`tc2__picker-tab${cat === c.key ? ' tc2__picker-tab--active' : ''}`}
+                onMouseDown={e => { e.preventDefault(); setCat(c.key); }}
+                type="button"
+              >{c.label}</button>
+            ))}
+          </div>
+          <div className="tc2__picker-list">
+            {filtered.map(item => (
+              <div
+                key={`${item.type}-${item.id}`}
+                className="tc2__picker-item"
+                style={{ background: RARITY_GRADIENTS[item.rarity] || 'transparent' }}
+                onMouseDown={() => handleSelect(item)}
+              >
+                {item.imageUrl ? (
+                  <img className="tc2__picker-img" src={item.imageUrl} alt="" width="28" height="28" loading="lazy" />
+                ) : (
+                  <span className="tc2__picker-dot" style={{ background: RARITY_COLORS[item.rarity] || '#888' }} />
+                )}
+                <span className="tc2__picker-name">{item.name}</span>
+                <span className="tc2__picker-meta">
+                  <span className="tc2__picker-val">{fmt(item.value)}</span>
+                  <span className="tc2__picker-unit">{item.unit}</span>
+                </span>
+              </div>
+            ))}
+            {filtered.length === 0 && <div className="tc2__picker-empty">No items found</div>}
+          </div>
         </div>
       )}
     </div>
   );
 }
 
-// ---------- TradeEntryRow sub-component ----------
+/* ================================================================
+   Trade Entry Card
+   ================================================================ */
 
-interface TradeEntryRowProps {
+interface EntryCardProps {
   entry: TradeEntry;
   fish: SlimFish[];
   fishMap: Map<string, SlimFish>;
+  itemMap: Map<string, TradeItem>;
+  tradeItems: TradeItem[];
   sortedMutations: SlimMutation[];
   onChange: (field: Partial<TradeEntry>) => void;
   onRemove: () => void;
   canRemove: boolean;
-  idPrefix: string;
+  value: number;
 }
 
-function TradeEntryRow({
-  entry, fish, fishMap, sortedMutations, onChange, onRemove, canRemove, idPrefix,
-}: TradeEntryRowProps) {
-  const selectedFish = entry.fishId ? fishMap.get(entry.fishId) : null;
-  const entryValue = calcEntryValue(entry, fishMap, sortedMutations);
+function EntryCard({ entry, fish, fishMap, itemMap, tradeItems, sortedMutations, onChange, onRemove, canRemove, value }: EntryCardProps) {
+  const selectedFish = entry.type === 'fish' ? fishMap.get(entry.fishId) : null;
+  const selectedItem = entry.type === 'item' ? itemMap.get(entry.itemId) : null;
+  const selected = selectedFish || selectedItem;
+  const rarity = selectedFish?.rarity || selectedItem?.rarity || '';
+  const bgGradient = RARITY_GRADIENTS[rarity] || 'transparent';
+
+  const handleSelectFish = (id: string) => {
+    const f = fish.find(x => x.id === id);
+    onChange({ type: 'fish', fishId: id, itemId: '', weight: f ? f.baseWeight.toString() : '', qty: 1 });
+  };
+
+  const handleSelectItem = (id: string) => {
+    onChange({ type: 'item', itemId: id, fishId: '', weight: '', mutationId: 'none', qty: 1 });
+  };
 
   return (
-    <div className="tc__entry">
-      <div className="tc__entry-top">
-        <FishSearch
+    <div className="tc2__card" style={{ background: selected ? bgGradient : undefined }}>
+      <div className="tc2__card-top">
+        <ItemPicker
           fish={fish}
-          selectedId={entry.fishId}
-          onSelect={(id) => onChange({ fishId: id })}
-          idPrefix={idPrefix}
+          tradeItems={tradeItems}
+          onSelectFish={handleSelectFish}
+          onSelectItem={handleSelectItem}
+          selectedFishId={entry.fishId}
+          selectedItemId={entry.itemId}
+          entryType={entry.type}
         />
         {canRemove && (
-          <button className="tc__entry-remove" onClick={onRemove} type="button" title="Remove">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          <button className="tc2__card-remove" onClick={onRemove} type="button" title="Remove">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
           </button>
         )}
       </div>
 
-      <div className="tc__entry-fields">
-        <div className="tc__field">
-          <label className="tc__field-label">Weight (kg)</label>
-          <input
-            className="tc__field-input"
-            type="number"
-            min={selectedFish?.weightMin ?? 0}
-            max={selectedFish?.weightMax ?? 999999999}
-            step="0.1"
-            value={entry.weight}
-            placeholder={selectedFish ? `${selectedFish.weightMin} – ${selectedFish.weightMax}` : '—'}
-            onChange={e => onChange({ weight: e.target.value })}
-          />
+      {/* Fish-specific: weight + mutation */}
+      {entry.type === 'fish' && entry.fishId && (
+        <div className="tc2__card-fields">
+          <div className="tc2__field">
+            <label className="tc2__field-label">Weight (kg)</label>
+            <input
+              className="tc2__field-input"
+              type="number"
+              min={selectedFish?.weightMin ?? 0}
+              max={selectedFish?.weightMax ?? 999999999}
+              step="0.1"
+              value={entry.weight}
+              placeholder={selectedFish ? `${selectedFish.weightMin}–${selectedFish.weightMax}` : '—'}
+              onChange={e => onChange({ weight: e.target.value })}
+            />
+          </div>
+          <div className="tc2__field">
+            <label className="tc2__field-label">Mutation</label>
+            <select
+              className="tc2__field-select"
+              value={entry.mutationId}
+              onChange={e => onChange({ mutationId: e.target.value })}
+            >
+              <option value="none">None (1x)</option>
+              {sortedMutations.map(m => (
+                <option key={m.id} value={m.id}>{m.name} ({m.multiplier}x)</option>
+              ))}
+            </select>
+          </div>
         </div>
+      )}
 
-        <div className="tc__field">
-          <label className="tc__field-label">Mutation</label>
-          <select
-            className="tc__field-select"
-            value={entry.mutationId}
-            onChange={e => onChange({ mutationId: e.target.value })}
-          >
-            <option value="none">None (1x)</option>
-            {sortedMutations.map(m => (
-              <option key={m.id} value={m.id}>
-                {m.name} ({m.multiplier}x)
-              </option>
-            ))}
-          </select>
+      {/* Item-specific: quantity */}
+      {entry.type === 'item' && entry.itemId && (
+        <div className="tc2__card-qty">
+          <span className="tc2__field-label">Qty</span>
+          <div className="tc2__qty-ctrl">
+            <button
+              className="tc2__qty-btn"
+              type="button"
+              disabled={entry.qty <= 1}
+              onClick={() => onChange({ qty: Math.max(1, entry.qty - 1) })}
+            >−</button>
+            <span className="tc2__qty-val">{entry.qty}</span>
+            <button
+              className="tc2__qty-btn"
+              type="button"
+              disabled={entry.qty >= 4}
+              onClick={() => onChange({ qty: Math.min(4, entry.qty + 1) })}
+            >+</button>
+          </div>
         </div>
-      </div>
+      )}
 
-      {entryValue > 0 && (
-        <div className="tc__entry-value">
-          = <span className="tc__entry-value-num">{fmtC(entryValue)} C$</span>
+      {/* Value display */}
+      {value > 0 && (
+        <div className="tc2__card-value">
+          <span className="tc2__card-value-num">{fmt(value)}</span>
+          <span className="tc2__card-value-unit">{entry.type === 'fish' ? 'C$' : 'ER'}</span>
         </div>
       )}
     </div>
   );
 }
 
-// ---------- Main component ----------
+/* ================================================================
+   Main Calculator
+   ================================================================ */
 
-export default function TradeCalc({ fish, mutations }: Props) {
-  const nextKeyRef = useRef(2);
-
-  const [yourItems, setYourItems] = useState<TradeEntry[]>([makeEntry(0)]);
-  const [theirItems, setTheirItems] = useState<TradeEntry[]>([makeEntry(1)]);
+export default function TradeCalc({ fish, mutations, tradeItems }: Props) {
+  const nextKey = useRef(2);
+  const [offer, setOffer] = useState<TradeEntry[]>([makeEntry(0)]);
+  const [request, setRequest] = useState<TradeEntry[]>([makeEntry(1)]);
   const [history, setHistory] = useState<HistoryEntry[]>([]);
 
-  const sortedMutations = useMemo(
-    () => [...mutations].sort((a, b) => b.multiplier - a.multiplier),
-    [mutations],
-  );
+  const sortedMut = useMemo(() => [...mutations].sort((a, b) => b.multiplier - a.multiplier), [mutations]);
+  const fishMap = useMemo(() => new Map(fish.map(f => [f.id, f])), [fish]);
+  const itemMap = useMemo(() => new Map(tradeItems.map(t => [t.id, t])), [tradeItems]);
 
-  const fishMap = useMemo(
-    () => new Map(fish.map(f => [f.id, f])),
-    [fish],
-  );
+  const calcSide = useCallback((entries: TradeEntry[]) =>
+    entries.reduce((s, e) => s + calcValue(e, fishMap, itemMap, sortedMut), 0),
+    [fishMap, itemMap, sortedMut]);
 
-  // --- Totals ---
-  const yourTotal = useMemo(
-    () => yourItems.reduce((s, e) => s + calcEntryValue(e, fishMap, sortedMutations), 0),
-    [yourItems, fishMap, sortedMutations],
-  );
+  const offerTotal = useMemo(() => calcSide(offer), [offer, calcSide]);
+  const requestTotal = useMemo(() => calcSide(request), [request, calcSide]);
 
-  const theirTotal = useMemo(
-    () => theirItems.reduce((s, e) => s + calcEntryValue(e, fishMap, sortedMutations), 0),
-    [theirItems, fishMap, sortedMutations],
-  );
+  const { verdict, diffPct } = useMemo(() => {
+    if (offerTotal === 0 && requestTotal === 0) return { verdict: null as null, diffPct: 0 };
+    if (offerTotal === 0) return { verdict: 'PROFIT' as const, diffPct: 100 };
+    if (requestTotal === 0) return { verdict: 'OVERPAY' as const, diffPct: -100 };
+    const diff = ((requestTotal - offerTotal) / offerTotal) * 100;
+    let v: 'PROFIT' | 'BALANCED' | 'OVERPAY';
+    if (diff > 5) v = 'PROFIT';
+    else if (diff < -5) v = 'OVERPAY';
+    else v = 'BALANCED';
+    return { verdict: v, diffPct: diff };
+  }, [offerTotal, requestTotal]);
 
-  // --- Result ---
-  const { result, diffPct } = useMemo(() => {
-    if (yourTotal === 0 && theirTotal === 0) return { result: null as null, diffPct: 0 };
-    if (yourTotal === 0) return { result: 'WIN' as const, diffPct: 100 };
-    if (theirTotal === 0) return { result: 'LOSE' as const, diffPct: -100 };
-    const diff = ((theirTotal - yourTotal) / yourTotal) * 100;
-    let r: 'WIN' | 'FAIR' | 'LOSE';
-    if (diff > 10) r = 'WIN';
-    else if (diff < -10) r = 'LOSE';
-    else r = 'FAIR';
-    return { result: r, diffPct: diff };
-  }, [yourTotal, theirTotal]);
-
-  // --- Actions ---
-  const addEntry = useCallback((side: 'yours' | 'theirs') => {
-    const entry = makeEntry(nextKeyRef.current++);
-    if (side === 'yours') setYourItems(p => [...p, entry]);
-    else setTheirItems(p => [...p, entry]);
+  const updateEntry = useCallback((side: 'offer' | 'request', key: number, field: Partial<TradeEntry>) => {
+    const setter = side === 'offer' ? setOffer : setRequest;
+    setter(prev => prev.map(e => e.key === key ? { ...e, ...field } : e));
   }, []);
 
-  const removeEntry = useCallback((side: 'yours' | 'theirs', key: number) => {
-    if (side === 'yours') setYourItems(p => p.filter(e => e.key !== key));
-    else setTheirItems(p => p.filter(e => e.key !== key));
+  const addEntry = useCallback((side: 'offer' | 'request') => {
+    const entry = makeEntry(nextKey.current++);
+    if (side === 'offer') setOffer(p => [...p, entry]);
+    else setRequest(p => [...p, entry]);
   }, []);
 
-  const updateEntry = useCallback((side: 'yours' | 'theirs', key: number, field: Partial<TradeEntry>) => {
-    const setter = side === 'yours' ? setYourItems : setTheirItems;
-    setter(prev => prev.map(e => {
-      if (e.key !== key) return e;
-      const updated = { ...e, ...field };
-      if (field.fishId && field.fishId !== e.fishId) {
-        const f = fish.find(ff => ff.id === field.fishId);
-        if (f) updated.weight = f.baseWeight.toString();
-      }
-      return updated;
-    }));
-  }, [fish]);
+  const removeEntry = useCallback((side: 'offer' | 'request', key: number) => {
+    if (side === 'offer') setOffer(p => p.filter(e => e.key !== key));
+    else setRequest(p => p.filter(e => e.key !== key));
+  }, []);
 
   const swapSides = useCallback(() => {
-    const y = yourItems;
-    const t = theirItems;
-    setYourItems(t);
-    setTheirItems(y);
-  }, [yourItems, theirItems]);
+    setOffer(prev => {
+      setRequest(offer);
+      return request;
+    });
+  }, [offer, request]);
 
   const clearAll = useCallback(() => {
-    setYourItems([makeEntry(nextKeyRef.current++)]);
-    setTheirItems([makeEntry(nextKeyRef.current++)]);
+    setOffer([makeEntry(nextKey.current++)]);
+    setRequest([makeEntry(nextKey.current++)]);
   }, []);
 
-  const saveToHistory = useCallback(() => {
-    if (result === null) return;
-    setHistory(prev => [{
-      yourTotal,
-      theirTotal,
-      result,
-      diff: diffPct,
-      timestamp: Date.now(),
-    }, ...prev].slice(0, 10));
-  }, [result, yourTotal, theirTotal, diffPct]);
+  const saveHistory = useCallback(() => {
+    if (!verdict) return;
+    setHistory(prev => [{ offerTotal, requestTotal, verdict, diff: diffPct, ts: Date.now() }, ...prev].slice(0, 10));
+  }, [verdict, offerTotal, requestTotal, diffPct]);
 
-  // --- Proportion bar widths ---
-  const total = yourTotal + theirTotal;
-  const yourPct = total > 0 ? (yourTotal / total) * 100 : 50;
-  const theirPct = total > 0 ? (theirTotal / total) * 100 : 50;
+  const total = offerTotal + requestTotal;
+  const offerPct = total > 0 ? (offerTotal / total) * 100 : 50;
+  const requestPct = total > 0 ? (requestTotal / total) * 100 : 50;
+
+  const verdictColor = verdict === 'PROFIT' ? '#00ffaa' : verdict === 'BALANCED' ? '#fbbf24' : '#ff4d4d';
+  const verdictBg = verdict === 'PROFIT' ? 'rgba(0,255,170,0.08)' : verdict === 'BALANCED' ? 'rgba(251,191,36,0.08)' : 'rgba(255,77,77,0.08)';
+  const verdictMsg = verdict === 'PROFIT' ? "You're receiving more value" : verdict === 'BALANCED' ? 'Fair trade' : "You're giving more value";
+
+  const renderSide = (side: 'offer' | 'request', entries: TradeEntry[], sideTotal: number) => {
+    const isOffer = side === 'offer';
+    const accent = isOffer ? '#22d3ee' : '#818cf8';
+    return (
+      <div className="tc2__side">
+        <div className="tc2__side-header" style={{ borderBottomColor: `${accent}40` }}>
+          <span className="tc2__side-title" style={{ color: accent }}>
+            {isOffer ? 'OFFERING' : 'REQUESTING'}
+          </span>
+          <span className="tc2__side-count">{entries.filter(e => e.fishId || e.itemId).length} items</span>
+        </div>
+
+        <div className="tc2__side-entries">
+          {entries.map(entry => (
+            <EntryCard
+              key={entry.key}
+              entry={entry}
+              fish={fish}
+              fishMap={fishMap}
+              itemMap={itemMap}
+              tradeItems={tradeItems}
+              sortedMutations={sortedMut}
+              onChange={(field) => updateEntry(side, entry.key, field)}
+              onRemove={() => removeEntry(side, entry.key)}
+              canRemove={entries.length > 1}
+              value={calcValue(entry, fishMap, itemMap, sortedMut)}
+            />
+          ))}
+        </div>
+
+        <button className="tc2__add-btn" onClick={() => addEntry(side)} type="button">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
+          Add Item
+        </button>
+
+        <div className="tc2__side-total">
+          <span className="tc2__side-total-label">Total</span>
+          <span className="tc2__side-total-val" style={{ color: accent }}>{fmt(sideTotal)}</span>
+        </div>
+      </div>
+    );
+  };
 
   return (
-    <div className="tc">
-      {/* ACTION BAR */}
-      <div className="tc__actions">
-        <button className="tc__action-btn" onClick={swapSides} type="button">
+    <div className="tc2">
+      {/* Action bar */}
+      <div className="tc2__actions">
+        <button className="tc2__action-btn" onClick={swapSides} type="button">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m7 16-4-4 4-4"/><path d="M3 12h18"/><path d="m17 8 4 4-4 4"/></svg>
-          Swap Sides
+          Swap
         </button>
-        <button className="tc__action-btn tc__action-btn--danger" onClick={clearAll} type="button">
+        <button className="tc2__action-btn tc2__action-btn--danger" onClick={clearAll} type="button">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M5 6l1 14h12l1-14"/></svg>
-          Clear All
+          Reset
         </button>
       </div>
 
-      {/* COLUMNS */}
-      <div className="tc__columns">
-        {/* YOUR ITEMS */}
-        <div className="tc__column">
-          <h3 className="tc__col-title tc__col-title--yours">OFFERING</h3>
-          {yourItems.map(entry => (
-            <TradeEntryRow
-              key={entry.key}
-              entry={entry}
-              fish={fish}
-              fishMap={fishMap}
-              sortedMutations={sortedMutations}
-              onChange={(field) => updateEntry('yours', entry.key, field)}
-              onRemove={() => removeEntry('yours', entry.key)}
-              canRemove={yourItems.length > 1}
-              idPrefix={`y-${entry.key}`}
-            />
-          ))}
-          <button className="tc__add-btn" onClick={() => addEntry('yours')} type="button">+ Add Fish</button>
-          <div className="tc__side-total">
-            Total: <span className="tc__side-total-val">{fmtC(yourTotal)} C$</span>
-          </div>
+      {/* Two-column layout */}
+      <div className="tc2__grid">
+        {renderSide('offer', offer, offerTotal)}
+
+        <div className="tc2__divider">
+          <div className="tc2__divider-line" />
+          <span className="tc2__divider-vs">VS</span>
+          <div className="tc2__divider-line" />
         </div>
 
-        {/* VS divider */}
-        <div className="tc__vs">VS</div>
-
-        {/* THEIR ITEMS */}
-        <div className="tc__column">
-          <h3 className="tc__col-title tc__col-title--theirs">RECEIVING</h3>
-          {theirItems.map(entry => (
-            <TradeEntryRow
-              key={entry.key}
-              entry={entry}
-              fish={fish}
-              fishMap={fishMap}
-              sortedMutations={sortedMutations}
-              onChange={(field) => updateEntry('theirs', entry.key, field)}
-              onRemove={() => removeEntry('theirs', entry.key)}
-              canRemove={theirItems.length > 1}
-              idPrefix={`t-${entry.key}`}
-            />
-          ))}
-          <button className="tc__add-btn" onClick={() => addEntry('theirs')} type="button">+ Add Fish</button>
-          <div className="tc__side-total">
-            Total: <span className="tc__side-total-val">{fmtC(theirTotal)} C$</span>
-          </div>
-        </div>
+        {renderSide('request', request, requestTotal)}
       </div>
 
-      {/* RESULT */}
-      {result !== null && (
-        <div className={`tc__result tc__result--${result.toLowerCase()}`}>
-          <div className="tc__result-title">TRADE VERDICT</div>
-          <div className="tc__result-badge">{result}</div>
-          <div className="tc__result-diff">
-            {diffPct > 0 ? `You gain +${diffPct.toFixed(1)}%` : diffPct < 0 ? `You lose ${diffPct.toFixed(1)}%` : 'Even trade'}
+      {/* Verdict */}
+      {verdict && (
+        <div className="tc2__verdict" style={{ borderColor: `${verdictColor}50`, background: verdictBg }}>
+          <div className="tc2__verdict-header">
+            <span className="tc2__verdict-label">TRADE VERDICT</span>
+            <span className="tc2__verdict-badge" style={{ color: verdictColor, background: `${verdictColor}18`, borderColor: `${verdictColor}40` }}>
+              {verdict}
+            </span>
           </div>
-          <div className="tc__result-vals">
-            <span>Offering: {fmtC(yourTotal)} C$</span>
-            <span>Receiving: {fmtC(theirTotal)} C$</span>
+          <p className="tc2__verdict-msg" style={{ color: verdictColor }}>{verdictMsg}</p>
+          <div className="tc2__verdict-diff">
+            {diffPct > 0 ? `+${diffPct.toFixed(1)}%` : `${diffPct.toFixed(1)}%`}
           </div>
 
           {/* Proportion bar */}
-          <div className="tc__bar">
-            <div className="tc__bar-yours" style={{ width: `${yourPct}%` }}>
-              {yourPct >= 20 && <span className="tc__bar-label">{fmtC(yourTotal)}</span>}
+          <div className="tc2__bar">
+            <div className="tc2__bar-offer" style={{ width: `${offerPct}%` }}>
+              {offerPct >= 18 && <span className="tc2__bar-text">{fmt(offerTotal)}</span>}
             </div>
-            <div className="tc__bar-theirs" style={{ width: `${theirPct}%` }}>
-              {theirPct >= 20 && <span className="tc__bar-label">{fmtC(theirTotal)}</span>}
+            <div className="tc2__bar-request" style={{ width: `${requestPct}%` }}>
+              {requestPct >= 18 && <span className="tc2__bar-text">{fmt(requestTotal)}</span>}
             </div>
           </div>
-          <div className="tc__bar-legend">
-            <span className="tc__bar-legend-yours">Offering</span>
-            <span className="tc__bar-legend-theirs">Receiving</span>
+          <div className="tc2__bar-labels">
+            <span style={{ color: '#22d3ee' }}>Offering</span>
+            <span style={{ color: '#818cf8' }}>Requesting</span>
           </div>
 
-          <button className="tc__save-btn" onClick={saveToHistory} type="button">Save to History</button>
+          <button className="tc2__save-btn" onClick={saveHistory} type="button">Save to History</button>
         </div>
       )}
 
-      {/* HISTORY */}
+      {/* History */}
       {history.length > 0 && (
-        <div className="tc__history">
-          <h3 className="tc__history-title">Recent Trades</h3>
-          {history.map(h => (
-            <div key={h.timestamp} className={`tc__history-row tc__history-row--${h.result.toLowerCase()}`}>
-              <span className={`tc__history-badge tc__history-badge--${h.result.toLowerCase()}`}>{h.result}</span>
-              <span className="tc__history-vals">{fmtC(h.yourTotal)} vs {fmtC(h.theirTotal)}</span>
-              <span className="tc__history-diff">{h.diff > 0 ? '+' : ''}{h.diff.toFixed(1)}%</span>
-            </div>
-          ))}
+        <div className="tc2__history">
+          <h3 className="tc2__history-title">Recent Trades</h3>
+          {history.map(h => {
+            const hColor = h.verdict === 'PROFIT' ? '#00ffaa' : h.verdict === 'BALANCED' ? '#fbbf24' : '#ff4d4d';
+            return (
+              <div key={h.ts} className="tc2__history-row" style={{ borderLeftColor: hColor }}>
+                <span className="tc2__history-badge" style={{ color: hColor, background: `${hColor}15` }}>{h.verdict}</span>
+                <span className="tc2__history-vals">{fmt(h.offerTotal)} vs {fmt(h.requestTotal)}</span>
+                <span className="tc2__history-diff" style={{ color: hColor }}>{h.diff > 0 ? '+' : ''}{h.diff.toFixed(1)}%</span>
+              </div>
+            );
+          })}
         </div>
       )}
     </div>
