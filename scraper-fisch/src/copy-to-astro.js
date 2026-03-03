@@ -103,6 +103,45 @@ function splitTradeValues() {
   writeJson('boats.json', boats);
 }
 
+// Merge locations: preserve manually-added coords, imagePath, and extra locations
+// that exist in the destination but not in the scraper source.
+function mergeLocations(srcPath, destPath) {
+  const srcData = JSON.parse(fs.readFileSync(srcPath, 'utf8'));
+
+  // Load existing destination data if it exists
+  let existingMap = {};
+  if (fs.existsSync(destPath)) {
+    const existing = JSON.parse(fs.readFileSync(destPath, 'utf8'));
+    existing.forEach(l => { existingMap[l.id] = l; });
+  }
+
+  // Merge: scraper data wins for most fields, but preserve coords/imagePath from existing
+  const srcIds = new Set();
+  srcData.forEach(loc => {
+    srcIds.add(loc.id);
+    const prev = existingMap[loc.id];
+    if (prev) {
+      if (!loc.coords && prev.coords) loc.coords = prev.coords;
+      if (!loc.imagePath && prev.imagePath) loc.imagePath = prev.imagePath;
+    }
+  });
+
+  // Add back locations that exist in destination but not in scraper source
+  let added = 0;
+  Object.values(existingMap).forEach(prev => {
+    if (!srcIds.has(prev.id)) {
+      srcData.push(prev);
+      added++;
+    }
+  });
+
+  fs.writeFileSync(destPath, JSON.stringify(srcData, null, 2));
+  const size = (fs.statSync(destPath).size / 1024).toFixed(0);
+  const withCoords = srcData.filter(l => l.coords).length;
+  const withImg = srcData.filter(l => l.imagePath).length;
+  console.log(`  [OK]   locations.json merged (${size} KB, ${srcData.length} locs, ${withCoords} coords, ${withImg} imgs${added > 0 ? `, ${added} extra preserved` : ''})`);
+}
+
 function main() {
   // Ensure destination exists
   fs.mkdirSync(DEST, { recursive: true });
@@ -117,6 +156,13 @@ function main() {
     if (!fs.existsSync(srcPath)) {
       console.log(`  [SKIP] ${src} (no existe)`);
       skipped++;
+      continue;
+    }
+
+    // Special merge for locations to preserve coords/imagePath
+    if (dest === 'locations.json') {
+      mergeLocations(srcPath, destPath);
+      copied++;
       continue;
     }
 
