@@ -20,6 +20,7 @@ const fish: SlimFish[] = (fishData as any[])
     baseWeight: f.baseWeight ?? 1,
     weightMin: f.weightRange?.min ?? f.baseWeight ?? 1,
     weightMax: f.weightRange?.max ?? f.baseWeight ?? 1,
+    imageUrl: f.imageUrl || null,
   }));
 
 // ---------- Slim mutations data ----------
