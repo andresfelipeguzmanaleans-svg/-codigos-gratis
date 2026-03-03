@@ -1,24 +1,19 @@
-=== RESUMEN UPDATE 2026-03-03 10:08 ===
+=== RESUMEN UPDATE 2026-03-03 21:06 ===
 
 Archivos modificados:
-  3 archivos cambiados
+  2 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4122 juegos (4122 procesados)
-Actualizados: 1 | Sin cambios: 3967
+Actualizados: 0 | Sin cambios: 3968
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 1 | Movidos a expirados: 0
-Tiempo: 144.6s | Concurrencia: 10
-
-Juegos actualizados:
-  Clicker Madness: 9→10 activos (+1), 0→0 exp
-    Nuevos: 40KLIKES
+Códigos nuevos: 0 | Movidos a expirados: 0
+Tiempo: 173.5s | Concurrencia: 10
 
 Detalle cambios:
-data/games/codigos-clicker-madness.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
