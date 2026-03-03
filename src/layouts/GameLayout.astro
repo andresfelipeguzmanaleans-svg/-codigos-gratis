@@ -59,50 +59,49 @@ function isActive(href: string): boolean {
 // --- Navigation ---
 const sidebarSections = [
   {
-    label: 'DATA',
+    label: 'TRADING',
+    items: [
+      { label: 'Value List', href: `/games/${gameSlug}/values/`, icon: 'chart' },
+      { label: 'Boats', href: `/games/${gameSlug}/boats/`, icon: 'boat' },
+      { label: 'Rod Skins', href: `/games/${gameSlug}/rod-skins/`, icon: 'palette' },
+      { label: 'Calculator', href: `/games/${gameSlug}/calculator/`, icon: 'calc' },
+    ],
+  },
+  {
+    label: 'DATABASE',
     items: [
       { label: 'Fish', href: `/games/${gameSlug}/fish/`, icon: 'fish' },
       { label: 'Rods', href: `/games/${gameSlug}/rods/`, icon: 'rod' },
-      { label: 'Boats', href: `/games/${gameSlug}/boats/`, icon: 'boat' },
-      { label: 'Rod Skins', href: `/games/${gameSlug}/rod-skins/`, icon: 'palette' },
-      { label: 'Locations', href: `/games/${gameSlug}/locations/`, icon: 'map' },
       { label: 'Enchantments', href: `/games/${gameSlug}/enchantments/`, icon: 'sparkle' },
       { label: 'Baits', href: `/games/${gameSlug}/baits/`, icon: 'worm' },
       { label: 'Bobbers', href: `/games/${gameSlug}/bobbers/`, icon: 'bobber' },
+      { label: 'Mutations', href: `/games/${gameSlug}/mutations/`, icon: 'dna' },
     ],
   },
   {
-    label: 'TOOLS',
+    label: 'EXPLORE',
     items: [
       { label: 'Map', href: `/games/${gameSlug}/map/`, icon: 'map' },
-      { label: 'Calculator', href: `/games/${gameSlug}/calculator/`, icon: 'calc' },
-      { label: 'Values', href: `/games/${gameSlug}/values/`, icon: 'coins' },
-    ],
-  },
-  {
-    label: 'GUIDES',
-    items: [
-      { label: 'Mutations', href: `/games/${gameSlug}/mutations/`, icon: 'dna' },
-      { label: 'Codes', href: `/codigos-${gameSlug}/`, icon: 'gift' },
+      { label: 'Locations', href: `/games/${gameSlug}/locations/`, icon: 'map' },
     ],
   },
 ];
 
 const mobileTabs = [
+  { label: 'Values', href: `/games/${gameSlug}/values/`, icon: 'chart' },
   { label: 'Fish', href: `/games/${gameSlug}/fish/`, icon: 'fish' },
-  { label: 'Values', href: `/games/${gameSlug}/values/`, icon: 'coins' },
+  { label: 'Map', href: `/games/${gameSlug}/map/`, icon: 'map' },
   { label: 'Calc', href: `/games/${gameSlug}/calculator/`, icon: 'calc' },
-  { label: 'Rods', href: `/games/${gameSlug}/rods/`, icon: 'rod' },
 ];
 
 const moreItems = [
-  { label: 'Map', href: `/games/${gameSlug}/map/`, icon: 'map' },
-  { label: 'Rod Skins', href: `/games/${gameSlug}/rod-skins/`, icon: 'palette' },
   { label: 'Boats', href: `/games/${gameSlug}/boats/`, icon: 'boat' },
-  { label: 'Locations', href: `/games/${gameSlug}/locations/`, icon: 'map' },
+  { label: 'Rod Skins', href: `/games/${gameSlug}/rod-skins/`, icon: 'palette' },
+  { label: 'Rods', href: `/games/${gameSlug}/rods/`, icon: 'rod' },
   { label: 'Enchantments', href: `/games/${gameSlug}/enchantments/`, icon: 'sparkle' },
   { label: 'Baits', href: `/games/${gameSlug}/baits/`, icon: 'worm' },
   { label: 'Bobbers', href: `/games/${gameSlug}/bobbers/`, icon: 'bobber' },
+  { label: 'Locations', href: `/games/${gameSlug}/locations/`, icon: 'map' },
   { label: 'Mutations', href: `/games/${gameSlug}/mutations/`, icon: 'dna' },
   { label: 'Codes', href: `/codigos-${gameSlug}/`, icon: 'gift' },
 ];
@@ -113,6 +112,7 @@ const ico: Record<string, string> = {
   rod: '<path d="M3 21l8-8"/><path d="M13 11l5-5"/><path d="M21 3l-3 1 1 3 3-1z"/><path d="M11 13l2-2"/>',
   map: '<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>',
   calc: '<rect width="16" height="20" x="4" y="2" rx="2"/><path d="M8 6h8"/><path d="M16 10h.01M12 10h.01M8 10h.01M16 14h.01M12 14h.01M8 14h.01M16 18h.01M12 18h.01M8 18h.01"/>',
+  chart: '<path d="M3 3v18h18"/><polyline points="7 14 11 10 15 13 21 6"/>',
   coins: '<line x1="12" x2="12" y1="2" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>',
   dna: '<path d="M2 15c6.667-6 13.333 0 20-6"/><path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993"/><path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993"/><path d="m17 6-2.5 2.5"/><path d="M14 8.5 15.5 10"/><path d="m7 18 2.5-2.5"/><path d="M3.5 14.5 4 14"/>',
   gift: '<rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5C10 3 12 8 12 8Z"/><path d="M16.5 8a2.5 2.5 0 0 0 0-5C14 3 12 8 12 8Z"/>',
