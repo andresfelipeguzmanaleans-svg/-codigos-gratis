@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback, useRef, useEffect } from 'react';
+import { useState, useMemo, useCallback, useRef } from 'react';
 
 /* ================================================================
    Types
@@ -37,31 +37,23 @@ interface Props {
   tradeItems: TradeItem[];
 }
 
-type Category = 'all' | 'fish' | 'boat' | 'rod_skin';
-
-interface TradeEntry {
-  key: number;
-  type: 'fish' | 'item';
-  // fish fields
-  fishId: string;
-  weight: string;
-  mutationId: string;
-  // item fields
-  itemId: string;
+/* Slot data: what fills a cell in the 3×3 grid */
+interface SlotData {
+  uid: number;
+  kind: 'fish' | 'item';
+  id: string;
   qty: number;
+  weight: number;
+  mutationId: string;
 }
 
-interface HistoryEntry {
-  offerTotal: number;
-  requestTotal: number;
-  verdict: 'PROFIT' | 'BALANCED' | 'OVERPAY';
-  diff: number;
-  ts: number;
-}
+type Category = 'all' | 'fish' | 'boat' | 'rod_skin';
 
 /* ================================================================
    Constants
    ================================================================ */
+
+const SLOT_COUNT = 9;
 
 const RARITY_COLORS: Record<string, string> = {
   Trash: '#71717a', Common: '#9ca3af', Uncommon: '#22c55e', Unusual: '#34d39e',
@@ -74,14 +66,10 @@ const RARITY_COLORS: Record<string, string> = {
   'Friend Quest': '#8b5cf6', 'Skin Merchant': '#c084fc',
 };
 
-const RARITY_GRADIENTS: Record<string, string> = {
-  Limited: 'linear-gradient(135deg, rgba(239,68,68,0.15), rgba(249,115,22,0.08))',
-  Robux: 'linear-gradient(135deg, rgba(34,197,94,0.15), rgba(6,182,212,0.08))',
-  Exclusive: 'linear-gradient(135deg, rgba(251,191,36,0.15), rgba(236,72,153,0.08))',
-  Legendary: 'linear-gradient(135deg, rgba(245,158,11,0.15), rgba(234,179,8,0.08))',
-  Mythical: 'linear-gradient(135deg, rgba(168,85,247,0.15), rgba(139,92,246,0.08))',
-  'Divine Secret': 'linear-gradient(135deg, rgba(253,230,138,0.15), rgba(251,191,36,0.08))',
-};
+function rarityGrad(rarity: string): string {
+  const c = RARITY_COLORS[rarity] || '#666';
+  return `linear-gradient(180deg, ${c}30 0%, ${c}12 40%, rgba(17,17,17,0.95) 100%)`;
+}
 
 function fmt(n: number): string {
   if (n >= 1e12) return `${(n / 1e12).toFixed(1)}T`;
@@ -92,464 +80,471 @@ function fmt(n: number): string {
 }
 
 /* ================================================================
-   Entry value calculation
-   ================================================================ */
-
-function calcValue(
-  entry: TradeEntry,
-  fishMap: Map<string, SlimFish>,
-  itemMap: Map<string, TradeItem>,
-  mutations: SlimMutation[],
-): number {
-  if (entry.type === 'item') {
-    const item = itemMap.get(entry.itemId);
-    return item ? item.value * entry.qty : 0;
-  }
-  // fish
-  if (!entry.fishId) return 0;
-  const f = fishMap.get(entry.fishId);
-  if (!f) return 0;
-  const w = parseFloat(entry.weight) || 0;
-  if (w <= 0) return 0;
-  const mut = mutations.find(m => m.id === entry.mutationId);
-  return f.baseValue * w * (mut ? mut.multiplier : 1);
-}
-
-function makeEntry(key: number): TradeEntry {
-  return { key, type: 'fish', fishId: '', weight: '', mutationId: 'none', itemId: '', qty: 1 };
-}
-
-/* ================================================================
-   Unified Item Picker
-   ================================================================ */
-
-interface PickerProps {
-  fish: SlimFish[];
-  tradeItems: TradeItem[];
-  onSelectFish: (id: string) => void;
-  onSelectItem: (id: string) => void;
-  selectedFishId: string;
-  selectedItemId: string;
-  entryType: 'fish' | 'item';
-}
-
-function ItemPicker({ fish, tradeItems, onSelectFish, onSelectItem, selectedFishId, selectedItemId, entryType }: PickerProps) {
-  const [query, setQuery] = useState('');
-  const [open, setOpen] = useState(false);
-  const [cat, setCat] = useState<Category>('all');
-  const wrapRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    function handle(e: MouseEvent) {
-      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) setOpen(false);
-    }
-    if (open) document.addEventListener('mousedown', handle);
-    return () => document.removeEventListener('mousedown', handle);
-  }, [open]);
-
-  // Build unified list
-  const allItems = useMemo(() => {
-    const items: { id: string; name: string; rarity: string; value: number; unit: string; type: 'fish' | 'boat' | 'rod_skin'; imageUrl?: string | null }[] = [];
-    fish.forEach(f => items.push({ id: f.id, name: f.name, rarity: f.rarity, value: f.baseValue, unit: 'C$/kg', type: 'fish', imageUrl: f.imageUrl }));
-    tradeItems.forEach(t => items.push({ id: t.id, name: t.name, rarity: t.rarity, value: t.value, unit: 'ER', type: t.itemType, imageUrl: t.imageUrl }));
-    return items;
-  }, [fish, tradeItems]);
-
-  const filtered = useMemo(() => {
-    let list = allItems;
-    if (cat !== 'all') list = list.filter(i => i.type === cat);
-    const q = query.toLowerCase().trim();
-    if (q) list = list.filter(i => i.name.toLowerCase().includes(q));
-    return list.slice(0, 40);
-  }, [allItems, cat, query]);
-
-  // Selected display name
-  const selectedName = useMemo(() => {
-    if (entryType === 'fish' && selectedFishId) {
-      const f = fish.find(x => x.id === selectedFishId);
-      return f?.name || '';
-    }
-    if (entryType === 'item' && selectedItemId) {
-      const t = tradeItems.find(x => x.id === selectedItemId);
-      return t?.name || '';
-    }
-    return '';
-  }, [entryType, selectedFishId, selectedItemId, fish, tradeItems]);
-
-  const handleSelect = (item: typeof allItems[0]) => {
-    if (item.type === 'fish') {
-      onSelectFish(item.id);
-    } else {
-      onSelectItem(item.id);
-    }
-    setOpen(false);
-    setQuery('');
-  };
-
-  const categories: { key: Category; label: string }[] = [
-    { key: 'all', label: 'All' },
-    { key: 'fish', label: 'Fish' },
-    { key: 'boat', label: 'Boats' },
-    { key: 'rod_skin', label: 'Rod Skins' },
-  ];
-
-  return (
-    <div className="tc2__picker" ref={wrapRef}>
-      <input
-        className="tc2__picker-input"
-        type="text"
-        placeholder="Search items..."
-        value={open ? query : selectedName}
-        onFocus={() => { setOpen(true); setQuery(''); }}
-        onChange={e => setQuery(e.target.value)}
-      />
-      {open && (
-        <div className="tc2__picker-dropdown">
-          <div className="tc2__picker-tabs">
-            {categories.map(c => (
-              <button
-                key={c.key}
-                className={`tc2__picker-tab${cat === c.key ? ' tc2__picker-tab--active' : ''}`}
-                onMouseDown={e => { e.preventDefault(); setCat(c.key); }}
-                type="button"
-              >{c.label}</button>
-            ))}
-          </div>
-          <div className="tc2__picker-list">
-            {filtered.map(item => (
-              <div
-                key={`${item.type}-${item.id}`}
-                className="tc2__picker-item"
-                style={{ background: RARITY_GRADIENTS[item.rarity] || 'transparent' }}
-                onMouseDown={() => handleSelect(item)}
-              >
-                {item.imageUrl ? (
-                  <img className="tc2__picker-img" src={item.imageUrl} alt="" width="28" height="28" loading="lazy" />
-                ) : (
-                  <span className="tc2__picker-dot" style={{ background: RARITY_COLORS[item.rarity] || '#888' }} />
-                )}
-                <span className="tc2__picker-name">{item.name}</span>
-                <span className="tc2__picker-meta">
-                  <span className="tc2__picker-val">{fmt(item.value)}</span>
-                  <span className="tc2__picker-unit">{item.unit}</span>
-                </span>
-              </div>
-            ))}
-            {filtered.length === 0 && <div className="tc2__picker-empty">No items found</div>}
-          </div>
-        </div>
-      )}
-    </div>
-  );
-}
-
-/* ================================================================
-   Trade Entry Card
-   ================================================================ */
-
-interface EntryCardProps {
-  entry: TradeEntry;
-  fish: SlimFish[];
-  fishMap: Map<string, SlimFish>;
-  itemMap: Map<string, TradeItem>;
-  tradeItems: TradeItem[];
-  sortedMutations: SlimMutation[];
-  onChange: (field: Partial<TradeEntry>) => void;
-  onRemove: () => void;
-  canRemove: boolean;
-  value: number;
-}
-
-function EntryCard({ entry, fish, fishMap, itemMap, tradeItems, sortedMutations, onChange, onRemove, canRemove, value }: EntryCardProps) {
-  const selectedFish = entry.type === 'fish' ? fishMap.get(entry.fishId) : null;
-  const selectedItem = entry.type === 'item' ? itemMap.get(entry.itemId) : null;
-  const selected = selectedFish || selectedItem;
-  const rarity = selectedFish?.rarity || selectedItem?.rarity || '';
-  const bgGradient = RARITY_GRADIENTS[rarity] || 'transparent';
-
-  const handleSelectFish = (id: string) => {
-    const f = fish.find(x => x.id === id);
-    onChange({ type: 'fish', fishId: id, itemId: '', weight: f ? f.baseWeight.toString() : '', qty: 1 });
-  };
-
-  const handleSelectItem = (id: string) => {
-    onChange({ type: 'item', itemId: id, fishId: '', weight: '', mutationId: 'none', qty: 1 });
-  };
-
-  return (
-    <div className="tc2__card" style={{ background: selected ? bgGradient : undefined }}>
-      <div className="tc2__card-top">
-        <ItemPicker
-          fish={fish}
-          tradeItems={tradeItems}
-          onSelectFish={handleSelectFish}
-          onSelectItem={handleSelectItem}
-          selectedFishId={entry.fishId}
-          selectedItemId={entry.itemId}
-          entryType={entry.type}
-        />
-        {canRemove && (
-          <button className="tc2__card-remove" onClick={onRemove} type="button" title="Remove">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-          </button>
-        )}
-      </div>
-
-      {/* Fish-specific: weight + mutation */}
-      {entry.type === 'fish' && entry.fishId && (
-        <div className="tc2__card-fields">
-          <div className="tc2__field">
-            <label className="tc2__field-label">Weight (kg)</label>
-            <input
-              className="tc2__field-input"
-              type="number"
-              min={selectedFish?.weightMin ?? 0}
-              max={selectedFish?.weightMax ?? 999999999}
-              step="0.1"
-              value={entry.weight}
-              placeholder={selectedFish ? `${selectedFish.weightMin}–${selectedFish.weightMax}` : '—'}
-              onChange={e => onChange({ weight: e.target.value })}
-            />
-          </div>
-          <div className="tc2__field">
-            <label className="tc2__field-label">Mutation</label>
-            <select
-              className="tc2__field-select"
-              value={entry.mutationId}
-              onChange={e => onChange({ mutationId: e.target.value })}
-            >
-              <option value="none">None (1x)</option>
-              {sortedMutations.map(m => (
-                <option key={m.id} value={m.id}>{m.name} ({m.multiplier}x)</option>
-              ))}
-            </select>
-          </div>
-        </div>
-      )}
-
-      {/* Item-specific: quantity */}
-      {entry.type === 'item' && entry.itemId && (
-        <div className="tc2__card-qty">
-          <span className="tc2__field-label">Qty</span>
-          <div className="tc2__qty-ctrl">
-            <button
-              className="tc2__qty-btn"
-              type="button"
-              disabled={entry.qty <= 1}
-              onClick={() => onChange({ qty: Math.max(1, entry.qty - 1) })}
-            >−</button>
-            <span className="tc2__qty-val">{entry.qty}</span>
-            <button
-              className="tc2__qty-btn"
-              type="button"
-              disabled={entry.qty >= 4}
-              onClick={() => onChange({ qty: Math.min(4, entry.qty + 1) })}
-            >+</button>
-          </div>
-        </div>
-      )}
-
-      {/* Value display */}
-      {value > 0 && (
-        <div className="tc2__card-value">
-          <span className="tc2__card-value-num">{fmt(value)}</span>
-          <span className="tc2__card-value-unit">{entry.type === 'fish' ? 'C$' : 'ER'}</span>
-        </div>
-      )}
-    </div>
-  );
-}
-
-/* ================================================================
-   Main Calculator
+   Main Component
    ================================================================ */
 
 export default function TradeCalc({ fish, mutations, tradeItems }: Props) {
-  const nextKey = useRef(2);
-  const [offer, setOffer] = useState<TradeEntry[]>([makeEntry(0)]);
-  const [request, setRequest] = useState<TradeEntry[]>([makeEntry(1)]);
-  const [history, setHistory] = useState<HistoryEntry[]>([]);
+  const uidRef = useRef(0);
 
-  const sortedMut = useMemo(() => [...mutations].sort((a, b) => b.multiplier - a.multiplier), [mutations]);
+  // 9 slots per side
+  const [offer, setOffer] = useState<(SlotData | null)[]>(Array(SLOT_COUNT).fill(null));
+  const [request, setRequest] = useState<(SlotData | null)[]>(Array(SLOT_COUNT).fill(null));
+
+  // Modal picker state
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalSide, setModalSide] = useState<'offer' | 'request'>('offer');
+  const [modalSlot, setModalSlot] = useState(0);
+  const [modalCat, setModalCat] = useState<Category>('all');
+  const [modalQuery, setModalQuery] = useState('');
+
+  // Configure step (after selecting item in modal)
+  const [cfgItem, setCfgItem] = useState<{ kind: 'fish' | 'item'; id: string } | null>(null);
+  const [cfgWeight, setCfgWeight] = useState('');
+  const [cfgMutation, setCfgMutation] = useState('none');
+  const [cfgQty, setCfgQty] = useState(1);
+
+  const [swapping, setSwapping] = useState(false);
+
+  // Lookup maps
   const fishMap = useMemo(() => new Map(fish.map(f => [f.id, f])), [fish]);
   const itemMap = useMemo(() => new Map(tradeItems.map(t => [t.id, t])), [tradeItems]);
+  const sortedMut = useMemo(() => [...mutations].sort((a, b) => b.multiplier - a.multiplier), [mutations]);
 
-  const calcSide = useCallback((entries: TradeEntry[]) =>
-    entries.reduce((s, e) => s + calcValue(e, fishMap, itemMap, sortedMut), 0),
-    [fishMap, itemMap, sortedMut]);
+  // Value calculation
+  const slotValue = useCallback((slot: SlotData | null): number => {
+    if (!slot) return 0;
+    if (slot.kind === 'item') {
+      const item = itemMap.get(slot.id);
+      return item ? item.value * slot.qty : 0;
+    }
+    const f = fishMap.get(slot.id);
+    if (!f || slot.weight <= 0) return 0;
+    const mut = mutations.find(m => m.id === slot.mutationId);
+    return f.baseValue * slot.weight * (mut ? mut.multiplier : 1);
+  }, [fishMap, itemMap, mutations]);
 
-  const offerTotal = useMemo(() => calcSide(offer), [offer, calcSide]);
-  const requestTotal = useMemo(() => calcSide(request), [request, calcSide]);
+  const offerTotal = useMemo(() => offer.reduce((s, sl) => s + slotValue(sl), 0), [offer, slotValue]);
+  const requestTotal = useMemo(() => request.reduce((s, sl) => s + slotValue(sl), 0), [request, slotValue]);
+  const total = offerTotal + requestTotal;
+  const offerPct = total > 0 ? (offerTotal / total) * 100 : 50;
 
-  const { verdict, diffPct } = useMemo(() => {
-    if (offerTotal === 0 && requestTotal === 0) return { verdict: null as null, diffPct: 0 };
-    if (offerTotal === 0) return { verdict: 'PROFIT' as const, diffPct: 100 };
-    if (requestTotal === 0) return { verdict: 'OVERPAY' as const, diffPct: -100 };
+  const verdict = useMemo(() => {
+    if (offerTotal === 0 && requestTotal === 0) return null;
+    if (offerTotal === 0) return { v: 'PROFIT' as const, diff: 100 };
+    if (requestTotal === 0) return { v: 'OVERPAY' as const, diff: -100 };
     const diff = ((requestTotal - offerTotal) / offerTotal) * 100;
-    let v: 'PROFIT' | 'BALANCED' | 'OVERPAY';
-    if (diff > 5) v = 'PROFIT';
-    else if (diff < -5) v = 'OVERPAY';
-    else v = 'BALANCED';
-    return { verdict: v, diffPct: diff };
+    const v = diff > 5 ? 'PROFIT' as const : diff < -5 ? 'OVERPAY' as const : 'BALANCED' as const;
+    return { v, diff };
   }, [offerTotal, requestTotal]);
 
-  const updateEntry = useCallback((side: 'offer' | 'request', key: number, field: Partial<TradeEntry>) => {
+  const verdictColor = !verdict ? '#888' : verdict.v === 'PROFIT' ? '#00ffaa' : verdict.v === 'BALANCED' ? '#fbbf24' : '#ff4d4d';
+
+  // Slot info helper
+  const getSlotInfo = useCallback((slot: SlotData) => {
+    if (slot.kind === 'fish') {
+      const f = fishMap.get(slot.id);
+      return { name: f?.name || '?', rarity: f?.rarity || '', imageUrl: f?.imageUrl || null };
+    }
+    const item = itemMap.get(slot.id);
+    return { name: item?.name || '?', rarity: item?.rarity || '', imageUrl: item?.imageUrl || null };
+  }, [fishMap, itemMap]);
+
+  // --- Actions ---
+  const openModal = useCallback((side: 'offer' | 'request', idx: number) => {
+    setModalSide(side);
+    setModalSlot(idx);
+    setModalCat('all');
+    setModalQuery('');
+    setCfgItem(null);
+    setModalOpen(true);
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setModalOpen(false);
+    setCfgItem(null);
+  }, []);
+
+  const selectInModal = useCallback((kind: 'fish' | 'item', id: string) => {
+    setCfgItem({ kind, id });
+    if (kind === 'fish') {
+      const f = fishMap.get(id);
+      setCfgWeight(f ? f.baseWeight.toString() : '1');
+      setCfgMutation('none');
+    } else {
+      setCfgQty(1);
+    }
+  }, [fishMap]);
+
+  const confirmAdd = useCallback(() => {
+    if (!cfgItem) return;
+    const slot: SlotData = {
+      uid: uidRef.current++,
+      kind: cfgItem.kind,
+      id: cfgItem.id,
+      qty: cfgItem.kind === 'item' ? cfgQty : 1,
+      weight: cfgItem.kind === 'fish' ? (parseFloat(cfgWeight) || 0) : 0,
+      mutationId: cfgItem.kind === 'fish' ? cfgMutation : 'none',
+    };
+    const setter = modalSide === 'offer' ? setOffer : setRequest;
+    setter(prev => prev.map((s, i) => i === modalSlot ? slot : s));
+    closeModal();
+  }, [cfgItem, cfgQty, cfgWeight, cfgMutation, modalSide, modalSlot, closeModal]);
+
+  const removeSlot = useCallback((side: 'offer' | 'request', idx: number) => {
     const setter = side === 'offer' ? setOffer : setRequest;
-    setter(prev => prev.map(e => e.key === key ? { ...e, ...field } : e));
-  }, []);
-
-  const addEntry = useCallback((side: 'offer' | 'request') => {
-    const entry = makeEntry(nextKey.current++);
-    if (side === 'offer') setOffer(p => [...p, entry]);
-    else setRequest(p => [...p, entry]);
-  }, []);
-
-  const removeEntry = useCallback((side: 'offer' | 'request', key: number) => {
-    if (side === 'offer') setOffer(p => p.filter(e => e.key !== key));
-    else setRequest(p => p.filter(e => e.key !== key));
+    setter(prev => prev.map((s, i) => i === idx ? null : s));
   }, []);
 
   const swapSides = useCallback(() => {
-    setOffer(prev => {
-      setRequest(offer);
-      return request;
-    });
+    setSwapping(true);
+    setTimeout(() => {
+      const o = offer;
+      const r = request;
+      setOffer(r);
+      setRequest(o);
+      setSwapping(false);
+    }, 400);
   }, [offer, request]);
 
   const clearAll = useCallback(() => {
-    setOffer([makeEntry(nextKey.current++)]);
-    setRequest([makeEntry(nextKey.current++)]);
+    setOffer(Array(SLOT_COUNT).fill(null));
+    setRequest(Array(SLOT_COUNT).fill(null));
   }, []);
 
-  const saveHistory = useCallback(() => {
-    if (!verdict) return;
-    setHistory(prev => [{ offerTotal, requestTotal, verdict, diff: diffPct, ts: Date.now() }, ...prev].slice(0, 10));
-  }, [verdict, offerTotal, requestTotal, diffPct]);
+  // Filtered items for modal
+  const modalItems = useMemo(() => {
+    type PI = { id: string; name: string; rarity: string; value: number; unit: string; kind: 'fish' | 'item'; cat: Category; imageUrl: string | null };
+    const items: PI[] = [];
+    if (modalCat === 'all' || modalCat === 'fish') {
+      fish.forEach(f => items.push({ id: f.id, name: f.name, rarity: f.rarity, value: f.baseValue, unit: 'C$/kg', kind: 'fish', cat: 'fish', imageUrl: f.imageUrl || null }));
+    }
+    if (modalCat === 'all' || modalCat === 'boat' || modalCat === 'rod_skin') {
+      tradeItems.forEach(t => {
+        if (modalCat !== 'all' && t.itemType !== modalCat) return;
+        items.push({ id: t.id, name: t.name, rarity: t.rarity, value: t.value, unit: 'ER', kind: 'item', cat: t.itemType as Category, imageUrl: t.imageUrl || null });
+      });
+    }
+    const q = modalQuery.toLowerCase().trim();
+    if (q) return items.filter(i => i.name.toLowerCase().includes(q));
+    return items;
+  }, [fish, tradeItems, modalCat, modalQuery]);
 
-  const total = offerTotal + requestTotal;
-  const offerPct = total > 0 ? (offerTotal / total) * 100 : 50;
-  const requestPct = total > 0 ? (requestTotal / total) * 100 : 50;
-
-  const verdictColor = verdict === 'PROFIT' ? '#00ffaa' : verdict === 'BALANCED' ? '#fbbf24' : '#ff4d4d';
-  const verdictBg = verdict === 'PROFIT' ? 'rgba(0,255,170,0.08)' : verdict === 'BALANCED' ? 'rgba(251,191,36,0.08)' : 'rgba(255,77,77,0.08)';
-  const verdictMsg = verdict === 'PROFIT' ? "You're receiving more value" : verdict === 'BALANCED' ? 'Fair trade' : "You're giving more value";
-
-  const renderSide = (side: 'offer' | 'request', entries: TradeEntry[], sideTotal: number) => {
+  // --- Render zone (one side) ---
+  const renderZone = (side: 'offer' | 'request', slots: (SlotData | null)[], sideTotal: number) => {
     const isOffer = side === 'offer';
     const accent = isOffer ? '#22d3ee' : '#818cf8';
+    const filled = slots.filter(Boolean).length;
+
     return (
-      <div className="tc2__side">
-        <div className="tc2__side-header" style={{ borderBottomColor: `${accent}40` }}>
-          <span className="tc2__side-title" style={{ color: accent }}>
+      <div className={`tc2__zone${swapping ? (isOffer ? ' tc2__zone--swap-r' : ' tc2__zone--swap-l') : ''}`}>
+        <div className="tc2__zone-head">
+          <span className="tc2__zone-label" style={{ color: accent }}>
             {isOffer ? 'OFFERING' : 'REQUESTING'}
           </span>
-          <span className="tc2__side-count">{entries.filter(e => e.fishId || e.itemId).length} items</span>
+          <span className="tc2__zone-count">{filled}/{SLOT_COUNT}</span>
         </div>
 
-        <div className="tc2__side-entries">
-          {entries.map(entry => (
-            <EntryCard
-              key={entry.key}
-              entry={entry}
-              fish={fish}
-              fishMap={fishMap}
-              itemMap={itemMap}
-              tradeItems={tradeItems}
-              sortedMutations={sortedMut}
-              onChange={(field) => updateEntry(side, entry.key, field)}
-              onRemove={() => removeEntry(side, entry.key)}
-              canRemove={entries.length > 1}
-              value={calcValue(entry, fishMap, itemMap, sortedMut)}
-            />
-          ))}
+        <div className="tc2__slots">
+          {slots.map((slot, idx) =>
+            slot ? (
+              <div
+                key={slot.uid}
+                className="tc2__slot tc2__slot--filled"
+                style={{ background: rarityGrad(getSlotInfo(slot).rarity) }}
+              >
+                <div className="tc2__slot-img-wrap">
+                  {getSlotInfo(slot).imageUrl ? (
+                    <img className="tc2__slot-img" src={getSlotInfo(slot).imageUrl!} alt="" loading="lazy" />
+                  ) : (
+                    <div className="tc2__slot-dot" style={{ background: RARITY_COLORS[getSlotInfo(slot).rarity] || '#666' }} />
+                  )}
+                </div>
+                {slot.qty > 1 && <span className="tc2__slot-qty">x{slot.qty}</span>}
+                <div className="tc2__slot-val">{fmt(slotValue(slot))}</div>
+                <div className="tc2__slot-name">{getSlotInfo(slot).name}</div>
+                <button
+                  className="tc2__slot-rm"
+                  onClick={() => removeSlot(side, idx)}
+                  type="button"
+                  title="Remove"
+                >
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                </button>
+              </div>
+            ) : (
+              <button
+                key={`e${idx}`}
+                className="tc2__slot tc2__slot--empty"
+                onClick={() => openModal(side, idx)}
+                type="button"
+              >
+                <svg className="tc2__slot-plus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
+              </button>
+            )
+          )}
         </div>
 
-        <button className="tc2__add-btn" onClick={() => addEntry(side)} type="button">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
-          Add Item
-        </button>
-
-        <div className="tc2__side-total">
-          <span className="tc2__side-total-label">Total</span>
-          <span className="tc2__side-total-val" style={{ color: accent }}>{fmt(sideTotal)}</span>
+        <div className="tc2__zone-total" style={{ borderLeftColor: accent }}>
+          <span className="tc2__zone-total-lbl">VALUE</span>
+          <span className="tc2__zone-total-num" style={{ color: accent }}>{fmt(sideTotal)}</span>
         </div>
       </div>
     );
   };
 
+  // --- Configure panel inside modal ---
+  const renderConfig = () => {
+    if (!cfgItem) return null;
+
+    if (cfgItem.kind === 'fish') {
+      const f = fishMap.get(cfgItem.id);
+      if (!f) return null;
+      const mut = sortedMut.find(m => m.id === cfgMutation);
+      const w = parseFloat(cfgWeight) || 0;
+      const preview = f.baseValue * w * (mut ? mut.multiplier : 1);
+
+      return (
+        <div className="tc2__cfg">
+          <div className="tc2__cfg-card" style={{ background: rarityGrad(f.rarity) }}>
+            {f.imageUrl && <img className="tc2__cfg-img" src={f.imageUrl} alt="" />}
+            <div className="tc2__cfg-info">
+              <span className="tc2__cfg-name">{f.name}</span>
+              <span className="tc2__cfg-rarity" style={{ color: RARITY_COLORS[f.rarity] || '#888' }}>{f.rarity}</span>
+              <span className="tc2__cfg-base">{fmt(f.baseValue)} C$/kg</span>
+            </div>
+          </div>
+
+          <div className="tc2__cfg-fields">
+            <div className="tc2__cfg-field">
+              <label className="tc2__cfg-lbl">Weight (kg)</label>
+              <input
+                className="tc2__cfg-input"
+                type="number"
+                min={f.weightMin}
+                max={f.weightMax}
+                step="0.1"
+                value={cfgWeight}
+                placeholder={`${f.weightMin}–${f.weightMax}`}
+                onChange={e => setCfgWeight(e.target.value)}
+              />
+              <span className="tc2__cfg-hint">{f.weightMin} – {f.weightMax} kg</span>
+            </div>
+            <div className="tc2__cfg-field">
+              <label className="tc2__cfg-lbl">Mutation</label>
+              <select
+                className="tc2__cfg-select"
+                value={cfgMutation}
+                onChange={e => setCfgMutation(e.target.value)}
+              >
+                <option value="none">None (1x)</option>
+                {sortedMut.map(m => (
+                  <option key={m.id} value={m.id}>{m.name} ({m.multiplier}x)</option>
+                ))}
+              </select>
+            </div>
+          </div>
+
+          {preview > 0 && (
+            <div className="tc2__cfg-preview-val">
+              Estimated: <strong>{fmt(preview)} C$</strong>
+            </div>
+          )}
+        </div>
+      );
+    }
+
+    // boat / rod skin
+    const item = itemMap.get(cfgItem.id);
+    if (!item) return null;
+    const preview = item.value * cfgQty;
+
+    return (
+      <div className="tc2__cfg">
+        <div className="tc2__cfg-card" style={{ background: rarityGrad(item.rarity) }}>
+          {item.imageUrl && <img className="tc2__cfg-img" src={item.imageUrl} alt="" />}
+          <div className="tc2__cfg-info">
+            <span className="tc2__cfg-name">{item.name}</span>
+            <span className="tc2__cfg-rarity" style={{ color: RARITY_COLORS[item.rarity] || '#888' }}>{item.rarity}</span>
+            <span className="tc2__cfg-base">{fmt(item.value)} ER</span>
+          </div>
+        </div>
+
+        <div className="tc2__cfg-qty-row">
+          <span className="tc2__cfg-lbl">Quantity</span>
+          <div className="tc2__cfg-qty">
+            <button className="tc2__cfg-qty-btn" type="button" disabled={cfgQty <= 1} onClick={() => setCfgQty(q => Math.max(1, q - 1))}>−</button>
+            <span className="tc2__cfg-qty-num">{cfgQty}</span>
+            <button className="tc2__cfg-qty-btn" type="button" disabled={cfgQty >= 4} onClick={() => setCfgQty(q => Math.min(4, q + 1))}>+</button>
+          </div>
+        </div>
+
+        <div className="tc2__cfg-preview-val">
+          Total: <strong>{fmt(preview)} ER</strong>
+        </div>
+      </div>
+    );
+  };
+
+  /* ================================================================
+     RENDER
+     ================================================================ */
+
   return (
     <div className="tc2">
       {/* Action bar */}
       <div className="tc2__actions">
-        <button className="tc2__action-btn" onClick={swapSides} type="button">
+        <button className="tc2__act-btn" onClick={swapSides} type="button" disabled={swapping}>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m7 16-4-4 4-4"/><path d="M3 12h18"/><path d="m17 8 4 4-4 4"/></svg>
           Swap
         </button>
-        <button className="tc2__action-btn tc2__action-btn--danger" onClick={clearAll} type="button">
+        <button className="tc2__act-btn tc2__act-btn--danger" onClick={clearAll} type="button">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 6h18"/><path d="M8 6V4h8v2"/><path d="M5 6l1 14h12l1-14"/></svg>
-          Reset
+          Clear
         </button>
       </div>
 
-      {/* Two-column layout */}
-      <div className="tc2__grid">
-        {renderSide('offer', offer, offerTotal)}
+      {/* Exchange grid */}
+      <div className="tc2__exchange">
+        {renderZone('offer', offer, offerTotal)}
 
-        <div className="tc2__divider">
-          <div className="tc2__divider-line" />
-          <span className="tc2__divider-vs">VS</span>
-          <div className="tc2__divider-line" />
+        <div className="tc2__mid">
+          <div className="tc2__vs">VS</div>
+          <div className="tc2__gauge">
+            <div className="tc2__gauge-track" />
+            <div
+              className="tc2__gauge-dot"
+              style={{
+                top: `${100 - offerPct}%`,
+                background: verdictColor,
+                boxShadow: `0 0 10px ${verdictColor}`,
+              }}
+            />
+          </div>
+          <button className="tc2__swap-btn" onClick={swapSides} type="button" disabled={swapping} title="Swap sides">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m7 16-4-4 4-4"/><path d="M3 12h18"/><path d="m17 8 4 4-4 4"/></svg>
+          </button>
         </div>
 
-        {renderSide('request', request, requestTotal)}
+        {renderZone('request', request, requestTotal)}
       </div>
 
       {/* Verdict */}
       {verdict && (
-        <div className="tc2__verdict" style={{ borderColor: `${verdictColor}50`, background: verdictBg }}>
-          <div className="tc2__verdict-header">
-            <span className="tc2__verdict-label">TRADE VERDICT</span>
-            <span className="tc2__verdict-badge" style={{ color: verdictColor, background: `${verdictColor}18`, borderColor: `${verdictColor}40` }}>
-              {verdict}
-            </span>
+        <div className="tc2__verdict" style={{ borderColor: `${verdictColor}40`, background: `${verdictColor}08` }}>
+          <div className="tc2__verdict-icon" style={{ color: verdictColor, background: `${verdictColor}15` }}>
+            {verdict.v === 'PROFIT' ? '↑' : verdict.v === 'BALANCED' ? '≈' : '↓'}
           </div>
-          <p className="tc2__verdict-msg" style={{ color: verdictColor }}>{verdictMsg}</p>
-          <div className="tc2__verdict-diff">
-            {diffPct > 0 ? `+${diffPct.toFixed(1)}%` : `${diffPct.toFixed(1)}%`}
+          <div className="tc2__verdict-body">
+            <span className="tc2__verdict-tag" style={{ color: verdictColor }}>{verdict.v}</span>
+            <p className="tc2__verdict-msg">
+              {verdict.v === 'PROFIT' ? "You're receiving more value" : verdict.v === 'BALANCED' ? 'Fair trade (within 5%)' : "You're giving more value"}
+            </p>
           </div>
-
-          {/* Proportion bar */}
-          <div className="tc2__bar">
-            <div className="tc2__bar-offer" style={{ width: `${offerPct}%` }}>
-              {offerPct >= 18 && <span className="tc2__bar-text">{fmt(offerTotal)}</span>}
-            </div>
-            <div className="tc2__bar-request" style={{ width: `${requestPct}%` }}>
-              {requestPct >= 18 && <span className="tc2__bar-text">{fmt(requestTotal)}</span>}
-            </div>
+          <div className="tc2__verdict-pct" style={{ color: verdictColor }}>
+            {verdict.diff > 0 ? '+' : ''}{verdict.diff.toFixed(1)}%
           </div>
-          <div className="tc2__bar-labels">
-            <span style={{ color: '#22d3ee' }}>Offering</span>
-            <span style={{ color: '#818cf8' }}>Requesting</span>
-          </div>
-
-          <button className="tc2__save-btn" onClick={saveHistory} type="button">Save to History</button>
         </div>
       )}
 
-      {/* History */}
-      {history.length > 0 && (
-        <div className="tc2__history">
-          <h3 className="tc2__history-title">Recent Trades</h3>
-          {history.map(h => {
-            const hColor = h.verdict === 'PROFIT' ? '#00ffaa' : h.verdict === 'BALANCED' ? '#fbbf24' : '#ff4d4d';
-            return (
-              <div key={h.ts} className="tc2__history-row" style={{ borderLeftColor: hColor }}>
-                <span className="tc2__history-badge" style={{ color: hColor, background: `${hColor}15` }}>{h.verdict}</span>
-                <span className="tc2__history-vals">{fmt(h.offerTotal)} vs {fmt(h.requestTotal)}</span>
-                <span className="tc2__history-diff" style={{ color: hColor }}>{h.diff > 0 ? '+' : ''}{h.diff.toFixed(1)}%</span>
-              </div>
-            );
-          })}
+      {/* Proportion bar */}
+      {verdict && (
+        <div className="tc2__bar-section">
+          <div className="tc2__bar">
+            <div className="tc2__bar-l" style={{ width: `${offerPct}%` }}>
+              {offerPct >= 20 && <span className="tc2__bar-txt">{fmt(offerTotal)}</span>}
+            </div>
+            <div className="tc2__bar-r" style={{ width: `${100 - offerPct}%` }}>
+              {(100 - offerPct) >= 20 && <span className="tc2__bar-txt">{fmt(requestTotal)}</span>}
+            </div>
+          </div>
+          <div className="tc2__bar-leg">
+            <span style={{ color: '#22d3ee' }}>Offering</span>
+            <span style={{ color: '#818cf8' }}>Requesting</span>
+          </div>
+        </div>
+      )}
+
+      {/* ============ MODAL ============ */}
+      {modalOpen && (
+        <div className="tc2__overlay" onClick={closeModal}>
+          <div className="tc2__modal" onClick={e => e.stopPropagation()}>
+            {!cfgItem ? (
+              <>
+                {/* BROWSE */}
+                <div className="tc2__m-head">
+                  <h3 className="tc2__m-title">Select Item</h3>
+                  <button className="tc2__m-close" onClick={closeModal} type="button">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                  </button>
+                </div>
+
+                <div className="tc2__m-search">
+                  <svg className="tc2__m-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                  <input
+                    className="tc2__m-search-input"
+                    type="text"
+                    placeholder="Search items..."
+                    value={modalQuery}
+                    onChange={e => setModalQuery(e.target.value)}
+                    autoFocus
+                  />
+                </div>
+
+                <div className="tc2__m-cats">
+                  {([['all', 'All'], ['fish', 'Fish'], ['boat', 'Boats'], ['rod_skin', 'Rod Skins']] as [Category, string][]).map(([key, label]) => (
+                    <button
+                      key={key}
+                      className={`tc2__m-cat${modalCat === key ? ' tc2__m-cat--on' : ''}`}
+                      onClick={() => setModalCat(key)}
+                      type="button"
+                    >{label}</button>
+                  ))}
+                </div>
+
+                <div className="tc2__m-grid">
+                  {modalItems.slice(0, 80).map(item => (
+                    <button
+                      key={`${item.kind}-${item.id}`}
+                      className="tc2__m-item"
+                      style={{ background: rarityGrad(item.rarity) }}
+                      onClick={() => selectInModal(item.kind, item.id)}
+                      type="button"
+                    >
+                      <div className="tc2__m-item-imgbox">
+                        {item.imageUrl ? (
+                          <img className="tc2__m-item-img" src={item.imageUrl} alt="" loading="lazy" />
+                        ) : (
+                          <div className="tc2__m-item-dot" style={{ background: RARITY_COLORS[item.rarity] || '#666' }} />
+                        )}
+                      </div>
+                      <span className="tc2__m-item-name">{item.name}</span>
+                      <span className="tc2__m-item-val">{fmt(item.value)} <small>{item.unit}</small></span>
+                    </button>
+                  ))}
+                  {modalItems.length === 0 && <div className="tc2__m-empty">No items found</div>}
+                </div>
+              </>
+            ) : (
+              <>
+                {/* CONFIGURE */}
+                <div className="tc2__m-head">
+                  <button className="tc2__m-back" onClick={() => setCfgItem(null)} type="button">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="m15 18-6-6 6-6"/></svg>
+                  </button>
+                  <h3 className="tc2__m-title">Configure</h3>
+                  <button className="tc2__m-close" onClick={closeModal} type="button">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                  </button>
+                </div>
+
+                {renderConfig()}
+
+                <button className="tc2__m-confirm" onClick={confirmAdd} type="button">
+                  Add to {modalSide === 'offer' ? 'Offering' : 'Requesting'}
+                </button>
+              </>
+            )}
+          </div>
         </div>
       )}
     </div>
