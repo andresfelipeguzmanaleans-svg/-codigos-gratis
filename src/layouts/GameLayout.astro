@@ -197,8 +197,8 @@ if (gameSlug === 'fisch') {
       rel="stylesheet"
     />
 
-    <!-- Restore sidebar state before paint -->
-    <script is:inline>try{if(localStorage.getItem('sb-c')==='1')document.documentElement.classList.add('sidebar-collapsed')}catch(e){}</script>
+    <!-- Restore sidebar state before paint (default: collapsed) -->
+    <script is:inline>try{var s=localStorage.getItem('sb-c');if(s!=='0')document.documentElement.classList.add('sidebar-collapsed')}catch(e){document.documentElement.classList.add('sidebar-collapsed')}</script>
 
     <slot name="head" />
 
@@ -355,24 +355,48 @@ if (gameSlug === 'fisch') {
         var mo=document.getElementById('moreBtn');
         var bs=document.getElementById('bsheet');
         var bc=document.getElementById('bsheetClose');
+        var sidebar=document.getElementById('sidebar');
 
+        // Sidebar collapse toggle
         if(sb)sb.onclick=function(){
           document.documentElement.classList.toggle('sidebar-collapsed');
           try{localStorage.setItem('sb-c',document.documentElement.classList.contains('sidebar-collapsed')?'1':'0')}catch(e){}
         };
-        if(mb)mb.onclick=function(){document.body.classList.toggle('menu-open')};
-        if(ov)ov.onclick=function(){document.body.classList.remove('menu-open')};
+
+        // Sidebar hover expand (desktop only)
+        if(sidebar){
+          sidebar.addEventListener('mouseenter',function(){
+            if(window.innerWidth>=768&&document.documentElement.classList.contains('sidebar-collapsed')){
+              document.documentElement.classList.add('sidebar-hover');
+            }
+          });
+          sidebar.addEventListener('mouseleave',function(){
+            document.documentElement.classList.remove('sidebar-hover');
+          });
+        }
+
+        // Mobile menu toggle with body scroll lock
+        function openMenu(){document.body.classList.add('menu-open');document.body.style.overflow='hidden'}
+        function closeMenu(){document.body.classList.remove('menu-open');document.body.style.overflow=''}
+        if(mb)mb.onclick=function(){
+          if(document.body.classList.contains('menu-open'))closeMenu();
+          else openMenu();
+        };
+        if(ov)ov.onclick=closeMenu;
 
         document.querySelectorAll('.sidebar__link').forEach(function(l){
-          l.addEventListener('click',function(){document.body.classList.remove('menu-open')});
+          l.addEventListener('click',closeMenu);
         });
 
-        if(mo)mo.onclick=function(){bs&&bs.classList.add('open')};
+        // Bottom sheet (More menu)
+        function openSheet(){bs&&bs.classList.add('open');document.body.style.overflow='hidden'}
+        function closeSheet(){bs&&bs.classList.remove('open');document.body.style.overflow=''}
+        if(mo)mo.onclick=openSheet;
         if(bs){
           var ol=bs.querySelector('.bsheet__overlay');
-          if(ol)ol.onclick=function(){bs.classList.remove('open')};
+          if(ol)ol.onclick=closeSheet;
         }
-        if(bc)bc.onclick=function(){bs&&bs.classList.remove('open')};
+        if(bc)bc.onclick=closeSheet;
       })();
     </script>
 
@@ -725,6 +749,19 @@ if (gameSlug === 'fisch') {
       width: var(--sidebar-w-sm);
       padding: 1rem 0.5rem;
     }
+
+    /* Hover-expand: temporarily show full sidebar on hover */
+    :global(html.sidebar-hover) .sidebar {
+      width: var(--sidebar-w);
+      padding: 1rem 0.75rem;
+      position: fixed;
+      left: 0;
+      top: var(--topbar-h);
+      height: calc(100dvh - var(--topbar-h));
+      z-index: 91;
+      background: var(--bg-deep);
+      box-shadow: 4px 0 24px rgba(0, 0, 0, 0.4);
+    }
   }
 
   /* Mobile sidebar */
@@ -741,7 +778,30 @@ if (gameSlug === 'fisch') {
       background: var(--bg-deep);
       border-right: 1px solid var(--border);
       padding: 1rem 0.75rem;
+      padding-bottom: calc(var(--mtabs-h) + 1rem);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
       animation: slideIn 0.2s ease;
+    }
+
+    /* Always show labels in mobile sidebar */
+    :global(body.menu-open) .sidebar .sidebar__group-label {
+      opacity: 1 !important;
+      height: auto !important;
+      margin-bottom: 4px !important;
+      padding: 0 0.75rem !important;
+      overflow: visible !important;
+    }
+
+    :global(body.menu-open) .sidebar .sidebar__link-text {
+      opacity: 1 !important;
+      width: auto !important;
+      overflow: visible !important;
+    }
+
+    :global(body.menu-open) .sidebar .sidebar__link {
+      justify-content: flex-start !important;
+      padding: 0.5rem 0.75rem !important;
     }
   }
 
@@ -792,6 +852,14 @@ if (gameSlug === 'fisch') {
     overflow: hidden;
   }
 
+  :global(html.sidebar-hover) .sidebar__group-label {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 4px;
+    padding: 0 0.75rem;
+    overflow: visible;
+  }
+
   .sidebar__link {
     display: flex;
     align-items: center;
@@ -835,6 +903,18 @@ if (gameSlug === 'fisch') {
   :global(html.sidebar-collapsed) .sidebar__link {
     justify-content: center;
     padding: 0.5rem;
+  }
+
+  /* Hover-expand: restore link text and alignment */
+  :global(html.sidebar-hover) .sidebar__link-text {
+    opacity: 1;
+    width: auto;
+    overflow: visible;
+  }
+
+  :global(html.sidebar-hover) .sidebar__link {
+    justify-content: flex-start;
+    padding: 0.5rem 0.75rem;
   }
 
   /* Collapse toggle */

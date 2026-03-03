@@ -68,26 +68,37 @@ const ico: Record<string, string> = {
   sparkle: '<path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>',
   worm: '<path d="M18 4c-1 0-2 .5-2.8 1.5C14 7 14 9 14 11c0 3-2 5-4 5s-3-1-3-3"/><path d="M7 13c-2 0-3 1-3 3 0 2.5 2.5 4 5 4 1.5 0 3-.5 4-1.5"/><circle cx="18" cy="4" r="1"/>',
   bobber: '<path d="M12 2v4"/><circle cx="12" cy="9" r="3"/><path d="M12 12v3"/><path d="M8 22c0-3.3 1.8-6 4-7 2.2 1 4 3.7 4 7"/><path d="M9 6.8a3 3 0 0 1 6 0"/>',
+  trophy: '<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>',
+  trading: '<path d="m7 16-4-4 4-4"/><path d="M3 12h18"/><path d="m17 8 4 4-4 4"/>',
 };
 
-// Quick link sections
-const sections = [
-  { title: 'Fish Database', desc: `${fmt(totalFish)} species catalogued — complete intelligence across all waters`, href: '/games/fisch/fish/', icon: 'fish', color: '#1DA2D8' },
-  { title: 'Value List', desc: `Real-time market data for ${fmt(valuesData.items.length)} items — informed trading starts here`, href: '/games/fisch/values/', icon: 'coins', color: '#22D3EE' },
-  { title: 'Trade Calculator', desc: 'Win/Fair/Lose analysis for every exchange — never get scammed again', href: '/games/fisch/calculator/', icon: 'calc', color: '#F97316' },
-  { title: 'Mutations Guide', desc: `${fmt(totalMutations)} genetic modifiers documented — multiply your fortune`, href: '/games/fisch/mutations/', icon: 'dna', color: '#9B59B6' },
-  { title: 'Fishing Rods', desc: `${fmt(totalRods)} rods compared — full stat breakdown for optimal loadout`, href: '/games/fisch/rods/', icon: 'rod', color: '#F39C12' },
-  { title: 'Locations', desc: `${fmt(totalLocations)} fishing spots charted — every location catalogued`, href: '/games/fisch/locations/', icon: 'map', color: '#2ECC71' },
-  { title: 'Interactive Map', desc: `${fmt(totalLocations)} locations plotted on an interactive map — zoom, search, and explore`, href: '/games/fisch/map/', icon: 'map', color: '#06B6D4' },
-  { title: 'Rod Skins', desc: `${fmt(totalRodSkins)} cosmetics tracked — trade values updated weekly`, href: '/games/fisch/rod-skins/', icon: 'palette', color: '#a855f7' },
-  { title: 'Boats', desc: `${fmt(totalBoats)} vessels catalogued — from dinghies to legendary ships`, href: '/games/fisch/boats/', icon: 'boat', color: '#22D3EE' },
-  { title: 'Enchantments', desc: `${fmt(totalEnchantments)} rod upgrades — effects, costs, and tier rankings`, href: '/games/fisch/enchantments/', icon: 'sparkle', color: '#F59E0B' },
-  { title: 'Baits', desc: `${fmt(totalBaits)} baits catalogued — find the perfect lure for every catch`, href: '/games/fisch/baits/', icon: 'worm', color: '#10B981' },
-  { title: 'Bobbers', desc: `${fmt(totalBobbers)} bobbers tracked — from bestiary rewards to rare collectibles`, href: '/games/fisch/bobbers/', icon: 'bobber', color: '#EC4899' },
-  { title: 'Active Codes', desc: 'Free rewards and active promotions — redeem before they expire', href: '/codigos-fisch/', icon: 'gift', color: '#E74C3C' },
+// Categorized quick link sections
+const tradingLinks = [
+  { title: 'Value List', desc: `Real-time market data for ${fmt(valuesData.items.length)} tradeable items`, href: '/games/fisch/values/', icon: 'coins', color: '#22D3EE' },
+  { title: 'Trade Calculator', desc: 'Win/Fair/Lose analysis — never get scammed', href: '/games/fisch/calculator/', icon: 'calc', color: '#F97316' },
+  { title: 'Boats', desc: `${fmt(totalBoats)} vessels with trade values`, href: '/games/fisch/boats/', icon: 'boat', color: '#22D3EE' },
+  { title: 'Boat Tier List', desc: 'All boats ranked SS to D tier', href: '/games/fisch/boats/tier-list/', icon: 'trophy', color: '#fbbf24' },
+  { title: 'Rod Skins', desc: `${fmt(totalRodSkins)} cosmetics with values`, href: '/games/fisch/rod-skins/', icon: 'palette', color: '#a855f7' },
+  { title: 'Rod Skins Tier List', desc: 'All rod skins ranked SS to D tier', href: '/games/fisch/rod-skins/tier-list/', icon: 'trophy', color: '#ef4444' },
+  { title: 'Trading Hub', desc: 'Browse and create trade listings', href: '/games/fisch/trading/', icon: 'trading', color: '#1DA2D8' },
 ];
 
-// Stats for hero
+const databaseLinks = [
+  { title: 'Fish Database', desc: `${fmt(totalFish)} species — complete intelligence`, href: '/games/fisch/fish/', icon: 'fish', color: '#1DA2D8' },
+  { title: 'Mutations', desc: `${fmt(totalMutations)} genetic modifiers`, href: '/games/fisch/mutations/', icon: 'dna', color: '#9B59B6' },
+  { title: 'Fishing Rods', desc: `${fmt(totalRods)} rods compared`, href: '/games/fisch/rods/', icon: 'rod', color: '#F39C12' },
+  { title: 'Enchantments', desc: `${fmt(totalEnchantments)} rod upgrades`, href: '/games/fisch/enchantments/', icon: 'sparkle', color: '#F59E0B' },
+  { title: 'Baits', desc: `${fmt(totalBaits)} baits catalogued`, href: '/games/fisch/baits/', icon: 'worm', color: '#10B981' },
+  { title: 'Bobbers', desc: `${fmt(totalBobbers)} bobbers tracked`, href: '/games/fisch/bobbers/', icon: 'bobber', color: '#EC4899' },
+];
+
+const exploreLinks = [
+  { title: 'Interactive Map', desc: `${fmt(totalLocations)} locations plotted`, href: '/games/fisch/map/', icon: 'map', color: '#06B6D4' },
+  { title: 'Locations', desc: `${fmt(totalLocations)} fishing spots`, href: '/games/fisch/locations/', icon: 'map', color: '#2ECC71' },
+  { title: 'Active Codes', desc: 'Free rewards — redeem now', href: '/codigos-fisch/', icon: 'gift', color: '#E74C3C' },
+];
+
+// Stats
 const stats = [
   { label: 'Fish', value: fmt(totalFish), icon: 'fish', color: '#1DA2D8' },
   { label: 'Rod Skins', value: fmt(totalRodSkins), icon: 'palette', color: '#a855f7' },
@@ -152,24 +163,40 @@ const webSiteSchema = {
   </Fragment>
 
   <!-- HERO -->
-  <FischHero title="FISCH" subtitle="COMMAND CENTER">
-    <div class="hero__stats">
-      {stats.map(s => (
-        <div class="stat-card">
-          <svg class="stat-card__ico" viewBox="0 0 24 24" fill="none" stroke={s.color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[s.icon]} />
-          <span class="stat-card__value">{s.value}</span>
-          <span class="stat-card__label">{s.label}</span>
-        </div>
-      ))}
-    </div>
-  </FischHero>
+  <FischHero title="FISCH" subtitle="COMMAND CENTER" />
 
-  <!-- QUICK LINKS -->
-  <section class="explore">
+  <!-- MAP BANNER -->
+  <section class="map-banner">
     <div class="container">
-      <h2 class="sec-title">EXPLORE THE DATABASE</h2>
-      <div class="explore__grid">
-        {sections.map(s => (
+      <a href="/games/fisch/map/" class="map-banner__card">
+        <img
+          src="/images/fisch-hero.webp"
+          alt="Fisch World Map"
+          class="map-banner__bg"
+          loading="eager"
+        />
+        <div class="map-banner__content">
+          <div class="map-banner__badge">{totalLocations} LOCATIONS</div>
+          <h2 class="map-banner__title">Interactive World Map</h2>
+          <p class="map-banner__desc">Explore all fishing spots, hidden zones, and rare fish locations</p>
+          <span class="map-banner__cta">
+            Open Map
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" set:html={ico.arrow} />
+          </span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- TRADING -->
+  <section class="cat-section">
+    <div class="container">
+      <h2 class="cat-title">
+        <svg class="cat-title__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.trading} />
+        TRADING
+      </h2>
+      <div class="cat-grid">
+        {tradingLinks.map(s => (
           <a href={s.href} class="ecard" style={`--card-color: ${s.color}`}>
             <div class="ecard__icon-wrap">
               <svg class="ecard__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[s.icon]} />
@@ -185,10 +212,77 @@ const webSiteSchema = {
     </div>
   </section>
 
+  <!-- DATABASE -->
+  <section class="cat-section">
+    <div class="container">
+      <h2 class="cat-title">
+        <svg class="cat-title__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.fish} />
+        DATABASE
+      </h2>
+      <div class="cat-grid">
+        {databaseLinks.map(s => (
+          <a href={s.href} class="ecard" style={`--card-color: ${s.color}`}>
+            <div class="ecard__icon-wrap">
+              <svg class="ecard__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[s.icon]} />
+            </div>
+            <div class="ecard__body">
+              <h3 class="ecard__title">{s.title}</h3>
+              <p class="ecard__desc">{s.desc}</p>
+            </div>
+            <svg class="ecard__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.arrow} />
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPLORE -->
+  <section class="cat-section">
+    <div class="container">
+      <h2 class="cat-title">
+        <svg class="cat-title__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.map} />
+        EXPLORE
+      </h2>
+      <div class="cat-grid cat-grid--sm">
+        {exploreLinks.map(s => (
+          <a href={s.href} class="ecard" style={`--card-color: ${s.color}`}>
+            <div class="ecard__icon-wrap">
+              <svg class="ecard__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[s.icon]} />
+            </div>
+            <div class="ecard__body">
+              <h3 class="ecard__title">{s.title}</h3>
+              <p class="ecard__desc">{s.desc}</p>
+            </div>
+            <svg class="ecard__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico.arrow} />
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- DATABASE STATS -->
+  <section class="db-stats">
+    <div class="container">
+      <h2 class="cat-title">
+        <svg class="cat-title__ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><polyline points="7 14 11 10 15 13 21 6"/></svg>
+        DATABASE STATS
+      </h2>
+      <div class="stats-grid">
+        {stats.map(s => (
+          <div class="stat-card">
+            <svg class="stat-card__ico" viewBox="0 0 24 24" fill="none" stroke={s.color} stroke-width="2" stroke-linecap="round" stroke-linejoin="round" set:html={ico[s.icon]} />
+            <span class="stat-card__value">{s.value}</span>
+            <span class="stat-card__label">{s.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <!-- RARITY BREAKDOWN -->
   <section class="rarities">
     <div class="container">
-      <h2 class="sec-title">Fish by Rarity</h2>
+      <h2 class="cat-title">Fish by Rarity</h2>
       <div class="rarities__grid">
         {topRarities.map(([rarity, count]) => {
           const c = RARITY_COLORS[rarity] || '#888';
@@ -226,7 +320,7 @@ const webSiteSchema = {
   <!-- FAQ -->
   <section class="faq">
     <div class="container">
-      <h2 class="sec-title">Frequently Asked Questions</h2>
+      <h2 class="cat-title">Frequently Asked Questions</h2>
       <div class="faq__list">
         {faqs.map(f => (
           <details class="faq__item">
@@ -241,131 +335,176 @@ const webSiteSchema = {
 
 <style>
   /* ==========================================================================
-     HERO
+     MAP BANNER
      ========================================================================== */
 
-  /* Stat cards */
-  .hero__stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.6rem;
-    margin-top: 2rem;
-    max-width: 560px;
-    margin-inline: auto;
+  .map-banner {
+    padding: 1rem 0 0;
+  }
+
+  .map-banner__card {
+    display: block;
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+  }
+
+  .map-banner__card:hover {
+    border-color: rgba(6, 182, 212, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+  }
+
+  .map-banner__bg {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    filter: brightness(0.35);
+    transition: filter 0.3s;
+  }
+
+  .map-banner__card:hover .map-banner__bg {
+    filter: brightness(0.45);
   }
 
   @media (min-width: 640px) {
-    .hero__stats {
-      grid-template-columns: repeat(5, 1fr);
-      max-width: 820px;
-    }
+    .map-banner__bg { height: 220px; }
   }
 
-  @media (min-width: 960px) {
-    .hero__stats {
-      grid-template-columns: repeat(9, 1fr);
-      max-width: 1100px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .hero {
-      padding: 3.5rem 0 2.5rem;
-    }
-  }
-
-  .stat-card {
+  .map-banner__content {
+    position: absolute;
+    inset: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.15rem;
-    padding: 0.85rem 0.4rem;
-    background: rgba(15, 23, 42, 0.75);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
-    transition: border-color 0.2s, transform 0.2s;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 1.5rem;
+    text-align: center;
   }
 
-  .stat-card:hover {
-    border-color: rgba(29, 162, 216, 0.25);
-    transform: translateY(-2px);
+  .map-banner__badge {
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #22D3EE;
+    background: rgba(34, 211, 238, 0.12);
+    border: 1px solid rgba(34, 211, 238, 0.25);
+    padding: 0.2rem 0.7rem;
+    border-radius: 9999px;
   }
 
-  .stat-card__ico {
-    width: 22px;
-    height: 22px;
-    margin-bottom: 2px;
-  }
-
-  .stat-card__value {
-    font-family: var(--font-mono);
-    font-size: 1.15rem;
+  .map-banner__title {
+    font-size: clamp(1.25rem, 4vw, 1.75rem);
     font-weight: 700;
     color: #fff;
-    line-height: 1.2;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   }
 
-  .stat-card__label {
-    font-size: 0.6rem;
-    color: var(--text-dim);
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    text-align: center;
-    line-height: 1.2;
+  .map-banner__desc {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 420px;
+  }
+
+  .map-banner__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.35rem;
+    padding: 0.45rem 1rem;
+    background: rgba(6, 182, 212, 0.2);
+    border: 1px solid rgba(6, 182, 212, 0.35);
+    border-radius: 8px;
+    color: #22D3EE;
+    font-size: 0.82rem;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+
+  .map-banner__card:hover .map-banner__cta {
+    background: rgba(6, 182, 212, 0.3);
   }
 
   /* ==========================================================================
-     SECTION TITLE
+     CATEGORY SECTIONS
      ========================================================================== */
 
-  .sec-title {
-    font-size: clamp(1.25rem, 3vw, 1.5rem);
-    font-weight: 700;
-    margin-bottom: 1.25rem;
-    color: var(--text);
-    letter-spacing: 0.08em;
-  }
-
-  /* ==========================================================================
-     EXPLORE / QUICK LINKS
-     ========================================================================== */
-
-  .explore {
+  .cat-section {
     padding: 1.5rem 0 0;
   }
 
-  .explore__grid {
+  .cat-title {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     gap: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--text-dim);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
   }
+
+  .cat-title__ico {
+    width: 18px;
+    height: 18px;
+    color: var(--accent);
+  }
+
+  .cat-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+
+  @media (min-width: 640px) {
+    .cat-grid { grid-template-columns: repeat(2, 1fr); gap: 0.55rem; }
+  }
+
+  @media (min-width: 960px) {
+    .cat-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  .cat-grid--sm {
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 640px) {
+    .cat-grid--sm { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  /* ==========================================================================
+     EXPLORE CARDS
+     ========================================================================== */
 
   .ecard {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    padding: 1rem 1.25rem;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
     background: var(--bg-card);
     border: 1px solid var(--border);
-    border-left: 4px solid var(--card-color, var(--accent));
+    border-left: 3px solid var(--card-color, var(--accent));
     border-radius: var(--radius);
-    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
   }
 
   .ecard:hover {
     border-color: var(--card-color, var(--accent));
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
   }
 
   .ecard__icon-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     border-radius: var(--radius);
     background: color-mix(in srgb, var(--card-color) 12%, transparent);
     color: var(--card-color);
@@ -373,8 +512,8 @@ const webSiteSchema = {
   }
 
   .ecard__ico {
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
   }
 
   .ecard__body {
@@ -383,22 +522,25 @@ const webSiteSchema = {
   }
 
   .ecard__title {
-    font-size: 0.95rem;
+    font-size: 0.88rem;
     font-weight: 600;
     color: #fff;
     line-height: 1.3;
   }
 
   .ecard__desc {
-    margin-top: 2px;
-    font-size: 0.8rem;
+    margin-top: 1px;
+    font-size: 0.72rem;
     color: var(--text-dim);
-    line-height: 1.45;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .ecard__arrow {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     flex-shrink: 0;
     color: var(--text-dim);
     transition: color 0.2s, transform 0.2s;
@@ -406,34 +548,68 @@ const webSiteSchema = {
 
   .ecard:hover .ecard__arrow {
     color: var(--card-color, var(--accent));
-    transform: translateX(3px);
+    transform: translateX(2px);
+  }
+
+  /* ==========================================================================
+     DATABASE STATS
+     ========================================================================== */
+
+  .db-stats {
+    padding: 1.5rem 0 0;
+  }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
   }
 
   @media (min-width: 640px) {
-    .explore__grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 0.75rem;
-    }
+    .stats-grid { grid-template-columns: repeat(5, 1fr); }
   }
 
   @media (min-width: 960px) {
-    .explore__grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
+    .stats-grid { grid-template-columns: repeat(9, 1fr); }
+  }
 
-    .ecard {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 1.25rem;
-      position: relative;
-    }
+  .stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    padding: 0.75rem 0.35rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    transition: border-color 0.2s;
+  }
 
-    .ecard__arrow {
-      position: absolute;
-      right: 1rem;
-      top: 1rem;
-    }
+  .stat-card:hover {
+    border-color: rgba(29, 162, 216, 0.2);
+  }
+
+  .stat-card__ico {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2px;
+  }
+
+  .stat-card__value {
+    font-family: var(--font-mono);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+  }
+
+  .stat-card__label {
+    font-size: 0.55rem;
+    color: var(--text-dim);
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: center;
+    line-height: 1.2;
   }
 
   /* ==========================================================================
@@ -441,35 +617,30 @@ const webSiteSchema = {
      ========================================================================== */
 
   .rarities {
-    padding: 2rem 0 0;
+    padding: 1.5rem 0 0;
   }
 
   .rarities__grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 0.4rem;
   }
 
   .rchip {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.4rem 0.85rem;
+    gap: 0.45rem;
+    padding: 0.35rem 0.75rem;
     border-radius: var(--radius-pill);
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-weight: 600;
     border: 1px solid color-mix(in srgb, var(--r) 25%, transparent);
     background: color-mix(in srgb, var(--r) 8%, transparent);
-    transition: transform 0.2s;
-  }
-
-  .rchip:hover {
-    transform: scale(1.04);
   }
 
   .rchip__dot {
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     flex-shrink: 0;
   }
@@ -480,7 +651,7 @@ const webSiteSchema = {
 
   .rchip__count {
     font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     color: var(--text-dim);
   }
 
@@ -489,17 +660,15 @@ const webSiteSchema = {
      ========================================================================== */
 
   .updates {
-    padding: 2rem 0 0;
+    padding: 1.5rem 0 0;
   }
 
   .updates__card {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
-    padding: 1.25rem 1.5rem;
-    background: rgba(15, 23, 42, 0.75);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    padding: 1rem 1.25rem;
+    background: var(--bg-card);
     border: 1px solid rgba(29, 162, 216, 0.15);
     border-radius: 12px;
   }
@@ -508,8 +677,8 @@ const webSiteSchema = {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     border-radius: var(--radius);
     background: rgba(29, 162, 216, 0.12);
     color: var(--accent);
@@ -517,8 +686,8 @@ const webSiteSchema = {
   }
 
   .updates__ico {
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
   }
 
   .updates__body {
@@ -526,24 +695,24 @@ const webSiteSchema = {
   }
 
   .updates__title {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     color: #fff;
   }
 
   .updates__date {
-    margin-top: 0.25rem;
-    font-size: 0.9rem;
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
     color: var(--accent);
     font-weight: 600;
     font-family: var(--font-mono);
   }
 
   .updates__note {
-    margin-top: 0.4rem;
-    font-size: 0.8rem;
+    margin-top: 0.3rem;
+    font-size: 0.75rem;
     color: var(--text-dim);
-    line-height: 1.55;
+    line-height: 1.5;
   }
 
   /* ==========================================================================
@@ -551,13 +720,13 @@ const webSiteSchema = {
      ========================================================================== */
 
   .faq {
-    padding: 2rem 0 0;
+    padding: 1.5rem 0 0;
   }
 
   .faq__list {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.4rem;
   }
 
   .faq__item {
@@ -573,8 +742,8 @@ const webSiteSchema = {
   }
 
   .faq__q {
-    padding: 1rem 1.25rem;
-    font-size: 0.95rem;
+    padding: 0.85rem 1rem;
+    font-size: 0.88rem;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
@@ -592,7 +761,7 @@ const webSiteSchema = {
 
   .faq__q::after {
     content: '+';
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: var(--text-dim);
     flex-shrink: 0;
     transition: transform 0.2s, color 0.2s;
@@ -609,9 +778,9 @@ const webSiteSchema = {
   }
 
   .faq__a {
-    padding: 0 1.25rem 1rem;
-    font-size: 0.85rem;
+    padding: 0 1rem 0.85rem;
+    font-size: 0.8rem;
     color: var(--text-dim);
-    line-height: 1.65;
+    line-height: 1.6;
   }
 </style>
