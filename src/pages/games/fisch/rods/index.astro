@@ -10,40 +10,38 @@ import rodsData from '../../../../data/games/fisch/rods.json';
 const rows: RodRow[] = (rodsData as any[]).map(r => ({
   id: r.id,
   name: r.name,
+  stage: r.stage ?? null,
   luckBonus: r.luckBonus ?? 0,
   control: r.control ?? 0,
   resilience: r.resilience ?? 0,
   lureSpeed: r.lureSpeed ?? 0,
-  obtainMethod: r.obtainMethod,
-  imageUrl: r.imageUrl || null,
+  obtainedFrom: r.obtainedFrom ?? null,
+  passive: r.passive ?? null,
+  price: r.price ?? null,
   isCosmetic:
     (r.luckBonus === 0 || r.luckBonus == null) &&
     (r.control === 0 || r.control == null) &&
     (r.resilience === 0 || r.resilience == null) &&
     (r.lureSpeed === 0 || r.lureSpeed == null),
+  imageUrl: r.imageUrl || null,
 }));
 
-const withStats = rows.filter(r => !r.isCosmetic);
-const cosmetic = rows.filter(r => r.isCosmetic);
+const stages = [...new Set(rows.map(r => r.stage).filter(Boolean) as number[])].sort((a, b) => a - b);
+const locations = [...new Set(rows.map(r => r.obtainedFrom).filter(Boolean) as string[])].sort();
 
 const total = rows.length;
 const fmt = (n: number) => n.toLocaleString('en-US');
 
-// Max stats for bars (excluding the -999999999 outlier)
-const saneResil = withStats.map(r => r.resilience).filter(v => v > -1_000_000);
-const maxLuck = Math.max(...withStats.map(r => r.luckBonus));
-const maxControl = Math.max(...withStats.map(r => r.control));
-const maxResil = Math.max(...saneResil, 0);
-const maxLure = Math.max(...withStats.map(r => r.lureSpeed));
-
 // Top 5 per stat
+const withStats = rows.filter(r => !r.isCosmetic);
+
 type StatDef = { key: 'luckBonus' | 'control' | 'resilience' | 'lureSpeed'; label: string; icon: string; format: (v: number) => string };
 
 const statDefs: StatDef[] = [
-  { key: 'luckBonus', label: 'Luck Bonus', icon: '🍀', format: v => fmt(v) },
-  { key: 'control', label: 'Control', icon: '🎯', format: v => v.toFixed(2) },
-  { key: 'resilience', label: 'Resilience', icon: '🛡️', format: v => fmt(v) },
-  { key: 'lureSpeed', label: 'Lure Speed', icon: '⚡', format: v => fmt(v) },
+  { key: 'luckBonus', label: 'Luck Bonus', icon: '\uD83C\uDF40', format: v => fmt(v) },
+  { key: 'control', label: 'Control', icon: '\uD83C\uDFAF', format: v => v.toFixed(2) },
+  { key: 'resilience', label: 'Resilience', icon: '\uD83D\uDEE1\uFE0F', format: v => fmt(v) },
+  { key: 'lureSpeed', label: 'Lure Speed', icon: '\u26A1', format: v => fmt(v) },
 ];
 
 const top5s = statDefs.map(sd => ({
@@ -121,12 +119,10 @@ const rodItemListSchema = {
     <section class="rod-list">
       <h2 class="section-heading">All Rods</h2>
       <RodTable
-        client:visible
+        client:load
         rods={rows}
-        maxLuck={maxLuck}
-        maxControl={maxControl}
-        maxResil={maxResil}
-        maxLure={maxLure}
+        stages={stages}
+        locations={locations}
       />
     </section>
   </div>
@@ -238,16 +234,14 @@ const rodItemListSchema = {
   }
 
   /* ============================================================
-     ROD LIST SECTION
+     ROD TABLE — styles for the React component
      ============================================================ */
 
   .rod-list {
     padding-bottom: 1rem;
   }
 
-  /* ---- React component styles (RodTable) ---- */
-
-  /* Filters */
+  /* Search */
   :global(.rt__filters) {
     display: flex;
     flex-direction: column;
@@ -290,6 +284,7 @@ const rodItemListSchema = {
     color: var(--text-dim);
   }
 
+  /* Filter row */
   :global(.rt__filter-row) {
     display: flex;
     flex-wrap: wrap;
@@ -297,7 +292,103 @@ const rodItemListSchema = {
     align-items: center;
   }
 
-  :global(.rt__toggle-label) {
+  :global(.rt__filter-btn),
+  :global(.rt__select) {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.45rem 0.7rem;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  :global(.rt__filter-btn:hover),
+  :global(.rt__select:hover) {
+    border-color: rgba(6, 214, 160, 0.3);
+  }
+
+  :global(.rt__filter-btn:focus),
+  :global(.rt__select:focus) {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
+  }
+
+  :global(.rt__select option) {
+    background: var(--bg-card);
+    color: var(--text);
+  }
+
+  /* Stage panel */
+  :global(.rt__stage-wrap) {
+    position: relative;
+  }
+
+  :global(.rt__stage-panel) {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    z-index: 50;
+    background: rgba(17, 24, 39, 0.97);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(6, 214, 160, 0.2);
+    border-radius: 12px;
+    padding: 0.5rem;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+    min-width: 200px;
+    max-height: 360px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  :global(.rt__stage-opt) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    color: var(--text);
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+
+  :global(.rt__stage-opt:hover) {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  :global(.rt__stage-opt input) {
+    accent-color: var(--accent);
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+  }
+
+  :global(.rt__stage-dot) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  :global(.rt__stage-cnt) {
+    margin-left: auto;
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    font-family: var(--font-display);
+  }
+
+  /* Cosmetic label */
+  :global(.rt__cosmetic-label) {
     display: flex;
     align-items: center;
     gap: 0.35rem;
@@ -307,13 +398,14 @@ const rodItemListSchema = {
     white-space: nowrap;
   }
 
-  :global(.rt__toggle-label input) {
+  :global(.rt__cosmetic-label input) {
     accent-color: var(--accent);
     width: 14px;
     height: 14px;
     cursor: pointer;
   }
 
+  /* Clear */
   :global(.rt__clear) {
     background: none;
     border: 1px solid var(--border);
@@ -331,6 +423,7 @@ const rodItemListSchema = {
     background: rgba(255, 107, 107, 0.08);
   }
 
+  /* Count */
   :global(.rt__count) {
     font-size: 0.8rem;
     color: var(--text-dim);
@@ -356,9 +449,9 @@ const rodItemListSchema = {
     position: sticky;
     top: 0;
     background: var(--bg-card);
-    padding: 0.6rem 0.75rem;
+    padding: 0.65rem 0.75rem;
     text-align: left;
-    font-size: 0.72rem;
+    font-size: 0.75rem;
     font-weight: 600;
     color: var(--text-dim);
     text-transform: uppercase;
@@ -374,9 +467,17 @@ const rodItemListSchema = {
     color: var(--accent);
   }
 
+  :global(.rt__th--img) {
+    width: 40px;
+    cursor: default;
+  }
+
+  :global(.rt__th--stage) {
+    width: 90px;
+  }
+
   :global(.rt__th--stat) {
-    width: 140px;
-    min-width: 100px;
+    width: 80px;
   }
 
   :global(.rt__row) {
@@ -403,29 +504,42 @@ const rodItemListSchema = {
   :global(.rt__td) {
     padding: 0.5rem 0.75rem;
     vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  :global(.rt__td--img) {
+    width: 40px;
+    padding: 0.35rem 0.5rem;
+  }
+
+  :global(.rt__thumb) {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  :global(.rt__thumb-ph) {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   :global(.rt__td--name) {
-    min-width: 160px;
-  }
-
-  :global(.rt__name-wrap) {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  :global(.rt__name-img) {
-    width: 28px;
-    height: 28px;
-    object-fit: contain;
-    border-radius: 4px;
-    flex-shrink: 0;
-  }
-
-  :global(.rt__name-text) {
     font-weight: 600;
+  }
+
+  :global(.rt__name-link) {
     color: #fff;
+    transition: color 0.2s;
+  }
+
+  :global(.rt__name-link:hover) {
+    color: var(--accent);
   }
 
   :global(.rt__cosmetic-tag) {
@@ -437,47 +551,33 @@ const rodItemListSchema = {
     border-radius: 9999px;
     padding: 0.1rem 0.4rem;
     white-space: nowrap;
-    flex-shrink: 0;
+    margin-left: 0.4rem;
+    vertical-align: middle;
   }
 
-  :global(.rt__obtain) {
-    margin-top: 0.3rem;
-    font-size: 0.78rem;
-    color: var(--text-dim);
-    line-height: 1.45;
+  :global(.rt__badge) {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border: 1px solid;
+    border-radius: 9999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
   }
 
-  /* Stat cell with bar */
-  :global(.rt__stat-cell) {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    min-width: 0;
-  }
-
-  :global(.rt__stat-num) {
+  :global(.rt__td--stat) {
     font-family: var(--font-display);
     font-size: 0.82rem;
-    font-weight: 700;
-    color: var(--text);
-    line-height: 1;
+    color: var(--text-dim);
   }
 
-  :global(.rt__stat-bar) {
-    height: 4px;
-    background: rgba(255, 255, 255, 0.06);
-    border-radius: 2px;
-    overflow: hidden;
-    width: 100%;
+  :global(.rt__luck-val) {
+    color: #22D3EE;
+    font-family: var(--font-mono);
+    font-weight: 600;
   }
 
-  :global(.rt__stat-fill) {
-    height: 100%;
-    border-radius: 2px;
-    transition: width 0.3s;
-  }
-
-  /* Hide resilience + lure on mobile */
+  /* Hide columns on mobile */
   @media (max-width: 639px) {
     :global(.rt__th--hide-sm),
     :global(.rt__td--hide-sm) {
@@ -495,5 +595,44 @@ const rodItemListSchema = {
     flex-direction: column;
     align-items: center;
     gap: 0.75rem;
+  }
+
+  /* Pagination */
+  :global(.rt__pag) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 0 0.5rem;
+  }
+
+  :global(.rt__pag-btn) {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.4rem 0.65rem;
+    color: var(--text);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    font-family: var(--font-body);
+  }
+
+  :global(.rt__pag-btn:hover:not(:disabled)) {
+    border-color: var(--accent);
+    background: rgba(6, 214, 160, 0.06);
+  }
+
+  :global(.rt__pag-btn:disabled) {
+    opacity: 0.3;
+    cursor: default;
+  }
+
+  :global(.rt__pag-info) {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    font-family: var(--font-display);
+    min-width: 4rem;
+    text-align: center;
   }
 </style>
