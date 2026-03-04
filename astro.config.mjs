@@ -43,21 +43,6 @@ export default defineConfig({
           item.priority = 0.6;
           item.changefreq = 'monthly';
         }
-        // New game hubs → high priority
-        else if (/^\/games\/(adopt-me|blox-fruits|mm2|grow-a-garden)\/$/.test(p)) {
-          item.priority = 0.9;
-          item.changefreq = 'weekly';
-        }
-        // New game values → high priority, frequent updates
-        else if (/^\/games\/(adopt-me|blox-fruits|mm2|grow-a-garden)\/values\/$/.test(p)) {
-          item.priority = 0.9;
-          item.changefreq = 'daily';
-        }
-        // New game calculators → high priority
-        else if (/^\/games\/(adopt-me|blox-fruits|mm2|grow-a-garden)\/calculator\/$/.test(p)) {
-          item.priority = 0.8;
-          item.changefreq = 'weekly';
-        }
         // Homepage
         else if (p === '/') {
           item.priority = 1.0;

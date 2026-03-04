@@ -85,13 +85,6 @@ if (gameSlug === 'fisch') {
     { label: 'Mutations', href: `/games/${gameSlug}/mutations/`, icon: 'dna' },
     { label: 'Locations', href: `/games/${gameSlug}/locations/`, icon: 'loc' },
   ];
-} else {
-  // Generic nav for all other games (adopt-me, blox-fruits, mm2, grow-a-garden)
-  primaryNav = [
-    { label: 'Value List', href: `/games/${gameSlug}/values/`, icon: 'coins' },
-    { label: 'Calculator', href: `/games/${gameSlug}/calculator/`, icon: 'calc' },
-    { label: 'Codes', href: `/codigos-${codesSlug}/`, icon: 'gift' },
-  ];
 }
 
 // SVG icon paths (24x24 viewBox, stroke-based)
@@ -141,12 +134,6 @@ if (gameSlug === 'fisch') {
     ...baitData.filter((a: any) => a.slug && a.name).map((a: any) => ({ i: a.slug, n: a.name, t: 'a' as const, x: a.rarity || undefined })),
     ...bobberData.filter((o: any) => o.slug && o.name).map((o: any) => ({ i: o.slug, n: o.name, t: 'o' as const, x: o.category || undefined })),
   ];
-} else if (['adopt-me', 'blox-fruits', 'mm2', 'grow-a-garden'].includes(gameSlug)) {
-  const valData = (await import(`../data/games/${gameSlug}/values.json`)).default as any;
-  const items = Array.isArray(valData) ? valData : (valData.items || []);
-  searchItems = items.filter((v: any) => v.slug && v.name).map((v: any) => ({
-    i: v.slug, n: v.name, t: 'v' as const, x: v.rarity || v.category || undefined,
-  }));
 }
 ---
 
