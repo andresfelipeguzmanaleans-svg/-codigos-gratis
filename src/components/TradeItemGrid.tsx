@@ -15,6 +15,7 @@ interface Props {
   items: TradeItem[];
   sources: string[];
   basePath: string; // e.g. "/games/fisch/rod-skins"
+  linkable?: boolean; // false = no detail page links (new games)
 }
 
 const SOURCE_COLORS: Record<string, string> = {
@@ -53,7 +54,7 @@ function fmtValue(n: number | null): string {
   return n.toFixed(1);
 }
 
-export default function TradeItemGrid({ items, sources, basePath }: Props) {
+export default function TradeItemGrid({ items, sources, basePath, linkable = true }: Props) {
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState<'value' | 'name'>('value');
   const [selSources, setSelSources] = useState<Set<string>>(new Set());
@@ -115,8 +116,10 @@ export default function TradeItemGrid({ items, sources, basePath }: Props) {
           const itemPath = item.itemType === 'boat' ? '/games/fisch/boats'
             : item.itemType === 'rod_skin' ? '/games/fisch/rod-skins'
             : basePath;
+          const Tag = linkable ? 'a' : 'div';
+          const linkProps = linkable ? { href: `${itemPath}/${item.slug}/` } : {};
           return (
-            <a key={item.slug} href={`${itemPath}/${item.slug}/`} className="tig__card" style={{ '--card-accent': bgColor } as any}>
+            <Tag key={item.slug} {...linkProps} className="tig__card" style={{ '--card-accent': bgColor } as any}>
               <div className="tig__card-img">
                 {item.imageUrl ? (
                   <img src={item.imageUrl} alt={item.name} loading="lazy" width="200" height="200" />
@@ -145,7 +148,7 @@ export default function TradeItemGrid({ items, sources, basePath }: Props) {
                   )}
                 </div>
               </div>
-            </a>
+            </Tag>
           );
         })}
       </div>
