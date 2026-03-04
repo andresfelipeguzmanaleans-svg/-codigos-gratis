@@ -1,12 +1,47 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { createClient } from '@supabase/supabase-js';
+import crypto from 'crypto';
 
 function parseCookie(header: string, name: string): string | null {
   const match = header.match(new RegExp(`(?:^|;\\s*)${name}=([^;]*)`));
   return match ? decodeURIComponent(match[1]) : null;
 }
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+async function handleLogin(req: VercelRequest, res: VercelResponse) {
+  const clientId = process.env.ROBLOX_CLIENT_ID;
+  const site = process.env.SITE || 'https://codigos-gratis.com';
+  const redirectUri = `${site}/api/auth/callback`;
+
+  const state = crypto.randomUUID();
+  const codeVerifier = crypto.randomUUID() + crypto.randomUUID();
+
+  const digest = crypto.createHash('sha256').update(codeVerifier).digest();
+  const codeChallenge = digest
+    .toString('base64')
+    .replace(/\+/g, '-')
+    .replace(/\//g, '_')
+    .replace(/=+$/, '');
+
+  const params = new URLSearchParams({
+    client_id: clientId!,
+    redirect_uri: redirectUri,
+    response_type: 'code',
+    scope: 'openid profile',
+    state,
+    code_challenge: codeChallenge,
+    code_challenge_method: 'S256',
+  });
+
+  const url = `https://apis.roblox.com/oauth/v1/authorize?${params.toString()}`;
+
+  res.setHeader('Set-Cookie', [
+    `roblox_oauth_state=${state}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=600`,
+    `roblox_code_verifier=${codeVerifier}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=600`,
+  ]);
+
+  res.redirect(302, url);
+}
+
+async function handleCallback(req: VercelRequest, res: VercelResponse) {
   const { code, state, error: oauthError } = req.query;
 
   if (oauthError) {
@@ -36,7 +71,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const site = process.env.SITE || 'https://codigos-gratis.com';
     const redirectUri = `${site}/api/auth/callback`;
 
-    // Exchange code for token
     const tokenRes = await fetch('https://apis.roblox.com/oauth/v1/token', {
       method: 'POST',
       headers: {
@@ -60,7 +94,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const tokenData = await tokenRes.json();
     const accessToken = tokenData.access_token;
 
-    // Get user info
     const userInfoRes = await fetch('https://apis.roblox.com/oauth/v1/userinfo', {
       headers: { Authorization: `Bearer ${accessToken}` },
     });
@@ -75,7 +108,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const robloxUsername = userInfo.preferred_username || userInfo.name || `User${robloxId}`;
     const displayName = userInfo.nickname || userInfo.name || robloxUsername;
 
-    // Get avatar
     let avatarUrl: string | null = null;
     try {
       const avatarRes = await fetch(
@@ -87,7 +119,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       }
     } catch {}
 
-    // Upsert user in Supabase
+    const { createClient } = await import('@supabase/supabase-js');
     const supabase = createClient(
       process.env.PUBLIC_SUPABASE_URL!,
       process.env.SUPABASE_SECRET_KEY!,
@@ -113,7 +145,6 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       return res.redirect(302, '/games/fisch/trading/?auth_error=db_error');
     }
 
-    // Create session cookie
     const sessionPayload = JSON.stringify({
       userId: user.id,
       robloxId: user.roblox_id,
@@ -134,5 +165,57 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   } catch (err) {
     console.error('OAuth callback error:', err);
     res.redirect(302, '/games/fisch/trading/?auth_error=unknown');
+  }
+}
+
+async function handleLogout(req: VercelRequest, res: VercelResponse) {
+  res.setHeader('Set-Cookie', 'session=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
+  res.redirect(302, '/games/fisch/trading/');
+}
+
+async function handleMe(req: VercelRequest, res: VercelResponse) {
+  const cookieHeader = req.headers.cookie || '';
+  const sessionCookie = parseCookie(cookieHeader, 'session');
+
+  if (!sessionCookie) {
+    return res.json({ user: null });
+  }
+
+  try {
+    const sessionData = JSON.parse(Buffer.from(sessionCookie, 'base64').toString());
+
+    if (sessionData.exp && sessionData.exp < Date.now()) {
+      res.setHeader('Set-Cookie', 'session=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
+      return res.json({ user: null });
+    }
+
+    return res.json({
+      user: {
+        id: sessionData.userId,
+        robloxId: sessionData.robloxId,
+        username: sessionData.username,
+        avatar: sessionData.avatar,
+        displayName: sessionData.displayName,
+      },
+    });
+  } catch {
+    return res.json({ user: null });
+  }
+}
+
+export default async function handler(req: VercelRequest, res: VercelResponse) {
+  const action = req.query.action as string;
+
+  switch (action) {
+    case 'login':
+      return handleLogin(req, res);
+    case 'callback':
+      return handleCallback(req, res);
+    case 'logout':
+      return handleLogout(req, res);
+    case 'me':
+      return handleMe(req, res);
+    default:
+      return res.status(404).json({ error: 'Not found' });
   }
 }
