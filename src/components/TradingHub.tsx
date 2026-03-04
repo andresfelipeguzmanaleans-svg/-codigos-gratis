@@ -1,9 +1,15 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
 import type { Listing, ListingItem, MarketStats } from '../lib/supabase';
-import AuthButton from './AuthButton';
-import type { SessionUser } from './AuthButton';
 import CreateListing from './CreateListing';
+
+interface SessionUser {
+  id: string;
+  robloxId: number;
+  username: string;
+  avatar: string | null;
+  displayName: string | null;
+}
 
 /* ================================================================
    Types
@@ -79,6 +85,14 @@ export default function TradingHub({ allItems }: Props) {
   const [showCreate, setShowCreate] = useState(false);
 
   const itemMap = useMemo(() => new Map(allItems.map(i => [i.slug, i])), [allItems]);
+
+  // Fetch user session
+  useEffect(() => {
+    fetch('/api/auth/me')
+      .then(res => res.json())
+      .then(data => setUser(data.user || null))
+      .catch(() => setUser(null));
+  }, []);
 
   // Fetch listings
   const fetchListings = useCallback(async () => {
@@ -169,11 +183,6 @@ export default function TradingHub({ allItems }: Props) {
 
   return (
     <div className="th">
-      {/* Auth + Stats row */}
-      <div className="th__top-row">
-        <AuthButton onUserChange={setUser} />
-      </div>
-
       {/* Stats Dashboard */}
       <div className="th__stats">
         <div className="th__stat">
