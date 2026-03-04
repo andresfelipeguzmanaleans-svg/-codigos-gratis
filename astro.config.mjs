@@ -59,5 +59,8 @@ export default defineConfig({
     }),
     react(),
   ],
-  redirects,
+  redirects: {
+    ...redirects,
+    '/sitemap.xml': { destination: '/sitemap-index.xml', status: 301 },
+  },
 });
