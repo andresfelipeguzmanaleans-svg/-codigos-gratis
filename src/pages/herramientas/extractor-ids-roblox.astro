@@ -255,7 +255,7 @@ const examples = [
     btn.setAttribute('disabled', '');
 
     try {
-      const res = await fetch(`/api/roblox-ids?url=${encodeURIComponent(url)}`);
+      const res = await fetch(`/api/roblox-ids/?url=${encodeURIComponent(url)}`);
       const data = await res.json();
 
       if (!res.ok) { showErr(data.error || 'Error al extraer IDs.'); btn.removeAttribute('disabled'); return; }

@@ -276,7 +276,7 @@ const faqSchema = {
     panels[0].classList.add('tab-panel--active');
 
     try {
-      const res = await fetch(`/api/roblox-profile?username=${encodeURIComponent(username)}`);
+      const res = await fetch(`/api/roblox-profile/?username=${encodeURIComponent(username)}`);
       const data = await res.json();
 
       if (!res.ok) { showErr(data.error || 'Error al buscar el perfil.'); btn.removeAttribute('disabled'); return; }
