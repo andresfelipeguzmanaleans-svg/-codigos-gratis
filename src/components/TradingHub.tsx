@@ -1,6 +1,9 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
 import type { Listing, ListingItem, MarketStats } from '../lib/supabase';
+import AuthButton from './AuthButton';
+import type { SessionUser } from './AuthButton';
+import CreateListing from './CreateListing';
 
 /* ================================================================
    Types
@@ -71,6 +74,9 @@ export default function TradingHub({ allItems }: Props) {
   const [statusFilter, setStatusFilter] = useState<StatusFilter>('active');
   const [sortBy, setSortBy] = useState<SortBy>('newest');
   const [openToOffers, setOpenToOffers] = useState(false);
+
+  const [user, setUser] = useState<SessionUser | null>(null);
+  const [showCreate, setShowCreate] = useState(false);
 
   const itemMap = useMemo(() => new Map(allItems.map(i => [i.slug, i])), [allItems]);
 
@@ -144,12 +150,30 @@ export default function TradingHub({ allItems }: Props) {
     }, 0);
   };
 
+  const handleCreateClick = () => {
+    if (!user) {
+      window.location.href = '/api/auth/login/';
+      return;
+    }
+    setShowCreate(true);
+  };
+
+  const handleListingCreated = () => {
+    setShowCreate(false);
+    fetchListings();
+  };
+
   /* ================================================================
      Render
      ================================================================ */
 
   return (
     <div className="th">
+      {/* Auth + Stats row */}
+      <div className="th__top-row">
+        <AuthButton onUserChange={setUser} />
+      </div>
+
       {/* Stats Dashboard */}
       <div className="th__stats">
         <div className="th__stat">
@@ -175,9 +199,9 @@ export default function TradingHub({ allItems }: Props) {
       </div>
 
       {/* Create Listing CTA */}
-      <button className="th__create-btn" type="button" onClick={() => alert('Login with Roblox required — coming soon!')}>
+      <button className="th__create-btn" type="button" onClick={handleCreateClick}>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
-        Create Listing
+        {user ? 'Create Listing' : 'Login with Roblox to Trade'}
       </button>
 
       {/* Filters */}
@@ -342,6 +366,16 @@ export default function TradingHub({ allItems }: Props) {
           );
         })}
       </div>
+
+      {/* Create Listing Modal */}
+      {showCreate && user && (
+        <CreateListing
+          allItems={allItems}
+          user={user}
+          onClose={() => setShowCreate(false)}
+          onCreated={handleListingCreated}
+        />
+      )}
     </div>
   );
 }

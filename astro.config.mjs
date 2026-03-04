@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
+import vercel from '@astrojs/vercel';
 import { readFileSync } from 'node:fs';
 
 const redirectPaths = JSON.parse(readFileSync('./data/redirects.json', 'utf-8'));
@@ -11,6 +12,7 @@ const redirects = Object.fromEntries(
 export default defineConfig({
   site: 'https://codigos-gratis.com',
   output: 'static',
+  adapter: vercel(),
   trailingSlash: 'always',
   integrations: [
     sitemap({
