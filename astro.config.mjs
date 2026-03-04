@@ -11,7 +11,7 @@ const redirects = Object.fromEntries(
 
 export default defineConfig({
   site: 'https://codigos-gratis.com',
-  output: 'static',
+  output: 'server',
   adapter: vercel(),
   trailingSlash: 'always',
   integrations: [
