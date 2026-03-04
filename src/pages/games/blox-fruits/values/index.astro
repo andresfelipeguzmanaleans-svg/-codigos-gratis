@@ -22,7 +22,7 @@ const allItems = valuesData
     trend: i.trend as string | null,
     rarity: i.rarity as string | null,
     category: i.category as string | null,
-    imageUrl: i.imageUrl ? `https://www.game.guide${i.imageUrl}` : null,
+    imageUrl: i.imageUrl ? i.imageUrl : null,
   }));
 
 const gridItems: TradeItem[] = allItems.map(i => ({

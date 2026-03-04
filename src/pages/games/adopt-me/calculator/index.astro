@@ -19,7 +19,7 @@ const items: CalcItem[] = valuesData
     value: i.tradeValue,
     rarity: i.rarity || 'common',
     category: i.category || 'pets',
-    imageUrl: i.imageUrl ? `https://www.game.guide${i.imageUrl}` : null,
+    imageUrl: i.imageUrl ? i.imageUrl : null,
   }));
 
 const categories = ['pets', 'toys', 'vehicles', 'petwear', 'strollers', 'stickers', 'food', 'gifts', 'houses', 'eggs'];

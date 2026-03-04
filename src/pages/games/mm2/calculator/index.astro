@@ -17,7 +17,7 @@ const items: CalcItem[] = (valuesData.items as any[])
     value: i.tradeValue,
     rarity: i.category || i.rarity || 'Common',
     category: i.category || 'Common',
-    imageUrl: i.imageUrl ? `https://www.game.guide${i.imageUrl}` : null,
+    imageUrl: i.imageUrl ? i.imageUrl : null,
   }));
 
 const categories = ['Ancient', 'Godly', 'Chroma', 'Vintage', 'Legendary', 'Rare', 'Uncommon', 'Common', 'Pet', 'Misc'];

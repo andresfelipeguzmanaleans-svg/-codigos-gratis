@@ -20,7 +20,7 @@ const allItems = valuesData
     demand: i.demand,
     trend: null as string | null,
     rarity: i.rarity,
-    imageUrl: i.imageUrl ? `https://www.game.guide${i.imageUrl}` : null,
+    imageUrl: i.imageUrl ? i.imageUrl : null,
     itemType: i.category,
   }));
 

@@ -17,7 +17,7 @@ const items: CalcItem[] = (valuesData as any[])
     value: i.tradeValue,
     rarity: i.rarity || 'Common',
     category: i.category || 'pet',
-    imageUrl: i.imageUrl ? `https://www.game.guide${i.imageUrl}` : null,
+    imageUrl: i.imageUrl ? i.imageUrl : null,
   }));
 
 const fmt = (n: number) => n.toLocaleString('en-US');

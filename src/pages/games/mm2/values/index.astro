@@ -18,7 +18,7 @@ const items: TradeItem[] = (valuesData.items as any[])
     demand: i.demand,
     trend: i.trend,
     rarity: i.category || i.rarity || null,
-    imageUrl: i.imageUrl ? `https://www.game.guide${i.imageUrl}` : null,
+    imageUrl: i.imageUrl ? i.imageUrl : null,
   }));
 
 const total = items.length;
