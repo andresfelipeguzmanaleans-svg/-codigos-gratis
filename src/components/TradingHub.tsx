@@ -88,7 +88,7 @@ export default function TradingHub({ allItems }: Props) {
 
   // Fetch user session
   useEffect(() => {
-    fetch('/api/auth/me')
+    fetch('/api/auth/me/')
       .then(res => res.json())
       .then(data => setUser(data.user || null))
       .catch(() => setUser(null));
@@ -166,7 +166,7 @@ export default function TradingHub({ allItems }: Props) {
 
   const handleCreateClick = () => {
     if (!user) {
-      window.location.href = '/api/auth/login';
+      window.location.href = `/api/auth/login/?return_to=${encodeURIComponent(window.location.pathname)}`;
       return;
     }
     setShowCreate(true);

@@ -8,7 +8,7 @@ export const GET: APIRoute = async ({ request }) => {
   }
 
   const site = import.meta.env.SITE || 'https://codigos-gratis.com';
-  const redirectUri = `${site}/api/auth/callback`;
+  const redirectUri = `${site}/api/auth/callback/`;
 
   const url = new URL(request.url);
   const returnTo = url.searchParams.get('return_to') || request.headers.get('referer') || '/';

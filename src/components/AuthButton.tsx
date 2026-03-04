@@ -17,7 +17,7 @@ export default function AuthButton({ onUserChange }: Props) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/auth/me')
+    fetch('/api/auth/me/')
       .then(res => res.json())
       .then(data => {
         setUser(data.user || null);
@@ -36,8 +36,8 @@ export default function AuthButton({ onUserChange }: Props) {
 
   // Build login/logout URLs with return_to so the user comes back to the current page
   const currentPath = typeof window !== 'undefined' ? window.location.pathname : '/';
-  const loginUrl = `/api/auth/login?return_to=${encodeURIComponent(currentPath)}`;
-  const logoutUrl = `/api/auth/logout?return_to=${encodeURIComponent(currentPath)}`;
+  const loginUrl = `/api/auth/login/?return_to=${encodeURIComponent(currentPath)}`;
+  const logoutUrl = `/api/auth/logout/?return_to=${encodeURIComponent(currentPath)}`;
 
   if (user) {
     return (

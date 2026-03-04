@@ -47,7 +47,7 @@ export const GET: APIRoute = async ({ request }) => {
     const clientId = import.meta.env.ROBLOX_CLIENT_ID;
     const clientSecret = import.meta.env.ROBLOX_CLIENT_SECRET;
     const site = import.meta.env.SITE || 'https://codigos-gratis.com';
-    const redirectUri = `${site}/api/auth/callback`;
+    const redirectUri = `${site}/api/auth/callback/`;
 
     const tokenRes = await fetch('https://apis.roblox.com/oauth/v1/token', {
       method: 'POST',
