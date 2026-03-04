@@ -139,8 +139,9 @@ export const GET: APIRoute = async ({ request }) => {
       `roblox_code_verifier=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
       `roblox_return_to=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
     ]);
-  } catch (err) {
+  } catch (err: any) {
     console.error('OAuth callback error:', err);
-    return redirectTo(`${returnTo}${sep}auth_error=unknown`);
+    const msg = encodeURIComponent(err?.message || 'unknown');
+    return redirectTo(`${returnTo}${sep}auth_error=${msg}`);
   }
 };
