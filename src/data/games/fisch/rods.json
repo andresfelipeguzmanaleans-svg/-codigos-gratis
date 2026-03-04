@@ -14,8 +14,7 @@
     "price": "C$50,000",
     "stage": 3,
     "passive": "70% chance for Cement (1.5×)  Always sets Progress Speed to -85% (Hidden)",
-    "maxWeight": "100,000,000,000",
-    "imageUrl": "/images/rods/cinder-block-rod.png"
+    "maxWeight": "100,000,000,000"
   },
   {
     "id": "random-rod",
@@ -31,8 +30,7 @@
     "obtainedFrom": "Daily Shop",
     "price": "C$1 - 1,000,000",
     "stage": 7,
-    "passive": "50% chance for Jackpot (7.77x) 50% chance for Unlucky (0.5x) 50% chance for caught fish to have double weight, 50% chance for caught fish to have half weight  Each cast randomizes a boost to stats: • -80% to +80% Resilience • -0.3 to +0.3 Control • -77% to +100% Progress Speed",
-    "imageUrl": "/images/rods/random-rod.png"
+    "passive": "50% chance for Jackpot (7.77x) 50% chance for Unlucky (0.5x) 50% chance for caught fish to have double weight, 50% chance for caught fish to have half weight  Each cast randomizes a boost to stats: • -80% to +80% Resilience • -0.3 to +0.3 Control • -77% to +100% Progress Speed"
   },
   {
     "id": "tryhard-rod",
@@ -49,8 +47,7 @@
     "stage": 10,
     "wikiLocation": "Roslit Bay",
     "passive": "All fish caught are Tryhard (10×)   +300% Progress Speed",
-    "maxWeight": "999,999,999,999,999",
-    "imageUrl": "/images/rods/tryhard-rod.png"
+    "maxWeight": "999,999,999,999,999"
   },
   {
     "id": "blade-of-glorp",
@@ -66,8 +63,7 @@
     "obtainedFrom": "Roslit Bay",
     "price": "|stage = 8",
     "stage": 8,
-    "passive": "23% chance for Gleebous (8×) Every 2 seconds, there is a 20% chance for a laser to strike after 2 warning pulses After the laser strikes: • -66% Control for 0.3 seconds (Reduces Control to 1/3 of it's current value) • Sets Progress Gain/Loss rate to 0.25% per frame, decaying over 2.5 seconds • If the fish has not left the bar during the 0.3 seconds duration, gains +10% Progress",
-    "imageUrl": "/images/rods/blade-of-glorp.png"
+    "passive": "23% chance for Gleebous (8×) Every 2 seconds, there is a 20% chance for a laser to strike after 2 warning pulses After the laser strikes: • -66% Control for 0.3 seconds (Reduces Control to 1/3 of it's current value) • Sets Progress Gain/Loss rate to 0.25% per frame, decaying over 2.5 seconds • If the fish has not left the bar during the 0.3 seconds duration, gains +10% Progress"
   },
   {
     "id": "onirifalx",
@@ -83,8 +79,7 @@
     "obtainedFrom": "The Depths",
     "stage": 10,
     "wikiLocation": "Vertigo",
-    "passive": "+70% Progress Speed   +5% Progress Speed per perfect catch (+50% max)   -0.01 Control per perfect catch (-0.1 max)   30% chance to fill around half of progress instantly   50% chance for Levitas (5×)   7% chance for Sacratus (7×)   3% chance for Puritas (8.7×)",
-    "imageUrl": "/images/rods/onirifalx.png"
+    "passive": "+70% Progress Speed   +5% Progress Speed per perfect catch (+50% max)   -0.01 Control per perfect catch (-0.1 max)   30% chance to fill around half of progress instantly   50% chance for Levitas (5×)   7% chance for Sacratus (7×)   3% chance for Puritas (8.7×)"
   },
   {
     "id": "wind-elemental",
@@ -101,8 +96,7 @@
     "price": "|stage = 10",
     "stage": 10,
     "wikiLocation": "Northern Expedition",
-    "passive": "Instantly fills 50% of the bar every catch   30% chance for Breezed (8.6×)   During Windy: • +50% Progress Speed",
-    "imageUrl": "/images/rods/wind-elemental.png"
+    "passive": "Instantly fills 50% of the bar every catch   30% chance for Breezed (8.6×)   During Windy: • +50% Progress Speed"
   },
   {
     "id": "ruinous-oath",
@@ -119,8 +113,7 @@
     "price": "C$5,000,000",
     "stage": 10,
     "wikiLocation": "Desolate Deep",
-    "passive": "5% chance for slashes that fills up 2% progress every 0.25 second. Chances for slashes increase by 8% every second.   25% chance for Luminescent (6.5×)  15% chance to fill up 80% of the progress bar instantly     During Perfect Catch :   The control bar gradually decreases in size, however the progress speed gradually increases by 5% every second.   100% chance for Mastered (9×)",
-    "imageUrl": "/images/rods/ruinous-oath.png"
+    "passive": "5% chance for slashes that fills up 2% progress every 0.25 second. Chances for slashes increase by 8% every second.   25% chance for Luminescent (6.5×)  15% chance to fill up 80% of the progress bar instantly     During Perfect Catch :   The control bar gradually decreases in size, however the progress speed gradually increases by 5% every second.   100% chance for Mastered (9×)"
   },
   {
     "id": "fabulous-rod",
@@ -137,8 +130,7 @@
     "price": "|stage = 12",
     "stage": 12,
     "wikiLocation": "Mariana's Veil",
-    "passive": "+25% Fish Weight. 26% chance for Fabulous (9.6×) Every 0.25 seconds 25% chance to Slash for 3% progress.  After 3 Slash gain the following:  • +0.2 Control  • +200% Forced Progress Speed.  • Effects gradually diminishing over a span of 3 seconds.",
-    "imageUrl": "/images/rods/fabulous-rod.png"
+    "passive": "+25% Fish Weight. 26% chance for Fabulous (9.6×) Every 0.25 seconds 25% chance to Slash for 3% progress.  After 3 Slash gain the following:  • +0.2 Control  • +200% Forced Progress Speed.  • Effects gradually diminishing over a span of 3 seconds."
   },
   {
     "id": "great-rod-of-oscar",
@@ -155,8 +147,7 @@
     "price": "C$2,500,000",
     "stage": 7,
     "passive": "+30% Progress Speed   1.35× XP from fish   5% chance for Oscar (6.4×)",
-    "maxWeight": "100,000",
-    "imageUrl": "/images/rods/great-rod-of-oscar.png"
+    "maxWeight": "100,000"
   },
   {
     "id": "silly-fun-happy-rod",
@@ -172,8 +163,7 @@
     "obtainedFrom": "Underground Music Venue",
     "price": "|stage = 4",
     "stage": 4,
-    "passive": "Instantly loses fish when it gets out of the fishing bar +50% Progress Speed +50% Forced Progress Speed 50% chance for Honked (2×)  When fishing, one of 5 minigames are guaranteed to happen: • Spinning Bar: The player's fishing bar will continuously spin. • Random Movement: The player's fishing bar will erratically move across the screen. • Fake Catch: The player will get the notification of catching Nessie, these notifications are fake and the player will not receive them. • Jumpscare: After finishing the minigame, the player will get a jumpscare. • Bossfight: The player's Control will be set to -0.29.",
-    "imageUrl": "/images/rods/silly-fun-happy-rod.png"
+    "passive": "Instantly loses fish when it gets out of the fishing bar +50% Progress Speed +50% Forced Progress Speed 50% chance for Honked (2×)  When fishing, one of 5 minigames are guaranteed to happen: • Spinning Bar: The player's fishing bar will continuously spin. • Random Movement: The player's fishing bar will erratically move across the screen. • Fake Catch: The player will get the notification of catching Nessie, these notifications are fake and the player will not receive them. • Jumpscare: After finishing the minigame, the player will get a jumpscare. • Bossfight: The player's Control will be set to -0.29."
   },
   {
     "id": "destiny-rod",
@@ -190,8 +180,7 @@
     "price": "C$190,000",
     "stage": 6,
     "passive": "+10% chance for Shiny (1.85×) +10% chance for Sparkling (1.85×)",
-    "maxWeight": "77,777",
-    "imageUrl": "/images/rods/destiny-rod.png"
+    "maxWeight": "77,777"
   },
   {
     "id": "toxic-spire-rod",
@@ -208,8 +197,7 @@
     "price": "C$170,000",
     "stage": 6,
     "passive": "+20% Progress Speed   15% chance to slow fish movement by 5× and grant +70% Progress Speed  15% chance for Toxic (6×)",
-    "maxWeight": "100,000",
-    "imageUrl": "/images/rods/toxic-spire-rod.png"
+    "maxWeight": "100,000"
   },
   {
     "id": "heaven-s-rod",
@@ -227,8 +215,7 @@
     "stage": 7,
     "wikiLocation": "Northern Expedition",
     "passive": "35% chance for Heavenly (6×)",
-    "maxWeight": "200,000",
-    "imageUrl": "/images/rods/heaven-s-rod.png"
+    "maxWeight": "200,000"
   },
   {
     "id": "elder-mossripper",
@@ -244,8 +231,7 @@
     "obtainedFrom": "Lost Jungle",
     "price": "C$350,000",
     "stage": 9,
-    "passive": "+45% Fish Weight   20% chance for Shrouded (7×)   5% chance for Mossy (8.7×)   Every 2 minutes receive higher chance to catch a higher rarity fish with Mossy   +30% Progress Speed",
-    "imageUrl": "/images/rods/elder-mossripper.png"
+    "passive": "+45% Fish Weight   20% chance for Shrouded (7×)   5% chance for Mossy (8.7×)   Every 2 minutes receive higher chance to catch a higher rarity fish with Mossy   +30% Progress Speed"
   },
   {
     "id": "dreambreaker",
@@ -262,8 +248,7 @@
     "price": "C$5,000,000",
     "stage": 11,
     "wikiLocation": "Terrapin Island",
-    "passive": "After 20% progress, the borders of the player's screen reach a certain dimness, and the fishing minigame's input is inverted.   +15% Progress Speed   During Day:  • -50% Fish Weight  • 25% chance for Distraught (8.5x)   During Night:  • +50% Fish Weight  • 35% chance for Distraught (8.5x)  • Every 0.25 seconds 33% chance to Slash for 5% progress.  • -15% Forced Progress Speed",
-    "imageUrl": "/images/rods/dreambreaker.png"
+    "passive": "After 20% progress, the borders of the player's screen reach a certain dimness, and the fishing minigame's input is inverted.   +15% Progress Speed   During Day:  • -50% Fish Weight  • 25% chance for Distraught (8.5x)   During Night:  • +50% Fish Weight  • 35% chance for Distraught (8.5x)  • Every 0.25 seconds 33% chance to Slash for 5% progress.  • -15% Forced Progress Speed"
   },
   {
     "id": "fortune-rod",
@@ -279,8 +264,7 @@
     "obtainedFrom": "Roslit Bay",
     "price": "C$11,000",
     "stage": 2,
-    "maxWeight": "3,000",
-    "imageUrl": "/images/rods/fortune-rod.png"
+    "maxWeight": "3,000"
   },
   {
     "id": "ethereal-prism-rod",
@@ -298,8 +282,7 @@
     "stage": 9,
     "wikiLocation": "Mariana's Veil",
     "passive": "50% chance for Prismize (5.5×)",
-    "maxWeight": "250,000",
-    "imageUrl": "/images/rods/ethereal-prism-rod.png"
+    "maxWeight": "250,000"
   },
   {
     "id": "cerulean-fang-rod",
@@ -316,8 +299,7 @@
     "price": "C$800,000",
     "stage": 8,
     "wikiLocation": "Desolate Deep",
-    "passive": "15% for Nova (6×) 40% chance per fish movement to stab for 8% progress   +15% Progress Speed",
-    "imageUrl": "/images/rods/cerulean-fang-rod.png"
+    "passive": "15% for Nova (6×) 40% chance per fish movement to stab for 8% progress   +15% Progress Speed"
   },
   {
     "id": "kraken-rod",
@@ -334,8 +316,7 @@
     "price": "C$950,000",
     "stage": 7,
     "passive": "After 5 fish caught receive random Legendary/Mythical/Exotic fish from bestiary collection   20% chance to double fish on catch   10% chance to double fish with Tentacle Surge (7.8×)",
-    "maxWeight": "115,000",
-    "imageUrl": "/images/rods/kraken-rod.png"
+    "maxWeight": "115,000"
   },
   {
     "id": "rainbow-cluster-rod",
@@ -352,8 +333,7 @@
     "price": "C$250,000",
     "stage": 5,
     "passive": "20% chance for Rainbow Cluster (5×)   During Rainbow weather:   +50% Progress Speed   35% chance for Rainbow Cluster (5×)",
-    "maxWeight": "50,000",
-    "imageUrl": "/images/rods/rainbow-cluster-rod.png"
+    "maxWeight": "50,000"
   },
   {
     "id": "leviathan-s-fang-rod",
@@ -371,8 +351,7 @@
     "stage": 7,
     "wikiLocation": "Mariana's Veil",
     "passive": "25% chance per fish movement to stab for +3% progress   If catching Scylla gain +50% resilience and fill up 4% of progress   Bypasses Scylla Progress Speed lock",
-    "maxWeight": "230,000",
-    "imageUrl": "/images/rods/leviathan-s-fang-rod.png"
+    "maxWeight": "230,000"
   },
   {
     "id": "lucky-rod",
@@ -388,8 +367,7 @@
     "obtainedFrom": "Moosewood",
     "price": "C$4,500",
     "stage": 1,
-    "maxWeight": "175",
-    "imageUrl": "/images/rods/lucky-rod.png"
+    "maxWeight": "175"
   },
   {
     "id": "duskwire",
@@ -406,8 +384,7 @@
     "price": "C$500,000",
     "stage": 5,
     "wikiLocation": "Vertigo",
-    "passive": "+25% Progress Speed   5% chance to fill the progress bar instantly   68% chance for Darkened (1.5×)   30% chance for Chaotic (8×)   2% chance for Serene (8.5×)   After a Perfect Catch :   97% chance for Chaotic (8×) Mutation   3% chance for Serene (8.5×) Mutation",
-    "imageUrl": "/images/rods/duskwire.png"
+    "passive": "+25% Progress Speed   5% chance to fill the progress bar instantly   68% chance for Darkened (1.5×)   30% chance for Chaotic (8×)   2% chance for Serene (8.5×)   After a Perfect Catch :   97% chance for Chaotic (8×) Mutation   3% chance for Serene (8.5×) Mutation"
   },
   {
     "id": "rod-of-the-exalted-one",
@@ -424,8 +401,7 @@
     "price": "|stage = 6",
     "stage": 6,
     "passive": "4× more likely to catch Exalted Relic",
-    "maxWeight": "57,000",
-    "imageUrl": "/images/rods/rod-of-the-exalted-one.png"
+    "maxWeight": "57,000"
   },
   {
     "id": "scarlet-spincaster-rod",
@@ -443,8 +419,7 @@
     "stage": 6,
     "wikiLocation": "Desolate Deep",
     "passive": "30% chance for Crimson (4×)",
-    "maxWeight": "250,000",
-    "imageUrl": "/images/rods/scarlet-spincaster-rod.png"
+    "maxWeight": "250,000"
   },
   {
     "id": "poseidon-rod",
@@ -461,8 +436,7 @@
     "price": "C$700,000",
     "stage": 7,
     "passive": "25% chance to gain 75% of caught fish's base value;   10% chance for 75-150% weight buff with King's Blessing (5.5×)",
-    "maxWeight": "100,000",
-    "imageUrl": "/images/rods/poseidon-rod.png"
+    "maxWeight": "100,000"
   },
   {
     "id": "rod-of-the-eternal-king",
@@ -479,8 +453,7 @@
     "price": "C$0",
     "stage": 8,
     "passive": "Every 30 seconds, 5% chance to get 150% luck for 45 seconds   If a reel is snapped, 15% chance to get a higher-rarity fish   60% chance for Greedy (5×)",
-    "maxWeight": "75,000",
-    "imageUrl": "/images/rods/rod-of-the-eternal-king.png"
+    "maxWeight": "75,000"
   },
   {
     "id": "precision-rod",
@@ -496,8 +469,7 @@
     "obtainedFrom": "Ancient Archives",
     "price": "C$0",
     "stage": 2,
-    "maxWeight": "12,000",
-    "imageUrl": "/images/rods/precision-rod.png"
+    "maxWeight": "12,000"
   },
   {
     "id": "trident-rod",
@@ -514,8 +486,7 @@
     "price": "C$150,000",
     "stage": 5,
     "passive": "25% chance per fish movement to stab for +6% progress   30% chance for Atlantean (4×)",
-    "maxWeight": "6,000",
-    "imageUrl": "/images/rods/trident-rod.png"
+    "maxWeight": "6,000"
   },
   {
     "id": "sunken-rod",
@@ -532,8 +503,7 @@
     "price": "|stage = 6",
     "stage": 6,
     "passive": "25% chance for Treasure Map every 10 catches   Guaranteed Treasure Map every 230 catches   8% chance for Sunken (6.3×)",
-    "maxWeight": "25,000",
-    "imageUrl": "/images/rods/sunken-rod.png"
+    "maxWeight": "25,000"
   },
   {
     "id": "seraphic-rod",
@@ -549,8 +519,7 @@
     "obtainedFrom": "Level 1000",
     "price": "|stage = 9",
     "stage": 9,
-    "passive": "Beam that rapidly fills up the Progress bar to 60%   30% chance for Blessed (8.5×)",
-    "imageUrl": "/images/rods/seraphic-rod.png"
+    "passive": "Beam that rapidly fills up the Progress bar to 60%   30% chance for Blessed (8.5×)"
   },
   {
     "id": "great-dreamer-rod",
@@ -567,8 +536,7 @@
     "price": "C$700,000",
     "stage": 5,
     "passive": "Every 1-3 catches, gain another fish with a 50% chance for Cursed Touch (5×)",
-    "maxWeight": "15,000",
-    "imageUrl": "/images/rods/great-dreamer-rod.png"
+    "maxWeight": "15,000"
   },
   {
     "id": "rod-of-the-forgotten-fang",
@@ -585,8 +553,7 @@
     "price": "C$0",
     "stage": 8,
     "passive": "25% chance for Tidal (7×)  After 3 perfect catches, the next catch will summon a Megalodon to catch a higher-rarity fish with Tidal, boosting its weight by 25-50%",
-    "maxWeight": "300,000",
-    "imageUrl": "/images/rods/rod-of-the-forgotten-fang.png"
+    "maxWeight": "300,000"
   },
   {
     "id": "rod-of-the-zenith",
@@ -604,8 +571,7 @@
     "stage": 9,
     "wikiLocation": "Mariana's Veil",
     "passive": "70% chance for Wrath (4.5×) +20% weight buff to all fish caught",
-    "maxWeight": "250,000",
-    "imageUrl": "/images/rods/rod-of-the-zenith.png"
+    "maxWeight": "250,000"
   },
   {
     "id": "wicked-fang-rod",
@@ -622,8 +588,7 @@
     "price": "C$400,000",
     "stage": 8,
     "wikiLocation": "Desolate Deep",
-    "passive": "25% chance per fish movement to stab for +10% progress   30% chance for Solarblaze (3×)   +20% Progress Speed",
-    "imageUrl": "/images/rods/wicked-fang-rod.png"
+    "passive": "25% chance per fish movement to stab for +10% progress   30% chance for Solarblaze (3×)   +20% Progress Speed"
   },
   {
     "id": "rod-of-the-depths",
@@ -641,8 +606,7 @@
     "stage": 6,
     "wikiLocation": "Vertigo",
     "passive": "Every 3 catches, gain another Abyssal fish, with a 10% chance of it being an Enchant Relic   30% chance for Abyssal (5.5×)",
-    "maxWeight": "30,000",
-    "imageUrl": "/images/rods/rod-of-the-depths.png"
+    "maxWeight": "30,000"
   },
   {
     "id": "scarlet-ravager",
@@ -658,8 +622,7 @@
     "obtainedFrom": "DLC codes",
     "price": "|stage =",
     "passive": "+20% Progress Speed",
-    "maxWeight": "125,000",
-    "imageUrl": "/images/rods/scarlet-ravager.png"
+    "maxWeight": "125,000"
   },
   {
     "id": "carrot-rod",
@@ -677,8 +640,7 @@
     "stage": 4,
     "wikiLocation": "Mushgrove Swamp",
     "passive": "15% chance for Carrot (5×)   10% chance to create a Carrot Pool which lasts 30 seconds and offers 15% for Carrot Mutation for all players nearby.",
-    "maxWeight": "10,000",
-    "imageUrl": "/images/rods/carrot-rod.png"
+    "maxWeight": "10,000"
   },
   {
     "id": "tempest-rod",
@@ -695,8 +657,7 @@
     "price": "C$500,000",
     "stage": 7,
     "passive": "+15% Progress Speed",
-    "maxWeight": "80,000",
-    "imageUrl": "/images/rods/tempest-rod.png"
+    "maxWeight": "80,000"
   },
   {
     "id": "evil-pitchfork",
@@ -713,8 +674,7 @@
     "price": "C$2,500,000",
     "stage": 9,
     "wikiLocation": "Desolate Deep",
-    "passive": "50% chance to gain 500% of caught fish's base value, 30% to lose the same amount   25% chance for 100-200% weight buff with Siren's Spite (5×)   20% chance for Evil (6.5×)   25% chance per fish movement to stab for +6% progress   +35% Progress Speed",
-    "imageUrl": "/images/rods/evil-pitchfork.png"
+    "passive": "50% chance to gain 500% of caught fish's base value, 30% to lose the same amount   25% chance for 100-200% weight buff with Siren's Spite (5×)   20% chance for Evil (6.5×)   25% chance per fish movement to stab for +6% progress   +35% Progress Speed"
   },
   {
     "id": "vineweaver-rod",
@@ -731,8 +691,7 @@
     "price": "C$150,000",
     "stage": 6,
     "passive": "Freezes fish after 70% of progress bar was filled  30% chance for Vined (3.5×)  +10% Forced Progress Speed",
-    "maxWeight": "50,000",
-    "imageUrl": "/images/rods/vineweaver-rod.png"
+    "maxWeight": "50,000"
   },
   {
     "id": "rose-rend",
@@ -748,8 +707,7 @@
     "obtainedFrom": "DLC codes",
     "price": "|stage =",
     "passive": "+15% Progress Speed",
-    "maxWeight": "100,000",
-    "imageUrl": "/images/rods/rose-rend.png"
+    "maxWeight": "100,000"
   },
   {
     "id": "challenger-s-rod",
@@ -767,8 +725,7 @@
     "stage": 7,
     "wikiLocation": "Mariana's Veil",
     "passive": "+25% Progress Speed",
-    "maxWeight": "200,000",
-    "imageUrl": "/images/rods/challenger-s-rod.png"
+    "maxWeight": "200,000"
   },
   {
     "id": "friendly-rod",
@@ -784,8 +741,7 @@
     "obtainedFrom": "Moosewood",
     "price": "|stage = 4",
     "stage": 4,
-    "passive": "10% chance to catch a Friend Fish",
-    "imageUrl": "/images/rods/friendly-rod.png"
+    "passive": "10% chance to catch a Friend Fish"
   },
   {
     "id": "no-life-rod",
@@ -801,8 +757,7 @@
     "obtainedFrom": "Level 500",
     "price": "|stage = 7",
     "stage": 7,
-    "passive": "25% chance per fish movement to stab for +6% progress   50% chance for Hexed (3×)",
-    "imageUrl": "/images/rods/no-life-rod.png"
+    "passive": "25% chance per fish movement to stab for +6% progress   50% chance for Hexed (3×)"
   },
   {
     "id": "merlin-s-staff",
@@ -818,8 +773,7 @@
     "obtainedFrom": "Sunstone Island",
     "price": "C$1,000,000",
     "stage": 7,
-    "passive": "25% chance for Magical (7.2×) While the fish is inside the fishing bar: 1. Control gradually decreases until it reaches -0.2 2. Gains +30% Progress after Control reaches -0.2 3. Control is reset to its original value, and the ability goes on a cooldown If the fish gets out of the bar before reaching -0.2 Control, the Control is reset to its original value The ability will restart after the fish is back inside the fishing bar",
-    "imageUrl": "/images/rods/merlin-s-staff.png"
+    "passive": "25% chance for Magical (7.2×) While the fish is inside the fishing bar: 1. Control gradually decreases until it reaches -0.2 2. Gains +30% Progress after Control reaches -0.2 3. Control is reset to its original value, and the ability goes on a cooldown If the fish gets out of the bar before reaching -0.2 Control, the Control is reset to its original value The ability will restart after the fish is back inside the fishing bar"
   },
   {
     "id": "riptide-rod",
@@ -836,8 +790,7 @@
     "price": "C$0",
     "stage": 5,
     "passive": "After 3 Perfect Catches gain 5 Enhanced Casts granting: • 30% chance to hook a higher-rarity fish • +25% Lure Speed",
-    "maxWeight": "3,500",
-    "imageUrl": "/images/rods/riptide-rod.png"
+    "maxWeight": "3,500"
   },
   {
     "id": "luminescent-oath",
@@ -855,8 +808,7 @@
     "stage": 7,
     "wikiLocation": "Desolate Deep",
     "passive": "5% chance for slashes that fills up 2% progress every 0.25 second. Chances for slashes increase by 10% every second.   15% chance for Luminescent (6.5×)   15% chance to fill up 40% of the progress bar instantly     During Perfect Catch :   The control bar gradually decreases in size, however the progress speed gradually increases by 2% every second.   100% chance for Mastered (9×)",
-    "maxWeight": "25,000",
-    "imageUrl": "/images/rods/luminescent-oath.png"
+    "maxWeight": "25,000"
   },
   {
     "id": "lucid-rod",
@@ -874,8 +826,7 @@
     "stage": 7,
     "wikiLocation": "Terrapin Island",
     "passive": "20% chance for Lucid (3.5x) and to dupe fish caught. +10% Progress Speed  During Clear Weather: • Increases Lucid chance to 30% and provides an additional dupe.",
-    "maxWeight": "500,000",
-    "imageUrl": "/images/rods/lucid-rod.png"
+    "maxWeight": "500,000"
   },
   {
     "id": "volcanic-rod",
@@ -893,8 +844,7 @@
     "stage": 5,
     "wikiLocation": "Mariana's Veil",
     "passive": "25% chance for Ashen Fortune (5×)",
-    "maxWeight": "50,000",
-    "imageUrl": "/images/rods/volcanic-rod.png"
+    "maxWeight": "50,000"
   },
   {
     "id": "abyssal-specter-rod",
@@ -910,8 +860,7 @@
     "obtainedFrom": "Atlantis",
     "price": "C$850,000",
     "stage": 7,
-    "passive": "+20% weight buff to all fish caught   25% chance for Abyssal (5.5×)",
-    "imageUrl": "/images/rods/abyssal-specter-rod.png"
+    "passive": "+20% weight buff to all fish caught   25% chance for Abyssal (5.5×)"
   },
   {
     "id": "the-lost-rod",
@@ -928,8 +877,7 @@
     "price": "C$0",
     "stage": 6,
     "passive": "36% chance for Lost (4.5×) after a perfect catch",
-    "maxWeight": "55,000",
-    "imageUrl": "/images/rods/the-lost-rod.png"
+    "maxWeight": "55,000"
   },
   {
     "id": "zeus-rod",
@@ -946,8 +894,7 @@
     "price": "C$850,000",
     "stage": 7,
     "passive": "Each catch has a 20% chance for a thunderstorm, that lasts 2 minutes.    Catches inside it provide:  • +175 Luck (total 265 Luck);  • 90% chance for Electric Shock (3.5×);  • 10% chance for Charred (0.5×)",
-    "maxWeight": "65,000",
-    "imageUrl": "/images/rods/zeus-rod.png"
+    "maxWeight": "65,000"
   },
   {
     "id": "kings-rod",
@@ -963,8 +910,7 @@
     "obtainedFrom": "Keepers Altar",
     "price": "C$100,000",
     "stage": 4,
-    "passive": "+30% weight buff to all fish caught",
-    "imageUrl": "/images/rods/kings-rod.png"
+    "passive": "+30% weight buff to all fish caught"
   },
   {
     "id": "voyager-rod",
@@ -981,8 +927,7 @@
     "price": "C$0",
     "stage": 5,
     "passive": "Laser that fills up 20% progress   35% chance for Fossilized (3.3×)",
-    "maxWeight": "300,000",
-    "imageUrl": "/images/rods/voyager-rod.png"
+    "maxWeight": "300,000"
   },
   {
     "id": "long-rod",
@@ -998,8 +943,7 @@
     "obtainedFrom": "Moosewood",
     "price": "C$3,000",
     "stage": 1,
-    "maxWeight": "250",
-    "imageUrl": "/images/rods/long-rod.png"
+    "maxWeight": "250"
   },
   {
     "id": "phoenix-rod",
@@ -1016,8 +960,7 @@
     "price": "C$50,000",
     "stage": 3,
     "passive": "40% chance for Scorched (3×) 10% chance for Solarblaze (3×)",
-    "maxWeight": "8,000",
-    "imageUrl": "/images/rods/phoenix-rod.png"
+    "maxWeight": "8,000"
   },
   {
     "id": "wisdom-rod",
@@ -1034,8 +977,7 @@
     "price": "C$0",
     "stage": 5,
     "passive": "+5% XP for every perfect catch streak   -10% XP for every perfect catch failed   Capping at +80%, cant go below 0%",
-    "maxWeight": "2,000",
-    "imageUrl": "/images/rods/wisdom-rod.png"
+    "maxWeight": "2,000"
   },
   {
     "id": "midas-rod",
@@ -1052,8 +994,7 @@
     "price": "C$55,000",
     "stage": 3,
     "passive": "All fish caught are Midas (2.5×)",
-    "maxWeight": "4,000",
-    "imageUrl": "/images/rods/midas-rod.png"
+    "maxWeight": "4,000"
   },
   {
     "id": "wildflower-rod",
@@ -1070,8 +1011,7 @@
     "price": "C$40,000",
     "stage": 3,
     "passive": "30% chance to catch Mother Nature (3× Value)",
-    "maxWeight": "700",
-    "imageUrl": "/images/rods/wildflower-rod.png"
+    "maxWeight": "700"
   },
   {
     "id": "brick-rod",
@@ -1087,8 +1027,7 @@
     "obtainedFrom": "Minish",
     "price": "C$13,337",
     "stage": 4,
-    "passive": "100% chance for Studded (1.8×)",
-    "imageUrl": "/images/rods/brick-rod.png"
+    "passive": "100% chance for Studded (1.8×)"
   },
   {
     "id": "summit-rod",
@@ -1106,8 +1045,7 @@
     "stage": 5,
     "wikiLocation": "Northern Expedition",
     "passive": "+10% Progress Speed   40% chance for Frozen (1.5×)   20% chance for Sleet (2.4×)   15% chance for Blighted (3×)",
-    "maxWeight": "200,000",
-    "imageUrl": "/images/rods/summit-rod.png"
+    "maxWeight": "200,000"
   },
   {
     "id": "nico-s-yarncaster",
@@ -1125,8 +1063,7 @@
     "stage": 6,
     "wikiLocation": "Vertigo",
     "passive": "30% chance for Skrunkly (2.5x) Every 60s while idle, 33% chance for Nico the cat to give a Nico's Nyantics (5x) fish with a size equal to its base weight + minimum weight.   If Clownfish Cat Toy is equipped: 30% chance for Nico's Nyantics (5x)",
-    "maxWeight": "10,000",
-    "imageUrl": "/images/rods/nico-s-yarncaster.png"
+    "maxWeight": "10,000"
   },
   {
     "id": "nocturnal-rod",
@@ -1143,8 +1080,7 @@
     "price": "C$11,000",
     "stage": 2,
     "passive": "Removes time preference Luck penalty",
-    "maxWeight": "10,000",
-    "imageUrl": "/images/rods/nocturnal-rod.png"
+    "maxWeight": "10,000"
   },
   {
     "id": "depthseeker-rod",
@@ -1161,8 +1097,7 @@
     "price": "C$40,000",
     "stage": 3,
     "passive": "+5% Progress Speed",
-    "maxWeight": "70,000",
-    "imageUrl": "/images/rods/depthseeker-rod.png"
+    "maxWeight": "70,000"
   },
   {
     "id": "seasons-rod",
@@ -1179,8 +1114,7 @@
     "price": "C$0",
     "stage": 5,
     "passive": "Depending on current Season, receive the following:   +40% luck for fish preferring current season   50% chance for Seasonal Mutation:   Spring: 3.5× Value   Summer: +25% Size   Autumn: 4× Value   Winter: 2.5× Value",
-    "maxWeight": "8,000",
-    "imageUrl": "/images/rods/seasons-rod.png"
+    "maxWeight": "8,000"
   },
   {
     "id": "avalanche-rod",
@@ -1198,8 +1132,7 @@
     "stage": 3,
     "wikiLocation": "Northern Expedition",
     "passive": "25% chance for Sleet (2.4×)",
-    "maxWeight": "65,000",
-    "imageUrl": "/images/rods/avalanche-rod.png"
+    "maxWeight": "65,000"
   },
   {
     "id": "reinforced-rod",
@@ -1214,8 +1147,7 @@
     "howToGet": "Purchase from Desolate Deep for C$20,000.\n\nRequires Stage 3.",
     "obtainedFrom": "Desolate Deep",
     "price": "C$20,000",
-    "stage": 3,
-    "imageUrl": "/images/rods/reinforced-rod.png"
+    "stage": 3
   },
   {
     "id": "champions-rod",
@@ -1231,8 +1163,7 @@
     "obtainedFrom": "Atlantis",
     "price": "C$90,000",
     "stage": 4,
-    "maxWeight": "100,000",
-    "imageUrl": "/images/rods/champions-rod.png"
+    "maxWeight": "100,000"
   },
   {
     "id": "aurora-rod",
@@ -1249,8 +1180,7 @@
     "price": "C$70,000",
     "stage": 4,
     "passive": "15% chance for Aurora (6.5×)   30% chance for Aurora during Aurora Borealis",
-    "maxWeight": "6,000",
-    "imageUrl": "/images/rods/aurora-rod.png"
+    "maxWeight": "6,000"
   },
   {
     "id": "mythical-rod",
@@ -1267,8 +1197,7 @@
     "price": "C$90,000",
     "stage": 4,
     "passive": "30% chance for Mythical (5.5×)",
-    "maxWeight": "2,500",
-    "imageUrl": "/images/rods/mythical-rod.png"
+    "maxWeight": "2,500"
   },
   {
     "id": "ice-warpers-rod",
@@ -1286,8 +1215,7 @@
     "stage": 4,
     "wikiLocation": "Northern Expedition",
     "passive": "25% chance for Blighted (3×)",
-    "maxWeight": "75,000",
-    "imageUrl": "/images/rods/ice-warpers-rod.png"
+    "maxWeight": "75,000"
   },
   {
     "id": "resourceful-rod",
@@ -1304,8 +1232,7 @@
     "price": "C$0",
     "stage": 5,
     "passive": "Doubles the effect of all Bait   60% chance to not consume Bait",
-    "maxWeight": "1,000",
-    "imageUrl": "/images/rods/resourceful-rod.png"
+    "maxWeight": "1,000"
   },
   {
     "id": "celestial-rod",
@@ -1322,8 +1249,7 @@
     "price": "C$0",
     "stage": 8,
     "passive": "For 2 minutes after 15 fish are caught: • +60% Lure Speed • +100% Luck • 100% chance for Celestial (4×) • +50% XP",
-    "maxWeight": "350,000",
-    "imageUrl": "/images/rods/celestial-rod.png"
+    "maxWeight": "350,000"
   },
   {
     "id": "magma-rod",
@@ -1341,8 +1267,7 @@
     "stage": 2,
     "wikiLocation": "Roslit Bay",
     "passive": "35% chance for Ember (3×)",
-    "maxWeight": "1,200",
-    "imageUrl": "/images/rods/magma-rod.png"
+    "maxWeight": "1,200"
   },
   {
     "id": "scurvy-rod",
@@ -1359,8 +1284,7 @@
     "price": "C$40,000",
     "stage": 3,
     "passive": "15% chance for Greedy (5×)",
-    "maxWeight": "2,000",
-    "imageUrl": "/images/rods/scurvy-rod.png"
+    "maxWeight": "2,000"
   },
   {
     "id": "eidolon-rod",
@@ -1377,8 +1301,7 @@
     "price": "C$2,000,000",
     "stage": 9,
     "wikiLocation": "Terrapin Island",
-    "passive": "35% chance for Phantom (4.5×)  +40% Progress Speed After reaching 70% Progress: • Sets Progress Speed to +666% • Sets Control to 0.7",
-    "imageUrl": "/images/rods/eidolon-rod.png"
+    "passive": "35% chance for Phantom (4.5×)  +40% Progress Speed After reaching 70% Progress: • Sets Progress Speed to +666% • Sets Control to 0.7"
   },
   {
     "id": "rapid-rod",
@@ -1394,8 +1317,7 @@
     "obtainedFrom": "Roslit Bay",
     "price": "C$12,000",
     "stage": 2,
-    "maxWeight": "800",
-    "imageUrl": "/images/rods/rapid-rod.png"
+    "maxWeight": "800"
   },
   {
     "id": "fungal-rod",
@@ -1411,8 +1333,7 @@
     "obtainedFrom": "Mushgrove Swamp",
     "stage": 2,
     "passive": "70% chance to give 45s of +50% Luck after a catch   30% chance for Fungal (4×)",
-    "maxWeight": "200",
-    "imageUrl": "/images/rods/fungal-rod.png"
+    "maxWeight": "200"
   },
   {
     "id": "arctic-rod",
@@ -1430,8 +1351,7 @@
     "stage": 3,
     "wikiLocation": "Northern Expedition",
     "passive": "All fish caught are Frozen (1.5×)",
-    "maxWeight": "7,500",
-    "imageUrl": "/images/rods/arctic-rod.png"
+    "maxWeight": "7,500"
   },
   {
     "id": "crystalized-rod",
@@ -1449,8 +1369,7 @@
     "stage": 3,
     "wikiLocation": "Northern Expedition",
     "passive": "20% chance for Crystalized (3.5×)",
-    "maxWeight": "25,000",
-    "imageUrl": "/images/rods/crystalized-rod.png"
+    "maxWeight": "25,000"
   },
   {
     "id": "auric-rod",
@@ -1467,8 +1386,7 @@
     "price": "|stage = 6",
     "stage": 6,
     "passive": "All fish caught will be one of following, with an equal 20% chance for each:   Aurous (1.5×)   Aurelian (2×)   Aureate (2.5×)   Aurulent (3×)   Aureolin (3.5×)",
-    "maxWeight": "25,000",
-    "imageUrl": "/images/rods/auric-rod.png"
+    "maxWeight": "25,000"
   },
   {
     "id": "stone-rod",
@@ -1484,8 +1402,7 @@
     "obtainedFrom": "Ancient Isle",
     "price": "C$2,000",
     "stage": 1,
-    "maxWeight": "50,000",
-    "imageUrl": "/images/rods/stone-rod.png"
+    "maxWeight": "50,000"
   },
   {
     "id": "steady-rod",
@@ -1502,8 +1419,7 @@
     "price": "C$7,000",
     "stage": 2,
     "passive": "Increases shake button size",
-    "maxWeight": "250,000",
-    "imageUrl": "/images/rods/steady-rod.png"
+    "maxWeight": "250,000"
   },
   {
     "id": "carbon-rod",
@@ -1519,8 +1435,7 @@
     "obtainedFrom": "Moosewood",
     "price": "C$2,000",
     "stage": 1,
-    "maxWeight": "600",
-    "imageUrl": "/images/rods/carbon-rod.png"
+    "maxWeight": "600"
   },
   {
     "id": "spiritbinder",
@@ -1537,8 +1452,7 @@
     "price": "C$500,000",
     "stage": 9,
     "passive": "25% chance for Spirit (5.2×)   5% chance to gain the highest rarity fish from current pool with Spirit Mutation   Every 60 seconds gain random fish from current pool with Spirit Mutation",
-    "maxWeight": "150,000",
-    "imageUrl": "/images/rods/spiritbinder.png"
+    "maxWeight": "150,000"
   },
   {
     "id": "plastic-rod",
@@ -1554,8 +1468,7 @@
     "obtainedFrom": "Moosewood",
     "price": "C$750",
     "stage": 1,
-    "maxWeight": "100",
-    "imageUrl": "/images/rods/plastic-rod.png"
+    "maxWeight": "100"
   },
   {
     "id": "fischer-s-rod",
@@ -1570,8 +1483,7 @@
     "howToGet": "Purchase from Starter Pack for 99 Robux.",
     "obtainedFrom": "Starter Pack",
     "price": "99 Robux",
-    "maxWeight": "100",
-    "imageUrl": "/images/rods/fischer-s-rod.png"
+    "maxWeight": "100"
   },
   {
     "id": "fast-rod",
@@ -1587,8 +1499,7 @@
     "obtainedFrom": "Moosewood",
     "price": "C$4,000",
     "stage": 1,
-    "maxWeight": "175",
-    "imageUrl": "/images/rods/fast-rod.png"
+    "maxWeight": "175"
   },
   {
     "id": "flimsy-rod",
@@ -1604,8 +1515,7 @@
     "obtainedFrom": "Moosewood",
     "price": "C$0",
     "stage": 1,
-    "maxWeight": "10",
-    "imageUrl": "/images/rods/flimsy-rod.png"
+    "maxWeight": "10"
   },
   {
     "id": "magnet-rod",
@@ -1622,8 +1532,7 @@
     "price": "C$15,000",
     "stage": 2,
     "passive": "Greatly increases chances for catching Crates.",
-    "maxWeight": "10,000",
-    "imageUrl": "/images/rods/magnet-rod.png"
+    "maxWeight": "10,000"
   },
   {
     "id": "the-boom-ball",
@@ -1640,8 +1549,7 @@
     "price": "C$50,000",
     "stage": 6,
     "passive": "50% chance for Exploded (0.1×) with +100% Progress Speed",
-    "maxWeight": "500,000,000",
-    "imageUrl": "/images/rods/the-boom-ball.png"
+    "maxWeight": "500,000,000"
   },
   {
     "id": "jinglestar-rod",
@@ -1656,8 +1564,7 @@
     "howToGet": "Obtained from Advent Calendar.\n\nRequires Stage 1.\n\nPassive: 25% chance for Jingle Bell (8×)  +25% Progress Speed  While fishing, there will be a visible Bell with a ring counter above it: • The ring counter always starts at 0 • An input from the player will ring the Bell once, increasing the ring counter • The player must ring the Bell 10 times in a row with the correct timing  If the player succeeds: • +20% Progress  • The ability goes on a 2 second cooldown (If the player fails, the ring counter will reset to 0).",
     "obtainedFrom": "Advent Calendar",
     "stage": 1,
-    "passive": "25% chance for Jingle Bell (8×)  +25% Progress Speed  While fishing, there will be a visible Bell with a ring counter above it: • The ring counter always starts at 0 • An input from the player will ring the Bell once, increasing the ring counter • The player must ring the Bell 10 times in a row with the correct timing  If the player succeeds: • +20% Progress  • The ability goes on a 2 second cooldown (If the player fails, the ring counter will reset to 0)",
-    "imageUrl": "/images/rods/jinglestar-rod.png"
+    "passive": "25% chance for Jingle Bell (8×)  +25% Progress Speed  While fishing, there will be a visible Bell with a ring counter above it: • The ring counter always starts at 0 • An input from the player will ring the Bell once, increasing the ring counter • The player must ring the Bell 10 times in a row with the correct timing  If the player succeeds: • +20% Progress  • The ability goes on a 2 second cooldown (If the player fails, the ring counter will reset to 0)"
   },
   {
     "id": "christmas-tree-rod",
@@ -1673,8 +1580,7 @@
     "obtainedFrom": "Advent Calendar",
     "stage": 1,
     "wikiLocation": "Moosewood",
-    "passive": "25% chance for Merry (5×)",
-    "imageUrl": "/images/rods/christmas-tree-rod.png"
+    "passive": "25% chance for Merry (5×)"
   },
   {
     "id": "cornucopia-rod",
@@ -1691,8 +1597,7 @@
     "stage": 7,
     "wikiLocation": "Moosewood",
     "passive": "10% chance for Gravy (6×)  Drops a random piece of food on the fish every 2-3s, each giving +10% progress",
-    "maxWeight": "250,000",
-    "imageUrl": "/images/rods/cornucopia-rod.png"
+    "maxWeight": "250,000"
   },
   {
     "id": "bat-whisperer-rod",
@@ -1710,8 +1615,7 @@
     "stage": 6,
     "wikiLocation": "Crook’s Hallow",
     "passive": "+10% Progress Speed   1 Bat is always present   +1 Bat during Night   +1 Bat for 15 seconds after a catch   For each Bat, receive a Batty (2.5×) random fish from the last pool the player fished in every 30 seconds",
-    "maxWeight": "200,000",
-    "imageUrl": "/images/rods/bat-whisperer-rod.png"
+    "maxWeight": "200,000"
   },
   {
     "id": "dusekkar-rod",
@@ -1729,8 +1633,7 @@
     "stage": 7,
     "wikiLocation": "Crook’s Hallow",
     "passive": "+25% Progress Speed 20% chance for Nightmare (8.8x) 12% chance per fish movement to stab for +20% progress",
-    "maxWeight": "700,000",
-    "imageUrl": "/images/rods/dusekkar-rod.png"
+    "maxWeight": "700,000"
   },
   {
     "id": "jack-o-blazer",
@@ -1746,8 +1649,7 @@
     "obtainedFrom": "Crook's Hallow",
     "price": "|stage = 6",
     "stage": 6,
-    "passive": "+15% Progress Speed  20% chance for Wicked (6.6x)  2% chance for Jack's Curse (8.5x)  Every 1 second Jack-o-Lanterns fall, increasing Progress by +8%",
-    "imageUrl": "/images/rods/jack-o-blazer.png"
+    "passive": "+15% Progress Speed  20% chance for Wicked (6.6x)  2% chance for Jack's Curse (8.5x)  Every 1 second Jack-o-Lanterns fall, increasing Progress by +8%"
   },
   {
     "id": "necrotic-rod",
@@ -1764,8 +1666,7 @@
     "price": "C$660,000",
     "stage": 8,
     "passive": "+13% Progress Speed   30% chance for Necrotic (7.4x)   Every 2 seconds whilst reeling a fish:  • Reduces Control by 10% of its current value • Increases Progress Speed by 10% of its current value, increased by 100% • Increases Resilience by 10%",
-    "maxWeight": "400,000",
-    "imageUrl": "/images/rods/necrotic-rod.png"
+    "maxWeight": "400,000"
   },
   {
     "id": "spooky-rod",
@@ -1782,8 +1683,7 @@
     "price": "|stage = 4",
     "stage": 4,
     "passive": "+5% Progress Speed   10% chance for Frightful (6×)   10% chance for Spooky (6×)   10% chance for Eerie (6×)   Every 1 second 50% chance to gain +4% Progress and freeze the fish for 1 second",
-    "maxWeight": "150,000",
-    "imageUrl": "/images/rods/spooky-rod.png"
+    "maxWeight": "150,000"
   },
   {
     "id": "vinefang-rod",
@@ -1799,8 +1699,7 @@
     "obtainedFrom": "Jungle Adventurer",
     "stage": 8,
     "passive": "+50% Progress Speed   After 2 perfect catches, the next catch will summon a green Megalodon to catch a higher-rarity fish, boosting its weight by 15-20%   Every 1 second, 15% chance to unleash 3-5 Slash (0.3s interval) each granting 1% Progress and stunning the fish for 1 second",
-    "maxWeight": "25000",
-    "imageUrl": "/images/rods/vinefang-rod.png"
+    "maxWeight": "25000"
   },
   {
     "id": "haunted-rod",
@@ -1817,8 +1716,7 @@
     "price": "|stage = 2",
     "stage": 2,
     "passive": "10% chance for Sinister (2.9×)   10% chance for Ghastly (3×)",
-    "maxWeight": "1,000",
-    "imageUrl": "/images/rods/haunted-rod.png"
+    "maxWeight": "1,000"
   },
   {
     "id": "relic-rod",
@@ -1834,8 +1732,7 @@
     "obtainedFrom": "Archeological Site",
     "price": "C$8000",
     "stage": 2,
-    "maxWeight": "250,000",
-    "imageUrl": "/images/rods/relic-rod.png"
+    "maxWeight": "250,000"
   },
   {
     "id": "antler-rod",
@@ -1852,8 +1749,7 @@
     "price": "|stage = 1",
     "stage": 1,
     "passive": "25% chance for Jolly (2.2×)",
-    "maxWeight": "200",
-    "imageUrl": "/images/rods/antler-rod.png"
+    "maxWeight": "200"
   },
   {
     "id": "north-star-rod",
@@ -1869,8 +1765,7 @@
     "obtainedFrom": "Advent Calendar",
     "price": "|stage = 1",
     "stage": 1,
-    "maxWeight": "875",
-    "imageUrl": "/images/rods/north-star-rod.png"
+    "maxWeight": "875"
   },
   {
     "id": "candy-cane-rod",
@@ -1887,8 +1782,7 @@
     "price": "C$1,500",
     "stage": 1,
     "passive": "10% chance for Festive (2.4×)",
-    "maxWeight": "150",
-    "imageUrl": "/images/rods/candy-cane-rod.png"
+    "maxWeight": "150"
   },
   {
     "id": "krampus-s-rod",
@@ -1905,8 +1799,7 @@
     "price": "C$30,000",
     "stage": 5,
     "passive": "Every 10 catches, gain Luck V or Lure V for 3 minutes",
-    "maxWeight": "50,000",
-    "imageUrl": "/images/rods/krampus-s-rod.png"
+    "maxWeight": "50,000"
   },
   {
     "id": "frost-warden-rod",
@@ -1922,8 +1815,7 @@
     "obtainedFrom": "Limited Time Winter Bundle",
     "price": "799 Robux",
     "stage": 1,
-    "maxWeight": "2,200",
-    "imageUrl": "/images/rods/frost-warden-rod.png"
+    "maxWeight": "2,200"
   },
   {
     "id": "fischmas-rod",
@@ -1939,8 +1831,7 @@
     "obtainedFrom": "XMAS Pack",
     "price": "799 Robux",
     "stage": 1,
-    "maxWeight": "2,200",
-    "imageUrl": "/images/rods/fischmas-rod.png"
+    "maxWeight": "2,200"
   },
   {
     "id": "frostfire-rod",
@@ -1956,8 +1847,7 @@
     "obtainedFrom": "XMAS Pack (II)",
     "price": "799 Robux",
     "stage": 1,
-    "maxWeight": "2,200",
-    "imageUrl": "/images/rods/frostfire-rod.png"
+    "maxWeight": "2,200"
   },
   {
     "id": "firework-rod",
@@ -1974,8 +1864,7 @@
     "price": "|stage = 2",
     "stage": 2,
     "passive": "15% chance for Firework (4×);  When reeling an Eternal Frostwhale gains +20% Progress Speed   +0.2% Eternal Frostwhale encounter rate",
-    "maxWeight": "25,000",
-    "imageUrl": "/images/rods/firework-rod.png"
+    "maxWeight": "25,000"
   },
   {
     "id": "shamrock-rod",
@@ -1992,8 +1881,7 @@
     "price": "|stage = 2",
     "stage": 2,
     "passive": "10% chance for Clover (4.5×)",
-    "maxWeight": "5,000",
-    "imageUrl": "/images/rods/shamrock-rod.png"
+    "maxWeight": "5,000"
   },
   {
     "id": "egg-rod",
@@ -2010,8 +1898,7 @@
     "price": "|stage = 2",
     "stage": 2,
     "passive": "10% chance for Easter (4×)",
-    "maxWeight": "20,000",
-    "imageUrl": "/images/rods/egg-rod.png"
+    "maxWeight": "20,000"
   },
   {
     "id": "brick-built-rod",
@@ -2028,8 +1915,7 @@
     "price": "|stage = 1",
     "stage": 1,
     "passive": "5% chance for Awesome (3×)",
-    "maxWeight": "200",
-    "imageUrl": "/images/rods/brick-built-rod.png"
+    "maxWeight": "200"
   },
   {
     "id": "superstar-rod",
@@ -2045,8 +1931,7 @@
     "obtainedFrom": "Walmart Discovered Pass",
     "price": "199 Robux",
     "stage": 1,
-    "maxWeight": "10,000",
-    "imageUrl": "/images/rods/superstar-rod.png"
+    "maxWeight": "10,000"
   },
   {
     "id": "mission-specialist-s-rod",
@@ -2063,8 +1948,7 @@
     "price": "|stage = 1",
     "stage": 1,
     "passive": "10% chance for Mission Specialist (1.25×)",
-    "maxWeight": "5,000",
-    "imageUrl": "/images/rods/mission-specialist-s-rod.png"
+    "maxWeight": "5,000"
   },
   {
     "id": "paleontologist-s-rod",
@@ -2081,8 +1965,7 @@
     "price": "|stage = 1",
     "stage": 1,
     "passive": "10% chance for Paleontologist (1.25×)",
-    "maxWeight": "5,000",
-    "imageUrl": "/images/rods/paleontologist-s-rod.png"
+    "maxWeight": "5,000"
   },
   {
     "id": "fixer-s-rod",
@@ -2099,8 +1982,7 @@
     "price": "|stage = 1",
     "stage": 1,
     "passive": "10% chance for Fixer (1.25×)",
-    "maxWeight": "5,000",
-    "imageUrl": "/images/rods/fixer-s-rod.png"
+    "maxWeight": "5,000"
   },
   {
     "id": "smurf-rod",
@@ -2117,8 +1999,7 @@
     "price": "|stage = 1",
     "stage": 1,
     "passive": "10% chance for Smurf (2x)",
-    "maxWeight": "200",
-    "imageUrl": "/images/rods/smurf-rod.png"
+    "maxWeight": "200"
   },
   {
     "id": "popsicle-rod",
@@ -2135,8 +2016,7 @@
     "price": "3000",
     "stage": 7,
     "passive": "15% chance for Popsicle (8.16×)  During Summer: • +50% Progress Speed",
-    "maxWeight": "100",
-    "imageUrl": "/images/rods/popsicle-rod.png"
+    "maxWeight": "100"
   },
   {
     "id": "tidal-wave-rod",
@@ -2153,8 +2033,7 @@
     "price": "|stage = 4",
     "stage": 4,
     "passive": "20% chance for Beachy (2×)   5% chance for Summer (6.2×)",
-    "maxWeight": "8,500",
-    "imageUrl": "/images/rods/tidal-wave-rod.png"
+    "maxWeight": "8,500"
   },
   {
     "id": "paper-fan-rod",
@@ -2171,8 +2050,7 @@
     "price": "C$70,000",
     "stage": 4,
     "passive": "70% chance per fish movement to stab for +1.5% progress",
-    "maxWeight": "1,500",
-    "imageUrl": "/images/rods/paper-fan-rod.png"
+    "maxWeight": "1,500"
   },
   {
     "id": "rod-of-the-cosmos",
@@ -2189,8 +2067,7 @@
     "price": "|stage = 8",
     "stage": 8,
     "passive": "1 in 1000 chance to catch Cosmic Relic. 15% for Nova (6×).    During Starfall:  • 1 in 50 chance to catch Cosmic Relic.  • +50% Progress Speed.",
-    "maxWeight": "10,000",
-    "imageUrl": "/images/rods/rod-of-the-cosmos.png"
+    "maxWeight": "10,000"
   },
   {
     "id": "buddy-bond-rod",
@@ -2206,8 +2083,7 @@
     "price": "|stage = 1",
     "stage": 1,
     "passive": "Adds 30% to all stats when playing with a friend",
-    "maxWeight": "300",
-    "imageUrl": "/images/rods/buddy-bond-rod.png"
+    "maxWeight": "300"
   },
   {
     "id": "astral-rod",
@@ -2223,8 +2099,7 @@
     "obtainedFrom": "|stage = 1",
     "stage": 1,
     "passive": "5% chance for Lunar (2.5×)",
-    "maxWeight": "1,000",
-    "imageUrl": "/images/rods/astral-rod.png"
+    "maxWeight": "1,000"
   },
   {
     "id": "event-horizon-rod",
@@ -2240,8 +2115,7 @@
     "obtainedFrom": "|stage = 1",
     "stage": 1,
     "passive": "5% chance for Lunar (2.5×)",
-    "maxWeight": "1,000",
-    "imageUrl": "/images/rods/event-horizon-rod.png"
+    "maxWeight": "1,000"
   },
   {
     "id": "rod-of-time",
@@ -2258,8 +2132,7 @@
     "price": "|stage = 2",
     "stage": 2,
     "passive": "+25% XP from all fish",
-    "maxWeight": "2500",
-    "imageUrl": "/images/rods/rod-of-time.png"
+    "maxWeight": "2500"
   },
   {
     "id": "patriot-rod",
@@ -2275,8 +2148,7 @@
     "obtainedFrom": "|stage = 1",
     "stage": 1,
     "passive": "20% Chance for Patriotic (7.4x) with +100% Progress Speed",
-    "maxWeight": "742,025",
-    "imageUrl": "/images/rods/patriot-rod.png"
+    "maxWeight": "742,025"
   },
   {
     "id": "demon-slayer",
@@ -2291,8 +2163,7 @@
     "howToGet": "Obtained from Code.\n\nRequires Stage 1.\n\nPassive: +50% Progress Speed.",
     "obtainedFrom": "Code",
     "stage": 1,
-    "passive": "+50% Progress Speed",
-    "imageUrl": "/images/rods/demon-slayer.png"
+    "passive": "+50% Progress Speed"
   },
   {
     "id": "fang-of-the-eclipse",
@@ -2309,8 +2180,7 @@
     "price": "|stage = 10",
     "stage": 10,
     "passive": "10% chance for Solarblaze (3×)   Gains the following for 15-minutes after an Eclipse occurs:   - +99 Lure (total 179 Lure)   - +150 Luck (total 230 Luck)   - -0.35 Control (total -0.2 Control)   - -50 Resilience (total -30 Resilience)   - Sets kg to inf   - +50% progress speed   - Grants a mutation with 10% chance for Umbra (9×), remaining 90% for Solarblaze (3×)   - 1.2× weight buff to all fish caught   - 20% to double-catch, 5% to triple-catch",
-    "maxWeight": "25,000",
-    "imageUrl": "/images/rods/fang-of-the-eclipse.png"
+    "maxWeight": "25,000"
   },
   {
     "id": "astralhook-rod",
@@ -2326,8 +2196,7 @@
     "obtainedFrom": "Level 2500",
     "price": "|stage = 10",
     "stage": 10,
-    "passive": "+15% Progress Speed   Every 2-4 seconds Stars fall increasing progress by 15%   Every 12 catches spawns pool which lasts 44 seconds and applies Astral (3×) at a 63% chance to all players   Perfect casts followed by perfect catches grant a 10% chance to catch any Fish and apply Stardust (4×), with the exception of Limited, Special and Divine Secret fish.",
-    "imageUrl": "/images/rods/astralhook-rod.png"
+    "passive": "+15% Progress Speed   Every 2-4 seconds Stars fall increasing progress by 15%   Every 12 catches spawns pool which lasts 44 seconds and applies Astral (3×) at a 63% chance to all players   Perfect casts followed by perfect catches grant a 10% chance to catch any Fish and apply Stardust (4×), with the exception of Limited, Special and Divine Secret fish."
   },
   {
     "id": "fallen-snowblade",
@@ -2343,8 +2212,7 @@
     "obtainedFrom": "Snowcap Island",
     "stage": 10,
     "passive": "10% chance to fill the progress bar rapidly During Winter: • +75% Progress Speed • 45% chance for Snowy (6×) • 55% chance for Frozen (1.5×)  During Spring and Autumn: • +50% Progress Speed • 25% chance for Snowy (6×) • 75% chance for Frozen (1.5×)  During Summer: • +25% Progress Speed • 5% chance for Snowy (6×) • 95% chance for Frozen (1.5×)",
-    "maxWeight": "21,512,406",
-    "imageUrl": "/images/rods/fallen-snowblade.png"
+    "maxWeight": "21,512,406"
   },
   {
     "id": "wingripper",
@@ -2360,8 +2228,7 @@
     "obtainedFrom": "Underground Music Venue",
     "price": "|stage = 11",
     "stage": 11,
-    "passive": "During Day: • +22% Progress Speed • 27% chance for Diurnal (7×)  During Night: • +222% Progress Speed • 7% chance for Nocturnal (8×) • Sets Base Control to -0.28",
-    "imageUrl": "/images/rods/wingripper.png"
+    "passive": "During Day: • +22% Progress Speed • 27% chance for Diurnal (7×)  During Night: • +222% Progress Speed • 7% chance for Nocturnal (8×) • Sets Base Control to -0.28"
   },
   {
     "id": "polaris-serenade",
@@ -2377,8 +2244,7 @@
     "obtainedFrom": "Underground Music Venue",
     "price": "C$50,000,000",
     "stage": 11,
-    "passive": "+30% Progress Speed   4% chance to fill the progress bar rapidly   18% chance for Serene (8.5×)   Every 72 seconds the player gains a fish with: • 100% chance for Quiet (3×) • +3% chance for Shiny (1.85×) • +3% chance for Sparkling (1.85×)  Every perfect catch reduces the time by 24 seconds",
-    "imageUrl": "/images/rods/polaris-serenade.png"
+    "passive": "+30% Progress Speed   4% chance to fill the progress bar rapidly   18% chance for Serene (8.5×)   Every 72 seconds the player gains a fish with: • 100% chance for Quiet (3×) • +3% chance for Shiny (1.85×) • +3% chance for Sparkling (1.85×)  Every perfect catch reduces the time by 24 seconds"
   },
   {
     "id": "cinderstring",
@@ -2394,8 +2260,7 @@
     "obtainedFrom": "Underground Music Venue",
     "price": "|stage = 7",
     "stage": 7,
-    "passive": "+10% Progress Speed   After 2 Perfect Catches for 30 seconds receive:   20% chance for Scorched (3x)   5% chance for Infernal (7x)   +25% Progress Speed   +10% Luck   -20% Resilience   -0.05 Control   After 2 additional Perfect Catches for 1 minute receive:   +100% Progress Speed   15% chance for Infernal (7×)   50% chance for Scorched (3×)   +25% Luck   -40% Resilience   -0.15 Control",
-    "imageUrl": "/images/rods/cinderstring.png"
+    "passive": "+10% Progress Speed   After 2 Perfect Catches for 30 seconds receive:   20% chance for Scorched (3x)   5% chance for Infernal (7x)   +25% Progress Speed   +10% Luck   -20% Resilience   -0.05 Control   After 2 additional Perfect Catches for 1 minute receive:   +100% Progress Speed   15% chance for Infernal (7×)   50% chance for Scorched (3×)   +25% Luck   -40% Resilience   -0.15 Control"
   },
   {
     "id": "eardrum",
@@ -2412,8 +2277,7 @@
     "price": "|stage = 10",
     "stage": 10,
     "passive": "Every 2 catches gives an additional fish with Oak (2.3x) from the current pool, with Log having a higher chance to be caught regardless of the pool the player is fishing in.",
-    "maxWeight": "100,000",
-    "imageUrl": "/images/rods/eardrum.png"
+    "maxWeight": "100,000"
   },
   {
     "id": "chrysalis",
@@ -2428,8 +2292,7 @@
     "howToGet": "Obtained from Underground Music Venue.\n\nRequires Stage 9.\n\nPassive: +10% Progress Speed   92% chance for Bloom (4×)   8% chance for Flora (7×)   12% chance for an eye to spawn and catch an additional fish with: • 100% chance for Flora (7×)  • +20% chance for Shiny (1.85×) • +20% chance for Sparkling (1.85×).",
     "obtainedFrom": "Underground Music Venue",
     "stage": 9,
-    "passive": "+10% Progress Speed   92% chance for Bloom (4×)   8% chance for Flora (7×)   12% chance for an eye to spawn and catch an additional fish with: • 100% chance for Flora (7×)  • +20% chance for Shiny (1.85×) • +20% chance for Sparkling (1.85×)",
-    "imageUrl": "/images/rods/chrysalis.png"
+    "passive": "+10% Progress Speed   92% chance for Bloom (4×)   8% chance for Flora (7×)   12% chance for an eye to spawn and catch an additional fish with: • 100% chance for Flora (7×)  • +20% chance for Shiny (1.85×) • +20% chance for Sparkling (1.85×)"
   },
   {
     "id": "axe-of-rhoads",
@@ -2446,8 +2309,7 @@
     "price": "|stage = 10",
     "stage": 10,
     "passive": "40% chance for Heavenly (6×)   10% chance for Blessed (8.5×)   5% chance for Chaotic (8×)   5% chance for Shiny (1.85×)   5% chance for Sparkling (1.85×)",
-    "maxWeight": "20,000",
-    "imageUrl": "/images/rods/axe-of-rhoads.png"
+    "maxWeight": "20,000"
   },
   {
     "id": "test-rod",
@@ -2464,8 +2326,7 @@
     "price": "|sea = First Sea",
     "stage": 6,
     "passive": "5% Chance for Lightning (2×)",
-    "maxWeight": "150000",
-    "imageUrl": "/images/rods/test-rod.png"
+    "maxWeight": "150000"
   },
   {
     "id": "adventurer-s-rod",
@@ -2482,8 +2343,7 @@
     "price": "|stage = 1",
     "stage": 1,
     "passive": "+5% natural Mutation chance",
-    "maxWeight": "104",
-    "imageUrl": "/images/rods/adventurer-s-rod.png"
+    "maxWeight": "104"
   },
   {
     "id": "firefly-rod",
@@ -2500,8 +2360,7 @@
     "price": "C$9,500",
     "stage": 1,
     "passive": "During Night: • +15% Progress Speed",
-    "maxWeight": "175",
-    "imageUrl": "/images/rods/firefly-rod.png"
+    "maxWeight": "175"
   },
   {
     "id": "frog-rod",
@@ -2518,8 +2377,7 @@
     "price": "C$12,000",
     "stage": 1,
     "passive": "Perfect catches streak gives +0.5x luck for 2 minutes up to 3 stacks.   (Missing streak will instead remove one stack)",
-    "maxWeight": "650",
-    "imageUrl": "/images/rods/frog-rod.png"
+    "maxWeight": "650"
   },
   {
     "id": "azure-of-lagoon",
@@ -2536,8 +2394,7 @@
     "price": "C$100,000",
     "stage": 5,
     "passive": "25% chance per fish movement to stab for +6% progress  100% chance for Glossy (1.6×)",
-    "maxWeight": "200,000",
-    "imageUrl": "/images/rods/azure-of-lagoon.png"
+    "maxWeight": "200,000"
   },
   {
     "id": "merchant-rod",
@@ -2554,8 +2411,7 @@
     "price": "20000",
     "stage": 2,
     "passive": "50% chance to catch a random bait (excluding Limited Time Baits)",
-    "maxWeight": "5,000",
-    "imageUrl": "/images/rods/merchant-rod.png"
+    "maxWeight": "5,000"
   },
   {
     "id": "verdant-shear-rod",
@@ -2572,8 +2428,7 @@
     "price": "C$50,000",
     "stage": 4,
     "passive": "20% chance to grow a tree for 1 minute   Fish around the tree for: • Mother Nature (3×) • Green Leaf (3×) • Brown Wood (3×) All three Mutations have equal chances.",
-    "maxWeight": "2,000",
-    "imageUrl": "/images/rods/verdant-shear-rod.png"
+    "maxWeight": "2,000"
   },
   {
     "id": "blazebringer-rod",
@@ -2591,8 +2446,7 @@
     "stage": 4,
     "wikiLocation": "Roslit Bay",
     "passive": "After 4 perfect catches for 2 minutes receive:  • 20% chance for Ember (3×)  • 5% chance for Cracked (3×)  • +10% Luck   After 8 additional for 3 minutes receive:  • 25% chance for Ember (3×)  • 10% chance for Cracked (3×)  • 5% chance for Emberflame (5×)  • +25% Luck",
-    "maxWeight": "5,000",
-    "imageUrl": "/images/rods/blazebringer-rod.png"
+    "maxWeight": "5,000"
   },
   {
     "id": "free-spirit-rod",
@@ -2610,8 +2464,7 @@
     "stage": 6,
     "wikiLocation": "Sunstone Island",
     "passive": "25% chance per fish movement to stab for +6% progress   30% chance for Bloom (4×)",
-    "maxWeight": "5,000",
-    "imageUrl": "/images/rods/free-spirit-rod.png"
+    "maxWeight": "5,000"
   },
   {
     "id": "lobster-rod",
@@ -2628,8 +2481,7 @@
     "price": "|stage = 3",
     "stage": 3,
     "passive": "30% Chance for Lobster (5× Value)",
-    "maxWeight": "50,000",
-    "imageUrl": "/images/rods/lobster-rod.png"
+    "maxWeight": "50,000"
   },
   {
     "id": "sovereign-doombringer",
@@ -2643,8 +2495,7 @@
     "description": "fishing rod\n\nThe Sovereign Doombringer is a Fishing Rod that was awarded exclusively to Official Fisch Content Creators who promoted the Northern Expedition Update.\n\nObliterate fish with a huge hammer.\nThe Sovereign Doombringer has fairly good stats, with more than enough Lure speed to instant-catch with specific enchantments, paired with high enough resilience and control to catch any fish with ease (provided the player is skilled enough).\n\nAdditionally, this rod has the ability of swinging a hammer down during each catch which instantly fills the catch progress bar by 30% and shakes the player's screen.",
     "howToGet": "Obtained from |stage =.\n\nPassive: Summons a Hammer to fill up 30% progress.",
     "obtainedFrom": "|stage =",
-    "passive": "Summons a Hammer to fill up 30% progress",
-    "imageUrl": "/images/rods/sovereign-doombringer.png"
+    "passive": "Summons a Hammer to fill up 30% progress"
   },
   {
     "id": "clickbait-caster",
@@ -2658,8 +2509,7 @@
     "description": "fishing rod\n\nThe Clickbait Caster is a Fishing Rod awarded exclusively to Official Fisch Content Creators who promoted the Mariana's Veil Update.\n\nLights, camera, action—now bite already! [CC Only]\nThe Clickbait Caster's decently high Lure Speed and more than enough in Control/Resilience stats to catch any fish with ease. Additionally, it possesses the spirit passive from the Rod Of The Depths, allowing the Clickbait Caster to catch many fish in a short timespan.",
     "howToGet": "Obtained from |stage =.\n\nPassive: Every 3 catches gain another fish.",
     "obtainedFrom": "|stage =",
-    "passive": "Every 3 catches gain another fish",
-    "imageUrl": "/images/rods/clickbait-caster.png"
+    "passive": "Every 3 catches gain another fish"
   },
   {
     "id": "view-smasher",
@@ -2673,8 +2523,7 @@
     "description": "fishing rod\n\nThe View Smasher is a Fishing Rod that was awarded exclusively to Official Fisch Content Creators who promoted the Cursed Seas Update.\n\nHIT THAT FOLLOW BUTTON!!\nThe View Smasher has fairly good stats, with more than enough Lure speed to instant-catch with specific enchantments, paired with high enough resilience and control to catch any fish with ease.\n\nAdditionally, this rod has the ability of swinging a hammer down during each catch which instantly fills the catch progress bar by 30% and shakes the player's screen.",
     "howToGet": "Obtained from |stage =.\n\nPassive: Summons a Hammer to fill up 30% progress.",
     "obtainedFrom": "|stage =",
-    "passive": "Summons a Hammer to fill up 30% progress",
-    "imageUrl": "/images/rods/view-smasher.png"
+    "passive": "Summons a Hammer to fill up 30% progress"
   },
   {
     "id": "fish-photographer",
@@ -2688,8 +2537,7 @@
     "description": "fishing rod\n\nThe Fish Photographer is a Fishing Rod that was awarded exclusively to Official Fisch Content Creators who promoted the Cursed Seas Update.\n\nIf I catch you fishy.. if I catch you\nThe Fish Photographer has fairly good stats, with more than enough Lure speed to instant-catch with specific enchantments, paired with high enough resilience and control to catch any fish with ease.\n\nAdditionally, it possesses the spirit passive from the Rod Of The Depths, allowing the Fish Photographer to catch many fish in a short timespan.",
     "howToGet": "Obtained from |stage =.\n\nPassive: Every 3 catches gain another fish.",
     "obtainedFrom": "|stage =",
-    "passive": "Every 3 catches gain another fish",
-    "imageUrl": "/images/rods/fish-photographer.png"
+    "passive": "Every 3 catches gain another fish"
   },
   {
     "id": "paintbrush",
@@ -2704,8 +2552,7 @@
     "howToGet": "Obtained from |stage =.\n\nPassive: +314% Progress Speed 50% chance to catch Mythical (5.5×) 10% chance to catch Sparkling/Shiny.",
     "obtainedFrom": "|stage =",
     "passive": "+314% Progress Speed 50% chance to catch Mythical (5.5×) 10% chance to catch Sparkling/Shiny",
-    "maxWeight": "123,456,789",
-    "imageUrl": "/images/rods/paintbrush.png"
+    "maxWeight": "123,456,789"
   },
   {
     "id": "nilcaster",
@@ -2720,8 +2567,7 @@
     "howToGet": "Obtained from |stage =.\n\nPassive: -+101.010101% Progress Speed boost 50% chance to apply the Nuclear Mutation (6× Value) -Each cast randomizes a boost to stats (±80 Resilience, +0.4/-0.35 Control, ±100% Progress Speed boost, and -99%/+200% fish weight).",
     "obtainedFrom": "|stage =",
     "passive": "-+101.010101% Progress Speed boost 50% chance to apply the Nuclear Mutation (6× Value) -Each cast randomizes a boost to stats (±80 Resilience, +0.4/-0.35 Control, ±100% Progress Speed boost, and -99%/+200% fish weight)",
-    "maxWeight": "1,010,101",
-    "imageUrl": "/images/rods/nilcaster.png"
+    "maxWeight": "1,010,101"
   },
   {
     "id": "pen-rod",
@@ -2735,8 +2581,7 @@
     "description": "hello im trying to get the pen rod thank you for reading\nGlyphed Background.png\n\nThe Pen Rod is an exclusive Fishing Rod that is given to players who have consistently made meaningful contributions to Fischipedia.\n\nGiven to editors of the Official Fisch Wiki for their continued contributions! [Originally for @ZooWeeMamaMoment]\nThe Pen Rod is a fairly good rod for all possible use-cases, allowing the player to fish in any type of liquid.",
     "howToGet": "Obtained from |sea =.\n\nPassive: 52% chance per fish movement to stab for 2.5% progress   52% chance for Glyphed (5.2×).",
     "obtainedFrom": "|sea =",
-    "passive": "52% chance per fish movement to stab for 2.5% progress   52% chance for Glyphed (5.2×)",
-    "imageUrl": "/images/rods/pen-rod.png"
+    "passive": "52% chance per fish movement to stab for 2.5% progress   52% chance for Glyphed (5.2×)"
   },
   {
     "id": "frostbane-rod",
@@ -2752,8 +2597,7 @@
     "obtainedFrom": "Frigid Cavern",
     "price": "C$1,500,000",
     "passive": "1% (3% during Winter) chance for Glacial (8×)   10% (30% during Winter) chance for Chilled (6×)   Infinite Max Kg during Winter   +20% Progress Speed during Winter or Night   +50% Progress Speed during Winter Night",
-    "maxWeight": "1,500",
-    "imageUrl": "/images/rods/frostbane-rod.png"
+    "maxWeight": "1,500"
   },
   {
     "id": "sanguine-spire",
@@ -2768,8 +2612,7 @@
     "howToGet": "Purchase from Underground Music Venue for C$10,000,000.\n\nPassive: 25% chance per fish movement to stab for +2% progress   30% chance for Sanguine (5×)   +30% Progress Speed.",
     "obtainedFrom": "Underground Music Venue",
     "price": "C$10,000,000",
-    "passive": "25% chance per fish movement to stab for +2% progress   30% chance for Sanguine (5×)   +30% Progress Speed",
-    "imageUrl": "/images/rods/sanguine-spire.png"
+    "passive": "25% chance per fish movement to stab for +2% progress   30% chance for Sanguine (5×)   +30% Progress Speed"
   },
   {
     "id": "katana-rod",
@@ -2785,8 +2628,7 @@
     "obtainedFrom": "Black Market",
     "price": "C$1,000,000",
     "stage": 6,
-    "passive": "25% chance per fish movement to stab for +6% progress",
-    "imageUrl": "/images/rods/katana-rod.png"
+    "passive": "25% chance per fish movement to stab for +6% progress"
   },
   {
     "id": "sword-of-darkness",
@@ -2803,8 +2645,7 @@
     "price": "C$50,000,000",
     "stage": 10,
     "passive": "25% chance per fish movement to stab for 3% progress  After 3 successful catches in a row, receives an additional +150% Progress Speed and guaranteed Darkness (9.4&times;) for 30 seconds. If a reel is snapped at any point, or the player takes more than 30 seconds between catches, the stacks are reset and the bonus ends.",
-    "maxWeight": "1,000,000",
-    "imageUrl": "/images/rods/sword-of-darkness.png"
+    "maxWeight": "1,000,000"
   },
   {
     "id": "original-no-life-rod",
@@ -2819,8 +2660,7 @@
     "howToGet": "Purchase from Admin Events for C$1.\n\nPassive: 20% chance for Hexed (3×).",
     "obtainedFrom": "Admin Events",
     "price": "C$1",
-    "passive": "20% chance for Hexed (3×)",
-    "imageUrl": "/images/rods/original-no-life-rod.png"
+    "passive": "20% chance for Hexed (3×)"
   },
   {
     "id": "electric-guitar",
@@ -2837,8 +2677,7 @@
     "price": "C$14,444,444",
     "stage": 10,
     "passive": "16.7% chance to fill the progress bar rapidly",
-    "maxWeight": "444,444,444",
-    "imageUrl": "/images/rods/electric-guitar.png"
+    "maxWeight": "444,444,444"
   },
   {
     "id": "upside-down-rod",
@@ -2855,8 +2694,7 @@
     "price": "C$15,000",
     "stage": 2,
     "passive": "100% chance for Upside-Down (1×)",
-    "maxWeight": "10",
-    "imageUrl": "/images/rods/upside-down-rod.png"
+    "maxWeight": "10"
   },
   {
     "id": "bone-blade",
@@ -2873,8 +2711,7 @@
     "price": "C$2,500,000",
     "stage": 7,
     "passive": "30% chance per fish movement to stab for +4% progress",
-    "maxWeight": "1,000,000",
-    "imageUrl": "/images/rods/bone-blade.png"
+    "maxWeight": "1,000,000"
   },
   {
     "id": "nates-blade",
@@ -2890,8 +2727,7 @@
     "obtainedFrom": "Black Market",
     "price": "C$200,000,000",
     "stage": 10,
-    "passive": "Control bar gradually increases in size whilst catching a fish. +100% weight buff to all fish caught. 100% chance to obtain one of the three mutations: • Lumpy (2×) • Rockstar (2×) • Bubblegum (2×) All three Mutations have equal chances. 25% chance per fish movement to stab for +6% progress. +50% Progress Speed.",
-    "imageUrl": "/images/rods/nates-blade.png"
+    "passive": "Control bar gradually increases in size whilst catching a fish. +100% weight buff to all fish caught. 100% chance to obtain one of the three mutations: • Lumpy (2×) • Rockstar (2×) • Bubblegum (2×) All three Mutations have equal chances. 25% chance per fish movement to stab for +6% progress. +50% Progress Speed."
   },
   {
     "id": "noctone",
@@ -2908,8 +2744,7 @@
     "price": "|stage = 10",
     "stage": 10,
     "passive": "40% chance for Glowy (8×) 20% chance for Greedy (5×) +7% chance for Shiny (1.85×) +7% chance for Sparkling (1.85×)",
-    "maxWeight": "200,000",
-    "imageUrl": "/images/rods/noctone.png"
+    "maxWeight": "200,000"
   },
   {
     "id": "training-rod",
@@ -2925,7 +2760,6 @@
     "obtainedFrom": "Moosewood",
     "price": "C$300",
     "stage": 1,
-    "maxWeight": "9",
-    "imageUrl": "/images/rods/training-rod.png"
+    "maxWeight": "9"
   }
 ]
