@@ -31,7 +31,7 @@ const ogImageURL = new URL(ogImage, Astro.site).href;
 const fullBreadcrumbs: BreadcrumbItem[] = [
   { label: 'codigosgratis.com', href: '/' },
   { label: 'Games', href: '/games/' },
-  { label: game, href: `/games/${game.toLowerCase()}/` },
+  { label: game, href: `/games/${game.toLowerCase().replace(/\s+/g, '-')}/` },
   ...breadcrumbs,
 ];
 
@@ -46,7 +46,7 @@ const breadcrumbSchema = {
   })),
 };
 
-const gameSlug = game.toLowerCase();
+const gameSlug = game.toLowerCase().replace(/\s+/g, '-');
 const currentPath = Astro.url.pathname;
 
 function isActive(href: string): boolean {

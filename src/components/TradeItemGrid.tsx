@@ -16,6 +16,7 @@ interface Props {
   sources: string[];
   basePath: string; // e.g. "/games/fisch/rod-skins"
   linkable?: boolean; // false = no detail page links (new games)
+  valueUnit?: string; // e.g. "ER" — empty string to hide
 }
 
 const SOURCE_COLORS: Record<string, string> = {
@@ -49,12 +50,16 @@ const TREND_COLORS: Record<string, string> = {
 
 function fmtValue(n: number | null): string {
   if (n == null) return '—';
+  if (n >= 1e15) return 'INF';
+  if (n >= 1e12) return `${(n / 1e12).toFixed(n % 1e12 === 0 ? 0 : 1)}T`;
+  if (n >= 1e9) return `${(n / 1e9).toFixed(n % 1e9 === 0 ? 0 : 1)}B`;
+  if (n >= 1e6) return `${(n / 1e6).toFixed(n % 1e6 === 0 ? 0 : 1)}M`;
   if (n >= 1000) return `${(n / 1000).toFixed(n % 1000 === 0 ? 0 : 1)}K`;
   if (Number.isInteger(n)) return String(n);
   return n.toFixed(1);
 }
 
-export default function TradeItemGrid({ items, sources, basePath, linkable = true }: Props) {
+export default function TradeItemGrid({ items, sources, basePath, linkable = true, valueUnit = 'ER' }: Props) {
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState<'value' | 'name'>('value');
   const [selSources, setSelSources] = useState<Set<string>>(new Set());
@@ -129,7 +134,7 @@ export default function TradeItemGrid({ items, sources, basePath, linkable = tru
               </div>
               <div className="tig__card-body">
                 <h3 className="tig__card-name">{item.name}</h3>
-                <div className="tig__card-value">{fmtValue(item.tradeValue)} ER</div>
+                <div className="tig__card-value">{fmtValue(item.tradeValue)}{valueUnit ? ` ${valueUnit}` : ''}</div>
                 <div className="tig__card-badges">
                   {item.demand && (
                     <span className="tig__badge" style={{ '--badge-color': DEMAND_COLORS[item.demand] || '#888' } as any}>
