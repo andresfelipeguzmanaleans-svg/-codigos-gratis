@@ -6,10 +6,21 @@ function parseCookie(header: string, name: string): string | null {
   return match ? decodeURIComponent(match[1]) : null;
 }
 
+function getSite(): string {
+  return process.env.SITE || 'https://codigos-gratis.com';
+}
+
 async function handleLogin(req: VercelRequest, res: VercelResponse) {
   const clientId = process.env.ROBLOX_CLIENT_ID;
-  const site = process.env.SITE || 'https://codigos-gratis.com';
+  if (!clientId) {
+    return res.status(500).json({ error: 'ROBLOX_CLIENT_ID not configured' });
+  }
+
+  const site = getSite();
   const redirectUri = `${site}/api/auth/callback`;
+
+  // Save where the user came from so we can redirect back after login
+  const returnTo = (req.query.return_to as string) || req.headers.referer || '/';
 
   const state = crypto.randomUUID();
   const codeVerifier = crypto.randomUUID() + crypto.randomUUID();
@@ -22,7 +33,7 @@ async function handleLogin(req: VercelRequest, res: VercelResponse) {
     .replace(/=+$/, '');
 
   const params = new URLSearchParams({
-    client_id: clientId!,
+    client_id: clientId,
     redirect_uri: redirectUri,
     response_type: 'code',
     scope: 'openid profile',
@@ -33,9 +44,13 @@ async function handleLogin(req: VercelRequest, res: VercelResponse) {
 
   const url = `https://apis.roblox.com/oauth/v1/authorize?${params.toString()}`;
 
+  // Sanitize returnTo — only allow relative paths from our own site
+  const safeReturn = returnTo.startsWith('/') ? returnTo : '/';
+
   res.setHeader('Set-Cookie', [
     `roblox_oauth_state=${state}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=600`,
     `roblox_code_verifier=${codeVerifier}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=600`,
+    `roblox_return_to=${encodeURIComponent(safeReturn)}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=600`,
   ]);
 
   res.redirect(302, url);
@@ -44,31 +59,33 @@ async function handleLogin(req: VercelRequest, res: VercelResponse) {
 async function handleCallback(req: VercelRequest, res: VercelResponse) {
   const { code, state, error: oauthError } = req.query;
 
+  const cookieHeader = req.headers.cookie || '';
+  const returnTo = decodeURIComponent(parseCookie(cookieHeader, 'roblox_return_to') || '/');
+
   if (oauthError) {
     console.error('Roblox OAuth error:', oauthError);
-    return res.redirect(302, '/games/fisch/trading/?auth_error=denied');
+    return res.redirect(302, `${returnTo}${returnTo.includes('?') ? '&' : '?'}auth_error=denied`);
   }
 
   if (!code || !state) {
-    return res.redirect(302, '/games/fisch/trading/?auth_error=missing_params');
+    return res.redirect(302, `${returnTo}${returnTo.includes('?') ? '&' : '?'}auth_error=missing_params`);
   }
 
-  const cookieHeader = req.headers.cookie || '';
   const storedState = parseCookie(cookieHeader, 'roblox_oauth_state');
   const codeVerifier = parseCookie(cookieHeader, 'roblox_code_verifier');
 
   if (!storedState || storedState !== state) {
-    return res.redirect(302, '/games/fisch/trading/?auth_error=invalid_state');
+    return res.redirect(302, `${returnTo}${returnTo.includes('?') ? '&' : '?'}auth_error=invalid_state`);
   }
 
   if (!codeVerifier) {
-    return res.redirect(302, '/games/fisch/trading/?auth_error=missing_verifier');
+    return res.redirect(302, `${returnTo}${returnTo.includes('?') ? '&' : '?'}auth_error=missing_verifier`);
   }
 
   try {
     const clientId = process.env.ROBLOX_CLIENT_ID!;
     const clientSecret = process.env.ROBLOX_CLIENT_SECRET!;
-    const site = process.env.SITE || 'https://codigos-gratis.com';
+    const site = getSite();
     const redirectUri = `${site}/api/auth/callback`;
 
     const tokenRes = await fetch('https://apis.roblox.com/oauth/v1/token', {
@@ -88,7 +105,7 @@ async function handleCallback(req: VercelRequest, res: VercelResponse) {
     if (!tokenRes.ok) {
       const errText = await tokenRes.text();
       console.error('Token exchange failed:', tokenRes.status, errText);
-      return res.redirect(302, '/games/fisch/trading/?auth_error=token_failed');
+      return res.redirect(302, `${returnTo}${returnTo.includes('?') ? '&' : '?'}auth_error=token_failed`);
     }
 
     const tokenData = await tokenRes.json();
@@ -100,7 +117,7 @@ async function handleCallback(req: VercelRequest, res: VercelResponse) {
 
     if (!userInfoRes.ok) {
       console.error('User info fetch failed:', userInfoRes.status);
-      return res.redirect(302, '/games/fisch/trading/?auth_error=userinfo_failed');
+      return res.redirect(302, `${returnTo}${returnTo.includes('?') ? '&' : '?'}auth_error=userinfo_failed`);
     }
 
     const userInfo = await userInfoRes.json();
@@ -142,7 +159,7 @@ async function handleCallback(req: VercelRequest, res: VercelResponse) {
 
     if (dbError) {
       console.error('Supabase upsert error:', dbError);
-      return res.redirect(302, '/games/fisch/trading/?auth_error=db_error');
+      return res.redirect(302, `${returnTo}${returnTo.includes('?') ? '&' : '?'}auth_error=db_error`);
     }
 
     const sessionPayload = JSON.stringify({
@@ -159,18 +176,22 @@ async function handleCallback(req: VercelRequest, res: VercelResponse) {
       `session=${sessionToken}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=604800`,
       `roblox_oauth_state=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
       `roblox_code_verifier=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
+      `roblox_return_to=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`,
     ]);
 
-    res.redirect(302, '/games/fisch/trading/');
+    res.redirect(302, returnTo);
   } catch (err) {
     console.error('OAuth callback error:', err);
-    res.redirect(302, '/games/fisch/trading/?auth_error=unknown');
+    res.redirect(302, `${returnTo}${returnTo.includes('?') ? '&' : '?'}auth_error=unknown`);
   }
 }
 
 async function handleLogout(req: VercelRequest, res: VercelResponse) {
+  const returnTo = (req.query.return_to as string) || req.headers.referer || '/';
+  const safeReturn = returnTo.startsWith('/') ? returnTo : '/';
+
   res.setHeader('Set-Cookie', 'session=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
-  res.redirect(302, '/games/fisch/trading/');
+  res.redirect(302, safeReturn);
 }
 
 async function handleMe(req: VercelRequest, res: VercelResponse) {
