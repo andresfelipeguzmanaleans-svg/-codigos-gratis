@@ -17,7 +17,7 @@ export default function AuthButton({ onUserChange }: Props) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/auth/me/')
+    fetch('/api/auth/me')
       .then(res => res.json())
       .then(data => {
         setUser(data.user || null);
@@ -45,7 +45,7 @@ export default function AuthButton({ onUserChange }: Props) {
           </div>
         )}
         <span className="auth-btn__name">{user.displayName || user.username}</span>
-        <a href="/api/auth/logout/" className="auth-btn__logout" title="Logout">
+        <a href="/api/auth/logout" className="auth-btn__logout" title="Logout">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
             <polyline points="16,17 21,12 16,7" />
@@ -57,7 +57,7 @@ export default function AuthButton({ onUserChange }: Props) {
   }
 
   return (
-    <a href="/api/auth/login/" className="auth-btn auth-btn--login">
+    <a href="/api/auth/login" className="auth-btn auth-btn--login">
       <svg className="auth-btn__roblox-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
         <path d="M5.164 0L0 18.836 18.836 24 24 5.164 5.164 0zm8.746 14.09l-3.999-1.001 1-3.999 4 1-1.001 4z" />
       </svg>
