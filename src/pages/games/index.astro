@@ -22,31 +22,97 @@ const description = 'Explore our in-depth game guides with fish databases, rod s
       <p class="subtitle">In-depth companion guides for your favorite games.</p>
 
       <div class="grid">
-        <a href="/games/fisch/" class="card">
-          <div class="card__icon">
+        <a href="/games/fisch/" class="card" style="--card-color: #22D3EE">
+          <div class="card__icon" style="background: rgba(34,211,238,0.08); border-color: rgba(34,211,238,0.15)">
             <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M2 16s1-4 5-4 5 4 9 4 5-4 5-4"/>
-              <path d="M2 12s1-4 5-4 5 4 9 4 5-4 5-4"/>
-              <circle cx="18" cy="10" r="1" fill="#22D3EE"/>
+              <path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6-3.56 0-7.56-2.53-8.5-6Z"/><circle cx="2" cy="12" r="1"/>
             </svg>
           </div>
           <div class="card__body">
-            <h2 class="card__name">Fisch Companion</h2>
-            <p class="card__desc">Complete database of fish, rods, mutations, locations and a trade calculator with values.</p>
+            <h2 class="card__name" style="color: #22D3EE">Fisch</h2>
+            <p class="card__desc">Complete database of 1,200+ fish, rods, mutations, locations and a trade calculator with values.</p>
             <div class="card__tags">
-              <span class="tag">Fish DB</span>
-              <span class="tag">Rods</span>
-              <span class="tag">Values</span>
-              <span class="tag">Calculator</span>
-              <span class="tag">Mutations</span>
-              <span class="tag">Locations</span>
+              <span class="tag" style="background:rgba(34,211,238,0.08);color:rgba(34,211,238,0.7);border-color:rgba(34,211,238,0.12)">Fish DB</span>
+              <span class="tag" style="background:rgba(34,211,238,0.08);color:rgba(34,211,238,0.7);border-color:rgba(34,211,238,0.12)">Values</span>
+              <span class="tag" style="background:rgba(34,211,238,0.08);color:rgba(34,211,238,0.7);border-color:rgba(34,211,238,0.12)">Calculator</span>
+              <span class="tag" style="background:rgba(34,211,238,0.08);color:rgba(34,211,238,0.7);border-color:rgba(34,211,238,0.12)">Map</span>
+            </div>
+          </div>
+          <span class="card__arrow">→</span>
+        </a>
+
+        <a href="/games/adopt-me/" class="card" style="--card-color: #fbbf24">
+          <div class="card__icon" style="background: rgba(251,191,36,0.08); border-color: rgba(251,191,36,0.15)">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h2 class="card__name" style="color: #fbbf24">Adopt Me</h2>
+            <p class="card__desc">Value list for 3,289 pets, vehicles, toys, strollers and more with trade calculator.</p>
+            <div class="card__tags">
+              <span class="tag" style="background:rgba(251,191,36,0.08);color:rgba(251,191,36,0.7);border-color:rgba(251,191,36,0.12)">Values</span>
+              <span class="tag" style="background:rgba(251,191,36,0.08);color:rgba(251,191,36,0.7);border-color:rgba(251,191,36,0.12)">Calculator</span>
+              <span class="tag" style="background:rgba(251,191,36,0.08);color:rgba(251,191,36,0.7);border-color:rgba(251,191,36,0.12)">3,289 Items</span>
+            </div>
+          </div>
+          <span class="card__arrow">→</span>
+        </a>
+
+        <a href="/games/blox-fruits/" class="card" style="--card-color: #a855f7">
+          <div class="card__icon" style="background: rgba(168,85,247,0.08); border-color: rgba(168,85,247,0.15)">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h2 class="card__name" style="color: #a855f7">Blox Fruits</h2>
+            <p class="card__desc">Complete fruit value list with normal and permanent values, demand and trade calculator.</p>
+            <div class="card__tags">
+              <span class="tag" style="background:rgba(168,85,247,0.08);color:rgba(168,85,247,0.7);border-color:rgba(168,85,247,0.12)">Values</span>
+              <span class="tag" style="background:rgba(168,85,247,0.08);color:rgba(168,85,247,0.7);border-color:rgba(168,85,247,0.12)">Calculator</span>
+              <span class="tag" style="background:rgba(168,85,247,0.08);color:rgba(168,85,247,0.7);border-color:rgba(168,85,247,0.12)">Fruits</span>
+            </div>
+          </div>
+          <span class="card__arrow">→</span>
+        </a>
+
+        <a href="/games/mm2/" class="card" style="--card-color: #d946a8">
+          <div class="card__icon" style="background: rgba(217,70,168,0.08); border-color: rgba(217,70,168,0.15)">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#d946a8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h2 class="card__name" style="color: #d946a8">Murder Mystery 2</h2>
+            <p class="card__desc">Value list for 913 weapons including Godlies, Chromas, Ancients, Vintages and trade calculator.</p>
+            <div class="card__tags">
+              <span class="tag" style="background:rgba(217,70,168,0.08);color:rgba(217,70,168,0.7);border-color:rgba(217,70,168,0.12)">Values</span>
+              <span class="tag" style="background:rgba(217,70,168,0.08);color:rgba(217,70,168,0.7);border-color:rgba(217,70,168,0.12)">Calculator</span>
+              <span class="tag" style="background:rgba(217,70,168,0.08);color:rgba(217,70,168,0.7);border-color:rgba(217,70,168,0.12)">913 Items</span>
+            </div>
+          </div>
+          <span class="card__arrow">→</span>
+        </a>
+
+        <a href="/games/grow-a-garden/" class="card" style="--card-color: #22c55e">
+          <div class="card__icon" style="background: rgba(34,197,94,0.08); border-color: rgba(34,197,94,0.15)">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/>
+            </svg>
+          </div>
+          <div class="card__body">
+            <h2 class="card__name" style="color: #22c55e">Grow a Garden</h2>
+            <p class="card__desc">Value list for 612 pets and crops with rarity tiers, demand tracking and trade calculator.</p>
+            <div class="card__tags">
+              <span class="tag" style="background:rgba(34,197,94,0.08);color:rgba(34,197,94,0.7);border-color:rgba(34,197,94,0.12)">Values</span>
+              <span class="tag" style="background:rgba(34,197,94,0.08);color:rgba(34,197,94,0.7);border-color:rgba(34,197,94,0.12)">Calculator</span>
+              <span class="tag" style="background:rgba(34,197,94,0.08);color:rgba(34,197,94,0.7);border-color:rgba(34,197,94,0.12)">Pets & Crops</span>
             </div>
           </div>
           <span class="card__arrow">→</span>
         </a>
       </div>
-
-      <p class="coming">More game guides coming soon.</p>
     </div>
   </main>
   <Footer />
@@ -122,8 +188,8 @@ const description = 'Explore our in-depth game guides with fish databases, rod s
   }
 
   .card:hover {
-    border-color: rgba(34, 211, 238, 0.4);
-    box-shadow: 0 4px 24px rgba(34, 211, 238, 0.1);
+    border-color: color-mix(in srgb, var(--card-color, #22D3EE) 40%, transparent);
+    box-shadow: 0 4px 24px color-mix(in srgb, var(--card-color, #22D3EE) 10%, transparent);
     transform: translateY(-2px);
   }
 
