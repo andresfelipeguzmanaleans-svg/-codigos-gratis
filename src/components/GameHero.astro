@@ -1,0 +1,87 @@
+---
+interface Props {
+  title: string;
+  subtitle: string;
+  accentColor?: string;
+  bgImage?: string;
+}
+
+const { title, subtitle, accentColor = '#1DA2D8', bgImage } = Astro.props;
+---
+
+<section class="ghero" style={bgImage ? '' : `--ghero-accent: ${accentColor}`}>
+  {bgImage ? (
+    <img src={bgImage} alt="" class="ghero__bg-img" loading="eager" />
+  ) : (
+    <div class="ghero__bg-grad" style={`background: linear-gradient(135deg, ${accentColor}18 0%, ${accentColor}08 40%, #0d0d0d 100%)`}></div>
+  )}
+  <div class="ghero__gradient"></div>
+  <div class="container ghero__content">
+    <h1 class="ghero__title" style={`text-shadow: 0 0 60px ${accentColor}4d`}>{title}</h1>
+    <p class="ghero__sub">{subtitle}</p>
+    <slot />
+  </div>
+</section>
+
+<style>
+  .ghero {
+    position: relative;
+    overflow: hidden;
+    padding: 2.5rem 0 2rem;
+    margin-top: -1rem;
+  }
+
+  @media (min-width: 768px) {
+    .ghero {
+      padding: 3.5rem 0 2.5rem;
+      margin-top: -1.25rem;
+    }
+  }
+
+  .ghero__bg-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.3);
+    z-index: 0;
+  }
+
+  .ghero__bg-grad {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+
+  .ghero__gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(13, 13, 13, 0.6) 0%, rgba(13, 13, 13, 0.8) 50%, #0d0d0d 100%);
+    z-index: 1;
+  }
+
+  .ghero__content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+
+  .ghero__title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+  }
+
+  .ghero__sub {
+    margin-top: 0.5rem;
+    font-size: clamp(0.75rem, 1.5vw, 0.88rem);
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+  }
+</style>

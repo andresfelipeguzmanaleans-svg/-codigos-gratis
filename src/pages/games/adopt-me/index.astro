@@ -1,0 +1,315 @@
+---
+export const prerender = true;
+import GameLayout from '../../../layouts/GameLayout.astro';
+import GameHero from '../../../components/GameHero.astro';
+
+import valuesData from '../../../data/games/adopt-me/values.json';
+
+const items = (valuesData as any).items || valuesData;
+const total = items.length;
+const fmt = (n: number) => n.toLocaleString('en-US');
+
+// Category breakdown
+const categories = ['pets', 'toys', 'vehicles', 'petwear', 'strollers', 'stickers', 'food', 'gifts', 'houses', 'eggs'];
+const catCounts: Record<string, number> = {};
+for (const cat of categories) {
+  catCounts[cat] = items.filter((i: any) => i.category === cat).length;
+}
+
+// Rarity counts
+const legendaryCount = items.filter((i: any) => i.rarity === 'legendary').length;
+const petsCount = catCounts['pets'] || 0;
+
+// Quick links
+const quickLinks = [
+  { title: 'Value List', desc: `${fmt(total)} items tracked`, href: '/games/adopt-me/values/', icon: '📊' },
+  { title: 'Trade Calculator', desc: 'Fair trade checker', href: '/games/adopt-me/calculator/', icon: '🔢' },
+  { title: 'Active Codes', desc: 'Free rewards', href: '/codigos-adopt-me/', icon: '🎁' },
+];
+
+// Stats
+const stats = [
+  { label: 'Total Items', value: fmt(total) },
+  { label: 'Pets', value: fmt(petsCount) },
+  { label: 'Legendary', value: fmt(legendaryCount) },
+  ...categories.filter(c => c !== 'pets' && catCounts[c] > 0).map(c => ({
+    label: c.charAt(0).toUpperCase() + c.slice(1).replace('_', ' '),
+    value: fmt(catCounts[c]),
+  })),
+];
+
+// FAQ
+const faqs = [
+  {
+    q: 'What is Adopt Me?',
+    a: `Adopt Me is one of the most popular Roblox games where players adopt and raise virtual pets, decorate houses, and trade with other players. With over ${fmt(total)} tradeable items including pets, toys, vehicles, and more, there's always something to collect.`,
+  },
+  {
+    q: 'How do Adopt Me values work?',
+    a: 'Each item in Adopt Me has a trade value based on its rarity, demand, and availability. Legendary and limited items tend to have higher values. Our value list tracks current market prices to help you make fair trades.',
+  },
+  {
+    q: 'How do I know if a trade is fair?',
+    a: 'Use our Trade Calculator to compare the total value of items on both sides of a trade. A trade is considered fair when both sides are within 5% of each other. If you\'re giving away more than 5% extra value, it\'s an overpay.',
+  },
+  {
+    q: 'What are the rarest items in Adopt Me?',
+    a: 'The rarest items include limited pets like the Shadow Dragon, Bat Dragon, and Giraffe, as well as discontinued toys and vehicles. These items can no longer be obtained in-game and can only be acquired through trading.',
+  },
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(f => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+
+const webSiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Adopt Me Guide - Codigos Gratis',
+  url: new URL('/games/adopt-me/', Astro.site).href,
+  description: `Adopt Me value list & trade calculator with ${fmt(total)} items. Check pet values, calculate fair trades, and find active codes.`,
+  publisher: { '@type': 'Organization', name: 'Codigos Gratis' },
+};
+---
+
+<GameLayout
+  title="Adopt Me Value List & Trade Calculator"
+  description={`Complete Adopt Me value list with ${fmt(total)} items. Trade calculator, pet values, and active codes for Roblox Adopt Me.`}
+  game="Adopt Me"
+  breadcrumbs={[]}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(webSiteSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <GameHero title="ADOPT ME" subtitle="Values, calculator & trading tools" accentColor="#fbbf24" />
+
+  <div class="container home-content">
+    <!-- QUICK LINKS -->
+    <section class="quick-links">
+      {quickLinks.map(link => (
+        <a href={link.href} class="ql-card">
+          <span class="ql-card__icon">{link.icon}</span>
+          <div class="ql-card__body">
+            <h3 class="ql-card__title">{link.title}</h3>
+            <p class="ql-card__desc">{link.desc}</p>
+          </div>
+          <svg class="ql-card__arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+      ))}
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-section">
+      <h2 class="section-title">Database</h2>
+      <div class="stats-row">
+        {stats.map(s => (
+          <div class="stat">
+            <span class="stat__value">{s.value}</span>
+            <span class="stat__label">{s.label}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+      <h2 class="section-title">FAQ</h2>
+      <div class="faq-list">
+        {faqs.map(f => (
+          <details class="faq-item">
+            <summary class="faq-q">{f.q}</summary>
+            <p class="faq-a">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+  </div>
+</GameLayout>
+
+<style>
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+  /* Quick links grid */
+  .quick-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .quick-links { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  .ql-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+  }
+
+  .ql-card:hover {
+    border-color: rgba(251, 191, 36, 0.3);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  }
+
+  .ql-card__icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(251, 191, 36, 0.08);
+    border-radius: var(--radius);
+  }
+
+  .ql-card__body { flex: 1; min-width: 0; }
+
+  .ql-card__title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    line-height: 1.3;
+  }
+
+  .ql-card__desc {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-top: 1px;
+  }
+
+  .ql-card__arrow {
+    flex-shrink: 0;
+    color: rgba(255,255,255,0.2);
+    transition: color 0.2s, transform 0.2s;
+  }
+
+  .ql-card:hover .ql-card__arrow {
+    color: #fbbf24;
+    transform: translateX(2px);
+  }
+
+  /* Section title */
+  .section-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* Stats */
+  .stats-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    padding: 0.6rem 0.75rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    min-width: 72px;
+    flex: 1;
+  }
+
+  .stat__value {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fbbf24;
+    line-height: 1.2;
+  }
+
+  .stat__label {
+    font-size: 0.6rem;
+    color: var(--text-dim);
+    font-weight: 500;
+    text-align: center;
+  }
+
+  /* FAQ */
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .faq-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+
+  .faq-item[open] {
+    border-color: rgba(251, 191, 36, 0.2);
+  }
+
+  .faq-q {
+    padding: 0.75rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: rgba(255,255,255,0.85);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    transition: color 0.2s;
+  }
+
+  .faq-q::-webkit-details-marker { display: none; }
+
+  .faq-q::after {
+    content: '+';
+    font-size: 1.1rem;
+    color: var(--text-dim);
+    flex-shrink: 0;
+    font-weight: 300;
+  }
+
+  .faq-item[open] .faq-q::after {
+    content: '\2212';
+    color: #fbbf24;
+  }
+
+  .faq-q:hover { color: #fbbf24; }
+
+  .faq-a {
+    padding: 0 1rem 0.75rem;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    line-height: 1.6;
+  }
+</style>

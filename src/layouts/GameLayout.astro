@@ -57,28 +57,42 @@ function isActive(href: string): boolean {
   return false;
 }
 
-// --- Sidebar navigation ---
-const primaryNav = [
-  { label: 'Value List', href: `/games/${gameSlug}/values/`, icon: 'coins' },
-  { label: 'Calculator', href: `/games/${gameSlug}/calculator/`, icon: 'calc' },
-  { label: 'Trading Hub', href: `/games/${gameSlug}/trading/`, icon: 'trading' },
-  { label: 'Boat Tier List', href: `/games/${gameSlug}/boats/tier-list/`, icon: 'trophy' },
-  { label: 'Rod Skins Tier List', href: `/games/${gameSlug}/rod-skins/tier-list/`, icon: 'trophy' },
-  { label: 'Fish', href: `/games/${gameSlug}/fish/`, icon: 'fish' },
-  { label: 'Map', href: `/games/${gameSlug}/map/`, icon: 'map' },
-  { label: 'Codes', href: `/codigos-${gameSlug}/`, icon: 'gift' },
-];
+// --- Sidebar navigation (per-game) ---
+type NavItem = { label: string; href: string; icon: string };
+let primaryNav: NavItem[] = [];
+let secondaryNav: NavItem[] = [];
 
-const secondaryNav = [
-  { label: 'Boats', href: `/games/${gameSlug}/boats/`, icon: 'boat' },
-  { label: 'Rod Skins', href: `/games/${gameSlug}/rod-skins/`, icon: 'palette' },
-  { label: 'Rods', href: `/games/${gameSlug}/rods/`, icon: 'rod' },
-  { label: 'Enchantments', href: `/games/${gameSlug}/enchantments/`, icon: 'sparkle' },
-  { label: 'Baits', href: `/games/${gameSlug}/baits/`, icon: 'worm' },
-  { label: 'Bobbers', href: `/games/${gameSlug}/bobbers/`, icon: 'bobber' },
-  { label: 'Mutations', href: `/games/${gameSlug}/mutations/`, icon: 'dna' },
-  { label: 'Locations', href: `/games/${gameSlug}/locations/`, icon: 'loc' },
-];
+const codesSlug = gameSlug === 'mm2' ? 'murder-mystery-2' : gameSlug;
+
+if (gameSlug === 'fisch') {
+  primaryNav = [
+    { label: 'Value List', href: `/games/${gameSlug}/values/`, icon: 'coins' },
+    { label: 'Calculator', href: `/games/${gameSlug}/calculator/`, icon: 'calc' },
+    { label: 'Trading Hub', href: `/games/${gameSlug}/trading/`, icon: 'trading' },
+    { label: 'Boat Tier List', href: `/games/${gameSlug}/boats/tier-list/`, icon: 'trophy' },
+    { label: 'Rod Skins Tier List', href: `/games/${gameSlug}/rod-skins/tier-list/`, icon: 'trophy' },
+    { label: 'Fish', href: `/games/${gameSlug}/fish/`, icon: 'fish' },
+    { label: 'Map', href: `/games/${gameSlug}/map/`, icon: 'map' },
+    { label: 'Codes', href: `/codigos-${gameSlug}/`, icon: 'gift' },
+  ];
+  secondaryNav = [
+    { label: 'Boats', href: `/games/${gameSlug}/boats/`, icon: 'boat' },
+    { label: 'Rod Skins', href: `/games/${gameSlug}/rod-skins/`, icon: 'palette' },
+    { label: 'Rods', href: `/games/${gameSlug}/rods/`, icon: 'rod' },
+    { label: 'Enchantments', href: `/games/${gameSlug}/enchantments/`, icon: 'sparkle' },
+    { label: 'Baits', href: `/games/${gameSlug}/baits/`, icon: 'worm' },
+    { label: 'Bobbers', href: `/games/${gameSlug}/bobbers/`, icon: 'bobber' },
+    { label: 'Mutations', href: `/games/${gameSlug}/mutations/`, icon: 'dna' },
+    { label: 'Locations', href: `/games/${gameSlug}/locations/`, icon: 'loc' },
+  ];
+} else {
+  // Generic nav for all other games (adopt-me, blox-fruits, mm2, grow-a-garden)
+  primaryNav = [
+    { label: 'Value List', href: `/games/${gameSlug}/values/`, icon: 'coins' },
+    { label: 'Calculator', href: `/games/${gameSlug}/calculator/`, icon: 'calc' },
+    { label: 'Codes', href: `/codigos-${codesSlug}/`, icon: 'gift' },
+  ];
+}
 
 // SVG icon paths (24x24 viewBox, stroke-based)
 const ico: Record<string, string> = {
@@ -104,7 +118,7 @@ const ico: Record<string, string> = {
   loc: '<path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>',
 };
 
-// --- Search palette data (Fisch only) ---
+// --- Search palette data ---
 let searchItems: SearchItem[] = [];
 if (gameSlug === 'fisch') {
   const fishData = (await import('../data/games/fisch/fish.json')).default as any[];
@@ -127,6 +141,12 @@ if (gameSlug === 'fisch') {
     ...baitData.filter((a: any) => a.slug && a.name).map((a: any) => ({ i: a.slug, n: a.name, t: 'a' as const, x: a.rarity || undefined })),
     ...bobberData.filter((o: any) => o.slug && o.name).map((o: any) => ({ i: o.slug, n: o.name, t: 'o' as const, x: o.category || undefined })),
   ];
+} else if (['adopt-me', 'blox-fruits', 'mm2', 'grow-a-garden'].includes(gameSlug)) {
+  const valData = (await import(`../data/games/${gameSlug}/values.json`)).default as any;
+  const items = Array.isArray(valData) ? valData : (valData.items || []);
+  searchItems = items.filter((v: any) => v.slug && v.name).map((v: any) => ({
+    i: v.slug, n: v.name, t: 'v' as const, x: v.rarity || v.category || undefined,
+  }));
 }
 ---
 
@@ -181,7 +201,6 @@ if (gameSlug === 'fisch') {
       </button>
 
       <a href={`/games/${gameSlug}/`} class="mf-header__brand">
-        <img src="/images/fisch-icon.webp" alt="" class="mf-header__brand-icon" width="24" height="24" />
         <span class="mf-header__brand-name">{game}</span>
       </a>
 
@@ -200,7 +219,6 @@ if (gameSlug === 'fisch') {
         <!-- Game header -->
         <div class="mf-sidebar__game-header">
           <a href={`/games/${gameSlug}/`} class="mf-sidebar__game-link">
-            <img src="/images/fisch-icon.webp" alt="" class="mf-sidebar__game-icon" width="28" height="28" />
             <span class="mf-sidebar__game-name">{game}</span>
           </a>
         </div>
