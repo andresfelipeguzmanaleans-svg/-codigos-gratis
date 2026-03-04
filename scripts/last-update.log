@@ -1,21 +1,53 @@
-=== RESUMEN UPDATE 2026-03-03 21:06 ===
+=== RESUMEN UPDATE 2026-03-04 10:04 ===
 
 Archivos modificados:
-  2 archivos cambiados
+  12 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4122 juegos (4122 procesados)
-Actualizados: 0 | Sin cambios: 3968
+Total: 4123 juegos (4123 procesados)
+Actualizados: 10 | Sin cambios: 3959
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 0 | Movidos a expirados: 0
-Tiempo: 173.5s | Concurrencia: 10
+Códigos nuevos: 14 | Movidos a expirados: 0
+Tiempo: 152.5s | Concurrencia: 10
+
+Juegos actualizados:
+  Aopg: 132→134 activos (+2), 116→116 exp
+    Nuevos: AncientMagic, LonelyElf
+  Block Tales Tower Defense: 2→3 activos (+1), 6→6 exp
+    Nuevos: OVERHAULSOON
+  Dance for UGC: 0→0 activos (=), 537→540 exp
+  Hunty Zombies: 35→38 activos (+3), 140→140 exp
+    Nuevos: PotatoInternet, AFKChamberBuff, Aegis
+  It Girl: 12→14 activos (+2), 4→4 exp
+    Nuevos: SWEETBUTEVIL, SURPRISE
+  Merge Tower Defense: 9→11 activos (+2), 1→1 exp
+    Nuevos: SAFEGUARDPROTOCOL, VOIDAWAKENING
+  Project Polaro: 5→6 activos (+1), 144→144 exp
+    Nuevos: T2NDOI
+  Robeats: 16→17 activos (+1), 49→49 exp
+    Nuevos: freedomdive222
+  Robots Vs Humans: 54→55 activos (+1), 30→30 exp
+    Nuevos: 18000LIKES
+  Tv Defense: 22→23 activos (+1), 8→8 exp
+    Nuevos: LUNAR2026
 
 Detalle cambios:
+data/games/codigos-aopg.json
+data/games/codigos-block-tales-tower-defense.json
+data/games/codigos-dance-for-ugc.json
+data/games/codigos-hunty-zombies.json
+data/games/codigos-it-girl.json
+data/games/codigos-merge-tower-defense.json
+data/games/codigos-project-polaro.json
+data/games/codigos-robeats.json
+data/games/codigos-robots-vs-humans.json
+data/games/codigos-tv-defense.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-steal-an-egoist.json
 
