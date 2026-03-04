@@ -1,0 +1,270 @@
+---
+export const prerender = true;
+import GameLayout from '../../../../layouts/GameLayout.astro';
+import rawData from '../../../../data/games/blox-fruits/values.json';
+
+interface BloxFruitsItem {
+  name: string;
+  slug: string;
+  tradeValue: number | null;
+  permanentValue: number | null;
+  demand: string | null;
+  trend: string | null;
+  rarity: string | null;
+  category: string | null;
+  fruitType: string | null;
+  imageUrl: string | null;
+  detailUrl: string | null;
+}
+
+export function getStaticPaths() {
+  const items: BloxFruitsItem[] = (rawData as any).items || rawData;
+  return items
+    .filter(i => i.slug && i.name)
+    .map(item => ({ params: { id: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props as { item: BloxFruitsItem };
+
+const RARITY_COLORS: Record<string, string> = {
+  Limited: '#ef4444',
+  Mythical: '#a855f7',
+  Legendary: '#fbbf24',
+  Rare: '#3b82f6',
+  Uncommon: '#22c55e',
+  Common: '#6b7280',
+};
+
+const DEMAND_COLORS: Record<string, string> = {
+  'Very High': '#ef4444',
+  High: '#f59e0b',
+  Medium: '#22c55e',
+  Low: '#3b82f6',
+  'Very Low': '#6b7280',
+  'N/A': '#6b7280',
+};
+
+const TREND_COLORS: Record<string, string> = {
+  Stable: '#22c55e',
+  Unstable: '#f59e0b',
+  Overpaid: '#ef4444',
+  Underpaid: '#3b82f6',
+};
+
+const rarityColor = RARITY_COLORS[item.rarity || ''] || '#6b7280';
+const demandColor = DEMAND_COLORS[item.demand || ''] || '#6b7280';
+const trendColor = TREND_COLORS[item.trend || ''] || '#6b7280';
+
+function fmtValue(n: number | null): string {
+  if (n == null) return '\u2014';
+  if (n >= 1e9) return `${(n / 1e9).toFixed(n % 1e9 === 0 ? 0 : 1)}B`;
+  if (n >= 1e6) return `${(n / 1e6).toFixed(n % 1e6 === 0 ? 0 : 1)}M`;
+  if (n >= 1000) return `${(n / 1000).toFixed(n % 1000 === 0 ? 0 : 1)}K`;
+  if (Number.isInteger(n)) return String(n);
+  return n.toFixed(1);
+}
+
+const description = `${item.name} is a tradeable item in Blox Fruits${item.rarity ? ` (${item.rarity})` : ''}. ${item.tradeValue ? `Current trade value: ${fmtValue(item.tradeValue)}.` : ''} ${item.demand ? `Demand: ${item.demand}.` : ''} ${item.trend ? `Market trend: ${item.trend}.` : ''}`;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: item.name,
+  description,
+  image: item.imageUrl || undefined,
+  offers: item.tradeValue ? {
+    '@type': 'Offer',
+    price: item.tradeValue,
+    priceCurrency: 'XXX',
+  } : undefined,
+};
+
+const allItems: BloxFruitsItem[] = (rawData as any).items || rawData;
+const related = allItems
+  .filter(r => r.slug && r.name && r.slug !== item.slug && r.rarity === item.rarity)
+  .slice(0, 6);
+---
+
+<GameLayout
+  title={`${item.name} - Trade Value | Blox Fruits Roblox`}
+  description={description}
+  game="Blox-Fruits"
+  breadcrumbs={[
+    { label: 'Value List', href: '/games/blox-fruits/values/' },
+    { label: item.name, href: `/games/blox-fruits/values/${item.slug}/` },
+  ]}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  </Fragment>
+
+  <div class="td">
+    <!-- Hero -->
+    <div class="td__hero" style={`--accent-clr: ${rarityColor}`}>
+      <div class="td__hero-img">
+        {item.imageUrl ? (
+          <img src={item.imageUrl} alt={item.name} width="280" height="280" />
+        ) : (
+          <div class="td__hero-ph">&#127822;</div>
+        )}
+      </div>
+      <div class="td__hero-info">
+        <div class="td__badges-top">
+          {item.rarity && (
+            <span class="td__source-badge" style={`--badge-clr: ${rarityColor}`}>{item.rarity}</span>
+          )}
+          {item.category && (
+            <span class="td__type-badge">{item.category}</span>
+          )}
+        </div>
+        <h1 class="td__title">{item.name}</h1>
+        <div class="td__value-hero">
+          <span class="td__value-num">{fmtValue(item.tradeValue)}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats grid -->
+    <div class="td__grid">
+      <div class="td__stat">
+        <span class="td__stat-label">Trade Value</span>
+        <span class="td__stat-val td__stat-val--accent">{fmtValue(item.tradeValue)}</span>
+      </div>
+      {item.permanentValue != null && (
+        <div class="td__stat">
+          <span class="td__stat-label">Permanent Value</span>
+          <span class="td__stat-val td__stat-val--accent">{fmtValue(item.permanentValue)}</span>
+        </div>
+      )}
+      <div class="td__stat">
+        <span class="td__stat-label">Demand</span>
+        <span class="td__stat-val" style={`color: ${demandColor}`}>{item.demand || '\u2014'}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Trend</span>
+        <span class="td__stat-val" style={`color: ${trendColor}`}>{item.trend || '\u2014'}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Rarity</span>
+        <span class="td__stat-val" style={`color: ${rarityColor}`}>{item.rarity || '\u2014'}</span>
+      </div>
+      <div class="td__stat">
+        <span class="td__stat-label">Category</span>
+        <span class="td__stat-val">{item.category || '\u2014'}</span>
+      </div>
+    </div>
+
+    <!-- Market Summary -->
+    {item.tradeValue && (
+      <div class="td__market-summary">
+        <p>{item.name} currently holds a trade value of <strong>{fmtValue(item.tradeValue)}</strong>{item.permanentValue != null ? ` (permanent value: ${fmtValue(item.permanentValue)})` : ''}{item.demand ? ` with ${item.demand.toLowerCase()} demand` : ''}{item.trend ? `. Market trend is ${item.trend.toLowerCase()}` : ''}.</p>
+      </div>
+    )}
+
+    <!-- Related Items -->
+    {related.length > 0 && (
+      <section class="td__section">
+        <h2 class="td__section-title">Similar Items</h2>
+        <div class="td__related">
+          {related.map(r => (
+            <a href={`/games/blox-fruits/values/${r.slug}/`} class="td__rel-card">
+              <div class="td__rel-img">
+                {r.imageUrl ? <img src={r.imageUrl} alt={r.name} width="80" height="80" loading="lazy" /> : <span>&#127822;</span>}
+              </div>
+              <span class="td__rel-name">{r.name}</span>
+              <span class="td__rel-val">{fmtValue(r.tradeValue)}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Back link -->
+    <a href="/games/blox-fruits/values/" class="td__back">&larr; All Items</a>
+  </div>
+</GameLayout>
+
+<style>
+  .td { max-width: 720px; margin: 0 auto; padding: 1rem; }
+
+  .td__hero {
+    display: flex; gap: 1.5rem; align-items: center;
+    background: linear-gradient(135deg, color-mix(in srgb, var(--accent-clr) 12%, transparent), var(--bg-card));
+    border: 1px solid var(--border); border-radius: 16px;
+    padding: 1.5rem; margin-bottom: 1.25rem;
+  }
+
+  .td__hero-img { flex-shrink: 0; width: 140px; height: 140px; display: flex; align-items: center; justify-content: center; }
+  .td__hero-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .td__hero-ph { font-size: 3rem; }
+  .td__hero-info { flex: 1; min-width: 0; }
+
+  .td__badges-top { display: flex; gap: 0.4rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+  .td__source-badge {
+    font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+    padding: 0.15rem 0.55rem; border-radius: 9999px;
+    color: var(--badge-clr); border: 1px solid var(--badge-clr);
+    background: color-mix(in srgb, var(--badge-clr) 12%, transparent);
+  }
+  .td__type-badge {
+    font-size: 0.7rem; font-weight: 600; padding: 0.15rem 0.55rem; border-radius: 9999px;
+    color: var(--text-dim); border: 1px solid var(--border); background: rgba(255,255,255,0.03);
+  }
+
+  .td__title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: #fff; margin: 0 0 0.5rem; }
+
+  .td__value-hero { display: flex; align-items: baseline; gap: 0.4rem; }
+  .td__value-num { font-family: var(--font-mono); font-size: 2rem; font-weight: 700; color: #a855f7; }
+
+  .td__grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  @media (min-width: 640px) { .td__grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .td__stat {
+    background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 0.75rem 1rem; display: flex; flex-direction: column; gap: 0.2rem;
+  }
+  .td__stat-label { font-size: 0.7rem; font-weight: 500; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+  .td__stat-val { font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; color: var(--text); }
+  .td__stat-val--accent { color: #a855f7; }
+
+  .td__section { margin-bottom: 1.25rem; }
+  .td__section-title {
+    font-size: 0.85rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: #94a3b8; margin-bottom: 0.75rem;
+  }
+
+  .td__market-summary {
+    background: var(--bg-card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1.25rem;
+    font-size: 0.9rem; color: var(--text-dim); line-height: 1.6;
+  }
+  .td__market-summary strong { color: #a855f7; font-weight: 700; }
+
+  .td__related { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+  @media (min-width: 640px) { .td__related { grid-template-columns: repeat(6, 1fr); } }
+  .td__rel-card { display: flex; flex-direction: column; align-items: center; gap: 0.3rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 0.75rem 0.5rem; text-decoration: none; transition: border-color 0.2s, transform 0.15s; }
+  .td__rel-card:hover { border-color: #a855f7; transform: translateY(-2px); }
+  .td__rel-img { width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; }
+  .td__rel-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .td__rel-name { font-size: 0.72rem; font-weight: 600; color: #fff; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
+  .td__rel-val { font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700; color: #a855f7; }
+
+  .td__back {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    font-size: 0.85rem; color: var(--accent); font-weight: 500;
+    transition: opacity 0.2s;
+  }
+  .td__back:hover { opacity: 0.8; }
+
+  @media (max-width: 639px) {
+    .td__hero { flex-direction: column; text-align: center; padding: 1rem; }
+    .td__hero-img { width: 120px; height: 120px; }
+    .td__badges-top { justify-content: center; }
+    .td__value-hero { justify-content: center; }
+    .td__title { font-size: 1.25rem; }
+    .td__value-num { font-size: 1.5rem; }
+  }
+</style>
