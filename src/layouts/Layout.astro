@@ -68,20 +68,22 @@ const ogImageURL = new URL(ogImage, Astro.site).href;
   }
 
   :root {
-    --bg-deep: #0A0F1C;
-    --bg-card: #111827;
-    --bg-code: #0d1520;
+    --bg-deep: #0d0d0d;
+    --bg-card: #141414;
+    --bg-code: #111111;
     --accent: #6366F1;
     --accent-light: #818CF8;
     --accent-secondary: #22D3EE;
     --accent-hot: #F43F5E;
     --accent-warn: #FBBF24;
-    --text: #F1F5F9;
-    --text-dim: #94A3B8;
+    --text: #e5e5e5;
+    --text-dim: rgba(255, 255, 255, 0.5);
     --border: rgba(255, 255, 255, 0.06);
     --font-display: 'Inter', sans-serif;
     --font-body: 'Inter', sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
+    --header-h: 48px;
+    --sidebar-w: 56px;
   }
 
   html {
@@ -99,6 +101,10 @@ const ogImageURL = new URL(ogImage, Astro.site).href;
     display: flex;
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
+  }
+
+  body.sb-open {
+    overflow: hidden;
   }
 
   img {

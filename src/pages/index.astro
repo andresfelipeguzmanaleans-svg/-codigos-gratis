@@ -1,6 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
 interface GameData {
@@ -117,9 +116,90 @@ const allGamesData = sortedGames.map(g => ({
     <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(itemListSchema)} />
   </Fragment>
-  <Header />
 
-  <main class="main">
+  <!-- HEADER (matches GameLayout) -->
+  <header class="mf-header">
+    <div class="mf-logo">
+      <a href="/" title="codigosgratis.com">
+        <span class="mf-logo__text">CG</span>
+      </a>
+    </div>
+
+    <button class="mf-menu-btn" type="button" id="menuToggle" aria-label="Toggle menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg>
+    </button>
+
+    <a href="/" class="mf-header__brand">
+      <span class="mf-header__brand-name">codigos<span style="color:var(--accent-secondary)">gratis</span>.com</span>
+    </a>
+
+    <div class="mf-search-bar" style="cursor:default;">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="header-search-input" class="mf-search-bar__input" placeholder="Search games..." autocomplete="off" />
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <aside class="mf-sidebar" id="sidebar">
+    <div class="mf-sidebar__scroll">
+      <div class="mf-sidebar__section-label">
+        <span class="mf-sidebar__section-text">GUIDES</span>
+      </div>
+
+      <nav class="mf-sidebar__nav">
+        <a href="/games/fisch/" class="mf-sidebar__item" title="Fisch">
+          <span class="mf-sidebar__item-icon">
+            <img src="/images/fisch-icon.webp" alt="" width="20" height="20" style="border-radius:4px;" />
+          </span>
+          <span class="mf-sidebar__item-text">Fisch</span>
+        </a>
+      </nav>
+
+      <div class="mf-sidebar__divider"></div>
+
+      <div class="mf-sidebar__section-label">
+        <span class="mf-sidebar__section-text">TOOLS</span>
+      </div>
+
+      <nav class="mf-sidebar__nav">
+        <a href="/herramientas/calculadora-robux/" class="mf-sidebar__item" title="Robux Calculator">
+          <span class="mf-sidebar__item-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8"/></svg>
+          </span>
+          <span class="mf-sidebar__item-text">Robux Calculator</span>
+        </a>
+        <a href="/herramientas/ids-musica-roblox/" class="mf-sidebar__item" title="Music IDs">
+          <span class="mf-sidebar__item-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </span>
+          <span class="mf-sidebar__item-text">Music IDs</span>
+        </a>
+        <a href="/herramientas/buscador-perfil-roblox/" class="mf-sidebar__item" title="Profile Search">
+          <span class="mf-sidebar__item-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          </span>
+          <span class="mf-sidebar__item-text">Profile Search</span>
+        </a>
+        <a href="/herramientas/extractor-ids-roblox/" class="mf-sidebar__item" title="ID Extractor">
+          <span class="mf-sidebar__item-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          </span>
+          <span class="mf-sidebar__item-text">ID Extractor</span>
+        </a>
+        <a href="/herramientas/comandos-admin-roblox/" class="mf-sidebar__item" title="Admin Commands">
+          <span class="mf-sidebar__item-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+          </span>
+          <span class="mf-sidebar__item-text">Admin Commands</span>
+        </a>
+      </nav>
+    </div>
+  </aside>
+
+  <!-- OVERLAY (mobile) -->
+  <div class="mf-overlay" id="sidebarOverlay"></div>
+
+  <main class="mf-main">
     <!-- Hero with mosaic -->
     <section class="hero">
       <div class="hero__mosaic-wrap">
@@ -333,6 +413,26 @@ const allGamesData = sortedGames.map(g => ({
   </main>
 
   <Footer />
+
+  <!-- Sidebar + mobile interactions -->
+  <script is:inline>
+    (function(){
+      var sidebar = document.getElementById('sidebar');
+      var overlay = document.getElementById('sidebarOverlay');
+      var menuBtn = document.getElementById('menuToggle');
+      if (!sidebar || !overlay || !menuBtn) return;
+      menuBtn.onclick = function() {
+        sidebar.classList.toggle('open');
+        overlay.classList.toggle('open');
+        document.body.classList.toggle('sb-open');
+      };
+      overlay.onclick = function() {
+        sidebar.classList.remove('open');
+        overlay.classList.remove('open');
+        document.body.classList.remove('sb-open');
+      };
+    })();
+  </script>
 </Layout>
 
 <script define:vars={{ searchData, allGamesData }}>
@@ -490,9 +590,236 @@ const allGamesData = sortedGames.map(g => ({
 </script>
 
 <style>
+  /* ---- Header ---- */
+  .mf-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    height: var(--header-h);
+    background: #0d0d0d;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+  }
+
+  .mf-logo {
+    width: var(--sidebar-w);
+    height: var(--header-h);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+
+  .mf-logo a { display: flex; align-items: center; justify-content: center; }
+
+  .mf-logo__text {
+    font-weight: 800;
+    font-size: 0.85rem;
+    color: var(--accent-secondary);
+    background: rgba(34, 211, 238, 0.1);
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+    transition: background 0.2s;
+  }
+
+  .mf-logo a:hover .mf-logo__text { background: rgba(34, 211, 238, 0.2); }
+
+  .mf-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--header-h);
+    height: var(--header-h);
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.7);
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: color 0.15s;
+  }
+  .mf-menu-btn:hover { color: white; }
+
+  @media (min-width: 768px) {
+    .mf-menu-btn { display: none; }
+  }
+  @media (max-width: 767px) {
+    .mf-logo { display: none; }
+  }
+
+  .mf-header__brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 0.75rem;
+    height: var(--header-h);
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: rgba(255,255,255,0.75);
+    transition: color 0.15s;
+    flex-shrink: 0;
+  }
+  .mf-header__brand:hover { color: white; }
+  .mf-header__brand-name { font-weight: 700; font-size: 1rem; }
+
+  .mf-search-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: auto;
+    margin-right: 0.75rem;
+    background: var(--bg-deep);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    height: 2rem;
+    padding: 0 0.75rem;
+    color: rgba(255,255,255,0.5);
+    flex-shrink: 1;
+    min-width: 0;
+  }
+  .mf-search-bar:focus-within { border-color: var(--accent); }
+
+  .mf-search-bar__input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    min-width: 0;
+  }
+  .mf-search-bar__input::placeholder { color: rgba(255,255,255,0.35); }
+
+  @media (max-width: 639px) {
+    .mf-search-bar { flex: 0 0 auto; padding: 0 0.5rem; }
+    .mf-search-bar__input { display: none; }
+  }
+  @media (min-width: 768px) {
+    .mf-search-bar { min-width: 280px; margin-right: 1rem; padding: 0 1rem; }
+  }
+
+  /* ---- Sidebar ---- */
+  .mf-sidebar {
+    position: fixed;
+    top: var(--header-h);
+    bottom: 0;
+    left: 0;
+    z-index: 50;
+    width: var(--sidebar-w);
+    background: #141414;
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: width 0.2s ease;
+  }
+
+  @media (min-width: 768px) {
+    .mf-sidebar:hover { width: 208px; }
+    .mf-sidebar:hover .mf-sidebar__item-text { opacity: 1; }
+    .mf-sidebar:hover .mf-sidebar__section-text { opacity: 1; }
+  }
+
+  @media (max-width: 767px) {
+    .mf-sidebar {
+      width: 208px;
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+      z-index: 110;
+    }
+    .mf-sidebar.open { transform: translateX(0); }
+    .mf-sidebar .mf-sidebar__item-text { opacity: 1; }
+    .mf-sidebar .mf-sidebar__section-text { opacity: 1; }
+  }
+
+  .mf-sidebar__scroll {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 0.5rem;
+  }
+
+  .mf-sidebar__section-label {
+    padding: 0.5rem 0.75rem 0.25rem;
+  }
+
+  .mf-sidebar__section-text {
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: rgba(255,255,255,0.3);
+    letter-spacing: 1px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+  }
+
+  .mf-sidebar__divider {
+    height: 1px;
+    background: var(--border);
+    margin: 0.25rem 0.75rem;
+  }
+
+  .mf-sidebar__nav { padding: 0.25rem 0.5rem; }
+
+  .mf-sidebar__item {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 0.45rem 0.625rem;
+    border-radius: 4px;
+    color: rgba(255,255,255,0.55);
+    font-size: 0.85rem;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: color 0.15s, background 0.15s;
+    overflow: hidden;
+    line-height: 1.6;
+  }
+  .mf-sidebar__item:hover {
+    color: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.05);
+  }
+
+  .mf-sidebar__item-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .mf-sidebar__item-text {
+    opacity: 0;
+    transition: opacity 0.15s;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  /* ---- Overlay (mobile) ---- */
+  .mf-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 105;
+    background: rgba(0,0,0,0.5);
+  }
+  .mf-overlay.open { display: block; }
+
   /* ---- Main ---- */
-  .main {
+  .mf-main {
+    margin-top: var(--header-h);
+    margin-left: 0;
     padding-bottom: 3rem;
+  }
+
+  @media (min-width: 768px) {
+    .mf-main { margin-left: var(--sidebar-w); }
   }
 
   /* ---- Hero ---- */
@@ -553,7 +880,7 @@ const allGamesData = sortedGames.map(g => ({
     position: absolute;
     inset: 0;
     z-index: 1;
-    background: radial-gradient(ellipse at center, rgba(10,15,28,0.7) 0%, rgba(10,15,28,0.88) 60%, rgba(10,15,28,0.95) 80%, rgba(10,15,28,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(13,13,13,0.7) 0%, rgba(13,13,13,0.88) 60%, rgba(13,13,13,0.95) 80%, rgba(13,13,13,1) 100%);
   }
 
   .hero__inner {
@@ -808,7 +1135,7 @@ const allGamesData = sortedGames.map(g => ({
     top: calc(100% + 4px);
     left: 0;
     right: 0;
-    background: rgba(17, 24, 39, 0.97);
+    background: rgba(20, 20, 20, 0.97);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--border);
@@ -978,7 +1305,7 @@ const allGamesData = sortedGames.map(g => ({
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #1a2236 0%, #1e3a5f 100%);
+    background: linear-gradient(135deg, #1a1a1a 0%, #222 100%);
     font-family: var(--font-display);
     font-size: 1.5rem;
     font-weight: 700;
@@ -1153,7 +1480,7 @@ const allGamesData = sortedGames.map(g => ({
     width: 36px;
     height: 36px;
     border-radius: 8px;
-    background: linear-gradient(135deg, #1a2236 0%, #1e3a5f 100%);
+    background: linear-gradient(135deg, #1a1a1a 0%, #222 100%);
     flex-shrink: 0;
   }
 
@@ -1220,7 +1547,7 @@ const allGamesData = sortedGames.map(g => ({
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #1a2236 0%, #1e3a5f 100%);
+    background: linear-gradient(135deg, #1a1a1a 0%, #222 100%);
     font-family: var(--font-display);
     font-size: 1.5rem;
     font-weight: 700;
