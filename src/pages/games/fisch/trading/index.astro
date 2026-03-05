@@ -852,4 +852,406 @@ const schema = {
     color: var(--text-dim);
     font-size: 0.85rem;
   }
+
+  /* ============================================================
+     Listing Footer Layout Update
+     ============================================================ */
+  :global(.th__listing-foot) {
+    justify-content: space-between;
+  }
+  :global(.th__listing-foot-left) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  /* ============================================================
+     Views / Comments Counters
+     ============================================================ */
+  :global(.th__listing-counter) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 0.7rem;
+    color: var(--text-dim);
+  }
+  :global(.th__listing-counter svg) { opacity: 0.6; }
+
+  /* ============================================================
+     Action Buttons (Match Trade / Make Offer)
+     ============================================================ */
+  :global(.th__listing-actions) {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  :global(.th__listing-match-btn) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.3rem 0.65rem;
+    background: rgba(34, 197, 94, 0.1);
+    border: 1px solid rgba(34, 197, 94, 0.25);
+    border-radius: 8px;
+    color: #22c55e;
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, transform 0.15s;
+  }
+  :global(.th__listing-match-btn:hover) {
+    background: rgba(34, 197, 94, 0.2);
+    border-color: rgba(34, 197, 94, 0.4);
+    transform: translateY(-1px);
+  }
+  :global(.th__listing-offer-btn) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.3rem 0.65rem;
+    background: rgba(59, 130, 246, 0.1);
+    border: 1px solid rgba(59, 130, 246, 0.25);
+    border-radius: 8px;
+    color: #3b82f6;
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, transform 0.15s;
+  }
+  :global(.th__listing-offer-btn:hover) {
+    background: rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.4);
+    transform: translateY(-1px);
+  }
+
+  /* ============================================================
+     Expanded Section
+     ============================================================ */
+  :global(.th__listing--expanded) {
+    border-color: rgba(29, 162, 216, 0.3);
+  }
+  :global(.th__listing-expand) {
+    border-top: 1px solid var(--border);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    animation: th-expand 0.2s ease-out;
+  }
+  @keyframes th-expand {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ============================================================
+     Offers Section
+     ============================================================ */
+  :global(.th__offers-section) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  :global(.th__offers-header) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  :global(.th__offers-title) {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--text);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  :global(.th__offers-empty) {
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    padding: 0.4rem 0;
+  }
+
+  /* Offer Card */
+  :global(.th__offer-card) {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.65rem 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  :global(.th__offer-card--accepted) {
+    border-color: rgba(34, 197, 94, 0.3);
+    background: rgba(34, 197, 94, 0.04);
+  }
+  :global(.th__offer-card--rejected) { opacity: 0.5; }
+
+  :global(.th__offer-head) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+  :global(.th__offer-user) {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  :global(.th__offer-avatar) {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  :global(.th__offer-avatar--ph) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: var(--text-dim);
+  }
+  :global(.th__offer-username) {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+  :global(.th__offer-right) {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  :global(.th__offer-type) {
+    font-size: 0.55rem;
+    font-weight: 700;
+    padding: 0.1rem 0.4rem;
+    border-radius: 9999px;
+    letter-spacing: 0.3px;
+  }
+  :global(.th__offer-type--match) {
+    color: #22c55e;
+    background: rgba(34, 197, 94, 0.1);
+  }
+  :global(.th__offer-type--counter) {
+    color: #3b82f6;
+    background: rgba(59, 130, 246, 0.1);
+  }
+  :global(.th__offer-status) {
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding: 0.1rem 0.4rem;
+    border-radius: 9999px;
+  }
+  :global(.th__offer-status--pending) {
+    color: #fbbf24;
+    background: rgba(251, 191, 36, 0.1);
+  }
+  :global(.th__offer-status--accepted) {
+    color: #22c55e;
+    background: rgba(34, 197, 94, 0.1);
+  }
+  :global(.th__offer-status--rejected) {
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+  }
+  :global(.th__offer-time) {
+    font-size: 0.65rem;
+    color: var(--text-dim);
+  }
+
+  /* Offer Items */
+  :global(.th__offer-items) {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 0.4rem;
+    align-items: start;
+    padding: 0.3rem 0;
+  }
+  :global(.th__offer-items-side) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  :global(.th__offer-items-arrow) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.25rem;
+    color: var(--text-dim);
+    opacity: 0.4;
+  }
+  :global(.th__offer-item) {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.75rem;
+    color: var(--text);
+  }
+  :global(.th__offer-item-img) {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    object-fit: contain;
+  }
+  :global(.th__offer-item-ph) {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  :global(.th__offer-match-msg) {
+    font-size: 0.78rem;
+    color: #22c55e;
+    font-style: italic;
+  }
+
+  /* Offer Actions */
+  :global(.th__offer-actions) {
+    display: flex;
+    gap: 0.3rem;
+    justify-content: flex-end;
+  }
+  :global(.th__offer-accept) {
+    padding: 0.25rem 0.6rem;
+    background: rgba(34, 197, 94, 0.15);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    border-radius: 6px;
+    color: #22c55e;
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  :global(.th__offer-accept:hover) { background: rgba(34, 197, 94, 0.25); }
+  :global(.th__offer-reject) {
+    padding: 0.25rem 0.6rem;
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    border-radius: 6px;
+    color: #ef4444;
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  :global(.th__offer-reject:hover) { background: rgba(239, 68, 68, 0.2); }
+
+  /* ============================================================
+     Comments Section
+     ============================================================ */
+  :global(.th__comments-section) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  :global(.th__comments-title) {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--text);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  :global(.th__comments-empty) {
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    padding: 0.25rem 0;
+  }
+  :global(.th__comment) {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  :global(.th__comment-avatar) {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  :global(.th__comment-avatar--ph) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.55rem;
+    font-weight: 700;
+    color: var(--text-dim);
+  }
+  :global(.th__comment-body) {
+    flex: 1;
+    min-width: 0;
+  }
+  :global(.th__comment-header) {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+  :global(.th__comment-username) {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+  :global(.th__comment-time) {
+    font-size: 0.65rem;
+    color: var(--text-dim);
+  }
+  :global(.th__comment-text) {
+    font-size: 0.8rem;
+    color: var(--text);
+    line-height: 1.4;
+    word-break: break-word;
+    margin-top: 0.1rem;
+  }
+  :global(.th__comment-form) {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 0.25rem;
+  }
+  :global(.th__comment-input) {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.45rem 0.65rem;
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  :global(.th__comment-input:focus) {
+    border-color: rgba(29, 162, 216, 0.4);
+  }
+  :global(.th__comment-input::placeholder) {
+    color: var(--text-dim);
+  }
+  :global(.th__comment-submit) {
+    padding: 0.45rem 0.75rem;
+    background: linear-gradient(135deg, #1DA2D8 0%, #22D3EE 100%);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 0.15s;
+  }
+  :global(.th__comment-submit:hover) { transform: translateY(-1px); }
+  :global(.th__comment-submit:disabled) { opacity: 0.5; cursor: not-allowed; transform: none; }
+  :global(.th__comment-login) {
+    font-size: 0.78rem;
+    color: var(--text-dim);
+  }
+  :global(.th__comment-login a) {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  :global(.th__comment-login a:hover) { text-decoration: underline; }
 </style>

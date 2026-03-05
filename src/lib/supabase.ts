@@ -24,6 +24,8 @@ export interface Listing {
   type: 'offering' | 'wanting';
   status: 'active' | 'in_progress' | 'completed' | 'cancelled';
   open_to_offers: boolean;
+  views_count: number;
+  comments_count: number;
   created_at: string;
   updated_at: string;
   user?: User;
@@ -40,6 +42,37 @@ export interface ListingItem {
   quantity: number;
   weight: number | null;
   mutation: string | null;
+}
+
+export interface ListingComment {
+  id: string;
+  listing_id: string;
+  user_id: string;
+  body: string;
+  created_at: string;
+  user?: { roblox_username: string; roblox_avatar_url: string | null };
+}
+
+export interface Offer {
+  id: string;
+  listing_id: string;
+  user_id: string;
+  type: 'counter' | 'match';
+  status: 'pending' | 'accepted' | 'rejected';
+  created_at: string;
+  resolved_at: string | null;
+  user?: { roblox_username: string; roblox_avatar_url: string | null };
+  offer_items?: OfferItem[];
+}
+
+export interface OfferItem {
+  id: string;
+  offer_id: string;
+  side: 'offer' | 'request';
+  item_slug: string;
+  item_type: string;
+  item_name: string;
+  quantity: number;
 }
 
 export interface MarketStats {

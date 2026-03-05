@@ -1,7 +1,8 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
-import type { Listing, ListingItem, MarketStats } from '../lib/supabase';
+import type { Listing, ListingItem, MarketStats, ListingComment, Offer, OfferItem } from '../lib/supabase';
 import CreateListing from './CreateListing';
+import MakeOffer from './MakeOffer';
 
 interface SessionUser {
   id: string;
@@ -10,10 +11,6 @@ interface SessionUser {
   avatar: string | null;
   displayName: string | null;
 }
-
-/* ================================================================
-   Types
-   ================================================================ */
 
 interface ItemInfo {
   slug: string;
@@ -34,7 +31,7 @@ type SortBy = 'newest' | 'oldest' | 'value';
 
 interface ListingWithItems extends Listing {
   listing_items: ListingItem[];
-  user?: { roblox_username: string; roblox_avatar_url: string | null };
+  user?: { id?: string; roblox_username: string; roblox_avatar_url: string | null };
 }
 
 /* ================================================================
@@ -74,15 +71,24 @@ export default function TradingHub({ allItems }: Props) {
   const [listings, setListings] = useState<ListingWithItems[]>([]);
   const [stats, setStats] = useState<MarketStats | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
   const [tab, setTab] = useState<Tab>('all');
   const [statusFilter, setStatusFilter] = useState<StatusFilter>('active');
   const [sortBy, setSortBy] = useState<SortBy>('newest');
-  const [openToOffers, setOpenToOffers] = useState(false);
+  const [openToOffersFilter, setOpenToOffersFilter] = useState(false);
 
   const [user, setUser] = useState<SessionUser | null>(null);
   const [showCreate, setShowCreate] = useState(false);
+
+  // Expand state
+  const [expandedId, setExpandedId] = useState<string | null>(null);
+  const [comments, setComments] = useState<Record<string, ListingComment[]>>({});
+  const [offers, setOffers] = useState<Record<string, Offer[]>>({});
+  const [commentText, setCommentText] = useState('');
+  const [postingComment, setPostingComment] = useState(false);
+
+  // Make offer modal
+  const [makeOfferListingId, setMakeOfferListingId] = useState<string | null>(null);
 
   const itemMap = useMemo(() => new Map(allItems.map(i => [i.slug, i])), [allItems]);
 
@@ -100,20 +106,12 @@ export default function TradingHub({ allItems }: Props) {
       setLoading(true);
       let query = supabase
         .from('listings')
-        .select('*, listing_items(*), user:users(roblox_username, roblox_avatar_url)')
+        .select('*, listing_items(*), user:users(id, roblox_username, roblox_avatar_url)')
         .order('created_at', { ascending: sortBy === 'oldest' });
 
-      if (tab !== 'all') {
-        query = query.eq('type', tab);
-      }
-
-      if (statusFilter !== 'all') {
-        query = query.eq('status', statusFilter);
-      }
-
-      if (openToOffers) {
-        query = query.eq('open_to_offers', true);
-      }
+      if (tab !== 'all') query = query.eq('type', tab);
+      if (statusFilter !== 'all') query = query.eq('status', statusFilter);
+      if (openToOffersFilter) query = query.eq('open_to_offers', true);
 
       const { data, error: err } = await query.limit(50);
 
@@ -129,7 +127,7 @@ export default function TradingHub({ allItems }: Props) {
     } finally {
       setLoading(false);
     }
-  }, [tab, statusFilter, sortBy, openToOffers]);
+  }, [tab, statusFilter, sortBy, openToOffersFilter]);
 
   // Fetch stats
   useEffect(() => {
@@ -141,28 +139,21 @@ export default function TradingHub({ allItems }: Props) {
           .eq('id', 1)
           .single();
         if (data) setStats(data as MarketStats);
-      } catch {
-        // stats not available yet
-      }
+      } catch {}
     }
     loadStats();
   }, []);
 
-  useEffect(() => {
-    fetchListings();
-  }, [fetchListings]);
+  useEffect(() => { fetchListings(); }, [fetchListings]);
 
-  // Get items for a listing side
-  const getItemsBySide = (listing: ListingWithItems, side: 'offer' | 'request') => {
-    return (listing.listing_items || []).filter(i => i.side === side);
-  };
+  const getItemsBySide = (listing: ListingWithItems, side: 'offer' | 'request') =>
+    (listing.listing_items || []).filter(i => i.side === side);
 
-  const getTotalValue = (items: ListingItem[]) => {
-    return items.reduce((sum, li) => {
+  const getTotalValue = (items: ListingItem[]) =>
+    items.reduce((sum, li) => {
       const info = itemMap.get(li.item_slug);
       return sum + (info?.tradeValue || 0) * li.quantity;
     }, 0);
-  };
 
   const handleCreateClick = () => {
     if (!user) {
@@ -175,6 +166,134 @@ export default function TradingHub({ allItems }: Props) {
   const handleListingCreated = () => {
     setShowCreate(false);
     fetchListings();
+  };
+
+  /* ── Expand / Collapse ── */
+
+  const toggleExpand = async (listingId: string) => {
+    if (expandedId === listingId) {
+      setExpandedId(null);
+      setCommentText('');
+      return;
+    }
+    setExpandedId(listingId);
+    setCommentText('');
+
+    // Increment views (fire-and-forget)
+    fetch('/api/listings/view/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ listingId }),
+    }).catch(() => {});
+
+    // Load comments
+    if (!comments[listingId]) {
+      const { data } = await supabase
+        .from('listing_comments')
+        .select('*, user:users(roblox_username, roblox_avatar_url)')
+        .eq('listing_id', listingId)
+        .order('created_at', { ascending: true });
+      if (data) setComments(prev => ({ ...prev, [listingId]: data as ListingComment[] }));
+    }
+
+    // Load offers
+    if (!offers[listingId]) {
+      const { data } = await supabase
+        .from('offers')
+        .select('*, user:users(roblox_username, roblox_avatar_url), offer_items(*)')
+        .eq('listing_id', listingId)
+        .order('created_at', { ascending: false });
+      if (data) setOffers(prev => ({ ...prev, [listingId]: data as Offer[] }));
+    }
+  };
+
+  /* ── Comments ── */
+
+  const postComment = async (listingId: string) => {
+    if (!commentText.trim() || postingComment) return;
+    setPostingComment(true);
+    try {
+      const res = await fetch('/api/listings/comments/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ listingId, body: commentText.trim() }),
+      });
+      const data = await res.json();
+      if (res.ok && data.comment) {
+        setComments(prev => ({
+          ...prev,
+          [listingId]: [...(prev[listingId] || []), data.comment],
+        }));
+        setCommentText('');
+        // Update local count
+        setListings(prev => prev.map(l =>
+          l.id === listingId ? { ...l, comments_count: (l.comments_count || 0) + 1 } : l
+        ));
+      }
+    } catch {} finally {
+      setPostingComment(false);
+    }
+  };
+
+  /* ── Match Trade ── */
+
+  const matchTrade = async (listingId: string) => {
+    if (!user) return;
+    try {
+      const res = await fetch('/api/offers/create/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ listingId, type: 'match' }),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        // Refresh offers
+        const { data: fresh } = await supabase
+          .from('offers')
+          .select('*, user:users(roblox_username, roblox_avatar_url), offer_items(*)')
+          .eq('listing_id', listingId)
+          .order('created_at', { ascending: false });
+        if (fresh) setOffers(prev => ({ ...prev, [listingId]: fresh as Offer[] }));
+      } else {
+        alert(data.error || 'Failed to match trade');
+      }
+    } catch {}
+  };
+
+  /* ── Offer Response ── */
+
+  const respondToOffer = async (offerId: string, listingId: string, action: 'accept' | 'reject') => {
+    try {
+      const res = await fetch('/api/offers/respond/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ offerId, action }),
+      });
+      if (res.ok) {
+        // Refresh offers
+        const { data: fresh } = await supabase
+          .from('offers')
+          .select('*, user:users(roblox_username, roblox_avatar_url), offer_items(*)')
+          .eq('listing_id', listingId)
+          .order('created_at', { ascending: false });
+        if (fresh) setOffers(prev => ({ ...prev, [listingId]: fresh as Offer[] }));
+        if (action === 'accept') fetchListings();
+      }
+    } catch {}
+  };
+
+  /* ── Make Offer callback ── */
+
+  const handleOfferCreated = async () => {
+    if (makeOfferListingId) {
+      const { data: fresh } = await supabase
+        .from('offers')
+        .select('*, user:users(roblox_username, roblox_avatar_url), offer_items(*)')
+        .eq('listing_id', makeOfferListingId)
+        .order('created_at', { ascending: false });
+      if (fresh) setOffers(prev => ({ ...prev, [makeOfferListingId!]: fresh as Offer[] }));
+    }
+    setMakeOfferListingId(null);
   };
 
   /* ================================================================
@@ -246,8 +365,8 @@ export default function TradingHub({ allItems }: Props) {
             <label className="th__toggle">
               <input
                 type="checkbox"
-                checked={openToOffers}
-                onChange={e => setOpenToOffers(e.target.checked)}
+                checked={openToOffersFilter}
+                onChange={e => setOpenToOffersFilter(e.target.checked)}
               />
               <span className="th__toggle-slider" />
               <span className="th__toggle-label">Open to Offers</span>
@@ -289,10 +408,16 @@ export default function TradingHub({ allItems }: Props) {
           const requestItems = getItemsBySide(listing, 'request');
           const offerValue = getTotalValue(offerItems);
           const requestValue = getTotalValue(requestItems);
+          const isExpanded = expandedId === listing.id;
+          const isOwner = user?.id === listing.user_id;
+          const hasBothSides = offerItems.length > 0 && requestItems.length > 0;
+          const listingOffers = offers[listing.id] || [];
+          const listingComments = comments[listing.id] || [];
 
           return (
-            <div key={listing.id} className="th__listing">
-              <div className="th__listing-head">
+            <div key={listing.id} className={`th__listing${isExpanded ? ' th__listing--expanded' : ''}`}>
+              {/* Header - clickable to expand */}
+              <div className="th__listing-head" onClick={() => toggleExpand(listing.id)} style={{ cursor: 'pointer' }}>
                 <div className="th__listing-user">
                   {listing.user?.roblox_avatar_url ? (
                     <img className="th__listing-avatar" src={listing.user.roblox_avatar_url} alt="" />
@@ -302,6 +427,14 @@ export default function TradingHub({ allItems }: Props) {
                   <span className="th__listing-username">{listing.user?.roblox_username || 'Unknown'}</span>
                 </div>
                 <div className="th__listing-meta">
+                  <span className="th__listing-counter">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                    {listing.views_count || 0}
+                  </span>
+                  <span className="th__listing-counter">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    {listing.comments_count || 0}
+                  </span>
                   <span className={`th__listing-type th__listing-type--${listing.type}`}>
                     {listing.type === 'offering' ? 'OFFERING' : 'WANTING'}
                   </span>
@@ -309,6 +442,7 @@ export default function TradingHub({ allItems }: Props) {
                 </div>
               </div>
 
+              {/* Body */}
               <div className="th__listing-body">
                 <div className="th__listing-side">
                   <span className="th__listing-side-label">Offering</span>
@@ -363,14 +497,176 @@ export default function TradingHub({ allItems }: Props) {
                 </div>
               </div>
 
+              {/* Footer */}
               <div className="th__listing-foot">
-                <span className={`th__listing-status th__listing-status--${listing.status}`}>
-                  {listing.status === 'in_progress' ? 'In Progress' : listing.status.charAt(0).toUpperCase() + listing.status.slice(1)}
-                </span>
-                {listing.open_to_offers && (
-                  <span className="th__listing-offers-tag">Open to Offers</span>
+                <div className="th__listing-foot-left">
+                  <span className={`th__listing-status th__listing-status--${listing.status}`}>
+                    {listing.status === 'in_progress' ? 'In Progress' : listing.status.charAt(0).toUpperCase() + listing.status.slice(1)}
+                  </span>
+                  {listing.open_to_offers && (
+                    <span className="th__listing-offers-tag">Open to Offers</span>
+                  )}
+                </div>
+                {listing.status === 'active' && user && !isOwner && (
+                  <div className="th__listing-actions">
+                    {hasBothSides && (
+                      <button className="th__listing-match-btn" type="button" onClick={e => { e.stopPropagation(); matchTrade(listing.id); }}>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M20 6 9 17l-5-5"/></svg>
+                        Match Trade
+                      </button>
+                    )}
+                    {listing.open_to_offers && (
+                      <button className="th__listing-offer-btn" type="button" onClick={e => { e.stopPropagation(); setMakeOfferListingId(listing.id); }}>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
+                        Make Offer
+                      </button>
+                    )}
+                  </div>
                 )}
               </div>
+
+              {/* Expanded Section */}
+              {isExpanded && (
+                <div className="th__listing-expand">
+                  {/* Offers Section */}
+                  <div className="th__offers-section">
+                    <div className="th__offers-header">
+                      <span className="th__offers-title">Offers ({listingOffers.length})</span>
+                    </div>
+
+                    {listingOffers.length === 0 && (
+                      <span className="th__offers-empty">No offers yet</span>
+                    )}
+
+                    {listingOffers.map(offer => (
+                      <div key={offer.id} className={`th__offer-card th__offer-card--${offer.status}`}>
+                        <div className="th__offer-head">
+                          <div className="th__offer-user">
+                            {offer.user?.roblox_avatar_url ? (
+                              <img className="th__offer-avatar" src={offer.user.roblox_avatar_url} alt="" />
+                            ) : (
+                              <div className="th__offer-avatar th__offer-avatar--ph">?</div>
+                            )}
+                            <span className="th__offer-username">{offer.user?.roblox_username || 'Unknown'}</span>
+                            <span className={`th__offer-type th__offer-type--${offer.type}`}>
+                              {offer.type === 'match' ? 'MATCH' : 'COUNTER'}
+                            </span>
+                          </div>
+                          <div className="th__offer-right">
+                            <span className={`th__offer-status th__offer-status--${offer.status}`}>
+                              {offer.status.charAt(0).toUpperCase() + offer.status.slice(1)}
+                            </span>
+                            <span className="th__offer-time">{timeAgo(offer.created_at)}</span>
+                          </div>
+                        </div>
+
+                        {/* Counter offer items */}
+                        {offer.type === 'counter' && offer.offer_items && offer.offer_items.length > 0 && (
+                          <div className="th__offer-items">
+                            <div className="th__offer-items-side">
+                              {(offer.offer_items || []).filter(i => i.side === 'offer').map(oi => {
+                                const info = itemMap.get(oi.item_slug);
+                                return (
+                                  <div key={oi.id} className="th__offer-item">
+                                    {info?.imageUrl ? (
+                                      <img className="th__offer-item-img" src={info.imageUrl} alt="" />
+                                    ) : (
+                                      <div className="th__offer-item-ph" />
+                                    )}
+                                    <span>{oi.item_name}</span>
+                                  </div>
+                                );
+                              })}
+                            </div>
+                            <div className="th__offer-items-arrow">
+                              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </div>
+                            <div className="th__offer-items-side">
+                              {(offer.offer_items || []).filter(i => i.side === 'request').map(oi => {
+                                const info = itemMap.get(oi.item_slug);
+                                return (
+                                  <div key={oi.id} className="th__offer-item">
+                                    {info?.imageUrl ? (
+                                      <img className="th__offer-item-img" src={info.imageUrl} alt="" />
+                                    ) : (
+                                      <div className="th__offer-item-ph" />
+                                    )}
+                                    <span>{oi.item_name}</span>
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        )}
+
+                        {offer.type === 'match' && (
+                          <div className="th__offer-match-msg">Wants to match this trade as-is</div>
+                        )}
+
+                        {/* Accept/Reject for listing owner */}
+                        {isOwner && offer.status === 'pending' && (
+                          <div className="th__offer-actions">
+                            <button className="th__offer-accept" type="button" onClick={() => respondToOffer(offer.id, listing.id, 'accept')}>Accept</button>
+                            <button className="th__offer-reject" type="button" onClick={() => respondToOffer(offer.id, listing.id, 'reject')}>Reject</button>
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Comments Section */}
+                  <div className="th__comments-section">
+                    <span className="th__comments-title">Comments ({listingComments.length})</span>
+
+                    {listingComments.length === 0 && (
+                      <span className="th__comments-empty">No comments yet</span>
+                    )}
+
+                    {listingComments.map(c => (
+                      <div key={c.id} className="th__comment">
+                        {c.user?.roblox_avatar_url ? (
+                          <img className="th__comment-avatar" src={c.user.roblox_avatar_url} alt="" />
+                        ) : (
+                          <div className="th__comment-avatar th__comment-avatar--ph">?</div>
+                        )}
+                        <div className="th__comment-body">
+                          <div className="th__comment-header">
+                            <span className="th__comment-username">{c.user?.roblox_username || 'Unknown'}</span>
+                            <span className="th__comment-time">{timeAgo(c.created_at)}</span>
+                          </div>
+                          <div className="th__comment-text">{c.body}</div>
+                        </div>
+                      </div>
+                    ))}
+
+                    {user ? (
+                      <div className="th__comment-form">
+                        <input
+                          className="th__comment-input"
+                          type="text"
+                          placeholder="Write a comment..."
+                          value={commentText}
+                          onChange={e => setCommentText(e.target.value)}
+                          maxLength={1000}
+                          onKeyDown={e => { if (e.key === 'Enter') postComment(listing.id); }}
+                        />
+                        <button
+                          className="th__comment-submit"
+                          type="button"
+                          disabled={!commentText.trim() || postingComment}
+                          onClick={() => postComment(listing.id)}
+                        >
+                          {postingComment ? '...' : 'Send'}
+                        </button>
+                      </div>
+                    ) : (
+                      <div className="th__comment-login">
+                        <a href={`/api/auth/login/?return_to=${encodeURIComponent(typeof window !== 'undefined' ? window.location.pathname : '/')}`}>Login</a> to comment
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
             </div>
           );
         })}
@@ -383,6 +679,17 @@ export default function TradingHub({ allItems }: Props) {
           user={user}
           onClose={() => setShowCreate(false)}
           onCreated={handleListingCreated}
+        />
+      )}
+
+      {/* Make Offer Modal */}
+      {makeOfferListingId && user && (
+        <MakeOffer
+          allItems={allItems}
+          user={user}
+          listingId={makeOfferListingId}
+          onClose={() => setMakeOfferListingId(null)}
+          onOfferCreated={handleOfferCreated}
         />
       )}
     </div>
