@@ -1,9 +1,13 @@
 import type { APIRoute } from 'astro';
 import crypto from 'crypto';
 
+function runtimeEnv(key: string): string | undefined {
+  const g = globalThis as Record<string, any>;
+  return g['process']?.['env']?.[key];
+}
+
 export const GET: APIRoute = async ({ request }) => {
-  const _env = globalThis.process?.env || {};
-  const clientId = _env['ROBLOX_CLIENT_ID'] || import.meta.env.ROBLOX_CLIENT_ID;
+  const clientId = runtimeEnv('ROBLOX_CLIENT_ID') || import.meta.env.ROBLOX_CLIENT_ID;
   if (!clientId) {
     return new Response(JSON.stringify({ error: 'ROBLOX_CLIENT_ID not configured' }), { status: 500 });
   }

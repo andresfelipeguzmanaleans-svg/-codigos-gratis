@@ -1,5 +1,11 @@
 import type { APIRoute } from 'astro';
 
+// Runtime env access — opaque to Vite/esbuild so it won't be replaced at build time
+function runtimeEnv(key: string): string | undefined {
+  const g = globalThis as Record<string, any>;
+  return g['process']?.['env']?.[key];
+}
+
 function parseCookie(header: string, name: string): string | null {
   const match = header.match(new RegExp(`(?:^|;\\s*)${name}=([^;]*)`));
   return match ? decodeURIComponent(match[1]) : null;
@@ -44,10 +50,8 @@ export const GET: APIRoute = async ({ request }) => {
   }
 
   try {
-    // Use bracket notation to prevent Vite from replacing at build time
-    const _env = globalThis.process?.env || {};
-    const clientId = _env['ROBLOX_CLIENT_ID'] || import.meta.env.ROBLOX_CLIENT_ID;
-    const clientSecret = _env['ROBLOX_CLIENT_SECRET'] || import.meta.env.ROBLOX_CLIENT_SECRET;
+    const clientId = runtimeEnv('ROBLOX_CLIENT_ID') || import.meta.env.ROBLOX_CLIENT_ID;
+    const clientSecret = runtimeEnv('ROBLOX_CLIENT_SECRET') || import.meta.env.ROBLOX_CLIENT_SECRET;
     const site = import.meta.env.SITE || 'https://codigos-gratis.com';
     const redirectUri = `${site}/api/auth/callback/`;
 
@@ -101,8 +105,8 @@ export const GET: APIRoute = async ({ request }) => {
 
     const { createClient } = await import('@supabase/supabase-js');
     const supabase = createClient(
-      _env['PUBLIC_SUPABASE_URL'] || import.meta.env.PUBLIC_SUPABASE_URL,
-      _env['SUPABASE_SECRET_KEY'] || import.meta.env.SUPABASE_SECRET_KEY,
+      runtimeEnv('PUBLIC_SUPABASE_URL') || import.meta.env.PUBLIC_SUPABASE_URL,
+      runtimeEnv('SUPABASE_SECRET_KEY') || import.meta.env.SUPABASE_SECRET_KEY,
     );
 
     const { data: user, error: dbError } = await supabase
