@@ -44,8 +44,10 @@ export const GET: APIRoute = async ({ request }) => {
   }
 
   try {
-    const clientId = process.env.ROBLOX_CLIENT_ID || import.meta.env.ROBLOX_CLIENT_ID;
-    const clientSecret = process.env.ROBLOX_CLIENT_SECRET || import.meta.env.ROBLOX_CLIENT_SECRET;
+    // Use bracket notation to prevent Vite from replacing at build time
+    const _env = globalThis.process?.env || {};
+    const clientId = _env['ROBLOX_CLIENT_ID'] || import.meta.env.ROBLOX_CLIENT_ID;
+    const clientSecret = _env['ROBLOX_CLIENT_SECRET'] || import.meta.env.ROBLOX_CLIENT_SECRET;
     const site = import.meta.env.SITE || 'https://codigos-gratis.com';
     const redirectUri = `${site}/api/auth/callback/`;
 
@@ -99,8 +101,8 @@ export const GET: APIRoute = async ({ request }) => {
 
     const { createClient } = await import('@supabase/supabase-js');
     const supabase = createClient(
-      process.env.PUBLIC_SUPABASE_URL || import.meta.env.PUBLIC_SUPABASE_URL,
-      process.env.SUPABASE_SECRET_KEY || import.meta.env.SUPABASE_SECRET_KEY,
+      _env['PUBLIC_SUPABASE_URL'] || import.meta.env.PUBLIC_SUPABASE_URL,
+      _env['SUPABASE_SECRET_KEY'] || import.meta.env.SUPABASE_SECRET_KEY,
     );
 
     const { data: user, error: dbError } = await supabase

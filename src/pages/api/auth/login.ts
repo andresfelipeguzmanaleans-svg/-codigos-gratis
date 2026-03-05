@@ -2,7 +2,8 @@ import type { APIRoute } from 'astro';
 import crypto from 'crypto';
 
 export const GET: APIRoute = async ({ request }) => {
-  const clientId = process.env.ROBLOX_CLIENT_ID || import.meta.env.ROBLOX_CLIENT_ID;
+  const _env = globalThis.process?.env || {};
+  const clientId = _env['ROBLOX_CLIENT_ID'] || import.meta.env.ROBLOX_CLIENT_ID;
   if (!clientId) {
     return new Response(JSON.stringify({ error: 'ROBLOX_CLIENT_ID not configured' }), { status: 500 });
   }
