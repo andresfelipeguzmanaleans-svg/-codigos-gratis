@@ -25,7 +25,7 @@ interface Props {
   allItems: ItemInfo[];
 }
 
-type Tab = 'all' | 'offering' | 'wanting';
+type Tab = 'all' | 'offering' | 'wanting' | 'mine';
 type StatusFilter = 'active' | 'in_progress' | 'completed' | 'all';
 type SortBy = 'newest' | 'oldest' | 'value';
 
@@ -120,7 +120,11 @@ export default function TradingHub({ allItems }: Props) {
         .select('*, listing_items(*), user:users(id, roblox_username, roblox_avatar_url)')
         .order('created_at', { ascending: sortBy === 'oldest' });
 
-      if (tab !== 'all') query = query.eq('type', tab);
+      if (tab === 'mine' && user) {
+        query = query.eq('user_id', user.id);
+      } else if (tab === 'offering' || tab === 'wanting') {
+        query = query.eq('type', tab);
+      }
       if (statusFilter !== 'all') query = query.eq('status', statusFilter);
       if (openToOffersFilter) query = query.eq('open_to_offers', true);
 
@@ -138,7 +142,7 @@ export default function TradingHub({ allItems }: Props) {
     } finally {
       setLoading(false);
     }
-  }, [tab, statusFilter, sortBy, openToOffersFilter]);
+  }, [tab, statusFilter, sortBy, openToOffersFilter, user]);
 
   // Fetch stats
   useEffect(() => {
@@ -293,6 +297,23 @@ export default function TradingHub({ allItems }: Props) {
     } catch {}
   };
 
+  /* ── Delete Listing ── */
+
+  const deleteListing = async (listingId: string) => {
+    if (!confirm('Delete this listing?')) return;
+    try {
+      const res = await fetch('/api/listings/delete/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ listingId }),
+      });
+      if (res.ok) {
+        setExpandedId(null);
+        fetchListings();
+      }
+    } catch {}
+  };
+
   /* ── Make Offer callback ── */
 
   const handleOfferCreated = async () => {
@@ -346,14 +367,14 @@ export default function TradingHub({ allItems }: Props) {
       {/* Filters */}
       <div className="th__filters">
         <div className="th__tabs">
-          {(['all', 'offering', 'wanting'] as Tab[]).map(t => (
+          {([...(['all', 'offering', 'wanting'] as Tab[]), ...(user ? ['mine' as Tab] : [])]).map(t => (
             <button
               key={t}
-              className={`th__tab${tab === t ? ' th__tab--on' : ''}`}
+              className={`th__tab${tab === t ? ' th__tab--on' : ''}${t === 'mine' ? ' th__tab--mine' : ''}`}
               onClick={() => setTab(t)}
               type="button"
             >
-              {t === 'all' ? 'All' : t === 'offering' ? 'Offered' : 'Wanted'}
+              {t === 'all' ? 'All' : t === 'offering' ? 'Offered' : t === 'wanting' ? 'Wanted' : 'My Trades'}
             </button>
           ))}
         </div>
@@ -530,22 +551,30 @@ export default function TradingHub({ allItems }: Props) {
                     <span className="th__listing-offers-tag">Open to Offers</span>
                   )}
                 </div>
-                {listing.status === 'active' && user && !isOwner && (
-                  <div className="th__listing-actions">
-                    {hasBothSides && (
-                      <button className="th__listing-match-btn" type="button" onClick={e => { e.stopPropagation(); matchTrade(listing.id); }}>
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M20 6 9 17l-5-5"/></svg>
-                        Match Trade
-                      </button>
-                    )}
-                    {listing.open_to_offers && (
-                      <button className="th__listing-offer-btn" type="button" onClick={e => { e.stopPropagation(); setMakeOfferListingId(listing.id); }}>
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
-                        Make Offer
-                      </button>
-                    )}
-                  </div>
-                )}
+                <div className="th__listing-actions">
+                  {listing.status === 'active' && user && !isOwner && (
+                    <>
+                      {hasBothSides && (
+                        <button className="th__listing-match-btn" type="button" onClick={e => { e.stopPropagation(); matchTrade(listing.id); }}>
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M20 6 9 17l-5-5"/></svg>
+                          Match Trade
+                        </button>
+                      )}
+                      {listing.open_to_offers && (
+                        <button className="th__listing-offer-btn" type="button" onClick={e => { e.stopPropagation(); setMakeOfferListingId(listing.id); }}>
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M12 5v14"/><path d="M5 12h14"/></svg>
+                          Make Offer
+                        </button>
+                      )}
+                    </>
+                  )}
+                  {isOwner && (
+                    <button className="th__listing-delete-btn" type="button" onClick={e => { e.stopPropagation(); deleteListing(listing.id); }}>
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+                      Delete
+                    </button>
+                  )}
+                </div>
               </div>
 
               {/* Expanded Section */}

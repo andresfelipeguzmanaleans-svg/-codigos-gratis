@@ -925,6 +925,33 @@ const schema = {
     border-color: rgba(59, 130, 246, 0.4);
     transform: translateY(-1px);
   }
+  :global(.th__listing-delete-btn) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.3rem 0.65rem;
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.25);
+    border-radius: 8px;
+    color: #ef4444;
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, transform 0.15s;
+  }
+  :global(.th__listing-delete-btn:hover) {
+    background: rgba(239, 68, 68, 0.2);
+    border-color: rgba(239, 68, 68, 0.4);
+    transform: translateY(-1px);
+  }
+  :global(.th__tab--mine) {
+    color: #fbbf24;
+  }
+  :global(.th__tab--mine.th__tab--on) {
+    color: #fbbf24;
+    background: rgba(251, 191, 36, 0.12);
+  }
 
   /* ============================================================
      Expanded Section
