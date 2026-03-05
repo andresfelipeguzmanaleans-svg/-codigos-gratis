@@ -44,8 +44,8 @@ export const GET: APIRoute = async ({ request }) => {
   }
 
   try {
-    const clientId = import.meta.env.ROBLOX_CLIENT_ID;
-    const clientSecret = import.meta.env.ROBLOX_CLIENT_SECRET;
+    const clientId = process.env.ROBLOX_CLIENT_ID || import.meta.env.ROBLOX_CLIENT_ID;
+    const clientSecret = process.env.ROBLOX_CLIENT_SECRET || import.meta.env.ROBLOX_CLIENT_SECRET;
     const site = import.meta.env.SITE || 'https://codigos-gratis.com';
     const redirectUri = `${site}/api/auth/callback/`;
 
@@ -99,8 +99,8 @@ export const GET: APIRoute = async ({ request }) => {
 
     const { createClient } = await import('@supabase/supabase-js');
     const supabase = createClient(
-      import.meta.env.PUBLIC_SUPABASE_URL,
-      import.meta.env.SUPABASE_SECRET_KEY,
+      process.env.PUBLIC_SUPABASE_URL || import.meta.env.PUBLIC_SUPABASE_URL,
+      process.env.SUPABASE_SECRET_KEY || import.meta.env.SUPABASE_SECRET_KEY,
     );
 
     const { data: user, error: dbError } = await supabase
