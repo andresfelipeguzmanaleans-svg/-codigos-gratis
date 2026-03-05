@@ -1,24 +1,36 @@
-=== RESUMEN UPDATE 2026-03-04 21:05 ===
+=== RESUMEN UPDATE 2026-03-05 10:11 ===
 
 Archivos modificados:
-  3 archivos cambiados
+  7 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4123 juegos (4123 procesados)
-Actualizados: 1 | Sin cambios: 3968
+Actualizados: 5 | Sin cambios: 3964
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 1 | Movidos a expirados: 0
-Tiempo: 142.3s | Concurrencia: 10
+Códigos nuevos: 7 | Movidos a expirados: 3
+Tiempo: 137.4s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Eternal: 0→1 activos (+1), 706→706 exp
-    Nuevos: Update40P3AllCodesInOne
+  Basketball Zero: 6→3 activos (-3), 144→150 exp
+    Nuevos: 1HRFRIDAYUPD, 30FRIDAYUPD, FRIDAYUPD
+  Demon Blade: 4→5 activos (+1), 50→50 exp
+    Nuevos: SPIDERREWORK
+  Epic Lifting Simulator: 12→13 activos (+1), 4→4 exp
+    Nuevos: Spring
+  One Piece Grand Arena: 1→2 activos (+1), 0→0 exp
+    Nuevos: P2kEbzXZ
+  Ultimate Home Tycoon: 45→46 activos (+1), 0→0 exp
+    Nuevos: 460kLikes
 
 Detalle cambios:
-data/games/codigos-anime-eternal.json
+data/games/codigos-basketball-zero.json
+data/games/codigos-demon-blade.json
+data/games/codigos-epic-lifting-simulator.json
+data/games/codigos-one-piece-grand-arena.json
+data/games/codigos-ultimate-home-tycoon.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
