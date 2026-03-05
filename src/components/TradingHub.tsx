@@ -90,6 +90,17 @@ export default function TradingHub({ allItems }: Props) {
   // Make offer modal
   const [makeOfferListingId, setMakeOfferListingId] = useState<string | null>(null);
 
+  // Item tooltip
+  const [tooltip, setTooltip] = useState<{ slug: string; x: number; y: number } | null>(null);
+
+  const showTooltip = useCallback((slug: string, e: React.MouseEvent | React.TouchEvent) => {
+    e.stopPropagation();
+    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+    setTooltip({ slug, x: rect.left + rect.width / 2, y: rect.top });
+  }, []);
+
+  const hideTooltip = useCallback(() => setTooltip(null), []);
+
   const itemMap = useMemo(() => new Map(allItems.map(i => [i.slug, i])), [allItems]);
 
   // Fetch user session
@@ -450,7 +461,13 @@ export default function TradingHub({ allItems }: Props) {
                     {offerItems.map(li => {
                       const info = itemMap.get(li.item_slug);
                       return (
-                        <div key={li.id} className="th__listing-item">
+                        <div
+                          key={li.id}
+                          className="th__listing-item"
+                          onMouseEnter={e => showTooltip(li.item_slug, e)}
+                          onMouseLeave={hideTooltip}
+                          onClick={e => { e.stopPropagation(); showTooltip(li.item_slug, e); }}
+                        >
                           {info?.imageUrl ? (
                             <img className="th__listing-item-img" src={info.imageUrl} alt="" loading="lazy" />
                           ) : (
@@ -478,7 +495,13 @@ export default function TradingHub({ allItems }: Props) {
                     {requestItems.map(li => {
                       const info = itemMap.get(li.item_slug);
                       return (
-                        <div key={li.id} className="th__listing-item">
+                        <div
+                          key={li.id}
+                          className="th__listing-item"
+                          onMouseEnter={e => showTooltip(li.item_slug, e)}
+                          onMouseLeave={hideTooltip}
+                          onClick={e => { e.stopPropagation(); showTooltip(li.item_slug, e); }}
+                        >
                           {info?.imageUrl ? (
                             <img className="th__listing-item-img" src={info.imageUrl} alt="" loading="lazy" />
                           ) : (
@@ -692,6 +715,43 @@ export default function TradingHub({ allItems }: Props) {
           onOfferCreated={handleOfferCreated}
         />
       )}
+
+      {/* Item Tooltip */}
+      {tooltip && (() => {
+        const info = itemMap.get(tooltip.slug);
+        if (!info) return null;
+        const RARITY_COLORS: Record<string, string> = {
+          Limited: '#ef4444', Robux: '#22c55e', Regular: '#3b82f6', Code: '#f59e0b',
+          Egg: '#ec4899', Merch: '#a855f7', 'Pirate Faction': '#f97316', Challenge: '#06b6d4',
+          'Friend Quest': '#8b5cf6', DLC: '#14b8a6', Event: '#f43f5e', Exclusive: '#fbbf24',
+          'Skin Merchant': '#c084fc',
+        };
+        const rc = RARITY_COLORS[info.rarity || ''] || '#555';
+        return (
+          <div
+            className="th__tooltip"
+            style={{ left: tooltip.x, top: tooltip.y }}
+            onMouseEnter={hideTooltip}
+            onClick={hideTooltip}
+          >
+            <div className="th__tooltip-inner">
+              {info.imageUrl && <img className="th__tooltip-img" src={info.imageUrl} alt="" />}
+              <div className="th__tooltip-info">
+                <span className="th__tooltip-name">{info.name}</span>
+                {info.rarity && (
+                  <span className="th__tooltip-rarity" style={{ color: rc, borderColor: rc + '40', background: rc + '15' }}>
+                    {info.rarity}
+                  </span>
+                )}
+                {info.tradeValue != null && (
+                  <span className="th__tooltip-value">{fmtVal(info.tradeValue)} ER</span>
+                )}
+                <span className="th__tooltip-type">{info.itemType === 'rod_skin' ? 'Rod Skin' : info.itemType === 'boat' ? 'Boat' : 'Fish'}</span>
+              </div>
+            </div>
+          </div>
+        );
+      })()}
     </div>
   );
 }
