@@ -1,5 +1,4 @@
 import { useState, useMemo, useCallback, useRef } from 'react';
-import { supabase } from '../lib/supabase';
 import type { SessionUser } from './AuthButton';
 
 interface ItemInfo {
@@ -105,55 +104,32 @@ export default function CreateListing({ allItems, user, onClose, onCreated }: Pr
     setError(null);
 
     try {
-      // Create listing
-      const { data: listing, error: listingErr } = await supabase
-        .from('listings')
-        .insert({
-          user_id: user.id,
+      const offerItems = offerSlots.filter(Boolean).map((s) => ({
+        slug: s!.slug,
+        itemType: s!.itemType,
+        name: s!.name,
+        quantity: s!.quantity,
+      }));
+      const requestItems = requestSlots.filter(Boolean).map((s) => ({
+        slug: s!.slug,
+        itemType: s!.itemType,
+        name: s!.name,
+        quantity: s!.quantity,
+      }));
+
+      const res = await fetch('/api/listings/create/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
           type: listingType,
-          status: 'active',
-          open_to_offers: openToOffers,
-        })
-        .select('id')
-        .single();
+          openToOffers,
+          offerItems,
+          requestItems,
+        }),
+      });
 
-      if (listingErr || !listing) {
-        throw new Error(listingErr?.message || 'Failed to create listing');
-      }
-
-      // Insert items
-      const items = [
-        ...offerSlots.filter(Boolean).map((s) => ({
-          listing_id: listing.id,
-          side: 'offer' as const,
-          item_slug: s!.slug,
-          item_type: s!.itemType,
-          item_name: s!.name,
-          quantity: s!.quantity,
-          weight: null,
-          mutation: null,
-        })),
-        ...requestSlots.filter(Boolean).map((s) => ({
-          listing_id: listing.id,
-          side: 'request' as const,
-          item_slug: s!.slug,
-          item_type: s!.itemType,
-          item_name: s!.name,
-          quantity: s!.quantity,
-          weight: null,
-          mutation: null,
-        })),
-      ];
-
-      if (items.length > 0) {
-        const { error: itemsErr } = await supabase
-          .from('listing_items')
-          .insert(items);
-
-        if (itemsErr) {
-          throw new Error(itemsErr.message);
-        }
-      }
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Failed to create listing');
 
       onCreated();
     } catch (err: any) {
