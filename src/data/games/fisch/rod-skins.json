@@ -1044,7 +1044,7 @@
     ]
   },
   {
-    "name": "Aurelia’s Grace",
+    "name": "Aurelia's Grace",
     "slug": "aurelias-grace",
     "tradeValue": 150,
     "demand": null,
@@ -5788,7 +5788,7 @@
     ]
   },
   {
-    "name": "Victor’s Grace",
+    "name": "Victor's Grace",
     "slug": "victors-grace",
     "tradeValue": 30,
     "demand": null,
@@ -7364,7 +7364,7 @@
     ]
   },
   {
-    "name": "Calvin’s Revenge",
+    "name": "Calvin's Revenge",
     "slug": "calvins-revenge",
     "tradeValue": 25,
     "demand": null,
@@ -12352,7 +12352,7 @@
     ]
   },
   {
-    "name": "Megalodon’s Tooth",
+    "name": "Megalodon's Tooth",
     "slug": "megalodons-tooth",
     "tradeValue": 15,
     "demand": null,
@@ -13012,7 +13012,7 @@
     ]
   },
   {
-    "name": "Raijin’s Wrath",
+    "name": "Raijin's Wrath",
     "slug": "raijins-wrath",
     "tradeValue": 15,
     "demand": null,
@@ -14040,7 +14040,7 @@
     ]
   },
   {
-    "name": "Dragon’s Vigilance",
+    "name": "Dragon's Vigilance",
     "slug": "dragons-vigilance",
     "tradeValue": 13,
     "demand": null,
@@ -15532,7 +15532,7 @@
     ]
   },
   {
-    "name": "Devil’s Trident",
+    "name": "Devil's Trident",
     "slug": "devils-trident",
     "tradeValue": 12,
     "demand": null,
@@ -18632,7 +18632,7 @@
     ]
   },
   {
-    "name": "Heaven’s Love",
+    "name": "Heaven's Love",
     "slug": "heavenly-coral",
     "tradeValue": 8,
     "demand": null,
@@ -21824,7 +21824,7 @@
     ]
   },
   {
-    "name": "Scylla’s Shadow",
+    "name": "Scylla's Shadow",
     "slug": "scyllas-shadow",
     "tradeValue": 6,
     "demand": null,
@@ -24080,7 +24080,7 @@
     ]
   },
   {
-    "name": "Heaven’s Savior",
+    "name": "Heaven's Savior",
     "slug": "heavens-love",
     "tradeValue": 4,
     "demand": null,
@@ -24356,7 +24356,7 @@
     ]
   },
   {
-    "name": "Orca’s Demise",
+    "name": "Orca's Demise",
     "slug": "orcas-demise",
     "tradeValue": 4,
     "demand": null,
@@ -27276,7 +27276,7 @@
     ]
   },
   {
-    "name": "Bonecaller’s Spine",
+    "name": "Bonecaller's Spine",
     "slug": "bonecallers-spine",
     "tradeValue": 3,
     "demand": null,
@@ -28896,7 +28896,7 @@
     ]
   },
   {
-    "name": "Titan’s Spine",
+    "name": "Titan's Spine",
     "slug": "titans-spine",
     "tradeValue": 1.7,
     "demand": null,
@@ -30569,5 +30569,149 @@
       }
     ],
     "relatedItems": null
+  },
+  {
+    "name": "Starliner",
+    "slug": "starliner",
+    "tradeValue": 55,
+    "demand": "Medium",
+    "trend": null,
+    "rarity": "Limited",
+    "itemType": "rod_skin",
+    "stock": null,
+    "sold": null,
+    "cost": null,
+    "imageUrl": null,
+    "detailUrl": null,
+    "priceHistory": [],
+    "relatedItems": []
+  },
+  {
+    "name": "Stellar Labrys",
+    "slug": "stellar-labrys",
+    "tradeValue": 20,
+    "demand": "Medium",
+    "trend": null,
+    "rarity": "Limited",
+    "itemType": "rod_skin",
+    "stock": null,
+    "sold": null,
+    "cost": null,
+    "imageUrl": null,
+    "detailUrl": null,
+    "priceHistory": [],
+    "relatedItems": []
+  },
+  {
+    "name": "Lumalee",
+    "slug": "lumalee",
+    "tradeValue": 15,
+    "demand": "Medium",
+    "trend": null,
+    "rarity": "Limited",
+    "itemType": "rod_skin",
+    "stock": null,
+    "sold": null,
+    "cost": null,
+    "imageUrl": null,
+    "detailUrl": null,
+    "priceHistory": [],
+    "relatedItems": []
+  },
+  {
+    "name": "Orion's Trace",
+    "slug": "orions-trace",
+    "tradeValue": 10,
+    "demand": "Medium",
+    "trend": null,
+    "rarity": "Limited",
+    "itemType": "rod_skin",
+    "stock": null,
+    "sold": null,
+    "cost": null,
+    "imageUrl": null,
+    "detailUrl": null,
+    "priceHistory": [],
+    "relatedItems": []
+  },
+  {
+    "name": "Lily of Glacia",
+    "slug": "lily-of-glacia",
+    "tradeValue": 0,
+    "demand": "Medium",
+    "trend": null,
+    "rarity": "Limited",
+    "itemType": "rod_skin",
+    "stock": null,
+    "sold": null,
+    "cost": null,
+    "imageUrl": null,
+    "detailUrl": null,
+    "priceHistory": [],
+    "relatedItems": []
+  },
+  {
+    "name": "Rosebud Rod",
+    "slug": "rosebud-rod",
+    "tradeValue": 0,
+    "demand": "Medium",
+    "trend": null,
+    "rarity": "Limited",
+    "itemType": "rod_skin",
+    "stock": null,
+    "sold": null,
+    "cost": null,
+    "imageUrl": null,
+    "detailUrl": null,
+    "priceHistory": [],
+    "relatedItems": []
+  },
+  {
+    "name": "Wildflower Spectra",
+    "slug": "wildflower-spectra",
+    "tradeValue": 0,
+    "demand": "Medium",
+    "trend": null,
+    "rarity": "Limited",
+    "itemType": "rod_skin",
+    "stock": null,
+    "sold": null,
+    "cost": null,
+    "imageUrl": null,
+    "detailUrl": null,
+    "priceHistory": [],
+    "relatedItems": []
+  },
+  {
+    "name": "Bloom of Delicacy",
+    "slug": "bloom-of-delicacy",
+    "tradeValue": 0,
+    "demand": "Medium",
+    "trend": null,
+    "rarity": "Limited",
+    "itemType": "rod_skin",
+    "stock": null,
+    "sold": null,
+    "cost": null,
+    "imageUrl": null,
+    "detailUrl": null,
+    "priceHistory": [],
+    "relatedItems": []
+  },
+  {
+    "name": "Petal Power",
+    "slug": "petal-power",
+    "tradeValue": 0,
+    "demand": "Medium",
+    "trend": null,
+    "rarity": "Limited",
+    "itemType": "rod_skin",
+    "stock": null,
+    "sold": null,
+    "cost": null,
+    "imageUrl": null,
+    "detailUrl": null,
+    "priceHistory": [],
+    "relatedItems": []
   }
 ]

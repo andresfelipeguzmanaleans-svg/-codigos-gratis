@@ -518,8 +518,8 @@ export default function FischWorldMap({ locations, gameSlug }: Props) {
 
         {/* ---- Entrance dashed connecting lines (SVG overlay) ---- */}
         <svg className="fwm-ent-lines" viewBox="0 0 100 100" preserveAspectRatio="none">
-          {ENTRANCES.filter(e => e.parentPin && PIN_POS[e.parentPin]).map(ent => {
-            const p = PIN_POS[ent.parentPin!];
+          {ENTRANCES.filter((e): e is typeof ENTRANCES[number] & { parentPin: string } => 'parentPin' in e && !!PIN_POS[(e as any).parentPin]).map(ent => {
+            const p = PIN_POS[ent.parentPin];
             return (
               <line key={ent.id}
                 x1={ent.left} y1={ent.top}

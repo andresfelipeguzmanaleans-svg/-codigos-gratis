@@ -29,7 +29,7 @@ type Tab = 'all' | 'offering' | 'wanting' | 'mine';
 type StatusFilter = 'active' | 'in_progress' | 'completed' | 'all';
 type SortBy = 'newest' | 'oldest' | 'value';
 
-interface ListingWithItems extends Listing {
+interface ListingWithItems extends Omit<Listing, 'user' | 'listing_items'> {
   listing_items: ListingItem[];
   user?: { id?: string; roblox_username: string; roblox_avatar_url: string | null };
 }
