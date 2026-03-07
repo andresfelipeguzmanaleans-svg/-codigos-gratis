@@ -885,13 +885,13 @@
     "baseWeight": 10000,
     "baseValue": 60000,
     "weightRange": {
-      "min": 1,
-      "max": 19999
+      "min": null,
+      "max": null
     },
     "baseChance": null,
     "baseResil": -50,
     "event": null,
-    "description": "Aetherfin is a divine secret fish found in Roslit Bay. It has a base value of 60,000 C$/kg with a weight range of 1-19,999 kg. This is an easy catch, great for beginners.",
+    "description": "A surreal form of manta ray; an extremely rare and unknown catch...",
     "image": "Aetherfin.png",
     "imageUrl": "/images/fish/aetherfin.png",
     "tradeValue": null,
@@ -910,8 +910,9 @@
     "estimatedCsPerHour": null,
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "600.00M C$",
-    "descriptionIsGenerated": true,
-    "howToCatch": "Aetherfin is a Divine Secret fish found rarely at Roslit Bay.\nA surreal form of manta ray; an extremely rare and unknown catch...\n\nHead to Roslit Bay.\n\nEquip the Stone Rod (or higher).\n\nThis is an easy catch, great for beginners. Recommended to keep for trading rather than selling to NPC."
+    "descriptionIsGenerated": false,
+    "howToCatch": "Aetherfin is a Divine Secret fish found rarely at Roslit Bay.\nA surreal form of manta ray; an extremely rare and unknown catch...\n\nHead to Roslit Bay.\n\nEquip the Stone Rod (or higher).\n\nThis is an easy catch, great for beginners. Recommended to keep for trading rather than selling to NPC.",
+    "source": "fisch.fandom.com"
   },
   {
     "id": "akkorokamui",
@@ -3288,7 +3289,7 @@
   {
     "id": "awakened-omnithal",
     "name": "Awakened Omnithal",
-    "rarity": "Secret",
+    "rarity": "[[Bestiary#Secret",
     "sea": "<!--first or second sea-->",
     "location": "Sunken Reliquary",
     "sublocation": "Awakened Omnithal Hunt",
@@ -3307,16 +3308,16 @@
     "bait": [
       "Luminous Larva"
     ],
-    "baseWeight": 450000,
-    "baseValue": 54000,
+    "baseWeight": 350000,
+    "baseValue": 42000,
     "weightRange": {
-      "min": 250000,
-      "max": 650000
+      "min": 150000,
+      "max": 3354750
     },
     "baseChance": null,
     "baseResil": -50,
     "event": null,
-    "description": "Awakened Omnithal is a secret fish found in Sunken Reliquary (Awakened Omnithal Hunt). It has a base value of 54,000 C$/kg with a weight range of 250,000-650,000 kg. Best caught using Luminous Larva. Appears during foggy weather. Active at night. This is a moderate catch that requires some preparation.",
+    "description": "A bioluminescent leviathan with multiple glowing eyes, said to guard the deepest, oldest wrecks.",
     "image": "Awakened Omnithal.png",
     "imageUrl": "/images/fish/awakened-omnithal.png",
     "tradeValue": null,
@@ -3335,8 +3336,10 @@
     "estimatedCsPerHour": null,
     "recommendation": "SELL TO NPC",
     "estimatedNpcValue": "24.30B C$",
-    "descriptionIsGenerated": true,
-    "howToCatch": "Missing render\nAwakened Omnithal is a Secret fish found in Sunken Reliquary.\nA bioluminescent leviathan with multiple glowing eyes, said to guard the deepest, oldest wrecks.\n\nHead to Sunken Reliquary (Awakened Omnithal Hunt). You will need a boat to reach this sea location.\n\nEquip the Stone Rod (or higher) and use Luminous Larva as bait.\n\nWait for Foggy weather. Fish at Night. Available during Winter.\n\nA moderate catch that requires some preparation. Best sold to NPC for quick profit."
+    "descriptionIsGenerated": false,
+    "howToCatch": "The Awakened Omnithal is a  Secret  hunt fish obtainable in Tidefall at the Sunken Reliquary It moves erratically across the fishing bar. When reeling it in, a -85% forced progress speed is applied. \n\nWhen hooked, a Secretwill appear above the players head and a shimmering sound is played, like all Secret fish.",
+    "cPerKg": 0.12,
+    "source": "fisch.fandom.com"
   },
   {
     "id": "axolotl",
@@ -6629,7 +6632,8 @@
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "12.5K C$",
     "descriptionIsGenerated": true,
-    "howToCatch": "Red Energy Crystal\nBlue Energy Crystal is a Mythical fish found in a cave near the Northern Summit.\nA blue-hued crystal, told to possess mystical powers.\n\nHead to Regionless.\n\nEquip the Scarlet Spincaster Rod (or higher).\n\nThis fish is caught using |radar_location =, not a regular fishing rod.\n\nA moderate catch that requires some preparation. Recommended to keep for trading rather than selling to NPC. Estimated earnings: ~8 C$/hr."
+    "howToCatch": "The Blue Energy Crystal is one of four energy crystals, Red, Yellow, and Green, used to open the door to obtain Heaven's Rod. It takes on the appearance of a blue, glowing crystal. Like the other crystals, it cannot be sold to the Merchant nor traded to anyone.",
+    "source": "fisch.fandom.com"
   },
   {
     "id": "blue-foamtail",
@@ -7861,13 +7865,13 @@
     "baseWeight": 1000,
     "baseValue": 10,
     "weightRange": {
-      "min": 1000,
-      "max": 1000
+      "min": null,
+      "max": null
     },
     "baseChance": null,
     "baseResil": 50000,
     "event": null,
-    "description": "Boulder is a divine secret fish found in Keepers Altar. It has a base value of 10 C$/kg with a weight range of 1,000-1,000 kg. This is a moderate catch that requires some preparation.",
+    "description": "Its not a boulder, its a… Nevermind.",
     "image": "Boulder.png",
     "imageUrl": "/images/fish/boulder.png",
     "tradeValue": null,
@@ -7886,8 +7890,9 @@
     "estimatedCsPerHour": null,
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "10.0K C$",
-    "descriptionIsGenerated": true,
-    "howToCatch": "Boulder is a Divine Secret fish found rarely in Keepers Altar.\nIt’s not a boulder, it’s a-...\n\nHead to Keepers Altar.\n\nEquip the Cinder Block Rod (or higher).\n\nA moderate catch that requires some preparation. Recommended to keep for trading rather than selling to NPC."
+    "descriptionIsGenerated": false,
+    "howToCatch": "Boulder is a Divine Secret fish found rarely in Keepers Altar.\nIt’s not a boulder, it’s a-...\n\nHead to Keepers Altar.\n\nEquip the Cinder Block Rod (or higher).\n\nA moderate catch that requires some preparation. Recommended to keep for trading rather than selling to NPC.",
+    "source": "fisch.fandom.com"
   },
   {
     "id": "bouncing-egg",
@@ -13308,7 +13313,7 @@
   {
     "id": "colossus-reef-titan",
     "name": "Colossus Reef Titan",
-    "rarity": "Secret",
+    "rarity": "[[Bestiary#Secret",
     "sea": "<!--first or second sea-->",
     "location": "Coral Bastion",
     "sublocation": "Colossus Reef Titan Hunt",
@@ -13321,16 +13326,16 @@
     "time": null,
     "season": [],
     "bait": [],
-    "baseWeight": 140000,
-    "baseValue": 68000,
+    "baseWeight": 150000,
+    "baseValue": 322000,
     "weightRange": {
-      "min": 95000,
-      "max": 185000
+      "min": 90000,
+      "max": 375000
     },
     "baseChance": null,
     "baseResil": -80,
     "event": null,
-    "description": "Colossus Reef Titan is a secret fish found in Coral Bastion (Colossus Reef Titan Hunt). It has a base value of 68,000 C$/kg with a weight range of 95,000-185,000 kg. This is an easy catch, great for beginners.",
+    "description": "A mythical, extra colossal creature that is part of the reef itself. Its movements causes tremors, and its size defies belief.",
     "image": "Colossus Reef Titan.png",
     "imageUrl": "/images/fish/colossus-reef-titan.png",
     "tradeValue": null,
@@ -13349,8 +13354,10 @@
     "estimatedCsPerHour": null,
     "recommendation": "SELL TO NPC",
     "estimatedNpcValue": "9.52B C$",
-    "descriptionIsGenerated": true,
-    "howToCatch": "Missing Render\nColossus Reef Titan is a Secret fish found in the Coral Bastion during a Colossus Reef Titan Hunt.\nA mythical, extra collosal creature that is part of the reef itself.\n\nHead to Coral Bastion (Colossus Reef Titan Hunt). You will need a boat to reach this sea location.\n\nEquip the Stone Rod (or higher).\n\nThis is an easy catch, great for beginners. Best sold to NPC for quick profit."
+    "descriptionIsGenerated": false,
+    "howToCatch": "The Colossus Reef Titan is a  Secret  hunt fish obtainable in Tidefall at the Coral Bastion. Due to it's high rarity, it makes for a challenging catch, moving erratically across the fishing bar. When reeling it in, a -99% forced progress speed is applied. \n\nWhen hooked, a Secretwill appear above the players head and a shimmering sound is played, like all Secret fish.",
+    "cPerKg": 2.1,
+    "source": "fisch.fandom.com"
   },
   {
     "id": "column-crawler",
@@ -15359,7 +15366,7 @@
     "name": "Crustal Colossus",
     "rarity": "Divine Secret",
     "sea": null,
-    "location": "Sunstone Island",
+    "location": "Sunstone",
     "sublocation": null,
     "sources": [
       "Fishing Rod"
@@ -15376,16 +15383,16 @@
     "bait": [
       "<!--preferred bait-->"
     ],
-    "baseWeight": 10000,
-    "baseValue": 60000,
+    "baseWeight": 5000.5,
+    "baseValue": 30003,
     "weightRange": {
-      "min": 1,
-      "max": 19999
+      "min": 0.6,
+      "max": 74550
     },
     "baseChance": null,
     "baseResil": -50,
     "event": null,
-    "description": "Crustal Colossus is a divine secret fish found in Sunstone Island. It has a base value of 60,000 C$/kg with a weight range of 1-19,999 kg. Best caught using <!--preferred bait-->. Appears during <!--preferred weather--> weather. Active at <!--preferred time-->. This is a moderate catch that requires some preparation.",
+    "description": "An absolute colossal crab known for being absolutely destructive; yet passive to most creatures",
     "image": "Crustal Colossus.png",
     "imageUrl": null,
     "tradeValue": null,
@@ -15404,8 +15411,10 @@
     "estimatedCsPerHour": null,
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "600.00M C$",
-    "descriptionIsGenerated": true,
-    "howToCatch": "Crustal Colossus is a Divine Secret fish found rarely at Sunstone Island.\nAn absolutely colossal crab known for being absultely destructive; yet surprisingly passive to most creatures.\n\nHead to Sunstone Island.\n\nEquip the Stone Rod (or higher) and use <!--preferred bait--> as bait.\n\nWait for <!--preferred weather--> weather. Fish at <!--preferred time-->. Available during <!--preferred season-->.\n\nA moderate catch that requires some preparation. Recommended to keep for trading rather than selling to NPC."
+    "descriptionIsGenerated": false,
+    "howToCatch": "Crustal Colossus is a Divine Secret fish found rarely at Sunstone Island.\nAn absolutely colossal crab known for being absultely destructive; yet surprisingly passive to most creatures.\n\nHead to Sunstone Island.\n\nEquip the Stone Rod (or higher) and use <!--preferred bait--> as bait.\n\nWait for <!--preferred weather--> weather. Fish at <!--preferred time-->. Available during <!--preferred season-->.\n\nA moderate catch that requires some preparation. Recommended to keep for trading rather than selling to NPC.",
+    "cPerKg": 6,
+    "source": "fisch.fandom.com"
   },
   {
     "id": "cryo-coelacanth",
@@ -21137,13 +21146,13 @@
     "baseWeight": 300000,
     "baseValue": 68500,
     "weightRange": {
-      "min": 100000,
-      "max": 500000
+      "min": null,
+      "max": null
     },
     "baseChance": null,
     "baseResil": -100,
     "event": null,
-    "description": "Forbidden Plesiosaur is a divine secret fish found in Tidefall. It has a base value of 68,500 C$/kg with a weight range of 100,000-500,000 kg. This is an easy catch, great for beginners.",
+    "description": "A prehistoric Marine Reptile, long necked and powerful, thought extinct for millions of years",
     "image": "Forbidden Plesiosaur.png",
     "imageUrl": null,
     "tradeValue": null,
@@ -21162,8 +21171,9 @@
     "estimatedCsPerHour": null,
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "20.55B C$",
-    "descriptionIsGenerated": true,
-    "howToCatch": "Forbidden Plesiosaur is a Divine Secret fish found rarely in Tidefall.\nA prehistoric marine reptile, long-necked and powerful, thought extinct for millions of years.\n\nHead to Tidefall.\n\nEquip the Stone Rod (or higher).\n\nThis is an easy catch, great for beginners. Recommended to keep for trading rather than selling to NPC."
+    "descriptionIsGenerated": false,
+    "howToCatch": "Forbidden Plesiosaur is a Divine Secret fish found rarely in Tidefall.\nA prehistoric marine reptile, long-necked and powerful, thought extinct for millions of years.\n\nHead to Tidefall.\n\nEquip the Stone Rod (or higher).\n\nThis is an easy catch, great for beginners. Recommended to keep for trading rather than selling to NPC.",
+    "source": "fisch.fandom.com"
   },
   {
     "id": "forsaken-algae",
@@ -30641,29 +30651,29 @@
   {
     "id": "inferno-wood",
     "name": "Inferno Wood",
-    "rarity": "Mythical",
+    "rarity": "[[Bestiary#Mythical",
     "sea": null,
-    "location": "Roslit Volcano",
+    "location": "[[Roslit Bay#Roslit Volcano",
     "sublocation": null,
     "sources": [
       "Fishing Rod"
     ],
     "radarCoords": null,
-    "xp": 2000,
+    "xp": 90,
     "weather": [],
     "time": null,
     "season": [],
     "bait": [],
-    "baseWeight": 150,
-    "baseValue": 12000,
+    "baseWeight": 0.2,
+    "baseValue": 700,
     "weightRange": {
-      "min": 50,
-      "max": 250
+      "min": 0.1,
+      "max": 0.4
     },
     "baseChance": 0.01,
     "baseResil": 100,
     "event": null,
-    "description": "Among Mythical fish, Inferno Wood stands out. Its Roslit Bay Roslit Volcano habitat means you'll be competing with other rare spawns.",
+    "description": "Holds the Power of Earth's Magma Core... Said to be used in crafting one of the strongest Rods...\n}}\n\n==Overview==\nThe Inferno Wood is a [[Bestiary#Mythical",
     "image": "Inferno Wood.png",
     "imageUrl": "/images/fish/inferno-wood.png",
     "tradeValue": null,
@@ -30683,7 +30693,9 @@
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "1.80M C$",
     "descriptionIsGenerated": false,
-    "howToCatch": "Items#Crafting Ingredients\nInferno Wood is a Mythical Crafting Ingredient obtainable at Roslit Volcano.\nHolds the Power of Earth's Magma Core...\n\nHead to Roslit Volcano.\n\nEquip the Scarlet Spincaster Rod (or higher).\n\nA moderate catch that requires some preparation. Recommended to keep for trading rather than selling to NPC. Estimated earnings: ~10.8K C$/hr."
+    "howToCatch": "The Inferno Wood is a Mythical fish obtainable at Roslit Volcano. Despite its high rarity and lower progress speed when reeling, it makes for an easy catch, moving slow and steady across the fishing bar.\n\nThe Inferno Wood is characterized by its wooden structure, surrounded by molten areas and boasting a fiery core at its heart. At one end, a narrow piece extends outward, while a thicker piece rests alongside it.\n\nWhen hooked, a Mythical will pop above the player's head, and a bell sound is played - as with all Mythical fish.",
+    "cPerKg": 3500,
+    "source": "fisch.fandom.com"
   },
   {
     "id": "iron-chunk",
@@ -39765,35 +39777,35 @@
   {
     "id": "oarfish",
     "name": "Oarfish",
-    "rarity": "Mythical",
+    "rarity": "[[Bestiary#Mythical",
     "sea": null,
-    "location": "Ocean",
+    "location": "The Ocean",
     "sublocation": "Deep Ocean",
     "sources": [
       "Fishing Rod"
     ],
     "radarCoords": null,
-    "xp": 2580,
+    "xp": 2000,
     "weather": [
-      "Foggy"
+      "File:Foggy.pngFoggy"
     ],
     "time": null,
     "season": [
-      "Winter"
+      "File:Winter.pngWinter"
     ],
     "bait": [
-      "Squid"
+      "[[Squid bait"
     ],
-    "baseWeight": 410,
-    "baseValue": 12000,
+    "baseWeight": 160,
+    "baseValue": 2560,
     "weightRange": {
-      "min": 100,
+      "min": null,
       "max": 720
     },
     "baseChance": 0.01,
     "baseResil": 15,
     "event": null,
-    "description": "A massive, snake-like creature that dwells in the deep ocean. Often mistaken for sea serpents throughout history, ancient cultures viewed it as an omen. One of the most distinctive Mythical fish.",
+    "description": "The Oarfish is a massive, snake-like creatures that dwell in the deep ocean. They are often mistaken for sea serpents or mythical creatures. Their presence is considered an omen by many ancient cultures.\n}}\n\n==Overview==\n\nThe Oarfish is a [[Bestiary#Mythical",
     "image": "Oarfish.png",
     "imageUrl": "/images/fish/oarfish.png",
     "tradeValue": null,
@@ -39813,7 +39825,9 @@
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "4.92M C$",
     "descriptionIsGenerated": false,
-    "howToCatch": "Oarfish is a Mythical fish found in the Ocean.\nThe Oarfish is a massive, snake-like creatures that dwell in the deep ocean.\n\nHead to Ocean (Deep Ocean).\n\nEquip the Kraken Rod (or higher) and use Squid as bait.\n\nWait for Foggy weather. Available during Winter.\n\nA challenging catch — bring your best gear and time it right. Recommended to keep for trading rather than selling to NPC. Estimated earnings: ~29.5K C$/hr."
+    "howToCatch": "The Oarfish is a Mythical fish obtainable at The Ocean. Due to its high rarity, it makes for a challenging catch, moving erratically across the fishing bar. When reeling it in, -30%  progress speed decrease is inflicted.\n\nWhen hooked, a Mythical will pop above the player's head, and a bell sound is played - as with all Mythical fish.",
+    "cPerKg": 16,
+    "source": "fisch.fandom.com"
   },
   {
     "id": "obsidian",
@@ -41117,9 +41131,9 @@
   {
     "id": "oyster-toadfish",
     "name": "Oyster Toadfish",
-    "rarity": "Uncommon",
+    "rarity": "[[Bestiary#Uncommon",
     "sea": null,
-    "location": "Second Sea",
+    "location": "Whale Interior",
     "sublocation": "Whale Interior",
     "sources": [
       "Fishing Rod"
@@ -41133,13 +41147,13 @@
     "baseWeight": 11.5,
     "baseValue": 200,
     "weightRange": {
-      "min": 3.7,
-      "max": 19.3
+      "min": null,
+      "max": null
     },
     "baseChance": 80,
     "baseResil": 80,
     "event": null,
-    "description": "Oyster Toadfish is a uncommon fish found in Second Sea (Whale Interior). It has a base value of 200 C$/kg with a weight range of 3.7-19.3 kg. This is an easy catch, great for beginners.",
+    "description": "TBA\n}}\n\n==Overview==\nThe Oyster Toadfish is a {{Rarity",
     "image": "Oyster Toadfish.png",
     "imageUrl": "/images/fish/oyster-toadfish.png",
     "tradeValue": null,
@@ -41158,8 +41172,9 @@
     "estimatedCsPerHour": 110400,
     "recommendation": "SELL TO NPC",
     "estimatedNpcValue": "2.3K C$",
-    "descriptionIsGenerated": true,
-    "howToCatch": "Oyster Toadfish is an Extinct fish found in Whale Interior.\nA sneaky ambush predator lurking in oyster beds and muddy bottoms.\n\nHead to Second Sea (Whale Interior).\n\nEquip the Scarlet Spincaster Rod (or higher).\n\nThis is an easy catch, great for beginners. Best sold to NPC for quick profit. Estimated earnings: ~110.4K C$/hr."
+    "descriptionIsGenerated": false,
+    "howToCatch": "The Oyster Toadfish is a Uncommon fish obtainable in Whale Interior, in Second Sea.\n\nDue to its rarity, it makes it an easy catch, moving slow across the fishing bar.\n\nWhen hooked, a Uncommon will pop up above the player's head appears, and a tapping sound is played, as with all Uncommon fish.",
+    "source": "fisch.fandom.com"
   },
   {
     "id": "ozark-cavefish",
@@ -43223,7 +43238,7 @@
   {
     "id": "plesiosaur",
     "name": "Plesiosaur",
-    "rarity": "Exotic",
+    "rarity": "[[Bestiary#Exotic",
     "sea": null,
     "location": "Tidefall",
     "sublocation": "Plesiosaur Hunt",
@@ -43233,25 +43248,25 @@
     "radarCoords": null,
     "xp": 40000,
     "weather": [
-      "Foggy"
+      "File:Foggy.pngFoggy"
     ],
-    "time": "Night",
+    "time": "File:Night.pngNight",
     "season": [
       "Winter"
     ],
     "bait": [
-      "Shark Head"
+      "[[Shark Head"
     ],
     "baseWeight": 200000,
     "baseValue": 50000,
     "weightRange": {
-      "min": 80000,
-      "max": 320000
+      "min": null,
+      "max": null
     },
     "baseChance": null,
     "baseResil": -10,
     "event": null,
-    "description": "Plesiosaur is a exotic fish found in Tidefall (Plesiosaur Hunt). It has a base value of 50,000 C$/kg with a weight range of 80,000-320,000 kg. Best caught using Shark Head. Appears during foggy weather. Active at night. This is a moderate catch that requires some preparation.",
+    "description": "A prehistoric Marine Reptile, long necked and powerful, thought extinct for millions of years",
     "image": "Plesiosaur.png",
     "imageUrl": "/images/fish/plesiosaur.png",
     "tradeValue": null,
@@ -43270,8 +43285,9 @@
     "estimatedCsPerHour": null,
     "recommendation": "SELL TO NPC",
     "estimatedNpcValue": "10.00B C$",
-    "descriptionIsGenerated": true,
-    "howToCatch": "The Plesiosaur is an Exotic fish found in the Tidefall Castle.\nA prehistoric marine reptile, long necked and powerful, thought extinct for millions of years.\n\nHead to Tidefall (Plesiosaur Hunt).\n\nEquip the Stone Rod (or higher) and use Shark Head as bait.\n\nWait for Foggy weather. Fish at Night. Available during Winter.\n\nA moderate catch that requires some preparation. Best sold to NPC for quick profit."
+    "descriptionIsGenerated": false,
+    "howToCatch": "The Plesiosaur is a Exotic fish caught at Tidefall. \n\nDue to its high rarity, it makes for a challenging catch, moving erratically across the fishing bar. When catching, a -85% progress speed decrease is inflicted on the player.\n\nWhen hooked, a Exotic will pop above the player's head, and a shimmering sound is played - as with all Exotic fish.",
+    "source": "fisch.fandom.com"
   },
   {
     "id": "pliosaur",
@@ -45504,17 +45520,19 @@
     "weather": [],
     "time": null,
     "season": [],
-    "bait": [],
+    "bait": [
+      "Any"
+    ],
     "baseWeight": 10000,
     "baseValue": 60000,
     "weightRange": {
-      "min": 1,
-      "max": 19999
+      "min": null,
+      "max": null
     },
     "baseChance": null,
     "baseResil": -50,
     "event": null,
-    "description": "Razorfin is a divine secret fish found in Castaway Cliffs. It has a base value of 60,000 C$/kg with a weight range of 1-19,999 kg. This is an easy catch, great for beginners.",
+    "description": "TBA",
     "image": "Razorfin.png",
     "imageUrl": "/images/fish/razorfin.png",
     "tradeValue": null,
@@ -45533,8 +45551,9 @@
     "estimatedCsPerHour": null,
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "600.00M C$",
-    "descriptionIsGenerated": true,
-    "howToCatch": "Razorfin is a Divine Secret fish found rarely at Castaway Cliffs.\nA scarred and extremely lethal shark; known for causing catastrophic ship accidents.\n\nHead to Castaway Cliffs.\n\nEquip the Stone Rod (or higher).\n\nThis is an easy catch, great for beginners. Recommended to keep for trading rather than selling to NPC."
+    "descriptionIsGenerated": false,
+    "howToCatch": "Razorfin is a Divine Secret fish found rarely at Castaway Cliffs.\nA scarred and extremely lethal shark; known for causing catastrophic ship accidents.\n\nHead to Castaway Cliffs.\n\nEquip the Stone Rod (or higher).\n\nThis is an easy catch, great for beginners. Recommended to keep for trading rather than selling to NPC.",
+    "source": "fisch.fandom.com"
   },
   {
     "id": "red-crabsquid",
@@ -45692,7 +45711,8 @@
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "25 C$",
     "descriptionIsGenerated": true,
-    "howToCatch": "Red Energy Crystal is a Mythical fish obtained at the summit of the Northern Expedition after completing various puzzles. \nA red-hued crystal, told to possess mystical powers.\n\nHead to Regionless.\n\nEquip the Scarlet Spincaster Rod (or higher).\n\nThis fish is caught using |radar_location =, not a regular fishing rod.\n\nA moderate catch that requires some preparation. Recommended to keep for trading rather than selling to NPC."
+    "howToCatch": "The Red Energy Crystal is one of four energy crystals, Blue, Yellow, and Green, used to open the door to obtain Heaven's Rod.\n\nIt takes on the appearance of a red, glowing crystal. Like the other crystals, it cannot be sold to the Merchant or traded to anyone.",
+    "source": "fisch.fandom.com"
   },
   {
     "id": "red-fangtooth",
@@ -46275,7 +46295,7 @@
   {
     "id": "reef-titan",
     "name": "Reef Titan",
-    "rarity": "Exotic",
+    "rarity": "[[Bestiary#Exotic",
     "sea": "<!--first or second sea-->",
     "location": "Coral Bastion",
     "sublocation": "Reef Titan Hunt",
@@ -46294,16 +46314,16 @@
     "bait": [
       "<!--preferred bait-->"
     ],
-    "baseWeight": 100000,
-    "baseValue": 35000,
+    "baseWeight": 75000,
+    "baseValue": 26250,
     "weightRange": {
-      "min": 50000,
-      "max": 150000
+      "min": 30000,
+      "max": 745500
     },
     "baseChance": null,
     "baseResil": -20,
     "event": null,
-    "description": "Reef Titan is a exotic fish found in Coral Bastion (Reef Titan Hunt). It has a base value of 35,000 C$/kg with a weight range of 50,000-150,000 kg. Best caught using <!--preferred bait-->. Appears during <!--preferred weather--> weather. Active at <!--preferred time-->. This is a moderate catch that requires some preparation.",
+    "description": "A mythical, collosal creature that is part of the reef itself. Its movements cause tremors, and its size defies belief.",
     "image": "Reef Titan.png",
     "imageUrl": "/images/fish/reef-titan.png",
     "tradeValue": null,
@@ -46322,8 +46342,10 @@
     "estimatedCsPerHour": null,
     "recommendation": "SELL TO NPC",
     "estimatedNpcValue": "3.50B C$",
-    "descriptionIsGenerated": true,
-    "howToCatch": "Reef Titan is an Exotic fish found in Coral Bastion.\nA mythical, collosal creature that is part of the reef itself.\n\nHead to Coral Bastion (Reef Titan Hunt). You will need a boat to reach this sea location.\n\nEquip the Stone Rod (or higher) and use <!--preferred bait--> as bait.\n\nWait for <!--preferred weather--> weather. Fish at <!--preferred time-->. Available during <!--preferred season-->.\n\nA moderate catch that requires some preparation. Best sold to NPC for quick profit."
+    "descriptionIsGenerated": false,
+    "howToCatch": "The Reef titan is a  Exotic  hunt fish obtainable in Tidefall at the Coral Bastion It's Resillence is -20 meaning its extreme . When reeling it in, a -80% progress speed is applied. \n\nWhen hooked, a Exoticwill appear above the players head and a shimmering sound is played, like all Exotic fish.",
+    "cPerKg": 0.35,
+    "source": "fisch.fandom.com"
   },
   {
     "id": "reefdart",
@@ -50133,37 +50155,35 @@
   {
     "id": "sea-pickle",
     "name": "Sea Pickle",
-    "rarity": "Mythical",
+    "rarity": "[[Bestiary#Mythical",
     "sea": null,
-    "location": "Ocean",
+    "location": "The Ocean",
     "sublocation": null,
     "sources": [
       "Fishing Rod"
     ],
     "radarCoords": null,
-    "xp": 2250,
+    "xp": 60,
     "weather": [
-      "Clear",
-      "Foggy"
+      "File:Clear.pngClearFile:Foggy.pngFoggy"
     ],
-    "time": "Night",
+    "time": "File:Night.pngNight",
     "season": [
-      "Autumn",
-      "Summer"
+      "File:Autumn.pngAutumnFile:Summer.pngSummer"
     ],
     "bait": [
-      "Seaweed"
+      "[[Seaweed (Bait)"
     ],
-    "baseWeight": 1.8,
-    "baseValue": 12000,
+    "baseWeight": 0.9,
+    "baseValue": 1800,
     "weightRange": {
-      "min": 0.5,
-      "max": 3
+      "min": 0,
+      "max": 2.5
     },
     "baseChance": 0.01,
     "baseResil": 50,
     "event": null,
-    "description": "Among Mythical fish, Sea Pickle stands out. Its The Ocean habitat means you'll be competing with other rare spawns.",
+    "description": "The Sea Pickle is a quirky, small, tube-like sea creature found on ocean beds. Its glowing green body gives off a faint bioluminescent light, making it easy to spot at night. It's known to wriggle out of nets and rods, making it a tricky catch. Despite its unassuming appearance, it's highly valued for its oddity and unique glow.\n}}\n\n==Description==\nThe Sea Pickle is a [[Bestiary#Mythical",
     "image": "Sea Pickle.png",
     "imageUrl": "/images/fish/sea-pickle.png",
     "tradeValue": null,
@@ -50183,7 +50203,9 @@
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "21.0K C$",
     "descriptionIsGenerated": false,
-    "howToCatch": "Sea Pickle is a Mythical fish found in the Ocean.\nThe Sea Pickle is a quirky, small, tube-like sea creature found on ocean beds.\n\nHead to Ocean.\n\nEquip the Fabulous Rod (or higher) and use Seaweed as bait.\n\nWait for Clear or Foggy weather. Fish at Night. Available during Autumn or Summer.\n\nA challenging catch — bring your best gear and time it right. Recommended to keep for trading rather than selling to NPC. Estimated earnings: ~126 C$/hr."
+    "howToCatch": "Sea Pickle is a Mythical fish found in the Ocean.\nThe Sea Pickle is a quirky, small, tube-like sea creature found on ocean beds.\n\nHead to Ocean.\n\nEquip the Fabulous Rod (or higher) and use Seaweed as bait.\n\nWait for Clear or Foggy weather. Fish at Night. Available during Autumn or Summer.\n\nA challenging catch — bring your best gear and time it right. Recommended to keep for trading rather than selling to NPC. Estimated earnings: ~126 C$/hr.",
+    "cPerKg": 2000,
+    "source": "fisch.fandom.com"
   },
   {
     "id": "sea-raven",
@@ -50346,7 +50368,7 @@
   {
     "id": "sea-turtle",
     "name": "Sea Turtle",
-    "rarity": "Mythical",
+    "rarity": "[[Bestiary#Mythic",
     "sea": null,
     "location": "Terrapin Island",
     "sublocation": null,
@@ -50356,11 +50378,13 @@
     "radarCoords": null,
     "xp": 2500,
     "weather": [],
-    "time": "Day",
+    "time": "File:Day.png\nDay",
     "season": [],
-    "bait": [],
-    "baseWeight": 210,
-    "baseValue": 12000,
+    "bait": [
+      "Any"
+    ],
+    "baseWeight": 110,
+    "baseValue": 1465,
     "weightRange": {
       "min": 70,
       "max": 350
@@ -50388,7 +50412,9 @@
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "2.52M C$",
     "descriptionIsGenerated": false,
-    "howToCatch": "Sea Turtle is a Mythical fish found in Terrapin Island.\nThe Sea Turtle is a graceful marine creature with a streamlined shell and paddle-like flippers, found gliding peacefully in warm coastal waters.\n\nHead to Terrapin Island.\n\nEquip the Random Rod (or higher).\n\nFish at Day.\n\nA moderate catch that requires some preparation. Recommended to keep for trading rather than selling to NPC. Estimated earnings: ~7.6K C$/hr."
+    "howToCatch": "Sea Turtle is a Mythical fish found in Terrapin Island.\nThe Sea Turtle is a graceful marine creature with a streamlined shell and paddle-like flippers, found gliding peacefully in warm coastal waters.\n\nHead to Terrapin Island.\n\nEquip the Random Rod (or higher).\n\nFish at Day.\n\nA moderate catch that requires some preparation. Recommended to keep for trading rather than selling to NPC. Estimated earnings: ~7.6K C$/hr.",
+    "cPerKg": 13.33,
+    "source": "fisch.fandom.com"
   },
   {
     "id": "sea-urchin",
@@ -51125,7 +51151,7 @@
   {
     "id": "shiny",
     "name": "Shiny",
-    "rarity": "Mythical",
+    "rarity": "[[Bestiary#Mythical",
     "sea": null,
     "location": "The Ocean",
     "sublocation": null,
@@ -51153,7 +51179,7 @@
     "trend": null,
     "dataSource": {
       "calculator": true,
-      "wiki": false
+      "wiki": true
     },
     "recommendedRod": null,
     "difficulty": "Medium",
@@ -51161,7 +51187,8 @@
     "recommendation": "SELL TO NPC",
     "estimatedNpcValue": "21.0K C$",
     "descriptionIsGenerated": false,
-    "howToCatch": "Sparkling\nimage = ShinyMutation.png\nShiny is an attribute which multiplies a fish's value by 1.\n\nHead to The Ocean.\n\nA moderate catch that requires some preparation. Best sold to NPC for quick profit."
+    "howToCatch": "Sparkling\nimage = ShinyMutation.png\nShiny is an attribute which multiplies a fish's value by 1.\n\nHead to The Ocean.\n\nA moderate catch that requires some preparation. Best sold to NPC for quick profit.",
+    "source": "fisch.fandom.com"
   },
   {
     "id": "shipwreck-barracuda",
@@ -60438,17 +60465,19 @@
     "weather": [],
     "time": null,
     "season": [],
-    "bait": [],
+    "bait": [
+      "Any"
+    ],
     "baseWeight": 10000,
     "baseValue": 60000,
     "weightRange": {
-      "min": 1,
-      "max": 19999
+      "min": null,
+      "max": null
     },
     "baseChance": null,
     "baseResil": -50,
     "event": null,
-    "description": "Tuskmaw is a divine secret fish found in Ocean. It has a base value of 60,000 C$/kg with a weight range of 1-19,999 kg. This is an easy catch, great for beginners.",
+    "description": "TBA",
     "image": "Tuskmaw.png",
     "imageUrl": "/images/fish/tuskmaw.png",
     "tradeValue": null,
@@ -60467,8 +60496,9 @@
     "estimatedCsPerHour": null,
     "recommendation": "KEEP FOR TRADING",
     "estimatedNpcValue": "600.00M C$",
-    "descriptionIsGenerated": true,
-    "howToCatch": "Tuskmaw is a Divine Secret fish found rarely in the Ocean.\nAn extremely dangerous octopus with giant tusks; known for destroying fish at the bottom of the ocean...\n\nHead to Ocean.\n\nEquip the Stone Rod (or higher).\n\nThis is an easy catch, great for beginners. Recommended to keep for trading rather than selling to NPC."
+    "descriptionIsGenerated": false,
+    "howToCatch": "Tuskmaw is a Divine Secret fish found rarely in the Ocean.\nAn extremely dangerous octopus with giant tusks; known for destroying fish at the bottom of the ocean...\n\nHead to Ocean.\n\nEquip the Stone Rod (or higher).\n\nThis is an easy catch, great for beginners. Recommended to keep for trading rather than selling to NPC.",
+    "source": "fisch.fandom.com"
   },
   {
     "id": "twilight-eel",
