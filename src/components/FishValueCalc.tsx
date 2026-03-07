@@ -7,10 +7,10 @@ interface Mutation {
 }
 
 interface Props {
-  baseValue: number;
-  weightMin: number;
-  weightMax: number;
-  baseWeight: number;
+  baseValue: number | null;
+  weightMin: number | null;
+  weightMax: number | null;
+  baseWeight: number | null;
   mutations: Mutation[];
 }
 
@@ -28,7 +28,11 @@ function formatC(n: number): string {
 }
 
 export default function FishValueCalc({ baseValue, weightMin, weightMax, baseWeight, mutations }: Props) {
-  const [weight, setWeight] = useState(baseWeight.toString());
+  const bv = baseValue ?? 0;
+  const wMin = weightMin ?? 0;
+  const wMax = weightMax ?? 0;
+  const bw = baseWeight ?? 0;
+  const [weight, setWeight] = useState(bw.toString());
   const [mutationId, setMutationId] = useState('none');
 
   const sorted = useMemo(
@@ -39,7 +43,7 @@ export default function FishValueCalc({ baseValue, weightMin, weightMax, baseWei
   const w = parseFloat(weight) || 0;
   const mutation = sorted.find(m => m.id === mutationId);
   const mult = mutation ? getMult(mutation) : 1;
-  const result = baseValue * w * mult;
+  const result = bv * w * mult;
 
   return (
     <div className="calc">
@@ -49,14 +53,14 @@ export default function FishValueCalc({ baseValue, weightMin, weightMax, baseWei
           id="calc-weight"
           className="calc__input"
           type="number"
-          min={weightMin}
-          max={weightMax}
+          min={wMin}
+          max={wMax}
           step="0.1"
           value={weight}
-          placeholder={`${weightMin} - ${weightMax}`}
+          placeholder={`${wMin} - ${wMax}`}
           onChange={e => setWeight(e.target.value)}
         />
-        <span className="calc__range">{weightMin} – {weightMax.toLocaleString('en-US')} kg</span>
+        <span className="calc__range">{wMin} – {wMax.toLocaleString('en-US')} kg</span>
       </div>
 
       <div className="calc__row">
@@ -83,7 +87,7 @@ export default function FishValueCalc({ baseValue, weightMin, weightMax, baseWei
         </span>
         {result > 0 && (
           <span className="calc__result-formula">
-            {baseValue.toLocaleString('en-US')} C$/kg × {w.toLocaleString('en-US')} kg{mult > 1 ? ` × ${mult}x` : ''}
+            {bv.toLocaleString('en-US')} C$/kg × {w.toLocaleString('en-US')} kg{mult > 1 ? ` × ${mult}x` : ''}
           </span>
         )}
       </div>
