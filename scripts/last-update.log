@@ -1,39 +1,42 @@
-=== RESUMEN UPDATE 2026-03-06 21:02 ===
+=== RESUMEN UPDATE 2026-03-07 09:02 ===
 
 Archivos modificados:
-  8 archivos cambiados
+  9 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4123 juegos (4123 procesados)
-Actualizados: 6 | Sin cambios: 3963
+Actualizados: 7 | Sin cambios: 3962
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 30 | Movidos a expirados: 4
-Tiempo: 149.3s | Concurrencia: 10
+Códigos nuevos: 13 | Movidos a expirados: 22
+Tiempo: 134.2s | Concurrencia: 10
 
 Juegos actualizados:
-  Dungeon Rng: 53→54 activos (+1), 3→3 exp
-    Nuevos: Winter2026
-  Hunty Zombies: 38→39 activos (+1), 140→140 exp
-    Nuevos: Thanksfor10k!
-  One Fruit: 109→111 activos (+2), 204→204 exp
-    Nuevos: GODVALLEY, CONTRACTS
-  Project Ghoul: 76→100 activos (+24), 270→253 exp
-    Nuevos: 6500Likes!, 18500Likes!, 12MVISITS!, HappyHalloween2020!, 13MVISITS!, 19000Likes!, Nutcracker!, Noro!, 47klikes, Sorry!, Code4, Code3, Code2, Code1, LoveJay, KakujasAreHere, 175KFAVS, 35MVISITS, 50KLIKES, Easter, 55KLikes, UpdateSoon, Halloween2022, HappyHalloween2022
-  Skibidi Toilet Battle Boom: 6→2 activos (-4), 93→98 exp
-    Nuevos: k1xbj5
-  Titanage: 20→21 activos (+1), 9→9 exp
-    Nuevos: BUSYBEE
+  Baddies Brawl: 42→44 activos (+2), 0→0 exp
+    Nuevos: pearl, thunder
+  Dollys Factory: 15→16 activos (+1), 2→2 exp
+    Nuevos: ticketformeistro
+  Freestyle Football: 22→26 activos (+4), 7→7 exp
+    Nuevos: sorry4delay, OzilBounce, SupaDupaThrow, ScissorSevenTuff
+  Meta Lock: 27→5 activos (-22), 144→169 exp
+    Nuevos: SuperSorryForDelay2, SuperSorryForDelay, NewMechs
+  Nfl Universe Football: 21→22 activos (+1), 235→235 exp
+    Nuevos: MARCHMADNESS
+  Project Egoist: 1→2 activos (+1), 37→37 exp
+    Nuevos: KuronaBuff
+  Restaurant Tycoon 3: 6→7 activos (+1), 13→13 exp
+    Nuevos: moon1
 
 Detalle cambios:
-data/games/codigos-dungeon-rng.json
-data/games/codigos-hunty-zombies.json
-data/games/codigos-one-fruit.json
-data/games/codigos-project-ghoul.json
-data/games/codigos-skibidi-toilet-battle-boom.json
-data/games/codigos-titanage.json
+data/games/codigos-baddies-brawl.json
+data/games/codigos-dollys-factory.json
+data/games/codigos-freestyle-football.json
+data/games/codigos-meta-lock.json
+data/games/codigos-nfl-universe-football.json
+data/games/codigos-project-egoist.json
+data/games/codigos-restaurant-tycoon-3.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
