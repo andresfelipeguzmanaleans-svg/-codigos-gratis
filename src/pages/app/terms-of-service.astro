@@ -1,0 +1,189 @@
+---
+export const prerender = true;
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+
+<Layout
+  title="Terms of Service — Fisch Values App"
+  description="Terms of Service for the Fisch Values mobile application."
+>
+  <Header />
+
+  <main class="main">
+    <div class="page-wrap">
+      <h1 class="page-title">Terms of Service — Fisch Values App</h1>
+
+      <div class="content">
+        <p><strong>Last Updated:</strong> March 2026</p>
+
+        <p>
+          By downloading, installing, or using <strong>Fisch Values</strong> ("the App"), you agree to be bound by these
+          Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
+        </p>
+
+        <h2>1. Disclaimer — Fan-Made Application</h2>
+        <p>
+          Fisch Values is a fan-made application and is <strong>NOT</strong> affiliated with, endorsed by, sponsored by, or
+          connected to Roblox Corporation or the developers of Fisch in any way. All game content,
+          including but not limited to item names, images, and game mechanics, are the property of their
+          respective owners. This app is an independent tool created to assist players with trading
+          decisions and game information.
+        </p>
+
+        <h2>2. Eligibility</h2>
+        <p>
+          You must be at least 13 years of age to use this App. By using the App, you represent and
+          warrant that you are at least 13 years old. If you are under 18, you represent that you have
+          your parent or guardian's permission to use the App.
+        </p>
+
+        <h2>3. User Accounts</h2>
+        <p>To access certain features, you may need to create an account. You are responsible for:</p>
+        <ul>
+          <li>Maintaining the confidentiality of your account credentials</li>
+          <li>All activities that occur under your account</li>
+          <li>Notifying us immediately of any unauthorized use</li>
+        </ul>
+        <p>We reserve the right to suspend or terminate accounts that violate these Terms.</p>
+
+        <h2>4. Trading Values Disclaimer</h2>
+        <p>
+          The trade values, item prices, and market data provided in this App are estimates based on
+          community data and are for <strong>informational purposes only</strong>. We do not guarantee the accuracy,
+          completeness, or timeliness of any values displayed. Trading decisions are made at your own
+          risk. We are not responsible for any losses incurred from trades based on information provided
+          by this App.
+        </p>
+
+        <h2>5. User Conduct</h2>
+        <p>You agree not to:</p>
+        <ul>
+          <li>Use the App for any illegal purpose</li>
+          <li>Post false, misleading, or fraudulent trade listings</li>
+          <li>Harass, abuse, or harm other users</li>
+          <li>Attempt to gain unauthorized access to the App or its systems</li>
+          <li>Use automated scripts, bots, or scrapers on the App</li>
+          <li>Impersonate another person or entity</li>
+          <li>Interfere with or disrupt the App's functionality</li>
+        </ul>
+
+        <h2>6. Intellectual Property</h2>
+        <p>
+          The App's design, code, and original content are owned by Codigos Gratis. Game-related content
+          (item names, images, descriptions) belong to their respective rights holders and are used under
+          fair use for informational purposes. You may not reproduce, distribute, or create derivative
+          works from the App without our written permission.
+        </p>
+
+        <h2>7. Limitation of Liability</h2>
+        <p>
+          THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR
+          IMPLIED. TO THE FULLEST EXTENT PERMITTED BY LAW, CODIGOS GRATIS SHALL NOT BE LIABLE
+          FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT
+          LIMITED TO LOSS OF PROFITS, DATA, OR GOODWILL, ARISING FROM YOUR USE OF THE APP.
+        </p>
+
+        <h2>8. Indemnification</h2>
+        <p>
+          You agree to indemnify and hold harmless Codigos Gratis, its officers, directors, employees, and
+          agents from any claims, damages, losses, or expenses arising from your use of the App or
+          violation of these Terms.
+        </p>
+
+        <h2>9. Termination</h2>
+        <p>
+          We may terminate or suspend your access to the App at any time, without prior notice, for any
+          reason, including violation of these Terms. Upon termination, your right to use the App ceases
+          immediately. You may delete your account at any time from the App Settings.
+        </p>
+
+        <h2>10. Dispute Resolution</h2>
+        <p>
+          Any disputes arising from these Terms or your use of the App shall be resolved through binding
+          arbitration in accordance with applicable laws, rather than in court. You agree to waive your
+          right to participate in a class action lawsuit or class-wide arbitration.
+        </p>
+
+        <h2>11. Changes to Terms</h2>
+        <p>
+          We reserve the right to modify these Terms at any time. Changes will be effective when posted
+          in the App. Your continued use of the App after changes constitutes acceptance of the updated
+          Terms. We encourage you to review these Terms periodically.
+        </p>
+
+        <h2>12. Contact Us</h2>
+        <p>
+          If you have questions about these Terms of Service, please contact us at:<br />
+          Email: <a href="mailto:info@codigos-gratis.com">info@codigos-gratis.com</a><br />
+          Website: <a href="https://codigos-gratis.com" target="_blank" rel="noopener noreferrer">codigos-gratis.com</a>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .main {
+    padding: 2rem 0 3rem;
+  }
+
+  .page-wrap {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  .content {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .content p {
+    margin-bottom: 1.25rem;
+  }
+
+  .content h2 {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .content ul {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+  }
+
+  .content li {
+    margin-bottom: 0.35rem;
+  }
+
+  .content strong {
+    color: var(--accent);
+  }
+
+  .content a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .content a:hover {
+    opacity: 0.8;
+  }
+</style>
