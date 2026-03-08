@@ -3,10 +3,15 @@
   "name": "Anime Rails",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-ba25d269a26a37513684e7aaa4ee0c80/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Rails en Roblox",
-  "metaTitle": "Códigos Anime Rails Roblox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Rails en Roblox. 28 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-23",
+  "metaTitle": "Códigos Anime Rails Roblox (Marzo 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Anime Rails en Roblox. 29 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-08T20:53:45.333Z",
   "activeCodes": [
+    {
+      "code": "ASSASSIN",
+      "reward": "Cash",
+      "addedDate": "2026-03-08"
+    },
     {
       "code": "BOSSRUSH",
       "reward": "Cash"
@@ -76,11 +81,23 @@
       "reward": "Cash"
     },
     {
+      "code": "5000CCU",
+      "reward": "Cash"
+    },
+    {
+      "code": "2MVISITS",
+      "reward": "Cash"
+    },
+    {
       "code": "ATOMIC",
       "reward": "Cash"
     },
     {
-      "code": "4MVISITS",
+      "code": "3MVISITS",
+      "reward": "Cash"
+    },
+    {
+      "code": "90KLikes",
       "reward": "Cash"
     },
     {
@@ -92,11 +109,7 @@
       "reward": "Cash"
     },
     {
-      "code": "90KLikes",
-      "reward": "Cash"
-    },
-    {
-      "code": "2MVISITS",
+      "code": "6MVISITS",
       "reward": "Cash"
     },
     {
@@ -104,55 +117,15 @@
       "reward": "Cash"
     },
     {
-      "code": "6MVISITS",
-      "reward": "Cash"
-    },
-    {
-      "code": "5000CCU",
+      "code": "4MVISITS",
       "reward": "Cash"
     },
     {
       "code": "40kLikes",
       "reward": "Cash"
-    },
-    {
-      "code": "3MVISITS",
-      "reward": "Cash"
     }
   ],
   "expiredCodes": [
-    {
-      "code": "25kLikes",
-      "reward": "Cash"
-    },
-    {
-      "code": "3000CCU",
-      "reward": "Cash"
-    },
-    {
-      "code": "TONY",
-      "reward": "Cash"
-    },
-    {
-      "code": "1000CCU",
-      "reward": "Cash gratis"
-    },
-    {
-      "code": "1MVISITS",
-      "reward": "Cash gratis"
-    },
-    {
-      "code": "NARU",
-      "reward": "Cash gratis"
-    },
-    {
-      "code": "10kLikes",
-      "reward": "Cash gratis"
-    },
-    {
-      "code": "7KLIKES",
-      "reward": "Cash gratis"
-    },
     {
       "code": "NEWHUB",
       "reward": "Cash gratis"
@@ -162,31 +135,11 @@
       "reward": "Cash gratis"
     },
     {
-      "code": "2500LIKES",
-      "reward": "Cash gratis"
-    },
-    {
-      "code": "1500LIKES",
-      "reward": "Cash gratis"
-    },
-    {
-      "code": "QUEST",
-      "reward": "Cash gratis"
-    },
-    {
-      "code": "1000LIKES",
-      "reward": "200 Cash"
-    },
-    {
-      "code": "JJK",
-      "reward": "100 Cash"
-    },
-    {
-      "code": "100LIKES",
-      "reward": "100 Cash"
-    },
-    {
       "code": "4000LIKES",
+      "reward": "Cash gratis"
+    },
+    {
+      "code": "1000CCU",
       "reward": "Cash gratis"
     },
     {
@@ -194,12 +147,40 @@
       "reward": "Cash"
     },
     {
+      "code": "1500LIKES",
+      "reward": "Cash gratis"
+    },
+    {
+      "code": "3000CCU",
+      "reward": "Cash"
+    },
+    {
+      "code": "25kLikes",
+      "reward": "Cash"
+    },
+    {
+      "code": "2500LIKES",
+      "reward": "Cash gratis"
+    },
+    {
       "code": "SORRYFORBUG",
       "reward": "500 Cash"
     },
     {
+      "code": "QUEST",
+      "reward": "Cash gratis"
+    },
+    {
+      "code": "100LIKES",
+      "reward": "100 Cash"
+    },
+    {
       "code": "PIRATE",
       "reward": "Cash gratis"
+    },
+    {
+      "code": "1000LIKES",
+      "reward": "200 Cash"
     },
     {
       "code": "BATTLEROYAL",
@@ -208,6 +189,30 @@
     {
       "code": "200LIKES",
       "reward": "100 Cash"
+    },
+    {
+      "code": "7KLIKES",
+      "reward": "Cash gratis"
+    },
+    {
+      "code": "JJK",
+      "reward": "100 Cash"
+    },
+    {
+      "code": "TONY",
+      "reward": "Cash"
+    },
+    {
+      "code": "NARU",
+      "reward": "Cash gratis"
+    },
+    {
+      "code": "1MVISITS",
+      "reward": "Cash gratis"
+    },
+    {
+      "code": "10kLikes",
+      "reward": "Cash gratis"
     }
   ],
   "howToRedeem": [
