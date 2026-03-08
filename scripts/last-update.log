@@ -1,54 +1,27 @@
-=== RESUMEN UPDATE 2026-03-07 20:53 ===
+=== RESUMEN UPDATE 2026-03-08 09:02 ===
 
 Archivos modificados:
-  13 archivos cambiados
+  4 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4123 juegos (4123 procesados)
-Actualizados: 11 | Sin cambios: 3958
+Actualizados: 2 | Sin cambios: 3967
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 42 | Movidos a expirados: 0
-Tiempo: 135.5s | Concurrencia: 10
+Códigos nuevos: 5 | Movidos a expirados: 0
+Tiempo: 132.5s | Concurrencia: 10
 
 Juegos actualizados:
-  A Hero S Destiny: 7→12 activos (+5), 60→60 exp
-    Nuevos: turkey, humanmonster, 150kmembers, 120klikes!, 110klikes!
-  Armless Detective: 40→42 activos (+2), 14→14 exp
-    Nuevos: 100kgroupmembers, 55millionvisits
-  Death Ball: 68→70 activos (+2), 1→1 exp
-    Nuevos: STELLAR, SUPERNOVANOW
-  Dudes Battlegrounds: 31→32 activos (+1), 80→80 exp
-    Nuevos: UPD64
-  Faction Defence Tycoon: 8→19 activos (+11), 11→11 exp
-    Nuevos: pressed22, fireflame5, xmaslvls, zedcash1, casher72, studtest61, startcash55, flames3, pres1234, xpbooster42, big2xmascash
-  Hots Rng: 41→42 activos (+1), 54→54 exp
-    Nuevos: YES
-  Lawn Mowing Simulator: 19→20 activos (+1), 4→4 exp
-    Nuevos: somanyfavs
-  Pro Piece Pro Max: 75→78 activos (+3), 33→33 exp
-    Nuevos: 55KFreeLuck, 55KFreeEXP, BestFillerEverExists
-  School Bus Simulator 23: 11→17 activos (+6), 12→12 exp
-    Nuevos: EASTER, 13KLIKES, THANKSFORLIKES, WEARESORRYUPDATE, POLICEUPDATE, 25KLIKES
-  Un Conventional: 21→22 activos (+1), 26→26 exp
-    Nuevos: vaybytheway
-  Xeno Online Ii Sandbox: 11→20 activos (+9), 46→46 exp
-    Nuevos: 5KZENI, ACROSIANUPDATE, SORRYV2, CiroShutdown, Sub2SenpaiCiro, 90SPINSBRAH, UPDATE1, 20SPINSUPDATESOON, BUGFIXCITY510
+  A One Piece Game: 194→198 activos (+4), 200→200 exp
+    Nuevos: ThukunaUpdate, AncientDemon, JujutsuHype!, BindingVow
+  Anime Eternal: 0→1 activos (+1), 707→707 exp
+    Nuevos: AllCodesInOneUpdate41
 
 Detalle cambios:
-data/games/codigos-a-hero-s-destiny.json
-data/games/codigos-armless-detective.json
-data/games/codigos-death-ball.json
-data/games/codigos-dudes-battlegrounds.json
-data/games/codigos-faction-defence-tycoon.json
-data/games/codigos-hots-rng.json
-data/games/codigos-lawn-mowing-simulator.json
-data/games/codigos-pro-piece-pro-max.json
-data/games/codigos-school-bus-simulator-23.json
-data/games/codigos-un-conventional.json
-data/games/codigos-xeno-online-ii-sandbox.json
+data/games/codigos-a-one-piece-game.json
+data/games/codigos-anime-eternal.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
