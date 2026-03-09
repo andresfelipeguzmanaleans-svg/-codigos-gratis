@@ -1,77 +1,41 @@
-=== RESUMEN UPDATE 2026-03-08 20:56 ===
+=== RESUMEN UPDATE 2026-03-09 10:34 ===
 
 Archivos modificados:
-  20 archivos cambiados
+  8 archivos cambiados
 
 Archivos nuevos:
-  1 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4124 juegos (4124 procesados)
-Actualizados: 18 | Sin cambios: 3952
+Actualizados: 6 | Sin cambios: 3964
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 34 | Movidos a expirados: 1
-Tiempo: 141.0s | Concurrencia: 10
+Códigos nuevos: 10 | Movidos a expirados: 25
+Tiempo: 146.4s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Eternal: 1→0 activos (-1), 707→708 exp
-  Anime Evolution: 21→22 activos (+1), 81→81 exp
-    Nuevos: VALENTINEPART2
-  Anime Rails: 28→29 activos (+1), 22→22 exp
-    Nuevos: ASSASSIN
-  Anime Spirits: 45→55 activos (+10), 86→86 exp
-    Nuevos: QINHUONGUPDATE, OBITUMADAROUPDATE, ANOSVOLDIGOLDFINAL, ARTHURLEYMINUPDATE, 155KLIKES, MAHORAGARIKA, DANJOREZA, SABERFATE, DANJIL, MODULOYUJO
-  Aopg: 134→138 activos (+4), 116→116 exp
-    Nuevos: ThukunaUpdate, AncientDemon, JujutsuHype!, BindingVow
-  Brainrot Evolution: 57→58 activos (+1), 1→1 exp
-    Nuevos: Fishybara
-  Car Zone: 11→13 activos (+2), 76→76 exp
-    Nuevos: 80MVISITS, UPDATE45
-  Dead Spells: 3→4 activos (+1), 22→22 exp
-    Nuevos: Gnomed
-  Faction Defence Tycoon: 19→20 activos (+1), 11→11 exp
-    Nuevos: ZEDGAMINGYTRIPZED
-  Fnaf Battlegrounds: 1→2 activos (+1), 12→12 exp
-    Nuevos: BALLOONBOY
-  Ghoul Re: 20→22 activos (+2), 81→81 exp
-    Nuevos: TurfWars!, FullKakujas!
-  Jujutsu Infinite: 2→3 activos (+1), 84→84 exp
-    Nuevos: LUNAR_FAREWELL
-  Mega Fun Obby: 5→6 activos (+1), 51→51 exp
-    Nuevos: thanks4playing
-  Merging Legends: 13→14 activos (+1), 10→10 exp
-    Nuevos: 6MillionVisits
-  Murder Mittens: 3→4 activos (+1), 2→2 exp
-    Nuevos: WOOHOO20K
-  Ninja Time: 15→18 activos (+3), 93→93 exp
-    Nuevos: SorryAbtDelay, CustomMasksSoon!, PastOfShuraku!
-  Project Baki 4: 8→10 activos (+2), 179→179 exp
-    Nuevos: THANKSFORTHELIKES, DEADPOOLNIGHT
-  Weapon Mayhem: 60→61 activos (+1), 1→1 exp
-    Nuevos: remake
+  Attack On Titan Revolution: 23→1 activos (-22), 4→27 exp
+    Nuevos: THANKSFORSTAYINGWITHUS
+  Highschool Hoops: 13→14 activos (+1), 23→23 exp
+    Nuevos: NONONO!
+  Midnight Chasers: 70→71 activos (+1), 89→89 exp
+    Nuevos: ThanksFor700k
+  Project Egoist: 2→3 activos (+1), 37→37 exp
+    Nuevos: QOLUpdateKurona
+  Unknown Rng: 14→17 activos (+3), 68→68 exp
+    Nuevos: MAPOVERHAUL, BIGUPDATEISTUFF, NEWISLANDISAMAZING
+  Volleyball Legends: 6→3 activos (-3), 215→221 exp
+    Nuevos: SUPER_TILTS, KIJO, UPDATE_60
 
 Detalle cambios:
-data/games/codigos-anime-eternal.json
-data/games/codigos-anime-evolution.json
-data/games/codigos-anime-rails.json
-data/games/codigos-anime-spirits.json
-data/games/codigos-aopg.json
-data/games/codigos-brainrot-evolution.json
-data/games/codigos-car-zone.json
-data/games/codigos-dead-spells.json
-data/games/codigos-faction-defence-tycoon.json
-data/games/codigos-fnaf-battlegrounds.json
-data/games/codigos-ghoul-re.json
-data/games/codigos-jujutsu-infinite.json
-data/games/codigos-mega-fun-obby.json
-data/games/codigos-merging-legends.json
-data/games/codigos-murder-mittens.json
-data/games/codigos-ninja-time.json
-data/games/codigos-project-baki-4.json
-data/games/codigos-weapon-mayhem.json
+data/games/codigos-attack-on-titan-revolution.json
+data/games/codigos-highschool-hoops.json
+data/games/codigos-midnight-chasers.json
+data/games/codigos-project-egoist.json
+data/games/codigos-unknown-rng.json
+data/games/codigos-volleyball-legends.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-catch-a-monster.json
 
