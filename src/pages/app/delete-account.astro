@@ -1,0 +1,124 @@
+---
+export const prerender = true;
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+
+<Layout
+  title="Delete Account — Fisch Values App"
+  description="Request deletion of your Fisch Values account and all associated data."
+>
+  <Header />
+
+  <main class="main">
+    <div class="page-wrap">
+      <h1 class="page-title">Delete Your Account</h1>
+
+      <div class="content">
+        <p>
+          If you want to delete your <strong>Fisch Values</strong> account and all associated data,
+          you can do it in two ways:
+        </p>
+
+        <h2>Option 1: From the App</h2>
+        <ol>
+          <li>Open the Fisch Values app</li>
+          <li>Go to the <strong>Profile</strong> tab</li>
+          <li>Tap <strong>Settings</strong></li>
+          <li>Tap <strong>Delete Account</strong></li>
+          <li>Confirm the deletion</li>
+        </ol>
+
+        <h2>Option 2: By Email</h2>
+        <p>
+          Send an email to <a href="mailto:andresfelipeguzmanaleans@gmail.com">andresfelipeguzmanaleans@gmail.com</a>
+          with the subject line <strong>"Delete My Account"</strong> and include the email address associated with your account.
+          We will process your request within 7 business days.
+        </p>
+
+        <h2>What Data Gets Deleted</h2>
+        <p>When your account is deleted, the following data is permanently removed:</p>
+        <ul>
+          <li>Your profile information (display name, email, avatar)</li>
+          <li>Your trade listings and offers</li>
+          <li>Your chat messages and direct messages</li>
+          <li>Your reviews</li>
+          <li>Your inventory and wishlist</li>
+        </ul>
+
+        <h2>Data Retention</h2>
+        <p>
+          All personal data is deleted within 30 days of your request. Anonymized, aggregated data
+          (such as total trade counts) may be retained as it cannot be linked back to your account.
+        </p>
+
+        <p><strong>This action is permanent and cannot be undone.</strong></p>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<style>
+  .main {
+    padding: 2rem 0 3rem;
+  }
+
+  .page-wrap {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  .content {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .content p {
+    margin-bottom: 1.25rem;
+  }
+
+  .content h2 {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .content ul, .content ol {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+  }
+
+  .content li {
+    margin-bottom: 0.35rem;
+  }
+
+  .content strong {
+    color: var(--accent);
+  }
+
+  .content a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  .content a:hover {
+    opacity: 0.8;
+  }
+</style>
