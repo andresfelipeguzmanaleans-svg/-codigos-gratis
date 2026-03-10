@@ -1,64 +1,24 @@
-=== RESUMEN UPDATE 2026-03-09 21:07 ===
+=== RESUMEN UPDATE 2026-03-10 10:09 ===
 
 Archivos modificados:
-  17 archivos cambiados
+  3 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4124 juegos (4124 procesados)
-Actualizados: 15 | Sin cambios: 3955
+Actualizados: 1 | Sin cambios: 3969
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 66 | Movidos a expirados: 5
-Tiempo: 150.8s | Concurrencia: 10
+Códigos nuevos: 1 | Movidos a expirados: 0
+Tiempo: 137.5s | Concurrencia: 10
 
 Juegos actualizados:
-  Ballista: 8→9 activos (+1), 5→5 exp
-    Nuevos: bNxyFb
-  Basketball Zero: 3→4 activos (+1), 150→153 exp
-    Nuevos: 1HRCURSEKING, 30CURSEKING, CURSEKING, DOMAINCLASH
-  Blue Lock Rivals: 18→21 activos (+3), 207→207 exp
-    Nuevos: NAGIEVOLUTION, ISAGIEVOLUTION, RIPGENERATIONAL
-  Dance for UGC: 0→0 activos (=), 541→543 exp
-  Destroyer Simulator: 54→64 activos (+10), 21→21 exp
-    Nuevos: CR1TS, 13000likes, T3DDY, TOYS, 16000likes, GL0V3S, 5mvis, M1NE, CR4FT, D4M4G3R
-  Dig To Find Dad: 12→14 activos (+2), 15→15 exp
-    Nuevos: SQUASHTHEBUGS, 3NEWBOMBS
-  Dragon Ball Revenge: 7→19 activos (+12), 44→44 exp
-    Nuevos: SorryForHack, Christmas2021, NewUpdate2021, SubToAlbeikerVC, SubToKrusplay, XFranvSailorX, SubToArisLoquendo, REWARDS!, Halloween2021, IMA_FRAN89, Listher4Dev, XSailorXZ
-  Giant Dance Off Simulator 2: 5→27 activos (+22), 12→12 exp
-    Nuevos: ETHANGAMER, DIAMONDS, WESMART, BINGBONG, MMMGINGERTREE, MONEYMONEY, ILIKECOINS, MMMDIAMONDS, thanos, ENDGAME, ISTHATATIGER, IFOUNDACODE, GIMMETHATDEER, EGGYHEAD, COINSCOINSCOINS, FREETHEZOMBIES, CCMINISANTA, SANTAS-LITTLE-HELPER, CRAZYCORRS, SENIAC, BIGUPSOMECOINS, SABRINA
-  Hunty Zombies: 39→43 activos (+4), 140→140 exp
-    Nuevos: Katna, MythicsAreBack!, HuntyDelays, 20kHunters!
-  Magnet Simulator 2: 5→7 activos (+2), 9→9 exp
-    Nuevos: 15k, 15kRelease
-  New Seas: 13→14 activos (+1), 125→125 exp
-    Nuevos: AncientGiantFinally
-  Project Polaro: 6→1 activos (-5), 144→149 exp
-  Rush Point: 10→11 activos (+1), 10→10 exp
-    Nuevos: FULLRELEASE-
-  Viking Simulator: 3→4 activos (+1), 5→5 exp
-    Nuevos: VIKING
-  Weak Legacy 2: 1→4 activos (+3), 64→64 exp
-    Nuevos: 2weekupdate, isbeastbreathingreal, sorry4bugs!
+  Blades Buffoonery: 10→11 activos (+1), 0→0 exp
+    Nuevos: 60KLIKES
 
 Detalle cambios:
-data/games/codigos-ballista.json
-data/games/codigos-basketball-zero.json
-data/games/codigos-blue-lock-rivals.json
-data/games/codigos-dance-for-ugc.json
-data/games/codigos-destroyer-simulator.json
-data/games/codigos-dig-to-find-dad.json
-data/games/codigos-dragon-ball-revenge.json
-data/games/codigos-giant-dance-off-simulator-2.json
-data/games/codigos-hunty-zombies.json
-data/games/codigos-magnet-simulator-2.json
-data/games/codigos-new-seas.json
-data/games/codigos-project-polaro.json
-data/games/codigos-rush-point.json
-data/games/codigos-viking-simulator.json
-data/games/codigos-weak-legacy-2.json
+data/games/codigos-blades-buffoonery.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
