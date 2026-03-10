@@ -1,24 +1,39 @@
-=== RESUMEN UPDATE 2026-03-10 10:09 ===
+=== RESUMEN UPDATE 2026-03-10 21:06 ===
 
 Archivos modificados:
-  3 archivos cambiados
+  8 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4124 juegos (4124 procesados)
-Actualizados: 1 | Sin cambios: 3969
+Actualizados: 6 | Sin cambios: 3964
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 1 | Movidos a expirados: 0
-Tiempo: 137.5s | Concurrencia: 10
+Códigos nuevos: 61 | Movidos a expirados: 0
+Tiempo: 144.1s | Concurrencia: 10
 
 Juegos actualizados:
-  Blades Buffoonery: 10→11 activos (+1), 0→0 exp
-    Nuevos: 60KLIKES
+  Combat Rift: 19→21 activos (+2), 25→25 exp
+    Nuevos: truewarior, MEGACODE
+  Magnet Simulator: 14→15 activos (+1), 44→44 exp
+    Nuevos: Sub2Telanthric
+  Marvel New Journey: 5→9 activos (+4), 11→11 exp
+    Nuevos: 2024V3, 2024V2, 2024V1, DEVTEAMATE
+  Rebirth Champions Ultimate: 34→38 activos (+4), 18→19 exp
+    Nuevos: monochrome, lovely, wildwest, bee, neon
+  Saitamania: 29→76 activos (+47), 68→68 exp
+    Nuevos: NEW_YEAR, GHuiT, BBR8l, KEgVL, yVXUs, E2MHL, 6P4Hd, zKhxe, bYxMl, e9V3L, rBim8, qdtwV, RdWgy, 80k_members, 90k_members, 100k_members, 110k_members, 125k_members, 30K_likes, 240SubsTwitter, 400SubsTwitter, 140k_members, 50K_FAVS, 165k_members, UPDATE_7, 190k_members, 700SubsTwitter, 35K_LIKESS, 220k_members, 250k_members, 280k_members, 45K_LIKESS, 10M_VISITS, 320k_members, 50K_LIKESS, 360k_members, CODE_EVENT_4, CODE_EVENT_3, CODE_EVENT_2, CODE_EVENT_1, 3000SubsTwitter, 55K_LIKESS, 400K_MEMBERS, CODE_EVENT_6, CODE_EVENT_5, CODE_EVENT_8, CODE_EVENT_7
+  Spider Man Simulator: 5→7 activos (+2), 5→5 exp
+    Nuevos: 34RLY-4CC3SS, 1000Likes!
 
 Detalle cambios:
-data/games/codigos-blades-buffoonery.json
+data/games/codigos-combat-rift.json
+data/games/codigos-magnet-simulator.json
+data/games/codigos-marvel-new-journey.json
+data/games/codigos-rebirth-champions-ultimate.json
+data/games/codigos-saitamania.json
+data/games/codigos-spider-man-simulator.json
 scripts/last-update.log
 scripts/update-codes-report.log
 

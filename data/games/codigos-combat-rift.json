@@ -3,10 +3,20 @@
   "name": "Combat Rift",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-7dfcba987e5b57ac05f74159372f1917/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Combat Rift en Roblox",
-  "metaTitle": "Códigos Combat Rift Roblox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Combat Rift en Roblox. 19 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-23",
+  "metaTitle": "Códigos Combat Rift Roblox (Marzo 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Combat Rift en Roblox. 21 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-10T21:03:55.619Z",
   "activeCodes": [
+    {
+      "code": "truewarior",
+      "reward": "Recompensas",
+      "addedDate": "2026-03-10"
+    },
+    {
+      "code": "MEGACODE",
+      "reward": "Recompensas",
+      "addedDate": "2026-03-10"
+    },
     {
       "code": "DUNGEON",
       "reward": "Recompensas"
@@ -16,8 +26,8 @@
       "reward": "3x Skulls Boost"
     },
     {
-      "code": "UPDATE2",
-      "reward": "600 gemas"
+      "code": "NINJACAVES",
+      "reward": "A 5 minuto 3x monedas Boost"
     },
     {
       "code": "UPDATE3",
@@ -28,16 +38,12 @@
       "reward": "A 5 minuto 2x Health Boost and a 5 minuto 3x suerte Boost"
     },
     {
-      "code": "NINJACAVES",
-      "reward": "A 5 minuto 3x monedas Boost"
+      "code": "UPDATE2",
+      "reward": "600 gemas"
     },
     {
       "code": "RELEASE",
       "reward": "100 monedas and 20 gemas"
-    },
-    {
-      "code": "EXTINCTION",
-      "reward": "A 2x suerte Boost"
     },
     {
       "code": "UPDATE11",
@@ -52,16 +58,8 @@
       "reward": "A 5 minuto 3x daño Boost"
     },
     {
-      "code": "BUGFIXES",
-      "reward": "A 5 minuto 3x Skulls Boost"
-    },
-    {
       "code": "UPDATE12",
       "reward": "5 minutos of Auto Sell"
-    },
-    {
-      "code": "BUGSSQUASHED",
-      "reward": "A 1 hora 3x monedas Boost"
     },
     {
       "code": "ALCHEMYEVENT",
@@ -72,66 +70,34 @@
       "reward": "20 minutos of Auto Sell"
     },
     {
-      "code": "MEGABOOST",
-      "reward": "1 hora of All Boosts"
+      "code": "BUGSSQUASHED",
+      "reward": "A 1 hora 3x monedas Boost"
+    },
+    {
+      "code": "JULYEVENT",
+      "reward": "A 5 minuto 3x daño Boost"
     },
     {
       "code": "S3CRET",
       "reward": "50 Eternals"
     },
     {
-      "code": "JULYEVENT",
-      "reward": "A 5 minuto 3x daño Boost"
+      "code": "MEGABOOST",
+      "reward": "1 hora of All Boosts"
+    },
+    {
+      "code": "BUGFIXES",
+      "reward": "A 5 minuto 3x Skulls Boost"
+    },
+    {
+      "code": "EXTINCTION",
+      "reward": "A 2x suerte Boost"
     }
   ],
   "expiredCodes": [
     {
       "code": "ExtraPetStorage",
       "reward": "10 Sword Storage Slots"
-    },
-    {
-      "code": "LUCKYBOOST",
-      "reward": "A 5 minuto 3x suerte Boost"
-    },
-    {
-      "code": "NEWDUNGEON",
-      "reward": "A 10 minuto 3x monedas Boost"
-    },
-    {
-      "code": "FREEBOOST",
-      "reward": "A 5 minuto 3x monedas Boost"
-    },
-    {
-      "code": "2.5MVISITS",
-      "reward": "A 5 minuto 3x suerte Boost"
-    },
-    {
-      "code": "UPDATE6",
-      "reward": "A 5 minuto 3x monedas Boost"
-    },
-    {
-      "code": "POTIONHYPE",
-      "reward": "200 Eternals"
-    },
-    {
-      "code": "20KLIKES",
-      "reward": "A 5 minuto 3x gemas Boost"
-    },
-    {
-      "code": "UPDATE4",
-      "reward": "A 5 minuto 3x monedas Boost"
-    },
-    {
-      "code": "AURAHYPE",
-      "reward": "A 5 minuto 3x daño Boost"
-    },
-    {
-      "code": "TWITTERCODE",
-      "reward": "A 5 minuto 3x monedas Boost"
-    },
-    {
-      "code": "5KLIKES",
-      "reward": "A 5 minuto 3x gemas Boost"
     },
     {
       "code": "2.5KLIKES",
@@ -148,6 +114,50 @@
     {
       "code": "FUTUREZONE",
       "reward": "A 20 minuto 2x suerte Boost"
+    },
+    {
+      "code": "TWITTERCODE",
+      "reward": "A 5 minuto 3x monedas Boost"
+    },
+    {
+      "code": "LUCKYBOOST",
+      "reward": "A 5 minuto 3x suerte Boost"
+    },
+    {
+      "code": "POTIONHYPE",
+      "reward": "200 Eternals"
+    },
+    {
+      "code": "20KLIKES",
+      "reward": "A 5 minuto 3x gemas Boost"
+    },
+    {
+      "code": "UPDATE4",
+      "reward": "A 5 minuto 3x monedas Boost"
+    },
+    {
+      "code": "LIMITEDREWARDSOP",
+      "reward": "A 5 minuto 3x monedas Boost"
+    },
+    {
+      "code": "NEWDUNGEON",
+      "reward": "A 10 minuto 3x monedas Boost"
+    },
+    {
+      "code": "UPDATE6",
+      "reward": "A 5 minuto 3x monedas Boost"
+    },
+    {
+      "code": "FREEBOOST",
+      "reward": "A 5 minuto 3x monedas Boost"
+    },
+    {
+      "code": "AURAHYPE",
+      "reward": "A 5 minuto 3x daño Boost"
+    },
+    {
+      "code": "5KLIKES",
+      "reward": "A 5 minuto 3x gemas Boost"
     },
     {
       "code": "CR4LIFE",
@@ -178,8 +188,8 @@
       "reward": "A 5 minuto 2x Health Boost"
     },
     {
-      "code": "LIMITEDREWARDSOP",
-      "reward": "A 5 minuto 3x monedas Boost"
+      "code": "2.5MVISITS",
+      "reward": "A 5 minuto 3x suerte Boost"
     },
     {
       "code": "COMBATRIFT",
