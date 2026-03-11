@@ -1,45 +1,36 @@
-=== RESUMEN UPDATE 2026-03-11 10:11 ===
+=== RESUMEN UPDATE 2026-03-11 21:06 ===
 
 Archivos modificados:
-  10 archivos cambiados
+  7 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4124 juegos (4124 procesados)
-Actualizados: 8 | Sin cambios: 3960
-No encontrado: 143 | Saltados: 13
-Códigos nuevos: 19 | Movidos a expirados: 0
-Tiempo: 141.5s | Concurrencia: 10
+Actualizados: 5 | Sin cambios: 3965
+No encontrado: 141 | Saltados: 13
+Códigos nuevos: 15 | Movidos a expirados: 0
+Tiempo: 171.2s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Eternal: 0→1 activos (+1), 708→708 exp
-    Nuevos: Update41P2AllCodesInOne
-  Asura: 108→109 activos (+1), 4→4 exp
-    Nuevos: !LittleBugfixPlzPlz
-  Jurassic Genesis: 1→1 activos (=), 10→11 exp
-    Nuevos: SORRYFORDELAYS
-  Knight Simulator: 7→18 activos (+11), 5→5 exp
-    Nuevos: MYSTIC, MYSTERY, FROZEN, FIRE, THUNDER, VOID, DEKU, TRADE, GOKU, DRAGONS, NINJA
-  Pets World: 17→18 activos (+1), 24→24 exp
-    Nuevos: Heart
-  Prison Pump: 25→27 activos (+2), 0→0 exp
-    Nuevos: newyearnewme, letsfight091
-  Shards Of Power: 11→12 activos (+1), 18→18 exp
-    Nuevos: Gold
-  Speed City: 8→9 activos (+1), 14→14 exp
-    Nuevos: Zigzag
+  Anime Guardians: 106→110 activos (+4), 66→66 exp
+    Nuevos: BLEACHAIZENYHAWCH, SHINYADDED, YUJI_MODULO_FIXED, UPDATE26
+  Cross Piece: 9→12 activos (+3), 0→0 exp
+    Nuevos: REBORNREBORN1, FREESTATRESET1, FREEDBGEMS2
+  Knight Simulator: 18→24 activos (+6), 5→5 exp
+    Nuevos: 1klikes, VOIDISLAND, PROHATCHER, 5klikes, KNIGHTHERO1, 15klikes
+  Nanny: 4→5 activos (+1), 0→0 exp
+    Nuevos: IwantCASH
+  Project Menacing Remake: 31→32 activos (+1), 2→4 exp
+    Nuevos: CRAZYDIAMOND
 
 Detalle cambios:
-data/games/codigos-anime-eternal.json
-data/games/codigos-asura.json
-data/games/codigos-jurassic-genesis.json
+data/games/codigos-anime-guardians.json
+data/games/codigos-cross-piece.json
 data/games/codigos-knight-simulator.json
-data/games/codigos-pets-world.json
-data/games/codigos-prison-pump.json
-data/games/codigos-shards-of-power.json
-data/games/codigos-speed-city.json
+data/games/codigos-nanny.json
+data/games/codigos-project-menacing-remake.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
