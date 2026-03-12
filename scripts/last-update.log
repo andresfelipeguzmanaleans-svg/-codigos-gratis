@@ -1,36 +1,30 @@
-=== RESUMEN UPDATE 2026-03-11 21:06 ===
+=== RESUMEN UPDATE 2026-03-12 10:10 ===
 
 Archivos modificados:
-  7 archivos cambiados
+  5 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4124 juegos (4124 procesados)
-Actualizados: 5 | Sin cambios: 3965
+Actualizados: 3 | Sin cambios: 3967
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 15 | Movidos a expirados: 0
-Tiempo: 171.2s | Concurrencia: 10
+Códigos nuevos: 3 | Movidos a expirados: 0
+Tiempo: 157.4s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Guardians: 106→110 activos (+4), 66→66 exp
-    Nuevos: BLEACHAIZENYHAWCH, SHINYADDED, YUJI_MODULO_FIXED, UPDATE26
-  Cross Piece: 9→12 activos (+3), 0→0 exp
-    Nuevos: REBORNREBORN1, FREESTATRESET1, FREEDBGEMS2
-  Knight Simulator: 18→24 activos (+6), 5→5 exp
-    Nuevos: 1klikes, VOIDISLAND, PROHATCHER, 5klikes, KNIGHTHERO1, 15klikes
-  Nanny: 4→5 activos (+1), 0→0 exp
-    Nuevos: IwantCASH
-  Project Menacing Remake: 31→32 activos (+1), 2→4 exp
-    Nuevos: CRAZYDIAMOND
+  Hots Rng: 42→43 activos (+1), 54→54 exp
+    Nuevos: 12MVisits
+  Project Mugetsu: 313→314 activos (+1), 15→15 exp
+    Nuevos: WEREBACK
+  Viking Simulator: 4→5 activos (+1), 5→5 exp
+    Nuevos: ViKing!
 
 Detalle cambios:
-data/games/codigos-anime-guardians.json
-data/games/codigos-cross-piece.json
-data/games/codigos-knight-simulator.json
-data/games/codigos-nanny.json
-data/games/codigos-project-menacing-remake.json
+data/games/codigos-hots-rng.json
+data/games/codigos-project-mugetsu.json
+data/games/codigos-viking-simulator.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
