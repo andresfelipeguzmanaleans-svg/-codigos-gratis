@@ -1,45 +1,33 @@
-=== RESUMEN UPDATE 2026-03-13 21:09 ===
+=== RESUMEN UPDATE 2026-03-14 09:07 ===
 
 Archivos modificados:
-  10 archivos cambiados
+  6 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4124 juegos (4124 procesados)
-Actualizados: 8 | Sin cambios: 3962
+Actualizados: 4 | Sin cambios: 3966
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 49 | Movidos a expirados: 0
-Tiempo: 139.3s | Concurrencia: 10
+Códigos nuevos: 4 | Movidos a expirados: 0
+Tiempo: 137.6s | Concurrencia: 10
 
 Juegos actualizados:
-  Clicker Realms X: 9→21 activos (+12), 3→3 exp
-    Nuevos: Update2, 200Concurrent, Update3, topcst, Scarlett, Fr33Rebirths, 1KConcurrent, 1MVisits, 2KConcurrent, SubToLucaDaBoy, ScamirDevs, Release
-  Def 1: 18→21 activos (+3), 46→46 exp
-    Nuevos: ty450, Another1, 50M!
-  Faction Defence Tycoon: 20→22 activos (+2), 11→11 exp
-    Nuevos: XP123, FLAMER2
-  Holy War 3: 5→33 activos (+28), 87→87 exp
-    Nuevos: MELIDRIP, SAGEMODE, MINATO, Peekaboo, 100K, RESETME7, YOUWANTTRYME, FOUNDME4, GETURMAGIC2, GETURRACE2, 100FORVIBES, 100FORGANG, 10MILLYOURWELCOME, ANDAGEEN, NOWHOLDTHIS, STATRESET2, DESUNSTORM, LMBFAO, ONEFORYOU, ONEFORMY, SHINOBI, PROJECT, PROJECTHERO10, MAGICMILLY, RACEMILLY, MELLYMILLY, MUSCLEAUGMENTS, NERFHIMNOW
-  Island Royale: 126→127 activos (+1), 67→67 exp
-    Nuevos: OSSOLOSBOIII
-  One Fruit: 111→112 activos (+1), 204→204 exp
-    Nuevos: HYBIRDSOON
-  Skibidi Toilet Battle Boom: 2→3 activos (+1), 98→98 exp
-    Nuevos: drquvc
-  Wisteria: 10→11 activos (+1), 28→28 exp
-    Nuevos: !8000Likes
+  Aopg: 138→139 activos (+1), 116→116 exp
+    Nuevos: NewFixUpdates!L
+  Armless Detective: 42→43 activos (+1), 14→14 exp
+    Nuevos: stpatricksday
+  Highschool Hoops: 14→15 activos (+1), 23→23 exp
+    Nuevos: THOUGHTITWASOVER!
+  Nfl Universe Football: 22→23 activos (+1), 235→235 exp
+    Nuevos: SPRINGISHERE
 
 Detalle cambios:
-data/games/codigos-clicker-realms-x.json
-data/games/codigos-def-1.json
-data/games/codigos-faction-defence-tycoon.json
-data/games/codigos-holy-war-3.json
-data/games/codigos-island-royale.json
-data/games/codigos-one-fruit.json
-data/games/codigos-skibidi-toilet-battle-boom.json
-data/games/codigos-wisteria.json
+data/games/codigos-aopg.json
+data/games/codigos-armless-detective.json
+data/games/codigos-highschool-hoops.json
+data/games/codigos-nfl-universe-football.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
