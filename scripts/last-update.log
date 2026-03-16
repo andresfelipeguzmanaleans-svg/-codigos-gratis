@@ -1,33 +1,47 @@
-=== RESUMEN UPDATE 2026-03-16 11:16 ===
+=== RESUMEN UPDATE 2026-03-16 22:00 ===
 
 Archivos modificados:
-  6 archivos cambiados
+  11 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4124 juegos (4124 procesados)
-Actualizados: 4 | Sin cambios: 3966
+Actualizados: 9 | Sin cambios: 3961
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 6 | Movidos a expirados: 5
-Tiempo: 135.3s | Concurrencia: 10
+Códigos nuevos: 14 | Movidos a expirados: 2
+Tiempo: 144.9s | Concurrencia: 10
 
 Juegos actualizados:
-  Animatronic Nights: 1→1 activos (=), 51→52 exp
-    Nuevos: UPD32
-  Car Crushers 2: 32→33 activos (+1), 2→2 exp
-    Nuevos: BLAZINGTORQUE
-  Ninja Time: 18→21 activos (+3), 93→93 exp
-    Nuevos: MassiveBackendRework!, M1Rework!, DidYouFindIt!
-  Own A Fish Pond: 6→1 activos (-5), 46→52 exp
-    Nuevos: THEBIGUPDATENEWS
+  Anime Eternal: 2→0 activos (-2), 709→711 exp
+  Aopg: 139→141 activos (+2), 116→116 exp
+    Nuevos: GravityAdmiral, DestructiveForce
+  Basketball Zero: 3→3 activos (=), 157→160 exp
+    Nuevos: 1HRCHROLLOVSTATLIS, 30CHROLLOVSTATLIS, CHROLLOVSTATLIS
+  Blue Lock Rivals: 21→24 activos (+3), 207→207 exp
+    Nuevos: CROWFLOWCODE, CROWCODE, KARASUHYPE
+  Fabled Legacy: 20→22 activos (+2), 91→91 exp
+    Nuevos: CLOVER, FREEGEMS
+  Hots Rng: 43→44 activos (+1), 54→54 exp
+    Nuevos: FLEET
+  Project Hero: 5→6 activos (+1), 80→80 exp
+    Nuevos: WISEH
+  Saitamania: 76→77 activos (+1), 68→68 exp
+    Nuevos: UPDATE_8
+  Silent Assassin: 21→22 activos (+1), 0→0 exp
+    Nuevos: NEWYEAR2025
 
 Detalle cambios:
-data/games/codigos-animatronic-nights.json
-data/games/codigos-car-crushers-2.json
-data/games/codigos-ninja-time.json
-data/games/codigos-own-a-fish-pond.json
+data/games/codigos-anime-eternal.json
+data/games/codigos-aopg.json
+data/games/codigos-basketball-zero.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-fabled-legacy.json
+data/games/codigos-hots-rng.json
+data/games/codigos-project-hero.json
+data/games/codigos-saitamania.json
+data/games/codigos-silent-assassin.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
