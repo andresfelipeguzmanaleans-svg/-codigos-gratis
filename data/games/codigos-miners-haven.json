@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-365bd4ce78492a2f078257e691348b34/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Miners Haven en Roblox",
   "metaTitle": "Códigos Miners Haven Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Miners Haven en Roblox. 32 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-15T20:59:54.865Z",
+  "metaDescription": "Lista actualizada de códigos para Miners Haven en Roblox. 33 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-19T21:50:57.670Z",
   "activeCodes": [
+    {
+      "code": "GoldIsVeryHeavy",
+      "reward": "Recompensas",
+      "addedDate": "2026-03-19"
+    },
     {
       "code": "CloverBloom!",
       "reward": "Recompensas",
@@ -93,12 +98,12 @@
       "reward": "1,000,000"
     },
     {
-      "code": "HappyHalloween!",
-      "reward": "100 Boo 20"
-    },
-    {
       "code": "hogog",
       "reward": "Hogog"
+    },
+    {
+      "code": "HappyHalloween!",
+      "reward": "100 Boo 20"
     },
     {
       "code": "HaveASlice",
@@ -138,14 +143,6 @@
     }
   ],
   "expiredCodes": [
-    {
-      "code": "EASTER25",
-      "reward": "20 UC and 2 Easter Boxes"
-    },
-    {
-      "code": "HIFROMAPHRO",
-      "reward": "40 UC"
-    },
     {
       "code": "TalonIsRefusingToAddCodes",
       "reward": "2 Birthday Boxes"
@@ -223,24 +220,8 @@
       "reward": "One Magnificent Box"
     },
     {
-      "code": "ancientcode",
-      "reward": "Ten Ancient Conveyors"
-    },
-    {
-      "code": "EXOTICDAY2020",
-      "reward": "Five Clown Doges"
-    },
-    {
       "code": "DragonThatIsShockinglyLucky",
       "reward": "One Oof Particles"
-    },
-    {
-      "code": "Rthro",
-      "reward": "One Heavenly Infuser"
-    },
-    {
-      "code": "HeadStart",
-      "reward": "100,000 Cash"
     },
     {
       "code": "TooManyEggs",
@@ -249,6 +230,30 @@
     {
       "code": "FREECLOVERS50",
       "reward": "50 Clovers"
+    },
+    {
+      "code": "ancientcode",
+      "reward": "Ten Ancient Conveyors"
+    },
+    {
+      "code": "HIFROMAPHRO",
+      "reward": "40 UC"
+    },
+    {
+      "code": "EXOTICDAY2020",
+      "reward": "Five Clown Doges"
+    },
+    {
+      "code": "EASTER25",
+      "reward": "20 UC and 2 Easter Boxes"
+    },
+    {
+      "code": "Rthro",
+      "reward": "One Heavenly Infuser"
+    },
+    {
+      "code": "HeadStart",
+      "reward": "100,000 Cash"
     },
     {
       "code": "restoredata",

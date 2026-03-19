@@ -1,19 +1,36 @@
-=== RESUMEN UPDATE 2026-03-19 10:10 ===
+=== RESUMEN UPDATE 2026-03-19 21:52 ===
 
 Archivos modificados:
-  2 archivos cambiados
+  7 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4124 juegos (4124 procesados)
-Actualizados: 0 | Sin cambios: 3970
+Actualizados: 5 | Sin cambios: 3965
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 0 | Movidos a expirados: 0
-Tiempo: 147.3s | Concurrencia: 10
+Códigos nuevos: 14 | Movidos a expirados: 0
+Tiempo: 134.7s | Concurrencia: 10
+
+Juegos actualizados:
+  Anime Eternal: 0→1 activos (+1), 711→711 exp
+    Nuevos: Update42P3AllCodesInOne
+  Meta Lock: 5→8 activos (+3), 169→169 exp
+    Nuevos: SmallNinjaRevamp, SaeReworkSoon, WatchtowerWeapon
+  Miners Haven: 32→33 activos (+1), 69→69 exp
+    Nuevos: GoldIsVeryHeavy
+  Murder Legends: 4→12 activos (+8), 0→0 exp
+    Nuevos: FREECOINS, FREECHROMA, NETHER, SOUL, FALL, 1MVISITS, 5000, 50KVISITS
+  Reborn Skills Master: 23→24 activos (+1), 24→24 exp
+    Nuevos: update67
 
 Detalle cambios:
+data/games/codigos-anime-eternal.json
+data/games/codigos-meta-lock.json
+data/games/codigos-miners-haven.json
+data/games/codigos-murder-legends.json
+data/games/codigos-reborn-skills-master.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
