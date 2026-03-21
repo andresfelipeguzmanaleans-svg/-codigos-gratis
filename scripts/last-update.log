@@ -1,30 +1,51 @@
-=== RESUMEN UPDATE 2026-03-20 21:05 ===
+=== RESUMEN UPDATE 2026-03-21 09:05 ===
 
 Archivos modificados:
-  5 archivos cambiados
+  12 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4124 juegos (4124 procesados)
-Actualizados: 3 | Sin cambios: 3967
+Actualizados: 10 | Sin cambios: 3960
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 3 | Movidos a expirados: 2
-Tiempo: 166.9s | Concurrencia: 10
+Códigos nuevos: 12 | Movidos a expirados: 4
+Tiempo: 131.1s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Eternal: 1→2 activos (+1), 711→711 exp
-    Nuevos: AllCodesInOneUpdate43
-  Ninja Time: 21→22 activos (+1), 93→93 exp
-    Nuevos: EidMubarak!
-  Twisted: 3→1 activos (-2), 0→3 exp
-    Nuevos: 100MILLIONVISITS
+  Asylum Life: 19→20 activos (+1), 0→0 exp
+    Nuevos: DOOMSDAY
+  Baddies Brawl: 44→45 activos (+1), 0→0 exp
+    Nuevos: cosmic
+  Basketball Legends: 35→38 activos (+3), 63→63 exp
+    Nuevos: FIRE, SPRINGSKINS, SPRINGGREEN
+  Flashpoint Worlds Collide: 3→4 activos (+1), 52→52 exp
+    Nuevos: yayspring!!
+  Ghoul Re: 23→24 activos (+1), 81→81 exp
+    Nuevos: EidMubark
+  Midnight Chasers: 71→72 activos (+1), 89→89 exp
+    Nuevos: ThanksFor710k
+  Nfl Universe Football: 23→24 activos (+1), 235→235 exp
+    Nuevos: FLAGSOON
+  Restaurant Tycoon 3: 8→4 activos (-4), 13→16 exp
+    Nuevos: cake3
+  Special Forces Simulator: 15→16 activos (+1), 8→8 exp
+    Nuevos: 361KLIKES
+  Stickman Td: 24→25 activos (+1), 0→0 exp
+    Nuevos: spring
 
 Detalle cambios:
-data/games/codigos-anime-eternal.json
-data/games/codigos-ninja-time.json
-data/games/codigos-twisted.json
+data/games/codigos-asylum-life.json
+data/games/codigos-baddies-brawl.json
+data/games/codigos-basketball-legends.json
+data/games/codigos-flashpoint-worlds-collide.json
+data/games/codigos-ghoul-re.json
+data/games/codigos-midnight-chasers.json
+data/games/codigos-nfl-universe-football.json
+data/games/codigos-restaurant-tycoon-3.json
+data/games/codigos-special-forces-simulator.json
+data/games/codigos-stickman-td.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
