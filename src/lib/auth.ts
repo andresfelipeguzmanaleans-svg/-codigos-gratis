@@ -14,9 +14,12 @@ export function parseCookie(header: string, name: string): string | null {
 // ── Signed session tokens (HMAC-SHA256) ──
 
 function getSessionSecret(): string {
-  const secret = runtimeEnv('SESSION_SECRET') || import.meta.env.SESSION_SECRET;
-  if (!secret) throw new Error('SESSION_SECRET not configured');
-  return secret;
+  // Use SESSION_SECRET if available, otherwise derive from SUPABASE_SECRET_KEY
+  const explicit = runtimeEnv('SESSION_SECRET') || import.meta.env.SESSION_SECRET;
+  if (explicit) return explicit;
+  const supabaseKey = runtimeEnv('SUPABASE_SECRET_KEY') || import.meta.env.SUPABASE_SECRET_KEY;
+  if (!supabaseKey) throw new Error('No secret available for session signing');
+  return crypto.createHash('sha256').update(`session:${supabaseKey}`).digest('hex');
 }
 
 function hmacSign(payload: string): string {
