@@ -1,32 +1,30 @@
-=== RESUMEN UPDATE 2026-03-21 20:57 ===
+=== RESUMEN UPDATE 2026-03-22 09:06 ===
 
 Archivos modificados:
-  6 archivos cambiados
+  5 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4124 juegos (4124 procesados)
-Actualizados: 4 | Sin cambios: 3966
+Actualizados: 3 | Sin cambios: 3967
 No encontrado: 141 | Saltados: 13
-Códigos nuevos: 5 | Movidos a expirados: 2
-Tiempo: 132.8s | Concurrencia: 10
+Códigos nuevos: 6 | Movidos a expirados: 0
+Tiempo: 121.1s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Eternal: 2→0 activos (-2), 711→713 exp
-  Basketball Zero: 3→3 activos (=), 160→163 exp
-    Nuevos: 1HRJUDGEMENT, 30JUDGEMENT, JUDGEMENT
-  Highway Legends: 25→26 activos (+1), 0→0 exp
-    Nuevos: 3mfavorites
-  Survival Odyssey: 14→15 activos (+1), 25→25 exp
-    Nuevos: Trap
+  Death Ball: 70→72 activos (+2), 1→1 exp
+    Nuevos: NEWEVO, MISAKI
+  One Fruit Simulator: 101→103 activos (+2), 225→225 exp
+    Nuevos: TRUEVAMP, EASTERISCOMING
+  Pixel Blade: 51→53 activos (+2), 1→1 exp
+    Nuevos: 675K, Raven
 
 Detalle cambios:
-data/games/codigos-anime-eternal.json
-data/games/codigos-basketball-zero.json
-data/games/codigos-highway-legends.json
-data/games/codigos-survival-odyssey.json
+data/games/codigos-death-ball.json
+data/games/codigos-one-fruit-simulator.json
+data/games/codigos-pixel-blade.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
