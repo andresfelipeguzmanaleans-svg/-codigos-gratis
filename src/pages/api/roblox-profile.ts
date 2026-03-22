@@ -1,33 +1,44 @@
 import type { APIRoute } from 'astro';
 
-const CORS_HEADERS = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type',
-};
+const ALLOWED_ORIGINS = [
+  'https://codigos-gratis.com',
+  'https://www.codigos-gratis.com',
+];
 
-function json(data: unknown, status = 200, extra: Record<string, string> = {}) {
+function getCorsHeaders(request: Request): Record<string, string> {
+  const origin = request.headers.get('origin') || '';
+  const allowedOrigin = ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0];
+  return {
+    'Access-Control-Allow-Origin': allowedOrigin,
+    'Access-Control-Allow-Methods': 'GET, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Vary': 'Origin',
+  };
+}
+
+function json(data: unknown, cors: Record<string, string>, status = 200, extra: Record<string, string> = {}) {
   return new Response(JSON.stringify(data), {
     status,
-    headers: { 'Content-Type': 'application/json', ...CORS_HEADERS, ...extra },
+    headers: { 'Content-Type': 'application/json', ...cors, ...extra },
   });
 }
 
-export const OPTIONS: APIRoute = async () => {
-  return new Response(null, { status: 200, headers: CORS_HEADERS });
+export const OPTIONS: APIRoute = async ({ request }) => {
+  return new Response(null, { status: 200, headers: getCorsHeaders(request) });
 };
 
 export const GET: APIRoute = async ({ request }) => {
+  const cors = getCorsHeaders(request);
   const url = new URL(request.url);
   const username = url.searchParams.get('username');
 
   if (!username) {
-    return json({ error: 'El parámetro "username" es obligatorio.' }, 400);
+    return json({ error: 'El parámetro "username" es obligatorio.' }, cors, 400);
   }
 
   const trimmed = username.trim();
   if (trimmed.length < 1 || trimmed.length > 20) {
-    return json({ error: 'El nombre de usuario debe tener entre 1 y 20 caracteres.' }, 400);
+    return json({ error: 'El nombre de usuario debe tener entre 1 y 20 caracteres.' }, cors, 400);
   }
 
   try {
@@ -62,7 +73,7 @@ export const GET: APIRoute = async ({ request }) => {
     }
 
     if (!userId) {
-      return json({ error: 'Usuario no encontrado.' }, 404);
+      return json({ error: 'Usuario no encontrado.' }, cors, 404);
     }
 
     // Step 2: Parallel batch — all primary data
@@ -195,9 +206,9 @@ export const GET: APIRoute = async ({ request }) => {
       games,
     };
 
-    return json(result, 200, { 'Cache-Control': 's-maxage=300, stale-while-revalidate=60' });
+    return json(result, cors, 200, { 'Cache-Control': 's-maxage=300, stale-while-revalidate=60' });
   } catch (err) {
     console.error('Roblox API error:', err);
-    return json({ error: 'Error al consultar la API de Roblox. Inténtalo de nuevo.' }, 500);
+    return json({ error: 'Error al consultar la API de Roblox. Inténtalo de nuevo.' }, cors, 500);
   }
 };

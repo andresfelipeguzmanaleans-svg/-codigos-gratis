@@ -1,8 +1,16 @@
 import type { APIRoute } from 'astro';
+import { parseCookie, verifySessionToken } from '../../../lib/auth';
 
-function parseCookie(header: string, name: string): string | null {
-  const match = header.match(new RegExp(`(?:^|;\\s*)${name}=([^;]*)`));
-  return match ? decodeURIComponent(match[1]) : null;
+// Backwards-compatible: also accept old unsigned base64 tokens during migration
+function verifyLegacyToken(token: string) {
+  if (token.includes('.')) return null;
+  try {
+    const payload = JSON.parse(Buffer.from(token, 'base64').toString('utf-8'));
+    if (!payload.userId || !payload.exp || payload.exp < Date.now()) return null;
+    return payload;
+  } catch {
+    return null;
+  }
 }
 
 export const GET: APIRoute = async ({ request }) => {
@@ -16,9 +24,9 @@ export const GET: APIRoute = async ({ request }) => {
   }
 
   try {
-    const sessionData = JSON.parse(Buffer.from(sessionCookie, 'base64').toString());
+    const sessionData = verifySessionToken(sessionCookie) || verifyLegacyToken(sessionCookie);
 
-    if (sessionData.exp && sessionData.exp < Date.now()) {
+    if (!sessionData) {
       const headers = new Headers({ 'Content-Type': 'application/json' });
       headers.append('Set-Cookie', 'session=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0');
       return new Response(JSON.stringify({ user: null }), { headers });

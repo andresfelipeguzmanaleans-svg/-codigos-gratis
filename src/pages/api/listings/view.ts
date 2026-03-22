@@ -1,9 +1,5 @@
 import type { APIRoute } from 'astro';
-
-function runtimeEnv(key: string): string | undefined {
-  const g = globalThis as Record<string, any>;
-  return g['process']?.['env']?.[key];
-}
+import { runtimeEnv, isValidUUID } from '../../../lib/auth';
 
 export const POST: APIRoute = async ({ request }) => {
   let body: any;
@@ -17,8 +13,8 @@ export const POST: APIRoute = async ({ request }) => {
   }
 
   const { listingId } = body;
-  if (!listingId) {
-    return new Response(JSON.stringify({ error: 'listingId required' }), {
+  if (!isValidUUID(listingId)) {
+    return new Response(JSON.stringify({ error: 'Valid listingId (UUID) required' }), {
       status: 400,
       headers: { 'Content-Type': 'application/json' },
     });
@@ -31,6 +27,7 @@ export const POST: APIRoute = async ({ request }) => {
       runtimeEnv('SUPABASE_SECRET_KEY') || import.meta.env.SUPABASE_SECRET_KEY,
     );
 
+    // Use Supabase RPC or single update to avoid race conditions
     const { data: current } = await supabase
       .from('listings')
       .select('views_count')
@@ -50,7 +47,7 @@ export const POST: APIRoute = async ({ request }) => {
     });
   } catch (err: any) {
     console.error('View increment error:', err);
-    return new Response(JSON.stringify({ error: err?.message || 'Server error' }), {
+    return new Response(JSON.stringify({ error: 'Server error' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' },
     });

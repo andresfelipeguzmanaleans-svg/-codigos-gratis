@@ -1,15 +1,5 @@
 import type { APIRoute } from 'astro';
-
-// Runtime env access — opaque to Vite/esbuild so it won't be replaced at build time
-function runtimeEnv(key: string): string | undefined {
-  const g = globalThis as Record<string, any>;
-  return g['process']?.['env']?.[key];
-}
-
-function parseCookie(header: string, name: string): string | null {
-  const match = header.match(new RegExp(`(?:^|;\\s*)${name}=([^;]*)`));
-  return match ? decodeURIComponent(match[1]) : null;
-}
+import { runtimeEnv, parseCookie, createSessionToken } from '../../../lib/auth';
 
 function redirectTo(url: string, cookies?: string[]): Response {
   const headers = new Headers({ Location: url });
@@ -129,15 +119,13 @@ export const GET: APIRoute = async ({ request }) => {
       return redirectTo(`${returnTo}${sep}auth_error=db_error`);
     }
 
-    const sessionPayload = JSON.stringify({
+    const sessionToken = createSessionToken({
       userId: user.id,
       robloxId: user.roblox_id,
       username: user.roblox_username,
       avatar: user.roblox_avatar_url,
       displayName: user.display_name,
-      exp: Date.now() + 7 * 24 * 60 * 60 * 1000,
     });
-    const sessionToken = Buffer.from(sessionPayload).toString('base64');
 
     return redirectTo(returnTo, [
       `session=${sessionToken}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=604800`,

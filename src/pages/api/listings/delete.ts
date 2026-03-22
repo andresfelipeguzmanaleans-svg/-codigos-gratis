@@ -1,28 +1,5 @@
 import type { APIRoute } from 'astro';
-
-function runtimeEnv(key: string): string | undefined {
-  const g = globalThis as Record<string, any>;
-  return g['process']?.['env']?.[key];
-}
-
-function parseCookie(header: string, name: string): string | null {
-  const match = header.match(new RegExp(`(?:^|;\\s*)${name}=([^;]*)`));
-  return match ? decodeURIComponent(match[1]) : null;
-}
-
-function getSession(request: Request) {
-  const cookieHeader = request.headers.get('cookie') || '';
-  const token = parseCookie(cookieHeader, 'session');
-  if (!token) return null;
-
-  try {
-    const payload = JSON.parse(Buffer.from(token, 'base64').toString('utf-8'));
-    if (!payload.userId || !payload.exp || payload.exp < Date.now()) return null;
-    return payload as { userId: string; robloxId: number; username: string };
-  } catch {
-    return null;
-  }
-}
+import { runtimeEnv, getSession, isValidUUID } from '../../../lib/auth';
 
 export const POST: APIRoute = async ({ request }) => {
   const session = getSession(request);
@@ -44,8 +21,8 @@ export const POST: APIRoute = async ({ request }) => {
   }
 
   const { listingId } = body;
-  if (!listingId) {
-    return new Response(JSON.stringify({ error: 'listingId required' }), {
+  if (!isValidUUID(listingId)) {
+    return new Response(JSON.stringify({ error: 'Valid listingId (UUID) required' }), {
       status: 400,
       headers: { 'Content-Type': 'application/json' },
     });
