@@ -5,31 +5,37 @@
   "description": "Todos los códigos activos para Ultimate Town Multiplayer en Roblox",
   "metaTitle": "Códigos Ultimate Town Multiplayer Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Ultimate Town Multiplayer en Roblox. 5 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-18T10:40:28.992Z",
+  "lastUpdated": "2026-03-23T21:54:50.008Z",
   "activeCodes": [
     {
+      "code": "200K",
+      "reward": "500 Cash",
+      "addedDate": "2026-03-23"
+    },
+    {
       "code": "WEAREBACK",
-      "reward": "250 gemas, $2,500, 500 XP, and a ton of cofre llaves",
+      "reward": "250 gemas, 2500 Cash, 500 XP, cofre llaves",
       "addedDate": "2026-03-18"
     },
     {
-      "code": "UTMXMAS2025",
-      "reward": "250 Cookies and 10 Holiday cofre llaves"
-    },
-    {
       "code": "1MVISITS",
-      "reward": "Legendario Wrap cofre llaves"
+      "reward": "Legendario Wrap cofre"
     },
     {
       "code": "AIRDROP",
-      "reward": "50 gemas and 100 XP"
+      "reward": "50 gemas, 100 XP"
     },
     {
       "code": "RELEASE",
       "reward": "100 gemas"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "UTMXMAS2025",
+      "reward": "250 Cookies and 10 Holiday cofre llaves"
+    }
+  ],
   "howToRedeem": [
     "Abre Ultimate Town Multiplayer en Roblox",
     "Busca el botón de códigos en el menú",

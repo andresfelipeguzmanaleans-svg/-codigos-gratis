@@ -3,13 +3,17 @@
   "name": "Noodle Arms",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-c3d13485f809b63116b2fc6441c5e859/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Noodle Arms en Roblox",
-  "metaTitle": "Códigos Noodle Arms Roblox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Noodle Arms en Roblox. 16 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-23",
+  "metaTitle": "Códigos Noodle Arms Roblox (Marzo 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Noodle Arms en Roblox. 15 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-23T21:54:02.800Z",
   "activeCodes": [
     {
-      "code": "FREECOINS",
-      "reward": "50 monedas"
+      "code": "ALBERT",
+      "reward": "Chill Arms"
+    },
+    {
+      "code": "FREEZER",
+      "reward": "Ice Cube Arms"
     },
     {
       "code": "DREAMSWORD",
@@ -20,23 +24,19 @@
       "reward": "Meteor Arms"
     },
     {
+      "code": "FREECOINS",
+      "reward": "50 monedas"
+    },
+    {
       "code": "WHEAT",
       "reward": "Bread Arms"
     },
     {
-      "code": "ALBERT",
-      "reward": "Chill Arms"
-    },
-    {
-      "code": "FREEZER",
-      "reward": "Ice Cube Arms"
-    },
-    {
-      "code": "SWISS",
-      "reward": "Cheese Arms"
-    },
-    {
       "code": "EXTRACOINS",
+      "reward": "100 monedas"
+    },
+    {
+      "code": "CASHMONEY",
       "reward": "100 monedas"
     },
     {
@@ -44,7 +44,7 @@
       "reward": "50 monedas"
     },
     {
-      "code": "CASHMONEY",
+      "code": "VOLCANIC",
       "reward": "100 monedas"
     },
     {
@@ -66,13 +66,14 @@
     {
       "code": "SUPERHOT",
       "reward": "50 monedas"
-    },
-    {
-      "code": "VOLCANIC",
-      "reward": "100 monedas"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "SWISS",
+      "reward": "Cheese Arms"
+    }
+  ],
   "howToRedeem": [
     "Abre Noodle Arms en Roblox",
     "Busca el botón de códigos en el menú",

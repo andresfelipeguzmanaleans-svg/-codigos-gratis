@@ -4,35 +4,37 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-53662b1ddc79d64d907c2b22992ea0f5/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fabled Legacy en Roblox",
   "metaTitle": "Códigos Fabled Legacy Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fabled Legacy en Roblox. 22 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-16T21:58:10.910Z",
+  "metaDescription": "Lista actualizada de códigos para Fabled Legacy en Roblox. 6 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-23T21:53:28.843Z",
   "activeCodes": [
     {
       "code": "CLOVER",
-      "reward": "Recompensas gratis",
+      "reward": "15 gemas",
       "addedDate": "2026-03-16"
     },
     {
       "code": "FREEGEMS",
-      "reward": "Recompensas gratis",
+      "reward": "100 gemas",
       "addedDate": "2026-03-16"
     },
     {
       "code": "LOVE",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "130KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "CHRISTMAS25",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "NEWYEAR26",
-      "reward": "Recompensas gratis"
-    },
+      "reward": "100 gemas"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "NEON",
       "reward": "Recompensas gratis"
@@ -96,256 +98,318 @@
     {
       "code": "SYLPH",
       "reward": "Recompensas gratis"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "PEARLS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "35KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CRYSTALLINE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FABLED",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FREEKEYS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "LOBSTER",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "REVENGE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "WOOP",
-      "reward": "100 gemas"
-    },
-    {
-      "code": "EMBERS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "30KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "20MVISITS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "THANKYOU",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "100MVISITS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CURSED",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "LEGACY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "105KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NEWYEAR",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CELEBRATIONS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "100KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "THANKSFOR100K",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HELLBOUND",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "PATIENCE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TURKEY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HALLOWEEN",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "DELAY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SOULS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "95KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CANNONCLAW",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FISHY",
-      "reward": "Recompensas gratis"
     },
     {
       "code": "EMBERWING",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
+    },
+    {
+      "code": "35KLIKES",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "CRYSTALLINE",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "FABLED",
+      "reward": "300"
+    },
+    {
+      "code": "FREEKEYS",
+      "reward": "3 Raid llaves"
+    },
+    {
+      "code": "LOBSTER",
+      "reward": "Diamantes"
+    },
+    {
+      "code": "REVENGE",
+      "reward": "100 Amber"
+    },
+    {
+      "code": "WOOP",
+      "reward": "Diamantes"
+    },
+    {
+      "code": "EMBERS",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "30KLIKES",
+      "reward": "Diamantes"
+    },
+    {
+      "code": "20MVISITS",
+      "reward": "Diamantes"
+    },
+    {
+      "code": "THANKYOU",
+      "reward": "Diamantes"
+    },
+    {
+      "code": "EASTER",
+      "reward": "100 Eggs"
+    },
+    {
+      "code": "CALAMITY",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "50MILONMYWRIST",
+      "reward": "300 gemas"
+    },
+    {
+      "code": "SERPENT",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "OVERKILL",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "PLUNGER",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "INFINITE",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "FIREWORKS",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "75KLIKES",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "QUESTS",
+      "reward": "300 gemas"
+    },
+    {
+      "code": "BOOSTS",
+      "reward": "All Boosts (15 minutos)"
+    },
+    {
+      "code": "ANDROMEDA",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "65KLIKES",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "60KLIKES",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "90KLIKES",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "45KLIKES",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "100MVISITS",
+      "reward": "300 gemas"
+    },
+    {
+      "code": "CURSED",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "LEGACY",
+      "reward": "300 gemas"
+    },
+    {
+      "code": "105KLIKES",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "NEWYEAR",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "CELEBRATIONS",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "100KLIKES",
+      "reward": "200 gemas"
+    },
+    {
+      "code": "THANKSFOR100K",
+      "reward": "15 minutos of XP Boost, 15 minutos of Material Boost and 15 minutos of suerte Boost"
+    },
+    {
+      "code": "HELLBOUND",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "PATIENCE",
+      "reward": "200 gemas"
+    },
+    {
+      "code": "TURKEY",
+      "reward": "100"
+    },
+    {
+      "code": "HALLOWEEN",
+      "reward": "Every Boost (15 minutos)"
+    },
+    {
+      "code": "DELAY",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "SOULS",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "95KLIKES",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "CANNONCLAW",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "FISHY",
+      "reward": "Every Boost (15 minutos)"
+    },
+    {
+      "code": "PEARLS",
+      "reward": "100 gemas"
     },
     {
       "code": "85KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "PHOENIX",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "TRIDENT",
-      "reward": "Recompensas gratis"
+      "reward": "All Boosts (15 minutos)"
     },
     {
       "code": "FARLANDS",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "80KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "KINGDOM",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "BARRY",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "EGG",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "55KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "VANITY",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "DOMAIN",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "VALENTINES",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "PRESENTS24",
-      "reward": "Recompensas gratis"
+      "reward": "500 Presents"
     },
     {
       "code": "THORNHEART",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "ROSE",
-      "reward": "Recompensas gratis"
+      "reward": "Diamantes"
     },
     {
       "code": "THANKSFOR40KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "TIME",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "RAGNAROK",
-      "reward": "Recompensas gratis"
+      "reward": "Diamantes"
     },
     {
       "code": "15MVISITS",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "26KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "CURSEDMARSHES",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "BALLOON",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "10MVISITS",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "22KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "18KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "12KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "10KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "SUNKENFORTRESS",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "8KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "3MVISITS",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "6KLIKESOMG",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "5KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     },
     {
       "code": "2MVISITS",
@@ -356,112 +420,132 @@
       "reward": "100 diamantes"
     },
     {
+      "code": "NOBUGS",
+      "reward": "100"
+    },
+    {
+      "code": "7KLIKES",
+      "reward": "100 diamantes"
+    },
+    {
+      "code": "X3XP",
+      "reward": "100"
+    },
+    {
+      "code": "WELOVEROBLOX",
+      "reward": "100"
+    },
+    {
+      "code": "TYPICALROBLOX",
+      "reward": "100"
+    },
+    {
+      "code": "SPIDER",
+      "reward": "100"
+    },
+    {
+      "code": "REVAMP",
+      "reward": "Diamantes"
+    },
+    {
+      "code": "ALMOSTTIME",
+      "reward": "100"
+    },
+    {
+      "code": "ELEMENTAL",
+      "reward": "Diamantes"
+    },
+    {
+      "code": "STARDUST",
+      "reward": "100"
+    },
+    {
+      "code": "DRAGON",
+      "reward": "100"
+    },
+    {
+      "code": "PEPE",
+      "reward": "100"
+    },
+    {
+      "code": "FLAMINGO",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "SAKURA",
+      "reward": "100"
+    },
+    {
+      "code": "NEWYEAR24",
+      "reward": "200"
+    },
+    {
+      "code": "CHRISTMAS",
+      "reward": "200"
+    },
+    {
+      "code": "BONUS",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "THEREISNODELAY",
+      "reward": "100"
+    },
+    {
+      "code": "password123",
+      "reward": "100"
+    },
+    {
+      "code": "WELOVEROBLOXSOMUCH",
+      "reward": "100"
+    },
+    {
+      "code": "NAHIDDELAY",
+      "reward": "300"
+    },
+    {
       "code": "HEARTBREAKER",
-      "reward": "Recompensas gratis"
+      "reward": "5,000 Valentines Pass Exp"
     },
     {
       "code": "DARKNESS",
-      "reward": "Recompensas gratis"
+      "reward": "Every Boost (15 minutos)"
     },
     {
       "code": "CALAMITOUS",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "TOINFINITYANDBEYOND",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "70KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "THESTREAKISGONE",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "IMMORTAL",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "50KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "SPOOKY",
-      "reward": "Recompensas gratis"
+      "reward": "100 gemas"
     },
     {
       "code": "FREETOKENS",
-      "reward": "Recompensas gratis"
+      "reward": "3 Upgrade tokens"
     },
     {
       "code": "15KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "EASTER",
-      "reward": "100 Eggs"
-    },
-    {
-      "code": "CALAMITY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "50MILONMYWRIST",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SERPENT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "OVERKILL",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "PLUNGER",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "INFINITE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FIREWORKS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "75KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "QUESTS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BOOSTS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ANDROMEDA",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "65KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "60KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "90KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "45KLIKES",
-      "reward": "Recompensas gratis"
+      "reward": "100 diamantes"
     }
   ],
   "howToRedeem": [

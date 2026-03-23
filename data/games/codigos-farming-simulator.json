@@ -3,16 +3,21 @@
   "name": "Farming Simulator",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-474ea97acac3934190361fb43a394f97/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Farming Simulator en Roblox",
-  "metaTitle": "Códigos Farming Simulator Roblox (Febrero 2026) - Códigos Gratis",
+  "metaTitle": "Códigos Farming Simulator Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Farming Simulator en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-03-23T21:53:29.226Z",
   "activeCodes": [
     {
-      "code": "FARMING",
-      "reward": "2000 monedas"
+      "code": "WELCOME",
+      "reward": "50 gemas, 1 Horse Shoe",
+      "addedDate": "2026-03-23"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "FARMING",
+      "reward": "2000 monedas"
+    },
     {
       "code": "KREEK",
       "reward": "50 Cash"
@@ -59,10 +64,6 @@
     },
     {
       "code": "TERABRITE",
-      "reward": "50 Cash"
-    },
-    {
-      "code": "TRACTOR",
       "reward": "50 Cash"
     },
     {
@@ -150,12 +151,20 @@
       "reward": "10 tokens And $10k"
     },
     {
-      "code": "TOKENS",
-      "reward": "5 tokens And $5k"
-    },
-    {
       "code": "1FADING",
       "reward": "2 tokens And $5k"
+    },
+    {
+      "code": "TRACTOR",
+      "reward": "50 Cash"
+    },
+    {
+      "code": "FUZION",
+      "reward": "50 Cash"
+    },
+    {
+      "code": "TOKENS",
+      "reward": "5 tokens And $5k"
     },
     {
       "code": "SPOOK",
@@ -168,10 +177,6 @@
     {
       "code": "FIREBALL",
       "reward": "$5k"
-    },
-    {
-      "code": "FUZION",
-      "reward": "50 Cash"
     }
   ],
   "howToRedeem": [

@@ -3,24 +3,27 @@
   "name": "Bitcoin Miner",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-8a207a0b444269be96ec1e882c62150c/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Bitcoin Miner en Roblox",
-  "metaTitle": "Códigos Bitcoin Miner Roblox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Bitcoin Miner en Roblox. 12 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-23",
+  "metaTitle": "Códigos Bitcoin Miner Roblox (Marzo 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Bitcoin Miner en Roblox. 14 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-23T21:53:00.988Z",
   "activeCodes": [
     {
+      "code": "Y24C",
+      "reward": "Super Mining Boost (5 minutos)",
+      "addedDate": "2026-03-23"
+    },
+    {
+      "code": "SF50",
+      "reward": "Super Mining Boost",
+      "addedDate": "2026-03-23"
+    },
+    {
+      "code": "NoBoostHere",
+      "reward": "Super Mining Boost (3 minutos)",
+      "addedDate": "2026-03-23"
+    },
+    {
       "code": "91WT",
-      "reward": "Super Mining Boost"
-    },
-    {
-      "code": "B35E",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "77U8",
-      "reward": "Super Mining Boost"
-    },
-    {
-      "code": "E7R6",
       "reward": "Super Mining Boost"
     },
     {
@@ -44,25 +47,33 @@
       "reward": "Starter Electricity Boost"
     },
     {
-      "code": "54L5",
-      "reward": "Recompensas"
-    },
-    {
       "code": "H4MX",
-      "reward": "Recompensas"
+      "reward": "Super Mining Boost"
     },
     {
       "code": "22XD",
+      "reward": "Super Mining Boost"
+    },
+    {
+      "code": "B35E",
+      "reward": "Super Mining Boost (5 minutos)"
+    },
+    {
+      "code": "77U8",
+      "reward": "Super Mining Boost"
+    },
+    {
+      "code": "E7R6",
       "reward": "Super Mining Boost"
     }
   ],
   "expiredCodes": [
     {
-      "code": "CHANGEPROGRESS",
-      "reward": "This code Changes the beta version to the regular version"
+      "code": "54L5",
+      "reward": "Recompensas"
     },
     {
-      "code": "GPUBOOST",
+      "code": "LIGHTNINGSPEED",
       "reward": "Super Mining Boost"
     },
     {
@@ -178,6 +189,50 @@
       "reward": "1 Super Mining Boost"
     },
     {
+      "code": "CHANGEPROGRESS",
+      "reward": "This code Changes the beta version to the regular version"
+    },
+    {
+      "code": "NewFence",
+      "reward": "5x Oak Fence"
+    },
+    {
+      "code": "PHASE2",
+      "reward": "Cofre gratis"
+    },
+    {
+      "code": "G3HU",
+      "reward": "Super Mining Boost"
+    },
+    {
+      "code": "TreasureBoost",
+      "reward": "Unknown"
+    },
+    {
+      "code": "7XL2",
+      "reward": "Super Mining Boost (5 minutos)"
+    },
+    {
+      "code": "LongBoost",
+      "reward": "5 minuto x4 Boost"
+    },
+    {
+      "code": "MoreBoosts",
+      "reward": "Mining Boost"
+    },
+    {
+      "code": "SimpleTriangle",
+      "reward": "Prism Logo"
+    },
+    {
+      "code": "WEEKEND",
+      "reward": "2 Boost estrellas"
+    },
+    {
+      "code": "BITMINER",
+      "reward": "Unknown"
+    },
+    {
       "code": "BtrBoost",
       "reward": "Super Mining Boost"
     },
@@ -223,7 +278,7 @@
     },
     {
       "code": "thxfor100m",
-      "reward": "Recompensas. gratis"
+      "reward": "Recompensas gratis"
     },
     {
       "code": "ExchangeSkulls",
@@ -251,7 +306,7 @@
     },
     {
       "code": "FreeCrate",
-      "reward": "Cofre. gratis"
+      "reward": "Cofre gratis"
     },
     {
       "code": "GiveLantern",
@@ -290,7 +345,7 @@
       "reward": "Super Mining Boost"
     },
     {
-      "code": "LIGHTNINGSPEED",
+      "code": "GPUBOOST",
       "reward": "Super Mining Boost"
     }
   ],

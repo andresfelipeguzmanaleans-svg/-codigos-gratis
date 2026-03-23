@@ -3,22 +3,41 @@
   "name": "Paint Simulator",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-b2de72caf4592ffb65444e0cd9021a6e/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Paint Simulator en Roblox",
-  "metaTitle": "Códigos Paint Simulator Roblox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Paint Simulator en Roblox. 10 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-23",
+  "metaTitle": "Códigos Paint Simulator Roblox (Marzo 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Paint Simulator en Roblox. 7 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-23T21:54:05.797Z",
   "activeCodes": [
     {
-      "code": "UPDATE5",
-      "reward": "A 3x moneda Boost"
+      "code": "Plaything",
+      "reward": "1 3x dinero Boost (10 minutos)",
+      "addedDate": "2026-03-23"
     },
     {
       "code": "canvas",
-      "reward": "Recompensa gratis"
+      "reward": "1 3x dinero Boost (10 minutos)"
     },
     {
       "code": "PAINT",
       "reward": "3,000 monedas"
     },
+    {
+      "code": "UPDATE5",
+      "reward": "1 3x monedas Boost (10 minutos)"
+    },
+    {
+      "code": "MORECOINS",
+      "reward": "2,000 monedas"
+    },
+    {
+      "code": "UPDATE6",
+      "reward": "Boost gratis"
+    },
+    {
+      "code": "ManyCoins",
+      "reward": "500 monedas"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "NORTHPOLE",
       "reward": "Recompensas gratis"
@@ -32,34 +51,20 @@
       "reward": "5,000 monedas"
     },
     {
-      "code": "MORECOINS",
-      "reward": "2,000 monedas"
-    },
-    {
-      "code": "ManyCoins",
-      "reward": "500 monedas"
-    },
-    {
-      "code": "UPDATE6",
-      "reward": "A Boost gratis"
-    },
-    {
       "code": "Santa",
       "reward": "2,000 monedas"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "October",
-      "reward": "A 3x moneda Boost"
-    },
-    {
-      "code": "Spooky",
-      "reward": "A 3x moneda Boost"
     },
     {
       "code": "Snowflake",
-      "reward": "A 3x moneda Boost"
+      "reward": "3x moneda Boost"
+    },
+    {
+      "code": "Spooky",
+      "reward": "3x moneda Boost"
+    },
+    {
+      "code": "October",
+      "reward": "3x moneda Boost"
     }
   ],
   "howToRedeem": [

@@ -3,32 +3,42 @@
   "name": "Wanted",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-9a8054919b6418891b2ab10b67d9cae6/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Wanted en Roblox",
-  "metaTitle": "Códigos Wanted Roblox (Febrero 2026) - Códigos Gratis",
+  "metaTitle": "Códigos Wanted Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Wanted en Roblox. 5 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-24",
+  "lastUpdated": "2026-03-23T21:54:52.792Z",
   "activeCodes": [
     {
+      "code": "FRAG",
+      "reward": "Explosive Surprise",
+      "addedDate": "2026-03-23"
+    },
+    {
       "code": "WANTED",
-      "reward": "Recompensas"
+      "reward": "10,000 Cash"
     },
     {
       "code": "BOOM",
-      "reward": "Recompensas"
+      "reward": "10 C4s"
     },
     {
       "code": "DEVV",
-      "reward": "Recompensas"
+      "reward": "10,000 Cash"
     },
     {
       "code": "UZI",
-      "reward": "Recompensas"
-    },
+      "reward": "The Uzi Weapon"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "SANTA",
       "reward": "Recompensas"
+    },
+    {
+      "code": "ZORVELLO",
+      "reward": "Zorvella Chair"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Wanted en Roblox",
     "Busca el botón de códigos en el menú",

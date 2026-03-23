@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-a1f5ae31303f6b02f3468bd40de77c88/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Highway Racers Reborn en Roblox",
   "metaTitle": "Códigos Highway Racers Reborn Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Highway Racers Reborn en Roblox. 14 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-20T10:02:48.728Z",
+  "metaDescription": "Lista actualizada de códigos para Highway Racers Reborn en Roblox. 6 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-23T21:53:41.233Z",
   "activeCodes": [
+    {
+      "code": "1234",
+      "reward": "100 Cash",
+      "addedDate": "2026-03-23"
+    },
     {
       "code": "24MVISITS",
       "reward": "Cash",
@@ -14,8 +19,22 @@
     },
     {
       "code": "OMGRACES",
-      "reward": "Cash"
+      "reward": "25,000 Cash"
     },
+    {
+      "code": "FREEGTR",
+      "reward": "GTR-34"
+    },
+    {
+      "code": "10KSPECIAL",
+      "reward": "The Parchem 918 Spyder"
+    },
+    {
+      "code": "GameNight",
+      "reward": "50,000 in-game Cash"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "MOUNTAINS",
       "reward": "Cash"
@@ -37,10 +56,6 @@
       "reward": "50,000 Cash"
     },
     {
-      "code": "GameNight",
-      "reward": "50,000 Cash"
-    },
-    {
       "code": "10MVISITS",
       "reward": "10,000 Cash"
     },
@@ -53,22 +68,20 @@
       "reward": "50,000 Cash"
     },
     {
-      "code": "FREEGTR",
-      "reward": "Cash"
-    },
-    {
-      "code": "10KSPECIAL",
-      "reward": "Cash"
-    },
-    {
       "code": "1KACTIVE",
       "reward": "Cash"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "DELAY",
+      "reward": "Recompensa expirada"
+    },
     {
       "code": "CHRISTMAS2025",
-      "reward": "Cash"
+      "reward": "100,000 Cash"
+    },
+    {
+      "code": "MOREMONEY",
+      "reward": "100,000 Cash"
     }
   ],
   "howToRedeem": [

@@ -4,13 +4,19 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-9b5a178fa6291b79ac2d8a91f7f80140/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Garden Horizons en Roblox",
   "metaTitle": "Códigos Garden Horizons Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Garden Horizons en Roblox. 4 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-01T20:54:19.989Z",
+  "metaDescription": "Lista actualizada de códigos para Garden Horizons en Roblox. 1 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-23T21:53:34.264Z",
   "activeCodes": [
     {
+      "code": "358",
+      "reward": "Shillings",
+      "addedDate": "2026-03-23"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "ADMIN",
-      "reward": "50k Shillings",
-      "addedDate": "2026-03-01"
+      "reward": "50k Shillings"
     },
     {
       "code": "THANKYOU",
@@ -23,12 +29,22 @@
     {
       "code": "RELEASE",
       "reward": "2.5k Shillings, 15x Carrot Seeds, 3x Corn Seeds"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "DAWNFRUIT",
+      "reward": "Dawnfruit Seed and a Group exclusivo objeto"
+    },
+    {
+      "code": "CONSOLE",
+      "reward": "2x Royal Seed pack & 2500 Shillings"
+    },
+    {
+      "code": "MONSTER",
+      "reward": "5 Royal Seed Packs"
+    },
     {
       "code": "GIFT",
-      "reward": "1x Cabbage Seed, 1x of every Sprinkler"
+      "reward": "Seed"
     }
   ],
   "howToRedeem": [

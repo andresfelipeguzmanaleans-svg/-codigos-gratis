@@ -5,7 +5,7 @@
   "description": "Todos los códigos activos para Cabin Crew Simulator en Roblox",
   "metaTitle": "Códigos Cabin Crew Simulator (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Cabin Crew Simulator en Roblox. Consigue Skybux gratis para personalizar tu aerolínea.",
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-03-23T21:53:08.692Z",
   "playerCount": 2308,
   "totalVisits": 371822758,
   "likes": 367146,
@@ -13,110 +13,6 @@
   "placeId": 5171347293,
   "activeCodes": [],
   "expiredCodes": [
-    {
-      "code": "spider",
-      "reward": "Skybux"
-    },
-    {
-      "code": "dreamliner",
-      "reward": "Skybux"
-    },
-    {
-      "code": "lounge",
-      "reward": "6k Skybux"
-    },
-    {
-      "code": "avro",
-      "reward": "6k Skybux"
-    },
-    {
-      "code": "1m",
-      "reward": "5k Skybux"
-    },
-    {
-      "code": "easter2025",
-      "reward": "3k Skybux"
-    },
-    {
-      "code": "amenity",
-      "reward": "5k Skybux"
-    },
-    {
-      "code": "dubai",
-      "reward": "5k Skybux"
-    },
-    {
-      "code": "candycane",
-      "reward": "1.8k Skybux"
-    },
-    {
-      "code": "trees",
-      "reward": "1.5k Skybux"
-    },
-    {
-      "code": "spooky",
-      "reward": "2k Skybux"
-    },
-    {
-      "code": "london",
-      "reward": "1.5k Skybux"
-    },
-    {
-      "code": "200m",
-      "reward": "2k Skybux"
-    },
-    {
-      "code": "gear",
-      "reward": "1.3k Skybux"
-    },
-    {
-      "code": "ally",
-      "reward": "1.3k Skybux"
-    },
-    {
-      "code": "airport",
-      "reward": "1.3k Skybux"
-    },
-    {
-      "code": "star",
-      "reward": "1.4k Skybux"
-    },
-    {
-      "code": "100m",
-      "reward": "1k Skybux"
-    },
-    {
-      "code": "decoration",
-      "reward": "1.5k Skybux"
-    },
-    {
-      "code": "customize",
-      "reward": "1.5k Skybux"
-    },
-    {
-      "code": "airstairs",
-      "reward": "1.3k Skybux"
-    },
-    {
-      "code": "service",
-      "reward": "1.3k Skybux"
-    },
-    {
-      "code": "galley",
-      "reward": "1.3k Skybux"
-    },
-    {
-      "code": "boba",
-      "reward": "1.3k Skybux"
-    },
-    {
-      "code": "jetway",
-      "reward": "1.3k Skybux"
-    },
-    {
-      "code": "badge",
-      "reward": "1.3k Skybux"
-    },
     {
       "code": "triple7",
       "reward": "1,700 SkyBux"
@@ -126,8 +22,16 @@
       "reward": "2,000 Skybux"
     },
     {
+      "code": "easter2025",
+      "reward": "3,500 Skybux"
+    },
+    {
       "code": "paris",
       "reward": "2,000 Skybux"
+    },
+    {
+      "code": "Triplee7",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "turbulence",
@@ -174,12 +78,32 @@
       "reward": "$1250 Skybux"
     },
     {
+      "code": "trees",
+      "reward": "$1500 Skybux"
+    },
+    {
       "code": "frost",
-      "reward": "Recompensas"
+      "reward": "Skybux"
     },
     {
       "code": "concorde",
-      "reward": "Recompensas"
+      "reward": "Skybux"
+    },
+    {
+      "code": "spider",
+      "reward": "Skybux"
+    },
+    {
+      "code": "dreamliner",
+      "reward": "Skybux"
+    },
+    {
+      "code": "avro",
+      "reward": "Skybux"
+    },
+    {
+      "code": "lounge",
+      "reward": "Skybux"
     },
     {
       "code": "snow",
@@ -190,8 +114,88 @@
       "reward": "$1250 Skybux"
     },
     {
+      "code": "jetway",
+      "reward": "$2600 Skybux"
+    },
+    {
+      "code": "badge",
+      "reward": "$2600 Skybux"
+    },
+    {
+      "code": "service",
+      "reward": "$1400 Skybux"
+    },
+    {
+      "code": "airstairs",
+      "reward": "$1200 Skybux"
+    },
+    {
+      "code": "galley",
+      "reward": "$2600 Skybux"
+    },
+    {
+      "code": "boba",
+      "reward": "$2600 Skybux"
+    },
+    {
+      "code": "decoration",
+      "reward": "$1200 Skybux"
+    },
+    {
+      "code": "100m",
+      "reward": "$1200 Skybux"
+    },
+    {
+      "code": "customize",
+      "reward": "$1500 Skybux"
+    },
+    {
+      "code": "airport",
+      "reward": "$1500 Skybux"
+    },
+    {
       "code": "myles",
       "reward": "$1500 Skybux"
+    },
+    {
+      "code": "200m",
+      "reward": "$1500 Skybux"
+    },
+    {
+      "code": "candycane",
+      "reward": "$1500 Skybux"
+    },
+    {
+      "code": "star",
+      "reward": "$1500 Skybux"
+    },
+    {
+      "code": "gear",
+      "reward": "$1500 Skybux"
+    },
+    {
+      "code": "ally",
+      "reward": "$1500 Skybux"
+    },
+    {
+      "code": "spooky",
+      "reward": "$1500 Skybux"
+    },
+    {
+      "code": "london",
+      "reward": "$1500 Skybux"
+    },
+    {
+      "code": "dubai",
+      "reward": "Skybux"
+    },
+    {
+      "code": "amenity",
+      "reward": "Skybux"
+    },
+    {
+      "code": "1m",
+      "reward": "Recompensas"
     },
     {
       "code": "launch",

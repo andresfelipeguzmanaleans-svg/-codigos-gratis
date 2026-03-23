@@ -3,14 +3,27 @@
   "name": "Crewmates",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-83b8c828188eaffb7cf6356f3bb1560d/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Crewmates en Roblox",
-  "metaTitle": "Códigos Crewmates Roblox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Crewmates en Roblox. 9 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-28T20:50:30.832Z",
+  "metaTitle": "Códigos Crewmates Roblox (Marzo 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Crewmates en Roblox. 3 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-23T21:53:15.860Z",
   "activeCodes": [
     {
+      "code": "CREWMATES2K",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "HALLOWEEN2025",
+      "reward": "Halloween Event recompensas"
+    },
+    {
+      "code": "SILVERCARAPACEGROUP",
+      "reward": "2 Building Boxes and 60 Cash"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "POPITUS",
-      "reward": "Recompensas",
-      "addedDate": "2026-02-28"
+      "reward": "Recompensas"
     },
     {
       "code": "IMPOSTERS58K",
@@ -21,20 +34,8 @@
       "reward": "Recompensas"
     },
     {
-      "code": "CREWMATES2K",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "HALLOWEEN2025",
-      "reward": "Halloween Event recompensas"
-    },
-    {
       "code": "CREWMATESRELEASE",
       "reward": "1 Weapon cofre and 2 Building Boxes"
-    },
-    {
-      "code": "SILVERCARAPACEGROUP",
-      "reward": "2 Building Boxes and 60 Cash"
     },
     {
       "code": "POPITSUS",
@@ -43,32 +44,30 @@
     {
       "code": "KRAOESPYT",
       "reward": "A skin"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "IMPOSTORPACK",
-      "reward": "An Impostor skin and Knife"
     },
     {
       "code": "MINICREWMATE",
-      "reward": "A Mini Crewmate Hat"
-    },
-    {
-      "code": "PUMPKINHEAD",
-      "reward": "A Pumpkin Hat"
+      "reward": "Mini Crewmate Hat"
     },
     {
       "code": "100K",
-      "reward": "A Suitcase mascota and Fancy Suit skin"
+      "reward": "Suitcase mascota and Fancy Suit skin"
     },
     {
       "code": "SQUIDGAME",
-      "reward": "A Squid Game mascota and skin"
+      "reward": "Squid Game mascota and skin"
     },
     {
       "code": "999IQ",
-      "reward": "A Sherlock Holmes skin and Magnifying Glass"
+      "reward": "Sherlock Holmes skin and Magnifying Glass"
+    },
+    {
+      "code": "PUMPKINHEAD",
+      "reward": "Pumpkin Hat"
+    },
+    {
+      "code": "IMPOSTORPACK",
+      "reward": "Impostor skin and Knife"
     }
   ],
   "howToRedeem": [

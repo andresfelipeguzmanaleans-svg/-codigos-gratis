@@ -3,13 +3,18 @@
   "name": "Mecha Simulator",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-9b082eb266663e6eeaf6e02edd9ff6e7/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Mecha Simulator en Roblox",
-  "metaTitle": "Códigos Mecha Simulator Roblox (Febrero 2026) - Códigos Gratis",
+  "metaTitle": "Códigos Mecha Simulator Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Mecha Simulator en Roblox. 6 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-03-23T21:53:53.295Z",
   "activeCodes": [
     {
+      "code": "NERV3000",
+      "reward": "Skin",
+      "addedDate": "2026-03-23"
+    },
+    {
       "code": "Like40000",
-      "reward": "1x Advanced Mech"
+      "reward": "Mech"
     },
     {
       "code": "NERV30000",
@@ -21,18 +26,19 @@
     },
     {
       "code": "Rei10000",
-      "reward": "1x Advanced Mech"
+      "reward": "Mech"
     },
     {
       "code": "Robot5000",
-      "reward": "1x Advanced Mech"
-    },
+      "reward": "Mech"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "Like100",
       "reward": "1x Advanced Mech"
     }
   ],
-  "expiredCodes": [],
   "howToRedeem": [
     "Abre Mecha Simulator en Roblox",
     "Busca el botón de códigos en el menú",

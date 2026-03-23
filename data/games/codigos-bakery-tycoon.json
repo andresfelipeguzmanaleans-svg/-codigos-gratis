@@ -3,29 +3,12 @@
   "name": "Bakery Tycoon",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-f1276b875dde00584575f5d80b86bae2/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Bakery Tycoon en Roblox",
-  "metaTitle": "Códigos Bakery Tycoon Roblox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Bakery Tycoon en Roblox. 37 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-02-27T20:58:49.934Z",
+  "metaTitle": "Códigos Bakery Tycoon Roblox (Marzo 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Bakery Tycoon en Roblox. 35 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-23T21:52:56.678Z",
   "activeCodes": [
     {
-      "code": "BAKERY",
-      "reward": "Recompensas",
-      "addedDate": "2026-02-27"
-    },
-    {
-      "code": "PUMPKIN",
-      "reward": "100,000 Cash"
-    },
-    {
-      "code": "DOUBLECASH",
-      "reward": "2x Cash For One hora"
-    },
-    {
       "code": "Gingerbread",
-      "reward": "2x Cash"
-    },
-    {
-      "code": "2XCash",
       "reward": "2x Cash"
     },
     {
@@ -37,7 +20,15 @@
       "reward": "125,000 Cash"
     },
     {
-      "code": "CHRISTMAS",
+      "code": "DOUBLECASH",
+      "reward": "2x Cash For One hora"
+    },
+    {
+      "code": "PUMPKIN",
+      "reward": "100,000 Cash"
+    },
+    {
+      "code": "2XCash",
       "reward": "2x Cash"
     },
     {
@@ -49,16 +40,20 @@
       "reward": "99,000 Cash"
     },
     {
+      "code": "CHRISTMAS",
+      "reward": "2x Cash"
+    },
+    {
       "code": "YUM",
       "reward": "$50,000 Cash"
     },
     {
-      "code": "SWEET",
-      "reward": "2x velocidad Boost For 24 horas"
-    },
-    {
       "code": "DONUT",
       "reward": "2x Cash Boost For 4 horas"
+    },
+    {
+      "code": "SWEET",
+      "reward": "2x velocidad Boost For 24 horas"
     },
     {
       "code": "MONEY",
@@ -133,12 +128,12 @@
       "reward": "$100,000 Cash"
     },
     {
-      "code": "NUTELLA",
-      "reward": "$150,000 Cash"
-    },
-    {
       "code": "CARAMEL",
       "reward": "$50,000 Cash"
+    },
+    {
+      "code": "NUTELLA",
+      "reward": "$150,000 Cash"
     },
     {
       "code": "RUDOLPH",
@@ -151,13 +146,17 @@
     {
       "code": "XMAS",
       "reward": "2x Cash"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "BAKERY",
+      "reward": "Recompensas"
     },
     {
       "code": "FREECOINS",
       "reward": "1,000 monedas"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "EARLYACCESS",
       "reward": "500 monedas"

@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-218d97048cd7660bfd48f6ee0fa135d3/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Dollys Factory en Roblox",
   "metaTitle": "Códigos Dollys Factory Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dollys Factory en Roblox. 17 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-14T20:57:12.951Z",
+  "metaDescription": "Lista actualizada de códigos para Dollys Factory en Roblox. 3 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-23T21:53:22.109Z",
   "activeCodes": [
     {
       "code": "20kmembers",
@@ -13,20 +13,21 @@
       "addedDate": "2026-03-14"
     },
     {
-      "code": "ticketformeistro",
-      "reward": "Nametag and DollyBucks",
-      "addedDate": "2026-03-07"
-    },
-    {
       "code": "horseyear",
-      "reward": "Nametag and DollyBucks"
-    },
-    {
-      "code": "10kmembers",
       "reward": "DollyBucks"
     },
     {
       "code": "35klikes",
+      "reward": "DollyBucks"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "ticketformeistro",
+      "reward": "Nametag and DollyBucks"
+    },
+    {
+      "code": "10kmembers",
       "reward": "DollyBucks"
     },
     {
@@ -76,16 +77,22 @@
     {
       "code": "5klikes",
       "reward": "DollyBucks"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "MemIsLame",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "AlphaTester",
+      "reward": "1,000 DollyBucks"
+    },
     {
       "code": "1klikes",
       "reward": "250 DollyBucks"
     },
     {
-      "code": "AlphaTester",
-      "reward": "1,000 DollyBucks"
+      "code": "FEEDBACK",
+      "reward": "100 DollyBucks"
     }
   ],
   "howToRedeem": [

@@ -5,13 +5,14 @@
   "description": "Todos los códigos activos para Funky Friday en Roblox",
   "metaTitle": "Códigos Funky Friday (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Funky Friday en Roblox. Consigue puntos, micrófonos y animaciones gratis.",
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-03-23T21:53:33.727Z",
   "playerCount": 2398,
   "totalVisits": 1959392565,
   "likes": 1942416,
   "genre": "Rhythm",
   "placeId": 6447798030,
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "XMAS2021",
       "reward": "Candy Cane Animation"
@@ -63,36 +64,42 @@
     {
       "code": "MILLIONLIKES",
       "reward": "Radio Emote"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "WHEREUPDATE??",
-      "reward": "500 puntos"
-    },
-    {
-      "code": "2v2!!",
-      "reward": "Sakuroma Microphone"
-    },
-    {
-      "code": "9keyishere",
-      "reward": "500 puntos"
-    },
-    {
-      "code": "100kactive",
-      "reward": "250 puntos"
-    },
-    {
-      "code": "Halfbillion",
-      "reward": "500 puntos"
     },
     {
       "code": "TAMBRUSHISBACK",
       "reward": "The FNAF Speaker"
     },
     {
+      "code": "HALFBILLION",
+      "reward": "500 puntos"
+    },
+    {
+      "code": "9KEYISHERE",
+      "reward": "500 puntos"
+    },
+    {
+      "code": "2V2!!",
+      "reward": "Sakuroma Microphone"
+    },
+    {
+      "code": "TAMBRUSHISBACKFNF",
+      "reward": "The FNF Speaker"
+    },
+    {
+      "code": "XMAS2O21",
+      "reward": "The Candy Cane Animation"
+    },
+    {
+      "code": "100KACTIVE",
+      "reward": "250 puntos"
+    },
+    {
       "code": "XMAS21",
       "reward": "Candy Cane Animation"
+    },
+    {
+      "code": "WHEREUPDATE??",
+      "reward": "500 puntos"
     }
   ],
   "introText": "Funky Friday es uno de los juegos de ritmo más populares de Roblox, desarrollado por Lyte Interactive, con casi 2 mil millones de visitas. Inspirado en Friday Night Funkin', te enfrentas a otros jugadores en intensas batallas de beatbox donde debes pulsar las teclas al ritmo de la música para ganar. Con una enorme colección de canciones y personalización de personajes, es una experiencia adictiva para los amantes de la música.",

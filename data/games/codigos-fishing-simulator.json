@@ -3,39 +3,33 @@
   "name": "Fishing Simulator",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-054a5ce0a3c6e0c4a187f182b9aedb1e/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fishing Simulator en Roblox",
-  "metaTitle": "Códigos Fishing Simulator (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fishing Simulator en Roblox. Consigue Gems y Shards gratis para cañas y barcos.",
-  "lastUpdated": "2026-02-23",
+  "metaTitle": "Códigos Fishing Simulator Roblox (Marzo 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Fishing Simulator en Roblox. 1 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-23T21:53:31.309Z",
   "playerCount": 1157,
   "totalVisits": 483877976,
   "likes": 809135,
   "genre": "Simulator",
   "placeId": 2866967438,
-  "activeCodes": [],
-  "expiredCodes": [
+  "activeCodes": [
     {
       "code": "HEARTS",
+      "reward": "250 gemas",
+      "addedDate": "2026-03-23"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "TIMELESSTIDES",
       "reward": "250 gemas"
     },
     {
-      "code": "Water",
-      "reward": "300 gemas"
+      "code": "100000",
+      "reward": "450 gemas"
     },
     {
-      "code": "CHRISTMAS",
-      "reward": "50 Shards"
-    },
-    {
-      "code": "WINTERSHARDS",
+      "code": "STAR3K",
       "reward": "50 gemas"
-    },
-    {
-      "code": "STARFALL",
-      "reward": "250 gemas"
-    },
-    {
-      "code": "MEMORIALDAY2025",
-      "reward": "400 gemas"
     },
     {
       "code": "THEISLANDWASFAKE",
@@ -43,23 +37,11 @@
     },
     {
       "code": "FSFOREVER",
-      "reward": "Recompensas"
+      "reward": "200 gemas"
     },
     {
       "code": "FISHINGMAS24",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "TIMELESSTIDES",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "100000",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "STAR3K",
-      "reward": "50 gemas"
+      "reward": "150 gemas"
     },
     {
       "code": "1500AWAY!",
@@ -94,18 +76,6 @@
       "reward": "200 gemas"
     },
     {
-      "code": "NEWYEAR2023",
-      "reward": "250 gemas"
-    },
-    {
-      "code": "VAL2022",
-      "reward": "96 gemas"
-    },
-    {
-      "code": "BIGSPENDER",
-      "reward": "150 gemas"
-    },
-    {
       "code": "OCEAN",
       "reward": "300 gemas"
     },
@@ -119,47 +89,579 @@
     },
     {
       "code": "2024!",
-      "reward": "Recompensa expirada"
+      "reward": "500 gemas"
     },
     {
       "code": "FOREVERALONE",
-      "reward": "Recompensa expirada"
+      "reward": "96 gemas"
+    },
+    {
+      "code": "Lionfish",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Mustacho",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Mumazing",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Cod",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "SmashLike",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "90000!",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Barracuda",
+      "reward": "20"
+    },
+    {
+      "code": "Anchovy",
+      "reward": "30"
+    },
+    {
+      "code": "Batfish",
+      "reward": "30"
+    },
+    {
+      "code": "Daggertooth",
+      "reward": "30"
+    },
+    {
+      "code": "PairOfJacks",
+      "reward": "300"
+    },
+    {
+      "code": "LikedThat",
+      "reward": "150"
+    },
+    {
+      "code": "spycheetos",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "20MIL",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Sub2Myster0y",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "NEWYEAR2023",
+      "reward": "250 gemas"
+    },
+    {
+      "code": "Sub2Conor3D",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Garfish",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Hapuka",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "Birdcall",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "UpAndUp",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "DAYOOO10KYAY",
+      "reward": "40"
+    },
+    {
+      "code": "Haddock",
+      "reward": "20"
+    },
+    {
+      "code": "Bonytongue",
+      "reward": "30"
+    },
+    {
+      "code": "NarwhalGamor",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Mackerel",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "FishBoat",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "59KFan",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "SPYNATION10K",
+      "reward": "80"
+    },
+    {
+      "code": "Halibut",
+      "reward": "20"
+    },
+    {
+      "code": "Blackchin",
+      "reward": "30"
+    },
+    {
+      "code": "Chubsucker",
+      "reward": "30"
+    },
+    {
+      "code": "GoPro",
+      "reward": "300"
+    },
+    {
+      "code": "YouTubeLuweezy",
+      "reward": "100"
+    },
+    {
+      "code": "Subtotelanthric",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "200MPLAYS",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "SubmarineGamor",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "PressLike",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "STAR1K",
+      "reward": "50"
+    },
+    {
+      "code": "Rockfish",
+      "reward": "20"
+    },
+    {
+      "code": "BalaShark",
+      "reward": "30"
+    },
+    {
+      "code": "Barb",
+      "reward": "30"
+    },
+    {
+      "code": "Carbonated",
+      "reward": "300"
+    },
+    {
+      "code": "Sub2Randemgamor",
+      "reward": "10"
+    },
+    {
+      "code": "Test",
+      "reward": "20"
+    },
+    {
+      "code": "BIGSPENDER",
+      "reward": "150 gemas"
+    },
+    {
+      "code": "SDMittens",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "GamganStyle",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "Group100K",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "Amberjack",
+      "reward": "20"
+    },
+    {
+      "code": "Weakfish",
+      "reward": "30"
+    },
+    {
+      "code": "Burbot",
+      "reward": "30"
+    },
+    {
+      "code": "CatShark",
+      "reward": "30"
+    },
+    {
+      "code": "GamInVR",
+      "reward": "500"
+    },
+    {
+      "code": "SubLove",
+      "reward": "200"
+    },
+    {
+      "code": "Favoritism",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "Tourist",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "STAR25HUNDO",
+      "reward": "50"
+    },
+    {
+      "code": "Leatherjacket",
+      "reward": "20"
+    },
+    {
+      "code": "NeonTetra",
+      "reward": "30"
+    },
+    {
+      "code": "Crestfish",
+      "reward": "30"
+    },
+    {
+      "code": "BerryFruit",
+      "reward": "300"
+    },
+    {
+      "code": "FizAndFuzz",
+      "reward": "200"
+    },
+    {
+      "code": "20KLikes",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Bream",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "NEWYEAR2021",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "last2dye",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Artistic",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Dory",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "PinkBird",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "Pets",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "10KHOORAY",
+      "reward": "20"
+    },
+    {
+      "code": "Tilapia",
+      "reward": "30"
+    },
+    {
+      "code": "BullTrout",
+      "reward": "30"
+    },
+    {
+      "code": "VAL2022",
+      "reward": "96 gemas"
+    },
+    {
+      "code": "ItsGemTime",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Capelin",
+      "reward": "30"
+    },
+    {
+      "code": "GamerNitro",
+      "reward": "300"
+    },
+    {
+      "code": "Week100",
+      "reward": "300"
+    },
+    {
+      "code": "CandyIsland",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "Sub2Raconidas",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "HEISLANDWASFAKE",
+      "reward": "150 gemas"
+    },
+    {
+      "code": "PinkBop",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "20KBOB",
+      "reward": "50"
+    },
+    {
+      "code": "Barramundi",
+      "reward": "20"
+    },
+    {
+      "code": "Albacore",
+      "reward": "30"
+    },
+    {
+      "code": "Basslet",
+      "reward": "30"
+    },
+    {
+      "code": "Clownfish",
+      "reward": "30"
+    },
+    {
+      "code": "Flamingo",
+      "reward": "150"
+    },
+    {
+      "code": "LuckyLike",
+      "reward": "150"
+    },
+    {
+      "code": "Sub2Expellez",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Subs4JixxyJax",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "FullMetalArsenal",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "RandemGuppi",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "MyFavorite",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "MISGOAT7000!",
+      "reward": "500"
+    },
+    {
+      "code": "Bonefish",
+      "reward": "20"
+    },
+    {
+      "code": "Boxfish",
+      "reward": "30"
+    },
+    {
+      "code": "BrambleShark",
+      "reward": "30"
+    },
+    {
+      "code": "Randem",
+      "reward": "300"
+    },
+    {
+      "code": "SubToPremiumSalad",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "WINTERSHARDS50",
+      "reward": "50 Shards"
+    },
+    {
+      "code": "Sunshine",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "SPYNAZBDAY",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "Jacksmelt",
+      "reward": "30"
+    },
+    {
+      "code": "Beardfish",
+      "reward": "30"
+    },
+    {
+      "code": "Arapaima",
+      "reward": "20"
+    },
+    {
+      "code": "Cavefish",
+      "reward": "30"
+    },
+    {
+      "code": "FishBoi",
+      "reward": "300"
+    },
+    {
+      "code": "ThumbsUp",
+      "reward": "150"
+    },
+    {
+      "code": "Clam",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "AQUARIUM",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "Kahawai",
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "STARFALL250",
+      "reward": "250 gemas"
+    },
+    {
+      "code": "CHRISTMAS50",
+      "reward": "50 Shards"
+    },
+    {
+      "code": "Hogfish",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "Water300",
+      "reward": "300 Shards"
+    },
+    {
+      "code": "30KFOLLOWERS",
+      "reward": "150"
+    },
+    {
+      "code": "Bass",
+      "reward": "20"
+    },
+    {
+      "code": "MischiefIsMean",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "RandomFishy",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "CarBait",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "Angelfish",
+      "reward": "30"
+    },
+    {
+      "code": "BanjoCatfish",
+      "reward": "30"
+    },
+    {
+      "code": "TheLongYard",
+      "reward": "150"
+    },
+    {
+      "code": "Gapp",
+      "reward": "200"
+    },
+    {
+      "code": "TopFans",
+      "reward": "150"
+    },
+    {
+      "code": "Cowfish",
+      "reward": "30"
+    },
+    {
+      "code": "BeefyBoi",
+      "reward": "300"
+    },
+    {
+      "code": "Larand4U",
+      "reward": "100"
+    },
+    {
+      "code": "XboxOne",
+      "reward": "500"
+    },
+    {
+      "code": "SubToSeerRBLX",
+      "reward": "10"
+    },
+    {
+      "code": "Please",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "AlexisisCool",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "planetmilo",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "MythicRods",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "SandyPyramid",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Likes100k",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "AprilFools",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Leak!",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "NewIsland40",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "FishAreCool",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Xbox One",
@@ -167,7 +669,7 @@
     },
     {
       "code": "Mischief5Year",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "RepMischiefBalkBirthday",
@@ -175,271 +677,203 @@
     },
     {
       "code": "ChrimusPresent",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Ranbo",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "20KRANDEM",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "20KSHARK",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "20KTUNA",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "20KTROUT",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "BIGLIKES",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "200K",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "FruitCake",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "BowTime",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "SPYBDAY",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "1mill",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "MARBLEBDAY",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "20KGAMOR",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "20KPHIL",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "20KGEORGE",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "THANKSGIVING",
-      "reward": "Recompensa expirada"
+      "reward": "Gemas gratis"
     },
     {
       "code": "MSCHFBDAY",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "150M",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "love",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "FlamingoInfinity",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Crayfish",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Goldensnapper",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Walleye",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "RandemGuppy",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "SharkemGamor",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Bowfin",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Bullhead",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Catfish",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Carp",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "NEWYEAR2021",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Flounder",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "CoalFish",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Kahawai",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Lionfish",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Garfish",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "NarwhalGamor",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Clam",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "20KLikes",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Artistic",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Mustacho",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "SubToPremiumSalad",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "SDMittens",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "ItsGemTime",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Sub2Conor3D",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Sub2Expellez",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Mumazing",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Subs4JixxyJax",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Sub2Raconidas",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Sub2Myster0y",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "Subtotelanthric",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "last2dye",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "20MIL",
-      "reward": "Gemas. gratis"
-    },
-    {
-      "code": "spycheetos",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "Sub2SnowRBX",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "snug",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "SubToKiraBerry",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "RazorFishGaming",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "JungleTemple20",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "SubToGamingDan",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "WhaleOfATime2",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "SubToCarbonMeister",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "SUBTOBEEFPLAYZZ",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
     },
     {
       "code": "SubToAustin",
-      "reward": "Gemas. gratis"
+      "reward": "Gemas gratis"
+    },
+    {
+      "code": "MEMORIALDAY2025",
+      "reward": "400 gemas"
     },
     {
       "code": "AQUARIUM350",
       "reward": "350 gemas"
     },
     {
+      "code": "STARFALL",
+      "reward": "250 gemas"
+    },
+    {
+      "code": "WINTERSHARDS",
+      "reward": "50 gemas"
+    },
+    {
+      "code": "CHRISTMAS",
+      "reward": "50 Shards"
+    },
+    {
       "code": "150000",
-      "reward": "Recompensa expirada"
+      "reward": "200 gemas"
     },
     {
       "code": "NATIONALFISHINGDAY",
-      "reward": "Recompensa expirada"
+      "reward": "400 gemas"
+    },
+    {
+      "code": "Water",
+      "reward": "300 gemas"
     },
     {
       "code": "SUMMER2024",
