@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-408fc962d27e0cb78fb6847ebee85791/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Fantasy en Roblox",
   "metaTitle": "Códigos Anime Fantasy Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Fantasy en Roblox. 81 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:52:47.338Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Fantasy en Roblox. 70 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-24T08:42:23.015Z",
   "activeCodes": [
     {
       "code": "Anime Fantasy:RE",
@@ -318,12 +318,16 @@
       "addedDate": "2026-03-23"
     },
     {
-      "code": "WelcomeToMie",
-      "reward": "+250 gemas"
+      "code": "ShadowMonarch",
+      "reward": "350 gemas"
     },
     {
       "code": "Likes10k",
       "reward": "1000 gemas and 1 Reroll Token"
+    },
+    {
+      "code": "Sub2RikTime",
+      "reward": "5 Reroll tokens"
     },
     {
       "code": "Visit5M",
@@ -334,8 +338,22 @@
       "reward": "250 gemas"
     },
     {
-      "code": "Sub2RikTime",
+      "code": "SorryforDelay1",
+      "reward": "1500 gemas, 5 Reroll tokens"
+    },
+    {
+      "code": "Sub2Jetoza",
       "reward": "5 Reroll tokens"
+    },
+    {
+      "code": "Sub2AekZaJunior",
+      "reward": "5 Reroll tokens"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "WelcomeToMie",
+      "reward": "+250 gemas"
     },
     {
       "code": "Purge",
@@ -354,24 +372,12 @@
       "reward": "2000 gemas + 5 Reroll tokens (Level 5 Requirement)"
     },
     {
-      "code": "Sub2Jetoza",
-      "reward": "5 Reroll tokens"
-    },
-    {
       "code": "Discord50k",
       "reward": "1000 gemas + 5 Reroll tokens (Level 5 Requirement)"
     },
     {
-      "code": "Sub2AekZaJunior",
-      "reward": "5 Reroll tokens"
-    },
-    {
       "code": "Visit2M",
       "reward": "500 gemas"
-    },
-    {
-      "code": "ShadowMonarch",
-      "reward": "350 gemas"
     },
     {
       "code": "9MVISITS",
@@ -386,22 +392,52 @@
       "reward": "1000 gemas"
     },
     {
-      "code": "SorryforDelay1",
+      "code": "IloveKeen",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Like7K",
+      "reward": "2500 gemas, 5 Reroll tokens"
+    },
+    {
+      "code": "Snowflake",
+      "reward": "Reroll tokens"
+    },
+    {
+      "code": "XestreasGame",
+      "reward": "600 gemas"
+    },
+    {
+      "code": "Sub2Watchpixel2",
+      "reward": "15 Reroll tokens"
+    },
+    {
+      "code": "UPDATE3",
+      "reward": "10 Reroll tokens"
+    },
+    {
+      "code": "Visit400K",
+      "reward": "1000 gemas, 5 Reroll tokens"
+    },
+    {
+      "code": "Visit50K",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "Like5K",
       "reward": "1500 gemas, 5 Reroll tokens"
     },
     {
-      "code": "IloveKeen",
-      "reward": "Recompensas gratis"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "Release",
-      "reward": "350 gemas"
+      "code": "christmas",
+      "reward": "5 RR (req. Level 5)"
     },
     {
-      "code": "Visit80K",
-      "reward": "500 gemas"
+      "code": "JetozaCH",
+      "reward": "3 Reroll tokens"
+    },
+    {
+      "code": "Favorite2K",
+      "reward": "1000 gemas, 5 Reroll tokens"
     },
     {
       "code": "Like1K",
@@ -410,6 +446,10 @@
     {
       "code": "SorryForBug2",
       "reward": "4000 gemas, 10 Reroll tokens"
+    },
+    {
+      "code": "Visit80K",
+      "reward": "500 gemas"
     },
     {
       "code": "Likes2500",
@@ -628,10 +668,6 @@
       "reward": "3000 gemas, 30 Reroll tokens"
     },
     {
-      "code": "Like7K",
-      "reward": "2500 gemas, 5 Reroll tokens"
-    },
-    {
       "code": "sorryfordelay",
       "reward": "1000 gemas"
     },
@@ -656,44 +692,8 @@
       "reward": "2000 gemas, 5 Reroll tokens"
     },
     {
-      "code": "Snowflake",
-      "reward": "Reroll tokens"
-    },
-    {
-      "code": "XestreasGame",
-      "reward": "600 gemas"
-    },
-    {
-      "code": "Sub2Watchpixel2",
-      "reward": "15 Reroll tokens"
-    },
-    {
-      "code": "UPDATE3",
-      "reward": "10 Reroll tokens"
-    },
-    {
-      "code": "Visit400K",
-      "reward": "1000 gemas, 5 Reroll tokens"
-    },
-    {
-      "code": "Visit50K",
+      "code": "Release",
       "reward": "500 gemas"
-    },
-    {
-      "code": "Like5K",
-      "reward": "1500 gemas, 5 Reroll tokens"
-    },
-    {
-      "code": "christmas",
-      "reward": "5 RR (req. Level 5)"
-    },
-    {
-      "code": "JetozaCH",
-      "reward": "3 Reroll tokens"
-    },
-    {
-      "code": "Favorite2K",
-      "reward": "1000 gemas, 5 Reroll tokens"
     },
     {
       "code": "SorryForManyBugsWeAreStillFixPleaseGiveUsTime",
