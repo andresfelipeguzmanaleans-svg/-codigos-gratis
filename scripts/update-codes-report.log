@@ -1,230 +1,62 @@
-Total: 4133 juegos (4133 procesados)
-Actualizados: 221 | Sin cambios: 3767
+Total: 4140 juegos (4140 procesados)
+Actualizados: 48 | Sin cambios: 3947
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 5 | Movidos a expirados: 794
-Tiempo: 136.2s | Concurrencia: 10
+Códigos nuevos: 9 | Movidos a expirados: 95
+Tiempo: 144.8s | Concurrencia: 10
 
 Juegos actualizados:
-  A One Piece Game: 221→206 activos (-15), 191→205 exp
-  Anime Auras Rng: 22→21 activos (-1), 0→1 exp
-  Anime Chaos Simulator: 10→8 activos (-2), 6→8 exp
-  Anime Catcher Simulator: 21→19 activos (-2), 1→3 exp
-  Anime Combats Simulator: 24→19 activos (-5), 13→18 exp
-  Anime Defense Simulator: 19→16 activos (-3), 0→1 exp
-  Anime Destroyers: 7→6 activos (-1), 36→37 exp
-  Anime Dimensions: 50→47 activos (-3), 241→243 exp
-  Anime Fantasy Re: 11→5 activos (-6), 135→141 exp
-  Anime Fantasy: 81→70 activos (-11), 76→87 exp
-  Anime Fighting Simulator: 37→34 activos (-3), 25→28 exp
-  Anime Fantasy Simulator: 31→29 activos (-2), 1→3 exp
-  Anime Fruit: 23→21 activos (-2), 4→5 exp
-  Anime Guardians: 20→24 activos (+4), 169→169 exp
-    Nuevos: ESCANOR_BAR, SEVEN_SINS, RAIDENSHOGUN_BP7, UPDATE27
-  Anime Geek: 12→10 activos (-2), 1→2 exp
-  Anime Girl Rng: 6→5 activos (-1), 111→112 exp
-  Anime Insurrection: 41→38 activos (-3), 0→3 exp
-  Anime Lands Simulator: 10→9 activos (-1), 0→0 exp
-  Anime Infinity: 15→14 activos (-1), 20→21 exp
-  Anime Kingdom Simulator: 41→38 activos (-3), 1→1 exp
-  Anime Lock: 12→10 activos (-2), 0→1 exp
-  Anime Lost Simulator: 33→31 activos (-2), 26→28 exp
-  Anime Ninja Simulator: 6→5 activos (-1), 1→2 exp
-  Anime Punch Out: 2→1 activos (-1), 0→1 exp
-  Anime Rangers: 45→10 activos (-35), 28→63 exp
-  Anime Rangers X: 11→9 activos (-2), 157→159 exp
-  Anime Revolution Simulator: 18→15 activos (-3), 0→3 exp
-  Anime Revolution X: 68→67 activos (-1), 1→2 exp
-  Anime Rising Fighting: 25→23 activos (-2), 13→15 exp
-  Anime Revolution Ultimate: 11→9 activos (-2), 3→5 exp
-  Anime Slots: 19→13 activos (-6), 7→13 exp
-  Anime Spirits Journey: 3→2 activos (-1), 14→15 exp
-  Anime Storm Simulator: 28→4 activos (-24), 0→24 exp
-  Anime Strong Race: 5→1 activos (-4), 0→4 exp
-  Anime Strikers Simulator: 15→7 activos (-8), 0→8 exp
-  Anime Swords X: 18→16 activos (-2), 1→3 exp
-  Anime Training Evolution: 5→1 activos (-4), 0→4 exp
-  Anime Waves X: 27→25 activos (-2), 1→3 exp
-  Anime Weapon Fighting: 19→18 activos (-1), 2→3 exp
-  Are You Sure: 13→12 activos (-1), 2→2 exp
-  Aur: 25→16 activos (-9), 10→19 exp
-  Asura: 201→186 activos (-15), 57→72 exp
-  Aura Farm Simulator: 24→22 activos (-2), 2→4 exp
-  Banana Rng: 14→13 activos (-1), 2→3 exp
-  Banana Tower Defense: 7→6 activos (-1), 0→1 exp
-  Basketball Dynasty Rng: 13→12 activos (-1), 43→44 exp
-  Basketball Rng: 4→2 activos (-2), 70→72 exp
-  Bathroom Warriors: 6→5 activos (-1), 0→1 exp
-  Bathtub Tower Defense: 8→7 activos (-1), 32→33 exp
-  Become President To Prove Mom Wrong: 9→8 activos (-1), 0→1 exp
-  Bee Training: 3→2 activos (-1), 0→1 exp
-  Big Lifting Simulator X: 25→24 activos (-1), 0→1 exp
-  Big Fish Simulator: 4→3 activos (-1), 0→1 exp
-  Block Tales Tower Defense: 5→1 activos (-4), 6→10 exp
-  Boat Training: 4→3 activos (-1), 0→0 exp
-  Boku No: 61→7 activos (-54), 8→62 exp
-  Bomb Simulator X: 7→6 activos (-1), 0→1 exp
-  Bubble Gum Champions: 31→29 activos (-2), 0→0 exp
-  Building Towers To Fly Further: 6→5 activos (-1), 1→2 exp
-  Button Simulator Mania: 34→32 activos (-2), 42→44 exp
-  Cashflow 2: 7→6 activos (-1), 2→3 exp
-  Cautious Clippers: 2→1 activos (-1), 0→0 exp
-  Clicker Mining Simulator: 89→85 activos (-4), 0→2 exp
-  Clicker Wars Simulator: 14→13 activos (-1), 1→1 exp
-  Climb Wall Simulator: 3→1 activos (-2), 1→3 exp
-  Coaster Operator: 6→5 activos (-1), 23→24 exp
-  Cowboy Tycoon: 2→1 activos (-1), 0→1 exp
-  Craft Tower Defense: 7→5 activos (-2), 5→7 exp
-  Dah Aim Trainer: 9→8 activos (-1), 0→1 exp
-  Dah Hood: 13→3 activos (-10), 9→19 exp
-  Dbz Demo: 20→18 activos (-2), 1→3 exp
-  Defenders Depot 2: 17→14 activos (-3), 3→6 exp
-  Defenders Depot: 34→27 activos (-7), 2→9 exp
-  Demon Slayer Legacy: 2→1 activos (-1), 40→41 exp
-  Depthless Rpg: 3→1 activos (-2), 43→45 exp
-  Dinosaur Evolution: 29→8 activos (-21), 0→21 exp
-  Dodge Stars: 4→2 activos (-2), 0→2 exp
-  Dollista: 5→4 activos (-1), 2→3 exp
-  Dragon Ball Online Generations: 5→4 activos (-1), 1→2 exp
-  Drive World Drifting Racing: 22→20 activos (-2), 24→26 exp
-  Dummy Utmm: 13→12 activos (-1), 15→16 exp
-  Eat Players Or Die: 13→10 activos (-3), 0→3 exp
-  Eat Ball Simulator: 16→13 activos (-3), 0→3 exp
-  Egoist Awakens: 46→44 activos (-2), 19→20 exp
-  Elemental Odyssey: 50→33 activos (-17), 1→18 exp
-  Eternal Piece: 11→9 activos (-2), 25→27 exp
-  Faction Defense Tycoon: 13→11 activos (-2), 0→2 exp
-  Faires Mm2: 20→19 activos (-1), 20→21 exp
-  Fat Race Clicker: 14→12 activos (-2), 0→2 exp
-  Fireball Punching Simulator: 9→7 activos (-2), 0→2 exp
-  Final Tower Defense: 33→28 activos (-5), 24→29 exp
-  Flame Hood: 47→3 activos (-44), 1→45 exp
-  Floor Race: 17→15 activos (-2), 0→2 exp
-  Fly Race Clicker: 16→12 activos (-4), 0→4 exp
-  Forklift Simulator: 6→1 activos (-5), 4→9 exp
-  Frontline Defense Legacy: 5→4 activos (-1), 3→4 exp
-  Free Hatchers: 14→11 activos (-3), 28→31 exp
-  Free Ugc Cart Ride: 3→2 activos (-1), 0→1 exp
-  Garden Rng: 12→11 activos (-1), 0→0 exp
-  Gemventure: 10→8 activos (-2), 2→4 exp
-  Get Richer Every Click: 6→4 activos (-2), 2→4 exp
-  Goals Rng: 22→19 activos (-3), 1→4 exp
-  Goofy Tower Defense: 24→22 activos (-2), 17→19 exp
-  Griffins Destiny: 18→16 activos (-2), 3→5 exp
-  Grimace Race: 16→15 activos (-1), 0→1 exp
-  Gym Training Simulator: 4→2 activos (-2), 33→35 exp
-  Head Punch Simulator: 11→9 activos (-2), 0→1 exp
-  Hero Havoc: 46→31 activos (-15), 1→16 exp
-  High School 2: 2→1 activos (-1), 24→25 exp
-  Horse Plinko Tycoon: 9→7 activos (-2), 0→2 exp
-  Infinite Mining Incremental: 23→22 activos (-1), 9→10 exp
-  Jetpack Blast: 8→3 activos (-5), 0→5 exp
-  Jood Piece 2: 14→3 activos (-11), 0→11 exp
-  Kengan: 39→27 activos (-12), 0→12 exp
-  Kengun Online: 10→5 activos (-5), 40→45 exp
-  Korblox Headless Hangout: 7→6 activos (-1), 18→19 exp
-  Lift A Pet: 11→8 activos (-3), 0→3 exp
-  Lootquest: 2→1 activos (-1), 0→1 exp
-  Lucky Block Legends: 2→0 activos (-2), 6→8 exp
-  Magic Clicker: 11→10 activos (-1), 1→2 exp
-  Malgamations Island: 4→1 activos (-3), 19→22 exp
-  Master Punching Simulator: 27→24 activos (-3), 1→4 exp
-  Mecha Simulator: 6→4 activos (-2), 1→3 exp
-  Mega Mech Tycoon: 13→12 activos (-1), 3→4 exp
-  Midnight Chasers: 11→10 activos (-1), 160→161 exp
-  Money Incremental: 44→43 activos (-1), 0→1 exp
-  Morph Rng: 3→2 activos (-1), 0→1 exp
-  Motorush: 24→23 activos (-1), 23→24 exp
-  Multiverse Tower Defense: 51→49 activos (-2), 97→99 exp
-  My Hero Battlegrounds: 15→13 activos (-2), 0→2 exp
-  Nfl Universe Football: 34→33 activos (-1), 246→246 exp
-  Noob Merge Army: 4→3 activos (-1), 0→1 exp
-  Obito Piece: 15→5 activos (-10), 0→10 exp
-  Octopus Game: 9→8 activos (-1), 10→11 exp
-  Omega Rune Incremental 2: 23→22 activos (-1), 0→1 exp
-  Omega Rune Incremental: 47→43 activos (-4), 2→6 exp
-  One Piece New Dreams: 26→25 activos (-1), 13→14 exp
-  One Fruit Simulator: 105→99 activos (-6), 230→234 exp
-  One Punch Hero: 37→20 activos (-17), 0→17 exp
-  Panik Classic: 13→12 activos (-1), 4→5 exp
-  Pickaxe Mining Simulator: 26→24 activos (-2), 1→3 exp
-  Picnics N Plushies: 30→29 activos (-1), 13→13 exp
-  Piece Rng: 60→59 activos (-1), 1→2 exp
-  Pirates Dream: 19→15 activos (-4), 1→5 exp
-  Pitch A Pet Simulator: 5→1 activos (-4), 0→4 exp
-  Play For Ugc: 12→8 activos (-4), 52→56 exp
-  Power Battle Simulator: 5→4 activos (-1), 0→1 exp
-  Project Menacing Remake: 35→34 activos (-1), 4→5 exp
-  Project Xxl: 25→24 activos (-1), 2→3 exp
-  Psychis Battleground: 11→10 activos (-1), 7→8 exp
-  Pup Army: 6→5 activos (-1), 0→0 exp
-  Reaper Clicker: 12→11 activos (-1), 1→2 exp
-  Realms Simulator: 7→6 activos (-1), 1→2 exp
-  Rh2 The Journey: 39→37 activos (-2), 80→81 exp
-  Rng Anime Rarities: 120→115 activos (-5), 59→64 exp
-  Rider World: 35→33 activos (-2), 45→47 exp
-  Rock Mine Simulator: 12→11 activos (-1), 0→1 exp
-  Roll For Brawlers: 12→9 activos (-3), 0→3 exp
-  Rotube Life: 18→7 activos (-11), 4→15 exp
-  Royalty Kingdom 2: 11→9 activos (-2), 13→15 exp
-  Sea Cleaning Simulator: 7→4 activos (-3), 0→3 exp
-  Ship Tower Defense Simulator: 11→8 activos (-3), 1→4 exp
-  Shrek Swamp Tycoon: 18→6 activos (-12), 1→13 exp
-  Shuudan: 19→18 activos (-1), 35→36 exp
-  Skateman Simulator: 45→42 activos (-3), 0→3 exp
-  Skibi Toilet Fighters: 21→20 activos (-1), 4→5 exp
-  Skyblock Tycoon: 7→3 activos (-4), 0→4 exp
-  Slashers Arena: 10→9 activos (-1), 1→2 exp
-  Slash Mobs Simulator: 2→1 activos (-1), 0→1 exp
-  Slimera: 6→4 activos (-2), 2→4 exp
-  Smash Grab Simulator: 7→6 activos (-1), 0→1 exp
-  Soccer Legends Rng: 58→56 activos (-2), 3→5 exp
-  Solo Hunters: 14→15 activos (+1), 36→36 exp
-    Nuevos: SoloHuntersISBACK
-  Spellblade: 12→11 activos (-1), 3→4 exp
-  Spin 4 Lims: 3→2 activos (-1), 0→1 exp
-  Sprunki Rng: 2→1 activos (-1), 0→1 exp
-  Spts Return Of The Reaper: 4→0 activos (-4), 16→20 exp
-  Start A Farm: 4→3 activos (-1), 0→0 exp
-  Stat Farm Incremental: 15→14 activos (-1), 0→1 exp
-  Stand Proud: 6→5 activos (-1), 37→38 exp
-  Stone Farm Simulator: 5→4 activos (-1), 0→1 exp
-  Strong Muscle Simulator 2: 9→5 activos (-4), 6→10 exp
-  Strongest Anime Squad Simulator: 8→7 activos (-1), 0→1 exp
-  Super Anime Merge: 47→26 activos (-21), 16→37 exp
-  Super Power Legends: 4→2 activos (-2), 64→66 exp
-  Superhuman Simulator: 16→15 activos (-1), 0→1 exp
-  Supreme Bathroom Battles: 5→3 activos (-2), 6→8 exp
-  Survival Odyssey: 5→4 activos (-1), 56→57 exp
-  Swimming Race Simulator: 4→3 activos (-1), 0→1 exp
-  Sword Duels: 7→4 activos (-3), 0→3 exp
-  Sword Slasher: 6→5 activos (-1), 1→2 exp
-  Tank Race: 2→1 activos (-1), 0→1 exp
-  Sword Race: 10→9 activos (-1), 1→2 exp
-  Tap For Ugc: 10→5 activos (-5), 3→8 exp
-  Tcg Card Shop Simulator: 14→11 activos (-3), 1→4 exp
-  Tenisu Titans: 10→9 activos (-1), 0→0 exp
-  The Undead Coming Armageddon: 17→16 activos (-1), 3→4 exp
-  Throwing Simulator: 8→6 activos (-2), 16→18 exp
-  Titan Rng: 21→20 activos (-1), 1→2 exp
-  Titan Wars Skibidi Toilet Tower Defense: 18→12 activos (-6), 0→6 exp
-  Tix Factory Experimental: 6→3 activos (-3), 0→3 exp
-  Toilet Battlegrounds: 8→6 activos (-2), 1→3 exp
-  Toilet Legacy Defense: 3→1 activos (-2), 17→19 exp
-  Toilet Tower Defense But Coins: 13→12 activos (-1), 8→9 exp
-  Toilet War Tower Defense: 8→2 activos (-6), 2→8 exp
-  Touchdown Simulator: 3→1 activos (-2), 3→5 exp
-  Tower Defenders: 15→11 activos (-4), 0→4 exp
-  Tower Of God: 7→6 activos (-1), 100→101 exp
-  Ugc Rng: 14→13 activos (-1), 0→1 exp
-  Ugc Dont Move: 8→7 activos (-1), 131→132 exp
-  Ultimate Fishing Simulator: 3→2 activos (-1), 0→1 exp
-  Uca: 35→25 activos (-10), 9→19 exp
-  Unequal: 14→13 activos (-1), 6→7 exp
-  Unlock Football Legends: 58→56 activos (-2), 3→5 exp
-  Unordinary: 16→14 activos (-2), 0→2 exp
-  Water Pumping Incremental: 15→10 activos (-5), 1→6 exp
-  Weapon Master Vs Anime: 10→9 activos (-1), 0→1 exp
-  Workout Island: 32→17 activos (-15), 22→37 exp
-  Zo Samurai: 5→1 activos (-4), 22→26 exp
-  Zombie Tycoon: 23→22 activos (-1), 1→2 exp
-  Zombie Titans Simulator: 4→3 activos (-1), 0→1 exp
+  A Bizarre Universe: 4→3 activos (-1), 6→7 exp
+  Anime Ball: 4→3 activos (-1), 92→93 exp
+  Anime Boxing Simulator: 25→24 activos (-1), 0→1 exp
+  Anime Champions Simulator: 13→12 activos (-1), 130→131 exp
+  Anime Combat Simulator: 14→12 activos (-2), 0→2 exp
+  Anime Fight Next Generation: 11→10 activos (-1), 0→0 exp
+  Anime Guardians: 24→20 activos (-4), 169→173 exp
+  Anime Last Stand: 18→9 activos (-9), 288→297 exp
+  Anime Odyssey Simulator: 25→22 activos (-3), 1→4 exp
+  Anime Power Defense: 12→11 activos (-1), 87→88 exp
+  Anime Rng Battlegrounds: 23→22 activos (-1), 1→1 exp
+  Anime Verse X: 32→21 activos (-11), 0→10 exp
+  Azure Latch: 6→5 activos (-1), 100→101 exp
+  Backroom Tower Defense 2 New Era: 13→12 activos (-1), 0→1 exp
+  Brainrot Evolution: 72→71 activos (-1), 7→8 exp
+  Brainrot Tower Defense: 11→10 activos (-1), 27→28 exp
+  Build A Bear Tycoon: 3→2 activos (-1), 0→1 exp
+  Button Simulator Mania 2: 33→32 activos (-1), 7→8 exp
+  Chocolate Factory Tycoon: 10→8 activos (-2), 0→2 exp
+  Digimon Masters: 4→3 activos (-1), 15→16 exp
+  Dragon Soul: 24→18 activos (-6), 11→17 exp
+  Dress To Impress: 26→25 activos (-1), 34→35 exp
+  Drill Digging Simulator: 4→2 activos (-2), 5→7 exp
+  Dungeon Rng: 8→7 activos (-1), 56→56 exp
+  Eagle Nation: 1→2 activos (+1), 18→18 exp
+    Nuevos: NEWMAP2
+  Egolock: 11→10 activos (-1), 0→1 exp
+  Fight For Ny: 1→4 activos (+3), 24→24 exp
+    Nuevos: 50KMEMBERS, 100KFAVS, 6MVISITS
+  Fireworks Playground: 2→2 activos (=), 211→212 exp
+    Nuevos: 600KMEMBERS
+  Flappy Clicker: 3→2 activos (-1), 0→1 exp
+  Fruit Warriors: 11→10 activos (-1), 2→3 exp
+  Ghoul Re: 30→27 activos (-3), 82→85 exp
+  Guess It: 14→13 activos (-1), 0→0 exp
+  Jujutsu Legacy: 31→30 activos (-1), 11→12 exp
+  Jules Rng: 4→2 activos (-2), 49→51 exp
+  King Legacy: 3→4 activos (+1), 149→149 exp
+    Nuevos: FIXEDDROPBOOST
+  Loot Up: 6→7 activos (+1), 9→9 exp
+    Nuevos: 10MIL
+  Majika: 1→2 activos (+1), 11→11 exp
+    Nuevos: mirrormaiden
+  Obby But Youre A Cube: 21→18 activos (-3), 0→3 exp
+  Pet Trading Card Simulator: 31→22 activos (-9), 0→9 exp
+  Planet Evolution Idle Clicker: 6→4 activos (-2), 1→2 exp
+  Project Blue Lock: 10→9 activos (-1), 325→326 exp
+  Project Mugetsu: 15→6 activos (-9), 337→346 exp
+  Pull a Sword: 48→46 activos (-2), 173→175 exp
+  Squid Game X: 32→31 activos (-1), 49→50 exp
+  Super Skiing Race: 7→6 activos (-1), 0→1 exp
+  Survive On A Raft: 1→0 activos (-1), 23→24 exp
+  Waste Time: 7→8 activos (+1), 28→28 exp
+    Nuevos: funnycode
+  World Tower Defense: 5→4 activos (-1), 0→1 exp

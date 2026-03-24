@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-66b1b7fd4e25511445d6f7bb207b931d/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para King Legacy en Roblox",
   "metaTitle": "Códigos King Legacy Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para King Legacy en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:46.897Z",
+  "metaDescription": "Lista actualizada de códigos para King Legacy en Roblox. 4 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-24T20:36:13.014Z",
   "activeCodes": [
+    {
+      "code": "FIXEDDROPBOOST",
+      "reward": "10 Fortune Tales",
+      "addedDate": "2026-03-24"
+    },
     {
       "code": "Update10Release",
       "reward": "Doble EXP (15 minutos)",
@@ -25,24 +30,12 @@
   ],
   "expiredCodes": [
     {
-      "code": "Update7Release",
-      "reward": "2x EXP (15 minutos)"
+      "code": "BECKSTYLE",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "PassiveMaster",
       "reward": "1 Fate Book"
-    },
-    {
-      "code": "Spino",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "PassiveMaste",
-      "reward": "1 Fate Book"
-    },
-    {
-      "code": "QuakeQuake",
-      "reward": "Recompensa"
     },
     {
       "code": "SORRYFORSHUTDOWN",
@@ -73,10 +66,6 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "BECKSTYLE",
-      "reward": "Recompensa gratis"
-    },
-    {
       "code": "OpOp",
       "reward": "Recompensa"
     },
@@ -97,16 +86,32 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "PvPArenaFu",
-      "reward": "Recompensa gratis"
+      "code": "Update7Release",
+      "reward": "2x EXP (15 minutos)"
     },
     {
       "code": "100MVISITS",
       "reward": "Recompensa gratis"
     },
     {
+      "code": "DungeonBugFixed",
+      "reward": "30 gemas"
+    },
+    {
       "code": "FIXEDBUG1003",
       "reward": "3 oro llaves"
+    },
+    {
+      "code": "PassiveMaste",
+      "reward": "1 Fate Book"
+    },
+    {
+      "code": "200KLIKES",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "PvPArenaFu",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "Update7.1",
@@ -325,10 +330,6 @@
       "reward": "2 oro llaves"
     },
     {
-      "code": "DungeonBugFixed",
-      "reward": "30 gemas"
-    },
-    {
       "code": "QuakePowerUp",
       "reward": "1 Fate Book"
     },
@@ -481,10 +482,6 @@
       "reward": "Three gemas"
     },
     {
-      "code": "200KLIKES",
-      "reward": "Recompensa expirada"
-    },
-    {
       "code": "100KLIKES",
       "reward": "Recompensa gratis"
     },
@@ -531,6 +528,14 @@
     {
       "code": "THANAKORN",
       "reward": "Recompensa gratis"
+    },
+    {
+      "code": "Spino",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "QuakeQuake",
+      "reward": "Recompensa"
     },
     {
       "code": "QuakeSurprise",
