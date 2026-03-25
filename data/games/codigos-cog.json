@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-02bfb22dc8b86343f311cbe76af69afc/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Cog en Roblox",
   "metaTitle": "Códigos Cog Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Cog en Roblox. 13 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:14.483Z",
+  "metaDescription": "Lista actualizada de códigos para Cog en Roblox. 14 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-25T08:41:47.027Z",
   "activeCodes": [
+    {
+      "code": "MOB",
+      "reward": "Miles",
+      "addedDate": "2026-03-25"
+    },
     {
       "code": "FUJI",
       "reward": "Miles",
@@ -37,10 +42,6 @@
       "reward": "125 Miles"
     },
     {
-      "code": "90KFAVORITES",
-      "reward": "125 Miles"
-    },
-    {
       "code": "80KFAVORITES",
       "reward": "125 Miles"
     },
@@ -53,6 +54,10 @@
       "reward": "125 Miles"
     },
     {
+      "code": "90KFAVORITES",
+      "reward": "125 Miles"
+    },
+    {
       "code": "ROADBIKES",
       "reward": "125 Miles"
     },
@@ -62,46 +67,6 @@
     }
   ],
   "expiredCodes": [
-    {
-      "code": "9MILLION",
-      "reward": "Miles"
-    },
-    {
-      "code": "JANUARY2026",
-      "reward": "Miles"
-    },
-    {
-      "code": "HAPPYNEWYEAR",
-      "reward": "Miles"
-    },
-    {
-      "code": "PARALLAX",
-      "reward": "Miles"
-    },
-    {
-      "code": "50KFAVORITES",
-      "reward": "Miles"
-    },
-    {
-      "code": "HOUSES",
-      "reward": "Miles"
-    },
-    {
-      "code": "1000CCU",
-      "reward": "Miles"
-    },
-    {
-      "code": "RENT",
-      "reward": "Miles"
-    },
-    {
-      "code": "CYCLEDOUT",
-      "reward": "Miles"
-    },
-    {
-      "code": "NEWYEAR2026",
-      "reward": "Miles"
-    },
     {
       "code": "/followcoglukie",
       "reward": "200 miles"
@@ -241,6 +206,46 @@
     {
       "code": "/missile",
       "reward": "Miles"
+    },
+    {
+      "code": "1000CCU",
+      "reward": "Miles"
+    },
+    {
+      "code": "RENT",
+      "reward": "Miles"
+    },
+    {
+      "code": "HOUSES",
+      "reward": "Miles"
+    },
+    {
+      "code": "50KFAVORITES",
+      "reward": "Miles"
+    },
+    {
+      "code": "CYCLEDOUT",
+      "reward": "Miles"
+    },
+    {
+      "code": "NEWYEAR2026",
+      "reward": "Miles"
+    },
+    {
+      "code": "HAPPYNEWYEAR",
+      "reward": "Miles"
+    },
+    {
+      "code": "PARALLAX",
+      "reward": "Miles"
+    },
+    {
+      "code": "9MILLION",
+      "reward": "Miles"
+    },
+    {
+      "code": "JANUARY2026",
+      "reward": "250 Miles"
     }
   ],
   "howToRedeem": [

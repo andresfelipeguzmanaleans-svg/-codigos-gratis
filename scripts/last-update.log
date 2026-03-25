@@ -1,133 +1,39 @@
-=== RESUMEN UPDATE 2026-03-24 20:37 ===
+=== RESUMEN UPDATE 2026-03-25 08:44 ===
 
 Archivos modificados:
-  50 archivos cambiados
+  7 archivos cambiados
 
 Archivos nuevos:
-  7 archivos nuevos
+  2 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4140 juegos (4140 procesados)
-Actualizados: 48 | Sin cambios: 3947
+Total: 4142 juegos (4142 procesados)
+Actualizados: 5 | Sin cambios: 3992
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 9 | Movidos a expirados: 95
-Tiempo: 144.8s | Concurrencia: 10
+Códigos nuevos: 4 | Movidos a expirados: 4
+Tiempo: 150.8s | Concurrencia: 10
 
 Juegos actualizados:
-  A Bizarre Universe: 4→3 activos (-1), 6→7 exp
-  Anime Ball: 4→3 activos (-1), 92→93 exp
-  Anime Boxing Simulator: 25→24 activos (-1), 0→1 exp
-  Anime Champions Simulator: 13→12 activos (-1), 130→131 exp
-  Anime Combat Simulator: 14→12 activos (-2), 0→2 exp
-  Anime Fight Next Generation: 11→10 activos (-1), 0→0 exp
-  Anime Guardians: 24→20 activos (-4), 169→173 exp
-  Anime Last Stand: 18→9 activos (-9), 288→297 exp
-  Anime Odyssey Simulator: 25→22 activos (-3), 1→4 exp
-  Anime Power Defense: 12→11 activos (-1), 87→88 exp
-  Anime Rng Battlegrounds: 23→22 activos (-1), 1→1 exp
-  Anime Verse X: 32→21 activos (-11), 0→10 exp
-  Azure Latch: 6→5 activos (-1), 100→101 exp
-  Backroom Tower Defense 2 New Era: 13→12 activos (-1), 0→1 exp
-  Brainrot Evolution: 72→71 activos (-1), 7→8 exp
-  Brainrot Tower Defense: 11→10 activos (-1), 27→28 exp
-  Build A Bear Tycoon: 3→2 activos (-1), 0→1 exp
-  Button Simulator Mania 2: 33→32 activos (-1), 7→8 exp
-  Chocolate Factory Tycoon: 10→8 activos (-2), 0→2 exp
-  Digimon Masters: 4→3 activos (-1), 15→16 exp
-  Dragon Soul: 24→18 activos (-6), 11→17 exp
-  Dress To Impress: 26→25 activos (-1), 34→35 exp
-  Drill Digging Simulator: 4→2 activos (-2), 5→7 exp
-  Dungeon Rng: 8→7 activos (-1), 56→56 exp
-  Eagle Nation: 1→2 activos (+1), 18→18 exp
-    Nuevos: NEWMAP2
-  Egolock: 11→10 activos (-1), 0→1 exp
-  Fight For Ny: 1→4 activos (+3), 24→24 exp
-    Nuevos: 50KMEMBERS, 100KFAVS, 6MVISITS
-  Fireworks Playground: 2→2 activos (=), 211→212 exp
-    Nuevos: 600KMEMBERS
-  Flappy Clicker: 3→2 activos (-1), 0→1 exp
-  Fruit Warriors: 11→10 activos (-1), 2→3 exp
-  Ghoul Re: 30→27 activos (-3), 82→85 exp
-  Guess It: 14→13 activos (-1), 0→0 exp
-  Jujutsu Legacy: 31→30 activos (-1), 11→12 exp
-  Jules Rng: 4→2 activos (-2), 49→51 exp
-  King Legacy: 3→4 activos (+1), 149→149 exp
-    Nuevos: FIXEDDROPBOOST
-  Loot Up: 6→7 activos (+1), 9→9 exp
-    Nuevos: 10MIL
-  Majika: 1→2 activos (+1), 11→11 exp
-    Nuevos: mirrormaiden
-  Obby But Youre A Cube: 21→18 activos (-3), 0→3 exp
-  Pet Trading Card Simulator: 31→22 activos (-9), 0→9 exp
-  Planet Evolution Idle Clicker: 6→4 activos (-2), 1→2 exp
-  Project Blue Lock: 10→9 activos (-1), 325→326 exp
-  Project Mugetsu: 15→6 activos (-9), 337→346 exp
-  Pull a Sword: 48→46 activos (-2), 173→175 exp
-  Squid Game X: 32→31 activos (-1), 49→50 exp
-  Super Skiing Race: 7→6 activos (-1), 0→1 exp
-  Survive On A Raft: 1→0 activos (-1), 23→24 exp
-  Waste Time: 7→8 activos (+1), 28→28 exp
-    Nuevos: funnycode
-  World Tower Defense: 5→4 activos (-1), 0→1 exp
+  Basketball Zero: 3→4 activos (+1), 202→202 exp
+    Nuevos: riftkuro-serverfix-sorryjofu
+  Cog: 13→14 activos (+1), 45→45 exp
+    Nuevos: MOB
+  Merge Tower Defense: 12→13 activos (+1), 3→3 exp
+    Nuevos: DAMAGERAID
+  Tv Defense: 17→18 activos (+1), 20→20 exp
+    Nuevos: BATTLEPASS11
+  Voxel Defenders Tower Defense: 14→10 activos (-4), 1→5 exp
 
 Detalle cambios:
-data/games/codigos-a-bizarre-universe.json
-data/games/codigos-anime-ball.json
-data/games/codigos-anime-boxing-simulator.json
-data/games/codigos-anime-champions-simulator.json
-data/games/codigos-anime-combat-simulator.json
-data/games/codigos-anime-fight-next-generation.json
-data/games/codigos-anime-guardians.json
-data/games/codigos-anime-last-stand.json
-data/games/codigos-anime-odyssey-simulator.json
-data/games/codigos-anime-power-defense.json
-data/games/codigos-anime-rng-battlegrounds.json
-data/games/codigos-anime-verse-x.json
-data/games/codigos-azure-latch.json
-data/games/codigos-backroom-tower-defense-2-new-era.json
-data/games/codigos-brainrot-evolution.json
-data/games/codigos-brainrot-tower-defense.json
-data/games/codigos-build-a-bear-tycoon.json
-data/games/codigos-button-simulator-mania-2.json
-data/games/codigos-chocolate-factory-tycoon.json
-data/games/codigos-digimon-masters.json
-data/games/codigos-dragon-soul.json
-data/games/codigos-dress-to-impress.json
-data/games/codigos-drill-digging-simulator.json
-data/games/codigos-dungeon-rng.json
-data/games/codigos-eagle-nation.json
-data/games/codigos-egolock.json
-data/games/codigos-fight-for-ny.json
-data/games/codigos-fireworks-playground.json
-data/games/codigos-flappy-clicker.json
-data/games/codigos-fruit-warriors.json
-data/games/codigos-ghoul-re.json
-data/games/codigos-guess-it.json
-data/games/codigos-jujutsu-legacy.json
-data/games/codigos-jules-rng.json
-data/games/codigos-king-legacy.json
-data/games/codigos-loot-up.json
-data/games/codigos-majika.json
-data/games/codigos-obby-but-youre-a-cube.json
-data/games/codigos-pet-trading-card-simulator.json
-data/games/codigos-planet-evolution-idle-clicker.json
-data/games/codigos-project-blue-lock.json
-data/games/codigos-project-mugetsu.json
-data/games/codigos-pull-a-sword.json
-data/games/codigos-squid-game-x.json
-data/games/codigos-super-skiing-race.json
-data/games/codigos-survive-on-a-raft.json
-data/games/codigos-waste-time.json
-data/games/codigos-world-tower-defense.json
+data/games/codigos-basketball-zero.json
+data/games/codigos-cog.json
+data/games/codigos-merge-tower-defense.json
+data/games/codigos-tv-defense.json
+data/games/codigos-voxel-defenders-tower-defense.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-anime-tactical-simulator.json
-data/games/codigos-build-an-arcade.json
-data/games/codigos-heavyweight-fishing.json
-data/games/codigos-jojos-bizarre-incremental.json
-data/games/codigos-knockout.json
-data/games/codigos-last-letter.json
-data/games/codigos-sorcerer-tycoon.json
+data/games/codigos-fart-training.json
+data/games/codigos-nba-champions-basketball.json
 

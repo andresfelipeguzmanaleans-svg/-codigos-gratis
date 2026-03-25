@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-e30b2e177388f0a00cd2124870a12155/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Tv Defense en Roblox",
   "metaTitle": "Códigos Tv Defense Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Tv Defense en Roblox. 17 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:48.481Z",
+  "metaDescription": "Lista actualizada de códigos para Tv Defense en Roblox. 18 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-25T08:43:31.744Z",
   "activeCodes": [
+    {
+      "code": "BATTLEPASS11",
+      "reward": "1900 monedas",
+      "addedDate": "2026-03-25"
+    },
     {
       "code": "ETHEL",
       "reward": "Recompensas gratis",
@@ -83,46 +88,6 @@
   ],
   "expiredCodes": [
     {
-      "code": "ENDLESS7",
-      "reward": "10 Red cristales"
-    },
-    {
-      "code": "ROSE",
-      "reward": "500 Hearts"
-    },
-    {
-      "code": "SCPEVENT",
-      "reward": "500 SCP monedas"
-    },
-    {
-      "code": "MEME2024",
-      "reward": "9 Meme monedas (Play more than 5 games to redeem)"
-    },
-    {
-      "code": "FEBRUARY14",
-      "reward": "500 Hearts"
-    },
-    {
-      "code": "NEWYEAR2025",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "MERRYCHRISTMAS",
-      "reward": "500 Santa Hat"
-    },
-    {
-      "code": "FREEGEMS",
-      "reward": "500 gemas (Play more than 5 games to redeem)"
-    },
-    {
-      "code": "BACKROOM",
-      "reward": "9 Almond Water (Play more than 5 games to redeem)"
-    },
-    {
-      "code": "ENDLESS6",
-      "reward": "10 Red cristales"
-    },
-    {
       "code": "BATTLEPASS10",
       "reward": "1900 monedas"
     },
@@ -161,6 +126,46 @@
     {
       "code": "HALLOWEENPART2",
       "reward": "500 Pumpkins"
+    },
+    {
+      "code": "MEME2024",
+      "reward": "9 Meme monedas"
+    },
+    {
+      "code": "BACKROOM",
+      "reward": "9 Almond Water"
+    },
+    {
+      "code": "FREEGEMS",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "SCPEVENT",
+      "reward": "500 SCP monedas"
+    },
+    {
+      "code": "FEBRUARY14",
+      "reward": "500 Hearts"
+    },
+    {
+      "code": "ROSE",
+      "reward": "500 Hearts"
+    },
+    {
+      "code": "ENDLESS6",
+      "reward": "10 Red cristales"
+    },
+    {
+      "code": "MERRYCHRISTMAS",
+      "reward": "500 Santa Hats"
+    },
+    {
+      "code": "NEWYEAR2025",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "ENDLESS7",
+      "reward": "10 Red cristales"
     }
   ],
   "howToRedeem": [
