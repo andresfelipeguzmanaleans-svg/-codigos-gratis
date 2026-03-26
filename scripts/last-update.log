@@ -1,43 +1,42 @@
-=== RESUMEN UPDATE 2026-03-25 20:34 ===
+=== RESUMEN UPDATE 2026-03-26 08:48 ===
 
 Archivos modificados:
-  10 archivos cambiados
+  7 archivos cambiados
 
 Archivos nuevos:
-  1 archivos nuevos
+  4 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4143 juegos (4143 procesados)
-Actualizados: 8 | Sin cambios: 3990
+Total: 4147 juegos (4147 procesados)
+Actualizados: 5 | Sin cambios: 3997
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 8 | Movidos a expirados: 5
-Tiempo: 158.2s | Concurrencia: 10
+Códigos nuevos: 6 | Movidos a expirados: 2
+Tiempo: 137.0s | Concurrencia: 10
 
 Juegos actualizados:
-  Basketball Legends: 7→6 activos (-1), 149→150 exp
-  Basketball Zero: 4→3 activos (-1), 202→203 exp
-  Cog: 14→13 activos (-1), 45→46 exp
-  Heavyweight Fishing: 17→19 activos (+2), 21→21 exp
-    Nuevos: 23KLikes, SorryforbugsX
-  Merge Tower Defense: 13→12 activos (-1), 3→4 exp
-  Project Mirror Labyrinth: 6→8 activos (+2), 21→21 exp
-    Nuevos: TeamIndex, TeamMiddle
-  Sailor Piece: 24→28 activos (+4), 97→97 exp
-    Nuevos: 175KFOLLOWSTYSM, INFINITETOWER, MASSIVEUPDATE, SEA2SOON
-  Tv Defense: 18→17 activos (-1), 20→21 exp
+  Anime Eternal: 2→3 activos (+1), 735→735 exp
+    Nuevos: CodeCozNoUpdate43P3
+  Beaks: 1→2 activos (+1), 8→8 exp
+    Nuevos: champions
+  Dance for UGC: 8→9 activos (+1), 546→546 exp
+    Nuevos: OnlyYourWave
+  Dead Spells: 3→5 activos (+2), 31→31 exp
+    Nuevos: 55KLIKES, PartOne
+  Jujutsu Infinite: 5→3 activos (-2), 98→101 exp
+    Nuevos: JUDGE_SOON
 
 Detalle cambios:
-data/games/codigos-basketball-legends.json
-data/games/codigos-basketball-zero.json
-data/games/codigos-cog.json
-data/games/codigos-heavyweight-fishing.json
-data/games/codigos-merge-tower-defense.json
-data/games/codigos-project-mirror-labyrinth.json
-data/games/codigos-sailor-piece.json
-data/games/codigos-tv-defense.json
+data/games/codigos-anime-eternal.json
+data/games/codigos-beaks.json
+data/games/codigos-dance-for-ugc.json
+data/games/codigos-dead-spells.json
+data/games/codigos-jujutsu-infinite.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-rensselaer-county.json
+data/games/codigos-anime-crusaders.json
+data/games/codigos-anime-ghosts.json
+data/games/codigos-hooked.json
+data/games/codigos-mojave-valley.json
 
