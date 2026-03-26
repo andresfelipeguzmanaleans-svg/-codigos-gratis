@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-06e4d1eb1167c44e2175c1108a06cbd2/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Climbing Simulator en Roblox",
   "metaTitle": "Códigos Climbing Simulator Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Climbing Simulator en Roblox. 10 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:13.695Z",
+  "metaDescription": "Lista actualizada de códigos para Climbing Simulator en Roblox. 4 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-26T20:30:58.026Z",
   "activeCodes": [
     {
       "code": "BONUS",
@@ -26,11 +26,12 @@
       "code": "EGGHUNT",
       "reward": "Recompensas",
       "addedDate": "2026-03-23"
-    },
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "15KLIKES",
-      "reward": "1,000 Wins",
-      "addedDate": "2026-03-23"
+      "reward": "1,000 Wins"
     },
     {
       "code": "4MVISITS",
@@ -51,12 +52,10 @@
     {
       "code": "UNDERWATER",
       "reward": "Win Boost"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
-      "code": "3KLIKES",
-      "reward": "Recompensas gratis"
+      "code": "500LIKES",
+      "reward": "1000 Wins"
     },
     {
       "code": "SORRY4DELAY",
@@ -67,27 +66,23 @@
       "reward": "Recompensas gratis"
     },
     {
+      "code": "REBIRTH",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "3MVISITS",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "8KLIKES",
-      "reward": "Recompensas gratis"
+      "code": "VOLCANO",
+      "reward": "Doble Wins Boost"
     },
     {
-      "code": "2MVISITS",
-      "reward": "Recompensas gratis"
+      "code": "2KLIKES",
+      "reward": "Extra Wins"
     },
     {
-      "code": "4KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BIGDELAY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1MVISITS",
+      "code": "AURA",
       "reward": "Recompensas gratis"
     },
     {
@@ -95,27 +90,31 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "AURA",
+      "code": "3KLIKES",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "2KLIKES",
+      "code": "1MVISITS",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "REBIRTH",
+      "code": "BIGDELAY",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "VOLCANO",
-      "reward": "X2 Wins Boost for 10 minutos"
-    },
-    {
-      "code": "500LIKES",
-      "reward": "1,00 Wins"
+      "code": "4KLIKES",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "NEWMAPSOON",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "2MVISITS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "8KLIKES",
       "reward": "Recompensas gratis"
     }
   ],

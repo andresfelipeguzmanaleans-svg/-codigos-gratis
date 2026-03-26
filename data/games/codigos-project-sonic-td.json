@@ -4,9 +4,19 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-f1616a95182f492a7bb193b434ddfaa4/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Project Sonic Td en Roblox",
   "metaTitle": "Códigos Project Sonic Td Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Project Sonic Td en Roblox. 11 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:13.624Z",
+  "metaDescription": "Lista actualizada de códigos para Project Sonic Td en Roblox. 2 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-26T20:32:08.559Z",
   "activeCodes": [
+    {
+      "code": "PROJECTSONICTOWERDELAY!",
+      "reward": "25 Test cofres, 25 Holiday cofres and 25 Halloween cofres (requires 10 wins to redeem)"
+    },
+    {
+      "code": "SORRYFORSHUTDOWN",
+      "reward": "1000 Rings & 15 Rsr (requires 10 Wins to redeem)"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "SPECIALSTAGE",
       "reward": "Especial Stage ticket (requires 25 Wins to Redeem)"
@@ -18,10 +28,6 @@
     {
       "code": "UPDATE1PART2",
       "reward": "Doble Currency (1 hora) (requires 25 Wins to Redeem)"
-    },
-    {
-      "code": "PROJECTSONICTOWERDELAY!",
-      "reward": "25 Test cofres, 25 Holiday cofres and 25 Halloween cofres (requires 10 wins to redeem)"
     },
     {
       "code": "ALPHA",
@@ -48,24 +54,6 @@
       "reward": "RIngs and 1 Rsr (requires 1 Win to redeem)"
     },
     {
-      "code": "SORRYFORSHUTDOWN",
-      "reward": "1000 Rings & 15 Rsr (requires 10 Wins to redeem)"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "1MILLIONVISITS!",
-      "reward": "1000 Rings, 25 Rsr, 25 Halloween cofres, 25 Holiday cofres, doble Currency (requires 20 wins to redeem)"
-    },
-    {
-      "code": "Sorry!",
-      "reward": "Doble suerte for 1 hora (requires 10 Wins to redeem)"
-    },
-    {
-      "code": "5KMEMBERS!",
-      "reward": "25 cofres & doble suerte for 1 hora (requires 20 wins to redeem)"
-    },
-    {
       "code": "SORRYFORBUGS!",
       "reward": "1,000 Rings, RSR, and 2 especial Stage tickets"
     },
@@ -80,6 +68,18 @@
     {
       "code": "SORRYFORSHUTDOWN!",
       "reward": "15 Rsr and 1,000 Rings"
+    },
+    {
+      "code": "Sorry!",
+      "reward": "Doble suerte for 1 hora (requires 10 Wins to redeem)"
+    },
+    {
+      "code": "5KMEMBERS!",
+      "reward": "25 cofres & doble suerte for 1 hora (requires 20 wins to redeem)"
+    },
+    {
+      "code": "1MILLIONVISITS!",
+      "reward": "1000 Rings, 25 Rsr, 25 Halloween cofres, 25 Holiday cofres, doble Currency (requires 20 wins to redeem)"
     }
   ],
   "howToRedeem": [

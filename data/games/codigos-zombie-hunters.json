@@ -5,13 +5,14 @@
   "description": "Todos los códigos activos para Zombie Hunters en Roblox",
   "metaTitle": "Códigos Zombie Hunters Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Zombie Hunters en Roblox. 9 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:56.550Z",
+  "lastUpdated": "2026-03-26T20:32:57.110Z",
   "playerCount": 14,
   "totalVisits": 34030765,
   "likes": 48632,
   "genre": "Adventure",
   "placeId": 15015142084,
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "Welcome",
       "reward": "50 gemas"
@@ -47,32 +48,10 @@
     {
       "code": "Z-CODE",
       "reward": "500 gemas"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "SorryEveryone",
-      "reward": "Redeem code for recompensas (Expires February 4th, 2024) gratis"
     },
     {
-      "code": "ZombieHunters",
-      "reward": "Redeem code for 50 gemas"
-    },
-    {
-      "code": "ZombieSlayer",
-      "reward": "Redeem code for Boost Loot"
-    },
-    {
-      "code": "16KLikesTY",
-      "reward": "Redeem code for recompensas gratis"
-    },
-    {
-      "code": "ZWT",
-      "reward": "Recompensa desconocida"
-    },
-    {
-      "code": "COYOTE2",
-      "reward": "50 Lucky Perk giros"
+      "code": "NEWTRAIT",
+      "reward": "100 Trait giros"
     },
     {
       "code": "16KLIKESYT",
@@ -83,8 +62,8 @@
       "reward": "50 Traits"
     },
     {
-      "code": "NEWTRAIT",
-      "reward": "100 Trait giros"
+      "code": "ZWT",
+      "reward": "Recompensa desconocida"
     },
     {
       "code": "OMGCODE55",
@@ -97,6 +76,26 @@
     {
       "code": "NEWPERK",
       "reward": "60 Lucky Perk giros"
+    },
+    {
+      "code": "COYOTE2",
+      "reward": "50 Lucky Perk giros"
+    },
+    {
+      "code": "16KLikesTY",
+      "reward": "100 gemas"
+    },
+    {
+      "code": "SorryEveryone",
+      "reward": "3000 gemas"
+    },
+    {
+      "code": "ZombieSlayer",
+      "reward": "Boost Loot"
+    },
+    {
+      "code": "ZombieHunters",
+      "reward": "50 gemas"
     }
   ],
   "introText": "Zombie Hunters es un shooter cooperativo de Roblox desarrollado por OMG - One More Games donde sobrevives a un mundo apocalíptico lleno de zombis. Con más de 34 millones de visitas, el juego te permite elegir entre una gran variedad de armas y habilidades para derrotar oleadas de zombis cada vez más peligrosos, recoger loot y avanzar por distintas fases.",

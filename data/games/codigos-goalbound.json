@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-bf77a510446fdf530edd30978567b57f/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Goalbound en Roblox",
   "metaTitle": "Códigos Goalbound Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Goalbound en Roblox. 18 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:36.042Z",
+  "metaDescription": "Lista actualizada de códigos para Goalbound en Roblox. 2 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-26T20:31:24.970Z",
   "activeCodes": [
     {
       "code": "100KLIKES",
@@ -15,11 +15,12 @@
     {
       "code": "100K",
       "reward": "Recompensas"
-    },
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "BUGFIXES",
-      "reward": "15 Lucky Style And Ego giros",
-      "addedDate": "2026-03-23"
+      "reward": "15 Lucky Style And Ego giros"
     },
     {
       "code": "XMAS2",
@@ -62,10 +63,6 @@
       "reward": "1 Style Lucky giro"
     },
     {
-      "code": "100K",
-      "reward": "5 Style Lucky giros and 5 Ego Lucky giros"
-    },
-    {
       "code": "DOBETTERMIRO",
       "reward": "5 Style Lucky giros"
     },
@@ -80,44 +77,30 @@
     {
       "code": "RELEASE",
       "reward": "5 Style giros and 3 Ego Lucky giros"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "PLAYTEST",
+      "reward": "1000 Yen"
+    },
+    {
+      "code": "PLAYTEST!",
+      "reward": "1000 Yen"
+    },
     {
       "code": "WEAPOLOGIZE",
       "reward": "Recompensas gratis"
     },
     {
       "code": "MANYUPDATESTOCOME",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "KURONA",
-      "reward": "Recompensas gratis"
+      "reward": "Lucky giros"
     },
     {
       "code": "SORRY4DELAY",
-      "reward": "Recompensas gratis"
+      "reward": "Lucky giros"
     },
     {
-      "code": "VIPERSJAW",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "AIKU",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SRYFORAIKUDELAY",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPD3",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPD3SRY",
-      "reward": "Recompensas gratis"
+      "code": "KURONA",
+      "reward": "Lucky giros"
     },
     {
       "code": "IMETGEN",
@@ -125,51 +108,63 @@
     },
     {
       "code": "IFOLLOWROST",
-      "reward": "Recompensas gratis (Must Be Following Frost)"
+      "reward": "1 Lucky giro"
     },
     {
       "code": "IFOLLOWSTALKA",
-      "reward": "Recompensas gratis (Must Be Following Stalka)"
+      "reward": "1 Lucky giro"
     },
     {
       "code": "IFOLLOWKONO",
-      "reward": "Recompensas gratis (Must Be Following Kono)"
+      "reward": "1 Lucky giro"
     },
     {
       "code": "IFOLLOWKRIE",
-      "reward": "Recompensas gratis (Must Be Following Krie)"
+      "reward": "1 Lucky giro"
     },
     {
       "code": "IFOLLOWTEXTURE",
-      "reward": "Recompensas gratis (Must Be Following Texture)"
+      "reward": "1 Lucky giro"
     },
     {
       "code": "IFOLLOWATLAS",
-      "reward": "Recompensas gratis (Must Be Following Atlas)"
+      "reward": "1 Lucky giro"
     },
     {
       "code": "UPD2",
-      "reward": "Recompensas gratis"
+      "reward": "Lucky giros"
     },
     {
       "code": "YUKIMIYA",
-      "reward": "Recompensas gratis"
+      "reward": "Lucky giros"
     },
     {
       "code": "SRYFORUPD2DELAY",
-      "reward": "Recompensas gratis"
+      "reward": "Lucky giros"
     },
     {
       "code": "HOTFIX",
-      "reward": "Recompensas gratis"
+      "reward": "Lucky giros"
     },
     {
-      "code": "PLAYTEST!",
-      "reward": "1000 Yen"
+      "code": "UPD3",
+      "reward": "Lucky giros"
     },
     {
-      "code": "PLAYTEST",
-      "reward": "1000 Yen"
+      "code": "UPD3SRY",
+      "reward": "Lucky giros"
+    },
+    {
+      "code": "VIPERSJAW",
+      "reward": "15 Style Lucky giros"
+    },
+    {
+      "code": "AIKU",
+      "reward": "5 Style Lucky giros"
+    },
+    {
+      "code": "SRYFORAIKUDELAY",
+      "reward": "5 Style Lucky giros"
     }
   ],
   "howToRedeem": [

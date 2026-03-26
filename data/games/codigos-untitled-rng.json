@@ -5,8 +5,9 @@
   "description": "Todos los códigos activos para Untitled Rng en Roblox",
   "metaTitle": "Códigos Untitled Rng Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Untitled Rng en Roblox. 6 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:51.392Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:32:50.904Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "HanmaGoat",
       "reward": "Super Lucky poción"
@@ -30,40 +31,38 @@
     {
       "code": "10kLikes",
       "reward": "3 Galactic Lucky poción"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "Update3",
-      "reward": "Trait Token x 2"
-    },
-    {
-      "code": "Update1",
-      "reward": "3x Token I"
-    },
-    {
-      "code": "100kVisits",
-      "reward": "1x Token II"
-    },
-    {
-      "code": "Update2",
-      "reward": "Trait Token (Reroll weapon trait)"
-    },
-    {
-      "code": "Patch2",
-      "reward": "1x Token II"
-    },
-    {
-      "code": "Patch1",
-      "reward": "1x Token II"
-    },
-    {
-      "code": "HappyRelease",
-      "reward": "3x Token I"
     },
     {
       "code": "5kLikes",
       "reward": "2 Galactic suerte pociones"
+    },
+    {
+      "code": "Update2",
+      "reward": "Trait Token"
+    },
+    {
+      "code": "Patch1",
+      "reward": "Token II"
+    },
+    {
+      "code": "HappyRelease",
+      "reward": "3 Token I"
+    },
+    {
+      "code": "Patch2",
+      "reward": "Token II"
+    },
+    {
+      "code": "100kVisits",
+      "reward": "3 Token I"
+    },
+    {
+      "code": "Update1",
+      "reward": "Token II"
+    },
+    {
+      "code": "Update3",
+      "reward": "2 Trait tokens"
     }
   ],
   "howToRedeem": [

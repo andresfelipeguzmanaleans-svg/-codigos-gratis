@@ -5,12 +5,12 @@
   "description": "Todos los códigos activos para Lawless Tycoon en Roblox",
   "metaTitle": "Códigos Lawless Tycoon Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Lawless Tycoon en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:48.037Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:31:40.027Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "HELICOPTERSMini",
-      "reward": "Cofre",
-      "addedDate": "2026-03-23"
+      "reward": "Cofre"
     },
     {
       "code": "HELICOPTERS",
@@ -19,12 +19,10 @@
     {
       "code": "MINI",
       "reward": "Mini"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
-      "code": "FAVORITE",
-      "reward": "150$"
+      "code": "HELICOPTERS!",
+      "reward": "1 Mini cofre"
     },
     {
       "code": "BOOSTER",
@@ -35,20 +33,20 @@
       "reward": "250 Cash"
     },
     {
-      "code": "MEGA",
-      "reward": "Medium Boost"
-    },
-    {
-      "code": "HELICOPTERS!",
-      "reward": "1 Mini cofre"
-    },
-    {
       "code": "LAUNCH",
       "reward": "125 Cash"
     },
     {
       "code": "COMMONCHEST",
       "reward": "1 Common cofre"
+    },
+    {
+      "code": "MEGA",
+      "reward": "Medium Boost"
+    },
+    {
+      "code": "FAVORITE",
+      "reward": "150 Cash"
     }
   ],
   "howToRedeem": [

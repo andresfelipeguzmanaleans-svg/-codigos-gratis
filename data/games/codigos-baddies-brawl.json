@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-16de80cfc8bde86d349ad851f3d3128b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Baddies Brawl en Roblox",
   "metaTitle": "Códigos Baddies Brawl Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Baddies Brawl en Roblox. 37 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:52:56.414Z",
+  "metaDescription": "Lista actualizada de códigos para Baddies Brawl en Roblox. 2 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-26T20:30:38.699Z",
   "activeCodes": [
     {
       "code": "lucky2026",
@@ -16,16 +16,16 @@
       "code": "cosmic",
       "reward": "500 tokens",
       "addedDate": "2026-03-21"
-    },
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "pearl",
-      "reward": "Hourly Wheel giro",
-      "addedDate": "2026-03-07"
+      "reward": "Hourly Wheel giro"
     },
     {
       "code": "thunder",
-      "reward": "Daily Wheel giro",
-      "addedDate": "2026-03-07"
+      "reward": "Daily Wheel giro"
     },
     {
       "code": "monkey",
@@ -158,63 +158,13 @@
     {
       "code": "easter25",
       "reward": "100 Eggs"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "emjoy",
-      "reward": "+1 Emoji cofre"
-    },
-    {
-      "code": "meow",
-      "reward": "+200 estrellas"
-    },
-    {
-      "code": "blush",
-      "reward": "+1 Blush giro"
-    },
-    {
-      "code": "happynewyear2025",
-      "reward": "400 estrellas"
-    },
-    {
-      "code": "newwheelwow",
-      "reward": "+1 daily wheel giro"
-    },
-    {
-      "code": "love",
-      "reward": "150 estrellas"
-    },
-    {
-      "code": "sweet",
-      "reward": "+1 Blush giro"
-    },
-    {
-      "code": "moresnowflakes!",
-      "reward": "150 Snowflakes"
-    },
-    {
-      "code": "newmapfun",
-      "reward": "100 estrellas"
-    },
-    {
-      "code": "MORESNOWFLAKES",
-      "reward": "150 Snowflakes"
-    },
-    {
-      "code": "spooky",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "First",
-      "reward": "Recompensas gratis"
     },
     {
       "code": "cute",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "winter",
+      "code": "spooky",
       "reward": "Recompensas gratis"
     },
     {
@@ -224,6 +174,54 @@
     {
       "code": "opopop",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "First",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MORESNOWFLAKES",
+      "reward": "150 Snowflakes"
+    },
+    {
+      "code": "winter",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "emjoy",
+      "reward": "Emoji cofre"
+    },
+    {
+      "code": "meow",
+      "reward": "200 estrellas"
+    },
+    {
+      "code": "moresnowflakes!",
+      "reward": "150 Snowflakes"
+    },
+    {
+      "code": "sweet",
+      "reward": "Blush giro"
+    },
+    {
+      "code": "newmapfun",
+      "reward": "100 estrellas"
+    },
+    {
+      "code": "newwheelwow",
+      "reward": "Daily giro"
+    },
+    {
+      "code": "blush",
+      "reward": "Blush giro"
+    },
+    {
+      "code": "love",
+      "reward": "150 estrellas"
+    },
+    {
+      "code": "happynewyear2025",
+      "reward": "400 estrellas"
     }
   ],
   "howToRedeem": [

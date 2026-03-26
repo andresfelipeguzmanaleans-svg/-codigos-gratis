@@ -4,18 +4,22 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-78da1dffc87fbaae9cbe6e35acede72b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Sisyphus Simulator en Roblox",
   "metaTitle": "Códigos Sisyphus Simulator Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Sisyphus Simulator en Roblox. 27 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:26.666Z",
+  "metaDescription": "Lista actualizada de códigos para Sisyphus Simulator en Roblox. 1 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-26T20:32:23.962Z",
   "activeCodes": [
     {
+      "code": "Exclusive",
+      "reward": "Legendario Crystal"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "Amazon",
-      "reward": "20 gemas And A Win poción",
-      "addedDate": "2026-03-23"
+      "reward": "20 gemas And A Win poción"
     },
     {
       "code": "Easter",
-      "reward": "10 gemas And A Win poción",
-      "addedDate": "2026-03-23"
+      "reward": "10 gemas And A Win poción"
     },
     {
       "code": "UPDATE",
@@ -48,10 +52,6 @@
     {
       "code": "Nightmare",
       "reward": "Win poción, doble Power (30 minutos)"
-    },
-    {
-      "code": "Exclusive",
-      "reward": "Legendario Crystal"
     },
     {
       "code": "FANTASY",
@@ -116,32 +116,30 @@
     {
       "code": "Space",
       "reward": "10 gemas"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "nicewelcome",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Randy",
-      "reward": "5 gemas, a Win poción, and a Shiny poción"
-    },
-    {
-      "code": "keepsmile",
-      "reward": "10 gemas"
-    },
-    {
-      "code": "upd1",
-      "reward": "2 moneda pociones"
     },
     {
       "code": "trainer",
       "reward": "2 fuerza poción"
     },
     {
+      "code": "upd1",
+      "reward": "2 moneda pociones"
+    },
+    {
       "code": "void",
       "reward": "Power poción, dinero poción, and Stamina poción"
+    },
+    {
+      "code": "Randy",
+      "reward": "5 gemas, Win poción, Shiny poción"
+    },
+    {
+      "code": "nicewelcome",
+      "reward": "5 gemas, Rainbow poción"
+    },
+    {
+      "code": "keepsmile",
+      "reward": "15 gemas"
     }
   ],
   "howToRedeem": [

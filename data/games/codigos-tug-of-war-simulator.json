@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-3e9a86d4821fd51c9956eb6ad51a58f4/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Tug Of War Simulator en Roblox",
   "metaTitle": "Códigos Tug Of War Simulator Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Tug Of War Simulator en Roblox. 17 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:48.390Z",
+  "metaDescription": "Lista actualizada de códigos para Tug Of War Simulator en Roblox. 15 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-26T20:32:47.932Z",
   "activeCodes": [
     {
       "code": "updatehype",
@@ -23,33 +23,20 @@
       "addedDate": "2026-03-23"
     },
     {
-      "code": "TRADING",
-      "reward": "5 Wheel giros",
-      "addedDate": "2026-03-23"
+      "code": "enchant",
+      "reward": "50 Enchanted tickets"
     },
     {
       "code": "KrakensCove",
       "reward": "2 doble Training poción"
     },
     {
-      "code": "Carnival",
-      "reward": "1 doble Training poción"
-    },
-    {
       "code": "player",
       "reward": "100 Player tickets"
     },
     {
-      "code": "enchant",
-      "reward": "50 Enchanted tickets"
-    },
-    {
       "code": "TenThousandVisits",
       "reward": "3 giros"
-    },
-    {
-      "code": "release",
-      "reward": "500 fuerza"
     },
     {
       "code": "scale",
@@ -72,6 +59,10 @@
       "reward": "Doble Win poción"
     },
     {
+      "code": "Carnival",
+      "reward": "1 doble Training poción"
+    },
+    {
       "code": "update",
       "reward": "1 Ninja Egg"
     },
@@ -82,36 +73,44 @@
   ],
   "expiredCodes": [
     {
-      "code": "cosmoblox",
-      "reward": "2 giros gratis"
+      "code": "TRADING",
+      "reward": "5 Wheel giros"
     },
     {
-      "code": "light",
-      "reward": "3 Lantern Eggs"
+      "code": "release",
+      "reward": "500 fuerza"
+    },
+    {
+      "code": "donation",
+      "reward": "100 Donation tickets"
     },
     {
       "code": "777",
       "reward": "7 giros"
     },
     {
-      "code": "WOW",
-      "reward": "1 giro"
-    },
-    {
-      "code": "Delayed",
-      "reward": "5 giros gratis"
-    },
-    {
-      "code": "void",
-      "reward": "7 giros"
+      "code": "light",
+      "reward": "3 Lantern Eggs"
     },
     {
       "code": "plsdonate",
       "reward": "100 Player tickets"
     },
     {
-      "code": "donation",
-      "reward": "100 Donation tickets"
+      "code": "void",
+      "reward": "7 giros"
+    },
+    {
+      "code": "Delayed",
+      "reward": "5 giros"
+    },
+    {
+      "code": "cosmoblox",
+      "reward": "3 giros"
+    },
+    {
+      "code": "WOW",
+      "reward": "1 giro"
     }
   ],
   "howToRedeem": [

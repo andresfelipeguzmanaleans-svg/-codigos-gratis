@@ -4,13 +4,9 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-a731805c7512aa2c875c06c1be682f91/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Weak Legacy en Roblox",
   "metaTitle": "Códigos Weak Legacy Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Weak Legacy en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:53.373Z",
+  "metaDescription": "Lista actualizada de códigos para Weak Legacy en Roblox. 2 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-26T20:32:53.417Z",
   "activeCodes": [
-    {
-      "code": "WINDUPDATERESETRACE",
-      "reward": "Race Reset"
-    },
     {
       "code": "NEWDEMONSLAYERSEASON50SPINS",
       "reward": "50 giros"
@@ -22,8 +18,12 @@
   ],
   "expiredCodes": [
     {
-      "code": "SUNV2UPDATE50SPINS",
-      "reward": "50 giros"
+      "code": "WINDUPDATERESETRACE",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "RESETBREATHINGORARTCODE",
+      "reward": "Breathing Reset"
     },
     {
       "code": "EMOTIONUPDATERESETRACE",
@@ -44,10 +44,6 @@
     {
       "code": "1MRESETRACE",
       "reward": "Race Reset"
-    },
-    {
-      "code": "FREERESETBREATHINGORART",
-      "reward": "Breathing Reset"
     },
     {
       "code": "15KFAVORITES15SPINS",
@@ -74,10 +70,6 @@
       "reward": "Giros"
     },
     {
-      "code": "RESETBREATHINGORARTCODE",
-      "reward": "Breathing Reset"
-    },
-    {
       "code": "LOVEUPDATERESETRACE",
       "reward": "25 Clan giros"
     },
@@ -88,10 +80,6 @@
     {
       "code": "STRINGEVENT50SPINS",
       "reward": "Giros"
-    },
-    {
-      "code": "SPEEDUPDATERESETBREATHINGORART",
-      "reward": "Breathing Reset"
     },
     {
       "code": "500KRESETBREATHINGORART",
@@ -114,11 +102,23 @@
       "reward": "Race Reset"
     },
     {
+      "code": "SUNV2UPDATERESETBREATHINGORART",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "SUNV2UPDATE50SPINS",
+      "reward": "50 giros"
+    },
+    {
       "code": "500KRESETRACE",
       "reward": "Race Reset"
     },
     {
-      "code": "SUNV2UPDATERESETBREATHINGORART",
+      "code": "FREERESETBREATHINGORART",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "SPEEDUPDATERESETBREATHINGORART",
       "reward": "Breathing Reset"
     }
   ],

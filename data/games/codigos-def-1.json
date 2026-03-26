@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-a54eaf83ead4ac219d9942fcdf2cb1a7/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Def 1 en Roblox",
   "metaTitle": "Códigos Def 1 Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Def 1 en Roblox. 18 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:18.782Z",
+  "metaDescription": "Lista actualizada de códigos para Def 1 en Roblox. 2 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-26T20:31:03.708Z",
   "activeCodes": [
     {
       "code": "C0D3",
@@ -16,7 +16,9 @@
       "code": "dungsoon",
       "reward": "Basic cofre",
       "addedDate": "2026-03-23"
-    },
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "eggciting",
       "reward": "Chat Token"
@@ -80,32 +82,10 @@
     {
       "code": "Ascensions!",
       "reward": "Chat Token"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "ty450",
-      "reward": "Recompensas"
     },
     {
-      "code": "Another1",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "50M!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "7DM",
+      "code": "worldWIDE",
       "reward": "1 Chat Token"
-    },
-    {
-      "code": "65M!",
-      "reward": "1 Basic cofre"
-    },
-    {
-      "code": "snowww",
-      "reward": "1 Basic cofre"
     },
     {
       "code": "corn",
@@ -114,90 +94,6 @@
     {
       "code": "candy",
       "reward": "Basic cofre"
-    },
-    {
-      "code": "fir3ball",
-      "reward": "1 Basic cofre"
-    },
-    {
-      "code": "O_o",
-      "reward": "1 Basic cofre"
-    },
-    {
-      "code": "60M!",
-      "reward": "Basic cofre"
-    },
-    {
-      "code": "FONUFO",
-      "reward": "1 Trade Token"
-    },
-    {
-      "code": "cencel",
-      "reward": "1 Trade Token"
-    },
-    {
-      "code": "worldWIDE",
-      "reward": "1 Chat Token"
-    },
-    {
-      "code": "spamspam",
-      "reward": "Chat Token"
-    },
-    {
-      "code": "speeeed",
-      "reward": "Basic cofre"
-    },
-    {
-      "code": "walkspeed",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "zooooom",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "soonTM",
-      "reward": "Basic cofre"
-    },
-    {
-      "code": "zoooom",
-      "reward": "+2 Walk velocidad"
-    },
-    {
-      "code": "snowsnosns",
-      "reward": "Basic cofre"
-    },
-    {
-      "code": "killALLpls",
-      "reward": "Basic cofre"
-    },
-    {
-      "code": "updatetime",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "200K!",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "halfwaythere",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "oneMillion!",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "THANKYOU",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "dreamcometrue",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "ZaP ascend?",
-      "reward": "A recompensa. gratis"
     },
     {
       "code": "bingchillin bugcatcher",
@@ -262,6 +158,110 @@
     {
       "code": "b00m",
       "reward": "1 Basic cofre"
+    },
+    {
+      "code": "O_o",
+      "reward": "1 Basic cofre"
+    },
+    {
+      "code": "snowww",
+      "reward": "1 Basic cofre"
+    },
+    {
+      "code": "FONUFO",
+      "reward": "1 Trade Token"
+    },
+    {
+      "code": "cencel",
+      "reward": "1 Trade Token"
+    },
+    {
+      "code": "60M!",
+      "reward": "Basic cofre"
+    },
+    {
+      "code": "spamspam",
+      "reward": "Chat Token"
+    },
+    {
+      "code": "speeeed",
+      "reward": "Basic cofre"
+    },
+    {
+      "code": "walkspeed",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "zooooom",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "soonTM",
+      "reward": "Basic cofre"
+    },
+    {
+      "code": "zoooom",
+      "reward": "+2 Walk velocidad"
+    },
+    {
+      "code": "fir3ball",
+      "reward": "1 Basic cofre"
+    },
+    {
+      "code": "snowsnosns",
+      "reward": "Basic cofre"
+    },
+    {
+      "code": "killALLpls",
+      "reward": "Basic cofre"
+    },
+    {
+      "code": "updatetime",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "200K!",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "halfwaythere",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "oneMillion!",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "THANKYOU",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "dreamcometrue",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "ZaP ascend?",
+      "reward": "A recompensa. gratis"
+    },
+    {
+      "code": "ty450",
+      "reward": "Chat Token"
+    },
+    {
+      "code": "Another1",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "50M!",
+      "reward": "Basic cofre"
+    },
+    {
+      "code": "7DM",
+      "reward": "1 Chat Token"
+    },
+    {
+      "code": "65M!",
+      "reward": "Basic cofre"
     },
     {
       "code": "SIX!?",

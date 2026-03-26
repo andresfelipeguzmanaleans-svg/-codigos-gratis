@@ -4,13 +4,26 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-6ebd08cdf31759821175f0671ca1360f/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para New Dreams en Roblox",
   "metaTitle": "Códigos New Dreams Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para New Dreams en Roblox. 15 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:01.300Z",
+  "metaDescription": "Lista actualizada de códigos para New Dreams en Roblox. 3 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-26T20:31:54.864Z",
   "activeCodes": [
     {
+      "code": "TheAgendaHasBeenPushed",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DashieWinsTheRapEvent",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DevilFruitUsersStopDucking",
+      "reward": "Recompensas gratis"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "ENJOY",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-03-23"
+      "reward": "Recompensas gratis"
     },
     {
       "code": "hawktestertuah",
@@ -41,14 +54,6 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "DashieWinsTheRapEvent",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "DevilFruitUsersStopDucking",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "WardenTitleRework",
       "reward": "Recompensas gratis"
     },
@@ -65,57 +70,15 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "TheAgendaHasBeenPushed",
-      "reward": "Recompensas gratis"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "SaidHateAlot",
-      "reward": "5 Name, Race, and wipes"
+      "code": "FreeAncestry",
+      "reward": "1 Tome of Ancestry"
     },
     {
-      "code": "sryforthewipes",
-      "reward": "15 of each honorific and ancestry"
+      "code": "StyleReset",
+      "reward": "1 Tome of Unlearning"
     },
     {
-      "code": "MisoBestDevByDende",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "malikhawktuahedthatthang",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "IFinishedTheUpdate",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "IDidALilBug",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NikoIsStupid",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SkyHatesOPND",
-      "reward": "7 of each Tome"
-    },
-    {
-      "code": "DendeDoesNotLikeOPND",
-      "reward": "1 of each tome"
-    },
-    {
-      "code": "ALilBusy",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FineHereIsACode",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FindTheCode",
+      "code": "WardenQOL",
       "reward": "Recompensas gratis"
     },
     {
@@ -123,8 +86,16 @@
       "reward": "1 of Every Tome"
     },
     {
-      "code": "WardenQOL",
-      "reward": "Recompensas gratis"
+      "code": "UPDATE1",
+      "reward": "All Tomes"
+    },
+    {
+      "code": "SilverSavesTheDay",
+      "reward": "All Tomes"
+    },
+    {
+      "code": "ThankYouOPND",
+      "reward": "20K Beli"
     },
     {
       "code": "CommonScryzW",
@@ -135,6 +106,10 @@
       "reward": "Style Reset"
     },
     {
+      "code": "Spectrum",
+      "reward": "2 Haki Color Rerolls"
+    },
+    {
       "code": "HeroicLouW",
       "reward": "50K Beli"
     },
@@ -143,28 +118,52 @@
       "reward": "50K Beli, Ancestry"
     },
     {
-      "code": "FreeAncestry",
-      "reward": "1 Tome of Ancestry"
+      "code": "malikhawktuahedthatthang",
+      "reward": "Recompensas gratis"
     },
     {
-      "code": "StyleReset",
-      "reward": "1 Tome of Unlearning"
+      "code": "sryforthewipes",
+      "reward": "Recompensa gratis"
     },
     {
-      "code": "Spectrum",
-      "reward": "2 Haki Color Rerolls"
+      "code": "SaidHateAlot",
+      "reward": "Recompensa gratis"
     },
     {
-      "code": "ThankYouOPND",
-      "reward": "20K Beli"
+      "code": "IDidALilBug",
+      "reward": "Recompensa gratis"
     },
     {
-      "code": "UPDATE1",
-      "reward": "All Tomes"
+      "code": "NikoIsStupid",
+      "reward": "Recompensa gratis"
     },
     {
-      "code": "SilverSavesTheDay",
-      "reward": "All Tomes"
+      "code": "IFinishedTheUpdate",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "FindTheCode",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "FineHereIsACode",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "ALilBusy",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "DendeDoesNotLikeOPND",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "SkyHatesOPND",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "MisoBestDevByDende",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "SayIHateYungFlexxerForMoreCodes",

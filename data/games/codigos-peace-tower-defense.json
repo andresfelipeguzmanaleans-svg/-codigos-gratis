@@ -5,8 +5,9 @@
   "description": "Todos los códigos activos para Peace Tower Defense en Roblox",
   "metaTitle": "Códigos Peace Tower Defense Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Peace Tower Defense en Roblox. 10 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:06.682Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:32:00.592Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "TRADING",
       "reward": "5 Drop Boosts, 5 oro Boosts, 5 XP Boosts, 50 Attribute tokens"
@@ -46,9 +47,11 @@
     {
       "code": "UPDATE2",
       "reward": "50 gemas, 1 Drop Boost, 1 oro Boost, 1 XP Boost"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "COSMETICS",
+      "reward": "Recompensa gratis"
+    },
     {
       "code": "RELEASE",
       "reward": "Drop Boost, oro Boost, XP Boost"
@@ -60,10 +63,6 @@
     {
       "code": "LIMITEDDOA",
       "reward": "20 Attribute tokens and Impel Doa"
-    },
-    {
-      "code": "COSMETICS",
-      "reward": "Recompensa gratis"
     }
   ],
   "howToRedeem": [

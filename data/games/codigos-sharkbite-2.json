@@ -5,17 +5,17 @@
   "description": "Todos los códigos activos para SharkBite 2 en Roblox",
   "metaTitle": "Códigos SharkBite 2 Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para SharkBite 2 en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:24.806Z",
+  "lastUpdated": "2026-03-26T20:32:21.659Z",
   "playerCount": 1904,
   "totalVisits": 450871652,
   "likes": 375601,
   "genre": "Survival",
   "placeId": 8908228901,
-  "activeCodes": [
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "400M",
-      "reward": "400 Teeth",
-      "addedDate": "2026-03-23"
+      "reward": "400 Teeth"
     },
     {
       "code": "300K",
@@ -24,28 +24,34 @@
     {
       "code": "200K",
       "reward": "Boat Hull skin"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "ONEYEAR",
-      "reward": "The limitado exclusivo Anniversary Shark And \"1 Candle\" Boat Builder Asset"
-    },
-    {
-      "code": "100K",
-      "reward": "Thumbs Up!"
-    },
-    {
-      "code": "TWOYEARS",
-      "reward": "Recompensas"
     },
     {
       "code": "SHARKCAGE",
       "reward": "Recompensa"
     },
     {
+      "code": "DUCKYRAPTOR",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "SimonsSpace",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "FROGGYBOAT",
+      "reward": "Recompensa"
+    },
+    {
       "code": "RGBSHARK",
       "reward": "Recompensa"
+    },
+    {
+      "code": "1BILLION",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "Some Recompensas gratis"
     },
     {
       "code": "SB2CODES",
@@ -64,24 +70,16 @@
       "reward": "Some Recompensas gratis"
     },
     {
-      "code": "RELEASE",
-      "reward": "Some Recompensas gratis"
+      "code": "ONEYEAR",
+      "reward": "The limitado exclusivo Anniversary Shark And \"1 Candle\" Boat Builder Asset"
     },
     {
-      "code": "1BILLION",
-      "reward": "Recompensa"
+      "code": "TWOYEARS",
+      "reward": "Two Year Anniversary Boat"
     },
     {
-      "code": "SimonsSpace",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "FROGGYBOAT",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "DUCKYRAPTOR",
-      "reward": "Recompensa"
+      "code": "100K",
+      "reward": "Thumbs Up!"
     }
   ],
   "introText": "SharkBite 2 es un juego de supervivencia en Roblox creado por Abracadabra donde puedes luchar contra un tiburón gigante o jugar como él. Con más de 450 millones de visitas y 375K likes, construye tu barco, equipa armas y sobrevive los ataques del tiburón junto a otros jugadores en alta mar.",

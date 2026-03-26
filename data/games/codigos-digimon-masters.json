@@ -5,8 +5,9 @@
   "description": "Todos los códigos activos para Digimon Masters en Roblox",
   "metaTitle": "Códigos Digimon Masters Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Digimon Masters en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-24T20:35:44.620Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:31:09.871Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "Likes50k",
       "reward": "Craniamon (500), 500M monedas, 50,000 diamantes"
@@ -18,24 +19,10 @@
     {
       "code": "WelcomeToDMR",
       "reward": "ChaosdramonX, 800 diamantes and 10M monedas"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "CHQU",
-      "reward": "Monedas, diamantes And More"
     },
     {
       "code": "LilithmonXTrial",
       "reward": "100 Lilithmon and 10 monedas"
-    },
-    {
-      "code": "Halloween2022",
-      "reward": "200 Tekken"
-    },
-    {
-      "code": "DaemonXTrial",
-      "reward": "100 Daemon X, 1 diamante and 1 moneda"
     },
     {
       "code": "Likes40k",
@@ -46,12 +33,8 @@
       "reward": "Ordinemon"
     },
     {
-      "code": "MegidramonXTrial",
-      "reward": "The Dragon Digimon"
-    },
-    {
-      "code": "LunarNewYear2022",
-      "reward": "22 Tekken, 21,222 diamantes and 21.2M monedas"
+      "code": "Favorite200K",
+      "reward": "200 Tekken, 20,000 diamantes and 200M monedas"
     },
     {
       "code": "ReturnToDMRApril2022",
@@ -62,6 +45,10 @@
       "reward": "200,000,000 monedas, 20,000 diamantes, And 20 Arkadimon"
     },
     {
+      "code": "Visits20M",
+      "reward": "200 Tekken, 20,000 diamantes and 200M monedas"
+    },
+    {
       "code": "Likes30k",
       "reward": "30 ExamonX, 30,000 diamantes and 300M monedas"
     },
@@ -70,12 +57,24 @@
       "reward": "Kaiser Gremon, 2512 diamantes and 25.1M monedas"
     },
     {
-      "code": "Favorite200K",
-      "reward": "200 Tekken, 20,000 diamantes and 200M monedas"
+      "code": "MegidramonXTrial",
+      "reward": "The Dragon Digimon"
     },
     {
-      "code": "Visits20M",
-      "reward": "200 Tekken, 20,000 diamantes and 200M monedas"
+      "code": "LunarNewYear2022",
+      "reward": "22 Tekken, 21,222 diamantes and 21.2M monedas"
+    },
+    {
+      "code": "DaemonXTrial",
+      "reward": "100 Daemon X, 1 diamante and 1 moneda"
+    },
+    {
+      "code": "Halloween2022",
+      "reward": "200 Tekken"
+    },
+    {
+      "code": "CHQU",
+      "reward": "Monedas, diamantes And More"
     },
     {
       "code": "Visits10M",

@@ -5,8 +5,9 @@
   "description": "Todos los códigos activos para Pet Ranch Simulator 2 en Roblox",
   "metaTitle": "Códigos Pet Ranch Simulator 2 Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Pet Ranch Simulator 2 en Roblox. 19 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:07.925Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:32:02.162Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "FreePet",
       "reward": "Promo Mouse"
@@ -82,60 +83,10 @@
     {
       "code": "SUBTORAZORFISHGAMING",
       "reward": "2x moneda Boost (10 minutos)"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "NEWYEAR",
-      "reward": "Recompensas"
     },
     {
-      "code": "METEOR",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "200KSTAR",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "105KCELEBRATION",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "REWARD135K",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "PETRANCH140K",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "DOODLE",
-      "reward": "DOwOdle Hydra mascota"
-    },
-    {
-      "code": "LIKECODE160K",
-      "reward": "30 minutos Of All Boosts"
-    },
-    {
-      "code": "UPDATE14",
-      "reward": "15 minutos Of 2x monedas"
-    },
-    {
-      "code": "UPDATE15",
-      "reward": "15 minutos Of 2x monedas"
-    },
-    {
-      "code": "UPDATE16",
-      "reward": "15 minutos Of 2x monedas"
-    },
-    {
-      "code": "FAV300KPARTY",
-      "reward": "All In-Game Boosts (20 minutos)"
-    },
-    {
-      "code": "UPDATE11",
-      "reward": "2x moneda Boost"
+      "code": "UPDATE18",
+      "reward": "2x moneda Boost (10 minutos)"
     },
     {
       "code": "UPDATE12",
@@ -162,58 +113,6 @@
       "reward": "2x moneda Boost (10 minutos)"
     },
     {
-      "code": "GALA120K",
-      "reward": "2x All Boosts"
-    },
-    {
-      "code": "UPDATE9",
-      "reward": "2x All Boosts"
-    },
-    {
-      "code": "PRS75K",
-      "reward": "All In-Game Boosts (30 minutos)"
-    },
-    {
-      "code": "BOOSTS60K",
-      "reward": "2x All Boosts"
-    },
-    {
-      "code": "50KPRIZE",
-      "reward": "2x All Boosts"
-    },
-    {
-      "code": "UPDATE10",
-      "reward": "2x All Boosts"
-    },
-    {
-      "code": "250KPARTY",
-      "reward": "All In-Game Boosts (20 minutos)"
-    },
-    {
-      "code": "UPDATE5",
-      "reward": "2x moneda Boost"
-    },
-    {
-      "code": "UPDATE18",
-      "reward": "2x moneda Boost (10 minutos)"
-    },
-    {
-      "code": "UPDATE8",
-      "reward": "2x All Boosts"
-    },
-    {
-      "code": "100M",
-      "reward": "2x moneda Boost (10 minutos)"
-    },
-    {
-      "code": "UPDATE3",
-      "reward": "2x moneda Boost"
-    },
-    {
-      "code": "UPDATE13",
-      "reward": "2x moneda Boost"
-    },
-    {
       "code": "UPDATE20",
       "reward": "2x moneda Boost (10 minutos)"
     },
@@ -238,14 +137,6 @@
       "reward": "Love Bird mascota"
     },
     {
-      "code": "UPDATE7",
-      "reward": "2x moneda Boost"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "2x moneda Boost"
-    },
-    {
       "code": "GIFT",
       "reward": "2x moneda Boost (30 minutos)"
     },
@@ -256,6 +147,114 @@
     {
       "code": "UPDATE4",
       "reward": "2x moneda Boost"
+    },
+    {
+      "code": "GALA120K",
+      "reward": "2x All Boosts"
+    },
+    {
+      "code": "UPDATE9",
+      "reward": "2x All Boosts"
+    },
+    {
+      "code": "PRS75K",
+      "reward": "All In-Game Boosts (30 minutos)"
+    },
+    {
+      "code": "BOOSTS60K",
+      "reward": "2x All Boosts"
+    },
+    {
+      "code": "UPDATE10",
+      "reward": "2x All Boosts"
+    },
+    {
+      "code": "250KPARTY",
+      "reward": "All In-Game Boosts (20 minutos)"
+    },
+    {
+      "code": "UPDATE5",
+      "reward": "2x moneda Boost"
+    },
+    {
+      "code": "UPDATE13",
+      "reward": "2x moneda Boost"
+    },
+    {
+      "code": "UPDATE8",
+      "reward": "2x All Boosts"
+    },
+    {
+      "code": "100M",
+      "reward": "2x moneda Boost (10 minutos)"
+    },
+    {
+      "code": "UPDATE3",
+      "reward": "2x moneda Boost"
+    },
+    {
+      "code": "UPDATE11",
+      "reward": "2x moneda Boost"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "2x moneda Boost"
+    },
+    {
+      "code": "50KPRIZE",
+      "reward": "2x All Boosts"
+    },
+    {
+      "code": "UPDATE7",
+      "reward": "2x moneda Boost"
+    },
+    {
+      "code": "NEWYEAR",
+      "reward": "All Boosts (20 minutos)"
+    },
+    {
+      "code": "METEOR",
+      "reward": "2x monedas (15 minutos)"
+    },
+    {
+      "code": "200KSTAR",
+      "reward": "All Boosts (15 minutos)"
+    },
+    {
+      "code": "105KCELEBRATION",
+      "reward": "All Boosts (30 minutos)"
+    },
+    {
+      "code": "REWARD135K",
+      "reward": "All Boosts (30 minutos)"
+    },
+    {
+      "code": "PETRANCH140K",
+      "reward": "All Boosts (30 minutos)"
+    },
+    {
+      "code": "DOODLE",
+      "reward": "DOwOdle Hydra mascota"
+    },
+    {
+      "code": "UPDATE14",
+      "reward": "15 minutos Of 2x monedas"
+    },
+    {
+      "code": "UPDATE15",
+      "reward": "15 minutos Of 2x monedas"
+    },
+    {
+      "code": "UPDATE16",
+      "reward": "15 minutos Of 2x monedas"
+    },
+    {
+      "code": "LIKECODE160K",
+      "reward": "30 minutos Of All Boosts"
+    },
+    {
+      "code": "FAV300KPARTY",
+      "reward": "All In-Game Boosts (20 minutos)"
     },
     {
       "code": "YOUTUBE",

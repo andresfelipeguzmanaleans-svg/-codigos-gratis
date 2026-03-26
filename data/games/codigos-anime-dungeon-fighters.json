@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-57187afb3298b6a862465a1e48f5154b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Dungeon Fighters en Roblox",
   "metaTitle": "Códigos Anime Dungeon Fighters Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Dungeon Fighters en Roblox. 17 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:52:46.881Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Dungeon Fighters en Roblox. 1 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-26T20:30:27.443Z",
   "playerCount": 36,
   "totalVisits": 117958543,
   "likes": 957075,
@@ -13,19 +13,22 @@
   "placeId": 12135640403,
   "activeCodes": [
     {
+      "code": "NEWFRUIT",
+      "reward": "600 gemas"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "WEEKENDGIFT3",
-      "reward": "3i000 Dark cristales and 5 Hero Magic Dust",
-      "addedDate": "2026-03-23"
+      "reward": "3i000 Dark cristales and 5 Hero Magic Dust"
     },
     {
       "code": "WEEKENDGIFT",
-      "reward": "3,000 gemas",
-      "addedDate": "2026-03-23"
+      "reward": "3,000 gemas"
     },
     {
       "code": "bug",
-      "reward": "1K Peaches, 1K gemas",
-      "addedDate": "2026-03-23"
+      "reward": "1K Peaches, 1K gemas"
     },
     {
       "code": "HALLOWEEN",
@@ -50,10 +53,6 @@
     {
       "code": "THANKSGIVING1",
       "reward": "5,000 Stamps"
-    },
-    {
-      "code": "NEWFRUIT",
-      "reward": "600 gemas"
     },
     {
       "code": "KAIJUNO8",
@@ -82,44 +81,6 @@
     {
       "code": "HALLOWEEN1",
       "reward": "5K Halloween Candy"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "GOLDGIFT",
-      "reward": "Redeem code for recompensas gratis"
-    },
-    {
-      "code": "FREEGIFT",
-      "reward": "Redeem code for recompensas gratis"
-    },
-    {
-      "code": "WEEKENDGIFT1",
-      "reward": "Redeem code for x50 Cos monedas and x500 gemas"
-    },
-    {
-      "code": "NEWGAME2",
-      "reward": "Redeem code for 1,000 gemas"
-    },
-    {
-      "code": "NEWGAME",
-      "reward": "Redeem code for x50 Cos monedas"
-    },
-    {
-      "code": "FREEGIFT2",
-      "reward": "Redeem code for recompensas gratis"
-    },
-    {
-      "code": "WEEKENDGIFT2",
-      "reward": "Redeem code for recompensas gratis"
-    },
-    {
-      "code": "GEMGIFT",
-      "reward": "Redeem code for recompensas gratis"
-    },
-    {
-      "code": "BOOSTGIFT",
-      "reward": "Redeem code for recompensas gratis"
     },
     {
       "code": "PVPUPDATE",
@@ -130,12 +91,48 @@
       "reward": "300 gemas"
     },
     {
+      "code": "DELAYHEROES",
+      "reward": "Recompensas"
+    },
+    {
       "code": "ENCHANTINGUPDATE",
       "reward": "5 Weapon Magic Dust And 5 Hero Magic Dust"
     },
     {
-      "code": "DELAYHEROES",
-      "reward": "Recompensas"
+      "code": "WEEKENDGIFT1",
+      "reward": "500 gemas, 50 Cos monedas"
+    },
+    {
+      "code": "FREEGIFT2",
+      "reward": "1000 Season XP"
+    },
+    {
+      "code": "FREEGIFT",
+      "reward": "500 Season XP"
+    },
+    {
+      "code": "GOLDGIFT",
+      "reward": "100K dinero"
+    },
+    {
+      "code": "GEMGIFT",
+      "reward": "1000 gemas"
+    },
+    {
+      "code": "BOOSTGIFT",
+      "reward": "Dinero Boost, XP Boost"
+    },
+    {
+      "code": "NEWGAME",
+      "reward": "50 Cos monedas"
+    },
+    {
+      "code": "NEWGAME2",
+      "reward": "1000 gemas"
+    },
+    {
+      "code": "WEEKENDGIFT2",
+      "reward": "500 gemas, 50 Cos monedas"
     },
     {
       "code": "DISCORD",

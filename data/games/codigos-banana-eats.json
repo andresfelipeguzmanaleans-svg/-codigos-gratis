@@ -5,35 +5,20 @@
   "description": "Todos los códigos activos para Banana Eats en Roblox",
   "metaTitle": "Códigos Banana Eats Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Banana Eats en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:52:57.016Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:30:39.539Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "FREECEREAL",
-      "reward": "Cereal Bowl skin",
-      "addedDate": "2026-03-23"
+      "reward": "Cereal Bowl skin"
     },
     {
       "code": "SuperSecretSkin",
-      "reward": "The Golden Egg",
-      "addedDate": "2026-03-23"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "FANCYPANCAKE",
-      "reward": "Waffle Beacon"
+      "reward": "The Golden Egg"
     },
     {
-      "code": "RAINBOW",
-      "reward": "200 monedas"
-    },
-    {
-      "code": "CANNED",
-      "reward": "Canned Cranberry skin"
-    },
-    {
-      "code": "PUMPKINS",
-      "reward": "310 monedas"
+      "code": "HEARTS",
+      "reward": "Peel gratis"
     },
     {
       "code": "SPOOKY",
@@ -42,78 +27,6 @@
     {
       "code": "GLITTERPUMPKIN",
       "reward": "The Sparkle Orange Pumpkin"
-    },
-    {
-      "code": "HEARTS",
-      "reward": "Peel gratis"
-    },
-    {
-      "code": "SPAREDOUBLOONS",
-      "reward": "300 monedas"
-    },
-    {
-      "code": "LUCKYBEACON",
-      "reward": "Beacon skin"
-    },
-    {
-      "code": "BANANALOVES",
-      "reward": "Chocolates skin"
-    },
-    {
-      "code": "MORECOINS",
-      "reward": "Monedas gratis"
-    },
-    {
-      "code": "CHOCOLATE",
-      "reward": "White Chocolate skin"
-    },
-    {
-      "code": "SNOWY",
-      "reward": "Beacon gratis"
-    },
-    {
-      "code": "PINK",
-      "reward": "Beacon"
-    },
-    {
-      "code": "100MILLION",
-      "reward": "Beacon"
-    },
-    {
-      "code": "200MILLION",
-      "reward": "Banana skin"
-    },
-    {
-      "code": "300MILLION",
-      "reward": "Banana skin"
-    },
-    {
-      "code": "400MILLION",
-      "reward": "Sinister oro skin"
-    },
-    {
-      "code": "SUMMER",
-      "reward": "250 monedas"
-    },
-    {
-      "code": "BOO",
-      "reward": "Beacon"
-    },
-    {
-      "code": "EATING",
-      "reward": "Accessory gratis"
-    },
-    {
-      "code": "YOU'RE THE BEST",
-      "reward": "Monedas"
-    },
-    {
-      "code": "THANKYOU",
-      "reward": "Monedas"
-    },
-    {
-      "code": "HAPPY2026",
-      "reward": "2026 Partier"
     },
     {
       "code": "FRIDAY",
@@ -128,16 +41,8 @@
       "reward": "The Cavendish Castle Icon"
     },
     {
-      "code": "BANANASPLIT150",
-      "reward": "Peel Beacon"
-    },
-    {
       "code": "500SKINS!",
       "reward": "Big Bycks skin"
-    },
-    {
-      "code": "FREELOOT",
-      "reward": "200 monedas"
     },
     {
       "code": "15KFOLLOWERS",
@@ -176,10 +81,6 @@
       "reward": "Snowman Banana skin"
     },
     {
-      "code": "THEGOLDENPEELS",
-      "reward": "Golden skin"
-    },
-    {
       "code": "QUARTERBILLION",
       "reward": "Beacon skin"
     },
@@ -194,6 +95,102 @@
     {
       "code": "HALFBILLION",
       "reward": "Banana’s Aurora skin"
+    },
+    {
+      "code": "SPAREDOUBLOONS",
+      "reward": "300 monedas"
+    },
+    {
+      "code": "LUCKYBEACON",
+      "reward": "Beacon skin"
+    },
+    {
+      "code": "BANANALOVES",
+      "reward": "Chocolates skin"
+    },
+    {
+      "code": "FREELOOT",
+      "reward": "200 monedas"
+    },
+    {
+      "code": "BANANASPLIT150",
+      "reward": "Peel Beacon"
+    },
+    {
+      "code": "HAPPY2026",
+      "reward": "2026 Partier"
+    },
+    {
+      "code": "THEGOLDENPEELS",
+      "reward": "Golden skin"
+    },
+    {
+      "code": "THANKYOU",
+      "reward": "Monedas"
+    },
+    {
+      "code": "YOU'RE THE BEST",
+      "reward": "Monedas"
+    },
+    {
+      "code": "BOO",
+      "reward": "Beacon"
+    },
+    {
+      "code": "SUMMER",
+      "reward": "250 monedas"
+    },
+    {
+      "code": "400MILLION",
+      "reward": "Sinister oro skin"
+    },
+    {
+      "code": "SNOWY",
+      "reward": "Beacon gratis"
+    },
+    {
+      "code": "MORECOINS",
+      "reward": "Monedas gratis"
+    },
+    {
+      "code": "CHOCOLATE",
+      "reward": "White Chocolate skin"
+    },
+    {
+      "code": "100MILLION",
+      "reward": "Beacon"
+    },
+    {
+      "code": "EATING",
+      "reward": "Accessory gratis"
+    },
+    {
+      "code": "300MILLION",
+      "reward": "Banana skin"
+    },
+    {
+      "code": "PINK",
+      "reward": "Beacon"
+    },
+    {
+      "code": "200MILLION",
+      "reward": "Banana skin"
+    },
+    {
+      "code": "FANCYPANCAKE",
+      "reward": "Waffle Beacon"
+    },
+    {
+      "code": "CANNED",
+      "reward": "Canned Cranberry skin"
+    },
+    {
+      "code": "PUMPKINS",
+      "reward": "310 monedas"
+    },
+    {
+      "code": "RAINBOW",
+      "reward": "200 monedas"
     },
     {
       "code": "PRIDE",

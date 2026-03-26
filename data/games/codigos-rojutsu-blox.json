@@ -5,8 +5,9 @@
   "description": "Todos los códigos activos para Rojutsu Blox en Roblox",
   "metaTitle": "Códigos Rojutsu Blox Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Rojutsu Blox en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:20.852Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:32:17.142Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "!PremSpin8",
       "reward": "Premium giro"
@@ -14,40 +15,6 @@
     {
       "code": "!RegSpin5",
       "reward": "Regular giro"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "!RegSpin1",
-      "reward": "A Regular giro"
-    },
-    {
-      "code": "!PremSpin3",
-      "reward": "A Premium giro"
-    },
-    {
-      "code": "!PremSpin7",
-      "reward": "A Premium giro"
-    },
-    {
-      "code": "!RegSpin2",
-      "reward": "A Regular giro"
-    },
-    {
-      "code": "!RegSpin3",
-      "reward": "A Regular giro"
-    },
-    {
-      "code": "!RegSpin4",
-      "reward": "A Regular giro"
-    },
-    {
-      "code": "!PremSpin2",
-      "reward": "A Premium giro"
-    },
-    {
-      "code": "!PremSpin1",
-      "reward": "A Premium giro"
     },
     {
       "code": "!Prestige",
@@ -78,10 +45,6 @@
       "reward": "100,000 XP"
     },
     {
-      "code": "!1MVisits",
-      "reward": "50 giros"
-    },
-    {
       "code": "!PremiumSpin2",
       "reward": "15 Premium giros"
     },
@@ -92,10 +55,6 @@
     {
       "code": "!EarlyAlpha",
       "reward": "Level Up"
-    },
-    {
-      "code": "!PremiumSpin1",
-      "reward": "10 Premium giros"
     },
     {
       "code": "!Parties",
@@ -150,6 +109,22 @@
       "reward": "30 giros"
     },
     {
+      "code": "!PrestCode8",
+      "reward": "5% chance to keep your stats and gain a prestige level"
+    },
+    {
+      "code": "!PlantUpdate",
+      "reward": "30 giros, 5 Premium giros, 10,000 Yen, and 10,000 XP"
+    },
+    {
+      "code": "!PremiumSpin1",
+      "reward": "10 Premium giros"
+    },
+    {
+      "code": "!OtherFixes",
+      "reward": "1.5x XP (30 minutos) and 15 Premium giros"
+    },
+    {
       "code": "!SpinCode3",
       "reward": "150 giros & 30 Premium giros"
     },
@@ -186,16 +161,8 @@
       "reward": "90 giros"
     },
     {
-      "code": "!OtherFixes",
-      "reward": "30 minutos of 1.5x EXP & 15 Premium giros"
-    },
-    {
       "code": "!Upd3",
       "reward": "60 giros, 2,500 Yen, 50,000 XP, 30 minutos of 1.5x EXP"
-    },
-    {
-      "code": "!PlantUpdate",
-      "reward": "30 giros, 5 Premium giros, 10,000 Yen, 10,000 EXP"
     },
     {
       "code": "!GiftsForAll",
@@ -208,6 +175,10 @@
     {
       "code": "!Unique",
       "reward": "45 giros"
+    },
+    {
+      "code": "!1MVisits",
+      "reward": "50 giros"
     },
     {
       "code": "!Sorry",
@@ -290,10 +261,6 @@
       "reward": "5% chance to keep your stats and gain a prestige level"
     },
     {
-      "code": "!PrestCode8",
-      "reward": "5% chance to keep your stats and gain a prestige level"
-    },
-    {
       "code": "!ReColor5",
       "reward": "1 Random Cursed energía Colour"
     },
@@ -316,6 +283,38 @@
     {
       "code": "!ReColor2",
       "reward": "Random Cursed energía Color"
+    },
+    {
+      "code": "!PremSpin3",
+      "reward": "Premium giro"
+    },
+    {
+      "code": "!PremSpin2",
+      "reward": "Premium giro"
+    },
+    {
+      "code": "!PremSpin1",
+      "reward": "Premium giro"
+    },
+    {
+      "code": "!RegSpin1",
+      "reward": "Regular giro"
+    },
+    {
+      "code": "!RegSpin2",
+      "reward": "Regular giro"
+    },
+    {
+      "code": "!RegSpin3",
+      "reward": "Regular giro"
+    },
+    {
+      "code": "!RegSpin4",
+      "reward": "1 Regular giro"
+    },
+    {
+      "code": "!PremSpin7",
+      "reward": "1 Premium giro"
     }
   ],
   "howToRedeem": [

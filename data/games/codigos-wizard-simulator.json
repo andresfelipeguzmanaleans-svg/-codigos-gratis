@@ -5,8 +5,9 @@
   "description": "Todos los códigos activos para Wizard Simulator en Roblox",
   "metaTitle": "Códigos Wizard Simulator Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Wizard Simulator en Roblox. 8 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:54.723Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:32:54.811Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "ROBZIGAME",
       "reward": "250 monedas"
@@ -38,12 +39,6 @@
     {
       "code": "WISDOMBOOST",
       "reward": "20 minuto XP Boost"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "pvp",
-      "reward": "A Random recompensa"
     },
     {
       "code": "EXTRA",
@@ -52,6 +47,10 @@
     {
       "code": "RELEASE",
       "reward": "500 monedas"
+    },
+    {
+      "code": "pvp",
+      "reward": "Random recompensa"
     }
   ],
   "howToRedeem": [

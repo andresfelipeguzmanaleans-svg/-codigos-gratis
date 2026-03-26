@@ -5,33 +5,20 @@
   "description": "Todos los códigos activos para Base Raiders en Roblox",
   "metaTitle": "Códigos Base Raiders Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Base Raiders en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:52:57.430Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:30:39.878Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "BASKET",
       "reward": "1 Stone Basket"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "YELLOW",
-      "reward": "1 Banana Dropper"
     },
     {
-      "code": "DISCOBOOST",
-      "reward": "1 raro cofre"
-    },
-    {
-      "code": "HAPPY",
-      "reward": "2,500 Cash"
-    },
-    {
-      "code": "UNCOMMON",
-      "reward": "1 Uncommon cofre"
-    },
-    {
-      "code": "ROCKET",
+      "code": "DISCORAID",
       "reward": "1 velocidad Boost"
+    },
+    {
+      "code": "BASE",
+      "reward": "10,000 Cash"
     },
     {
       "code": "EXTRAHEALTH",
@@ -54,16 +41,28 @@
       "reward": "1 raro cofre"
     },
     {
-      "code": "BASE",
-      "reward": "10,000 Cash"
+      "code": "ROCKET",
+      "reward": "1 velocidad Boost"
     },
     {
       "code": "RAID",
       "reward": "2,000 Cash"
     },
     {
-      "code": "DISCORAID",
-      "reward": "1 velocidad Boost"
+      "code": "DISCOBOOST",
+      "reward": "1 raro cofre"
+    },
+    {
+      "code": "HAPPY",
+      "reward": "2,500 Cash"
+    },
+    {
+      "code": "YELLOW",
+      "reward": "1 Banana Dropper"
+    },
+    {
+      "code": "UNCOMMON",
+      "reward": "1 Uncommon cofre"
     }
   ],
   "howToRedeem": [

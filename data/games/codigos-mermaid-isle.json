@@ -5,12 +5,12 @@
   "description": "Todos los códigos activos para Mermaid Isle en Roblox",
   "metaTitle": "Códigos Mermaid Isle Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Mermaid Isle en Roblox. 8 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:54.393Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:31:47.440Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "CelestialGamepassFix",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-03-23"
+      "reward": "Recompensas gratis"
     },
     {
       "code": "ValentinesDay",
@@ -39,111 +39,9 @@
     {
       "code": "FreeTangsForAll2",
       "reward": "Recompensas gratis"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "SealriouslyDevs",
-      "reward": "500 Pearls"
     },
     {
-      "code": "FrilledScammer",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SkeletonScammer",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CursetideNight",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HalloweenEvent",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "DailyFix",
-      "reward": "350 pearls"
-    },
-    {
-      "code": "FreeTangsForAll",
-      "reward": "Radiant &ldquo;Silver Tang&rdquo; Recolor"
-    },
-    {
-      "code": "Part2",
-      "reward": "3000 pearls"
-    },
-    {
-      "code": "DolphinsComeBackSoon",
-      "reward": "500 pearls"
-    },
-    {
-      "code": "BugShutDown",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "GiveMeMyPearlsBack",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SOULSONGGLOW",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "LightFantasea",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "DarkFantasea",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "2MVISITS",
-      "reward": "1000 pearls"
-    },
-    {
-      "code": "HASHTAGBLESSED",
-      "reward": "Pearls"
-    },
-    {
-      "code": "Release",
-      "reward": "250 Pearls, Tail"
-    },
-    {
-      "code": "BettaTester",
-      "reward": "2,000 Pearls and the Betta Tester Tail Set"
-    },
-    {
-      "code": "1MVISITS",
-      "reward": "1,000 Pearls"
-    },
-    {
-      "code": "CorruptGoddes07",
-      "reward": "1,500 Pearls"
-    },
-    {
-      "code": "500KVISITS",
-      "reward": "500 Pearls"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "Pearls"
-    },
-    {
-      "code": "100KVISITS",
-      "reward": "350 Pearls"
-    },
-    {
-      "code": "NightrayGoddess",
-      "reward": "2500 Pearls"
-    },
-    {
-      "code": "SaveCrabLord",
-      "reward": "7450 Pearls"
-    },
-    {
-      "code": "5MVISITS",
+      "code": "BUGGYUPDATE",
       "reward": "1,000 Pearls"
     },
     {
@@ -171,8 +69,108 @@
       "reward": "1,000 Pearls"
     },
     {
-      "code": "BUGGYUPDATE",
+      "code": "HASHTAGBLESSED",
+      "reward": "Pearls"
+    },
+    {
+      "code": "Release",
+      "reward": "250 Pearls, Tail"
+    },
+    {
+      "code": "CorruptGoddes07",
+      "reward": "1,500 Pearls"
+    },
+    {
+      "code": "100KVISITS",
+      "reward": "350 Pearls"
+    },
+    {
+      "code": "1MVISITS",
       "reward": "1,000 Pearls"
+    },
+    {
+      "code": "500KVISITS",
+      "reward": "500 Pearls"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "Pearls"
+    },
+    {
+      "code": "BettaTester",
+      "reward": "2,000 Pearls and the Betta Tester Tail Set"
+    },
+    {
+      "code": "NightrayGoddess",
+      "reward": "2500 Pearls"
+    },
+    {
+      "code": "SaveCrabLord",
+      "reward": "7450 Pearls"
+    },
+    {
+      "code": "5MVISITS",
+      "reward": "1,000 Pearls"
+    },
+    {
+      "code": "SealriouslyDevs",
+      "reward": "500 Pearls"
+    },
+    {
+      "code": "CursetideNight",
+      "reward": "666 Pearls"
+    },
+    {
+      "code": "HalloweenEvent",
+      "reward": "2250 Pearls"
+    },
+    {
+      "code": "SkeletonScammer",
+      "reward": "Pearls gratis"
+    },
+    {
+      "code": "FrilledScammer",
+      "reward": "Pearls gratis"
+    },
+    {
+      "code": "FreeTangsForAll",
+      "reward": "Radiant “Silver Tang” Recolor"
+    },
+    {
+      "code": "DolphinsComeBackSoon",
+      "reward": "500 Pearls"
+    },
+    {
+      "code": "Part2",
+      "reward": "3000 Pearls"
+    },
+    {
+      "code": "BugShutDown",
+      "reward": "1000 Pearls"
+    },
+    {
+      "code": "GiveMeMyPearlsBack",
+      "reward": "Celestial Set Refund"
+    },
+    {
+      "code": "DailyFix",
+      "reward": "350 Pearls"
+    },
+    {
+      "code": "2MVISITS",
+      "reward": "1000 Pearls"
+    },
+    {
+      "code": "DarkFantasea",
+      "reward": "The Blue Bird Azurite Mermaid Tail"
+    },
+    {
+      "code": "LightFantasea",
+      "reward": "The Aquamarine Mermaid Tail"
+    },
+    {
+      "code": "SOULSONGGLOW",
+      "reward": "12,000 Pearls"
     },
     {
       "code": "RejoinAfterClaimingThisCharacterSlotCode",

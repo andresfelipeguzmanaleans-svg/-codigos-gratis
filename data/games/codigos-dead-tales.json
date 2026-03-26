@@ -5,8 +5,9 @@
   "description": "Todos los códigos activos para Dead Tales en Roblox",
   "metaTitle": "Códigos Dead Tales Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Dead Tales en Roblox. 7 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:18.116Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:31:03.018Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "SHOEGAMES",
       "reward": "50 monedas"
@@ -34,24 +35,18 @@
     {
       "code": "TomDFresh",
       "reward": "15 monedas"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "DAILYQUESTS",
-      "reward": "25 oro"
     },
     {
-      "code": "NEWCLASSES",
-      "reward": "50 oro"
+      "code": "GIVEMETRAITSPINS",
+      "reward": "25 monedas"
     },
     {
-      "code": "25000LIKES",
-      "reward": "25 oro"
+      "code": "RELEASE",
+      "reward": "30 oro"
     },
     {
-      "code": "1000LIKES",
-      "reward": "Oro"
+      "code": "5000LIKES",
+      "reward": "25 monedas"
     },
     {
       "code": "UPDATEDELAY",
@@ -74,27 +69,31 @@
       "reward": "50 oro"
     },
     {
-      "code": "500KVISITS",
-      "reward": "50 monedas"
-    },
-    {
       "code": "LOADINGBOSS",
       "reward": "50 monedas"
     },
     {
-      "code": "5000LIKES",
-      "reward": "25 monedas"
-    },
-    {
-      "code": "RELEASE",
-      "reward": "30 oro"
-    },
-    {
-      "code": "GIVEMETRAITSPINS",
-      "reward": "25 monedas"
+      "code": "500KVISITS",
+      "reward": "50 monedas"
     },
     {
       "code": "BIOMEUPDATE",
+      "reward": "25 oro"
+    },
+    {
+      "code": "1000LIKES",
+      "reward": "25 monedas"
+    },
+    {
+      "code": "25000LIKES",
+      "reward": "25 oro"
+    },
+    {
+      "code": "NEWCLASSES",
+      "reward": "50 oro"
+    },
+    {
+      "code": "DAILYQUESTS",
       "reward": "25 oro"
     }
   ],

@@ -5,8 +5,9 @@
   "description": "Todos los códigos activos para Clicker Frenzy en Roblox",
   "metaTitle": "Códigos Clicker Frenzy Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Clicker Frenzy en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:12.601Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:30:56.648Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "GOLDTV",
       "reward": "The Golden Tee Vee"
@@ -14,56 +15,30 @@
     {
       "code": "CFISBEST",
       "reward": "The White Domino Crown"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "GOLDPUNK",
-      "reward": "The oro Punk Dominus"
     },
     {
-      "code": "ADURITE",
-      "reward": "The Adurite Top Hat"
+      "code": "SWEET",
+      "reward": "The Sweet Punk Dominus"
     },
     {
-      "code": "PRAEV2",
-      "reward": "The Dominus Praefectus V2"
+      "code": "2MVISITS",
+      "reward": "Dominus Rocoprus"
     },
     {
-      "code": "PINKALERT",
-      "reward": "The Pink Alert Dominus"
-    },
-    {
-      "code": "UNDIMBIRTHDAY",
-      "reward": "The 2021 Undim's Birthday Dominus"
-    },
-    {
-      "code": "6000LIKES",
-      "reward": "The Gentleman Vee Tee"
-    },
-    {
-      "code": "HAPPYTHANKSGIVING",
-      "reward": "The Turkey Head"
-    },
-    {
-      "code": "OVERSEER",
-      "reward": "1,337 puntos"
+      "code": "ONEYEAR",
+      "reward": "The One Year Anniversary Effect"
     },
     {
       "code": "HOLIDAYS",
       "reward": "The regalo of the Holidays"
     },
     {
+      "code": "UNDIMBIRTHDAY",
+      "reward": "The 2021 Undim's Birthday Dominus"
+    },
+    {
       "code": "REDBAND",
       "reward": "The Red Banded Black Fedora"
-    },
-    {
-      "code": "JAYPUNK",
-      "reward": "The Sweet Punk Dominus"
-    },
-    {
-      "code": "SCORCHED",
-      "reward": "The Scorched Skull Dominus"
     },
     {
       "code": "20KLIKES",
@@ -118,10 +93,6 @@
       "reward": "The Dominus Vladus"
     },
     {
-      "code": "HALLOWEEN22",
-      "reward": "The White Pumpkin Head"
-    },
-    {
       "code": "CANDY",
       "reward": "The Cotton Candy Dominus"
     },
@@ -134,36 +105,8 @@
       "reward": "The 2022 Boppers"
     },
     {
-      "code": "RUINOUS",
-      "reward": "The Ruinous Dominus"
-    },
-    {
-      "code": "ONEYEAR",
-      "reward": "The One Year Anniversary Effect"
-    },
-    {
-      "code": "SWEET",
-      "reward": "The Sweet Punk Dominus"
-    },
-    {
-      "code": "SUPREME",
-      "reward": "The Supreme Punk Dominus"
-    },
-    {
-      "code": "2MVISITS",
-      "reward": "Dominus Rocoprus"
-    },
-    {
-      "code": "15KLIKES",
-      "reward": "The Minty Mild Domino Crown"
-    },
-    {
       "code": "WOODOM",
       "reward": "The Wooden Domino Crown"
-    },
-    {
-      "code": "CASEBUX",
-      "reward": "The Roblox Dominus V2"
     },
     {
       "code": "1MVISITS",
@@ -178,20 +121,8 @@
       "reward": "The Prism Fedora"
     },
     {
-      "code": "CYAN",
-      "reward": "The Cyan Alert Dominus"
-    },
-    {
       "code": "ORANGE",
       "reward": "The Orange Alert Dominus"
-    },
-    {
-      "code": "KEYLIME",
-      "reward": "The llave Lime Dominus"
-    },
-    {
-      "code": "17500LIKES",
-      "reward": "The Guardia of Vengeance"
     },
     {
       "code": "YELLOW",
@@ -204,10 +135,6 @@
     {
       "code": "ROYAL",
       "reward": "The Royal Punk Dominus"
-    },
-    {
-      "code": "3MVISITS",
-      "reward": "The Bombastic Shaggy"
     },
     {
       "code": "EMERALD",
@@ -232,6 +159,78 @@
     {
       "code": "SPOOKYSCARY",
       "reward": "The Orange Pumpkin Head"
+    },
+    {
+      "code": "6000LIKES",
+      "reward": "The Gentleman Vee Tee"
+    },
+    {
+      "code": "PINKALERT",
+      "reward": "The Pink Alert Dominus"
+    },
+    {
+      "code": "OVERSEER",
+      "reward": "1,337 puntos"
+    },
+    {
+      "code": "CASEBUX",
+      "reward": "The Roblox Dominus V2"
+    },
+    {
+      "code": "SUPREME",
+      "reward": "The Supreme Punk Dominus"
+    },
+    {
+      "code": "RUINOUS",
+      "reward": "The Ruinous Dominus"
+    },
+    {
+      "code": "15KLIKES",
+      "reward": "The Minty Mild Domino Crown"
+    },
+    {
+      "code": "HAPPYTHANKSGIVING",
+      "reward": "The Turkey Head"
+    },
+    {
+      "code": "HALLOWEEN22",
+      "reward": "The White Pumpkin Head"
+    },
+    {
+      "code": "SCORCHED",
+      "reward": "The Scorched Skull Dominus"
+    },
+    {
+      "code": "17500LIKES",
+      "reward": "The Guardia of Vengeance"
+    },
+    {
+      "code": "CYAN",
+      "reward": "The Cyan Alert Dominus"
+    },
+    {
+      "code": "KEYLIME",
+      "reward": "The llave Lime Dominus"
+    },
+    {
+      "code": "3MVISITS",
+      "reward": "The Bombastic Shaggy"
+    },
+    {
+      "code": "JAYPUNK",
+      "reward": "The Sweet Punk Dominus"
+    },
+    {
+      "code": "GOLDPUNK",
+      "reward": "The oro Punk Dominus"
+    },
+    {
+      "code": "ADURITE",
+      "reward": "The Adurite Top Hat"
+    },
+    {
+      "code": "PRAEV2",
+      "reward": "The Dominus Praefectus V2"
     }
   ],
   "howToRedeem": [

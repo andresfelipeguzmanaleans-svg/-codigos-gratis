@@ -5,8 +5,9 @@
   "description": "Todos los códigos activos para Bleach Era en Roblox",
   "metaTitle": "Códigos Bleach Era Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Bleach Era en Roblox. 29 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:01.533Z",
-  "activeCodes": [
+  "lastUpdated": "2026-03-26T20:30:44.668Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "RerollReiastsu4",
       "reward": "Reiastsu tirada"
@@ -122,80 +123,10 @@
     {
       "code": "RerollRes6",
       "reward": "1 Resurrection Reroll"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "45kfaves",
-      "reward": "Recompensas"
     },
     {
-      "code": "RerollReiatsu3",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "ExpBoost1",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "3mvisits",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "ExpBoost3",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "2mvisits",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "7klikes",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "50faves",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "20klikes",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "15klikes",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "25kfaves",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "RerollReiatsu2",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "ExpBoost2",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "RerollReiatsu1",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "alpha6k",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "ExpBoost4",
-      "reward": "A 1 hora XP Boost"
-    },
-    {
-      "code": "DropBoost3",
-      "reward": "15 minuto Drop Boost"
-    },
-    {
-      "code": "RerollHollowApp1",
-      "reward": "1 Hollow Appearance Reroll"
+      "code": "RerollColor3",
+      "reward": "1 Zanpakuto Reroll"
     },
     {
       "code": "RerollColor1",
@@ -238,8 +169,8 @@
       "reward": "1 Cloak"
     },
     {
-      "code": "RerollHollowApp2",
-      "reward": "1 Hollow Appearance Reroll"
+      "code": "DropBoost3",
+      "reward": "15 minuto Drop Boost"
     },
     {
       "code": "DropBoost2",
@@ -278,6 +209,10 @@
       "reward": "1 Hollow Appearance Reroll"
     },
     {
+      "code": "RerollHollowApp1",
+      "reward": "1 Hollow Appearance Reroll"
+    },
+    {
       "code": "BleachEraMerch",
       "reward": "1 hora XP Boost"
     },
@@ -290,40 +225,104 @@
       "reward": "1 Resurrection Reroll"
     },
     {
-      "code": "RerollReiastsu2",
-      "reward": "1 Reiastsu Reroll"
-    },
-    {
-      "code": "FreeElementReroll",
-      "reward": "1 Element Reroll"
+      "code": "bleachera2soon",
+      "reward": "1 hora XP Boost"
     },
     {
       "code": "TeamBleachEra",
       "reward": "1 hora XP Boost"
     },
     {
-      "code": "bleachera2soon",
-      "reward": "1 hora XP Boost"
+      "code": "FreeElementReroll",
+      "reward": "1 Element Reroll"
     },
     {
-      "code": "RerollColor3",
+      "code": "RerollHollowApp2",
+      "reward": "1 Hollow Appearance Reroll"
+    },
+    {
+      "code": "RerollColor2",
       "reward": "1 Zanpakuto Reroll"
-    },
-    {
-      "code": "skillpointreset",
-      "reward": "1 Skill puntos Reset"
-    },
-    {
-      "code": "happy2022",
-      "reward": "1 hora XP Boost"
     },
     {
       "code": "33klikes",
       "reward": "1 hora XP Boost"
     },
     {
-      "code": "RerollColor2",
-      "reward": "1 Zanpakuto Reroll"
+      "code": "happy2022",
+      "reward": "1 hora XP Boost"
+    },
+    {
+      "code": "RerollReiastsu2",
+      "reward": "1 Reiastsu Reroll"
+    },
+    {
+      "code": "skillpointreset",
+      "reward": "1 Skill puntos Reset"
+    },
+    {
+      "code": "45kfaves",
+      "reward": "Drop Boost"
+    },
+    {
+      "code": "RerollReiatsu3",
+      "reward": "Reiatsu Reroll"
+    },
+    {
+      "code": "ExpBoost1",
+      "reward": "XP Boost"
+    },
+    {
+      "code": "3mvisits",
+      "reward": "XP Boost"
+    },
+    {
+      "code": "ExpBoost3",
+      "reward": "EXP Boost"
+    },
+    {
+      "code": "2mvisits",
+      "reward": "XP Boost"
+    },
+    {
+      "code": "7klikes",
+      "reward": "1 hora of 2x EXP"
+    },
+    {
+      "code": "50faves",
+      "reward": "Drop Boost"
+    },
+    {
+      "code": "20klikes",
+      "reward": "XP Boost"
+    },
+    {
+      "code": "15klikes",
+      "reward": "XP Boost"
+    },
+    {
+      "code": "25kfaves",
+      "reward": "1 hora of 2x Boss Drop"
+    },
+    {
+      "code": "RerollReiatsu2",
+      "reward": "Reiatsu Reroll"
+    },
+    {
+      "code": "ExpBoost2",
+      "reward": "EXP Boost"
+    },
+    {
+      "code": "RerollReiatsu1",
+      "reward": "Reiatsu Reroll"
+    },
+    {
+      "code": "alpha6k",
+      "reward": "Reset gratis"
+    },
+    {
+      "code": "ExpBoost4",
+      "reward": "1 hora XP Boost"
     }
   ],
   "howToRedeem": [
