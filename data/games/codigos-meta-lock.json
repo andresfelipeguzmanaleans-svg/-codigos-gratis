@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-d1fccc9509846f3bb30532cc8aac13b0/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Meta Lock en Roblox",
   "metaTitle": "Códigos Meta Lock Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Meta Lock en Roblox. 14 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:31:47.459Z",
+  "metaDescription": "Lista actualizada de códigos para Meta Lock en Roblox. 11 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-27T20:33:21.694Z",
   "playerCount": 296,
   "totalVisits": 115697152,
   "likes": 77102,
@@ -66,39 +66,36 @@
       "code": "NoReset",
       "reward": "Recompensas",
       "addedDate": "2026-03-23"
-    },
-    {
-      "code": "SmallNinjaRevamp",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-03-19"
-    },
-    {
-      "code": "SaeReworkSoon",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-03-19"
-    },
-    {
-      "code": "WatchtowerWeapon",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-03-19"
     }
   ],
   "expiredCodes": [
     {
-      "code": "SuperSorryForDelay2",
-      "reward": "20 giros"
+      "code": "SmallNinjaRevamp",
+      "reward": "Recompensas gratis"
     },
     {
-      "code": "SuperSorryForDelay",
-      "reward": "80 giros"
+      "code": "SaeReworkSoon",
+      "reward": "Recompensas gratis"
     },
     {
-      "code": "NewMechs",
-      "reward": "20 Talent giros"
+      "code": "WatchtowerWeapon",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "CODESPINS20",
       "reward": "20 giros"
+    },
+    {
+      "code": "WILDCARD",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "CHRISTMAS",
+      "reward": "15 giros, 3 Talent giros"
+    },
+    {
+      "code": "kurona",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "PDATETHISWEEK",
@@ -235,6 +232,14 @@
     {
       "code": "MarkSmellTalent",
       "reward": "20 giros"
+    },
+    {
+      "code": "HAPPYNEWYEAR2025",
+      "reward": "Giros"
+    },
+    {
+      "code": "TheShark",
+      "reward": "15 giros"
     },
     {
       "code": "WILDCARDREWORK",
@@ -417,10 +422,6 @@
       "reward": "30 Talent giros"
     },
     {
-      "code": "HAPPYNEWYEAR2025",
-      "reward": "Giros"
-    },
-    {
       "code": "CHRISTMAS2025",
       "reward": "50 giros"
     },
@@ -463,10 +464,6 @@
     {
       "code": "TRAP",
       "reward": "5 giros"
-    },
-    {
-      "code": "WILDCARD",
-      "reward": "5,000 Cash"
     },
     {
       "code": "NewModes",
@@ -515,10 +512,6 @@
     {
       "code": "WhenNagi",
       "reward": "5 giros"
-    },
-    {
-      "code": "TheShark",
-      "reward": "15 giros"
     },
     {
       "code": "NewEmotes",
@@ -661,12 +654,16 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "CHRISTMAS",
-      "reward": "15 giros, 3 Talent giros"
+      "code": "SuperSorryForDelay2",
+      "reward": "20 giros"
     },
     {
-      "code": "kurona",
-      "reward": "Recompensas gratis"
+      "code": "SuperSorryForDelay",
+      "reward": "80 giros"
+    },
+    {
+      "code": "NewMechs",
+      "reward": "20 Talent giros"
     },
     {
       "code": "FreestyleTalent",

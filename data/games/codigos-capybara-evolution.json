@@ -5,16 +5,48 @@
   "description": "Todos los códigos activos para Capybara Evolution en Roblox",
   "metaTitle": "Códigos Capybara Evolution Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Capybara Evolution en Roblox. 34 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:30:52.608Z",
+  "lastUpdated": "2026-03-27T20:32:26.997Z",
   "activeCodes": [],
   "expiredCodes": [
+    {
+      "code": "Coral1",
+      "reward": "EXP pociones"
+    },
+    {
+      "code": "Bunnyboss",
+      "reward": "2 Easter tickets"
+    },
+    {
+      "code": "SorryForDelay",
+      "reward": "2 XP pociones"
+    },
     {
       "code": "dr501vc",
       "reward": "1 Exp poción"
     },
     {
+      "code": "EternalPart2",
+      "reward": "3 EXP pociones"
+    },
+    {
+      "code": "Luliloli",
+      "reward": "3 EXP pociones"
+    },
+    {
+      "code": "Studs",
+      "reward": "2 Mega EXP pociones"
+    },
+    {
+      "code": "I2PERFECT",
+      "reward": "1 XP poción"
+    },
+    {
       "code": "RELEASE",
       "reward": "1 Win poción"
+    },
+    {
+      "code": "NEWUPD1",
+      "reward": "1 XP poción"
     },
     {
       "code": "CAPYHAPPY1587",
@@ -25,99 +57,31 @@
       "reward": "1 EXP poción"
     },
     {
-      "code": "Studs",
-      "reward": "2 Mega EXP pociones"
-    },
-    {
-      "code": "Luliloli",
-      "reward": "3 EXP pociones"
-    },
-    {
-      "code": "EternalPart2",
-      "reward": "3 EXP pociones"
-    },
-    {
-      "code": "Eternal",
-      "reward": "3 EXP pociones"
-    },
-    {
-      "code": "Slimebara",
-      "reward": "3 EXP pociones"
-    },
-    {
-      "code": "Capyphantom",
-      "reward": "3 EXP pociones"
-    },
-    {
-      "code": "SummerPart2",
-      "reward": "3 EXP pociones"
-    },
-    {
-      "code": "DUNGEON",
-      "reward": "3 EXP pociones"
-    },
-    {
-      "code": "UPD19",
-      "reward": "3 EXP pociones"
-    },
-    {
-      "code": "Summer2025",
-      "reward": "3 Summer tickets"
-    },
-    {
-      "code": "Capymera",
-      "reward": "2 XP pociones"
-    },
-    {
-      "code": "FIXWINS23",
-      "reward": "3 XP pociones"
-    },
-    {
-      "code": "Capytropolis",
-      "reward": "3 XP pociones"
-    },
-    {
-      "code": "Scrolls",
-      "reward": "Bronze Scroll"
-    },
-    {
-      "code": "VOIDEVENT3",
-      "reward": "3 EXP pociones"
-    },
-    {
-      "code": "Smelter",
-      "reward": "3 EXP pociones"
-    },
-    {
-      "code": "BunnyCrate",
-      "reward": "Golden Easter cofre"
-    },
-    {
-      "code": "i2perfectfix",
-      "reward": "5 XP pociones"
-    },
-    {
-      "code": "VOID",
-      "reward": "3 EXP pociones"
-    },
-    {
-      "code": "I2PERFECT",
-      "reward": "1 XP poción"
-    },
-    {
-      "code": "CAPYHARA",
-      "reward": "1 XP poción"
+      "code": "CRATES",
+      "reward": "2 Bronze cofres"
     },
     {
       "code": "RB23",
       "reward": "1 Bronze cofre"
     },
     {
-      "code": "Barablocks",
-      "reward": "3 EXP pociones"
+      "code": "CAPYHARA",
+      "reward": "1 XP poción"
     },
     {
       "code": "I2PERFECT2",
+      "reward": "3 XP pociones"
+    },
+    {
+      "code": "Capymera",
+      "reward": "2 XP pociones"
+    },
+    {
+      "code": "Capytropolis",
+      "reward": "3 XP pociones"
+    },
+    {
+      "code": "FIXWINS23",
       "reward": "3 XP pociones"
     },
     {
@@ -125,19 +89,31 @@
       "reward": "3 XP pociones"
     },
     {
-      "code": "NEWUPD1",
-      "reward": "1 XP poción"
+      "code": "Scrolls",
+      "reward": "Bronze Scroll"
     },
     {
-      "code": "CRATES",
-      "reward": "2 Bronze cofres"
+      "code": "i2perfectfix",
+      "reward": "5 XP pociones"
     },
     {
-      "code": "PARTY",
+      "code": "BunnyCrate",
+      "reward": "Golden Easter cofre"
+    },
+    {
+      "code": "Barablocks",
       "reward": "3 EXP pociones"
     },
     {
-      "code": "INDEX",
+      "code": "Smelter",
+      "reward": "3 EXP pociones"
+    },
+    {
+      "code": "VOID",
+      "reward": "3 EXP pociones"
+    },
+    {
+      "code": "VOIDEVENT3",
       "reward": "3 EXP pociones"
     },
     {
@@ -145,12 +121,40 @@
       "reward": "3 EXP pociones"
     },
     {
-      "code": "Bunnyboss",
-      "reward": "2 Easter tickets"
+      "code": "INDEX",
+      "reward": "3 EXP pociones"
     },
     {
-      "code": "SorryForDelay",
-      "reward": "2 XP pociones"
+      "code": "PARTY",
+      "reward": "3 EXP pociones"
+    },
+    {
+      "code": "Summer2025",
+      "reward": "3 Summer tickets"
+    },
+    {
+      "code": "UPD19",
+      "reward": "3 EXP pociones"
+    },
+    {
+      "code": "DUNGEON",
+      "reward": "3 EXP pociones"
+    },
+    {
+      "code": "SummerPart2",
+      "reward": "3 EXP pociones"
+    },
+    {
+      "code": "Capyphantom",
+      "reward": "3 EXP pociones"
+    },
+    {
+      "code": "Slimebara",
+      "reward": "3 EXP pociones"
+    },
+    {
+      "code": "Eternal",
+      "reward": "3 EXP pociones"
     },
     {
       "code": "Brrrra",
