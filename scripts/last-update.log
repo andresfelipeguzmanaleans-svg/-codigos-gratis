@@ -1,116 +1,72 @@
-=== RESUMEN UPDATE 2026-03-28 20:25 ===
+=== RESUMEN UPDATE 2026-03-29 08:35 ===
 
 Archivos modificados:
-  36 archivos cambiados
+  22 archivos cambiados
 
 Archivos nuevos:
-  12 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4185 juegos (4185 procesados)
-Actualizados: 34 | Sin cambios: 4006
-No encontrado: 132 | Saltados: 13
-Códigos nuevos: 22 | Movidos a expirados: 18
-Tiempo: 134.9s | Concurrencia: 10
+Total: 4186 juegos (4186 procesados)
+Actualizados: 20 | Sin cambios: 4020
+No encontrado: 133 | Saltados: 13
+Códigos nuevos: 12 | Movidos a expirados: 16
+Tiempo: 135.9s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Crusaders: 6→7 activos (+1), 173→173 exp
-    Nuevos: HICRUSADERS
-  Anime Eternal: 2→1 activos (-1), 737→738 exp
-  Anime Ghosts: 2→4 activos (+2), 24→24 exp
-    Nuevos: CHAINSAW, EASTERDELAY
-  Anime Weapons: 5→4 activos (-1), 163→164 exp
-  Arcade Basketball: 0→1 activos (+1), 40→40 exp
-    Nuevos: NOOB
-  Bikelife Netherlands: 1→4 activos (+3), 17→17 exp
-    Nuevos: BIGUPDATE, CUSTOMIZATION, TRICKS
-  Car Crushers 2: 2→1 activos (-1), 46→47 exp
-  Car Dealership Tycoon: 0→0 activos (=), 274→275 exp
-  Cat Piece: 5→5 activos (=), 96→97 exp
-  Dollys Factory: 1→0 activos (-1), 21→22 exp
-  Dungeon Heroes: 2→4 activos (+2), 47→47 exp
-    Nuevos: DUNGEONSOON, ONEWEEK
-  Dungeon Rng: 7→6 activos (-1), 57→58 exp
-  Fnaf Battlegrounds: 1→0 activos (-1), 18→19 exp
-  Football Legends: 3→1 activos (-2), 62→64 exp
-  Hoop Simulator: 0→0 activos (=), 4→5 exp
-  Knockout: 2→0 activos (-2), 28→30 exp
-  Life Incremental: 1→2 activos (+1), 32→32 exp
-    Nuevos: SmallUpdate
-  My Hello Kitty Cafe: 0→0 activos (=), 144→145 exp
-  Nba Champions Basketball: 1→2 activos (+1), 28→28 exp
-    Nuevos: UFO
-  Nfl Universe Football: 34→33 activos (-1), 246→247 exp
-  Ninja Legends: 4→4 activos (=), 71→72 exp
-  Prism Runway Show: 1→2 activos (+1), 18→18 exp
-    Nuevos: FRIDAYEGG
-  Project Blue Lock: 2→2 activos (=), 333→334 exp
-  Realistic Car Driving: 1→0 activos (-1), 11→12 exp
-  Reign Piece: 1→4 activos (+3), 32→32 exp
-    Nuevos: AKAZASOON, GYUTARO, SLASHERDEMON
-  Rivals: 0→0 activos (=), 181→182 exp
-  Saber Simulator: 0→1 activos (+1), 88→88 exp
-    Nuevos: EASTER26
-  Save The People: 1→2 activos (+1), 3→3 exp
-    Nuevos: 5000likes
-  School Bus Simulator 23: 0→0 activos (=), 38→39 exp
-  Sorcerer Incremental: 2→6 activos (+4), 16→16 exp
-    Nuevos: DOMAIN, SEASON3FINALE, THANKYOU, CULLINGGAMES
-  Special Forces Simulator: 1→0 activos (-1), 36→37 exp
-  Survival Odyssey: 1→0 activos (-1), 61→62 exp
-  Universal Piece: 12→8 activos (-4), 28→32 exp
-  Your Bizarre Adventure: 0→1 activos (+1), 67→67 exp
-    Nuevos: GULLIBLE
+  A One Piece Game: 206→209 activos (+3), 205→205 exp
+    Nuevos: FireForceHype!!!, PassionateFlame, Banshoman!
+  All Star Tower Defense: 1→0 activos (-1), 329→330 exp
+  Anime Card Collection: 2→1 activos (-1), 19→20 exp
+  Anime Crusaders: 7→6 activos (-1), 173→174 exp
+  Anime Story: 0→0 activos (=), 150→151 exp
+  Basketball Legends: 5→3 activos (-2), 151→154 exp
+  Car Zone: 3→2 activos (-1), 103→105 exp
+    Nuevos: UPDATE48
+  Control: 1→1 activos (=), 13→14 exp
+  Drag Drive Simulator: 12→9 activos (-3), 60→63 exp
+  Hooked: 3→4 activos (+1), 3→3 exp
+    Nuevos: HOOKED3KLIKES
+  Hots Rng: 5→6 activos (+1), 109→109 exp
+    Nuevos: AprilFool
+  Kingdom Of Magic Tycoon: 0→2 activos (+2), 14→14 exp
+    Nuevos: 25KLikes!, 30KLikes!
+  Life Incremental: 2→1 activos (-1), 32→33 exp
+  Mugen: 1→2 activos (+1), 75→75 exp
+    Nuevos: LIGHTNINGVERYSOON
+  One Fruit Simulator: 99→101 activos (+2), 234→234 exp
+    Nuevos: EASTERDAGGER, EASTER26
+  Save Grandma From The Irs Tycoon: 4→5 activos (+1), 0→0 exp
+    Nuevos: REVIVAL
+  Slap: 3→0 activos (-3), 20→23 exp
+  That Crazy Adventure: 1→1 activos (=), 25→26 exp
+  Ultra Utmm Game: 0→0 activos (=), 11→13 exp
+  Weak Legacy 2: 3→0 activos (-3), 84→87 exp
 
 Detalle cambios:
+data/games/codigos-a-one-piece-game.json
+data/games/codigos-all-star-tower-defense.json
+data/games/codigos-anime-card-collection.json
 data/games/codigos-anime-crusaders.json
-data/games/codigos-anime-eternal.json
-data/games/codigos-anime-ghosts.json
-data/games/codigos-anime-weapons.json
-data/games/codigos-arcade-basketball.json
-data/games/codigos-bikelife-netherlands.json
-data/games/codigos-car-crushers-2.json
-data/games/codigos-car-dealership-tycoon.json
-data/games/codigos-cat-piece.json
-data/games/codigos-dollys-factory.json
-data/games/codigos-dungeon-heroes.json
-data/games/codigos-dungeon-rng.json
-data/games/codigos-fnaf-battlegrounds.json
-data/games/codigos-football-legends.json
-data/games/codigos-hoop-simulator.json
-data/games/codigos-knockout.json
+data/games/codigos-anime-story.json
+data/games/codigos-basketball-legends.json
+data/games/codigos-car-zone.json
+data/games/codigos-control.json
+data/games/codigos-drag-drive-simulator.json
+data/games/codigos-hooked.json
+data/games/codigos-hots-rng.json
+data/games/codigos-kingdom-of-magic-tycoon.json
 data/games/codigos-life-incremental.json
-data/games/codigos-my-hello-kitty-cafe.json
-data/games/codigos-nba-champions-basketball.json
-data/games/codigos-nfl-universe-football.json
-data/games/codigos-ninja-legends.json
-data/games/codigos-prism-runway-show.json
-data/games/codigos-project-blue-lock.json
-data/games/codigos-realistic-car-driving.json
-data/games/codigos-reign-piece.json
-data/games/codigos-rivals.json
-data/games/codigos-saber-simulator.json
-data/games/codigos-save-the-people.json
-data/games/codigos-school-bus-simulator-23.json
-data/games/codigos-sorcerer-incremental.json
-data/games/codigos-special-forces-simulator.json
-data/games/codigos-survival-odyssey.json
-data/games/codigos-universal-piece.json
-data/games/codigos-your-bizarre-adventure.json
+data/games/codigos-mugen.json
+data/games/codigos-one-fruit-simulator.json
+data/games/codigos-save-grandma-from-the-irs-tycoon.json
+data/games/codigos-slap.json
+data/games/codigos-that-crazy-adventure.json
+data/games/codigos-ultra-utmm-game.json
+data/games/codigos-weak-legacy-2.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-anime-final-quest.json
-data/games/codigos-anime-reversal.json
-data/games/codigos-blox-cards-tcg.json
-data/games/codigos-cash-cash-idle.json
-data/games/codigos-currency-incremental.json
-data/games/codigos-faith-incremental.json
-data/games/codigos-fruit-piece-incremental.json
-data/games/codigos-japanese-supermarket-simulator.json
-data/games/codigos-reincarnated.json
-data/games/codigos-sniper-arena.json
-data/games/codigos-the-apocalypse.json
-data/games/codigos-the-forge.json
+data/games/codigos-go-catch.json
 
