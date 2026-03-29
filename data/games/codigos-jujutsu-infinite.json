@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-c72c9480ba4546c2f73bfb7c816b6da4/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Jujutsu Infinite en Roblox",
   "metaTitle": "Códigos Jujutsu Infinite Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Jujutsu Infinite en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:31:36.716Z",
+  "metaDescription": "Lista actualizada de códigos para Jujutsu Infinite en Roblox. 2 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-29T20:24:49.646Z",
   "playerCount": 30225,
   "totalVisits": 626751864,
   "likes": 1514403,
@@ -13,18 +13,19 @@
   "placeId": 10450270085,
   "activeCodes": [
     {
-      "code": "JUDGE_SOON",
+      "code": "400K_SUBS",
+      "reward": "Giros",
+      "addedDate": "2026-03-29"
+    },
+    {
+      "code": "JUDGEMAN_REWORK",
       "reward": "50 giros",
-      "addedDate": "2026-03-26"
+      "addedDate": "2026-03-29"
     }
   ],
   "expiredCodes": [
     {
-      "code": "100K_SUBS",
-      "reward": "50 giros"
-    },
-    {
-      "code": "200K_SUBS",
+      "code": "JUDGE_SOON",
       "reward": "50 giros"
     },
     {
@@ -45,6 +46,10 @@
     },
     {
       "code": "WINTER_EVENT_OUT",
+      "reward": "100 giros"
+    },
+    {
+      "code": "SMALL_PATCHES",
       "reward": "100 giros"
     },
     {
@@ -224,10 +229,6 @@
       "reward": "200 giros"
     },
     {
-      "code": "TWITTER_75_YAY",
-      "reward": "Giros"
-    },
-    {
       "code": "JJ_SHUTDOWN",
       "reward": "25 giros"
     },
@@ -254,6 +255,10 @@
     {
       "code": "RELEASE_SHUTDOWN_SRRY",
       "reward": "200 giros"
+    },
+    {
+      "code": "TWITTER_75_YAY",
+      "reward": "Giros"
     },
     {
       "code": "SOUL_20K",
@@ -368,8 +373,12 @@
       "reward": "100 giros"
     },
     {
-      "code": "SMALL_PATCHES",
-      "reward": "100 giros"
+      "code": "100K_SUBS",
+      "reward": "50 giros"
+    },
+    {
+      "code": "200K_SUBS",
+      "reward": "50 giros"
     },
     {
       "code": "1M_LIKES",
