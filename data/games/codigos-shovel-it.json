@@ -4,19 +4,21 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-9354bbd14b652da629d41a563d9c66a8/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Shovel It en Roblox",
   "metaTitle": "Códigos Shovel It Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Shovel It en Roblox. 5 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-27",
+  "metaDescription": "Lista actualizada de códigos para Shovel It en Roblox. 2 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-31T08:52:20.013Z",
   "activeCodes": [
     {
       "code": "BUGFIXES",
       "reward": "Doble suerte (5 minutos)"
     },
     {
-      "code": "BUGFIXES2",
-      "reward": "Recompensas"
-    },
-    {
       "code": "SORRYFORSHUTDOWN3",
+      "reward": "Recompensas"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "BUGFIXES2",
       "reward": "Recompensas"
     },
     {
@@ -26,9 +28,7 @@
     {
       "code": "UPDATE2",
       "reward": "Doble Power (5 minutos)"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "RADU",
       "reward": "5 minutos of 2x Power"
@@ -36,6 +36,10 @@
     {
       "code": "FIRSTUPDATE",
       "reward": "Doble suerte (5 minutos), Lost Relic giro"
+    },
+    {
+      "code": "2MVISITS",
+      "reward": "2x fuerza (10 minutos) and 2x suerte (10 minutos)"
     },
     {
       "code": "SORRYFORSHUTDOWN2",

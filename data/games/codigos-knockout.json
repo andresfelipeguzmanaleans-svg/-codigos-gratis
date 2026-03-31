@@ -5,17 +5,20 @@
   "description": "Todos los códigos activos para Knockout en Roblox",
   "metaTitle": "Códigos Knockout Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Knockout en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-28T20:23:54.444Z",
-  "activeCodes": [],
+  "lastUpdated": "2026-03-31T08:51:40.415Z",
+  "activeCodes": [
+    {
+      "code": "FOLTYNADMINABUSE",
+      "reward": "500 Ice",
+      "addedDate": "2026-03-31"
+    },
+    {
+      "code": "SPRING",
+      "reward": "5 giros",
+      "addedDate": "2026-03-31"
+    }
+  ],
   "expiredCodes": [
-    {
-      "code": "SORRYQUESTS",
-      "reward": "5 giros"
-    },
-    {
-      "code": "FARM",
-      "reward": "5 giros"
-    },
     {
       "code": "TEMPLETILES",
       "reward": "5 giros"
@@ -87,6 +90,14 @@
     {
       "code": "THANKS",
       "reward": "Recompensas"
+    },
+    {
+      "code": "FARM",
+      "reward": "5 giros"
+    },
+    {
+      "code": "SORRYQUESTS",
+      "reward": "5 giros"
     },
     {
       "code": "PUNCHMONKEY",
