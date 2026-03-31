@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-2ccca6b2a8fb98e5ba5e9e875e435cc9/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Race Clicker en Roblox",
   "metaTitle": "Códigos Race Clicker Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Race Clicker en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-31T08:52:08.883Z",
+  "metaDescription": "Lista actualizada de códigos para Race Clicker en Roblox. 1 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-03-31T20:38:00.363Z",
   "playerCount": 1237,
   "totalVisits": 953922537,
   "likes": 1515096,
@@ -13,17 +13,16 @@
   "placeId": 9285238704,
   "activeCodes": [
     {
-      "code": "Fantasy",
-      "reward": "Recompensas",
-      "addedDate": "2026-03-31"
-    },
-    {
       "code": "Emoji",
       "reward": "X2 Win Boost, x3 Win Boost, x2 suerte Boost, x3 suerte Boost, Auto Click Boost, x5 Accel Boost, +100% Accel Boost",
       "addedDate": "2026-03-23"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "Fantasy",
+      "reward": "Recompensas"
+    },
     {
       "code": "Thankyou50M",
       "reward": "25 Wins"
@@ -61,8 +60,32 @@
       "reward": "3x Win Boost"
     },
     {
+      "code": "Dino",
+      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
+    },
+    {
+      "code": "candy500",
+      "reward": "500 Candy"
+    },
+    {
+      "code": "Merchant",
+      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
+    },
+    {
+      "code": "spin2win",
+      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
+    },
+    {
+      "code": "900m",
+      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
+    },
+    {
       "code": "REVERT",
       "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
+    },
+    {
+      "code": "AdminAbuse",
+      "reward": "Boost Bundle"
     },
     {
       "code": "Event",
@@ -73,36 +96,12 @@
       "reward": "15 minuto 3x Wins Boost"
     },
     {
-      "code": "updateclickcode",
-      "reward": "Auto Click Boost"
-    },
-    {
       "code": "Christmas",
       "reward": "Boost Bundle"
     },
     {
-      "code": "Dino",
-      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
-    },
-    {
-      "code": "candy500",
-      "reward": "500 Candy"
-    },
-    {
-      "code": "spin2win",
-      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
-    },
-    {
-      "code": "Merchant",
-      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
-    },
-    {
-      "code": "900m",
-      "reward": "1 2x Wins Boost, 1 3x Wins Boost, 1 2x suerte Boost, 1 3x suerte Boost, 1 Auto Click Boost, 1 5x Acceleration Boost and 1 2x Acceleration Boost"
-    },
-    {
-      "code": "AdminAbuse",
-      "reward": "Boost Bundle"
+      "code": "updateclickcode",
+      "reward": "Auto Click Boost"
     },
     {
       "code": "Season14",
