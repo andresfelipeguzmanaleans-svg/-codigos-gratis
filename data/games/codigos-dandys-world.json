@@ -3,22 +3,20 @@
   "name": "Dandys World",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-8aa9b5d970387fddcddf59db718d18d7/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Dandys World en Roblox",
-  "metaTitle": "Códigos Dandys World Roblox (Febrero 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dandys World en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:17.007Z",
-  "activeCodes": [],
+  "metaTitle": "Códigos Dandys World Roblox (Abril 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Dandys World en Roblox. 1 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-04-02T08:48:20.741Z",
+  "activeCodes": [
+    {
+      "code": "RESEARCHMOBILE",
+      "reward": "Rodger",
+      "addedDate": "2026-04-02"
+    }
+  ],
   "expiredCodes": [
     {
-      "code": "SPOOKYSEASON",
-      "reward": "600 pumpkins gratis"
-    },
-    {
-      "code": "ICHOR",
-      "reward": "50 Ichor"
-    },
-    {
-      "code": "300K",
-      "reward": "100 Ichor"
+      "code": "TENMILLION",
+      "reward": "150 Ichor"
     },
     {
       "code": "SKINTICKET",
@@ -26,14 +24,6 @@
     },
     {
       "code": "HUNDREDMILLION",
-      "reward": "150 Ichor"
-    },
-    {
-      "code": "FIFTYMILLION",
-      "reward": "150 Ichor"
-    },
-    {
-      "code": "TENMILLION",
       "reward": "150 Ichor"
     },
     {
@@ -45,15 +35,31 @@
       "reward": "150 event currency"
     },
     {
+      "code": "FIFTYMILLION",
+      "reward": "150 Ichor"
+    },
+    {
       "code": "EASTER2025",
       "reward": "100 Baskets gratis"
+    },
+    {
+      "code": "ONETHOUSAND",
+      "reward": "50 Ichor"
+    },
+    {
+      "code": "300K",
+      "reward": "100 Ichor"
     },
     {
       "code": "APRIL1",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "ONETHOUSAND",
+      "code": "SPOOKYSEASON",
+      "reward": "600 Pumpkins"
+    },
+    {
+      "code": "ICHOR",
       "reward": "50 Ichor"
     }
   ],
