@@ -1,137 +1,90 @@
-=== RESUMEN UPDATE 2026-04-02 08:50 ===
+=== RESUMEN UPDATE 2026-04-02 20:31 ===
 
 Archivos modificados:
-  50 archivos cambiados
+  31 archivos cambiados
 
 Archivos nuevos:
-  4 archivos nuevos
+  3 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4219 juegos (4219 procesados)
-Actualizados: 49 | Sin cambios: 4025
+Total: 4222 juegos (4222 procesados)
+Actualizados: 29 | Sin cambios: 4048
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 21 | Movidos a expirados: 16
-Tiempo: 153.3s | Concurrencia: 10
+Códigos nuevos: 10 | Movidos a expirados: 5
+Tiempo: 138.5s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Auras Rng: 21→23 activos (+2), 1→1 exp
-    Nuevos: thanks!, comeback!
-  Anime Crusaders: 7→7 activos (=), 184→186 exp
-  Anime Eternal: 0→0 activos (=), 739→741 exp
-  Anime Ghosts: 1→1 activos (=), 29→30 exp
-  Aopg: 20→19 activos (-1), 273→274 exp
-  Armless Detective: 1→0 activos (-1), 67→68 exp
-  Balthazar: 1→1 activos (=), 12→13 exp
-  Battle For Dream Island Again: 0→0 activos (=), 126→127 exp
-  Birmingham Vehicle Simulator: 0→0 activos (=), 4→5 exp
-  Cash Cash Idle: 2→0 activos (-2), 2→4 exp
-  Catch A Monster: 0→0 activos (=), 58→59 exp
-  Dandys World: 0→1 activos (+1), 12→12 exp
-    Nuevos: RESEARCHMOBILE
-  Dragon Soul Demo: 0→0 activos (=), 39→40 exp
-  Evil Plate Game: 1→1 activos (=), 26→27 exp
-  Fabled Legacy: 1→0 activos (-1), 135→136 exp
-  Forge A Weapon: 0→0 activos (=), 9→10 exp
-  Heavyweight Fishing: 1→1 activos (=), 43→44 exp
-  Hunty Zombies: 46→52 activos (+6), 148→149 exp
-    Nuevos: NoDelayToday!!!, EasterNextWeek!!!, HellFork!, SaintPatrick!, NeverGonnaGiveYouUp, BatEvo, 2026AprilFools!
-  Idle Defense: 0→0 activos (=), 15→16 exp
-  Jojos Bizarre Incremental: 0→1 activos (+1), 26→27 exp
+  All Star Tower Defense X: 0→0 activos (=), 62→63 exp
+  Anime Card Collection: 0→1 activos (+1), 22→27 exp
+    Nuevos: TwentyThirdCode
+  Anime Card Clash: 1→1 activos (=), 142→149 exp
+  Anime Crossover Defense: 2→2 activos (=), 31→34 exp
+  Anime Final Quest: 1→1 activos (=), 59→61 exp
+  Anime Girl Rng: 1→1 activos (=), 116→117 exp
+  Anime Reborn: 1→1 activos (=), 115→119 exp
+  Arise Shadow Hunt: 0→0 activos (=), 65→66 exp
+  Cvr: 0→1 activos (+1), 33→33 exp
+    Nuevos: HappyAprilFools
+  Da Hood: 1→1 activos (=), 168→169 exp
+  Dispatch Police Simulator: 0→0 activos (=), 50→52 exp
+  Doodle World: 0→0 activos (=), 314→320 exp
+  Fart Training: 8→9 activos (+1), 0→0 exp
+    Nuevos: EASTER
+  Hood Wars: 0→0 activos (=), 30→31 exp
+  Japanese Supermarket Simulator: 0→0 activos (=), 19→20 exp
+  Jujutsu Kaisen Incremental: 4→4 activos (=), 31→34 exp
+  Miners Haven: 0→0 activos (=), 102→103 exp
+  Oil Empire: 5→6 activos (+1), 0→0 exp
     Nuevos: APRILFOOLS
-  Jujutsu Legacy: 5→6 activos (+1), 39→39 exp
-    Nuevos: Sorry
-  Jujutsu Kaisen Incremental: 3→4 activos (+1), 29→31 exp
-    Nuevos: Gullible
-  Kingdom Of Magic Tycoon: 2→0 activos (-2), 14→17 exp
-  Last Letter: 1→0 activos (-1), 26→27 exp
-  Moto Trackday Project: 0→0 activos (=), 56→57 exp
-  Omega Rarities 2: 0→0 activos (=), 20→21 exp
-  Ophelia: 0→0 activos (=), 5→6 exp
-  Peroxide: 5→6 activos (+1), 244→244 exp
-    Nuevos: OneMillionPE
-  Pet Rift: 0→1 activos (+1), 51→51 exp
-    Nuevos: OrcaReset
-  Pixel Blade: 1→0 activos (-1), 72→73 exp
-  Plant Brainrot Simulator: 1→1 activos (=), 49→50 exp
-  Pressure: 2→1 activos (-1), 17→18 exp
-  Project Baki 4: 19→20 activos (+1), 179→179 exp
-    Nuevos: RELEASEJJK
-  Project Mirror Labyrinth: 0→0 activos (=), 30→31 exp
-  Project Polaro: 1→2 activos (+1), 149→149 exp
-    Nuevos: T3NCOI
-  Roanoke Va: 0→0 activos (=), 48→49 exp
-  Rogue Piece: 4→3 activos (-1), 139→140 exp
-  Sakura Stand: 18→20 activos (+2), 161→161 exp
-    Nuevos: EVILRESTV5, 50ktoken
-  Sailor Piece: 3→3 activos (=), 138→144 exp
-  Shovel It: 2→0 activos (-2), 9→15 exp
-  Slayerbound: 3→0 activos (-3), 24→27 exp
-  Spongebob Tower Defense: 0→0 activos (=), 227→228 exp
-  Titan Tower Defense: 1→1 activos (=), 83→84 exp
-    Nuevos: slooflirpa
-  Toilet Defense Simulator X: 0→0 activos (=), 9→10 exp
-  Tower Heroes: 0→0 activos (=), 70→71 exp
-  Twisted: 0→0 activos (=), 13→15 exp
-  Ultimate Tower Defense: 0→1 activos (+1), 214→214 exp
-    Nuevos: 1AprilKikkerInJeBil!
-  Underground War 2 0: 0→0 activos (=), 276→272 exp
-  World Zero: 0→0 activos (=), 152→153 exp
+  Pet Quest: 1→0 activos (-1), 55→56 exp
+  Prism Runway Show: 1→0 activos (-1), 19→20 exp
+  Project Blue Lock: 2→2 activos (=), 334→339 exp
+  Re Rangers X: 20→21 activos (+1), 0→0 exp
+    Nuevos: FREEREROLLS!
+  Rivals: 0→0 activos (=), 184→185 exp
+  Robeats: 0→0 activos (=), 67→69 exp
+  Rogue Piece: 3→3 activos (=), 140→142 exp
+  Sailor Piece: 3→8 activos (+5), 144→144 exp
+    Nuevos: 560KCCUWEREINSANEE, 575KCCUWOWWWW, 590KCCUTYSMGUYS, 545KCCULETSGO, 605KCCUINSANEMILESTONE
+  Sorcerer Incremental: 3→0 activos (-3), 22→29 exp
+  Spongebob Tower Defense: 0→0 activos (=), 228→229 exp
+  You Vs Homer: 0→0 activos (=), 5→6 exp
 
 Detalle cambios:
-data/games/codigos-anime-auras-rng.json
-data/games/codigos-anime-crusaders.json
-data/games/codigos-anime-eternal.json
-data/games/codigos-anime-ghosts.json
-data/games/codigos-aopg.json
-data/games/codigos-armless-detective.json
-data/games/codigos-balthazar.json
-data/games/codigos-battle-for-dream-island-again.json
-data/games/codigos-birmingham-vehicle-simulator.json
-data/games/codigos-cash-cash-idle.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-dandys-world.json
-data/games/codigos-dragon-soul-demo.json
-data/games/codigos-evil-plate-game.json
-data/games/codigos-fabled-legacy.json
-data/games/codigos-forge-a-weapon.json
-data/games/codigos-heavyweight-fishing.json
-data/games/codigos-hunty-zombies.json
-data/games/codigos-idle-defense.json
-data/games/codigos-jojos-bizarre-incremental.json
+data/games/codigos-all-star-tower-defense-x.json
+data/games/codigos-anime-card-clash.json
+data/games/codigos-anime-card-collection.json
+data/games/codigos-anime-crossover-defense.json
+data/games/codigos-anime-final-quest.json
+data/games/codigos-anime-girl-rng.json
+data/games/codigos-anime-reborn.json
+data/games/codigos-arise-shadow-hunt.json
+data/games/codigos-cvr.json
+data/games/codigos-da-hood.json
+data/games/codigos-dispatch-police-simulator.json
+data/games/codigos-doodle-world.json
+data/games/codigos-fart-training.json
+data/games/codigos-hood-wars.json
+data/games/codigos-japanese-supermarket-simulator.json
 data/games/codigos-jujutsu-kaisen-incremental.json
-data/games/codigos-jujutsu-legacy.json
-data/games/codigos-kingdom-of-magic-tycoon.json
-data/games/codigos-last-letter.json
-data/games/codigos-moto-trackday-project.json
-data/games/codigos-omega-rarities-2.json
-data/games/codigos-ophelia.json
-data/games/codigos-peroxide.json
-data/games/codigos-pet-rift.json
-data/games/codigos-pixel-blade.json
-data/games/codigos-plant-brainrot-simulator.json
-data/games/codigos-pressure.json
-data/games/codigos-project-baki-4.json
-data/games/codigos-project-mirror-labyrinth.json
-data/games/codigos-project-polaro.json
-data/games/codigos-roanoke-va.json
+data/games/codigos-miners-haven.json
+data/games/codigos-oil-empire.json
+data/games/codigos-pet-quest.json
+data/games/codigos-prism-runway-show.json
+data/games/codigos-project-blue-lock.json
+data/games/codigos-re-rangers-x.json
+data/games/codigos-rivals.json
+data/games/codigos-robeats.json
 data/games/codigos-rogue-piece.json
 data/games/codigos-sailor-piece.json
-data/games/codigos-sakura-stand.json
-data/games/codigos-shovel-it.json
-data/games/codigos-slayerbound.json
+data/games/codigos-sorcerer-incremental.json
 data/games/codigos-spongebob-tower-defense.json
-data/games/codigos-titan-tower-defense.json
-data/games/codigos-toilet-defense-simulator-x.json
-data/games/codigos-tower-heroes.json
-data/games/codigos-twisted.json
-data/games/codigos-ultimate-tower-defense.json
-data/games/codigos-world-zero.json
+data/games/codigos-you-vs-homer.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-dungeon-hunters.json
-data/games/codigos-re-rangers-x.json
-data/games/codigos-retro-tower-defense.json
-data/games/codigos-underground-war-2-0.json
+data/games/codigos-fistborn.json
+data/games/codigos-how-to-train-your-dragon.json
+data/games/codigos-primal-pursuit.json
 
