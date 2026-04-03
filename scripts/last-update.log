@@ -1,90 +1,68 @@
-=== RESUMEN UPDATE 2026-04-02 20:31 ===
+=== RESUMEN UPDATE 2026-04-03 08:46 ===
 
 Archivos modificados:
-  31 archivos cambiados
+  24 archivos cambiados
 
 Archivos nuevos:
-  3 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4222 juegos (4222 procesados)
-Actualizados: 29 | Sin cambios: 4048
+Actualizados: 22 | Sin cambios: 4055
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 10 | Movidos a expirados: 5
-Tiempo: 138.5s | Concurrencia: 10
+Códigos nuevos: 2 | Movidos a expirados: 16
+Tiempo: 140.8s | Concurrencia: 10
 
 Juegos actualizados:
-  All Star Tower Defense X: 0→0 activos (=), 62→63 exp
-  Anime Card Collection: 0→1 activos (+1), 22→27 exp
-    Nuevos: TwentyThirdCode
-  Anime Card Clash: 1→1 activos (=), 142→149 exp
-  Anime Crossover Defense: 2→2 activos (=), 31→34 exp
-  Anime Final Quest: 1→1 activos (=), 59→61 exp
-  Anime Girl Rng: 1→1 activos (=), 116→117 exp
-  Anime Reborn: 1→1 activos (=), 115→119 exp
-  Arise Shadow Hunt: 0→0 activos (=), 65→66 exp
-  Cvr: 0→1 activos (+1), 33→33 exp
-    Nuevos: HappyAprilFools
-  Da Hood: 1→1 activos (=), 168→169 exp
-  Dispatch Police Simulator: 0→0 activos (=), 50→52 exp
-  Doodle World: 0→0 activos (=), 314→320 exp
-  Fart Training: 8→9 activos (+1), 0→0 exp
-    Nuevos: EASTER
-  Hood Wars: 0→0 activos (=), 30→31 exp
-  Japanese Supermarket Simulator: 0→0 activos (=), 19→20 exp
-  Jujutsu Kaisen Incremental: 4→4 activos (=), 31→34 exp
-  Miners Haven: 0→0 activos (=), 102→103 exp
-  Oil Empire: 5→6 activos (+1), 0→0 exp
-    Nuevos: APRILFOOLS
-  Pet Quest: 1→0 activos (-1), 55→56 exp
-  Prism Runway Show: 1→0 activos (-1), 19→20 exp
-  Project Blue Lock: 2→2 activos (=), 334→339 exp
-  Re Rangers X: 20→21 activos (+1), 0→0 exp
-    Nuevos: FREEREROLLS!
-  Rivals: 0→0 activos (=), 184→185 exp
-  Robeats: 0→0 activos (=), 67→69 exp
-  Rogue Piece: 3→3 activos (=), 140→142 exp
-  Sailor Piece: 3→8 activos (+5), 144→144 exp
-    Nuevos: 560KCCUWEREINSANEE, 575KCCUWOWWWW, 590KCCUTYSMGUYS, 545KCCULETSGO, 605KCCUINSANEMILESTONE
-  Sorcerer Incremental: 3→0 activos (-3), 22→29 exp
-  Spongebob Tower Defense: 0→0 activos (=), 228→229 exp
-  You Vs Homer: 0→0 activos (=), 5→6 exp
+  All Star Tower Defense: 0→0 activos (=), 330→331 exp
+  Anime Defenders: 0→0 activos (=), 44→45 exp
+  Anime Crusaders: 7→7 activos (=), 186→187 exp
+  Anime Rails: 3→3 activos (=), 83→84 exp
+  Anime Reversal: 0→0 activos (=), 37→38 exp
+  Aura Rng: 0→0 activos (=), 39→41 exp
+  Be Dino: 1→1 activos (=), 27→29 exp
+  Bikelife Netherlands: 1→0 activos (-1), 20→21 exp
+  Build A Military Base: 1→3 activos (+2), 16→17 exp
+    Nuevos: VALSORRY, 80000LIKES
+  Build A Scam Empire: 1→0 activos (-1), 14→15 exp
+  Criminality: 0→0 activos (=), 42→43 exp
+  Duel Warriors: 0→0 activos (=), 140→142 exp
+  Fisch: 3→2 activos (-1), 103→104 exp
+  Jojos Bizarre Incremental: 1→0 activos (-1), 27→28 exp
+  Jujutsu Legacy: 6→5 activos (-1), 39→40 exp
+  Jujutsu Randomizer: 6→4 activos (-2), 32→34 exp
+  Mojave Valley: 0→0 activos (=), 19→22 exp
+  Oil Empire: 6→1 activos (-5), 0→6 exp
+  Peroxide: 6→5 activos (-1), 244→245 exp
+  Prison Pump: 1→0 activos (-1), 35→36 exp
+  Titan Tower Defense: 1→0 activos (-1), 84→85 exp
+  Ultimate Tower Defense: 1→0 activos (-1), 214→215 exp
 
 Detalle cambios:
-data/games/codigos-all-star-tower-defense-x.json
-data/games/codigos-anime-card-clash.json
-data/games/codigos-anime-card-collection.json
-data/games/codigos-anime-crossover-defense.json
-data/games/codigos-anime-final-quest.json
-data/games/codigos-anime-girl-rng.json
-data/games/codigos-anime-reborn.json
-data/games/codigos-arise-shadow-hunt.json
-data/games/codigos-cvr.json
-data/games/codigos-da-hood.json
-data/games/codigos-dispatch-police-simulator.json
-data/games/codigos-doodle-world.json
-data/games/codigos-fart-training.json
-data/games/codigos-hood-wars.json
-data/games/codigos-japanese-supermarket-simulator.json
-data/games/codigos-jujutsu-kaisen-incremental.json
-data/games/codigos-miners-haven.json
+data/games/codigos-all-star-tower-defense.json
+data/games/codigos-anime-crusaders.json
+data/games/codigos-anime-defenders.json
+data/games/codigos-anime-rails.json
+data/games/codigos-anime-reversal.json
+data/games/codigos-aura-rng.json
+data/games/codigos-be-dino.json
+data/games/codigos-bikelife-netherlands.json
+data/games/codigos-build-a-military-base.json
+data/games/codigos-build-a-scam-empire.json
+data/games/codigos-criminality.json
+data/games/codigos-duel-warriors.json
+data/games/codigos-fisch.json
+data/games/codigos-jojos-bizarre-incremental.json
+data/games/codigos-jujutsu-legacy.json
+data/games/codigos-jujutsu-randomizer.json
+data/games/codigos-mojave-valley.json
 data/games/codigos-oil-empire.json
-data/games/codigos-pet-quest.json
-data/games/codigos-prism-runway-show.json
-data/games/codigos-project-blue-lock.json
-data/games/codigos-re-rangers-x.json
-data/games/codigos-rivals.json
-data/games/codigos-robeats.json
-data/games/codigos-rogue-piece.json
-data/games/codigos-sailor-piece.json
-data/games/codigos-sorcerer-incremental.json
-data/games/codigos-spongebob-tower-defense.json
-data/games/codigos-you-vs-homer.json
+data/games/codigos-peroxide.json
+data/games/codigos-prison-pump.json
+data/games/codigos-titan-tower-defense.json
+data/games/codigos-ultimate-tower-defense.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-fistborn.json
-data/games/codigos-how-to-train-your-dragon.json
-data/games/codigos-primal-pursuit.json
 
