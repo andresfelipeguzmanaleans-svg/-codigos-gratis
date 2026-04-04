@@ -1,129 +1,34 @@
-=== RESUMEN UPDATE 2026-04-03 20:31 ===
+=== RESUMEN UPDATE 2026-04-04 08:35 ===
 
 Archivos modificados:
-  50 archivos cambiados
+  6 archivos cambiados
 
 Archivos nuevos:
-  4 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4226 juegos (4226 procesados)
-Actualizados: 48 | Sin cambios: 4033
+Total: 4227 juegos (4227 procesados)
+Actualizados: 4 | Sin cambios: 4078
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 12 | Movidos a expirados: 87
-Tiempo: 141.6s | Concurrencia: 10
+Códigos nuevos: 2 | Movidos a expirados: 0
+Tiempo: 137.5s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Slayer Blade: 6→8 activos (+2), 107→107 exp
-    Nuevos: H6X7G4, 1Y9R5H
-  1 Unlimited World: 6→7 activos (+1), 56→56 exp
-    Nuevos: qIp2Z3
-  Anime Card Collection: 1→0 activos (-1), 27→28 exp
-  Anime Crusaders: 7→7 activos (=), 187→189 exp
-  Anime Card Clash: 1→1 activos (=), 149→150 exp
-  Anime Strike Simulator: 1→1 activos (=), 129→147 exp
-  Anime World Tower Defense: 0→0 activos (=), 201→202 exp
-  Are You Sure: 12→1 activos (-11), 2→13 exp
-  Arise Shadow Hunt: 0→0 activos (=), 66→67 exp
-  Basketball Legends: 3→3 activos (=), 155→157 exp
-  Battle For Dream Island Again: 0→0 activos (=), 127→129 exp
-  Be Dino: 1→1 activos (=), 29→30 exp
-  Build Anime Legends: 6→0 activos (-6), 0→6 exp
-  Build A Military Base: 3→1 activos (-2), 17→19 exp
-  Bunker Tycoon: 1→0 activos (-1), 0→2 exp
-  Chasing: 0→0 activos (=), 7→9 exp
-  Cross Piece: 13→0 activos (-13), 0→17 exp
-  Dungeon Heroes: 0→0 activos (=), 52→53 exp
-  Evil Plate Game: 1→1 activos (=), 27→28 exp
-  Fart Training: 9→0 activos (-9), 0→9 exp
-  Five Nights Td: 4→4 activos (=), 273→275 exp
-  Fishing Simulator: 0→0 activos (=), 217→218 exp
-  Goofy Tower Defense: 22→1 activos (-21), 19→79 exp
-  Gym Star Simulator: 0→0 activos (=), 31→32 exp
-  Heroes World: 0→0 activos (=), 116→117 exp
-  Hover Dash X: 3→0 activos (-3), 0→3 exp
-  Infinite Tower Tycoon: 0→0 activos (=), 40→44 exp
-  Jujutsu Chronicles: 0→0 activos (=), 266→268 exp
-  Kaiju Paradise: 2→2 activos (=), 135→136 exp
-  Lost Currents: 0→0 activos (=), 27→28 exp
-  Lumber Inc: 0→0 activos (=), 12→13 exp
-  Midnight Chasers Highway Racing: 0→0 activos (=), 199→200 exp
-  Nba Champions Basketball: 2→0 activos (-2), 28→30 exp
-  Paradox: 0→0 activos (=), 33→35 exp
-  Pet Rift: 1→0 activos (-1), 51→52 exp
-  Project Sonic Td: 2→2 activos (=), 23→25 exp
-  Reborn Skills Master: 25→27 activos (+2), 24→24 exp
-    Nuevos: update69, update70
-  Ro Ghoul: 14→14 activos (=), 179→180 exp
-  Roanoke: 7→8 activos (+1), 0→0 exp
-    Nuevos: APRILFOOLS
-  Saber Simulator: 0→0 activos (=), 89→90 exp
-  Sailor Piece: 8→4 activos (-4), 144→150 exp
-  Sakura Stand: 20→22 activos (+2), 161→161 exp
-    Nuevos: SireisSupervision, deathduriyay67
-  Sorcerer Ascent: 1→0 activos (-1), 24→25 exp
-  The Heroes Simulator: 0→0 activos (=), 3→4 exp
-  Titan Tower Defense: 0→0 activos (=), 85→88 exp
-  Undertale Timeline Reset: 11→1 activos (-10), 1→13 exp
-  Undertale Rng: 6→4 activos (-2), 55→61 exp
-    Nuevos: 7april7fools7, aprilfools2, aprilfools, aprilfools3
-  Untitled Gym Game: 0→0 activos (=), 23→25 exp
+  Anime Eternal: 0→1 activos (+1), 741→741 exp
+    Nuevos: Update45
+  Korblox Headless Hangout: 6→7 activos (+1), 19→19 exp
+    Nuevos: Easter2026
+  Sumo Wrestling Simulator: 0→0 activos (=), 16→17 exp
+  Untitled Boxing Game: 0→0 activos (=), 154→156 exp
 
 Detalle cambios:
-data/games/codigos-1-slayer-blade.json
-data/games/codigos-1-unlimited-world.json
-data/games/codigos-anime-card-clash.json
-data/games/codigos-anime-card-collection.json
-data/games/codigos-anime-crusaders.json
-data/games/codigos-anime-strike-simulator.json
-data/games/codigos-anime-world-tower-defense.json
-data/games/codigos-are-you-sure.json
-data/games/codigos-arise-shadow-hunt.json
-data/games/codigos-basketball-legends.json
-data/games/codigos-battle-for-dream-island-again.json
-data/games/codigos-be-dino.json
-data/games/codigos-build-a-military-base.json
-data/games/codigos-build-anime-legends.json
-data/games/codigos-bunker-tycoon.json
-data/games/codigos-chasing.json
-data/games/codigos-cross-piece.json
-data/games/codigos-dungeon-heroes.json
-data/games/codigos-evil-plate-game.json
-data/games/codigos-fart-training.json
-data/games/codigos-fishing-simulator.json
-data/games/codigos-five-nights-td.json
-data/games/codigos-goofy-tower-defense.json
-data/games/codigos-gym-star-simulator.json
-data/games/codigos-heroes-world.json
-data/games/codigos-hover-dash-x.json
-data/games/codigos-infinite-tower-tycoon.json
-data/games/codigos-jujutsu-chronicles.json
-data/games/codigos-kaiju-paradise.json
-data/games/codigos-lost-currents.json
-data/games/codigos-lumber-inc.json
-data/games/codigos-midnight-chasers-highway-racing.json
-data/games/codigos-nba-champions-basketball.json
-data/games/codigos-paradox.json
-data/games/codigos-pet-rift.json
-data/games/codigos-project-sonic-td.json
-data/games/codigos-reborn-skills-master.json
-data/games/codigos-ro-ghoul.json
-data/games/codigos-roanoke.json
-data/games/codigos-saber-simulator.json
-data/games/codigos-sailor-piece.json
-data/games/codigos-sakura-stand.json
-data/games/codigos-sorcerer-ascent.json
-data/games/codigos-the-heroes-simulator.json
-data/games/codigos-titan-tower-defense.json
-data/games/codigos-undertale-rng.json
-data/games/codigos-undertale-timeline-reset.json
-data/games/codigos-untitled-gym-game.json
+data/games/codigos-anime-eternal.json
+data/games/codigos-korblox-headless-hangout.json
+data/games/codigos-sumo-wrestling-simulator.json
+data/games/codigos-untitled-boxing-game.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-demon-soul-simulator.json
-data/games/codigos-playground-basketball.json
-data/games/codigos-rider-defenders.json
-data/games/codigos-rostock-racing.json
+data/games/codigos-money-clicker-inc.json
 
