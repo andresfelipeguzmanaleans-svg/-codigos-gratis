@@ -1,131 +1,111 @@
-=== RESUMEN UPDATE 2026-04-06 20:34 ===
+=== RESUMEN UPDATE 2026-04-07 08:57 ===
 
 Archivos modificados:
-  41 archivos cambiados
+  44 archivos cambiados
 
 Archivos nuevos:
-  5 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4238 juegos (4238 procesados)
-Actualizados: 39 | Sin cambios: 4054
+Actualizados: 42 | Sin cambios: 4051
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 44 | Movidos a expirados: 21
-Tiempo: 145.5s | Concurrencia: 10
+Códigos nuevos: 9 | Movidos a expirados: 40
+Tiempo: 147.0s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Eternal: 3→1 activos (-2), 741→743 exp
-  Anime Fighters Simulator: 6→2 activos (-4), 269→273 exp
-  Anime Girl Rng: 1→2 activos (+1), 120→120 exp
-    Nuevos: GAMBLERPACKVOUCH
-  Anime Ghosts: 5→1 activos (-4), 31→35 exp
-  Arm Wrestle Simulator: 7→8 activos (+1), 153→153 exp
-    Nuevos: awhcutecarrots
-  Asura: 112→110 activos (-2), 148→150 exp
-  Azaras Rng: 46→49 activos (+3), 28→28 exp
-    Nuevos: Cataclysm, AnniversaryPart4, AprilFool
-  Baddies Brawl: 1→0 activos (-1), 53→54 exp
-  Battle For Dream Island Again: 1→0 activos (-1), 130→131 exp
-  Beaks: 0→1 activos (+1), 10→10 exp
-    Nuevos: easter2026
-  Birmingham Vehicle Simulator: 0→1 activos (+1), 5→5 exp
-    Nuevos: easter26
-  Button Eternal: 1→2 activos (+1), 32→32 exp
-    Nuevos: Weather
-  Chasing: 0→1 activos (+1), 9→9 exp
+  Anime Girl Rng: 2→1 activos (-1), 120→121 exp
+  Anime Tactical Simulator: 8→2 activos (-6), 23→29 exp
+  Be A Youtuber: 0→0 activos (=), 12→13 exp
+  Bikelife Netherlands: 0→0 activos (=), 21→23 exp
+  Birmingham Vehicle Simulator: 1→0 activos (-1), 5→6 exp
+  Bloxstrike: 0→0 activos (=), 28→29 exp
+  Button Eternal: 2→1 activos (-1), 32→33 exp
+  Catch A Monster: 0→0 activos (=), 63→64 exp
+  Chasing: 1→0 activos (-1), 9→10 exp
+  Da Hood: 1→1 activos (=), 169→170 exp
+  Diesel N Steel: 3→3 activos (=), 38→39 exp
+  Doom By Fate: 1→0 activos (-1), 5→6 exp
+  Evil Plate Game: 2→0 activos (-2), 29→31 exp
+  Fistborn: 3→1 activos (-2), 147→149 exp
+  Five Nights Td 2: 60→63 activos (+3), 0→0 exp
+    Nuevos: ASTRAL, HAPPYEASTER, UPDATE24
+  Flashpoint Worlds Collide: 1→1 activos (=), 83→84 exp
+  Go Catch: 3→1 activos (-2), 5→7 exp
+  Idle Defense: 0→0 activos (=), 16→17 exp
+  In The Hills: 5→2 activos (-3), 46→49 exp
+  Jojos Bizarre Incremental: 2→0 activos (-2), 30→32 exp
+  Jujutsu Chronicles: 0→0 activos (=), 268→270 exp
+  Jujutsu Legacy: 5→6 activos (+1), 41→41 exp
+    Nuevos: Takaba
+  Jujutsu Randomizer: 2→1 activos (-1), 40→41 exp
+  Kaizen: 0→0 activos (=), 103→104 exp
+  Muscle Transform Simulator: 3→0 activos (-3), 3→6 exp
+  Ninja Time: 4→8 activos (+4), 233→233 exp
+    Nuevos: DelayDelayDelay!, LifeSteal!, ValleyOfReverence!, CrimsonEyes!
+  Omega Rarities 2: 0→0 activos (=), 21→22 exp
+  Ophelia: 1→0 activos (-1), 6→7 exp
+  Outrun A Speedster: 3→0 activos (-3), 21→24 exp
+  Pet Quest: 1→0 activos (-1), 56→57 exp
+  Project Mugetsu: 1→2 activos (+1), 351→351 exp
     Nuevos: HappyEaster26
-  Doom By Fate: 0→1 activos (+1), 5→5 exp
-    Nuevos: sorryforissues
-  Elemental Dungeons: 1→0 activos (-1), 69→70 exp
-  Evil Plate Game: 0→2 activos (+2), 29→29 exp
-    Nuevos: EASTER!, EASTER2
-  Five Nights Hunted: 0→0 activos (=), 54→55 exp
-  Fistborn: 0→3 activos (+3), 147→147 exp
-    Nuevos: BigUpdateSoon, HappyEaster, Shozukilovesyou
-  Ghoul Re: 28→31 activos (+3), 85→85 exp
-    Nuevos: HAPPYEASTER, NEWDEVS, NEWTEAM
-  Go Catch: 1→3 activos (+2), 5→5 exp
-    Nuevos: SORRYDELAY, UPDATE6
-  In The Hills: 2→5 activos (+3), 46→46 exp
-    Nuevos: Easter26, Party26, Wishes26
-  Jojos Bizarre Incremental: 0→2 activos (+2), 30→30 exp
-    Nuevos: RESTARTAHOLIC, 8KFAVS
-  Jujutsu Randomizer: 1→2 activos (+1), 40→40 exp
-    Nuevos: EGG
-  Legends Rewritten: 1→1 activos (=), 106→107 exp
-  Mermaid Isle: 0→1 activos (+1), 44→44 exp
-    Nuevos: GreedyLionfish
-  Nuke Simulator: 0→0 activos (=), 48→49 exp
-  Oil Empire: 1→4 activos (+3), 7→7 exp
-    Nuevos: ABUSEIT, SECRETCODE, ABUSE99
-  Ophelia: 0→1 activos (+1), 6→6 exp
-    Nuevos: FREEMONEY
-  Own A Fish Pond: 1→0 activos (-1), 66→67 exp
-  Peroxide: 6→5 activos (-1), 245→246 exp
-  Pet Quest: 0→1 activos (+1), 56→56 exp
-    Nuevos: update21
-  Picnics N Plushies: 32→29 activos (-3), 13→16 exp
-  Sports Card Collection: 0→1 activos (+1), 12→12 exp
-    Nuevos: ThirteenthCode
-  Steal An Egoist: 14→19 activos (+5), 103→103 exp
-    Nuevos: DELAYED, GODCODE, IRL, SUII, TUFFSTUFF
-  Survive On A Raft: 0→1 activos (+1), 24→24 exp
-    Nuevos: TridentCrossbow
-  Ultimate Tower Defense: 0→1 activos (+1), 215→215 exp
-    Nuevos: Easter2026
-  Undertale Rng: 4→5 activos (+1), 61→62 exp
-    Nuevos: souladjustment, merchant0stockfix
-  Weak Legacy 2: 0→2 activos (+2), 89→89 exp
-    Nuevos: HAPPYEASTER!, 500KLIKES!
-  Young Street Ontario: 2→1 activos (-1), 11→12 exp
+  Prospecting: 0→0 activos (=), 33→34 exp
+  Pull a Sword: 26→26 activos (=), 197→198 exp
+  Rivals: 0→0 activos (=), 185→186 exp
+  Shindo Life: 0→0 activos (=), 329→330 exp
+  Sorcerer Tycoon: 4→0 activos (-4), 27→31 exp
+  Sports Card Collection: 1→0 activos (-1), 12→13 exp
+  Survive On A Raft: 1→0 activos (-1), 24→25 exp
+  Ultimate Tower Defense: 1→0 activos (-1), 215→216 exp
+  Undertale Crazy Multiverse Timeline: 0→0 activos (=), 28→30 exp
+  Weak Legacy 2: 2→0 activos (-2), 89→91 exp
+  Wukashi: 0→0 activos (=), 100→101 exp
 
 Detalle cambios:
-data/games/codigos-anime-eternal.json
-data/games/codigos-anime-fighters-simulator.json
-data/games/codigos-anime-ghosts.json
 data/games/codigos-anime-girl-rng.json
-data/games/codigos-arm-wrestle-simulator.json
-data/games/codigos-asura.json
-data/games/codigos-azaras-rng.json
-data/games/codigos-baddies-brawl.json
-data/games/codigos-battle-for-dream-island-again.json
-data/games/codigos-beaks.json
+data/games/codigos-anime-tactical-simulator.json
+data/games/codigos-be-a-youtuber.json
+data/games/codigos-bikelife-netherlands.json
 data/games/codigos-birmingham-vehicle-simulator.json
+data/games/codigos-bloxstrike.json
 data/games/codigos-button-eternal.json
+data/games/codigos-catch-a-monster.json
 data/games/codigos-chasing.json
+data/games/codigos-da-hood.json
+data/games/codigos-diesel-n-steel.json
 data/games/codigos-doom-by-fate.json
-data/games/codigos-elemental-dungeons.json
 data/games/codigos-evil-plate-game.json
 data/games/codigos-fistborn.json
-data/games/codigos-five-nights-hunted.json
-data/games/codigos-ghoul-re.json
+data/games/codigos-five-nights-td-2.json
+data/games/codigos-flashpoint-worlds-collide.json
 data/games/codigos-go-catch.json
+data/games/codigos-idle-defense.json
 data/games/codigos-in-the-hills.json
 data/games/codigos-jojos-bizarre-incremental.json
+data/games/codigos-jujutsu-chronicles.json
+data/games/codigos-jujutsu-legacy.json
 data/games/codigos-jujutsu-randomizer.json
-data/games/codigos-legends-rewritten.json
-data/games/codigos-mermaid-isle.json
-data/games/codigos-nuke-simulator.json
-data/games/codigos-oil-empire.json
+data/games/codigos-kaizen.json
+data/games/codigos-muscle-transform-simulator.json
+data/games/codigos-ninja-time.json
+data/games/codigos-omega-rarities-2.json
 data/games/codigos-ophelia.json
-data/games/codigos-own-a-fish-pond.json
-data/games/codigos-peroxide.json
+data/games/codigos-outrun-a-speedster.json
 data/games/codigos-pet-quest.json
-data/games/codigos-picnics-n-plushies.json
+data/games/codigos-project-mugetsu.json
+data/games/codigos-prospecting.json
+data/games/codigos-pull-a-sword.json
+data/games/codigos-rivals.json
+data/games/codigos-shindo-life.json
+data/games/codigos-sorcerer-tycoon.json
 data/games/codigos-sports-card-collection.json
-data/games/codigos-steal-an-egoist.json
 data/games/codigos-survive-on-a-raft.json
 data/games/codigos-ultimate-tower-defense.json
-data/games/codigos-undertale-rng.json
+data/games/codigos-undertale-crazy-multiverse-timeline.json
 data/games/codigos-weak-legacy-2.json
-data/games/codigos-young-street-ontario.json
+data/games/codigos-wukashi.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-idle-potato-game.json
-data/games/codigos-muscle-transform-simulator.json
-data/games/codigos-outrun-a-speedster.json
-data/games/codigos-sword-factory-x.json
-data/games/codigos-unbox-a-factory.json
 
