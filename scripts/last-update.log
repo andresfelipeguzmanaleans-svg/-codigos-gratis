@@ -1,33 +1,69 @@
-=== RESUMEN UPDATE 2026-04-08 08:57 ===
+=== RESUMEN UPDATE 2026-04-08 20:38 ===
 
 Archivos modificados:
-  6 archivos cambiados
+  19 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4240 juegos (4240 procesados)
-Actualizados: 4 | Sin cambios: 4091
+Actualizados: 17 | Sin cambios: 4078
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 6 | Movidos a expirados: 0
-Tiempo: 160.8s | Concurrencia: 10
+Códigos nuevos: 28 | Movidos a expirados: 5
+Tiempo: 140.8s | Concurrencia: 10
 
 Juegos actualizados:
-  Car Zone: 1→2 activos (+1), 107→107 exp
-    Nuevos: SORRYFORBUG
-  Cross Piece: 0→3 activos (+3), 17→17 exp
-    Nuevos: FREEPOTIONS2, MORETICKETZFR, BUFFSNERFS
-  Jujutsu Odyssey: 10→11 activos (+1), 62→62 exp
-    Nuevos: EASTER2026
-  Midnight Chasers Highway Racing: 0→1 activos (+1), 200→200 exp
-    Nuevos: ThanksFor740k
+  Anime Ghosts: 1→2 activos (+1), 35→35 exp
+    Nuevos: MINEFIELDS
+  Anime Reversal: 0→3 activos (+3), 39→39 exp
+    Nuevos: SryForBug3, TOKYO, UPDATE3
+  Anime Tactical Simulator: 2→6 activos (+4), 29→29 exp
+    Nuevos: WORLDSTONES2, SORRYFORSHUTDOWN2, SORRYFORSHUTDOWN, SORRYFORBUGS
+  Car Zone: 2→1 activos (-1), 107→108 exp
+  Chainsaw Man Devils Heart: 20→22 activos (+2), 42→42 exp
+    Nuevos: !Code Easter2026, !Code ResetMyHybridPLOX
+  Cross Piece: 3→0 activos (-3), 17→20 exp
+  Diesel N Steel: 3→4 activos (+1), 39→39 exp
+    Nuevos: cadez_is_best
+  Dirt Incremental X: 6→9 activos (+3), 22→22 exp
+    Nuevos: 5KLikes, bigdelay, Update5
+  Evil Plate Game: 1→2 activos (+1), 31→31 exp
+    Nuevos: MOAR!
+  Hots Rng: 5→6 activos (+1), 110→110 exp
+    Nuevos: 13MVisits
+  Jujutsu Kaisen Incremental: 4→5 activos (+1), 35→35 exp
+    Nuevos: YANDERE
+  Jujutsu Odyssey: 11→10 activos (-1), 62→63 exp
+  My Pooping Pigeons: 0→3 activos (+3), 31→31 exp
+    Nuevos: EasyMoney, EasyPack, Scary
+  Nightshift Tower Defense: 0→2 activos (+2), 18→18 exp
+    Nuevos: fullreleasenever, soon
+  Rensselaer County: 0→1 activos (+1), 13→13 exp
+    Nuevos: APRILUPDATE
+  Sailor Piece: 4→8 activos (+4), 152→152 exp
+    Nuevos: 500MVISITSWOAHH, FREECODE, ICEQUEEN, MINIUPDATEBIGONESOON
+  Sorcerer Tycoon: 0→1 activos (+1), 31→31 exp
+    Nuevos: SUKUNAQUESTFIX
 
 Detalle cambios:
+data/games/codigos-anime-ghosts.json
+data/games/codigos-anime-reversal.json
+data/games/codigos-anime-tactical-simulator.json
 data/games/codigos-car-zone.json
+data/games/codigos-chainsaw-man-devils-heart.json
 data/games/codigos-cross-piece.json
+data/games/codigos-diesel-n-steel.json
+data/games/codigos-dirt-incremental-x.json
+data/games/codigos-evil-plate-game.json
+data/games/codigos-hots-rng.json
+data/games/codigos-jujutsu-kaisen-incremental.json
 data/games/codigos-jujutsu-odyssey.json
-data/games/codigos-midnight-chasers-highway-racing.json
+data/games/codigos-my-pooping-pigeons.json
+data/games/codigos-nightshift-tower-defense.json
+data/games/codigos-rensselaer-county.json
+data/games/codigos-sailor-piece.json
+data/games/codigos-sorcerer-tycoon.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
