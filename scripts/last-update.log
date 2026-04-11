@@ -1,71 +1,43 @@
-=== RESUMEN UPDATE 2026-04-11 08:37 ===
+=== RESUMEN UPDATE 2026-04-11 20:26 ===
 
 Archivos modificados:
-  23 archivos cambiados
+  11 archivos cambiados
 
 Archivos nuevos:
-  1 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4247 juegos (4247 procesados)
-Actualizados: 21 | Sin cambios: 4081
+Actualizados: 9 | Sin cambios: 4093
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 7 | Movidos a expirados: 6
-Tiempo: 139.3s | Concurrencia: 10
+Códigos nuevos: 2 | Movidos a expirados: 9
+Tiempo: 146.5s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Reversal: 1→0 activos (-1), 41→43 exp
-  Basketball Showdown: 2→4 activos (+2), 19→19 exp
-    Nuevos: CHRONOSHIFT, UPDATE!
-  Bubble Gum Simulator Infinity: 0→1 activos (+1), 57→57 exp
-    Nuevos: anniversary
-  Catch A Monster: 0→0 activos (=), 65→66 exp
-  Demon Slayer Tower Defense Simulator: 1→1 activos (=), 25→26 exp
-  Fast Food Simulator: 0→0 activos (=), 6→8 exp
-  Fireworks Playground: 1→0 activos (-1), 214→215 exp
-  Jujutsu Beatdown: 1→1 activos (=), 21→22 exp
-    Nuevos: BuildingComedian
-  Kaizen: 0→0 activos (=), 104→105 exp
-  Merge Drills: 0→0 activos (=), 13→14 exp
-  Meta Lock: 11→13 activos (+2), 179→179 exp
-    Nuevos: OtoyaV2SoonTrust, NewMatchmaking
-  Money Clicker Inc: 1→0 activos (-1), 15→16 exp
-  Moto Trackday Project: 0→0 activos (=), 57→58 exp
-  Nfl Universe Football: 34→35 activos (+1), 247→247 exp
-    Nuevos: MYTHS
-  Neo Tennis: 0→0 activos (=), 25→26 exp
-  Nightshift Tower Defense: 2→0 activos (-2), 18→20 exp
-  Restaurant Tycoon 3: 2→2 activos (=), 36→37 exp
-  Sailor Piece: 5→4 activos (-1), 156→157 exp
-  Snowballer Simulator: 0→0 activos (=), 4→5 exp
-  Supermarket Simulator: 0→0 activos (=), 27→28 exp
-  Sword Fighters 2 Simulator: 0→0 activos (=), 23→39 exp
+  Basketball Showdown: 4→2 activos (-2), 19→21 exp
+  Bubble Gum Simulator Infinity: 1→0 activos (-1), 57→58 exp
+  Cross Piece: 0→1 activos (+1), 20→20 exp
+    Nuevos: FREEGEMBOOSTER
+  Jujutsu Beatdown: 1→0 activos (-1), 22→23 exp
+  Jujutsu Legacy: 6→6 activos (=), 42→43 exp
+  Meta Lock: 13→11 activos (-2), 179→181 exp
+  Nfl Universe Football: 35→34 activos (-1), 247→248 exp
+  Paradox: 2→0 activos (-2), 43→45 exp
+  Tennis Clash: 21→22 activos (+1), 1→1 exp
+    Nuevos: 2XDSCZDEB9J
 
 Detalle cambios:
-data/games/codigos-anime-reversal.json
 data/games/codigos-basketball-showdown.json
 data/games/codigos-bubble-gum-simulator-infinity.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-demon-slayer-tower-defense-simulator.json
-data/games/codigos-fast-food-simulator.json
-data/games/codigos-fireworks-playground.json
+data/games/codigos-cross-piece.json
 data/games/codigos-jujutsu-beatdown.json
-data/games/codigos-kaizen.json
-data/games/codigos-merge-drills.json
+data/games/codigos-jujutsu-legacy.json
 data/games/codigos-meta-lock.json
-data/games/codigos-money-clicker-inc.json
-data/games/codigos-moto-trackday-project.json
-data/games/codigos-neo-tennis.json
 data/games/codigos-nfl-universe-football.json
-data/games/codigos-nightshift-tower-defense.json
-data/games/codigos-restaurant-tycoon-3.json
-data/games/codigos-sailor-piece.json
-data/games/codigos-snowballer-simulator.json
-data/games/codigos-supermarket-simulator.json
-data/games/codigos-sword-fighters-2-simulator.json
+data/games/codigos-paradox.json
+data/games/codigos-tennis-clash.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-second-piece.json
 
