@@ -1,75 +1,71 @@
-=== RESUMEN UPDATE 2026-04-10 20:29 ===
+=== RESUMEN UPDATE 2026-04-11 08:37 ===
 
 Archivos modificados:
   23 archivos cambiados
 
 Archivos nuevos:
-  3 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4246 juegos (4246 procesados)
-Actualizados: 21 | Sin cambios: 4080
+Total: 4247 juegos (4247 procesados)
+Actualizados: 21 | Sin cambios: 4081
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 9 | Movidos a expirados: 3
-Tiempo: 138.1s | Concurrencia: 10
+Códigos nuevos: 7 | Movidos a expirados: 6
+Tiempo: 139.3s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Crusaders: 8→8 activos (=), 192→193 exp
-  Anime Eternal: 0→2 activos (+2), 744→744 exp
-    Nuevos: EasterCode2, Update46
-  Anime Rangers X: 6→6 activos (=), 162→178 exp
-  Diesel N Steel: 4→3 activos (-1), 39→41 exp
-  Duel Warriors: 0→0 activos (=), 142→144 exp
-  Evil Plate Game: 1→2 activos (+1), 33→34 exp
-    Nuevos: BlamePS2, SHOOTAANDPS2
-  Hunt Giant Fish: 1→1 activos (=), 11→15 exp
-  Jujutsu Kaisen Incremental: 6→7 activos (+1), 36→36 exp
-    Nuevos: BOOGIE
-  Kage Tycoon: 0→0 activos (=), 45→46 exp
-  Money Clicker Inc: 0→1 activos (+1), 15→15 exp
-    Nuevos: GoodLuckWithAtomPack
-  Mugen: 2→1 activos (-1), 79→80 exp
-  Paradox: 1→2 activos (+1), 43→43 exp
-    Nuevos: paradoxisout
-  Project Mirror Labyrinth: 0→0 activos (=), 31→32 exp
-  Project Hero: 0→0 activos (=), 86→89 exp
-  Punch Hole Simulator: 9→8 activos (-1), 34→35 exp
-  Realistic Car Driving: 0→1 activos (+1), 12→12 exp
-    Nuevos: 450K
-  Rivals: 0→0 activos (=), 186→187 exp
-  Sailor Piece: 4→5 activos (+1), 156→156 exp
-    Nuevos: 700KLIKESTYSM
-  Ultimate Tower Defense: 0→0 activos (=), 216→217 exp
-  Wukashi: 0→0 activos (=), 101→102 exp
-  Yeet a Friend: 0→0 activos (=), 67→68 exp
+  Anime Reversal: 1→0 activos (-1), 41→43 exp
+  Basketball Showdown: 2→4 activos (+2), 19→19 exp
+    Nuevos: CHRONOSHIFT, UPDATE!
+  Bubble Gum Simulator Infinity: 0→1 activos (+1), 57→57 exp
+    Nuevos: anniversary
+  Catch A Monster: 0→0 activos (=), 65→66 exp
+  Demon Slayer Tower Defense Simulator: 1→1 activos (=), 25→26 exp
+  Fast Food Simulator: 0→0 activos (=), 6→8 exp
+  Fireworks Playground: 1→0 activos (-1), 214→215 exp
+  Jujutsu Beatdown: 1→1 activos (=), 21→22 exp
+    Nuevos: BuildingComedian
+  Kaizen: 0→0 activos (=), 104→105 exp
+  Merge Drills: 0→0 activos (=), 13→14 exp
+  Meta Lock: 11→13 activos (+2), 179→179 exp
+    Nuevos: OtoyaV2SoonTrust, NewMatchmaking
+  Money Clicker Inc: 1→0 activos (-1), 15→16 exp
+  Moto Trackday Project: 0→0 activos (=), 57→58 exp
+  Nfl Universe Football: 34→35 activos (+1), 247→247 exp
+    Nuevos: MYTHS
+  Neo Tennis: 0→0 activos (=), 25→26 exp
+  Nightshift Tower Defense: 2→0 activos (-2), 18→20 exp
+  Restaurant Tycoon 3: 2→2 activos (=), 36→37 exp
+  Sailor Piece: 5→4 activos (-1), 156→157 exp
+  Snowballer Simulator: 0→0 activos (=), 4→5 exp
+  Supermarket Simulator: 0→0 activos (=), 27→28 exp
+  Sword Fighters 2 Simulator: 0→0 activos (=), 23→39 exp
 
 Detalle cambios:
-data/games/codigos-anime-crusaders.json
-data/games/codigos-anime-eternal.json
-data/games/codigos-anime-rangers-x.json
-data/games/codigos-diesel-n-steel.json
-data/games/codigos-duel-warriors.json
-data/games/codigos-evil-plate-game.json
-data/games/codigos-hunt-giant-fish.json
-data/games/codigos-jujutsu-kaisen-incremental.json
-data/games/codigos-kage-tycoon.json
+data/games/codigos-anime-reversal.json
+data/games/codigos-basketball-showdown.json
+data/games/codigos-bubble-gum-simulator-infinity.json
+data/games/codigos-catch-a-monster.json
+data/games/codigos-demon-slayer-tower-defense-simulator.json
+data/games/codigos-fast-food-simulator.json
+data/games/codigos-fireworks-playground.json
+data/games/codigos-jujutsu-beatdown.json
+data/games/codigos-kaizen.json
+data/games/codigos-merge-drills.json
+data/games/codigos-meta-lock.json
 data/games/codigos-money-clicker-inc.json
-data/games/codigos-mugen.json
-data/games/codigos-paradox.json
-data/games/codigos-project-hero.json
-data/games/codigos-project-mirror-labyrinth.json
-data/games/codigos-punch-hole-simulator.json
-data/games/codigos-realistic-car-driving.json
-data/games/codigos-rivals.json
+data/games/codigos-moto-trackday-project.json
+data/games/codigos-neo-tennis.json
+data/games/codigos-nfl-universe-football.json
+data/games/codigos-nightshift-tower-defense.json
+data/games/codigos-restaurant-tycoon-3.json
 data/games/codigos-sailor-piece.json
-data/games/codigos-ultimate-tower-defense.json
-data/games/codigos-wukashi.json
-data/games/codigos-yeet-a-friend.json
+data/games/codigos-snowballer-simulator.json
+data/games/codigos-supermarket-simulator.json
+data/games/codigos-sword-fighters-2-simulator.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-build-to-survive-the-bombs.json
-data/games/codigos-idle-heroes-simulator.json
-data/games/codigos-money-masters.json
+data/games/codigos-second-piece.json
 
