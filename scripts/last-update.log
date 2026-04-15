@@ -1,35 +1,88 @@
-=== RESUMEN UPDATE 2026-04-14 20:47 ===
+=== RESUMEN UPDATE 2026-04-15 09:15 ===
 
 Archivos modificados:
-  8 archivos cambiados
+  30 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  3 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4267 juegos (4267 procesados)
-Actualizados: 5 | Sin cambios: 4117
+Total: 4270 juegos (4270 procesados)
+Actualizados: 29 | Sin cambios: 4096
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 1 | Movidos a expirados: 6
-Tiempo: 144.7s | Concurrencia: 10
+Códigos nuevos: 11 | Movidos a expirados: 17
+Tiempo: 164.9s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Auras Rng: 24→23 activos (-1), 1→2 exp
-  Motorcycle Mayhem: 1→2 activos (+1), 32→32 exp
-    Nuevos: LEGEND270K
-  Nightmares: 3→0 activos (-3), 4→7 exp
-  Prodigy Drift: 1→0 activos (-1), 164→165 exp
-  Urban Moto: 1→0 activos (-1), 7→8 exp
+  A Universal Time: 1→1 activos (=), 93→95 exp
+  Anime Ghosts: 2→1 activos (-1), 38→39 exp
+  Catch A Monster: 0→0 activos (=), 71→72 exp
+  Dead Spells: 2→1 activos (-1), 38→39 exp
+  Dragon Blox: 0→0 activos (=), 195→199 exp
+  Evil Plate Game: 1→1 activos (=), 36→37 exp
+  Fistborn: 0→1 activos (+1), 150→150 exp
+    Nuevos: TheFallen
+  Flag Football: 3→1 activos (-2), 11→13 exp
+  Fruit Battlegrounds: 0→0 activos (=), 242→243 exp
+  Jujutsu Chronicles: 0→0 activos (=), 271→272 exp
+  Kanom Tokyo: 3→0 activos (-3), 29→32 exp
+  Midnight Chasers Highway Racing: 1→0 activos (-1), 201→202 exp
+  Og Saber Simulator: 8→5 activos (-3), 2→6 exp
+  Oil Empire: 2→2 activos (=), 9→12 exp
+  Omeni Fruits: 4→6 activos (+2), 5→5 exp
+    Nuevos: 160KMembers, MegaUpdate
+  Own A Fish Pond: 1→0 activos (-1), 67→68 exp
+  Pet Quest: 1→0 activos (-1), 57→58 exp
+  Rivals: 0→0 activos (=), 187→188 exp
+  Rng Legends: 2→0 activos (-2), 12→14 exp
+  Sailor Piece: 4→4 activos (=), 159→162 exp
+  School Bus Simulator 23: 0→0 activos (=), 39→40 exp
+  Sports Card Collection: 1→0 activos (-1), 13→14 exp
+  St Blockade Reboot: 0→0 activos (=), 36→34 exp
+  Steal A Generator: 0→0 activos (=), 11→12 exp
+  Steal An Egoist: 19→22 activos (+3), 103→103 exp
+    Nuevos: FROSTSICK, LATEUPDATEAGAIN, OGUNIT
+  Subterra: 1→0 activos (-1), 33→35 exp
+  The Plaza: 0→0 activos (=), 2→3 exp
+  Universal Piece: 8→12 activos (+4), 32→32 exp
+    Nuevos: SorryForBugLoading, DarkHero, GoldenKing, SorryForDelayy
+  Universal Tower Defense: 4→5 activos (+1), 55→55 exp
+    Nuevos: WeLoveDragonSlayer!
 
 Detalle cambios:
-data/gameguide-urls.json
-data/games/codigos-anime-auras-rng.json
-data/games/codigos-motorcycle-mayhem.json
-data/games/codigos-nightmares.json
-data/games/codigos-prodigy-drift.json
-data/games/codigos-urban-moto.json
+data/games/codigos-a-universal-time.json
+data/games/codigos-anime-ghosts.json
+data/games/codigos-catch-a-monster.json
+data/games/codigos-dead-spells.json
+data/games/codigos-dragon-blox.json
+data/games/codigos-evil-plate-game.json
+data/games/codigos-fistborn.json
+data/games/codigos-flag-football.json
+data/games/codigos-fruit-battlegrounds.json
+data/games/codigos-jujutsu-chronicles.json
+data/games/codigos-kanom-tokyo.json
+data/games/codigos-midnight-chasers-highway-racing.json
+data/games/codigos-og-saber-simulator.json
+data/games/codigos-oil-empire.json
+data/games/codigos-omeni-fruits.json
+data/games/codigos-own-a-fish-pond.json
+data/games/codigos-pet-quest.json
+data/games/codigos-rivals.json
+data/games/codigos-rng-legends.json
+data/games/codigos-sailor-piece.json
+data/games/codigos-school-bus-simulator-23.json
+data/games/codigos-sports-card-collection.json
+data/games/codigos-steal-a-generator.json
+data/games/codigos-steal-an-egoist.json
+data/games/codigos-subterra.json
+data/games/codigos-the-plaza.json
+data/games/codigos-universal-piece.json
+data/games/codigos-universal-tower-defense.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-my-avatar.json
+data/games/codigos-st-blockade-reboot.json
+data/games/codigos-tank-game.json
 
