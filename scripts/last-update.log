@@ -1,77 +1,24 @@
-=== RESUMEN UPDATE 2026-04-15 20:43 ===
+=== RESUMEN UPDATE 2026-04-16 09:14 ===
 
 Archivos modificados:
-  27 archivos cambiados
+  3 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4270 juegos (4270 procesados)
-Actualizados: 25 | Sin cambios: 4100
+Actualizados: 1 | Sin cambios: 4124
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 12 | Movidos a expirados: 8
-Tiempo: 138.6s | Concurrencia: 10
+Códigos nuevos: 1 | Movidos a expirados: 0
+Tiempo: 166.5s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Boxing Simulator: 3→3 activos (=), 22→23 exp
-  Anime Crusaders: 8→8 activos (=), 194→195 exp
-  Anime Eternal: 4→6 activos (+2), 744→744 exp
-    Nuevos: Update46P3, EasterCode4
-  Anime Leveling: 10→12 activos (+2), 14→14 exp
-    Nuevos: 20K Favs, Milestones
-  Anime Overload: 1→0 activos (-1), 17→18 exp
-  Anime Reversal: 0→0 activos (=), 43→44 exp
-  Ascension Incremental: 2→1 activos (-1), 19→20 exp
-  Aura Rng: 0→0 activos (=), 41→42 exp
-  Boom Sumo: 1→0 activos (-1), 22→23 exp
-  Dungeon Heroes: 0→1 activos (+1), 56→56 exp
-    Nuevos: EVENTSOON
-  Eating Simulator: 0→0 activos (=), 46→47 exp
-  Exoria: 0→0 activos (=), 17→18 exp
-  Fistborn: 1→0 activos (-1), 150→151 exp
-  Jujutsu Kaisen Incremental: 4→4 activos (=), 40→42 exp
-  Motorcycle Mayhem: 2→1 activos (-1), 32→33 exp
-  Project Mirror Labyrinth: 0→1 activos (+1), 32→32 exp
-    Nuevos: LCCBManager
-  Pull a Sword: 26→26 activos (=), 200→201 exp
-  Scythe Masters: 0→0 activos (=), 31→32 exp
-  Sniper Arena: 0→0 activos (=), 6→7 exp
-  Sorcerer Incremental: 0→4 activos (+4), 44→44 exp
-    Nuevos: DELAYOOPS, NEWMYTHICALNAOYA, PROJECTIONHAX, ZENINCLAN
-  Tank Game: 2→0 activos (-2), 24→29 exp
-  Tix Factory Tycoon: 0→0 activos (=), 51→53 exp
-  Type Soul: 2→2 activos (=), 307→310 exp
-  Universal Piece: 12→11 activos (-1), 32→33 exp
-  Universal Tower Defense: 5→5 activos (=), 55→57 exp
-    Nuevos: WeLoveRerolls!, ThankYouForUTDX!
+  Tv Defense: 0→1 activos (+1), 40→40 exp
+    Nuevos: Easter2026
 
 Detalle cambios:
-data/games/codigos-anime-boxing-simulator.json
-data/games/codigos-anime-crusaders.json
-data/games/codigos-anime-eternal.json
-data/games/codigos-anime-leveling.json
-data/games/codigos-anime-overload.json
-data/games/codigos-anime-reversal.json
-data/games/codigos-ascension-incremental.json
-data/games/codigos-aura-rng.json
-data/games/codigos-boom-sumo.json
-data/games/codigos-dungeon-heroes.json
-data/games/codigos-eating-simulator.json
-data/games/codigos-exoria.json
-data/games/codigos-fistborn.json
-data/games/codigos-jujutsu-kaisen-incremental.json
-data/games/codigos-motorcycle-mayhem.json
-data/games/codigos-project-mirror-labyrinth.json
-data/games/codigos-pull-a-sword.json
-data/games/codigos-scythe-masters.json
-data/games/codigos-sniper-arena.json
-data/games/codigos-sorcerer-incremental.json
-data/games/codigos-tank-game.json
-data/games/codigos-tix-factory-tycoon.json
-data/games/codigos-type-soul.json
-data/games/codigos-universal-piece.json
-data/games/codigos-universal-tower-defense.json
+data/games/codigos-tv-defense.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
