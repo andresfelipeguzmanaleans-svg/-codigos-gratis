@@ -1,33 +1,70 @@
-=== RESUMEN UPDATE 2026-04-16 20:43 ===
+=== RESUMEN UPDATE 2026-04-17 09:12 ===
 
 Archivos modificados:
-  7 archivos cambiados
+  23 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4270 juegos (4270 procesados)
-Actualizados: 5 | Sin cambios: 4120
+Actualizados: 21 | Sin cambios: 4104
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 2 | Movidos a expirados: 2
-Tiempo: 143.5s | Concurrencia: 10
+Códigos nuevos: 10 | Movidos a expirados: 11
+Tiempo: 142.1s | Concurrencia: 10
 
 Juegos actualizados:
-  Midnight Chasers: 14→15 activos (+1), 161→161 exp
+  1 Unlimited World: 8→9 activos (+1), 56→56 exp
+    Nuevos: Ou5N9z
+  Adventure Piece: 5→4 activos (-1), 39→40 exp
+  Anime Card Collection: 1→2 activos (+1), 31→31 exp
+    Nuevos: TwentySeventhCode
+  Anime Crusaders: 8→9 activos (+1), 195→195 exp
+    Nuevos: JUDASUPDATESOON
+  Anime Ghosts: 1→1 activos (=), 39→40 exp
+  Anime Leveling: 12→11 activos (-1), 14→15 exp
+  Arise Shadow Hunt: 0→1 activos (+1), 67→67 exp
+    Nuevos: 5J0Jy1
+  Arm Wrestle Simulator: 9→6 activos (-3), 153→157 exp
+  Catch A Monster: 0→0 activos (=), 72→73 exp
+  Dungeon Heroes: 1→0 activos (-1), 56→57 exp
+  Idle Defense: 0→0 activos (=), 17→19 exp
+  Jujutsu Kaisen Incremental: 4→7 activos (+3), 42→42 exp
+    Nuevos: HTHV2, HEAVENLY, ABSOLUTE
+  Midnight Chasers: 15→14 activos (-1), 161→162 exp
+  Midnight Chasers Highway Racing: 0→1 activos (+1), 202→202 exp
     Nuevos: ThanksFor760k
-  My Fishing Fnaf: 0→0 activos (=), 10→11 exp
-  Project Mirror Labyrinth: 1→0 activos (-1), 32→33 exp
-  Reborn Skills Master: 28→29 activos (+1), 24→24 exp
-    Nuevos: update72
-  Tv Defense: 1→0 activos (-1), 40→41 exp
+  Money Clicker Inc: 0→0 activos (=), 16→17 exp
+  Motorcycle Racing: 0→0 activos (=), 16→17 exp
+  Sailor Piece: 4→4 activos (=), 162→163 exp
+  Sorcerer Incremental: 4→0 activos (-4), 44→48 exp
+  Squid Game X: 3→3 activos (=), 77→79 exp
+  Tower Of God: 5→5 activos (=), 102→103 exp
+  Ultra Unfair: 8→10 activos (+2), 97→97 exp
+    Nuevos: !NewYear!, !x2Event
 
 Detalle cambios:
+data/games/codigos-1-unlimited-world.json
+data/games/codigos-adventure-piece.json
+data/games/codigos-anime-card-collection.json
+data/games/codigos-anime-crusaders.json
+data/games/codigos-anime-ghosts.json
+data/games/codigos-anime-leveling.json
+data/games/codigos-arise-shadow-hunt.json
+data/games/codigos-arm-wrestle-simulator.json
+data/games/codigos-catch-a-monster.json
+data/games/codigos-dungeon-heroes.json
+data/games/codigos-idle-defense.json
+data/games/codigos-jujutsu-kaisen-incremental.json
+data/games/codigos-midnight-chasers-highway-racing.json
 data/games/codigos-midnight-chasers.json
-data/games/codigos-my-fishing-fnaf.json
-data/games/codigos-project-mirror-labyrinth.json
-data/games/codigos-reborn-skills-master.json
-data/games/codigos-tv-defense.json
+data/games/codigos-money-clicker-inc.json
+data/games/codigos-motorcycle-racing.json
+data/games/codigos-sailor-piece.json
+data/games/codigos-sorcerer-incremental.json
+data/games/codigos-squid-game-x.json
+data/games/codigos-tower-of-god.json
+data/games/codigos-ultra-unfair.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
