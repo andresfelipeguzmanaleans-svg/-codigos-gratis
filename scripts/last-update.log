@@ -1,70 +1,74 @@
-=== RESUMEN UPDATE 2026-04-17 09:12 ===
+=== RESUMEN UPDATE 2026-04-17 20:40 ===
 
 Archivos modificados:
-  23 archivos cambiados
+  25 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4270 juegos (4270 procesados)
-Actualizados: 21 | Sin cambios: 4104
+Actualizados: 23 | Sin cambios: 4102
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 10 | Movidos a expirados: 11
-Tiempo: 142.1s | Concurrencia: 10
+Códigos nuevos: 8 | Movidos a expirados: 9
+Tiempo: 148.0s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Unlimited World: 8→9 activos (+1), 56→56 exp
-    Nuevos: Ou5N9z
-  Adventure Piece: 5→4 activos (-1), 39→40 exp
-  Anime Card Collection: 1→2 activos (+1), 31→31 exp
-    Nuevos: TwentySeventhCode
-  Anime Crusaders: 8→9 activos (+1), 195→195 exp
-    Nuevos: JUDASUPDATESOON
-  Anime Ghosts: 1→1 activos (=), 39→40 exp
-  Anime Leveling: 12→11 activos (-1), 14→15 exp
-  Arise Shadow Hunt: 0→1 activos (+1), 67→67 exp
-    Nuevos: 5J0Jy1
-  Arm Wrestle Simulator: 9→6 activos (-3), 153→157 exp
-  Catch A Monster: 0→0 activos (=), 72→73 exp
-  Dungeon Heroes: 1→0 activos (-1), 56→57 exp
-  Idle Defense: 0→0 activos (=), 17→19 exp
-  Jujutsu Kaisen Incremental: 4→7 activos (+3), 42→42 exp
-    Nuevos: HTHV2, HEAVENLY, ABSOLUTE
-  Midnight Chasers: 15→14 activos (-1), 161→162 exp
-  Midnight Chasers Highway Racing: 0→1 activos (+1), 202→202 exp
-    Nuevos: ThanksFor760k
-  Money Clicker Inc: 0→0 activos (=), 16→17 exp
-  Motorcycle Racing: 0→0 activos (=), 16→17 exp
-  Sailor Piece: 4→4 activos (=), 162→163 exp
-  Sorcerer Incremental: 4→0 activos (-4), 44→48 exp
-  Squid Game X: 3→3 activos (=), 77→79 exp
-  Tower Of God: 5→5 activos (=), 102→103 exp
-  Ultra Unfair: 8→10 activos (+2), 97→97 exp
-    Nuevos: !NewYear!, !x2Event
+  Anime Crusaders: 9→8 activos (-1), 195→196 exp
+  Anime Eternal: 6→8 activos (+2), 744→744 exp
+    Nuevos: EasterCode5, Update47
+  Anime Final Quest: 0→0 activos (=), 69→70 exp
+  Anime Overload: 0→1 activos (+1), 18→18 exp
+    Nuevos: SmallPatch
+  Anime Tactical Simulator: 2→3 activos (+1), 33→33 exp
+    Nuevos: FATESOON
+  Be Dino: 1→2 activos (+1), 31→31 exp
+    Nuevos: APRILSHOWERS
+  Cog: 0→0 activos (=), 59→60 exp
+  Ghoul Re: 9→9 activos (=), 109→111 exp
+  Jujutsu Legacy: 5→5 activos (=), 45→47 exp
+  Luxury Submarine Tycoon: 5→0 activos (-5), 0→5 exp
+  Master Pirate: 0→0 activos (=), 146→152 exp
+  Midnight Chasers Highway Racing: 1→0 activos (-1), 202→203 exp
+  Pickaxe Simulator: 0→1 activos (+1), 26→26 exp
+    Nuevos: update16
+  Prism Runway Show: 0→1 activos (+1), 20→20 exp
+    Nuevos: MURASAKI
+  Rogue Piece: 0→0 activos (=), 150→151 exp
+  Sakura Stand: 18→18 activos (=), 165→166 exp
+  Savannah Life: 0→0 activos (=), 19→20 exp
+  Type Soul: 2→2 activos (=), 310→312 exp
+  Ultra Unfair: 10→8 activos (-2), 97→99 exp
+  Universal Piece: 11→11 activos (=), 33→34 exp
+  Universal Tower Defense: 5→6 activos (+1), 57→57 exp
+    Nuevos: TheAntIsland!
+  Wukashi: 0→0 activos (=), 102→104 exp
+  Zombie Strike: 0→0 activos (=), 73→74 exp
 
 Detalle cambios:
-data/games/codigos-1-unlimited-world.json
-data/games/codigos-adventure-piece.json
-data/games/codigos-anime-card-collection.json
 data/games/codigos-anime-crusaders.json
-data/games/codigos-anime-ghosts.json
-data/games/codigos-anime-leveling.json
-data/games/codigos-arise-shadow-hunt.json
-data/games/codigos-arm-wrestle-simulator.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-dungeon-heroes.json
-data/games/codigos-idle-defense.json
-data/games/codigos-jujutsu-kaisen-incremental.json
+data/games/codigos-anime-eternal.json
+data/games/codigos-anime-final-quest.json
+data/games/codigos-anime-overload.json
+data/games/codigos-anime-tactical-simulator.json
+data/games/codigos-be-dino.json
+data/games/codigos-cog.json
+data/games/codigos-ghoul-re.json
+data/games/codigos-jujutsu-legacy.json
+data/games/codigos-luxury-submarine-tycoon.json
+data/games/codigos-master-pirate.json
 data/games/codigos-midnight-chasers-highway-racing.json
-data/games/codigos-midnight-chasers.json
-data/games/codigos-money-clicker-inc.json
-data/games/codigos-motorcycle-racing.json
-data/games/codigos-sailor-piece.json
-data/games/codigos-sorcerer-incremental.json
-data/games/codigos-squid-game-x.json
-data/games/codigos-tower-of-god.json
+data/games/codigos-pickaxe-simulator.json
+data/games/codigos-prism-runway-show.json
+data/games/codigos-rogue-piece.json
+data/games/codigos-sakura-stand.json
+data/games/codigos-savannah-life.json
+data/games/codigos-type-soul.json
 data/games/codigos-ultra-unfair.json
+data/games/codigos-universal-piece.json
+data/games/codigos-universal-tower-defense.json
+data/games/codigos-wukashi.json
+data/games/codigos-zombie-strike.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
