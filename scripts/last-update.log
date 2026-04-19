@@ -1,33 +1,160 @@
-=== RESUMEN UPDATE 2026-04-18 20:30 ===
+=== RESUMEN UPDATE 2026-04-19 08:46 ===
 
 Archivos modificados:
-  7 archivos cambiados
+  54 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  2 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4271 juegos (4271 procesados)
-Actualizados: 5 | Sin cambios: 4121
+Total: 4273 juegos (4273 procesados)
+Actualizados: 51 | Sin cambios: 4077
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 0 | Movidos a expirados: 7
-Tiempo: 144.4s | Concurrencia: 10
+Códigos nuevos: 67 | Movidos a expirados: 17
+Tiempo: 142.8s | Concurrencia: 10
 
 Juegos actualizados:
-  Baddies Brawl: 1→0 activos (-1), 54→55 exp
-  Hollow Era: 3→0 activos (-3), 48→51 exp
-  Jujutsu Beatdown: 1→0 activos (-1), 23→24 exp
-  Multicrew Tank Combat: 1→0 activos (-1), 6→7 exp
-  Tennis Clash: 23→22 activos (-1), 1→2 exp
+  A Universal Time: 1→2 activos (+1), 95→95 exp
+    Nuevos: SPIRITUALTICKET
+  A One Piece Game: 215→219 activos (+4), 205→205 exp
+    Nuevos: TheOPisREAL, DarkVQuake, RIPWB, FinalDark
+  Animatronic Nights: 0→1 activos (+1), 58→58 exp
+    Nuevos: UPD35
+  Anime Card Clash: 1→1 activos (=), 155→159 exp
+  Anime Crusaders: 8→16 activos (+8), 196→196 exp
+    Nuevos: NextUpdate2030, DomainExpansion, OopsAprilFools, KingOfCurses, SixEyes, GojoXSukunaUnit, RecklessGambler, NoShenronBugTODAY
+  Anime Eternal: 2→3 activos (+1), 750→750 exp
+    Nuevos: BunnyCode
+  Anime Ghosts: 1→1 activos (=), 40→42 exp
+  Anime Leveling: 13→12 activos (-1), 15→16 exp
+  Anime Reversal: 0→2 activos (+2), 47→47 exp
+    Nuevos: SryForBug4, 5MVISITS
+  Anime Tactical Simulator: 3→8 activos (+5), 33→34 exp
+    Nuevos: GIVEWORLDSTONE, KINGOFHEROS, HOLYGRAILWAR, FATEISHERE, SBRSOON, DOUBLEDAGGERS
+  Arcade Basketball: 0→1 activos (+1), 43→43 exp
+    Nuevos: RANKED
+  Arise Shadow Hunt: 1→0 activos (-1), 67→68 exp
+  Basketball Zero: 0→3 activos (+3), 216→216 exp
+    Nuevos: 1HRRETURNOFKINGS, 30RETURNOFKINGS, RETURNOFKINGS
+  Be Dino: 2→1 activos (-1), 31→32 exp
+  Blue Lock Rivals: 0→3 activos (+3), 269→269 exp
+    Nuevos: METAVISION, EGOISTNOW, ISAGITODAY
+  Cali Shootout: 1→2 activos (+1), 10→10 exp
+    Nuevos: ADMIN
+  Catch A Monster: 1→0 activos (-1), 73→76 exp
+  Da Hood: 1→1 activos (=), 171→173 exp
+  Death Ball: 2→4 activos (+2), 85→85 exp
+    Nuevos: OMEN, ABNORMAL
+  Dress To Impress: 0→1 activos (+1), 61→61 exp
+    Nuevos: KATSEYE
+  Dummy Defense: 0→1 activos (+1), 33→33 exp
+    Nuevos: TY20kLikes
+  Dungeon Heroes: 0→1 activos (+1), 57→57 exp
+    Nuevos: SHRIMPINVASION
+  Enchanted: 0→0 activos (=), 35→36 exp
+  Evil Plate Game: 1→2 activos (+1), 37→37 exp
+    Nuevos: TUTORIAL
+  Fabled Legacy: 0→1 activos (+1), 136→136 exp
+    Nuevos: 135KLIKES
+  Fisch: 2→3 activos (+1), 107→107 exp
+    Nuevos: MermaidCove
+  Fruit Piece Incremental: 0→1 activos (+1), 6→6 exp
+    Nuevos: SAVEDBUILDS
+  Hunty Zombies: 63→64 activos (+1), 149→149 exp
+    Nuevos: LifeAgain
+  Jojos Bizarre Incremental: 0→0 activos (=), 33→35 exp
+  Massacre: 4→5 activos (+1), 68→68 exp
+    Nuevos: !code QuickPatch
+  Nba Champions Basketball: 0→1 activos (+1), 32→32 exp
+    Nuevos: PLAYOFFS
+  Neo Tennis: 0→0 activos (=), 26→27 exp
+  Og Saber Simulator: 5→6 activos (+1), 6→6 exp
+    Nuevos: EASTER
+  Omeni Fruits: 6→0 activos (-6), 5→11 exp
+  One Fruit Simulator: 103→105 activos (+2), 234→234 exp
+    Nuevos: COLLECTIONCHANGE, NEWDAILYQOL
+  Paradox: 0→0 activos (=), 58→59 exp
+  Pickaxe Simulator: 1→0 activos (-1), 26→27 exp
+  Project Baki 4: 22→23 activos (+1), 179→179 exp
+    Nuevos: THUKUNATIME
+  Reign Piece: 5→1 activos (-4), 41→45 exp
+  Reincarnated: 1→2 activos (+1), 21→21 exp
+    Nuevos: Silly
+  Retro Tower Defense: 1→2 activos (+1), 63→63 exp
+    Nuevos: TRAFFIC
+  Robong Megabonk: 0→4 activos (+4), 21→21 exp
+    Nuevos: 10klikes, opangel, robonger, opdemon
+  Sorcerer Incremental: 0→4 activos (+4), 48→48 exp
+    Nuevos: DELAYMB, CLIMBTHELEADERBOARD, GANGS, IRON
+  Spongebob Tower Defense: 0→0 activos (=), 230→232 exp
+  The Forge: 0→0 activos (=), 45→46 exp
+  Titan Tower Defense: 0→6 activos (+6), 88→88 exp
+    Nuevos: SamuraiUpdate, 125KLIKES, 450KMEMBERS, 475KMEMBERS, 475KFavorites, 2YearAnniversary
+  Ultra Unfair: 8→9 activos (+1), 99→99 exp
+    Nuevos: !MiniLuck
+  Unbox A Factory: 0→0 activos (=), 4→5 exp
+  Ultra Un Fair: 2→0 activos (-2), 139→146 exp
+  Undertale Timeline Reset: 0→0 activos (=), 14→15 exp
+  Volleyball Legends: 0→3 activos (+3), 254→254 exp
+    Nuevos: NEW_LOBBY, CHAOS_MODE, UPDATE_66
 
 Detalle cambios:
-data/games/codigos-baddies-brawl.json
-data/games/codigos-hollow-era.json
-data/games/codigos-jujutsu-beatdown.json
-data/games/codigos-multicrew-tank-combat.json
-data/games/codigos-tennis-clash.json
+data/gameguide-urls.json
+data/games/codigos-a-one-piece-game.json
+data/games/codigos-a-universal-time.json
+data/games/codigos-animatronic-nights.json
+data/games/codigos-anime-card-clash.json
+data/games/codigos-anime-crusaders.json
+data/games/codigos-anime-eternal.json
+data/games/codigos-anime-ghosts.json
+data/games/codigos-anime-leveling.json
+data/games/codigos-anime-reversal.json
+data/games/codigos-anime-tactical-simulator.json
+data/games/codigos-arcade-basketball.json
+data/games/codigos-arise-shadow-hunt.json
+data/games/codigos-basketball-zero.json
+data/games/codigos-be-dino.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-cali-shootout.json
+data/games/codigos-catch-a-monster.json
+data/games/codigos-da-hood.json
+data/games/codigos-death-ball.json
+data/games/codigos-dress-to-impress.json
+data/games/codigos-dummy-defense.json
+data/games/codigos-dungeon-heroes.json
+data/games/codigos-enchanted.json
+data/games/codigos-evil-plate-game.json
+data/games/codigos-fabled-legacy.json
+data/games/codigos-fisch.json
+data/games/codigos-fruit-piece-incremental.json
+data/games/codigos-hunty-zombies.json
+data/games/codigos-jojos-bizarre-incremental.json
+data/games/codigos-massacre.json
+data/games/codigos-nba-champions-basketball.json
+data/games/codigos-neo-tennis.json
+data/games/codigos-og-saber-simulator.json
+data/games/codigos-omeni-fruits.json
+data/games/codigos-one-fruit-simulator.json
+data/games/codigos-paradox.json
+data/games/codigos-pickaxe-simulator.json
+data/games/codigos-project-baki-4.json
+data/games/codigos-reign-piece.json
+data/games/codigos-reincarnated.json
+data/games/codigos-retro-tower-defense.json
+data/games/codigos-robong-megabonk.json
+data/games/codigos-sorcerer-incremental.json
+data/games/codigos-spongebob-tower-defense.json
+data/games/codigos-the-forge.json
+data/games/codigos-titan-tower-defense.json
+data/games/codigos-ultra-un-fair.json
+data/games/codigos-ultra-unfair.json
+data/games/codigos-unbox-a-factory.json
+data/games/codigos-undertale-timeline-reset.json
+data/games/codigos-volleyball-legends.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-bizarre-lineage.json
+data/games/codigos-tiny-empires.json
 

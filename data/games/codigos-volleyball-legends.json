@@ -5,24 +5,32 @@
   "description": "Todos los códigos activos para Volleyball Legends en Roblox",
   "metaTitle": "Códigos Volleyball Legends Roblox (Abril 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Volleyball Legends en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-04-13T09:32:03.174Z",
-  "activeCodes": [],
+  "lastUpdated": "2026-04-19T08:46:30.275Z",
+  "activeCodes": [
+    {
+      "code": "NEW_LOBBY",
+      "reward": "5 Lucky Ability giros",
+      "addedDate": "2026-04-19"
+    },
+    {
+      "code": "CHAOS_MODE",
+      "reward": "5 Lucky Style giros",
+      "addedDate": "2026-04-19"
+    },
+    {
+      "code": "UPDATE_66",
+      "reward": "5 Lucky Style giros",
+      "addedDate": "2026-04-19"
+    }
+  ],
   "expiredCodes": [
-    {
-      "code": "EASTER_UPDATE",
-      "reward": "5 Lucky Ability giros"
-    },
-    {
-      "code": "SEASON_14",
-      "reward": "5 Lucky Style giros"
-    },
-    {
-      "code": "UPDATE_65",
-      "reward": "5 Lucky Style giros"
-    },
     {
       "code": "UPDATE_20",
       "reward": "5 Lucky Style giros"
+    },
+    {
+      "code": "1_MIL_FAVS",
+      "reward": "Lucky Ability giro"
     },
     {
       "code": "CHALLENGE",
@@ -43,10 +51,6 @@
     {
       "code": "HOTFIX",
       "reward": "3 Lucky Style giros"
-    },
-    {
-      "code": "400M_VISITS",
-      "reward": "5 Lucky Style giros"
     },
     {
       "code": "BLAME_DONDRED",
@@ -257,10 +261,6 @@
       "reward": "5 Lucky Ability giros"
     },
     {
-      "code": "UPDATE_16",
-      "reward": "Recompensa gratis"
-    },
-    {
       "code": "BUFF",
       "reward": "3 Lucky Style giros"
     },
@@ -275,6 +275,14 @@
     {
       "code": "300K_CCU",
       "reward": "5 Lucky Ability giros"
+    },
+    {
+      "code": "UPDATE_16",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "400M_VISITS",
+      "reward": "5 Lucky Style giros"
     },
     {
       "code": "2_BILLION",
@@ -885,8 +893,16 @@
       "reward": "3 Lucky Ability giros"
     },
     {
-      "code": "1_MIL_FAVS",
-      "reward": "Lucky Ability giro"
+      "code": "EASTER_UPDATE",
+      "reward": "5 Lucky Ability giros"
+    },
+    {
+      "code": "SEASON_14",
+      "reward": "5 Lucky Style giros"
+    },
+    {
+      "code": "UPDATE_65",
+      "reward": "5 Lucky Style giros"
     },
     {
       "code": "STRETCH",
