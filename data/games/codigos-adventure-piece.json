@@ -4,14 +4,16 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-b22e5e88973a876a45e07b8690b8bd6e/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Adventure Piece en Roblox",
   "metaTitle": "Códigos Adventure Piece Roblox (Abril 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Adventure Piece en Roblox. 4 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-04-17T09:09:55.956Z",
+  "metaDescription": "Lista actualizada de códigos para Adventure Piece en Roblox. 1 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-04-20T09:52:21.658Z",
   "activeCodes": [
     {
       "code": "!RESETSTAT3",
       "reward": "Reinicio de stats",
       "addedDate": "2026-03-23"
-    },
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "!RACE1AP",
       "reward": "Race giro"
@@ -23,24 +25,18 @@
     {
       "code": "!CASH1AP",
       "reward": "25K Cash"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "!XP1AP",
-      "reward": "XP Boost (30 minutos)"
-    },
-    {
-      "code": "RESET3AP",
-      "reward": "Stat Point Reset"
-    },
-    {
-      "code": "XP1AP",
-      "reward": "2x EXP Boost (30 minutos)"
     },
     {
       "code": "XP3AP",
       "reward": "2x EXP Boost (30 minutos)"
+    },
+    {
+      "code": "XP2AP",
+      "reward": "2x EXP Boost (30 minutos)"
+    },
+    {
+      "code": "RACE1AP",
+      "reward": "Race giro"
     },
     {
       "code": "RACE2AP",
@@ -59,10 +55,6 @@
       "reward": "25,000 Cash"
     },
     {
-      "code": "!RACEFREE2",
-      "reward": "Race giro"
-    },
-    {
       "code": "RESET1AP",
       "reward": "Stat Point Reset"
     },
@@ -71,20 +63,28 @@
       "reward": "Stat Point Reset"
     },
     {
-      "code": "CASH3AP",
-      "reward": "25,000 Cash"
+      "code": "RESET3AP",
+      "reward": "Stat Point Reset"
     },
     {
-      "code": "XP2AP",
-      "reward": "2x EXP Boost (30 minutos)"
-    },
-    {
-      "code": "RACE1AP",
+      "code": "!RACEFREE2",
       "reward": "Race giro"
     },
     {
       "code": "CASH2AP",
       "reward": "25,000 Cash"
+    },
+    {
+      "code": "CASH3AP",
+      "reward": "25,000 Cash"
+    },
+    {
+      "code": "XP1AP",
+      "reward": "2x EXP Boost (30 minutos)"
+    },
+    {
+      "code": "!XP1AP",
+      "reward": "XP Boost (30 minutos)"
     },
     {
       "code": "!CASH3AP",
