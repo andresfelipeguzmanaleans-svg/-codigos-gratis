@@ -4,14 +4,9 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-35711af80d6570ac025bbe57fae8e375/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Baseball Universe en Roblox",
   "metaTitle": "Códigos Baseball Universe Roblox (Abril 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Baseball Universe en Roblox. 9 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-04-20T09:52:36.545Z",
+  "metaDescription": "Lista actualizada de códigos para Baseball Universe en Roblox. 8 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-04-20T20:39:12.028Z",
   "activeCodes": [
-    {
-      "code": "BASE",
-      "reward": "1000 Cash",
-      "addedDate": "2026-04-20"
-    },
     {
       "code": "ASG",
       "reward": "750 Cash"
@@ -37,15 +32,20 @@
       "reward": "300 Cash"
     },
     {
-      "code": "VENTURA",
-      "reward": "150 Cash"
-    },
-    {
       "code": "SUNFLOWER",
       "reward": "200 Cash"
+    },
+    {
+      "code": "VENTURA",
+      "reward": "150 Cash"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "BASE",
+      "reward": "1000 Cash"
+    }
+  ],
   "howToRedeem": [
     "Abre Baseball Universe en Roblox",
     "Busca el botón de códigos en el menú",
