@@ -1,93 +1,44 @@
-=== RESUMEN UPDATE 2026-04-21 09:22 ===
+=== RESUMEN UPDATE 2026-04-21 20:44 ===
 
 Archivos modificados:
-  38 archivos cambiados
+  12 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4279 juegos (4279 procesados)
-Actualizados: 36 | Sin cambios: 4098
+Actualizados: 10 | Sin cambios: 4124
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 0 | Movidos a expirados: 43
-Tiempo: 167.8s | Concurrencia: 10
+Códigos nuevos: 5 | Movidos a expirados: 7
+Tiempo: 140.0s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Crusaders: 19→8 activos (-11), 196→207 exp
-  Anime Eternal: 2→0 activos (-2), 753→755 exp
-  Anime Fighters Simulator: 4→2 activos (-2), 276→278 exp
-  Anime Ghosts: 1→1 activos (=), 42→43 exp
-  Anime Leveling: 15→13 activos (-2), 16→18 exp
-  Anime Overload: 0→0 activos (=), 19→21 exp
-  Anime Tactical Simulator: 8→2 activos (-6), 34→42 exp
-  Be A Youtuber: 1→0 activos (-1), 14→15 exp
-  Bee Garden: 0→0 activos (=), 6→7 exp
-  Boku No Roblox: 0→0 activos (=), 86→89 exp
-  Catch A Monster: 0→0 activos (=), 76→77 exp
-  Catch And Tame: 1→1 activos (=), 21→22 exp
-  Cvr: 1→1 activos (=), 33→37 exp
-  Death Ball: 4→2 activos (-2), 85→87 exp
-  Diesel N Steel: 3→3 activos (=), 41→42 exp
-  Divine Duality Elemental: 0→0 activos (=), 68→69 exp
-  Exoria: 0→0 activos (=), 18→19 exp
-  Heroes World: 0→0 activos (=), 117→120 exp
-  Jujutsu Kaisen Incremental: 8→4 activos (-4), 46→50 exp
-  Kaiju Paradise: 2→2 activos (=), 137→138 exp
-  Og Saber Simulator: 6→5 activos (-1), 6→7 exp
-  Oil Empire: 2→2 activos (=), 13→20 exp
-  Pet Quest: 0→0 activos (=), 58→59 exp
-  Playground Basketball: 0→0 activos (=), 17→18 exp
-  Rebirth Champions Ultimate: 0→0 activos (=), 62→63 exp
-  Skibi Defense 3 5: 0→0 activos (=), 67→69 exp
-  Slime Mine: 0→0 activos (=), 11→12 exp
-  Spin A Form: 0→0 activos (=), 13→14 exp
-  Spongebob Tower Defense: 0→0 activos (=), 232→233 exp
-  Strongest Sword Fighter: 0→0 activos (=), 5→6 exp
-  Strongman Simulator: 0→0 activos (=), 20→21 exp
-  Superstar Baseball: 1→0 activos (-1), 36→37 exp
-  Titan Tower Defense: 6→0 activos (-6), 88→94 exp
-  Toilet Tower Defense: 2→2 activos (=), 21→22 exp
-  Uma Racing: 3→0 activos (-3), 35→38 exp
-  Work At A Cafe: 2→0 activos (-2), 5→7 exp
+  Anime Final Quest: 0→0 activos (=), 71→74 exp
+  Anime Vanguards: 0→1 activos (+1), 171→171 exp
+    Nuevos: TooMuchPain
+  Aopg: 23→19 activos (-4), 280→284 exp
+  Azure Latch: 1→1 activos (=), 108→109 exp
+  Da Hood: 1→1 activos (=), 173→174 exp
+  Dueling Grounds: 0→0 activos (=), 11→12 exp
+  Flashpoint Worlds Collide: 1→2 activos (+1), 84→84 exp
+    Nuevos: 30kinterested
+  Make Money At A Cafe: 2→5 activos (+3), 0→0 exp
+    Nuevos: SPRINGMAP, APRIL, PrideCrate
+  Sorcerer Incremental: 3→0 activos (-3), 52→55 exp
+  Sports Card Collection: 0→0 activos (=), 14→15 exp
 
 Detalle cambios:
-data/games/codigos-anime-crusaders.json
-data/games/codigos-anime-eternal.json
-data/games/codigos-anime-fighters-simulator.json
-data/games/codigos-anime-ghosts.json
-data/games/codigos-anime-leveling.json
-data/games/codigos-anime-overload.json
-data/games/codigos-anime-tactical-simulator.json
-data/games/codigos-be-a-youtuber.json
-data/games/codigos-bee-garden.json
-data/games/codigos-boku-no-roblox.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-catch-and-tame.json
-data/games/codigos-cvr.json
-data/games/codigos-death-ball.json
-data/games/codigos-diesel-n-steel.json
-data/games/codigos-divine-duality-elemental.json
-data/games/codigos-exoria.json
-data/games/codigos-heroes-world.json
-data/games/codigos-jujutsu-kaisen-incremental.json
-data/games/codigos-kaiju-paradise.json
-data/games/codigos-og-saber-simulator.json
-data/games/codigos-oil-empire.json
-data/games/codigos-pet-quest.json
-data/games/codigos-playground-basketball.json
-data/games/codigos-rebirth-champions-ultimate.json
-data/games/codigos-skibi-defense-3-5.json
-data/games/codigos-slime-mine.json
-data/games/codigos-spin-a-form.json
-data/games/codigos-spongebob-tower-defense.json
-data/games/codigos-strongest-sword-fighter.json
-data/games/codigos-strongman-simulator.json
-data/games/codigos-superstar-baseball.json
-data/games/codigos-titan-tower-defense.json
-data/games/codigos-toilet-tower-defense.json
-data/games/codigos-uma-racing.json
-data/games/codigos-work-at-a-cafe.json
+data/games/codigos-anime-final-quest.json
+data/games/codigos-anime-vanguards.json
+data/games/codigos-aopg.json
+data/games/codigos-azure-latch.json
+data/games/codigos-da-hood.json
+data/games/codigos-dueling-grounds.json
+data/games/codigos-flashpoint-worlds-collide.json
+data/games/codigos-make-money-at-a-cafe.json
+data/games/codigos-sorcerer-incremental.json
+data/games/codigos-sports-card-collection.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
