@@ -1,100 +1,80 @@
-=== RESUMEN UPDATE 2026-04-22 09:16 ===
+=== RESUMEN UPDATE 2026-04-22 20:47 ===
 
 Archivos modificados:
-  35 archivos cambiados
+  21 archivos cambiados
 
 Archivos nuevos:
-  3 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4282 juegos (4282 procesados)
-Actualizados: 32 | Sin cambios: 4105
+Total: 4283 juegos (4283 procesados)
+Actualizados: 19 | Sin cambios: 4119
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 14 | Movidos a expirados: 26
-Tiempo: 151.7s | Concurrencia: 10
+Códigos nuevos: 36 | Movidos a expirados: 2
+Tiempo: 175.2s | Concurrencia: 10
 
 Juegos actualizados:
-  A Universal Time: 1→1 activos (=), 98→99 exp
-  Anime Reversal: 0→0 activos (=), 49→50 exp
-  Basketball Legends: 3→3 activos (=), 157→159 exp
-  Be A Lucky Block: 0→0 activos (=), 10→11 exp
-  Bizarre Lineage: 13→3 activos (-10), 4→14 exp
-  Bloxstrike: 0→0 activos (=), 29→30 exp
-  Breaking Bad Tycoon: 0→1 activos (+1), 20→20 exp
-    Nuevos: Domain Expansion
-  Build A Military Base: 3→1 activos (-2), 25→27 exp
-  Corsa Legends: 0→0 activos (=), 33→34 exp
-  Drag Drive Simulator: 9→10 activos (+1), 63→63 exp
-    Nuevos: DRAGDRIVEDANGCAP
-  Dungeon Heroes: 1→0 activos (-1), 58→59 exp
-  Elemental Warzone: 0→0 activos (=), 36→37 exp
-  Evil Plate Game: 1→1 activos (=), 38→39 exp
-  Fistborn: 5→0 activos (-5), 151→156 exp
-  Funky Friday: 0→1 activos (+1), 22→22 exp
-    Nuevos: 5yearsfunky
-  Ghoul Re: 5→6 activos (+1), 117→117 exp
-    Nuevos: WEBSITE
-  Gone Hunting: 0→0 activos (=), 5→6 exp
-  Heroes World: 0→0 activos (=), 120→121 exp
-  Hunty Zombies: 64→68 activos (+4), 149→149 exp
-    Nuevos: Infinity!, VeryHotHotfixes, TheStrongestOfToday, 25KInt!
-  Inazuma Strikers: 0→0 activos (=), 52→54 exp
-  Kaizen: 0→0 activos (=), 107→108 exp
-  Midnight Chasers: 14→15 activos (+1), 162→162 exp
+  Anime Crusaders: 8→11 activos (+3), 207→207 exp
+    Nuevos: GUEX, 6KREROLLS, TACOLOL
+  Anime Ghosts: 1→2 activos (+1), 43→43 exp
+    Nuevos: GHOSTLYWARRIORS
+  Anime Leveling: 13→17 activos (+4), 18→18 exp
+    Nuevos: Part 2!, Bounty, Shiny, QOL
+  Bite By Night: 0→1 activos (+1), 2→2 exp
+    Nuevos: HOTFIX
+  Build An Arcade: 0→1 activos (+1), 26→26 exp
+    Nuevos: 200KLikes
+  Fistborn: 0→1 activos (+1), 156→156 exp
+    Nuevos: JoseMohawk
+  Flashpoint Worlds Collide: 2→1 activos (-1), 84→85 exp
+  Massacre: 8→10 activos (+2), 72→72 exp
+    Nuevos: !code bugspmo, !code 13myayy
+  Midnight Chasers Highway Racing: 0→1 activos (+1), 203→203 exp
     Nuevos: ThanksFor770k
-  Outbreak: 3→0 activos (-3), 7→10 exp
-  Peroxide: 5→6 activos (+1), 246→246 exp
-    Nuevos: The1HourOfDoomAndDespair
-  Pixel Blade: 0→0 activos (=), 73→74 exp
-  Plant Brainrot Simulator: 4→1 activos (-3), 50→53 exp
-  Re Rangers X: 28→29 activos (+1), 0→0 exp
-    Nuevos: SorryForSendai
-  Sailor Piece: 4→4 activos (=), 172→176 exp
-  Trade Tower: 0→0 activos (=), 8→9 exp
-  Undertale Rng: 8→11 activos (+3), 62→62 exp
-    Nuevos: eastereventpart2, eastereventbugfixes, eastereventpart2balances
-  Universal Tower Defense: 5→3 activos (-2), 60→63 exp
-  Waste Time: 2→2 activos (=), 42→43 exp
+  My Hero Mania: 9→12 activos (+3), 87→87 exp
+    Nuevos: DataSlots, VoiceQuirk, Titles!
+  Project Mirror Labyrinth: 0→3 activos (+3), 33→33 exp
+    Nuevos: 5MVisits!, FellBulletUpscale, UpperLibrary
+  Project Polaro: 2→1 activos (-1), 149→151 exp
+    Nuevos: NIMICNOU
+  Re Rangers X: 29→31 activos (+2), 0→0 exp
+    Nuevos: GACHIAKUTA, TRASHGROUND
+  Sailor Piece: 4→8 activos (+4), 176→176 exp
+    Nuevos: BUGFIXESCODES, THEOTHERFREECODEMB, YETANOTHERFREECODE, YETANOTHERFREECODE2
+  Sorcerer Incremental: 0→3 activos (+3), 55→55 exp
+    Nuevos: GANGBOSS, HOMELESS, MEGADELAY
+  Tiny Empires: 0→1 activos (+1), 6→6 exp
+    Nuevos: 10KCOMMUNITYMEMBERS
+  Uma Racing: 0→1 activos (+1), 38→38 exp
+    Nuevos: MOBILEFIXES
+  Undertale Rng: 11→13 activos (+2), 62→62 exp
+    Nuevos: eastereaster, blametesters
+  Universal Tower Defense: 3→5 activos (+2), 63→63 exp
+    Nuevos: WeLoveUlquiorra!, SailorBoost!
 
 Detalle cambios:
-data/gameguide-urls.json
-data/games/codigos-a-universal-time.json
-data/games/codigos-anime-reversal.json
-data/games/codigos-basketball-legends.json
-data/games/codigos-be-a-lucky-block.json
-data/games/codigos-bizarre-lineage.json
-data/games/codigos-bloxstrike.json
-data/games/codigos-breaking-bad-tycoon.json
-data/games/codigos-build-a-military-base.json
-data/games/codigos-corsa-legends.json
-data/games/codigos-drag-drive-simulator.json
-data/games/codigos-dungeon-heroes.json
-data/games/codigos-elemental-warzone.json
-data/games/codigos-evil-plate-game.json
+data/games/codigos-anime-crusaders.json
+data/games/codigos-anime-ghosts.json
+data/games/codigos-anime-leveling.json
+data/games/codigos-bite-by-night.json
+data/games/codigos-build-an-arcade.json
 data/games/codigos-fistborn.json
-data/games/codigos-funky-friday.json
-data/games/codigos-ghoul-re.json
-data/games/codigos-gone-hunting.json
-data/games/codigos-heroes-world.json
-data/games/codigos-hunty-zombies.json
-data/games/codigos-inazuma-strikers.json
-data/games/codigos-kaizen.json
-data/games/codigos-midnight-chasers.json
-data/games/codigos-outbreak.json
-data/games/codigos-peroxide.json
-data/games/codigos-pixel-blade.json
-data/games/codigos-plant-brainrot-simulator.json
+data/games/codigos-flashpoint-worlds-collide.json
+data/games/codigos-massacre.json
+data/games/codigos-midnight-chasers-highway-racing.json
+data/games/codigos-my-hero-mania.json
+data/games/codigos-project-mirror-labyrinth.json
+data/games/codigos-project-polaro.json
 data/games/codigos-re-rangers-x.json
 data/games/codigos-sailor-piece.json
-data/games/codigos-trade-tower.json
+data/games/codigos-sorcerer-incremental.json
+data/games/codigos-tiny-empires.json
+data/games/codigos-uma-racing.json
 data/games/codigos-undertale-rng.json
 data/games/codigos-universal-tower-defense.json
-data/games/codigos-waste-time.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-99-nights-in-the-forest.json
-data/games/codigos-black-grimoire.json
-data/games/codigos-skibidi-masters-tower-defense.json
+data/games/codigos-zero-to-hero.json
 
