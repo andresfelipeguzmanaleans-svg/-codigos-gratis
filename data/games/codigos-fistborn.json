@@ -5,126 +5,32 @@
   "description": "Todos los códigos activos para Fistborn en Roblox",
   "metaTitle": "Códigos Fistborn Roblox (Abril 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Fistborn en Roblox. 5 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-04-20T20:39:48.096Z",
-  "activeCodes": [
+  "lastUpdated": "2026-04-22T09:14:34.089Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "downtimemb",
-      "reward": "Tokens",
-      "addedDate": "2026-04-20"
+      "reward": "Tokens"
     },
     {
       "code": "extendedtime",
-      "reward": "Tokens",
-      "addedDate": "2026-04-20"
+      "reward": "Tokens"
     },
     {
       "code": "extendedtime2",
-      "reward": "Tokens",
-      "addedDate": "2026-04-20"
+      "reward": "Tokens"
     },
     {
       "code": "Phase1Woo",
-      "reward": "Tokens",
-      "addedDate": "2026-04-20"
+      "reward": "Tokens"
     },
     {
       "code": "cmonbruh",
-      "reward": "Tokens",
-      "addedDate": "2026-04-20"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "CatchAFish",
       "reward": "Tokens"
     },
     {
-      "code": "happyvalentines",
-      "reward": "1,000 tokens"
-    },
-    {
-      "code": "pingedbobo",
-      "reward": "Tokens"
-    },
-    {
-      "code": "branchespatches1",
-      "reward": "10K tokens"
-    },
-    {
-      "code": "boxingbranchwoo",
-      "reward": "Tokens"
-    },
-    {
-      "code": "ADVANCE",
-      "reward": "Tokens"
-    },
-    {
-      "code": "shutdownlol",
-      "reward": "Tokens"
-    },
-    {
-      "code": "thanksfor2k",
-      "reward": "Tokens"
-    },
-    {
-      "code": "shutdownfix",
-      "reward": "Tokens"
-    },
-    {
-      "code": "thanksfor750",
-      "reward": "Tokens"
-    },
-    {
-      "code": "wow3klikes",
-      "reward": "Tokens"
-    },
-    {
-      "code": "thanksfor1mil",
-      "reward": "Tokens"
-    },
-    {
-      "code": "limitbreakremoval",
-      "reward": "Tokens"
-    },
-    {
-      "code": "mobilesupport",
-      "reward": "Tokens"
-    },
-    {
-      "code": "ty5kccu",
-      "reward": "Tokens"
-    },
-    {
-      "code": "ty4klikes",
-      "reward": "Tokens"
-    },
-    {
-      "code": "aprilfools",
-      "reward": "20K tokens"
-    },
-    {
-      "code": "thanksfor4k",
-      "reward": "Tokens"
-    },
-    {
-      "code": "sorry4delay",
-      "reward": "Tokens"
-    },
-    {
-      "code": "thanksfor1k",
-      "reward": "Tokens"
-    },
-    {
-      "code": "ty2klikes",
-      "reward": "Tokens"
-    },
-    {
-      "code": "WEBACK",
-      "reward": "Tokens"
-    },
-    {
-      "code": "tyfor20kmembers",
-      "reward": "Tokens"
+      "code": "sorryfistborner",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "MODESOON",
@@ -215,7 +121,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "shutdownfixes",
+      "code": "CatchAFish",
       "reward": "Tokens"
     },
     {
@@ -249,10 +155,6 @@
     {
       "code": "extendercooldownfix",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "sorryfistborner",
-      "reward": "Recompensa gratis"
     },
     {
       "code": "boboatedonuts",
@@ -341,6 +243,98 @@
     {
       "code": "shhhh",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "happyvalentines",
+      "reward": "1,000 tokens"
+    },
+    {
+      "code": "pingedbobo",
+      "reward": "Tokens"
+    },
+    {
+      "code": "branchespatches1",
+      "reward": "10K tokens"
+    },
+    {
+      "code": "boxingbranchwoo",
+      "reward": "Tokens"
+    },
+    {
+      "code": "ADVANCE",
+      "reward": "Tokens"
+    },
+    {
+      "code": "shutdownlol",
+      "reward": "Tokens"
+    },
+    {
+      "code": "thanksfor2k",
+      "reward": "Tokens"
+    },
+    {
+      "code": "shutdownfix",
+      "reward": "Tokens"
+    },
+    {
+      "code": "thanksfor750",
+      "reward": "Tokens"
+    },
+    {
+      "code": "wow3klikes",
+      "reward": "Tokens"
+    },
+    {
+      "code": "thanksfor1mil",
+      "reward": "Tokens"
+    },
+    {
+      "code": "limitbreakremoval",
+      "reward": "Tokens"
+    },
+    {
+      "code": "mobilesupport",
+      "reward": "Tokens"
+    },
+    {
+      "code": "ty5kccu",
+      "reward": "Tokens"
+    },
+    {
+      "code": "ty4klikes",
+      "reward": "Tokens"
+    },
+    {
+      "code": "shutdownfixes",
+      "reward": "Tokens"
+    },
+    {
+      "code": "tyfor20kmembers",
+      "reward": "Tokens"
+    },
+    {
+      "code": "WEBACK",
+      "reward": "Tokens"
+    },
+    {
+      "code": "ty2klikes",
+      "reward": "Tokens"
+    },
+    {
+      "code": "thanksfor1k",
+      "reward": "Tokens"
+    },
+    {
+      "code": "sorry4delay",
+      "reward": "Tokens"
+    },
+    {
+      "code": "thanksfor4k",
+      "reward": "Tokens"
+    },
+    {
+      "code": "aprilfools",
+      "reward": "20K tokens"
     },
     {
       "code": "TheFallen",
