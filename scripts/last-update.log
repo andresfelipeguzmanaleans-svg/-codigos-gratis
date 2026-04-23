@@ -1,37 +1,29 @@
-=== RESUMEN UPDATE 2026-04-23 09:23 ===
+=== RESUMEN UPDATE 2026-04-23 20:47 ===
 
 Archivos modificados:
-  8 archivos cambiados
+  6 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4283 juegos (4283 procesados)
-Actualizados: 5 | Sin cambios: 4133
+Actualizados: 4 | Sin cambios: 4134
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 10 | Movidos a expirados: 0
-Tiempo: 156.9s | Concurrencia: 10
+Códigos nuevos: 0 | Movidos a expirados: 3
+Tiempo: 146.3s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Guardians: 0→5 activos (+5), 193→193 exp
-    Nuevos: SOLOSUNGJINWOO28, HOYOBUFF, GUILDWAR, UPD28, DELAY28
-  Block Tales Tower Defense: 1→2 activos (+1), 10→10 exp
-    Nuevos: NEWTOWERS
-  Elemental Odyssey: 33→35 activos (+2), 18→18 exp
-    Nuevos: Spins26, Slot26
-  Mugen: 1→2 activos (+1), 82→82 exp
-    Nuevos: 475KLIKES
-  Primal Pursuit: 1→2 activos (+1), 30→30 exp
-    Nuevos: 70KL1KES
+  Anime Vanguards: 1→0 activos (-1), 171→172 exp
+  Elemental Odyssey: 35→33 activos (-2), 18→20 exp
+  Empire Clash: 0→0 activos (=), 1→2 exp
+  Paradox: 0→0 activos (=), 59→60 exp
 
 Detalle cambios:
-data/gameguide-urls.json
-data/games/codigos-anime-guardians.json
-data/games/codigos-block-tales-tower-defense.json
+data/games/codigos-anime-vanguards.json
 data/games/codigos-elemental-odyssey.json
-data/games/codigos-mugen.json
-data/games/codigos-primal-pursuit.json
+data/games/codigos-empire-clash.json
+data/games/codigos-paradox.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
