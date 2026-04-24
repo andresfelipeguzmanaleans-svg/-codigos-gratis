@@ -1,86 +1,30 @@
-=== RESUMEN UPDATE 2026-04-24 09:27 ===
+=== RESUMEN UPDATE 2026-04-24 20:41 ===
 
 Archivos modificados:
-  27 archivos cambiados
+  7 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4283 juegos (4283 procesados)
-Actualizados: 25 | Sin cambios: 4113
+Actualizados: 4 | Sin cambios: 4134
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 21 | Movidos a expirados: 4
-Tiempo: 145.8s | Concurrencia: 10
+Códigos nuevos: 0 | Movidos a expirados: 3
+Tiempo: 144.9s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Slayer Blade: 9→10 activos (+1), 107→107 exp
-    Nuevos: 5L7C1M
-  1 Unlimited World: 9→10 activos (+1), 56→56 exp
-    Nuevos: b4xpT6
-  Anime Card Collection: 1→2 activos (+1), 33→33 exp
-    Nuevos: TwentyNinthCode
-  Anime Crusaders: 11→10 activos (-1), 207→208 exp
-  Arise Shadow Hunt: 0→1 activos (+1), 68→68 exp
-    Nuevos: Dbh0ut
-  Bikelife Netherlands: 0→3 activos (+3), 25→25 exp
-    Nuevos: BOOSTER, RIDEOUTS, SURRON
-  Death In The Box: 0→1 activos (+1), 4→4 exp
-    Nuevos: APRILFOOLS
-  Forgotten: 2→3 activos (+1), 13→13 exp
-    Nuevos: gamefix
-  Grow A Collection: 0→1 activos (+1), 22→22 exp
-    Nuevos: COMPENSAURI
-  Jailbreak: 0→0 activos (=), 131→132 exp
-  Midnight Chasers Highway Racing: 1→0 activos (-1), 203→204 exp
-  Nfl Universe Football: 35→36 activos (+1), 248→248 exp
-    Nuevos: BRAINROT
-  Playground Basketball: 0→0 activos (=), 18→19 exp
-  Re Rangers X: 31→32 activos (+1), 0→0 exp
-    Nuevos: SorryForSendai2
-  Reborn Skills Master: 29→30 activos (+1), 24→24 exp
-    Nuevos: update73
-  Rocast Online: 0→2 activos (+2), 53→53 exp
-    Nuevos: Slot26, Spins26
-  Robong Megabonk: 0→4 activos (+4), 25→25 exp
-    Nuevos: 4000members, goblin, witch, zombie
-  Skibi Defense 3 5: 0→0 activos (=), 69→73 exp
-  Spongebob Tower Defense: 0→0 activos (=), 233→234 exp
-  Tiny Empires: 1→0 activos (-1), 6→7 exp
-  Ultra Un Fair: 0→0 activos (=), 147→148 exp
-  Universal Tower Defense: 5→6 activos (+1), 63→63 exp
-    Nuevos: 1KFollowersUTDXTiktok!
-  Waste Time: 2→3 activos (+1), 43→43 exp
-    Nuevos: dailyrewards
-  Zero To Hero: 1→0 activos (-1), 8→9 exp
-  Zo: 0→0 activos (=), 28→30 exp
+  Block Tales Tower Defense: 2→1 activos (-1), 10→11 exp
+  Jujutsu Chronicles: 0→0 activos (=), 272→275 exp
+  Mugen: 2→1 activos (-1), 82→83 exp
+  Nfl Universe Football: 36→35 activos (-1), 248→249 exp
 
 Detalle cambios:
-data/games/codigos-1-slayer-blade.json
-data/games/codigos-1-unlimited-world.json
-data/games/codigos-anime-card-collection.json
-data/games/codigos-anime-crusaders.json
-data/games/codigos-arise-shadow-hunt.json
-data/games/codigos-bikelife-netherlands.json
-data/games/codigos-death-in-the-box.json
-data/games/codigos-forgotten.json
-data/games/codigos-grow-a-collection.json
-data/games/codigos-jailbreak.json
-data/games/codigos-midnight-chasers-highway-racing.json
+data/gameguide-urls.json
+data/games/codigos-block-tales-tower-defense.json
+data/games/codigos-jujutsu-chronicles.json
+data/games/codigos-mugen.json
 data/games/codigos-nfl-universe-football.json
-data/games/codigos-playground-basketball.json
-data/games/codigos-re-rangers-x.json
-data/games/codigos-reborn-skills-master.json
-data/games/codigos-robong-megabonk.json
-data/games/codigos-rocast-online.json
-data/games/codigos-skibi-defense-3-5.json
-data/games/codigos-spongebob-tower-defense.json
-data/games/codigos-tiny-empires.json
-data/games/codigos-ultra-un-fair.json
-data/games/codigos-universal-tower-defense.json
-data/games/codigos-waste-time.json
-data/games/codigos-zero-to-hero.json
-data/games/codigos-zo.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
