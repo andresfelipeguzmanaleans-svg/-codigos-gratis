@@ -1,57 +1,96 @@
-=== RESUMEN UPDATE 2026-04-25 08:46 ===
+=== RESUMEN UPDATE 2026-04-25 20:33 ===
 
 Archivos modificados:
-  14 archivos cambiados
+  28 archivos cambiados
 
 Archivos nuevos:
   1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4284 juegos (4284 procesados)
-Actualizados: 12 | Sin cambios: 4125
-No encontrado: 134 | Saltados: 13
-Códigos nuevos: 14 | Movidos a expirados: 0
-Tiempo: 152.3s | Concurrencia: 10
+Total: 4285 juegos (4285 procesados)
+Actualizados: 26 | Sin cambios: 4114
+No encontrado: 132 | Saltados: 13
+Códigos nuevos: 35 | Movidos a expirados: 6
+Tiempo: 141.1s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Crusaders: 10→14 activos (+4), 208→208 exp
-    Nuevos: 200RRS, BERSERKSOON, 67REROLLS, REVIVE67
-  Anime Eternal: 0→2 activos (+2), 755→755 exp
-    Nuevos: EasterCode7, Update48
-  Anime Leveling: 17→18 activos (+1), 18→18 exp
-    Nuevos: Exchange
-  Block Tales Tower Defense: 1→1 activos (=), 11→12 exp
-    Nuevos: OVERHAULSOON!
-  Car Zone: 1→1 activos (=), 109→110 exp
-  Drag Brasil: 3→3 activos (=), 88→89 exp
-  Hunty Zombies: 68→70 activos (+2), 149→149 exp
-    Nuevos: MunDaGoat, IMAWESOME
-  My Hello Kitty Cafe: 0→1 activos (+1), 146→146 exp
-    Nuevos: 4ththankgift
-  Rivals: 0→0 activos (=), 189→190 exp
-  Stadium Simulator 2: 0→1 activos (+1), 9→9 exp
-    Nuevos: 10KFAVS
-  Superstar Baseball: 0→1 activos (+1), 37→37 exp
-    Nuevos: PATCHWORK
-  Universal Tower Defense: 6→7 activos (+1), 63→63 exp
-    Nuevos: FinalReveals!
+  A One Piece Game: 219→222 activos (+3), 205→205 exp
+    Nuevos: Accelerator!, InventoryRework!, Accelerator
+  Anime Ghosts: 2→2 activos (=), 43→44 exp
+    Nuevos: DRAGONBOX
+  Aopg: 19→21 activos (+2), 284→284 exp
+    Nuevos: InventoryRework!, Accelerator
+  Armless Detective: 0→1 activos (+1), 72→72 exp
+    Nuevos: extendedeaster
+  Blue Lock Rivals: 0→3 activos (+3), 272→272 exp
+    Nuevos: NEWJERSEYS, NEWIMPACTS, NELQUEST
+  Build An Arcade: 1→0 activos (-1), 26→27 exp
+  Catch A Monster: 0→1 activos (+1), 77→77 exp
+    Nuevos: avalanchewyrm
+  Death In The Box: 1→0 activos (-1), 4→5 exp
+  Drive Thru Tycoon: 0→1 activos (+1), 13→13 exp
+    Nuevos: 25milwow
+  Elemental Warzone: 0→1 activos (+1), 37→37 exp
+    Nuevos: ElementalingTheWarzone
+  Fistborn: 1→1 activos (=), 156→157 exp
+    Nuevos: itsfridaywoo
+  Fnaf Battlegrounds: 0→1 activos (+1), 19→19 exp
+    Nuevos: ENNARD
+  Heavyweight Fishing: 1→3 activos (+2), 48→48 exp
+    Nuevos: 8M5Visits, FreeTicket
+  Hooked: 0→2 activos (+2), 9→9 exp
+    Nuevos: HOOKED7KLIKES, HOOKEDDC10K
+  Hunty Zombies: 70→70 activos (=), 149→150 exp
+  Jujutsu Beatdown: 0→1 activos (+1), 24→24 exp
+    Nuevos: FreeFrozen
+  Massacre: 10→12 activos (+2), 72→72 exp
+    Nuevos: !code trading, !code iwascrazyonce
+  Neo Tennis: 0→1 activos (+1), 27→27 exp
+    Nuevos: XDC5X5GSDY6
+  One Fruit Simulator: 105→107 activos (+2), 234→234 exp
+    Nuevos: DIAMONDAWK, SHINE
+  One Fruit: 4→6 activos (+2), 327→327 exp
+    Nuevos: DIAMONDAWK, SHINE
+  Own A Mineshaft: 0→0 activos (=), 5→6 exp
+  Project Mirror Labyrinth: 3→0 activos (-3), 33→37 exp
+  Saber Simulator: 0→1 activos (+1), 92→92 exp
+    Nuevos: BRUH
+  Sorcerer Incremental: 3→7 activos (+4), 55→55 exp
+    Nuevos: MASTERED, TENSHADOWS, GANGWARS, MAHORAGA
+  Uma Racing: 1→0 activos (-1), 38→39 exp
+  Volleyball Legends: 0→3 activos (+3), 257→257 exp
+    Nuevos: TSH_67, DAILY TASKS, UPDATE_67
 
 Detalle cambios:
-data/games/codigos-anime-crusaders.json
-data/games/codigos-anime-eternal.json
-data/games/codigos-anime-leveling.json
-data/games/codigos-block-tales-tower-defense.json
-data/games/codigos-car-zone.json
-data/games/codigos-drag-brasil.json
+data/games/codigos-a-one-piece-game.json
+data/games/codigos-anime-ghosts.json
+data/games/codigos-aopg.json
+data/games/codigos-armless-detective.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-build-an-arcade.json
+data/games/codigos-catch-a-monster.json
+data/games/codigos-death-in-the-box.json
+data/games/codigos-drive-thru-tycoon.json
+data/games/codigos-elemental-warzone.json
+data/games/codigos-fistborn.json
+data/games/codigos-fnaf-battlegrounds.json
+data/games/codigos-heavyweight-fishing.json
+data/games/codigos-hooked.json
 data/games/codigos-hunty-zombies.json
-data/games/codigos-my-hello-kitty-cafe.json
-data/games/codigos-rivals.json
-data/games/codigos-stadium-simulator-2.json
-data/games/codigos-superstar-baseball.json
-data/games/codigos-universal-tower-defense.json
+data/games/codigos-jujutsu-beatdown.json
+data/games/codigos-massacre.json
+data/games/codigos-neo-tennis.json
+data/games/codigos-one-fruit-simulator.json
+data/games/codigos-one-fruit.json
+data/games/codigos-own-a-mineshaft.json
+data/games/codigos-project-mirror-labyrinth.json
+data/games/codigos-saber-simulator.json
+data/games/codigos-sorcerer-incremental.json
+data/games/codigos-uma-racing.json
+data/games/codigos-volleyball-legends.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-pet-capture-adventure.json
+data/games/codigos-get-fat-to-splash.json
 
