@@ -1,96 +1,79 @@
-=== RESUMEN UPDATE 2026-04-25 20:33 ===
+=== RESUMEN UPDATE 2026-04-26 08:54 ===
 
 Archivos modificados:
-  28 archivos cambiados
+  22 archivos cambiados
 
 Archivos nuevos:
-  1 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4285 juegos (4285 procesados)
-Actualizados: 26 | Sin cambios: 4114
+Actualizados: 20 | Sin cambios: 4120
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 35 | Movidos a expirados: 6
-Tiempo: 141.1s | Concurrencia: 10
+Códigos nuevos: 39 | Movidos a expirados: 7
+Tiempo: 140.2s | Concurrencia: 10
 
 Juegos actualizados:
-  A One Piece Game: 219→222 activos (+3), 205→205 exp
-    Nuevos: Accelerator!, InventoryRework!, Accelerator
-  Anime Ghosts: 2→2 activos (=), 43→44 exp
-    Nuevos: DRAGONBOX
-  Aopg: 19→21 activos (+2), 284→284 exp
-    Nuevos: InventoryRework!, Accelerator
-  Armless Detective: 0→1 activos (+1), 72→72 exp
-    Nuevos: extendedeaster
-  Blue Lock Rivals: 0→3 activos (+3), 272→272 exp
-    Nuevos: NEWJERSEYS, NEWIMPACTS, NELQUEST
-  Build An Arcade: 1→0 activos (-1), 26→27 exp
-  Catch A Monster: 0→1 activos (+1), 77→77 exp
-    Nuevos: avalanchewyrm
-  Death In The Box: 1→0 activos (-1), 4→5 exp
-  Drive Thru Tycoon: 0→1 activos (+1), 13→13 exp
-    Nuevos: 25milwow
-  Elemental Warzone: 0→1 activos (+1), 37→37 exp
-    Nuevos: ElementalingTheWarzone
-  Fistborn: 1→1 activos (=), 156→157 exp
-    Nuevos: itsfridaywoo
-  Fnaf Battlegrounds: 0→1 activos (+1), 19→19 exp
-    Nuevos: ENNARD
-  Heavyweight Fishing: 1→3 activos (+2), 48→48 exp
-    Nuevos: 8M5Visits, FreeTicket
-  Hooked: 0→2 activos (+2), 9→9 exp
-    Nuevos: HOOKED7KLIKES, HOOKEDDC10K
-  Hunty Zombies: 70→70 activos (=), 149→150 exp
-  Jujutsu Beatdown: 0→1 activos (+1), 24→24 exp
-    Nuevos: FreeFrozen
-  Massacre: 10→12 activos (+2), 72→72 exp
-    Nuevos: !code trading, !code iwascrazyonce
-  Neo Tennis: 0→1 activos (+1), 27→27 exp
+  Anime Crusaders: 14→18 activos (+4), 208→208 exp
+    Nuevos: DANB, HOLYCODES, BRMB, BUFXSO
+  Anime Fighting Simulator Endless: 4→15 activos (+11), 117→117 exp
+    Nuevos: SukunaAwakens, PrisonRealm, MonsterCube, NewShibuyaGamemode, ShibuyaBoost, ShibuyaUpdate, SixEyes, KingOfCurses, TenShadows, NewCursedPoints, LarpTechnique
+  Arcade Basketball: 0→1 activos (+1), 44→44 exp
+    Nuevos: TACOTIME
+  Attack On Titan Revolution: 1→7 activos (+6), 154→154 exp
+    Nuevos: FAVORITES1M, MEMBERS1M, MEMBERS900K, UPDATE4, VISITS600M, VISITS700M
+  Basketball Zero: 0→3 activos (+3), 219→219 exp
+    Nuevos: 30VALENTINE, 1HRVALENTINE, VALENTINE
+  Bite By Night: 1→0 activos (-1), 2→3 exp
+  Button Eternal: 1→2 activos (+1), 33→33 exp
+    Nuevos: 35KFavs
+  Dueling Grounds: 0→1 activos (+1), 12→12 exp
+    Nuevos: WarhammerGrounds
+  Fisch: 2→3 activos (+1), 108→108 exp
+    Nuevos: Companions
+  Flight World: 0→1 activos (+1), 5→5 exp
+    Nuevos: 190KLIKES
+  Fruit Piece Incremental: 0→1 activos (+1), 7→7 exp
+    Nuevos: AutoBattle
+  Jujutsu Zero: 2→4 activos (+2), 58→58 exp
+    Nuevos: 160KLIKES, YUTA
+  Outbreak: 0→1 activos (+1), 10→10 exp
+    Nuevos: FUNGUY!
+  Reign Piece: 1→4 activos (+3), 45→45 exp
+    Nuevos: AIZENANDSHADOW, HUGEUPDATE, 1500CCU!
+  Restaurant Tycoon 3: 2→2 activos (=), 37→38 exp
+  Rivals: 0→1 activos (+1), 190→190 exp
+    Nuevos: COMMUNITY23
+  Sailor Piece: 8→4 activos (-4), 176→180 exp
+  Sorcerer Incremental: 7→6 activos (-1), 55→56 exp
+  Tennis Clash: 22→23 activos (+1), 2→2 exp
     Nuevos: XDC5X5GSDY6
-  One Fruit Simulator: 105→107 activos (+2), 234→234 exp
-    Nuevos: DIAMONDAWK, SHINE
-  One Fruit: 4→6 activos (+2), 327→327 exp
-    Nuevos: DIAMONDAWK, SHINE
-  Own A Mineshaft: 0→0 activos (=), 5→6 exp
-  Project Mirror Labyrinth: 3→0 activos (-3), 33→37 exp
-  Saber Simulator: 0→1 activos (+1), 92→92 exp
-    Nuevos: BRUH
-  Sorcerer Incremental: 3→7 activos (+4), 55→55 exp
-    Nuevos: MASTERED, TENSHADOWS, GANGWARS, MAHORAGA
-  Uma Racing: 1→0 activos (-1), 38→39 exp
-  Volleyball Legends: 0→3 activos (+3), 257→257 exp
-    Nuevos: TSH_67, DAILY TASKS, UPDATE_67
+  Universal Tower Defense: 7→6 activos (-1), 63→65 exp
+    Nuevos: TheFinalReveal!
 
 Detalle cambios:
-data/games/codigos-a-one-piece-game.json
-data/games/codigos-anime-ghosts.json
-data/games/codigos-aopg.json
-data/games/codigos-armless-detective.json
-data/games/codigos-blue-lock-rivals.json
-data/games/codigos-build-an-arcade.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-death-in-the-box.json
-data/games/codigos-drive-thru-tycoon.json
-data/games/codigos-elemental-warzone.json
-data/games/codigos-fistborn.json
-data/games/codigos-fnaf-battlegrounds.json
-data/games/codigos-heavyweight-fishing.json
-data/games/codigos-hooked.json
-data/games/codigos-hunty-zombies.json
-data/games/codigos-jujutsu-beatdown.json
-data/games/codigos-massacre.json
-data/games/codigos-neo-tennis.json
-data/games/codigos-one-fruit-simulator.json
-data/games/codigos-one-fruit.json
-data/games/codigos-own-a-mineshaft.json
-data/games/codigos-project-mirror-labyrinth.json
-data/games/codigos-saber-simulator.json
+data/games/codigos-anime-crusaders.json
+data/games/codigos-anime-fighting-simulator-endless.json
+data/games/codigos-arcade-basketball.json
+data/games/codigos-attack-on-titan-revolution.json
+data/games/codigos-basketball-zero.json
+data/games/codigos-bite-by-night.json
+data/games/codigos-button-eternal.json
+data/games/codigos-dueling-grounds.json
+data/games/codigos-fisch.json
+data/games/codigos-flight-world.json
+data/games/codigos-fruit-piece-incremental.json
+data/games/codigos-jujutsu-zero.json
+data/games/codigos-outbreak.json
+data/games/codigos-reign-piece.json
+data/games/codigos-restaurant-tycoon-3.json
+data/games/codigos-rivals.json
+data/games/codigos-sailor-piece.json
 data/games/codigos-sorcerer-incremental.json
-data/games/codigos-uma-racing.json
-data/games/codigos-volleyball-legends.json
+data/games/codigos-tennis-clash.json
+data/games/codigos-universal-tower-defense.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-get-fat-to-splash.json
 
