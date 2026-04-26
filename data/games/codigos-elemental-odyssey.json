@@ -4,36 +4,33 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-dae6a14fb4c510e2d0f8c7f5a5b5c9bf/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Elemental Odyssey en Roblox",
   "metaTitle": "Códigos Elemental Odyssey Roblox (Abril 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Elemental Odyssey en Roblox. 33 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-04-23T20:45:25.400Z",
+  "metaDescription": "Lista actualizada de códigos para Elemental Odyssey en Roblox. 34 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-04-26T20:31:44.334Z",
   "activeCodes": [
     {
-      "code": "SorryForCustomizationBug",
-      "reward": "Reset"
-    },
-    {
-      "code": "Console",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "4kLikes",
-      "reward": "10 giros"
-    },
-    {
-      "code": "1500Likes",
-      "reward": "10 giros"
+      "code": "Nostalgia",
+      "reward": "15 giros",
+      "addedDate": "2026-04-26"
     },
     {
       "code": "Release",
       "reward": "Stat puntos"
     },
     {
+      "code": "1500Likes",
+      "reward": "10 giros"
+    },
+    {
+      "code": "Console",
+      "reward": "Reinicio de stats"
+    },
+    {
       "code": "1kPlrs",
       "reward": "Reinicio de stats"
     },
     {
-      "code": "500Likes!",
-      "reward": "250 monedas"
+      "code": "4kLikes",
+      "reward": "10 giros"
     },
     {
       "code": "5kLikesFreeCustomization",
@@ -44,40 +41,20 @@
       "reward": "5 giros"
     },
     {
-      "code": "SorryMobile",
-      "reward": "5 giros"
+      "code": "500Likes!",
+      "reward": "250 monedas"
     },
     {
-      "code": "ForwardsWeGo",
-      "reward": "New Slot"
-    },
-    {
-      "code": "IceSpins2",
-      "reward": "20 giros"
-    },
-    {
-      "code": "Upd1Spins",
-      "reward": "15 giros"
-    },
-    {
-      "code": "Series",
-      "reward": "10 Sub-Element giros"
-    },
-    {
-      "code": "IceSpins",
-      "reward": "5 giros"
+      "code": "SorryForCustomizationBug",
+      "reward": "Reset"
     },
     {
       "code": "Customize2",
       "reward": "Character Customization"
     },
     {
-      "code": "IceSlot",
-      "reward": "New Slot"
-    },
-    {
-      "code": "DoubleDrop",
-      "reward": "Drop Rate Boost (20 minutos)"
+      "code": "Upd1Slot",
+      "reward": "1 Slot"
     },
     {
       "code": "SoonTM",
@@ -96,15 +73,39 @@
       "reward": "Drop Rate Boost"
     },
     {
-      "code": "Upd1Slot",
-      "reward": "1 Slot"
-    },
-    {
       "code": "Upd1Customize",
       "reward": "Character Customization"
     },
     {
       "code": "doubledropbugfixesrealllll",
+      "reward": "Drop Rate Boost (20 minutos)"
+    },
+    {
+      "code": "RealDoubleDrops",
+      "reward": "Drop Rate Boost (15 minutos)"
+    },
+    {
+      "code": "BalancePatch1",
+      "reward": "5 Sub-Element giros"
+    },
+    {
+      "code": "DualSubs",
+      "reward": "10 Sub-Element giros"
+    },
+    {
+      "code": "IceSpins2",
+      "reward": "20 giros"
+    },
+    {
+      "code": "IceSpins",
+      "reward": "5 giros"
+    },
+    {
+      "code": "IceSlot",
+      "reward": "New Slot"
+    },
+    {
+      "code": "DoubleDrop",
       "reward": "Drop Rate Boost (20 minutos)"
     },
     {
@@ -120,10 +121,6 @@
       "reward": "20 giros"
     },
     {
-      "code": "RealDoubleDrops",
-      "reward": "Drop Rate Boost (15 minutos)"
-    },
-    {
       "code": "TenKFollows",
       "reward": "20 giros"
     },
@@ -132,26 +129,34 @@
       "reward": "1 giro"
     },
     {
-      "code": "BalancePatch1",
-      "reward": "5 Sub-Element giros"
+      "code": "SorryMobile",
+      "reward": "5 giros"
     },
     {
-      "code": "DualSubs",
+      "code": "ForwardsWeGo",
+      "reward": "New Slot"
+    },
+    {
+      "code": "Upd1Spins",
+      "reward": "15 giros"
+    },
+    {
+      "code": "Series",
       "reward": "10 Sub-Element giros"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "Fixes",
+      "reward": "Drop Rate Boost"
+    },
     {
       "code": "Spins26",
       "reward": "10 Sub giros"
     },
     {
       "code": "Slot26",
-      "reward": "New slot"
-    },
-    {
-      "code": "Fixes",
-      "reward": "Drop Rate Boost"
+      "reward": "New Slot"
     },
     {
       "code": "EoSpins",

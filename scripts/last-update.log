@@ -1,77 +1,57 @@
-=== RESUMEN UPDATE 2026-04-26 08:54 ===
+=== RESUMEN UPDATE 2026-04-26 20:33 ===
 
 Archivos modificados:
-  22 archivos cambiados
+  15 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4285 juegos (4285 procesados)
-Actualizados: 20 | Sin cambios: 4120
+Actualizados: 13 | Sin cambios: 4127
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 39 | Movidos a expirados: 7
-Tiempo: 140.2s | Concurrencia: 10
+Códigos nuevos: 19 | Movidos a expirados: 2
+Tiempo: 142.7s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Crusaders: 14→18 activos (+4), 208→208 exp
-    Nuevos: DANB, HOLYCODES, BRMB, BUFXSO
-  Anime Fighting Simulator Endless: 4→15 activos (+11), 117→117 exp
-    Nuevos: SukunaAwakens, PrisonRealm, MonsterCube, NewShibuyaGamemode, ShibuyaBoost, ShibuyaUpdate, SixEyes, KingOfCurses, TenShadows, NewCursedPoints, LarpTechnique
-  Arcade Basketball: 0→1 activos (+1), 44→44 exp
-    Nuevos: TACOTIME
-  Attack On Titan Revolution: 1→7 activos (+6), 154→154 exp
-    Nuevos: FAVORITES1M, MEMBERS1M, MEMBERS900K, UPDATE4, VISITS600M, VISITS700M
-  Basketball Zero: 0→3 activos (+3), 219→219 exp
-    Nuevos: 30VALENTINE, 1HRVALENTINE, VALENTINE
-  Bite By Night: 1→0 activos (-1), 2→3 exp
-  Button Eternal: 1→2 activos (+1), 33→33 exp
-    Nuevos: 35KFavs
-  Dueling Grounds: 0→1 activos (+1), 12→12 exp
-    Nuevos: WarhammerGrounds
-  Fisch: 2→3 activos (+1), 108→108 exp
-    Nuevos: Companions
-  Flight World: 0→1 activos (+1), 5→5 exp
-    Nuevos: 190KLIKES
-  Fruit Piece Incremental: 0→1 activos (+1), 7→7 exp
-    Nuevos: AutoBattle
-  Jujutsu Zero: 2→4 activos (+2), 58→58 exp
-    Nuevos: 160KLIKES, YUTA
-  Outbreak: 0→1 activos (+1), 10→10 exp
-    Nuevos: FUNGUY!
-  Reign Piece: 1→4 activos (+3), 45→45 exp
-    Nuevos: AIZENANDSHADOW, HUGEUPDATE, 1500CCU!
-  Restaurant Tycoon 3: 2→2 activos (=), 37→38 exp
-  Rivals: 0→1 activos (+1), 190→190 exp
-    Nuevos: COMMUNITY23
-  Sailor Piece: 8→4 activos (-4), 176→180 exp
-  Sorcerer Incremental: 7→6 activos (-1), 55→56 exp
-  Tennis Clash: 22→23 activos (+1), 2→2 exp
-    Nuevos: XDC5X5GSDY6
-  Universal Tower Defense: 7→6 activos (-1), 63→65 exp
-    Nuevos: TheFinalReveal!
+  A One Piece Game: 222→221 activos (-1), 205→206 exp
+  Basketball Zero: 3→2 activos (-1), 219→220 exp
+  Blue Lock Rivals: 3→4 activos (+1), 272→272 exp
+  Brainrot Evolution: 4→5 activos (+1), 79→79 exp
+    Nuevos: Krang
+  Car Zone: 1→2 activos (+1), 110→110 exp
+    Nuevos: UPDATE52
+  Dead Spells: 1→5 activos (+4), 39→39 exp
+    Nuevos: 25MVISITS, 60KLIKES, 100KFAVORITES, PartThree
+  Drag Drive Simulator: 10→15 activos (+5), 63→63 exp
+    Nuevos: THX4MILLIONADVCOMMUNITY, DELAYDIKITKICAU, DDSMOUNTINGUPDATE, DDSAPRILFOOLS26, DRAGDRIVESIMULATORAPRIL26
+  Elemental Odyssey: 33→34 activos (+1), 20→20 exp
+    Nuevos: Nostalgia
+  Ghoul Re: 6→7 activos (+1), 117→117 exp
+    Nuevos: SNEAKSWEEK1
+  Hots Rng: 5→6 activos (+1), 113→113 exp
+    Nuevos: Collapse
+  Ninja Time: 4→7 activos (+3), 237→237 exp
+    Nuevos: DelayedDelays!, DailyMissions!, InventoriesSorted!
+  Outbreak: 1→2 activos (+1), 10→10 exp
+    Nuevos: ONETHOUSANDCCU
+  Volleyball Legends: 3→4 activos (+1), 257→257 exp
+    Nuevos: DAILY_TASKS
 
 Detalle cambios:
-data/games/codigos-anime-crusaders.json
-data/games/codigos-anime-fighting-simulator-endless.json
-data/games/codigos-arcade-basketball.json
-data/games/codigos-attack-on-titan-revolution.json
+data/games/codigos-a-one-piece-game.json
 data/games/codigos-basketball-zero.json
-data/games/codigos-bite-by-night.json
-data/games/codigos-button-eternal.json
-data/games/codigos-dueling-grounds.json
-data/games/codigos-fisch.json
-data/games/codigos-flight-world.json
-data/games/codigos-fruit-piece-incremental.json
-data/games/codigos-jujutsu-zero.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-brainrot-evolution.json
+data/games/codigos-car-zone.json
+data/games/codigos-dead-spells.json
+data/games/codigos-drag-drive-simulator.json
+data/games/codigos-elemental-odyssey.json
+data/games/codigos-ghoul-re.json
+data/games/codigos-hots-rng.json
+data/games/codigos-ninja-time.json
 data/games/codigos-outbreak.json
-data/games/codigos-reign-piece.json
-data/games/codigos-restaurant-tycoon-3.json
-data/games/codigos-rivals.json
-data/games/codigos-sailor-piece.json
-data/games/codigos-sorcerer-incremental.json
-data/games/codigos-tennis-clash.json
-data/games/codigos-universal-tower-defense.json
+data/games/codigos-volleyball-legends.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
