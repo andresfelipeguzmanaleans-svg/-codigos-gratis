@@ -1,57 +1,115 @@
-=== RESUMEN UPDATE 2026-04-26 20:33 ===
+=== RESUMEN UPDATE 2026-04-27 10:11 ===
 
 Archivos modificados:
-  15 archivos cambiados
+  35 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4285 juegos (4285 procesados)
-Actualizados: 13 | Sin cambios: 4127
+Actualizados: 33 | Sin cambios: 4107
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 19 | Movidos a expirados: 2
-Tiempo: 142.7s | Concurrencia: 10
+Códigos nuevos: 49 | Movidos a expirados: 2
+Tiempo: 159.9s | Concurrencia: 10
 
 Juegos actualizados:
-  A One Piece Game: 222→221 activos (-1), 205→206 exp
-  Basketball Zero: 3→2 activos (-1), 219→220 exp
-  Blue Lock Rivals: 3→4 activos (+1), 272→272 exp
-  Brainrot Evolution: 4→5 activos (+1), 79→79 exp
-    Nuevos: Krang
-  Car Zone: 1→2 activos (+1), 110→110 exp
-    Nuevos: UPDATE52
-  Dead Spells: 1→5 activos (+4), 39→39 exp
-    Nuevos: 25MVISITS, 60KLIKES, 100KFAVORITES, PartThree
-  Drag Drive Simulator: 10→15 activos (+5), 63→63 exp
-    Nuevos: THX4MILLIONADVCOMMUNITY, DELAYDIKITKICAU, DDSMOUNTINGUPDATE, DDSAPRILFOOLS26, DRAGDRIVESIMULATORAPRIL26
-  Elemental Odyssey: 33→34 activos (+1), 20→20 exp
+  Anime Card Collection: 2→3 activos (+1), 33→33 exp
+    Nuevos: ThirtyCode
+  Anime Crusaders: 18→22 activos (+4), 208→208 exp
+    Nuevos: BRRJO, 2KCORJO, RJODANB, 2KCO
+  Anime Eternal: 2→2 activos (=), 755→757 exp
+  Anime Fighting Simulator Endless: 15→16 activos (+1), 117→117 exp
+    Nuevos: Gavel
+  Anime Fighters Simulator: 2→5 activos (+3), 278→278 exp
+    Nuevos: DEVSUPREMACY, TOKYOGHOULUPDATE!, WORLD83!!
+  Anime Final Quest: 0→1 activos (+1), 74→74 exp
+    Nuevos: SORRYFORGAMEMODBUGS
+  Anime Leveling: 18→21 activos (+3), 18→18 exp
+    Nuevos: JJK, Update 4, Divine
+  Attack On Titan Revolution: 7→8 activos (+1), 154→154 exp
+    Nuevos: LAYERS100K
+  Azaras Rng: 53→55 activos (+2), 28→28 exp
+    Nuevos: 300YTsubscribers!, AnniversaryFinalPart!!
+  Be A Lucky Block: 0→1 activos (+1), 11→11 exp
+    Nuevos: CORALUKE
+  Blue Lock Rivals: 4→3 activos (-1), 272→272 exp
+  Brainrot Evolution: 5→4 activos (-1), 79→80 exp
+  Build A Military Base: 1→2 activos (+1), 27→28 exp
+    Nuevos: 110000LIKES, 105000LIKES
+  Driving Experience Japan: 2→4 activos (+2), 44→44 exp
+    Nuevos: IMSOLUCKY, HAPPY30KMEMBERS
+  Fishos: 2→3 activos (+1), 0→0 exp
+    Nuevos: M0NST3R
+  Fistborn: 1→2 activos (+1), 157→157 exp
+    Nuevos: JoseMustyPinkMohawk
+  Highway Legends: 1→2 activos (+1), 28→28 exp
+    Nuevos: sorry4rollback
+  Idle Defense: 0→2 activos (+2), 20→20 exp
+    Nuevos: RETROSLOPSKIN, FREE25DARKAURA
+  Jujutsu Infinite: 0→1 activos (+1), 106→106 exp
+    Nuevos: HELLO_JJI
+  Kanom Tokyo: 0→5 activos (+5), 32→32 exp
+    Nuevos: UPDATENOW!, RAIDHASBEENDEFEATED, LETRAIDTOGETHER!, GACHAAGAIN!!, FORNEWPLAYER!
+  Loot Up: 0→1 activos (+1), 17→17 exp
+    Nuevos: DUNGEON
+  Motor Legends: 18→21 activos (+3), 0→0 exp
+    Nuevos: PaceNotes, LateAgain, DirtCircuit
+  My Prison: 0→2 activos (+2), 91→91 exp
+    Nuevos: Hair, Barber
+  Own A Fish Pond: 0→0 activos (=), 69→70 exp
+  Paradox: 0→0 activos (=), 60→62 exp
+  Pixel Blade: 0→1 activos (+1), 74→74 exp
+    Nuevos: Atlantis
+  Project Menacing Remake: 36→38 activos (+2), 5→5 exp
+    Nuevos: ANUBIS, STONEFREE
+  Racket Rivals: 0→1 activos (+1), 52→52 exp
+    Nuevos: TRADINGSOON
+  Rocast Online: 2→3 activos (+1), 53→53 exp
     Nuevos: Nostalgia
-  Ghoul Re: 6→7 activos (+1), 117→117 exp
-    Nuevos: SNEAKSWEEK1
-  Hots Rng: 5→6 activos (+1), 113→113 exp
-    Nuevos: Collapse
-  Ninja Time: 4→7 activos (+3), 237→237 exp
-    Nuevos: DelayedDelays!, DailyMissions!, InventoriesSorted!
-  Outbreak: 1→2 activos (+1), 10→10 exp
-    Nuevos: ONETHOUSANDCCU
-  Volleyball Legends: 3→4 activos (+1), 257→257 exp
-    Nuevos: DAILY_TASKS
+  Sorcerer Tycoon: 0→2 activos (+2), 35→35 exp
+    Nuevos: SORRYFORROLLBACK, MAHITO
+  Superstar Baseball: 1→2 activos (+1), 37→37 exp
+    Nuevos: BLAZE
+  Survival Odyssey: 0→1 activos (+1), 62→62 exp
+    Nuevos: MIGRATION
+  Throwing Simulator: 0→2 activos (+2), 29→29 exp
+    Nuevos: 20m, update8
 
 Detalle cambios:
-data/games/codigos-a-one-piece-game.json
-data/games/codigos-basketball-zero.json
+data/games/codigos-anime-card-collection.json
+data/games/codigos-anime-crusaders.json
+data/games/codigos-anime-eternal.json
+data/games/codigos-anime-fighters-simulator.json
+data/games/codigos-anime-fighting-simulator-endless.json
+data/games/codigos-anime-final-quest.json
+data/games/codigos-anime-leveling.json
+data/games/codigos-attack-on-titan-revolution.json
+data/games/codigos-azaras-rng.json
+data/games/codigos-be-a-lucky-block.json
 data/games/codigos-blue-lock-rivals.json
 data/games/codigos-brainrot-evolution.json
-data/games/codigos-car-zone.json
-data/games/codigos-dead-spells.json
-data/games/codigos-drag-drive-simulator.json
-data/games/codigos-elemental-odyssey.json
-data/games/codigos-ghoul-re.json
-data/games/codigos-hots-rng.json
-data/games/codigos-ninja-time.json
-data/games/codigos-outbreak.json
-data/games/codigos-volleyball-legends.json
+data/games/codigos-build-a-military-base.json
+data/games/codigos-driving-experience-japan.json
+data/games/codigos-fishos.json
+data/games/codigos-fistborn.json
+data/games/codigos-highway-legends.json
+data/games/codigos-idle-defense.json
+data/games/codigos-jujutsu-infinite.json
+data/games/codigos-kanom-tokyo.json
+data/games/codigos-loot-up.json
+data/games/codigos-motor-legends.json
+data/games/codigos-my-prison.json
+data/games/codigos-own-a-fish-pond.json
+data/games/codigos-paradox.json
+data/games/codigos-pixel-blade.json
+data/games/codigos-project-menacing-remake.json
+data/games/codigos-racket-rivals.json
+data/games/codigos-rocast-online.json
+data/games/codigos-sorcerer-tycoon.json
+data/games/codigos-superstar-baseball.json
+data/games/codigos-survival-odyssey.json
+data/games/codigos-throwing-simulator.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
