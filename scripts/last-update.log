@@ -1,90 +1,19 @@
-=== RESUMEN UPDATE 2026-04-29 10:02 ===
+=== RESUMEN UPDATE 2026-04-29 20:58 ===
 
 Archivos modificados:
-  25 archivos cambiados
+  2 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4286 juegos (4286 procesados)
-Actualizados: 23 | Sin cambios: 4118
+Actualizados: 0 | Sin cambios: 4141
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 32 | Movidos a expirados: 0
-Tiempo: 137.4s | Concurrencia: 10
-
-Juegos actualizados:
-  Anime Fighting Simulator Endless: 16→18 activos (+2), 117→117 exp
-    Nuevos: QuestsPatch, DomainExpansion
-  Anime Ghosts: 2→3 activos (+1), 44→44 exp
-    Nuevos: DBZRAID
-  Anime Overload: 0→1 activos (+1), 22→22 exp
-    Nuevos: Pirates!
-  Are You Sure: 1→4 activos (+3), 17→17 exp
-    Nuevos: CRYBBTHRAGG, 50KLIKES, 3MVISITS
-  Be A Youtuber: 0→1 activos (+1), 15→15 exp
-    Nuevos: 80mvisits
-  Black Grimoire: 0→2 activos (+2), 20→20 exp
-    Nuevos: bros a slime, whats the code
-  Corsa Legends: 0→1 activos (+1), 34→34 exp
-    Nuevos: 10MILLVISITS
-  Elemental Magic Arena: 0→2 activos (+2), 9→9 exp
-    Nuevos: 50MVISITS, 60KLIKES
-  Evil Plate Game: 1→3 activos (+2), 39→39 exp
-    Nuevos: BUGFIXESAREAWESOME, UPDATE1
-  Exoria: 0→1 activos (+1), 19→19 exp
-    Nuevos: GRIND
-  Five Nights Hunted: 0→1 activos (+1), 56→56 exp
-    Nuevos: mimic2
-  Haze Piece: 14→15 activos (+1), 24→24 exp
-    Nuevos: HAZESEAS2026
-  Heavyweight Fishing: 3→4 activos (+1), 48→48 exp
-    Nuevos: Hit2KActives
-  Heroes World: 0→1 activos (+1), 122→122 exp
-    Nuevos: RollBack
-  Kaizen: 0→2 activos (+2), 108→108 exp
-    Nuevos: DelayExp!, Expedition!
-  Money Clicker Inc: 0→1 activos (+1), 17→17 exp
-    Nuevos: SiliconDragging
-  My Hero Mania: 12→13 activos (+1), 87→87 exp
-    Nuevos: RollBack
-  Project Mugetsu: 1→2 activos (+1), 352→352 exp
-    Nuevos: WeAreBackAgain
-  Reign Piece: 4→5 activos (+1), 45→45 exp
-    Nuevos: SOVEREIGN
-  Sorcerer Tycoon: 2→3 activos (+1), 35→35 exp
-    Nuevos: FREECURSEDFINGERS
-  Sports Card Collection: 0→1 activos (+1), 15→15 exp
-    Nuevos: SixteenthCode
-  Universal Tower Defense: 6→9 activos (+3), 65→65 exp
-    Nuevos: UTDXNumberOne, Arise30k, PeakJujutsu!
-  Yba New Universe: 0→1 activos (+1), 75→75 exp
-    Nuevos: BLEACHSOON
+Códigos nuevos: 0 | Movidos a expirados: 0
+Tiempo: 143.9s | Concurrencia: 10
 
 Detalle cambios:
-data/games/codigos-anime-fighting-simulator-endless.json
-data/games/codigos-anime-ghosts.json
-data/games/codigos-anime-overload.json
-data/games/codigos-are-you-sure.json
-data/games/codigos-be-a-youtuber.json
-data/games/codigos-black-grimoire.json
-data/games/codigos-corsa-legends.json
-data/games/codigos-elemental-magic-arena.json
-data/games/codigos-evil-plate-game.json
-data/games/codigos-exoria.json
-data/games/codigos-five-nights-hunted.json
-data/games/codigos-haze-piece.json
-data/games/codigos-heavyweight-fishing.json
-data/games/codigos-heroes-world.json
-data/games/codigos-kaizen.json
-data/games/codigos-money-clicker-inc.json
-data/games/codigos-my-hero-mania.json
-data/games/codigos-project-mugetsu.json
-data/games/codigos-reign-piece.json
-data/games/codigos-sorcerer-tycoon.json
-data/games/codigos-sports-card-collection.json
-data/games/codigos-universal-tower-defense.json
-data/games/codigos-yba-new-universe.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
