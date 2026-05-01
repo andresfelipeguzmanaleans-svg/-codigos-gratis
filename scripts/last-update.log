@@ -1,122 +1,19 @@
-=== RESUMEN UPDATE 2026-04-30 20:55 ===
+=== RESUMEN UPDATE 2026-05-01 09:29 ===
 
 Archivos modificados:
-  51 archivos cambiados
+  2 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4286 juegos (4286 procesados)
-Actualizados: 49 | Sin cambios: 4092
+Actualizados: 0 | Sin cambios: 4141
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 5 | Movidos a expirados: 59
-Tiempo: 139.1s | Concurrencia: 10
-
-Juegos actualizados:
-  Anime Chaos Simulator: 1→1 activos (=), 15→16 exp
-  Anime Fighting Simulator Endless: 18→6 activos (-12), 117→129 exp
-  Anime Guardians: 0→3 activos (+3), 198→198 exp
-    Nuevos: RACINGHORSE, GYRO, JOHNY
-  Aopg: 21→20 activos (-1), 284→286 exp
-  Are You Sure: 4→1 activos (-3), 17→20 exp
-  Arm Wrestle Simulator: 6→6 activos (=), 158→159 exp
-  Armless Detective: 1→0 activos (-1), 72→73 exp
-  Attack On Titan Revolution: 8→2 activos (-6), 154→161 exp
-  Asylum Life: 5→5 activos (=), 51→52 exp
-  Be A Lucky Block: 1→0 activos (-1), 11→12 exp
-  Button Eternal: 2→1 activos (-1), 33→34 exp
-  Car Zone: 2→1 activos (-1), 110→111 exp
-  Catch A Monster: 7→2 activos (-5), 77→82 exp
-  Cog: 0→1 activos (+1), 60→60 exp
-    Nuevos: 15KLIKES
-  Corsa Legends: 1→0 activos (-1), 34→35 exp
-  Dead Spells: 5→1 activos (-4), 39→43 exp
-  Doodle World: 0→0 activos (=), 320→321 exp
-  Dragon Blox: 0→0 activos (=), 199→201 exp
-  Drive Thru Tycoon: 1→0 activos (-1), 13→14 exp
-  Dueling Grounds: 1→0 activos (-1), 12→13 exp
-  Dungeon Heroes: 0→0 activos (=), 59→61 exp
-  Emote Rng: 2→1 activos (-1), 21→22 exp
-  Five Nights Hunted: 1→0 activos (-1), 56→57 exp
-  Flight World: 1→0 activos (-1), 5→6 exp
-  Garden Tower Defense: 0→0 activos (=), 98→100 exp
-  Heavyweight Fishing: 4→2 activos (-2), 48→50 exp
-  Hots Rng: 6→5 activos (-1), 114→115 exp
-  Hunt Giant Fish: 1→1 activos (=), 17→18 exp
-  Idle Defense: 2→1 activos (-1), 20→21 exp
-  Jujutsu Beatdown: 1→0 activos (-1), 24→25 exp
-  Kaizen: 2→0 activos (-2), 108→110 exp
-  Loot Up: 1→0 activos (-1), 17→18 exp
-  Massacre: 12→12 activos (=), 72→76 exp
-  My Prison: 2→0 activos (-2), 91→93 exp
-  Navy Tycoon: 0→0 activos (=), 9→10 exp
-  Noob Army Tycoon: 0→0 activos (=), 142→143 exp
-  Oaklands: 0→0 activos (=), 12→13 exp
-  Outbreak: 2→1 activos (-1), 10→11 exp
-  Pillow Fighting Simulator: 0→0 activos (=), 14→15 exp
-  Rebirth Champions Ultimate: 0→0 activos (=), 63→64 exp
-  Reborn Skills Master: 30→31 activos (+1), 24→24 exp
-    Nuevos: update74
-  Rivals: 1→0 activos (-1), 190→191 exp
-  St Blockade Reboot: 0→0 activos (=), 34→36 exp
-  The Forge: 0→0 activos (=), 46→47 exp
-  Throwing Simulator: 2→0 activos (-2), 29→31 exp
-  Universal Tower Defense: 9→8 activos (-1), 65→66 exp
-  Verse Piece: 150→150 activos (=), 67→69 exp
-  Volleyball Legends: 4→1 activos (-3), 257→260 exp
-  You Vs Homer: 0→0 activos (=), 6→8 exp
+Códigos nuevos: 0 | Movidos a expirados: 0
+Tiempo: 135.8s | Concurrencia: 10
 
 Detalle cambios:
-data/games/codigos-anime-chaos-simulator.json
-data/games/codigos-anime-fighting-simulator-endless.json
-data/games/codigos-anime-guardians.json
-data/games/codigos-aopg.json
-data/games/codigos-are-you-sure.json
-data/games/codigos-arm-wrestle-simulator.json
-data/games/codigos-armless-detective.json
-data/games/codigos-asylum-life.json
-data/games/codigos-attack-on-titan-revolution.json
-data/games/codigos-be-a-lucky-block.json
-data/games/codigos-button-eternal.json
-data/games/codigos-car-zone.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-cog.json
-data/games/codigos-corsa-legends.json
-data/games/codigos-dead-spells.json
-data/games/codigos-doodle-world.json
-data/games/codigos-dragon-blox.json
-data/games/codigos-drive-thru-tycoon.json
-data/games/codigos-dueling-grounds.json
-data/games/codigos-dungeon-heroes.json
-data/games/codigos-emote-rng.json
-data/games/codigos-five-nights-hunted.json
-data/games/codigos-flight-world.json
-data/games/codigos-garden-tower-defense.json
-data/games/codigos-heavyweight-fishing.json
-data/games/codigos-hots-rng.json
-data/games/codigos-hunt-giant-fish.json
-data/games/codigos-idle-defense.json
-data/games/codigos-jujutsu-beatdown.json
-data/games/codigos-kaizen.json
-data/games/codigos-loot-up.json
-data/games/codigos-massacre.json
-data/games/codigos-my-prison.json
-data/games/codigos-navy-tycoon.json
-data/games/codigos-noob-army-tycoon.json
-data/games/codigos-oaklands.json
-data/games/codigos-outbreak.json
-data/games/codigos-pillow-fighting-simulator.json
-data/games/codigos-rebirth-champions-ultimate.json
-data/games/codigos-reborn-skills-master.json
-data/games/codigos-rivals.json
-data/games/codigos-st-blockade-reboot.json
-data/games/codigos-the-forge.json
-data/games/codigos-throwing-simulator.json
-data/games/codigos-universal-tower-defense.json
-data/games/codigos-verse-piece.json
-data/games/codigos-volleyball-legends.json
-data/games/codigos-you-vs-homer.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
