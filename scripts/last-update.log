@@ -1,49 +1,21 @@
-=== RESUMEN UPDATE 2026-05-03 09:20 ===
+=== RESUMEN UPDATE 2026-05-03 20:37 ===
 
 Archivos modificados:
-  3 archivos cambiados
+  2 archivos cambiados
 
 Archivos nuevos:
-  27 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4313 juegos (4313 procesados)
 Actualizados: 0 | Sin cambios: 4168
 No encontrado: 132 | Saltados: 13
 Códigos nuevos: 0 | Movidos a expirados: 0
-Tiempo: 140.4s | Concurrencia: 10
+Tiempo: 143.8s | Concurrencia: 10
 
 Detalle cambios:
-data/gameguide-urls.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-anime-evolution-re.json
-data/games/codigos-anime-power-league.json
-data/games/codigos-build-a-farm-factory.json
-data/games/codigos-build-your-gym.json
-data/games/codigos-bus-master.json
-data/games/codigos-camo-or-snipe.json
-data/games/codigos-card-shop-friends.json
-data/games/codigos-cardfantasy-rng.json
-data/games/codigos-catch-a-baddie.json
-data/games/codigos-clover-origins.json
-data/games/codigos-fuse-3-dragons.json
-data/games/codigos-launch-a-tire.json
-data/games/codigos-launch-your-rocket.json
-data/games/codigos-my-knife-farm.json
-data/games/codigos-pirate-piece.json
-data/games/codigos-plane-crash-simulator.json
-data/games/codigos-reborn-incremental.json
-data/games/codigos-roblox-bees.json
-data/games/codigos-scp-architect-x.json
-data/games/codigos-slime-rng.json
-data/games/codigos-slime-seas.json
-data/games/codigos-soccer-zero.json
-data/games/codigos-spin-a-anime.json
-data/games/codigos-spin-a-kitty.json
-data/games/codigos-the-cul-de-sac.json
-data/games/codigos-train-kaiju-to-destroy.json
-data/games/codigos-world-fighters.json
 
