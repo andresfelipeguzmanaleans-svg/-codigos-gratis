@@ -1,27 +1,21 @@
-=== RESUMEN UPDATE 2026-05-09 20:40 ===
+=== RESUMEN UPDATE 2026-05-10 09:26 ===
 
 Archivos modificados:
-  3 archivos cambiados
+  2 archivos cambiados
 
 Archivos nuevos:
-  5 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4323 juegos (4323 procesados)
 Actualizados: 0 | Sin cambios: 4178
 No encontrado: 132 | Saltados: 13
 Códigos nuevos: 0 | Movidos a expirados: 0
-Tiempo: 158.1s | Concurrencia: 10
+Tiempo: 162.2s | Concurrencia: 10
 
 Detalle cambios:
-data/gameguide-urls.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-anime-card-battle-x.json
-data/games/codigos-cut-grass-for-anime-characters.json
-data/games/codigos-just-a-rng-game.json
-data/games/codigos-roblox-elementalism.json
-data/games/codigos-toons-universe.json
 
