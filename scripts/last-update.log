@@ -1,23 +1,21 @@
-=== RESUMEN UPDATE 2026-05-10 20:42 ===
+=== RESUMEN UPDATE 2026-05-11 10:58 ===
 
 Archivos modificados:
-  3 archivos cambiados
+  2 archivos cambiados
 
 Archivos nuevos:
-  1 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4324 juegos (4324 procesados)
-Actualizados: 0 | Sin cambios: 4179
-No encontrado: 132 | Saltados: 13
+Actualizados: 0 | Sin cambios: 4178
+No encontrado: 133 | Saltados: 13
 Códigos nuevos: 0 | Movidos a expirados: 0
-Tiempo: 147.9s | Concurrencia: 10
+Tiempo: 164.3s | Concurrencia: 10
 
 Detalle cambios:
-data/gameguide-urls.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-summon-heroes.json
 
