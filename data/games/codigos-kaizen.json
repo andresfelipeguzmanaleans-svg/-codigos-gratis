@@ -5,19 +5,11 @@
   "description": "Todos los códigos activos para Kaizen en Roblox",
   "metaTitle": "Códigos Kaizen Roblox (Abril 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Kaizen en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-04-30T20:53:38.688Z",
+  "lastUpdated": "2026-05-14T10:09:29.684Z",
   "activeCodes": [],
   "expiredCodes": [
     {
-      "code": "DelayExp!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "Expedition!",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "QUICKFIX0",
+      "code": "THANKS_FOR_14_MIL",
       "reward": "Recompensa gratis"
     },
     {
@@ -41,14 +33,6 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "BUG_FIX",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "THANKS_FOR_14_MIL",
-      "reward": "Recompensa gratis"
-    },
-    {
       "code": "SUB_TO_GRIFON_GAMES_2",
       "reward": "4 Clan giros, doble Module Drop Rate (30 minutos)"
     },
@@ -69,16 +53,36 @@
       "reward": "5 Clan giros"
     },
     {
-      "code": "RyuSoon!",
-      "reward": "5 Lucky Clan giros, 2x Raid suerte (30 minutos), and 2x Mastery EXP (15 minutos)"
+      "code": "2xRewards",
+      "reward": "5 Lucky giros and 5 Binding Vows"
     },
     {
       "code": "ALPHA!",
       "reward": "15 minuto 2x EXP"
     },
     {
+      "code": "JogoUpdate!",
+      "reward": "2x Mastery (15 minutos), 8 Binding Vow giros, and 7 Lucky giros"
+    },
+    {
+      "code": "JogoRaid!",
+      "reward": "2x Raid recompensa (30 minutos)"
+    },
+    {
       "code": "Tojishere!",
       "reward": "5 Lucky giros, 10 Clan giros, 2x Raid suerte (30 minutos), and 2x Mastery EXP (15 minutos)"
+    },
+    {
+      "code": "THIS_IS_OUR_KAIZEN",
+      "reward": "5 Clan giros and 2 Modules"
+    },
+    {
+      "code": "BUG_FIX",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "RyuSoon!",
+      "reward": "5 Lucky Clan giros, 2x Raid suerte (30 minutos), and 2x Mastery EXP (15 minutos)"
     },
     {
       "code": "BindingVow",
@@ -105,14 +109,6 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "INVERTED_SPEAR_UPDT",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "30kCCU!",
-      "reward": "10 Lucky Clan giros and 10 Binding Vows giros"
-    },
-    {
       "code": "20KPLAYERS!",
       "reward": "12 Clan giros"
     },
@@ -125,8 +121,8 @@
       "reward": "2x Mastery EXP (15 minutos), 2 reinicio de stats tokens, and 3 Clan giros"
     },
     {
-      "code": "Lucky24k",
-      "reward": "Lucky giros"
+      "code": "UpdateSoon!",
+      "reward": "5 Lucky Clan giros and 30 minutos 2x cofre suerte"
     },
     {
       "code": "1500LIKES",
@@ -143,30 +139,6 @@
     {
       "code": "FOURSPINS",
       "reward": "Recompensa gratis"
-    },
-    {
-      "code": "GAMER_FLASH",
-      "reward": "40 Clan giros and 2 Modules"
-    },
-    {
-      "code": "RaidDrop",
-      "reward": "2x Drop Rate Chances in Raids for 30 minutos"
-    },
-    {
-      "code": "THIS_IS_OUR_KAIZEN",
-      "reward": "5 Clan giros and 2 Modules"
-    },
-    {
-      "code": "UpdateSoon!",
-      "reward": "5 Lucky Clan giros and 30 minutos 2x cofre suerte"
-    },
-    {
-      "code": "Heavenly!",
-      "reward": "Giros and Mastery"
-    },
-    {
-      "code": "BETA",
-      "reward": "500 Yen"
     },
     {
       "code": "4K_LIKES!",
@@ -221,6 +193,30 @@
       "reward": "15 Lucky Clan giros, 30 minutos 2x Mastery, and 15 Binding Vows giros"
     },
     {
+      "code": "VerySorry!",
+      "reward": "1 Domain Shard, 5 Binding Vows giros, and 8 Lucky Clan giros"
+    },
+    {
+      "code": "Lucky24k",
+      "reward": "Lucky giros"
+    },
+    {
+      "code": "GAMER_FLASH",
+      "reward": "40 Clan giros and 2 Modules"
+    },
+    {
+      "code": "RaidDrop",
+      "reward": "2x Drop Rate Chances in Raids for 30 minutos"
+    },
+    {
+      "code": "Heavenly!",
+      "reward": "Giros and Mastery"
+    },
+    {
+      "code": "INVERTED_SPEAR_UPDT",
+      "reward": "Recompensa gratis"
+    },
+    {
       "code": "YutaCopy!",
       "reward": "10 Clan giros"
     },
@@ -229,8 +225,8 @@
       "reward": "10 Clan giros, 1 Stat Purity Token, 2x EXP Boost (30 minutos), and 2x Mastery Boost (30 minutos)"
     },
     {
-      "code": "VerySorry!",
-      "reward": "1 Domain Shard, 5 Binding Vows giros, and 8 Lucky Clan giros"
+      "code": "BETA",
+      "reward": "500 Yen"
     },
     {
       "code": "4kCCU!",
@@ -239,6 +235,22 @@
     {
       "code": "100k!",
       "reward": "10 Clan giros, 1 Stat Purity Token, 2x EXP Boost (30 minutos), and 2x Mastery Boost (30 minutos)"
+    },
+    {
+      "code": "QUICKFIX0",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "30kCCU!",
+      "reward": "10 Lucky Clan giros and 10 Binding Vows giros"
+    },
+    {
+      "code": "DelayExp!",
+      "reward": "5 Lucky giros and 5 Binding Vows"
+    },
+    {
+      "code": "Expedition!",
+      "reward": "5 Lucky Clan giros, 5 Binding Vow giros, 1 Stat Purity Token, and 2x EXP (30 minutos)"
     },
     {
       "code": "HairCombin!",
