@@ -5,16 +5,24 @@
   "description": "Todos los códigos activos para Navy Tycoon en Roblox",
   "metaTitle": "Códigos Navy Tycoon Roblox (Abril 2026) - Códigos Gratis",
   "metaDescription": "Lista de códigos para Navy Tycoon en Roblox. Consulta códigos activos y expirados.",
-  "lastUpdated": "2026-04-30T20:53:53.811Z",
+  "lastUpdated": "2026-05-15T20:55:27.040Z",
   "activeCodes": [],
   "expiredCodes": [
     {
-      "code": "CRUISERS",
-      "reward": "Recompensas gratis"
+      "code": "CASHMONEY",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "BOMBERS",
+      "reward": "1 giro"
+    },
+    {
+      "code": "CLANS",
+      "reward": "1 giro"
     },
     {
       "code": "BISMARCK",
-      "reward": "1 giro"
+      "reward": "Giro"
     },
     {
       "code": "WAR",
@@ -25,12 +33,8 @@
       "reward": "1 giro"
     },
     {
-      "code": "BUNKER",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "CASHMONEY",
-      "reward": "Recompensa"
+      "code": "CRUISERS",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "LEGACY",
@@ -39,6 +43,10 @@
     {
       "code": "RELEASE",
       "reward": "1 giro"
+    },
+    {
+      "code": "BUNKER",
+      "reward": "Recompensa"
     },
     {
       "code": "HOVERCRAFT",
