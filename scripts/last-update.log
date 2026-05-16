@@ -1,114 +1,55 @@
-=== RESUMEN UPDATE 2026-05-15 20:56 ===
+=== RESUMEN UPDATE 2026-05-16 09:26 ===
 
 Archivos modificados:
-  41 archivos cambiados
+  13 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4325 juegos (4325 procesados)
-Actualizados: 39 | Sin cambios: 4141
+Total: 4326 juegos (4326 procesados)
+Actualizados: 11 | Sin cambios: 4170
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 21 | Movidos a expirados: 36
-Tiempo: 143.6s | Concurrencia: 10
+Códigos nuevos: 13 | Movidos a expirados: 4
+Tiempo: 156.1s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Slayer Blade: 12→13 activos (+1), 107→107 exp
-    Nuevos: M1F7Q4
-  1 Unlimited World: 12→13 activos (+1), 56→56 exp
-    Nuevos: q1JSD6
-  Anime Card Collection: 1→3 activos (+2), 39→39 exp
-    Nuevos: sorry, ThirtyFiveCode
-  Anime Fighting Simulator Endless: 8→2 activos (-6), 142→150 exp
-    Nuevos: BulmaBug, CustomPower
-  Anime Leveling: 35→38 activos (+3), 27→27 exp
-    Nuevos: Easier, Hashira, Mana
-  Anime Story: 11→4 activos (-7), 155→162 exp
-  Anime Waifu Card Collection: 8→9 activos (+1), 0→0 exp
-    Nuevos: PITY
-  Arise Shadow Hunt: 1→0 activos (-1), 72→74 exp
-  Attack On Titan Revolution: 4→3 activos (-1), 163→166 exp
-  Basketball Stars 3: 1→0 activos (-1), 52→53 exp
-  Battle For Dream Island Again: 1→0 activos (-1), 132→133 exp
-  Beyond Volleyball League: 1→0 activos (-1), 67→68 exp
-  Cardfantasy Rng: 9→12 activos (+3), 0→0 exp
-    Nuevos: 1KCCU, SORRYFORBUGS, VOYAGEUPD
-  Catch A Monster: 2→1 activos (-1), 89→91 exp
-  Dead Spells: 4→1 activos (-3), 44→47 exp
-  Dinosaur Life: 0→1 activos (+1), 12→12 exp
-    Nuevos: LAND_SPINO
-  Divine Duality Elemental: 0→0 activos (=), 70→72 exp
-  Dungeon Heroes: 2→1 activos (-1), 65→66 exp
-  Fish It: 2→1 activos (-1), 50→51 exp
-  Fisch: 3→2 activos (-1), 111→112 exp
-  Fistborn: 2→1 activos (-1), 165→166 exp
-  Navy Tycoon: 0→0 activos (=), 10→12 exp
-  Nft Battle: 0→0 activos (=), 25→27 exp
-  One Fruit: 6→4 activos (-2), 331→333 exp
-  Outbreak: 0→1 activos (+1), 14→14 exp
-    Nuevos: 50KLIKES
-  Pet Quest: 0→0 activos (=), 60→61 exp
-  Reborn Skills Master: 34→33 activos (-1), 24→25 exp
-  Rivals: 0→0 activos (=), 193→194 exp
-  Robong Megabonk: 0→1 activos (+1), 31→31 exp
-    Nuevos: doomecho
-  Slime Rng: 5→7 activos (+2), 12→12 exp
-    Nuevos: BONUSbonusBONUS, goingBananas
-  Snatch A Seed: 1→0 activos (-1), 20→21 exp
-  Specter: 2→1 activos (-1), 25→26 exp
-  Toy Defense: 0→0 activos (=), 34→35 exp
-  Type Soul: 2→2 activos (=), 313→318 exp
-  Ultra Un Fair: 0→1 activos (+1), 152→152 exp
-    Nuevos: !MovesAndChanges!
-  Underground War 2 0: 0→0 activos (=), 272→273 exp
-  Universal Tower Defense: 16→12 activos (-4), 75→80 exp
-  World Fighters: 78→80 activos (+2), 0→0 exp
-    Nuevos: 10MILLIONVISITSINSANE!!, UPDATE3QOL
-  Yeet a Friend: 1→0 activos (-1), 68→69 exp
+  Anime Eternal: 0→1 activos (+1), 768→768 exp
+    Nuevos: Update50MiniUpdate
+  Anime Story: 4→8 activos (+4), 162→162 exp
+    Nuevos: blackcloveromg, naturetower, robloxpmo, tyforccu
+  Corsa Legends: 2→0 activos (-2), 35→37 exp
+  Fairy Tail Re: 7→8 activos (+1), 3→3 exp
+    Nuevos: !code ARCHERY!
+  Highway Legends: 1→2 activos (+1), 30→30 exp
+    Nuevos: 1millionmembers
+  Money Clicker Inc: 1→2 activos (+1), 19→20 exp
+    Nuevos: ThisCouldBeYourAd
+  Nfl Universe Football: 37→38 activos (+1), 249→249 exp
+    Nuevos: TSUNAMI
+  Ninja Time: 6→4 activos (-2), 240→242 exp
+  Saber Simulator: 0→1 activos (+1), 95→95 exp
+    Nuevos: GALAXY
+  Tennis Clash: 25→26 activos (+1), 2→2 exp
+    Nuevos: HC2YTYDK325
+  Universal Tower Defense: 12→14 activos (+2), 80→80 exp
+    Nuevos: WanoCountdownDay3!, WanoCountdownDay4!
 
 Detalle cambios:
-data/games/codigos-1-slayer-blade.json
-data/games/codigos-1-unlimited-world.json
-data/games/codigos-anime-card-collection.json
-data/games/codigos-anime-fighting-simulator-endless.json
-data/games/codigos-anime-leveling.json
+data/games/codigos-anime-eternal.json
 data/games/codigos-anime-story.json
-data/games/codigos-anime-waifu-card-collection.json
-data/games/codigos-arise-shadow-hunt.json
-data/games/codigos-attack-on-titan-revolution.json
-data/games/codigos-basketball-stars-3.json
-data/games/codigos-battle-for-dream-island-again.json
-data/games/codigos-beyond-volleyball-league.json
-data/games/codigos-cardfantasy-rng.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-dead-spells.json
-data/games/codigos-dinosaur-life.json
-data/games/codigos-divine-duality-elemental.json
-data/games/codigos-dungeon-heroes.json
-data/games/codigos-fisch.json
-data/games/codigos-fish-it.json
-data/games/codigos-fistborn.json
-data/games/codigos-navy-tycoon.json
-data/games/codigos-nft-battle.json
-data/games/codigos-one-fruit.json
-data/games/codigos-outbreak.json
-data/games/codigos-pet-quest.json
-data/games/codigos-reborn-skills-master.json
-data/games/codigos-rivals.json
-data/games/codigos-robong-megabonk.json
-data/games/codigos-slime-rng.json
-data/games/codigos-snatch-a-seed.json
-data/games/codigos-specter.json
-data/games/codigos-toy-defense.json
-data/games/codigos-type-soul.json
-data/games/codigos-ultra-un-fair.json
-data/games/codigos-underground-war-2-0.json
+data/games/codigos-corsa-legends.json
+data/games/codigos-fairy-tail-re.json
+data/games/codigos-highway-legends.json
+data/games/codigos-money-clicker-inc.json
+data/games/codigos-nfl-universe-football.json
+data/games/codigos-ninja-time.json
+data/games/codigos-saber-simulator.json
+data/games/codigos-tennis-clash.json
 data/games/codigos-universal-tower-defense.json
-data/games/codigos-world-fighters.json
-data/games/codigos-yeet-a-friend.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-peak-evolution.json
 
