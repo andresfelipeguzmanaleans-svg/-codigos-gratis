@@ -4,9 +4,29 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-d587b2d6f7900520b40434575560504c/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Aopg en Roblox",
   "metaTitle": "Códigos Aopg Roblox (Mayo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Aopg en Roblox. 20 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-14T10:08:23.421Z",
+  "metaDescription": "Lista actualizada de códigos para Aopg en Roblox. 24 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-05-17T20:41:01.017Z",
   "activeCodes": [
+    {
+      "code": "GearThird",
+      "reward": "Doble Drops (1 hora)",
+      "addedDate": "2026-05-17"
+    },
+    {
+      "code": "MyPeak",
+      "reward": "10 Food",
+      "addedDate": "2026-05-17"
+    },
+    {
+      "code": "RubberPower",
+      "reward": "100K gemas",
+      "addedDate": "2026-05-17"
+    },
+    {
+      "code": "TrueSunGod",
+      "reward": "15 XP tickets",
+      "addedDate": "2026-05-17"
+    },
     {
       "code": "Accelerator",
       "reward": "Doble Drops (1 hora)",
@@ -109,19 +129,15 @@
   ],
   "expiredCodes": [
     {
-      "code": "Update!",
-      "reward": "Doble Drops (30 minutos)"
-    },
-    {
-      "code": "Gilgamesh",
-      "reward": "2 llaves of Babylon"
-    },
-    {
-      "code": "Poneglyphs",
-      "reward": "20 Poneglyphs"
-    },
-    {
       "code": "GyukiFruit!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BossSmithUPD!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "QOLBuffFixes!",
       "reward": "Recompensas gratis"
     },
     {
@@ -135,10 +151,6 @@
     {
       "code": "PULLMYTRIGGER",
       "reward": "2x EXP Boost (1 hora)"
-    },
-    {
-      "code": "SorryForSnakeDelay!",
-      "reward": "2x EXP (60 minutos)"
     },
     {
       "code": "GoldFruit!",
@@ -185,16 +197,20 @@
       "reward": "Recompensas gratis"
     },
     {
+      "code": "SorryForSnakeDelay!",
+      "reward": "2x EXP (60 minutos)"
+    },
+    {
       "code": "Boundless Fear",
       "reward": "30,000 gemas"
     },
     {
-      "code": "Quality!",
-      "reward": "1 Poneglyph"
-    },
-    {
       "code": "HaveAGreatDay!",
       "reward": "2x gemas for 15 minutos"
+    },
+    {
+      "code": "Quality!",
+      "reward": "1 Poneglyph"
     },
     {
       "code": "DaimyoOdenBlades!",
@@ -233,52 +249,20 @@
       "reward": "2x Drops Boost (1 hora)"
     },
     {
-      "code": "WeAreReallyBack!!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "QOLBuffFixes!",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "FullSerpentMode!",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Hellsing",
-      "reward": "1 Poneglyph"
-    },
-    {
-      "code": "Sogeking",
-      "reward": "2x EXP for 1 hora"
     },
     {
       "code": "150MVISITS",
       "reward": "1 Race Reroll"
     },
     {
-      "code": "Fairy Tail",
-      "reward": "20 Poneglyphs"
-    },
-    {
-      "code": "SUMMER HYPE!",
-      "reward": "30,000 gemas"
-    },
-    {
-      "code": "True Kyoka",
-      "reward": "2x EXP Boost"
-    },
-    {
-      "code": "QolChanges5",
-      "reward": "1 Poneglyph"
-    },
-    {
-      "code": "BossSmithUPD!",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "SaturnUPD!",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Fairy Tail",
+      "reward": "20 Poneglyphs"
     },
     {
       "code": "BossDragon!",
@@ -293,6 +277,14 @@
       "reward": "Recompensas gratis"
     },
     {
+      "code": "SUMMER HYPE!",
+      "reward": "30,000 gemas"
+    },
+    {
+      "code": "True Kyoka",
+      "reward": "2x EXP Boost"
+    },
+    {
       "code": "OMGBossRename!",
       "reward": "5 título giros"
     },
@@ -301,8 +293,24 @@
       "reward": "1 Devil Fruit Reset"
     },
     {
+      "code": "QolChanges5",
+      "reward": "1 Poneglyph"
+    },
+    {
       "code": "TeleportBoss!",
       "reward": "Poneglyph"
+    },
+    {
+      "code": "Sogeking",
+      "reward": "2x EXP for 1 hora"
+    },
+    {
+      "code": "Hellsing",
+      "reward": "1 Poneglyph"
+    },
+    {
+      "code": "WeAreReallyBack!!",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "RaceRoll1732",
@@ -647,6 +655,18 @@
     {
       "code": "EasterPart1!",
       "reward": "20 XP tickets"
+    },
+    {
+      "code": "Poneglyphs",
+      "reward": "20 Poneglyphs"
+    },
+    {
+      "code": "Update!",
+      "reward": "Doble Drops (30 minutos)"
+    },
+    {
+      "code": "Gilgamesh",
+      "reward": "2 llaves of Babylon"
     },
     {
       "code": "InventoryRework!",
