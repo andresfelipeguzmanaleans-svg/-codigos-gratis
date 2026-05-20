@@ -5,8 +5,9 @@
   "description": "Todos los códigos activos para Pet Catchers en Roblox",
   "metaTitle": "Códigos Pet Catchers Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Pet Catchers en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:54:06.973Z",
-  "activeCodes": [
+  "lastUpdated": "2026-05-20T10:45:18.823Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "likes12",
       "reward": "1 Golden Cherry, 1 Lucky Elixir, 1 moneda Elixir"
@@ -14,19 +15,37 @@
     {
       "code": "likes18",
       "reward": "1 Golden Cherry, 1 Lucky Elixir, 1 moneda Elixir"
-    }
-  ],
-  "expiredCodes": [
+    },
+    {
+      "code": "overfishing",
+      "reward": "3 Sea Elixirs And 1 Seafarer Rune"
+    },
+    {
+      "code": "Likes27",
+      "reward": "Golden Cherry, Lucky Elixir (5 minutos) and moneda Elixir (5 minutos)"
+    },
+    {
+      "code": "puffer5",
+      "reward": "5 Mega Lucky Elixirs And 5 Magic Pendants"
+    },
+    {
+      "code": "REBOOT",
+      "reward": "1 Prismatic Sundae, 15 Egg Elixirs, 10 Sea Elixirs, 15 Super Lucky Elixirs, 5K Festive Mystery Eggs"
+    },
+    {
+      "code": "superboost",
+      "reward": "3 Golden Cherry, 3 Super Lucky Elixir, 1 Prismatic Sundae And 5 Egg Elixir"
+    },
+    {
+      "code": "likes17",
+      "reward": "1 Golden Cherry, 1 Lucky Elixir, 1 moneda Elixir"
+    },
     {
       "code": "likes24",
       "reward": "1 Golden Cherry, 1 Lucky Elixir, 1 moneda Elixir"
     },
     {
       "code": "likes25",
-      "reward": "1 Golden Cherry, 1 Lucky Elixir, 1 moneda Elixir"
-    },
-    {
-      "code": "likes17",
       "reward": "1 Golden Cherry, 1 Lucky Elixir, 1 moneda Elixir"
     },
     {
@@ -38,7 +57,11 @@
       "reward": "10 Mega Lucky Elixir"
     },
     {
-      "code": "update1",
+      "code": "Release",
+      "reward": "500 monedas, 1 moneda Elixir"
+    },
+    {
+      "code": "Cherry",
       "reward": "1 Golden Cherry"
     },
     {
@@ -46,12 +69,8 @@
       "reward": "3 Lucky Elixirs"
     },
     {
-      "code": "Cherry",
+      "code": "update1",
       "reward": "1 Golden Cherry"
-    },
-    {
-      "code": "Release",
-      "reward": "500 monedas, 1 moneda Elixir"
     },
     {
       "code": "ilovefishing",
@@ -62,10 +81,6 @@
       "reward": "3 Egg Elixirs, 2000 Mystery Eggs"
     },
     {
-      "code": "festival",
-      "reward": "5 Magic Pendants, 4 Hardcore Tomes, 15 Egg Elixirs, 15 Super Lucky Elixir, 2K Festive Mystery Eggs"
-    },
-    {
       "code": "Looksmaxx",
       "reward": "3 Golden Cherry, 3 Egg Elixirs, 1 Moggy"
     },
@@ -74,12 +89,16 @@
       "reward": "4 Hardcore Tomes"
     },
     {
-      "code": "season1",
-      "reward": "5 Magic Pendants, 5 Prismatic Elixirs, 15 Egg Elixirs, 4 Hardcore Tomes, 25 Respawn Tomes, 15 Super Lucky Elixir"
+      "code": "festival",
+      "reward": "5 Magic Pendants, 4 Hardcore Tomes, 15 Egg Elixirs, 15 Super Lucky Elixir, 2K Festive Mystery Eggs"
     },
     {
       "code": "bruh",
       "reward": "1 Prismatic Sundae, 15 Egg Elixirs, 15 Super Lucky Elixirs, 10 Magic Pendants, 7K Festive Mystery Eggs"
+    },
+    {
+      "code": "season1",
+      "reward": "5 Magic Pendants, 5 Prismatic Elixirs, 15 Egg Elixirs, 4 Hardcore Tomes, 25 Respawn Tomes, 15 Super Lucky Elixir"
     },
     {
       "code": "tropical",
@@ -94,22 +113,6 @@
       "reward": "5 Mega Lucky Elixir, 5 Magic Pendants"
     },
     {
-      "code": "puffer",
-      "reward": "5 Mega Lucky Elixir, 5 Magic Pendants"
-    },
-    {
-      "code": "gravypet",
-      "reward": "Gravycatman Pal, 200 Wildberry, 3 Elixirs"
-    },
-    {
-      "code": "season4",
-      "reward": "5 Mega Lucky Elixirs, 3 Series 4 Mystery Eggs"
-    },
-    {
-      "code": "thegames",
-      "reward": "3 Mega Lucky Elixirs, 3 Series 3 Mystery Eggs, 3 Magic Pendants"
-    },
-    {
       "code": "brite",
       "reward": "Brite Pal, 200 Wildberry, 3 Elixirs"
     },
@@ -118,36 +121,32 @@
       "reward": "Russo Pal, 200 Wildberry, 3 Elixirs"
     },
     {
-      "code": "runes",
-      "reward": "1 Seafarer Rune, 1 Feral Strike Rune, 1 Critical Hit Rune"
+      "code": "gravypet",
+      "reward": "Gravycatman Pal, 200 Wildberry, 3 Elixirs"
     },
     {
-      "code": "void",
-      "reward": "1 Void Cherry"
+      "code": "puffer",
+      "reward": "5 Mega Lucky Elixir, 5 Magic Pendants"
+    },
+    {
+      "code": "thegames",
+      "reward": "3 Mega Lucky Elixirs, 3 Series 3 Mystery Eggs, 3 Magic Pendants"
+    },
+    {
+      "code": "season4",
+      "reward": "5 Mega Lucky Elixirs, 3 Series 4 Mystery Eggs"
     },
     {
       "code": "atlantis",
       "reward": "2 Magic Pendant"
     },
     {
-      "code": "overfishing",
-      "reward": "3 Sea Elixirs And 1 Seafarer Rune"
+      "code": "void",
+      "reward": "1 Void Cherry"
     },
     {
-      "code": "puffer5",
-      "reward": "5 Mega Lucky Elixirs And 5 Magic Pendants"
-    },
-    {
-      "code": "REBOOT",
-      "reward": "1 Prismatic Sundae, 15 Egg Elixirs, 10 Sea Elixirs, 15 Super Lucky Elixirs, 5K Festive Mystery Eggs"
-    },
-    {
-      "code": "Likes27",
-      "reward": "Golden Cherry, Lucky Elixir (5 minutos) and moneda Elixir (5 minutos)"
-    },
-    {
-      "code": "superboost",
-      "reward": "3 Golden Cherry, 3 Super Lucky Elixir, 1 Prismatic Sundae And 5 Egg Elixir"
+      "code": "runes",
+      "reward": "1 Seafarer Rune, 1 Feral Strike Rune, 1 Critical Hit Rune"
     }
   ],
   "howToRedeem": [

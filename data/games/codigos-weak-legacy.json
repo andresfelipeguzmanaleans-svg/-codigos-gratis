@@ -5,8 +5,9 @@
   "description": "Todos los códigos activos para Weak Legacy en Roblox",
   "metaTitle": "Códigos Weak Legacy Roblox (Marzo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Weak Legacy en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:32:53.417Z",
-  "activeCodes": [
+  "lastUpdated": "2026-05-20T10:46:14.928Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "NEWDEMONSLAYERSEASON50SPINS",
       "reward": "50 giros"
@@ -14,16 +15,22 @@
     {
       "code": "WINDUPDATERESETBREATHINGORART",
       "reward": "Breathing Reset"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "WINDUPDATERESETRACE",
-      "reward": "Race Reset"
     },
     {
       "code": "RESETBREATHINGORARTCODE",
       "reward": "Breathing Reset"
+    },
+    {
+      "code": "FREERESETBREATHINGORART",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "SPEEDUPDATERESETBREATHINGORART",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "LOVEUPDATERESETRAC",
+      "reward": "Race Reset"
     },
     {
       "code": "EMOTIONUPDATERESETRACE",
@@ -90,10 +97,6 @@
       "reward": "Giros"
     },
     {
-      "code": "LOVEUPDATERESETRAC",
-      "reward": "Race Reset"
-    },
-    {
       "code": "SUNV2UPDATERESETRACE",
       "reward": "Race Reset"
     },
@@ -114,12 +117,8 @@
       "reward": "Race Reset"
     },
     {
-      "code": "FREERESETBREATHINGORART",
-      "reward": "Breathing Reset"
-    },
-    {
-      "code": "SPEEDUPDATERESETBREATHINGORART",
-      "reward": "Breathing Reset"
+      "code": "WINDUPDATERESETRACE",
+      "reward": "Race Reset"
     }
   ],
   "howToRedeem": [

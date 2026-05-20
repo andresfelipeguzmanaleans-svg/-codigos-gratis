@@ -5,18 +5,16 @@
   "description": "Todos los códigos activos para Mugen en Roblox",
   "metaTitle": "Códigos Mugen Roblox (Mayo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Mugen en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-19T10:57:01.250Z",
-  "activeCodes": [
-    {
-      "code": "STREAMDAYZ",
-      "reward": "Recompensas",
-      "addedDate": "2026-03-23"
-    }
-  ],
+  "lastUpdated": "2026-05-20T10:45:08.006Z",
+  "activeCodes": [],
   "expiredCodes": [
     {
-      "code": "BLOODYAY",
-      "reward": "Recompensas gratis"
+      "code": "STREAMDAYZ",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "SORRYFORDELAY",
+      "reward": "Giros And Cash"
     },
     {
       "code": "QUALITYOFLIFE1",
@@ -29,18 +27,6 @@
     {
       "code": "100KINFINITY",
       "reward": "10 Lucky giros And 10k dinero"
-    },
-    {
-      "code": "INFINITYSOON",
-      "reward": "20 Lucky giros"
-    },
-    {
-      "code": "MUGENINFINITY",
-      "reward": "15 Lucky giros And Cash"
-    },
-    {
-      "code": "LAGFIXES",
-      "reward": "5 Lucky giros"
     },
     {
       "code": "PLAYTEST",
@@ -71,6 +57,10 @@
       "reward": "2 Lucky giros And 30k Cash"
     },
     {
+      "code": "DECEMBER",
+      "reward": "10 Lucky giros And 10k Cash"
+    },
+    {
       "code": "50KINFINITY",
       "reward": "10 Lucky giros And 10k dinero"
     },
@@ -83,6 +73,10 @@
       "reward": "2 Lucky giros And 30k dinero"
     },
     {
+      "code": "QOLISNEXT",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "XOKUATTEMPT2",
       "reward": "10 Lucky giros And 10k Yen"
     },
@@ -91,96 +85,100 @@
       "reward": "10 Lucky giros And 10k Yen"
     },
     {
-      "code": "SORRYFORDELAY",
-      "reward": "Giros And Cash"
-    },
-    {
-      "code": "QOLISNEXT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "DECEMBER",
-      "reward": "10 Lucky giros And 10k Cash"
-    },
-    {
-      "code": "glad",
-      "reward": "10 Lucky giros And 10k dinero"
-    },
-    {
-      "code": "XMAS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "400K",
-      "reward": "10 Lucky giros And 10k Cash"
-    },
-    {
-      "code": "50KINTERESTED",
-      "reward": "Giros And Cash"
-    },
-    {
-      "code": "MUGENPEAK",
-      "reward": "6 Lucky giros"
-    },
-    {
-      "code": "25KINFINITY",
-      "reward": "10 Lucky giros And 10k dinero"
-    },
-    {
-      "code": "NEARLYINFINITY",
-      "reward": "10 Lucky giros And 30k Cash"
-    },
-    {
-      "code": "PERFORMANCE2",
-      "reward": "Lucky giros And Cash"
-    },
-    {
-      "code": "MUGENALIVE",
-      "reward": "10 Lucky giros And 10k Yen"
-    },
-    {
-      "code": "CONSOLECURSOR",
-      "reward": "5 Lucky giros And Cash"
-    },
-    {
-      "code": "100KINTERESTED",
-      "reward": "Giros And Cash"
-    },
-    {
-      "code": "CORPSEINFINITY",
-      "reward": "10k Cash And 12 Lucky giros"
-    },
-    {
-      "code": "MERRYCHRISTMAS!",
-      "reward": "12 Lucky giros, 25 Regular giros, And 25k Cash"
-    },
-    {
-      "code": "UPDATEISNEAR",
-      "reward": "20 Lucky giros"
-    },
-    {
-      "code": "EPICSPINS15",
-      "reward": "15 Lucky giros"
-    },
-    {
-      "code": "INFINITYISSOON",
-      "reward": "12K Cash"
-    },
-    {
-      "code": "INFINITYFIXES",
-      "reward": "10 Lucky giros And 10k dinero"
-    },
-    {
-      "code": "SORRYFORTHEBUGS",
-      "reward": "5 Lucky giros"
+      "code": "ian",
+      "reward": "Purple Cosmetic"
     },
     {
       "code": "EASTER",
       "reward": "Lucky giros and Yen"
     },
     {
-      "code": "ian",
-      "reward": "Purple Cosmetic"
+      "code": "MUGENPEAK",
+      "reward": "6 Lucky giros"
+    },
+    {
+      "code": "SORRYFORTHEBUGS",
+      "reward": "5 Lucky giros"
+    },
+    {
+      "code": "INFINITYFIXES",
+      "reward": "10 Lucky giros And 10k dinero"
+    },
+    {
+      "code": "INFINITYISSOON",
+      "reward": "12K Cash"
+    },
+    {
+      "code": "EPICSPINS15",
+      "reward": "15 Lucky giros"
+    },
+    {
+      "code": "UPDATEISNEAR",
+      "reward": "20 Lucky giros"
+    },
+    {
+      "code": "MERRYCHRISTMAS!",
+      "reward": "12 Lucky giros, 25 Regular giros, And 25k Cash"
+    },
+    {
+      "code": "CORPSEINFINITY",
+      "reward": "10k Cash And 12 Lucky giros"
+    },
+    {
+      "code": "100KINTERESTED",
+      "reward": "Giros And Cash"
+    },
+    {
+      "code": "CONSOLECURSOR",
+      "reward": "5 Lucky giros And Cash"
+    },
+    {
+      "code": "MUGENALIVE",
+      "reward": "10 Lucky giros And 10k Yen"
+    },
+    {
+      "code": "PERFORMANCE2",
+      "reward": "Lucky giros And Cash"
+    },
+    {
+      "code": "NEARLYINFINITY",
+      "reward": "10 Lucky giros And 30k Cash"
+    },
+    {
+      "code": "25KINFINITY",
+      "reward": "10 Lucky giros And 10k dinero"
+    },
+    {
+      "code": "BLOODYAY",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "50KINTERESTED",
+      "reward": "Giros And Cash"
+    },
+    {
+      "code": "400K",
+      "reward": "10 Lucky giros And 10k Cash"
+    },
+    {
+      "code": "XMAS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "glad",
+      "reward": "10 Lucky giros And 10k dinero"
+    },
+    {
+      "code": "INFINITYSOON",
+      "reward": "20 Lucky giros"
+    },
+    {
+      "code": "MUGENINFINITY",
+      "reward": "15 Lucky giros And Cash"
+    },
+    {
+      "code": "LAGFIXES",
+      "reward": "5 Lucky giros"
     },
     {
       "code": "475KLIKES",
