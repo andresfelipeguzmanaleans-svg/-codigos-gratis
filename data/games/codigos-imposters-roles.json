@@ -4,14 +4,9 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-51ad7c396f1911ecfee3fd0d1fbb8791/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Imposters Roles en Roblox",
   "metaTitle": "Códigos Imposters Roles Roblox (Mayo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Imposters Roles en Roblox. 52 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-23T09:46:24.628Z",
+  "metaDescription": "Lista actualizada de códigos para Imposters Roles en Roblox. 51 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-05-23T20:41:48.984Z",
   "activeCodes": [
-    {
-      "code": "CONSOLE",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-05-23"
-    },
     {
       "code": "EASTER2026",
       "reward": "Recompensas",
@@ -220,7 +215,12 @@
       "reward": "2 Building Box, 1 Weapon cofre"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "CONSOLE",
+      "reward": "Recompensas gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Imposters Roles en Roblox",
     "Busca el botón de códigos en el menú",

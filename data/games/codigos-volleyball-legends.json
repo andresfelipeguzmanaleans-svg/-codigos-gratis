@@ -5,21 +5,25 @@
   "description": "Todos los códigos activos para Volleyball Legends en Roblox",
   "metaTitle": "Códigos Volleyball Legends Roblox (Mayo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Volleyball Legends en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-20T10:46:14.083Z",
-  "activeCodes": [],
+  "lastUpdated": "2026-05-23T20:43:10.400Z",
+  "activeCodes": [
+    {
+      "code": "UPDATE_71",
+      "reward": "5 Lucky Style giros",
+      "addedDate": "2026-05-23"
+    },
+    {
+      "code": "VINE_WALLS",
+      "reward": "5 Lucky Ability giros",
+      "addedDate": "2026-05-23"
+    },
+    {
+      "code": "IBARA",
+      "reward": "5 Lucky Style giros",
+      "addedDate": "2026-05-23"
+    }
+  ],
   "expiredCodes": [
-    {
-      "code": "OCEAN_UPDATE",
-      "reward": "5 Lucky Ability giros"
-    },
-    {
-      "code": "SEASON_15",
-      "reward": "5 Lucky Style giros"
-    },
-    {
-      "code": "UPDATE_70",
-      "reward": "5 Lucky Style giros"
-    },
     {
       "code": "UPDATE_20",
       "reward": "5 Lucky Style giros"
@@ -265,12 +269,12 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "15M_PLAYS",
-      "reward": "Recompensa gratis"
-    },
-    {
       "code": "UPDATE_19",
       "reward": "5 Lucky Style giros"
+    },
+    {
+      "code": "15M_PLAYS",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "750K_MEMBERS",
@@ -299,10 +303,6 @@
     {
       "code": "ULTRA",
       "reward": "5 Lucky Style giros"
-    },
-    {
-      "code": "EXTRA_TOUCH",
-      "reward": "5 Lucky Ability giros"
     },
     {
       "code": "BUFF",
@@ -337,10 +337,6 @@
       "reward": "5 Lucky Style giros"
     },
     {
-      "code": "UPDATE_33_EVIL",
-      "reward": "5 Lucky Style giros"
-    },
-    {
       "code": "OP_LIBERO",
       "reward": "5 Lucky Style giros"
     },
@@ -353,16 +349,24 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "DASHING",
-      "reward": "5 Lucky Ability giros"
-    },
-    {
       "code": "400M_VISITS",
       "reward": "5 Lucky Style giros"
     },
     {
       "code": "AKARI_BACK",
       "reward": "5 Lucky Style giros"
+    },
+    {
+      "code": "UPDATE_33_EVIL",
+      "reward": "5 Lucky Style giros"
+    },
+    {
+      "code": "EXTRA_TOUCH",
+      "reward": "5 Lucky Ability giros"
+    },
+    {
+      "code": "DASHING",
+      "reward": "5 Lucky Ability giros"
     },
     {
       "code": "CHAOS_TOURNAMENT",
@@ -375,10 +379,6 @@
     {
       "code": "SCHOOLS_BACK",
       "reward": "5 Lucky Ability giros"
-    },
-    {
-      "code": "UPDATE_33_EVI",
-      "reward": "5 Lucky Style giros"
     },
     {
       "code": "CLONE",
@@ -406,10 +406,6 @@
     },
     {
       "code": "KISUKI_BUFFED",
-      "reward": "5 Lucky Ability giros"
-    },
-    {
-      "code": "GOAT_SETTER_RETURNS",
       "reward": "5 Lucky Ability giros"
     },
     {
@@ -449,24 +445,16 @@
       "reward": "5 Lucky Style giros"
     },
     {
-      "code": "ROBLOX_ISSUES",
-      "reward": "500 Tournament monedas"
-    },
-    {
-      "code": "MIKAGE_GOATED",
-      "reward": "5 Lucky Ability giros"
-    },
-    {
-      "code": "BAN_FIX",
-      "reward": "5 Lucky Style giros"
-    },
-    {
       "code": "BONUS_YEN",
       "reward": "Recompensa gratis"
     },
     {
       "code": "HAKKA_NERF",
       "reward": "550 gemas"
+    },
+    {
+      "code": "MIKAGE_GOATED",
+      "reward": "5 Lucky Ability giros"
     },
     {
       "code": "KAZANA_COMING",
@@ -477,8 +465,16 @@
       "reward": "Recompensa gratis"
     },
     {
+      "code": "BAN_FIX",
+      "reward": "5 Lucky Style giros"
+    },
+    {
       "code": "BONUS_SHELLS",
       "reward": "Recompensa gratis"
+    },
+    {
+      "code": "ROBLOX_ISSUES",
+      "reward": "500 Tournament monedas"
     },
     {
       "code": "KIMIRO_SPIKE",
@@ -493,20 +489,12 @@
       "reward": "1 Lucky giro"
     },
     {
-      "code": "UPDATE_15",
-      "reward": "5 Lucky Style giros"
-    },
-    {
       "code": "UPDATE9",
       "reward": "1 Lucky giro"
     },
     {
       "code": "SHUTDOWN_CODE2",
       "reward": "2 Lucky Style giros"
-    },
-    {
-      "code": "100K_INTERESTED2",
-      "reward": "1 Lucky giro"
     },
     {
       "code": "KIMIRO_OUT",
@@ -519,6 +507,18 @@
     {
       "code": "TWINS_ARE_HERE",
       "reward": "5 Lucky Style giros"
+    },
+    {
+      "code": "GOAT_SETTER_RETURNS",
+      "reward": "5 Lucky Ability giros"
+    },
+    {
+      "code": "UPDATE_15",
+      "reward": "5 Lucky Style giros"
+    },
+    {
+      "code": "100K_INTERESTED2",
+      "reward": "1 Lucky giro"
     },
     {
       "code": "ABILITY_FIX",
@@ -563,6 +563,14 @@
     {
       "code": "200MILLION_VISITS",
       "reward": "1 Lucky giro"
+    },
+    {
+      "code": "UPDATE_12",
+      "reward": "2 Lucky giros"
+    },
+    {
+      "code": "UPDATE_33_EVI",
+      "reward": "5 Lucky Style giros"
     },
     {
       "code": "VOLCANO_SEASON",
@@ -611,10 +619,6 @@
     {
       "code": "600K_MEMBERS",
       "reward": "5 Lucky Ability giros"
-    },
-    {
-      "code": "UPDATE_12",
-      "reward": "2 Lucky giros"
     },
     {
       "code": "MOBILE_FIXES",
@@ -789,14 +793,6 @@
       "reward": "5 Lucky Style giros"
     },
     {
-      "code": "FALL_SEASON",
-      "reward": "5 Lucky Ability giros"
-    },
-    {
-      "code": "BECOME_SPIDER",
-      "reward": "5 Lucky Style giros"
-    },
-    {
       "code": "TWINS_RETURN",
       "reward": "5 Lucky Ability giros"
     },
@@ -835,6 +831,14 @@
     {
       "code": "MASTERY_2",
       "reward": "5 Lucky Ability giros"
+    },
+    {
+      "code": "FALL_SEASON",
+      "reward": "5 Lucky Ability giros"
+    },
+    {
+      "code": "BECOME_SPIDER",
+      "reward": "5 Lucky Style giros"
     },
     {
       "code": "UPDATE_45",
@@ -914,6 +918,18 @@
     },
     {
       "code": "UPDATE_51",
+      "reward": "5 Lucky Style giros"
+    },
+    {
+      "code": "OCEAN_UPDATE",
+      "reward": "5 Lucky Ability giros"
+    },
+    {
+      "code": "SEASON_15",
+      "reward": "5 Lucky Style giros"
+    },
+    {
+      "code": "UPDATE_70",
       "reward": "5 Lucky Style giros"
     },
     {
