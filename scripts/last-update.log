@@ -1,31 +1,78 @@
-=== RESUMEN UPDATE 2026-05-24 09:51 ===
+=== RESUMEN UPDATE 2026-05-24 20:47 ===
 
 Archivos modificados:
-  6 archivos cambiados
+  21 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4345 juegos (4345 procesados)
-Actualizados: 4 | Sin cambios: 4196
+Total: 4346 juegos (4346 procesados)
+Actualizados: 19 | Sin cambios: 4182
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 0 | Movidos a expirados: 2
-Tiempo: 139.6s | Concurrencia: 10
+Códigos nuevos: 32 | Movidos a expirados: 5
+Tiempo: 144.6s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Story: 2→1 activos (-1), 174→176 exp
-  Emote Rng: 0→0 activos (=), 26→27 exp
-  One Fruit Simulator: 111→111 activos (=), 236→238 exp
-  Project Mirror Labyrinth: 1→0 activos (-1), 40→41 exp
+  Anime Card Collection: 1→2 activos (+1), 43→43 exp
+    Nuevos: ThirtyEightCode
+  Anime Waifu Card Collection: 2→3 activos (+1), 9→9 exp
+    Nuevos: VOLCANO
+  Armless Detective: 0→1 activos (+1), 73→73 exp
+    Nuevos: incognitofix
+  Build An Arcade: 0→1 activos (+1), 28→28 exp
+    Nuevos: SUMMER
+  Clover Origins: 0→5 activos (+5), 73→73 exp
+    Nuevos: SORRYDELAY2!, THANKS4!, 115KLIKES!, 120KLIKES!, 125KLIKES!
+  Cut Grass For Anime Characters: 1→2 activos (+1), 9→9 exp
+    Nuevos: UPDATEHYPE2026
+  Dead Spells: 0→3 activos (+3), 48→48 exp
+    Nuevos: 108KFAVORITES, 28MVISITS, PartFive
+  Five Nights Td 2: 81→86 activos (+5), 0→0 exp
+    Nuevos: FREEBIE, NEWBYTE, PASSINGOFTIME, RIDINGINSTYLE, UPDATE31
+  Ghoul Re: 5→6 activos (+1), 125→125 exp
+    Nuevos: WEEKENDCODE2
+  Grand Piece Online: 0→0 activos (=), 301→303 exp
+  My Prison: 0→2 activos (+2), 95→95 exp
+    Nuevos: Coop, Island
+  One Fruit: 0→2 activos (+2), 339→339 exp
+    Nuevos: KINGOFTHEHUMANS, SHADOWSCALLING
+  Racket Rivals: 0→2 activos (+2), 60→60 exp
+    Nuevos: FRIENDSHIP, RACKETSKINS
+  Sailor Piece: 7→2 activos (-5), 209→215 exp
+  Slayerbound: 0→3 activos (+3), 27→27 exp
+    Nuevos: INSECT, SPEEDO, UPDATE2
+  Slime Seas: 9→10 activos (+1), 0→0 exp
+    Nuevos: ANIMEUPDATE
+  Survive The Apocalypse: 0→0 activos (=), 12→13 exp
+  Uma Racing: 0→2 activos (+2), 41→41 exp
+    Nuevos: HACHIMI, TOKAITEIO
+  Wheelie District: 2→3 activos (+1), 0→0 exp
+    Nuevos: UPDATE2
 
 Detalle cambios:
-data/games/codigos-anime-story.json
-data/games/codigos-emote-rng.json
-data/games/codigos-one-fruit-simulator.json
-data/games/codigos-project-mirror-labyrinth.json
+data/games/codigos-anime-card-collection.json
+data/games/codigos-anime-waifu-card-collection.json
+data/games/codigos-armless-detective.json
+data/games/codigos-build-an-arcade.json
+data/games/codigos-clover-origins.json
+data/games/codigos-cut-grass-for-anime-characters.json
+data/games/codigos-dead-spells.json
+data/games/codigos-five-nights-td-2.json
+data/games/codigos-ghoul-re.json
+data/games/codigos-grand-piece-online.json
+data/games/codigos-my-prison.json
+data/games/codigos-one-fruit.json
+data/games/codigos-racket-rivals.json
+data/games/codigos-sailor-piece.json
+data/games/codigos-slayerbound.json
+data/games/codigos-slime-seas.json
+data/games/codigos-survive-the-apocalypse.json
+data/games/codigos-uma-racing.json
+data/games/codigos-wheelie-district.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-choso-flipping-experience.json
 

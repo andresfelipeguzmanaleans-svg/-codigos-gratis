@@ -3,26 +3,30 @@
   "name": "Slayerbound",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-bced84f4f6ba84724031db119353983c/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Slayerbound en Roblox",
-  "metaTitle": "Códigos Slayerbound Roblox (Abril 2026) - Códigos Gratis",
+  "metaTitle": "Códigos Slayerbound Roblox (Mayo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Slayerbound en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-04-02T08:49:41.732Z",
-  "activeCodes": [],
+  "lastUpdated": "2026-05-24T20:46:37.951Z",
+  "activeCodes": [
+    {
+      "code": "INSECT",
+      "reward": "Race Reset",
+      "addedDate": "2026-05-24"
+    },
+    {
+      "code": "SPEEDO",
+      "reward": "Reinicio de stats",
+      "addedDate": "2026-05-24"
+    },
+    {
+      "code": "UPDATE2",
+      "reward": "75 giros",
+      "addedDate": "2026-05-24"
+    }
+  ],
   "expiredCodes": [
     {
-      "code": "YENCD",
-      "reward": "Yen"
-    },
-    {
-      "code": "RESET2",
-      "reward": "Reset Race"
-    },
-    {
-      "code": "STATS2",
-      "reward": "Reset Stats"
-    },
-    {
-      "code": "RELEASE",
-      "reward": "10 giros"
+      "code": "anothershutdown",
+      "reward": "12 giros"
     },
     {
       "code": "sorryfordelay",
@@ -33,12 +37,8 @@
       "reward": "Giros and Yen"
     },
     {
-      "code": "anothershut",
-      "reward": "12 giros"
-    },
-    {
-      "code": "anothershutdown",
-      "reward": "12 giros"
+      "code": "RELEASE",
+      "reward": "10 giros"
     },
     {
       "code": "1KLIKES",
@@ -47,6 +47,22 @@
     {
       "code": "100KVISITS",
       "reward": "15 giros"
+    },
+    {
+      "code": "anothershut",
+      "reward": "12 giros"
+    },
+    {
+      "code": "STATS2",
+      "reward": "Reset Stats"
+    },
+    {
+      "code": "RESET2",
+      "reward": "Reset Race"
+    },
+    {
+      "code": "YENCD",
+      "reward": "Yen"
     },
     {
       "code": "KAITO",
