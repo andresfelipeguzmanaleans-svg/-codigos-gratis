@@ -5,17 +5,20 @@
   "description": "Todos los códigos activos para Basketball Zero en Roblox",
   "metaTitle": "Códigos Basketball Zero Roblox (Mayo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Basketball Zero en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-20T10:43:56.976Z",
-  "activeCodes": [],
+  "lastUpdated": "2026-05-25T20:58:31.887Z",
+  "activeCodes": [
+    {
+      "code": "30CLAN",
+      "reward": "150K dinero, 10 Lucky giros",
+      "addedDate": "2026-05-25"
+    },
+    {
+      "code": "CLAN",
+      "reward": "500K dinero, 10 Lucky giros",
+      "addedDate": "2026-05-25"
+    }
+  ],
   "expiredCodes": [
-    {
-      "code": "30LEAGUE",
-      "reward": "10 Lucky giros, 150K Cash"
-    },
-    {
-      "code": "LEAGUE",
-      "reward": "10 Lucky giros, 500K Cash"
-    },
     {
       "code": "KING",
       "reward": "30 Lucky Style giros And 30 Lucky Zone giros"
@@ -253,16 +256,32 @@
       "reward": "20 Lucky giros, 20 Lucky Zone giros"
     },
     {
+      "code": "TEAMCHROLLO",
+      "reward": "10 Lucky giros, 10 Lucky Zone giros"
+    },
+    {
+      "code": "TEAMTATLIS",
+      "reward": "10 Lucky giros, 10 Lucky Zone giros"
+    },
+    {
+      "code": "200KLOCK",
+      "reward": "2 Lucky giros, 3 Lucky Zone giros"
+    },
+    {
       "code": "TOOEZ",
       "reward": "10 Lucky giros, 10 Lucky Flow giros"
     },
     {
-      "code": "LEWIWASHEREAGAIN",
-      "reward": "1 dinero, 1 Lucky giro, and 1 Lucky Zone giro"
-    },
-    {
       "code": "BOOSTEDCODE",
       "reward": "1M Yen, 15 Lucky giros, 15 Lucky Zone giros"
+    },
+    {
+      "code": "CHROLLO600KSUBS",
+      "reward": "10 Lucky giros, 10 Lucky Zone giros"
+    },
+    {
+      "code": "LEWIWASHEREAGAIN",
+      "reward": "1 dinero, 1 Lucky giro, and 1 Lucky Zone giro"
     },
     {
       "code": "CHROLLOSBACK",
@@ -297,20 +316,12 @@
       "reward": "1M Cash, 50 giros"
     },
     {
-      "code": "SHADOWQUEST",
-      "reward": "20K dinero, 15 Lucky giros, 1,000 llaves"
-    },
-    {
       "code": "THEGREATREBALANCE",
       "reward": "25 Lucky giros and 150,000 dinero"
     },
     {
       "code": "CHROLLOGIFT",
       "reward": "Recompensa"
-    },
-    {
-      "code": "200KLOCK",
-      "reward": "2 Lucky giros, 3 Lucky Zone giros"
     },
     {
       "code": "RANKEDCODE",
@@ -365,18 +376,6 @@
       "reward": "15 lucky style and zone giros"
     },
     {
-      "code": "SUMMERFIXES",
-      "reward": "10 Lucky Style giros, 10 Lucky Zone giros"
-    },
-    {
-      "code": "TEAMCHROLLO",
-      "reward": "10 Lucky giros, 10 Lucky Zone giros"
-    },
-    {
-      "code": "TEAMTATLIS",
-      "reward": "10 Lucky giros, 10 Lucky Zone giros"
-    },
-    {
       "code": "TATLISBETTER",
       "reward": "8 Lucky giros, 8 Lucky Zone giros"
     },
@@ -401,28 +400,24 @@
       "reward": "8 Lucky giros, 8 Lucky Zone giros"
     },
     {
-      "code": "TATLISPATCHWOW",
-      "reward": "3 Lucky Style giros, 15K dinero"
-    },
-    {
       "code": "ANOTHERGIFT",
       "reward": "15 Lucky giros, 15 Lucky Zone giros"
+    },
+    {
+      "code": "TATLISPATCHWOW",
+      "reward": "3 Lucky Style giros, 15K dinero"
     },
     {
       "code": "gold",
       "reward": "8 Lucky giros and 8 Lucky Zone giros"
     },
     {
-      "code": "CHROLLO600KSUBS",
-      "reward": "10 Lucky giros, 10 Lucky Zone giros"
+      "code": "SUMMERFIXES",
+      "reward": "10 Lucky Style giros, 10 Lucky Zone giros"
     },
     {
       "code": "ACEREWORK",
       "reward": "7 Lucky giros, 7 Lucky Zone giros"
-    },
-    {
-      "code": "CHROLLOBOREDRN",
-      "reward": "8 Lucky giros, 8 Lucky Zone giros"
     },
     {
       "code": "CHROLLOSOLOS",
@@ -445,16 +440,24 @@
       "reward": "Recompensa"
     },
     {
-      "code": "WCHROLLO",
-      "reward": "Recompensa"
+      "code": "DOBETTERM",
+      "reward": "20 Lucky giros"
     },
     {
       "code": "100KW",
       "reward": "Recompensa"
     },
     {
-      "code": "DOBETTERM",
-      "reward": "20 Lucky giros"
+      "code": "WCHROLLO",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "SHADOWQUEST",
+      "reward": "20K dinero, 15 Lucky giros, 1,000 llaves"
+    },
+    {
+      "code": "CHROLLOBOREDRN",
+      "reward": "8 Lucky giros, 8 Lucky Zone giros"
     },
     {
       "code": "LEWISAYSSORRY",
@@ -467,10 +470,6 @@
     {
       "code": "UNCLESAM",
       "reward": "15 Lucky Style giros, 15 Lucky Zone giros"
-    },
-    {
-      "code": "VERYSRRYDELAY",
-      "reward": "7 Lucky giros, 7 Lucky Zone giros"
     },
     {
       "code": "CHROLLO700KSUBS",
@@ -511,6 +510,10 @@
     {
       "code": "PSYCHIC",
       "reward": "15 Lucky Zone & Style giros"
+    },
+    {
+      "code": "VERYSRRYDELAY",
+      "reward": "7 Lucky giros, 7 Lucky Zone giros"
     },
     {
       "code": "OIL",
@@ -699,6 +702,14 @@
     {
       "code": "RANKEDBLEWUPAGAIN",
       "reward": "20 Lucky Style giros And 20 Lucky Zone giros"
+    },
+    {
+      "code": "LEAGUE",
+      "reward": "10 Lucky giros, 500K Cash"
+    },
+    {
+      "code": "30LEAGUE",
+      "reward": "10 Lucky giros, 150K Cash"
     },
     {
       "code": "1HRVALENTINE",

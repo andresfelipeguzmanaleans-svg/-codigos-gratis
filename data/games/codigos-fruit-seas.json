@@ -4,30 +4,21 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-f587ec6f17720cd05e308003996c1e2b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fruit Seas en Roblox",
   "metaTitle": "Códigos Fruit Seas Roblox (Mayo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 5 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-20T10:44:39.654Z",
-  "activeCodes": [],
+  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 2 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-05-25T20:59:11.165Z",
+  "activeCodes": [
+    {
+      "code": "2xDrop!",
+      "reward": "2 x drop",
+      "addedDate": "2026-05-25"
+    },
+    {
+      "code": "AntiLag",
+      "reward": "Recompensas",
+      "addedDate": "2026-05-25"
+    }
+  ],
   "expiredCodes": [
-    {
-      "code": "2xexp2_upd10",
-      "reward": "2x EXP"
-    },
-    {
-      "code": "Race2_upd10",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "Race_upd10",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "New_Update!!!",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "Sava_Is_goated",
-      "reward": "Reinicio de stats"
-    },
     {
       "code": "UPDATENEWS",
       "reward": "Doble Beli (20 minutos)"
@@ -113,12 +104,20 @@
       "reward": "Doble Mastery (15 minutos)"
     },
     {
-      "code": "UPDATETIME",
-      "reward": "2x EXP (30 minutos)"
+      "code": "DEMONTIMING",
+      "reward": "5000 Beli"
     },
     {
-      "code": "500KVISITS",
-      "reward": "Doble Drops (15 minutos)"
+      "code": "SORRY4SHUTDOWN",
+      "reward": "Doble Drops (10 minutos)"
+    },
+    {
+      "code": "12KLIKES",
+      "reward": "2x EXP (20 minutos)"
+    },
+    {
+      "code": "UPDATETIME",
+      "reward": "2x EXP (30 minutos)"
     },
     {
       "code": "RELEASE",
@@ -133,12 +132,20 @@
       "reward": "Doble Beli (20 minutos)"
     },
     {
+      "code": "7KLIKES",
+      "reward": "2x EXP (20 minutos)"
+    },
+    {
       "code": "50KLIKES1",
       "reward": "Doble Beli (15 minutos)"
     },
     {
       "code": "FOLLOWTWITTER",
       "reward": "Reinicio de stats"
+    },
+    {
+      "code": "500KVISITS",
+      "reward": "Doble Drops (15 minutos)"
     },
     {
       "code": "15KLIKES",
@@ -151,10 +158,6 @@
     {
       "code": "SORRYFORLAG",
       "reward": "100,000 Beli"
-    },
-    {
-      "code": "FOLLOWJAH",
-      "reward": "2x Beli"
     },
     {
       "code": "FARMMM!!!",
@@ -173,28 +176,12 @@
       "reward": "Reinicio de stats"
     },
     {
-      "code": "12KLIKES",
-      "reward": "2x EXP (20 minutos)"
-    },
-    {
-      "code": "5KLIKES",
-      "reward": "Reinicio de stats"
-    },
-    {
       "code": "Statfromark",
       "reward": "Recompensa gratis"
     },
     {
-      "code": "25KLIKES",
-      "reward": "Doble Mastery (20 minutos)"
-    },
-    {
       "code": "South!",
       "reward": "2x EXP Boost (24 horas)"
-    },
-    {
-      "code": "SORRY4SHUTDOWN",
-      "reward": "Doble Drops (10 minutos)"
     },
     {
       "code": "NEWFRUIT",
@@ -219,10 +206,6 @@
     {
       "code": "75KLIKES",
       "reward": "2x Beli (25 minutos)"
-    },
-    {
-      "code": "DEMONTIMING",
-      "reward": "5000 Beli"
     },
     {
       "code": "2kREACHED!",
@@ -297,28 +280,56 @@
       "reward": "2x EXP (30 minutos)"
     },
     {
-      "code": "sorrylol",
-      "reward": "Recompensa gratis"
-    },
-    {
       "code": "6MVISITS",
       "reward": "Doble Beli (20 minutos)"
-    },
-    {
-      "code": "1MVISITS",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "7KLIKES",
-      "reward": "2x EXP (20 minutos)"
     },
     {
       "code": "ALTERMIHAWKBOSS!!",
       "reward": "Race Reroll"
     },
     {
+      "code": "FOLLOWJAH",
+      "reward": "2x Beli"
+    },
+    {
+      "code": "sorrylol",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "1MVISITS",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "25KLIKES",
+      "reward": "Doble Mastery (20 minutos)"
+    },
+    {
+      "code": "5KLIKES",
+      "reward": "Reinicio de stats"
+    },
+    {
       "code": "40KLIKES",
       "reward": "Doble Mastery (20 minutos)"
+    },
+    {
+      "code": "2xexp2_upd10",
+      "reward": "2x EXP"
+    },
+    {
+      "code": "Race_upd10",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "New_Update!!!",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "Sava_Is_goated",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "Race2_upd10",
+      "reward": "Race Reset"
     },
     {
       "code": "exp1_upd10",
