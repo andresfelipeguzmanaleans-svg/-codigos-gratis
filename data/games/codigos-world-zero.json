@@ -5,12 +5,12 @@
   "description": "Todos los códigos activos para World Zero en Roblox",
   "metaTitle": "Códigos World Zero (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para World Zero en Roblox. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-21T11:03:01.877Z",
+  "lastUpdated": "2026-05-26T21:33:29.327Z",
   "activeCodes": [],
   "expiredCodes": [
     {
-      "code": "SEASON14",
-      "reward": "50 Guild monedas"
+      "code": "HEARTBREAKER",
+      "reward": "25 Valentines monedas"
     },
     {
       "code": "BLESSED",
@@ -21,20 +21,8 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "HUNT",
-      "reward": "The Hunt 2025 título"
-    },
-    {
-      "code": "INSANEBUNNY",
-      "reward": "25 Easter monedas and 1 Easter Present"
-    },
-    {
       "code": "PVPUPDATE",
       "reward": "5 PvP monedas"
-    },
-    {
-      "code": "CHALLENGEBUNNY",
-      "reward": "25 Easter monedas and 1 Easter Present"
     },
     {
       "code": "SEASON17CODE",
@@ -165,24 +153,24 @@
       "reward": "150 cristales and 2M Club título"
     },
     {
-      "code": "EASTER26",
-      "reward": "25 Easter monedas and 1 Easter Present"
+      "code": "SEASON14",
+      "reward": "50 Guild monedas"
     },
     {
       "code": "MERCH",
       "reward": "150 gemas"
     },
     {
-      "code": "HEARTBREAKER",
-      "reward": "25 Valentines monedas"
-    },
-    {
       "code": "HAPPYBIRTHDAY",
       "reward": "Zero Player 2025 título and Party Hat"
     },
     {
-      "code": "MERCHDROP",
-      "reward": "150 cristales"
+      "code": "CHALLENGEBUNNY",
+      "reward": "25 Easter monedas and 1 Easter Present"
+    },
+    {
+      "code": "SEASON21",
+      "reward": "50 Guild monedas"
     },
     {
       "code": "LUCKY25",
@@ -213,20 +201,12 @@
       "reward": "Bug Smasher título"
     },
     {
-      "code": "CHRISTMAS25",
-      "reward": "25 Christmas monedas And A Christmas Present"
-    },
-    {
       "code": "MERRYCHRISTMAS",
       "reward": "Christmas monedas And A Christmas Present"
     },
     {
       "code": "CHRISTMASHYPE",
       "reward": "Frosty Tophat"
-    },
-    {
-      "code": "GUILDHALL",
-      "reward": "Miniature Guild Hall"
     },
     {
       "code": "JULY4TH",
@@ -245,35 +225,7 @@
       "reward": "2 Level 1 Innovation Auras"
     },
     {
-      "code": "SALTY",
-      "reward": "100 cristales"
-    },
-    {
-      "code": "700KLIKES",
-      "reward": "150 cristales"
-    },
-    {
-      "code": "JOLLY",
-      "reward": "5 tickets"
-    },
-    {
       "code": "HOLIDAY2021",
-      "reward": "150 cristales"
-    },
-    {
-      "code": "SANTA",
-      "reward": "150 cristales, 15 Christmas monedas and Candy Cane Axe skin"
-    },
-    {
-      "code": "CHRISTMASGOAL",
-      "reward": "300 cristales"
-    },
-    {
-      "code": "VALENTINESHYPE",
-      "reward": "150 cristales"
-    },
-    {
-      "code": "NEWLEAF",
       "reward": "150 cristales"
     },
     {
@@ -285,8 +237,56 @@
       "reward": "5,000 cristales"
     },
     {
+      "code": "CHRISTMASGOAL",
+      "reward": "300 cristales"
+    },
+    {
+      "code": "SANTA",
+      "reward": "150 cristales, 15 Christmas monedas and Candy Cane Axe skin"
+    },
+    {
+      "code": "JOLLY",
+      "reward": "5 tickets"
+    },
+    {
+      "code": "FLUFFY",
+      "reward": "Easter Present"
+    },
+    {
+      "code": "SALTY",
+      "reward": "100 cristales"
+    },
+    {
+      "code": "NEWLEAF",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "650KLIKES",
+      "reward": "150 cristales"
+    },
+    {
       "code": "DRAGONRAID",
       "reward": "25 Dragon monedas and 1 Grand Present"
+    },
+    {
+      "code": "CHRISTMAS25",
+      "reward": "25 Christmas monedas And A Christmas Present"
+    },
+    {
+      "code": "VALENTINESHYPE",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "700KLIKES",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "EASTER26",
+      "reward": "25 Easter monedas and 1 Easter Present"
+    },
+    {
+      "code": "INSANEBUNNY",
+      "reward": "25 Easter monedas and 1 Easter Present"
     },
     {
       "code": "FESTIVE",
@@ -297,10 +297,6 @@
       "reward": "15 Kraken monedas"
     },
     {
-      "code": "SANTACHALLENGE",
-      "reward": "25 Christmas monedas And A Christmas Present"
-    },
-    {
       "code": "CRYSTALIS",
       "reward": "300 cristales"
     },
@@ -309,16 +305,8 @@
       "reward": "25 Easter monedas and an Easter Present"
     },
     {
-      "code": "650KLIKES",
-      "reward": "150 cristales"
-    },
-    {
       "code": "PRIDE",
       "reward": "Rainbow Shades"
-    },
-    {
-      "code": "FLUFFY",
-      "reward": "Easter Present"
     },
     {
       "code": "VANE",
@@ -333,12 +321,24 @@
       "reward": "World Zero 2025 Recap"
     },
     {
+      "code": "SANTACHALLENGE",
+      "reward": "25 Christmas monedas And A Christmas Present"
+    },
+    {
       "code": "MATEYAHOYSCALLYWAG",
       "reward": "Pirate Bandana with a random dye and a Treasure Hunter título"
     },
     {
       "code": "MINI-MIGHT",
       "reward": "Mini-Might Ears"
+    },
+    {
+      "code": "HUNT",
+      "reward": "The Hunt 2025 título"
+    },
+    {
+      "code": "SEASON15",
+      "reward": "50 Guild monedas"
     },
     {
       "code": "ICEBREAKER",
@@ -350,6 +350,14 @@
     },
     {
       "code": "750KLIKES",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "INSANEREACTIONS",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "MERCHDROP",
       "reward": "150 cristales"
     },
     {
@@ -389,6 +397,10 @@
       "reward": "1 Developer regalo and Rainbow título"
     },
     {
+      "code": "GUILDHALL",
+      "reward": "Miniature Guild Hall"
+    },
+    {
       "code": "SEASON20",
       "reward": "50 Guild monedas"
     },
@@ -415,10 +427,6 @@
     {
       "code": "INVASION",
       "reward": "Alien Saber"
-    },
-    {
-      "code": "SEASON15",
-      "reward": "50 Guild monedas"
     },
     {
       "code": "BLUEGREENRED",
@@ -455,10 +463,6 @@
     {
       "code": "PVPBALANCE",
       "reward": "5 PvP monedas"
-    },
-    {
-      "code": "INSANEREACTIONS",
-      "reward": "150 cristales"
     },
     {
       "code": "LEVIATHANDELAY",
