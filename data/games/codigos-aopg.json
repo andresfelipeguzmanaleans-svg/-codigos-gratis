@@ -5,40 +5,35 @@
   "description": "Todos los códigos activos para Aopg en Roblox",
   "metaTitle": "Códigos Aopg Roblox (Mayo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Aopg en Roblox. 4 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-25T20:58:28.699Z",
-  "activeCodes": [
+  "lastUpdated": "2026-05-27T11:31:41.161Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "AbsoluteDestruction",
-      "reward": "Saiyan Spirit",
-      "addedDate": "2026-05-25"
+      "reward": "Saiyan Spirit"
     },
     {
       "code": "HAKAI!",
-      "reward": "35K gemas",
-      "addedDate": "2026-05-25"
+      "reward": "35K gemas"
     },
     {
       "code": "LastSurvivor",
-      "reward": "100 título giros",
-      "addedDate": "2026-05-25"
+      "reward": "100 título giros"
     },
     {
       "code": "UltraEgo",
-      "reward": "10B Belli",
-      "addedDate": "2026-05-25"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "DragonUPD!",
-      "reward": "Recompensas gratis"
+      "reward": "10B Belli"
     },
     {
-      "code": "BossSmithUPD!",
+      "code": "BossHybridFourth!",
       "reward": "Recompensas gratis"
     },
     {
       "code": "QOLBuffFixes!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GyukiFruit!",
       "reward": "Recompensas gratis"
     },
     {
@@ -56,10 +51,6 @@
     {
       "code": "GoldFruit!",
       "reward": "2x Drops Boost (1 hora)"
-    },
-    {
-      "code": "WholeCakeMVP",
-      "reward": "100K gemas"
     },
     {
       "code": "ArtifactsUpdate!",
@@ -98,8 +89,20 @@
       "reward": "2x EXP (60 minutos)"
     },
     {
-      "code": "GyukiFruit!",
+      "code": "BossWukong!",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HALLOWEEN",
+      "reward": "1 Race Reroll"
+    },
+    {
+      "code": "NewRubberUpdate!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BossStudioOnTop",
+      "reward": "30 minuto 2x Beli Boost*"
     },
     {
       "code": "HappyNewYears!",
@@ -130,11 +133,11 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "BossHybridFourth!",
+      "code": "BossOpeUpdate!",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "BossOpeUpdate!",
+      "code": "DragonUPD!",
       "reward": "Recompensas gratis"
     },
     {
@@ -266,12 +269,16 @@
       "reward": "Recompensas gratis"
     },
     {
+      "code": "Rebellion!",
+      "reward": "60 minutos Of 2x Drop"
+    },
+    {
       "code": "ShadowMonarch!",
       "reward": "2x EXP (60 minutos)"
     },
     {
-      "code": "Rebellion!",
-      "reward": "60 minutos Of 2x Drop"
+      "code": "YOUTUBEBACK!!",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "Part 2?!!",
@@ -290,28 +297,16 @@
       "reward": "1 Race Reroll"
     },
     {
-      "code": "EasterPart1!",
-      "reward": "20 XP tickets"
-    },
-    {
-      "code": "GemsForShutdown",
-      "reward": "15 minuto 2x gema Boost*"
-    },
-    {
-      "code": "Easter2026",
-      "reward": "10 Egg puntos"
+      "code": "BossSmithUPD!",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "SaturnUPD!",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "ISNANELUCK!!",
-      "reward": "30 Poneglyphs"
-    },
-    {
-      "code": "TheFever!",
-      "reward": "Doble Drop (1 hora)"
+      "code": "EasterPart1!",
+      "reward": "20 XP tickets"
     },
     {
       "code": "GiantSmith!",
@@ -334,35 +329,47 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "PreHaki!",
-      "reward": "Título giros"
+      "code": "GemsForShutdown",
+      "reward": "15 minuto 2x gema Boost*"
     },
     {
       "code": "OMGBossRename!",
       "reward": "5 título giros"
     },
     {
+      "code": "WholeCakeMVP",
+      "reward": "100K gemas"
+    },
+    {
+      "code": "Easter2026",
+      "reward": "10 Egg puntos"
+    },
+    {
+      "code": "ISNANELUCK!!",
+      "reward": "30 Poneglyphs"
+    },
+    {
+      "code": "TheFever!",
+      "reward": "Doble Drop (1 hora)"
+    },
+    {
       "code": "GeckoMoria",
       "reward": "1 Devil Fruit Reset"
     },
     {
-      "code": "ExtrasUPD!",
-      "reward": "Recompensas gratis"
+      "code": "PreHaki!",
+      "reward": "Título giros"
     },
     {
       "code": "TeleportBoss!",
       "reward": "Poneglyph"
     },
     {
-      "code": "QolChanges5",
-      "reward": "1 Poneglyph"
-    },
-    {
       "code": "Sogeking",
       "reward": "2x EXP for 1 hora"
     },
     {
-      "code": "QOLUpdate!",
+      "code": "ExtrasUPD!",
       "reward": "Recompensas gratis"
     },
     {
@@ -398,20 +405,16 @@
       "reward": "1 Race Reroll"
     },
     {
+      "code": "QOLUpdate!",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "Ninja_way",
       "reward": "Recompensas gratis"
     },
     {
       "code": "NamiUPD!",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NewDeathUpdate!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NewSuits!",
-      "reward": "2x EXP for 1 hora"
     },
     {
       "code": "XuryGivesRaceLuck",
@@ -422,20 +425,36 @@
       "reward": "1 Race Reroll"
     },
     {
+      "code": "NewDeathUpdate!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NewSuits!",
+      "reward": "2x EXP for 1 hora"
+    },
+    {
       "code": "LoyalsCodeAgain!",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "StrongestInHistory",
+      "reward": "2x Drop (1 hora)"
     },
     {
       "code": "YamotoUPD!",
       "reward": "Recompensas gratis"
     },
     {
+      "code": "FallenKingdom",
+      "reward": "30 Poneglyphs"
+    },
+    {
       "code": "VegapunkRaid!",
       "reward": "2x gemas for 1 hora"
     },
     {
-      "code": "StrongestInHistory",
-      "reward": "2x Drop (1 hora)"
+      "code": "QolChanges5",
+      "reward": "1 Poneglyph"
     },
     {
       "code": "WeekendBuff",
@@ -443,10 +462,6 @@
     },
     {
       "code": "Goodbye",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "YOUTUBEBACK!!",
       "reward": "Recompensas gratis"
     },
     {
@@ -540,22 +555,6 @@
     {
       "code": "NewHakiUpdate!",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BossWukong!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HALLOWEEN",
-      "reward": "1 Race Reroll"
-    },
-    {
-      "code": "NewRubberUpdate!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BossStudioOnTop",
-      "reward": "30 minuto 2x Beli Boost*"
     },
     {
       "code": "BuddhaV2!",
