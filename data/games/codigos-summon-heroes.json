@@ -5,16 +5,18 @@
   "description": "Todos los códigos activos para Summon Heroes en Roblox",
   "metaTitle": "Códigos Summon Heroes Roblox (Mayo 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Summon Heroes en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-25T21:00:18.621Z",
-  "activeCodes": [],
+  "lastUpdated": "2026-05-30T20:48:28.553Z",
+  "activeCodes": [
+    {
+      "code": "DIVINEORSERAPH",
+      "reward": "10 Trait Rerolls",
+      "addedDate": "2026-05-30"
+    }
+  ],
   "expiredCodes": [
     {
-      "code": "RUNELAUNCH",
-      "reward": "10 Trait Rerolls"
-    },
-    {
-      "code": "OOF",
-      "reward": "250 gemas"
+      "code": "LEGEND",
+      "reward": "3 legendario Fusion cristales"
     },
     {
       "code": "500GEMS",
@@ -25,6 +27,22 @@
       "reward": "5 invocación tickets"
     },
     {
+      "code": "ULTIMATE",
+      "reward": "5 Trait Rerolls"
+    },
+    {
+      "code": "SUNSET",
+      "reward": "5 Fusion cristales"
+    },
+    {
+      "code": "OOF",
+      "reward": "250 gemas"
+    },
+    {
+      "code": "DIVINE",
+      "reward": "15 Trait Rerolls"
+    },
+    {
       "code": "MOARSHARD",
       "reward": "3 Mythic Shards"
     },
@@ -33,20 +51,8 @@
       "reward": "3 Mythic Shards"
     },
     {
-      "code": "DIVINE",
-      "reward": "15 Trait Rerolls"
-    },
-    {
-      "code": "SUNSET",
-      "reward": "5 Fusion cristales"
-    },
-    {
-      "code": "LEGEND",
-      "reward": "3 legendario Fusion cristales"
-    },
-    {
-      "code": "ULTIMATE",
-      "reward": "5 Trait Rerolls"
+      "code": "RUNELAUNCH",
+      "reward": "10 Trait Rerolls"
     },
     {
       "code": "RUNEHYPE",

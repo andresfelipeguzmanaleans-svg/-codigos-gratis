@@ -1,50 +1,111 @@
-=== RESUMEN UPDATE 2026-05-30 09:55 ===
+=== RESUMEN UPDATE 2026-05-30 20:49 ===
 
 Archivos modificados:
-  14 archivos cambiados
+  35 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4355 juegos (4355 procesados)
-Actualizados: 12 | Sin cambios: 4198
+Actualizados: 33 | Sin cambios: 4177
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 7 | Movidos a expirados: 9
-Tiempo: 184.6s | Concurrencia: 10
+Códigos nuevos: 42 | Movidos a expirados: 7
+Tiempo: 141.9s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Power League: 4→0 activos (-4), 48→52 exp
-  Aopg: 0→0 activos (=), 322→324 exp
-  Baddies Brawl: 0→1 activos (+1), 57→57 exp
-    Nuevos: frost
-  Build A Military Base: 0→0 activos (=), 45→46 exp
-  Car Zone: 1→0 activos (-1), 117→118 exp
-  Drag Drive Simulator: 1→4 activos (+3), 79→80 exp
-    Nuevos: DDSTHX125KROADTO150KLIKES, DELAYDIKITADASAPINGAMUK, NEWMAPNEWCREWFEATURES
-  Nfl Universe Football: 37→38 activos (+1), 251→251 exp
-    Nuevos: STADIUMS
-  Oil Empire: 3→0 activos (-3), 37→40 exp
-  Pixel Blade: 1→0 activos (-1), 75→76 exp
-  Snatch A Seed: 0→0 activos (=), 22→24 exp
-  Subterra: 0→1 activos (+1), 37→37 exp
-    Nuevos: 100KMEMBERS
-  Tennis Clash: 25→26 activos (+1), 4→4 exp
+  All Star Tower Defense X: 3→5 activos (+2), 68→68 exp
+    Nuevos: tungtungnobannersahur, twete93dont
+  Anime Final Quest: 0→2 activos (+2), 91→91 exp
+    Nuevos: SABERUPDATE, SOMETHINGCOSMICISNEAR
+  Anime Ghosts: 0→1 activos (+1), 65→65 exp
+    Nuevos: ANTKING
+  Anime Power League: 0→3 activos (+3), 52→52 exp
+    Nuevos: BakingBread, ibarkforamalia, OliverGoat
+  Anime Story: 1→6 activos (+5), 183→183 exp
+    Nuevos: 30kccutysm, greatestmaid, jojos, madarasoon, vanguardsvsuniversal
+  Arcade Basketball: 0→2 activos (+2), 50→50 exp
+    Nuevos: DUPING, RNGEMOTE
+  Asura: 0→0 activos (=), 267→269 exp
+  Baddies Brawl: 1→0 activos (-1), 57→58 exp
+  Banana Eats: 0→1 activos (+1), 89→89 exp
+    Nuevos: 100UPDATES
+  Basketball Legends: 0→0 activos (=), 167→170 exp
+  Baseplate Drifting: 0→0 activos (=), 16→18 exp
+  Build A Beehive: 0→1 activos (+1), 6→6 exp
+    Nuevos: 1YTOGETHER
+  Catch A Monster: 0→1 activos (+1), 99→99 exp
+    Nuevos: bullordy
+  Drag Drive Simulator: 4→1 activos (-3), 80→83 exp
+  Dress To Impress: 0→1 activos (+1), 62→61 exp
+    Nuevos: LIONDANCER
+  Dungeon Heroes: 0→1 activos (+1), 69→69 exp
+    Nuevos: SAKURA
+  Emote For Ugc: 2→3 activos (+1), 5→5 exp
+    Nuevos: 50KLIKES
+  Fisch: 0→1 activos (+1), 118→118 exp
+    Nuevos: LivyatanAndCompanions
+  Heavyweight Fishing: 0→7 activos (+7), 69→69 exp
+    Nuevos: SageUPD, 13MVisits, 13M5Visits, 12MVisits, 12M5Visits, 32KLikes, 33KLikes
+  Highway Legends: 0→1 activos (+1), 32→32 exp
+    Nuevos: 85mvisits
+  Japanese Supermarket Simulator: 0→1 activos (+1), 22→22 exp
+    Nuevos: THANKSSUSANNANDACID
+  Legend Piece: 0→0 activos (=), 23→25 exp
+  Neo Tennis: 0→1 activos (+1), 32→32 exp
     Nuevos: 5YEWGSJSE34
+  Nfl Universe Football: 38→37 activos (-1), 251→252 exp
+  Reincarnated: 0→1 activos (+1), 24→24 exp
+    Nuevos: Lucky_Blocks
+  Saber Simulator: 0→1 activos (+1), 97→97 exp
+    Nuevos: HORIZON
+  Slime Rng: 1→3 activos (+2), 25→25 exp
+    Nuevos: aliensarehere, beammeup
+  Subterra: 1→0 activos (-1), 37→38 exp
+  Summon Heroes: 0→1 activos (+1), 12→12 exp
+    Nuevos: DIVINEORSERAPH
+  Tennis Clash: 26→25 activos (-1), 4→5 exp
+  The Forge: 0→1 activos (+1), 51→51 exp
+    Nuevos: GALAXITE!
+  Volleyball Legends: 0→3 activos (+3), 278→278 exp
+    Nuevos: NEW_MAP, SUMMER_DELUXE, UPDATE_72
+  West Coast Florida: 26→27 activos (+1), 17→17 exp
+    Nuevos: boatsandstuff
 
 Detalle cambios:
+data/games/codigos-all-star-tower-defense-x.json
+data/games/codigos-anime-final-quest.json
+data/games/codigos-anime-ghosts.json
 data/games/codigos-anime-power-league.json
-data/games/codigos-aopg.json
+data/games/codigos-anime-story.json
+data/games/codigos-arcade-basketball.json
+data/games/codigos-asura.json
 data/games/codigos-baddies-brawl.json
-data/games/codigos-build-a-military-base.json
-data/games/codigos-car-zone.json
+data/games/codigos-banana-eats.json
+data/games/codigos-baseplate-drifting.json
+data/games/codigos-basketball-legends.json
+data/games/codigos-build-a-beehive.json
+data/games/codigos-catch-a-monster.json
 data/games/codigos-drag-drive-simulator.json
+data/games/codigos-dress-to-impress.json
+data/games/codigos-dungeon-heroes.json
+data/games/codigos-emote-for-ugc.json
+data/games/codigos-fisch.json
+data/games/codigos-heavyweight-fishing.json
+data/games/codigos-highway-legends.json
+data/games/codigos-japanese-supermarket-simulator.json
+data/games/codigos-legend-piece.json
+data/games/codigos-neo-tennis.json
 data/games/codigos-nfl-universe-football.json
-data/games/codigos-oil-empire.json
-data/games/codigos-pixel-blade.json
-data/games/codigos-snatch-a-seed.json
+data/games/codigos-reincarnated.json
+data/games/codigos-saber-simulator.json
+data/games/codigos-slime-rng.json
 data/games/codigos-subterra.json
+data/games/codigos-summon-heroes.json
 data/games/codigos-tennis-clash.json
+data/games/codigos-the-forge.json
+data/games/codigos-volleyball-legends.json
+data/games/codigos-west-coast-florida.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
