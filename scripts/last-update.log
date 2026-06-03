@@ -1,46 +1,19 @@
-=== RESUMEN UPDATE 2026-06-02 22:20 ===
+=== RESUMEN UPDATE 2026-06-03 12:37 ===
 
 Archivos modificados:
-  14 archivos cambiados
+  2 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4365 juegos (4365 procesados)
-Actualizados: 12 | Sin cambios: 4208
-No encontrado: 132 | Saltados: 13
-Códigos nuevos: 1 | Movidos a expirados: 11
-Tiempo: 151.3s | Concurrencia: 10
-
-Juegos actualizados:
-  A Universal Time: 0→0 activos (=), 101→102 exp
-  Anime Eternal: 1→0 activos (-1), 780→781 exp
-  Arise Shadow Hunt: 0→0 activos (=), 76→77 exp
-  Battle For Dream Island Again: 0→0 activos (=), 136→137 exp
-  Bikelife Netherlands: 1→0 activos (-1), 30→31 exp
-  Buckshot: 0→1 activos (+1), 19→21 exp
-    Nuevos: 100MILLLLLLLLLLLLLVISITS
-  Eagle Nation: 1→0 activos (-1), 22→23 exp
-  Fistborn: 8→2 activos (-6), 171→177 exp
-  Massacre: 1→1 activos (=), 94→98 exp
-  Mugen: 0→0 activos (=), 85→87 exp
-  Peroxide: 1→0 activos (-1), 253→254 exp
-  Ultimate Tower Defense: 1→0 activos (-1), 223→224 exp
+Actualizados: 0 | Sin cambios: 4210
+No encontrado: 142 | Saltados: 13
+Códigos nuevos: 0 | Movidos a expirados: 0
+Tiempo: 202.1s | Concurrencia: 10
 
 Detalle cambios:
-data/games/codigos-a-universal-time.json
-data/games/codigos-anime-eternal.json
-data/games/codigos-arise-shadow-hunt.json
-data/games/codigos-battle-for-dream-island-again.json
-data/games/codigos-bikelife-netherlands.json
-data/games/codigos-buckshot.json
-data/games/codigos-eagle-nation.json
-data/games/codigos-fistborn.json
-data/games/codigos-massacre.json
-data/games/codigos-mugen.json
-data/games/codigos-peroxide.json
-data/games/codigos-ultimate-tower-defense.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
