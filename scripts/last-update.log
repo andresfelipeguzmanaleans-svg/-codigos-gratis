@@ -1,40 +1,33 @@
-=== RESUMEN UPDATE 2026-06-04 21:29 ===
+=== RESUMEN UPDATE 2026-06-05 11:22 ===
 
 Archivos modificados:
-  10 archivos cambiados
+  7 archivos cambiados
 
 Archivos nuevos:
-  1 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4366 juegos (4366 procesados)
-Actualizados: 8 | Sin cambios: 4212
-No encontrado: 133 | Saltados: 13
-Códigos nuevos: 0 | Movidos a expirados: 20
-Tiempo: 183.0s | Concurrencia: 10
+Actualizados: 5 | Sin cambios: 4216
+No encontrado: 132 | Saltados: 13
+Códigos nuevos: 0 | Movidos a expirados: 0
+Tiempo: 192.7s | Concurrencia: 10
 
 Juegos actualizados:
-  Brainrot Evolution: 2→0 activos (-2), 86→88 exp
-  Emote For Ugc: 3→0 activos (-3), 5→8 exp
-  Flashpoint Worlds Collide: 2→1 activos (-1), 104→105 exp
-  Ghoul Re: 4→2 activos (-2), 129→158 exp
-  Reborn Skills Master: 34→34 activos (=), 27→28 exp
-  Sprunki Plus: 2→0 activos (-2), 1→5 exp
-  Universal Tower Defense: 14→5 activos (-9), 108→117 exp
-  Weapon Rng: 1→0 activos (-1), 3→4 exp
+  Arise Shadow Hunt: 0→0 activos (=), 78→79 exp
+  Dungeon Heroes: 0→0 activos (=), 70→71 exp
+  Horse Life: 0→0 activos (=), 46→47 exp
+  Rivals: 0→0 activos (=), 198→199 exp
+  St Blockade Reboot: 0→0 activos (=), 41→42 exp
 
 Detalle cambios:
-data/games/codigos-brainrot-evolution.json
-data/games/codigos-emote-for-ugc.json
-data/games/codigos-flashpoint-worlds-collide.json
-data/games/codigos-ghoul-re.json
-data/games/codigos-reborn-skills-master.json
-data/games/codigos-sprunki-plus.json
-data/games/codigos-universal-tower-defense.json
-data/games/codigos-weapon-rng.json
+data/games/codigos-arise-shadow-hunt.json
+data/games/codigos-dungeon-heroes.json
+data/games/codigos-horse-life.json
+data/games/codigos-rivals.json
+data/games/codigos-st-blockade-reboot.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-skibi-tower-defense.json
 
