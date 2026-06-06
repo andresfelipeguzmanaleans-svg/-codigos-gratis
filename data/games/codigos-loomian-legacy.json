@@ -5,9 +5,13 @@
   "description": "Todos los códigos activos para Loomian Legacy en Roblox",
   "metaTitle": "Códigos Loomian Legacy (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Loomian Legacy en Roblox. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:53:49.459Z",
+  "lastUpdated": "2026-06-06T21:02:20.665Z",
   "activeCodes": [],
   "expiredCodes": [
+    {
+      "code": "RainbowEgg",
+      "reward": "10 Boost tokens and 100 Easter Eggs"
+    },
     {
       "code": "PartyAtThePark",
       "reward": "10 Boost tokens"
@@ -27,10 +31,6 @@
     {
       "code": "HolidayTokens",
       "reward": "10 Boost tokens and 5 Powerfruits"
-    },
-    {
-      "code": "NewYear2024",
-      "reward": "Recompensa"
     },
     {
       "code": "LetsDive",
@@ -77,20 +77,12 @@
       "reward": "10 Boost tokens"
     },
     {
-      "code": "Testing123",
-      "reward": "Recompensa"
-    },
-    {
       "code": "SpookyTreat",
       "reward": "Recompensa"
     },
     {
       "code": "2kPlushie",
       "reward": "10 Boost tokens and Celebration Disc"
-    },
-    {
-      "code": "JollyTokens",
-      "reward": "Recompensa"
     },
     {
       "code": "DuskitPlush",
@@ -101,12 +93,24 @@
       "reward": "Recompensa"
     },
     {
-      "code": "TweetHeart",
-      "reward": "Especial Trainer Profile Background, 1 Twittle, 1 Bouquet and 20 Heart Discs"
+      "code": "NewYear2024",
+      "reward": "Recompensa"
     },
     {
       "code": "Meant2Bee",
       "reward": "10 Boost tokens, the Valentine Card Profile Background, 20 Heart Discs, and 1 Bouquet"
+    },
+    {
+      "code": "Testing123",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "TweetHeart",
+      "reward": "Especial Trainer Profile Background, 1 Twittle, 1 Bouquet and 20 Heart Discs"
+    },
+    {
+      "code": "JollyTokens",
+      "reward": "Recompensa"
     }
   ],
   "howToRedeem": [
