@@ -1,86 +1,119 @@
-=== RESUMEN UPDATE 2026-06-08 12:26 ===
+=== RESUMEN UPDATE 2026-06-08 21:48 ===
 
 Archivos modificados:
-  28 archivos cambiados
+  39 archivos cambiados
 
 Archivos nuevos:
-  1 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4373 juegos (4373 procesados)
-Actualizados: 26 | Sin cambios: 4202
+Actualizados: 37 | Sin cambios: 4191
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 18 | Movidos a expirados: 14
-Tiempo: 145.7s | Concurrencia: 10
+Códigos nuevos: 33 | Movidos a expirados: 3
+Tiempo: 153.3s | Concurrencia: 10
 
 Juegos actualizados:
-  Animatronic Nights: 0→1 activos (+1), 61→61 exp
-    Nuevos: UPD38
-  Anime Waifu Card Collection: 2→3 activos (+1), 12→12 exp
-    Nuevos: BINDER
-  Aopg: 1→4 activos (+3), 328→328 exp
-    Nuevos: LOADOUTS!, PEAK, Raidcounter
-  Arm Wrestle Simulator: 1→0 activos (-1), 169→172 exp
-  Azaras Rng: 62→64 activos (+2), 28→28 exp
-    Nuevos: 4KDiscoMembers, 400YTsubscribers!
-  Basketball Zero: 2→0 activos (-2), 232→234 exp
-  Car Crushers 2: 0→0 activos (=), 51→52 exp
-  Car Dealership Tycoon: 0→0 activos (=), 284→285 exp
-  Card Flipping Incremental: 0→0 activos (=), 21→22 exp
-  Clover Origins: 0→1 activos (+1), 87→87 exp
-    Nuevos: BUGFIXES15!
-  Divine Duality Elemental: 0→0 activos (=), 73→74 exp
-  Fabled Legacy: 0→0 activos (=), 138→140 exp
-  Fight For Hackers: 5→0 activos (-5), 0→5 exp
-  Fisch: 2→1 activos (-1), 118→119 exp
-  Five Nights Td 2: 90→93 activos (+3), 0→0 exp
-    Nuevos: PURIFIER, SANDBOX, UPDATE33
-  Five Nights Hunted: 0→0 activos (=), 58→59 exp
-  Grand Piece Online: 3→1 activos (-2), 303→305 exp
-  Heroes World: 0→0 activos (=), 125→126 exp
-  Highway Syndicate: 8→9 activos (+1), 17→16 exp
-    Nuevos: UPDATED
-  Kanom Tokyo: 0→2 activos (+2), 39→39 exp
-    Nuevos: 10KFavorites, 15KLikes
-  Motor Legends: 29→32 activos (+3), 0→0 exp
-    Nuevos: 4MILLION, SEASON3, UPDATE17
-  Picnics N Plushies: 29→30 activos (+1), 16→16 exp
+  8 Ball X: 0→2 activos (+2), 10→10 exp
+    Nuevos: 65KLIKES!, SUMMERISHERE!
+  A Universal Time: 0→1 activos (+1), 105→105 exp
+    Nuevos: THEMESANDSUCH
+  Animatronic Nights: 1→0 activos (-1), 61→62 exp
+  Anime Apocalypse: 0→1 activos (+1), 30→30 exp
+    Nuevos: SORRYFORLOBBYSHUTDOWN
+  Anime Card Battle X: 0→5 activos (+5), 17→17 exp
+    Nuevos: SECRET1192, quest, tokyoghoul, update4, delay
+  Anime Fighting Simulator Endless: 1→4 activos (+3), 170→170 exp
+    Nuevos: Dimension3VerySoon, FinallyFilters, QOLUpdate
+  Anime Final Quest: 1→1 activos (=), 94→97 exp
+  Anime Ghosts: 0→1 activos (+1), 69→69 exp
+    Nuevos: SWORDSMAN
+  Anime Waifu Card Collection: 3→3 activos (=), 12→13 exp
+    Nuevos: WEAREBACK
+  Archer Training: 0→1 activos (+1), 6→6 exp
+    Nuevos: tradingupdate
+  Build A Military Base: 0→1 activos (+1), 52→52 exp
+    Nuevos: 130000LIKES
+  Bus Master: 0→0 activos (=), 2→3 exp
+  Catch A Monster: 0→0 activos (=), 109→110 exp
+  Catch And Tame: 0→1 activos (+1), 30→30 exp
+    Nuevos: FISHINGKIT
+  Clover Origins: 1→0 activos (-1), 87→88 exp
+  Clover Retribution: 3→5 activos (+2), 285→285 exp
+    Nuevos: !freeskilltreereset, !legendarykyntharystuff
+  Cook And Sell: 2→3 activos (+1), 0→0 exp
+    Nuevos: MONEYBAG
+  Cut Grass For Anime Characters: 0→0 activos (=), 13→14 exp
+  Dueling Grounds: 0→1 activos (+1), 13→13 exp
+    Nuevos: DelayingGrounds2
+  Elemental Magic Arena: 0→0 activos (=), 13→14 exp
+  Fistborn: 2→3 activos (+1), 177→177 exp
+    Nuevos: ruthsucksataba
+  Hunt Giant Fish: 1→1 activos (=), 23→25 exp
+  Idle Defense: 0→0 activos (=), 25→26 exp
+  In The Hills: 0→1 activos (+1), 51→51 exp
     Nuevos: SixSeven
-  Sail Your Boat: 3→0 activos (-3), 0→3 exp
-  Snatch A Seed: 0→0 activos (=), 24→26 exp
-  Sorcerer Tower Defense: 0→0 activos (=), 91→93 exp
-  Universal Tower Defense: 6→6 activos (=), 120→121 exp
+  Jurassic Genesis: 0→2 activos (+2), 17→17 exp
+    Nuevos: SORRYFORTHEBUGS, NEWERA
+  Kaizen: 0→0 activos (=), 115→116 exp
+  Ninja Time: 0→2 activos (+2), 246→246 exp
+    Nuevos: ToadForest!, ToadSage!
+  Noob Tower Defense: 1→1 activos (=), 39→40 exp
+  Outrun A Speedster: 0→2 activos (+2), 32→32 exp
+    Nuevos: DESC, TRIDENT
+  Picnics N Plushies: 30→29 activos (-1), 16→17 exp
+  Pirate Piece: 2→2 activos (=), 37→40 exp
+  Plane Crash Simulator: 0→1 activos (+1), 6→6 exp
+    Nuevos: TAKEOFF55
+  Portal Keeper: 0→0 activos (=), 15→16 exp
+  Roll An Anime: 0→1 activos (+1), 6→6 exp
+    Nuevos: BELUGA
+  Spin A Kitty: 0→0 activos (=), 18→19 exp
+  Universal Tower Defense: 6→7 activos (+1), 121→121 exp
+    Nuevos: StayTunedDBS!
+  World Fighters: 6→7 activos (+1), 89→91 exp
+    Nuevos: SRRY5SHUTDOWSERVANT
 
 Detalle cambios:
+data/games/codigos-8-ball-x.json
+data/games/codigos-a-universal-time.json
 data/games/codigos-animatronic-nights.json
+data/games/codigos-anime-apocalypse.json
+data/games/codigos-anime-card-battle-x.json
+data/games/codigos-anime-fighting-simulator-endless.json
+data/games/codigos-anime-final-quest.json
+data/games/codigos-anime-ghosts.json
 data/games/codigos-anime-waifu-card-collection.json
-data/games/codigos-aopg.json
-data/games/codigos-arm-wrestle-simulator.json
-data/games/codigos-azaras-rng.json
-data/games/codigos-basketball-zero.json
-data/games/codigos-car-crushers-2.json
-data/games/codigos-car-dealership-tycoon.json
-data/games/codigos-card-flipping-incremental.json
+data/games/codigos-archer-training.json
+data/games/codigos-build-a-military-base.json
+data/games/codigos-bus-master.json
+data/games/codigos-catch-a-monster.json
+data/games/codigos-catch-and-tame.json
 data/games/codigos-clover-origins.json
-data/games/codigos-divine-duality-elemental.json
-data/games/codigos-fabled-legacy.json
-data/games/codigos-fight-for-hackers.json
-data/games/codigos-fisch.json
-data/games/codigos-five-nights-hunted.json
-data/games/codigos-five-nights-td-2.json
-data/games/codigos-grand-piece-online.json
-data/games/codigos-heroes-world.json
-data/games/codigos-highway-syndicate.json
-data/games/codigos-kanom-tokyo.json
-data/games/codigos-motor-legends.json
+data/games/codigos-clover-retribution.json
+data/games/codigos-cook-and-sell.json
+data/games/codigos-cut-grass-for-anime-characters.json
+data/games/codigos-dueling-grounds.json
+data/games/codigos-elemental-magic-arena.json
+data/games/codigos-fistborn.json
+data/games/codigos-hunt-giant-fish.json
+data/games/codigos-idle-defense.json
+data/games/codigos-in-the-hills.json
+data/games/codigos-jurassic-genesis.json
+data/games/codigos-kaizen.json
+data/games/codigos-ninja-time.json
+data/games/codigos-noob-tower-defense.json
+data/games/codigos-outrun-a-speedster.json
 data/games/codigos-picnics-n-plushies.json
-data/games/codigos-sail-your-boat.json
-data/games/codigos-snatch-a-seed.json
-data/games/codigos-sorcerer-tower-defense.json
+data/games/codigos-pirate-piece.json
+data/games/codigos-plane-crash-simulator.json
+data/games/codigos-portal-keeper.json
+data/games/codigos-roll-an-anime.json
+data/games/codigos-spin-a-kitty.json
 data/games/codigos-universal-tower-defense.json
+data/games/codigos-world-fighters.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-highway-syndicate-traffic-racing.json
 
