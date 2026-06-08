@@ -4,9 +4,24 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-d587b2d6f7900520b40434575560504c/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Aopg en Roblox",
   "metaTitle": "Códigos Aopg Roblox (Junio 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Aopg en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-04T10:57:57.044Z",
+  "metaDescription": "Lista actualizada de códigos para Aopg en Roblox. 4 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-06-08T12:24:16.989Z",
   "activeCodes": [
+    {
+      "code": "LOADOUTS!",
+      "reward": "Doble suerte (1 hora)",
+      "addedDate": "2026-06-08"
+    },
+    {
+      "code": "PEAK",
+      "reward": "Doble Beli (1 hora)",
+      "addedDate": "2026-06-08"
+    },
+    {
+      "code": "Raidcounter",
+      "reward": "25K gemas",
+      "addedDate": "2026-06-08"
+    },
     {
       "code": "Re Zero",
       "reward": "2x EXP (1 hora)",
@@ -15,24 +30,8 @@
   ],
   "expiredCodes": [
     {
-      "code": "Drops",
-      "reward": "Doble Drop Chance (2 horas)"
-    },
-    {
-      "code": "MultiverseSeaUpdate",
-      "reward": "10B"
-    },
-    {
-      "code": "Reinhard",
-      "reward": "50 Poneglyphs"
-    },
-    {
-      "code": "SorryForDelay",
-      "reward": "50K gemas"
-    },
-    {
-      "code": "BossOpeUpdate!",
-      "reward": "Recompensas gratis"
+      "code": "BossRenameUPD!",
+      "reward": "2 Poneglyphs"
     },
     {
       "code": "QOLBuffFixes!",
@@ -103,10 +102,6 @@
       "reward": "10 Egg puntos"
     },
     {
-      "code": "FallenKingdom",
-      "reward": "30 Poneglyphs"
-    },
-    {
       "code": "HaveAGreatDay!",
       "reward": "2x gemas for 15 minutos"
     },
@@ -137,6 +132,14 @@
     {
       "code": "BossPhoenixUPD!",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TheFever!",
+      "reward": "Doble Drop (1 hora)"
+    },
+    {
+      "code": "FallenKingdom",
+      "reward": "30 Poneglyphs"
     },
     {
       "code": "Rebellion!",
@@ -171,8 +174,308 @@
       "reward": "1 Race Reroll"
     },
     {
-      "code": "OdenBlades!",
+      "code": "HappyMonday!",
+      "reward": "2x EXP for 15 minutos"
+    },
+    {
+      "code": "500kLikes!",
+      "reward": "2x EXP for 1 hora"
+    },
+    {
+      "code": "SHANKSUPDATE",
+      "reward": "Título giro"
+    },
+    {
+      "code": "470KLIKES",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "NewBossStudiosYear!",
+      "reward": "1 Race Reroll"
+    },
+    {
+      "code": "BossRubberUpdate!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GoldGoldGold!",
+      "reward": "20 Poneglyphs"
+    },
+    {
+      "code": "SorryForDelayGuys",
+      "reward": "2x Drops Boost"
+    },
+    {
+      "code": "PreHaki!",
+      "reward": "Título giros"
+    },
+    {
+      "code": "QolChanges5",
+      "reward": "1 Poneglyph"
+    },
+    {
+      "code": "ExtrasUPD!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "QOLUpdate!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BossSmithUPD!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SaturnUPD!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NewDeathUpdate!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GiantSmith!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SUMMER HYPE!",
+      "reward": "30,000 gemas"
+    },
+    {
+      "code": "True Kyoka",
+      "reward": "2x EXP Boost"
+    },
+    {
+      "code": "BossDragon!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MonarchFixed!",
+      "reward": "3x Drops For 3 horas"
+    },
+    {
+      "code": "NewSuits!",
+      "reward": "2x EXP for 1 hora"
+    },
+    {
+      "code": "NewHakiBoss!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "LoyalsCodeAgain!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "YamotoUPD!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "VegapunkRaid!",
+      "reward": "2x gemas for 1 hora"
+    },
+    {
+      "code": "BOSSQOL!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HalloweenRelease",
+      "reward": "2x EXP for 2 horas"
+    },
+    {
+      "code": "SwordsmanUPD!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BossOni!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "OMGBossRename!",
+      "reward": "5 título giros"
+    },
+    {
+      "code": "WholeCakeMVP",
+      "reward": "100K gemas"
+    },
+    {
+      "code": "QualityOfLife!",
+      "reward": "2x EXP for 1 hora"
+    },
+    {
+      "code": "BossDeathUpdate!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DeadbutAlive",
+      "reward": "Doble Drops (1 hora)"
+    },
+    {
+      "code": "SorryForSnakeDelay!",
+      "reward": "2x EXP (60 minutos)"
+    },
+    {
+      "code": "PawV2Update!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BossSwordsman!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HaveAGreatDay",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "XuryGivesRaceLuck",
+      "reward": "1 Race Reroll"
+    },
+    {
+      "code": "EggHunt!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GeckoMoria",
+      "reward": "1 Devil Fruit Reset"
+    },
+    {
+      "code": "Pregame_U8zKL",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "TeleportBoss!",
+      "reward": "Poneglyph"
+    },
+    {
+      "code": "SIXSTYLE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Sogeking",
+      "reward": "2x EXP for 1 hora"
+    },
+    {
+      "code": "AwakenCyborg!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Hellsing",
+      "reward": "1 Poneglyph"
+    },
+    {
+      "code": "WeAreReallyBack!!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Fairy Tail",
+      "reward": "20 Poneglyphs"
+    },
+    {
+      "code": "ROGERSOON",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "RaceRoll1732",
+      "reward": "1 Race Reroll"
+    },
+    {
+      "code": "BugsFix",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ChineseNewYear!",
+      "reward": "35,000 gemas"
+    },
+    {
+      "code": "QOLUpdate",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "GoSpin!!",
+      "reward": "2x Beli Boost (30 minutos)"
+    },
+    {
+      "code": "Ninja_way",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DEMONLEGS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "JINCHURIKI",
+      "reward": "1 Race Reroll"
+    },
+    {
+      "code": "NewHakiUpdate!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BossWukong!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HALLOWEEN",
+      "reward": "1 Race Reroll"
+    },
+    {
+      "code": "NamiUPD!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NewRubberUpdate!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SORRYFORSHUTDOWN",
+      "reward": "1 Race Reroll"
+    },
+    {
+      "code": "BossStudioOnTop",
+      "reward": "30 minuto 2x Beli Boost*"
+    },
+    {
+      "code": "StrongestInHistory",
+      "reward": "2x Drop (1 hora)"
+    },
+    {
+      "code": "HappyNewYears!",
       "reward": "Doble gemas (60 minutos)"
+    },
+    {
+      "code": "WeekendBuff",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Goodbye",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PreHaki",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "NewOpeUpdate!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Accelerator!",
+      "reward": "2x Drop Boost (1 hora)"
+    },
+    {
+      "code": "SUPAHCODE",
+      "reward": "3 título giros*"
+    },
+    {
+      "code": "FIXTH3G4M3",
+      "reward": "1 Zenkai"
+    },
+    {
+      "code": "Last_Resort",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "WukongUPD!",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "NewGearHybrid!",
@@ -195,8 +498,16 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "SorryForDelayGuys",
-      "reward": "2x Drops Boost"
+      "code": "BloodOrbs!",
+      "reward": "1M Blood Orbs"
+    },
+    {
+      "code": "OdenBlades!",
+      "reward": "Doble gemas (60 minutos)"
+    },
+    {
+      "code": "BossOpeUpdate!",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "DragonUPD!",
@@ -259,316 +570,20 @@
       "reward": "Título giro"
     },
     {
-      "code": "HappyMonday!",
-      "reward": "2x EXP for 15 minutos"
+      "code": "Drops",
+      "reward": "Doble Drop Chance (2 horas)"
     },
     {
-      "code": "500kLikes!",
-      "reward": "2x EXP for 1 hora"
+      "code": "MultiverseSeaUpdate",
+      "reward": "10B"
     },
     {
-      "code": "SHANKSUPDATE",
-      "reward": "Título giro"
+      "code": "Reinhard",
+      "reward": "50 Poneglyphs"
     },
     {
-      "code": "470KLIKES",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "NewBossStudiosYear!",
-      "reward": "1 Race Reroll"
-    },
-    {
-      "code": "BossRubberUpdate!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "GoldGoldGold!",
-      "reward": "20 Poneglyphs"
-    },
-    {
-      "code": "BossRenameUPD!",
-      "reward": "2 Poneglyphs"
-    },
-    {
-      "code": "TheFever!",
-      "reward": "Doble Drop (1 hora)"
-    },
-    {
-      "code": "QolChanges5",
-      "reward": "1 Poneglyph"
-    },
-    {
-      "code": "PreHaki!",
-      "reward": "Título giros"
-    },
-    {
-      "code": "ExtrasUPD!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "QOLUpdate!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SaturnUPD!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "GiantSmith!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SUMMER HYPE!",
-      "reward": "30,000 gemas"
-    },
-    {
-      "code": "True Kyoka",
-      "reward": "2x EXP Boost"
-    },
-    {
-      "code": "BossDragon!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NewHakiBoss!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NewDeathUpdate!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NewSuits!",
-      "reward": "2x EXP for 1 hora"
-    },
-    {
-      "code": "LoyalsCodeAgain!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "YamotoUPD!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "VegapunkRaid!",
-      "reward": "2x gemas for 1 hora"
-    },
-    {
-      "code": "OMGBossRename!",
-      "reward": "5 título giros"
-    },
-    {
-      "code": "WholeCakeMVP",
-      "reward": "100K gemas"
-    },
-    {
-      "code": "BOSSQOL!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HalloweenRelease",
-      "reward": "2x EXP for 2 horas"
-    },
-    {
-      "code": "DeadbutAlive",
-      "reward": "Doble Drops (1 hora)"
-    },
-    {
-      "code": "SorryForSnakeDelay!",
-      "reward": "2x EXP (60 minutos)"
-    },
-    {
-      "code": "SwordsmanUPD!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BossOni!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "QualityOfLife!",
-      "reward": "2x EXP for 1 hora"
-    },
-    {
-      "code": "HaveAGreatDay",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "GeckoMoria",
-      "reward": "1 Devil Fruit Reset"
-    },
-    {
-      "code": "BossDeathUpdate!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TeleportBoss!",
-      "reward": "Poneglyph"
-    },
-    {
-      "code": "PawV2Update!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Sogeking",
-      "reward": "2x EXP for 1 hora"
-    },
-    {
-      "code": "BossSwordsman!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Hellsing",
-      "reward": "1 Poneglyph"
-    },
-    {
-      "code": "WeAreReallyBack!!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Fairy Tail",
-      "reward": "20 Poneglyphs"
-    },
-    {
-      "code": "BossSmithUPD!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "RaceRoll1732",
-      "reward": "1 Race Reroll"
-    },
-    {
-      "code": "BugsFix",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ChineseNewYear!",
-      "reward": "35,000 gemas"
-    },
-    {
-      "code": "QOLUpdate",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "SORRYFORSHUTDOWN",
-      "reward": "1 Race Reroll"
-    },
-    {
-      "code": "EggHunt!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Ninja_way",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NamiUPD!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Pregame_U8zKL",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "XuryGivesRaceLuck",
-      "reward": "1 Race Reroll"
-    },
-    {
-      "code": "JINCHURIKI",
-      "reward": "1 Race Reroll"
-    },
-    {
-      "code": "SIXSTYLE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "AwakenCyborg!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ROGERSOON",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "GoSpin!!",
-      "reward": "2x Beli Boost (30 minutos)"
-    },
-    {
-      "code": "StrongestInHistory",
-      "reward": "2x Drop (1 hora)"
-    },
-    {
-      "code": "DEMONLEGS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NewHakiUpdate!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "WeekendBuff",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Goodbye",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "PreHaki",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "BossWukong!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MonarchFixed!",
-      "reward": "3x Drops For 3 horas"
-    },
-    {
-      "code": "Accelerator!",
-      "reward": "2x Drop Boost (1 hora)"
-    },
-    {
-      "code": "SUPAHCODE",
-      "reward": "3 título giros*"
-    },
-    {
-      "code": "FIXTH3G4M3",
-      "reward": "1 Zenkai"
-    },
-    {
-      "code": "Last_Resort",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HALLOWEEN",
-      "reward": "1 Race Reroll"
-    },
-    {
-      "code": "NewRubberUpdate!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BossStudioOnTop",
-      "reward": "30 minuto 2x Beli Boost*"
-    },
-    {
-      "code": "HappyNewYears!",
-      "reward": "Doble gemas (60 minutos)"
-    },
-    {
-      "code": "NewOpeUpdate!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "WukongUPD!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BloodOrbs!",
-      "reward": "1M Blood Orbs"
+      "code": "SorryForDelay",
+      "reward": "50K gemas"
     },
     {
       "code": "HAKAI!",
