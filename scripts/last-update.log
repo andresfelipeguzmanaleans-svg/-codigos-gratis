@@ -1,28 +1,69 @@
-=== RESUMEN UPDATE 2026-06-09 11:02 ===
+=== RESUMEN UPDATE 2026-06-09 21:45 ===
 
 Archivos modificados:
-  5 archivos cambiados
+  25 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4373 juegos (4373 procesados)
-Actualizados: 3 | Sin cambios: 2264
-No encontrado: 2093 | Saltados: 13
-Códigos nuevos: 1 | Movidos a expirados: 3
-Tiempo: 502.4s | Concurrencia: 10
+Actualizados: 23 | Sin cambios: 4205
+No encontrado: 132 | Saltados: 13
+Códigos nuevos: 3 | Movidos a expirados: 43
+Tiempo: 154.8s | Concurrencia: 10
 
 Juegos actualizados:
-  Aopg: 4→1 activos (-3), 328→331 exp
-  Midnight Chasers: 19→20 activos (+1), 164→164 exp
-    Nuevos: ThanksFor840k
-  World Zero: 0→0 activos (=), 165→166 exp
+  A Universal Time: 1→0 activos (-1), 105→106 exp
+  Anime Defense Rng: 16→0 activos (-16), 3→21 exp
+  Anime Fighting Simulator Endless: 4→1 activos (-3), 170→174 exp
+  Anime Girl Rng: 0→0 activos (=), 129→130 exp
+  Armless Detective: 0→0 activos (=), 75→76 exp
+  Baseball Universe: 8→8 activos (=), 1→2 exp
+  Blue Lock Rivals: 3→0 activos (-3), 296→299 exp
+  Catch And Tame: 1→0 activos (-1), 30→31 exp
+  Clover Retribution: 5→4 activos (-1), 285→286 exp
+  Dragon Blox: 0→0 activos (=), 213→215 exp
+  Fistborn: 3→3 activos (=), 177→178 exp
+  Hypershot: 0→0 activos (=), 6→7 exp
+  In The Hills: 1→0 activos (-1), 51→52 exp
+  Midnight Chasers: 20→19 activos (-1), 164→165 exp
+  Ninja Time: 2→4 activos (+2), 246→246 exp
+    Nuevos: MountMyo!, MountMyo!
+  Outrun A Speedster: 2→0 activos (-2), 32→34 exp
+  Project Menacing Remake: 45→45 activos (=), 8→9 exp
+  Pull a Sword: 0→0 activos (=), 237→238 exp
+  Sailor Piece: 2→2 activos (=), 217→220 exp
+  Sonic Speed Simulator: 0→0 activos (=), 30→31 exp
+  Ultimate Tower Defense: 1→1 activos (=), 224→225 exp
+  Undertale Rng: 14→1 activos (-13), 62→76 exp
+    Nuevos: meowmeowmeow
+  Universal Tower Defense: 7→6 activos (-1), 121→122 exp
 
 Detalle cambios:
-data/games/codigos-aopg.json
+data/games/codigos-a-universal-time.json
+data/games/codigos-anime-defense-rng.json
+data/games/codigos-anime-fighting-simulator-endless.json
+data/games/codigos-anime-girl-rng.json
+data/games/codigos-armless-detective.json
+data/games/codigos-baseball-universe.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-catch-and-tame.json
+data/games/codigos-clover-retribution.json
+data/games/codigos-dragon-blox.json
+data/games/codigos-fistborn.json
+data/games/codigos-hypershot.json
+data/games/codigos-in-the-hills.json
 data/games/codigos-midnight-chasers.json
-data/games/codigos-world-zero.json
+data/games/codigos-ninja-time.json
+data/games/codigos-outrun-a-speedster.json
+data/games/codigos-project-menacing-remake.json
+data/games/codigos-pull-a-sword.json
+data/games/codigos-sailor-piece.json
+data/games/codigos-sonic-speed-simulator.json
+data/games/codigos-ultimate-tower-defense.json
+data/games/codigos-undertale-rng.json
+data/games/codigos-universal-tower-defense.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
