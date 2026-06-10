@@ -1,76 +1,64 @@
-=== RESUMEN UPDATE 2026-06-10 11:35 ===
+=== RESUMEN UPDATE 2026-06-10 21:55 ===
 
 Archivos modificados:
-  27 archivos cambiados
+  20 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4373 juegos (4373 procesados)
-Actualizados: 24 | Sin cambios: 4204
+Actualizados: 18 | Sin cambios: 4210
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 12 | Movidos a expirados: 15
-Tiempo: 207.5s | Concurrencia: 10
+Códigos nuevos: 20 | Movidos a expirados: 9
+Tiempo: 205.2s | Concurrencia: 10
 
 Juegos actualizados:
-  8 Ball X: 2→0 activos (-2), 10→12 exp
-  Anime Card Battle X: 5→1 activos (-4), 17→21 exp
-  Anime Eternal: 3→1 activos (-2), 781→784 exp
-    Nuevos: ItAllStartedAboutAYearAgo
-  Anime Ghosts: 1→0 activos (-1), 69→70 exp
-  Anime Limitless: 0→0 activos (=), 15→17 exp
-  Archer Training: 1→0 activos (-1), 6→7 exp
-  Baseplate Drifting: 0→1 activos (+1), 18→18 exp
-    Nuevos: ZALUPA
-  Bloxodachi Life: 0→2 activos (+2), 1→1 exp
-    Nuevos: THANKYOU3M, THANKYOU4M
-  Build A Military Base: 1→0 activos (-1), 52→53 exp
-  Build A Ring Farm: 0→0 activos (=), 8→9 exp
-  Combat Warriors: 0→0 activos (=), 45→46 exp
-  Dragon Adventures: 0→0 activos (=), 118→119 exp
-  Flashpoint Worlds Collide: 1→2 activos (+1), 105→105 exp
-    Nuevos: VERIFIEDISSORRYFORALLTHEBUGS
-  Jurassic Genesis: 2→1 activos (-1), 17→18 exp
-  Just A Rng Game: 9→10 activos (+1), 0→0 exp
-    Nuevos: reroll3
-  Lineage Piece: 0→0 activos (=), 25→27 exp
-  Midnight Chasers Highway Racing: 0→1 activos (+1), 210→210 exp
-    Nuevos: ThanksFor840k
-  Moto Trackday Project: 0→0 activos (=), 60→61 exp
-  Picnics N Plushies: 29→32 activos (+3), 17→17 exp
+  Anime Astral Simulator: 0→7 activos (+7), 22→22 exp
+    Nuevos: SORRYFORSHUTDOWN3, REWARDSFIXED, 8KLIKES, 4KFAVS, 3MVISITS, 3KEVENT, 17KPLAYERS
+  Anime Eternal: 1→0 activos (-1), 784→785 exp
+  Anime Fighting Simulator Endless: 1→3 activos (+2), 174→174 exp
+    Nuevos: LondonBridgeIsFallingDown, YutaTheGoat
+  Anime Ghosts: 0→1 activos (+1), 70→70 exp
+    Nuevos: EARTHUPD
+  Anime Reversal: 0→0 activos (=), 68→71 exp
+  Anime Story: 1→1 activos (=), 196→197 exp
+  Black Grimoire: 0→1 activos (+1), 23→23 exp
+    Nuevos: stats gone
+  Bloxodachi Life: 2→0 activos (-2), 1→3 exp
+  Exoria: 1→2 activos (+1), 25→25 exp
+    Nuevos: CONTENTINPROGRESS
+  Flashpoint Worlds Collide: 2→1 activos (-1), 105→106 exp
+  In The Hills: 0→3 activos (+3), 52→52 exp
     Nuevos: Courage26, Pride26, Acceptance26
-  Plane Crash Simulator: 1→0 activos (-1), 6→7 exp
-  Rivals: 0→0 activos (=), 199→200 exp
-  Roll An Anime: 1→0 activos (-1), 6→7 exp
-  Weapon Rng: 0→2 activos (+2), 4→4 exp
-    Nuevos: 20KLIKE, UPD3
-  World Fighters: 7→6 activos (-1), 91→92 exp
+  Ninja Time: 4→2 activos (-2), 246→247 exp
+  Project Mirror Labyrinth: 0→1 activos (+1), 43→43 exp
+    Nuevos: BambooHat
+  The Company: 1→0 activos (-1), 3→4 exp
+  Tower Defense Simulator: 0→0 activos (=), 86→87 exp
+  Universal Tower Defense: 6→7 activos (+1), 122→122 exp
+    Nuevos: DBSLagFixes!
+  Weapon Rng: 2→0 activos (-2), 4→6 exp
+  World Fighters: 6→9 activos (+3), 92→92 exp
+    Nuevos: DRAGONDEFENSEHARD, SORRYYADELAY, UPDATE7PT2
 
 Detalle cambios:
-data/gameguide-urls.json
-data/games/codigos-8-ball-x.json
-data/games/codigos-anime-card-battle-x.json
+data/games/codigos-anime-astral-simulator.json
 data/games/codigos-anime-eternal.json
+data/games/codigos-anime-fighting-simulator-endless.json
 data/games/codigos-anime-ghosts.json
-data/games/codigos-anime-limitless.json
-data/games/codigos-archer-training.json
-data/games/codigos-baseplate-drifting.json
+data/games/codigos-anime-reversal.json
+data/games/codigos-anime-story.json
+data/games/codigos-black-grimoire.json
 data/games/codigos-bloxodachi-life.json
-data/games/codigos-build-a-military-base.json
-data/games/codigos-build-a-ring-farm.json
-data/games/codigos-combat-warriors.json
-data/games/codigos-dragon-adventures.json
+data/games/codigos-exoria.json
 data/games/codigos-flashpoint-worlds-collide.json
-data/games/codigos-jurassic-genesis.json
-data/games/codigos-just-a-rng-game.json
-data/games/codigos-lineage-piece.json
-data/games/codigos-midnight-chasers-highway-racing.json
-data/games/codigos-moto-trackday-project.json
-data/games/codigos-picnics-n-plushies.json
-data/games/codigos-plane-crash-simulator.json
-data/games/codigos-rivals.json
-data/games/codigos-roll-an-anime.json
+data/games/codigos-in-the-hills.json
+data/games/codigos-ninja-time.json
+data/games/codigos-project-mirror-labyrinth.json
+data/games/codigos-the-company.json
+data/games/codigos-tower-defense-simulator.json
+data/games/codigos-universal-tower-defense.json
 data/games/codigos-weapon-rng.json
 data/games/codigos-world-fighters.json
 scripts/last-update.log
