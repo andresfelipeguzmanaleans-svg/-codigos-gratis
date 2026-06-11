@@ -1,66 +1,64 @@
-=== RESUMEN UPDATE 2026-06-10 21:55 ===
+=== RESUMEN UPDATE 2026-06-11 12:07 ===
 
 Archivos modificados:
-  20 archivos cambiados
+  22 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4373 juegos (4373 procesados)
-Actualizados: 18 | Sin cambios: 4210
+Actualizados: 20 | Sin cambios: 4208
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 20 | Movidos a expirados: 9
-Tiempo: 205.2s | Concurrencia: 10
+Códigos nuevos: 3 | Movidos a expirados: 5
+Tiempo: 197.2s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Astral Simulator: 0→7 activos (+7), 22→22 exp
-    Nuevos: SORRYFORSHUTDOWN3, REWARDSFIXED, 8KLIKES, 4KFAVS, 3MVISITS, 3KEVENT, 17KPLAYERS
-  Anime Eternal: 1→0 activos (-1), 784→785 exp
-  Anime Fighting Simulator Endless: 1→3 activos (+2), 174→174 exp
-    Nuevos: LondonBridgeIsFallingDown, YutaTheGoat
-  Anime Ghosts: 0→1 activos (+1), 70→70 exp
-    Nuevos: EARTHUPD
-  Anime Reversal: 0→0 activos (=), 68→71 exp
-  Anime Story: 1→1 activos (=), 196→197 exp
-  Black Grimoire: 0→1 activos (+1), 23→23 exp
-    Nuevos: stats gone
-  Bloxodachi Life: 2→0 activos (-2), 1→3 exp
-  Exoria: 1→2 activos (+1), 25→25 exp
-    Nuevos: CONTENTINPROGRESS
-  Flashpoint Worlds Collide: 2→1 activos (-1), 105→106 exp
-  In The Hills: 0→3 activos (+3), 52→52 exp
-    Nuevos: Courage26, Pride26, Acceptance26
-  Ninja Time: 4→2 activos (-2), 246→247 exp
-  Project Mirror Labyrinth: 0→1 activos (+1), 43→43 exp
-    Nuevos: BambooHat
-  The Company: 1→0 activos (-1), 3→4 exp
-  Tower Defense Simulator: 0→0 activos (=), 86→87 exp
-  Universal Tower Defense: 6→7 activos (+1), 122→122 exp
-    Nuevos: DBSLagFixes!
-  Weapon Rng: 2→0 activos (-2), 4→6 exp
-  World Fighters: 6→9 activos (+3), 92→92 exp
-    Nuevos: DRAGONDEFENSEHARD, SORRYYADELAY, UPDATE7PT2
+  Adopt Me: 0→0 activos (=), 24→25 exp
+  Anime Eternal: 0→1 activos (+1), 785→785 exp
+    Nuevos: Update54P2
+  Drive World: 0→0 activos (=), 67→69 exp
+  Fisch: 1→1 activos (=), 119→120 exp
+  Inazuma Strikers: 0→0 activos (=), 59→60 exp
+  In The Hills: 3→0 activos (-3), 52→55 exp
+  It Girl: 0→0 activos (=), 24→25 exp
+  Kaiju Paradise: 0→0 activos (=), 140→141 exp
+  Mechanical Ascension X: 0→0 activos (=), 74→75 exp
+  Midnight Chasers Highway Racing: 1→0 activos (-1), 210→211 exp
+  Mojave Valley: 1→0 activos (-1), 26→27 exp
+  Motoprix Racing: 32→33 activos (+1), 0→0 exp
+    Nuevos: MPR5KLIKES
+  Project Egoist: 0→0 activos (=), 62→65 exp
+  Project Menacing Remake: 45→45 activos (=), 9→10 exp
+  Project Smash: 0→0 activos (=), 9→10 exp
+  Reborn Skills Master: 34→35 activos (+1), 28→28 exp
+    Nuevos: update81
+  Rider Blox: 0→0 activos (=), 155→156 exp
+  Type Soul: 0→0 activos (=), 335→336 exp
+  Underground War 2 0: 0→0 activos (=), 273→274 exp
+  Vibe Obby: 0→0 activos (=), 1→4 exp
 
 Detalle cambios:
-data/games/codigos-anime-astral-simulator.json
+data/games/codigos-adopt-me.json
 data/games/codigos-anime-eternal.json
-data/games/codigos-anime-fighting-simulator-endless.json
-data/games/codigos-anime-ghosts.json
-data/games/codigos-anime-reversal.json
-data/games/codigos-anime-story.json
-data/games/codigos-black-grimoire.json
-data/games/codigos-bloxodachi-life.json
-data/games/codigos-exoria.json
-data/games/codigos-flashpoint-worlds-collide.json
+data/games/codigos-drive-world.json
+data/games/codigos-fisch.json
 data/games/codigos-in-the-hills.json
-data/games/codigos-ninja-time.json
-data/games/codigos-project-mirror-labyrinth.json
-data/games/codigos-the-company.json
-data/games/codigos-tower-defense-simulator.json
-data/games/codigos-universal-tower-defense.json
-data/games/codigos-weapon-rng.json
-data/games/codigos-world-fighters.json
+data/games/codigos-inazuma-strikers.json
+data/games/codigos-it-girl.json
+data/games/codigos-kaiju-paradise.json
+data/games/codigos-mechanical-ascension-x.json
+data/games/codigos-midnight-chasers-highway-racing.json
+data/games/codigos-mojave-valley.json
+data/games/codigos-motoprix-racing.json
+data/games/codigos-project-egoist.json
+data/games/codigos-project-menacing-remake.json
+data/games/codigos-project-smash.json
+data/games/codigos-reborn-skills-master.json
+data/games/codigos-rider-blox.json
+data/games/codigos-type-soul.json
+data/games/codigos-underground-war-2-0.json
+data/games/codigos-vibe-obby.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
