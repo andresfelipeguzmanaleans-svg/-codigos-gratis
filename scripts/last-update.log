@@ -1,79 +1,52 @@
-=== RESUMEN UPDATE 2026-06-11 21:58 ===
+=== RESUMEN UPDATE 2026-06-12 11:42 ===
 
 Archivos modificados:
-  25 archivos cambiados
+  9 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  14 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4373 juegos (4373 procesados)
-Actualizados: 23 | Sin cambios: 4205
+Total: 4387 juegos (4387 procesados)
+Actualizados: 6 | Sin cambios: 4236
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 13 | Movidos a expirados: 46
-Tiempo: 169.5s | Concurrencia: 10
+Códigos nuevos: 5 | Movidos a expirados: 2
+Tiempo: 174.9s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Blocks Per Click: 0→0 activos (=), 4→5 exp
-  1 Slayer Blade: 16→17 activos (+1), 107→107 exp
-    Nuevos: P9J5U8
-  1 Unlimited World: 16→17 activos (+1), 56→56 exp
-    Nuevos: A7K2M9
-  Anime Apocalypse: 1→3 activos (+2), 30→30 exp
-    Nuevos: THANKYOUFOR10K, THANKYOUFOR10K2
-  Anime Astral Simulator: 7→10 activos (+3), 22→22 exp
-    Nuevos: 18KPLAYERS, 19KPLAYERS, 20KPLAYERS
-  Anime Card Collection: 0→1 activos (+1), 49→49 exp
-    Nuevos: FortyThreeCode
-  Anime Card Clash: 0→0 activos (=), 180→181 exp
-  Anime Fighting Simulator Endless: 3→2 activos (-1), 174→175 exp
-  Anime Power League: 0→0 activos (=), 63→65 exp
-  Anime Reversal: 0→1 activos (+1), 71→71 exp
-    Nuevos: SryForBug5
-  Anime Rng: 3→1 activos (-2), 0→13 exp
-  Arise Shadow Hunt: 0→1 activos (+1), 79→79 exp
-    Nuevos: pGlI1i
-  Black Grimoire: 1→1 activos (=), 23→24 exp
-  Catch A Monster: 0→0 activos (=), 110→113 exp
-  Exoria: 2→1 activos (-1), 25→26 exp
-  Hypershot: 0→0 activos (=), 7→8 exp
-  Motoprix Racing: 33→0 activos (-33), 0→33 exp
-  Project Mirror Labyrinth: 1→0 activos (-1), 43→44 exp
-  The Button Room: 0→1 activos (+1), 15→15 exp
-    Nuevos: 9000Milestone
-  Unlimited Battlegrounds: 7→0 activos (-7), 2→9 exp
-  Wheelie District: 1→0 activos (-1), 4→5 exp
-  World Fighters: 9→10 activos (+1), 92→92 exp
-    Nuevos: WOOGARPP
-  Yeet a Friend: 0→1 activos (+1), 69→69 exp
-    Nuevos: BEACHDAY
+  Anime Defenders: 0→0 activos (=), 45→46 exp
+  Anime Rng: 1→0 activos (-1), 13→14 exp
+  Jurassic Genesis: 1→0 activos (-1), 18→20 exp
+  Massacre: 1→1 activos (=), 98→100 exp
+  Prodigy Drift: 0→4 activos (+4), 166→166 exp
+    Nuevos: DelayBlox, 100VISIT, CURSE, WHEELS
+  Project Menacing Remake: 45→46 activos (+1), 10→10 exp
+    Nuevos: CODE2TWWOOO
 
 Detalle cambios:
-data/games/codigos-1-blocks-per-click.json
-data/games/codigos-1-slayer-blade.json
-data/games/codigos-1-unlimited-world.json
-data/games/codigos-anime-apocalypse.json
-data/games/codigos-anime-astral-simulator.json
-data/games/codigos-anime-card-clash.json
-data/games/codigos-anime-card-collection.json
-data/games/codigos-anime-fighting-simulator-endless.json
-data/games/codigos-anime-power-league.json
-data/games/codigos-anime-reversal.json
+data/gameguide-urls.json
+data/games/codigos-anime-defenders.json
 data/games/codigos-anime-rng.json
-data/games/codigos-arise-shadow-hunt.json
-data/games/codigos-black-grimoire.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-exoria.json
-data/games/codigos-hypershot.json
-data/games/codigos-motoprix-racing.json
-data/games/codigos-project-mirror-labyrinth.json
-data/games/codigos-the-button-room.json
-data/games/codigos-unlimited-battlegrounds.json
-data/games/codigos-wheelie-district.json
-data/games/codigos-world-fighters.json
-data/games/codigos-yeet-a-friend.json
+data/games/codigos-jurassic-genesis.json
+data/games/codigos-massacre.json
+data/games/codigos-prodigy-drift.json
+data/games/codigos-project-menacing-remake.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-anime-squadron.json
+data/games/codigos-brainrot-sniper.json
+data/games/codigos-cat-invaders.json
+data/games/codigos-create-a-car.json
+data/games/codigos-defend-ur-base-with-anime.json
+data/games/codigos-fishing-chef.json
+data/games/codigos-immortality-incremental.json
+data/games/codigos-level-your-weapon.json
+data/games/codigos-merge-a-nuke.json
+data/games/codigos-muscle-military.json
+data/games/codigos-the-everything-factory.json
+data/games/codigos-ultra-toilet-fight-2.json
+data/games/codigos-vv-ultimatum.json
+data/games/codigos-wizard-alchemy.json
 
