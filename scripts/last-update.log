@@ -1,52 +1,63 @@
-=== RESUMEN UPDATE 2026-06-12 11:42 ===
+=== RESUMEN UPDATE 2026-06-12 21:28 ===
 
 Archivos modificados:
-  9 archivos cambiados
+  20 archivos cambiados
 
 Archivos nuevos:
-  14 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4387 juegos (4387 procesados)
-Actualizados: 6 | Sin cambios: 4236
+Actualizados: 18 | Sin cambios: 4224
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 5 | Movidos a expirados: 2
-Tiempo: 174.9s | Concurrencia: 10
+Códigos nuevos: 5 | Movidos a expirados: 25
+Tiempo: 148.0s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Defenders: 0→0 activos (=), 45→46 exp
-  Anime Rng: 1→0 activos (-1), 13→14 exp
-  Jurassic Genesis: 1→0 activos (-1), 18→20 exp
-  Massacre: 1→1 activos (=), 98→100 exp
-  Prodigy Drift: 0→4 activos (+4), 166→166 exp
-    Nuevos: DelayBlox, 100VISIT, CURSE, WHEELS
-  Project Menacing Remake: 45→46 activos (+1), 10→10 exp
-    Nuevos: CODE2TWWOOO
+  Anime Apocalypse: 3→1 activos (-2), 30→32 exp
+  Anime Astral Simulator: 10→0 activos (-10), 22→32 exp
+  Anime Ghosts: 1→0 activos (-1), 70→71 exp
+  Anime Power League: 0→1 activos (+1), 65→65 exp
+    Nuevos: byNanashi
+  Archived: 0→0 activos (=), 8→9 exp
+  Cabin Crew Simulator: 0→0 activos (=), 51→52 exp
+  Evil Plate Game: 0→0 activos (=), 52→54 exp
+  Jailbreak: 0→0 activos (=), 132→133 exp
+  Jungle Life: 0→1 activos (+1), 5→5 exp
+    Nuevos: DUMBO
+  Kanom Tokyo: 2→0 activos (-2), 39→41 exp
+  Merge A Nuke: 2→1 activos (-1), 2→3 exp
+  PLS DONATE: 0→0 activos (=), 31→32 exp
+  Prodigy Drift: 4→0 activos (-4), 166→170 exp
+  Project Menacing Remake: 46→45 activos (-1), 10→11 exp
+  Robong Megabonk: 0→1 activos (+1), 40→40 exp
+    Nuevos: classrework
+  Toons Universe: 0→2 activos (+2), 2→2 exp
+    Nuevos: 10MIL, WELCOMEBACK
+  Universal Tower Defense: 7→6 activos (-1), 122→124 exp
+  World Fighters: 10→7 activos (-3), 92→95 exp
 
 Detalle cambios:
-data/gameguide-urls.json
-data/games/codigos-anime-defenders.json
-data/games/codigos-anime-rng.json
-data/games/codigos-jurassic-genesis.json
-data/games/codigos-massacre.json
+data/games/codigos-anime-apocalypse.json
+data/games/codigos-anime-astral-simulator.json
+data/games/codigos-anime-ghosts.json
+data/games/codigos-anime-power-league.json
+data/games/codigos-archived.json
+data/games/codigos-cabin-crew-simulator.json
+data/games/codigos-evil-plate-game.json
+data/games/codigos-jailbreak.json
+data/games/codigos-jungle-life.json
+data/games/codigos-kanom-tokyo.json
+data/games/codigos-merge-a-nuke.json
+data/games/codigos-pls-donate.json
 data/games/codigos-prodigy-drift.json
 data/games/codigos-project-menacing-remake.json
+data/games/codigos-robong-megabonk.json
+data/games/codigos-toons-universe.json
+data/games/codigos-universal-tower-defense.json
+data/games/codigos-world-fighters.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-anime-squadron.json
-data/games/codigos-brainrot-sniper.json
-data/games/codigos-cat-invaders.json
-data/games/codigos-create-a-car.json
-data/games/codigos-defend-ur-base-with-anime.json
-data/games/codigos-fishing-chef.json
-data/games/codigos-immortality-incremental.json
-data/games/codigos-level-your-weapon.json
-data/games/codigos-merge-a-nuke.json
-data/games/codigos-muscle-military.json
-data/games/codigos-the-everything-factory.json
-data/games/codigos-ultra-toilet-fight-2.json
-data/games/codigos-vv-ultimatum.json
-data/games/codigos-wizard-alchemy.json
 
