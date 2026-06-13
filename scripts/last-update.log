@@ -1,35 +1,140 @@
-=== RESUMEN UPDATE 2026-06-13 10:26 ===
+=== RESUMEN UPDATE 2026-06-13 21:14 ===
 
 Archivos modificados:
-  7 archivos cambiados
+  45 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  10 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4387 juegos (4387 procesados)
-Actualizados: 5 | Sin cambios: 4237
-No encontrado: 132 | Saltados: 13
-Códigos nuevos: 4 | Movidos a expirados: 0
-Tiempo: 189.9s | Concurrencia: 10
+Total: 4397 juegos (4397 procesados)
+Actualizados: 42 | Sin cambios: 2758
+No encontrado: 1584 | Saltados: 13
+Códigos nuevos: 32 | Movidos a expirados: 14
+Tiempo: 494.7s | Concurrencia: 10
 
 Juegos actualizados:
-  Blockade Battlefront: 0→1 activos (+1), 32→35 exp
-    Nuevos: ImSorryGuys14
-  Car Zone: 0→3 activos (+3), 119→119 exp
-    Nuevos: TRAFFIC, 225KLIKES, UPDATE59
-  Pull a Sword: 0→0 activos (=), 238→239 exp
-  Skibi Defense 3 5: 0→0 activos (=), 78→80 exp
-  St Blockade Reboot: 0→0 activos (=), 42→45 exp
+  18 Floors: 1→0 activos (-1), 44→45 exp
+  99 Nights In The Forest: 0→1 activos (+1), 4→4 exp
+    Nuevos: forestwakesup26
+  Air Traffic Simulator: 0→1 activos (+1), 15→16 exp
+    Nuevos: CLEARED
+  Anime Card Collection: 1→0 activos (-1), 49→50 exp
+  Anime Card Battle X: 1→0 activos (-1), 21→22 exp
+  Anime Final Quest: 1→4 activos (+3), 97→97 exp
+    Nuevos: NEWRAIDINAFQ, STRAWHATREWORK, VAMPIREINAFQ
+  Anime Ghosts: 0→1 activos (+1), 71→71 exp
+    Nuevos: SUB4RU
+  Anime Last Stand: 4→1 activos (-3), 315→318 exp
+  Anime Reversal: 1→0 activos (-1), 71→72 exp
+  Anime Waifu Card Collection: 3→0 activos (-3), 13→16 exp
+  Arcade Basketball: 0→1 activos (+1), 53→53 exp
+    Nuevos: FLAMES
+  Archer Training: 0→1 activos (+1), 7→7 exp
+    Nuevos: mushrooms
+  Arise Shadow Hunt: 1→0 activos (-1), 79→80 exp
+  Armless Detective: 0→0 activos (=), 76→77 exp
+  Bad Business: 0→1 activos (+1), 126→126 exp
+    Nuevos: update2026
+  Basketball Zero: 0→2 activos (+2), 234→234 exp
+    Nuevos: 30ALIEN, ALIEN
+  Be Dino: 0→0 activos (=), 36→37 exp
+  Blue Lock Rivals: 0→3 activos (+3), 299→299 exp
+    Nuevos: NELTEAMSHYPE, BREAKDANCE, KIYORARELEASE
+  Catch A Monster: 0→1 activos (+1), 113→113 exp
+    Nuevos: graon
+  Dead Spells: 1→1 activos (=), 52→57 exp
+  Deadly Delivery: 0→1 activos (+1), 50→50 exp
+    Nuevos: ORRRRRDER
+  Defend Ur Base With Anime: 0→3 activos (+3), 4→4 exp
+    Nuevos: BURAH, NEWMUTATIONS, JJKUPDATE
+  Duel Warriors: 0→0 activos (=), 155→159 exp
+  Dungeon Heroes: 0→1 activos (+1), 73→73 exp
+    Nuevos: SHRIMP-R-BACK
+  Faith Incremental: 0→1 activos (+1), 22→22 exp
+    Nuevos: ELITEPOTION
+  Fuse 3 Dragons: 0→2 activos (+2), 3→3 exp
+    Nuevos: FRESHFENCE, ILIKEYOU2000
+  Heroes Online World: 0→0 activos (=), 184→185 exp
+  Hunty Zombies: 82→85 activos (+3), 150→150 exp
+    Nuevos: BATTLEPASS6, QoLRebalance2!, NOMOREHZDELAYS!
+  Imposters And Roles: 0→1 activos (+1), 60→60 exp
+    Nuevos: HYPNOTIC
+  Imposters Roles: 51→51 activos (=), 1→2 exp
+  Inazuma Strikers: 0→1 activos (+1), 60→60 exp
+    Nuevos: WORLDCUP
+  Loot Up: 0→1 activos (+1), 24→24 exp
+    Nuevos: REROLL
+  Money Clicker Inc: 1→2 activos (+1), 24→24 exp
+    Nuevos: StopAnnoyingMeTubers
+  Motorush: 23→23 activos (=), 24→26 exp
+  Neo Tennis: 0→1 activos (+1), 33→33 exp
+    Nuevos: PEGEPJGC8DB
+  Ninja Time: 2→0 activos (-2), 247→249 exp
+  Pet Quest: 0→0 activos (=), 62→63 exp
+  Pirate Piece: 2→2 activos (=), 40→42 exp
+  Restaurant Tycoon 3: 2→2 activos (=), 45→46 exp
+  Saber Simulator: 0→1 activos (+1), 99→99 exp
+    Nuevos: SCUBA
+  Wizard Alchemy: 0→0 activos (=), 18→22 exp
+  Yeet a Friend: 1→0 activos (-1), 69→70 exp
 
 Detalle cambios:
-data/games/codigos-blockade-battlefront.json
-data/games/codigos-car-zone.json
-data/games/codigos-pull-a-sword.json
-data/games/codigos-skibi-defense-3-5.json
-data/games/codigos-st-blockade-reboot.json
+data/gameguide-urls.json
+data/games/codigos-18-floors.json
+data/games/codigos-99-nights-in-the-forest.json
+data/games/codigos-air-traffic-simulator.json
+data/games/codigos-anime-card-battle-x.json
+data/games/codigos-anime-card-collection.json
+data/games/codigos-anime-final-quest.json
+data/games/codigos-anime-ghosts.json
+data/games/codigos-anime-last-stand.json
+data/games/codigos-anime-reversal.json
+data/games/codigos-anime-waifu-card-collection.json
+data/games/codigos-arcade-basketball.json
+data/games/codigos-archer-training.json
+data/games/codigos-arise-shadow-hunt.json
+data/games/codigos-armless-detective.json
+data/games/codigos-bad-business.json
+data/games/codigos-basketball-zero.json
+data/games/codigos-be-dino.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-catch-a-monster.json
+data/games/codigos-dead-spells.json
+data/games/codigos-deadly-delivery.json
+data/games/codigos-defend-ur-base-with-anime.json
+data/games/codigos-duel-warriors.json
+data/games/codigos-dungeon-heroes.json
+data/games/codigos-faith-incremental.json
+data/games/codigos-fuse-3-dragons.json
+data/games/codigos-heroes-online-world.json
+data/games/codigos-hunty-zombies.json
+data/games/codigos-imposters-and-roles.json
+data/games/codigos-imposters-roles.json
+data/games/codigos-inazuma-strikers.json
+data/games/codigos-loot-up.json
+data/games/codigos-money-clicker-inc.json
+data/games/codigos-motorush.json
+data/games/codigos-neo-tennis.json
+data/games/codigos-ninja-time.json
+data/games/codigos-pet-quest.json
+data/games/codigos-pirate-piece.json
+data/games/codigos-restaurant-tycoon-3.json
+data/games/codigos-saber-simulator.json
+data/games/codigos-wizard-alchemy.json
+data/games/codigos-yeet-a-friend.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-1-dmg-per-revive.json
+data/games/codigos-1-speed-quicksand-escape.json
+data/games/codigos-axe-rng.json
+data/games/codigos-basketball-training.json
+data/games/codigos-cavity-crushers.json
+data/games/codigos-element-arena.json
+data/games/codigos-hatch-a-cow.json
+data/games/codigos-paint-and-seek.json
+data/games/codigos-roblox-mafia.json
+data/games/codigos-roblox-scoped.json
 
