@@ -1,61 +1,33 @@
-=== RESUMEN UPDATE 2026-06-12 21:28 ===
+=== RESUMEN UPDATE 2026-06-13 10:26 ===
 
 Archivos modificados:
-  20 archivos cambiados
+  7 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4387 juegos (4387 procesados)
-Actualizados: 18 | Sin cambios: 4224
+Actualizados: 5 | Sin cambios: 4237
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 5 | Movidos a expirados: 25
-Tiempo: 148.0s | Concurrencia: 10
+Códigos nuevos: 4 | Movidos a expirados: 0
+Tiempo: 189.9s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Apocalypse: 3→1 activos (-2), 30→32 exp
-  Anime Astral Simulator: 10→0 activos (-10), 22→32 exp
-  Anime Ghosts: 1→0 activos (-1), 70→71 exp
-  Anime Power League: 0→1 activos (+1), 65→65 exp
-    Nuevos: byNanashi
-  Archived: 0→0 activos (=), 8→9 exp
-  Cabin Crew Simulator: 0→0 activos (=), 51→52 exp
-  Evil Plate Game: 0→0 activos (=), 52→54 exp
-  Jailbreak: 0→0 activos (=), 132→133 exp
-  Jungle Life: 0→1 activos (+1), 5→5 exp
-    Nuevos: DUMBO
-  Kanom Tokyo: 2→0 activos (-2), 39→41 exp
-  Merge A Nuke: 2→1 activos (-1), 2→3 exp
-  PLS DONATE: 0→0 activos (=), 31→32 exp
-  Prodigy Drift: 4→0 activos (-4), 166→170 exp
-  Project Menacing Remake: 46→45 activos (-1), 10→11 exp
-  Robong Megabonk: 0→1 activos (+1), 40→40 exp
-    Nuevos: classrework
-  Toons Universe: 0→2 activos (+2), 2→2 exp
-    Nuevos: 10MIL, WELCOMEBACK
-  Universal Tower Defense: 7→6 activos (-1), 122→124 exp
-  World Fighters: 10→7 activos (-3), 92→95 exp
+  Blockade Battlefront: 0→1 activos (+1), 32→35 exp
+    Nuevos: ImSorryGuys14
+  Car Zone: 0→3 activos (+3), 119→119 exp
+    Nuevos: TRAFFIC, 225KLIKES, UPDATE59
+  Pull a Sword: 0→0 activos (=), 238→239 exp
+  Skibi Defense 3 5: 0→0 activos (=), 78→80 exp
+  St Blockade Reboot: 0→0 activos (=), 42→45 exp
 
 Detalle cambios:
-data/games/codigos-anime-apocalypse.json
-data/games/codigos-anime-astral-simulator.json
-data/games/codigos-anime-ghosts.json
-data/games/codigos-anime-power-league.json
-data/games/codigos-archived.json
-data/games/codigos-cabin-crew-simulator.json
-data/games/codigos-evil-plate-game.json
-data/games/codigos-jailbreak.json
-data/games/codigos-jungle-life.json
-data/games/codigos-kanom-tokyo.json
-data/games/codigos-merge-a-nuke.json
-data/games/codigos-pls-donate.json
-data/games/codigos-prodigy-drift.json
-data/games/codigos-project-menacing-remake.json
-data/games/codigos-robong-megabonk.json
-data/games/codigos-toons-universe.json
-data/games/codigos-universal-tower-defense.json
-data/games/codigos-world-fighters.json
+data/games/codigos-blockade-battlefront.json
+data/games/codigos-car-zone.json
+data/games/codigos-pull-a-sword.json
+data/games/codigos-skibi-defense-3-5.json
+data/games/codigos-st-blockade-reboot.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
