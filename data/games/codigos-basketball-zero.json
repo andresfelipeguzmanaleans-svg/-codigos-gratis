@@ -5,20 +5,17 @@
   "description": "Todos los códigos activos para Basketball Zero en Roblox",
   "metaTitle": "Códigos Basketball Zero Roblox (Junio 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Basketball Zero en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-13T21:06:26.570Z",
-  "activeCodes": [
+  "lastUpdated": "2026-06-15T13:48:55.848Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "30ALIEN",
-      "reward": "10 Lucky giros, 150K dinero",
-      "addedDate": "2026-06-13"
+      "reward": "10 Lucky giros, 150K dinero"
     },
     {
       "code": "ALIEN",
-      "reward": "10 Lucky giros, 50K dinero",
-      "addedDate": "2026-06-13"
-    }
-  ],
-  "expiredCodes": [
+      "reward": "10 Lucky giros, 50K dinero"
+    },
     {
       "code": "CHROLLO1MTT",
       "reward": "20 Lucky giros, 20 Lucky Zone giros"
@@ -44,8 +41,12 @@
       "reward": "10 Lucky giros, 10 Lucky Zone giros"
     },
     {
-      "code": "NEW CODE DROPPING SOON",
-      "reward": "Recompensa expirada"
+      "code": "GREATREBALANCEUPD",
+      "reward": "Giros"
+    },
+    {
+      "code": "CHROLLOBIRTHDAY",
+      "reward": "25 Lucky giros & Zone giros"
     },
     {
       "code": "REFEREE",
@@ -364,10 +365,6 @@
       "reward": "2 Lucky giros, 2 Lucky Zone giros"
     },
     {
-      "code": "400KWOW",
-      "reward": "15000 dinero, 1 Lucky Style giro"
-    },
-    {
       "code": "STARREWORK",
       "reward": "6 Lucky giros, 6 Lucky Zone giros"
     },
@@ -388,24 +385,12 @@
       "reward": "3 Trail giros, 2 Lucky giros, 2 Zone Color giros"
     },
     {
-      "code": "CHROLLOFORGOT",
-      "reward": "2 Lucky giros, 2 Zone Color Rerolls, 2 Lucky Zone giros"
-    },
-    {
       "code": "RANKEDISSUESSORRY",
       "reward": "10 Lucky Style giros And 10 Lucky Zone giros"
     },
     {
       "code": "100KW",
       "reward": "Recompensa"
-    },
-    {
-      "code": "GLITCHPATCH",
-      "reward": "50 Lucky Style giros And 50 Lucky Zone giros"
-    },
-    {
-      "code": "HOLIDAYS",
-      "reward": "30 Lucky Style giros And 30 Lucky Zone giros"
     },
     {
       "code": "RELEASE",
@@ -428,16 +413,8 @@
       "reward": "20 Lucky Style giros And 20 Lucky Zone giros"
     },
     {
-      "code": "LUKA",
-      "reward": "30 Lucky Style giros And 30 Lucky Zone giros"
-    },
-    {
       "code": "POPSTAR",
       "reward": "25 Lucky Zone & Style giros"
-    },
-    {
-      "code": "BIGNEWSSOON",
-      "reward": "25 Lucky Style giros And 25 Lucky Zone giros"
     },
     {
       "code": "CASHEVENT",
@@ -456,20 +433,12 @@
       "reward": "100000 dinero, 25 Lucky giros"
     },
     {
-      "code": "SHADOWQUEST",
-      "reward": "20K dinero, 15 Lucky giros, 1,000 llaves"
-    },
-    {
       "code": "LASTCHANCETOGETPOPSTAR",
       "reward": "10 Lucky Style/Zone giros"
     },
     {
       "code": "1MLIKES",
       "reward": "3 Lucky Style giros, 3 Lucky Zone giros"
-    },
-    {
-      "code": "chrollohi",
-      "reward": "3 Lucky giros, 3 Lucky Zone giros"
     },
     {
       "code": "TATLISCODE",
@@ -490,6 +459,10 @@
     {
       "code": "THEGREATREBALANCE",
       "reward": "25 Lucky giros and 150,000 dinero"
+    },
+    {
+      "code": "chrollohi",
+      "reward": "3 Lucky giros, 3 Lucky Zone giros"
     },
     {
       "code": "CHROLLOGIFT",
@@ -596,16 +569,8 @@
       "reward": "15 Lucky giros, 15 Lucky Zone giros"
     },
     {
-      "code": "CHROLLOSOLOS",
-      "reward": "8 Lucky giros, 8 Lucky Zone giros"
-    },
-    {
       "code": "CHROLLOBOREDRN",
       "reward": "8 Lucky giros, 8 Lucky Zone giros"
-    },
-    {
-      "code": "1HRGIFTSUNDAY",
-      "reward": "30 Lucky Style giros, 30 Lucky Zone giros, and $350,000"
     },
     {
       "code": "LEWISAYSSORRY",
@@ -614,6 +579,46 @@
     {
       "code": "MERRYCHRISTMAS",
       "reward": "Christmas Emote gratis"
+    },
+    {
+      "code": "BIGNEWSSOON",
+      "reward": "25 Lucky Style giros And 25 Lucky Zone giros"
+    },
+    {
+      "code": "CHROLLOSOLOS",
+      "reward": "8 Lucky giros, 8 Lucky Zone giros"
+    },
+    {
+      "code": "CHROLLOFORGOT",
+      "reward": "2 Lucky giros, 2 Zone Color Rerolls, 2 Lucky Zone giros"
+    },
+    {
+      "code": "400KWOW",
+      "reward": "15000 dinero, 1 Lucky Style giro"
+    },
+    {
+      "code": "LUKA",
+      "reward": "30 Lucky Style giros And 30 Lucky Zone giros"
+    },
+    {
+      "code": "GLITCHPATCH",
+      "reward": "50 Lucky Style giros And 50 Lucky Zone giros"
+    },
+    {
+      "code": "HOLIDAYS",
+      "reward": "30 Lucky Style giros And 30 Lucky Zone giros"
+    },
+    {
+      "code": "1HRGIFTSUNDAY",
+      "reward": "30 Lucky Style giros, 30 Lucky Zone giros, and $350,000"
+    },
+    {
+      "code": "SHADOWQUEST",
+      "reward": "20K dinero, 15 Lucky giros, 1,000 llaves"
+    },
+    {
+      "code": "NEW CODE DROPPING SOON",
+      "reward": "Recompensa expirada"
     },
     {
       "code": "2026",
@@ -702,14 +707,6 @@
     {
       "code": "FRIENDLYEVENT",
       "reward": "10 Lucky Style giros and 10 Lucky Zone giros"
-    },
-    {
-      "code": "GREATREBALANCEUPD",
-      "reward": "Giros"
-    },
-    {
-      "code": "CHROLLOBIRTHDAY",
-      "reward": "25 Lucky giros & Zone giros"
     },
     {
       "code": "30THIEF",
