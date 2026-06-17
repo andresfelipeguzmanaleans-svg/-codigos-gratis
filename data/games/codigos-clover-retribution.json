@@ -4,9 +4,19 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-ff92ab12c2a15b997a0c6d896a7e3451/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Clover Retribution en Roblox",
   "metaTitle": "Códigos Clover Retribution Roblox (Junio 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Clover Retribution en Roblox. 4 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-14T21:02:43.734Z",
+  "metaDescription": "Lista actualizada de códigos para Clover Retribution en Roblox. 6 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-06-17T21:55:32.513Z",
   "activeCodes": [
+    {
+      "code": "!freeskilltreeresettwo",
+      "reward": "Skill Tree Reset",
+      "addedDate": "2026-06-17"
+    },
+    {
+      "code": "!sovereign",
+      "reward": "Giros",
+      "addedDate": "2026-06-17"
+    },
     {
       "code": "!spiritsaremakingmelosesleep",
       "reward": "200 giros",
@@ -34,48 +44,8 @@
       "reward": "12 giros"
     },
     {
-      "code": "!ihavedoneabigfunny",
-      "reward": "35 giros Of All Types"
-    },
-    {
-      "code": "!codejustbecause",
-      "reward": "125 Magic giros"
-    },
-    {
-      "code": "!chooserace",
-      "reward": "30 Race giros"
-    },
-    {
-      "code": "!2millvisits",
-      "reward": "10 Race giros"
-    },
-    {
-      "code": "!halloweenstats",
-      "reward": "Resets Stats"
-    },
-    {
-      "code": "!choosetrait7",
-      "reward": "200 Trait giros"
-    },
-    {
-      "code": "!95klikes",
+      "code": "!valentinesbonus",
       "reward": "50 giros"
-    },
-    {
-      "code": "!300kfavs",
-      "reward": "50 giros"
-    },
-    {
-      "code": "!spatialroomv2",
-      "reward": "50 Magic giros"
-    },
-    {
-      "code": "!lephos300thbirthday",
-      "reward": "150 giros"
-    },
-    {
-      "code": "!28klikes",
-      "reward": "10 Magic giros, 10 Race giros, 10 Trait giros"
     },
     {
       "code": "!update1part1",
@@ -218,16 +188,44 @@
       "reward": "30 Magic giros"
     },
     {
+      "code": "!everybodywantsspins",
+      "reward": "100 giros"
+    },
+    {
+      "code": "!chooserace",
+      "reward": "30 Race giros"
+    },
+    {
+      "code": "!2millvisits",
+      "reward": "10 Race giros"
+    },
+    {
+      "code": "!choosetrait7",
+      "reward": "200 Trait giros"
+    },
+    {
+      "code": "!95klikes",
+      "reward": "50 giros"
+    },
+    {
+      "code": "!300kfavs",
+      "reward": "50 giros"
+    },
+    {
+      "code": "!spatialroomv2",
+      "reward": "50 Magic giros"
+    },
+    {
+      "code": "!lephos300thbirthday",
+      "reward": "150 giros"
+    },
+    {
       "code": "!anotheryear",
       "reward": "125 giros Of Each Type"
     },
     {
       "code": "!communitycode1",
       "reward": "55 giros Of Each Type"
-    },
-    {
-      "code": "!fixedteleport",
-      "reward": "80 Magic giros and 1 Trumpet of The End"
     },
     {
       "code": "!watermagic",
@@ -246,10 +244,6 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "!wizardkingcontest",
-      "reward": "100 giros Of All Types"
-    },
-    {
       "code": "!communitycode",
       "reward": "120 Magic giros"
     },
@@ -258,36 +252,12 @@
       "reward": "6 Magic giros, 6 Race giros, 6 Trait giros"
     },
     {
-      "code": "!mypcisdying",
-      "reward": "175 Magic giros"
-    },
-    {
-      "code": "!inventoryrework",
-      "reward": "50 giros"
-    },
-    {
       "code": "!race9925",
       "reward": "100 Race giros"
     },
     {
-      "code": "!clickedequalsfalse",
-      "reward": "30 giros"
-    },
-    {
       "code": "!junglesoon2025",
       "reward": "50 giros of Each Type"
-    },
-    {
-      "code": "!summerfunnycode",
-      "reward": "Giros"
-    },
-    {
-      "code": "!funnycode99",
-      "reward": "Giros Of All Types Based On Your Level"
-    },
-    {
-      "code": "!fishrace",
-      "reward": "Giros"
     },
     {
       "code": "!choosetrait6",
@@ -298,31 +268,51 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "!fabioxbirthday",
+      "code": "!magic9325",
+      "reward": "50 Magic giros"
+    },
+    {
+      "code": "!mypcisdying",
+      "reward": "175 Magic giros"
+    },
+    {
+      "code": "!inventoryrework",
+      "reward": "50 giros"
+    },
+    {
+      "code": "!clickedequalsfalse",
+      "reward": "30 giros"
+    },
+    {
+      "code": "!fishrace",
       "reward": "Giros"
     },
     {
-      "code": "!magic9325",
-      "reward": "50 Magic giros"
+      "code": "!fixedteleport",
+      "reward": "80 Magic giros and 1 Trumpet of The End"
+    },
+    {
+      "code": "!summerfunnycode",
+      "reward": "Giros"
+    },
+    {
+      "code": "!halloweenstats",
+      "reward": "Resets Stats"
     },
     {
       "code": "!legionmagicrules",
       "reward": "Giros"
     },
     {
+      "code": "!wizardkingcontest",
+      "reward": "100 giros Of All Types"
+    },
+    {
       "code": "!titlewaveexp",
       "reward": "2 horas Of 2x EXP"
     },
     {
-      "code": "!70klikes",
-      "reward": "100 Magic giros"
-    },
-    {
       "code": "spatialroom",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "!desertdungeonsoone",
       "reward": "Recompensa gratis"
     },
     {
@@ -330,8 +320,32 @@
       "reward": "200 Magic giros"
     },
     {
+      "code": "!chooserace13",
+      "reward": "Giros"
+    },
+    {
+      "code": "!riskitforthedivine",
+      "reward": "Random Amount of giros"
+    },
+    {
       "code": "!clovergoal",
       "reward": "30 Race giros"
+    },
+    {
+      "code": "!codejustbecause",
+      "reward": "125 Magic giros"
+    },
+    {
+      "code": "!desertdungeonsoone",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "!ihavedoneabigfunny",
+      "reward": "35 giros Of All Types"
+    },
+    {
+      "code": "!fabioxbirthday",
+      "reward": "Giros"
     },
     {
       "code": "!125klikes",
@@ -502,6 +516,14 @@
       "reward": "30 Race giros"
     },
     {
+      "code": "!pollcode2",
+      "reward": "25 Race giros"
+    },
+    {
+      "code": "!funnycode99",
+      "reward": "Giros Of All Types Based On Your Level"
+    },
+    {
       "code": "!promisedrace",
       "reward": "25 Race giros"
     },
@@ -530,10 +552,6 @@
       "reward": "45 giros"
     },
     {
-      "code": "!blackscreenfix",
-      "reward": "25 giros"
-    },
-    {
       "code": "!redsblessing",
       "reward": "Fish Armor"
     },
@@ -542,24 +560,12 @@
       "reward": "Giros"
     },
     {
-      "code": "!thankyouagain",
-      "reward": "50 Race giros"
-    },
-    {
-      "code": "!everybodywantsspins",
-      "reward": "100 giros"
-    },
-    {
       "code": "!choosemagic6",
       "reward": "200 Magic giros"
     },
     {
       "code": "!humanoidfix",
       "reward": "Giros"
-    },
-    {
-      "code": "!pollcode2",
-      "reward": "25 Race giros"
     },
     {
       "code": "!combatv2soon",
@@ -674,10 +680,6 @@
       "reward": "50 giros"
     },
     {
-      "code": "!valentinesbonus",
-      "reward": "50 giros"
-    },
-    {
       "code": "!summercomeback",
       "reward": "25 giros"
     },
@@ -708,10 +710,6 @@
     {
       "code": "!julygift",
       "reward": "100 giros"
-    },
-    {
-      "code": "!riskitforthedivine",
-      "reward": "Random Amount of giros"
     },
     {
       "code": "!bigupdatesoon",
@@ -874,6 +872,14 @@
       "reward": "Giros"
     },
     {
+      "code": "!blackscreenfix",
+      "reward": "25 giros"
+    },
+    {
+      "code": "!thankyouagain",
+      "reward": "50 Race giros"
+    },
+    {
       "code": "!choosemagic12",
       "reward": "125 giros"
     },
@@ -900,10 +906,6 @@
     {
       "code": "!titlewave",
       "reward": "150 giros Of All Types"
-    },
-    {
-      "code": "!chooserace13",
-      "reward": "Giros"
     },
     {
       "code": "!choosetrait10",
@@ -1014,6 +1016,10 @@
       "reward": "5 Magic giros, 5 Race giros, 5 Trait giros"
     },
     {
+      "code": "!70klikes",
+      "reward": "100 Magic giros"
+    },
+    {
       "code": "!chooserace9",
       "reward": "200 Race giros"
     },
@@ -1032,6 +1038,10 @@
     {
       "code": "!80klikes",
       "reward": "50 giros"
+    },
+    {
+      "code": "!28klikes",
+      "reward": "10 Magic giros, 10 Race giros, 10 Trait giros"
     },
     {
       "code": "!iwasbusy",
