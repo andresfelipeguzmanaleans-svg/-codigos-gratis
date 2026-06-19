@@ -1,87 +1,42 @@
-=== RESUMEN UPDATE 2026-06-18 22:02 ===
+=== RESUMEN UPDATE 2026-06-19 12:03 ===
 
 Archivos modificados:
-  27 archivos cambiados
+  8 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  7 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4404 juegos (4404 procesados)
-Actualizados: 25 | Sin cambios: 4234
+Total: 4411 juegos (4411 procesados)
+Actualizados: 5 | Sin cambios: 4261
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 28 | Movidos a expirados: 5
-Tiempo: 143.6s | Concurrencia: 10
+Códigos nuevos: 1 | Movidos a expirados: 20
+Tiempo: 170.1s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Battle Rng: 14→18 activos (+4), 8→8 exp
-    Nuevos: 15KLIKE, 2MVISIT, CLOVERREROLL, 14KLIKE
-  Anime Card Collection: 0→1 activos (+1), 51→51 exp
-    Nuevos: FortyFiveCode
-  Anime Eternal: 0→2 activos (+2), 788→788 exp
-    Nuevos: Update55P2, Update5P2Delay
-  Anime Power League: 1→4 activos (+3), 68→68 exp
-    Nuevos: SoulHunters, VIETNAM, enjoy1token
-  Anime Reversal: 0→5 activos (+5), 73→73 exp
-    Nuevos: ASSASSIN, 60KLIKES, YURNATH, WITCHEVENT, UPDATE6POINT5
-  Anime Story: 1→2 activos (+1), 202→203 exp
-    Nuevos: newartifacts
-  Arise Shadow Hunt: 0→1 activos (+1), 80→80 exp
-    Nuevos: K5o71R
-  Asura: 2→2 activos (=), 355→375 exp
-  Be Dino: 0→1 activos (+1), 37→37 exp
-    Nuevos: FROG
-  Clover Retribution: 6→5 activos (-1), 287→288 exp
-  Corsa Legends: 1→0 activos (-1), 40→41 exp
-  Demon Born: 7→7 activos (=), 5→6 exp
-  Duel Warriors: 0→0 activos (=), 159→161 exp
-  Fuse 3 Dragons: 0→1 activos (+1), 5→5 exp
-    Nuevos: BLUEPRINTS
-  Hots Rng: 1→0 activos (-1), 128→129 exp
-  Immortality Incremental: 6→9 activos (+3), 35→35 exp
-    Nuevos: 10MVISIT, 20KSERVER, CRAFTING
-  Infinite Tower Tycoon: 0→0 activos (=), 44→45 exp
-  It Girl: 0→0 activos (=), 25→26 exp
-  Legends Rewritten: 1→0 activos (-1), 109→110 exp
-  Money Clicker Inc: 1→3 activos (+2), 25→25 exp
-    Nuevos: FreeRelics, StartingRelics
-  Re Rangers X: 57→58 activos (+1), 0→0 exp
-    Nuevos: ShadowPatched
-  The Button Room: 0→1 activos (+1), 16→16 exp
-    Nuevos: O2URZACXGU
-  The Vampire Legacies 2: 1→0 activos (-1), 49→50 exp
-  West Coast Florida: 27→27 activos (=), 17→18 exp
-  World Fighters: 6→8 activos (+2), 98→98 exp
-    Nuevos: HYPEEEE, UPDATE8PT2
+  Brainrot Sniper: 7→0 activos (-7), 0→10 exp
+  Get Muscles Simulator: 10→0 activos (-10), 0→12 exp
+  Project Menacing Remake: 45→46 activos (+1), 11→11 exp
+    Nuevos: GETPINGED
+  Steal Time Simulator: 4→4 activos (=), 1→4 exp
+  Unnamed Rpg Game: 3→0 activos (-3), 0→3 exp
 
 Detalle cambios:
-data/games/codigos-anime-battle-rng.json
-data/games/codigos-anime-card-collection.json
-data/games/codigos-anime-eternal.json
-data/games/codigos-anime-power-league.json
-data/games/codigos-anime-reversal.json
-data/games/codigos-anime-story.json
-data/games/codigos-arise-shadow-hunt.json
-data/games/codigos-asura.json
-data/games/codigos-be-dino.json
-data/games/codigos-clover-retribution.json
-data/games/codigos-corsa-legends.json
-data/games/codigos-demon-born.json
-data/games/codigos-duel-warriors.json
-data/games/codigos-fuse-3-dragons.json
-data/games/codigos-hots-rng.json
-data/games/codigos-immortality-incremental.json
-data/games/codigos-infinite-tower-tycoon.json
-data/games/codigos-it-girl.json
-data/games/codigos-legends-rewritten.json
-data/games/codigos-money-clicker-inc.json
-data/games/codigos-re-rangers-x.json
-data/games/codigos-the-button-room.json
-data/games/codigos-the-vampire-legacies-2.json
-data/games/codigos-west-coast-florida.json
-data/games/codigos-world-fighters.json
+data/gameguide-urls.json
+data/games/codigos-brainrot-sniper.json
+data/games/codigos-get-muscles-simulator.json
+data/games/codigos-project-menacing-remake.json
+data/games/codigos-steal-time-simulator.json
+data/games/codigos-unnamed-rpg-game.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-1-speed-keyboard-escape.json
+data/games/codigos-evomon.json
+data/games/codigos-hide-from-the-villain.json
+data/games/codigos-krakeurzzs-killer.json
+data/games/codigos-launch-a-wheel.json
+data/games/codigos-push-a-lucky-block.json
+data/games/codigos-worldbreaker.json
 
