@@ -1,33 +1,71 @@
-=== RESUMEN UPDATE 2026-06-20 10:30 ===
+=== RESUMEN UPDATE 2026-06-20 21:21 ===
 
 Archivos modificados:
-  6 archivos cambiados
+  22 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4411 juegos (4411 procesados)
-Actualizados: 4 | Sin cambios: 4262
-No encontrado: 132 | Saltados: 13
-Códigos nuevos: 6 | Movidos a expirados: 0
-Tiempo: 133.3s | Concurrencia: 10
+Actualizados: 20 | Sin cambios: 4079
+No encontrado: 299 | Saltados: 13
+Códigos nuevos: 19 | Movidos a expirados: 10
+Tiempo: 891.3s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Eternal: 2→3 activos (+1), 788→788 exp
-    Nuevos: Update55P2Restart
-  Anime Ghosts: 1→2 activos (+1), 73→73 exp
-    Nuevos: DEATH
-  Basketball Stars 3: 0→1 activos (+1), 54→54 exp
-    Nuevos: anotherupdate
-  Nfl Universe Football: 37→40 activos (+3), 252→252 exp
-    Nuevos: MIXTAPES, UNIFORMS26, 2XWKNDS
+  Anime Eternal: 3→3 activos (=), 788→789 exp
+    Nuevos: Update56
+  Archer Training: 0→1 activos (+1), 8→8 exp
+    Nuevos: eventpass
+  Basketball Stars 3: 1→0 activos (-1), 54→55 exp
+  Basketball Zero: 0→2 activos (+2), 236→236 exp
+    Nuevos: NEWYORK, 30NEWYORK
+  Blue Lock Rivals: 0→2 activos (+2), 302→302 exp
+    Nuevos: MASSIVEUPDATE, NELEVENT
+  Car Zone: 0→3 activos (+3), 122→122 exp
+    Nuevos: SEASON1, 230KLIKES, UPDATE60
+  Cavity Crushers: 3→0 activos (-3), 0→3 exp
+  Clover Retribution: 6→7 activos (+1), 288→288 exp
+    Nuevos: !storyrebalance
+  Defend Ur Base With Anime: 0→2 activos (+2), 7→7 exp
+    Nuevos: NEWTRAIT, QUINCY
+  Element Arena: 2→0 activos (-2), 0→5 exp
+  Elemental Grounds: 0→0 activos (=), 47→49 exp
+  Football Legends: 0→0 activos (=), 66→68 exp
+  Lone Survival: 0→0 activos (=), 14→15 exp
+  Merge A Nuke: 1→0 activos (-1), 3→4 exp
+  Nfl Universe Football: 40→37 activos (-3), 252→255 exp
+  Project Menacing Remake: 45→45 activos (=), 12→13 exp
+  Soccer Zero: 0→2 activos (+2), 14→14 exp
+    Nuevos: 30MWILDCARD, WILDCARD
+  Specter: 0→0 activos (=), 27→29 exp
+  Vv Ultimatum: 2→2 activos (=), 7→9 exp
+    Nuevos: SHUTDOWNFIX, 140KLIKES
+  Volleyball Legends: 0→3 activos (+3), 287→287 exp
+    Nuevos: SHOW_OFF, SPECTATING, UPDATE_75
 
 Detalle cambios:
 data/games/codigos-anime-eternal.json
-data/games/codigos-anime-ghosts.json
+data/games/codigos-archer-training.json
 data/games/codigos-basketball-stars-3.json
+data/games/codigos-basketball-zero.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-car-zone.json
+data/games/codigos-cavity-crushers.json
+data/games/codigos-clover-retribution.json
+data/games/codigos-defend-ur-base-with-anime.json
+data/games/codigos-element-arena.json
+data/games/codigos-elemental-grounds.json
+data/games/codigos-football-legends.json
+data/games/codigos-lone-survival.json
+data/games/codigos-merge-a-nuke.json
 data/games/codigos-nfl-universe-football.json
+data/games/codigos-project-menacing-remake.json
+data/games/codigos-soccer-zero.json
+data/games/codigos-specter.json
+data/games/codigos-volleyball-legends.json
+data/games/codigos-vv-ultimatum.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
