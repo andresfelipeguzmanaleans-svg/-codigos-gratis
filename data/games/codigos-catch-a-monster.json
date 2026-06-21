@@ -5,12 +5,22 @@
   "description": "Todos los códigos activos para Catch A Monster en Roblox",
   "metaTitle": "Códigos Catch A Monster Roblox (Junio 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Catch A Monster en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-17T21:55:29.202Z",
-  "activeCodes": [],
+  "lastUpdated": "2026-06-21T11:15:51.508Z",
+  "activeCodes": [
+    {
+      "code": "ungolem",
+      "reward": "Recompensas",
+      "addedDate": "2026-06-21"
+    }
+  ],
   "expiredCodes": [
     {
-      "code": "compcode2",
-      "reward": "Five Evolution Material Boxes"
+      "code": "vodiplate",
+      "reward": "1 Void Jar and 1,000 Undine monedas"
+    },
+    {
+      "code": "thunderclaw",
+      "reward": "Rainbow Egg"
     },
     {
       "code": "mentawolf",
@@ -27,10 +37,6 @@
     {
       "code": "espire",
       "reward": "2,000 Tower gemas"
-    },
-    {
-      "code": "electnov",
-      "reward": "1 legendario cofre, 1,500 Black Hole monedas, and 1 Specter Shallows Rift III"
     },
     {
       "code": "dueggy",
@@ -185,20 +191,24 @@
       "reward": "1,000 Wanderer's monedas and 1 Wrymfire llave"
     },
     {
-      "code": "overvolt2",
-      "reward": "1 Wyrmfire llave and 1 Shadow Rotthorn Egg"
-    },
-    {
       "code": "ssentinel",
       "reward": "One Bubbly Red Blaze Egg"
+    },
+    {
+      "code": "cearia",
+      "reward": "1,500 Treasure tickets"
     },
     {
       "code": "purple",
       "reward": "One Epic cofre"
     },
     {
-      "code": "cearia",
-      "reward": "1,500 Treasure tickets"
+      "code": "overvolt2",
+      "reward": "1 Wyrmfire llave and 1 Shadow Rotthorn Egg"
+    },
+    {
+      "code": "electnov",
+      "reward": "1 legendario cofre, 1,500 Black Hole monedas, and 1 Specter Shallows Rift III"
     },
     {
       "code": "blossom",
@@ -217,24 +227,8 @@
       "reward": "1,000 Necro monedas and 3 Treasure Shovels"
     },
     {
-      "code": "tricerasteel",
-      "reward": "1.2K Dino monedas, Gilded Gear cofre"
-    },
-    {
       "code": "solron",
       "reward": "Recompensas"
-    },
-    {
-      "code": "voidegg",
-      "reward": "1,000 Necro monedas and 1 Void Egg"
-    },
-    {
-      "code": "crystalfae",
-      "reward": "1,000 Rift tokens and 2 Blossom Haven Rift III"
-    },
-    {
-      "code": "evofuse",
-      "reward": "6 Treasure Shovels"
     },
     {
       "code": "ducka",
@@ -245,28 +239,32 @@
       "reward": "2k Black Hole monedas and 1 legendario cofre"
     },
     {
-      "code": "thunderjet",
-      "reward": "1 Sunforge Egg, 1 Gear cofre, 1 Spirit Grove Rift III, and 1,000 Rift Token"
+      "code": "crystalfae",
+      "reward": "1,000 Rift tokens and 2 Blossom Haven Rift III"
+    },
+    {
+      "code": "evofuse",
+      "reward": "6 Treasure Shovels"
     },
     {
       "code": "stumfoxy",
       "reward": "1 Mobius Circus Rift III"
     },
     {
-      "code": "thunderclaw",
-      "reward": "Rainbow Egg"
+      "code": "compcode2",
+      "reward": "Five Evolution Material Boxes"
     },
     {
       "code": "celestide",
       "reward": "2 Dragon's Breath Rift III"
     },
     {
-      "code": "vodiplate",
-      "reward": "1 Void Jar and 1,000 Undine monedas"
-    },
-    {
       "code": "aracospike",
       "reward": "2,000 Dungeon Event tickets and 5 Circus Rubber Ducks"
+    },
+    {
+      "code": "voidegg",
+      "reward": "1,000 Necro monedas and 1 Void Egg"
     },
     {
       "code": "tailri",
@@ -279,6 +277,14 @@
     {
       "code": "overvolt",
       "reward": "3 Tideland Rift III and 1 Wyrmfire llave"
+    },
+    {
+      "code": "thunderjet",
+      "reward": "1 Sunforge Egg, 1 Gear cofre, 1 Spirit Grove Rift III, and 1,000 Rift Token"
+    },
+    {
+      "code": "tricerasteel",
+      "reward": "1.2K Dino monedas, Gilded Gear cofre"
     },
     {
       "code": "hydrolope",
