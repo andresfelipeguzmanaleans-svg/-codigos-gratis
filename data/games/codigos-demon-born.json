@@ -4,15 +4,40 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-9508569c158bd32f390987b2d1a55732/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Demon Born en Roblox",
   "metaTitle": "Códigos Demon Born Roblox (Junio 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Demon Born en Roblox. 7 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-18T22:00:07.572Z",
+  "metaDescription": "Lista actualizada de códigos para Demon Born en Roblox. 6 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-06-22T13:29:36.192Z",
   "activeCodes": [
     {
-      "code": "CHANGEGENDER2",
-      "reward": "Change Gender"
+      "code": "EVENT2",
+      "reward": "Recompensas",
+      "addedDate": "2026-06-22"
+    },
+    {
+      "code": "RESETSTATS4",
+      "reward": "Reset Stats",
+      "addedDate": "2026-06-22"
+    },
+    {
+      "code": "SORRYSHUTDOWN",
+      "reward": "Recompensas",
+      "addedDate": "2026-06-22"
     },
     {
       "code": "MUDARGENERONAOUSESEFORTROCAR",
+      "reward": "Change Gender"
+    },
+    {
+      "code": "50K VISITS",
+      "reward": "Giros"
+    },
+    {
+      "code": "DAYBUGS",
+      "reward": "Reinicio de stats"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "CHANGEGENDER2",
       "reward": "Change Gender"
     },
     {
@@ -27,16 +52,6 @@
       "code": "THANKSALL",
       "reward": "10 giros"
     },
-    {
-      "code": "50K VISITS",
-      "reward": "Giros"
-    },
-    {
-      "code": "DAYBUGS",
-      "reward": "Reinicio de stats"
-    }
-  ],
-  "expiredCodes": [
     {
       "code": "Betarelease",
       "reward": "Giros"

@@ -5,12 +5,12 @@
   "description": "Todos los códigos activos para World Zero en Roblox",
   "metaTitle": "Códigos World Zero (Febrero 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para World Zero en Roblox. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-14T21:04:31.486Z",
+  "lastUpdated": "2026-06-22T13:31:21.791Z",
   "activeCodes": [],
   "expiredCodes": [
     {
-      "code": "SEASON14",
-      "reward": "50 Guild monedas"
+      "code": "FREECRYSTALS",
+      "reward": "5,000 cristales"
     },
     {
       "code": "TIKI",
@@ -31,14 +31,6 @@
     {
       "code": "SALTY",
       "reward": "100 cristales"
-    },
-    {
-      "code": "GUILDBUGS",
-      "reward": "50 Guild monedas"
-    },
-    {
-      "code": "HAPPYNEWYEAR",
-      "reward": "2022 Player título"
     },
     {
       "code": "150MILPARTYY",
@@ -65,6 +57,10 @@
       "reward": "Exclusivo Wildfire Dragon Plushie"
     },
     {
+      "code": "PVPBALANCE",
+      "reward": "5 PvP monedas"
+    },
+    {
       "code": "400LIKES",
       "reward": "Recompensa gratis"
     },
@@ -79,6 +75,10 @@
     {
       "code": "250MILPARTY",
       "reward": "150 cristales"
+    },
+    {
+      "code": "SANTACHALLENGE",
+      "reward": "25 Christmas monedas And A Christmas Present"
     },
     {
       "code": "CUPID26",
@@ -157,8 +157,8 @@
       "reward": "150 cristales and 2M Club título"
     },
     {
-      "code": "BLACKFRIDAY25",
-      "reward": "150 cristales"
+      "code": "SEASON14",
+      "reward": "50 Guild monedas"
     },
     {
       "code": "FROSTBITE",
@@ -171,10 +171,6 @@
     {
       "code": "PETREVAMP",
       "reward": "50 mascota Candy"
-    },
-    {
-      "code": "SHADOWS",
-      "reward": "The Fire Eyes Hat"
     },
     {
       "code": "675KLIKES",
@@ -197,40 +193,20 @@
       "reward": "100 cristales"
     },
     {
-      "code": "SANTACHALLENGE",
-      "reward": "25 Christmas monedas And A Christmas Present"
-    },
-    {
       "code": "NEWYEAR26",
       "reward": "New Years Present"
-    },
-    {
-      "code": "GUILDHALL",
-      "reward": "Miniature Guild Hall"
     },
     {
       "code": "STARBREAKER",
       "reward": "Starbreaker título"
     },
     {
-      "code": "PVPBALANCE",
-      "reward": "5 PvP monedas"
-    },
-    {
-      "code": "NEWYEAR24",
-      "reward": "2023 Player título"
-    },
-    {
-      "code": "HOUSING",
-      "reward": "The Golden Dragon Plushie"
+      "code": "GUILDHALL",
+      "reward": "Miniature Guild Hall"
     },
     {
       "code": "EASTERBUNNY",
       "reward": "25 Easter monedas and an Easter Present"
-    },
-    {
-      "code": "PRIDE26",
-      "reward": "The Rainbow título and a Developer regalo"
     },
     {
       "code": "MAYTHE4TH",
@@ -245,10 +221,6 @@
       "reward": "Alien Saber"
     },
     {
-      "code": "NEWLEAF",
-      "reward": "150 cristales"
-    },
-    {
       "code": "PVPUPDATE",
       "reward": "5 PvP monedas"
     },
@@ -259,6 +231,18 @@
     {
       "code": "LUCKY25",
       "reward": "150 cristales"
+    },
+    {
+      "code": "NEWLEAF",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "650KLIKES",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "NEWYEAR24",
+      "reward": "2023 Player título"
     },
     {
       "code": "LEVIATHAN",
@@ -293,32 +277,24 @@
       "reward": "150 cristales"
     },
     {
-      "code": "NEWQUESTS",
-      "reward": "150 cristales"
-    },
-    {
       "code": "INNOVATION",
       "reward": "2 Level 1 Innovation Auras"
     },
     {
-      "code": "FREECRYSTALS",
-      "reward": "5,000 cristales"
+      "code": "NEWQUESTS",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "BLACKFRIDAY25",
+      "reward": "150 cristales"
     },
     {
       "code": "CHRISTMASGOAL",
       "reward": "300 cristales"
     },
     {
-      "code": "SANTA",
-      "reward": "150 cristales, 15 Christmas monedas and Candy Cane Axe skin"
-    },
-    {
       "code": "JOLLY",
       "reward": "5 tickets"
-    },
-    {
-      "code": "650KLIKES",
-      "reward": "150 cristales"
     },
     {
       "code": "CHRISTMAS25",
@@ -329,20 +305,24 @@
       "reward": "150 cristales"
     },
     {
-      "code": "HEARTBREAKER",
-      "reward": "25 Valentines monedas"
-    },
-    {
       "code": "FESTIVE",
       "reward": "5 tickets"
+    },
+    {
+      "code": "PRIDE",
+      "reward": "Rainbow Shades"
     },
     {
       "code": "KRAKEN",
       "reward": "15 Kraken monedas"
     },
     {
-      "code": "PRIDE",
-      "reward": "Rainbow Shades"
+      "code": "HEARTBREAKER",
+      "reward": "25 Valentines monedas"
+    },
+    {
+      "code": "ANIME26",
+      "reward": "25 Dragon monedas and a Manga Present"
     },
     {
       "code": "INSANEBUNNY",
@@ -369,12 +349,16 @@
       "reward": "Christmas monedas And A Christmas Present"
     },
     {
+      "code": "MINI-MIGHT",
+      "reward": "Mini-Might Ears"
+    },
+    {
       "code": "WRAPPED",
       "reward": "World Zero 2025 Recap"
     },
     {
-      "code": "MINI-MIGHT",
-      "reward": "Mini-Might Ears"
+      "code": "HOUSING",
+      "reward": "The Golden Dragon Plushie"
     },
     {
       "code": "HUNT",
@@ -401,16 +385,20 @@
       "reward": "150 cristales"
     },
     {
+      "code": "SHADOWS",
+      "reward": "The Fire Eyes Hat"
+    },
+    {
+      "code": "PRIDE26",
+      "reward": "The Rainbow título and a Developer regalo"
+    },
+    {
       "code": "PRESENTPLS",
       "reward": "Festive Cosmetic regalo"
     },
     {
       "code": "675LIKES",
       "reward": "150 cristales"
-    },
-    {
-      "code": "GRAND",
-      "reward": "100 cristales"
     },
     {
       "code": "600KLIKES",
@@ -421,20 +409,28 @@
       "reward": "200 cristales"
     },
     {
-      "code": "GLACIAL",
-      "reward": "15 Price tickets"
-    },
-    {
       "code": "IMPERIAL",
       "reward": "1 Developer regalo and Imperial Protector título"
     },
     {
-      "code": "PRIDE25",
-      "reward": "1 Developer regalo and Rainbow título"
-    },
-    {
       "code": "MERCHDROP",
       "reward": "150 cristales"
+    },
+    {
+      "code": "GLACIAL",
+      "reward": "15 Price tickets"
+    },
+    {
+      "code": "GRAND",
+      "reward": "100 cristales"
+    },
+    {
+      "code": "SANTA",
+      "reward": "150 cristales, 15 Christmas monedas and Candy Cane Axe skin"
+    },
+    {
+      "code": "PRIDE25",
+      "reward": "1 Developer regalo and Rainbow título"
     },
     {
       "code": "SEASON20",
@@ -531,6 +527,14 @@
     {
       "code": "APRILFOOLS",
       "reward": "The Rock mascota"
+    },
+    {
+      "code": "GUILDBUGS",
+      "reward": "50 Guild monedas"
+    },
+    {
+      "code": "HAPPYNEWYEAR",
+      "reward": "2022 Player título"
     },
     {
       "code": "825KLIKES",
