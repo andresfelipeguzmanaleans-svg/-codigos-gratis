@@ -4,26 +4,21 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-e754d27e0bdc90b3c071d1f382084e10/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Vanguards en Roblox",
   "metaTitle": "Códigos Anime Vanguards Roblox (Junio 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Vanguards en Roblox. 4 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-02T11:58:41.200Z",
-  "activeCodes": [],
+  "metaDescription": "Lista actualizada de códigos para Anime Vanguards en Roblox. 2 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-06-23T10:57:13.119Z",
+  "activeCodes": [
+    {
+      "code": "EternalAdversaries",
+      "reward": "Memoria Shards, Iced Tea",
+      "addedDate": "2026-06-23"
+    },
+    {
+      "code": "Gambler",
+      "reward": "Trait Rerolls, Memoria Shards, and Rainbow Essence",
+      "addedDate": "2026-06-23"
+    }
+  ],
   "expiredCodes": [
-    {
-      "code": "DMCAFree",
-      "reward": "1500 Trait Rerolls"
-    },
-    {
-      "code": "Liberation",
-      "reward": "50 Memoria Shards, 5 Rainbow Essence Stones"
-    },
-    {
-      "code": "223",
-      "reward": "50 Trait Rerolls, 50 Green Essence Stones"
-    },
-    {
-      "code": "Cog5th",
-      "reward": "50 Trait Rerolls, 50 Memoria Shards"
-    },
     {
       "code": "100MVISITS",
       "reward": "1000 gemas, 5 Trait Rerolls"
@@ -33,28 +28,12 @@
       "reward": "20 Rerolls"
     },
     {
-      "code": "WHYISTHISNOTWORKING????????",
-      "reward": "Recompensas. gratis"
-    },
-    {
-      "code": "THESYSTEM",
-      "reward": "Recompensas (Requires Level 10)"
-    },
-    {
-      "code": "HALLOWEENWASLASTMONTH",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "DELAY",
-      "reward": "500 gemas, 3 Super Stat Chips"
-    },
-    {
-      "code": "RELEASE",
-      "reward": "500 gemas, 1000 oro"
-    },
-    {
       "code": "SEASONOFLOVE",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DoubleDigitsCopy",
+      "reward": "20 Trait Rerolls and 10 Stat Chips"
     },
     {
       "code": "LotsofPresents!",
@@ -69,10 +48,6 @@
       "reward": "1,500 monedas and 1,000 gemas"
     },
     {
-      "code": "UntilThenIsTheBestGame",
-      "reward": "Recompensa expirada"
-    },
-    {
       "code": "STEELBALL",
       "reward": "5 Super Stat Chips and 1,500 gemas"
     },
@@ -83,10 +58,6 @@
     {
       "code": "enumaelish",
       "reward": "1 Super Stat Chip and 5 Trait Rerolls"
-    },
-    {
-      "code": "2DaysLeftButWorkingFR",
-      "reward": "Recompensa expirada"
     },
     {
       "code": "SALTERBOSS",
@@ -115,6 +86,18 @@
     {
       "code": "PART7",
       "reward": "10 Stat Chips and 10 Trait Rerolls"
+    },
+    {
+      "code": "DELAY",
+      "reward": "500 gemas, 3 Super Stat Chips"
+    },
+    {
+      "code": "CUPOFJOECopy",
+      "reward": "5,000 Iced Tea, 5,000 Flowers, and 20 Trait Rerolls"
+    },
+    {
+      "code": "200KLIKES",
+      "reward": "800 gemas, 1 Super Stat Chip"
     },
     {
       "code": "MemoriaCopy",
@@ -157,20 +140,56 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "SorryForAutoSell",
-      "reward": "100 Memoria Shards and 10,000 Flowers"
+      "code": "KINGOFCURSES",
+      "reward": "20 Rerolls"
     },
     {
-      "code": "100KLIKES",
-      "reward": "500 gemas, 3 Super Stat Chips"
+      "code": "HeavenOrHell",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "2DaysLeftButWorkingFR",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "WHYISTHISNOTWORKING????????",
+      "reward": "Recompensas. gratis"
+    },
+    {
+      "code": "THESYSTEM",
+      "reward": "Recompensas (Requires Level 10)"
+    },
+    {
+      "code": "3DaysLeftCopy",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "100kSubsCopy",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SUMMERCopy",
+      "reward": "30 Trait Rerolls and 30 Stat Chips"
+    },
+    {
+      "code": "HALLOWEENWASLASTMONTH",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "Late",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SorryForAutoSell",
+      "reward": "100 Memoria Shards and 10,000 Flowers"
     },
     {
       "code": "NewLobby!",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "300KPLAYERS",
-      "reward": "1000 gemas, 5 Super Stat Chips, 5 Stat Chips, 5 Trait Rerolls"
+      "code": "Kat",
+      "reward": "Cat GIF"
     },
     {
       "code": "HeHasArrived",
@@ -181,24 +200,12 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "LATEUPDATESORRY",
-      "reward": "1000 gemas"
-    },
-    {
       "code": "NOTLONELY",
       "reward": "Recompensas gratis"
     },
     {
       "code": "ROST10K",
       "reward": "1000 gemas, 3 Trait Rerolls"
-    },
-    {
-      "code": "TURBONICLEGRANDMA",
-      "reward": "15,000 oro and 5 Trait Rerolls"
-    },
-    {
-      "code": "SHIBUYA",
-      "reward": "1000 gemas, Super Stat Chip, Trait Reroll"
     },
     {
       "code": "UPDATE1",
@@ -213,15 +220,39 @@
       "reward": "5 Trait Rerolls, 1 Super Stat Chip and 1,000 gemas"
     },
     {
+      "code": "InnocentAnger",
+      "reward": "5000 gemas"
+    },
+    {
+      "code": "katCopy",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "SHIBUYA",
+      "reward": "1000 gemas, Super Stat Chip, Trait Reroll"
+    },
+    {
+      "code": "HappyHolidaysCopy",
+      "reward": "200 Rerolls"
+    },
+    {
       "code": "TIKTOK50K",
       "reward": "500 gemas, 2 Trait Rerolls"
     },
     {
-      "code": "500MVISITS",
-      "reward": "2000 gemas, 10 Green Essence Stones, 5 Super Stat Chips, 5 Stat Chips, 10 Trait Rerolls"
+      "code": "AURA",
+      "reward": "Recompensas gratis"
     },
     {
-      "code": "AURA",
+      "code": "300KLIKES",
+      "reward": "900 gemas, 2 Super Stat Chips"
+    },
+    {
+      "code": "FallenKingdomCopy",
+      "reward": "5,000 Leaves and 10 Stat Chips"
+    },
+    {
+      "code": "PvPCopy",
       "reward": "Recompensas gratis"
     },
     {
@@ -229,15 +260,15 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "OneInAVanguardillion",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "InnocentAnger",
-      "reward": "5000 gemas"
+      "code": "FreedomCopy",
+      "reward": "10 Rerolls, 1,500 gemas, and 5,000 oro"
     },
     {
       "code": "2MLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "OneInAVanguardillion",
       "reward": "Recompensas gratis"
     },
     {
@@ -245,24 +276,40 @@
       "reward": "1000 gemas"
     },
     {
-      "code": "Spring26",
-      "reward": "40,000 Flowers, 20,000 gemas, and 50 Stat Chips"
+      "code": "UntilThenIsTheBestGame",
+      "reward": "Recompensa expirada"
     },
     {
-      "code": "BumBum",
-      "reward": "50 Trait Rerolls, 50 Memoria Shards, 5,000 Flowers, 50,000 oro, and 2,000 gemas"
+      "code": "KINGOFCURSESCopy",
+      "reward": "20 Rerolls"
     },
     {
       "code": "10KLIKES",
       "reward": "350 gemas, 3000 oro"
     },
     {
-      "code": "OopsiePoopsie2",
-      "reward": "100 Trait Rerolls, 100 Memoria Shards, and 20,000 Flowers"
+      "code": "4DaysLeft",
+      "reward": "100 Rerolls"
+    },
+    {
+      "code": "500MVISITS",
+      "reward": "2000 gemas, 10 Green Essence Stones, 5 Super Stat Chips, 5 Stat Chips, 10 Trait Rerolls"
+    },
+    {
+      "code": "AV50MIL",
+      "reward": "1000 gemas, 3 Super Stat Chips"
+    },
+    {
+      "code": "300KPLAYERS",
+      "reward": "1000 gemas, 5 Super Stat Chips, 5 Stat Chips, 5 Trait Rerolls"
     },
     {
       "code": "Sasageyo",
       "reward": "5 Phoenix Shards, 1000 gemas"
+    },
+    {
+      "code": "BumBum",
+      "reward": "50 Trait Rerolls, 50 Memoria Shards, 5,000 Flowers, 50,000 oro, and 2,000 gemas"
     },
     {
       "code": "THEONE",
@@ -293,24 +340,16 @@
       "reward": "50 Rerolls"
     },
     {
-      "code": "Kat",
-      "reward": "Cat GIF"
-    },
-    {
-      "code": "4DaysLeft",
-      "reward": "100 Rerolls"
-    },
-    {
-      "code": "5DaysLeft",
-      "reward": "100 Rerolls"
-    },
-    {
       "code": "1stAnniversary",
       "reward": "100 Rerolls"
     },
     {
       "code": "YT200K",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "5DaysLeft",
+      "reward": "100 Rerolls"
     },
     {
       "code": "23RDPRESIDENT",
@@ -329,10 +368,6 @@
       "reward": "1000 gemas, 3 Pink Essence Stones"
     },
     {
-      "code": "AV50MIL",
-      "reward": "1000 gemas, 3 Super Stat Chips"
-    },
-    {
       "code": "3DaysLeft",
       "reward": "100 Rerolls"
     },
@@ -341,36 +376,28 @@
       "reward": "Recompensa expirada"
     },
     {
-      "code": "PysephBirthday",
-      "reward": "1 Flower"
-    },
-    {
       "code": "Spring",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NoCustomsCopy",
+      "reward": "10,000 gemas, 30 Rerolls, and 30 Memoria Shards"
     },
     {
       "code": "Sorry4Bugs",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "LordShadow",
-      "reward": "5 Trait Rerolls, 1,000 gemas and 2,500 oro"
-    },
-    {
       "code": "PvP",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "Late",
-      "reward": "Recompensas gratis"
+      "code": "Spring26",
+      "reward": "40,000 Flowers, 20,000 gemas, and 50 Stat Chips"
     },
     {
-      "code": "KINGOFCURSES",
-      "reward": "20 Rerolls"
-    },
-    {
-      "code": "HeavenOrHell",
-      "reward": "Recompensas gratis"
+      "code": "LordShadow",
+      "reward": "5 Trait Rerolls, 1,000 gemas and 2,500 oro"
     },
     {
       "code": "WECURSESHAVENOLIMITS",
@@ -385,6 +412,26 @@
       "reward": "Recompensas"
     },
     {
+      "code": "LordShadowCopy",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "LATEUPDATESORRY",
+      "reward": "1000 gemas"
+    },
+    {
+      "code": "1WeekDelay",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "TURBONICLEGRANDMA",
+      "reward": "15,000 oro and 5 Trait Rerolls"
+    },
+    {
+      "code": "BugDemonAttackedCopy",
+      "reward": "Recompensa gratis"
+    },
+    {
       "code": "TheWorld",
       "reward": "20 Rerolls, 20 Stat Chips - Level 30"
     },
@@ -393,44 +440,8 @@
       "reward": "100,000 gemas"
     },
     {
-      "code": "Chainsaws",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "1WeekDelay",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "LordShadowCopy",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "BugDemonAttackedCopy",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "Winter26Copy",
-      "reward": "50 Rerolls, 4,500 Presents, and 25 Stat Chips"
-    },
-    {
-      "code": "1WeekDelayCopy",
-      "reward": "50 Rerolls and 50 Memoria Shards"
-    },
-    {
-      "code": "4DaysLeftCopy",
-      "reward": "Recompensas"
-    },
-    {
       "code": "ItsColdCopy",
       "reward": "20 Rerolls, 20 Memoria Shards, 5,000 gemas, and 10,000 oro"
-    },
-    {
-      "code": "katCopy",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "SUMMERCopy",
-      "reward": "30 Trait Rerolls and 30 Stat Chips"
     },
     {
       "code": "2MLIKESCopy",
@@ -441,35 +452,19 @@
       "reward": "1,500 Flowers, 1,500 gemas, and 5,000 oro"
     },
     {
-      "code": "Freedom",
-      "reward": "10 Rerolls, 1500 gemas, 5000 oro - Level 10"
-    },
-    {
-      "code": "CORRUPTIONCopy",
-      "reward": "Recompensas"
-    },
-    {
       "code": "1MILLIONCopy",
       "reward": "Recompensas"
     },
     {
-      "code": "HappyHolidaysCopy",
-      "reward": "200 Rerolls"
-    },
-    {
-      "code": "DoubleDigitsCopy",
-      "reward": "20 Trait Rerolls and 10 Stat Chips"
-    },
-    {
-      "code": "KINGOFCURSESCopy",
-      "reward": "20 Rerolls"
+      "code": "Freedom",
+      "reward": "10 Rerolls, 1500 gemas, 5000 oro - Level 10"
     },
     {
       "code": "Sorry4BugsCopy",
       "reward": "40 Rerolls and 20 Stat Chips"
     },
     {
-      "code": "PvPCopy",
+      "code": "GULLIBLE4RNTU",
       "reward": "Recompensas gratis"
     },
     {
@@ -477,20 +472,12 @@
       "reward": "5,000 gemas, 20 Stat Chips, and 5 Phoenix Shards"
     },
     {
-      "code": "LateUpdateCopy",
-      "reward": "100 Rerolls"
-    },
-    {
-      "code": "GULLIBLE4RNTU",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "CUPOFJOE",
       "reward": "20 Trait Rerolls, 5000 Iced Tea, 5000 Flowers"
     },
     {
-      "code": "100kSubsCopy",
-      "reward": "Recompensas gratis"
+      "code": "Winter26Copy",
+      "reward": "50 Rerolls, 4,500 Presents, and 25 Stat Chips"
     },
     {
       "code": "400KLIKES",
@@ -499,22 +486,6 @@
     {
       "code": "THEONECopy",
       "reward": "1,500 Iced Teas"
-    },
-    {
-      "code": "AboveHeaven",
-      "reward": "20 Rerolls And 20 Stat Chips"
-    },
-    {
-      "code": "ChainsawsCopy",
-      "reward": "5,000 gemas, 20 Rerolls, and 20 Memoria Shards"
-    },
-    {
-      "code": "ALSISBEST",
-      "reward": "Recompensas (Requires Level 10)"
-    },
-    {
-      "code": "CUPOFJOECopy",
-      "reward": "5,000 Iced Tea, 5,000 Flowers, and 20 Trait Rerolls"
     },
     {
       "code": "100kSubs",
@@ -537,20 +508,8 @@
       "reward": "5 Phoenix Shards and 5 Elemental Shards"
     },
     {
-      "code": "HorseRacingCopy",
-      "reward": "5,000 gemas and 20,000 oro"
-    },
-    {
-      "code": "PinkVillainRaidCopy",
-      "reward": "5,000 gemas and 50 Stat Chips"
-    },
-    {
       "code": "AngryManCopy",
       "reward": "20 Rerolls"
-    },
-    {
-      "code": "NoCustomsCopy",
-      "reward": "10,000 gemas, 30 Rerolls, and 30 Memoria Shards"
     },
     {
       "code": "SasageyoCopy",
@@ -573,20 +532,12 @@
       "reward": "100 Rerolls"
     },
     {
-      "code": "FreedomCopy",
-      "reward": "10 Rerolls, 1,500 gemas, and 5,000 oro"
-    },
-    {
       "code": "2026Copy",
       "reward": "100 Trait Rerolls"
     },
     {
       "code": "NoCustoms",
       "reward": "Recompensas"
-    },
-    {
-      "code": "FallenKingdomCopy",
-      "reward": "5,000 Leaves and 10 Stat Chips"
     },
     {
       "code": "CORRUPTION",
@@ -605,10 +556,6 @@
       "reward": "100 Trait Rerolls, 25,000 Cakes, and 10 Rainbow Essence Stones"
     },
     {
-      "code": "3DaysLeftCopy",
-      "reward": "Recompensas"
-    },
-    {
       "code": "7WeeksCopy",
       "reward": "10,000 Cake Slices"
     },
@@ -621,6 +568,54 @@
       "reward": "50 Rerolls"
     },
     {
+      "code": "ALSISBEST",
+      "reward": "Recompensas (Requires Level 10)"
+    },
+    {
+      "code": "CORRUPTIONCopy",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "PinkVillainRaidCopy",
+      "reward": "5,000 gemas and 50 Stat Chips"
+    },
+    {
+      "code": "Chainsaws",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "1WeekDelayCopy",
+      "reward": "50 Rerolls and 50 Memoria Shards"
+    },
+    {
+      "code": "HorseRacingCopy",
+      "reward": "5,000 gemas and 20,000 oro"
+    },
+    {
+      "code": "PysephBirthday",
+      "reward": "1 Flower"
+    },
+    {
+      "code": "4DaysLeftCopy",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "OopsiePoopsie2",
+      "reward": "100 Trait Rerolls, 100 Memoria Shards, and 20,000 Flowers"
+    },
+    {
+      "code": "AboveHeaven",
+      "reward": "20 Rerolls And 20 Stat Chips"
+    },
+    {
+      "code": "100KLIKES",
+      "reward": "500 gemas, 3 Super Stat Chips"
+    },
+    {
+      "code": "LateUpdateCopy",
+      "reward": "100 Rerolls"
+    },
+    {
       "code": "25MVISITS",
       "reward": "1000 gemas, 1 Super Stat Chip"
     },
@@ -629,12 +624,28 @@
       "reward": "5 Trait Rerolls"
     },
     {
-      "code": "300KLIKES",
-      "reward": "900 gemas, 2 Super Stat Chips"
+      "code": "RELEASE",
+      "reward": "500 gemas, 1000 oro"
     },
     {
-      "code": "200KLIKES",
-      "reward": "800 gemas, 1 Super Stat Chip"
+      "code": "ChainsawsCopy",
+      "reward": "5,000 gemas, 20 Rerolls, and 20 Memoria Shards"
+    },
+    {
+      "code": "DMCAFree",
+      "reward": "1500 Trait Rerolls"
+    },
+    {
+      "code": "Liberation",
+      "reward": "50 Memoria Shards, 5 Rainbow Essence Stones"
+    },
+    {
+      "code": "223",
+      "reward": "50 Trait Rerolls, 50 Green Essence Stones"
+    },
+    {
+      "code": "Cog5th",
+      "reward": "50 Trait Rerolls, 50 Memoria Shards"
     },
     {
       "code": "OopsiePoopsie",
