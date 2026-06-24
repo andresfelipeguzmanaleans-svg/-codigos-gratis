@@ -1,115 +1,48 @@
-=== RESUMEN UPDATE 2026-06-23 21:28 ===
+=== RESUMEN UPDATE 2026-06-24 10:44 ===
 
 Archivos modificados:
-  44 archivos cambiados
+  14 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4417 juegos (4417 procesados)
-Actualizados: 42 | Sin cambios: 4230
+Actualizados: 12 | Sin cambios: 4260
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 13 | Movidos a expirados: 35
-Tiempo: 149.1s | Concurrencia: 10
+Códigos nuevos: 5 | Movidos a expirados: 15
+Tiempo: 149.9s | Concurrencia: 10
 
 Juegos actualizados:
-  All Star Tower Defense: 0→3 activos (+3), 339→339 exp
-    Nuevos: sorryfordelayandmonkeyking, tboicats, yickadee
-  Anime Eternal: 3→4 activos (+1), 790→790 exp
-    Nuevos: Update56P2
-  Anime Reversal: 0→0 activos (=), 78→79 exp
-  Anime Squadron: 6→2 activos (-4), 19→23 exp
-  Anime Story: 1→0 activos (-1), 206→207 exp
-  Anime Vanguards: 2→0 activos (-2), 182→184 exp
-  Anime Waifu Card Collection: 1→1 activos (=), 18→19 exp
-  Archived: 0→0 activos (=), 9→10 exp
-  Axe Rng: 3→1 activos (-2), 13→16 exp
-    Nuevos: SOMETHINGISCOMING
-  Azure Latch: 0→0 activos (=), 118→119 exp
-  Be Dino: 0→1 activos (+1), 38→38 exp
-    Nuevos: ANKY
-  Bikelife Netherlands: 0→0 activos (=), 33→35 exp
-  Build A Military Base: 2→0 activos (-2), 57→59 exp
-  Car Dealership Tycoon: 0→0 activos (=), 286→287 exp
-  Catch And Tame: 0→0 activos (=), 32→33 exp
-  Clover Retribution: 6→7 activos (+1), 289→290 exp
-    Nuevos: !balancebalancechanges
-  Create A Car: 1→0 activos (-1), 5→7 exp
-  Divine Duality Elemental: 0→0 activos (=), 75→76 exp
-  Fishing Chef: 0→0 activos (=), 10→14 exp
-  Fistborn: 13→3 activos (-10), 180→191 exp
-  Foot Bolt: 1→0 activos (-1), 5→6 exp
-  Jujutsu Legacy: 0→0 activos (=), 52→53 exp
-  Jujutsu Zero: 2→0 activos (-2), 74→76 exp
-  Lineage Piece: 0→1 activos (+1), 32→32 exp
-    Nuevos: 25KMEMBER
-  Midnight Chasers: 20→20 activos (=), 165→166 exp
-  Mojave Valley: 1→1 activos (=), 27→28 exp
-  One Punch Ultimate: 0→0 activos (=), 14→16 exp
-  Own A Fish Pond: 1→0 activos (-1), 76→77 exp
-  Paint And Seek: 1→0 activos (-1), 7→8 exp
-  Pickaxe Simulator: 0→0 activos (=), 29→30 exp
-  Pirate Piece: 2→2 activos (=), 44→46 exp
-  Portal Keeper: 2→0 activos (-2), 19→21 exp
-  Project Baki 4: 15→15 activos (=), 198→199 exp
-  Soccer Zero: 2→0 activos (-2), 15→18 exp
-  The Company: 1→0 activos (-1), 4→5 exp
-  The Button Room: 1→0 activos (-1), 18→19 exp
-  The Everything Factory: 0→0 activos (=), 14→15 exp
-  Ultimate Tower Defense: 2→3 activos (+1), 225→225 exp
-    Nuevos: StoryReworked
-  Uma Racing: 2→0 activos (-2), 43→45 exp
-  Universal Tower Defense: 7→8 activos (+1), 129→129 exp
-    Nuevos: UniversalDelayDefense!
-  Weapon Rng: 0→2 activos (+2), 6→6 exp
-    Nuevos: GRAVEYARD, UPD4
-  Worldbreaker: 0→1 activos (+1), 7→7 exp
-    Nuevos: 1MILLION
+  8 Ball X: 3→1 activos (-2), 14→17 exp
+  All Star Tower Defense: 3→1 activos (-2), 339→341 exp
+  Anime Eternal: 4→4 activos (=), 790→791 exp
+  Anime Fighters Simulator: 3→0 activos (-3), 286→289 exp
+  Build A Military Base: 0→1 activos (+1), 59→59 exp
+    Nuevos: B2BUFF
+  Cavity Crushers: 0→0 activos (=), 3→4 exp
+  Demon Born: 8→8 activos (=), 10→11 exp
+    Nuevos: SORRYSHUTDOWN2
+  Hide From The Villain: 8→5 activos (-3), 0→6 exp
+    Nuevos: bugcompensation, 5MVISITS, 500KMEMBERS
+  Midnight Chasers Highway Racing: 0→0 activos (=), 212→213 exp
+  Speed City: 0→0 activos (=), 23→24 exp
+  Vv Ultimatum: 3→0 activos (-3), 9→12 exp
+  World Fighters: 8→6 activos (-2), 100→102 exp
 
 Detalle cambios:
+data/games/codigos-8-ball-x.json
 data/games/codigos-all-star-tower-defense.json
 data/games/codigos-anime-eternal.json
-data/games/codigos-anime-reversal.json
-data/games/codigos-anime-squadron.json
-data/games/codigos-anime-story.json
-data/games/codigos-anime-vanguards.json
-data/games/codigos-anime-waifu-card-collection.json
-data/games/codigos-archived.json
-data/games/codigos-axe-rng.json
-data/games/codigos-azure-latch.json
-data/games/codigos-be-dino.json
-data/games/codigos-bikelife-netherlands.json
+data/games/codigos-anime-fighters-simulator.json
 data/games/codigos-build-a-military-base.json
-data/games/codigos-car-dealership-tycoon.json
-data/games/codigos-catch-and-tame.json
-data/games/codigos-clover-retribution.json
-data/games/codigos-create-a-car.json
-data/games/codigos-divine-duality-elemental.json
-data/games/codigos-fishing-chef.json
-data/games/codigos-fistborn.json
-data/games/codigos-foot-bolt.json
-data/games/codigos-jujutsu-legacy.json
-data/games/codigos-jujutsu-zero.json
-data/games/codigos-lineage-piece.json
-data/games/codigos-midnight-chasers.json
-data/games/codigos-mojave-valley.json
-data/games/codigos-one-punch-ultimate.json
-data/games/codigos-own-a-fish-pond.json
-data/games/codigos-paint-and-seek.json
-data/games/codigos-pickaxe-simulator.json
-data/games/codigos-pirate-piece.json
-data/games/codigos-portal-keeper.json
-data/games/codigos-project-baki-4.json
-data/games/codigos-soccer-zero.json
-data/games/codigos-the-button-room.json
-data/games/codigos-the-company.json
-data/games/codigos-the-everything-factory.json
-data/games/codigos-ultimate-tower-defense.json
-data/games/codigos-uma-racing.json
-data/games/codigos-universal-tower-defense.json
-data/games/codigos-weapon-rng.json
-data/games/codigos-worldbreaker.json
+data/games/codigos-cavity-crushers.json
+data/games/codigos-demon-born.json
+data/games/codigos-hide-from-the-villain.json
+data/games/codigos-midnight-chasers-highway-racing.json
+data/games/codigos-speed-city.json
+data/games/codigos-vv-ultimatum.json
+data/games/codigos-world-fighters.json
 scripts/last-update.log
 scripts/update-codes-report.log
 

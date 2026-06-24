@@ -5,8 +5,13 @@
   "description": "Todos los códigos activos para Demon Born en Roblox",
   "metaTitle": "Códigos Demon Born Roblox (Junio 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Demon Born en Roblox. 8 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-22T21:57:28.393Z",
+  "lastUpdated": "2026-06-24T10:42:55.388Z",
   "activeCodes": [
+    {
+      "code": "SORRYSHUTDOWN2",
+      "reward": "20 giros",
+      "addedDate": "2026-06-24"
+    },
     {
       "code": "RESETSTATS5",
       "reward": "Recompensas",
@@ -14,11 +19,6 @@
     },
     {
       "code": "SORRYBUGS5",
-      "reward": "Recompensas",
-      "addedDate": "2026-06-22"
-    },
-    {
-      "code": "EVENT2",
       "reward": "Recompensas",
       "addedDate": "2026-06-22"
     },
@@ -47,8 +47,12 @@
   ],
   "expiredCodes": [
     {
-      "code": "Betarelease",
-      "reward": "Giros"
+      "code": "EVENT2",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "CONSOLE",
+      "reward": "5 giros"
     },
     {
       "code": "thanks30k",
@@ -67,8 +71,8 @@
       "reward": "Giros"
     },
     {
-      "code": "CONSOLE",
-      "reward": "5 giros"
+      "code": "Betarelease",
+      "reward": "Giros"
     },
     {
       "code": "SORRYFORBUGS4",
