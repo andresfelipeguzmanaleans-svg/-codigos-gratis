@@ -1,64 +1,31 @@
-=== RESUMEN UPDATE 2026-06-24 21:21 ===
+=== RESUMEN UPDATE 2026-06-25 10:39 ===
 
 Archivos modificados:
-  20 archivos cambiados
+  6 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4417 juegos (4417 procesados)
-Actualizados: 18 | Sin cambios: 4254
+Actualizados: 4 | Sin cambios: 4268
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 9 | Movidos a expirados: 6
-Tiempo: 163.2s | Concurrencia: 10
+Códigos nuevos: 12 | Movidos a expirados: 12
+Tiempo: 157.3s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Astral Simulator: 0→3 activos (+3), 56→56 exp
-    Nuevos: 18MVISITS, 60KINTERESTED, TRIALMEDIUM
-  Anime Card Battle X: 0→0 activos (=), 25→26 exp
-  Anime Vanguards: 0→1 activos (+1), 184→184 exp
-    Nuevos: LagGone
-  Asura: 2→2 activos (=), 375→381 exp
-  Axe Rng: 1→2 activos (+1), 16→16 exp
-    Nuevos: NOTIFY4EVENT
-  Be Dino: 1→0 activos (-1), 38→39 exp
-  Build A Military Base: 1→0 activos (-1), 59→60 exp
-  Car Flipper: 0→1 activos (+1), 5→5 exp
-    Nuevos: 10KLIKES
-  Catch A Monster: 0→0 activos (=), 122→123 exp
-  Doodle World: 0→0 activos (=), 325→327 exp
-  Dragon Blox: 0→0 activos (=), 217→219 exp
-  Lineage Piece: 1→0 activos (-1), 32→33 exp
-  Monsterverze: 1→0 activos (-1), 14→15 exp
-  Re Rangers X: 62→63 activos (+1), 0→0 exp
-    Nuevos: SHADOWAA
-  Roll An Anime: 0→0 activos (=), 7→9 exp
-  Universal Tower Defense: 8→9 activos (+1), 129→129 exp
-    Nuevos: UniversalTowerDefenseZ!
-  Vv Ultimatum: 0→1 activos (+1), 12→12 exp
-    Nuevos: 35ROLLS
-  Weapon Rng: 2→0 activos (-2), 6→8 exp
+  Launch A Wheel: 23→12 activos (-11), 12→34 exp
+    Nuevos: applo, vexon, tikto, thank, rexal, eclip, duovo, clovy, chron, brewz, banzy
+  Pirate Piece: 2→2 activos (=), 46→47 exp
+  Project Mirror Labyrinth: 0→1 activos (+1), 45→45 exp
+    Nuevos: OfficeDelay
+  Return Of Ttd: 1→0 activos (-1), 0→8 exp
 
 Detalle cambios:
-data/games/codigos-anime-astral-simulator.json
-data/games/codigos-anime-card-battle-x.json
-data/games/codigos-anime-vanguards.json
-data/games/codigos-asura.json
-data/games/codigos-axe-rng.json
-data/games/codigos-be-dino.json
-data/games/codigos-build-a-military-base.json
-data/games/codigos-car-flipper.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-doodle-world.json
-data/games/codigos-dragon-blox.json
-data/games/codigos-lineage-piece.json
-data/games/codigos-monsterverze.json
-data/games/codigos-re-rangers-x.json
-data/games/codigos-roll-an-anime.json
-data/games/codigos-universal-tower-defense.json
-data/games/codigos-vv-ultimatum.json
-data/games/codigos-weapon-rng.json
+data/games/codigos-launch-a-wheel.json
+data/games/codigos-pirate-piece.json
+data/games/codigos-project-mirror-labyrinth.json
+data/games/codigos-return-of-ttd.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
