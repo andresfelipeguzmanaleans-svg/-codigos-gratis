@@ -1,33 +1,65 @@
-=== RESUMEN UPDATE 2026-06-25 10:39 ===
+=== RESUMEN UPDATE 2026-06-25 21:26 ===
 
 Archivos modificados:
-  6 archivos cambiados
+  21 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4417 juegos (4417 procesados)
-Actualizados: 4 | Sin cambios: 4268
+Total: 4418 juegos (4418 procesados)
+Actualizados: 19 | Sin cambios: 4254
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 12 | Movidos a expirados: 12
-Tiempo: 157.3s | Concurrencia: 10
+Códigos nuevos: 4 | Movidos a expirados: 20
+Tiempo: 163.1s | Concurrencia: 10
 
 Juegos actualizados:
-  Launch A Wheel: 23→12 activos (-11), 12→34 exp
-    Nuevos: applo, vexon, tikto, thank, rexal, eclip, duovo, clovy, chron, brewz, banzy
-  Pirate Piece: 2→2 activos (=), 46→47 exp
-  Project Mirror Labyrinth: 0→1 activos (+1), 45→45 exp
-    Nuevos: OfficeDelay
-  Return Of Ttd: 1→0 activos (-1), 0→8 exp
+  Anime Astral Simulator: 3→0 activos (-3), 56→60 exp
+  Anime Battle Rng: 7→7 activos (=), 22→29 exp
+  Anime Destroyers: 0→0 activos (=), 44→45 exp
+  Anime Vanguards: 1→0 activos (-1), 184→185 exp
+  Battle Minigames: 0→0 activos (=), 17→18 exp
+  Bloxodachi Life: 0→0 activos (=), 4→5 exp
+  Car Flipper: 1→0 activos (-1), 5→7 exp
+  Counter Blox: 0→0 activos (=), 39→41 exp
+  Demon Born: 8→7 activos (-1), 11→16 exp
+  Evomon: 4→5 activos (+1), 9→10 exp
+    Nuevos: 20000LIKEES, 30K-LIKES
+  Hide From The Villain: 5→6 activos (+1), 6→6 exp
+    Nuevos: SMALLCAPITOL
+  Immortality Incremental: 6→6 activos (=), 39→42 exp
+  Launch A Wheel: 12→1 activos (-11), 34→45 exp
+  Project Mirror Labyrinth: 1→0 activos (-1), 45→46 exp
+  Saber Unbound: 1→1 activos (=), 22→23 exp
+  Universal Tower Defense: 9→10 activos (+1), 129→129 exp
+    Nuevos: UTDXRulerIncident!
+  Vv Ultimatum: 1→0 activos (-1), 12→13 exp
+  World Fighters: 6→6 activos (=), 102→104 exp
+  Worldbreaker: 1→0 activos (-1), 7→8 exp
 
 Detalle cambios:
+data/games/codigos-anime-astral-simulator.json
+data/games/codigos-anime-battle-rng.json
+data/games/codigos-anime-destroyers.json
+data/games/codigos-anime-vanguards.json
+data/games/codigos-battle-minigames.json
+data/games/codigos-bloxodachi-life.json
+data/games/codigos-car-flipper.json
+data/games/codigos-counter-blox.json
+data/games/codigos-demon-born.json
+data/games/codigos-evomon.json
+data/games/codigos-hide-from-the-villain.json
+data/games/codigos-immortality-incremental.json
 data/games/codigos-launch-a-wheel.json
-data/games/codigos-pirate-piece.json
 data/games/codigos-project-mirror-labyrinth.json
-data/games/codigos-return-of-ttd.json
+data/games/codigos-saber-unbound.json
+data/games/codigos-universal-tower-defense.json
+data/games/codigos-vv-ultimatum.json
+data/games/codigos-world-fighters.json
+data/games/codigos-worldbreaker.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-multiverse-of-cards.json
 
