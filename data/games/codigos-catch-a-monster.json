@@ -5,12 +5,22 @@
   "description": "Todos los códigos activos para Catch A Monster en Roblox",
   "metaTitle": "Códigos Catch A Monster Roblox (Junio 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Catch A Monster en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-24T21:18:46.403Z",
-  "activeCodes": [],
+  "lastUpdated": "2026-06-27T20:55:47.736Z",
+  "activeCodes": [
+    {
+      "code": "cabshark",
+      "reward": "Recompensas",
+      "addedDate": "2026-06-27"
+    }
+  ],
   "expiredCodes": [
     {
       "code": "thunderclaw",
       "reward": "Rainbow Egg"
+    },
+    {
+      "code": "sleetwolf",
+      "reward": "Goldhorn Scarab Egg"
     },
     {
       "code": "mentawolf",
@@ -21,44 +31,20 @@
       "reward": "1,500 Wanderer's moneda"
     },
     {
-      "code": "sleetwolf",
-      "reward": "Goldhorn Scarab Egg"
+      "code": "SKILLFIX",
+      "reward": "1 Ascension Core"
     },
     {
       "code": "espire",
       "reward": "2,000 Tower gemas"
     },
     {
-      "code": "morekeys",
-      "reward": "50 Christmas llaves"
-    },
-    {
-      "code": "dracospike",
-      "reward": "800 Dino monedas, Dino Egg"
-    },
-    {
-      "code": "thunderjet",
-      "reward": "1 Sunforge Egg, 1 Gear cofre, 1 Spirit Grove Rift III, and 1,000 Rift Token"
-    },
-    {
-      "code": "keys",
-      "reward": "50 Christmas llaves"
-    },
-    {
-      "code": "voidorb",
-      "reward": "1 Spirit Grove Rift III and 1 Gear cofre"
-    },
-    {
-      "code": "tradere",
-      "reward": "1,500 Wanderer's moneda"
+      "code": "rose",
+      "reward": "1,000 Valentines Roses"
     },
     {
       "code": "christmas",
       "reward": "600 Candy Canes, Five Hatch pociones, And 25 llaves"
-    },
-    {
-      "code": "tideland",
-      "reward": "3 Coral Eggs"
     },
     {
       "code": "cobaltwing",
@@ -69,32 +55,56 @@
       "reward": "One Valentines Rift"
     },
     {
-      "code": "rose",
-      "reward": "1,000 Valentines Roses"
-    },
-    {
       "code": "Glaciron",
       "reward": "3 Valentine’s Rifts, the Gilded Gear cofre, and the Twilight Giant Tree Egg"
+    },
+    {
+      "code": "sunforge",
+      "reward": "5 Sunforge Egg, 1 Spirit Grove Rift III"
     },
     {
       "code": "hydribbit",
       "reward": "25 Refined Water gemas, 2 Spirit Grove Rift IIIs, and 2 Valentine’s Rifts"
     },
     {
+      "code": "voidorb",
+      "reward": "1 Spirit Grove Rift III and 1 Gear cofre"
+    },
+    {
       "code": "dino",
       "reward": "2K Dino monedas"
+    },
+    {
+      "code": "rexie",
+      "reward": "1,500 Treasure tickets and one Sovereign Core"
+    },
+    {
+      "code": "duckb",
+      "reward": "1,000 Dungeon Event tickets and 10 Circus Rubber Ducks"
+    },
+    {
+      "code": "electnov",
+      "reward": "1 legendario cofre, 1,500 Black Hole monedas, and 1 Specter Shallows Rift III"
     },
     {
       "code": "rift",
       "reward": "Three Random Rifts"
     },
     {
+      "code": "crysting",
+      "reward": "1,500 Soccer Balls, 200 Victory Cups, and 2 Spirit Grove Rift IIIs"
+    },
+    {
       "code": "tricerasteel",
       "reward": "1.2K Dino monedas, Gilded Gear cofre"
     },
     {
-      "code": "crysting",
-      "reward": "1,500 Soccer Balls, 200 Victory Cups, and 2 Spirit Grove Rift IIIs"
+      "code": "tradere",
+      "reward": "1,500 Wanderer's moneda"
+    },
+    {
+      "code": "dueggy",
+      "reward": "3 Restock tickets and 10 Treasure Shovels"
     },
     {
       "code": "RUBYMON",
@@ -185,10 +195,6 @@
       "reward": "1,000 Wanderer's monedas and 1 Wrymfire llave"
     },
     {
-      "code": "ssentinel",
-      "reward": "One Bubbly Red Blaze Egg"
-    },
-    {
       "code": "cearia",
       "reward": "1,500 Treasure tickets"
     },
@@ -201,8 +207,8 @@
       "reward": "1 Wyrmfire llave and 1 Shadow Rotthorn Egg"
     },
     {
-      "code": "electnov",
-      "reward": "1 legendario cofre, 1,500 Black Hole monedas, and 1 Specter Shallows Rift III"
+      "code": "ssentinel",
+      "reward": "One Bubbly Red Blaze Egg"
     },
     {
       "code": "blossom",
@@ -241,10 +247,6 @@
       "reward": "Recompensas"
     },
     {
-      "code": "SKILLFIX",
-      "reward": "1 Ascension Core"
-    },
-    {
       "code": "stumfoxy",
       "reward": "1 Mobius Circus Rift III"
     },
@@ -263,6 +265,10 @@
     {
       "code": "aracospike",
       "reward": "2,000 Dungeon Event tickets and 5 Circus Rubber Ducks"
+    },
+    {
+      "code": "thunderjet",
+      "reward": "1 Sunforge Egg, 1 Gear cofre, 1 Spirit Grove Rift III, and 1,000 Rift Token"
     },
     {
       "code": "voidegg",
@@ -285,10 +291,6 @@
       "reward": "1 Sunforge Egg"
     },
     {
-      "code": "rexie",
-      "reward": "1,500 Treasure tickets and one Sovereign Core"
-    },
-    {
       "code": "nightiev",
       "reward": "1 Neon Ofrenda Egg"
     },
@@ -309,24 +311,12 @@
       "reward": "Five Vitalium Stones"
     },
     {
-      "code": "sunforge",
-      "reward": "5 Sunforge Egg, 1 Spirit Grove Rift III"
-    },
-    {
       "code": "riftab",
       "reward": "1 Blossom Haven Rift III and 1 Wyrmfire llave"
     },
     {
       "code": "newyear",
       "reward": "Two New Year Eggs"
-    },
-    {
-      "code": "duckb",
-      "reward": "1,000 Dungeon Event tickets and 10 Circus Rubber Ducks"
-    },
-    {
-      "code": "dueggy",
-      "reward": "3 Restock tickets and 10 Treasure Shovels"
     },
     {
       "code": "moovik",
@@ -347,6 +337,22 @@
     {
       "code": "endless",
       "reward": "500 Tower gemas And 12 Potential Serums"
+    },
+    {
+      "code": "morekeys",
+      "reward": "50 Christmas llaves"
+    },
+    {
+      "code": "dracospike",
+      "reward": "800 Dino monedas, Dino Egg"
+    },
+    {
+      "code": "keys",
+      "reward": "50 Christmas llaves"
+    },
+    {
+      "code": "tideland",
+      "reward": "3 Coral Eggs"
     },
     {
       "code": "ungolem",
