@@ -1,86 +1,70 @@
-=== RESUMEN UPDATE 2026-06-27 20:58 ===
+=== RESUMEN UPDATE 2026-06-28 10:26 ===
 
 Archivos modificados:
-  25 archivos cambiados
+  13 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  20 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4418 juegos (4418 procesados)
-Actualizados: 23 | Sin cambios: 4250
+Total: 4438 juegos (4438 procesados)
+Actualizados: 10 | Sin cambios: 4283
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 36 | Movidos a expirados: 30
-Tiempo: 208.2s | Concurrencia: 10
+Códigos nuevos: 8 | Movidos a expirados: 107
+Tiempo: 142.7s | Concurrencia: 10
 
 Juegos actualizados:
-  Air Traffic Simulator: 0→1 activos (+1), 17→17 exp
-    Nuevos: RTO
-  Anime Card Collection: 0→1 activos (+1), 53→53 exp
-    Nuevos: FortySevenCode
-  Blue Lock Rivals: 0→3 activos (+3), 304→304 exp
-    Nuevos: BEARCLAW, ADDRESSME, GAGAREWORK
-  Car Zone: 0→2 activos (+2), 125→125 exp
-    Nuevos: CUSTOMIZATION, UPDATE61
-  Catch A Monster: 0→1 activos (+1), 123→123 exp
-    Nuevos: cabshark
-  Clover Origins: 0→4 activos (+4), 92→92 exp
-    Nuevos: 100KFAVS!, 20MVISITS!, BUGFIXES16!, BUGFIXES17!
-  Demon Blade: 1→0 activos (-1), 67→68 exp
-  Demon Soul Simulator: 0→1 activos (+1), 141→141 exp
-    Nuevos: rrjxfr
-  Destined Ascension: 0→1 activos (+1), 115→115 exp
-    Nuevos: 13klikes
-  Devil Hunter: 28→6 activos (-22), 0→32 exp
-    Nuevos: DECAPLARP, DEVILHUNTERRELEASE, NODELAY, WEBACK, ROBLOXSAVEDUS, SORRYFOREXPIRE
-  Dinosaur Simulator: 0→1 activos (+1), 33→33 exp
-    Nuevos: drink
-  Fisch: 2→3 activos (+1), 123→123 exp
-    Nuevos: KingCrabstle
-  Fnaf Battlegrounds: 1→0 activos (-1), 21→22 exp
-  Garden Tower Defense: 0→1 activos (+1), 115→115 exp
-    Nuevos: LUCKYBLOCK
-  Ice Fishing Simulator: 1→0 activos (-1), 18→19 exp
-  Ninja Time: 1→0 activos (-1), 249→250 exp
-  Realistic Car Driving: 1→0 activos (-1), 13→14 exp
-  Reign Piece: 0→3 activos (+3), 61→61 exp
-    Nuevos: ANTIMAGIC, ASTAUPDATE, FOUNDTHEGOAT
-  Saber Simulator: 0→1 activos (+1), 101→101 exp
-    Nuevos: TRIDENT
-  Snatch A Seed: 0→2 activos (+2), 27→27 exp
-    Nuevos: NIGHT, SNATCHING
-  Tank Game: 0→4 activos (+4), 34→34 exp
-    Nuevos: NEWPORTALS, PREPAREYOURGEMS, NEWCHESTSOON, HITBOXFIXED
-  Unknown Rng: 3→0 activos (-3), 99→102 exp
-  Volleyball Legends: 0→3 activos (+3), 290→290 exp
-    Nuevos: BALANCE_76, ENCHO_RETURNS, UPDATE_76
+  1 Unlimited World: 17→18 activos (+1), 56→56 exp
+    Nuevos: R4X8P1
+  Anime Arise Evolution: 99→10 activos (-89), 0→89 exp
+  Anime Lock: 10→9 activos (-1), 1→2 exp
+  Anime Squadron: 2→5 activos (+3), 23→23 exp
+    Nuevos: StrongestChallenger!, SryForLongMaintenance!!, TheHeroHunter!
+  Archer Training: 0→1 activos (+1), 9→9 exp
+    Nuevos: bees
+  Arise Shadow Hunt: 0→1 activos (+1), 81→81 exp
+    Nuevos: c1cAqk
+  Mega Mech Tycoon: 12→1 activos (-11), 4→15 exp
+  Mount Rng: 0→1 activos (+1), 41→41 exp
+    Nuevos: CORTISOL
+  Prison Race Clicker: 11→5 activos (-6), 0→6 exp
+  Project Menacing Remake: 45→46 activos (+1), 13→13 exp
+    Nuevos: UPDATE!!
 
 Detalle cambios:
-data/games/codigos-air-traffic-simulator.json
-data/games/codigos-anime-card-collection.json
-data/games/codigos-blue-lock-rivals.json
-data/games/codigos-car-zone.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-clover-origins.json
-data/games/codigos-demon-blade.json
-data/games/codigos-demon-soul-simulator.json
-data/games/codigos-destined-ascension.json
-data/games/codigos-devil-hunter.json
-data/games/codigos-dinosaur-simulator.json
-data/games/codigos-fisch.json
-data/games/codigos-fnaf-battlegrounds.json
-data/games/codigos-garden-tower-defense.json
-data/games/codigos-ice-fishing-simulator.json
-data/games/codigos-ninja-time.json
-data/games/codigos-realistic-car-driving.json
-data/games/codigos-reign-piece.json
-data/games/codigos-saber-simulator.json
-data/games/codigos-snatch-a-seed.json
-data/games/codigos-tank-game.json
-data/games/codigos-unknown-rng.json
-data/games/codigos-volleyball-legends.json
+data/gameguide-urls.json
+data/games/codigos-1-unlimited-world.json
+data/games/codigos-anime-arise-evolution.json
+data/games/codigos-anime-lock.json
+data/games/codigos-anime-squadron.json
+data/games/codigos-archer-training.json
+data/games/codigos-arise-shadow-hunt.json
+data/games/codigos-mega-mech-tycoon.json
+data/games/codigos-mount-rng.json
+data/games/codigos-prison-race-clicker.json
+data/games/codigos-project-menacing-remake.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-100-days-at-sea.json
+data/games/codigos-airdrop-arena.json
+data/games/codigos-anime-card-farm.json
+data/games/codigos-anime-story-2.json
+data/games/codigos-anime-ultron-simulator.json
+data/games/codigos-battle-piece.json
+data/games/codigos-brainrot-block-tower.json
+data/games/codigos-car-for-sale.json
+data/games/codigos-crab-tycoon.json
+data/games/codigos-fish-a-slime.json
+data/games/codigos-grade-turbo.json
+data/games/codigos-knife-arena.json
+data/games/codigos-launch-a-penguin.json
+data/games/codigos-looksmax-and-mog.json
+data/games/codigos-magnet-trash-simulator.json
+data/games/codigos-mini-war.json
+data/games/codigos-noob-incremental.json
+data/games/codigos-ore-incremental.json
+data/games/codigos-spin-a-soccer-card.json
+data/games/codigos-zombie-island.json
 
