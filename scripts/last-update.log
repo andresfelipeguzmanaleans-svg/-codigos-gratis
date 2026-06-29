@@ -1,36 +1,45 @@
-=== RESUMEN UPDATE 2026-06-28 20:56 ===
+=== RESUMEN UPDATE 2026-06-29 12:27 ===
 
 Archivos modificados:
-  9 archivos cambiados
+  10 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4438 juegos (4438 procesados)
-Actualizados: 6 | Sin cambios: 4287
+Actualizados: 8 | Sin cambios: 4285
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 4 | Movidos a expirados: 1
-Tiempo: 143.9s | Concurrencia: 10
+Códigos nuevos: 9 | Movidos a expirados: 0
+Tiempo: 144.6s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Eternal: 4→4 activos (=), 791→792 exp
-  Battle Piece: 2→2 activos (=), 10→15 exp
-  Car Crushers 2: 0→0 activos (=), 53→54 exp
-  Mount Rng: 1→0 activos (-1), 41→42 exp
-  Motor Legends: 33→35 activos (+2), 0→0 exp
-    Nuevos: UPDATE20, WHEELSPINS
-  Sakura Stand: 0→2 activos (+2), 186→186 exp
-    Nuevos: BesureToWearVansCheckerboard, NaoyaDoopie
+  Anime Limitless: 0→1 activos (+1), 20→20 exp
+    Nuevos: KINGOFHEROES
+  Anime Waifu Card Collection: 1→2 activos (+1), 19→19 exp
+    Nuevos: 17M
+  Azure Latch: 0→1 activos (+1), 119→119 exp
+    Nuevos: IMLEGALLYBLINDICANTSEE
+  Build A Military Base: 0→2 activos (+2), 60→60 exp
+    Nuevos: STEALTHHELICOPTER, THINKINGCAPS
+  Football Sticker Album: 3→4 activos (+1), 0→0 exp
+    Nuevos: 7kLikes
+  Jujutsu Zero: 0→1 activos (+1), 76→76 exp
+    Nuevos: STARRAGEV2
+  Roanoke: 8→9 activos (+1), 0→0 exp
+    Nuevos: LARP
+  Roanoke Va: 0→1 activos (+1), 49→49 exp
+    Nuevos: LARP
 
 Detalle cambios:
-data/gameguide-urls.json
-data/games/codigos-anime-eternal.json
-data/games/codigos-battle-piece.json
-data/games/codigos-car-crushers-2.json
-data/games/codigos-motor-legends.json
-data/games/codigos-mount-rng.json
-data/games/codigos-sakura-stand.json
+data/games/codigos-anime-limitless.json
+data/games/codigos-anime-waifu-card-collection.json
+data/games/codigos-azure-latch.json
+data/games/codigos-build-a-military-base.json
+data/games/codigos-football-sticker-album.json
+data/games/codigos-jujutsu-zero.json
+data/games/codigos-roanoke-va.json
+data/games/codigos-roanoke.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
