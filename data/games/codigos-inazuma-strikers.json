@@ -5,16 +5,18 @@
   "description": "Todos los códigos activos para Inazuma Strikers en Roblox",
   "metaTitle": "Códigos Inazuma Strikers Roblox (Junio 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Inazuma Strikers en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-15T13:49:46.076Z",
-  "activeCodes": [],
+  "lastUpdated": "2026-06-29T21:19:54.063Z",
+  "activeCodes": [
+    {
+      "code": "PRAISE",
+      "reward": "Recompensas",
+      "addedDate": "2026-06-29"
+    }
+  ],
   "expiredCodes": [
     {
-      "code": "WORLDCUP",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "VXRIFIED",
-      "reward": "40,000 monedas, 2x EXP, doble monedas, 1 raro Manual, and 5 Evolution gemas"
+      "code": "500W",
+      "reward": "10K monedas, reinicio de stats"
     },
     {
       "code": "3KCODE",
@@ -33,28 +35,20 @@
       "reward": "40,000 monedas, 2x EXP For 1 hora, And 2 Uncommon Manuals"
     },
     {
-      "code": "WHADO",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "7000LIKES",
       "reward": "10K monedas"
     },
     {
-      "code": "SORRYFORBUGS",
-      "reward": "4,000 monedas, 1 raro Manual, 2 Element Rerolls, And 1 reinicio de stats"
+      "code": "WHADO",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "TYFORYOURTIME",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "19KLIKES",
-      "reward": "1 Mythical Manual, 50,000 monedas, and 1 Element Reroll"
-    },
-    {
-      "code": "30MIN",
-      "reward": "30,000 monedas, doble monedas, 3 Element Rerolls, and 1 raro Manual"
+      "code": "SORRYFORBUGS",
+      "reward": "4,000 monedas, 1 raro Manual, 2 Element Rerolls, And 1 reinicio de stats"
     },
     {
       "code": "3200LIKES",
@@ -73,20 +67,20 @@
       "reward": "500 tokens"
     },
     {
-      "code": "NEWERA",
-      "reward": "20,000 monedas, 1 raro Manual, 2 Element Rerolls, and 1 reinicio de stats"
+      "code": "19KLIKES",
+      "reward": "1 Mythical Manual, 50,000 monedas, and 1 Element Reroll"
     },
     {
       "code": "TestingPhase",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "15KLIKES",
-      "reward": "30K monedas And 1 Mythical Manual"
+      "code": "30MIN",
+      "reward": "30,000 monedas, doble monedas, 3 Element Rerolls, and 1 raro Manual"
     },
     {
-      "code": "9000LIKES",
-      "reward": "5 Element Rerolls"
+      "code": "DELAY",
+      "reward": "1 raro Manual, 2 Uncommon Manuals, 2x EXP For 1 hora, doble monedas For 1 hora, And 20,000 monedas"
     },
     {
       "code": "1700LIKES",
@@ -105,32 +99,12 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "SHUTDOWNSORRY",
-      "reward": "3 Element Rerolls"
-    },
-    {
       "code": "KURAI",
       "reward": "Recompensas gratis"
     },
     {
       "code": "2500LIKES",
       "reward": "3 Random Manuals and 3,000 monedas"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "20,000 monedas and 2 Uncommon Manuals"
-    },
-    {
-      "code": "OGREENDING",
-      "reward": "50,000 monedas and 2 raro Manuals"
-    },
-    {
-      "code": "DELAY",
-      "reward": "1 raro Manual, 2 Uncommon Manuals, 2x EXP For 1 hora, doble monedas For 1 hora, And 20,000 monedas"
-    },
-    {
-      "code": "EVENT",
-      "reward": "50,000 monedas, 1 raro Manual, 1 Stats Reset and 2 Element Rerolls"
     },
     {
       "code": "KESHINSOON",
@@ -141,12 +115,32 @@
       "reward": "300,000 monedas and 2 Element Rerolls"
     },
     {
+      "code": "MINI",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "BETTER",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "MINI",
-      "reward": "Recompensas gratis"
+      "code": "NEWERA",
+      "reward": "20,000 monedas, 1 raro Manual, 2 Element Rerolls, and 1 reinicio de stats"
+    },
+    {
+      "code": "15KLIKES",
+      "reward": "30K monedas And 1 Mythical Manual"
+    },
+    {
+      "code": "9000LIKES",
+      "reward": "5 Element Rerolls"
+    },
+    {
+      "code": "SHUTDOWNSORRY",
+      "reward": "3 Element Rerolls"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "20,000 monedas and 2 Uncommon Manuals"
     },
     {
       "code": "5KFAV",
@@ -157,12 +151,24 @@
       "reward": "2 raro Manuals, 20,000 monedas, And 2x EXP For 1 hora"
     },
     {
-      "code": "500W",
-      "reward": "10K monedas, reinicio de stats"
+      "code": "OGREENDING",
+      "reward": "50,000 monedas and 2 raro Manuals"
+    },
+    {
+      "code": "VXRIFIED",
+      "reward": "40,000 monedas, 2x EXP, doble monedas, 1 raro Manual, and 5 Evolution gemas"
+    },
+    {
+      "code": "EVENT",
+      "reward": "50,000 monedas, 1 raro Manual, 1 Stats Reset and 2 Element Rerolls"
     },
     {
       "code": "12KLIKES",
       "reward": "30K monedas"
+    },
+    {
+      "code": "WORLDCUP",
+      "reward": "100,000 monedas and 2 Element Rerolls"
     },
     {
       "code": "WESOBACK",
