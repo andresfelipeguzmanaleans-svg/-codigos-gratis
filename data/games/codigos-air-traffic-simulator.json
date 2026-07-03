@@ -5,15 +5,13 @@
   "description": "Todos los códigos activos para Air Traffic Simulator en Roblox",
   "metaTitle": "Códigos Air Traffic Simulator Roblox (Junio 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Air Traffic Simulator en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-27T20:55:18.062Z",
-  "activeCodes": [
+  "lastUpdated": "2026-07-03T20:55:15.923Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "RTO",
-      "reward": "AirMiles",
-      "addedDate": "2026-06-27"
-    }
-  ],
-  "expiredCodes": [
+      "reward": "AirMiles"
+    },
     {
       "code": "WEATHER",
       "reward": "500 AirMiles"
@@ -21,18 +19,6 @@
     {
       "code": "SQUAWK",
       "reward": "250 AirMiles"
-    },
-    {
-      "code": "OTTAWA",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "HEAVY",
-      "reward": "250 AirMiles"
-    },
-    {
-      "code": "INNSBRUCK",
-      "reward": "Air Miles"
     },
     {
       "code": "RELEASE",
@@ -49,6 +35,22 @@
     {
       "code": "100k",
       "reward": "Recompensas"
+    },
+    {
+      "code": "MULTIPLAYER",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "OTTAWA",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "HEAVY",
+      "reward": "250 AirMiles"
+    },
+    {
+      "code": "INNSBRUCK",
+      "reward": "Air Miles"
     },
     {
       "code": "RETURN",
@@ -69,10 +71,6 @@
     {
       "code": "LEMI",
       "reward": "200 AirMiles"
-    },
-    {
-      "code": "MULTIPLAYER",
-      "reward": "Recompensas"
     },
     {
       "code": "CLEARED",
