@@ -1,43 +1,46 @@
-=== RESUMEN UPDATE 2026-07-02 20:59 ===
+=== RESUMEN UPDATE 2026-07-03 10:31 ===
 
 Archivos modificados:
   9 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  5 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4441 juegos (4441 procesados)
-Actualizados: 7 | Sin cambios: 4289
+Total: 4446 juegos (4446 procesados)
+Actualizados: 6 | Sin cambios: 4295
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 11 | Movidos a expirados: 0
-Tiempo: 158.6s | Concurrencia: 10
+Códigos nuevos: 5 | Movidos a expirados: 0
+Tiempo: 144.8s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Fighting Simulator Endless: 2→7 activos (+5), 175→175 exp
-    Nuevos: Dimension3, Enel, Kaido, NewLuffy, Shadow!
-  Arise Shadow Hunt: 2→3 activos (+1), 81→81 exp
-    Nuevos: b4xpT6
-  Demon Soul Simulator: 1→2 activos (+1), 141→141 exp
-    Nuevos: bugcompensation202672
-  Ghoul Re: 2→3 activos (+1), 168→168 exp
-    Nuevos: ArimaVsKaneki
-  Mini War: 0→0 activos (=), 6→7 exp
-  Motoprix Racing: 0→1 activos (+1), 33→33 exp
-    Nuevos: JULY2026
-  Noob Incremental: 1→3 activos (+2), 29→29 exp
-    Nuevos: FOOTBALLEVENT, SORRYSHUTDOWN67
+  Anime Card Collection: 2→3 activos (+1), 53→53 exp
+    Nuevos: FortyNineCode
+  Devil Hunter: 6→7 activos (+1), 32→32 exp
+    Nuevos: STUPIDTEAM
+  Ghoul Re: 3→3 activos (=), 168→170 exp
+  Gym Star Simulator: 0→1 activos (+1), 34→34 exp
+    Nuevos: WORLDCUP
+  Jujutsu Legacy: 0→1 activos (+1), 53→53 exp
+    Nuevos: Dabura
+  Ultimate Tower Defense: 3→4 activos (+1), 225→225 exp
+    Nuevos: UTDIsBack!
 
 Detalle cambios:
-data/games/codigos-anime-fighting-simulator-endless.json
-data/games/codigos-arise-shadow-hunt.json
-data/games/codigos-demon-soul-simulator.json
+data/gameguide-urls.json
+data/games/codigos-anime-card-collection.json
+data/games/codigos-devil-hunter.json
 data/games/codigos-ghoul-re.json
-data/games/codigos-mini-war.json
-data/games/codigos-motoprix-racing.json
-data/games/codigos-noob-incremental.json
+data/games/codigos-gym-star-simulator.json
+data/games/codigos-jujutsu-legacy.json
+data/games/codigos-ultimate-tower-defense.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-build-your-butterfly-garden.json
+data/games/codigos-paint-and-hide.json
+data/games/codigos-scale-slimy-fish.json
+data/games/codigos-spin-a-car.json
+data/games/codigos-yeet-a-brainrot.json
 
