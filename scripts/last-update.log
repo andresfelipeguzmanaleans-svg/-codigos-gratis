@@ -1,78 +1,75 @@
-=== RESUMEN UPDATE 2026-07-04 10:04 ===
+=== RESUMEN UPDATE 2026-07-04 20:48 ===
 
 Archivos modificados:
-  29 archivos cambiados
+  21 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4447 juegos (4447 procesados)
-Actualizados: 27 | Sin cambios: 4275
+Actualizados: 19 | Sin cambios: 4283
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 5 | Movidos a expirados: 19
-Tiempo: 145.3s | Concurrencia: 10
+Códigos nuevos: 29 | Movidos a expirados: 2
+Tiempo: 151.6s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Astral Simulator: 3→0 activos (-3), 70→73 exp
-  Anime Card Farm: 1→1 activos (=), 2→3 exp
-  Arcade Basketball: 2→0 activos (-2), 56→58 exp
-  Broken Blade: 0→0 activos (=), 26→27 exp
-  Build Your Butterfly Garden: 2→0 activos (-2), 1→3 exp
-  Car Flipper: 0→0 activos (=), 9→10 exp
-  Catch A Monster: 0→0 activos (=), 128→131 exp
-  Dinosaur Life: 1→0 activos (-1), 13→14 exp
-  Dungeon Heroes: 1→0 activos (-1), 76→77 exp
-  Evomon: 2→1 activos (-1), 19→20 exp
-  Heavyweight Fishing: 1→0 activos (-1), 94→95 exp
-  Heroes World: 0→2 activos (+2), 128→128 exp
-    Nuevos: MimicBossfight, MimicItems
-  Inazuma Strikers: 0→0 activos (=), 66→67 exp
-  Loot The Deep: 1→1 activos (=), 19→20 exp
-  Money Clicker Inc: 2→1 activos (-1), 29→30 exp
-  My Hero Mania: 14→16 activos (+2), 87→87 exp
-    Nuevos: MimicBossfight, MimicItems
-  Neo Tennis: 1→0 activos (-1), 34→35 exp
-  Nba Champions Basketball: 1→0 activos (-1), 38→39 exp
-  Nfl Universe Football: 37→38 activos (+1), 255→255 exp
-    Nuevos: REDZONE
-  Plane Crash Simulator: 0→0 activos (=), 7→8 exp
-  Rebirth Legends: 1→0 activos (-1), 39→40 exp
-  Restaurant Tycoon 3: 2→2 activos (=), 48→49 exp
-  Ride Storm: 3→0 activos (-3), 27→30 exp
-  Skibidi Toilet Battle Boom: 1→0 activos (-1), 124→125 exp
-  Spin A Kitty: 0→0 activos (=), 23→26 exp
-  The Apocalypse: 0→0 activos (=), 46→47 exp
-  Yeet A Brainrot: 0→0 activos (=), 16→17 exp
+  100 Days At Sea: 1→2 activos (+1), 0→0 exp
+    Nuevos: ALIENS
+  Anime Eternal: 1→2 activos (+1), 797→797 exp
+    Nuevos: Update58
+  Anime World Tower Defense: 0→1 activos (+1), 205→205 exp
+    Nuevos: WorldFoundationUpdate
+  Archer Training: 0→1 activos (+1), 10→10 exp
+    Nuevos: zen
+  Basketball Zero: 0→2 activos (+2), 238→238 exp
+    Nuevos: 4THJULY30, HAPPY4THJULY
+  Blue Lock Rivals: 0→3 activos (+3), 307→307 exp
+    Nuevos: SUMMERUPDATE, U20CUP, WORLDTOURNAMENT
+  Defend Ur Base With Anime: 0→3 activos (+3), 14→14 exp
+    Nuevos: TRAITREROLLS, TRADING, BASESKINS
+  Dress To Impress: 1→2 activos (+1), 62→62 exp
+    Nuevos: LANADOLLDRESS
+  Dudes Battlegrounds: 0→3 activos (+3), 139→139 exp
+    Nuevos: UPD71, SUMMERDUCKY, MECHADUCKY
+  Eagle Nation: 0→1 activos (+1), 23→23 exp
+    Nuevos: 4JULY2026
+  Evil Plate Game: 1→1 activos (=), 55→56 exp
+  Fabled Legacy: 0→3 activos (+3), 142→142 exp
+    Nuevos: FIREWORKS26, FOURTHOFJULY, FREEDOM
+  Fisch: 2→4 activos (+2), 125→125 exp
+    Nuevos: DrylandsIsFire, HAPPY4TH
+  Neighbors: 1→0 activos (-1), 45→47 exp
+  Nfl Universe Football: 38→37 activos (-1), 255→256 exp
+  Rensselaer County: 0→1 activos (+1), 15→15 exp
+    Nuevos: USA250
+  Reign Piece: 0→2 activos (+2), 65→65 exp
+    Nuevos: DEKUVIGILANTE, SLCSOHUMBLE
+  Saber Simulator: 0→1 activos (+1), 102→102 exp
+    Nuevos: USA250
+  Volleyball Legends: 0→3 activos (+3), 293→293 exp
+    Nuevos: HOLO_WALLS, RIKU, UPDATE_77
 
 Detalle cambios:
-data/games/codigos-anime-astral-simulator.json
-data/games/codigos-anime-card-farm.json
-data/games/codigos-arcade-basketball.json
-data/games/codigos-broken-blade.json
-data/games/codigos-build-your-butterfly-garden.json
-data/games/codigos-car-flipper.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-dinosaur-life.json
-data/games/codigos-dungeon-heroes.json
-data/games/codigos-evomon.json
-data/games/codigos-heavyweight-fishing.json
-data/games/codigos-heroes-world.json
-data/games/codigos-inazuma-strikers.json
-data/games/codigos-loot-the-deep.json
-data/games/codigos-money-clicker-inc.json
-data/games/codigos-my-hero-mania.json
-data/games/codigos-nba-champions-basketball.json
-data/games/codigos-neo-tennis.json
+data/games/codigos-100-days-at-sea.json
+data/games/codigos-anime-eternal.json
+data/games/codigos-anime-world-tower-defense.json
+data/games/codigos-archer-training.json
+data/games/codigos-basketball-zero.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-defend-ur-base-with-anime.json
+data/games/codigos-dress-to-impress.json
+data/games/codigos-dudes-battlegrounds.json
+data/games/codigos-eagle-nation.json
+data/games/codigos-evil-plate-game.json
+data/games/codigos-fabled-legacy.json
+data/games/codigos-fisch.json
+data/games/codigos-neighbors.json
 data/games/codigos-nfl-universe-football.json
-data/games/codigos-plane-crash-simulator.json
-data/games/codigos-rebirth-legends.json
-data/games/codigos-restaurant-tycoon-3.json
-data/games/codigos-ride-storm.json
-data/games/codigos-skibidi-toilet-battle-boom.json
-data/games/codigos-spin-a-kitty.json
-data/games/codigos-the-apocalypse.json
-data/games/codigos-yeet-a-brainrot.json
+data/games/codigos-reign-piece.json
+data/games/codigos-rensselaer-county.json
+data/games/codigos-saber-simulator.json
+data/games/codigos-volleyball-legends.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
