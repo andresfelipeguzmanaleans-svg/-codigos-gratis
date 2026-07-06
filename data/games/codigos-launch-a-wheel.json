@@ -4,103 +4,70 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-8761dbb11b41ce37bb86a73f4834ea08/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Launch A Wheel en Roblox",
   "metaTitle": "Códigos Launch A Wheel Roblox (Julio 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Launch A Wheel en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-03T20:56:28.768Z",
+  "metaDescription": "Lista actualizada de códigos para Launch A Wheel en Roblox. 12 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-07-06T11:58:38.781Z",
   "activeCodes": [
+    {
+      "code": "nobleflask",
+      "reward": "1 Royal poción",
+      "addedDate": "2026-07-06"
+    },
+    {
+      "code": "oldtimer",
+      "reward": "5 Timeless Eggs",
+      "addedDate": "2026-07-06"
+    },
+    {
+      "code": "riftvault",
+      "reward": "2 Void Egg, 5 Timeless Eggs",
+      "addedDate": "2026-07-06"
+    },
+    {
+      "code": "shadowegg",
+      "reward": "Void Egg",
+      "addedDate": "2026-07-06"
+    },
+    {
+      "code": "shadowpair",
+      "reward": "2 Void Eggs",
+      "addedDate": "2026-07-06"
+    },
+    {
+      "code": "timevault",
+      "reward": "10 Timeless Eggs",
+      "addedDate": "2026-07-06"
+    },
+    {
+      "code": "cheerup",
+      "reward": "5 Cocktail poción",
+      "addedDate": "2026-07-06"
+    },
+    {
+      "code": "coreforce",
+      "reward": "5 Power pociones, 10 Apple Fruits",
+      "addedDate": "2026-07-06"
+    },
+    {
+      "code": "goldpeel",
+      "reward": "5 Cash pociones, 10 Banana Fruits",
+      "addedDate": "2026-07-06"
+    },
+    {
+      "code": "luckharvest",
+      "reward": "5 suerte pociones, 10 Carrot Fruits",
+      "addedDate": "2026-07-06"
+    },
+    {
+      "code": "blendbrew",
+      "reward": "3 Cocktail pociones",
+      "addedDate": "2026-07-06"
+    },
     {
       "code": "voidyy",
       "reward": "2 Void Eggs"
     }
   ],
   "expiredCodes": [
-    {
-      "code": "ancient",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "applepower",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "charmroot",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "coinbanana",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "crownpotion",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "darkduo",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "darkegg",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "eraeggs",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "grateful",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "mixpotion",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "riftage",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "clockegg",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "crown",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "luckyroot",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "mixdrink",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "powerfruit",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "richfruit",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "riftpack",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "cheers",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "agepack",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "abyssegg",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "abyssduo",
-      "reward": "Recompensas"
-    },
     {
       "code": "500k",
       "reward": "Cocktail poción"
@@ -148,6 +115,94 @@
     {
       "code": "update1",
       "reward": "3 Cash pociones"
+    },
+    {
+      "code": "crownpotion",
+      "reward": "1 Royal poción"
+    },
+    {
+      "code": "grateful",
+      "reward": "5 Cocktail pociones"
+    },
+    {
+      "code": "riftage",
+      "reward": "2 Void Eggs and 5 Timeless Eggs"
+    },
+    {
+      "code": "eraeggs",
+      "reward": "10 Timeless Eggs"
+    },
+    {
+      "code": "ancient",
+      "reward": "5 Timeless Eggs"
+    },
+    {
+      "code": "darkduo",
+      "reward": "2 Void Eggs"
+    },
+    {
+      "code": "darkegg",
+      "reward": "1 Void Egg"
+    },
+    {
+      "code": "mixpotion",
+      "reward": "3 Cocktail pociones"
+    },
+    {
+      "code": "coinbanana",
+      "reward": "5 Cash pociones and 10 Banana Fruits"
+    },
+    {
+      "code": "applepower",
+      "reward": "5 Power pociones and 10 Apple Fruits"
+    },
+    {
+      "code": "charmroot",
+      "reward": "5 suerte pociones and 10 Carrot Fruits"
+    },
+    {
+      "code": "clockegg",
+      "reward": "5 Timeless Eggs"
+    },
+    {
+      "code": "luckyroot",
+      "reward": "5 suerte pociones and 10 Carrot Fruits"
+    },
+    {
+      "code": "powerfruit",
+      "reward": "5 Power pociones and 10 Apple Fruits"
+    },
+    {
+      "code": "richfruit",
+      "reward": "5 Cash pociones and 10 Banana Fruits"
+    },
+    {
+      "code": "mixdrink",
+      "reward": "3 Cocktail pociones"
+    },
+    {
+      "code": "abyssegg",
+      "reward": "1 Void Egg"
+    },
+    {
+      "code": "abyssduo",
+      "reward": "2 Void Eggs"
+    },
+    {
+      "code": "agepack",
+      "reward": "10 Timeless Eggs"
+    },
+    {
+      "code": "cheers",
+      "reward": "5 Cocktail pociones"
+    },
+    {
+      "code": "crown",
+      "reward": "1 Royal poción"
+    },
+    {
+      "code": "riftpack",
+      "reward": "2 Void Eggs and 5 Timeless Eggs"
     },
     {
       "code": "applo",
