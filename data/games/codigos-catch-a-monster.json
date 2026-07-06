@@ -5,12 +5,12 @@
   "description": "Todos los códigos activos para Catch A Monster en Roblox",
   "metaTitle": "Códigos Catch A Monster Roblox (Junio 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Catch A Monster en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-04T10:02:09.319Z",
+  "lastUpdated": "2026-07-06T21:23:37.570Z",
   "activeCodes": [],
   "expiredCodes": [
     {
-      "code": "voidegg",
-      "reward": "1,000 Necro monedas and 1 Void Egg"
+      "code": "emberwolf",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "sleetwolf",
@@ -37,32 +37,12 @@
       "reward": "2,000 Tower gemas"
     },
     {
-      "code": "rexie",
-      "reward": "1,500 Treasure tickets and one Sovereign Core"
-    },
-    {
-      "code": "electnov",
-      "reward": "1 legendario cofre, 1,500 Black Hole monedas, and 1 Specter Shallows Rift III"
-    },
-    {
-      "code": "rift",
-      "reward": "Three Random Rifts"
-    },
-    {
       "code": "crysting",
       "reward": "1,500 Soccer Balls, 200 Victory Cups, and 2 Spirit Grove Rift IIIs"
     },
     {
       "code": "cobaltwing",
       "reward": "600 Valentines Roses and one Valentines King Egg"
-    },
-    {
-      "code": "hydribbit",
-      "reward": "25 Refined Water gemas, 2 Spirit Grove Rift IIIs, and 2 Valentine’s Rifts"
-    },
-    {
-      "code": "duckb",
-      "reward": "1,000 Dungeon Event tickets and 10 Circus Rubber Ducks"
     },
     {
       "code": "HOREXIE",
@@ -75,6 +55,10 @@
     {
       "code": "fspegg",
       "reward": "2,000 Wanderer's monedas, 1 Wyrmfire llave, and 1 Fire Egg"
+    },
+    {
+      "code": "thunderjet",
+      "reward": "1 Sunforge Egg, 1 Gear cofre, 1 Spirit Grove Rift III, and 1,000 Rift Token"
     },
     {
       "code": "tradere",
@@ -113,6 +97,14 @@
       "reward": "Recompensas gratis"
     },
     {
+      "code": "hydribbit",
+      "reward": "25 Refined Water gemas, 2 Spirit Grove Rift IIIs, and 2 Valentine’s Rifts"
+    },
+    {
+      "code": "dino",
+      "reward": "2K Dino monedas"
+    },
+    {
       "code": "Glaciron",
       "reward": "3 Valentine’s Rifts, the Gilded Gear cofre, and the Twilight Giant Tree Egg"
     },
@@ -131,10 +123,6 @@
     {
       "code": "MASSGLAW",
       "reward": "2 Wyrmfire llaves 1 Chaos poción"
-    },
-    {
-      "code": "BEATOPUS",
-      "reward": "Task puntos, 1 Wyrmfire llave and 2 Thunder Beat Share"
     },
     {
       "code": "dungeon2",
@@ -165,6 +153,18 @@
       "reward": "1 Dunveil Rift III and 1 Wrymfire llave"
     },
     {
+      "code": "BEATOPUS",
+      "reward": "Task puntos, 1 Wyrmfire llave and 2 Thunder Beat Share"
+    },
+    {
+      "code": "duntask",
+      "reward": "1 Wyrmfire llave and 1 Anchoring Core"
+    },
+    {
+      "code": "DEVINGLEW",
+      "reward": "1 Flesh Egg cofre"
+    },
+    {
       "code": "bladetooth",
       "reward": "Recompensas gratis"
     },
@@ -189,8 +189,8 @@
       "reward": "1 Wyrmfire llave and 4 Rainbow Eggs"
     },
     {
-      "code": "emberwolf",
-      "reward": "Recompensas gratis"
+      "code": "thunderclaw",
+      "reward": "Rainbow Egg"
     },
     {
       "code": "amethyst",
@@ -223,10 +223,6 @@
     {
       "code": "orange",
       "reward": "1 legendario cofre"
-    },
-    {
-      "code": "strones",
-      "reward": "1,000 Necro monedas and 3 Treasure Shovels"
     },
     {
       "code": "ducka",
@@ -265,8 +261,8 @@
       "reward": "2,000 Dungeon Event tickets and 5 Circus Rubber Ducks"
     },
     {
-      "code": "thunderclaw",
-      "reward": "Rainbow Egg"
+      "code": "voidegg",
+      "reward": "1,000 Necro monedas and 1 Void Egg"
     },
     {
       "code": "tailri",
@@ -281,8 +277,12 @@
       "reward": "3 Tideland Rift III and 1 Wyrmfire llave"
     },
     {
-      "code": "thunderjet",
-      "reward": "1 Sunforge Egg, 1 Gear cofre, 1 Spirit Grove Rift III, and 1,000 Rift Token"
+      "code": "duckb",
+      "reward": "1,000 Dungeon Event tickets and 10 Circus Rubber Ducks"
+    },
+    {
+      "code": "strones",
+      "reward": "1,000 Necro monedas and 3 Treasure Shovels"
     },
     {
       "code": "hydrolope",
@@ -373,8 +373,16 @@
       "reward": "1 Spirit Grove Rift III and 1 Gear cofre"
     },
     {
-      "code": "dino",
-      "reward": "2K Dino monedas"
+      "code": "rexie",
+      "reward": "1,500 Treasure tickets and one Sovereign Core"
+    },
+    {
+      "code": "electnov",
+      "reward": "1 legendario cofre, 1,500 Black Hole monedas, and 1 Specter Shallows Rift III"
+    },
+    {
+      "code": "rift",
+      "reward": "Three Random Rifts"
     },
     {
       "code": "cabshark",
