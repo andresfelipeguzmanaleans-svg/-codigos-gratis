@@ -1,51 +1,55 @@
-=== RESUMEN UPDATE 2026-07-08 21:01 ===
+=== RESUMEN UPDATE 2026-07-09 10:56 ===
 
 Archivos modificados:
-  14 archivos cambiados
+  10 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  10 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4450 juegos (4450 procesados)
-Actualizados: 12 | Sin cambios: 4293
+Total: 4460 juegos (4460 procesados)
+Actualizados: 7 | Sin cambios: 4308
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 13 | Movidos a expirados: 5
-Tiempo: 146.5s | Concurrencia: 10
+Códigos nuevos: 14 | Movidos a expirados: 0
+Tiempo: 169.4s | Concurrencia: 10
 
 Juegos actualizados:
-  Aimblox: 0→0 activos (=), 52→53 exp
-  Anime Apocalypse: 2→2 activos (=), 44→45 exp
-  Anime Astral Simulator: 2→0 activos (-2), 79→81 exp
-  Anime Story: 0→0 activos (=), 210→214 exp
-  Anime Ultron Simulator: 0→0 activos (=), 12→13 exp
-  Bloxodachi Life: 0→0 activos (=), 5→6 exp
-  Cook And Sell: 3→0 activos (-3), 0→3 exp
-  Emote Rng: 0→2 activos (+2), 32→32 exp
-    Nuevos: AAPART2, BULKDELETE
-  Five Nights Td 2: 102→106 activos (+4), 0→0 exp
-    Nuevos: LOREKEEPER, SORRY4DELAY2, THETOWER, UPDATE37
-  King Tower: 0→0 activos (=), 8→9 exp
-  Portal Keeper: 0→1 activos (+1), 23→23 exp
-    Nuevos: rogamer
-  Rebirth Champions Ultimate: 0→6 activos (+6), 66→66 exp
-    Nuevos: Blossom, Aurora, Obsidian, Samurai, Summer, Paradise
+  Anime Astral Simulator: 0→4 activos (+4), 81→81 exp
+    Nuevos: 35KLIKES, 40MVISITS, SKILLTREE, SORRYFORSHUTDOWN10
+  Anime Fighting Simulator Endless: 2→7 activos (+5), 182→182 exp
+    Nuevos: 350KLIKES, ALotOfQuests, Dim3Bugs, QuestsFixedNow, SomeExtraStuff
+  Anime Story 2: 98→99 activos (+1), 34→34 exp
+    Nuevos: penalties
+  Defend Ur Base With Anime: 0→1 activos (+1), 17→17 exp
+    Nuevos: BUGFIXESS3
+  Doom By Fate: 1→2 activos (+1), 6→6 exp
+    Nuevos: JEFFREWORK
+  Evil Plate Game: 3→4 activos (+1), 56→56 exp
+    Nuevos: LILDURK2022
+  Project Mirror Labyrinth: 0→1 activos (+1), 47→47 exp
+    Nuevos: MYLEDX
 
 Detalle cambios:
-data/games/codigos-aimblox.json
-data/games/codigos-anime-apocalypse.json
+data/gameguide-urls.json
 data/games/codigos-anime-astral-simulator.json
-data/games/codigos-anime-story.json
-data/games/codigos-anime-ultron-simulator.json
-data/games/codigos-bloxodachi-life.json
-data/games/codigos-cook-and-sell.json
-data/games/codigos-emote-rng.json
-data/games/codigos-five-nights-td-2.json
-data/games/codigos-king-tower.json
-data/games/codigos-portal-keeper.json
-data/games/codigos-rebirth-champions-ultimate.json
+data/games/codigos-anime-fighting-simulator-endless.json
+data/games/codigos-anime-story-2.json
+data/games/codigos-defend-ur-base-with-anime.json
+data/games/codigos-doom-by-fate.json
+data/games/codigos-evil-plate-game.json
+data/games/codigos-project-mirror-labyrinth.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-anime-duelists.json
+data/games/codigos-ball-game.json
+data/games/codigos-be-a-fish-bait.json
+data/games/codigos-build-a-keyboard.json
+data/games/codigos-duck-duck.json
+data/games/codigos-gakuran.json
+data/games/codigos-missile-empire.json
+data/games/codigos-power-blast-lucky-blocks.json
+data/games/codigos-scratchy-loot.json
+data/games/codigos-tactical-swat-simulator.json
 
