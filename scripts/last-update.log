@@ -1,55 +1,78 @@
-=== RESUMEN UPDATE 2026-07-09 10:56 ===
+=== RESUMEN UPDATE 2026-07-09 21:18 ===
 
 Archivos modificados:
-  10 archivos cambiados
+  28 archivos cambiados
 
 Archivos nuevos:
-  10 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4460 juegos (4460 procesados)
-Actualizados: 7 | Sin cambios: 4308
+Total: 4461 juegos (4461 procesados)
+Actualizados: 26 | Sin cambios: 4290
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 14 | Movidos a expirados: 0
-Tiempo: 169.4s | Concurrencia: 10
+Códigos nuevos: 5 | Movidos a expirados: 16
+Tiempo: 192.5s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Astral Simulator: 0→4 activos (+4), 81→81 exp
-    Nuevos: 35KLIKES, 40MVISITS, SKILLTREE, SORRYFORSHUTDOWN10
-  Anime Fighting Simulator Endless: 2→7 activos (+5), 182→182 exp
-    Nuevos: 350KLIKES, ALotOfQuests, Dim3Bugs, QuestsFixedNow, SomeExtraStuff
-  Anime Story 2: 98→99 activos (+1), 34→34 exp
-    Nuevos: penalties
-  Defend Ur Base With Anime: 0→1 activos (+1), 17→17 exp
-    Nuevos: BUGFIXESS3
-  Doom By Fate: 1→2 activos (+1), 6→6 exp
-    Nuevos: JEFFREWORK
-  Evil Plate Game: 3→4 activos (+1), 56→56 exp
-    Nuevos: LILDURK2022
-  Project Mirror Labyrinth: 0→1 activos (+1), 47→47 exp
-    Nuevos: MYLEDX
+  Anime Fighting Simulator Endless: 7→2 activos (-5), 182→187 exp
+  Anime Vanguards: 0→0 activos (=), 185→188 exp
+  Catch A Monster: 0→0 activos (=), 134→135 exp
+  Climb And Jump Tower: 0→0 activos (=), 30→35 exp
+  Defend Ur Base With Anime: 1→0 activos (-1), 17→18 exp
+  Dragon Blox: 0→0 activos (=), 221→223 exp
+  Dudes Battlegrounds: 0→0 activos (=), 142→143 exp
+  Duel Warriors: 0→0 activos (=), 165→167 exp
+  Elemental Dungeons: 1→0 activos (-1), 71→74 exp
+  Evil Plate Game: 4→3 activos (-1), 56→57 exp
+  Flashpoint Worlds Collide: 2→1 activos (-1), 107→109 exp
+  Japanese Supermarket Simulator: 0→0 activos (=), 25→26 exp
+  Launch A Wheel: 0→0 activos (=), 79→90 exp
+  Motorcycle Mayhem: 0→0 activos (=), 36→37 exp
+  Oaklands: 0→0 activos (=), 13→14 exp
+  Overkill: 0→0 activos (=), 5→6 exp
+  Primal Pursuit: 0→0 activos (=), 32→33 exp
+  Project Mirror Labyrinth: 1→0 activos (-1), 47→48 exp
+  Raid Rush: 3→4 activos (+1), 7→7 exp
+    Nuevos: chocolate
+  Rebirth Champions Ultimate: 6→0 activos (-6), 66→72 exp
+  Rivals: 0→0 activos (=), 207→208 exp
+  Rock Fruit: 0→0 activos (=), 218→224 exp
+  Scythe Masters: 0→0 activos (=), 32→33 exp
+  Spin 4 Free Ugc: 0→0 activos (=), 95→97 exp
+  Universal Tower Defense: 9→13 activos (+4), 131→131 exp
+    Nuevos: Summer2026!, TheGuyFromSmash!, SpectacularSpider!, ReapersVsHollowDestroyers
+  Yeet a Friend: 0→0 activos (=), 70→71 exp
 
 Detalle cambios:
-data/gameguide-urls.json
-data/games/codigos-anime-astral-simulator.json
 data/games/codigos-anime-fighting-simulator-endless.json
-data/games/codigos-anime-story-2.json
+data/games/codigos-anime-vanguards.json
+data/games/codigos-catch-a-monster.json
+data/games/codigos-climb-and-jump-tower.json
 data/games/codigos-defend-ur-base-with-anime.json
-data/games/codigos-doom-by-fate.json
+data/games/codigos-dragon-blox.json
+data/games/codigos-dudes-battlegrounds.json
+data/games/codigos-duel-warriors.json
+data/games/codigos-elemental-dungeons.json
 data/games/codigos-evil-plate-game.json
+data/games/codigos-flashpoint-worlds-collide.json
+data/games/codigos-japanese-supermarket-simulator.json
+data/games/codigos-launch-a-wheel.json
+data/games/codigos-motorcycle-mayhem.json
+data/games/codigos-oaklands.json
+data/games/codigos-overkill.json
+data/games/codigos-primal-pursuit.json
 data/games/codigos-project-mirror-labyrinth.json
+data/games/codigos-raid-rush.json
+data/games/codigos-rebirth-champions-ultimate.json
+data/games/codigos-rivals.json
+data/games/codigos-rock-fruit.json
+data/games/codigos-scythe-masters.json
+data/games/codigos-spin-4-free-ugc.json
+data/games/codigos-universal-tower-defense.json
+data/games/codigos-yeet-a-friend.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-anime-duelists.json
-data/games/codigos-ball-game.json
-data/games/codigos-be-a-fish-bait.json
-data/games/codigos-build-a-keyboard.json
-data/games/codigos-duck-duck.json
-data/games/codigos-gakuran.json
-data/games/codigos-missile-empire.json
-data/games/codigos-power-blast-lucky-blocks.json
-data/games/codigos-scratchy-loot.json
-data/games/codigos-tactical-swat-simulator.json
+data/games/codigos-spin-a-brainrot.json
 
