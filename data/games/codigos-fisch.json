@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-368716004d61fd4716e1f732e9797963/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fisch en Roblox",
   "metaTitle": "Códigos Fisch Roblox (Julio 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fisch en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-06T11:58:18.029Z",
+  "metaDescription": "Lista actualizada de códigos para Fisch en Roblox. 3 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-07-11T20:41:08.546Z",
   "activeCodes": [
+    {
+      "code": "OllieAndFinWhale",
+      "reward": "Recompensas",
+      "addedDate": "2026-07-11"
+    },
     {
       "code": "AquariumCustomization",
       "reward": "Recompensas",
@@ -20,16 +25,8 @@
   ],
   "expiredCodes": [
     {
-      "code": "DrylandsIsFire",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "HAPPY4TH",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "OGNOLIFE",
-      "reward": "Classic No-Life Rod skin"
+      "code": "DAILYSHOP",
+      "reward": "Totems, Eggs And Bobbers"
     },
     {
       "code": "1BVisits",
@@ -40,12 +37,12 @@
       "reward": "Totems, Eggs And Bobbers"
     },
     {
-      "code": "NewYears",
-      "reward": "Fireworks And recompensas"
+      "code": "DEVSLOPSKINS",
+      "reward": "Skins"
     },
     {
-      "code": "DREADFIN",
-      "reward": "New skins and monedas"
+      "code": "NewYears",
+      "reward": "Fireworks And recompensas"
     },
     {
       "code": "ThankYouFollowers",
@@ -128,24 +125,12 @@
       "reward": "The Daybreaker Rod skin"
     },
     {
-      "code": "VenueTakeover",
-      "reward": "1,000 monedas, the Giant Driftwood Boat, 5x Golden Tentacle, and 1x Random Totem"
-    },
-    {
-      "code": "TheDeepAwaitsForYou",
-      "reward": "10,000 C$, 100 S$, and the Chromatic Noiseform skin"
-    },
-    {
       "code": "FOLK",
       "reward": "The Folk skin"
     },
     {
-      "code": "FischmasSoon",
-      "reward": "Lime Silly Time skin For Silly Fun Happy Rod"
-    },
-    {
-      "code": "ThanksgivingSoon",
-      "reward": "Eidolite skin For Eidolon Rod"
+      "code": "TradePlazaRevamp",
+      "reward": "Mini Pirate Ship And Megalodon Hunt Totem"
     },
     {
       "code": "DARKHEART",
@@ -156,16 +141,24 @@
       "reward": "10 Instant Catchers and 10 Fish Heads"
     },
     {
+      "code": "TheDeepAwaitsForYou",
+      "reward": "10,000 C$, 100 S$, and the Chromatic Noiseform skin"
+    },
+    {
+      "code": "VenueTakeover",
+      "reward": "1,000 monedas, the Giant Driftwood Boat, 5x Golden Tentacle, and 1x Random Totem"
+    },
+    {
+      "code": "FischIsTheBest",
+      "reward": "The Nateboard, the I❤️Fisch título, 500 Sunshells, the WoozyNate Companion skin, and 1 Random objeto"
+    },
+    {
       "code": "SorryforShutdown",
       "reward": "Recompensas gratis"
     },
     {
       "code": "FischAnniversary",
       "reward": "Cake objeto"
-    },
-    {
-      "code": "FischFrightPart2",
-      "reward": "Acidic Dusekkar skin"
     },
     {
       "code": "ECLIPSEBLADE",
@@ -176,16 +169,16 @@
       "reward": "500 monedas, 5x Thorn Cluster, and a Random objeto"
     },
     {
-      "code": "wowyoufigureditout",
-      "reward": "The Dragon Slayer skin"
-    },
-    {
       "code": "PERSONALAQUARIUMS",
       "reward": "New Boat"
     },
     {
       "code": "049andNickneedatan",
       "reward": "The Reef Slasher, 5 Coral Pearl, 50 Sunshells, and 1 Random objeto"
+    },
+    {
+      "code": "FischFrightPart2",
+      "reward": "Acidic Dusekkar skin"
     },
     {
       "code": "ThanksFor10Mil",
@@ -200,12 +193,8 @@
       "reward": "10,000C$ and the Lucille skin for Noctone"
     },
     {
-      "code": "RRG",
-      "reward": "Three Instant Catchers"
-    },
-    {
-      "code": "FischFright2024",
-      "reward": "2,024 Cash"
+      "code": "OGNOLIFE",
+      "reward": "Classic No-Life Rod skin"
     },
     {
       "code": "4THOFJULY",
@@ -216,12 +205,8 @@
       "reward": "100 Shady Scrip and the Shady Reaper skin for the Soulreaper Rod"
     },
     {
-      "code": "DAILYSHOP",
-      "reward": "Totems, Eggs And Bobbers"
-    },
-    {
-      "code": "SORRYGUYS",
-      "reward": "1,000 créditos, Kraken Tentacle Bait"
+      "code": "FischFright2024",
+      "reward": "2,024 Cash"
     },
     {
       "code": "GOLDENTIDE",
@@ -230,10 +215,6 @@
     {
       "code": "NewBeginnings",
       "reward": "Bobber"
-    },
-    {
-      "code": "SNOWBURROW",
-      "reward": "Three Tiny Rod skins"
     },
     {
       "code": "SUPPORTERDESTINY",
@@ -254,6 +235,10 @@
     {
       "code": "FISCHFRIGHTSOON",
       "reward": "Blue Overgrowth skin"
+    },
+    {
+      "code": "RRG",
+      "reward": "Three Instant Catchers"
     },
     {
       "code": "CAVERN",
@@ -292,36 +277,36 @@
       "reward": "1,000 créditos, 2 Holly Berry, 3 Peppermint Worms"
     },
     {
-      "code": "MerryFischmas2",
-      "reward": "25 Fruitcake Flakes, 25 Cookie Crumble, And 15 Frostnova Bait"
+      "code": "ThanksgivingSoon",
+      "reward": "Eidolite skin For Eidolon Rod"
     },
     {
       "code": "Advent",
       "reward": "Recompensas gratis"
     },
     {
+      "code": "wowyoufigureditout",
+      "reward": "The Dragon Slayer skin"
+    },
+    {
+      "code": "SORRYGUYS",
+      "reward": "1,000 créditos, Kraken Tentacle Bait"
+    },
+    {
       "code": "NICKNATESTAGE105",
       "reward": "67C$, the Long Pike skin for Nates Blade, the Stone Hammer, the Nates Blade, and the Dave Rod"
+    },
+    {
+      "code": "SNOWBURROW",
+      "reward": "Three Tiny Rod skins"
     },
     {
       "code": "BLOOPWHISTLE2",
       "reward": "Bloop Whistle (requires Level 500 to claim)"
     },
     {
-      "code": "nickandsnothegoat",
-      "reward": "43,110C$, the Bassanjo skin for Duskwire, 20x Fish Head, 20x Minnow, and 20x Shark Head"
-    },
-    {
       "code": "LOSTJUNGLESOON",
       "reward": "Silver Onirifalx skin"
-    },
-    {
-      "code": "TradePlazaRevamp",
-      "reward": "Mini Pirate Ship And Megalodon Hunt Totem"
-    },
-    {
-      "code": "SORRY",
-      "reward": "Skins For The Newly Released Rods"
     },
     {
       "code": "Brinestorm",
@@ -334,6 +319,14 @@
     {
       "code": "GOODBYEFISCHMAS",
       "reward": "3,000 Cash and 1 Aurora Bait"
+    },
+    {
+      "code": "SORRY",
+      "reward": "Skins For The Newly Released Rods"
+    },
+    {
+      "code": "MerryFischmas2",
+      "reward": "25 Fruitcake Flakes, 25 Cookie Crumble, And 15 Frostnova Bait"
     },
     {
       "code": "ATLANTEANSTORM",
@@ -396,16 +389,16 @@
       "reward": "6 Rods, Level 750, and 99,999,999,999C$"
     },
     {
-      "code": "TradePlazeRevamp",
-      "reward": "Mini Pirate Ship and Randomly Given Hunt Totems"
-    },
-    {
-      "code": "FischIsTheBest",
-      "reward": "The Nateboard, the I❤️Fisch título, 500 Sunshells, the WoozyNate Companion skin, and 1 Random objeto"
-    },
-    {
       "code": "Scubaaaa",
       "reward": "10 Coral Geodes"
+    },
+    {
+      "code": "FischmasSoon",
+      "reward": "Lime Silly Time skin For Silly Fun Happy Rod"
+    },
+    {
+      "code": "TradePlazeRevamp",
+      "reward": "Mini Pirate Ship and Randomly Given Hunt Totems"
     },
     {
       "code": "100M",
@@ -424,12 +417,16 @@
       "reward": "2 Rods, skin, and More"
     },
     {
+      "code": "ThankYouFollowers2",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "BigUpdateSoon",
       "reward": "Minty Fab skin For Fabulous Rod"
     },
     {
-      "code": "ThankYouFollowers2",
-      "reward": "Recompensas gratis"
+      "code": "nickandsnothegoat",
+      "reward": "43,110C$, the Bassanjo skin for Duskwire, 20x Fish Head, 20x Minnow, and 20x Shark Head"
     },
     {
       "code": "FISCHMASDAY",
@@ -440,12 +437,20 @@
       "reward": "Scarlet skin For Nate’s Blade"
     },
     {
-      "code": "DEVSLOPSKINS",
-      "reward": "Skins"
-    },
-    {
       "code": "MerlinMystery",
       "reward": "Garnetbreaker skin For The Dreambreaker Rod"
+    },
+    {
+      "code": "DREADFIN",
+      "reward": "New skins and monedas"
+    },
+    {
+      "code": "HAPPY4TH",
+      "reward": "74C$, the MERICAAA skin, the MERICAAA título, and a random objeto"
+    },
+    {
+      "code": "DrylandsIsFire",
+      "reward": "1,000C$, the Cactus, the 🏜️ título, 5 Coral Pearls, 5 Cotton Candy Pieces, 5 Icy Fisch'n Dots, 5 Tropical Fruit Mix, and a random objeto"
     },
     {
       "code": "KingCrabstle",

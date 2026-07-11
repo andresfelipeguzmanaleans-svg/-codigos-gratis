@@ -1,29 +1,84 @@
-=== RESUMEN UPDATE 2026-07-11 09:22 ===
+=== RESUMEN UPDATE 2026-07-11 20:42 ===
 
 Archivos modificados:
-  4 archivos cambiados
+  24 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4462 juegos (4462 procesados)
-Actualizados: 2 | Sin cambios: 4315
+Total: 4463 juegos (4463 procesados)
+Actualizados: 22 | Sin cambios: 4296
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 3 | Movidos a expirados: 0
-Tiempo: 149.8s | Concurrencia: 10
+Códigos nuevos: 23 | Movidos a expirados: 0
+Tiempo: 144.7s | Concurrencia: 10
 
 Juegos actualizados:
-  Saber Simulator: 0→1 activos (+1), 103→103 exp
-    Nuevos: RETRO
-  Universal Tower Defense: 10→12 activos (+2), 135→135 exp
-    Nuevos: UTDZApologyForBugs!, WeLoveUTDZ!
+  100 Days At Sea: 0→1 activos (+1), 2→2 exp
+    Nuevos: HERO
+  Anime Squadron: 4→6 activos (+2), 30→30 exp
+    Nuevos: InfinityTrain!, SETYOURHEARTABLAZE!
+  Archer Training: 0→1 activos (+1), 11→11 exp
+    Nuevos: worldcup
+  Baddies Brawl: 0→0 activos (=), 58→59 exp
+  Basketball Legends: 0→0 activos (=), 177→180 exp
+  Banana Eats: 0→1 activos (+1), 90→90 exp
+    Nuevos: MEMES
+  Car Zone: 0→2 activos (+2), 128→128 exp
+    Nuevos: SEASON2, UPDATE63
+  Crab Tycoon: 1→2 activos (+1), 14→14 exp
+    Nuevos: SNAPSNAP
+  Demon Blade: 0→0 activos (=), 68→69 exp
+  Devil Hunter: 0→4 activos (+4), 51→51 exp
+    Nuevos: MAKIMABLOODLINE, SORRYBOYS, VULTURE, NINJABOYLC
+  Dumpling Squishy Race: 0→1 activos (+1), 10→10 exp
+    Nuevos: Update6
+  Fisch: 2→3 activos (+1), 127→127 exp
+    Nuevos: OllieAndFinWhale
+  Gakuran: 3→4 activos (+1), 0→0 exp
+    Nuevos: MAPUPDATE
+  Garden Horizons: 0→1 activos (+1), 9→9 exp
+    Nuevos: WEAREBACK
+  Highway Legends: 0→0 activos (=), 34→35 exp
+  Imposters And Roles: 0→1 activos (+1), 61→61 exp
+    Nuevos: SUMMER2026
+  Imposters Roles: 51→51 activos (=), 2→3 exp
+  Money Clicker Inc: 1→2 activos (+1), 31→31 exp
+    Nuevos: 794547fight
+  Nfl Universe Football: 37→37 activos (=), 256→257 exp
+  Spin A Soccer Card: 0→1 activos (+1), 36→36 exp
+    Nuevos: BIGUPDATECOMING
+  Strongman Simulator: 0→1 activos (+1), 21→21 exp
+    Nuevos: summertime
+  Volleyball Legends: 0→3 activos (+3), 296→296 exp
+    Nuevos: NEW_PACK, LEADERBOARD, UPDATE_78
 
 Detalle cambios:
-data/games/codigos-saber-simulator.json
-data/games/codigos-universal-tower-defense.json
+data/games/codigos-100-days-at-sea.json
+data/games/codigos-anime-squadron.json
+data/games/codigos-archer-training.json
+data/games/codigos-baddies-brawl.json
+data/games/codigos-banana-eats.json
+data/games/codigos-basketball-legends.json
+data/games/codigos-car-zone.json
+data/games/codigos-crab-tycoon.json
+data/games/codigos-demon-blade.json
+data/games/codigos-devil-hunter.json
+data/games/codigos-dumpling-squishy-race.json
+data/games/codigos-fisch.json
+data/games/codigos-gakuran.json
+data/games/codigos-garden-horizons.json
+data/games/codigos-highway-legends.json
+data/games/codigos-imposters-and-roles.json
+data/games/codigos-imposters-roles.json
+data/games/codigos-money-clicker-inc.json
+data/games/codigos-nfl-universe-football.json
+data/games/codigos-spin-a-soccer-card.json
+data/games/codigos-strongman-simulator.json
+data/games/codigos-volleyball-legends.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-dragon-ball-legendary-forces.json
 
