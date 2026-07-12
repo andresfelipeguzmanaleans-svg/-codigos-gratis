@@ -1,84 +1,78 @@
-=== RESUMEN UPDATE 2026-07-11 20:42 ===
+=== RESUMEN UPDATE 2026-07-12 09:47 ===
 
 Archivos modificados:
-  24 archivos cambiados
+  23 archivos cambiados
 
 Archivos nuevos:
-  1 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4463 juegos (4463 procesados)
-Actualizados: 22 | Sin cambios: 4296
+Actualizados: 20 | Sin cambios: 4298
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 23 | Movidos a expirados: 0
-Tiempo: 144.7s | Concurrencia: 10
+Códigos nuevos: 24 | Movidos a expirados: 1
+Tiempo: 149.2s | Concurrencia: 10
 
 Juegos actualizados:
-  100 Days At Sea: 0→1 activos (+1), 2→2 exp
-    Nuevos: HERO
-  Anime Squadron: 4→6 activos (+2), 30→30 exp
-    Nuevos: InfinityTrain!, SETYOURHEARTABLAZE!
-  Archer Training: 0→1 activos (+1), 11→11 exp
-    Nuevos: worldcup
-  Baddies Brawl: 0→0 activos (=), 58→59 exp
-  Basketball Legends: 0→0 activos (=), 177→180 exp
-  Banana Eats: 0→1 activos (+1), 90→90 exp
-    Nuevos: MEMES
-  Car Zone: 0→2 activos (+2), 128→128 exp
-    Nuevos: SEASON2, UPDATE63
-  Crab Tycoon: 1→2 activos (+1), 14→14 exp
-    Nuevos: SNAPSNAP
-  Demon Blade: 0→0 activos (=), 68→69 exp
-  Devil Hunter: 0→4 activos (+4), 51→51 exp
-    Nuevos: MAKIMABLOODLINE, SORRYBOYS, VULTURE, NINJABOYLC
-  Dumpling Squishy Race: 0→1 activos (+1), 10→10 exp
-    Nuevos: Update6
-  Fisch: 2→3 activos (+1), 127→127 exp
-    Nuevos: OllieAndFinWhale
-  Gakuran: 3→4 activos (+1), 0→0 exp
-    Nuevos: MAPUPDATE
-  Garden Horizons: 0→1 activos (+1), 9→9 exp
-    Nuevos: WEAREBACK
-  Highway Legends: 0→0 activos (=), 34→35 exp
-  Imposters And Roles: 0→1 activos (+1), 61→61 exp
-    Nuevos: SUMMER2026
-  Imposters Roles: 51→51 activos (=), 2→3 exp
-  Money Clicker Inc: 1→2 activos (+1), 31→31 exp
-    Nuevos: 794547fight
-  Nfl Universe Football: 37→37 activos (=), 256→257 exp
-  Spin A Soccer Card: 0→1 activos (+1), 36→36 exp
-    Nuevos: BIGUPDATECOMING
-  Strongman Simulator: 0→1 activos (+1), 21→21 exp
-    Nuevos: summertime
-  Volleyball Legends: 0→3 activos (+3), 296→296 exp
-    Nuevos: NEW_PACK, LEADERBOARD, UPDATE_78
+  A One Piece Game: 244→246 activos (+2), 213→213 exp
+    Nuevos: DBDAIMA!!!, PrimalSayian
+  Anime Card Battle X: 0→5 activos (+5), 38→38 exp
+    Nuevos: UPD7, DEMONSLAYER, NEWLOBBY, NEWBOSS, MODINF
+  Anime Waifu Card Collection: 0→1 activos (+1), 24→24 exp
+    Nuevos: 20M
+  Aopg: 1→3 activos (+2), 338→338 exp
+    Nuevos: DBDAIMA!!!, PrimalSayian
+  Azure Latch: 1→1 activos (=), 123→124 exp
+  Bikelife Netherlands: 1→0 activos (-1), 35→36 exp
+  Blue Lock Rivals: 0→3 activos (+3), 310→310 exp
+    Nuevos: NEWCHEMSOON, DEMON, NEL SHIDOU
+  Catch A Monster: 0→0 activos (=), 135→137 exp
+  Death Ball: 0→2 activos (+2), 99→99 exp
+    Nuevos: MAJESTIC, ROYAL
+  Drift 36: 0→1 activos (+1), 31→30 exp
+    Nuevos: SORRYFORDELAY
+  Hunty Zombies: 89→91 activos (+2), 150→150 exp
+    Nuevos: Forge!, Kitsune!
+  Jailbird: 0→0 activos (=), 60→62 exp
+  Jujutsu Zero: 0→1 activos (+1), 78→78 exp
+    Nuevos: TENSHADOWS
+  Last Letter: 0→1 activos (+1), 29→29 exp
+    Nuevos: 450KLIKES
+  Raise Animals: 0→0 activos (=), 50→52 exp
+  Restaurant Tycoon 3: 2→2 activos (=), 49→50 exp
+  Spin A Soccer Card: 1→2 activos (+1), 36→36 exp
+    Nuevos: OWL-HAPPY
+  Tv Defense: 0→1 activos (+1), 42→42 exp
+    Nuevos: CLASSIC
+  Ultimate Home Tycoon: 0→1 activos (+1), 76→76 exp
+    Nuevos: 480kLikes
+  Unknown Rng: 1→2 activos (+1), 107→107 exp
+    Nuevos: BeginnerLuckIsReal
 
 Detalle cambios:
-data/games/codigos-100-days-at-sea.json
-data/games/codigos-anime-squadron.json
-data/games/codigos-archer-training.json
-data/games/codigos-baddies-brawl.json
-data/games/codigos-banana-eats.json
-data/games/codigos-basketball-legends.json
-data/games/codigos-car-zone.json
-data/games/codigos-crab-tycoon.json
-data/games/codigos-demon-blade.json
-data/games/codigos-devil-hunter.json
-data/games/codigos-dumpling-squishy-race.json
-data/games/codigos-fisch.json
-data/games/codigos-gakuran.json
-data/games/codigos-garden-horizons.json
-data/games/codigos-highway-legends.json
-data/games/codigos-imposters-and-roles.json
-data/games/codigos-imposters-roles.json
-data/games/codigos-money-clicker-inc.json
-data/games/codigos-nfl-universe-football.json
+data/gameguide-urls.json
+data/games/codigos-a-one-piece-game.json
+data/games/codigos-anime-card-battle-x.json
+data/games/codigos-anime-waifu-card-collection.json
+data/games/codigos-aopg.json
+data/games/codigos-azure-latch.json
+data/games/codigos-bikelife-netherlands.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-catch-a-monster.json
+data/games/codigos-death-ball.json
+data/games/codigos-drift-36.json
+data/games/codigos-hunty-zombies.json
+data/games/codigos-jailbird.json
+data/games/codigos-jujutsu-zero.json
+data/games/codigos-last-letter.json
+data/games/codigos-raise-animals.json
+data/games/codigos-restaurant-tycoon-3.json
 data/games/codigos-spin-a-soccer-card.json
-data/games/codigos-strongman-simulator.json
-data/games/codigos-volleyball-legends.json
+data/games/codigos-tv-defense.json
+data/games/codigos-ultimate-home-tycoon.json
+data/games/codigos-unknown-rng.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-dragon-ball-legendary-forces.json
 
