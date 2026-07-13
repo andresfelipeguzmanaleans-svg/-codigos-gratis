@@ -1,173 +1,70 @@
-=== RESUMEN UPDATE 2026-07-12 20:40 ===
+=== RESUMEN UPDATE 2026-07-13 10:54 ===
 
 Archivos modificados:
-  57 archivos cambiados
+  22 archivos cambiados
 
 Archivos nuevos:
-  11 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4474 juegos (4474 procesados)
-Actualizados: 54 | Sin cambios: 4275
+Actualizados: 20 | Sin cambios: 4309
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 63 | Movidos a expirados: 19
-Tiempo: 164.0s | Concurrencia: 10
+Códigos nuevos: 15 | Movidos a expirados: 9
+Tiempo: 148.3s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Card Farm: 1→2 activos (+1), 3→3 exp
-    Nuevos: CARDRANKING!
-  Anime Duelists: 6→9 activos (+3), 0→0 exp
-    Nuevos: 3KPLAYERS, 500KVISITS, UPDATE1
-  Anime Evolution Re: 55→56 activos (+1), 0→0 exp
-    Nuevos: VOIDRIFT
-  Anime Eternal: 1→3 activos (+2), 801→801 exp
-    Nuevos: Update59, Update59Delay
-  Anime Final Quest: 6→10 activos (+4), 109→109 exp
-    Nuevos: CHUMIMIM, ORAORAORA!, ROBLOXSTOPBULLYING, TUSKQUEST
-  Anime Rng Defense: 0→0 activos (=), 9→12 exp
-  Anime Story 2: 99→102 activos (+3), 34→34 exp
-    Nuevos: ismessithegoat, ripbelgium!, thedictator
-  Anime Story: 0→0 activos (=), 214→216 exp
-  Anime Ultron Simulator: 0→2 activos (+2), 13→13 exp
-    Nuevos: AmbushFix, HXHUPD
-  Arcade Basketball: 0→2 activos (+2), 58→58 exp
-    Nuevos: BUZZCUT, WIZARD
-  Ascender Incremental: 0→2 activos (+2), 38→38 exp
-    Nuevos: B O I N K, SPOTTED
-  Axe Rng: 1→0 activos (-1), 17→18 exp
-  Basketball Dynasty Rng: 14→15 activos (+1), 44→44 exp
-    Nuevos: SEQUENCEBALL
-  Basketball Legends: 0→0 activos (=), 180→181 exp
-  Be Dino: 0→0 activos (=), 39→40 exp
-  Birmingham Vehicle Simulator: 1→0 activos (-1), 6→7 exp
-  Brainrot Block Tower: 3→0 activos (-3), 0→3 exp
-  Brainrot Evolution: 0→1 activos (+1), 92→92 exp
-    Nuevos: DUCKS
-  Build Your Butterfly Garden: 1→0 activos (-1), 3→4 exp
-  Car Flipper: 0→0 activos (=), 10→12 exp
-  Cardfantasy Rng: 5→1 activos (-4), 32→36 exp
-  Chainsaw Man Devils Heart: 24→26 activos (+2), 42→42 exp
-    Nuevos: !Code ContractResetMe, !Code Reloading!
-  Crab Tycoon: 2→2 activos (=), 14→15 exp
-  Create A Car: 0→0 activos (=), 8→9 exp
-  Cut Grass For Anime Characters: 0→1 activos (+1), 18→18 exp
-    Nuevos: FreeGems400
-  Dead Spells: 1→4 activos (+3), 61→61 exp
-    Nuevos: QOL, 32MVISITS, HappyBirthdayLynn
-  Demon Born: 7→13 activos (+6), 16→16 exp
-    Nuevos: MUZANTRAIN1, MUZANTRAIN2, MUZANTRAIN3, MUZANTRAIN4, MUZANTRAIN5, RESETSTATSUPDATE
-  Dumpling Squishy Race: 1→0 activos (-1), 10→11 exp
-  Dungeon Heroes: 0→1 activos (+1), 77→77 exp
-    Nuevos: MASTERIES
-  Evil Plate Game: 3→3 activos (=), 57→58 exp
-  Fish It: 0→1 activos (+1), 57→57 exp
-    Nuevos: CONTRA
-  Gakuran: 4→5 activos (+1), 0→0 exp
-    Nuevos: SECRET
-  Hide From The Villain: 0→2 activos (+2), 19→19 exp
-    Nuevos: BYESUKUNA, SEALORD
-  Hots Rng: 0→1 activos (+1), 132→132 exp
-    Nuevos: wow
-  Launch A Penguin: 4→5 activos (+1), 0→0 exp
-    Nuevos: QOLFIXES
-  Launch A Wheel: 0→11 activos (+11), 90→90 exp
-    Nuevos: blackegg, cashfruit, clockbox, eggpile, drinkcup, fruitcup, kingcup, timebox, luckleaf, redapple, spacebox
-  Noob Tower Defense: 1→1 activos (=), 42→43 exp
-  Overkill: 0→0 activos (=), 6→9 exp
-  Pet Capture Adventure: 11→12 activos (+1), 25→25 exp
-    Nuevos: BYSG11
-  Push A Lucky Block: 2→1 activos (-1), 5→8 exp
-  Racket Rivals: 0→1 activos (+1), 74→74 exp
-    Nuevos: MODE
-  Reign Piece: 0→2 activos (+2), 67→68 exp
-    Nuevos: IAMTHESTORM, JUDGEMENTCUT
-  Rogue Piece: 0→2 activos (+2), 165→165 exp
-    Nuevos: BrightFutureAhead!, Rebirth!
-  Saber Simulator: 1→0 activos (-1), 103→104 exp
-  Scale Slimy Fish: 0→0 activos (=), 4→5 exp
-  Sorcerer Ascent: 6→1 activos (-5), 35→40 exp
-  Spin A Car: 0→0 activos (=), 1→3 exp
-  Split Or Steal Brainrot: 2→3 activos (+1), 0→0 exp
-    Nuevos: BrainrotInfinite
-  Toy Defense: 0→1 activos (+1), 35→35 exp
-    Nuevos: 125KYES
-  Ultimate Tower Defense: 2→3 activos (+1), 227→227 exp
-    Nuevos: Lvintage
-  Universal Tower Defense: 12→12 activos (=), 135→137 exp
-    Nuevos: WeLoveYoruichi!, WeLoveYoruichi2!
-  Unknown Rng: 2→1 activos (-1), 107→108 exp
-  Yeet A Brainrot: 0→0 activos (=), 17→18 exp
-  Zombie Island: 0→0 activos (=), 2→5 exp
+  Animatronic Nights: 0→1 activos (+1), 63→63 exp
+    Nuevos: SORRYMOON
+  Anime Eternal: 3→4 activos (+1), 801→801 exp
+    Nuevos: Update59Fix
+  Arcade Basketball: 2→0 activos (-2), 58→60 exp
+  Asura: 3→3 activos (=), 386→389 exp
+  Asylum Life: 0→0 activos (=), 64→65 exp
+  Banana Eats: 1→0 activos (-1), 90→91 exp
+  Blue Lock Skibidi: 0→3 activos (+3), 45→45 exp
+    Nuevos: BANKAI, DEMON, SHIDOU
+  Car Zone: 2→0 activos (-2), 128→130 exp
+  Drift 36: 1→1 activos (=), 30→31 exp
+  Drive World: 0→0 activos (=), 71→72 exp
+  Dungeon Heroes: 1→0 activos (-1), 77→78 exp
+  Flashpoint Worlds Collide: 1→6 activos (+5), 109→109 exp
+    Nuevos: enjoythephotomodeupdate!, 80kyay, almostat69kinterestedheh, 67kinterestedhahahahhahaha, yooowegot50kinterestedyippe
+  Garden Tower Defense: 0→0 activos (=), 119→121 exp
+  Haze Piece: 13→16 activos (+3), 38→38 exp
+    Nuevos: DRAGONUPD, STATREFUND, THANKS4PLAYING
+  Imposters And Roles: 1→0 activos (-1), 61→62 exp
+  Money Clicker Inc: 2→1 activos (-1), 31→32 exp
+  New Seas: 15→16 activos (+1), 125→125 exp
+    Nuevos: NEWSEASBACK!
+  Racket Rivals: 1→0 activos (-1), 74→75 exp
+  Sols Rng: 0→0 activos (=), 30→31 exp
+  Unknown Rng: 1→2 activos (+1), 108→108 exp
+    Nuevos: TheForest
 
 Detalle cambios:
-data/gameguide-urls.json
-data/games/codigos-anime-card-farm.json
-data/games/codigos-anime-duelists.json
+data/games/codigos-animatronic-nights.json
 data/games/codigos-anime-eternal.json
-data/games/codigos-anime-evolution-re.json
-data/games/codigos-anime-final-quest.json
-data/games/codigos-anime-rng-defense.json
-data/games/codigos-anime-story-2.json
-data/games/codigos-anime-story.json
-data/games/codigos-anime-ultron-simulator.json
 data/games/codigos-arcade-basketball.json
-data/games/codigos-ascender-incremental.json
-data/games/codigos-axe-rng.json
-data/games/codigos-basketball-dynasty-rng.json
-data/games/codigos-basketball-legends.json
-data/games/codigos-be-dino.json
-data/games/codigos-birmingham-vehicle-simulator.json
-data/games/codigos-brainrot-block-tower.json
-data/games/codigos-brainrot-evolution.json
-data/games/codigos-build-your-butterfly-garden.json
-data/games/codigos-car-flipper.json
-data/games/codigos-cardfantasy-rng.json
-data/games/codigos-chainsaw-man-devils-heart.json
-data/games/codigos-crab-tycoon.json
-data/games/codigos-create-a-car.json
-data/games/codigos-cut-grass-for-anime-characters.json
-data/games/codigos-dead-spells.json
-data/games/codigos-demon-born.json
-data/games/codigos-dumpling-squishy-race.json
+data/games/codigos-asura.json
+data/games/codigos-asylum-life.json
+data/games/codigos-banana-eats.json
+data/games/codigos-blue-lock-skibidi.json
+data/games/codigos-car-zone.json
+data/games/codigos-drift-36.json
+data/games/codigos-drive-world.json
 data/games/codigos-dungeon-heroes.json
-data/games/codigos-evil-plate-game.json
-data/games/codigos-fish-it.json
-data/games/codigos-gakuran.json
-data/games/codigos-hide-from-the-villain.json
-data/games/codigos-hots-rng.json
-data/games/codigos-launch-a-penguin.json
-data/games/codigos-launch-a-wheel.json
-data/games/codigos-noob-tower-defense.json
-data/games/codigos-overkill.json
-data/games/codigos-pet-capture-adventure.json
-data/games/codigos-push-a-lucky-block.json
+data/games/codigos-flashpoint-worlds-collide.json
+data/games/codigos-garden-tower-defense.json
+data/games/codigos-haze-piece.json
+data/games/codigos-imposters-and-roles.json
+data/games/codigos-money-clicker-inc.json
+data/games/codigos-new-seas.json
 data/games/codigos-racket-rivals.json
-data/games/codigos-reign-piece.json
-data/games/codigos-rogue-piece.json
-data/games/codigos-saber-simulator.json
-data/games/codigos-scale-slimy-fish.json
-data/games/codigos-sorcerer-ascent.json
-data/games/codigos-spin-a-car.json
-data/games/codigos-split-or-steal-brainrot.json
-data/games/codigos-toy-defense.json
-data/games/codigos-ultimate-tower-defense.json
-data/games/codigos-universal-tower-defense.json
+data/games/codigos-sols-rng.json
 data/games/codigos-unknown-rng.json
-data/games/codigos-yeet-a-brainrot.json
-data/games/codigos-zombie-island.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-1-magic-evolution.json
-data/games/codigos-build-a-soccer-squad.json
-data/games/codigos-clean-the-squishies.json
-data/games/codigos-grand-alfheim.json
-data/games/codigos-hatch-your-pet.json
-data/games/codigos-manage-a-soccer-squad.json
-data/games/codigos-my-boba-store.json
-data/games/codigos-my-squishy-box-store.json
-data/games/codigos-naramo-nuclear-plant.json
-data/games/codigos-speedsters-infinite.json
-data/games/codigos-star-catchers-rng.json
 
