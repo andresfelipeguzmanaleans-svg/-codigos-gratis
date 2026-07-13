@@ -4,9 +4,24 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-3aaa6d6909dfcd847bdafb503bf01a64/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Immortality Incremental en Roblox",
   "metaTitle": "Códigos Immortality Incremental Roblox (Julio 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Immortality Incremental en Roblox. 6 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-05T20:50:55.583Z",
+  "metaDescription": "Lista actualizada de códigos para Immortality Incremental en Roblox. 9 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-07-13T20:53:02.371Z",
   "activeCodes": [
+    {
+      "code": "DUNGEON",
+      "reward": "10 tickets, 5 pociones",
+      "addedDate": "2026-07-13"
+    },
+    {
+      "code": "GEAR",
+      "reward": "20 Jade",
+      "addedDate": "2026-07-13"
+    },
+    {
+      "code": "IDONTKNOW",
+      "reward": "10 Jade",
+      "addedDate": "2026-07-13"
+    },
     {
       "code": "HOTFIXING",
       "reward": "10 tickets, 3 pociones"
@@ -34,16 +49,8 @@
   ],
   "expiredCodes": [
     {
-      "code": "SNAIL",
-      "reward": "10 Jade"
-    },
-    {
-      "code": "UPDATE2",
-      "reward": "2 pociones"
-    },
-    {
-      "code": "SORRYFORMISTAKE",
-      "reward": "Recompensa gratis"
+      "code": "DurpJade",
+      "reward": "5 Jade"
     },
     {
       "code": "HYPE",
@@ -55,19 +62,27 @@
     },
     {
       "code": "HOLIDAY",
-      "reward": "5 tickets and 25 Jade"
+      "reward": "25 Jade, 5 tickets"
     },
     {
-      "code": "JELLY",
-      "reward": "10 of each poción"
+      "code": "SNAIL",
+      "reward": "10 Jade"
     },
     {
       "code": "MINI2",
       "reward": "10 Jade, 5 pociones"
     },
     {
+      "code": "JELLY",
+      "reward": "10 pociones"
+    },
+    {
       "code": "10KSERVER",
       "reward": "5 tickets, 10 pociones"
+    },
+    {
+      "code": "PART2",
+      "reward": "10 tickets, 5 pociones"
     },
     {
       "code": "NERF",
@@ -82,12 +97,12 @@
       "reward": "15 pociones"
     },
     {
-      "code": "MEMBERS",
-      "reward": "10 tickets"
-    },
-    {
       "code": "FLORA",
       "reward": "20 Jade"
+    },
+    {
+      "code": "MEMBERS",
+      "reward": "10 tickets"
     },
     {
       "code": "LEVIATHAN",
@@ -96,6 +111,10 @@
     {
       "code": "ZEUS",
       "reward": "10 Jade"
+    },
+    {
+      "code": "VITALITY",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "MINI",
@@ -118,10 +137,6 @@
       "reward": "3 pociones"
     },
     {
-      "code": "DurpJade",
-      "reward": "5 Jade"
-    },
-    {
       "code": "COOLBEANS",
       "reward": "5 pociones"
     },
@@ -131,10 +146,6 @@
     },
     {
       "code": "WORLD5",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "VITALITY",
       "reward": "Recompensas gratis"
     },
     {
@@ -170,8 +181,12 @@
       "reward": "Pociones"
     },
     {
-      "code": "PART2",
-      "reward": "10 tickets, 5 pociones"
+      "code": "UPDATE2",
+      "reward": "2 pociones"
+    },
+    {
+      "code": "SORRYFORMISTAKE",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "SILLY",
