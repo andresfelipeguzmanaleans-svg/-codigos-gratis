@@ -4,9 +4,64 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-8761dbb11b41ce37bb86a73f4834ea08/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Launch A Wheel en Roblox",
   "metaTitle": "Códigos Launch A Wheel Roblox (Julio 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Launch A Wheel en Roblox. 10 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-13T20:53:08.116Z",
+  "metaDescription": "Lista actualizada de códigos para Launch A Wheel en Roblox. 21 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-07-16T10:01:28.980Z",
   "activeCodes": [
+    {
+      "code": "timecrate",
+      "reward": "10 Timeless Eggs",
+      "addedDate": "2026-07-16"
+    },
+    {
+      "code": "starbox",
+      "reward": "2 Void Eggs, 5 Timeless Eggs",
+      "addedDate": "2026-07-16"
+    },
+    {
+      "code": "oldclock",
+      "reward": "5 Timeless Eggs",
+      "addedDate": "2026-07-16"
+    },
+    {
+      "code": "partycup",
+      "reward": "5 Cocktail pociones",
+      "addedDate": "2026-07-16"
+    },
+    {
+      "code": "redpower",
+      "reward": "5 Power pociones, 10 Apple Fruits",
+      "addedDate": "2026-07-16"
+    },
+    {
+      "code": "freshmix",
+      "reward": "3 Cocktail pociones",
+      "addedDate": "2026-07-16"
+    },
+    {
+      "code": "goldbanana",
+      "reward": "5 Cash pociones, 10 Banana Fruit",
+      "addedDate": "2026-07-16"
+    },
+    {
+      "code": "goldcrown",
+      "reward": "Royal poción",
+      "addedDate": "2026-07-16"
+    },
+    {
+      "code": "greenluck",
+      "reward": "5 suerte pociones, 10 Carrot Fruit",
+      "addedDate": "2026-07-16"
+    },
+    {
+      "code": "darkbox",
+      "reward": "1 Void Egg",
+      "addedDate": "2026-07-16"
+    },
+    {
+      "code": "blackbox",
+      "reward": "2 Void Eggs",
+      "addedDate": "2026-07-16"
+    },
     {
       "code": "blackegg",
       "reward": "Void Egg",
@@ -60,60 +115,24 @@
   ],
   "expiredCodes": [
     {
-      "code": "redapple",
-      "reward": "5 Power pociones, 10 Apple Fruits"
-    },
-    {
-      "code": "500k",
-      "reward": "Cocktail poción"
-    },
-    {
-      "code": "apple",
-      "reward": "5 Apples"
-    },
-    {
-      "code": "blendcup",
-      "reward": "3 Cocktail pociones"
-    },
-    {
-      "code": "toastpack",
-      "reward": "5 Cocktail pociones"
-    },
-    {
-      "code": "nebulaegg",
-      "reward": "1 Void Egg"
-    },
-    {
-      "code": "epochbox",
-      "reward": "10 Timeless Eggs"
-    },
-    {
-      "code": "hourglass",
-      "reward": "5 Timeless Eggs"
+      "code": "cosmicage",
+      "reward": "2 Void Eggs and 5 Timeless Eggs"
     },
     {
       "code": "money",
       "reward": "25,000 Cash"
     },
     {
-      "code": "regalflask",
-      "reward": "1 Royal poción"
-    },
-    {
-      "code": "coinbunch",
-      "reward": "5 Cash pociones and 10 Banana Fruit"
+      "code": "epochbox",
+      "reward": "10 Timeless Eggs"
     },
     {
       "code": "time",
       "reward": "3 Timeless Eggs"
     },
     {
-      "code": "cosmicage",
-      "reward": "2 Void Eggs and 5 Timeless Eggs"
-    },
-    {
-      "code": "mightapple",
-      "reward": "5 Power pociones and 10 Apple Fruit"
+      "code": "nebulaegg",
+      "reward": "1 Void Egg"
     },
     {
       "code": "void",
@@ -122,14 +141,6 @@
     {
       "code": "update1",
       "reward": "3 Cash pociones"
-    },
-    {
-      "code": "fortunecrop",
-      "reward": "5 suerte pociones and 10 Carrot Fruit"
-    },
-    {
-      "code": "nebuladrop",
-      "reward": "2 Void Eggs"
     },
     {
       "code": "release",
@@ -154,6 +165,50 @@
     {
       "code": "cash",
       "reward": "3 Cash pociones"
+    },
+    {
+      "code": "apple",
+      "reward": "5 Apples"
+    },
+    {
+      "code": "mightapple",
+      "reward": "5 Power pociones and 10 Apple Fruit"
+    },
+    {
+      "code": "nebuladrop",
+      "reward": "2 Void Eggs"
+    },
+    {
+      "code": "toastpack",
+      "reward": "5 Cocktail pociones"
+    },
+    {
+      "code": "regalflask",
+      "reward": "1 Royal poción"
+    },
+    {
+      "code": "hourglass",
+      "reward": "5 Timeless Eggs"
+    },
+    {
+      "code": "500k",
+      "reward": "Cocktail poción"
+    },
+    {
+      "code": "blendcup",
+      "reward": "3 Cocktail pociones"
+    },
+    {
+      "code": "fortunecrop",
+      "reward": "5 suerte pociones and 10 Carrot Fruit"
+    },
+    {
+      "code": "coinbunch",
+      "reward": "5 Cash pociones and 10 Banana Fruit"
+    },
+    {
+      "code": "redapple",
+      "reward": "5 Power pociones, 10 Apple Fruits"
     },
     {
       "code": "voidyy",
