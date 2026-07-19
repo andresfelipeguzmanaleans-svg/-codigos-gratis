@@ -5,7 +5,7 @@
   "description": "Todos los códigos activos para Garden Tower Defense en Roblox",
   "metaTitle": "Códigos Garden Tower Defense Roblox (Junio 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Garden Tower Defense en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-13T10:52:56.611Z",
+  "lastUpdated": "2026-07-19T20:39:57.662Z",
   "activeCodes": [],
   "expiredCodes": [
     {
@@ -15,14 +15,6 @@
     {
       "code": "TRADE",
       "reward": "500 Seeds"
-    },
-    {
-      "code": "SUNDIAL",
-      "reward": "250 Lucky Blocks"
-    },
-    {
-      "code": "BUDYGUARDS",
-      "reward": "300 Lucky Blocks"
     },
     {
       "code": "REVIVE",
@@ -73,6 +65,14 @@
       "reward": "70 gemas"
     },
     {
+      "code": "EARTHQUAKE",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "SNARE",
+      "reward": "750 Seeds"
+    },
+    {
       "code": "GTDRBX",
       "reward": "250 Seeds"
     },
@@ -113,11 +113,15 @@
       "reward": "750 Seeds"
     },
     {
-      "code": "VOLCANO",
-      "reward": "500 Seeds"
+      "code": "CARRY",
+      "reward": "750 Seeds"
     },
     {
       "code": "MORPH",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "VOLCANO",
       "reward": "500 Seeds"
     },
     {
@@ -155,10 +159,6 @@
     {
       "code": "SECRET",
       "reward": "500 Seeds"
-    },
-    {
-      "code": "RNG",
-      "reward": "250 Lucky Blocks"
     },
     {
       "code": "FIRECORE",
@@ -225,16 +225,16 @@
       "reward": "500 Seeds"
     },
     {
-      "code": "VIRIDIAN",
-      "reward": "750 Seeds"
-    },
-    {
       "code": "SLIME",
       "reward": "60 minuto doble Seeds Boost"
     },
     {
       "code": "EXTERMINATE",
       "reward": "500 Seeds"
+    },
+    {
+      "code": "RNG",
+      "reward": "250 Lucky Blocks"
     },
     {
       "code": "NEWMAP",
@@ -309,6 +309,18 @@
       "reward": "150 Candy Corns"
     },
     {
+      "code": "VIRIDIAN",
+      "reward": "750 Seeds"
+    },
+    {
+      "code": "SUNDIAL",
+      "reward": "250 Lucky Blocks"
+    },
+    {
+      "code": "BUDYGUARDS",
+      "reward": "300 Lucky Blocks"
+    },
+    {
       "code": "ADMIN",
       "reward": "750 Seeds"
     },
@@ -355,10 +367,6 @@
     {
       "code": "LEVELS",
       "reward": "200 Seeds"
-    },
-    {
-      "code": "CARRY",
-      "reward": "750 Seeds"
     },
     {
       "code": "MUSHROOM",
