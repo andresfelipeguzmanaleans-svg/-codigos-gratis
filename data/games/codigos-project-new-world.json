@@ -5,23 +5,20 @@
   "description": "Todos los códigos activos para Project New World en Roblox",
   "metaTitle": "Códigos Project New World Roblox (Julio 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Project New World en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-21T10:19:46.987Z",
-  "activeCodes": [
+  "lastUpdated": "2026-07-21T21:03:11.627Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "1HEXP",
-      "reward": "2x EXP (1 hora)",
-      "addedDate": "2026-07-21"
+      "reward": "2x EXP (1 hora)"
     },
     {
       "code": "300KMEMBERS",
-      "reward": "2x EXP (30 minutos)",
-      "addedDate": "2026-07-21"
-    }
-  ],
-  "expiredCodes": [
+      "reward": "2x EXP (30 minutos)"
+    },
     {
-      "code": "145KLIKESFORNEXT",
-      "reward": "4 Race giros, 15 gemas, 1 reinicio de stats"
+      "code": "IMGULLIBLE",
+      "reward": "2x EXP (1 hora)"
     },
     {
       "code": "HAPPYNEWYEARS",
@@ -60,12 +57,20 @@
       "reward": "3 Race giros, 20 gemas, 10K Cash"
     },
     {
+      "code": "STATREFUND",
+      "reward": "Reinicio de stats"
+    },
+    {
       "code": "Sub2XenoTy",
       "reward": "20M, 2x EXP"
     },
     {
       "code": "SHUTDOWN1",
       "reward": "Boost"
+    },
+    {
+      "code": "FREEX2EXP",
+      "reward": "2x EXP for 1 hora"
     },
     {
       "code": "50KLIKESOMG",
@@ -80,14 +85,6 @@
       "reward": "5 Race giros"
     },
     {
-      "code": "160KLIKESFORNEXT",
-      "reward": "3 Race giros, 15 gemas, 1 reinicio de stats"
-    },
-    {
-      "code": "SHUTDOWN3",
-      "reward": "2x EXP for 1 hora"
-    },
-    {
       "code": "DRAGONUPDATE23",
       "reward": "2x EXP for 1 hora"
     },
@@ -96,35 +93,7 @@
       "reward": "3 Race giros, 15 gemas, 1 reinicio de stats"
     },
     {
-      "code": "WOW190KFORNEXT",
-      "reward": "3 Race giros, 15 gemas, 1 reinicio de stats"
-    },
-    {
-      "code": "20KLIKESCOOL",
-      "reward": "Reinicio de stats"
-    },
-    {
       "code": "SHUTDOWN2",
-      "reward": "2x EXP for 1 hora"
-    },
-    {
-      "code": "SHUTDOWN4",
-      "reward": "2x EXP for 1 hora"
-    },
-    {
-      "code": "250KLETSGO",
-      "reward": "3 Race giros, 15 gemas, 1 reinicio de stats"
-    },
-    {
-      "code": "STATREFUND",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "NEXTCODEAT100K",
-      "reward": "2 giros"
-    },
-    {
-      "code": "FREEX2EXP",
       "reward": "2x EXP for 1 hora"
     },
     {
@@ -132,8 +101,36 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "IMGULLIBLE",
-      "reward": "2x EXP (1 hora)"
+      "code": "250KLETSGO",
+      "reward": "3 Race giros, 15 gemas, 1 reinicio de stats"
+    },
+    {
+      "code": "20KLIKESCOOL",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "145KLIKESFORNEXT",
+      "reward": "4 Race giros, 15 gemas, 1 reinicio de stats"
+    },
+    {
+      "code": "SHUTDOWN4",
+      "reward": "2x EXP for 1 hora"
+    },
+    {
+      "code": "160KLIKESFORNEXT",
+      "reward": "3 Race giros, 15 gemas, 1 reinicio de stats"
+    },
+    {
+      "code": "SHUTDOWN3",
+      "reward": "2x EXP for 1 hora"
+    },
+    {
+      "code": "NEXTCODEAT100K",
+      "reward": "2 giros"
+    },
+    {
+      "code": "WOW190KFORNEXT",
+      "reward": "3 Race giros, 15 gemas, 1 reinicio de stats"
     },
     {
       "code": "THANKS4PLAYING",
