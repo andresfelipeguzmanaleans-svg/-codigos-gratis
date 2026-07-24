@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-4e7b2d34c2647d4a1986ff34bdd9fe7c/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para New Seas en Roblox",
   "metaTitle": "Códigos New Seas Roblox (Julio 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para New Seas en Roblox. 32 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-23T20:57:16.534Z",
+  "metaDescription": "Lista actualizada de códigos para New Seas en Roblox. 17 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-07-24T20:57:47.151Z",
   "activeCodes": [
+    {
+      "code": "ShotgunChanges",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-07-24"
+    },
     {
       "code": "ServerRefreshes",
       "reward": "Recompensas gratis",
@@ -63,11 +68,6 @@
       "addedDate": "2026-07-17"
     },
     {
-      "code": "SnowGenerousity",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-07-16"
-    },
-    {
       "code": "KingStress",
       "reward": "Recompensas gratis",
       "addedDate": "2026-07-15"
@@ -91,16 +91,20 @@
       "code": "NEWSEASBACK!",
       "reward": "Doubloons",
       "addedDate": "2026-07-13"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "SnowGenerousity",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "april5th",
-      "reward": "Doubloons",
-      "addedDate": "2026-03-18"
+      "reward": "Doubloons"
     },
     {
       "code": "AncientGiantFinally",
-      "reward": "Doubloons",
-      "addedDate": "2026-03-09"
+      "reward": "Doubloons"
     },
     {
       "code": "GodValleyRerun",
@@ -153,111 +157,9 @@
     {
       "code": "backfromthefuture",
       "reward": "Doubloons"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "JahNotAgain!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "AlwaysBetOnSinExceedToDeliver!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "1MVisits!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FourHundooPlayers!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TheLongAwaitIsLifted!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TheLongAwaitIsLifted2!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "KamiFix",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BANDS2HUNDOS!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CleanupCrew",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BANDSSECRETMISSION!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "5KCELEBRATION!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ThanksForTrustingInSnow",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BANDSLOVE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "OneHundooo",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FiveHundoFavs",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "PlayerSkyRocket",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "7kFavs!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "10KServerMembers!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "15KGroupMembers!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UpdateHopefullySoon",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "2500KLikes",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Ketchup",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Shambles",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "DragonGone",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NoMoreSpam!",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "DemonHome",
       "reward": "Recompensas gratis"
     },
     {
@@ -274,10 +176,6 @@
     },
     {
       "code": "RevsDoomed",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "serioustouches",
       "reward": "Recompensas gratis"
     },
     {
@@ -491,6 +389,110 @@
     {
       "code": "ONSTRIKE",
       "reward": "Doubloons"
+    },
+    {
+      "code": "serioustouches",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "AlwaysBetOnSinExceedToDeliver!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "1MVisits!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FourHundooPlayers!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TheLongAwaitIsLifted!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TheLongAwaitIsLifted2!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "KamiFix",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BANDS2HUNDOS!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "CleanupCrew",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BANDSSECRETMISSION!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "5KCELEBRATION!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ThanksForTrustingInSnow",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BANDSLOVE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "OneHundooo",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FiveHundoFavs",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "PlayerSkyRocket",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "7kFavs!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "10KServerMembers!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "15KGroupMembers!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "UpdateHopefullySoon",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "2500KLikes",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Ketchup",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Shambles",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DragonGone",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "NoMoreSpam!",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "DemonHome",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "GottaBlast.!",
