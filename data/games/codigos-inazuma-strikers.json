@@ -5,45 +5,28 @@
   "description": "Todos los códigos activos para Inazuma Strikers en Roblox",
   "metaTitle": "Códigos Inazuma Strikers Roblox (Julio 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Inazuma Strikers en Roblox. 4 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-24T20:57:27.216Z",
-  "activeCodes": [
+  "lastUpdated": "2026-07-26T09:53:14.330Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "BLUD",
-      "reward": "Recompensas",
-      "addedDate": "2026-07-24"
+      "reward": "Recompensas"
     },
     {
       "code": "CATAPULT",
-      "reward": "Recompensas",
-      "addedDate": "2026-07-23"
+      "reward": "Recompensas"
     },
     {
       "code": "SHIN",
-      "reward": "Recompensas",
-      "addedDate": "2026-07-23"
+      "reward": "Recompensas"
     },
     {
       "code": "THANKS",
-      "reward": "Recompensas",
-      "addedDate": "2026-07-23"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "NEWERA",
-      "reward": "20,000 monedas, 1 raro Manual, 2 Element Rerolls, and 1 reinicio de stats"
+      "reward": "Recompensas"
     },
     {
-      "code": "ROW",
-      "reward": "150,000 monedas and 2 Element Rerolls"
-    },
-    {
-      "code": "OGREENDING",
-      "reward": "50,000 monedas and 2 raro Manuals"
-    },
-    {
-      "code": "12KLIKES",
-      "reward": "30K monedas"
+      "code": "KURAI",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "7000LIKES",
@@ -82,8 +65,16 @@
       "reward": "200,000 monedas, 2 raro Manuals, and 2 Celebration giros"
     },
     {
-      "code": "ACADEMY",
-      "reward": "100,000 monedas, 1 Celebration giro, and 2 raro Manuals"
+      "code": "JUDE",
+      "reward": "200k monedas and 1 raro Manual"
+    },
+    {
+      "code": "NEWERA",
+      "reward": "20,000 monedas, 1 raro Manual, 2 Element Rerolls, and 1 reinicio de stats"
+    },
+    {
+      "code": "TJ0C",
+      "reward": "500 tokens"
     },
     {
       "code": "DELAY",
@@ -106,34 +97,6 @@
       "reward": "120,000 monedas and 2 Element Rerolls"
     },
     {
-      "code": "500W",
-      "reward": "10K monedas, reinicio de stats"
-    },
-    {
-      "code": "JUDE",
-      "reward": "200k monedas and 1 raro Manual"
-    },
-    {
-      "code": "19KLIKES",
-      "reward": "1 Mythical Manual, 50,000 monedas, and 1 Element Reroll"
-    },
-    {
-      "code": "SORRYFORBUGS",
-      "reward": "4,000 monedas, 1 raro Manual, 2 Element Rerolls, And 1 reinicio de stats"
-    },
-    {
-      "code": "WHADO",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "OGRE",
-      "reward": "40,000 monedas, 2x EXP For 1 hora, And 2 Uncommon Manuals"
-    },
-    {
-      "code": "VERIFIED",
-      "reward": "30,000 monedas, 2x EXP For One hora, One raro Manual, And Three Element Rerolls"
-    },
-    {
       "code": "3KCODE",
       "reward": "62,000 monedas"
     },
@@ -154,12 +117,12 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "TJ0C",
-      "reward": "500 tokens"
+      "code": "VERIFIED",
+      "reward": "30,000 monedas, 2x EXP For One hora, One raro Manual, And Three Element Rerolls"
     },
     {
-      "code": "GODCANNON",
-      "reward": "2 raro Manuals, 20,000 monedas, And 2x EXP For 1 hora"
+      "code": "OGRE",
+      "reward": "40,000 monedas, 2x EXP For 1 hora, And 2 Uncommon Manuals"
     },
     {
       "code": "TestingPhase",
@@ -182,12 +145,16 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "KURAI",
-      "reward": "Recompensas gratis"
+      "code": "500W",
+      "reward": "10K monedas, reinicio de stats"
     },
     {
       "code": "2500LIKES",
       "reward": "3 Random Manuals and 3,000 monedas"
+    },
+    {
+      "code": "ACADEMY",
+      "reward": "100,000 monedas, 1 Celebration giro, and 2 raro Manuals"
     },
     {
       "code": "KESHINSOON",
@@ -214,12 +181,40 @@
       "reward": "1 Uncommon Manual and 20,000 monedas"
     },
     {
+      "code": "WHADO",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "UPDATE1",
       "reward": "20,000 monedas and 2 Uncommon Manuals"
     },
     {
       "code": "VXRIFIED",
       "reward": "40,000 monedas, 2x EXP, doble monedas, 1 raro Manual, and 5 Evolution gemas"
+    },
+    {
+      "code": "SORRYFORBUGS",
+      "reward": "4,000 monedas, 1 raro Manual, 2 Element Rerolls, And 1 reinicio de stats"
+    },
+    {
+      "code": "ROW",
+      "reward": "150,000 monedas and 2 Element Rerolls"
+    },
+    {
+      "code": "OGREENDING",
+      "reward": "50,000 monedas and 2 raro Manuals"
+    },
+    {
+      "code": "12KLIKES",
+      "reward": "30K monedas"
+    },
+    {
+      "code": "GODCANNON",
+      "reward": "2 raro Manuals, 20,000 monedas, And 2x EXP For 1 hora"
+    },
+    {
+      "code": "19KLIKES",
+      "reward": "1 Mythical Manual, 50,000 monedas, and 1 Element Reroll"
     },
     {
       "code": "BEGI2COLD",

@@ -1,85 +1,83 @@
-=== RESUMEN UPDATE 2026-07-25 20:45 ===
+=== RESUMEN UPDATE 2026-07-26 09:54 ===
 
 Archivos modificados:
-  19 archivos cambiados
+  28 archivos cambiados
 
 Archivos nuevos:
-  15 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4505 juegos (4505 procesados)
-Actualizados: 16 | Sin cambios: 4344
+Actualizados: 26 | Sin cambios: 4334
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 23 | Movidos a expirados: 14
-Tiempo: 147.5s | Concurrencia: 10
+Códigos nuevos: 20 | Movidos a expirados: 20
+Tiempo: 145.4s | Concurrencia: 10
 
 Juegos actualizados:
-  100 Days At Sea: 0→1 activos (+1), 4→4 exp
-    Nuevos: CHAOS
-  Anime Duelists: 16→17 activos (+1), 0→0 exp
-    Nuevos: 3MVISITS
-  Anime Last Stand: 1→6 activos (+5), 318→318 exp
-    Nuevos: SaveRukia, HuntersMark, BleachSS, ALSUPD2, DelaySorryals
-  Archer Training: 0→1 activos (+1), 13→13 exp
-    Nuevos: summerevent
-  Blue Lock Skibidi: 0→2 activos (+2), 49→49 exp
-    Nuevos: BLIND, YUKIMIYA
-  Car Zone: 0→2 activos (+2), 130→130 exp
-    Nuevos: HIGHWAY, UPDATE65
-  Dig: 8→0 activos (-8), 0→9 exp
-  Fisch: 3→4 activos (+1), 128→128 exp
-    Nuevos: HarpoonGunsNextWeek
-  Gakuran: 1→2 activos (+1), 13→13 exp
-    Nuevos: QUICKPATCH
-  Grand Alfheim: 1→2 activos (+1), 22→22 exp
-    Nuevos: RoundTwo!
-  Highway Legends: 0→1 activos (+1), 35→35 exp
-    Nuevos: 200klikes
-  New Seas: 17→11 activos (-6), 141→225 exp
-  Nfl Universe Football: 38→39 activos (+1), 257→257 exp
-    Nuevos: FLAGCHAMPS
-  Reign Piece: 1→3 activos (+2), 72→72 exp
-    Nuevos: HUGEBALANCINGPATCH, SHADOWSARISE
-  Scratchy Loot: 0→2 activos (+2), 9→9 exp
-    Nuevos: MUTATIONCHAMBER!, UPDATE5!
-  Tactical Swat Simulator: 0→2 activos (+2), 5→5 exp
-    Nuevos: GRENADES, CLANS
+  A One Piece Game: 248→251 activos (+3), 213→213 exp
+    Nuevos: ProjectMoonHype!, LibraryOfRuina!, LimbusCompany!
+  Air Traffic Simulator: 0→0 activos (=), 20→23 exp
+  Anime Final Quest: 8→7 activos (-1), 119→120 exp
+  Anime Paradox: 4→2 activos (-2), 63→65 exp
+  Basketball Zero: 2→2 activos (=), 243→245 exp
+    Nuevos: 15SILVER, SILVERRETURN
+  Blue Lock Rivals: 1→3 activos (+2), 316→317 exp
+    Nuevos: NEWMAP, WORLDTOURNAMENTPART3, SEMIFINALS
+  Blue Lock Skibidi: 2→0 activos (-2), 49→51 exp
+  Catch A Monster: 0→0 activos (=), 150→152 exp
+  Dummy Defense: 0→1 activos (+1), 41→41 exp
+    Nuevos: TY25kLikes
+  Evil Plate Game: 5→4 activos (-1), 58→59 exp
+  Faith Incremental: 2→0 activos (-2), 23→25 exp
+  Final Swarm: 2→1 activos (-1), 3→4 exp
+  Fistborn: 5→3 activos (-2), 195→197 exp
+  Flashpoint Worlds Collide: 1→1 activos (=), 114→116 exp
+  Garden Incremental: 1→2 activos (+1), 88→88 exp
+    Nuevos: ANOTHERLITTLEUPDATE
+  Grand Alfheim: 2→0 activos (-2), 22→24 exp
+  Hunty Zombies: 94→97 activos (+3), 150→150 exp
+    Nuevos: goodNinjaBoy!, Laboratory!, KatanaEvo
+  Inazuma Strikers: 4→0 activos (-4), 73→77 exp
+  Life Incremental: 1→0 activos (-1), 46→47 exp
+  Murder Duels: 0→0 activos (=), 10→11 exp
+  My Squishy Box Store: 0→0 activos (=), 4→5 exp
+  Ninja Time: 0→4 activos (+4), 250→250 exp
+    Nuevos: SusanooSoon!, NewSandMissions!, Reworks!, CustomChakraColors!
+  Reign Piece: 3→1 activos (-2), 72→74 exp
+  Restaurant Tycoon 3: 2→2 activos (=), 51→52 exp
+  Rocket Spleef: 0→0 activos (=), 8→9 exp
+  Volleyball Legends: 0→3 activos (+3), 302→302 exp
+    Nuevos: HIDARI_FINALLY, UPDATE_80, ENCHO_NERF
 
 Detalle cambios:
-data/gameguide-urls.json
-data/games/codigos-100-days-at-sea.json
-data/games/codigos-anime-duelists.json
-data/games/codigos-anime-last-stand.json
-data/games/codigos-archer-training.json
+data/games/codigos-a-one-piece-game.json
+data/games/codigos-air-traffic-simulator.json
+data/games/codigos-anime-final-quest.json
+data/games/codigos-anime-paradox.json
+data/games/codigos-basketball-zero.json
+data/games/codigos-blue-lock-rivals.json
 data/games/codigos-blue-lock-skibidi.json
-data/games/codigos-car-zone.json
-data/games/codigos-dig.json
-data/games/codigos-fisch.json
-data/games/codigos-gakuran.json
+data/games/codigos-catch-a-monster.json
+data/games/codigos-dummy-defense.json
+data/games/codigos-evil-plate-game.json
+data/games/codigos-faith-incremental.json
+data/games/codigos-final-swarm.json
+data/games/codigos-fistborn.json
+data/games/codigos-flashpoint-worlds-collide.json
+data/games/codigos-garden-incremental.json
 data/games/codigos-grand-alfheim.json
-data/games/codigos-highway-legends.json
-data/games/codigos-new-seas.json
-data/games/codigos-nfl-universe-football.json
+data/games/codigos-hunty-zombies.json
+data/games/codigos-inazuma-strikers.json
+data/games/codigos-life-incremental.json
+data/games/codigos-murder-duels.json
+data/games/codigos-my-squishy-box-store.json
+data/games/codigos-ninja-time.json
 data/games/codigos-reign-piece.json
-data/games/codigos-scratchy-loot.json
-data/games/codigos-tactical-swat-simulator.json
+data/games/codigos-restaurant-tycoon-3.json
+data/games/codigos-rocket-spleef.json
+data/games/codigos-volleyball-legends.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-beatball.json
-data/games/codigos-brainblast-a-lucky-block.json
-data/games/codigos-bridge-battles.json
-data/games/codigos-build-an-ore-crusher.json
-data/games/codigos-climb-waterslide-and-slide.json
-data/games/codigos-knife-duels.json
-data/games/codigos-merge-a-black-hole.json
-data/games/codigos-nightfall.json
-data/games/codigos-roblox-dog-race.json
-data/games/codigos-roblox-smiles.json
-data/games/codigos-roll-anime-to-fight.json
-data/games/codigos-soccer-card-draft.json
-data/games/codigos-tr-legacy.json
-data/games/codigos-ultimate-gym-game.json
-data/games/codigos-warden.json
 
