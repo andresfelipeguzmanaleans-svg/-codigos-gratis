@@ -1,81 +1,49 @@
-=== RESUMEN UPDATE 2026-07-26 09:54 ===
+=== RESUMEN UPDATE 2026-07-26 20:50 ===
 
 Archivos modificados:
-  28 archivos cambiados
+  13 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4505 juegos (4505 procesados)
-Actualizados: 26 | Sin cambios: 4334
+Actualizados: 10 | Sin cambios: 4350
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 20 | Movidos a expirados: 20
-Tiempo: 145.4s | Concurrencia: 10
+Códigos nuevos: 21 | Movidos a expirados: 8
+Tiempo: 152.3s | Concurrencia: 10
 
 Juegos actualizados:
-  A One Piece Game: 248→251 activos (+3), 213→213 exp
-    Nuevos: ProjectMoonHype!, LibraryOfRuina!, LimbusCompany!
-  Air Traffic Simulator: 0→0 activos (=), 20→23 exp
-  Anime Final Quest: 8→7 activos (-1), 119→120 exp
-  Anime Paradox: 4→2 activos (-2), 63→65 exp
-  Basketball Zero: 2→2 activos (=), 243→245 exp
-    Nuevos: 15SILVER, SILVERRETURN
-  Blue Lock Rivals: 1→3 activos (+2), 316→317 exp
-    Nuevos: NEWMAP, WORLDTOURNAMENTPART3, SEMIFINALS
-  Blue Lock Skibidi: 2→0 activos (-2), 49→51 exp
-  Catch A Monster: 0→0 activos (=), 150→152 exp
-  Dummy Defense: 0→1 activos (+1), 41→41 exp
-    Nuevos: TY25kLikes
-  Evil Plate Game: 5→4 activos (-1), 58→59 exp
-  Faith Incremental: 2→0 activos (-2), 23→25 exp
-  Final Swarm: 2→1 activos (-1), 3→4 exp
-  Fistborn: 5→3 activos (-2), 195→197 exp
-  Flashpoint Worlds Collide: 1→1 activos (=), 114→116 exp
-  Garden Incremental: 1→2 activos (+1), 88→88 exp
-    Nuevos: ANOTHERLITTLEUPDATE
-  Grand Alfheim: 2→0 activos (-2), 22→24 exp
-  Hunty Zombies: 94→97 activos (+3), 150→150 exp
-    Nuevos: goodNinjaBoy!, Laboratory!, KatanaEvo
-  Inazuma Strikers: 4→0 activos (-4), 73→77 exp
-  Life Incremental: 1→0 activos (-1), 46→47 exp
-  Murder Duels: 0→0 activos (=), 10→11 exp
-  My Squishy Box Store: 0→0 activos (=), 4→5 exp
-  Ninja Time: 0→4 activos (+4), 250→250 exp
-    Nuevos: SusanooSoon!, NewSandMissions!, Reworks!, CustomChakraColors!
-  Reign Piece: 3→1 activos (-2), 72→74 exp
-  Restaurant Tycoon 3: 2→2 activos (=), 51→52 exp
-  Rocket Spleef: 0→0 activos (=), 8→9 exp
-  Volleyball Legends: 0→3 activos (+3), 302→302 exp
-    Nuevos: HIDARI_FINALLY, UPDATE_80, ENCHO_NERF
+  A One Piece Game: 251→248 activos (-3), 213→216 exp
+  Anime Expeditions: 1→7 activos (+6), 13→13 exp
+    Nuevos: sorryforlongmaintenance, VillainInvasion, releasetournamentsorry, 300kCCU, 250kCCU, 200mvisits
+  Anime Fighters Simulator: 0→5 activos (+5), 303→303 exp
+    Nuevos: WISTORIA, 13FIGHTERS, MAGICACADEMY, RAIDREADY, THANKYOU96
+  Anime Waifu Card Collection: 1→2 activos (+1), 27→27 exp
+    Nuevos: 22M
+  Aopg: 1→4 activos (+3), 342→342 exp
+    Nuevos: LibraryOfRuina!, LimbusCompany!, ProjectMoonHype!
+  Doodle World: 0→2 activos (+2), 329→329 exp
+    Nuevos: 225KLikes, 225KLikes1
+  Dummy Defense: 1→0 activos (-1), 41→42 exp
+  Ninja Time: 4→0 activos (-4), 250→254 exp
+  Shindo Life: 1→4 activos (+3), 337→337 exp
+    Nuevos: FixingShindoBuggyTimes!, LetsGOOOO40k!, TickDamageBugs!
+  Wheelie District: 0→1 activos (+1), 7→7 exp
+    Nuevos: UPDATE5
 
 Detalle cambios:
+data/gameguide-urls.json
 data/games/codigos-a-one-piece-game.json
-data/games/codigos-air-traffic-simulator.json
-data/games/codigos-anime-final-quest.json
-data/games/codigos-anime-paradox.json
-data/games/codigos-basketball-zero.json
-data/games/codigos-blue-lock-rivals.json
-data/games/codigos-blue-lock-skibidi.json
-data/games/codigos-catch-a-monster.json
+data/games/codigos-anime-expeditions.json
+data/games/codigos-anime-fighters-simulator.json
+data/games/codigos-anime-waifu-card-collection.json
+data/games/codigos-aopg.json
+data/games/codigos-doodle-world.json
 data/games/codigos-dummy-defense.json
-data/games/codigos-evil-plate-game.json
-data/games/codigos-faith-incremental.json
-data/games/codigos-final-swarm.json
-data/games/codigos-fistborn.json
-data/games/codigos-flashpoint-worlds-collide.json
-data/games/codigos-garden-incremental.json
-data/games/codigos-grand-alfheim.json
-data/games/codigos-hunty-zombies.json
-data/games/codigos-inazuma-strikers.json
-data/games/codigos-life-incremental.json
-data/games/codigos-murder-duels.json
-data/games/codigos-my-squishy-box-store.json
 data/games/codigos-ninja-time.json
-data/games/codigos-reign-piece.json
-data/games/codigos-restaurant-tycoon-3.json
-data/games/codigos-rocket-spleef.json
-data/games/codigos-volleyball-legends.json
+data/games/codigos-shindo-life.json
+data/games/codigos-wheelie-district.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
