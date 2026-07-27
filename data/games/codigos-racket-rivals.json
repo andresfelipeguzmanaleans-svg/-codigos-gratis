@@ -4,25 +4,24 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-8fde1538709fd5e748f3d9e5f29114d3/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Racket Rivals en Roblox",
   "metaTitle": "Códigos Racket Rivals Roblox (Julio 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Racket Rivals en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-21T21:03:14.458Z",
-  "activeCodes": [],
+  "metaDescription": "Lista actualizada de códigos para Racket Rivals en Roblox. 2 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-07-27T21:05:48.590Z",
+  "activeCodes": [
+    {
+      "code": "SOCCERMODE",
+      "reward": "Recompensas",
+      "addedDate": "2026-07-27"
+    },
+    {
+      "code": "WEEK2",
+      "reward": "Recompensas",
+      "addedDate": "2026-07-27"
+    }
+  ],
   "expiredCodes": [
     {
-      "code": "APOLOGYFORDELAY",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "FOOTBALL",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "SOCCER",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "SCREENS",
-      "reward": "1,500 Yen"
+      "code": "FREEADMIN",
+      "reward": "Lucky giro"
     },
     {
       "code": "RUBYCLASH",
@@ -41,48 +40,20 @@
       "reward": "750 Yen"
     },
     {
-      "code": "UPDATETWO",
-      "reward": "250 Yen"
-    },
-    {
-      "code": "UPDATEONE",
-      "reward": "1 Lucky giro And 100 Yen"
-    },
-    {
-      "code": "BALANCE",
-      "reward": "1,500 Yen"
-    },
-    {
-      "code": "SELECTION",
-      "reward": "1,500 Yen"
-    },
-    {
-      "code": "SPOOKYLORD",
-      "reward": "100 Yen"
-    },
-    {
-      "code": "TIDEWALL",
-      "reward": "100 Yen"
-    },
-    {
       "code": "GRIN",
       "reward": "1,500 Yen"
+    },
+    {
+      "code": "UPDATE12",
+      "reward": "500 Yen"
     },
     {
       "code": "SEASON2BP",
       "reward": "1,500 Yen"
     },
     {
-      "code": "MERRYCHRISTMAS",
-      "reward": "700 Yen"
-    },
-    {
       "code": "TOONY",
       "reward": "1,500 Yen"
-    },
-    {
-      "code": "SECRETSHRED",
-      "reward": "150 yen"
     },
     {
       "code": "TRADING",
@@ -99,6 +70,10 @@
     {
       "code": "sorryreboot",
       "reward": "Lucky giro"
+    },
+    {
+      "code": "SECRETSHRED",
+      "reward": "150 yen"
     },
     {
       "code": "CREATECLUB",
@@ -129,6 +104,10 @@
       "reward": "250 Yen"
     },
     {
+      "code": "UPDATEONE",
+      "reward": "1 Lucky giro And 100 Yen"
+    },
+    {
       "code": "RACKETSEEKER",
       "reward": "700 Yen"
     },
@@ -137,8 +116,8 @@
       "reward": "700 Yen"
     },
     {
-      "code": "UPDATE12",
-      "reward": "500 Yen"
+      "code": "UPDATE7",
+      "reward": "250 Yen"
     },
     {
       "code": "UPDATETHREE",
@@ -185,8 +164,24 @@
       "reward": "1,000 Yen"
     },
     {
-      "code": "FREEADMIN",
-      "reward": "Lucky giro"
+      "code": "UPDATETWO",
+      "reward": "250 Yen"
+    },
+    {
+      "code": "BALANCE",
+      "reward": "1,500 Yen"
+    },
+    {
+      "code": "SELECTION",
+      "reward": "1,500 Yen"
+    },
+    {
+      "code": "SPOOKYLORD",
+      "reward": "100 Yen"
+    },
+    {
+      "code": "TIDEWALL",
+      "reward": "100 Yen"
     },
     {
       "code": "JESTER",
@@ -201,12 +196,28 @@
       "reward": "Giros and Yen"
     },
     {
-      "code": "UPDATE7",
-      "reward": "250 Yen"
+      "code": "SCREENS",
+      "reward": "1,500 Yen"
+    },
+    {
+      "code": "MERRYCHRISTMAS",
+      "reward": "700 Yen"
     },
     {
       "code": "UPDATE10",
       "reward": "500 Yen"
+    },
+    {
+      "code": "APOLOGYFORDELAY",
+      "reward": "1,000 Yen"
+    },
+    {
+      "code": "FOOTBALL",
+      "reward": "750 Yen"
+    },
+    {
+      "code": "SOCCER",
+      "reward": "750 Yen"
     },
     {
       "code": "MODE",

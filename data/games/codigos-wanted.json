@@ -5,13 +5,15 @@
   "description": "Todos los códigos activos para Wanted en Roblox",
   "metaTitle": "Códigos Wanted Roblox (Julio 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Wanted en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-06T21:25:48.381Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-07-27T21:06:28.468Z",
+  "activeCodes": [
     {
-      "code": "FIREWORK",
-      "reward": "Recompensas"
-    },
+      "code": "POLICE",
+      "reward": "Recompensas",
+      "addedDate": "2026-07-27"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "ZORVELLO",
       "reward": "Zorvella Chair"
@@ -19,6 +21,10 @@
     {
       "code": "FREECRATE",
       "reward": "1 Basic Vehicle cofre"
+    },
+    {
+      "code": "FIREWORK",
+      "reward": "2 Basic Vehicle cofres and 5 Fireworks"
     },
     {
       "code": "SAWNOFF",
