@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-fa5d81b6e11982521616a7c232fe4b14/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Squadron en Roblox",
   "metaTitle": "Códigos Anime Squadron Roblox (Julio 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Squadron en Roblox. 5 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-21T21:01:28.667Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Squadron en Roblox. 6 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-07-27T11:11:57.199Z",
   "activeCodes": [
+    {
+      "code": "100YearsMaintenance!",
+      "reward": "100 Trait Shards",
+      "addedDate": "2026-07-27"
+    },
     {
       "code": "SryLongMaintenanceAgain!",
       "reward": "50 Trait Shards, 3 Perfect Cubes",
@@ -35,32 +40,16 @@
   ],
   "expiredCodes": [
     {
-      "code": "UnhumanLeaderSkill!",
-      "reward": "50 Trait Shards"
-    },
-    {
-      "code": "Ghouls!",
-      "reward": "50 Trait Shards, 1K gemas, 2K oro"
-    },
-    {
-      "code": "MonkeyPower!",
-      "reward": "5 Eclipse Godstone, 20 LimitBreak Obsidian, 100 Zeni, 5K oro, 1 Power Pole, 100 Zenkai Ore, 200 Senzu, Goki (SSJ4)"
-    },
-    {
-      "code": "OfficialWiki!",
-      "reward": "100 Trait Shards, 5K gemas"
-    },
-    {
-      "code": "Tysm10kCCU!",
-      "reward": "3,500 gemas, 50 Trait Shards, 3 Perfect Cubes"
-    },
-    {
-      "code": "SorryForBugs!",
-      "reward": "Gemas, oro, Trait Shards, Perfect Cubes"
+      "code": "ThanksForSupport!",
+      "reward": "Trait Shards, 25 Reroll Cubes"
     },
     {
       "code": "SorryForDelay!",
       "reward": "20 Trait Shards, 10 Reroll Cubes, 1000 oro"
+    },
+    {
+      "code": "ThankYouEA!",
+      "reward": "2K gemas, 200 oro"
     },
     {
       "code": "10KMembers!",
@@ -79,16 +68,32 @@
       "reward": "2,500 gemas, 5K oro, 50 Trait Shards, 2 Perfect Cubes"
     },
     {
-      "code": "ThanksForSupport!",
-      "reward": "Trait Shards, 25 Reroll Cubes"
+      "code": "Tysm10kCCU!",
+      "reward": "3,500 gemas, 50 Trait Shards, 3 Perfect Cubes"
     },
     {
       "code": "EarlyAccess!",
       "reward": "5K oro, 100 Trait Shards, 300 gemas, 30 Reroll Cubes"
     },
     {
-      "code": "ThankYouEA!",
-      "reward": "2K gemas, 200 oro"
+      "code": "SorryForBugs!",
+      "reward": "Gemas, oro, Trait Shards, Perfect Cubes"
+    },
+    {
+      "code": "OfficialWiki!",
+      "reward": "100 Trait Shards, 5K gemas"
+    },
+    {
+      "code": "Ghouls!",
+      "reward": "50 Trait Shards, 1K gemas, 2K oro"
+    },
+    {
+      "code": "MonkeyPower!",
+      "reward": "5 Eclipse Godstone, 20 LimitBreak Obsidian, 100 Zeni, 5K oro, 1 Power Pole, 100 Zenkai Ore, 200 Senzu, Goki (SSJ4)"
+    },
+    {
+      "code": "UnhumanLeaderSkill!",
+      "reward": "50 Trait Shards"
     },
     {
       "code": "DifficultyChanges!",

@@ -1,49 +1,80 @@
-=== RESUMEN UPDATE 2026-07-26 20:50 ===
+=== RESUMEN UPDATE 2026-07-27 11:14 ===
 
 Archivos modificados:
-  13 archivos cambiados
+  22 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4505 juegos (4505 procesados)
-Actualizados: 10 | Sin cambios: 4350
+Actualizados: 20 | Sin cambios: 4340
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 21 | Movidos a expirados: 8
-Tiempo: 152.3s | Concurrencia: 10
+Códigos nuevos: 27 | Movidos a expirados: 0
+Tiempo: 149.4s | Concurrencia: 10
 
 Juegos actualizados:
-  A One Piece Game: 251→248 activos (-3), 213→216 exp
-  Anime Expeditions: 1→7 activos (+6), 13→13 exp
-    Nuevos: sorryforlongmaintenance, VillainInvasion, releasetournamentsorry, 300kCCU, 250kCCU, 200mvisits
-  Anime Fighters Simulator: 0→5 activos (+5), 303→303 exp
-    Nuevos: WISTORIA, 13FIGHTERS, MAGICACADEMY, RAIDREADY, THANKYOU96
-  Anime Waifu Card Collection: 1→2 activos (+1), 27→27 exp
-    Nuevos: 22M
-  Aopg: 1→4 activos (+3), 342→342 exp
-    Nuevos: LibraryOfRuina!, LimbusCompany!, ProjectMoonHype!
-  Doodle World: 0→2 activos (+2), 329→329 exp
-    Nuevos: 225KLikes, 225KLikes1
-  Dummy Defense: 1→0 activos (-1), 41→42 exp
-  Ninja Time: 4→0 activos (-4), 250→254 exp
-  Shindo Life: 1→4 activos (+3), 337→337 exp
-    Nuevos: FixingShindoBuggyTimes!, LetsGOOOO40k!, TickDamageBugs!
-  Wheelie District: 0→1 activos (+1), 7→7 exp
-    Nuevos: UPDATE5
+  Anime Card Collection: 0→1 activos (+1), 62→62 exp
+    Nuevos: FiftySixCode
+  Anime Eternal: 1→3 activos (+2), 807→807 exp
+    Nuevos: Update60Delay, Update60
+  Anime Squadron: 5→6 activos (+1), 37→37 exp
+    Nuevos: 100YearsMaintenance!
+  Build A Military Base: 1→2 activos (+1), 75→75 exp
+    Nuevos: TEAMWORKMAKESTHEDREAMWORK
+  Corsa Legends: 0→1 activos (+1), 47→47 exp
+    Nuevos: 100K
+  Driving Experience Japan: 0→3 activos (+3), 48→48 exp
+    Nuevos: HAPPY35KMEMBERS, HBDEPIN2026, HBDSANDO2026
+  Final Swarm: 1→2 activos (+1), 4→4 exp
+    Nuevos: nocheaters
+  Five Nights Td 2: 113→114 activos (+1), 0→0 exp
+    Nuevos: 10KCCU2
+  Haze Piece: 16→17 activos (+1), 41→41 exp
+    Nuevos: SPIDERCYBORG
+  Jujutsu Zero: 1→2 activos (+1), 81→81 exp
+    Nuevos: SUMMERBLADE
+  Kaizen: 0→2 activos (+2), 125→125 exp
+    Nuevos: KaizenQuality!, TojiAwakens!
+  New Seas: 11→16 activos (+5), 225→225 exp
+    Nuevos: WorldGovSoon, AfternoonDaze, askingtomanyquestions, LikesMilestone, EarlyBird
+  Project Baki 4: 15→15 activos (=), 199→200 exp
+  Roanoke: 10→11 activos (+1), 0→0 exp
+    Nuevos: EXCUSE
+  Roanoke Va: 0→1 activos (+1), 51→51 exp
+    Nuevos: EXCUSE
+  Saber Simulator: 0→1 activos (+1), 105→105 exp
+    Nuevos: ENCHANTER
+  Sailor Piece: 2→3 activos (+1), 225→225 exp
+    Nuevos: SORRYFORBROLYBUGANDWAIT
+  Snatch A Seed: 0→1 activos (+1), 32→32 exp
+    Nuevos: SPIDER
+  The Vampire Legacies 2: 0→1 activos (+1), 51→51 exp
+    Nuevos: 42klikes
+  Tr Legacy: 2→3 activos (+1), 5→5 exp
+    Nuevos: LETSGO20KLIKES
 
 Detalle cambios:
-data/gameguide-urls.json
-data/games/codigos-a-one-piece-game.json
-data/games/codigos-anime-expeditions.json
-data/games/codigos-anime-fighters-simulator.json
-data/games/codigos-anime-waifu-card-collection.json
-data/games/codigos-aopg.json
-data/games/codigos-doodle-world.json
-data/games/codigos-dummy-defense.json
-data/games/codigos-ninja-time.json
-data/games/codigos-shindo-life.json
-data/games/codigos-wheelie-district.json
+data/games/codigos-anime-card-collection.json
+data/games/codigos-anime-eternal.json
+data/games/codigos-anime-squadron.json
+data/games/codigos-build-a-military-base.json
+data/games/codigos-corsa-legends.json
+data/games/codigos-driving-experience-japan.json
+data/games/codigos-final-swarm.json
+data/games/codigos-five-nights-td-2.json
+data/games/codigos-haze-piece.json
+data/games/codigos-jujutsu-zero.json
+data/games/codigos-kaizen.json
+data/games/codigos-new-seas.json
+data/games/codigos-project-baki-4.json
+data/games/codigos-roanoke-va.json
+data/games/codigos-roanoke.json
+data/games/codigos-saber-simulator.json
+data/games/codigos-sailor-piece.json
+data/games/codigos-snatch-a-seed.json
+data/games/codigos-the-vampire-legacies-2.json
+data/games/codigos-tr-legacy.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
