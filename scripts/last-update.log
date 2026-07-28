@@ -1,36 +1,38 @@
-=== RESUMEN UPDATE 2026-07-28 10:30 ===
+=== RESUMEN UPDATE 2026-07-28 21:03 ===
 
 Archivos modificados:
-  7 archivos cambiados
+  6 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  5 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4506 juegos (4506 procesados)
-Actualizados: 4 | Sin cambios: 4357
+Total: 4511 juegos (4511 procesados)
+Actualizados: 3 | Sin cambios: 4363
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 10 | Movidos a expirados: 0
-Tiempo: 148.0s | Concurrencia: 10
+Códigos nuevos: 7 | Movidos a expirados: 0
+Tiempo: 151.2s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Squadron: 7→8 activos (+1), 37→37 exp
-    Nuevos: StarterShinobi!
-  Five Nights Td 2: 114→117 activos (+3), 0→0 exp
-    Nuevos: WITCHOFTHESEA, UPDATE40, ARRRRR
-  One Fruit Simulator: 113→116 activos (+3), 238→238 exp
-    Nuevos: NewDevelopmentTeam, OpCode, QualityOfLife
-  One Fruit: 2→5 activos (+3), 341→341 exp
-    Nuevos: NewDevelopmentTeam, OpCode, QualityOfLife
+  Bubble Gum Remixed: 0→5 activos (+5), 17→17 exp
+    Nuevos: summer, luckyeggs, speedy, ilikemoney, sorryforthewait
+  New Seas: 16→17 activos (+1), 225→225 exp
+    Nuevos: WorkingOvertime
+  Project Mugetsu: 0→1 activos (+1), 359→359 exp
+    Nuevos: TheD1Gambler26
 
 Detalle cambios:
 data/gameguide-urls.json
-data/games/codigos-anime-squadron.json
-data/games/codigos-five-nights-td-2.json
-data/games/codigos-one-fruit-simulator.json
-data/games/codigos-one-fruit.json
+data/games/codigos-bubble-gum-remixed.json
+data/games/codigos-new-seas.json
+data/games/codigos-project-mugetsu.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-become-an-anime-billionaire.json
+data/games/codigos-clean-the-golf-yard.json
+data/games/codigos-idle-balls.json
+data/games/codigos-slime-card-collection.json
+data/games/codigos-throw-a-coin.json
 
