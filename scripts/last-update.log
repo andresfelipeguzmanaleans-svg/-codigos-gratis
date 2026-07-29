@@ -1,38 +1,62 @@
-=== RESUMEN UPDATE 2026-07-28 21:03 ===
+=== RESUMEN UPDATE 2026-07-29 10:34 ===
 
 Archivos modificados:
-  6 archivos cambiados
+  19 archivos cambiados
 
 Archivos nuevos:
-  5 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4511 juegos (4511 procesados)
-Actualizados: 3 | Sin cambios: 4363
+Actualizados: 16 | Sin cambios: 4350
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 7 | Movidos a expirados: 0
-Tiempo: 151.2s | Concurrencia: 10
+Códigos nuevos: 11 | Movidos a expirados: 13
+Tiempo: 147.9s | Concurrencia: 10
 
 Juegos actualizados:
-  Bubble Gum Remixed: 0→5 activos (+5), 17→17 exp
-    Nuevos: summer, luckyeggs, speedy, ilikemoney, sorryforthewait
-  New Seas: 16→17 activos (+1), 225→225 exp
-    Nuevos: WorkingOvertime
-  Project Mugetsu: 0→1 activos (+1), 359→359 exp
-    Nuevos: TheD1Gambler26
+  Anime Card Collection: 1→0 activos (-1), 62→63 exp
+  Anime Card Clash: 0→0 activos (=), 206→211 exp
+  Anime Fighters Simulator: 5→7 activos (+2), 303→303 exp
+    Nuevos: BUGHUNTERS, GROUNDED
+  Anime Paradox: 2→5 activos (+3), 65→65 exp
+    Nuevos: HARDWORKING!!, QOLPATCH1, SUMMERSOON
+  Become An Anime Billionaire: 3→0 activos (-3), 0→3 exp
+  Clover Retribution: 9→8 activos (-1), 296→297 exp
+  Crashouts: 0→2 activos (+2), 10→10 exp
+    Nuevos: BUGFIXES, SUMMER1
+  Flip A Boat: 2→0 activos (-2), 0→2 exp
+  Garden Tower Defense: 0→0 activos (=), 123→125 exp
+  Lineage Piece: 5→6 activos (+1), 44→44 exp
+    Nuevos: SHUTDOWNPIECE_WOW
+  Looksmax And Mog: 0→2 activos (+2), 8→8 exp
+    Nuevos: MESSI, RONALDO
+  Mojave Valley: 2→1 activos (-1), 30→31 exp
+  Own A Fish Pond: 1→0 activos (-1), 80→81 exp
+  Rogue Piece: 1→0 activos (-1), 177→181 exp
+  Sky Fighters: 3→0 activos (-3), 71→74 exp
+  Vv Ultimatum: 0→1 activos (+1), 16→16 exp
+    Nuevos: SORRY4DELAY
 
 Detalle cambios:
 data/gameguide-urls.json
-data/games/codigos-bubble-gum-remixed.json
-data/games/codigos-new-seas.json
-data/games/codigos-project-mugetsu.json
+data/games/codigos-anime-card-clash.json
+data/games/codigos-anime-card-collection.json
+data/games/codigos-anime-fighters-simulator.json
+data/games/codigos-anime-paradox.json
+data/games/codigos-become-an-anime-billionaire.json
+data/games/codigos-clover-retribution.json
+data/games/codigos-crashouts.json
+data/games/codigos-flip-a-boat.json
+data/games/codigos-garden-tower-defense.json
+data/games/codigos-lineage-piece.json
+data/games/codigos-looksmax-and-mog.json
+data/games/codigos-mojave-valley.json
+data/games/codigos-own-a-fish-pond.json
+data/games/codigos-rogue-piece.json
+data/games/codigos-sky-fighters.json
+data/games/codigos-vv-ultimatum.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-become-an-anime-billionaire.json
-data/games/codigos-clean-the-golf-yard.json
-data/games/codigos-idle-balls.json
-data/games/codigos-slime-card-collection.json
-data/games/codigos-throw-a-coin.json
 
