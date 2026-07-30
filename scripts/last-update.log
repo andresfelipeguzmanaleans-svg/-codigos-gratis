@@ -1,32 +1,42 @@
-=== RESUMEN UPDATE 2026-07-30 10:17 ===
+=== RESUMEN UPDATE 2026-07-30 21:00 ===
 
 Archivos modificados:
-  6 archivos cambiados
+  9 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4511 juegos (4511 procesados)
-Actualizados: 4 | Sin cambios: 4362
+Actualizados: 7 | Sin cambios: 4359
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 6 | Movidos a expirados: 3
-Tiempo: 147.9s | Concurrencia: 10
+Códigos nuevos: 8 | Movidos a expirados: 0
+Tiempo: 147.6s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Dungeons: 5→8 activos (+3), 0→0 exp
-    Nuevos: THANKYOU, ALLAGES, 300KVISITS
-  Build A Soccer Squad: 1→2 activos (+1), 4→4 exp
-    Nuevos: FUTURE
-  Ghoul Re: 3→0 activos (-3), 171→176 exp
-  Ultimate Gym Game: 3→5 activos (+2), 0→1 exp
-    Nuevos: CrewWorker, Starter
+  Armless Detective: 0→2 activos (+2), 77→77 exp
+    Nuevos: snowconedelayed, snowcone
+  Clover Retribution: 8→9 activos (+1), 297→297 exp
+    Nuevos: !playerhousingnewbosses
+  Dueling Grounds: 0→1 activos (+1), 15→15 exp
+    Nuevos: InnovationAwards
+  Elevator Of Fun: 0→1 activos (+1), 18→18 exp
+    Nuevos: SUMMER2026
+  New Seas: 17→18 activos (+1), 225→225 exp
+    Nuevos: ValidEvent
+  Reborn Skills Master: 38→39 activos (+1), 29→29 exp
+    Nuevos: update87
+  Summon Heroes: 0→1 activos (+1), 20→20 exp
+    Nuevos: RIA2026
 
 Detalle cambios:
-data/games/codigos-anime-dungeons.json
-data/games/codigos-build-a-soccer-squad.json
-data/games/codigos-ghoul-re.json
-data/games/codigos-ultimate-gym-game.json
+data/games/codigos-armless-detective.json
+data/games/codigos-clover-retribution.json
+data/games/codigos-dueling-grounds.json
+data/games/codigos-elevator-of-fun.json
+data/games/codigos-new-seas.json
+data/games/codigos-reborn-skills-master.json
+data/games/codigos-summon-heroes.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
