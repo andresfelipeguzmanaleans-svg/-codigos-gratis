@@ -1,44 +1,32 @@
-=== RESUMEN UPDATE 2026-07-29 20:47 ===
+=== RESUMEN UPDATE 2026-07-30 10:17 ===
 
 Archivos modificados:
-  10 archivos cambiados
+  6 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4511 juegos (4511 procesados)
-Actualizados: 8 | Sin cambios: 4358
+Actualizados: 4 | Sin cambios: 4362
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 9 | Movidos a expirados: 0
-Tiempo: 153.4s | Concurrencia: 10
+Códigos nuevos: 6 | Movidos a expirados: 3
+Tiempo: 147.9s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Unlimited World: 21→23 activos (+2), 56→56 exp
-    Nuevos: D3Y7K1, F8M2R6
-  Anime Duelists: 17→18 activos (+1), 0→0 exp
-    Nuevos: 4MVISITS
-  Clean The Golf Yard: 7→7 activos (=), 9→10 exp
-  Ninja Time: 0→1 activos (+1), 254→254 exp
-    Nuevos: SmallPatch!
-  Project Mirror Labyrinth: 0→2 activos (+2), 51→51 exp
-    Nuevos: Mnestic, 10MVisits!
-  Tr Legacy: 3→4 activos (+1), 5→5 exp
-    Nuevos: TYFOR70KMEMBERS
-  Ultra Un Fair: 1→2 activos (+1), 176→176 exp
-    Nuevos: !MiniUpdate!
-  Ultra Unfair: 10→11 activos (+1), 102→102 exp
-    Nuevos: !MiniUpdate!
+  Anime Dungeons: 5→8 activos (+3), 0→0 exp
+    Nuevos: THANKYOU, ALLAGES, 300KVISITS
+  Build A Soccer Squad: 1→2 activos (+1), 4→4 exp
+    Nuevos: FUTURE
+  Ghoul Re: 3→0 activos (-3), 171→176 exp
+  Ultimate Gym Game: 3→5 activos (+2), 0→1 exp
+    Nuevos: CrewWorker, Starter
 
 Detalle cambios:
-data/games/codigos-1-unlimited-world.json
-data/games/codigos-anime-duelists.json
-data/games/codigos-clean-the-golf-yard.json
-data/games/codigos-ninja-time.json
-data/games/codigos-project-mirror-labyrinth.json
-data/games/codigos-tr-legacy.json
-data/games/codigos-ultra-un-fair.json
-data/games/codigos-ultra-unfair.json
+data/games/codigos-anime-dungeons.json
+data/games/codigos-build-a-soccer-squad.json
+data/games/codigos-ghoul-re.json
+data/games/codigos-ultimate-gym-game.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
