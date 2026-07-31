@@ -1,42 +1,76 @@
-=== RESUMEN UPDATE 2026-07-30 21:00 ===
+=== RESUMEN UPDATE 2026-07-31 10:33 ===
 
 Archivos modificados:
-  9 archivos cambiados
+  22 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4511 juegos (4511 procesados)
-Actualizados: 7 | Sin cambios: 4359
+Actualizados: 20 | Sin cambios: 4346
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 8 | Movidos a expirados: 0
-Tiempo: 147.6s | Concurrencia: 10
+Códigos nuevos: 17 | Movidos a expirados: 49
+Tiempo: 150.0s | Concurrencia: 10
 
 Juegos actualizados:
-  Armless Detective: 0→2 activos (+2), 77→77 exp
-    Nuevos: snowconedelayed, snowcone
-  Clover Retribution: 8→9 activos (+1), 297→297 exp
-    Nuevos: !playerhousingnewbosses
-  Dueling Grounds: 0→1 activos (+1), 15→15 exp
-    Nuevos: InnovationAwards
-  Elevator Of Fun: 0→1 activos (+1), 18→18 exp
-    Nuevos: SUMMER2026
-  New Seas: 17→18 activos (+1), 225→225 exp
-    Nuevos: ValidEvent
-  Reborn Skills Master: 38→39 activos (+1), 29→29 exp
-    Nuevos: update87
-  Summon Heroes: 0→1 activos (+1), 20→20 exp
-    Nuevos: RIA2026
+  Anime Expeditions: 7→8 activos (+1), 13→13 exp
+    Nuevos: 300mvisits
+  Arise Shadow Hunt: 3→4 activos (+1), 85→85 exp
+    Nuevos: ZJ8qXE
+  Bubble Gum Remixed: 5→7 activos (+2), 17→17 exp
+    Nuevos: gems500mil, luckychances
+  Clothing Store Simulator: 0→1 activos (+1), 10→10 exp
+    Nuevos: Unbelievable50k
+  Corsa Legends: 1→0 activos (-1), 47→48 exp
+  Elemental Magic Arena: 0→0 activos (=), 18→19 exp
+  Emote Rng: 0→1 activos (+1), 39→39 exp
+    Nuevos: wheresmywater
+  Flip A Boat: 0→1 activos (+1), 2→2 exp
+    Nuevos: hotfix
+  Gym Star Simulator: 0→1 activos (+1), 35→35 exp
+    Nuevos: SUMMERHEAT
+  Jujutsu Randomizer: 3→5 activos (+2), 61→61 exp
+    Nuevos: 10MVISITS, SEEYOUNEXTMONTH
+  Jujutsu Zero: 1→1 activos (=), 82→83 exp
+  Money Clicker Inc: 2→3 activos (+1), 33→33 exp
+    Nuevos: SunnyDay
+  Monsterverze: 1→2 activos (+1), 24→24 exp
+    Nuevos: C00K0FF
+  Ninja Time: 1→0 activos (-1), 254→255 exp
+  Prism Runway Show: 0→1 activos (+1), 25→25 exp
+    Nuevos: KIRAKIRASUMMER
+  Project Menacing Remake: 48→1 activos (-47), 14→62 exp
+    Nuevos: NEWMAINMENU
+  Snatch A Seed: 1→2 activos (+1), 32→32 exp
+    Nuevos: STARLIGHT
+  Sniper Arena: 0→0 activos (=), 11→12 exp
+  Toy Defense: 0→1 activos (+1), 36→36 exp
+    Nuevos: 135KYES
+  Tr Legacy: 4→5 activos (+1), 5→5 exp
+    Nuevos: WEHIT25KLIKES
 
 Detalle cambios:
-data/games/codigos-armless-detective.json
-data/games/codigos-clover-retribution.json
-data/games/codigos-dueling-grounds.json
-data/games/codigos-elevator-of-fun.json
-data/games/codigos-new-seas.json
-data/games/codigos-reborn-skills-master.json
-data/games/codigos-summon-heroes.json
+data/games/codigos-anime-expeditions.json
+data/games/codigos-arise-shadow-hunt.json
+data/games/codigos-bubble-gum-remixed.json
+data/games/codigos-clothing-store-simulator.json
+data/games/codigos-corsa-legends.json
+data/games/codigos-elemental-magic-arena.json
+data/games/codigos-emote-rng.json
+data/games/codigos-flip-a-boat.json
+data/games/codigos-gym-star-simulator.json
+data/games/codigos-jujutsu-randomizer.json
+data/games/codigos-jujutsu-zero.json
+data/games/codigos-money-clicker-inc.json
+data/games/codigos-monsterverze.json
+data/games/codigos-ninja-time.json
+data/games/codigos-prism-runway-show.json
+data/games/codigos-project-menacing-remake.json
+data/games/codigos-snatch-a-seed.json
+data/games/codigos-sniper-arena.json
+data/games/codigos-toy-defense.json
+data/games/codigos-tr-legacy.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
