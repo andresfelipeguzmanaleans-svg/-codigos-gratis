@@ -3,54 +3,44 @@
   "name": "Fnaf Versus",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-aabbe1db1c1f6c22c4bb6592fbfd1a96/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fnaf Versus en Roblox",
-  "metaTitle": "Códigos Fnaf Versus Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fnaf Versus en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:31:20.679Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "metaTitle": "Códigos Fnaf Versus Roblox (Agosto 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Fnaf Versus en Roblox. 5 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T09:54:13.717Z",
+  "activeCodes": [
     {
       "code": "THEPUPPET",
-      "reward": "800 Chips"
+      "reward": "800 Chips",
+      "addedDate": "2026-08-01"
     },
     {
-      "code": "HELLOWORLD",
-      "reward": "1.5K créditos"
+      "code": "READTHEGUIDES",
+      "reward": "100 Remnant",
+      "addedDate": "2026-08-01"
     },
     {
-      "code": "FNAF2V2SOON",
-      "reward": "1K Remnants"
+      "code": "NEWYEARS",
+      "reward": "150 Remnant",
+      "addedDate": "2026-08-01"
     },
+    {
+      "code": "SKINS",
+      "reward": "1000 Chips",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "THEMAZE",
+      "reward": "200 Remnant",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "NEWJUMPSCARES",
       "reward": "100 Remnant"
     },
     {
-      "code": "10KFAV",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "GAMEREVAMP",
-      "reward": "200 Remnant"
-    },
-    {
-      "code": "100KVISTS",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "FNAF1R3L3AS3",
-      "reward": "150 Remnant"
-    },
-    {
-      "code": "WEAREBACK",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "ECONOMY",
+      "code": "R0LES",
       "reward": "100 Remnant"
-    },
-    {
-      "code": "GROUP300",
-      "reward": "Recompensa"
     },
     {
       "code": "FNAFVERSUS",
@@ -59,6 +49,10 @@
     {
       "code": "DECEMBER",
       "reward": "100 Remnants"
+    },
+    {
+      "code": "GROUP300",
+      "reward": "Recompensa"
     },
     {
       "code": "LATEHALLOWEEN",
@@ -93,10 +87,6 @@
       "reward": "350 créditos"
     },
     {
-      "code": "R0LES",
-      "reward": "100 Remnant"
-    },
-    {
       "code": "DONTMOVE",
       "reward": "100 Remnant"
     },
@@ -109,20 +99,36 @@
       "reward": "200 Remnant"
     },
     {
-      "code": "READTHEGUIDES",
-      "reward": "100 Remnant"
+      "code": "10KFAV",
+      "reward": "Recompensa"
     },
     {
-      "code": "SKINS",
-      "reward": "1000 Chips"
+      "code": "GAMEREVAMP",
+      "reward": "200 Remnant"
     },
     {
-      "code": "NEWYEARS",
+      "code": "100KVISTS",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "FNAF1R3L3AS3",
       "reward": "150 Remnant"
     },
     {
-      "code": "THEMAZE",
-      "reward": "200 Remnant"
+      "code": "WEAREBACK",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "ECONOMY",
+      "reward": "100 Remnant"
+    },
+    {
+      "code": "HELLOWORLD",
+      "reward": "1.5K créditos"
+    },
+    {
+      "code": "FNAF2V2SOON",
+      "reward": "1K Remnants"
     }
   ],
   "howToRedeem": [

@@ -3,66 +3,75 @@
   "name": "Oaklands",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-ee1cf1a9e8ca9e20e7da439d10d4fdb8/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Oaklands en Roblox",
-  "metaTitle": "Códigos Oaklands Roblox (Marzo 2026) - Códigos Gratis",
+  "metaTitle": "Códigos Oaklands Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Oaklands en Roblox. 8 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-09T21:16:35.616Z",
-  "activeCodes": [],
+  "lastUpdated": "2026-08-01T09:54:49.587Z",
+  "activeCodes": [
+    {
+      "code": "BRICK",
+      "reward": "Property Sign",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "DALIB",
+      "reward": "Property Sign",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "N8TE",
+      "reward": "Property Sign",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "CODEPRIME8",
+      "reward": "Property Sign",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "LOST",
+      "reward": "Property Sign",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "BUNNYFILMS",
+      "reward": "Property Sign",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "TEAM",
+      "reward": "Property Sign",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "PLUSHSIGN",
+      "reward": "Property Sign",
+      "addedDate": "2026-08-01"
+    }
+  ],
   "expiredCodes": [
-    {
-      "code": "CHEESE",
-      "reward": "The Cheese Property Sign"
-    },
-    {
-      "code": "GRABMONEY",
-      "reward": "10,001 Cash"
-    },
     {
       "code": "CHEESY",
       "reward": "Cheese"
     },
     {
-      "code": "I_LOVE_FIREWORKS",
-      "reward": "15 Unboxed Ruby Rocket and 10 Unboxed Cascade of Chaos"
+      "code": "CHEESE",
+      "reward": "The Cheese Property Sign"
     },
     {
       "code": "COMMUNITY",
       "reward": "The Community Property Sign"
     },
     {
+      "code": "I_LOVE_FIREWORKS",
+      "reward": "15 Unboxed Ruby Rocket and 10 Unboxed Cascade of Chaos"
+    },
+    {
+      "code": "GRABMONEY",
+      "reward": "10,001 Cash"
+    },
+    {
       "code": "NewPlayers!",
       "reward": "Recompensas"
-    },
-    {
-      "code": "DALIB",
-      "reward": "Property Sign"
-    },
-    {
-      "code": "CODEPRIME8",
-      "reward": "Property Sign"
-    },
-    {
-      "code": "PLUSHSIGN",
-      "reward": "Property Sign"
-    },
-    {
-      "code": "BUNNYFILMS",
-      "reward": "Property Sign"
-    },
-    {
-      "code": "LOST",
-      "reward": "Property Sign"
-    },
-    {
-      "code": "TEAM",
-      "reward": "Property Sign"
-    },
-    {
-      "code": "BRICK",
-      "reward": "Property Sign"
-    },
-    {
-      "code": "N8TE",
-      "reward": "Property Sign"
     }
   ],
   "howToRedeem": [

@@ -3,23 +3,22 @@
   "name": "Ai Tycoon",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-ab32a8b5ff5d5d4981827da633fb7eb0/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Ai Tycoon en Roblox",
-  "metaTitle": "Códigos Ai Tycoon Roblox (Febrero 2026) - Códigos Gratis",
+  "metaTitle": "Códigos Ai Tycoon Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Ai Tycoon en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-23T21:52:44.117Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-08-01T09:53:17.543Z",
+  "activeCodes": [
     {
       "code": "HATBAF",
-      "reward": "Dinero Boost (5 minutos), Small Shards Shuffle"
+      "reward": "Dinero Boost (5 minutos), Small Shards Shuffle",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "UPDATE2",
-      "reward": "Dinero Boost (5 minutos)"
-    },
-    {
-      "code": "HELMET",
-      "reward": "Recompensa"
-    },
+      "reward": "Dinero Boost (5 minutos)",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "RELEASE",
       "reward": "100 monedas and dinero Boost (5 minutos)"
@@ -29,15 +28,19 @@
       "reward": "100 monedas and daño Boost (5 minutos)"
     },
     {
+      "code": "UPDATE1",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "HELMET",
+      "reward": "Recompensa"
+    },
+    {
       "code": "PVP",
       "reward": "Recompensa"
     },
     {
       "code": "BOOSTS",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "UPDATE1",
       "reward": "Recompensa"
     }
   ],

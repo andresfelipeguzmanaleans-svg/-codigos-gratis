@@ -3,41 +3,46 @@
   "name": "Power Fighting Simulator",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-9f33bad0aaac2c5c3523ef290221f322/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Power Fighting Simulator en Roblox",
-  "metaTitle": "Códigos Power Fighting Simulator Roblox (Marzo 2026) - Códigos Gratis",
+  "metaTitle": "Códigos Power Fighting Simulator Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Power Fighting Simulator en Roblox. 4 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:32:06.783Z",
-  "activeCodes": [],
-  "expiredCodes": [
-    {
-      "code": "ReleaseX",
-      "reward": "1,000 monedas"
-    },
+  "lastUpdated": "2026-08-01T09:54:59.746Z",
+  "activeCodes": [
     {
       "code": "Likes3k",
-      "reward": "500 gemas"
+      "reward": "500 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "ReleaseX",
+      "reward": "1,000 monedas",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "Bleach",
-      "reward": "200 gemas"
+      "reward": "200 gemas",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "OPM",
-      "reward": "500 gemas"
+      "reward": "500 gemas",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "500Likes",
+      "reward": "Moneda Boost"
     },
     {
       "code": "1KLikes",
       "reward": "Power Boost"
     },
     {
-      "code": "gamingdan",
-      "reward": "Moneda Boost"
-    },
-    {
       "code": "coldbe",
       "reward": "Suerte Boost"
     },
     {
-      "code": "500Likes",
+      "code": "gamingdan",
       "reward": "Moneda Boost"
     }
   ],

@@ -3,38 +3,43 @@
   "name": "Business Life",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-2560bf28e28588cca6825484d0369571/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Business Life en Roblox",
-  "metaTitle": "Códigos Business Life Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Business Life en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:30:51.228Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "metaTitle": "Códigos Business Life Roblox (Agosto 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Business Life en Roblox. 4 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T09:53:45.998Z",
+  "activeCodes": [
     {
       "code": "INVEST",
-      "reward": "500 oro"
+      "reward": "500 oro",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "HEIST",
+      "reward": "Cash Boost",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "25KYAY",
-      "reward": "X2 tickets"
+      "reward": "X2 tickets",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "FAST",
+      "reward": "Worker Boost",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "ASSISTANT",
+      "reward": "5,000 Cash"
     },
     {
       "code": "MECHANIC",
       "reward": "2 tickets"
     },
     {
-      "code": "ASSISTANT",
-      "reward": "5,000 Cash"
-    },
-    {
       "code": "DISCO",
       "reward": "2 tickets"
-    },
-    {
-      "code": "FAST",
-      "reward": "Worker Boost"
-    },
-    {
-      "code": "HEIST",
-      "reward": "Cash Boost"
     },
     {
       "code": "INTERN",

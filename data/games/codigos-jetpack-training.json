@@ -3,37 +3,42 @@
   "name": "Jetpack Training",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-5be4a430d3b747cd390d225cde8b5498/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Jetpack Training en Roblox",
-  "metaTitle": "Códigos Jetpack Training Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Jetpack Training en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:31:36.223Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "metaTitle": "Códigos Jetpack Training Roblox (Agosto 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Jetpack Training en Roblox. 4 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T09:54:28.599Z",
+  "activeCodes": [
     {
-      "code": "thankyou",
-      "reward": "20 Wins"
+      "code": "update1",
+      "reward": "20 Wins",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "release",
-      "reward": "2 Power pociones"
+      "reward": "2 Power pociones",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "update2",
+      "reward": "20 Wins",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "jetpack",
-      "reward": "Boost"
+      "reward": "Boost",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "onemillion",
+      "reward": "1 Power poción"
     },
     {
       "code": "crazysupport",
       "reward": "100 Power"
     },
     {
-      "code": "onemillion",
-      "reward": "1 Power poción"
-    },
-    {
-      "code": "update1",
-      "reward": "20 Wins"
-    },
-    {
-      "code": "update2",
+      "code": "thankyou",
       "reward": "20 Wins"
     }
   ],

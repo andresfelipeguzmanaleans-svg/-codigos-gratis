@@ -3,14 +3,30 @@
   "name": "Adopt Me",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-92700ae9fa80f96ce2436f4d8760a9e2/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Adopt Me en Roblox",
-  "metaTitle": "Códigos Adopt Me Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Adopt Me en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-06-11T12:04:17.616Z",
-  "activeCodes": [],
+  "metaTitle": "Códigos Adopt Me Roblox (Agosto 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Adopt Me en Roblox. 3 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T09:53:17.041Z",
+  "activeCodes": [
+    {
+      "code": "Amtruck2023",
+      "reward": "Toy Delivery Truck",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "2xGARDEN",
+      "reward": "2x Age & Bucks Multiplier (4 horas)",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "2xROSS",
+      "reward": "2x Age & Bucks Multiplier (4 horas)",
+      "addedDate": "2026-08-01"
+    }
+  ],
   "expiredCodes": [
     {
-      "code": "ADOPTME2025",
-      "reward": "Flying poción"
+      "code": "40BILLION",
+      "reward": "2x Multiplier"
     },
     {
       "code": "AMTRUCK2024",
@@ -45,22 +61,6 @@
       "reward": "70 Bucks"
     },
     {
-      "code": "M0N3YTR33S",
-      "reward": "200 Bucks"
-    },
-    {
-      "code": "BUCKS4YOU",
-      "reward": "200 Bucks"
-    },
-    {
-      "code": "1B1LL1ONV1S1TS",
-      "reward": "200 Bucks"
-    },
-    {
-      "code": "40BILLION",
-      "reward": "2x Multiplier"
-    },
-    {
       "code": "EASTERBUNNY",
       "reward": "Easter Egg Hunt Basket"
     },
@@ -73,16 +73,8 @@
       "reward": "200 Bucks"
     },
     {
-      "code": "SEAcreatures",
-      "reward": "Unknown objeto"
-    },
-    {
       "code": "subbethink",
       "reward": "100 Bucks"
-    },
-    {
-      "code": "SPRINGSTYLE",
-      "reward": "Avatar Pastel Outfit"
     },
     {
       "code": "AWTRUCK2024",
@@ -97,16 +89,28 @@
       "reward": "Winter mascota"
     },
     {
-      "code": "Amtruck2023",
-      "reward": "Toy Delivery Truck"
+      "code": "M0N3YTR33S",
+      "reward": "200 Bucks"
     },
     {
-      "code": "2xGARDEN",
-      "reward": "2x Age & Bucks Multiplier (4 horas)"
+      "code": "SEAcreatures",
+      "reward": "Unknown objeto"
     },
     {
-      "code": "2xROSS",
-      "reward": "2x Age & Bucks Multiplier (4 horas)"
+      "code": "SPRINGSTYLE",
+      "reward": "Avatar Pastel Outfit"
+    },
+    {
+      "code": "BUCKS4YOU",
+      "reward": "200 Bucks"
+    },
+    {
+      "code": "1B1LL1ONV1S1TS",
+      "reward": "200 Bucks"
+    },
+    {
+      "code": "ADOPTME2025",
+      "reward": "Flying poción"
     }
   ],
   "howToRedeem": [

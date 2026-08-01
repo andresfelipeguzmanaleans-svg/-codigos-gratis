@@ -3,127 +3,187 @@
   "name": "Baby Simulator",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-ac7f6b24c2675a715d9c37cc9b551f61/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Baby Simulator en Roblox",
-  "metaTitle": "Códigos Baby Simulator Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Baby Simulator en Roblox. 15 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:30:38.620Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "metaTitle": "Códigos Baby Simulator Roblox (Agosto 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Baby Simulator en Roblox. 35 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T09:53:31.830Z",
+  "activeCodes": [
     {
       "code": "royalbaby",
-      "reward": "200 gemas"
-    },
-    {
-      "code": "GEM50",
-      "reward": "50 gemas"
-    },
-    {
-      "code": "LAUNCH",
-      "reward": "50 monedas"
-    },
-    {
-      "code": "SPACE",
-      "reward": "100 monedas"
-    },
-    {
-      "code": "WAAWAA",
-      "reward": "50 gemas"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "50 gemas"
-    },
-    {
-      "code": "TWITTER2",
-      "reward": "100 Cash"
-    },
-    {
-      "code": "XMAS",
-      "reward": "200 Snowflakes"
-    },
-    {
-      "code": "COINSBABY",
-      "reward": "500 monedas"
-    },
-    {
-      "code": "GEMS",
-      "reward": "250 gemas"
-    },
-    {
-      "code": "YAY",
-      "reward": "2000 fuerza"
-    },
-    {
-      "code": "10MVISITS",
-      "reward": "100 gemas"
-    },
-    {
-      "code": "TWITTER1",
-      "reward": "50 monedas"
-    },
-    {
-      "code": "ZZZ",
-      "reward": "100 monedas"
-    },
-    {
-      "code": "GEMAZING",
-      "reward": "100 gemas"
-    },
-    {
-      "code": "TALKINGBABY",
-      "reward": "50 Happiness"
-    },
-    {
-      "code": "HAPPIERBABY",
-      "reward": "50 Happiness"
-    },
-    {
-      "code": "CANDYLAND",
-      "reward": "10 Peppermints"
-    },
-    {
-      "code": "MAMAY",
-      "reward": "100 monedas"
-    },
-    {
-      "code": "100KFAVS",
-      "reward": "25 gemas"
-    },
-    {
-      "code": "GEM20",
-      "reward": "20 gemas"
-    },
-    {
-      "code": "SNOWING",
-      "reward": "150 Snowflakes"
-    },
-    {
-      "code": "SNOW",
-      "reward": "50 Snowflakes"
-    },
-    {
-      "code": "MAMA",
-      "reward": "1 Size Increase"
-    },
-    {
-      "code": "UPDATE2",
-      "reward": "200 monedas"
-    },
-    {
-      "code": "MINECRAFT",
-      "reward": "1 Size Increase"
-    },
-    {
-      "code": "RICHBABY",
-      "reward": "2500 monedas"
-    },
-    {
-      "code": "IMASTUPIDCHILD",
-      "reward": "1 Size Increase"
+      "reward": "200 gemas",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "PET",
-      "reward": "Recompensa gratis"
+      "reward": "Recompensa gratis",
+      "addedDate": "2026-08-01"
     },
+    {
+      "code": "COINSBABY",
+      "reward": "500 monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "YAY",
+      "reward": "2000 fuerza",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "GEMS",
+      "reward": "250 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "TOKENS",
+      "reward": "50 Orange tokens",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "10MVISITS",
+      "reward": "100 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "BLASTOFF",
+      "reward": "25 Orange tokens",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "100KFAVS",
+      "reward": "25 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "GEM20",
+      "reward": "20 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SNOW",
+      "reward": "50 Snowflakes",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SNOWING",
+      "reward": "150 Snowflakes",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "TWITTER1",
+      "reward": "50 monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "MAMMA",
+      "reward": "100 fuerza",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "GEMAZING",
+      "reward": "100 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "ZZZ",
+      "reward": "100 monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "TALKINGBABY",
+      "reward": "50 Happiness",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "50 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "MARS",
+      "reward": "10 Orange tokens",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "WAAWAA",
+      "reward": "50 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "MARSBABY",
+      "reward": "200 fuerza",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "RICHBABY",
+      "reward": "2500 monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "TWITTER2",
+      "reward": "100 Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "LAUNCH",
+      "reward": "50 monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "GEM50",
+      "reward": "50 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "YUM",
+      "reward": "25 Peppermint",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "UPDATE2",
+      "reward": "200 monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SPACE",
+      "reward": "100 monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "DADDA",
+      "reward": "100 fuerza",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "CANDYLAND",
+      "reward": "10 Peppermints",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "HAPPIERBABY",
+      "reward": "50 Happiness",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "HAPPYBABY",
+      "reward": "50 fuerza",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SECRETCODE",
+      "reward": "50 fuerza",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "5MVISITS",
+      "reward": "200 fuerza",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "XMAS",
+      "reward": "200 Snowflakes",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "obliterated50k",
       "reward": "Recompensa gratis"
@@ -133,24 +193,20 @@
       "reward": "25 gemas"
     },
     {
-      "code": "100likes",
-      "reward": "5,000 daño"
-    },
-    {
-      "code": "1MKICKERS",
-      "reward": "1 Bloxy Cola and 5,000 daño"
-    },
-    {
       "code": "10kKickers",
       "reward": "1 Bloxy Cola and 1,300 daño"
+    },
+    {
+      "code": "100likes",
+      "reward": "5,000 daño"
     },
     {
       "code": "100kKickers",
       "reward": "1 Bloxy Cola, 5,000 daño, and 10 of Each objeto"
     },
     {
-      "code": "DADDYFATTYZILLA",
-      "reward": "1 Size Increase"
+      "code": "1MKICKERS",
+      "reward": "1 Bloxy Cola and 5,000 daño"
     },
     {
       "code": "THEMINES",
@@ -161,44 +217,24 @@
       "reward": "200 monedas"
     },
     {
-      "code": "MARSBABY",
-      "reward": "200 fuerza"
+      "code": "DADDYFATTYZILLA",
+      "reward": "1 Size Increase"
     },
     {
-      "code": "5MVISITS",
-      "reward": "200 fuerza"
+      "code": "IMASTUPIDCHILD",
+      "reward": "1 Size Increase"
     },
     {
-      "code": "MAMMA",
-      "reward": "100 fuerza"
+      "code": "MINECRAFT",
+      "reward": "1 Size Increase"
     },
     {
-      "code": "BLASTOFF",
-      "reward": "25 Orange tokens"
+      "code": "MAMA",
+      "reward": "1 Size Increase"
     },
     {
-      "code": "TOKENS",
-      "reward": "50 Orange tokens"
-    },
-    {
-      "code": "YUM",
-      "reward": "25 Peppermint"
-    },
-    {
-      "code": "HAPPYBABY",
-      "reward": "50 fuerza"
-    },
-    {
-      "code": "SECRETCODE",
-      "reward": "50 fuerza"
-    },
-    {
-      "code": "DADDA",
-      "reward": "100 fuerza"
-    },
-    {
-      "code": "MARS",
-      "reward": "10 Orange tokens"
+      "code": "MAMAY",
+      "reward": "100 monedas"
     }
   ],
   "howToRedeem": [

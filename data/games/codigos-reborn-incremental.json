@@ -3,13 +3,51 @@
   "name": "Reborn Incremental",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-b979a47b990dc8edb5969df21b315ae5/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Reborn Incremental en Roblox",
-  "metaTitle": "Códigos Reborn Incremental Roblox (Mayo 2026) - Códigos Gratis",
+  "metaTitle": "Códigos Reborn Incremental Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Reborn Incremental en Roblox. 5 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-07-03T20:57:01.702Z",
-  "activeCodes": [],
+  "lastUpdated": "2026-08-01T09:55:06.252Z",
+  "activeCodes": [
+    {
+      "code": "10KVisits",
+      "reward": "100 Shards, 50 tokens, 10 pociones",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "QOL",
+      "reward": "10 pociones, 50 tokens",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SorryForBugs2",
+      "reward": "5 pociones",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Release",
+      "reward": "10 pociones, 50 tokens",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SorryForShutdown",
+      "reward": "5 pociones",
+      "addedDate": "2026-08-01"
+    }
+  ],
   "expiredCodes": [
     {
       "code": "1MDelays",
+      "reward": "3 Event pociones"
+    },
+    {
+      "code": "Free",
+      "reward": "10 Server pociones and 10 Global pociones"
+    },
+    {
+      "code": "BigDaw",
+      "reward": "5 of all pociones"
+    },
+    {
+      "code": "1MVisits",
       "reward": "3 Event pociones"
     },
     {
@@ -17,32 +55,8 @@
       "reward": "15 Stat pociones"
     },
     {
-      "code": "Free",
-      "reward": "10 Server pociones and 10 Global pociones"
-    },
-    {
       "code": "BugIncremental",
       "reward": "10 of each poción"
-    },
-    {
-      "code": "ShutdownIncremental",
-      "reward": "30 tokens"
-    },
-    {
-      "code": "BigDaw",
-      "reward": "5 of all pociones"
-    },
-    {
-      "code": "fih",
-      "reward": "Pociones"
-    },
-    {
-      "code": "1MVisits",
-      "reward": "3 Event pociones"
-    },
-    {
-      "code": "ThankYou",
-      "reward": "5 Event pociones, 5 Stat pociones, 5 Server pociones, and 100 tokens"
     },
     {
       "code": "DelayIncremental",
@@ -53,40 +67,32 @@
       "reward": "67 tokens"
     },
     {
-      "code": "BadUpdate",
-      "reward": "5 of each poción, 1 Server poción, and 1 Global poción"
+      "code": "ShutdownIncremental",
+      "reward": "30 tokens"
+    },
+    {
+      "code": "ThankYou",
+      "reward": "5 Event pociones, 5 Stat pociones, 5 Server pociones, and 100 tokens"
     },
     {
       "code": "BubblesAndFih",
       "reward": "10 suerte pociones, 10 velocidad pociones, 10 Bulk pociones, and 10 Stat pociones"
     },
     {
-      "code": "SorryForBugs",
-      "reward": "5 of each poción"
+      "code": "BadUpdate",
+      "reward": "5 of each poción, 1 Server poción, and 1 Global poción"
     },
     {
       "code": "GotYou",
       "reward": "50 tokens"
     },
     {
-      "code": "Release",
-      "reward": "10 pociones, 50 tokens"
+      "code": "SorryForBugs",
+      "reward": "5 of each poción"
     },
     {
-      "code": "10KVisits",
-      "reward": "100 Shards, 50 tokens, 10 pociones"
-    },
-    {
-      "code": "QOL",
-      "reward": "10 pociones, 50 tokens"
-    },
-    {
-      "code": "SorryForBugs2",
-      "reward": "5 pociones"
-    },
-    {
-      "code": "SorryForShutdown",
-      "reward": "5 pociones"
+      "code": "fih",
+      "reward": "Pociones"
     }
   ],
   "howToRedeem": [

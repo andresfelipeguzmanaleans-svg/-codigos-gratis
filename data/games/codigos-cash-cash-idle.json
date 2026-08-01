@@ -3,19 +3,27 @@
   "name": "Cash Cash Idle",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-564912a60351530d0339d243dbe348ea/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Cash Cash Idle en Roblox",
-  "metaTitle": "Códigos Cash Cash Idle Roblox (Abril 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Cash Cash Idle en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-15T10:14:57.048Z",
-  "activeCodes": [],
+  "metaTitle": "Códigos Cash Cash Idle Roblox (Agosto 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Cash Cash Idle en Roblox. 3 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T09:53:48.502Z",
+  "activeCodes": [
+    {
+      "code": "CHICKEN",
+      "reward": "20 llaves",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "BUNNY",
+      "reward": "40 oro",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "WELCOME",
+      "reward": "Cofre",
+      "addedDate": "2026-08-01"
+    }
+  ],
   "expiredCodes": [
-    {
-      "code": "ECONOMY",
-      "reward": "20 oro, 1 Basic Vault, 1 Small cofre, and 1 Casual Backpack"
-    },
-    {
-      "code": "BASKET",
-      "reward": "20 oro and 10 llaves"
-    },
     {
       "code": "EASTER",
       "reward": "20 oro, 10 llaves, 55 Eggs"
@@ -25,16 +33,12 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "CHICKEN",
-      "reward": "20 llaves"
+      "code": "ECONOMY",
+      "reward": "20 oro, 1 Basic Vault, 1 Small cofre, and 1 Casual Backpack"
     },
     {
-      "code": "BUNNY",
-      "reward": "40 oro"
-    },
-    {
-      "code": "WELCOME",
-      "reward": "Cofre"
+      "code": "BASKET",
+      "reward": "20 oro and 10 llaves"
     }
   ],
   "howToRedeem": [

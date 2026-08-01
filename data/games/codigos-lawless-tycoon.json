@@ -3,50 +3,58 @@
   "name": "Lawless Tycoon",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-3d95a5a90d2ff0dbbb6d8a51cf98954e/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Lawless Tycoon en Roblox",
-  "metaTitle": "Códigos Lawless Tycoon Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Lawless Tycoon en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:31:40.027Z",
-  "activeCodes": [],
-  "expiredCodes": [
-    {
-      "code": "HELICOPTERSMini",
-      "reward": "Cofre"
-    },
+  "metaTitle": "Códigos Lawless Tycoon Roblox (Agosto 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Lawless Tycoon en Roblox. 7 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T09:54:32.958Z",
+  "activeCodes": [
     {
       "code": "HELICOPTERS",
-      "reward": "Mini"
+      "reward": "Mini",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "MEGA",
+      "reward": "Medium Boost",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "FAVORITE",
+      "reward": "150 Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "LAWLESS",
+      "reward": "250 Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "BOOSTER",
+      "reward": "Mini Boost",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "LAUNCH",
+      "reward": "125 Cash",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "MINI",
-      "reward": "Mini"
+      "reward": "Mini",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "COMMONCHEST",
+      "reward": "1 Common cofre"
     },
     {
       "code": "HELICOPTERS!",
       "reward": "1 Mini cofre"
     },
     {
-      "code": "BOOSTER",
-      "reward": "Mini Boost"
-    },
-    {
-      "code": "LAWLESS",
-      "reward": "250 Cash"
-    },
-    {
-      "code": "LAUNCH",
-      "reward": "125 Cash"
-    },
-    {
-      "code": "COMMONCHEST",
-      "reward": "1 Common cofre"
-    },
-    {
-      "code": "MEGA",
-      "reward": "Medium Boost"
-    },
-    {
-      "code": "FAVORITE",
-      "reward": "150 Cash"
+      "code": "HELICOPTERSMini",
+      "reward": "Cofre"
     }
   ],
   "howToRedeem": [

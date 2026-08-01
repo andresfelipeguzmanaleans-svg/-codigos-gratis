@@ -3,70 +3,54 @@
   "name": "Omni Battlegrounds",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-7c70aff448b1a902f02660d875adb4c6/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Omni Battlegrounds en Roblox",
-  "metaTitle": "Códigos Omni Battlegrounds Roblox (Marzo 2026) - Códigos Gratis",
+  "metaTitle": "Códigos Omni Battlegrounds Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Omni Battlegrounds en Roblox. 7 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:31:57.413Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-08-01T09:54:50.666Z",
+  "activeCodes": [
     {
       "code": "7KLIKES",
-      "reward": "7000 Cash"
-    },
-    {
-      "code": "AtomicArmorSoon2",
-      "reward": "1000 Cash"
+      "reward": "7000 Cash",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "MandomRountain",
-      "reward": "1000 Cash"
+      "reward": "1000 Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "AtomicArmorSoon2",
+      "reward": "1000 Cash",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "AtomicArmorSoon",
-      "reward": "1000 Cash"
+      "reward": "1000 Cash",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "500LIKES",
-      "reward": "2000 Cash"
-    },
-    {
-      "code": "2KLIKES",
-      "reward": "2000 Cash"
+      "reward": "2000 Cash",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "5KLIKES",
-      "reward": "5000 Cash"
+      "reward": "5000 Cash",
+      "addedDate": "2026-08-01"
     },
     {
-      "code": "GETYALLSOMETHINGNICE",
-      "reward": "Recompensa gratis"
+      "code": "2KLIKES",
+      "reward": "2000 Cash",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "chimpanzinibananini",
+      "reward": "Recompensa"
     },
     {
-      "code": "November",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "SRYFORSHUTDOWN1",
+      "code": "PATCHBEFOREUPDATE",
       "reward": "Giros"
-    },
-    {
-      "code": "N0vember",
-      "reward": "Recompensa desconocida"
-    },
-    {
-      "code": "TYFOR2MIL",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "HappyNewYears!",
-      "reward": "500 Cash"
-    },
-    {
-      "code": "BattleBeastOTW",
-      "reward": "5 giros"
-    },
-    {
-      "code": "10KMEMBERS",
-      "reward": "Recompensa"
     },
     {
       "code": "THXFOR15K",
@@ -81,12 +65,36 @@
       "reward": "100 giros"
     },
     {
-      "code": "PATCHBEFOREUPDATE",
+      "code": "TYFOR2MIL",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "10KMEMBERS",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "SRYFORSHUTDOWN1",
       "reward": "Giros"
     },
     {
-      "code": "chimpanzinibananini",
-      "reward": "Recompensa"
+      "code": "BattleBeastOTW",
+      "reward": "5 giros"
+    },
+    {
+      "code": "HappyNewYears!",
+      "reward": "500 Cash"
+    },
+    {
+      "code": "N0vember",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "November",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "GETYALLSOMETHINGNICE",
+      "reward": "Recompensa gratis"
     }
   ],
   "howToRedeem": [

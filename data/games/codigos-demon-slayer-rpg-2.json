@@ -3,47 +3,82 @@
   "name": "Demon Slayer RPG 2",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-da397c7b0960609dbfdbac2ba8d7ebb0/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Demon Slayer RPG 2 en Roblox",
-  "metaTitle": "Códigos Demon Slayer RPG 2 Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Demon Slayer RPG 2 en Roblox. 7 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-20T10:44:22.928Z",
+  "metaTitle": "Códigos Demon Slayer RPG 2 Roblox (Agosto 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Demon Slayer RPG 2 en Roblox. 10 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T09:53:58.741Z",
   "playerCount": 23,
   "totalVisits": 154666876,
   "likes": 378877,
   "genre": "RPG",
   "placeId": 4734949248,
-  "activeCodes": [],
-  "expiredCodes": [
+  "activeCodes": [
     {
-      "code": "!Augst2025DemonArtReset",
-      "reward": "Demon Art Reset"
-    },
-    {
-      "code": "!Augst2025BreathingReset",
-      "reward": "Breathing Reset"
+      "code": "!Augst2025RaceReset",
+      "reward": "Race Reset",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "!Augst2025NichirinColorReset",
-      "reward": "Nichirin Color Reset"
+      "reward": "Nichirin Color Reset",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "!Augst2025DemonArtReset",
+      "reward": "Demon Art Reset",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "!Augst2025BreathingReset",
+      "reward": "Breathing Reset",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "!Augst2025EXPBoost",
+      "reward": "XP Boost",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "!BigUpdateYoRaceReset",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "!BigUpdateYoDemonArtReset",
-      "reward": "Demon Art Reset"
+      "reward": "Race Reset",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "!BigUpdateYoNichirinColorReset",
-      "reward": "Nichirin Color Reset"
+      "reward": "Nichirin Color Reset",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "!BigUpdateYoEXPBoost",
+      "reward": "XP Boost",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "!BigUpdateYoDemonArtReset",
+      "reward": "Demon Art Reset",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "!BigUpdateYoBreathingReset",
-      "reward": "Breathing Reset"
+      "reward": "Breathing Reset",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "!300klikesEXPBoost",
+      "reward": "EXP Boost"
     },
     {
-      "code": "!dsrpg2100k race reset",
+      "code": "!200kRaceReset",
       "reward": "Race Reset"
+    },
+    {
+      "code": "!25kSubsEXPBoost",
+      "reward": "EXP Boost"
+    },
+    {
+      "code": "!50milBreathingReset",
+      "reward": "Breathing Reset"
     },
     {
       "code": "!NewYears2024SwordColorReset",
@@ -76,10 +111,6 @@
     {
       "code": "!MarchEarlyDemonArtReset",
       "reward": "1 Demon Art Reset"
-    },
-    {
-      "code": "!MarchEarlyRaceReset",
-      "reward": "1 Race Reset"
     },
     {
       "code": "!MarchEarlyNichirinColorReset",
@@ -158,76 +189,28 @@
       "reward": "A 1 hora EXP Boost"
     },
     {
-      "code": "!MarchEarlyEXPBoost",
-      "reward": "1 hora EXP Boost"
+      "code": "!42kSubEXPBoost",
+      "reward": "EXP Boost"
     },
     {
-      "code": "!SmallUpdateEXPBoost",
-      "reward": "1 hora EXP Boost"
-    },
-    {
-      "code": "!AugustRaceReset",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "!200kBreathingReset",
+      "code": "52kYTBreathingReset",
       "reward": "Breathing Reset"
     },
     {
-      "code": "!StopAskingForCodes",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "!SubToMichioX",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "!EpicRaceReset",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "52kYTRaceReset",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "!Reached90Likes",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "25kSubsRaceReset",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "!AugustDemonArtReset",
-      "reward": "Demon Art Reset"
-    },
-    {
-      "code": "!200kDemonArtReset",
-      "reward": "Demon Art Reset"
-    },
-    {
-      "code": "!50milDemonArtReset",
-      "reward": "Demon Art Reset"
-    },
-    {
-      "code": "!SpideyFreeEXPBoost",
-      "reward": "EXP Boost"
+      "code": "!MarchEarlyRaceReset",
+      "reward": "1 Race Reset"
     },
     {
       "code": "!50milRaceReset",
       "reward": "Race Reset"
     },
     {
+      "code": "!50milDemonArtReset",
+      "reward": "Demon Art Reset"
+    },
+    {
       "code": "!25kSubsRaceReset",
       "reward": "Race Reset"
-    },
-    {
-      "code": "!600kfavRaceReset",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "!75milBreathingReset",
-      "reward": "Breathing Reset"
     },
     {
       "code": "!75milDemonArtReset",
@@ -238,15 +221,15 @@
       "reward": "Race Reset"
     },
     {
-      "code": "!600kfavEXPBoost",
-      "reward": "EXP Boost"
-    },
-    {
       "code": "!75milEXPBoost",
       "reward": "EXP Boost"
     },
     {
-      "code": "!42kSubEXPBoost",
+      "code": "!SpideyFreeEXPBoost",
+      "reward": "EXP Boost"
+    },
+    {
+      "code": "!200kEXPBoost",
       "reward": "EXP Boost"
     },
     {
@@ -254,31 +237,11 @@
       "reward": "1 Race Reset"
     },
     {
-      "code": "!HairoDemonArtReset",
-      "reward": "1 Demon Art Reset"
+      "code": "!52kYTBreathingReset",
+      "reward": "Breathing Reset"
     },
     {
-      "code": "!Start2025EXPBoostt",
-      "reward": "EXP Boost For 1 hora"
-    },
-    {
-      "code": "!May2023RaceReset",
-      "reward": "1 Race Reset"
-    },
-    {
-      "code": "!HairoBreathingReset",
-      "reward": "1 Breathing Reset"
-    },
-    {
-      "code": "!HairoRaceReset",
-      "reward": "1 Race Reset"
-    },
-    {
-      "code": "!SpeedBDAEXPBoost",
-      "reward": "1 hora EXP Boost"
-    },
-    {
-      "code": "!Start2025RaceReset",
+      "code": "!32kSubsRaceReset",
       "reward": "Race Reset"
     },
     {
@@ -286,20 +249,20 @@
       "reward": "1 hora EXP Boost"
     },
     {
-      "code": "!HairoEXPBoost",
+      "code": "!SpeedBDAEXPBoost",
       "reward": "1 hora EXP Boost"
     },
     {
-      "code": "!SpeedBDARaceReset",
-      "reward": "1 Race Reset"
+      "code": "!Start2025EXPBoostt",
+      "reward": "EXP Boost For 1 hora"
     },
     {
       "code": "!32kSubsEXPBoost",
       "reward": "EXP Boost"
     },
     {
-      "code": "!DomaBDARaceReset",
-      "reward": "Race Reset"
+      "code": "!SpeedBDARaceReset",
+      "reward": "1 Race Reset"
     },
     {
       "code": "!DomaBDADemonArtReset",
@@ -314,10 +277,6 @@
       "reward": "Nichirin Color Reset"
     },
     {
-      "code": "!DomaBDAEXPBoost",
-      "reward": "EXP Boost For 1 hora"
-    },
-    {
       "code": "!Start2025DemonArtReset",
       "reward": "Demon Art Reset"
     },
@@ -328,6 +287,30 @@
     {
       "code": "!Start2025NichirinColorReset",
       "reward": "Nichirin Color Reset"
+    },
+    {
+      "code": "!DomaBDARaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "!DomaBDAEXPBoost",
+      "reward": "EXP Boost For 1 hora"
+    },
+    {
+      "code": "!May2023RaceReset",
+      "reward": "1 Race Reset"
+    },
+    {
+      "code": "!HairoRaceReset",
+      "reward": "1 Race Reset"
+    },
+    {
+      "code": "!HairoBreathingReset",
+      "reward": "1 Breathing Reset"
+    },
+    {
+      "code": "!HairoDemonArtReset",
+      "reward": "1 Demon Art Reset"
     },
     {
       "code": "!EndOf2023DemonArtReset",
@@ -398,10 +381,6 @@
       "reward": "Breathing Reset"
     },
     {
-      "code": "!StoneSoonRaceReset",
-      "reward": "Race Reset"
-    },
-    {
       "code": "!StoneSoonBreathingReset",
       "reward": "Breathing Reset"
     },
@@ -464,10 +443,6 @@
     {
       "code": "!42kSubsDemonArtReset",
       "reward": "Demon Art Reset"
-    },
-    {
-      "code": "!42kSubsEXPBoost",
-      "reward": "EXP Boost"
     },
     {
       "code": "!42kSubsNichirinColorReset",
@@ -534,20 +509,12 @@
       "reward": "Nichirin Color Reset"
     },
     {
-      "code": "!200kRaceReset",
-      "reward": "Race Reset"
-    },
-    {
       "code": "!25kSubsBreathingReset",
       "reward": "Breathing Reset"
     },
     {
       "code": "!25kSubsDemonArtReset",
       "reward": "Demon Art Reset"
-    },
-    {
-      "code": "!25kSubsEXPBoost",
-      "reward": "EXP Boost"
     },
     {
       "code": "!25kSubsNichirinColorReset",
@@ -594,8 +561,8 @@
       "reward": "Nichirin Color Reset"
     },
     {
-      "code": "!50milBreathingReset",
-      "reward": "Breathing Reset"
+      "code": "!dsrpg2100k race reset",
+      "reward": "Race Reset"
     },
     {
       "code": "!NateBirthdayArtBreathingReset",
@@ -622,6 +589,26 @@
       "reward": "Race Reset"
     },
     {
+      "code": "!42kSubsEXPBoost",
+      "reward": "EXP Boost"
+    },
+    {
+      "code": "!52kYTDemonArtReset",
+      "reward": "Demon Art Reset"
+    },
+    {
+      "code": "!200kDemonArtReset",
+      "reward": "Demon Art Reset"
+    },
+    {
+      "code": "!75milBreathingReset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "!600kfavRaceReset",
+      "reward": "Race Reset"
+    },
+    {
       "code": "!300klikesRaceReset",
       "reward": "Race Reset"
     },
@@ -630,44 +617,28 @@
       "reward": "Demon Art Reset"
     },
     {
-      "code": "!52kYTDemonArtReset",
-      "reward": "Demon Art Reset"
-    },
-    {
-      "code": "!300klikesEXPBoost",
-      "reward": "EXP Boost"
-    },
-    {
-      "code": "!10kRaceReset",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "!32kSubsRaceReset",
-      "reward": "Race Reset"
+      "code": "!HairoEXPBoost",
+      "reward": "1 hora EXP Boost"
     },
     {
       "code": "!SpideyFreeRaceReset",
       "reward": "Race Reset"
     },
     {
-      "code": "!200kEXPBoost",
-      "reward": "EXP Boost"
+      "code": "!Start2025RaceReset",
+      "reward": "Race Reset"
     },
     {
-      "code": "!10kEXPBoost",
-      "reward": "EXP Boost"
+      "code": "!StoneSoonRaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "!MarchEarlyEXPBoost",
+      "reward": "1 hora EXP Boost"
     },
     {
       "code": "25kSubsEXPBoost",
       "reward": "EXP Boost"
-    },
-    {
-      "code": "!52kYTBreathingReset",
-      "reward": "Breathing Reset"
-    },
-    {
-      "code": "52kYTBreathingReset",
-      "reward": "Breathing Reset"
     },
     {
       "code": "!52kYTEXPBoost",
@@ -680,14 +651,6 @@
     {
       "code": "!AugustEXPBoost",
       "reward": "1 hora EXP Boost"
-    },
-    {
-      "code": "!artresetjanuary",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "!EndOf2023EXPBoost",
-      "reward": "EXP Boost For 1 hora"
     },
     {
       "code": "!EpicEXPBoost",
@@ -706,24 +669,72 @@
       "reward": "Demon Art Reset"
     },
     {
-      "code": "!EpicDemonArtReset",
-      "reward": "Demon Art Reset"
-    },
-    {
       "code": "52kYTDemonArtReset",
       "reward": "Demon Art Reset"
     },
     {
-      "code": "!Augst2025RaceReset",
+      "code": "!AugustRaceReset",
       "reward": "Race Reset"
     },
     {
-      "code": "!Augst2025EXPBoost",
-      "reward": "XP Boost"
+      "code": "!SubToMichioX",
+      "reward": "Recompensa gratis"
     },
     {
-      "code": "!BigUpdateYoEXPBoost",
-      "reward": "XP Boost"
+      "code": "!EpicRaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "25kSubsRaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "!EndOf2023EXPBoost",
+      "reward": "EXP Boost For 1 hora"
+    },
+    {
+      "code": "!EpicDemonArtReset",
+      "reward": "Demon Art Reset"
+    },
+    {
+      "code": "!AugustDemonArtReset",
+      "reward": "Demon Art Reset"
+    },
+    {
+      "code": "!StopAskingForCodes",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "52kYTRaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "!artresetjanuary",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "!10kRaceReset",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "!10kEXPBoost",
+      "reward": "EXP Boost"
+    },
+    {
+      "code": "!600kfavEXPBoost",
+      "reward": "EXP Boost"
+    },
+    {
+      "code": "!200kBreathingReset",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "!SmallUpdateEXPBoost",
+      "reward": "1 hora EXP Boost"
+    },
+    {
+      "code": "!Reached90Likes",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "!HalloweenReset",

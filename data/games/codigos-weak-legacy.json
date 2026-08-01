@@ -3,29 +3,29 @@
   "name": "Weak Legacy",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-a731805c7512aa2c875c06c1be682f91/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Weak Legacy en Roblox",
-  "metaTitle": "Códigos Weak Legacy Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Weak Legacy en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-05-20T10:46:14.928Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "metaTitle": "Códigos Weak Legacy Roblox (Agosto 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Weak Legacy en Roblox. 3 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T09:55:48.329Z",
+  "activeCodes": [
+    {
+      "code": "WINDUPDATERESETRACE",
+      "reward": "Race Reset",
+      "addedDate": "2026-08-01"
+    },
     {
       "code": "NEWDEMONSLAYERSEASON50SPINS",
-      "reward": "50 giros"
+      "reward": "50 giros",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "WINDUPDATERESETBREATHINGORART",
-      "reward": "Breathing Reset"
-    },
+      "reward": "Breathing Reset",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "RESETBREATHINGORARTCODE",
-      "reward": "Breathing Reset"
-    },
-    {
-      "code": "FREERESETBREATHINGORART",
-      "reward": "Breathing Reset"
-    },
-    {
-      "code": "SPEEDUPDATERESETBREATHINGORART",
       "reward": "Breathing Reset"
     },
     {
@@ -33,23 +33,27 @@
       "reward": "Race Reset"
     },
     {
-      "code": "EMOTIONUPDATERESETRACE",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "SPEEDUPDATE25SPINS",
-      "reward": "25 giros"
-    },
-    {
-      "code": "LOVEUPDATE25SPINS",
+      "code": "INSECTUPDATE25SPINS",
       "reward": "Giros"
     },
     {
-      "code": "HALLOWEENUPDATERESETRACE",
+      "code": "SUNV2UPDATERESETBREATHINGORART",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "STRINGUPDATERESETRACE",
       "reward": "Race Reset"
     },
     {
-      "code": "1MRESETRACE",
+      "code": "500KRESETBREATHINGORART",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "10KLIKESRESETBREATHINGORART",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "SUNV2UPDATERESETRACE",
       "reward": "Race Reset"
     },
     {
@@ -57,31 +61,39 @@
       "reward": "Giros"
     },
     {
-      "code": "10KLIKESRESETBREATHINGORART",
-      "reward": "Breathing Reset"
+      "code": "LOVEUPDATE25SPINS",
+      "reward": "Giros"
     },
     {
-      "code": "SPEEDUPDATERESETRACE",
+      "code": "1MRESETRACE",
       "reward": "Race Reset"
-    },
-    {
-      "code": "1MRESETBREATHINGORART",
-      "reward": "Breathing Reset"
-    },
-    {
-      "code": "INSECTUPDATE25SPINS",
-      "reward": "Giros"
-    },
-    {
-      "code": "HALLOWEENEVENT50SPINS",
-      "reward": "Giros"
     },
     {
       "code": "LOVEUPDATERESETRACE",
       "reward": "25 Clan giros"
     },
     {
-      "code": "STRINGUPDATERESETRACE",
+      "code": "EMOTIONUPDATE50SPINS",
+      "reward": "Giros"
+    },
+    {
+      "code": "INSECTUPDATERESETRACE",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "SPEEDUPDATE25SPINS",
+      "reward": "25 giros"
+    },
+    {
+      "code": "HALLOWEENUPDATERESETRACE",
+      "reward": "Race Reset"
+    },
+    {
+      "code": "HALLOWEENEVENT50SPINS",
+      "reward": "Giros"
+    },
+    {
+      "code": "EMOTIONUPDATERESETRACE",
       "reward": "Race Reset"
     },
     {
@@ -89,24 +101,8 @@
       "reward": "Giros"
     },
     {
-      "code": "500KRESETBREATHINGORART",
-      "reward": "Breathing Reset"
-    },
-    {
-      "code": "EMOTIONUPDATE50SPINS",
-      "reward": "Giros"
-    },
-    {
-      "code": "SUNV2UPDATERESETRACE",
+      "code": "SPEEDUPDATERESETRACE",
       "reward": "Race Reset"
-    },
-    {
-      "code": "INSECTUPDATERESETRACE",
-      "reward": "Race Reset"
-    },
-    {
-      "code": "SUNV2UPDATERESETBREATHINGORART",
-      "reward": "Breathing Reset"
     },
     {
       "code": "SUNV2UPDATE50SPINS",
@@ -117,8 +113,16 @@
       "reward": "Race Reset"
     },
     {
-      "code": "WINDUPDATERESETRACE",
-      "reward": "Race Reset"
+      "code": "FREERESETBREATHINGORART",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "SPEEDUPDATERESETBREATHINGORART",
+      "reward": "Breathing Reset"
+    },
+    {
+      "code": "1MRESETBREATHINGORART",
+      "reward": "Breathing Reset"
     }
   ],
   "howToRedeem": [
