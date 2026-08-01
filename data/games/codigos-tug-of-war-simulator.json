@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-3e9a86d4821fd51c9956eb6ad51a58f4/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Tug Of War Simulator en Roblox",
   "metaTitle": "Códigos Tug Of War Simulator Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Tug Of War Simulator en Roblox. 23 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T09:55:42.534Z",
+  "metaDescription": "Lista actualizada de códigos para Tug Of War Simulator en Roblox. 20 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T20:43:53.256Z",
   "activeCodes": [
     {
       "code": "updatehype",
@@ -43,8 +43,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "777",
-      "reward": "7 giros",
+      "code": "Delayed",
+      "reward": "5 giros",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "KrakensCove",
+      "reward": "2 doble Training poción",
       "addedDate": "2026-08-01"
     },
     {
@@ -53,18 +58,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "light",
-      "reward": "3 Lantern Eggs",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "Shiny",
       "reward": "5 Shiny suerte pociones",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "release",
-      "reward": "A Ninja Egg gratis",
       "addedDate": "2026-08-01"
     },
     {
@@ -93,23 +88,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Delayed",
-      "reward": "5 giros",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "KrakensCove",
-      "reward": "2 doble Training poción",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "dark",
       "reward": "4 Lantern Eggs",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "void",
-      "reward": "7 giros",
       "addedDate": "2026-08-01"
     },
     {
@@ -121,9 +101,26 @@
       "code": "plsdonate",
       "reward": "100 Player tickets",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "void",
+      "reward": "7 giros",
+      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "777",
+      "reward": "7 giros"
+    },
+    {
+      "code": "light",
+      "reward": "3 Lantern Eggs"
+    },
+    {
+      "code": "release",
+      "reward": "A Ninja Egg gratis"
+    },
     {
       "code": "donation",
       "reward": "100 Donation tickets"

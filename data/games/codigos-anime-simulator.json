@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-37ce1d5d8fa069b48f8e7578b2d091cd/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Simulator en Roblox",
   "metaTitle": "Códigos Anime Simulator Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Simulator en Roblox. 57 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T09:53:26.746Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Simulator en Roblox. 56 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T20:41:40.361Z",
   "activeCodes": [
     {
       "code": "trickOrTreat",
@@ -23,6 +23,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "octoberfest",
+      "reward": "Gemas and more",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "bugFix842025",
       "reward": "Gemas and more",
       "addedDate": "2026-08-01"
@@ -33,23 +38,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "octoberfest",
-      "reward": "Gemas and more",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "moremoney",
       "reward": "Gemas and more",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "battlepass",
-      "reward": "3000 gemas, 1.5x Training Boosts (15 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "bugFix4",
-      "reward": "2500 gemas, 1.5x Training Boost (15 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -58,13 +48,23 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "thanks10k",
-      "reward": "1500 gemas, 1000 monedas",
+      "code": "battlepass",
+      "reward": "3000 gemas, 1.5x Training Boosts (15 minutos)",
       "addedDate": "2026-08-01"
     },
     {
       "code": "boost",
       "reward": "1.5x Training Boost (15 minutos)",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "thanks10k",
+      "reward": "1500 gemas, 1000 monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "bugFix4",
+      "reward": "2500 gemas, 1.5x Training Boost (15 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -85,11 +85,6 @@
     {
       "code": "group100k",
       "reward": "1500 gemas, 1.5x Training Boost (1 hora)",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "tenMillionVisits",
-      "reward": "Gemas and more",
       "addedDate": "2026-08-01"
     },
     {
@@ -128,13 +123,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "animesimulator",
-      "reward": "2 Reroll tokens",
+      "code": "subtokelvingts",
+      "reward": "1000 monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "subtokelvingts",
-      "reward": "1000 monedas",
+      "code": "animesimulator",
+      "reward": "2 Reroll tokens",
       "addedDate": "2026-08-01"
     },
     {
@@ -295,6 +290,10 @@
   ],
   "expiredCodes": [
     {
+      "code": "tenMillionVisits",
+      "reward": "Gemas and more"
+    },
+    {
       "code": "twentyMillionVisits",
       "reward": "3,000 gemas, 2 Reroll tokens, and 2 Random Stat pociones"
     },
@@ -305,6 +304,26 @@
     {
       "code": "thanks30k",
       "reward": "Gemas and more"
+    },
+    {
+      "code": "ninetails",
+      "reward": "5,000 gemas and 50 monedas"
+    },
+    {
+      "code": "20kLikes",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "breathingStyle",
+      "reward": "5,000 gemas and monedas (10x moneda Gain)"
+    },
+    {
+      "code": "thxfor90k",
+      "reward": "3,000 gemas and a 1.5x Boost (6 horas)"
+    },
+    {
+      "code": "blackboard",
+      "reward": "500 monedas"
     },
     {
       "code": "bugFix3",
@@ -327,22 +346,6 @@
       "reward": "5,000 gemas and 1 fuerza poción"
     },
     {
-      "code": "20kLikes",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "breathingStyle",
-      "reward": "5,000 gemas and monedas (10x moneda Gain)"
-    },
-    {
-      "code": "thxfor90k",
-      "reward": "3,000 gemas and a 1.5x Boost (6 horas)"
-    },
-    {
-      "code": "blackboard",
-      "reward": "500 monedas"
-    },
-    {
       "code": "solo",
       "reward": "2 Reroll tokens, a Random Stat poción, monedas (5x moneda Gain), and 500 Mana Crystal"
     },
@@ -357,10 +360,6 @@
     {
       "code": "dungeon",
       "reward": "Monedas (5x moneda Gain), a Random Stat poción, and 500 Mana Crystal"
-    },
-    {
-      "code": "ninetails",
-      "reward": "5,000 gemas and 50 monedas"
     },
     {
       "code": "subToKelvingts2",

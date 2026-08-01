@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-ab984db876066de99c82722a40af005a/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Loot Up en Roblox",
   "metaTitle": "Códigos Loot Up Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Loot Up en Roblox. 23 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T09:54:34.914Z",
+  "metaDescription": "Lista actualizada de códigos para Loot Up en Roblox. 29 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T20:42:47.638Z",
   "activeCodes": [
     {
       "code": "BATTLEPASS",
@@ -108,6 +108,21 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "DRAGON",
+      "reward": "5 Enchant Stones, 1k estrellas, And 1k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "5 Enchant Stones, 1,000 estrellas, and 1,000 monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "CHRISTMAS",
+      "reward": "1,000 estrellas, 1,000 monedas, 3 Enchant Stones, 3 Forgeguards, and 20 Frozen llaves",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "HAPPYNEWYEARS",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
@@ -121,34 +136,24 @@
       "code": "MORERINGS",
       "reward": "900 monedas, 1k estrellas, 40 Golden Rings, And 500 Enchant Stones",
       "addedDate": "2026-08-01"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "AFK",
-      "reward": "900 monedas, 1k estrellas, 20 Golden Rings, And 500 Enchant Stones"
+      "reward": "900 monedas, 1k estrellas, 20 Golden Rings, And 500 Enchant Stones",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "DELAY",
-      "reward": "Estrellas, monedas, Enchant Stones, Forgeguards, And Frozen llaves"
+      "reward": "Estrellas, monedas, Enchant Stones, Forgeguards, And Frozen llaves",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "CLANS",
-      "reward": "Estrellas, monedas, Enchant Stones, Forgeguards, And Frozen llaves"
-    },
-    {
-      "code": "DRAGON",
-      "reward": "5 Enchant Stones, 1k estrellas, And 1k monedas"
-    },
-    {
-      "code": "RELEASE",
-      "reward": "5 Enchant Stones, 1,000 estrellas, and 1,000 monedas"
-    },
-    {
-      "code": "CHRISTMAS",
-      "reward": "1,000 estrellas, 1,000 monedas, 3 Enchant Stones, 3 Forgeguards, and 20 Frozen llaves"
+      "reward": "Estrellas, monedas, Enchant Stones, Forgeguards, And Frozen llaves",
+      "addedDate": "2026-08-01"
     }
   ],
+  "expiredCodes": [],
   "howToRedeem": [
     "Abre Loot Up en Roblox",
     "Busca el botón de códigos en el menú",

@@ -3,90 +3,109 @@
   "name": "Bikeworld",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-aab6f74aafaa53caa3c9069a75c0fda4/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Bikeworld en Roblox",
-  "metaTitle": "Códigos Bikeworld Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Bikeworld en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:30:43.821Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "metaTitle": "Códigos Bikeworld Roblox (Agosto 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Bikeworld en Roblox. 18 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T20:41:50.598Z",
+  "activeCodes": [
     {
-      "code": "CLAPD",
-      "reward": "3000 XP"
+      "code": "HALLOWEEN",
+      "reward": "Cash And XP gratis",
+      "addedDate": "2026-08-01"
     },
     {
-      "code": "UNIX",
-      "reward": "3 Levels"
+      "code": "FASTBIKES",
+      "reward": "5,000 Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SUMMER",
+      "reward": "15,000 Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "4BIKES",
+      "reward": "Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "TRICKS",
+      "reward": "Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "EASTER",
+      "reward": "10000 Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "ILiked",
+      "reward": "10000 Cash",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "BETA",
-      "reward": "10000 Cash"
+      "reward": "10000 Cash",
+      "addedDate": "2026-08-01"
     },
     {
-      "code": "300ACTIVE",
-      "reward": "Cash gratis"
+      "code": "LOOTCRATES",
+      "reward": "30000 Cash",
+      "addedDate": "2026-08-01"
     },
+    {
+      "code": "CLAPD",
+      "reward": "3000 XP",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "NEWBIKES",
+      "reward": "Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "BIKER",
+      "reward": "20,000 Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "NEWUPD",
+      "reward": "15,000 Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "1KLIKES",
+      "reward": "XP",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "3BIKES",
+      "reward": "Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "500KVISITS",
+      "reward": "XP",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "UNIX",
+      "reward": "3 Levels",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "LOVEBIKES",
+      "reward": "Cash",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "RIEJUANDUPGRADE",
       "reward": "Cash gratis"
     },
     {
-      "code": "HALLOWEEN",
-      "reward": "Cash And XP gratis"
-    },
-    {
-      "code": "4BIKES",
-      "reward": "Cash"
-    },
-    {
-      "code": "NEWBIKES",
-      "reward": "Cash"
-    },
-    {
-      "code": "LOVEBIKES",
-      "reward": "Cash"
-    },
-    {
-      "code": "1KLIKES",
-      "reward": "XP"
-    },
-    {
-      "code": "500KVISITS",
-      "reward": "XP"
-    },
-    {
-      "code": "BIKER",
-      "reward": "20,000 Cash"
-    },
-    {
-      "code": "NEWUPD",
-      "reward": "15,000 Cash"
-    },
-    {
-      "code": "TRICKS",
-      "reward": "Cash"
-    },
-    {
-      "code": "3BIKES",
-      "reward": "Cash"
-    },
-    {
-      "code": "FASTBIKES",
-      "reward": "5,000 Cash"
-    },
-    {
-      "code": "LOOTCRATES",
-      "reward": "30000 Cash"
-    },
-    {
-      "code": "EASTER",
-      "reward": "10000 Cash"
-    },
-    {
-      "code": "ILiked",
-      "reward": "10000 Cash"
-    },
-    {
-      "code": "SUMMER",
-      "reward": "15,000 Cash"
+      "code": "300ACTIVE",
+      "reward": "Cash gratis"
     },
     {
       "code": "2KACTIVE+UPDATE",

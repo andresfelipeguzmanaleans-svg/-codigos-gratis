@@ -3,29 +3,34 @@
   "name": "Car Battles",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-fb8791306d8bab7e45f91c5700b5fed9/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Car Battles en Roblox",
-  "metaTitle": "Códigos Car Battles Roblox (Marzo 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Car Battles en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-03-26T20:30:52.811Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "metaTitle": "Códigos Car Battles Roblox (Agosto 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Car Battles en Roblox. 4 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T20:42:00.621Z",
+  "activeCodes": [
     {
       "code": "UPDATE3",
-      "reward": "Pistons"
-    },
-    {
-      "code": "BLOODMOON",
-      "reward": "Blocks"
-    },
-    {
-      "code": "Release",
-      "reward": "10 Wood Blocks, 2 Turrets"
-    },
-    {
-      "code": "UPDATE25",
-      "reward": "Balloons"
+      "reward": "Pistons",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "UPDATE2",
+      "reward": "Balloons",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "BLOODMOON",
+      "reward": "Blocks",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Release",
+      "reward": "10 Wood Blocks, 2 Turrets",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "UPDATE25",
       "reward": "Balloons"
     }
   ],

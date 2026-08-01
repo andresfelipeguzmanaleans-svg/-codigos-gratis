@@ -4,24 +4,23 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-ae23aebcb2078380c48545d53e893b2f/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Egolock en Roblox",
   "metaTitle": "Códigos Egolock Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Egolock en Roblox. 11 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T09:54:06.389Z",
+  "metaDescription": "Lista actualizada de códigos para Egolock en Roblox. 10 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-01T20:42:20.288Z",
   "activeCodes": [
     {
-      "code": "SORRYAGAINGUYS",
-      "reward": "100 giros",
-      "addedDate": "2026-08-01"
+      "code": "EGO",
+      "reward": "40 giros"
     },
     {
       "code": "UPDATE2",
       "reward": "100 giros"
     },
     {
-      "code": "UBERSFORTHEWIN",
+      "code": "PXGFORTHEWIN",
       "reward": "50 giros"
     },
     {
-      "code": "PXGFORTHEWIN",
+      "code": "UBERSFORTHEWIN",
       "reward": "50 giros"
     },
     {
@@ -45,15 +44,16 @@
       "reward": "30 giros"
     },
     {
-      "code": "EGO",
-      "reward": "40 giros"
-    },
-    {
       "code": "NEWYEARNEWEGOLOCK",
       "reward": "100 giros, 50 XP, 3500 Yen"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "SORRYAGAINGUYS",
+      "reward": "100 giros"
+    }
+  ],
   "howToRedeem": [
     "Abre Egolock en Roblox",
     "Busca el botón de códigos en el menú",
