@@ -5,7 +5,7 @@
   "description": "Todos los códigos activos para World Zero en Roblox",
   "metaTitle": "Códigos World Zero Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para World Zero en Roblox. 34 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T09:55:50.482Z",
+  "lastUpdated": "2026-08-02T20:46:45.878Z",
   "activeCodes": [
     {
       "code": "925KLIKES",
@@ -68,13 +68,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "HALLOWEEN25",
-      "reward": "25 Halloween monedas",
+      "code": "CRYSTALGOAL",
+      "reward": "300 cristales",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "CRYSTALGOAL",
-      "reward": "300 cristales",
+      "code": "HALLOWEEN25",
+      "reward": "25 Halloween monedas",
       "addedDate": "2026-08-01"
     },
     {
@@ -98,13 +98,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "NEWYEAR25",
-      "reward": "New Year Present",
+      "code": "SUMMER",
+      "reward": "25 Kraken monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SUMMER",
-      "reward": "25 Kraken monedas",
+      "code": "NEWYEAR25",
+      "reward": "New Year Present",
       "addedDate": "2026-08-01"
     },
     {
@@ -180,6 +180,14 @@
   ],
   "expiredCodes": [
     {
+      "code": "SEASON14",
+      "reward": "50 Guild monedas"
+    },
+    {
+      "code": "100MILPARTY",
+      "reward": "100 cristales"
+    },
+    {
       "code": "SEASON17CODE",
       "reward": "50 Guild monedas"
     },
@@ -194,10 +202,6 @@
     {
       "code": "SALTY",
       "reward": "100 cristales"
-    },
-    {
-      "code": "MERCH",
-      "reward": "150 gemas"
     },
     {
       "code": "625KLIKES",
@@ -234,10 +238,6 @@
     {
       "code": "BLACKFRIDAY25",
       "reward": "150 cristales"
-    },
-    {
-      "code": "NEWYEAR24",
-      "reward": "2023 Player título"
     },
     {
       "code": "FAVMILLION",
@@ -290,10 +290,6 @@
     {
       "code": "WEEKLYQUEST",
       "reward": "200 cristales"
-    },
-    {
-      "code": "700KLIKES",
-      "reward": "150 cristales"
     },
     {
       "code": "CUPIDINSANE",
@@ -366,6 +362,10 @@
     {
       "code": "SHADOWS",
       "reward": "The Fire Eyes Hat"
+    },
+    {
+      "code": "700KLIKES",
+      "reward": "150 cristales"
     },
     {
       "code": "CUPIDCHALLENGE",
@@ -504,24 +504,8 @@
       "reward": "5 tickets"
     },
     {
-      "code": "100MILPARTY",
-      "reward": "100 cristales"
-    },
-    {
       "code": "KRAKEN",
       "reward": "15 Kraken monedas"
-    },
-    {
-      "code": "GUILDBUGS",
-      "reward": "50 Guild monedas"
-    },
-    {
-      "code": "150MILPARTYY",
-      "reward": "Cristales"
-    },
-    {
-      "code": "HAPPYNEWYEAR",
-      "reward": "2022 Player título"
     },
     {
       "code": "NECRO",
@@ -536,8 +520,32 @@
       "reward": "25 Dragon monedas and a Manga Present"
     },
     {
+      "code": "HAPPYNEWYEAR",
+      "reward": "2022 Player título"
+    },
+    {
+      "code": "MERCH",
+      "reward": "150 gemas"
+    },
+    {
+      "code": "GUILDBUGS",
+      "reward": "50 Guild monedas"
+    },
+    {
       "code": "FFAABB",
       "reward": "Especial Hex Effect"
+    },
+    {
+      "code": "150MILPARTYY",
+      "reward": "Cristales"
+    },
+    {
+      "code": "TWOMILFAV",
+      "reward": "150 cristales and 2M Club título"
+    },
+    {
+      "code": "NEWYEAR24",
+      "reward": "2023 Player título"
     },
     {
       "code": "HOUSING",
@@ -716,11 +724,11 @@
       "reward": "Golden Dragon Wings and Level 1 Goldfire Aura"
     },
     {
-      "code": "TWOMILFAV",
-      "reward": "150 cristales and 2M Club título"
+      "code": "STOCKBUG",
+      "reward": "150 cristales"
     },
     {
-      "code": "SEASON14",
+      "code": "SEASON22",
       "reward": "50 Guild monedas"
     },
     {

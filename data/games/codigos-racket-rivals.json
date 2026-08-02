@@ -5,16 +5,16 @@
   "description": "Todos los códigos activos para Racket Rivals en Roblox",
   "metaTitle": "Códigos Racket Rivals Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Racket Rivals en Roblox. 44 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T09:55:04.405Z",
+  "lastUpdated": "2026-08-02T20:46:03.938Z",
   "activeCodes": [
     {
       "code": "SOCCERMODE",
-      "reward": "Recompensas",
+      "reward": "750 Yen",
       "addedDate": "2026-07-27"
     },
     {
       "code": "WEEK2",
-      "reward": "Recompensas",
+      "reward": "750 Yen",
       "addedDate": "2026-07-27"
     },
     {
@@ -230,8 +230,8 @@
   ],
   "expiredCodes": [
     {
-      "code": "RUBYCLASH",
-      "reward": "Giros And Yen"
+      "code": "FREEADMIN",
+      "reward": "Lucky giro"
     },
     {
       "code": "BIG",
@@ -243,6 +243,10 @@
     },
     {
       "code": "UPDATETWO",
+      "reward": "250 Yen"
+    },
+    {
+      "code": "RANKEDSOLO",
       "reward": "250 Yen"
     },
     {
@@ -258,16 +262,12 @@
       "reward": "700 Yen"
     },
     {
-      "code": "UPDATE10",
-      "reward": "500 Yen"
-    },
-    {
-      "code": "RANKEDSOLO",
-      "reward": "250 Yen"
-    },
-    {
       "code": "SorryRanked",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "UPDATE10",
+      "reward": "500 Yen"
     },
     {
       "code": "NOWAYFIFTYK",
@@ -322,16 +322,24 @@
       "reward": "250 Yen"
     },
     {
-      "code": "UPDATE9",
-      "reward": "250 Yen"
-    },
-    {
       "code": "MECHAWK",
       "reward": "150 Yen"
     },
     {
+      "code": "UPDATE9",
+      "reward": "250 Yen"
+    },
+    {
       "code": "SANTAISHERE",
       "reward": "500 Yen"
+    },
+    {
+      "code": "USEMATCHMAKING",
+      "reward": "Lucky giro"
+    },
+    {
+      "code": "RUBYCLASH",
+      "reward": "Giros And Yen"
     },
     {
       "code": "mistaworldwide",
@@ -366,12 +374,12 @@
       "reward": "100 Yen"
     },
     {
-      "code": "USEMATCHMAKING",
-      "reward": "Lucky giro"
+      "code": "SEASON2BUG",
+      "reward": "1,500 Season Pass XP"
     },
     {
-      "code": "FREEADMIN",
-      "reward": "Lucky giro"
+      "code": "500M",
+      "reward": "200 Yen, a Spirit Pack, 2 Standard Packs, a Rackets Pack, and a Lucky giro"
     }
   ],
   "howToRedeem": [
