@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-b666230aa4d603e153649ca717a05ee8/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fruit Warriors en Roblox",
   "metaTitle": "Códigos Fruit Warriors Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fruit Warriors en Roblox. 10 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T20:42:29.659Z",
+  "metaDescription": "Lista actualizada de códigos para Fruit Warriors en Roblox. 13 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-02T09:50:44.084Z",
   "activeCodes": [
     {
       "code": "10MVISITS",
@@ -29,7 +29,7 @@
       "reward": "XP and Beli Boost and 50K Cash"
     },
     {
-      "code": "UPDATE1",
+      "code": "DAILYHOTFIX1",
       "reward": "XP and Beli Boost"
     },
     {
@@ -37,32 +37,34 @@
       "reward": "XP and Beli Boost"
     },
     {
+      "code": "ACCIDENTALSHUTDOWN",
+      "reward": "5 tokens",
+      "addedDate": "2026-08-02"
+    },
+    {
+      "code": "SORRYFORSHUTDOWN",
+      "reward": "5 tokens",
+      "addedDate": "2026-08-02"
+    },
+    {
       "code": "RUMBLE",
       "reward": "XP and Beli Boost"
     },
     {
-      "code": "DAILYHOTFIX1",
+      "code": "UPDATE1",
       "reward": "XP and Beli Boost"
     },
     {
       "code": "UPDATE2",
       "reward": "XP and Beli Boost"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "ACCIDENTALSHUTDOWN",
-      "reward": "5 tokens"
-    },
-    {
-      "code": "SORRYFORSHUTDOWN",
-      "reward": "5 tokens"
     },
     {
       "code": "10MVISITS!",
-      "reward": "Recompensas gratis"
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-02"
     }
   ],
+  "expiredCodes": [],
   "howToRedeem": [
     "Abre Fruit Warriors en Roblox",
     "Busca el botón de códigos en el menú",

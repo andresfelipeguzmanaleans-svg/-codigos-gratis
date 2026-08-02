@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-c4a3c6b94389863f893b586da13f592f/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Reborn en Roblox",
   "metaTitle": "Códigos Anime Reborn Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Reborn en Roblox. 9 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T20:41:39.687Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Reborn en Roblox. 10 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-02T09:49:56.483Z",
   "activeCodes": [
     {
       "code": "Crystals",
@@ -33,8 +33,18 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "BannerCostFix",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "TournamentofPower",
       "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Crystals",
+      "reward": "+10 concentrated cristales of each element",
       "addedDate": "2026-08-01"
     },
     {
@@ -46,17 +56,12 @@
       "code": "PATCH",
       "reward": "100 Rerolls + 5,000 gemas + 30 frost llaves + 30 potential llaves + 3 Rainbow estrellas",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BannerCostFix",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "15kReacts",
-      "reward": "5,000 New Year monedas, 20,000 Candy Canes, 25 Rerolls"
+      "code": "!updatetoday",
+      "reward": "50,000 tickets And 10 Trait cristales"
     },
     {
       "code": "Dressrosa!",
@@ -175,10 +180,6 @@
       "reward": "Recompensas (must own bundle)"
     },
     {
-      "code": "!updatetoday",
-      "reward": "50,000 tickets And 10 Trait cristales"
-    },
-    {
       "code": "!KingisHere",
       "reward": "1,000 gemas, 3 llaves, 5 Crystal"
     },
@@ -235,10 +236,6 @@
       "reward": "25 Trait cristales, 50 Mana cristales"
     },
     {
-      "code": "!SorryForLeaderboardBug",
-      "reward": "1,000 gemas, 5 Rerolls"
-    },
-    {
       "code": "Infcastle",
       "reward": "10 Trait cristales"
     },
@@ -263,12 +260,16 @@
       "reward": "500 gemas, 5 Rerolls, 1 Frost llaves"
     },
     {
+      "code": "XMEGACODE",
+      "reward": "2000 gemas, 3 Legend's pociones, 10 Frost llaves, 10 Potential llaves, 15 Trait cristales"
+    },
+    {
       "code": "PodcastGang!!!",
       "reward": "5000 gemas, 10 Trait cristales"
     },
     {
-      "code": "XMEGACODE",
-      "reward": "2000 gemas, 3 Legend's pociones, 10 Frost llaves, 10 Potential llaves, 15 Trait cristales"
+      "code": "!SorryForLeaderboardBug",
+      "reward": "1,000 gemas, 5 Rerolls"
     },
     {
       "code": "SubtoZillas",
@@ -497,6 +498,10 @@
     {
       "code": "!DelayReborn",
       "reward": "Gemas, Rerolls"
+    },
+    {
+      "code": "15kReacts",
+      "reward": "5,000 New Year monedas, 20,000 Candy Canes, 25 Rerolls"
     }
   ],
   "howToRedeem": [
