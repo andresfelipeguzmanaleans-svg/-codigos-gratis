@@ -5,95 +5,125 @@
   "description": "Todos los códigos activos para Legacy Piece en Roblox",
   "metaTitle": "Códigos Legacy Piece Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Legacy Piece en Roblox. 21 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-02T20:45:35.576Z",
-  "activeCodes": [],
-  "expiredCodes": [
-    {
-      "code": "500KVISITS",
-      "reward": "Giros, XP, and Cash"
-    },
+  "lastUpdated": "2026-08-03T11:15:31.513Z",
+  "activeCodes": [
     {
       "code": "Release",
-      "reward": "Recompensas gratis"
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "500KVISITS",
+      "reward": "Giros, XP, and Cash",
+      "addedDate": "2026-08-03"
     },
     {
       "code": "TYFORPATIENCE",
-      "reward": "10 giros, 450 Cash, and 55 EXP"
+      "reward": "10 giros, 450 Cash, and 55 EXP",
+      "addedDate": "2026-08-03"
     },
     {
       "code": "CHUCHUBLESSES",
-      "reward": "5 giros, EXP (900 Seconds), and Mastery Boosters (900 Seconds)"
+      "reward": "5 giros, EXP (900 Seconds), and Mastery Boosters (900 Seconds)",
+      "addedDate": "2026-08-03"
     },
     {
       "code": "CODESONE",
-      "reward": "2 giros, 100 Cash, and 45 EXP"
+      "reward": "2 giros, 100 Cash, and 45 EXP",
+      "addedDate": "2026-08-03"
     },
     {
       "code": "10KLIKES",
-      "reward": "5 giros, 350 Cash, and 55 EXP"
-    },
-    {
-      "code": "25KLIKESCODE",
-      "reward": "Fighting Style Reset"
-    },
-    {
-      "code": "UPDATEISSOON",
-      "reward": "5 giros, 2x Boss Drops, and 2x Mastery"
-    },
-    {
-      "code": "5MVISITS",
-      "reward": "2x Drop Rate (15 minutos)"
-    },
-    {
-      "code": "UPDATEONEEE",
-      "reward": "Giros, XP, and Cash"
-    },
-    {
-      "code": "SORRYFORDELAY",
-      "reward": "2x Mastery (15 minutos)"
-    },
-    {
-      "code": "20KLIKESCODE",
-      "reward": "Fruit Reset"
-    },
-    {
-      "code": "2MVISITS",
-      "reward": "50 Cash, 2 giros, and 25 EXP"
-    },
-    {
-      "code": "1MVISITS",
-      "reward": "5 giros, 150 Cash, and Drop Chance Booster (900 Seconds)"
-    },
-    {
-      "code": "4MVISITSCODE",
-      "reward": "Reset Fruit"
-    },
-    {
-      "code": "30KLIKESCODE",
-      "reward": "250 Cash, 2 giros, and 25 EXP"
-    },
-    {
-      "code": "3MVISITSCODE",
-      "reward": "Fighting Style Reset"
-    },
-    {
-      "code": "UPDATECODE",
-      "reward": "250 Cash, 2 giros, and 25 EXP"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "Reset Fruit"
-    },
-    {
-      "code": "OKTHANKYOU",
-      "reward": "Reset Fruit"
+      "reward": "5 giros, 350 Cash, and 55 EXP",
+      "addedDate": "2026-08-03"
     },
     {
       "code": "RESETMEPLEASE",
-      "reward": "Fighting Style Reset"
+      "reward": "Fighting Style Reset",
+      "addedDate": "2026-08-03"
     },
     {
-      "code": "NPCUPDATE",
+      "code": "25KLIKESCODE",
+      "reward": "Fighting Style Reset",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "UPDATEISSOON",
+      "reward": "5 giros, 2x Boss Drops, and 2x Mastery",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "5MVISITS",
+      "reward": "2x Drop Rate (15 minutos)",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "UPDATEONEEE",
+      "reward": "Giros, XP, and Cash",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "20KLIKESCODE",
+      "reward": "Fruit Reset",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "2MVISITS",
+      "reward": "50 Cash, 2 giros, and 25 EXP",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "1MVISITS",
+      "reward": "5 giros, 150 Cash, and Drop Chance Booster (900 Seconds)",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "4MVISITSCODE",
+      "reward": "Reset Fruit",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "30KLIKESCODE",
+      "reward": "250 Cash, 2 giros, and 25 EXP",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "UPDATECODE",
+      "reward": "250 Cash, 2 giros, and 25 EXP",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "SORRYFORDELAY",
+      "reward": "2x Mastery (15 minutos)",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "3MVISITSCODE",
+      "reward": "Fighting Style Reset",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "Reset Fruit",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "OKTHANKYOU",
+      "reward": "Reset Fruit",
+      "addedDate": "2026-08-03"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "thanksfor4kccu!!",
+      "reward": "5 Aura cofres, 10 Ultimate cofres, 100 Clan Rerolls and 10K Shards"
+    },
+    {
+      "code": "sorryfordelayyy!!",
+      "reward": "100 Clan Rerolls, 50 Abyssal cofres and 10K Shards"
+    },
+    {
+      "code": "QUAKEBUFFRESET",
       "reward": "Reinicio de stats"
     },
     {
@@ -103,90 +133,6 @@
     {
       "code": "GEMFIXWOOT",
       "reward": "Doble EXP (1 hora)"
-    },
-    {
-      "code": "THANKSFORPLAYING!",
-      "reward": "5 Trait Rerolls, 5 Race Rerolls, 5,000 Shards, and a Mythical cofre"
-    },
-    {
-      "code": "addedbosspawn!",
-      "reward": "$750,000 Codes, 50 Boss tickets and a Millionaire título"
-    },
-    {
-      "code": "REBALANCEEXP",
-      "reward": "2x EXP (30 minutos)"
-    },
-    {
-      "code": "QUESTBUFF",
-      "reward": "2x EXP (15 minutos) and 10,000 oro"
-    },
-    {
-      "code": "BOSSUPDATE",
-      "reward": "20,000 oro gratis"
-    },
-    {
-      "code": "RELAUNCHRESET",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "UPDATE5",
-      "reward": "Reinicio de stats gratis"
-    },
-    {
-      "code": "smallgift!",
-      "reward": "10,000 Shards, an Aura cofre and a Cosmetic cofre"
-    },
-    {
-      "code": "sorryforbugs!",
-      "reward": "20 Clan Rerolls, 30 Trait Rerolls, 30 Race Rerolls, 10,000 Shards, and 10 Mythical cofre"
-    },
-    {
-      "code": "SHUTDOWNCODE2",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "DARKBEARD",
-      "reward": "Doble EXP (30 minutos)"
-    },
-    {
-      "code": "ANOTHAONE",
-      "reward": "Reinicio de stats gratis"
-    },
-    {
-      "code": "sorryforbugs7!",
-      "reward": "Ultimate cofre, 50 Clan Rerolls, $500,000 Cash, and 10,000 Shards"
-    },
-    {
-      "code": "QUAKEBUFFCODE",
-      "reward": "50,000 oro and 2x EXP (1 hora)"
-    },
-    {
-      "code": "COREFIXES",
-      "reward": "Doble EXP (2 horas)"
-    },
-    {
-      "code": "SHUTDOWNCODE3",
-      "reward": "75,000 oro"
-    },
-    {
-      "code": "RESETME4",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "NEWRARITIES",
-      "reward": "5,000 oro gratis"
-    },
-    {
-      "code": "thanksfor1kccu!",
-      "reward": "10,000 Shards, an Ultimate cofre, and 10 Mythical cofres"
-    },
-    {
-      "code": "800KVISITS",
-      "reward": "Doble EXP (30 minutos)"
-    },
-    {
-      "code": "QUAKEBUFFRESET",
-      "reward": "Reinicio de stats"
     },
     {
       "code": "6KMEMBERS",
@@ -211,14 +157,6 @@
     {
       "code": "sorryforbugs3!",
       "reward": "5 Clan Rerolls, 10 Trait Rerolls, 10 Race Rerolls, 10,000 Shards, and a Mythical cofre"
-    },
-    {
-      "code": "thanksfor4kccu!!",
-      "reward": "5 Aura cofres, 10 Ultimate cofres, 100 Clan Rerolls and 10K Shards"
-    },
-    {
-      "code": "sorryfordelayyy!!",
-      "reward": "100 Clan Rerolls, 50 Abyssal cofres and 10K Shards"
     },
     {
       "code": "sorryforbugs9!!",
@@ -310,6 +248,90 @@
     },
     {
       "code": "REFRESHSTATS",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "THANKSFORPLAYING!",
+      "reward": "5 Trait Rerolls, 5 Race Rerolls, 5,000 Shards, and a Mythical cofre"
+    },
+    {
+      "code": "addedbosspawn!",
+      "reward": "$750,000 Codes, 50 Boss tickets and a Millionaire título"
+    },
+    {
+      "code": "REBALANCEEXP",
+      "reward": "2x EXP (30 minutos)"
+    },
+    {
+      "code": "QUESTBUFF",
+      "reward": "2x EXP (15 minutos) and 10,000 oro"
+    },
+    {
+      "code": "BOSSUPDATE",
+      "reward": "20,000 oro gratis"
+    },
+    {
+      "code": "RELAUNCHRESET",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "UPDATE5",
+      "reward": "Reinicio de stats gratis"
+    },
+    {
+      "code": "smallgift!",
+      "reward": "10,000 Shards, an Aura cofre and a Cosmetic cofre"
+    },
+    {
+      "code": "sorryforbugs!",
+      "reward": "20 Clan Rerolls, 30 Trait Rerolls, 30 Race Rerolls, 10,000 Shards, and 10 Mythical cofre"
+    },
+    {
+      "code": "SHUTDOWNCODE2",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "DARKBEARD",
+      "reward": "Doble EXP (30 minutos)"
+    },
+    {
+      "code": "ANOTHAONE",
+      "reward": "Reinicio de stats gratis"
+    },
+    {
+      "code": "sorryforbugs7!",
+      "reward": "Ultimate cofre, 50 Clan Rerolls, $500,000 Cash, and 10,000 Shards"
+    },
+    {
+      "code": "QUAKEBUFFCODE",
+      "reward": "50,000 oro and 2x EXP (1 hora)"
+    },
+    {
+      "code": "COREFIXES",
+      "reward": "Doble EXP (2 horas)"
+    },
+    {
+      "code": "SHUTDOWNCODE3",
+      "reward": "75,000 oro"
+    },
+    {
+      "code": "RESETME4",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "NEWRARITIES",
+      "reward": "5,000 oro gratis"
+    },
+    {
+      "code": "thanksfor1kccu!",
+      "reward": "10,000 Shards, an Ultimate cofre, and 10 Mythical cofres"
+    },
+    {
+      "code": "800KVISITS",
+      "reward": "Doble EXP (30 minutos)"
+    },
+    {
+      "code": "NPCUPDATE",
       "reward": "Reinicio de stats"
     }
   ],
