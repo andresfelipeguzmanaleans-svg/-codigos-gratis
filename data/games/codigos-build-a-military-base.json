@@ -4,17 +4,32 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-4c33d881eec3ee576a135a0efddb46e2/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Build A Military Base en Roblox",
   "metaTitle": "Códigos Build A Military Base Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Build A Military Base en Roblox. 44 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T09:53:44.139Z",
+  "metaDescription": "Lista actualizada de códigos para Build A Military Base en Roblox. 47 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-03T20:57:29.791Z",
   "activeCodes": [
     {
-      "code": "PROWLER",
+      "code": "CHIMERA",
       "reward": "Recompensas",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "FLAMEON",
+      "reward": "Recompensas",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "OUTPOSTS",
+      "reward": "Recompensas",
+      "addedDate": "2026-08-03"
+    },
+    {
+      "code": "PROWLER",
+      "reward": "1 Premium cofre",
       "addedDate": "2026-07-27"
     },
     {
       "code": "9PLUS10",
-      "reward": "Recompensas",
+      "reward": "1 Premium cofre",
       "addedDate": "2026-07-27"
     },
     {
@@ -230,52 +245,36 @@
   ],
   "expiredCodes": [
     {
-      "code": "RELEASE",
-      "reward": "Light Tank Factory"
+      "code": "UPDATETWO",
+      "reward": "Humvi"
+    },
+    {
+      "code": "90000LIKES",
+      "reward": "1 Experimental Gantry"
     },
     {
       "code": "BEHEMOTH",
       "reward": "1 Research Lab"
     },
     {
-      "code": "ARCTICFORTRESS",
-      "reward": "1 Shield Generator"
-    },
-    {
       "code": "130000MEMBERS",
       "reward": "1 Logistics Center"
+    },
+    {
+      "code": "CLOWN",
+      "reward": "Balloon Cart"
     },
     {
       "code": "RESTARTAGAIN",
       "reward": "Vehicle Depot"
     },
     {
-      "code": "UPDATE",
-      "reward": "Trooper"
-    },
-    {
-      "code": "UPDATETWO",
-      "reward": "Humvi"
-    },
-    {
       "code": "HAWK",
       "reward": "1 Headquarter"
     },
     {
-      "code": "WORLD2",
-      "reward": "1 Regional Depot"
-    },
-    {
       "code": "150000MEMBERS",
       "reward": "1 Industrial Drill"
-    },
-    {
-      "code": "1MILLION",
-      "reward": "Amethyst Tree"
-    },
-    {
-      "code": "CLOWN",
-      "reward": "Balloon Cart"
     },
     {
       "code": "115000LIKES",
@@ -294,16 +293,32 @@
       "reward": "1 Industrial Drill"
     },
     {
-      "code": "90000LIKES",
-      "reward": "1 Experimental Gantry"
-    },
-    {
       "code": "140000MEMBERS",
       "reward": "1 Missile Turret"
     },
     {
+      "code": "RELEASE",
+      "reward": "Light Tank Factory"
+    },
+    {
       "code": "SRY4SHUTDOWN",
       "reward": "Experimental Gantry"
+    },
+    {
+      "code": "1MILLION",
+      "reward": "Amethyst Tree"
+    },
+    {
+      "code": "ARCTICFORTRESS",
+      "reward": "1 Shield Generator"
+    },
+    {
+      "code": "WORLD2",
+      "reward": "1 Regional Depot"
+    },
+    {
+      "code": "UPDATE",
+      "reward": "Trooper"
     },
     {
       "code": "LOGI !",
