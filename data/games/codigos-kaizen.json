@@ -5,11 +5,11 @@
   "description": "Todos los códigos activos para Kaizen en Roblox",
   "metaTitle": "Códigos Kaizen Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Kaizen en Roblox. 6 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T09:54:29.892Z",
+  "lastUpdated": "2026-08-04T21:04:53.174Z",
   "activeCodes": [
     {
       "code": "KaizenQuality!",
-      "reward": "Recompensas",
+      "reward": "Recompensas gratis",
       "addedDate": "2026-07-27"
     },
     {
@@ -40,14 +40,6 @@
   ],
   "expiredCodes": [
     {
-      "code": "RyuSoon!",
-      "reward": "5 Lucky Clan giros, 2x Raid suerte (30 minutos), and 2x Mastery EXP (15 minutos)"
-    },
-    {
-      "code": "DragonKing",
-      "reward": "12 Lucky Clan giros and 12 Binding Vow giros"
-    },
-    {
       "code": "SPEAR_DELAY_CODE",
       "reward": "Recompensa gratis"
     },
@@ -60,26 +52,6 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "THANKS100K",
-      "reward": "Giros, Shards, Raid Boost"
-    },
-    {
-      "code": "CURSEDCOINS",
-      "reward": "10 Cursed monedas and 2x Raid suerte (30 minutos)"
-    },
-    {
-      "code": "Tradesman!",
-      "reward": "7 Lucky Clan giros and 8 Binding Vows"
-    },
-    {
-      "code": "Unban!",
-      "reward": "5 Lucky Clan giros and 5 Binding Vow giros"
-    },
-    {
-      "code": "infiniteMode!",
-      "reward": "8 Binding Vow giros and 8 Lucky Clan giros"
-    },
-    {
       "code": "TOJI_SOON",
       "reward": "Recompensa gratis"
     },
@@ -88,8 +60,36 @@
       "reward": "6 Lucky Clan giros and 6 Binding Vows"
     },
     {
+      "code": "JogoRaid!",
+      "reward": "2x Raid recompensa (30 minutos)"
+    },
+    {
+      "code": "6KPLAYERS!",
+      "reward": "5 Clan giros"
+    },
+    {
+      "code": "ZeninFix!",
+      "reward": "5 Lucky giros, 2x Raid Drop (20 minutos), and 5 Binding Vows"
+    },
+    {
       "code": "Tojishere!",
       "reward": "5 Lucky giros, 10 Clan giros, 2x Raid suerte (30 minutos), and 2x Mastery EXP (15 minutos)"
+    },
+    {
+      "code": "CURSEDCOINS",
+      "reward": "10 Cursed monedas and 2x Raid suerte (30 minutos)"
+    },
+    {
+      "code": "DragonKing",
+      "reward": "12 Lucky Clan giros and 12 Binding Vow giros"
+    },
+    {
+      "code": "FixesDone",
+      "reward": "10 Lucky Clan giros, 1 Random Companion cofres, and 10 Binding Vow giros"
+    },
+    {
+      "code": "BLACKFLASH_DELAY_WHOOPS",
+      "reward": "2 Clan giros"
     },
     {
       "code": "SUB_TO_GRIFON_GAMES_2",
@@ -98,10 +98,6 @@
     {
       "code": "SUB_TO_GRIFON_GAMES",
       "reward": "7 Clan giros"
-    },
-    {
-      "code": "2kCCU!",
-      "reward": "10 Clan giros, 1 Stat Purity Token, 2x EXP Boost (30 minutos), and 2x Mastery Boost (30 minutos)"
     },
     {
       "code": "KAIZENPEAK!",
@@ -244,6 +240,10 @@
       "reward": "5 Binding Vow giros, 15 Clan giros, and 30 minutos 2x Raid Drop Chance"
     },
     {
+      "code": "RyuSoon!",
+      "reward": "5 Lucky Clan giros, 2x Raid suerte (30 minutos), and 2x Mastery EXP (15 minutos)"
+    },
+    {
       "code": "PVP_SOON!",
       "reward": "7 Clan giros"
     },
@@ -256,18 +256,6 @@
       "reward": "10 Lucky Clan giros"
     },
     {
-      "code": "BLACKFLASH_DELAY_WHOOPS",
-      "reward": "2 Clan giros"
-    },
-    {
-      "code": "6KPLAYERS!",
-      "reward": "5 Clan giros"
-    },
-    {
-      "code": "4K_LIKES!",
-      "reward": "5 Clan giros"
-    },
-    {
       "code": "ALPHA!",
       "reward": "15 minuto 2x EXP"
     },
@@ -276,48 +264,72 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "2xRewards",
-      "reward": "5 Lucky giros and 5 Binding Vows"
-    },
-    {
       "code": "30kCCU!",
       "reward": "10 Lucky Clan giros and 10 Binding Vows giros"
     },
     {
-      "code": "HanamiHere!",
-      "reward": "6 Lucky Clan giros and 7 Binding Vow giros"
-    },
-    {
-      "code": "JogoRaid!",
-      "reward": "2x Raid recompensa (30 minutos)"
+      "code": "infiniteMode!",
+      "reward": "8 Binding Vow giros and 8 Lucky Clan giros"
     },
     {
       "code": "THANKS_FOR_14_MIL",
       "reward": "Recompensa gratis"
     },
     {
+      "code": "THANKS100K",
+      "reward": "Giros, Shards, Raid Boost"
+    },
+    {
       "code": "BUG_FIX",
       "reward": "Recompensa gratis"
+    },
+    {
+      "code": "2xRewards",
+      "reward": "5 Lucky giros and 5 Binding Vows"
     },
     {
       "code": "JogoUpdate!",
       "reward": "2x Mastery (15 minutos), 8 Binding Vow giros, and 7 Lucky giros"
     },
     {
+      "code": "2kCCU!",
+      "reward": "10 Clan giros, 1 Stat Purity Token, 2x EXP Boost (30 minutos), and 2x Mastery Boost (30 minutos)"
+    },
+    {
+      "code": "4K_LIKES!",
+      "reward": "5 Clan giros"
+    },
+    {
+      "code": "HanamiHere!",
+      "reward": "6 Lucky Clan giros and 7 Binding Vow giros"
+    },
+    {
       "code": "SpearSoon!",
       "reward": "10 Lucky Clan giros and 10 Binding Vow giros"
     },
     {
-      "code": "ZeninFix!",
-      "reward": "5 Lucky giros, 2x Raid Drop (20 minutos), and 5 Binding Vows"
-    },
-    {
-      "code": "FixesDone",
-      "reward": "10 Lucky Clan giros, 1 Random Companion cofres, and 10 Binding Vow giros"
-    },
-    {
       "code": "Lucky24k",
       "reward": "Lucky giros"
+    },
+    {
+      "code": "Tradesman!",
+      "reward": "7 Lucky Clan giros and 8 Binding Vows"
+    },
+    {
+      "code": "Unban!",
+      "reward": "5 Lucky Clan giros and 5 Binding Vow giros"
+    },
+    {
+      "code": "SubtoEmsis",
+      "reward": "6 Lucky Clan giros and 45 minutos 2x Raid recompensas"
+    },
+    {
+      "code": "Projection!",
+      "reward": "10 Lucky Clan giros and 10 Binding Vows"
+    },
+    {
+      "code": "Naoya!",
+      "reward": "7 Lucky Clan giros and 7 Binding Vows"
     },
     {
       "code": "YutaTime!",
