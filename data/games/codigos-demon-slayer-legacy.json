@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-7121786543df1541883ac191ed3ff808/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Demon Slayer Legacy en Roblox",
   "metaTitle": "Códigos Demon Slayer Legacy Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Demon Slayer Legacy en Roblox. 27 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-05T10:28:41.207Z",
+  "metaDescription": "Lista actualizada de códigos para Demon Slayer Legacy en Roblox. 23 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-05T21:00:17.466Z",
   "activeCodes": [
     {
       "code": "GETGUD",
@@ -28,19 +28,9 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "AUGSECONDWEEK",
-      "reward": "Recompensa desconocida",
-      "addedDate": "2026-08-05"
-    },
-    {
       "code": "MAJORDATABUGFIXFINAL",
       "reward": "100 giros",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "GETGUDV2",
-      "reward": "Recompensa desconocida",
-      "addedDate": "2026-08-05"
     },
     {
       "code": "OPTIMIZATION_ALMOSTCOMPLETE",
@@ -56,16 +46,6 @@
       "code": "FLAMEWATERBLOOD",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "AUGSECONDWEEK_STATRESET",
-      "reward": "A reinicio de stats",
-      "addedDate": "2026-08-05"
-    },
-    {
-      "code": "DATAUPGRADE2",
-      "reward": "Recompensa desconocida",
-      "addedDate": "2026-08-05"
     },
     {
       "code": "BUGFIX_moreEXP",
@@ -145,8 +125,24 @@
   ],
   "expiredCodes": [
     {
-      "code": "10KLIKESCODE",
-      "reward": "2x EXP Boost"
+      "code": "AUGSECONDWEEK",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "GETGUDV2",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "AUGSECONDWEEK_STATRESET",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "DATAUPGRADE2",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "UPCOMINGACCESSORYSHOP",
+      "reward": "Giros or Boosts gratis"
     },
     {
       "code": "BUGFIXCODESORRY!",
@@ -177,32 +173,32 @@
       "reward": "25 giros"
     },
     {
-      "code": "ANOTHERBUGFIXCODE!",
-      "reward": "25 giros"
-    },
-    {
-      "code": "RESETYOURSTAT",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "5KLIKESCODE",
-      "reward": "Two Times EXP Boost"
-    },
-    {
       "code": "3KLIKESCODE",
       "reward": "250K Yen"
-    },
-    {
-      "code": "2KLIKESCODE",
-      "reward": "Giros gratis"
     },
     {
       "code": "1KLIKESCODE",
       "reward": "27 giros gratis"
     },
     {
-      "code": "UPCOMINGACCESSORYSHOP",
-      "reward": "Giros or Boosts gratis"
+      "code": "2KLIKESCODE",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "10KLIKESCODE",
+      "reward": "2x EXP Boost"
+    },
+    {
+      "code": "RESETYOURSTAT",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "ANOTHERBUGFIXCODE!",
+      "reward": "25 giros"
+    },
+    {
+      "code": "5KLIKESCODE",
+      "reward": "Two Times EXP Boost"
     }
   ],
   "howToRedeem": [
