@@ -5,17 +5,20 @@
   "description": "Todos los códigos activos para One Punch Ultimate en Roblox",
   "metaTitle": "Códigos One Punch Ultimate Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para One Punch Ultimate en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-04T21:05:13.035Z",
-  "activeCodes": [],
-  "expiredCodes": [
-    {
-      "code": "bugwave3",
-      "reward": "30 giros"
-    },
+  "lastUpdated": "2026-08-05T10:29:47.680Z",
+  "activeCodes": [
     {
       "code": "bugwave2",
-      "reward": "30 giros"
+      "reward": "30 giros",
+      "addedDate": "2026-08-05"
     },
+    {
+      "code": "bugwave3",
+      "reward": "30 giros",
+      "addedDate": "2026-08-05"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "Rah!",
       "reward": "Doble EXP (45 minutos)"
@@ -49,22 +52,6 @@
       "reward": "1 hora doble"
     },
     {
-      "code": "LetsGetMoney!",
-      "reward": "Oro Buff (25 minutos)"
-    },
-    {
-      "code": "Open",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "Release",
-      "reward": "This code has expired"
-    },
-    {
-      "code": "welovebugs!!",
-      "reward": "2x EXP Boost (30 minutos)"
-    },
-    {
       "code": "SeakingSpawned",
       "reward": "45 giros"
     },
@@ -95,6 +82,22 @@
     {
       "code": "100K",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "LetsGetMoney!",
+      "reward": "Oro Buff (25 minutos)"
+    },
+    {
+      "code": "Open",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "Release",
+      "reward": "This code has expired"
+    },
+    {
+      "code": "welovebugs!!",
+      "reward": "2x EXP Boost (30 minutos)"
     },
     {
       "code": "BugFix2",
