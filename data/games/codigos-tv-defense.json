@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-e30b2e177388f0a00cd2124870a12155/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Tv Defense en Roblox",
   "metaTitle": "Códigos Tv Defense Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Tv Defense en Roblox. 41 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-07T08:50:48.780Z",
+  "metaDescription": "Lista actualizada de códigos para Tv Defense en Roblox. 40 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-07T20:34:15.018Z",
   "activeCodes": [
     {
       "code": "BACKROOM2026",
@@ -73,11 +73,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "CHRISTMAS2026",
-      "reward": "Gemas",
-      "addedDate": "2026-08-07"
-    },
-    {
       "code": "NIGHTMARE",
       "reward": "1900 monedas",
       "addedDate": "2026-08-01"
@@ -103,13 +98,18 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "HALLOWEEN",
-      "reward": "500 Pumpkins",
+      "code": "BACKROOM",
+      "reward": "9 Almond Water",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "ROSE",
-      "reward": "500 Hearts",
+      "code": "MEME2025",
+      "reward": "5 Cat monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "NEWYEAR2025",
+      "reward": "500 gemas",
       "addedDate": "2026-08-01"
     },
     {
@@ -118,12 +118,37 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "TUNGTUNGTUNG",
+      "reward": "300 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "FREEGEMS",
+      "reward": "500 gemas (Play more than 5 games to redeem)",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "MEOWDEV",
+      "reward": "1900 dinero",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SCPEVENT",
+      "reward": "500 SCP monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "FEBRUARY14",
+      "reward": "500 Hearts",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "MEME2024",
       "reward": "9 Meme monedas (Play more than 5 games to redeem)",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "HALLOWEENPART2",
+      "code": "HALLOWEEN",
       "reward": "500 Pumpkins",
       "addedDate": "2026-08-01"
     },
@@ -163,48 +188,18 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "COMEBACK",
-      "reward": "1900 dinero",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BACKROOM",
-      "reward": "9 Almond Water",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "FEBRUARY14",
+      "code": "ROSE",
       "reward": "500 Hearts",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "MEME2025",
-      "reward": "5 Cat monedas",
+      "code": "HALLOWEENPART2",
+      "reward": "500 Pumpkins",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "TUNGTUNGTUNG",
-      "reward": "300 gemas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "MEOWDEV",
+      "code": "COMEBACK",
       "reward": "1900 dinero",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "NEWYEAR2025",
-      "reward": "500 gemas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "FREEGEMS",
-      "reward": "500 gemas (Play more than 5 games to redeem)",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SCPEVENT",
-      "reward": "500 SCP monedas",
       "addedDate": "2026-08-01"
     },
     {
@@ -214,6 +209,10 @@
     }
   ],
   "expiredCodes": [
+    {
+      "code": "CHRISTMAS2026",
+      "reward": "Gemas"
+    },
     {
       "code": "EASTERDAY",
       "reward": "5 Easter Eggs"
