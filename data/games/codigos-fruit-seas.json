@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-f587ec6f17720cd05e308003996c1e2b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fruit Seas en Roblox",
   "metaTitle": "Códigos Fruit Seas Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 70 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-06T10:31:53.221Z",
+  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 69 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-07T00:52:03.407Z",
   "activeCodes": [
     {
       "code": "SafeAgain",
@@ -46,11 +46,6 @@
       "code": "AntiLag",
       "reward": "Recompensas gratis",
       "addedDate": "2026-05-25"
-    },
-    {
-      "code": "exp1_upd10",
-      "reward": "2x EXP",
-      "addedDate": "2026-08-06"
     },
     {
       "code": "2xexp2_upd10",
@@ -98,6 +93,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "FRESHSTART",
+      "reward": "Reinicio de stats",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "ITSFINALLYHERE",
       "reward": "Doble Beli (20 minutos)",
       "addedDate": "2026-08-01"
@@ -113,13 +113,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "FRESHSTART",
+      "code": "5KLIKES",
       "reward": "Reinicio de stats",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "5KLIKES",
-      "reward": "Reinicio de stats",
+      "code": "500KVISITS",
+      "reward": "Doble Drops (15 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -130,11 +130,6 @@
     {
       "code": "7KLIKES",
       "reward": "2x EXP (20 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "500KVISITS",
-      "reward": "Doble Drops (15 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -360,6 +355,10 @@
   ],
   "expiredCodes": [
     {
+      "code": "exp1_upd10",
+      "reward": "2x EXP"
+    },
+    {
       "code": "NEWWORLD",
       "reward": "Random Fruit"
     },
@@ -370,6 +369,10 @@
     {
       "code": "NewHorizons!!!",
       "reward": "2x Drops Boost (48 horas)"
+    },
+    {
+      "code": "JahsCode!",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "ThanksSwTwN!",
@@ -462,10 +465,6 @@
     {
       "code": "BUGFIXES",
       "reward": "Doble Drops (15 minutos)"
-    },
-    {
-      "code": "JahsCode!",
-      "reward": "Recompensa gratis"
     },
     {
       "code": "EXPPBOOSTT!",
