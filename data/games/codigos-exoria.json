@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-1c4f833179e63bbeab196c0944faeeb5/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Exoria en Roblox",
   "metaTitle": "Códigos Exoria Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Exoria en Roblox. 23 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T09:54:08.747Z",
+  "metaDescription": "Lista actualizada de códigos para Exoria en Roblox. 24 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-08T20:20:42.469Z",
   "activeCodes": [
+    {
+      "code": "ELFUPDATE",
+      "reward": "X2 EXP (15 min)",
+      "addedDate": "2026-08-08"
+    },
     {
       "code": "INFINITYDUNGEON",
       "reward": "5 tiradas",
@@ -133,16 +138,12 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "QOL",
-      "reward": "5 tiradas"
-    },
-    {
       "code": "ROLLUP",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "FREEROLLS",
-      "reward": "Recompensas gratis"
+      "code": "QOL",
+      "reward": "5 tiradas"
     },
     {
       "code": "VOIDROLL",
@@ -154,6 +155,10 @@
     },
     {
       "code": "UPDATE1",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FREEROLLS",
       "reward": "Recompensas gratis"
     }
   ],
