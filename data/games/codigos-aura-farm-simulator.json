@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-642fab7432ec9be939f2f971460b2cb8/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Aura Farm Simulator en Roblox",
   "metaTitle": "Códigos Aura Farm Simulator Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Aura Farm Simulator en Roblox. 23 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-08T20:20:08.582Z",
+  "metaDescription": "Lista actualizada de códigos para Aura Farm Simulator en Roblox. 25 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-09T08:32:41.201Z",
   "activeCodes": [
     {
       "code": "UPDATE7",
@@ -20,11 +20,11 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "DELAYED",
+      "code": "OFFLINE",
       "reward": "Boosts"
     },
     {
-      "code": "OFFLINE",
+      "code": "DELAYED",
       "reward": "Boosts"
     },
     {
@@ -40,7 +40,7 @@
       "reward": "Boosts"
     },
     {
-      "code": "UPDATE4",
+      "code": "3MVISITS",
       "reward": "Boosts"
     },
     {
@@ -48,7 +48,7 @@
       "reward": "Boosts"
     },
     {
-      "code": "3MVISITS",
+      "code": "UPDATE4",
       "reward": "Boosts"
     },
     {
@@ -56,11 +56,11 @@
       "reward": "Boosts"
     },
     {
-      "code": "SUMMER",
+      "code": "1MVISITS",
       "reward": "Boosts"
     },
     {
-      "code": "SORRYFORDELAY",
+      "code": "SUMMER",
       "reward": "Boosts"
     },
     {
@@ -68,7 +68,7 @@
       "reward": "Boosts"
     },
     {
-      "code": "1MVISITS",
+      "code": "SORRYFORDELAY",
       "reward": "Boosts"
     },
     {
@@ -85,7 +85,11 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "100KVISITS",
+      "code": "400CCU",
+      "reward": "Boosts"
+    },
+    {
+      "code": "UPDATE2",
       "reward": "Boosts"
     },
     {
@@ -93,23 +97,21 @@
       "reward": "Boosts"
     },
     {
-      "code": "400CCU",
-      "reward": "Boosts"
-    },
-    {
-      "code": "UPDATE2",
-      "reward": "Boosts"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "50KVISITS",
+      "code": "100KVISITS",
       "reward": "Boosts"
     },
     {
       "code": "200CCU",
-      "reward": "Boosts"
+      "reward": "Boosts",
+      "addedDate": "2026-08-09"
     },
+    {
+      "code": "50KVISITS",
+      "reward": "Boosts",
+      "addedDate": "2026-08-09"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "UPDATE1.5",
       "reward": "Boosts"

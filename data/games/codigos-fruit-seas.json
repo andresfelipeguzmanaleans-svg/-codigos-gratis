@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-f587ec6f17720cd05e308003996c1e2b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fruit Seas en Roblox",
   "metaTitle": "Códigos Fruit Seas Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 69 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-08T20:20:48.434Z",
+  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 70 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-09T08:33:20.593Z",
   "activeCodes": [
     {
       "code": "SafeAgain",
@@ -48,6 +48,11 @@
       "addedDate": "2026-05-25"
     },
     {
+      "code": "exp1_upd10",
+      "reward": "2x EXP",
+      "addedDate": "2026-08-09"
+    },
+    {
       "code": "2xexp2_upd10",
       "reward": "2x EXP",
       "addedDate": "2026-08-01"
@@ -83,18 +88,18 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "WelcomeBack!",
-      "reward": "2x EXP For 1 Week",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "WBStat!",
       "reward": "1 reinicio de stats",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "RELEASE",
-      "reward": "Doble Mastery",
+      "code": "WelcomeBack!",
+      "reward": "2x EXP For 1 Week",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "UPDATETIME",
+      "reward": "2x EXP (30 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -153,18 +158,18 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "10KLIKES",
-      "reward": "Doble Mastery (20 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "DEMONTIMING",
       "reward": "5000 Beli",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "UPDATETIME",
-      "reward": "2x EXP (30 minutos)",
+      "code": "10KLIKES",
+      "reward": "Doble Mastery (20 minutos)",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "Doble Mastery",
       "addedDate": "2026-08-01"
     },
     {
@@ -198,11 +203,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SORRY4SHUTDOWN",
-      "reward": "Doble Drops (10 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "ALTERMIHAWKBOSS!!",
       "reward": "Race Reroll",
       "addedDate": "2026-08-01"
@@ -225,6 +225,11 @@
     {
       "code": "60KLIKES",
       "reward": "Reinicio de stats",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SORRY4SHUTDOWN",
+      "reward": "Doble Drops (10 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -355,12 +360,8 @@
   ],
   "expiredCodes": [
     {
-      "code": "exp1_upd10",
-      "reward": "2x EXP"
-    },
-    {
-      "code": "IceAge!",
-      "reward": "2x Drops Boost (48 horas)"
+      "code": "NEWWORLD",
+      "reward": "Random Fruit"
     },
     {
       "code": "SHUTDOWN",
@@ -373,10 +374,6 @@
     {
       "code": "Upd2lol",
       "reward": "Unknown"
-    },
-    {
-      "code": "JahsCode!",
-      "reward": "Recompensa gratis"
     },
     {
       "code": "ThanksSwTwN!",
@@ -403,8 +400,8 @@
       "reward": "Race Reroll and 2x EXP"
     },
     {
-      "code": "NEWWORLD",
-      "reward": "Random Fruit"
+      "code": "IceAge!",
+      "reward": "2x Drops Boost (48 horas)"
     },
     {
       "code": "FARMMM!!!",
@@ -465,6 +462,10 @@
     {
       "code": "BUGFIXES",
       "reward": "Doble Drops (15 minutos)"
+    },
+    {
+      "code": "JahsCode!",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "EXPPBOOSTT!",
