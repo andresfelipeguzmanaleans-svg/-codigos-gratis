@@ -5,11 +5,11 @@
   "description": "Todos los códigos activos para Build A Military Base en Roblox",
   "metaTitle": "Códigos Build A Military Base Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Build A Military Base en Roblox. 48 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-04T21:04:10.755Z",
+  "lastUpdated": "2026-08-09T20:22:24.211Z",
   "activeCodes": [
     {
       "code": "123BUGFIX",
-      "reward": "Recompensas",
+      "reward": "Headquarters",
       "addedDate": "2026-08-04"
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "code": "SNUGASABUG",
-      "reward": "Recompensas",
+      "reward": "Recompensas gratis",
       "addedDate": "2026-07-21"
     },
     {
@@ -250,44 +250,20 @@
   ],
   "expiredCodes": [
     {
-      "code": "HAWK",
-      "reward": "1 Headquarter"
+      "code": "BEHEMOTH",
+      "reward": "1 Research Lab"
     },
     {
       "code": "90000LIKES",
       "reward": "1 Experimental Gantry"
     },
     {
-      "code": "BEHEMOTH",
-      "reward": "1 Research Lab"
-    },
-    {
-      "code": "130000MEMBERS",
-      "reward": "1 Logistics Center"
-    },
-    {
-      "code": "CLOWN",
-      "reward": "Balloon Cart"
-    },
-    {
       "code": "RESTARTAGAIN",
       "reward": "Vehicle Depot"
     },
     {
-      "code": "WORLD2",
-      "reward": "1 Regional Depot"
-    },
-    {
-      "code": "150000MEMBERS",
-      "reward": "1 Industrial Drill"
-    },
-    {
       "code": "115000LIKES",
       "reward": "1 Data Center"
-    },
-    {
-      "code": "180000MEMBERS",
-      "reward": "1 Industrial Drill"
     },
     {
       "code": "SORRY",
@@ -302,28 +278,64 @@
       "reward": "1 Missile Turret"
     },
     {
-      "code": "UPDATETWO",
-      "reward": "Humvi"
-    },
-    {
       "code": "SRY4SHUTDOWN",
       "reward": "Experimental Gantry"
-    },
-    {
-      "code": "RELEASE",
-      "reward": "Light Tank Factory"
     },
     {
       "code": "ARCTICFORTRESS",
       "reward": "1 Shield Generator"
     },
     {
+      "code": "UPDATE",
+      "reward": "Trooper"
+    },
+    {
+      "code": "HAWK",
+      "reward": "1 Headquarter"
+    },
+    {
+      "code": "WORLD2",
+      "reward": "1 Regional Depot"
+    },
+    {
       "code": "1MILLION",
       "reward": "Amethyst Tree"
     },
     {
-      "code": "UPDATE",
-      "reward": "Trooper"
+      "code": "RELEASE",
+      "reward": "Light Tank Factory"
+    },
+    {
+      "code": "UPDATETWO",
+      "reward": "Humvi"
+    },
+    {
+      "code": "150000MEMBERS",
+      "reward": "1 Industrial Drill"
+    },
+    {
+      "code": "CLOWN",
+      "reward": "Balloon Cart"
+    },
+    {
+      "code": "130000MEMBERS",
+      "reward": "1 Logistics Center"
+    },
+    {
+      "code": "180000MEMBERS",
+      "reward": "1 Industrial Drill"
+    },
+    {
+      "code": "QOL",
+      "reward": "1 Premium cofre"
+    },
+    {
+      "code": "NEMESIS",
+      "reward": "1 Premium cofre"
+    },
+    {
+      "code": "2XSPEED",
+      "reward": "1 Premium cofre"
     },
     {
       "code": "LOGI !",

@@ -5,16 +5,16 @@
   "description": "Todos los códigos activos para Racket Rivals en Roblox",
   "metaTitle": "Códigos Racket Rivals Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Racket Rivals en Roblox. 46 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-03T20:58:44.286Z",
+  "lastUpdated": "2026-08-09T20:23:40.994Z",
   "activeCodes": [
     {
       "code": "LOW",
-      "reward": "Recompensas",
+      "reward": "1,500 Yen",
       "addedDate": "2026-08-03"
     },
     {
       "code": "SPIRIT10",
-      "reward": "Recompensas",
+      "reward": "1,500 Yen",
       "addedDate": "2026-08-03"
     },
     {
@@ -244,8 +244,24 @@
       "reward": "Lucky giro"
     },
     {
+      "code": "SorryRanked",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "UPDATE9",
+      "reward": "250 Yen"
+    },
+    {
+      "code": "UPDATE12",
+      "reward": "500 Yen"
+    },
+    {
       "code": "BIG",
       "reward": "1,500 Yen"
+    },
+    {
+      "code": "MECHAWK",
+      "reward": "150 Yen"
     },
     {
       "code": "HONKIN",
@@ -256,8 +272,8 @@
       "reward": "250 Yen"
     },
     {
-      "code": "MECHAWK",
-      "reward": "150 Yen"
+      "code": "RUBYCLASH",
+      "reward": "Giros And Yen"
     },
     {
       "code": "RANKEDSOLO",
@@ -272,20 +288,16 @@
       "reward": "1,500 Yen"
     },
     {
-      "code": "MERRYCHRISTMAS",
+      "code": "UPDATETHREE",
+      "reward": "100 Yen"
+    },
+    {
+      "code": "REFINE",
       "reward": "700 Yen"
     },
     {
-      "code": "SorryRanked",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPDATE10",
-      "reward": "500 Yen"
-    },
-    {
-      "code": "UPDATE9",
-      "reward": "250 Yen"
+      "code": "USEMATCHMAKING",
+      "reward": "Lucky giro"
     },
     {
       "code": "NOWAYFIFTYK",
@@ -300,16 +312,8 @@
       "reward": "150 yen"
     },
     {
-      "code": "CREATECLUB",
-      "reward": "150 Yen"
-    },
-    {
-      "code": "UPDATE8",
-      "reward": "Giros And Yen"
-    },
-    {
-      "code": "resetstats",
-      "reward": "Reset Stats"
+      "code": "MERRYCHRISTMAS",
+      "reward": "700 Yen"
     },
     {
       "code": "TASK80",
@@ -318,6 +322,26 @@
     {
       "code": "BIGRANKED",
       "reward": "1 Lucky giro And 100 Yen"
+    },
+    {
+      "code": "UPDATE8",
+      "reward": "Giros And Yen"
+    },
+    {
+      "code": "UPDATE4",
+      "reward": "250 Yen"
+    },
+    {
+      "code": "CREATECLUB",
+      "reward": "150 Yen"
+    },
+    {
+      "code": "UPDATE10",
+      "reward": "500 Yen"
+    },
+    {
+      "code": "resetstats",
+      "reward": "Reset Stats"
     },
     {
       "code": "UPDATE6",
@@ -344,14 +368,6 @@
       "reward": "500 Yen"
     },
     {
-      "code": "USEMATCHMAKING",
-      "reward": "Lucky giro"
-    },
-    {
-      "code": "RUBYCLASH",
-      "reward": "Giros And Yen"
-    },
-    {
       "code": "mistaworldwide",
       "reward": "Yen"
     },
@@ -360,28 +376,20 @@
       "reward": "Lucky giro"
     },
     {
-      "code": "FREEJIN",
-      "reward": "100 Yen"
-    },
-    {
       "code": "TIDEWALL",
       "reward": "100 Yen"
     },
     {
-      "code": "UPDATE4",
-      "reward": "250 Yen"
-    },
-    {
-      "code": "UPDATE12",
-      "reward": "500 Yen"
-    },
-    {
-      "code": "REFINE",
-      "reward": "700 Yen"
-    },
-    {
-      "code": "UPDATETHREE",
+      "code": "FREEJIN",
       "reward": "100 Yen"
+    },
+    {
+      "code": "CARD",
+      "reward": "750 Yen"
+    },
+    {
+      "code": "SCORE",
+      "reward": "750 Yen"
     },
     {
       "code": "SEASON2BUG",
