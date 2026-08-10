@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-fd1e377f2e70ba028820e9d761ef4e13/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Project New World en Roblox",
   "metaTitle": "Códigos Project New World Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Project New World en Roblox. 37 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-09T20:23:38.620Z",
+  "metaDescription": "Lista actualizada de códigos para Project New World en Roblox. 38 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-10T20:35:07.502Z",
   "activeCodes": [
+    {
+      "code": "ABYSSALCTHULHU",
+      "reward": "5 Race giros",
+      "addedDate": "2026-08-10"
+    },
     {
       "code": "CRIMSONEMPEROR",
       "reward": "5 Race giros",
@@ -138,7 +143,22 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "VALENTINES2024",
+      "reward": "3 Race giros, 2x EXP (30 minutos)",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "XMAS2023",
+      "reward": "2x EXP (2 horas)",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "LETSGO375KHAZE",
+      "reward": "3 Race giros, 15 gemas, 1 reinicio de stats",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "WOW325KMLG",
       "reward": "3 Race giros, 15 gemas, 1 reinicio de stats",
       "addedDate": "2026-08-01"
     },
@@ -148,27 +168,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "WOW325KMLG",
-      "reward": "3 Race giros, 15 gemas, 1 reinicio de stats",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "VALENTINES2024",
-      "reward": "3 Race giros, 2x EXP (30 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "NEXTAT350KLIKES",
-      "reward": "3 Race giros, 15 gemas, 1 reinicio de stats",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "XMAS2023",
-      "reward": "2x EXP (2 horas)",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "NEXTCODEAT400KLIKES",
       "reward": "3 Race giros, 15 gemas, 1 reinicio de stats",
       "addedDate": "2026-08-01"
     },
@@ -178,8 +178,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "LETSGET450K2024",
-      "reward": "15 gemas",
+      "code": "NEXTCODEAT400KLIKES",
+      "reward": "3 Race giros, 15 gemas, 1 reinicio de stats",
       "addedDate": "2026-08-01"
     },
     {
@@ -191,12 +191,17 @@
       "code": "HAZEPIECE23",
       "reward": "2x EXP Boost (1 hora)",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "LETSGET450K2024",
+      "reward": "15 gemas",
+      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "RELEASEYT",
-      "reward": "2x EXP for 30 minutos"
+      "code": "HAPPYNEWYEARS",
+      "reward": "Giros"
     },
     {
       "code": "NEXT@115KLIKES",
@@ -213,10 +218,6 @@
     {
       "code": "THANKSFOR70K2023",
       "reward": "2x EXP for 30 minutos"
-    },
-    {
-      "code": "HAPPYNEWYEARS",
-      "reward": "Giros"
     },
     {
       "code": "250KLETSGO",
@@ -291,8 +292,8 @@
       "reward": "3 Race giros, 15 gemas, 1 reinicio de stats"
     },
     {
-      "code": "ABYSSALCTHULHU",
-      "reward": "5 Race giros"
+      "code": "RELEASEYT",
+      "reward": "2x EXP for 30 minutos"
     }
   ],
   "howToRedeem": [
