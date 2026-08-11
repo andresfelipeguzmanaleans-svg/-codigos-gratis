@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-de895d4bbe916fe654dd3656d3e2f176/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Kaiju Paradise en Roblox",
   "metaTitle": "Códigos Kaiju Paradise Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Kaiju Paradise en Roblox. 19 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-09T20:23:08.299Z",
+  "metaDescription": "Lista actualizada de códigos para Kaiju Paradise en Roblox. 21 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-11T08:47:11.202Z",
   "activeCodes": [
     {
       "code": "kaijubackon2025",
@@ -35,6 +35,16 @@
     {
       "code": "SMALLLOAN",
       "reward": "1,000 Candies",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "soretro",
+      "reward": "2 Linked Swords",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "CompensationNumber2",
+      "reward": "Unusual cofre",
       "addedDate": "2026-08-01"
     },
     {
@@ -68,14 +78,24 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Sigma",
-      "reward": "1 Unusual regalo",
+      "code": "anotherboringfixes2",
+      "reward": "2 Unusual Gifts",
       "addedDate": "2026-08-01"
     },
     {
       "code": "WhenIsUpdate",
       "reward": "1 Strange Sign",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Sigma",
+      "reward": "1 Unusual regalo",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "250TRILLION",
+      "reward": "3 Unusual Gifts",
+      "addedDate": "2026-08-11"
     },
     {
       "code": "idontlikedoingthis",
@@ -91,23 +111,9 @@
       "code": "sundayormonday",
       "reward": "1 Unusual regalo",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "soretro",
-      "reward": "2 Linked Swords",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "CompensationNumber2",
-      "reward": "Unusual cofre",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
-    {
-      "code": "250TRILLION",
-      "reward": "3 Unusual Gifts"
-    },
     {
       "code": "MAIN_LIMITED_1",
       "reward": "1,499"
@@ -131,22 +137,6 @@
     {
       "code": "idkgoodcodenamelol",
       "reward": "2 Unusual Gifts"
-    },
-    {
-      "code": "WOWFREESTUFF_4",
-      "reward": "1 Unusual regalo"
-    },
-    {
-      "code": "APRIL_FOOL",
-      "reward": "1 Unusual regalo"
-    },
-    {
-      "code": "LIMITED_CODE_1",
-      "reward": "222 Yow"
-    },
-    {
-      "code": "FREESTUFF_6",
-      "reward": "1250 créditos"
     },
     {
       "code": "barrierfix",
@@ -215,6 +205,14 @@
     {
       "code": "WOWFREESTUFF_1",
       "reward": "800 créditos"
+    },
+    {
+      "code": "LIMITED_CODE_1",
+      "reward": "222 Yow"
+    },
+    {
+      "code": "FREESTUFF_6",
+      "reward": "1250 créditos"
     },
     {
       "code": "3.1R",
@@ -381,6 +379,10 @@
       "reward": "2 Unusual Gifts"
     },
     {
+      "code": "LIMIT_TESTING_1",
+      "reward": "Recompensa gratis"
+    },
+    {
       "code": "ANNIVERSARY_2024",
       "reward": "2,000"
     },
@@ -389,32 +391,12 @@
       "reward": "1 Unusual regalo"
     },
     {
-      "code": "ANDSOITBEGINS",
-      "reward": "333"
-    },
-    {
       "code": "codeforbuldiga2282",
       "reward": "2,282 créditos"
     },
     {
-      "code": "RefreshFixes",
-      "reward": "1 Unusual regalo"
-    },
-    {
       "code": "nomorehallows",
       "reward": "1,000 créditos"
-    },
-    {
-      "code": "LIMIT_TESTING_1",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "binterbpdate",
-      "reward": "499 Candy Canes"
-    },
-    {
-      "code": "hallowfixes",
-      "reward": "1 Unusual regalo"
     },
     {
       "code": "RAIN",
@@ -425,7 +407,19 @@
       "reward": "1 Unusual regalo and 2,025"
     },
     {
-      "code": "RefreshFixesAgain",
+      "code": "BASH",
+      "reward": "1,000 Candies"
+    },
+    {
+      "code": "SomeOpt",
+      "reward": "1 Unusual regalo"
+    },
+    {
+      "code": "anotherboringfixes",
+      "reward": "2 Unusual Gifts"
+    },
+    {
+      "code": "hallowfixes",
       "reward": "1 Unusual regalo"
     },
     {
@@ -433,20 +427,24 @@
       "reward": "2,500 créditos"
     },
     {
-      "code": "anotherboringfixes",
-      "reward": "2 Unusual Gifts"
+      "code": "RefreshFixes",
+      "reward": "1 Unusual regalo"
     },
     {
-      "code": "BASH",
-      "reward": "1,000 Candies"
+      "code": "RefreshFixesAgain",
+      "reward": "1 Unusual regalo"
+    },
+    {
+      "code": "ANDSOITBEGINS",
+      "reward": "333"
     },
     {
       "code": "peaceful",
       "reward": "1 Linked Sword"
     },
     {
-      "code": "SomeOpt",
-      "reward": "1 Unusual regalo"
+      "code": "binterbpdate",
+      "reward": "499 Candy Canes"
     },
     {
       "code": "FREECODEYAY",
@@ -471,10 +469,6 @@
     {
       "code": "Raytrax",
       "reward": "1 Unusual regalo"
-    },
-    {
-      "code": "LABUBUCUTELMX",
-      "reward": "Recompensas gratis"
     },
     {
       "code": "RaytraxStatFix",
@@ -515,6 +509,10 @@
     {
       "code": "YOW_3",
       "reward": "333 Yow"
+    },
+    {
+      "code": "LABUBUCUTELMX",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "EATTABLEYUMMY",
@@ -583,6 +581,14 @@
     {
       "code": "wethepeople",
       "reward": "1 Patriot's Pride"
+    },
+    {
+      "code": "WOWFREESTUFF_4",
+      "reward": "1 Unusual regalo"
+    },
+    {
+      "code": "APRIL_FOOL",
+      "reward": "1 Unusual regalo"
     },
     {
       "code": "IlI1|lIl||1lIlIII|Il1lI|I1|lI",
