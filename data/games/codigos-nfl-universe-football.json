@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-6fe51b1f482024f87a5c57f0d08f4e08/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Nfl Universe Football en Roblox",
   "metaTitle": "Códigos Nfl Universe Football Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Nfl Universe Football en Roblox. 136 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-11T08:47:29.421Z",
+  "metaDescription": "Lista actualizada de códigos para Nfl Universe Football en Roblox. 135 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-11T20:38:12.581Z",
   "activeCodes": [
     {
       "code": "BLACKOUT",
@@ -212,10 +212,6 @@
       "reward": "1x Christmas Emote Case 2025"
     },
     {
-      "code": "XMAS25",
-      "reward": "1x Christmas Effect Case 2025"
-    },
-    {
       "code": "XMASSKINS25",
       "reward": "1x Christmas skin Case 2025"
     },
@@ -268,12 +264,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "NFL2025",
+      "code": "SEASONONE",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SEASONONE",
+      "code": "NFL2025",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
@@ -323,17 +319,22 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "SEASON4",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "OCTNEWSLETTER",
       "reward": "10k monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "6KWOO",
+      "code": "8KCCU",
       "reward": "5k monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "8KCCU",
+      "code": "6KWOO",
       "reward": "5k monedas",
       "addedDate": "2026-08-01"
     },
@@ -343,77 +344,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SEASON4",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "100KFAVS",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "UF40K",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "Nickglush",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "50KLIKES",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "THANKSGIVING2023",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BlackFriday",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "VETDAY",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "60MILVISITS",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "50MILVISITS",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "80KLIKES",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "55KLIKES",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "85KLIKES",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "DecemberNewsletter",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "EPICSOTM",
+      "code": "50KMRS",
       "reward": "10k monedas",
       "addedDate": "2026-08-01"
     },
@@ -423,8 +354,53 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "EPICSOTM",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "UF40K",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "DecemberNewsletter",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "100KFAVS",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "85KLIKES",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "55KLIKES",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "80KLIKES",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "50MILVISITS",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "SKULLBALL",
       "reward": "Skull Ball skin",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "60MILVISITS",
+      "reward": "10k monedas",
       "addedDate": "2026-08-01"
     },
     {
@@ -434,6 +410,21 @@
     },
     {
       "code": "SEASON5",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "VETDAY",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "BlackFriday",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "50KLIKES",
       "reward": "10k monedas",
       "addedDate": "2026-08-01"
     },
@@ -458,7 +449,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "50KMRS",
+      "code": "THANKSGIVING2023",
       "reward": "10k monedas",
       "addedDate": "2026-08-01"
     },
@@ -478,43 +469,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "BIRTHDAY2025",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SEASON13",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "EXTRAPUMPKINS",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "UNIVERSEFOOTBALL2024",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "200KG",
+      "code": "Nickglush",
       "reward": "10k monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "AUCTIONSONLINE",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "2025",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "PARKIMPROVEMENTS",
-      "reward": "Recompensas gratis",
+      "code": "EASTER2024",
+      "reward": "5k Eggs",
       "addedDate": "2026-08-01"
     },
     {
@@ -528,12 +489,62 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "100m",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "PROBOWL2025",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
     {
       "code": "SEASON15",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "EXTRAPUMPKINS",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SNOWMAN2024",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "FEBNEWSLETTER",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "VETERANSDAY2024",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SEASON14",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Holiday2023",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "200KG",
+      "reward": "10k monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "AUCTIONSONLINE",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "CREWS",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
@@ -548,12 +559,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "HALLOWEEN2024",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SNOWMAN2024",
+      "code": "UNIVERSEFOOTBALL2024",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
@@ -563,9 +569,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "100m",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
+      "code": "ENDZONE",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "PresidentsDay",
@@ -583,7 +588,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "CREWS",
+      "code": "HALLOWEEN2024",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
@@ -593,31 +598,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SEASON7",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "UF200K",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SEASON14",
+      "code": "BIRTHDAY2025",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SEASON8",
-      "reward": "10k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "ENDZONE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "VETERANSDAY2024",
+      "code": "PARKIMPROVEMENTS",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
@@ -627,18 +613,28 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "FEBNEWSLETTER",
+      "code": "2025",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SEASON7",
       "reward": "10k monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Holiday2023",
+      "code": "SEASON13",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "UF200K",
       "reward": "10k monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "EASTER2024",
-      "reward": "5k Eggs",
+      "code": "SEASON8",
+      "reward": "10k monedas",
       "addedDate": "2026-08-01"
     },
     {
@@ -647,7 +643,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SPACE",
+      "code": "SEASON16",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
@@ -657,20 +653,20 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "MUTATIONS",
+      "code": "SPACE",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SEASON16",
+      "code": "MUTATIONS",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "WeLoveFridays",
-      "reward": "A Pro Pack"
+      "code": "4KLIKES",
+      "reward": "20K monedas (req. 30 OVR)"
     },
     {
       "code": "PreSeason2021",
@@ -737,10 +733,6 @@
       "reward": "20K monedas (req. 30 OVR)"
     },
     {
-      "code": "RSNXUFTT",
-      "reward": "20k monedas (req. 30 OVR)"
-    },
-    {
       "code": "SaintPatty",
       "reward": "Pro Pack (req. 30 OVR)"
     },
@@ -753,8 +745,12 @@
       "reward": "20K monedas (req. 30 OVR)"
     },
     {
-      "code": "JVIDYN",
-      "reward": "20k monedas (req. 30 OVR)"
+      "code": "40MIL",
+      "reward": "10k monedas"
+    },
+    {
+      "code": "250BOOSTS",
+      "reward": "20K monedas (req. 30 OVR)"
     },
     {
       "code": "FBUChristmas2021",
@@ -837,12 +833,12 @@
       "reward": "A Pro Pack"
     },
     {
-      "code": "SBPatriotsXI",
+      "code": "WeLoveFridays",
       "reward": "A Pro Pack"
     },
     {
-      "code": "40MIL",
-      "reward": "10k monedas"
+      "code": "SBPatriotsXI",
+      "reward": "A Pro Pack"
     },
     {
       "code": "DEVIOUSRED",
@@ -963,6 +959,22 @@
     {
       "code": "25M",
       "reward": "5k monedas"
+    },
+    {
+      "code": "AFLS17",
+      "reward": "20K monedas (req. 30 OVR)"
+    },
+    {
+      "code": "RSNXUFTT",
+      "reward": "20k monedas (req. 30 OVR)"
+    },
+    {
+      "code": "GREENPROWLERS",
+      "reward": "Green Prowlers cosmetic objeto (limitado)"
+    },
+    {
+      "code": "JVIDYN",
+      "reward": "20k monedas (req. 30 OVR)"
     },
     {
       "code": "4thOfJuly",
@@ -1101,20 +1113,12 @@
       "reward": "20K monedas (req. 30 OVR)"
     },
     {
-      "code": "AFLS17",
-      "reward": "20K monedas (req. 30 OVR)"
-    },
-    {
       "code": "2KLIKES",
       "reward": "10K monedas (req. 30 OVR)"
     },
     {
       "code": "November2021",
       "reward": "A Pro Pack"
-    },
-    {
-      "code": "250BOOSTS",
-      "reward": "20K monedas (req. 30 OVR)"
     },
     {
       "code": "COINDROP1",
@@ -1261,10 +1265,6 @@
       "reward": "Playmaker Pack"
     },
     {
-      "code": "GREENPROWLERS",
-      "reward": "Green Prowlers cosmetic objeto (limitado)"
-    },
-    {
       "code": "WhatsToComeJune",
       "reward": "10k monedas (req. 30 OVR)"
     },
@@ -1314,10 +1314,6 @@
     },
     {
       "code": "5KPLAYERS",
-      "reward": "20K monedas (req. 30 OVR)"
-    },
-    {
-      "code": "4KLIKES",
       "reward": "20K monedas (req. 30 OVR)"
     }
   ],

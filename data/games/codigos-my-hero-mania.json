@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-844d96f080db03269aed94bc8060f19c/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para My Hero Mania en Roblox",
   "metaTitle": "Códigos My Hero Mania Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para My Hero Mania en Roblox. 40 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-11T08:47:27.398Z",
+  "metaDescription": "Lista actualizada de códigos para My Hero Mania en Roblox. 16 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-11T20:38:11.955Z",
   "activeCodes": [
     {
       "code": "MimicBossfight",
@@ -86,264 +86,112 @@
       "code": "AgentJohn",
       "reward": "Recompensas",
       "addedDate": "2026-03-23"
-    },
-    {
-      "code": "320kday",
-      "reward": "11 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "epic460k",
-      "reward": "13 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "450kLIKES!",
-      "reward": "13 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "360kgoal",
-      "reward": "13 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "season6",
-      "reward": "15 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "newyearsupdate23",
-      "reward": "Giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "270kREAL",
-      "reward": "Nine giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "260ktime",
-      "reward": "Eight giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "280kLIKES",
-      "reward": "10 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "240kCODE",
-      "reward": "Seven giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "380kCODE!",
-      "reward": "13 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "230kcode!",
-      "reward": "Five giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "the250k",
-      "reward": "Eight giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "mhmchristmas22",
-      "reward": "Giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "470kplus",
-      "reward": "12 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "turkey22",
-      "reward": "Giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "420k",
-      "reward": "Giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "the440k",
-      "reward": "12 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "big300k",
-      "reward": "Five giros and two raro giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "thank290k",
-      "reward": "10 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "easter340k",
-      "reward": "10 giros and two raro giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "330kLIKES",
-      "reward": "12 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "310kLIKES",
-      "reward": "11 giros",
-      "addedDate": "2026-08-11"
-    },
-    {
-      "code": "430kcode",
-      "reward": "Giros",
-      "addedDate": "2026-08-11"
     }
   ],
   "expiredCodes": [
     {
-      "code": "AFOPower!",
-      "reward": "Doble Boost (1 hora)"
+      "code": "320kday",
+      "reward": "11 giros"
+    },
+    {
+      "code": "epic460k",
+      "reward": "13 giros"
+    },
+    {
+      "code": "450kLIKES!",
+      "reward": "13 giros"
+    },
+    {
+      "code": "360kgoal",
+      "reward": "13 giros"
+    },
+    {
+      "code": "season6",
+      "reward": "15 giros"
+    },
+    {
+      "code": "newyearsupdate23",
+      "reward": "Giros"
+    },
+    {
+      "code": "270kREAL",
+      "reward": "Nine giros"
+    },
+    {
+      "code": "260ktime",
+      "reward": "Eight giros"
+    },
+    {
+      "code": "280kLIKES",
+      "reward": "10 giros"
+    },
+    {
+      "code": "240kCODE",
+      "reward": "Seven giros"
+    },
+    {
+      "code": "380kCODE!",
+      "reward": "13 giros"
+    },
+    {
+      "code": "230kcode!",
+      "reward": "Five giros"
+    },
+    {
+      "code": "the250k",
+      "reward": "Eight giros"
+    },
+    {
+      "code": "mhmchristmas22",
+      "reward": "Giros"
+    },
+    {
+      "code": "470kplus",
+      "reward": "12 giros"
+    },
+    {
+      "code": "turkey22",
+      "reward": "Giros"
+    },
+    {
+      "code": "420k",
+      "reward": "Giros"
+    },
+    {
+      "code": "the440k",
+      "reward": "12 giros"
+    },
+    {
+      "code": "big300k",
+      "reward": "Five giros and two raro giros"
+    },
+    {
+      "code": "thank290k",
+      "reward": "10 giros"
+    },
+    {
+      "code": "easter340k",
+      "reward": "10 giros and two raro giros"
+    },
+    {
+      "code": "330kLIKES",
+      "reward": "12 giros"
+    },
+    {
+      "code": "310kLIKES",
+      "reward": "11 giros"
+    },
+    {
+      "code": "430kcode",
+      "reward": "Giros"
+    },
+    {
+      "code": "goal200k",
+      "reward": "Recompensa expirada"
     },
     {
       "code": "AFORework!",
       "reward": "5 Epic giros, 10 raro giros"
-    },
-    {
-      "code": "KurogiTower!",
-      "reward": "2 Wheel giros, legendario giro"
-    },
-    {
-      "code": "Boost!",
-      "reward": "Dinero Boost (1 hora)"
-    },
-    {
-      "code": "FilleshT1Fixer",
-      "reward": "20K Cash, 2 legendario giros, 7 raro giros, 4 Wheel Pulls"
-    },
-    {
-      "code": "QuirkStyles!",
-      "reward": "1,000 Fragments, 10,000 Cash"
-    },
-    {
-      "code": "FilleshFixes",
-      "reward": "20K Cash, 1 legendario giros, 7 raro giros, 4 Wheel giros"
-    },
-    {
-      "code": "CDNerf",
-      "reward": "3 Epic giros"
-    },
-    {
-      "code": "BugFixes!",
-      "reward": "3 Epic giros"
-    },
-    {
-      "code": "Vigilanti",
-      "reward": "3 legendario giros"
-    },
-    {
-      "code": "NewMap!",
-      "reward": "3 legendario giros"
-    },
-    {
-      "code": "LongAwaited",
-      "reward": "3 Epic giros"
-    },
-    {
-      "code": "H3ROSWORLD!",
-      "reward": "Boosts"
-    },
-    {
-      "code": "70kalready",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "370klikes",
-      "reward": "1 epic giro"
-    },
-    {
-      "code": "plus120k!",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "ReAFONextWeek!",
-      "reward": "Legendario giros"
-    },
-    {
-      "code": "Awakenings",
-      "reward": "250 Fragments"
-    },
-    {
-      "code": "its90k!",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "youtubeisback!",
-      "reward": "4 Epic giros, 2 raro giros"
-    },
-    {
-      "code": "MysteryShard",
-      "reward": "Doble Boost (1 hora)"
-    },
-    {
-      "code": "zi170k",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "HWIsBack!",
-      "reward": "5 legendario giros"
-    },
-    {
-      "code": "the100k",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "SpinReWork",
-      "reward": "3 legendario giros"
-    },
-    {
-      "code": "thank220k",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "Wheel!",
-      "reward": "2 giro the Wheel Pulls"
-    },
-    {
-      "code": "JoinDaGram!",
-      "reward": "2 legendario giros"
-    },
-    {
-      "code": "110kcodeyay",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "NemuUpdate!",
-      "reward": "10 Epic giros, 2x EXP (2 horas)"
-    },
-    {
-      "code": "BossStudiosTakeOver!",
-      "reward": "2x EXP (6 horas), doble Cash (8 horas)"
-    },
-    {
-      "code": "80kcode!",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "New Quirk!!!",
-      "reward": "Doble Boost (2 horas)"
-    },
-    {
-      "code": "spinner180k",
-      "reward": "Recompensa expirada"
     },
     {
       "code": "RamadanMubarak!",
@@ -438,7 +286,135 @@
       "reward": "3 legendario giros"
     },
     {
-      "code": "goal200k",
+      "code": "AFOPower!",
+      "reward": "Doble Boost (1 hora)"
+    },
+    {
+      "code": "Boost!",
+      "reward": "Dinero Boost (1 hora)"
+    },
+    {
+      "code": "FilleshT1Fixer",
+      "reward": "20K Cash, 2 legendario giros, 7 raro giros, 4 Wheel Pulls"
+    },
+    {
+      "code": "QuirkStyles!",
+      "reward": "1,000 Fragments, 10,000 Cash"
+    },
+    {
+      "code": "H3ROSWORLD!",
+      "reward": "Boosts"
+    },
+    {
+      "code": "KurogiTower!",
+      "reward": "2 Wheel giros, legendario giro"
+    },
+    {
+      "code": "FilleshFixes",
+      "reward": "20K Cash, 1 legendario giros, 7 raro giros, 4 Wheel giros"
+    },
+    {
+      "code": "CDNerf",
+      "reward": "3 Epic giros"
+    },
+    {
+      "code": "BugFixes!",
+      "reward": "3 Epic giros"
+    },
+    {
+      "code": "Vigilanti",
+      "reward": "3 legendario giros"
+    },
+    {
+      "code": "NewMap!",
+      "reward": "3 legendario giros"
+    },
+    {
+      "code": "LongAwaited",
+      "reward": "3 Epic giros"
+    },
+    {
+      "code": "70kalready",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "370klikes",
+      "reward": "1 epic giro"
+    },
+    {
+      "code": "plus120k!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "ReAFONextWeek!",
+      "reward": "Legendario giros"
+    },
+    {
+      "code": "Awakenings",
+      "reward": "250 Fragments"
+    },
+    {
+      "code": "its90k!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "youtubeisback!",
+      "reward": "4 Epic giros, 2 raro giros"
+    },
+    {
+      "code": "MysteryShard",
+      "reward": "Doble Boost (1 hora)"
+    },
+    {
+      "code": "zi170k",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "HWIsBack!",
+      "reward": "5 legendario giros"
+    },
+    {
+      "code": "the100k",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "SpinReWork",
+      "reward": "3 legendario giros"
+    },
+    {
+      "code": "thank220k",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "Wheel!",
+      "reward": "2 giro the Wheel Pulls"
+    },
+    {
+      "code": "JoinDaGram!",
+      "reward": "2 legendario giros"
+    },
+    {
+      "code": "110kcodeyay",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "NemuUpdate!",
+      "reward": "10 Epic giros, 2x EXP (2 horas)"
+    },
+    {
+      "code": "BossStudiosTakeOver!",
+      "reward": "2x EXP (6 horas), doble Cash (8 horas)"
+    },
+    {
+      "code": "80kcode!",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "New Quirk!!!",
+      "reward": "Doble Boost (2 horas)"
+    },
+    {
+      "code": "spinner180k",
       "reward": "Recompensa expirada"
     },
     {
