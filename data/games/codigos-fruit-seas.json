@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-f587ec6f17720cd05e308003996c1e2b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fruit Seas en Roblox",
   "metaTitle": "Códigos Fruit Seas Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 69 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-11T20:37:33.424Z",
+  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 70 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-12T09:04:20.261Z",
   "activeCodes": [
     {
       "code": "SafeAgain",
@@ -46,6 +46,11 @@
       "code": "AntiLag",
       "reward": "Recompensas gratis",
       "addedDate": "2026-05-25"
+    },
+    {
+      "code": "exp1_upd10",
+      "reward": "2x EXP",
+      "addedDate": "2026-08-12"
     },
     {
       "code": "2xexp2_upd10",
@@ -93,17 +98,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "750KVISITS",
-      "reward": "Doble Mastery (15 minutos)",
+      "code": "6MVISITS",
+      "reward": "Doble Beli (20 minutos)",
       "addedDate": "2026-08-01"
     },
     {
       "code": "FRESHSTART",
-      "reward": "Reinicio de stats",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "5KLIKES",
       "reward": "Reinicio de stats",
       "addedDate": "2026-08-01"
     },
@@ -115,6 +115,11 @@
     {
       "code": "25KMEMBERS",
       "reward": "Doble Drops (15 minutos)",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "5KLIKES",
+      "reward": "Reinicio de stats",
       "addedDate": "2026-08-01"
     },
     {
@@ -163,8 +168,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "6MVISITS",
-      "reward": "Doble Beli (20 minutos)",
+      "code": "750KVISITS",
+      "reward": "Doble Mastery (15 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -263,11 +268,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "50KLIKES2",
-      "reward": "Race Reroll",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "50KLIKES1",
       "reward": "Doble Beli (15 minutos)",
       "addedDate": "2026-08-01"
@@ -275,6 +275,11 @@
     {
       "code": "2MVISITS",
       "reward": "Doble Mastery (15 minutos)",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "50KLIKES2",
+      "reward": "Race Reroll",
       "addedDate": "2026-08-01"
     },
     {
@@ -355,10 +360,6 @@
   ],
   "expiredCodes": [
     {
-      "code": "exp1_upd10",
-      "reward": "2x EXP"
-    },
-    {
       "code": "NEWWORLD",
       "reward": "Random Fruit"
     },
@@ -385,10 +386,6 @@
     {
       "code": "Upd2lol",
       "reward": "Unknown"
-    },
-    {
-      "code": "ResetFixed",
-      "reward": "Reset Stat"
     },
     {
       "code": "BUGFIXES",
@@ -465,6 +462,10 @@
     {
       "code": "35KLIKES",
       "reward": "Stat Point Reset"
+    },
+    {
+      "code": "ResetFixed",
+      "reward": "Reset Stat"
     },
     {
       "code": "EXPPBOOSTT!",
