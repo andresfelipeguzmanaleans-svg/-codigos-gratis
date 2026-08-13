@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-9a8f4b17e50ef674e474f53a1aa523a1/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Spiked en Roblox",
   "metaTitle": "Códigos Spiked Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Spiked en Roblox. 25 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-12T09:05:23.323Z",
+  "metaDescription": "Lista actualizada de códigos para Spiked en Roblox. 18 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-13T20:35:11.451Z",
   "activeCodes": [
     {
       "code": "KIMA2",
@@ -53,54 +53,9 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "20KFAVS",
-      "reward": "15000 Yen",
-      "addedDate": "2026-08-12"
-    },
-    {
-      "code": "AUTOSBUGFIXES",
-      "reward": "25,000 Yen",
-      "addedDate": "2026-08-12"
-    },
-    {
-      "code": "PSCOMMANDS",
-      "reward": "25000 Yen",
-      "addedDate": "2026-08-12"
-    },
-    {
-      "code": "SLOTS",
-      "reward": "Yen",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "10KLIKES",
-      "reward": "15,000 Yen",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SPIKEDMAS",
-      "reward": "7,500 Yen",
-      "addedDate": "2026-08-12"
-    },
-    {
-      "code": "MATCHQUEUES",
-      "reward": "10,000 Yen",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "ACE",
       "reward": "Yen",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SPIKEDPATCH1",
-      "reward": "45000 Yen",
-      "addedDate": "2026-08-12"
-    },
-    {
-      "code": "SRY4SHUTDOWN",
-      "reward": "25,000 Yen",
-      "addedDate": "2026-08-12"
     },
     {
       "code": "25KFAVS",
@@ -128,14 +83,52 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "RELEASE",
-      "reward": "25000 Yen",
-      "addedDate": "2026-08-12"
+      "code": "SLOTS",
+      "reward": "Yen",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "10KLIKES",
+      "reward": "15,000 Yen",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "MATCHQUEUES",
+      "reward": "10,000 Yen",
+      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "ZONELINES",
+      "code": "20KFAVS",
+      "reward": "15000 Yen"
+    },
+    {
+      "code": "AUTOSBUGFIXES",
+      "reward": "25,000 Yen"
+    },
+    {
+      "code": "PSCOMMANDS",
+      "reward": "25000 Yen"
+    },
+    {
+      "code": "SPIKEDMAS",
+      "reward": "7,500 Yen"
+    },
+    {
+      "code": "SPIKEDPATCH1",
+      "reward": "45000 Yen"
+    },
+    {
+      "code": "SRY4SHUTDOWN",
+      "reward": "25,000 Yen"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "25000 Yen"
+    },
+    {
+      "code": "NEWCODE",
       "reward": "50K Yen"
     },
     {
@@ -147,72 +140,36 @@
       "reward": "Recompensas"
     },
     {
-      "code": "1MILVISITS",
-      "reward": "Recompensa"
-    },
-    {
       "code": "VALENTINESDAY",
       "reward": "Recompensas"
     },
     {
-      "code": "SORRYFORSHUTDOWNS",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "MYSINCERESTAPOLOGIES",
-      "reward": "1M Yen"
-    },
-    {
-      "code": "SUPPORT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MORESLOTS",
-      "reward": "150K Yen"
-    },
-    {
-      "code": "SPINACHISASLEEPYHEAD",
-      "reward": "5 Lucky Weapon giros"
-    },
-    {
-      "code": "BOOMJUMPFIX",
-      "reward": "20000 Yen"
-    },
-    {
-      "code": "LEADDEV",
-      "reward": "200K Yen"
-    },
-    {
-      "code": "UPDATE75SOON",
-      "reward": "150,000 Yen"
-    },
-    {
-      "code": "NEWCODE",
-      "reward": "50K Yen"
-    },
-    {
-      "code": "QUICKPATCH1",
-      "reward": "20000 Yen"
-    },
-    {
-      "code": "SPIKEDMAS2025",
-      "reward": "1.25 Million Yen"
-    },
-    {
-      "code": "SECONDWIND",
+      "code": "GLUTTON",
       "reward": "100K Yen"
     },
     {
-      "code": "SORRYKIMA",
-      "reward": "250K Yen"
+      "code": "UPDATE4",
+      "reward": "Recompensas"
     },
     {
-      "code": "5KLIKES",
+      "code": "OFFICIALLEAGUE",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "DATALOSS",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "SERVERCRASHES",
       "reward": "Recompensa"
     },
     {
-      "code": "KIMA",
-      "reward": "500K Yen"
+      "code": "ZONELINES",
+      "reward": "50K Yen"
+    },
+    {
+      "code": "SORRYFORDELAY6",
+      "reward": "100K Yen"
     },
     {
       "code": "QUICKPATCH2",
@@ -247,6 +204,70 @@
       "reward": "Recompensas gratis"
     },
     {
+      "code": "SORRYFORSHUTDOWNS",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "MYSINCERESTAPOLOGIES",
+      "reward": "1M Yen"
+    },
+    {
+      "code": "SUPPORT",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MORESLOTS",
+      "reward": "150K Yen"
+    },
+    {
+      "code": "SPINACHISASLEEPYHEAD",
+      "reward": "5 Lucky Weapon giros"
+    },
+    {
+      "code": "BOOMJUMPFIX",
+      "reward": "20000 Yen"
+    },
+    {
+      "code": "LEADDEV",
+      "reward": "200K Yen"
+    },
+    {
+      "code": "UPDATE75SOON",
+      "reward": "150,000 Yen"
+    },
+    {
+      "code": "ZONETYPES",
+      "reward": "50K Yen"
+    },
+    {
+      "code": "QUICKPATCH1",
+      "reward": "20000 Yen"
+    },
+    {
+      "code": "1MILVISITS",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "SPIKEDMAS2025",
+      "reward": "1.25 Million Yen"
+    },
+    {
+      "code": "SECONDWIND",
+      "reward": "100K Yen"
+    },
+    {
+      "code": "SORRYKIMA",
+      "reward": "250K Yen"
+    },
+    {
+      "code": "5KLIKES",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "KIMA",
+      "reward": "500K Yen"
+    },
+    {
       "code": "ANOTHERSHUTDOWN",
       "reward": "200K Yen"
     },
@@ -273,10 +294,6 @@
     {
       "code": "UPDATE5",
       "reward": "150,000 Yen"
-    },
-    {
-      "code": "OFFICIALLEAGUE",
-      "reward": "Recompensas"
     },
     {
       "code": "15KLIKES",
@@ -307,10 +324,6 @@
       "reward": "150,000 Yen"
     },
     {
-      "code": "UPDATE4",
-      "reward": "Recompensas"
-    },
-    {
       "code": "RALLY",
       "reward": "Recompensas"
     },
@@ -321,26 +334,6 @@
     {
       "code": "FEAR",
       "reward": "Recompensas"
-    },
-    {
-      "code": "GLUTTON",
-      "reward": "100K Yen"
-    },
-    {
-      "code": "DATALOSS",
-      "reward": "Recompensas"
-    },
-    {
-      "code": "SERVERCRASHES",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "ZONETYPES",
-      "reward": "50K Yen"
-    },
-    {
-      "code": "SORRYFORDELAY6",
-      "reward": "100K Yen"
     },
     {
       "code": "VALENTINESUPDATE",
