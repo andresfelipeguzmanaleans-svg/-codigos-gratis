@@ -4,9 +4,24 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-3a83dda9b7af124f231411adb7224ec0/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Survival Odyssey en Roblox",
   "metaTitle": "Códigos Survival Odyssey Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Survival Odyssey en Roblox. 14 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-13T20:35:17.951Z",
+  "metaDescription": "Lista actualizada de códigos para Survival Odyssey en Roblox. 17 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-14T09:03:39.185Z",
   "activeCodes": [
+    {
+      "code": "MIGRATION",
+      "reward": "200 monedas",
+      "addedDate": "2026-08-14"
+    },
+    {
+      "code": "Revive",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-14"
+    },
+    {
+      "code": "Trap",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-14"
+    },
     {
       "code": "SMALLUPDATE",
       "reward": "Recompensas gratis",
@@ -68,32 +83,20 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Refresh",
-      "reward": "2.5k monedas",
+      "code": "Sorry!",
+      "reward": "500 monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Sorry!",
-      "reward": "500 monedas",
+      "code": "Refresh",
+      "reward": "2.5k monedas",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "MIGRATION",
-      "reward": "200 monedas"
-    },
-    {
-      "code": "Revive",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Trap",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Mounts",
-      "reward": "2,500 monedas"
+      "code": "Secret",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "BigUpdate",
@@ -196,18 +199,6 @@
       "reward": "400 monedas"
     },
     {
-      "code": "MonthlyMission",
-      "reward": "10 Mystic Feeds, 4 Master Lassos and 3 Instant Foal pociones"
-    },
-    {
-      "code": "SORRYFORTHESHUTDOWNS",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "LoveYou",
-      "reward": "3,500 monedas"
-    },
-    {
       "code": "Halloween",
       "reward": "2,500 monedas"
     },
@@ -240,8 +231,8 @@
       "reward": "Monedas"
     },
     {
-      "code": "Secret",
-      "reward": "Recompensa gratis"
+      "code": "Mounts",
+      "reward": "2,500 monedas"
     },
     {
       "code": "BlazingTouch",
@@ -274,6 +265,18 @@
     {
       "code": "PVP",
       "reward": "In-Game recompensas gratis"
+    },
+    {
+      "code": "MonthlyMission",
+      "reward": "10 Mystic Feeds, 4 Master Lassos and 3 Instant Foal pociones"
+    },
+    {
+      "code": "SORRYFORTHESHUTDOWNS",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "LoveYou",
+      "reward": "3,500 monedas"
     }
   ],
   "howToRedeem": [

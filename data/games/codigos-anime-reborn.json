@@ -4,12 +4,17 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-c4a3c6b94389863f893b586da13f592f/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Reborn en Roblox",
   "metaTitle": "Códigos Anime Reborn Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Reborn en Roblox. 9 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-13T20:33:20.012Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Reborn en Roblox. 10 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-14T09:01:38.482Z",
   "activeCodes": [
     {
       "code": "Crystals",
       "reward": "Recompensas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "BannerCostFixed",
+      "reward": "15 Trait cristales",
       "addedDate": "2026-08-01"
     },
     {
@@ -28,13 +33,18 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "BannerCostFixed",
-      "reward": "15 Trait cristales",
+      "code": "BannerCostFix",
+      "reward": "10,000 gemas And 10 Trait cristales",
       "addedDate": "2026-08-01"
     },
     {
       "code": "TournamentofPower",
       "reward": "5,000 gemas And 20 Trait cristales",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Crystals",
+      "reward": "10 Concentrated cristales for Each Element",
       "addedDate": "2026-08-01"
     },
     {
@@ -46,17 +56,20 @@
       "code": "PATCH",
       "reward": "100 Trait cristales, 5,000 gemas, 30 Frost llaves, 30 Potential llaves, And 3 Rainbow estrellas",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BannerCostFix",
-      "reward": "10,000 gemas And 10 Trait cristales",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "15kReacts",
-      "reward": "5,000 New Year monedas, 20,000 Candy Canes, 25 Rerolls"
+      "code": "Quimera",
+      "reward": "1000 gemas, 5 Rerolls, 5 Frozen llaves"
+    },
+    {
+      "code": "FeedBack!",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "!RetiredAssassin",
+      "reward": "2,500 gemas, 5 Rerolls"
     },
     {
       "code": "Limited Skins",
@@ -145,6 +158,14 @@
     {
       "code": "TraitBuffs!",
       "reward": "10 Rerolls"
+    },
+    {
+      "code": "THEPPODCASTGANGDONTSTOP",
+      "reward": "5000 gemas, 10 Frost llaves, 30 Rerolls"
+    },
+    {
+      "code": "!FollowInsta20K",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "1MMembers",
@@ -319,10 +340,6 @@
       "reward": "25 Trait cristales"
     },
     {
-      "code": "!RetiredAssassin",
-      "reward": "2,500 gemas, 5 Rerolls"
-    },
-    {
       "code": "!updatetoday",
       "reward": "50,000 tickets And 10 Trait cristales"
     },
@@ -367,10 +384,6 @@
       "reward": "1000 gemas, 10 Rerolls"
     },
     {
-      "code": "Quimera",
-      "reward": "1000 gemas, 5 Rerolls, 5 Frozen llaves"
-    },
-    {
       "code": "!WorldCollision",
       "reward": "10,000 New Year monedas"
     },
@@ -379,24 +392,12 @@
       "reward": "5000 gemas, 10 Trait cristales"
     },
     {
-      "code": "FeedBack!",
-      "reward": "Recompensa"
-    },
-    {
       "code": "Updatecomingsoon!",
       "reward": "1,500 gemas, 5 cristales, pociones"
     },
     {
       "code": "LastChance",
       "reward": "50000 Red tickets, 30 Capsules"
-    },
-    {
-      "code": "!FollowInsta20K",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "THEPPODCASTGANGDONTSTOP",
-      "reward": "5000 gemas, 10 Frost llaves, 30 Rerolls"
     },
     {
       "code": "Happythanksgiving",
@@ -497,6 +498,10 @@
     {
       "code": "!DelayReborn",
       "reward": "Gemas, Rerolls"
+    },
+    {
+      "code": "15kReacts",
+      "reward": "5,000 New Year monedas, 20,000 Candy Canes, 25 Rerolls"
     }
   ],
   "howToRedeem": [
