@@ -4,18 +4,18 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-7121786543df1541883ac191ed3ff808/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Demon Slayer Legacy en Roblox",
   "metaTitle": "Códigos Demon Slayer Legacy Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Demon Slayer Legacy en Roblox. 27 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-14T09:02:10.584Z",
+  "metaDescription": "Lista actualizada de códigos para Demon Slayer Legacy en Roblox. 23 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-14T20:23:58.371Z",
   "activeCodes": [
+    {
+      "code": "STATRESET",
+      "reward": "Reinicio de stats",
+      "addedDate": "2026-08-01"
+    },
     {
       "code": "GETGUD",
       "reward": "2x EXP 20 minutos",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "GETGUDV2",
-      "reward": "Recompensa desconocida",
-      "addedDate": "2026-08-14"
     },
     {
       "code": "UseCodeDessi",
@@ -26,11 +26,6 @@
       "code": "UPD_ONEPOINTFIFTEEN",
       "reward": "30 giros",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "AUGSECONDWEEK",
-      "reward": "Recompensa desconocida",
-      "addedDate": "2026-08-14"
     },
     {
       "code": "RESETSTATS2",
@@ -51,16 +46,6 @@
       "code": "FLAMEWATERBLOOD",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "AUGSECONDWEEK_STATRESET",
-      "reward": "A reinicio de stats",
-      "addedDate": "2026-08-14"
-    },
-    {
-      "code": "DATAUPGRADE2",
-      "reward": "Recompensa desconocida",
-      "addedDate": "2026-08-14"
     },
     {
       "code": "MAJORDATABUGFIXFINAL",
@@ -85,11 +70,6 @@
     {
       "code": "AUGFIRSTWEEKCODE",
       "reward": "100 giros",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "STATRESET",
-      "reward": "Reinicio de stats",
       "addedDate": "2026-08-01"
     },
     {
@@ -145,8 +125,24 @@
   ],
   "expiredCodes": [
     {
-      "code": "2KLIKESCODE",
-      "reward": "Giros gratis"
+      "code": "GETGUDV2",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "AUGSECONDWEEK",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "AUGSECONDWEEK_STATRESET",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "DATAUPGRADE2",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "BUGFIX_moreXP",
+      "reward": "2x EXP (20 minutos)"
     },
     {
       "code": "BUGFIXCODESORRY!",
@@ -163,6 +159,22 @@
     {
       "code": "13KLIKESCODE",
       "reward": "50 giros"
+    },
+    {
+      "code": "3KLIKESCODE",
+      "reward": "250K Yen"
+    },
+    {
+      "code": "1KLIKESCODE",
+      "reward": "27 giros gratis"
+    },
+    {
+      "code": "UPCOMINGACCESSORYSHOP",
+      "reward": "Giros or Boosts gratis"
+    },
+    {
+      "code": "2KLIKESCODE",
+      "reward": "Giros gratis"
     },
     {
       "code": "SORRYFORSOMEBUGSAFTERUPD",
@@ -187,22 +199,6 @@
     {
       "code": "UPCOMINGKYOGAI",
       "reward": "25 giros"
-    },
-    {
-      "code": "3KLIKESCODE",
-      "reward": "250K Yen"
-    },
-    {
-      "code": "1KLIKESCODE",
-      "reward": "27 giros gratis"
-    },
-    {
-      "code": "UPCOMINGACCESSORYSHOP",
-      "reward": "Giros or Boosts gratis"
-    },
-    {
-      "code": "BUGFIX_moreXP",
-      "reward": "2x EXP (20 minutos)"
     }
   ],
   "howToRedeem": [

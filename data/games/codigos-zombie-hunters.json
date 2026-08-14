@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-3c7c4a4cd0c82f392bea5e222071bcff/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Zombie Hunters en Roblox",
   "metaTitle": "Códigos Zombie Hunters Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Zombie Hunters en Roblox. 13 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-14T09:03:57.598Z",
+  "metaDescription": "Lista actualizada de códigos para Zombie Hunters en Roblox. 12 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-14T20:25:38.466Z",
   "playerCount": 14,
   "totalVisits": 34030765,
   "likes": 48632,
@@ -13,12 +13,12 @@
   "placeId": 15015142084,
   "activeCodes": [
     {
-      "code": "SorryEveryone",
-      "reward": "3000 gemas",
-      "addedDate": "2026-08-14"
+      "code": "Welcome",
+      "reward": "50 gemas",
+      "addedDate": "2026-08-01"
     },
     {
-      "code": "Welcome",
+      "code": "ZombieHunters",
       "reward": "50 gemas",
       "addedDate": "2026-08-01"
     },
@@ -71,14 +71,17 @@
       "code": "OMG",
       "reward": "50 gemas",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "ZombieHunters",
-      "reward": "50 gemas",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "SorryEveryone",
+      "reward": "3000 gemas"
+    },
+    {
+      "code": "NEWPERK",
+      "reward": "60 Lucky Perk giros"
+    },
     {
       "code": "COYOTE",
       "reward": "50 Lucky Weapon"
@@ -106,10 +109,6 @@
     {
       "code": "OMGCODE55",
       "reward": "Recompensa desconocida"
-    },
-    {
-      "code": "NEWPERK",
-      "reward": "60 Lucky Perk giros"
     }
   ],
   "introText": "Zombie Hunters es un shooter cooperativo de Roblox desarrollado por OMG - One More Games donde sobrevives a un mundo apocalíptico lleno de zombis. Con más de 34 millones de visitas, el juego te permite elegir entre una gran variedad de armas y habilidades para derrotar oleadas de zombis cada vez más peligrosos, recoger loot y avanzar por distintas fases.",
