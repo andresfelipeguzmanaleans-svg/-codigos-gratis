@@ -4,12 +4,17 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-093ad35d5f855c10cf1d16c15a244fe6/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Train Trip en Roblox",
   "metaTitle": "Códigos Train Trip Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Train Trip en Roblox. 13 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-15T08:19:44.493Z",
+  "metaDescription": "Lista actualizada de códigos para Train Trip en Roblox. 12 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-15T20:15:23.977Z",
   "activeCodes": [
     {
       "code": "BigUpdate",
       "reward": "20 monedas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "100KVisits",
+      "reward": "10 monedas",
       "addedDate": "2026-08-01"
     },
     {
@@ -24,11 +29,6 @@
     },
     {
       "code": "WINTER",
-      "reward": "10 monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "100KVisits",
       "reward": "10 monedas",
       "addedDate": "2026-08-01"
     },
@@ -66,14 +66,14 @@
       "code": "Update3",
       "reward": "15 monedas",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "TrainTrip",
-      "reward": "Especial recompensas",
-      "addedDate": "2026-08-15"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "TrainTrip",
+      "reward": "Especial recompensas"
+    }
+  ],
   "howToRedeem": [
     "Abre Train Trip en Roblox",
     "Busca el botón de códigos en el menú",

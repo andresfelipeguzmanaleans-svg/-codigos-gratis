@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-a8ef7710a3ee33c3881ec43afd214618/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Weapon Masters en Roblox",
   "metaTitle": "Códigos Weapon Masters Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Weapon Masters en Roblox. 21 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-15T08:19:51.612Z",
+  "metaDescription": "Lista actualizada de códigos para Weapon Masters en Roblox. 17 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-15T20:15:30.771Z",
   "activeCodes": [
     {
       "code": "season16",
@@ -83,40 +83,36 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "season11",
-      "reward": "2x fuerza (60 minutos)",
-      "addedDate": "2026-08-15"
-    },
-    {
       "code": "10KLIKES",
       "reward": "Rebirth Boost (3 horas)",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "newyears2022",
-      "reward": "2x fuerza (45 minutos)",
-      "addedDate": "2026-08-15"
-    },
-    {
       "code": "oneyearcelebration1",
       "reward": "Rebirth Boost (12 horas)",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "season8",
-      "reward": "1 hora And 30 minutos Of 2x Rebirths",
-      "addedDate": "2026-08-15"
-    },
-    {
-      "code": "pepe374",
-      "reward": "1 hora And 30 minutos Of Auto Rebirth",
-      "addedDate": "2026-08-15"
     }
   ],
   "expiredCodes": [
     {
-      "code": "valentinetwo2021",
-      "reward": "Boost"
+      "code": "season11",
+      "reward": "2x fuerza (60 minutos)"
+    },
+    {
+      "code": "newyears2022",
+      "reward": "2x fuerza (45 minutos)"
+    },
+    {
+      "code": "season8",
+      "reward": "1 hora And 30 minutos Of 2x Rebirths"
+    },
+    {
+      "code": "pepe374",
+      "reward": "1 hora And 30 minutos Of Auto Rebirth"
+    },
+    {
+      "code": "update9",
+      "reward": "Auto Clicker"
     },
     {
       "code": "2klikes40",
@@ -125,10 +121,6 @@
     {
       "code": "christmas2021",
       "reward": "2x fuerza (45 minutos)"
-    },
-    {
-      "code": "1klikes20",
-      "reward": "1,000 fuerza"
     },
     {
       "code": "update5",
@@ -141,6 +133,10 @@
     {
       "code": "11klikes",
       "reward": "2x fuerza (240 minutos)"
+    },
+    {
+      "code": "1klikes20",
+      "reward": "1,000 fuerza"
     },
     {
       "code": "150likes",
@@ -163,22 +159,6 @@
       "reward": "Fuerza Boost"
     },
     {
-      "code": "sorry1",
-      "reward": "24 horas Of Auto Clicker"
-    },
-    {
-      "code": "season13",
-      "reward": "2x fuerza (45 minutos)"
-    },
-    {
-      "code": "elf764",
-      "reward": "Fuerza Boost"
-    },
-    {
-      "code": "1mvisits100",
-      "reward": "1,000 fuerza"
-    },
-    {
       "code": "reaper",
       "reward": "Fuerza Boost"
     },
@@ -187,60 +167,76 @@
       "reward": "Fuerza Boost"
     },
     {
-      "code": "update9",
-      "reward": "Auto Clicker"
-    },
-    {
-      "code": "update1",
-      "reward": "1,000 fuerza"
-    },
-    {
-      "code": "hammers",
-      "reward": "15 minuto fuerza Boost"
-    },
-    {
-      "code": "cave",
-      "reward": "15 minuto fuerza Boost"
-    },
-    {
-      "code": "season12",
-      "reward": "2x Rebirths (30 minutos)"
-    },
-    {
-      "code": "trickortreat2020",
-      "reward": "Rebirth Boost"
-    },
-    {
-      "code": "valentine2021",
+      "code": "valentinetwo2021",
       "reward": "Boost"
     },
     {
-      "code": "halloween2020",
-      "reward": "3 horas Of Auto Clicker"
-    },
-    {
-      "code": "12klikes",
-      "reward": "2x fuerza (60 minutos)"
-    },
-    {
-      "code": "update2",
+      "code": "1mvisits100",
       "reward": "1,000 fuerza"
     },
     {
-      "code": "sorry2",
-      "reward": "24 horas Of Auto Rebirth"
+      "code": "elf764",
+      "reward": "Fuerza Boost"
     },
     {
-      "code": "halloween_wk1_21",
-      "reward": "2x fuerza (60 minutos)"
+      "code": "season13",
+      "reward": "2x fuerza (45 minutos)"
+    },
+    {
+      "code": "sorry1",
+      "reward": "24 horas Of Auto Clicker"
+    },
+    {
+      "code": "christmas846",
+      "reward": "Fuerza Boost"
     },
     {
       "code": "heartstwo2021",
       "reward": "Autoclicker"
     },
     {
-      "code": "christmas846",
-      "reward": "Fuerza Boost"
+      "code": "halloween_wk1_21",
+      "reward": "2x fuerza (60 minutos)"
+    },
+    {
+      "code": "sorry2",
+      "reward": "24 horas Of Auto Rebirth"
+    },
+    {
+      "code": "update2",
+      "reward": "1,000 fuerza"
+    },
+    {
+      "code": "12klikes",
+      "reward": "2x fuerza (60 minutos)"
+    },
+    {
+      "code": "halloween2020",
+      "reward": "3 horas Of Auto Clicker"
+    },
+    {
+      "code": "valentine2021",
+      "reward": "Boost"
+    },
+    {
+      "code": "trickortreat2020",
+      "reward": "Rebirth Boost"
+    },
+    {
+      "code": "season12",
+      "reward": "2x Rebirths (30 minutos)"
+    },
+    {
+      "code": "cave",
+      "reward": "15 minuto fuerza Boost"
+    },
+    {
+      "code": "hammers",
+      "reward": "15 minuto fuerza Boost"
+    },
+    {
+      "code": "update1",
+      "reward": "1,000 fuerza"
     },
     {
       "code": "weaponpass",

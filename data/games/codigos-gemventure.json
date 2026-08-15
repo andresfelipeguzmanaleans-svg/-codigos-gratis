@@ -4,17 +4,9 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-404ea0997209bbca405ab18d78b6d8e5/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Gemventure en Roblox",
   "metaTitle": "Códigos Gemventure Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Gemventure en Roblox. 12 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-15T08:18:25.380Z",
+  "metaDescription": "Lista actualizada de códigos para Gemventure en Roblox. 10 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-15T20:14:06.079Z",
   "activeCodes": [
-    {
-      "code": "DIAMONDDAYS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TY4HEROES",
-      "reward": "100 monedas, 2 tokens, and a reset gratis"
-    },
     {
       "code": "SOPHIESALE",
       "reward": "1 giro"
@@ -24,19 +16,17 @@
       "reward": "Recompensas gratis"
     },
     {
+      "code": "TY4HEROES",
+      "reward": "100 monedas, 2 tokens, and a reset gratis"
+    },
+    {
+      "code": "DIAMONDDAYS",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "8KLIKESFIXED",
       "reward": "Monedas",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "FREEPALESTINE",
-      "reward": "10 giros",
-      "addedDate": "2026-08-15"
-    },
-    {
-      "code": "ISNOTREAL",
-      "reward": "Reinicio de stats gratis",
-      "addedDate": "2026-08-15"
     },
     {
       "code": "RELEASE",
@@ -60,7 +50,16 @@
       "reward": "Reinicio de stats gratis"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "FREEPALESTINE",
+      "reward": "10 giros"
+    },
+    {
+      "code": "ISNOTREAL",
+      "reward": "Reinicio de stats gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Gemventure en Roblox",
     "Busca el botón de códigos en el menú",
