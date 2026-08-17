@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-eab8b1d2dd99f135db9031879b82615c/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Switch en Roblox",
   "metaTitle": "Códigos Anime Switch Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Switch en Roblox. 49 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-17T08:33:41.054Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Switch en Roblox. 43 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-17T20:17:09.169Z",
   "activeCodes": [
     {
       "code": "RELEASE3",
@@ -13,8 +13,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "MADDIAMONDS",
-      "reward": "1000 diamantes",
+      "code": "BUGFIXES1",
+      "reward": "Trait tokens",
       "addedDate": "2026-08-01"
     },
     {
@@ -83,11 +83,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "BUGFIXES1",
-      "reward": "Trait tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "ANIMESWITCHER2",
       "reward": "Recompensa",
       "addedDate": "2026-08-01"
@@ -113,11 +108,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "2KLIKES",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-17"
-    },
-    {
       "code": "1MILVISITS",
       "reward": "300 diamantes",
       "addedDate": "2026-08-01"
@@ -128,13 +118,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SPEEDYDAD",
-      "reward": "500 diamantes",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "50KLIKES",
-      "reward": "500 diamantes",
+      "code": "MADDIAMONDS",
+      "reward": "1000 diamantes",
       "addedDate": "2026-08-01"
     },
     {
@@ -153,11 +138,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "MANJIKANO2",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-17"
-    },
-    {
       "code": "HIME",
       "reward": "500 diamantes",
       "addedDate": "2026-08-01"
@@ -168,12 +148,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "BATTLEPASS",
+      "code": "REVERT",
       "reward": "500 diamantes",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "REVERT",
+      "code": "SPEEDYDAD",
       "reward": "500 diamantes",
       "addedDate": "2026-08-01"
     },
@@ -193,24 +173,19 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "60KLIKES",
+      "code": "50KLIKES",
       "reward": "500 diamantes",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "RUFFYKANO",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-17"
+      "code": "BATTLEPASS",
+      "reward": "500 diamantes",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "COSMETICSAREIN",
       "reward": "500 diamantes",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "RUFFYKANO2",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-17"
     },
     {
       "code": "SORRYFORBUGSUPD1",
@@ -223,12 +198,17 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "GETSOMEDIAMONDS",
-      "reward": "1000 diamantes",
+      "code": "60KLIKES",
+      "reward": "500 diamantes",
       "addedDate": "2026-08-01"
     },
     {
       "code": "80KLIKES",
+      "reward": "1000 diamantes",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "GETSOMEDIAMONDS",
       "reward": "1000 diamantes",
       "addedDate": "2026-08-01"
     },
@@ -238,22 +218,36 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "MANJIKANO",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "BPFIX",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-17"
-    },
-    {
       "code": "BATTLEPASS2",
       "reward": "Trait tokens",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "2KLIKES",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "MANJIKANO2",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "RUFFYKANO",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "RUFFYKANO2",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "MANJIKANO",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "BPFIX",
+      "reward": "Recompensa"
+    },
     {
       "code": "5MVISTS",
       "reward": "Recompensa"

@@ -4,8 +4,8 @@
   "thumbnail": "https://t4.rbxcdn.com/180DAY-3acb0f0da8433cb97bb84fe70301c78f",
   "description": "Todos los códigos activos para Throwing Simulator en Roblox",
   "metaTitle": "Códigos Throwing Simulator Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Throwing Simulator en Roblox. 31 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-17T08:35:41.677Z",
+  "metaDescription": "Lista actualizada de códigos para Throwing Simulator en Roblox. 16 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-17T20:19:09.822Z",
   "activeCodes": [
     {
       "code": "update10",
@@ -86,84 +86,69 @@
       "code": "Release",
       "reward": "Suerte poción",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "HappyNewYear",
-      "reward": "150 gemas and 350 monedas",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "RainbowPet",
-      "reward": "A Rainbow mascota",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "ShardBoost1",
-      "reward": "Shard Boost",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "Icelord",
-      "reward": "The Ice Lord mascota",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "CoinBoost1",
-      "reward": "Moneda Boost",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "DominusFire",
-      "reward": "The Fire Dominus mascota",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "Star",
-      "reward": "The Amethyst Star mascota",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "Hydra",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "Sinister",
-      "reward": "The Crimson Sinister mascota",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "Shard",
-      "reward": "The Vortex Shard mascota",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "GemsBoost1",
-      "reward": "Gema Boost",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "LuckyDay1",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "FreeEaster2022",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "10500Likes",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "code": "SONIC",
-      "reward": "The mascota gratis",
-      "addedDate": "2026-08-17"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "HappyNewYear",
+      "reward": "150 gemas and 350 monedas"
+    },
+    {
+      "code": "RainbowPet",
+      "reward": "A Rainbow mascota"
+    },
+    {
+      "code": "ShardBoost1",
+      "reward": "Shard Boost"
+    },
+    {
+      "code": "Icelord",
+      "reward": "The Ice Lord mascota"
+    },
+    {
+      "code": "CoinBoost1",
+      "reward": "Moneda Boost"
+    },
+    {
+      "code": "DominusFire",
+      "reward": "The Fire Dominus mascota"
+    },
+    {
+      "code": "Star",
+      "reward": "The Amethyst Star mascota"
+    },
+    {
+      "code": "Hydra",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Sinister",
+      "reward": "The Crimson Sinister mascota"
+    },
+    {
+      "code": "Shard",
+      "reward": "The Vortex Shard mascota"
+    },
+    {
+      "code": "GemsBoost1",
+      "reward": "Gema Boost"
+    },
+    {
+      "code": "LuckyDay1",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FreeEaster2022",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "10500Likes",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SONIC",
+      "reward": "The mascota gratis"
+    },
     {
       "code": "LIKES",
       "reward": "10 moneda Boost (15 minutos)"
