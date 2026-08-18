@@ -5,27 +5,32 @@
   "description": "Todos los códigos activos para Realistic Basketball en Roblox",
   "metaTitle": "Códigos Realistic Basketball Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Realistic Basketball en Roblox. 4 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-17T20:18:41.629Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-08-18T08:27:29.668Z",
+  "activeCodes": [
+    {
+      "code": "SecondUpdate",
+      "reward": "1,000 monedas",
+      "addedDate": "2026-08-18"
+    },
     {
       "code": "FirstUpdate",
-      "reward": "2,500 monedas"
+      "reward": "2,500 monedas",
+      "addedDate": "2026-08-18"
     },
     {
       "code": "Pollz",
-      "reward": "1,000 monedas"
-    },
-    {
-      "code": "SecondUpdate",
-      "reward": "1,000 monedas"
+      "reward": "1,000 monedas",
+      "addedDate": "2026-08-18"
     },
     {
       "code": "Secret",
-      "reward": "1,000 monedas"
-    },
+      "reward": "1,000 monedas",
+      "addedDate": "2026-08-18"
+    }
+  ],
+  "expiredCodes": [
     {
-      "code": "JOLLY",
+      "code": "BLACKFRIDAY",
       "reward": "Recompensa gratis"
     },
     {
@@ -50,22 +55,6 @@
     },
     {
       "code": "40KLIKES",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "60KLIKES",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "EASTER24",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "JANUARY",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "BLACKFRIDAY",
       "reward": "Recompensa gratis"
     },
     {
@@ -170,6 +159,22 @@
     },
     {
       "code": "IRISHSPRINGGREEN",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "60KLIKES",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "EASTER24",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "JANUARY",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "JOLLY",
       "reward": "Recompensa gratis"
     }
   ],
