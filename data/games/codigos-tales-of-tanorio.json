@@ -5,23 +5,24 @@
   "description": "Todos los códigos activos para Tales Of Tanorio en Roblox",
   "metaTitle": "Códigos Tales Of Tanorio Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Tales Of Tanorio en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-18T08:27:56.919Z",
-  "activeCodes": [
+  "lastUpdated": "2026-08-18T20:17:30.159Z",
+  "activeCodes": [],
+  "expiredCodes": [
     {
       "code": "maintenance190825",
-      "reward": "1 Citrin, 3 Neutral Incense, 3 Underwater Incense, and 1 Conservation Incense",
-      "addedDate": "2026-08-18"
+      "reward": "1 Citrin, 3 Neutral Incense, 3 Underwater Incense, and 1 Conservation Incense"
     },
     {
       "code": "Winterfest",
-      "reward": "1 Giftot, 10 Gingerbread Tanocans, and 10 Winter Night Tanocans",
-      "addedDate": "2026-08-18"
-    }
-  ],
-  "expiredCodes": [
+      "reward": "1 Giftot, 10 Gingerbread Tanocans, and 10 Winter Night Tanocans"
+    },
     {
       "code": "worldofcolors2025",
       "reward": "1x Cheeruft (Contains Aura, Not Alpha), 1x Tanocan+, 3x Destroyed Star"
+    },
+    {
+      "code": "NightmareMansion",
+      "reward": "Recompensa"
     },
     {
       "code": "Mount",
@@ -30,22 +31,6 @@
     {
       "code": "Nightmare",
       "reward": "Dolphantasy Mount (L)"
-    },
-    {
-      "code": "latedevlog30525",
-      "reward": "1x Drippo, 1x Tanocan+, 3x Destroyed Star"
-    },
-    {
-      "code": "MountAndNightmares",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "Tanorians",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "Dolphantasy",
-      "reward": "Mount (L)"
     },
     {
       "code": "QUICKTEST",
@@ -64,8 +49,20 @@
       "reward": "1 Tanocan, 30 Haunted Tanocans, 1 Conservation Incense, 2 Weak Incense, and 1 Underwater Incense"
     },
     {
-      "code": "NightmareMansion",
+      "code": "latedevlog30525",
+      "reward": "1x Drippo, 1x Tanocan+, 3x Destroyed Star"
+    },
+    {
+      "code": "MountAndNightmares",
       "reward": "Recompensa"
+    },
+    {
+      "code": "Tanorians",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "Dolphantasy",
+      "reward": "Mount (L)"
     },
     {
       "code": "KEEPCHAININGOOOO",
