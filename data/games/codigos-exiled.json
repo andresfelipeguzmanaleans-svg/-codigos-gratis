@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-1e188d166e095c40e708fb436b910d94/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Exiled en Roblox",
   "metaTitle": "Códigos Exiled Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Exiled en Roblox. 34 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-18T20:15:54.766Z",
+  "metaDescription": "Lista actualizada de códigos para Exiled en Roblox. 36 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-19T08:27:15.345Z",
   "activeCodes": [
     {
       "code": "CHRISTMAS",
@@ -43,6 +43,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "BOOST!",
+      "reward": "Doble tokens Boost",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "EXILEDUPDATE2",
       "reward": "1,500 Anoms",
       "addedDate": "2026-08-01"
@@ -63,8 +68,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "10MILLIONVISITS",
-      "reward": "1,000 tokens",
+      "code": "150KFAVORITES",
+      "reward": "500 tokens",
       "addedDate": "2026-08-01"
     },
     {
@@ -78,16 +83,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "80KLIKES",
-      "reward": "500 tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "XMASCHAOS",
-      "reward": "1,500 Anoms",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "DOUBLETOKENSFIX",
       "reward": "Doble tokens Boost",
       "addedDate": "2026-08-01"
@@ -98,13 +93,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "100KFAVORITES",
+      "code": "2MVISITS",
       "reward": "2 Revive tickets",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "2MVISITS",
-      "reward": "2 Revive tickets",
+      "code": "CHRISTMAS",
+      "reward": "1,500 Anoms",
       "addedDate": "2026-08-01"
     },
     {
@@ -118,18 +113,23 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "150KFAVORITES",
+      "code": "XMASCHAOS",
+      "reward": "1,500 Anoms",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "80KLIKES",
       "reward": "500 tokens",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "100KFAVORITES",
+      "reward": "2 Revive tickets",
       "addedDate": "2026-08-01"
     },
     {
       "code": "5MVISITS",
       "reward": "1,000 tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "90KLIKES",
-      "reward": "500 tokens",
       "addedDate": "2026-08-01"
     },
     {
@@ -148,13 +148,23 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "BOOST!",
-      "reward": "Doble tokens Boost",
+      "code": "10MILLIONVISITS",
+      "reward": "1,000 tokens",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "200KFAVORITES",
-      "reward": "1,000 tokens",
+      "code": "40KLIKES",
+      "reward": "500 tokens",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "90KLIKES",
+      "reward": "500 tokens",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "DUNGEONUPDATE",
+      "reward": "1,000 tokens and 2 Boosts",
       "addedDate": "2026-08-01"
     },
     {
@@ -163,25 +173,25 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "100KLIKES",
-      "reward": "1,000 tokens and 2 Boosts",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "VALENTINED4Y",
       "reward": "1,000 tokens",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "DUNGEONUPDATE",
+      "code": "100KLIKES",
       "reward": "1,000 tokens and 2 Boosts",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "200KFAVORITES",
+      "reward": "1,000 tokens",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "HOTELRETURN",
-      "reward": "Recompensas gratis"
+      "code": "GROUPVERIFIED",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "NEWMAPCOMING",
@@ -190,14 +200,6 @@
     {
       "code": "40KFAVORITES",
       "reward": "1,500 Anoms"
-    },
-    {
-      "code": "UPDATEDELAYED",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "GROUPVERIFIED",
-      "reward": "Recompensa gratis"
     },
     {
       "code": "20MVISITS",
@@ -221,6 +223,14 @@
     },
     {
       "code": "30KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "UPDATEDELAYED",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HOTELRETURN",
       "reward": "Recompensas gratis"
     }
   ],

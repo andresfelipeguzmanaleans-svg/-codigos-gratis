@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-f587ec6f17720cd05e308003996c1e2b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fruit Seas en Roblox",
   "metaTitle": "Códigos Fruit Seas Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 69 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-18T20:16:02.053Z",
+  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 70 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-19T08:27:22.526Z",
   "activeCodes": [
     {
       "code": "SafeAgain",
@@ -46,6 +46,11 @@
       "code": "AntiLag",
       "reward": "Recompensas gratis",
       "addedDate": "2026-05-25"
+    },
+    {
+      "code": "exp1_upd10",
+      "reward": "2x EXP",
+      "addedDate": "2026-08-19"
     },
     {
       "code": "2xexp2_upd10",
@@ -208,11 +213,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SORRY4SHUTDOWN",
-      "reward": "Doble Drops (10 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "25KLIKES",
       "reward": "Doble Mastery (20 minutos)",
       "addedDate": "2026-08-01"
@@ -228,8 +228,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SORRYFORLAG",
-      "reward": "100,000 Beli",
+      "code": "GAMEUPDATE!!!",
+      "reward": "2x Drops",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "3KLIKES",
+      "reward": "Doble Mastery",
       "addedDate": "2026-08-01"
     },
     {
@@ -248,13 +253,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "3KLIKES",
-      "reward": "Doble Mastery",
+      "code": "60KLIKES",
+      "reward": "Reinicio de stats",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "60KLIKES",
-      "reward": "Reinicio de stats",
+      "code": "12KLIKES",
+      "reward": "2x EXP (20 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -268,13 +273,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "12KLIKES",
-      "reward": "2x EXP (20 minutos)",
+      "code": "SORRYFORLAG",
+      "reward": "100,000 Beli",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "GAMEUPDATE!!!",
-      "reward": "2x Drops",
+      "code": "SORRY4SHUTDOWN",
+      "reward": "Doble Drops (10 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -355,20 +360,12 @@
   ],
   "expiredCodes": [
     {
-      "code": "exp1_upd10",
-      "reward": "2x EXP"
-    },
-    {
-      "code": "PodcastCode!",
-      "reward": "Race Reroll"
+      "code": "ThanksSwTwN!",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "Upd2lol",
       "reward": "Unknown"
-    },
-    {
-      "code": "SlidetoTheX!",
-      "reward": "Recompensa gratis"
     },
     {
       "code": "BUGFIXES",
@@ -395,8 +392,8 @@
       "reward": "Random Fruit"
     },
     {
-      "code": "ThanksSwTwN!",
-      "reward": "Recompensa gratis"
+      "code": "PodcastCode!",
+      "reward": "Race Reroll"
     },
     {
       "code": "Statfromark",
@@ -465,6 +462,10 @@
     {
       "code": "ResetFixed",
       "reward": "Reset Stat"
+    },
+    {
+      "code": "SlidetoTheX!",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "EXPPBOOSTT!",
