@@ -4,54 +4,60 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-17662c4a19b31d1d82915f127d9de9a4/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Broken Blade en Roblox",
   "metaTitle": "Códigos Broken Blade Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Broken Blade en Roblox. 8 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-10T20:33:51.402Z",
+  "metaDescription": "Lista actualizada de códigos para Broken Blade en Roblox. 2 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-22T08:20:11.283Z",
   "activeCodes": [
     {
+      "code": "ABYSSSEAL",
+      "reward": "500 Ancient Blade Essence",
+      "addedDate": "2026-08-22"
+    },
+    {
       "code": "ENDLESSTOWER",
-      "reward": "1 Dmg poción, 1 Unbroken poción, 1 Wisdom poción, 1 Cooldown poción, 1 suerte poción, and 1 EXP poción",
+      "reward": "Dmg poción × 1 + Unbroken poción × 1 + Wisdom poción × 1 + Cooldown poción × 1 + suerte poción × 1 + EXP poción × 1",
       "addedDate": "2026-08-10"
-    },
-    {
-      "code": "BBDC65K",
-      "reward": "3 Red Orbs and 3 Igniters",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BBDC45K",
-      "reward": "5 Arkenstone",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BBDC50K",
-      "reward": "5 Arkenstone",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BB30KLIKES",
-      "reward": "2 Space cofres",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BB40KLIKES",
-      "reward": "2 Space cofres",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BB5KLIKES",
-      "reward": "8 Beherit",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BB1KLIKES",
-      "reward": "10 Thunder",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "BB10KLIKES",
-      "reward": "2 Holy cofres"
+      "code": "BBDC65K",
+      "reward": "3 Red Orbs and 3 Igniters"
+    },
+    {
+      "code": "BBDC45K",
+      "reward": "5 Arkenstone"
+    },
+    {
+      "code": "BBDC50K",
+      "reward": "5 Arkenstone"
+    },
+    {
+      "code": "BB30KLIKES",
+      "reward": "2 Space cofres"
+    },
+    {
+      "code": "BB40KLIKES",
+      "reward": "2 Space cofres"
+    },
+    {
+      "code": "BB5KLIKES",
+      "reward": "8 Beherit"
+    },
+    {
+      "code": "BB1KLIKES",
+      "reward": "10 Thunder"
+    },
+    {
+      "code": "BBDC10K",
+      "reward": "3 Holy"
+    },
+    {
+      "code": "BB40KCCU",
+      "reward": "5 Red Orbs"
+    },
+    {
+      "code": "BBDC15K",
+      "reward": "3 Holy"
     },
     {
       "code": "BBDC20K",
@@ -62,19 +68,19 @@
       "reward": "5 Red Orbs"
     },
     {
+      "code": "BB10KLIKES",
+      "reward": "2 Holy cofres"
+    },
+    {
+      "code": "BB20KCCU",
+      "reward": "1,000 Sky llaves"
+    },
+    {
       "code": "BB10KCCU",
       "reward": "300 Sky llaves"
     },
     {
-      "code": "BB40KCCU",
-      "reward": "5 Red Orbs"
-    },
-    {
-      "code": "BB20KLIKES",
-      "reward": "2 Holy cofres"
-    },
-    {
-      "code": "BBDC10K",
+      "code": "BBDC5K",
       "reward": "3 Holy"
     },
     {
@@ -82,16 +88,8 @@
       "reward": "3 Holy"
     },
     {
-      "code": "BBDC5K",
-      "reward": "3 Holy"
-    },
-    {
-      "code": "BBDC15K",
-      "reward": "3 Holy"
-    },
-    {
-      "code": "BB20KCCU",
-      "reward": "1,000 Sky llaves"
+      "code": "BB20KLIKES",
+      "reward": "2 Holy cofres"
     },
     {
       "code": "BBDC60K",

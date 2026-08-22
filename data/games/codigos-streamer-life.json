@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-663cc25f5f5d35c25a7c0d52ccf59501/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Streamer Life en Roblox",
   "metaTitle": "Códigos Streamer Life Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Streamer Life en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-21T20:18:29.452Z",
+  "metaDescription": "Lista actualizada de códigos para Streamer Life en Roblox. 5 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-22T08:21:51.450Z",
   "activeCodes": [
+    {
+      "code": "V25",
+      "reward": "25 Max energía",
+      "addedDate": "2026-08-22"
+    },
     {
       "code": "GiveMeXP",
       "reward": "XP gratis",
@@ -16,21 +21,19 @@
       "code": "30KLIKES",
       "reward": "All 2x Boosters (10 minutos)",
       "addedDate": "2026-08-01"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "V25",
-      "reward": "25 Max energía"
     },
     {
       "code": "100KMEMBERS",
-      "reward": "100 Max energía"
+      "reward": "100 Max energía",
+      "addedDate": "2026-08-22"
     },
     {
       "code": "V22",
-      "reward": "5 minutos Of 2x dinero Booster"
-    },
+      "reward": "5 minutos Of 2x dinero Booster",
+      "addedDate": "2026-08-22"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "500FOLLOWERS",
       "reward": "5 minutos Of All 2x Boosters"

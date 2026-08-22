@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-c6b3e27d132142908f7006a7bc2964b5/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Super Power Legends en Roblox",
   "metaTitle": "Códigos Super Power Legends Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Super Power Legends en Roblox. 5 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-21T20:18:32.388Z",
+  "metaDescription": "Lista actualizada de códigos para Super Power Legends en Roblox. 11 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-22T08:21:54.013Z",
   "activeCodes": [
     {
       "code": "Release",
@@ -31,40 +31,42 @@
       "code": "ExtraTokens",
       "reward": "3000 tokens",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Ms6",
+      "reward": "Tokens Based On Your Rank, From F- Rank To Last Rank",
+      "addedDate": "2026-08-22"
+    },
+    {
+      "code": "Tokens4Power",
+      "reward": "12,500 tokens",
+      "addedDate": "2026-08-22"
+    },
+    {
+      "code": "MegaPowerLegends",
+      "reward": "100,000 tokens",
+      "addedDate": "2026-08-22"
+    },
+    {
+      "code": "AGiftFromTutili",
+      "reward": "Tokens Based On Your Rank, From F- Rank To Last Rank",
+      "addedDate": "2026-08-22"
+    },
+    {
+      "code": "100MilQuestSoon",
+      "reward": "Tokens Based On Your Rank, From F- Rank To Last Rank",
+      "addedDate": "2026-08-22"
+    },
+    {
+      "code": "SPL2Next",
+      "reward": "100,000 tokens",
+      "addedDate": "2026-08-22"
     }
   ],
   "expiredCodes": [
     {
-      "code": "Ms6",
-      "reward": "Tokens Based On Your Rank, From F- Rank To Last Rank"
-    },
-    {
-      "code": "Tokens4Power",
-      "reward": "12,500 tokens"
-    },
-    {
-      "code": "MegaPowerLegends",
-      "reward": "100,000 tokens"
-    },
-    {
-      "code": "AGiftFromTutili",
-      "reward": "Tokens Based On Your Rank, From F- Rank To Last Rank"
-    },
-    {
-      "code": "100MilQuestSoon",
-      "reward": "Tokens Based On Your Rank, From F- Rank To Last Rank"
-    },
-    {
-      "code": "SPL2Next",
-      "reward": "100,000 tokens"
-    },
-    {
-      "code": "YippeACode",
-      "reward": "7,500 tokens (Expires March 16th, 2024)"
-    },
-    {
-      "code": "SPL2EARLY2025",
-      "reward": "100,000 tokens"
+      "code": "LongLive",
+      "reward": "3000 tokens"
     },
     {
       "code": "NoPainNoGain",
@@ -81,6 +83,10 @@
     {
       "code": "SmallUpdate",
       "reward": "Tokens Based On Your Rank, From F- Rank To Last Rank"
+    },
+    {
+      "code": "SPL2EARLY2025",
+      "reward": "100,000 tokens"
     },
     {
       "code": "TokenNoLongerAlone",
@@ -125,30 +131,6 @@
     {
       "code": "TheClassic",
       "reward": "Tokens based on your Rank"
-    },
-    {
-      "code": "HappyBDay",
-      "reward": "Tokens Based On Your Rank, From F- Rank To Last Rank"
-    },
-    {
-      "code": "BigUpdateSoon",
-      "reward": "12,500 tokens"
-    },
-    {
-      "code": "FatalError",
-      "reward": "15,000 tokens"
-    },
-    {
-      "code": "BrickCity",
-      "reward": "12,500 tokens"
-    },
-    {
-      "code": "TimeToPlaySpgs",
-      "reward": "7,500 tokens"
-    },
-    {
-      "code": "LongLive",
-      "reward": "3000 tokens"
     },
     {
       "code": "GrindingMakesYouAChad",
@@ -285,6 +267,30 @@
     {
       "code": "LegendsWillRememberSPGS",
       "reward": "Tokens based on your Rank"
+    },
+    {
+      "code": "HappyBDay",
+      "reward": "Tokens Based On Your Rank, From F- Rank To Last Rank"
+    },
+    {
+      "code": "BigUpdateSoon",
+      "reward": "12,500 tokens"
+    },
+    {
+      "code": "FatalError",
+      "reward": "15,000 tokens"
+    },
+    {
+      "code": "BrickCity",
+      "reward": "12,500 tokens"
+    },
+    {
+      "code": "TimeToPlaySpgs",
+      "reward": "7,500 tokens"
+    },
+    {
+      "code": "YippeACode",
+      "reward": "7,500 tokens (Expires March 16th, 2024)"
     }
   ],
   "howToRedeem": [

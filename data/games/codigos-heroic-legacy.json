@@ -5,21 +5,25 @@
   "description": "Todos los códigos activos para Heroic Legacy en Roblox",
   "metaTitle": "Códigos Heroic Legacy Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Heroic Legacy en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-21T20:17:28.624Z",
-  "activeCodes": [],
-  "expiredCodes": [
-    {
-      "code": "mawzone",
-      "reward": "1 Essence and 6 oro Reroll tokens"
-    },
+  "lastUpdated": "2026-08-22T08:20:50.528Z",
+  "activeCodes": [
     {
       "code": "100likes",
-      "reward": "1 Essence, 3 Boosts, and a Tier Reroll Token"
+      "reward": "1 Essence, 3 Boosts, and a Tier Reroll Token",
+      "addedDate": "2026-08-22"
+    },
+    {
+      "code": "mawzone",
+      "reward": "1 Essence and 6 oro Reroll tokens",
+      "addedDate": "2026-08-22"
     },
     {
       "code": "release!",
-      "reward": "1 hora 2x EXP Boost and 10 Extra objeto Slots"
-    },
+      "reward": "1 hora 2x EXP Boost and 10 Extra objeto Slots",
+      "addedDate": "2026-08-22"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "breaklimits",
       "reward": "30 minutos of 2x EXP for All Stats"
