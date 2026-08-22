@@ -5,7 +5,7 @@
   "description": "Todos los códigos activos para World Zero en Roblox",
   "metaTitle": "Códigos World Zero Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para World Zero en Roblox. 34 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-15T20:15:32.232Z",
+  "lastUpdated": "2026-08-22T20:16:21.276Z",
   "activeCodes": [
     {
       "code": "925KLIKES",
@@ -68,13 +68,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "CRYSTALGOAL",
-      "reward": "300 cristales",
+      "code": "HALLOWEEN25",
+      "reward": "25 Halloween monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "HALLOWEEN25",
-      "reward": "25 Halloween monedas",
+      "code": "CRYSTALGOAL",
+      "reward": "300 cristales",
       "addedDate": "2026-08-01"
     },
     {
@@ -98,13 +98,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SUMMER",
-      "reward": "25 Kraken monedas",
+      "code": "NEWYEAR25",
+      "reward": "New Year Present",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "NEWYEAR25",
-      "reward": "New Year Present",
+      "code": "SUMMER",
+      "reward": "25 Kraken monedas",
       "addedDate": "2026-08-01"
     },
     {
@@ -128,13 +128,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "ANIME",
-      "reward": "Slayer título",
+      "code": "800KLIKES",
+      "reward": "150 cristales",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "CONTENTDELETED",
-      "reward": "Content Deleted título and Content Deleted Aura",
+      "code": "ANIME",
+      "reward": "Slayer título",
       "addedDate": "2026-08-01"
     },
     {
@@ -143,28 +143,23 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "CONTENTDELETED",
+      "reward": "Content Deleted título and Content Deleted Aura",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "KLAUS",
       "reward": "100 Christmas monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "800KLIKES",
+      "code": "825KLIKES",
       "reward": "150 cristales",
       "addedDate": "2026-08-01"
     },
     {
       "code": "GRANDBP",
       "reward": "25 Dragon monedas and 1 Grand Present",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "ALIENS",
-      "reward": "Cosmic Glassses",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "825KLIKES",
-      "reward": "150 cristales",
       "addedDate": "2026-08-01"
     },
     {
@@ -176,6 +171,11 @@
       "code": "850KLIKES",
       "reward": "150 cristales",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "ALIENS",
+      "reward": "Cosmic Glassses",
+      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
@@ -184,28 +184,24 @@
       "reward": "50 Guild monedas"
     },
     {
-      "code": "VANEINSANE26",
-      "reward": "25 Dragon monedas and a Manga Present"
+      "code": "LEVIATHAN",
+      "reward": "Hydrosurge Aura"
     },
     {
-      "code": "100MILPARTY",
-      "reward": "100 cristales"
+      "code": "CHALLENGEBUNNY",
+      "reward": "25 Easter monedas and 1 Easter Present"
     },
     {
       "code": "SEASON15",
       "reward": "50 Guild monedas"
     },
     {
-      "code": "FAVMILLION",
-      "reward": "100 cristales"
+      "code": "700KLIKES",
+      "reward": "150 cristales"
     },
     {
       "code": "SEASON17CODE",
       "reward": "50 Guild monedas"
-    },
-    {
-      "code": "BLESSED",
-      "reward": "150 cristales"
     },
     {
       "code": "625KLIKES",
@@ -224,24 +220,8 @@
       "reward": "Especial Hex Effect"
     },
     {
-      "code": "MAYTHE4TH",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "LUCKY25",
       "reward": "150 cristales"
-    },
-    {
-      "code": "GLACIAL",
-      "reward": "15 Price tickets"
-    },
-    {
-      "code": "SANTA",
-      "reward": "150 cristales, 15 Christmas monedas and Candy Cane Axe skin"
-    },
-    {
-      "code": "LEVIATHAN",
-      "reward": "Hydrosurge Aura"
     },
     {
       "code": "650KLIKES",
@@ -252,12 +232,40 @@
       "reward": "750 cristales"
     },
     {
-      "code": "GUILDHALL",
-      "reward": "Miniature Guild Hall"
+      "code": "BUGSMASHER",
+      "reward": "Bug Smasher título"
+    },
+    {
+      "code": "PVPUPDATE",
+      "reward": "5 PvP monedas"
+    },
+    {
+      "code": "JULY4TH",
+      "reward": "2 level 1 July 4th Auras"
+    },
+    {
+      "code": "GLACIAL",
+      "reward": "15 Price tickets"
     },
     {
       "code": "CUPID26",
       "reward": "25 Valentines monedas and 1 Valentines Present"
+    },
+    {
+      "code": "EASTER2025",
+      "reward": "Bunny Onesie"
+    },
+    {
+      "code": "FAVMILLION",
+      "reward": "100 cristales"
+    },
+    {
+      "code": "NEWYEAR24",
+      "reward": "2023 Player título"
+    },
+    {
+      "code": "BIRTHDAY26",
+      "reward": "Random Dye Party Hat and a Birthday título"
     },
     {
       "code": "WORLDZERO",
@@ -288,64 +296,12 @@
       "reward": "Dragon moneda"
     },
     {
-      "code": "BUGSMASHER",
-      "reward": "Bug Smasher título"
-    },
-    {
-      "code": "CHRISTMASHYPE",
-      "reward": "Frosty Tophat"
-    },
-    {
-      "code": "JULY4TH",
-      "reward": "2 level 1 July 4th Auras"
-    },
-    {
-      "code": "CHRISTMASGOAL",
-      "reward": "300 cristales"
-    },
-    {
-      "code": "EASTER2025",
-      "reward": "Bunny Onesie"
-    },
-    {
-      "code": "WEEKLYQUEST",
-      "reward": "200 cristales"
-    },
-    {
-      "code": "675KLIKES",
+      "code": "300MIL",
       "reward": "150 cristales"
-    },
-    {
-      "code": "NEWYEAR24",
-      "reward": "2023 Player título"
-    },
-    {
-      "code": "250MILPARTY",
-      "reward": "150 cristales"
-    },
-    {
-      "code": "CUPIDINSANE",
-      "reward": "100 cristales"
-    },
-    {
-      "code": "150MILPARTYY",
-      "reward": "Cristales"
-    },
-    {
-      "code": "MERCHDROP",
-      "reward": "150 cristales"
-    },
-    {
-      "code": "STARBREAKER",
-      "reward": "Starbreaker título"
     },
     {
       "code": "JOLLY",
       "reward": "5 tickets"
-    },
-    {
-      "code": "ANIME26",
-      "reward": "25 Dragon monedas and a Manga Present"
     },
     {
       "code": "QUESTS",
@@ -360,8 +316,12 @@
       "reward": "5 tickets"
     },
     {
-      "code": "HUNT",
-      "reward": "The Hunt 2025 título"
+      "code": "150MILPARTYY",
+      "reward": "Cristales"
+    },
+    {
+      "code": "STARBREAKER",
+      "reward": "Starbreaker título"
     },
     {
       "code": "PETREVAMP",
@@ -370,10 +330,6 @@
     {
       "code": "PRIDE",
       "reward": "Rainbow Shades"
-    },
-    {
-      "code": "GUILDBUGS",
-      "reward": "50 Guild monedas"
     },
     {
       "code": "BLUEGREENRED",
@@ -388,16 +344,32 @@
       "reward": "25 Dragon monedas and a Manga Present"
     },
     {
-      "code": "SHADOWS",
-      "reward": "The Fire Eyes Hat"
+      "code": "ANIME26",
+      "reward": "25 Dragon monedas and a Manga Present"
     },
     {
-      "code": "700KLIKES",
+      "code": "VANEINSANE26",
+      "reward": "25 Dragon monedas and a Manga Present"
+    },
+    {
+      "code": "MEMORIALDAY",
       "reward": "150 cristales"
     },
     {
-      "code": "CUPIDCHALLENGE",
-      "reward": "25 Valentines monedas and Valentines Present"
+      "code": "VALENTINESHYPE",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "SANTA",
+      "reward": "150 cristales, 15 Christmas monedas and Candy Cane Axe skin"
+    },
+    {
+      "code": "HARVEST",
+      "reward": "Prize tickets"
+    },
+    {
+      "code": "GUILDHALL",
+      "reward": "Miniature Guild Hall"
     },
     {
       "code": "HOUSING",
@@ -428,12 +400,28 @@
       "reward": "50 Guild monedas"
     },
     {
+      "code": "100MILPARTY",
+      "reward": "100 cristales"
+    },
+    {
+      "code": "CHRISTMASGOAL",
+      "reward": "300 cristales"
+    },
+    {
       "code": "INVADER",
       "reward": "1 Developer regalo and Alien Invader título"
     },
     {
       "code": "PRIDE26",
       "reward": "The Rainbow título and a Developer regalo"
+    },
+    {
+      "code": "HUNT",
+      "reward": "The Hunt 2025 título"
+    },
+    {
+      "code": "MERCHDROP",
+      "reward": "150 cristales"
     },
     {
       "code": "750KLIKES",
@@ -444,8 +432,12 @@
       "reward": "150 cristales"
     },
     {
-      "code": "300MIL",
-      "reward": "150 cristales"
+      "code": "CUPIDCHALLENGE",
+      "reward": "25 Valentines monedas and Valentines Present"
+    },
+    {
+      "code": "CHRISTMASHYPE",
+      "reward": "Frosty Tophat"
     },
     {
       "code": "LIONFIX",
@@ -454,14 +446,6 @@
     {
       "code": "HALLOWEENHYPE",
       "reward": "Evil Pumpkin Hat"
-    },
-    {
-      "code": "LEVIATHANDELAY",
-      "reward": "150 cristales And A título"
-    },
-    {
-      "code": "MEMORIALDAY",
-      "reward": "150 cristales"
     },
     {
       "code": "HOLIDAY2021",
@@ -492,11 +476,19 @@
       "reward": "150 cristales"
     },
     {
-      "code": "EASTER26",
-      "reward": "25 Easter monedas and 1 Easter Present"
+      "code": "ICEBREAKER",
+      "reward": "5 tickets"
     },
     {
-      "code": "VALENTINESHYPE",
+      "code": "675KLIKES",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "WEEKLYQUEST",
+      "reward": "200 cristales"
+    },
+    {
+      "code": "250MILPARTY",
       "reward": "150 cristales"
     },
     {
@@ -504,8 +496,12 @@
       "reward": "Bozo Aura"
     },
     {
-      "code": "ICEBREAKER",
-      "reward": "5 tickets"
+      "code": "BLESSED",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "MAYTHE4TH",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "400KLIKES",
@@ -514,10 +510,6 @@
     {
       "code": "WEEKLYBUG",
       "reward": "200 cristales"
-    },
-    {
-      "code": "SEASON21",
-      "reward": "50 Guild monedas"
     },
     {
       "code": "NECRO",
@@ -532,10 +524,6 @@
       "reward": "15 Kraken monedas"
     },
     {
-      "code": "NEWQUESTS",
-      "reward": "150 cristales"
-    },
-    {
       "code": "HAPPYNEWYEAR",
       "reward": "2022 Player título"
     },
@@ -544,16 +532,24 @@
       "reward": "Alien Saber"
     },
     {
+      "code": "SHADOWS",
+      "reward": "The Fire Eyes Hat"
+    },
+    {
+      "code": "NEWQUESTS",
+      "reward": "150 cristales"
+    },
+    {
+      "code": "SEASON21",
+      "reward": "50 Guild monedas"
+    },
+    {
       "code": "PRESENTPLS",
       "reward": "Festive Cosmetic regalo"
     },
     {
       "code": "PLAYMENU",
       "reward": "150 cristales"
-    },
-    {
-      "code": "HARVEST",
-      "reward": "Prize tickets"
     },
     {
       "code": "NEWYEAR26",
@@ -566,14 +562,6 @@
     {
       "code": "WILDFIRE",
       "reward": "Exclusivo Wildfire Dragon Plushie"
-    },
-    {
-      "code": "IMPERIAL",
-      "reward": "1 Developer regalo and Imperial Protector título"
-    },
-    {
-      "code": "SEASON18",
-      "reward": "50 Guild monedas"
     },
     {
       "code": "MATEYAHOYSCALLYWAG",
@@ -592,28 +580,48 @@
       "reward": "150 cristales"
     },
     {
-      "code": "VALENTINES2",
-      "reward": "Recompensa gratis"
-    },
-    {
       "code": "11CCEE",
       "reward": "Hexcode With Effects"
     },
     {
-      "code": "CRYSTALIS",
-      "reward": "300 cristales"
+      "code": "WORLD10",
+      "reward": "150 cristales"
     },
     {
       "code": "INNOVATION",
       "reward": "2 Level 1 Innovation Auras"
     },
     {
-      "code": "UNCLE",
-      "reward": "2x July 4th Aura"
+      "code": "CRYSTALIS",
+      "reward": "300 cristales"
     },
     {
-      "code": "WORLD10",
-      "reward": "150 cristales"
+      "code": "IMPERIAL",
+      "reward": "1 Developer regalo and Imperial Protector título"
+    },
+    {
+      "code": "CUPIDINSANE",
+      "reward": "100 cristales"
+    },
+    {
+      "code": "FREEDRAGON",
+      "reward": "Dragon Mount"
+    },
+    {
+      "code": "EASTER26",
+      "reward": "25 Easter monedas and 1 Easter Present"
+    },
+    {
+      "code": "VALENTINES2",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "SEASON18",
+      "reward": "50 Guild monedas"
+    },
+    {
+      "code": "UNCLE",
+      "reward": "2x July 4th Aura"
     },
     {
       "code": "HYPEWORLD8",
@@ -632,12 +640,12 @@
       "reward": "Christmas monedas And A Christmas Present"
     },
     {
-      "code": "400LIKES",
-      "reward": "Recompensa gratis"
-    },
-    {
       "code": "150MILPARTY",
       "reward": "100 cristales"
+    },
+    {
+      "code": "400LIKES",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "SANTACHALLENGE",
@@ -652,10 +660,6 @@
       "reward": "25 Dragon monedas and a Manga Present"
     },
     {
-      "code": "600KLIKES",
-      "reward": "100 cristales"
-    },
-    {
       "code": "FLUFFY",
       "reward": "Easter Present"
     },
@@ -668,12 +672,20 @@
       "reward": "50 Guild monedas"
     },
     {
+      "code": "600KLIKES",
+      "reward": "100 cristales"
+    },
+    {
+      "code": "GUILDBUGS",
+      "reward": "50 Guild monedas"
+    },
+    {
       "code": "GUILDAURA",
       "reward": "Guild Aura"
     },
     {
-      "code": "PVPUPDATE",
-      "reward": "5 PvP monedas"
+      "code": "LEVIATHANDELAY",
+      "reward": "150 cristales And A título"
     },
     {
       "code": "PEPPERMINT",
@@ -696,10 +708,6 @@
       "reward": "25 Valentines monedas and Valentines Present"
     },
     {
-      "code": "FREEDRAGON",
-      "reward": "Dragon Mount"
-    },
-    {
       "code": "HALLOWEEN24",
       "reward": "1 Spooky Present and 1 Halloween moneda"
     },
@@ -712,16 +720,12 @@
       "reward": "5 Nightmare monedas"
     },
     {
-      "code": "CHALLENGEBUNNY",
-      "reward": "25 Easter monedas and 1 Easter Present"
-    },
-    {
       "code": "HUNTER",
       "reward": "Back Quiver"
     },
     {
-      "code": "BIRTHDAY26",
-      "reward": "Random Dye Party Hat and a Birthday título"
+      "code": "SUMMERHYPE",
+      "reward": "Beach Ball Mount"
     },
     {
       "code": "925LIKES",
