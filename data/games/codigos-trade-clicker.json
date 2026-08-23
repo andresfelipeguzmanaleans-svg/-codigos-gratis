@@ -5,7 +5,7 @@
   "description": "Todos los códigos activos para Trade Clicker en Roblox",
   "metaTitle": "Códigos Trade Clicker Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Trade Clicker en Roblox. 23 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-02T20:46:37.405Z",
+  "lastUpdated": "2026-08-23T08:22:10.007Z",
   "activeCodes": [
     {
       "code": "1MVISITS",
@@ -103,7 +103,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "1000LIKES",
+      "code": "2000LIKES",
+      "reward": "Objeto",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "5000LIKES",
       "reward": "Objeto",
       "addedDate": "2026-08-01"
     },
@@ -113,21 +118,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "2000LIKES",
-      "reward": "Objeto",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "5000LIKES",
+      "code": "1000LIKES",
       "reward": "Objeto",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
-    {
-      "code": "TCPAIDACCESS",
-      "reward": "500 Million Case-Bux"
-    },
     {
       "code": "500LIKES",
       "reward": "Gentleman Tee Vee"
@@ -135,6 +131,14 @@
     {
       "code": "IALWAYSWIN",
       "reward": "Undim's Sparkle Time Fedora"
+    },
+    {
+      "code": "GODOFTC",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "TCPAIDACCESS",
+      "reward": "500 Million Case-Bux"
     },
     {
       "code": "THREEYEARS",
@@ -161,8 +165,8 @@
       "reward": "Mascota Chicken"
     },
     {
-      "code": "GODOFTC",
-      "reward": "Recompensa expirada"
+      "code": "GREMLIN",
+      "reward": "The Gremlin"
     },
     {
       "code": "VERITY",
