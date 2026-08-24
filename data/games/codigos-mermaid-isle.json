@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-28b0cfd30da54a522bbd367af565cd7d/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Mermaid Isle en Roblox",
   "metaTitle": "Códigos Mermaid Isle Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Mermaid Isle en Roblox. 39 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-23T08:21:12.581Z",
+  "metaDescription": "Lista actualizada de códigos para Mermaid Isle en Roblox. 40 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-24T20:21:47.884Z",
   "activeCodes": [
+    {
+      "code": "ReefRefresh1",
+      "reward": "500 Pearls",
+      "addedDate": "2026-08-24"
+    },
     {
       "code": "BugFix4",
       "reward": "500 Pearls",
@@ -118,11 +123,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "DolphinsComeBackSoon",
-      "reward": "500 Pearls",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "FreeTangsForAll",
       "reward": "Radiant “Silver Tang” Recolor",
       "addedDate": "2026-08-01"
@@ -133,13 +133,18 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "GiveMeMyPearlsBack",
-      "reward": "Celestial Set Refund",
+      "code": "DolphinsComeBackSoon",
+      "reward": "500 Pearls",
       "addedDate": "2026-08-01"
     },
     {
       "code": "BugShutDown",
       "reward": "1000 Pearls",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "GiveMeMyPearlsBack",
+      "reward": "Celestial Set Refund",
       "addedDate": "2026-08-01"
     },
     {
@@ -158,13 +163,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "1MVISITS",
-      "reward": "1,000 Pearls",
+      "code": "100KVISITS",
+      "reward": "350 Pearls",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "100KVISITS",
-      "reward": "350 Pearls",
+      "code": "Release",
+      "reward": "250 Pearls, Tail",
       "addedDate": "2026-08-01"
     },
     {
@@ -188,12 +193,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Release",
-      "reward": "250 Pearls, Tail",
+      "code": "BUGGYUPDATE",
+      "reward": "1,000 Pearls",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "BUGGYUPDATE",
+      "code": "1MVISITS",
       "reward": "1,000 Pearls",
       "addedDate": "2026-08-01"
     },
@@ -205,14 +210,6 @@
   ],
   "expiredCodes": [
     {
-      "code": "CursedAccessories",
-      "reward": "1000 Pearls"
-    },
-    {
-      "code": "GameRevampSoon",
-      "reward": "Fallen Warrior: Urania, Bubble Pixie: Prismatic, and 250 Pearls"
-    },
-    {
       "code": "BettaTester",
       "reward": "2,000 Pearls and the Betta Tester Tail Set"
     },
@@ -221,12 +218,16 @@
       "reward": "1,000 Pearls"
     },
     {
-      "code": "lateupdate",
-      "reward": "500 Pearls"
+      "code": "CursedAccessories",
+      "reward": "1000 Pearls"
     },
     {
       "code": "Mermay",
       "reward": "3,000 Pearls"
+    },
+    {
+      "code": "lateupdate",
+      "reward": "500 Pearls"
     },
     {
       "code": "ReefUpdate",
@@ -253,8 +254,8 @@
       "reward": "2500 Pearls"
     },
     {
-      "code": "ReefRefresh1",
-      "reward": "500 Pearls"
+      "code": "GameRevampSoon",
+      "reward": "Fallen Warrior: Urania, Bubble Pixie: Prismatic, and 250 Pearls"
     },
     {
       "code": "CelestialGamepassFix",

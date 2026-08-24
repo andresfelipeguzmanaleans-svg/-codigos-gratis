@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-cf4e216dbf51eb8e946989c9d6168d82/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Armless Detective en Roblox",
   "metaTitle": "Códigos Armless Detective Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Armless Detective en Roblox. 60 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-22T20:14:13.213Z",
+  "metaDescription": "Lista actualizada de códigos para Armless Detective en Roblox. 61 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-24T20:20:45.054Z",
   "activeCodes": [
+    {
+      "code": "1stanniversary",
+      "reward": "100 monedas, 100 Seashells, 2 Random cofres, Summer 2026 cofre",
+      "addedDate": "2026-08-24"
+    },
     {
       "code": "snowconedelayed",
       "reward": "1 Summer cofre",
@@ -253,6 +258,21 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "gullible",
+      "reward": "20 créditos",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "armlesslife",
+      "reward": "50 créditos, Random cofre",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "thx4playing",
+      "reward": "80 créditos, Random cofre",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "freecrateplz",
       "reward": "Random cofre",
       "addedDate": "2026-08-01"
@@ -263,27 +283,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "thx4playing",
-      "reward": "80 créditos, Random cofre",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "1millionvisits",
+      "code": "update",
       "reward": "Random cofre",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "gullible",
-      "reward": "20 créditos",
       "addedDate": "2026-08-01"
     },
     {
       "code": "secretswagcode",
-      "reward": "Random cofre",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "3millionvisits",
       "reward": "Random cofre",
       "addedDate": "2026-08-01"
     },
@@ -293,62 +298,22 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "cosmetics",
-      "reward": "20 créditos",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "update",
+      "code": "3millionvisits",
       "reward": "Random cofre",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "armlesslife",
-      "reward": "50 créditos, Random cofre",
+      "code": "1millionvisits",
+      "reward": "Random cofre",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "cosmetics",
+      "reward": "20 créditos",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
-    {
-      "code": "Release",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Solo",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "TYFORSUPPORT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MINIUPDATE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "INVASIONS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "THANKSFOR2K",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "RELICS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FIXES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "THOUSANDLIKES",
-      "reward": "Recompensas gratis"
-    },
     {
       "code": "happynewyear",
       "reward": "2 Random cofres"
@@ -384,6 +349,46 @@
     {
       "code": "notarealcode",
       "reward": "Nothing"
+    },
+    {
+      "code": "Release",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Solo",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MINIUPDATE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "TYFORSUPPORT",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "INVASIONS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "RELICS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "THANKSFOR2K",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "FIXES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "THOUSANDLIKES",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "10kplayer",
