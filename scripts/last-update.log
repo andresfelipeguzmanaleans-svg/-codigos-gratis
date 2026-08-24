@@ -1,160 +1,96 @@
-=== RESUMEN UPDATE 2026-08-23 20:16 ===
+=== RESUMEN UPDATE 2026-08-24 08:40 ===
 
 Archivos modificados:
-  51 archivos cambiados
+  36 archivos cambiados
 
 Archivos nuevos:
-  1 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4588 juegos (4588 procesados)
-Actualizados: 49 | Sin cambios: 4394
+Actualizados: 34 | Sin cambios: 4409
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 169 | Movidos a expirados: 39
-Tiempo: 141.1s | Concurrencia: 10
+Códigos nuevos: 15 | Movidos a expirados: 98
+Tiempo: 147.5s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Dmg Per Revive: 4→4 activos (=), 27→28 exp
-  Anime Apocalypse: 57→57 activos (=), 9→11 exp
-  Anime Astral Simulator: 76→76 activos (=), 59→60 exp
-  Anime Capture: 42→57 activos (+15), 21→21 exp
-    Nuevos: 11KLIKES, 51KFAVS, 52KFAVS, 53KFAVS, 54KFAVS, 55KFAVS, 56KFAVS, 57KFAVS, ARTIFACT, BLEACHUPDATE, BUGSFIXES, PITYCHALLENGE, SORRYFORDELAY, TOWER, UPDATE2
-  Anime Fighters Simulator: 60→61 activos (+1), 253→253 exp
-    Nuevos: UPDATE100
-  Anime Jackpot: 24→25 activos (+1), 1→4 exp
-    Nuevos: CAFE
-  Anime Squadron: 5→7 activos (+2), 50→50 exp
-    Nuevos: PowerOfRivals!, RoyalKnights!
-  Anime Ultron Simulator: 27→29 activos (+2), 2→2 exp
-    Nuevos: HERORAID, OPMUPDATE
-  Anime Waifu Card Collection: 32→33 activos (+1), 5→6 exp
-    Nuevos: PVP
-  Blue Lock Rivals: 5→98 activos (+93), 329→237 exp
-    Nuevos: INSANETRAILERSOON, SAERRY4DELAY, RINSOON, HALFBAKED, SAEREWORK, MAGICIAN, NESSTODAY, NESSNEXTWEEK, TEAMSPAIN, TEAMBRAZIL, NEWMAP, WORLDTOURNAMENTPART3, SEMIFINALS, REBALANCES, QUARTERFINALSOON, QOLUPD, NEWCHEMSOON, DEMON, SUMMERUPDATE, U20CUP, WORLDTOURNAMENT, BEARCLAW, ADDRESSME, GAGAREWORK, MASSIVEUPDATE, NELEVENT, NELTEAMSHYPE, BREAKDANCE, KIYORARELEASE, HIORIREWORK, SNOWFLAKE, NELHIORI, HIORIHYPE, MINIUPDATE, MBFORDELAY, HIORISOON, REORETURN, MASTEROFALLTRADES, REOHYPE, REOSOON, REWORKW, SAEW, WPATCH, THEJOKER, WILDCARD, KUNIGAMIW, SPEEDSTER, CHIGIRIHERE, 44PANTHER, CHIGIRISOON, NINJASPINS, OTOYAUPD, NELQUEST, NEWJERSEYS, NEWIMPACTS, METAVISION, EGOISTNOW, ISAGITODAY, NAGITHEBEST, NELNAGIW, SORRYDELAYEASTER, EggStyle, EasterYuki, ITSBACK, TIMETIME, RANKEDRETURN, NELPASS, NELLUCKY, NELSTYLESPINS, CROWFLOWCODE, CROWCODE, KARASUHYPE, NAGIEVOLUTION, ISAGIEVOLUTION, RIPGENERATIONAL, FLOW3V3, HYP3, 3V3TIME, LUNARYEAR, CODEANGRY, RAICHIHYPE, HEARTFLOW, HEARTSTYLE, VALENTINESDAY, NELFLOWSPINS, NELQUEST2, RINRIN, YENUPDATE, AFKUPDATE, NESSFLOW, RABBITPULL, ITSNESS, NESSMAGICIAN
-  Brainrot Evolution: 84→84 activos (=), 14→15 exp
-  Car Zone: 121→123 activos (+2), 18→18 exp
-    Nuevos: CARPLAY, UPDATE69
-  Catch A Monster: 43→44 activos (+1), 136→135 exp
-    Nuevos: LYGEAR
-  Corsa Legends: 25→26 activos (+1), 29→28 exp
-    Nuevos: 120K
-  Death Ball: 95→72 activos (-23), 10→33 exp
-  Death Order Simon Says: 12→13 activos (+1), 0→0 exp
-    Nuevos: MIRSANDLIFE
-  Escape Huss Valley: 17→19 activos (+2), 4→4 exp
-    Nuevos: UPDNINE, BRANDNEWDELAY
-  Final Swarm: 7→7 activos (=), 2→3 exp
-  Ghost Driver: 3→4 activos (+1), 1→0 exp
-    Nuevos: THANKSFOR250K
-  Grow A Chicken Fighter: 4→6 activos (+2), 1→1 exp
-    Nuevos: 50MVISITS, ASCEND
-  Heavyweight Fishing: 96→96 activos (=), 29→38 exp
-  Hots Rng: 75→80 activos (+5), 64→60 exp
-    Nuevos: toletole, 150KVisits, 400KVisits, 200KVisits, 300KVisits
-  Jujutsu Zero: 70→72 activos (+2), 20→18 exp
-    Nuevos: CALAMITY, CTBUFFS
-  Junk Mechanics: 4→5 activos (+1), 0→0 exp
-    Nuevos: ELCINCO
-  Korblox Headless Hangout: 15→7 activos (-8), 11→19 exp
-  Lake Sipping: 4→6 activos (+2), 2→0 exp
-    Nuevos: Whirlpool, HydraChaos
-  Lowball: 6→7 activos (+1), 0→0 exp
-    Nuevos: MOREUPGRADES
-  Merge A Nuke: 3→4 activos (+1), 3→2 exp
-    Nuevos: DELAY
-  Ninja Time: 159→160 activos (+1), 114→114 exp
-    Nuevos: ThanksFor5KCCU!
-  Obby Rng: 0→7 activos (+7), 7→0 exp
-    Nuevos: SEASONPASS, UPD2, update, quests, 1klikes, 1v1, release
-  One Fruit Simulator: 150→142 activos (-8), 222→228 exp
-  One Fruit: 139→142 activos (+3), 220→220 exp
-    Nuevos: ThankYouAll!!, Gamblers, Bestiary
-  Pitch A Pet Simulator: 4→5 activos (+1), 1→0 exp
-    Nuevos: release
-  Pop For Free: 3→8 activos (+5), 0→0 exp
-    Nuevos: AAFINISHED, SEASON2, UPD4, WPLAYERS, WSUSHIW
-  Primal Pursuit: 16→17 activos (+1), 17→17 exp
-    Nuevos: 80KL1KES
-  Rng Heroes: 7→7 activos (=), 9→10 exp
-  Roanoke Va: 12→13 activos (+1), 41→41 exp
-    Nuevos: TUNING
-  Roanoke: 12→13 activos (+1), 0→0 exp
-    Nuevos: TUNING
-  Roblox Dig And Clean: 3→4 activos (+1), 0→0 exp
-    Nuevos: UPDATE3
-  Roll Anime To Fight: 14→16 activos (+2), 2→2 exp
-    Nuevos: MONARACHUPDATEPART1, RAIDUPDATE
-  Slime Card Collection: 10→11 activos (+1), 2→1 exp
-    Nuevos: Secrets
-  Spin A Superhero: 5→6 activos (+1), 0→0 exp
-    Nuevos: TRANSCENDENT
-  Split Or Steal Brainrot: 5→6 activos (+1), 1→1 exp
-    Nuevos: AnimePro3000
-  Superhero Academy: 9→10 activos (+1), 7→6 exp
-    Nuevos: meauras
-  Throw A Coin: 6→7 activos (+1), 1→1 exp
-    Nuevos: WORLD5
-  Tr Legacy: 19→20 activos (+1), 4→4 exp
-    Nuevos: HOLY55KLIKES
-  Trade Squishy Dumplings: 6→8 activos (+2), 1→0 exp
-    Nuevos: ILUVDUMPLINGS, UPD3
-  Ugc Steal Points: 34→35 activos (+1), 5→5 exp
-    Nuevos: 60KLIKES
-  Young Street Ontario: 11→11 activos (=), 17→18 exp
+  Anime Card Collection: 63→63 activos (=), 6→7 exp
+  Anime Final Quest: 93→93 activos (=), 57→58 exp
+  Anime Girl Rng: 53→53 activos (=), 144→151 exp
+  Anime Power League: 72→72 activos (=), 12→15 exp
+  Anime Squadron: 7→8 activos (+1), 50→50 exp
+    Nuevos: CapsuleEventChanges!
+  Anime Stars: 16→17 activos (+1), 0→0 exp
+    Nuevos: PERFORMANCE
+  Battle For Dream Island Again: 45→45 activos (=), 104→105 exp
+  Blue Lock Rivals: 98→6 activos (-92), 237→329 exp
+  Build A Military Base: 55→55 activos (=), 36→39 exp
+  Burning Ashes New Era: 6→6 activos (=), 101→102 exp
+  Car Crushers 2: 51→51 activos (=), 8→9 exp
+  Dueling Grounds: 15→15 activos (=), 1→2 exp
+  Epic Cars: 0→8 activos (+8), 18→10 exp
+    Nuevos: 1KLikes, 1500Likes, 5MILLION, SpinnyWheelss, 500Kvisits, 500Likes, 750Likes, 1MillionVisits
+  Greenville: 9→9 activos (=), 30→31 exp
+  Highway Legends: 32→32 activos (=), 5→6 exp
+  Horse Race Simulator: 11→12 activos (+1), 1→0 exp
+    Nuevos: 12000LiKeX_EnJoyy
+  Hots Rng: 80→76 activos (-4), 60→64 exp
+  Jojos Bizarre Incremental: 37→37 activos (=), 27→32 exp
+  Knife Duels: 2→2 activos (=), 2→4 exp
+  Monsterverze: 23→23 activos (=), 6→7 exp
+  Mutant Plants Base Defense: 14→14 activos (=), 3→4 exp
+  Pitch A Pet Simulator: 5→4 activos (-1), 0→1 exp
+  Reign Piece: 80→80 activos (=), 5→6 exp
+  Retro Tower Defense: 25→25 activos (=), 43→44 exp
+  Resource Incremental: 13→13 activos (=), 10→15 exp
+  Ride Storm: 25→25 activos (=), 10→11 exp
+  Rogue Piece: 41→41 activos (=), 149→152 exp
+  Roll An Anime: 20→20 activos (=), 5→6 exp
+  Scp Architect X: 5→5 activos (=), 2→3 exp
+  Spin A Kitty: 19→19 activos (=), 14→15 exp
+  Superhero Academy: 10→9 activos (-1), 6→7 exp
+  Ultimate Gym Game: 9→9 activos (=), 1→5 exp
+  Untitled Gym Game: 15→19 activos (+4), 12→8 exp
+    Nuevos: 100KCASH, imtired, Release, THANKU10KMEMBERS
+  Win A World Championship: 7→7 activos (=), 8→10 exp
 
 Detalle cambios:
-data/games/codigos-1-dmg-per-revive.json
-data/games/codigos-anime-apocalypse.json
-data/games/codigos-anime-astral-simulator.json
-data/games/codigos-anime-capture.json
-data/games/codigos-anime-fighters-simulator.json
-data/games/codigos-anime-jackpot.json
+data/games/codigos-anime-card-collection.json
+data/games/codigos-anime-final-quest.json
+data/games/codigos-anime-girl-rng.json
+data/games/codigos-anime-power-league.json
 data/games/codigos-anime-squadron.json
-data/games/codigos-anime-ultron-simulator.json
-data/games/codigos-anime-waifu-card-collection.json
+data/games/codigos-anime-stars.json
+data/games/codigos-battle-for-dream-island-again.json
 data/games/codigos-blue-lock-rivals.json
-data/games/codigos-brainrot-evolution.json
-data/games/codigos-car-zone.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-corsa-legends.json
-data/games/codigos-death-ball.json
-data/games/codigos-death-order-simon-says.json
-data/games/codigos-escape-huss-valley.json
-data/games/codigos-final-swarm.json
-data/games/codigos-ghost-driver.json
-data/games/codigos-grow-a-chicken-fighter.json
-data/games/codigos-heavyweight-fishing.json
+data/games/codigos-build-a-military-base.json
+data/games/codigos-burning-ashes-new-era.json
+data/games/codigos-car-crushers-2.json
+data/games/codigos-dueling-grounds.json
+data/games/codigos-epic-cars.json
+data/games/codigos-greenville.json
+data/games/codigos-highway-legends.json
+data/games/codigos-horse-race-simulator.json
 data/games/codigos-hots-rng.json
-data/games/codigos-jujutsu-zero.json
-data/games/codigos-junk-mechanics.json
-data/games/codigos-korblox-headless-hangout.json
-data/games/codigos-lake-sipping.json
-data/games/codigos-lowball.json
-data/games/codigos-merge-a-nuke.json
-data/games/codigos-ninja-time.json
-data/games/codigos-obby-rng.json
-data/games/codigos-one-fruit-simulator.json
-data/games/codigos-one-fruit.json
+data/games/codigos-jojos-bizarre-incremental.json
+data/games/codigos-knife-duels.json
+data/games/codigos-monsterverze.json
+data/games/codigos-mutant-plants-base-defense.json
 data/games/codigos-pitch-a-pet-simulator.json
-data/games/codigos-pop-for-free.json
-data/games/codigos-primal-pursuit.json
-data/games/codigos-rng-heroes.json
-data/games/codigos-roanoke-va.json
-data/games/codigos-roanoke.json
-data/games/codigos-roblox-dig-and-clean.json
-data/games/codigos-roll-anime-to-fight.json
-data/games/codigos-slime-card-collection.json
-data/games/codigos-spin-a-superhero.json
-data/games/codigos-split-or-steal-brainrot.json
+data/games/codigos-reign-piece.json
+data/games/codigos-resource-incremental.json
+data/games/codigos-retro-tower-defense.json
+data/games/codigos-ride-storm.json
+data/games/codigos-rogue-piece.json
+data/games/codigos-roll-an-anime.json
+data/games/codigos-scp-architect-x.json
+data/games/codigos-spin-a-kitty.json
 data/games/codigos-superhero-academy.json
-data/games/codigos-throw-a-coin.json
-data/games/codigos-tr-legacy.json
-data/games/codigos-trade-squishy-dumplings.json
-data/games/codigos-ugc-steal-points.json
-data/games/codigos-young-street-ontario.json
+data/games/codigos-ultimate-gym-game.json
+data/games/codigos-untitled-gym-game.json
+data/games/codigos-win-a-world-championship.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-trench-decay.json
 
