@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-a601f8670ad7992a22c38f3795f98c2a/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Pirates Dream en Roblox",
   "metaTitle": "Códigos Pirates Dream Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Pirates Dream en Roblox. 19 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-25T08:37:27.149Z",
+  "metaDescription": "Lista actualizada de códigos para Pirates Dream en Roblox. 15 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-25T20:21:45.414Z",
   "activeCodes": [
     {
       "code": "WEKENDNOTIFIER",
@@ -13,26 +13,12 @@
       "addedDate": "2026-03-23"
     },
     {
-      "code": "LUCKYDROP",
-      "reward": "Doble Drop"
-    },
-    {
       "code": "FRUITGONE",
       "reward": "Fruit Reset"
     },
     {
-      "code": "REVIVE",
-      "reward": "2x drop",
-      "addedDate": "2026-08-25"
-    },
-    {
       "code": "ONETHOUSANDTHANKS",
       "reward": "100 oro"
-    },
-    {
-      "code": "WEEKENDNOTIFIER",
-      "reward": "2 horas devil fruit notifier",
-      "addedDate": "2026-08-25"
     },
     {
       "code": "WEEKENDROLL",
@@ -63,15 +49,6 @@
       "reward": "Devil Fruit Notifier for 1 hora"
     },
     {
-      "code": "RESETFRUIT",
-      "reward": "Resets fruit",
-      "addedDate": "2026-08-25"
-    },
-    {
-      "code": "STATSAGAIN",
-      "reward": "Reinicio de stats"
-    },
-    {
       "code": "3KNOTIFIER",
       "reward": "Devil Fruit Notifier for 3 horas"
     },
@@ -80,16 +57,35 @@
       "reward": "Reinicio de stats"
     },
     {
-      "code": "RESTART",
-      "reward": "5 Race Rerolls",
-      "addedDate": "2026-08-25"
-    },
-    {
       "code": "FRUITBEGONE",
       "reward": "Devil Fruit Reset"
+    },
+    {
+      "code": "LUCKYDROP",
+      "reward": "Doble Drop"
+    },
+    {
+      "code": "STATSAGAIN",
+      "reward": "Reinicio de stats"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "REVIVE",
+      "reward": "2x drop"
+    },
+    {
+      "code": "WEEKENDNOTIFIER",
+      "reward": "2 horas devil fruit notifier"
+    },
+    {
+      "code": "RESETFRUIT",
+      "reward": "Resets fruit"
+    },
+    {
+      "code": "RESTART",
+      "reward": "5 Race Rerolls"
+    },
     {
       "code": "5.5KLIKES",
       "reward": "Reinicio de stats"

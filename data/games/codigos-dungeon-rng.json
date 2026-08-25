@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-5fa483df831a0d7f0861495f3c957b50/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Dungeon Rng en Roblox",
   "metaTitle": "Códigos Dungeon Rng Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dungeon Rng en Roblox. 62 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-25T08:36:36.842Z",
+  "metaDescription": "Lista actualizada de códigos para Dungeon Rng en Roblox. 60 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-25T20:20:42.189Z",
   "activeCodes": [
     {
       "code": "NoPotionLag",
@@ -65,6 +65,11 @@
     {
       "code": "EggPlease",
       "reward": "10 BladeEgg pociones",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "TwoMillionVisits",
+      "reward": "1 Magic poción",
       "addedDate": "2026-08-01"
     },
     {
@@ -158,28 +163,28 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "TwoMillionVisits",
-      "reward": "1 Magic poción",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "ThreeMillionVisits",
       "reward": "5 Super tirada velocidad pociones",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "ThirtyMillionVisits",
+      "code": "Halloween",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Dungeons",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-25"
+      "code": "TwentyTwoMillionVisits",
+      "reward": "Magic poción",
+      "addedDate": "2026-08-01"
     },
     {
-      "code": "SkillTree",
-      "reward": "1 OP poción",
+      "code": "Update10",
+      "reward": "Magic poción",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "FreeWinterRift",
+      "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
     {
@@ -198,12 +203,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SeventeenMillionVisits",
-      "reward": "Recompensas gratis",
+      "code": "CosmicUpdate",
+      "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "CosmicUpdate",
+      "code": "TwentyFiveMillionVisits",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
@@ -228,22 +233,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "TwentyFiveMillionVisits",
-      "reward": "Magic poción",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "Valentine2025",
-      "reward": "Magic poción",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "EvilBlacksmith",
-      "reward": "10 Super Exp pociones",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "TwelveMillionVisits",
+      "reward": "Magic poción",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "ServerBoostMeter",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
@@ -258,12 +253,17 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "ThirtyMillionVisits",
+      "reward": "Magic poción",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "ServerRestart",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "ServerBoostMeter",
+      "code": "Valentine2025",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
@@ -273,12 +273,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Update10",
-      "reward": "Magic poción",
+      "code": "EvilBlacksmith",
+      "reward": "10 Super Exp pociones",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "FreeWinterRift",
+      "code": "Update9",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
@@ -288,13 +288,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Update9",
+      "code": "Update11",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Update11",
-      "reward": "Magic poción",
+      "code": "SkillTree",
+      "reward": "1 OP poción",
       "addedDate": "2026-08-01"
     },
     {
@@ -306,19 +306,13 @@
       "code": "FortyMillionVisits",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "Halloween",
-      "reward": "Magic poción",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "TwentyTwoMillionVisits",
-      "reward": "Magic poción",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "Dungeons",
+      "reward": "Recompensas gratis"
+    },
     {
       "code": "AprilFools",
       "reward": "One April Fools poción"

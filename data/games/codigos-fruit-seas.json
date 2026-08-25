@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-f587ec6f17720cd05e308003996c1e2b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fruit Seas en Roblox",
   "metaTitle": "Códigos Fruit Seas Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 70 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-25T08:36:46.889Z",
+  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 69 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-25T20:20:54.331Z",
   "activeCodes": [
     {
       "code": "SafeAgain",
@@ -46,11 +46,6 @@
       "code": "AntiLag",
       "reward": "Recompensas gratis",
       "addedDate": "2026-05-25"
-    },
-    {
-      "code": "exp1_upd10",
-      "reward": "2x EXP",
-      "addedDate": "2026-08-25"
     },
     {
       "code": "2xexp2_upd10",
@@ -98,13 +93,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "1MVISITS",
-      "reward": "Reinicio de stats",
+      "code": "750KVISITS",
+      "reward": "Doble Mastery (15 minutos)",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "750KVISITS",
-      "reward": "Doble Mastery (15 minutos)",
+      "code": "1MVISITS",
+      "reward": "Reinicio de stats",
       "addedDate": "2026-08-01"
     },
     {
@@ -113,12 +108,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "5KLIKES",
+      "code": "FRESHSTART",
       "reward": "Reinicio de stats",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "FRESHSTART",
+      "code": "5KLIKES",
       "reward": "Reinicio de stats",
       "addedDate": "2026-08-01"
     },
@@ -360,8 +355,12 @@
   ],
   "expiredCodes": [
     {
-      "code": "ThanksSwTwN!",
-      "reward": "Recompensa gratis"
+      "code": "exp1_upd10",
+      "reward": "2x EXP"
+    },
+    {
+      "code": "PodcastCode!",
+      "reward": "Race Reroll"
     },
     {
       "code": "Upd2lol",
@@ -378,6 +377,10 @@
     {
       "code": "DoughSoon!",
       "reward": "2x EXP Boost (30 minutos)"
+    },
+    {
+      "code": "SlidetoTheX!",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "BUGFIXES",
@@ -404,8 +407,8 @@
       "reward": "Random Fruit"
     },
     {
-      "code": "PodcastCode!",
-      "reward": "Race Reroll"
+      "code": "ThanksSwTwN!",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "PrayForUs",
@@ -462,10 +465,6 @@
     {
       "code": "ResetFixed",
       "reward": "Reset Stat"
-    },
-    {
-      "code": "SlidetoTheX!",
-      "reward": "Recompensa gratis"
     },
     {
       "code": "EXPPBOOSTT!",
