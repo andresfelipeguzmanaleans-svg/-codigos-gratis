@@ -5,52 +5,108 @@
   "description": "Todos los códigos activos para Undertale Rng en Roblox",
   "metaTitle": "Códigos Undertale Rng Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Undertale Rng en Roblox. 7 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-22T20:16:16.797Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-08-25T08:39:02.555Z",
+  "activeCodes": [
     {
       "code": "npcfix3",
-      "reward": "100 DarkDollars, 2 Monster Candies, and 7 Heavens"
+      "reward": "100 DarkDollars, 2 Monster Candies, and 7 Heavens",
+      "addedDate": "2026-08-25"
     },
     {
       "code": "npcfix2",
-      "reward": "5 Heavens"
+      "reward": "5 Heavens",
+      "addedDate": "2026-08-25"
     },
     {
       "code": "alwaysblametesters",
-      "reward": "Recompensas gratis"
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-25"
     },
     {
       "code": "summereventpatch",
-      "reward": "4,000 DarkDollars, 500 Ducks, and 2 Spider Ciders"
+      "reward": "4,000 DarkDollars, 500 Ducks, and 2 Spider Ciders",
+      "addedDate": "2026-08-25"
     },
     {
       "code": "jarona",
-      "reward": "10,300 DarkDollars, 500 Ducks, and 3 Monster Candies"
+      "reward": "10,300 DarkDollars, 500 Ducks, and 3 Monster Candies",
+      "addedDate": "2026-08-25"
     },
     {
       "code": "npcfix",
-      "reward": "Recompensas gratis"
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-25"
     },
     {
       "code": "duckhuntfix",
-      "reward": "Recompensas gratis"
-    },
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-25"
+    }
+  ],
+  "expiredCodes": [
     {
-      "code": "balances",
-      "reward": "Tons of Recompensas gratis"
+      "code": "sneakpeek",
+      "reward": "100-1,000 Snowflakes and 10 Heavens"
     },
     {
       "code": "halloween2",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "almostmonthdelay",
+      "code": "celebrationv3",
+      "reward": "The YIPEEEButOnceAgain?????? Aura"
+    },
+    {
+      "code": "solarscriptingmomentv4",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "goop",
+      "code": "quickfix",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "delayupdatev2",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "newcube??",
+      "reward": "X4 Niko?? and x8 Broken Cube Fragments"
+    },
+    {
+      "code": "1qwerty23niko32hi2",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "ilovechaos<3",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "patchbutton",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "november_3rd",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "buttonhuntv3",
+      "reward": "3 Hotdogs"
+    },
+    {
+      "code": "mikomoment",
+      "reward": "2 Hotdogs"
+    },
+    {
+      "code": "shutdownnumber37",
+      "reward": "3 Hotdogs"
+    },
+    {
+      "code": "bugfixes",
+      "reward": "Tastes of Heaven"
+    },
+    {
+      "code": "shutdownnumber36",
+      "reward": "5 Hotdogs"
     },
     {
       "code": "solarscriptingmoment",
@@ -97,10 +153,6 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "yayupdate",
-      "reward": "The raro Aura"
-    },
-    {
       "code": "halloweensoon",
       "reward": "3 Heavens"
     },
@@ -113,7 +165,43 @@
       "reward": "Recompensas gratis"
     },
     {
+      "code": "balances",
+      "reward": "Tons of Recompensas gratis"
+    },
+    {
+      "code": "solarscriptingmomentv5",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "yayupdate",
+      "reward": "The raro Aura"
+    },
+    {
+      "code": "recoverplsniko",
+      "reward": "5 Niko??s"
+    },
+    {
+      "code": "newupdate",
+      "reward": "2 Niko??s and 2 Heavens"
+    },
+    {
+      "code": "shutdownnumber35",
+      "reward": "2 Niko??s"
+    },
+    {
+      "code": "roaringupdate",
+      "reward": "10 Niko??s"
+    },
+    {
       "code": "ilovechaos",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "goop",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "almostmonthdelay",
       "reward": "Recompensas gratis"
     },
     {
@@ -137,96 +225,16 @@
       "reward": "5 Hotdogs"
     },
     {
-      "code": "halloween!",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "4mevent",
       "reward": "5 Heavens"
     },
     {
+      "code": "halloween!",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "delayupdate",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "celebrationv3",
-      "reward": "The YIPEEEButOnceAgain?????? Aura"
-    },
-    {
-      "code": "solarscriptingmomentv4",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "sneakpeek",
-      "reward": "100-1,000 Snowflakes and 10 Heavens"
-    },
-    {
-      "code": "roaringupdate",
-      "reward": "10 Niko??s"
-    },
-    {
-      "code": "shutdownnumber35",
-      "reward": "2 Niko??s"
-    },
-    {
-      "code": "newupdate",
-      "reward": "2 Niko??s and 2 Heavens"
-    },
-    {
-      "code": "quickfix",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "recoverplsniko",
-      "reward": "5 Niko??s"
-    },
-    {
-      "code": "delayupdatev2",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "newcube??",
-      "reward": "X4 Niko?? and x8 Broken Cube Fragments"
-    },
-    {
-      "code": "1qwerty23niko32hi2",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "solarscriptingmomentv5",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "ilovechaos<3",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "patchbutton",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "november_3rd",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "buttonhuntv3",
-      "reward": "3 Hotdogs"
-    },
-    {
-      "code": "mikomoment",
-      "reward": "2 Hotdogs"
-    },
-    {
-      "code": "shutdownnumber37",
-      "reward": "3 Hotdogs"
-    },
-    {
-      "code": "bugfixes",
-      "reward": "Tastes of Heaven"
-    },
-    {
-      "code": "shutdownnumber36",
-      "reward": "5 Hotdogs"
     },
     {
       "code": "milestone2026",

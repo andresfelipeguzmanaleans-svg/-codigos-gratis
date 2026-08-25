@@ -5,16 +5,18 @@
   "description": "Todos los códigos activos para Bear en Roblox",
   "metaTitle": "Códigos Bear Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Bear en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-22T20:14:17.607Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-08-25T08:36:07.499Z",
+  "activeCodes": [
     {
       "code": "CIRCUSARRIVAL",
-      "reward": "1 skin, 1 Gear, and 100 tokens"
-    },
+      "reward": "1 skin, 1 Gear, and 100 tokens",
+      "addedDate": "2026-08-25"
+    }
+  ],
+  "expiredCodes": [
     {
-      "code": "NONONO",
-      "reward": "1 Bear skin gratis"
+      "code": "2YEAR",
+      "reward": "1 Anniversary skin, 1 Gear, and 222 Quidz"
     },
     {
       "code": "PIDAY",
@@ -23,10 +25,6 @@
     {
       "code": "VALENTIMES",
       "reward": "The Valentine's skin"
-    },
-    {
-      "code": "2YEAR",
-      "reward": "1 Anniversary skin, 1 Gear, and 222 Quidz"
     },
     {
       "code": "EATING",
@@ -77,10 +75,6 @@
       "reward": "1 Advent Plush"
     },
     {
-      "code": "SAINT22",
-      "reward": "1 Sam skin"
-    },
-    {
       "code": "3RDYEAR",
       "reward": "1 Bear skin gratis"
     },
@@ -91,14 +85,6 @@
     {
       "code": "NOLOVE",
       "reward": "1 Rejected Bear skin"
-    },
-    {
-      "code": "LUCKYME",
-      "reward": "Bear skin"
-    },
-    {
-      "code": "ONEYEAR",
-      "reward": "Skin gratis"
     },
     {
       "code": "XMAS2020",
@@ -119,6 +105,22 @@
     {
       "code": "FESTIVE2021",
       "reward": "1 Snow Globe Bear skin"
+    },
+    {
+      "code": "NONONO",
+      "reward": "1 Bear skin gratis"
+    },
+    {
+      "code": "SAINT22",
+      "reward": "1 Sam skin"
+    },
+    {
+      "code": "LUCKYME",
+      "reward": "Bear skin"
+    },
+    {
+      "code": "ONEYEAR",
+      "reward": "Skin gratis"
     }
   ],
   "howToRedeem": [
