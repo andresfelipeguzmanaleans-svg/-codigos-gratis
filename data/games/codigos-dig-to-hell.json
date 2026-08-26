@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-0085038cb6c803e3cae339725d9f2c68/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Dig To Hell en Roblox",
   "metaTitle": "Códigos Dig To Hell Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dig To Hell en Roblox. 26 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-26T08:35:44.915Z",
+  "metaDescription": "Lista actualizada de códigos para Dig To Hell en Roblox. 25 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-26T22:38:07.795Z",
   "activeCodes": [
     {
       "code": "HYPE",
@@ -15,6 +15,16 @@
     {
       "code": "HELL",
       "reward": "200 Wins",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "BOMBS",
+      "reward": "500 Wins",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "10KLIKES",
+      "reward": "600 Wins",
       "addedDate": "2026-08-01"
     },
     {
@@ -33,13 +43,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "10KLIKES",
-      "reward": "600 Wins",
+      "code": "CHRISTMAS",
+      "reward": "Wins",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "BOMBS",
-      "reward": "500 Wins",
+      "code": "DIGTOWIN",
+      "reward": "Wins",
       "addedDate": "2026-08-01"
     },
     {
@@ -48,17 +58,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "RICH",
-      "reward": "Wins",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "CHRISTMAS",
-      "reward": "Wins",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SNOW",
+      "code": "GUARD",
       "reward": "Wins",
       "addedDate": "2026-08-01"
     },
@@ -93,11 +93,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "X3WINS",
-      "reward": "Wins",
-      "addedDate": "2026-08-26"
-    },
-    {
       "code": "SQUID",
       "reward": "Wins",
       "addedDate": "2026-08-01"
@@ -108,7 +103,17 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "GUARD",
+      "code": "RICH",
+      "reward": "Wins",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SPECIAL",
+      "reward": "Wins",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SNOW",
       "reward": "Wins",
       "addedDate": "2026-08-01"
     },
@@ -126,19 +131,14 @@
       "code": "SPACE",
       "reward": "Wins",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SPECIAL",
-      "reward": "Wins",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "DIGTOWIN",
-      "reward": "Wins",
-      "addedDate": "2026-08-01"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "X3WINS",
+      "reward": "Wins"
+    }
+  ],
   "howToRedeem": [
     "Abre Dig To Hell en Roblox",
     "Busca el botón de códigos en el menú",

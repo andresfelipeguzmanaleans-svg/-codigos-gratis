@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-5f246bf6237833a10912e4a75a563893/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Shadow en Roblox",
   "metaTitle": "Códigos Anime Shadow Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 36 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-26T08:35:14.296Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 35 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-26T22:37:32.857Z",
   "activeCodes": [
+    {
+      "code": "10KLIKES",
+      "reward": "100 tickets",
+      "addedDate": "2026-08-01"
+    },
     {
       "code": "10KACTIVES",
       "reward": "100 tickets, 2 monedas pociones, 2 daño pociones",
@@ -18,22 +23,24 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "10KLIKES",
-      "reward": "100 tickets",
-      "addedDate": "2026-08-01"
+      "code": "Release",
+      "reward": "150 tickets"
     },
     {
-      "code": "25KLIKES",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-26"
+      "code": "40KLIKES",
+      "reward": "100 tickets, 4 Fish monedas, 3 Raid llaves"
+    },
+    {
+      "code": "QuestFix",
+      "reward": "150 tickets, 2 Dragon Ball VII, 1 Dragon Ball VI"
     },
     {
       "code": "GHOULUPDATE",
       "reward": "100 tickets, 2 Shiny pociones"
     },
     {
-      "code": "40KLIKES",
-      "reward": "100 tickets, 4 Fish monedas, 3 Raid llaves"
+      "code": "15KACTIVES",
+      "reward": "150 tickets"
     },
     {
       "code": "FIXEDCODE",
@@ -42,14 +49,6 @@
     {
       "code": "BUFFBOROS",
       "reward": "4 Dragon Ball VII, 2 Dragon Ball VI"
-    },
-    {
-      "code": "QuestFix",
-      "reward": "150 tickets, 2 Dragon Ball VII, 1 Dragon Ball VI"
-    },
-    {
-      "code": "15KACTIVES",
-      "reward": "150 tickets"
     },
     {
       "code": "MOBILEFIX",
@@ -86,28 +85,32 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Release",
-      "reward": "150 tickets"
-    },
-    {
-      "code": "NEYMARLOL",
-      "reward": "10 Cursed Plasma, 10 Passive Capsule, 10 Green Essence, 10 Gray Essence, 10 Trial Shard"
-    },
-    {
-      "code": "UPDATECRAFT",
-      "reward": "80 tickets"
+      "code": "AURAUPDATE",
+      "reward": "90 tickets, 25 Aura Shards"
     },
     {
       "code": "CLOVERUPDATE",
       "reward": "100 tickets, 15 Grimoire tokens"
     },
     {
-      "code": "TITLESUPDATE",
-      "reward": "100 tickets, 1 Shiny poción"
+      "code": "NEYPATCH",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "UPDATECRAFT",
+      "reward": "80 tickets"
+    },
+    {
+      "code": "NEYMARLOL",
+      "reward": "10 Cursed Plasma, 10 Passive Capsule, 10 Green Essence, 10 Gray Essence, 10 Trial Shard"
     },
     {
       "code": "PATCHXMAS",
       "reward": "100 tickets, 2.5x monedas poción, 2.5x daño poción, 2.5x Exp poción"
+    },
+    {
+      "code": "XMASUPD2",
+      "reward": "10 tickets, 2.5x monedas poción, 2.5x daño poción, 2.5x Exp poción, Shiny (XMAS) poción"
     },
     {
       "code": "SRRYDELAYXMAS",
@@ -118,24 +121,12 @@
       "reward": "80 tickets, 10 Aura Shards"
     },
     {
-      "code": "SRRYXMAS2",
-      "reward": "100 tickets"
-    },
-    {
-      "code": "AURAUPDATE",
-      "reward": "90 tickets, 25 Aura Shards"
-    },
-    {
-      "code": "XMASUPD2",
-      "reward": "10 tickets, 2.5x monedas poción, 2.5x daño poción, 2.5x Exp poción, Shiny (XMAS) poción"
+      "code": "ULTSFIXED",
+      "reward": "100 tickets, 2 Raid llaves, 2 Defense llaves"
     },
     {
       "code": "10MVISITS",
       "reward": "100 tickets, 20 Talent Shards, 20 Gingerbread, 20 Candy Canes"
-    },
-    {
-      "code": "ULTSFIXED",
-      "reward": "100 tickets, 2 Raid llaves, 2 Defense llaves"
     },
     {
       "code": "SORRYFORDELAY",
@@ -154,11 +145,19 @@
       "reward": "150 tickets"
     },
     {
-      "code": "NEYPATCH",
-      "reward": "Recompensas gratis"
+      "code": "TITLESUPDATE",
+      "reward": "100 tickets, 1 Shiny poción"
+    },
+    {
+      "code": "SRRYXMAS2",
+      "reward": "100 tickets"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "25KLIKES",
+      "reward": "Recompensas gratis"
+    },
     {
       "code": "HunterUpdate",
       "reward": "Tickets"

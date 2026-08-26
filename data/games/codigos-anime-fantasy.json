@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-408fc962d27e0cb78fb6847ebee85791/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Fantasy en Roblox",
   "metaTitle": "Códigos Anime Fantasy Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Fantasy en Roblox. 77 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-26T08:35:10.489Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Fantasy en Roblox. 68 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-26T22:37:28.572Z",
   "activeCodes": [
     {
       "code": "Anime Fantasy:RE",
@@ -293,6 +293,21 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "10MVISITSTHANKU",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-07"
+    },
+    {
+      "code": "9MVISITS",
+      "reward": "75 RR and 1000 gemas",
+      "addedDate": "2026-08-07"
+    },
+    {
+      "code": "Diablo",
+      "reward": "100 RR + 2000 gemas",
+      "addedDate": "2026-08-07"
+    },
+    {
       "code": "Purge",
       "reward": "25 RR + 1000 gemas",
       "addedDate": "2026-08-07"
@@ -331,72 +346,112 @@
       "code": "Likes4000",
       "reward": "500 gemas",
       "addedDate": "2026-08-07"
-    },
-    {
-      "code": "UpdPointFive",
-      "reward": "250 gemas",
-      "addedDate": "2026-08-26"
-    },
-    {
-      "code": "Visit5M",
-      "reward": "500 gemas and 5 Reroll tokens",
-      "addedDate": "2026-08-26"
-    },
-    {
-      "code": "Likes10k",
-      "reward": "1000 gemas and 1 Reroll Token",
-      "addedDate": "2026-08-26"
-    },
-    {
-      "code": "SorryforDelay1",
-      "reward": "2000 gemas, 10 Reroll tokens, and 2 Super Lucky tickets",
-      "addedDate": "2026-08-26"
-    },
-    {
-      "code": "Sub2AekZaJunior",
-      "reward": "5 Reroll tokens",
-      "addedDate": "2026-08-26"
-    },
-    {
-      "code": "Sub2Jetoza",
-      "reward": "5 Reroll tokens",
-      "addedDate": "2026-08-26"
-    },
-    {
-      "code": "Sub2RikTime",
-      "reward": "5 Reroll tokens",
-      "addedDate": "2026-08-26"
-    },
-    {
-      "code": "ShadowMonarch",
-      "reward": "350 gemas",
-      "addedDate": "2026-08-26"
-    },
-    {
-      "code": "Release",
-      "reward": "350 gemas",
-      "addedDate": "2026-08-26"
-    },
-    {
-      "code": "10MVISITSTHANKU",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-07"
-    },
-    {
-      "code": "9MVISITS",
-      "reward": "75 RR and 1000 gemas",
-      "addedDate": "2026-08-07"
-    },
-    {
-      "code": "Diablo",
-      "reward": "100 RR + 2000 gemas",
-      "addedDate": "2026-08-07"
     }
   ],
   "expiredCodes": [
     {
+      "code": "UpdPointFive",
+      "reward": "250 gemas"
+    },
+    {
+      "code": "Visit5M",
+      "reward": "500 gemas and 5 Reroll tokens"
+    },
+    {
+      "code": "Likes10k",
+      "reward": "1000 gemas and 1 Reroll Token"
+    },
+    {
+      "code": "SorryforDelay1",
+      "reward": "2000 gemas, 10 Reroll tokens, and 2 Super Lucky tickets"
+    },
+    {
+      "code": "Sub2AekZaJunior",
+      "reward": "5 Reroll tokens"
+    },
+    {
+      "code": "Sub2Jetoza",
+      "reward": "5 Reroll tokens"
+    },
+    {
+      "code": "Sub2RikTime",
+      "reward": "5 Reroll tokens"
+    },
+    {
+      "code": "ShadowMonarch",
+      "reward": "350 gemas"
+    },
+    {
+      "code": "Release",
+      "reward": "350 gemas"
+    },
+    {
+      "code": "Visit1M",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "Like5K",
+      "reward": "1500 gemas, 5 Reroll tokens"
+    },
+    {
       "code": "Visit350K",
       "reward": "Reroll tokens"
+    },
+    {
+      "code": "Visit800K",
+      "reward": "2000 gemas, 5 Reroll tokens"
+    },
+    {
+      "code": "TkzWentOnVacation1",
+      "reward": "2000 Shadow monedas, 1 Super Lucky poción"
+    },
+    {
+      "code": "JoinAnimeGenesisDiscord",
+      "reward": "2 Shards"
+    },
+    {
+      "code": "ASSASSIN",
+      "reward": "1500 Assassin monedas, 10 Reroll tokens"
+    },
+    {
+      "code": "Visit550K",
+      "reward": "2000 gemas, 10 Reroll tokens"
+    },
+    {
+      "code": "Like10K",
+      "reward": "2000 gemas, 5 Reroll tokens"
+    },
+    {
+      "code": "Sub2Watchpixel",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "Visit600K",
+      "reward": "2000 gemas, 10 Reroll tokens"
+    },
+    {
+      "code": "Favorite1K",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "Likes2500",
+      "reward": "250 gemas"
+    },
+    {
+      "code": "Visit500k",
+      "reward": "250 gemas"
+    },
+    {
+      "code": "Active10k",
+      "reward": "+500 gemas +5 Reroll tokens (Must be Level 5 to redeem)"
+    },
+    {
+      "code": "SorryforShutdown1",
+      "reward": "+4000 gemas, 5000 oro, 5 Reroll tokens, 2 Super Lucky"
+    },
+    {
+      "code": "TkzTonkarz",
+      "reward": "100 gemas"
     },
     {
       "code": "Visit80K",
@@ -477,34 +532,6 @@
     {
       "code": "Watchpixel5KSub",
       "reward": "1500 gemas, 5 Reroll tokens"
-    },
-    {
-      "code": "Visit600K",
-      "reward": "2000 gemas, 10 Reroll tokens"
-    },
-    {
-      "code": "Favorite1K",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "Likes2500",
-      "reward": "250 gemas"
-    },
-    {
-      "code": "Visit500k",
-      "reward": "250 gemas"
-    },
-    {
-      "code": "Active10k",
-      "reward": "+500 gemas +5 Reroll tokens (Must be Level 5 to redeem)"
-    },
-    {
-      "code": "SorryforShutdown1",
-      "reward": "+4000 gemas, 5000 oro, 5 Reroll tokens, 2 Super Lucky"
-    },
-    {
-      "code": "Visit1M",
-      "reward": "500 gemas"
     },
     {
       "code": "XestreasGame",
@@ -649,42 +676,6 @@
     {
       "code": "Starless",
       "reward": "700 gemas"
-    },
-    {
-      "code": "Like5K",
-      "reward": "1500 gemas, 5 Reroll tokens"
-    },
-    {
-      "code": "TkzTonkarz",
-      "reward": "100 gemas"
-    },
-    {
-      "code": "Visit800K",
-      "reward": "2000 gemas, 5 Reroll tokens"
-    },
-    {
-      "code": "TkzWentOnVacation1",
-      "reward": "2000 Shadow monedas, 1 Super Lucky poción"
-    },
-    {
-      "code": "JoinAnimeGenesisDiscord",
-      "reward": "2 Shards"
-    },
-    {
-      "code": "ASSASSIN",
-      "reward": "1500 Assassin monedas, 10 Reroll tokens"
-    },
-    {
-      "code": "Visit550K",
-      "reward": "2000 gemas, 10 Reroll tokens"
-    },
-    {
-      "code": "Like10K",
-      "reward": "2000 gemas, 5 Reroll tokens"
-    },
-    {
-      "code": "Sub2Watchpixel",
-      "reward": "500 gemas"
     },
     {
       "code": "10MVISITSTHANKU!",
