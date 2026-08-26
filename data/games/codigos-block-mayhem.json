@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-562d87b41a07a4c3e6eed907861483da/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Block Mayhem en Roblox",
   "metaTitle": "Códigos Block Mayhem Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Block Mayhem en Roblox. 47 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-25T20:20:09.268Z",
+  "metaDescription": "Lista actualizada de códigos para Block Mayhem en Roblox. 51 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-26T08:35:25.291Z",
   "activeCodes": [
     {
       "code": "NewYears2023",
@@ -18,11 +18,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "datatstoreworkplease",
-      "reward": "500 gemas",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "NEWUPDATE",
       "reward": "250 gemas",
       "addedDate": "2026-08-01"
@@ -31,6 +26,11 @@
       "code": "Only499LeftToGo",
       "reward": "Icy Block",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SorryDelaysAgain",
+      "reward": "Gemas",
+      "addedDate": "2026-08-26"
     },
     {
       "code": "CYBER",
@@ -98,9 +98,19 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "NewYears2023",
+      "reward": "500 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "ESCAPETHEMATRIX",
       "reward": "500 gemas",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "TooLongDidntAsk",
+      "reward": "500 gemas",
+      "addedDate": "2026-08-26"
     },
     {
       "code": "CRAFTING",
@@ -118,11 +128,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "COMPETITION",
-      "reward": "500 gemas",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "ImLonelyOnValentines",
       "reward": "500 gemas",
       "addedDate": "2026-08-01"
@@ -133,7 +138,17 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "FinallyFunctioningGame",
+      "code": "COMPETITION",
+      "reward": "500 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "datatstoreworkplease",
+      "reward": "500 gemas",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "PleaseGiftMe",
       "reward": "500 gemas",
       "addedDate": "2026-08-01"
     },
@@ -178,7 +193,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "GOLDEN",
+      "code": "FinallyFunctioningGame",
       "reward": "500 gemas",
       "addedDate": "2026-08-01"
     },
@@ -196,6 +211,11 @@
       "code": "ClientSpawners",
       "reward": "500 gemas",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "QuestsWorking",
+      "reward": "Gemas",
+      "addedDate": "2026-08-26"
     },
     {
       "code": "SUMMER",
@@ -238,24 +258,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "PleaseGiftMe",
+      "code": "GOLDEN",
       "reward": "500 gemas",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
-    {
-      "code": "SorryDelaysAgain",
-      "reward": "Gemas"
-    },
-    {
-      "code": "TooLongDidntAsk",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "QuestsWorking",
-      "reward": "Gemas"
-    },
     {
       "code": "OneMillionVisits",
       "reward": "500% suerte"
@@ -282,22 +290,6 @@
     },
     {
       "code": "SXSW2015",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "AMAZONFRIEND2021",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "WALMARTMEXEARS2021",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "EBGAMESBLACKFRIDAY",
-      "reward": "Recompensa"
-    },
-    {
-      "code": "HAPPYCAMPER",
       "reward": "Recompensa"
     },
     {
@@ -587,6 +579,22 @@
     {
       "code": "QUESTS",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "AMAZONFRIEND2021",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "WALMARTMEXEARS2021",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "EBGAMESBLACKFRIDAY",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "HAPPYCAMPER",
+      "reward": "Recompensa"
     },
     {
       "code": "2xLuckHurray",
