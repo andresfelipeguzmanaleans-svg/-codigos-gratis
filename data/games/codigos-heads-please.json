@@ -5,7 +5,7 @@
   "description": "Todos los códigos activos para Heads Please en Roblox",
   "metaTitle": "Códigos Heads Please Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Heads Please en Roblox. 41 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T09:54:22.427Z",
+  "lastUpdated": "2026-08-28T19:49:53.294Z",
   "activeCodes": [
     {
       "code": "sryforshutdown",
@@ -28,11 +28,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "voidraphim",
-      "reward": "2 CorruptedShard",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "lateupd",
       "reward": "Wealth Buff",
       "addedDate": "2026-08-01"
@@ -43,13 +38,18 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "8upd",
+      "reward": "5 Advanced EnchantBook",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "thankyou4playing8",
       "reward": "10 EnchantBook",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "8upd",
-      "reward": "5 Advanced EnchantBook",
+      "code": "voidraphim",
+      "reward": "2 CorruptedShard",
       "addedDate": "2026-08-01"
     },
     {
@@ -68,6 +68,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "99coin",
+      "reward": "FlipSpeed +100%",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "luckyupdate",
       "reward": "Dinero +100% For 10mins",
       "addedDate": "2026-08-01"
@@ -75,11 +80,6 @@
     {
       "code": "thankyou4playing7",
       "reward": "10 Candy Buckets",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "99coin",
-      "reward": "FlipSpeed +100%",
       "addedDate": "2026-08-01"
     },
     {
@@ -123,13 +123,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "GrimReaper",
-      "reward": "Suerte Boost",
+      "code": "HappyHalloween",
+      "reward": "5 Candy Buckets",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "HappyHalloween",
-      "reward": "5 Candy Buckets",
+      "code": "GrimReaper",
+      "reward": "Suerte Boost",
       "addedDate": "2026-08-01"
     },
     {
@@ -138,13 +138,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Thxfor9KAP",
-      "reward": "10 Yut",
+      "code": "Thxfor8KAP",
+      "reward": "Dinero +100% For 10mins",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Thxfor8KAP",
-      "reward": "Dinero +100% For 10mins",
+      "code": "Thxfor9KAP",
+      "reward": "10 Yut",
       "addedDate": "2026-08-01"
     },
     {
@@ -163,12 +163,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "ThxForActivePlayer5000",
+      "code": "ThxForActivePlayer6000",
       "reward": "Recompensas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "ThxForActivePlayer6000",
+      "code": "ThxForActivePlayer5000",
       "reward": "Recompensas",
       "addedDate": "2026-08-01"
     },
@@ -188,18 +188,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "ThxFor500Likes",
-      "reward": "2x dinero Boost (10 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "ThxForGroup20k",
       "reward": "5 Enchant Books",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "EnchantBook",
-      "reward": "1 Enchant Book",
+      "code": "HugeUpdate",
+      "reward": "2x dinero Boost (10 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -208,19 +203,40 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "HugeUpdate",
+      "code": "ThxFor500Likes",
       "reward": "2x dinero Boost (10 minutos)",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "EnchantBook",
+      "reward": "1 Enchant Book",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
+      "code": "HOTFIX",
+      "reward": "Gacha suerte +100%"
+    },
+    {
       "code": "HalloweenDimension",
       "reward": "5 Halloween Boss tickets"
     },
     {
-      "code": "HOTFIX",
-      "reward": "Gacha suerte +100%"
+      "code": "2kCCU",
+      "reward": "10 Enchant Books and 10 Accessory tickets"
+    },
+    {
+      "code": "sorryforlagging",
+      "reward": "Drinks"
+    },
+    {
+      "code": "ThankYouFor1kCCU",
+      "reward": "Drinks"
+    },
+    {
+      "code": "Trinity",
+      "reward": "3 monedas, 3 Enchant Books, and 3 Accessory tickets"
     },
     {
       "code": "update8.1",

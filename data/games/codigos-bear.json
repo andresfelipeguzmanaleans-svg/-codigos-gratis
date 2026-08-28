@@ -5,20 +5,26 @@
   "description": "Todos los códigos activos para Bear en Roblox",
   "metaTitle": "Códigos Bear Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Bear en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-26T22:37:42.116Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-08-28T19:49:09.041Z",
+  "activeCodes": [
     {
       "code": "CIRCUSARRIVAL",
-      "reward": "1 skin, 1 Gear, and 100 tokens"
+      "reward": "1 skin, 1 Gear, and 100 tokens",
+      "addedDate": "2026-08-28"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "SKEGGHUNT",
+      "reward": "Accessory"
     },
     {
-      "code": "LUCKYME",
-      "reward": "Bear skin"
+      "code": "HALLOWOOOO",
+      "reward": "The Candy Womp Mummy and 125"
     },
     {
-      "code": "PIDAY",
-      "reward": "1 Kill Effect"
+      "code": "ALPHABEAR",
+      "reward": "Skin gratis"
     },
     {
       "code": "EATING",
@@ -33,14 +39,6 @@
       "reward": "The Fortunate Trinkets Gear"
     },
     {
-      "code": "ALPHABEAR",
-      "reward": "Skin gratis"
-    },
-    {
-      "code": "VALENTIMES",
-      "reward": "The Valentine's skin"
-    },
-    {
       "code": "SPOOKYTREATS",
       "reward": "1 Trick or Treater skin"
     },
@@ -53,16 +51,8 @@
       "reward": "200 monedas"
     },
     {
-      "code": "HALLOWOOOO",
-      "reward": "The Candy Womp Mummy and 125"
-    },
-    {
-      "code": "SPARKY",
-      "reward": "The Sparkle Time Cheese Lord skin"
-    },
-    {
-      "code": "SKEGGHUNT",
-      "reward": "Accessory"
+      "code": "VALENTIMES",
+      "reward": "The Valentine's skin"
     },
     {
       "code": "PATRICK",
@@ -87,6 +77,14 @@
     {
       "code": "NOLOVE",
       "reward": "1 Rejected Bear skin"
+    },
+    {
+      "code": "PIDAY",
+      "reward": "1 Kill Effect"
+    },
+    {
+      "code": "SPARKY",
+      "reward": "The Sparkle Time Cheese Lord skin"
     },
     {
       "code": "XMAS2020",
@@ -119,6 +117,10 @@
     {
       "code": "ONEYEAR",
       "reward": "Skin gratis"
+    },
+    {
+      "code": "LUCKYME",
+      "reward": "Bear skin"
     }
   ],
   "howToRedeem": [
