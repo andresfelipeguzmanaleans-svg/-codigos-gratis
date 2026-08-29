@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-b666230aa4d603e153649ca717a05ee8/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fruit Warriors en Roblox",
   "metaTitle": "Códigos Fruit Warriors Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fruit Warriors en Roblox. 13 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-28T19:49:46.641Z",
+  "metaDescription": "Lista actualizada de códigos para Fruit Warriors en Roblox. 10 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-29T02:39:26.153Z",
   "activeCodes": [
     {
       "code": "10MVISITS",
@@ -13,24 +13,15 @@
       "addedDate": "2026-03-23"
     },
     {
-      "code": "SORRYFORSHUTDOWN",
-      "reward": "5 tokens",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "10KLIKES",
-      "reward": "XP and Beli Boost"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "XP and Beli Boost"
-    },
-    {
       "code": "DAILYHOTFIX1",
       "reward": "XP and Beli Boost"
     },
     {
       "code": "20KLIKES",
+      "reward": "XP and Beli Boost"
+    },
+    {
+      "code": "10KLIKES",
       "reward": "XP and Beli Boost"
     },
     {
@@ -42,11 +33,6 @@
       "reward": "XP and Beli Boost and 50K Cash"
     },
     {
-      "code": "ACCIDENTALSHUTDOWN",
-      "reward": "5 tokens",
-      "addedDate": "2026-08-28"
-    },
-    {
       "code": "RUMBLE",
       "reward": "XP and Beli Boost"
     },
@@ -55,16 +41,28 @@
       "reward": "XP and Beli Boost"
     },
     {
-      "code": "UPDATE2",
+      "code": "UPDATE1",
       "reward": "XP and Beli Boost"
     },
     {
-      "code": "10MVISITS!",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-28"
+      "code": "UPDATE2",
+      "reward": "XP and Beli Boost"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "SORRYFORSHUTDOWN",
+      "reward": "5 tokens"
+    },
+    {
+      "code": "ACCIDENTALSHUTDOWN",
+      "reward": "5 tokens"
+    },
+    {
+      "code": "10MVISITS!",
+      "reward": "Recompensas gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Fruit Warriors en Roblox",
     "Busca el botón de códigos en el menú",

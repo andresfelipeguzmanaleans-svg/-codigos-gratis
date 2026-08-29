@@ -4,22 +4,12 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-eab8b1d2dd99f135db9031879b82615c/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Switch en Roblox",
   "metaTitle": "Códigos Anime Switch Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Switch en Roblox. 49 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-28T19:49:01.565Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Switch en Roblox. 43 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-29T02:38:42.921Z",
   "activeCodes": [
     {
       "code": "RELEASE3",
       "reward": "500 diamantes",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SORRY4DELAY",
-      "reward": "500 diamantes",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "MADDIAMONDS",
-      "reward": "1000 diamantes",
       "addedDate": "2026-08-01"
     },
     {
@@ -48,6 +38,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "DELAYSWITCH",
+      "reward": "2000 diamantes",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "30KLIKES",
       "reward": "800 diamantes",
       "addedDate": "2026-08-01"
@@ -55,11 +50,6 @@
     {
       "code": "BUGFIXES1",
       "reward": "Trait tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "DELAYSWITCH",
-      "reward": "2000 diamantes",
       "addedDate": "2026-08-01"
     },
     {
@@ -118,22 +108,17 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "2KLIKES",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-28"
-    },
-    {
       "code": "25KLIKES",
       "reward": "700 diamantes",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "COMEBACK",
-      "reward": "Diamantes",
+      "code": "SORRY4DELAY",
+      "reward": "500 diamantes",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "GETSOMEDIAMONDS",
+      "code": "MADDIAMONDS",
       "reward": "1000 diamantes",
       "addedDate": "2026-08-01"
     },
@@ -143,23 +128,23 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "MANJIKANO",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-28"
+      "code": "COMEBACK",
+      "reward": "Diamantes",
+      "addedDate": "2026-08-01"
     },
     {
-      "code": "RUFFYKANO2",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-28"
+      "code": "90KLIKES",
+      "reward": "1000 diamantes",
+      "addedDate": "2026-08-01"
     },
     {
-      "code": "ANIMESWITCHER",
+      "code": "BATTLEPASS",
       "reward": "500 diamantes",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "COSMETICSAREIN",
-      "reward": "500 diamantes",
+      "code": "GETSOMEDIAMONDS",
+      "reward": "1000 diamantes",
       "addedDate": "2026-08-01"
     },
     {
@@ -178,14 +163,9 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "REVERT",
+      "code": "ANIMESWITCHER",
       "reward": "500 diamantes",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "MANJIKANO2",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-28"
     },
     {
       "code": "50KLIKES",
@@ -193,8 +173,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "80KLIKES",
-      "reward": "1000 diamantes",
+      "code": "COSMETICSAREIN",
+      "reward": "500 diamantes",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "REVERT",
+      "reward": "500 diamantes",
       "addedDate": "2026-08-01"
     },
     {
@@ -203,9 +188,9 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "BPFIX",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-28"
+      "code": "80KLIKES",
+      "reward": "1000 diamantes",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "BRIMMJOW",
@@ -236,30 +221,39 @@
       "code": "BATTLEPASS2",
       "reward": "Trait tokens",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "RUFFYKANO",
-      "reward": "Recompensa",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "90KLIKES",
-      "reward": "1000 diamantes",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BATTLEPASS",
-      "reward": "500 diamantes",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "5MVISTS",
+      "code": "2KLIKES",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "MANJIKANO",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "RUFFYKANO2",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "MANJIKANO2",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "BPFIX",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "RUFFYKANO",
       "reward": "Recompensa"
     },
     {
       "code": "WeekendHill",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "5MVISTS",
       "reward": "Recompensa"
     },
     {

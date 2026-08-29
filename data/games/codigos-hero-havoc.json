@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-410657c1a997a09f385432855051e1b9/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Hero Havoc en Roblox",
   "metaTitle": "Códigos Hero Havoc Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Hero Havoc en Roblox. 46 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-28T19:49:53.943Z",
+  "metaDescription": "Lista actualizada de códigos para Hero Havoc en Roblox. 31 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-29T02:39:33.175Z",
   "activeCodes": [
     {
       "code": "BTandTTfix",
@@ -73,127 +73,36 @@
       "addedDate": "2026-03-23"
     },
     {
-      "code": "SoulSlime",
-      "reward": "Green Slime",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "Owolsoul",
-      "reward": "Owol Soul",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "Pittance",
-      "reward": "1 gema",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "GOODGOLD",
-      "reward": "250,000 oro",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "FireCactus",
-      "reward": "Fire-type Prickles",
-      "addedDate": "2026-08-28"
-    },
-    {
       "code": "BLACKFRIDAY",
       "reward": "200 gemas"
-    },
-    {
-      "code": "BlackWeek",
-      "reward": "400 gemas"
-    },
-    {
-      "code": "BattleRowoyale",
-      "reward": "Howoly Soul",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "Wishbirthday2",
-      "reward": "Oro",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "EggSalad",
-      "reward": "Easter Egg Lad",
-      "addedDate": "2026-08-28"
     },
     {
       "code": "700gems",
       "reward": "700 gemas"
     },
     {
-      "code": "Yoink",
-      "reward": "Redeem code to remove 100 gemas",
-      "addedDate": "2026-08-28"
+      "code": "BlackWeek",
+      "reward": "400 gemas"
     },
     {
       "code": "NUKEARMADILLO",
       "reward": "1200 gemas"
     },
     {
-      "code": "GamerStatus",
-      "reward": "Gamer",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "UselessOwol",
-      "reward": "Owol with Shrapnel",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "FreeRobot",
-      "reward": "Beebo",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "SickGoldBoost",
-      "reward": "X2 oro Boost",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "OwolSword",
-      "reward": "Wooden Sword",
-      "addedDate": "2026-08-28"
-    },
-    {
-      "code": "LIVEACTIONSHOPS",
-      "reward": "700 gemas"
+      "code": "NEWSHOPS",
+      "reward": "Gemas"
     },
     {
       "code": "MAIDGEMS",
       "reward": "Gemas"
     },
     {
-      "code": "MIRAGE",
-      "reward": "250 gemas"
-    },
-    {
-      "code": "BIRTHDAY",
-      "reward": "700 gemas"
-    },
-    {
-      "code": "LIVEACTIONUPDATES",
-      "reward": "299 gemas"
-    },
-    {
-      "code": "ITSMARCH",
+      "code": "FREE1000GEMS",
       "reward": "1000 gemas"
     },
     {
-      "code": "SPRING",
-      "reward": "570 gemas"
-    },
-    {
-      "code": "NEWCODE",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "EVENTQUARTER2",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-28"
+      "code": "MIMETIME",
+      "reward": "1750 gemas"
     },
     {
       "code": "RPG",
@@ -204,23 +113,99 @@
       "reward": "Gemas"
     },
     {
-      "code": "MIMETIME",
-      "reward": "1750 gemas"
+      "code": "LIVEACTIONUPDATES",
+      "reward": "299 gemas"
     },
     {
-      "code": "FREE1000GEMS",
-      "reward": "1000 gemas"
-    },
-    {
-      "code": "NEWSHOPS",
-      "reward": "Gemas"
+      "code": "NEWCODE",
+      "reward": "500 gemas"
     },
     {
       "code": "UPDATE",
       "reward": "Gemas"
+    },
+    {
+      "code": "MIRAGE",
+      "reward": "250 gemas"
+    },
+    {
+      "code": "SPRING",
+      "reward": "570 gemas"
+    },
+    {
+      "code": "LIVEACTIONSHOPS",
+      "reward": "700 gemas"
+    },
+    {
+      "code": "BIRTHDAY",
+      "reward": "700 gemas"
+    },
+    {
+      "code": "ITSMARCH",
+      "reward": "1000 gemas"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "SoulSlime",
+      "reward": "Green Slime"
+    },
+    {
+      "code": "Owolsoul",
+      "reward": "Owol Soul"
+    },
+    {
+      "code": "Pittance",
+      "reward": "1 gema"
+    },
+    {
+      "code": "GOODGOLD",
+      "reward": "250,000 oro"
+    },
+    {
+      "code": "FireCactus",
+      "reward": "Fire-type Prickles"
+    },
+    {
+      "code": "BattleRowoyale",
+      "reward": "Howoly Soul"
+    },
+    {
+      "code": "Wishbirthday2",
+      "reward": "Oro"
+    },
+    {
+      "code": "EggSalad",
+      "reward": "Easter Egg Lad"
+    },
+    {
+      "code": "Yoink",
+      "reward": "Redeem code to remove 100 gemas"
+    },
+    {
+      "code": "GamerStatus",
+      "reward": "Gamer"
+    },
+    {
+      "code": "UselessOwol",
+      "reward": "Owol with Shrapnel"
+    },
+    {
+      "code": "FreeRobot",
+      "reward": "Beebo"
+    },
+    {
+      "code": "SickGoldBoost",
+      "reward": "X2 oro Boost"
+    },
+    {
+      "code": "OwolSword",
+      "reward": "Wooden Sword"
+    },
+    {
+      "code": "EVENTQUARTER2",
+      "reward": "Recompensas gratis"
+    },
     {
       "code": "BIRTHDAYofWISHZ",
       "reward": "Recompensa expirada"
