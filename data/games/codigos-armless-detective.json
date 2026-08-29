@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-cf4e216dbf51eb8e946989c9d6168d82/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Armless Detective en Roblox",
   "metaTitle": "Códigos Armless Detective Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Armless Detective en Roblox. 61 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-29T02:38:45.645Z",
+  "metaDescription": "Lista actualizada de códigos para Armless Detective en Roblox. 71 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-29T13:30:39.889Z",
   "activeCodes": [
     {
       "code": "1stanniversary",
@@ -168,13 +168,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "adventcalendar",
-      "reward": "Christmas cofre",
+      "code": "christmas",
+      "reward": "30 Snowflakes",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "christmas",
-      "reward": "30 Snowflakes",
+      "code": "adventcalendar",
+      "reward": "Christmas cofre",
       "addedDate": "2026-08-01"
     },
     {
@@ -208,13 +208,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "200petitionsupporters",
-      "reward": "1 Plushie cofre",
+      "code": "25millionvisits",
+      "reward": "2 Random cofres",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "25millionvisits",
-      "reward": "2 Random cofres",
+      "code": "200petitionsupporters",
+      "reward": "1 Plushie cofre",
       "addedDate": "2026-08-01"
     },
     {
@@ -253,37 +253,62 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "Release",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-29"
+    },
+    {
+      "code": "UPDATE1",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-29"
+    },
+    {
+      "code": "TYFORSUPPORT",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-29"
+    },
+    {
+      "code": "MINIUPDATE",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-29"
+    },
+    {
+      "code": "Solo",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-29"
+    },
+    {
+      "code": "INVASIONS",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-29"
+    },
+    {
+      "code": "FIXES",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-29"
+    },
+    {
+      "code": "RELICS",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-29"
+    },
+    {
+      "code": "THANKSFOR2K",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-29"
+    },
+    {
+      "code": "THOUSANDLIKES",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-29"
+    },
+    {
       "code": "spookyseason",
       "reward": "20 monedas, Random cofre",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "armlesslife",
-      "reward": "50 créditos, Random cofre",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "freecrateplz",
-      "reward": "Random cofre",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "thx4playing",
-      "reward": "80 créditos, Random cofre",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "1millionvisits",
-      "reward": "Random cofre",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "gullible",
-      "reward": "20 créditos",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "secretswagcode",
+      "code": "update",
       "reward": "Random cofre",
       "addedDate": "2026-08-01"
     },
@@ -293,8 +318,38 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "armlesslife",
+      "reward": "50 créditos, Random cofre",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "5millionvisits",
       "reward": "2 Random cofres",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "secretswagcode",
+      "reward": "Random cofre",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "gullible",
+      "reward": "20 créditos",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "freecrateplz",
+      "reward": "Random cofre",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "1millionvisits",
+      "reward": "Random cofre",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "thx4playing",
+      "reward": "80 créditos, Random cofre",
       "addedDate": "2026-08-01"
     },
     {
@@ -306,57 +361,20 @@
       "code": "cosmetics",
       "reward": "20 créditos",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "update",
-      "reward": "Random cofre",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "Release",
-      "reward": "Recompensas gratis"
+      "code": "rtdcollab",
+      "reward": "40 Player puntos and 1x Suit cofre 1"
     },
     {
-      "code": "UPDATE1",
-      "reward": "Recompensas gratis"
+      "code": "45millionvisits",
+      "reward": "3 Random cofres And 40 créditos"
     },
     {
-      "code": "TYFORSUPPORT",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MINIUPDATE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Solo",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "INVASIONS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "FIXES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "RELICS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "THANKSFOR2K",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "THOUSANDLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "sorryforshutdown",
-      "reward": "1 Halloween 2025 cofre"
+      "code": "happynewyear",
+      "reward": "2 Random cofres"
     },
     {
       "code": "40millionvisits",
@@ -367,28 +385,20 @@
       "reward": "1 Random cofre"
     },
     {
-      "code": "rtdcollab",
-      "reward": "40 Player puntos and 1x Suit cofre 1"
-    },
-    {
-      "code": "notarealcode",
-      "reward": "Nothing"
-    },
-    {
-      "code": "tipcode",
-      "reward": "1 Suit cofre"
+      "code": "sorryforshutdown",
+      "reward": "1 Halloween 2025 cofre"
     },
     {
       "code": "4millionvisits",
       "reward": "1 Random cofre"
     },
     {
-      "code": "45millionvisits",
-      "reward": "3 Random cofres And 40 créditos"
+      "code": "tipcode",
+      "reward": "1 Suit cofre"
     },
     {
-      "code": "happynewyear",
-      "reward": "2 Random cofres"
+      "code": "notarealcode",
+      "reward": "Nothing"
     },
     {
       "code": "10kplayer",
