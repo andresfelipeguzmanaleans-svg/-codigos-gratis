@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-f30a06cbfa773845ed48c96afbd0e009/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Zombie Battle Tycoon en Roblox",
   "metaTitle": "Códigos Zombie Battle Tycoon Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Zombie Battle Tycoon en Roblox. 12 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-29T02:40:53.266Z",
+  "metaDescription": "Lista actualizada de códigos para Zombie Battle Tycoon en Roblox. 14 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-31T23:33:58.075Z",
   "activeCodes": [
     {
       "code": "engineer",
@@ -19,6 +19,11 @@
     },
     {
       "code": "apc",
+      "reward": "50K Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "nuke",
       "reward": "50K Cash",
       "addedDate": "2026-08-01"
     },
@@ -48,6 +53,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "10KLIKES",
+      "reward": "50,000 Cash",
+      "addedDate": "2026-08-31"
+    },
+    {
       "code": "HIDDEN",
       "reward": "50K Cash",
       "addedDate": "2026-08-01"
@@ -58,48 +68,36 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "nuke",
-      "reward": "50K Cash",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "cityzombies",
       "reward": "50K Cash",
       "addedDate": "2026-08-01"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "10KLIKES",
-      "reward": "50,000 Cash"
     },
     {
       "code": "25KLIKES",
-      "reward": "50,000 Cash"
-    },
-    {
-      "code": "Soldier",
-      "reward": "50K Cash"
-    },
+      "reward": "50,000 Cash",
+      "addedDate": "2026-08-31"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "Sentry",
       "reward": "50k Cash"
     },
     {
-      "code": "Zombie",
-      "reward": "50k Cash"
-    },
-    {
-      "code": "INFINITYBATTLES",
-      "reward": "The MAC 10"
+      "code": "Artillery",
+      "reward": "50K Cash"
     },
     {
       "code": "HALLOWEEN",
       "reward": "100k Cash"
     },
     {
-      "code": "Artillery",
-      "reward": "50K Cash"
+      "code": "INFINITYBATTLES",
+      "reward": "The MAC 10"
+    },
+    {
+      "code": "Hardcore",
+      "reward": "50k Cash"
     },
     {
       "code": "Exosuit",
@@ -114,10 +112,6 @@
       "reward": "50k Cash"
     },
     {
-      "code": "Hardcore",
-      "reward": "50k Cash"
-    },
-    {
       "code": "CHRISTMAS",
       "reward": "100k Cash"
     },
@@ -127,6 +121,14 @@
     },
     {
       "code": "Crash",
+      "reward": "50K Cash"
+    },
+    {
+      "code": "Zombie",
+      "reward": "50k Cash"
+    },
+    {
+      "code": "Soldier",
       "reward": "50K Cash"
     }
   ],

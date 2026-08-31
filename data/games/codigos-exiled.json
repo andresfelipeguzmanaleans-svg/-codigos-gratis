@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-1e188d166e095c40e708fb436b910d94/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Exiled en Roblox",
   "metaTitle": "Códigos Exiled Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Exiled en Roblox. 34 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-29T22:10:06.547Z",
+  "metaDescription": "Lista actualizada de códigos para Exiled en Roblox. 36 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-31T23:32:21.913Z",
   "activeCodes": [
     {
       "code": "CHRISTMAS",
@@ -43,6 +43,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "1MVISITS",
+      "reward": "2000 tokens",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "BOOST!",
       "reward": "Doble tokens Boost",
       "addedDate": "2026-08-01"
@@ -68,8 +73,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SORRYFORDELAY",
-      "reward": "500 tokens",
+      "code": "EXILEDUPDATE2",
+      "reward": "1,500 Anoms",
       "addedDate": "2026-08-01"
     },
     {
@@ -93,6 +98,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "CHRISTMAS",
+      "reward": "1,500 Anoms",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "PLSC0DE!",
       "reward": "Flex Emote",
       "addedDate": "2026-08-01"
@@ -108,13 +118,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "EXILEDUPDATE2",
-      "reward": "1,500 Anoms",
+      "code": "8MVISITS",
+      "reward": "500 tokens",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "1MVISITS",
-      "reward": "2000 tokens",
+      "code": "SORRYFORDELAY",
+      "reward": "500 tokens",
       "addedDate": "2026-08-01"
     },
     {
@@ -123,13 +133,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "8MVISITS",
-      "reward": "500 tokens",
+      "code": "100KFAVORITES",
+      "reward": "2 Revive tickets",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "100KFAVORITES",
-      "reward": "2 Revive tickets",
+      "code": "40KLIKES",
+      "reward": "500 tokens",
       "addedDate": "2026-08-01"
     },
     {
@@ -153,8 +163,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "100KLIKES",
-      "reward": "1,000 tokens and 2 Boosts",
+      "code": "EXILED",
+      "reward": "10,000 tokens And 3 Boosts",
       "addedDate": "2026-08-01"
     },
     {
@@ -163,8 +173,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "200KFAVORITES",
-      "reward": "1,000 tokens",
+      "code": "100KLIKES",
+      "reward": "1,000 tokens and 2 Boosts",
       "addedDate": "2026-08-01"
     },
     {
@@ -173,22 +183,14 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "EXILED",
-      "reward": "10,000 tokens And 3 Boosts",
+      "code": "200KFAVORITES",
+      "reward": "1,000 tokens",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "UPDATEDELAYED",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NEWMAPCOMING",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "30KLIKES",
+      "code": "HOTELRETURN",
       "reward": "Recompensas gratis"
     },
     {
@@ -196,12 +198,12 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "40KFAVORITES",
-      "reward": "1,500 Anoms"
+      "code": "NEWMAPCOMING",
+      "reward": "Recompensas gratis"
     },
     {
-      "code": "HOTELRETURN",
-      "reward": "Recompensas gratis"
+      "code": "40KFAVORITES",
+      "reward": "1,500 Anoms"
     },
     {
       "code": "20MVISITS",
@@ -222,6 +224,14 @@
     {
       "code": "EXILEDUPDATE1",
       "reward": "2 Revive tickets"
+    },
+    {
+      "code": "30KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "UPDATEDELAYED",
+      "reward": "Recompensas gratis"
     }
   ],
   "howToRedeem": [

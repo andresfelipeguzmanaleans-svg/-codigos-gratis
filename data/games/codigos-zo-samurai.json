@@ -4,9 +4,34 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-a7e06bab26e8eaf61a44b89a5d7c35d0/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Zo Samurai en Roblox",
   "metaTitle": "Códigos Zo Samurai Roblox (Agosto 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Zo Samurai en Roblox. 4 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-29T22:11:39.327Z",
+  "metaDescription": "Lista actualizada de códigos para Zo Samurai en Roblox. 8 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-08-31T23:33:57.983Z",
   "activeCodes": [
+    {
+      "code": "RMB",
+      "reward": "Block",
+      "addedDate": "2026-08-31"
+    },
+    {
+      "code": "LMB",
+      "reward": "Attack",
+      "addedDate": "2026-08-31"
+    },
+    {
+      "code": "SHIFT",
+      "reward": "Sprint (Unequipped)",
+      "addedDate": "2026-08-31"
+    },
+    {
+      "code": "CTRL",
+      "reward": "Shift Lock",
+      "addedDate": "2026-08-31"
+    },
+    {
+      "code": "450klikes",
+      "reward": "85 Souls",
+      "addedDate": "2026-08-01"
+    },
     {
       "code": "600KLIKES",
       "reward": "Shards"
@@ -20,48 +45,15 @@
       "code": "550KLIKES",
       "reward": "Souls",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "450klikes",
-      "reward": "85 Souls",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
-    {
-      "code": "RMB",
-      "reward": "Block"
-    },
-    {
-      "code": "LMB",
-      "reward": "Attack"
-    },
-    {
-      "code": "SHIFT",
-      "reward": "Sprint (Unequipped)"
-    },
-    {
-      "code": "CTRL",
-      "reward": "Shift Lock"
-    },
-    {
-      "code": "NEWYEAR2022",
-      "reward": "Souls gratis"
-    },
     {
       "code": "400klikes",
       "reward": "Souls gratis"
     },
     {
-      "code": "CODESRHERE",
-      "reward": "15 Souls"
-    },
-    {
       "code": "350KLIKES",
-      "reward": "Souls gratis"
-    },
-    {
-      "code": "915719",
       "reward": "Souls gratis"
     },
     {
@@ -69,28 +61,20 @@
       "reward": "Souls gratis"
     },
     {
-      "code": "80M",
-      "reward": "80 Souls"
-    },
-    {
-      "code": "ZOZO",
-      "reward": "20 Souls"
-    },
-    {
-      "code": "QUESTS",
-      "reward": "25 Souls"
-    },
-    {
-      "code": "MERRYCHRISTMAS",
+      "code": "NEWYEAR2022",
       "reward": "Souls gratis"
     },
     {
-      "code": "zeekbday",
-      "reward": "117 Souls"
+      "code": "CODESRHERE",
+      "reward": "15 Souls"
     },
     {
       "code": "halloween",
       "reward": "40 Souls"
+    },
+    {
+      "code": "80M",
+      "reward": "80 Souls"
     },
     {
       "code": "boarding",
@@ -113,12 +97,32 @@
       "reward": "100 Souls"
     },
     {
+      "code": "915719",
+      "reward": "Souls gratis"
+    },
+    {
       "code": "ZoDown",
       "reward": "Souls gratis"
     },
     {
       "code": "100MVISITS",
       "reward": "Souls gratis"
+    },
+    {
+      "code": "ZOZO",
+      "reward": "20 Souls"
+    },
+    {
+      "code": "QUESTS",
+      "reward": "25 Souls"
+    },
+    {
+      "code": "MERRYCHRISTMAS",
+      "reward": "Souls gratis"
+    },
+    {
+      "code": "zeekbday",
+      "reward": "117 Souls"
     }
   ],
   "howToRedeem": [
