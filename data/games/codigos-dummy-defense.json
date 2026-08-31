@@ -5,7 +5,7 @@
   "description": "Todos los códigos activos para Dummy Defense en Roblox",
   "metaTitle": "Códigos Dummy Defense Roblox (Agosto 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Dummy Defense en Roblox. 27 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-29T22:10:02.441Z",
+  "lastUpdated": "2026-08-31T15:43:45.994Z",
   "activeCodes": [
     {
       "code": "TY25kLikes",
@@ -83,11 +83,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "TY2MVisits",
-      "reward": "400 Bricks",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "TitanBlock",
       "reward": "400 Bricks",
       "addedDate": "2026-08-01"
@@ -103,7 +98,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "7500Likes",
+      "code": "TY2MVisits",
       "reward": "400 Bricks",
       "addedDate": "2026-08-01"
     },
@@ -120,6 +115,11 @@
     {
       "code": "ControllerMode",
       "reward": "Bricks",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "7500Likes",
+      "reward": "400 Bricks",
       "addedDate": "2026-08-01"
     },
     {
@@ -145,11 +145,23 @@
   ],
   "expiredCodes": [
     {
-      "code": "AlphaTest",
-      "reward": "Bricks"
+      "code": "CollabPart3",
+      "reward": "350 Bricks"
     },
     {
       "code": "TitanAndTV",
+      "reward": "300 Bricks"
+    },
+    {
+      "code": "2kActivePlay",
+      "reward": "1,000 Bricks"
+    },
+    {
+      "code": "Rebalance",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "MerryChristmas",
       "reward": "300 Bricks"
     },
     {
@@ -157,24 +169,12 @@
       "reward": "400 Bricks"
     },
     {
-      "code": "2kActivePlay",
-      "reward": "1,000 Bricks"
-    },
-    {
-      "code": "MerryChristmas",
+      "code": "NewTowerSpawner",
       "reward": "300 Bricks"
-    },
-    {
-      "code": "Rebalance",
-      "reward": "Recompensa"
     },
     {
       "code": "TY100kVisits",
       "reward": "Recompensa"
-    },
-    {
-      "code": "NewTowerSpawner",
-      "reward": "300 Bricks"
     },
     {
       "code": "TY2kLikes",
@@ -189,20 +189,24 @@
       "reward": "100 Bricks"
     },
     {
-      "code": "TY1500Followers",
-      "reward": "750 Bricks"
-    },
-    {
-      "code": "CollabPart3",
-      "reward": "350 Bricks"
-    },
-    {
       "code": "TheGameIsBack",
       "reward": "300 Bricks"
     },
     {
       "code": "ThreeNewTowers",
       "reward": "350 Bricks"
+    },
+    {
+      "code": "TY1500Followers",
+      "reward": "750 Bricks"
+    },
+    {
+      "code": "Endless100Waves",
+      "reward": "Bricks"
+    },
+    {
+      "code": "AlphaTest",
+      "reward": "Bricks"
     },
     {
       "code": "BlackoutMode",
