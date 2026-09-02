@@ -1,651 +1,1240 @@
-Total: 4595 juegos (4595 procesados)
-Actualizados: 639 | Sin cambios: 3808
+Total: 4596 juegos (4596 procesados)
+Actualizados: 638 | Sin cambios: 3810
 No encontrado: 135 | Saltados: 13
-Códigos nuevos: 17 | Movidos a expirados: 4657
-Tiempo: 188.5s | Concurrencia: 10
+Códigos nuevos: 4575 | Movidos a expirados: 0
+Tiempo: 191.6s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Drain Water Per Click: 7→7 activos (=), 0→1 exp
-  2d Basketball: 15→2 activos (-13), 2→15 exp
-  99 Nights In The Forest: 4→3 activos (-1), 2→3 exp
-  A Bizarre Universe: 10→3 activos (-7), 0→7 exp
-  Accurate Rng: 9→0 activos (-9), 3→12 exp
-  Admin Rng: 22→21 activos (-1), 28→29 exp
-  A One Piece Game: 280→259 activos (-21), 191→211 exp
-  Alien Prototype: 3→0 activos (-3), 21→24 exp
-  Allblox Battles: 41→37 activos (-4), 9→13 exp
-  Anime Auras Rng: 25→24 activos (-1), 0→1 exp
-  Anime Ball: 74→73 activos (-1), 22→23 exp
-  Anime Capture: 76→83 activos (+7), 31→30 exp
-    Nuevos: thanksgameplayer, 69kfav, guardiansystem, cardgame, 68kfav, 14klikes, 66kfav
-  Anime Card Clash: 96→92 activos (-4), 133→137 exp
-  Anime Boxing Simulator: 24→23 activos (-1), 2→3 exp
-  Anime Champions Simulator: 82→79 activos (-3), 62→64 exp
-  Anime Chaos Simulator: 15→11 activos (-4), 2→6 exp
-  Anime Catcher Simulator: 21→19 activos (-2), 1→3 exp
-  Anime Defenders: 40→38 activos (-2), 8→10 exp
-  Anime Combats Simulator: 25→9 activos (-16), 12→28 exp
-  Anime Combat Simulator: 14→12 activos (-2), 0→2 exp
-  Anime Destroyers: 31→30 activos (-1), 14→15 exp
-  Anime Destiny: 4→0 activos (-4), 0→4 exp
-  Anime Defense Simulator: 19→16 activos (-3), 0→1 exp
-  Anime Dungeons: 8→4 activos (-4), 15→19 exp
-  Anime Dimensions: 61→49 activos (-12), 230→241 exp
-  Anime Dungeon Fighters: 24→23 activos (-1), 7→8 exp
-  Anime Evolution: 22→0 activos (-22), 110→132 exp
-  Anime Fight Next Generation: 11→10 activos (-1), 0→0 exp
-  Anime Fantasy Simulator: 31→29 activos (-2), 1→3 exp
-  Anime Fantasy: 77→68 activos (-9), 80→89 exp
-  Anime Fly Race: 16→15 activos (-1), 0→1 exp
-  Anime Fruit: 26→24 activos (-2), 1→2 exp
-  Anime Girl Rng: 123→74 activos (-49), 88→137 exp
-  Anime Geek: 13→11 activos (-2), 0→1 exp
-  Anime Guardians: 126→58 activos (-68), 79→147 exp
-  Anime Jackpot: 1→1 activos (=), 29→33 exp
-  Anime Insurrection: 41→38 activos (-3), 0→3 exp
-  Anime Infinity: 32→0 activos (-32), 3→35 exp
-  Anime Immortals: 21→20 activos (-1), 29→30 exp
-  Anime Kingdom Simulator: 42→38 activos (-4), 0→1 exp
-  Anime Last Stand: 47→37 activos (-10), 287→297 exp
-  Anime Lost Simulator: 47→31 activos (-16), 12→28 exp
-  Anime Max Simulator: 33→27 activos (-6), 42→48 exp
-  Anime Ninja Simulator: 5→4 activos (-1), 2→3 exp
-  Anime Odyssey Simulator: 25→22 activos (-3), 1→4 exp
-  Anime Of Chance: 7→5 activos (-2), 0→2 exp
-  Anime Power: 81→76 activos (-5), 14→16 exp
-  Anime Rangers: 72→0 activos (-72), 1→73 exp
-  Anime Reborn: 10→9 activos (-1), 111→111 exp
-  Anime Rangers X: 106→43 activos (-63), 78→141 exp
-  Anime Revolution Simulator: 18→15 activos (-3), 0→3 exp
-  Anime Rng Battlegrounds: 23→22 activos (-1), 1→1 exp
-  Anime Rising Fighting: 37→23 activos (-14), 1→15 exp
-  Anime Revolution Ultimate: 12→0 activos (-12), 2→14 exp
-  Anime Revolution X: 68→67 activos (-1), 1→2 exp
-  Anime Rng Defense: 8→5 activos (-3), 53→56 exp
-  Anime Rng: 3→1 activos (-2), 11→13 exp
-  Anime Royale: 104→45 activos (-59), 8→67 exp
-  Anime Roulette: 60→59 activos (-1), 1→2 exp
-  Anime Shadow: 36→35 activos (-1), 4→5 exp
-  Anime Simulator: 57→56 activos (-1), 21→22 exp
-  Anime Slots: 21→13 activos (-8), 5→13 exp
-  Anime Souls Simulator X: 95→40 activos (-55), 8→62 exp
-  Anime Souls Simulator: 84→4 activos (-80), 29→109 exp
-  Anime Squadron: 9→10 activos (+1), 51→51 exp
-    Nuevos: GearEquipVisualFix!
-  Anime Spirits: 106→100 activos (-6), 110→116 exp
-  Anime Switch: 49→43 activos (-6), 3→9 exp
-  Anime Tales Simulator: 19→15 activos (-4), 0→4 exp
-  Anime Swordsman: 1→0 activos (-1), 0→1 exp
-  Anime Swords X: 15→0 activos (-15), 5→20 exp
-  Anime Tower Defense: 4→0 activos (-4), 4→8 exp
-  Anime Training Rng: 55→53 activos (-2), 8→10 exp
-  Anime Universe Simulator: 10→6 activos (-4), 0→4 exp
-  Anime Verse Simulator: 8→0 activos (-8), 34→42 exp
-  Anime Verse X: 32→21 activos (-11), 0→10 exp
-  Anime Waves X: 27→25 activos (-2), 1→3 exp
-  Are You Sure: 20→19 activos (-1), 2→2 exp
-  Armless Detective: 72→62 activos (-10), 11→21 exp
-  Asylum Life: 24→22 activos (-2), 49→49 exp
-  Ascender Incremental: 32→31 activos (-1), 8→9 exp
-  Aur: 25→16 activos (-9), 10→19 exp
-  Attack On Titan Vengeance: 12→0 activos (-12), 27→39 exp
-  Aura Farm Simulator: 25→23 activos (-2), 1→3 exp
-  Azure Latch: 88→39 activos (-49), 50→99 exp
-  Azaras Rng: 82→0 activos (-82), 38→120 exp
-  Backroom Tower Defense 2 New Era: 13→12 activos (-1), 0→1 exp
-  Banana Tower Defense: 7→6 activos (-1), 0→1 exp
-  Basketball Showdown: 23→22 activos (-1), 1→1 exp
-  Basketball Stars 3: 38→19 activos (-19), 17→36 exp
-  Basketball Legends: 60→59 activos (-1), 132→133 exp
-  Bathroom Attack: 15→14 activos (-1), 3→4 exp
-  Bathtub Tower Defense: 18→0 activos (-18), 22→40 exp
-  Bathtub Universe: 1→0 activos (-1), 2→3 exp
-  Bathroom Warriors: 5→0 activos (-5), 1→6 exp
-  Bathroom Tower Defense: 21→18 activos (-3), 1→4 exp
-  Be A Baddie To Prove Mom Wrong: 3→2 activos (-1), 3→4 exp
-  Beast Force: 13→0 activos (-13), 3→16 exp
-  Beaks: 11→10 activos (-1), 2→3 exp
-  Bear: 1→0 activos (-1), 27→28 exp
-  Become A Plane And Fly: 7→5 activos (-2), 0→2 exp
-  Become President To Prove Mom Wrong: 9→8 activos (-1), 0→1 exp
-  Bellu Piece: 6→0 activos (-6), 0→6 exp
-  Beyond Volleyball League: 5→4 activos (-1), 63→64 exp
-  Better Meme: 3→2 activos (-1), 1→2 exp
-  Better Footballer: 6→0 activos (-6), 0→6 exp
-  Biggest Cube Simulator: 7→0 activos (-7), 0→7 exp
-  Big Lifting Simulator X: 25→24 activos (-1), 0→1 exp
-  Bite By Night: 3→0 activos (-3), 0→3 exp
-  Block Miner Simulator: 35→0 activos (-35), 9→44 exp
-  Block Tales Tower Defense: 6→5 activos (-1), 8→9 exp
-  Block Mayhem: 51→47 activos (-4), 88→91 exp
-  Blockspin: 102→75 activos (-27), 63→90 exp
-  Blue Lock Rivals: 101→3 activos (-98), 237→335 exp
-  Boku No: 67→61 activos (-6), 2→8 exp
-  Bomb Simulator X: 7→6 activos (-1), 0→1 exp
-  Booga Booga Reborn: 75→10 activos (-65), 55→120 exp
-  Bomb Digging Simulator: 7→6 activos (-1), 4→5 exp
-  Booth Game: 47→32 activos (-15), 7→22 exp
-  Box Tower Defense: 5→0 activos (-5), 4→9 exp
-  Boys Vs Girls: 4→3 activos (-1), 3→4 exp
-  Brainrot Sails: 1→0 activos (-1), 0→1 exp
-  Brainrot Rng: 10→0 activos (-10), 0→10 exp
-  Brainrot Tower Defense: 11→10 activos (-1), 29→30 exp
-  Brawl Stars Pet Simulator: 2→0 activos (-2), 2→4 exp
-  Break Stuff Simulator: 1→0 activos (-1), 1→2 exp
-  Bubble Champions: 9→7 activos (-2), 0→2 exp
-  Bubble Gum Champions: 31→29 activos (-2), 0→0 exp
-  Bubble Gum Simulator Infinity: 58→54 activos (-4), 6→10 exp
-  Bubble Gum Remixed: 27→0 activos (-27), 3→30 exp
-  Build A Beach Gym And Prove Bullies Wrong: 8→6 activos (-2), 1→3 exp
-  Build A Gym: 6→0 activos (-6), 4→10 exp
-  Building Towers To Fly Further: 6→5 activos (-1), 1→2 exp
-  Bunker Tycoon: 1→0 activos (-1), 1→2 exp
-  Button Simulator Mania: 31→0 activos (-31), 45→76 exp
-  Button Simulator Mania 2: 38→32 activos (-6), 2→8 exp
-  Cake Off: 24→23 activos (-1), 3→4 exp
-  Camper: 18→0 activos (-18), 2→20 exp
-  Capybara Run: 3→0 activos (-3), 1→4 exp
-  Capybara Evolution: 36→35 activos (-1), 4→5 exp
-  Car Rental Tycoon: 5→4 activos (-1), 2→3 exp
-  Car Repair Simulator: 14→6 activos (-8), 1→9 exp
-  Car Wash Tycoon: 6→4 activos (-2), 9→11 exp
-  Cart Ride Simulator: 13→10 activos (-3), 4→7 exp
-  Cat Infection: 4→2 activos (-2), 4→6 exp
-  Catwalk Show: 8→4 activos (-4), 1→5 exp
-  Chaos Theory: 2→0 activos (-2), 1→3 exp
-  Chaos Town: 6→0 activos (-6), 11→17 exp
-  Chocolate Factory Tycoon: 10→8 activos (-2), 0→2 exp
-  Circle Clash: 6→5 activos (-1), 73→74 exp
-  Click For Ugc: 9→0 activos (-9), 5→14 exp
-  Clicker Mining Simulator: 89→85 activos (-4), 0→2 exp
-  Clicker Wars Simulator: 14→13 activos (-1), 1→1 exp
-  Climb And Jump Tower: 21→20 activos (-1), 14→15 exp
-  Clicking Masters: 12→11 activos (-1), 0→1 exp
-  Clothing Factory Tycoon: 11→4 activos (-7), 4→11 exp
-  Clover City: 7→0 activos (-7), 8→15 exp
-  Coal Miner Tycoon 2: 7→6 activos (-1), 16→17 exp
-  Cog: 27→0 activos (-27), 35→62 exp
-  Color By Number 2: 4→3 activos (-1), 0→1 exp
-  Color Block: 5→2 activos (-3), 1→4 exp
-  Corrupted Crossroads: 21→18 activos (-3), 3→6 exp
-  Craft Tower Defense: 12→0 activos (-12), 0→12 exp
-  Criminal Life Tycoon: 5→3 activos (-2), 1→3 exp
-  Crucifix Test: 2→0 activos (-2), 1→3 exp
-  Crystal Valley Mining Simulator: 3→0 activos (-3), 7→10 exp
-  Cube Eaters: 2→0 activos (-2), 3→5 exp
-  Curse Randomizer: 17→5 activos (-12), 9→21 exp
-  Custom Car Tycoon: 4→0 activos (-4), 5→9 exp
-  Cursed Tank Simulator: 19→11 activos (-8), 8→16 exp
-  Cursed Sea: 44→43 activos (-1), 4→5 exp
-  Dah Aim Trainer: 7→1 activos (-6), 2→8 exp
-  Dandys World: 3→2 activos (-1), 10→11 exp
-  Dead Tales: 21→20 activos (-1), 2→3 exp
-  Deadlift Simulator: 24→22 activos (-2), 7→9 exp
-  Death Ball: 97→74 activos (-23), 10→33 exp
-  Decide Or Die: 8→7 activos (-1), 1→2 exp
-  Defenders Depot: 34→27 activos (-7), 2→9 exp
-  Defenders Depot 2: 17→14 activos (-3), 3→6 exp
-  Demon Slayer Burning Ashes: 44→6 activos (-38), 3→41 exp
-  Demon Slayer Legacy: 27→23 activos (-4), 15→19 exp
-  Demon Slayer Training Simulator: 1→0 activos (-1), 0→1 exp
-  Dig To Hell: 26→25 activos (-1), 0→1 exp
-  Dig To Win Simulator: 6→0 activos (-6), 1→7 exp
-  Digimon Digital Monsters: 1→0 activos (-1), 9→10 exp
-  Dinosaur Arcade: 12→2 activos (-10), 2→12 exp
-  Dino Island Tycoon: 6→5 activos (-1), 0→1 exp
-  Dinosaur Evolution: 29→7 activos (-22), 0→22 exp
-  Dollista: 5→4 activos (-1), 2→3 exp
-  Downforce Stunt Driving: 4→3 activos (-1), 13→14 exp
-  Drag Drive Simulator: 77→48 activos (-29), 22→51 exp
-  Dragon Ball Online Generations: 5→4 activos (-1), 1→2 exp
-  Dragon Ball Rng: 29→28 activos (-1), 2→3 exp
-  Dragon Race: 19→18 activos (-1), 6→6 exp
-  Dragon Soul: 18→1 activos (-17), 18→35 exp
-  Dragon Warrior Simulator: 7→0 activos (-7), 8→15 exp
-  Dress To Impress: 57→42 activos (-15), 8→23 exp
-  Dream Six: 5→4 activos (-1), 6→7 exp
-  Dress Trading: 5→4 activos (-1), 1→2 exp
-  Drill Digging Simulator: 9→7 activos (-2), 0→2 exp
-  Drive World Drifting Racing: 38→33 activos (-5), 10→15 exp
-  Drive Thru Tycoon: 4→3 activos (-1), 10→11 exp
-  Drone Defense: 14→0 activos (-14), 8→22 exp
-  Dudes Battlegrounds: 52→19 activos (-33), 93→126 exp
-  Dummy Defense: 29→28 activos (-1), 16→17 exp
-  Dummy Utmm: 12→0 activos (-12), 16→28 exp
-  Dungeon Rng: 62→60 activos (-2), 4→5 exp
-  Eat Ball Simulator: 16→13 activos (-3), 0→3 exp
-  Eat Players Or Die: 13→10 activos (-3), 0→3 exp
-  Eat Same Color Food Challenge: 5→0 activos (-5), 0→5 exp
-  Eat Blobs Simulator: 133→124 activos (-9), 27→34 exp
-  Effects Test: 8→6 activos (-2), 2→4 exp
-  Egg Empire: 12→11 activos (-1), 1→2 exp
-  Egg Farm Tycoon 2: 37→36 activos (-1), 1→2 exp
-  Egoist Awakens: 46→44 activos (-2), 19→20 exp
-  Egolock: 11→10 activos (-1), 0→1 exp
-  Element Battles: 36→9 activos (-27), 5→32 exp
-  Elemental Odyssey: 53→36 activos (-17), 6→23 exp
-  Emergency Landing: 9→3 activos (-6), 5→11 exp
-  Emerald Tappers X: 21→19 activos (-2), 1→3 exp
-  Emote For Ugc: 3→0 activos (-3), 5→8 exp
-  Epic Cars: 8→0 activos (-8), 10→18 exp
-  Energy Simulator: 25→0 activos (-25), 0→25 exp
-  Eternal Piece: 12→9 activos (-3), 24→27 exp
-  Evade: 23→19 activos (-4), 10→14 exp
-  Every Second Your Neck Grows: 23→21 activos (-2), 1→3 exp
-  Every Second You Get 1 Power Level: 4→3 activos (-1), 0→1 exp
-  Exiled: 36→34 activos (-2), 11→11 exp
-  Faction Defense Tycoon: 13→11 activos (-2), 0→2 exp
-  Faires Mm2: 33→19 activos (-14), 7→21 exp
-  Farm Life Simulator: 5→4 activos (-1), 6→7 exp
-  Fat Race Clicker: 14→12 activos (-2), 0→2 exp
-  Feet Simulator: 1→0 activos (-1), 0→1 exp
-  Fight For Ny: 50→45 activos (-5), 5→9 exp
-  Final Tower Defense: 56→28 activos (-28), 1→29 exp
-  Find The Noobies Morphs: 20→19 activos (-1), 9→9 exp
-  Fireball Punching Simulator: 9→7 activos (-2), 0→2 exp
-  Fire Force Online: 51→22 activos (-29), 22→51 exp
-  Fish An Anime Rng: 5→11 activos (+6), 11→6 exp
-    Nuevos: Yangs Home, Forgotten, 10KMEMBERS, 10KCCU, 20KLIKES, THANKYOUEVERYONE
-  Fish It: 44→26 activos (-18), 15→33 exp
-  Fishs Rng: 41→39 activos (-2), 32→34 exp
-  Flag Battles Simulator: 2→1 activos (-1), 0→1 exp
-  Flame Hood: 45→44 activos (-1), 3→4 exp
-  Flashpoint Worlds Collide: 79→67 activos (-12), 43→55 exp
-  Flashlight Tag: 4→3 activos (-1), 2→3 exp
-  Floor Race: 17→15 activos (-2), 0→2 exp
-  Fly Race Clicker: 16→12 activos (-4), 0→4 exp
-  Flying Simulator: 16→14 activos (-2), 2→4 exp
-  Fnaf Tower Defense: 34→33 activos (-1), 35→36 exp
-  Football Legends: 38→32 activos (-6), 33→39 exp
-  Forging Blade Simulator: 9→8 activos (-1), 0→1 exp
-  Freeze For Ugc: 28→27 activos (-1), 1→2 exp
-  Free Hatchers: 35→11 activos (-24), 7→31 exp
-  Fruit Arena: 15→4 activos (-11), 40→51 exp
-  Frontline Defense Legacy: 8→4 activos (-4), 0→4 exp
-  Fruit Battlegrounds: 44→45 activos (+1), 202→202 exp
-    Nuevos: EVENHIGHER!
-  Fruit Seas: 70→69 activos (-1), 34→35 exp
-  Fruit Warriors: 13→10 activos (-3), 0→3 exp
-  Fruit Tower Defense: 14→13 activos (-1), 4→5 exp
-  Garden Rng: 12→11 activos (-1), 0→0 exp
-  Generic Card Rng: 42→41 activos (-1), 1→2 exp
-  Gemventure: 12→10 activos (-2), 0→2 exp
-  Geometry Defense: 16→12 activos (-4), 15→19 exp
-  Get Muscles Simulator: 10→0 activos (-10), 2→12 exp
-  Get Richer Every Click: 6→4 activos (-2), 2→4 exp
-  Ghostly Manor: 10→1 activos (-9), 11→20 exp
-  Giga Muscle Simulator: 4→0 activos (-4), 0→4 exp
-  Goals Rng: 22→19 activos (-3), 1→4 exp
-  Goalbound: 37→36 activos (-1), 3→3 exp
-  Goblin Trail: 1→0 activos (-1), 0→1 exp
-  Godzilla X Kong Obby: 6→0 activos (-6), 4→10 exp
-  Gnome Race: 12→0 activos (-12), 1→13 exp
-  Golf Range Tycoon: 1→0 activos (-1), 1→2 exp
-  Golf Swing Simulator: 6→5 activos (-1), 2→3 exp
-  Goofy Tower Defense: 38→23 activos (-15), 43→58 exp
-  Grand Piece Online: 24→26 activos (+2), 284→284 exp
-    Nuevos: ILOVEGPO_2, FREE_Drops6
-  Gran Gran: 2→0 activos (-2), 1→3 exp
-  Grand Kaizen: 6→4 activos (-2), 2→4 exp
-  Greenville: 10→9 activos (-1), 30→31 exp
-  Grimace Race: 16→15 activos (-1), 0→1 exp
-  Griffins Destiny: 19→16 activos (-3), 2→5 exp
-  Grow A Tree Tycoon: 6→5 activos (-1), 0→1 exp
-  Grimoires Era: 115→112 activos (-3), 16→19 exp
-  Grow A Tree: 1→0 activos (-1), 4→5 exp
-  Guess It: 14→13 activos (-1), 0→0 exp
-  Guess The Music: 1→0 activos (-1), 1→2 exp
-  Gym League: 93→57 activos (-36), 4→40 exp
-  Gym Race: 3→1 activos (-2), 2→4 exp
-  Gym Training: 3→0 activos (-3), 0→3 exp
-  Gym Training Simulator: 20→0 activos (-20), 17→37 exp
-  Handstand Simulator: 2→0 activos (-2), 0→2 exp
-  Head Tap: 36→33 activos (-3), 18→21 exp
-  Head Punch Simulator: 11→9 activos (-2), 0→1 exp
-  Hero And Villain Battlegrounds: 2→1 activos (-1), 59→60 exp
-  Hero Havoc: 46→31 activos (-15), 1→16 exp
-  Heroes Awakening: 29→11 activos (-18), 0→18 exp
-  Hide Or Die: 15→7 activos (-8), 2→10 exp
-  Heroic Legacy: 3→0 activos (-3), 2→5 exp
-  High School 2: 8→1 activos (-7), 18→25 exp
-  Highway Legends: 33→32 activos (-1), 6→6 exp
-  Highway Syndicate: 13→11 activos (-2), 12→14 exp
-  Hollow Era: 8→4 activos (-4), 44→48 exp
-  Horrors Rng: 7→6 activos (-1), 0→1 exp
-  Horse Race Simulator: 12→11 activos (-1), 0→1 exp
-  Hots Rng: 82→78 activos (-4), 60→64 exp
-  Hotdog Eating Simulator: 44→42 activos (-2), 3→5 exp
-  Hulk Simulator: 1→0 activos (-1), 10→11 exp
-  Ice Farm Simulator: 4→0 activos (-4), 1→5 exp
-  Iconic Battlegrounds: 10→0 activos (-10), 0→10 exp
-  Ijul Piece 2: 42→39 activos (-3), 36→39 exp
-  Infinite Mining Incremental: 26→25 activos (-1), 6→7 exp
-  Influencer Rng: 14→0 activos (-14), 0→14 exp
-  Insane Button Simulator: 21→20 activos (-1), 42→43 exp
-  Jujutsu Legacy: 44→40 activos (-4), 12→15 exp
-  Jujutsu Shenanigans: 6→2 activos (-4), 41→45 exp
-  Jules Rng: 31→2 activos (-29), 22→51 exp
-  Jump Rope Simulator: 4→3 activos (-1), 4→5 exp
-  Jump Stars: 16→15 activos (-1), 10→10 exp
-  Jupiter Florida: 86→83 activos (-3), 20→22 exp
-  Kage Tycoon: 27→11 activos (-16), 19→35 exp
-  Kaiju Paradise: 21→19 activos (-2), 121→122 exp
-  Kamehameha Simulator: 13→11 activos (-2), 2→4 exp
-  Kick Door Simulator: 20→19 activos (-1), 10→11 exp
-  Kengan: 39→27 activos (-12), 0→12 exp
-  Kengun Online: 16→5 activos (-11), 34→45 exp
-  Kill Monsters To Save Princess: 11→6 activos (-5), 0→5 exp
-  Korblox Headless Hangout: 15→7 activos (-8), 11→19 exp
-  Legacy Piece: 21→0 activos (-21), 70→92 exp
-  Legends Legacy: 12→8 activos (-4), 0→4 exp
-  Lemonade Tycoon: 5→4 activos (-1), 0→1 exp
-  Level Piece: 13→0 activos (-13), 0→13 exp
-  Lift A Pet: 11→8 activos (-3), 0→3 exp
-  Lifting Legends Simulator: 2→0 activos (-2), 5→7 exp
-  Lifting Heroes: 3→2 activos (-1), 3→4 exp
-  Lost Kingdom Tycoon: 2→0 activos (-2), 12→14 exp
-  Lucky Block Legends: 6→0 activos (-6), 2→8 exp
-  Lucky Lockups: 3→0 activos (-3), 5→8 exp
-  Luxury Submarine Tycoon: 5→0 activos (-5), 0→5 exp
-  Magic Clicker: 11→10 activos (-1), 1→2 exp
-  Make Katanas And Prove Sensei Wrong: 2→0 activos (-2), 5→7 exp
-  Master Punching Simulator: 27→24 activos (-3), 1→4 exp
-  Mech Smash: 1→0 activos (-1), 1→2 exp
-  Mecha Simulator: 7→4 activos (-3), 0→3 exp
-  Mega Clickers: 8→4 activos (-4), 0→3 exp
-  Mega Fun Obby 2: 1→0 activos (-1), 10→11 exp
-  Merge A Black Hole: 12→12 activos (=), 0→1 exp
-  Midnight Chasers: 97→33 activos (-64), 95→159 exp
-  Mineral War Tycoon: 10→9 activos (-1), 19→20 exp
-  Mining Factory Tycoon: 17→16 activos (-1), 1→2 exp
-  Mma Legends: 19→0 activos (-19), 8→27 exp
-  Money Incremental: 44→42 activos (-2), 0→1 exp
-  Monster Evolution: 6→3 activos (-3), 0→3 exp
-  Monster Rider Simulator: 3→1 activos (-2), 0→2 exp
-  Moodeng Fruit 2: 106→104 activos (-2), 0→2 exp
-  Motoprix Racing: 4→0 activos (-4), 36→40 exp
-  Morph Rng: 3→2 activos (-1), 0→1 exp
-  Motorush: 39→26 activos (-13), 11→24 exp
-  Murder Drones Tower Defense: 2→0 activos (-2), 3→5 exp
-  Multiverse Tower Defense: 62→57 activos (-5), 99→104 exp
-  Multiverse Battlegrounds: 3→2 activos (-1), 80→81 exp
-  Multiverse Reborn: 4→0 activos (-4), 0→4 exp
-  Murder Time: 3→0 activos (-3), 2→5 exp
-  Murderthon: 4→0 activos (-4), 0→4 exp
-  Murim Cultivation: 59→0 activos (-59), 12→71 exp
-  Muscle Swim Race: 2→0 activos (-2), 0→2 exp
-  Mushyo: 9→1 activos (-8), 0→8 exp
-  My Bakery: 2→0 activos (-2), 0→2 exp
-  My City Tycoon: 8→0 activos (-8), 7→15 exp
-  My Hero Mania: 42→18 activos (-24), 63→87 exp
-  My Hero Battlegrounds: 15→13 activos (-2), 0→2 exp
-  My Salon Tycoon: 1→0 activos (-1), 8→9 exp
-  My Toilet: 15→11 activos (-4), 0→0 exp
-  Mystic Magic: 12→9 activos (-3), 2→5 exp
-  Neon Knights: 5→4 activos (-1), 5→6 exp
-  New Dreams: 27→25 activos (-2), 13→15 exp
-  New Seas: 32→0 activos (-32), 219→251 exp
-  Night Sea: 14→0 activos (-14), 0→14 exp
-  Nfl Universe Football: 139→138 activos (-1), 163→163 exp
-  Nightmare Defense: 12→0 activos (-12), 0→12 exp
-  Ninja Cutter Simulator: 51→48 activos (-3), 3→6 exp
-  Ninja Fighting Simulator: 9→7 activos (-2), 3→5 exp
-  Ninja Time: 163→164 activos (+1), 114→114 exp
-  Ninja World War: 3→0 activos (-3), 0→3 exp
-  Noob Merge Army: 4→1 activos (-3), 0→3 exp
-  Noob Evolution: 2→0 activos (-2), 2→4 exp
-  Obby But Youre A Cube: 21→18 activos (-3), 0→3 exp
-  Obby Rng: 7→0 activos (-7), 0→7 exp
-  Octopus Game: 17→9 activos (-8), 2→10 exp
-  Obito Piece: 15→10 activos (-5), 0→5 exp
-  Omega Rune Incremental 2: 23→22 activos (-1), 0→1 exp
-  Omega Rune Incremental: 47→43 activos (-4), 2→6 exp
-  One Piece Grand Arena: 2→1 activos (-1), 0→1 exp
-  One Fruit Simulator: 150→142 activos (-8), 222→228 exp
-  One Punch Hero: 35→24 activos (-11), 3→14 exp
-  One Piece New Dreams: 37→25 activos (-12), 2→14 exp
-  One Punch Fighters X: 6→0 activos (-6), 15→21 exp
-  One Punch Simulator: 11→0 activos (-11), 18→29 exp
-  One Punch Ultimate: 2→0 activos (-2), 22→24 exp
-  Overhead Press Simulator: 1→0 activos (-1), 0→1 exp
-  Overtake: 16→11 activos (-5), 0→5 exp
-  Own A Pet Tycoon: 9→6 activos (-3), 0→3 exp
-  Own Fnaf And Prove Mom Wrong: 2→1 activos (-1), 0→1 exp
-  Pacsun Los Angeles Tycoon: 16→5 activos (-11), 2→13 exp
-  Pac Man Simulator: 13→0 activos (-13), 0→13 exp
-  Paint Simulator: 10→0 activos (-10), 4→14 exp
-  Paint Walls: 2→0 activos (-2), 0→2 exp
-  Pancake Battles: 9→8 activos (-1), 0→1 exp
-  Paper Plane Simulator: 9→8 activos (-1), 0→1 exp
-  Panda Kung Fu Simulator: 1→0 activos (-1), 0→1 exp
-  Panik Classic: 16→12 activos (-4), 1→5 exp
-  Paradox: 16→0 activos (-16), 49→65 exp
-  Party: 24→17 activos (-7), 1→8 exp
-  Path To Power: 9→0 activos (-9), 9→18 exp
-  Pet Army: 4→0 activos (-4), 1→5 exp
-  Pet Atk Simulator: 7→0 activos (-7), 0→7 exp
-  Pet Duel Simulator: 6→5 activos (-1), 0→0 exp
-  Pet Hatchers: 15→11 activos (-4), 2→6 exp
-  Pet Malu Simulator: 13→0 activos (-13), 0→13 exp
-  Pet Racer Simulator: 28→24 activos (-4), 2→6 exp
-  Pet Rift: 18→14 activos (-4), 34→38 exp
-  Pet Star Simulator: 17→16 activos (-1), 1→2 exp
-  Pet Trading Card Simulator: 31→22 activos (-9), 0→9 exp
-  Picnics N Plushies: 50→49 activos (-1), 1→1 exp
-  Pillow Fighting Simulator: 12→11 activos (-1), 3→4 exp
-  Piece Rng: 60→59 activos (-1), 1→2 exp
-  Pickaxe Mining Simulator: 26→24 activos (-2), 1→3 exp
-  Pitch A Pet Simulator: 5→4 activos (-1), 0→1 exp
-  Pixel Blade: 61→38 activos (-23), 18→41 exp
-  Pirates Dream: 19→15 activos (-4), 1→5 exp
-  Pirates Vs Ninjas: 2→0 activos (-2), 1→3 exp
-  Planet Clicker 2: 7→6 activos (-1), 4→5 exp
-  Planet Evolution Idle Clicker: 6→4 activos (-2), 1→2 exp
-  Planks: 8→7 activos (-1), 10→11 exp
-  Planet Destroyers: 20→19 activos (-1), 5→6 exp
-  Play For Ugc: 30→24 activos (-6), 34→40 exp
-  Plant Evolution: 22→19 activos (-3), 0→3 exp
-  Poo Race: 13→7 activos (-6), 1→7 exp
-  Possessor: 20→18 activos (-2), 0→2 exp
-  Power Battle Simulator: 5→0 activos (-5), 0→5 exp
-  Power Fighting Tycoon: 6→0 activos (-6), 2→8 exp
-  Power Up Soccer: 17→16 activos (-1), 2→3 exp
-  Power Slap Simulator: 4→3 activos (-1), 0→1 exp
-  Pressure: 11→8 activos (-3), 8→11 exp
-  Prior Extinction: 15→2 activos (-13), 21→34 exp
-  Project Blue Lock: 253→62 activos (-191), 93→284 exp
-  Project Mugetsu: 328→53 activos (-275), 32→307 exp
-  Project Xxl: 25→24 activos (-1), 2→3 exp
-  Prove Mom Wrong By Being A Famous Streamer: 2→0 activos (-2), 0→2 exp
-  Psychis Battleground: 14→13 activos (-1), 4→5 exp
-  Pull a Sword: 154→147 activos (-7), 102→108 exp
-  Punch League: 2→0 activos (-2), 0→2 exp
-  Punch Hole Simulator: 41→40 activos (-1), 3→3 exp
-  Pup Army: 6→5 activos (-1), 0→0 exp
-  Push A Car: 15→14 activos (-1), 1→2 exp
-  Push Simulator: 24→22 activos (-2), 6→8 exp
-  Racing Simulator: 5→4 activos (-1), 9→10 exp
-  Rampant Blade Battleground: 3→2 activos (-1), 1→2 exp
-  Rarity Factory Tycoon: 28→18 activos (-10), 22→32 exp
-  Real Futbol 24: 9→5 activos (-4), 6→10 exp
-  Realistic Basketball: 4→0 activos (-4), 37→41 exp
-  Realistic Car Driving: 8→5 activos (-3), 7→10 exp
-  Realms Simulator: 8→6 activos (-2), 0→2 exp
-  Reaper 2: 76→76 activos (=), 218→219 exp
-  Reaper Clicker: 12→11 activos (-1), 1→2 exp
-  Reborn As Swordman: 29→28 activos (-1), 3→4 exp
-  Redcliff City: 1→0 activos (-1), 0→1 exp
-  Restaurant Business: 12→0 activos (-12), 2→14 exp
-  Rh2 The Journey: 88→37 activos (-51), 31→81 exp
-  Revengers Dream: 42→41 activos (-1), 67→68 exp
-  Rich Company Tycoon: 4→0 activos (-4), 0→4 exp
-  Ride a Cart Simulator: 4→3 activos (-1), 1→1 exp
-  Rider World: 68→65 activos (-3), 15→18 exp
-  Rivals: 37→12 activos (-25), 184→209 exp
-  Rng Anime Rarities: 150→145 activos (-5), 29→34 exp
-  Rng Droids: 21→0 activos (-21), 1→22 exp
-  Rock Mine Simulator: 12→11 activos (-1), 0→1 exp
-  Rock Fruit: 87→86 activos (-1), 143→144 exp
-  Rogue Sorcerer: 5→0 activos (-5), 1→6 exp
-  Rojutsu Blox: 10→0 activos (-10), 67→77 exp
-  Roll For Brawlers: 12→9 activos (-3), 0→3 exp
-  Rokarate: 11→10 activos (-1), 1→2 exp
-  Roller Race Simulator: 22→20 activos (-2), 1→3 exp
-  Roller Training: 4→3 activos (-1), 1→1 exp
-  Rotube Life: 21→18 activos (-3), 1→4 exp
-  Royalty Kingdom 2: 16→9 activos (-7), 8→15 exp
-  Royal Seas: 6→3 activos (-3), 55→58 exp
-  Ryujin: 26→2 activos (-24), 40→64 exp
-  Sakura Piece: 49→18 activos (-31), 1→32 exp
-  Sakura Stand: 133→129 activos (-4), 59→61 exp
-  Samurai Tycoon: 5→0 activos (-5), 25→30 exp
-  Samurai Parallel: 5→0 activos (-5), 1→6 exp
-  Savannah Life: 8→6 activos (-2), 14→16 exp
-  Save Brainrot: 11→10 activos (-1), 0→1 exp
-  School Of Hierarchy: 6→4 activos (-2), 2→4 exp
-  Sea Cleaning Simulator: 7→4 activos (-3), 0→3 exp
-  Seekers: 6→3 activos (-3), 2→4 exp
-  Shark Bite Simulator: 15→13 activos (-2), 3→5 exp
-  Sheep Tycoon: 3→0 activos (-3), 1→4 exp
-  Ship Tower Defense Simulator: 12→8 activos (-4), 0→4 exp
-  Shonen Smash: 2→0 activos (-2), 8→10 exp
-  Shortest Answer Wins: 12→10 activos (-2), 2→4 exp
-  Sigma Boy Simulator: 16→14 activos (-2), 1→1 exp
-  Shrek Swamp Tycoon: 19→12 activos (-7), 0→7 exp
-  Shuudan: 20→18 activos (-2), 34→36 exp
-  Silly Defense: 20→18 activos (-2), 30→32 exp
-  Size Legends: 6→4 activos (-2), 1→3 exp
-  Skateman Simulator: 45→42 activos (-3), 0→3 exp
-  Skibi Toilet Fighters: 23→20 activos (-3), 2→5 exp
-  Skibidi Box Defense: 13→9 activos (-4), 4→8 exp
-  Skibidi Rng: 28→0 activos (-28), 27→55 exp
-  Skybase Tycoon: 7→3 activos (-4), 4→8 exp
-  Skillful: 31→29 activos (-2), 11→12 exp
-  Slap Away Simulator: 1→0 activos (-1), 0→1 exp
-  Slap Fight: 5→4 activos (-1), 1→2 exp
-  Slay The Runway: 7→6 activos (-1), 3→3 exp
-  Slayer Arena: 2→1 activos (-1), 2→3 exp
-  Slashers Arena: 10→9 activos (-1), 1→2 exp
-  Sled Simulator 2: 8→7 activos (-1), 0→0 exp
-  Slimera: 8→6 activos (-2), 0→2 exp
-  Smash Grab Simulator: 7→6 activos (-1), 0→1 exp
-  Smoothie Factory Tycoon: 15→14 activos (-1), 19→20 exp
-  Sneaker Rng: 1→0 activos (-1), 0→1 exp
-  Soccer Legends Rng: 58→56 activos (-2), 3→5 exp
-  Solo Challenging Simulator: 23→0 activos (-23), 0→23 exp
-  Sorcerer Battlegrounds: 3→2 activos (-1), 2→3 exp
-  Special Forces Simulator: 24→23 activos (-1), 15→16 exp
-  Speed Runner: 14→13 activos (-1), 0→1 exp
-  Spellblade: 12→11 activos (-1), 3→4 exp
-  Spiked: 25→18 activos (-7), 60→67 exp
-  Spirit Bomb Simulator: 3→0 activos (-3), 4→7 exp
-  Sprunki Plus: 2→0 activos (-2), 3→5 exp
-  Squid Evolution: 12→11 activos (-1), 0→0 exp
-  Squid Game X: 54→53 activos (-1), 29→29 exp
-  Stand Proud: 38→5 activos (-33), 5→38 exp
-  Stands Unleashed: 29→26 activos (-3), 19→22 exp
-  Stat Farm Incremental: 15→14 activos (-1), 0→1 exp
-  Steal An Anime: 55→40 activos (-15), 26→41 exp
-  Stone Farm Simulator: 5→4 activos (-1), 0→1 exp
-  Streamer Life: 5→2 activos (-3), 3→6 exp
-  Strong Muscle Simulator 2: 13→6 activos (-7), 2→9 exp
-  Strongest Anime Squad Simulator: 8→7 activos (-1), 0→1 exp
-  Strongest Lifter Simulator: 4→0 activos (-4), 0→4 exp
-  Super Anime Merge: 60→26 activos (-34), 3→37 exp
-  Super Hit Simulator: 3→0 activos (-3), 0→3 exp
-  Super Power Evolution Simulator: 3→1 activos (-2), 0→2 exp
-  Super Power Legends: 11→5 activos (-6), 57→63 exp
-  Super Punch Simulator: 26→0 activos (-26), 1→27 exp
-  Super Skiing Race: 7→0 activos (-7), 0→7 exp
-  Super Treehouse Tycoon 2: 2→1 activos (-1), 0→1 exp
-  Superhero Academy: 10→9 activos (-1), 6→7 exp
-  Superhero Legends: 13→12 activos (-1), 3→3 exp
-  Superhuman Simulator: 16→15 activos (-1), 0→1 exp
-  Supreme Bathroom Battles: 8→3 activos (-5), 3→8 exp
-  Survival Odyssey: 17→14 activos (-3), 46→49 exp
-  Survive The Slasher: 50→25 activos (-25), 24→49 exp
-  Swim Race Simulator: 12→11 activos (-1), 5→6 exp
-  Sword Factory Gui: 22→20 activos (-2), 3→5 exp
-  Sword Duels: 7→0 activos (-7), 0→7 exp
-  Sword Fantasy: 7→0 activos (-7), 4→11 exp
-  Sword Legends Simulator: 3→0 activos (-3), 9→12 exp
-  Sword Race: 11→9 activos (-2), 0→2 exp
-  Sword Slayer: 9→0 activos (-9), 0→9 exp
-  Sword Slasher: 6→5 activos (-1), 1→2 exp
-  Tales Of Tanorio: 2→0 activos (-2), 14→16 exp
-  Tap For Ugc: 13→0 activos (-13), 0→13 exp
-  Tapping Legends Final: 17→16 activos (-1), 2→3 exp
-  Tcg Card Shop Simulator: 14→11 activos (-3), 1→4 exp
-  Tenisu Titans: 10→9 activos (-1), 0→0 exp
-  Terraria Tower Defense: 5→4 activos (-1), 2→3 exp
-  The Ants Underground Kingdom: 2→0 activos (-2), 80→82 exp
-  The Storage: 6→4 activos (-2), 3→5 exp
-  The Undead Coming Armageddon: 16→15 activos (-1), 4→5 exp
-  The Skinwalker: 33→32 activos (-1), 3→4 exp
-  The Simpsons Tower Defense: 7→6 activos (-1), 1→2 exp
-  Throwing Simulator: 31→16 activos (-15), 3→18 exp
-  Titan Wars Skibidi Toilet Tower Defense: 18→12 activos (-6), 0→6 exp
-  Titan Rng: 21→20 activos (-1), 1→2 exp
-  Tix Factory Experimental: 6→3 activos (-3), 0→3 exp
-  Tod: 3→2 activos (-1), 1→2 exp
-  Toilet Battlegrounds: 8→6 activos (-2), 1→3 exp
-  Toilet Defense Ultra: 12→11 activos (-1), 2→3 exp
-  Toilet Legacy Defense: 17→0 activos (-17), 3→20 exp
-  Toilet Tower Defense But Coins: 13→12 activos (-1), 8→9 exp
-  Toilet Verse Tower Defense: 22→15 activos (-7), 1→7 exp
-  Toilet Wars Tower Defense: 14→13 activos (-1), 0→1 exp
-  Touchdown Simulator: 4→3 activos (-1), 2→3 exp
-  Tower Defenders: 15→11 activos (-4), 0→4 exp
-  Tower Defense Rng: 75→74 activos (-1), 14→15 exp
-  Tower Of God: 41→8 activos (-33), 68→101 exp
-  Train Trip: 13→12 activos (-1), 0→1 exp
-  Treasure Hunt Tycoon: 7→6 activos (-1), 0→1 exp
-  Troop Army Simulator: 9→7 activos (-2), 6→8 exp
-  Trick Or Treat: 1→0 activos (-1), 5→6 exp
-  Tropical House Tycoon: 1→0 activos (-1), 1→2 exp
-  Tv Defense: 42→41 activos (-1), 3→4 exp
-  Tug Of War Simulator: 23→20 activos (-3), 2→5 exp
-  Type Soul: 7→5 activos (-2), 338→340 exp
-  Uca: 44→25 activos (-19), 0→19 exp
-  Ugc Rng: 14→12 activos (-2), 0→2 exp
-  Ultimate Anime Simulator: 12→7 activos (-5), 2→7 exp
-  Ugc Dont Move: 9→7 activos (-2), 130→132 exp
-  Ultra Clicker 2: 10→9 activos (-1), 29→30 exp
-  Ultra Toilet Fight: 7→0 activos (-7), 3→10 exp
-  Ultra Utmm Game: 9→6 activos (-3), 4→7 exp
-  Undead Rising Tycoon: 1→0 activos (-1), 1→2 exp
-  Undertale Rng: 7→0 activos (-7), 86→93 exp
-  Underworld Realm: 14→11 activos (-3), 2→5 exp
-  Universal Piece: 41→26 activos (-15), 13→28 exp
-  Unknown Rng: 37→35 activos (-2), 75→77 exp
-  Unlock Football Legends: 58→56 activos (-2), 3→5 exp
-  Unnamed Rpg Game: 3→0 activos (-3), 0→3 exp
-  Untitled Gym Game: 19→15 activos (-4), 8→12 exp
-  Unordinary: 16→14 activos (-2), 0→2 exp
-  Untitled Boxing Game: 15→11 activos (-4), 145→149 exp
-  Urban Moto: 5→0 activos (-5), 3→8 exp
-  Vehicle Legends: 4→0 activos (-4), 10→14 exp
-  Volleyball Ascended: 23→21 activos (-2), 0→1 exp
-  Vision: 26→0 activos (-26), 24→50 exp
-  War Age Tycoon: 14→10 activos (-4), 17→21 exp
-  Water Pumping Incremental: 15→10 activos (-5), 1→6 exp
-  Wblack Skate Simulator: 4→3 activos (-1), 0→1 exp
-  Weapon Crafting Simulator: 12→9 activos (-3), 2→5 exp
-  Weapon Masters: 21→17 activos (-4), 41→45 exp
-  Weapon Master Vs Anime: 10→9 activos (-1), 0→1 exp
-  Weapon Mayhem: 61→45 activos (-16), 19→35 exp
-  Wild Rails Tower Defense: 20→19 activos (-1), 5→6 exp
-  Wind Slayers: 6→5 activos (-1), 0→0 exp
-  Workout Island: 40→21 activos (-19), 18→37 exp
-  World Tower Defense: 5→4 activos (-1), 0→1 exp
-  Yard Sale: 14→13 activos (-1), 2→2 exp
-  Yba New Universe: 27→26 activos (-1), 50→51 exp
-  Your Hospital: 21→18 activos (-3), 1→3 exp
-  Zo Samurai: 8→4 activos (-4), 19→23 exp
-  Zombie Battle Tycoon: 14→12 activos (-2), 13→15 exp
-  Zombie Defense: 41→38 activos (-3), 42→45 exp
-  Zombie Hunters: 13→12 activos (-1), 8→9 exp
-  Zombie Simulator: 1→0 activos (-1), 4→5 exp
-  Zombie Tycoon: 19→0 activos (-19), 5→24 exp
-  Zoo Tycoon 2: 6→0 activos (-6), 0→6 exp
-  Zombies Vs Humans: 2→1 activos (-1), 2→2 exp
+  2d Basketball: 2→15 activos (+13), 15→2 exp
+    Nuevos: TRICKORTREAT, 2KLIKES, 500MEMBERS, 1KLIKES, 15KLIKES, dunk, 20KMEMBERS, 5MVISITS, 10KMEMBERS, easter2025, RANKEDUPD, matchmake, 5KMEMBERS
+  99 Nights In The Forest: 3→4 activos (+1), 3→2 exp
+    Nuevos: happyhalloween
+  A Bizarre Universe: 3→10 activos (+7), 7→0 exp
+    Nuevos: UPDATE!, MYFAULT!, RELEASE!, 10K!, MINIUPDATE!, UPDATE2!, MYFAULTGANG!
+  A One Piece Game: 259→280 activos (+21), 211→191 exp
+    Nuevos: 2kLikes, ReMultiverseSea, 1kActive, ReSea2, NewInventory, Accelerator!, QOLUpdate, MochiV3NOW!, Pregame_U8zKL, BossStudioLoyals, BirthdayBoss19, LoyalsCode!, IceV3NOW, BossQualityUPD!!, FlameUPD!, BossFlame!, BossStudiosNami!, YTIntervention, WeAreReallyBack!!, WeAreBack!!
+  Admin Rng: 21→22 activos (+1), 29→28 exp
+    Nuevos: 46KLIKES
+  Accurate Rng: 0→9 activos (+9), 12→3 exp
+    Nuevos: 400Players!, Sorry!, FreeShiny, RNG, 5000Members!, 1500favs, Lucky!, UPD1, 2000DiscordMembers!
+  Alien Prototype: 0→3 activos (+3), 24→21 exp
+    Nuevos: 2026BABY, 8KDIZZY, 23KLIKEZ
+  Allblox Battles: 37→41 activos (+4), 13→9 exp
+    Nuevos: LOM2V1SPHN, UMKQCMUUUL, UUWHIJP2ZX, R4AIHX5U5
+  Anime Auras Rng: 24→25 activos (+1), 1→0 exp
+    Nuevos: TradingFixed
+  Anime Ball: 73→74 activos (+1), 23→22 exp
+    Nuevos: IssueHappen
+  Anime Card Clash: 92→96 activos (+4), 137→133 exp
+    Nuevos: CURSERAIDUPDATE3, CURSERAIDUPDATE2, CURSERAIDUPDATE1, SERVERLUCK
+  Anime Boxing Simulator: 23→24 activos (+1), 3→2 exp
+    Nuevos: Miniupdt
+  Anime Chaos Simulator: 11→15 activos (+4), 6→2 exp
+    Nuevos: STANDS, BUGSFIX, CURSES, TRIALFIX
+  Anime Catcher Simulator: 19→21 activos (+2), 3→1 exp
+    Nuevos: giftfromme, 2KLIKES
+  Anime Champions Simulator: 79→82 activos (+3), 64→62 exp
+    Nuevos: DailyQuest3, RIPAkira
+  Anime Combat Simulator: 12→14 activos (+2), 2→0 exp
+    Nuevos: Noah, Jason
+  Anime Combats Simulator: 9→25 activos (+16), 28→12 exp
+    Nuevos: SEASON, Hunt, LOVE, LOOT, Space, SSJ, GEM, MAP6, JOJO, DEMON, SuperHiddenLol, TITAN, MOUNT, REBIRTH, MAP-5, GOD2
+  Anime Defenders: 38→40 activos (+2), 10→8 exp
+    Nuevos: idk, thanks500k
+  Anime Destiny: 0→4 activos (+4), 4→0 exp
+    Nuevos: SryForShutdown, ShutdownIssue, FixedBugSrySrySry, RELEASE!
+  Anime Destroyers: 30→31 activos (+1), 15→14 exp
+    Nuevos: 1mvisits!
+  Anime Defense Simulator: 16→19 activos (+3), 1→0 exp
+    Nuevos: 3klikes
+  Anime Dimensions: 49→61 activos (+12), 241→230 exp
+    Nuevos: 1TOR65RO, 2YEARS, A166KANE, 1BAK7UBR1O, MAGICA, BILLION, C17OSMIC0, STAR, CR1MS6OP8N, S1CARL67ET, KU16NAI9
+  Anime Dungeon Fighters: 23→24 activos (+1), 8→7 exp
+    Nuevos: THANKSGIVING1
+  Anime Dungeons: 4→8 activos (+4), 19→15 exp
+    Nuevos: 1KLIKES, HALLOWEEN, HEADSTART, FIXED
+  Anime Evolution: 0→22 activos (+22), 132→110 exp
+    Nuevos: VALENTINEPART2, VALENTINE, FIX22, TRADE, 120KLIKES, UPDATE34, FIX21, UPDATE33PART2, FIX20, CRAFT, UPDATE33, RELICS, UPDATE32, UPDATE31, 115KLIKES, UPDATE30, FIX19, NEWYEARPART3, BATTLEPASS, NEWYEARPART2, 2026, DELAY3
+  Anime Fight Next Generation: 10→11 activos (+1), 0→0 exp
+  Anime Fantasy Simulator: 29→31 activos (+2), 3→1 exp
+    Nuevos: Active10k, 10KFAV
+  Anime Fantasy: 68→77 activos (+9), 89→80 exp
+    Nuevos: SorryforDelay1, Visit5M, Likes10k, Sub2AekZaJunior, Release, Sub2Jetoza, Sub2RikTime, UpdPointFive, ShadowMonarch
+  Anime Fly Race: 15→16 activos (+1), 1→0 exp
+    Nuevos: 10kLikes
+  Anime Fruit: 24→26 activos (+2), 2→1 exp
+    Nuevos: Christmas
+  Anime Girl Rng: 74→123 activos (+49), 137→88 exp
+    Nuevos: MOREMOREMORE, HUZZ, SECRETCODE, UPDATESOON, ZZZISREAL, ELLENJOE, MIYABIABADDIE, TYFOR17MIL, VERSION11, TYFOR16MILL!!, TYFOR15MIL!!, VERSION10!!, VERSION95!!!, SORRYFORREJOINBUG!!, 14MILLIONVISITS!!, AUTOREJOIN!!, VERSION9!!, VERSION8!!, SORRYFORINDEXBUG, WEAREHUZZRNG, BUGSBEGONE, 12MILLIONVISITS!, LoveEveryone, UPDATEDAY!, GOALREACHED, ASTRALEVENT, VERSION7, THEFINALEL, BESTUPDATESOON, TYFOR200K!, UPDATEFINALLY, DISCORDGANGATRON, SORRYFORTHEBUGS, 1MILLIONSOON!, TYFOR30K!, MBALLFORDELAY, TYFOR500K!, WOWNEWMAPANDUI, SORRYFORMINORLOSS, SORRYFORALLDELAY, SORRY, TYFOR4M!, SORRYFORTHEDELAY, WELOVEGAMBLING, 10KACTIVE, WEARESOBACK, PEACEOUTYALL, TYFOR1MIL!, SUMMERPART2
+  Anime Geek: 11→13 activos (+2), 1→0 exp
+    Nuevos: 1KLIKES
+  Anime Guardians: 58→126 activos (+68), 147→79 exp
+    Nuevos: UPD15_RELEASE, HAJUN!!, DARKNESS!!, CSM_PART1, FIXSOON_, SRY_AGAINST_14, UPDATE14_, SHIBUYA_EVENT, SRY_FOR_DELAY, 17K_CCU, SUMMER_BANNER, 5K_REACTIONS!, UPD13, bonjour_bugfixes, SUMMER_PART1, MIYABI_ZZZ, CID_AND_SUNG, WORLDLINES, mball, HIT_9K_ACTIVE, 4K_ACTIVED, QOL_AND_NEW_TOWER, 50K_MEMBER_, SUMMER_UPD_SOON, UPD12, GIVEAWAY_, RAGNAEVENT, JOJO_AGAIN, VILLAIN, UPD11, JOJO_PATCH_FIXED_V1, THE_HATCH2025, GoblinPass, SubBushidoF3, GoblinSneak, Bankai, AinzSneak_, Gear5, Igros_Sneak, 5MVisits!, Sneak_Soon, HoneyRush, Overlord, QOL_UPD9, Update7, BEERUS_PEAK, RukiaGacha, SRYFOR_DELAY, Hungry, NewSystemComing, DemonLord, 100_Followers, Update8, UPD9, UPD10_FINAL, ITACHI, 1-eventsneak, NightMarket, NewReroll, 30K_Member, INFINITY_RAID, supermushroom, Sacrifice, Update10Part2, FIXED_1, MEGUMIN-SNEAK, Sry-Bugs-Newbie, 10MVisits!
+  Anime Immortals: 20→21 activos (+1), 30→29 exp
+    Nuevos: AI20
+  Anime Infinity: 0→32 activos (+32), 35→3 exp
+    Nuevos: 9KFavs!, DelayInfinity!, YOSHAA!, Fusion!, NewGamemode!, Update3!, MBShutdown!, 75KGroupMembers!, Update2!, 2MilVisits!, 6KPlayers, 100KFAV, 3MVISITS, Update4, SorryForDelay2, 25KLIKES, 100KVisits!, 1KFavorite!, SHINY!, 200KVisits!, SryForShutdown!, 5KLikes!, Release!, 1KLikes!, SryForLongMaintenance, SryForLongMaintenance!, Update1!, IWantToSleepHelp, 1MilVisits!, 5KFav!, 10KLikes!, 500KVisits!
+  Anime Insurrection: 38→41 activos (+3), 3→0 exp
+    Nuevos: Follow_LocallyHateden, 125kVISITS!, LUCKYARROW!
+  Anime Last Stand: 37→47 activos (+10), 297→287 exp
+    Nuevos: ElfReincarnation!, Sub2KingLuffy, D1SGUISED, Sub2CodeNex77k, Sub2ZerozKinger1MilSubs, Sub2BmGTormenter117onYT, Sub2Shock, Sub2MayyjeeeOrCodeWontWork, Sub2Noclypso176k, NeelsTV
+  Anime Kingdom Simulator: 38→42 activos (+4), 1→0 exp
+    Nuevos: Update2AKS
+  Anime Max Simulator: 27→33 activos (+6), 48→42 exp
+    Nuevos: UPDATE9, ShutFixes, UPDATE10, FixedQuirks, ExclusivePets, AddedMissingRoom
+  Anime Lost Simulator: 31→47 activos (+16), 28→12 exp
+    Nuevos: 1MilLosts, UPDATE1, 7KLIKES, ByeSlidingBug, MINIUPDATE1, IHATEBUGS, SHUTDOWN1, BUFFANDNERF, UPDATE2, 10MIVISTS, EGGFIXNERF, SHUUTDOOWN, 25KLIKES, INVASIONBUGSORRY, NODROPCOIN, SORRYBUGPOTION
+  Anime Odyssey Simulator: 22→25 activos (+3), 4→1 exp
+    Nuevos: mechablox, DEFENSE, 2KLIKES
+  Anime Ninja Simulator: 4→5 activos (+1), 3→2 exp
+    Nuevos: Spins
+  Anime Of Chance: 5→7 activos (+2), 2→0 exp
+    Nuevos: 50KVisit, !250SoFastLike
+  Anime Power: 76→81 activos (+5), 16→14 exp
+    Nuevos: update28, 79mvisits
+  Anime Rangers: 0→72 activos (+72), 73→1 exp
+    Nuevos: Sub2EZXXZ, FixedBugAgainBro, ThankFor2M, ThankFor7KLikes, UPDATE1, 4KLikes, 1KActive!, Sub2Imfrom3times, SryUnitUiBugGotFixed, SryForShudownUPD2, ShutdownIn5Mins, Sub2SilverPond, Sub2NUTNGa, UPDATE2, ThankFor1M, Sub2MAKUNAX, ILoveNineSanti, ThanksFor4MVisits, SECRETONTOP, AnimeBoyMadCuzDiscordPing, SryAlotShutdownSoSad, BroMyDataStore, SorryForShutdown, Shutdown2, Shutdown, FreeCrystal, 500KVisitsThankYou, Sub2HOLYSHz, UpdateSoon, ThanksFor3MVisitss, 14KLikes!, UPDATE4, 13kLikes, vladiii__, 14KLikes2Haha!, UPD3, PVPOnTop, cosndyek, shiver_dev, crypticdnr, ContentCreatorsEvent, 3ShutdownCombo!, NewUpdateNewGame, NoDelayFr, cented, AprilFoolRealUnit, aderemlk, AnimeRangersNO1, Pandeez, LearningDisabilityTakeOver!, NoDelayIsReal, BigestUpdateEver, RollRe!, nonsns, ThanksFor5MVisits, Tiktok_kiwiplayzrbx, 8MVisits, SorryForDailyBug, 10KLikes!, ThanksFor6MVisits, SIRAWITGOODDEV, 10kdcmember, GameWatch21, Soran, Update5!, KK_NecmiYT, jer, NICENICE, HIJKLMNOP, MiniLuck, 10MVISIT_CONGRATS, ABCDEFG!
+  Anime Rangers X: 43→106 activos (+63), 141→78 exp
+    Nuevos: NewRangerUnit!, NewDivineTrials!, SorryForLate!, MInstaGroupOnTop!, Weloveroblox!, Shutdown2!, UpgradeInFieldFix!, SorryForDelayz!, GTBossEvent!!, DBZUpdate!, EzSoulFrags, RiftMode!, SAOUpd!, Dungeons!, MinorChanges!, LBreset!, SmartRejoin, SneakCode!, CraftingFix!, S3Battlepass!, StatBoosters!, ChainsawUpd!, GraveyardRaid!, StatKeyHookup!, SuperSuperSorry!, ARXBLEACH!, QOL2!, BRANDONTHEBEST!, TYBW2!, YOUTUBEBACK!!, 3xALLMODES!!, !MattLovesARX2, !RaitoLovesARX, !FixBossRushShop, !TYBW, !BrandonTheBest, !SmallFixs, Srry4Shutdown, Sorry4EvoUnits, 2xWeekEnd!, SummerEvent!, Sorry4AutoTraitRoll, QuickFix!!, SorryDelay!!!, MoreFixs, Sorry4Quest, LiveLike, BOSSTAKEOVER, Sorry4Delays, NewLobby, CongratsFor1M, BizzareUpdate2!, RAIDS, HBDTanny, GHOUL!, SorryForIssue, 10KFollowers, SORRY4BUGS, CODEISREAL, PortalsFix, THANKYOU4PATIENCE, SorryRaids, ragebait
+  Anime Revolution Simulator: 15→18 activos (+3), 3→0 exp
+    Nuevos: thx15kmembers, thx150kvisits, thx3kactives
+  Anime Revolution Ultimate: 0→12 activos (+12), 14→2 exp
+    Nuevos: halloweeneventpt3, srrydelay, halloweenevent, 1klikes, halloweeneventpt2, reworksoon, foitudoculpadobuilderman, foitudoculpadomidao, srrybugs, foitudoculpadoojocaaaaa, messiasmelhormodeler, upd1
+  Anime Reborn: 9→10 activos (+1), 111→111 exp
+  Anime Rng Defense: 5→8 activos (+3), 56→53 exp
+    Nuevos: 1KLIKE, UPDRAID, 10KLIKE
+  Anime Revolution X: 67→68 activos (+1), 2→1 exp
+    Nuevos: breen7etop
+  Anime Rng: 1→3 activos (+2), 13→11 exp
+    Nuevos: UPDATE, Release
+  Anime Rng Battlegrounds: 22→23 activos (+1), 1→1 exp
+  Anime Rising Fighting: 23→37 activos (+14), 15→1 exp
+    Nuevos: 5KLIKES!, DARKCLOVER, IHAVEROBLOX, Release, RAGNAROK, ANTWORLD, SRRYFORRAIDS, RAIDREWRITE, 2KLIKES, 1MVISITS!, 1KLIKES, KAIZEMWORLD, SAINS, SORRYFORSHUTDOWN
+  Anime Roulette: 59→60 activos (+1), 2→1 exp
+    Nuevos: YIPPE
+  Anime Shadow: 35→36 activos (+1), 5→4 exp
+    Nuevos: 25KLIKES
+  Anime Royale: 45→104 activos (+59), 67→8 exp
+    Nuevos: 10MILVISITS, Sorry4Maintenance, VirtualUpdate, 25KPlayers, 10KLIKES, 20KLIKES, 3MilVisits, Release, 1MilVisits, PlsStopUpdatingAt6AmImTired, FixFixFix, SpoofFightsCyclones, SorryForDelay!!, SuperBooghan, JustARandomCode, CheersToRellHawk, INC, HappyEarlyNewYear!, SorryForDelayAgain, HappyNewYear!!, Christmas2024, Wish, Perfect, Titans, SorryForDelayAgainV2, Shutdown!, SetYourHeartAblaze, HappyHolidaysEveryone!, 100KMEMBERS, SorryForDelay, 25KLIKES, 30KFAVS, THANKYOUFORWAITING, Update2, SpookySeason, Shutdown, 100KMEMBERSTY, HappyLateHalloween, IAmAtomic!, 8KActiveTysm, 30KLikes, 35kLikes!, RoyalePass, SorryForBugs, GetWellSoonVolo, 5KActiveTysm, Shadow, MaintenanceWorldRecord, Jolly, WeAreSoBack!, TYBWGEMS, 30MVisits, Quincy, Mugetsu, Shinigami, MiniUpdate, 40000LIKES, REWARDS, TradingFinallyFixed!
+  Anime Simulator: 56→57 activos (+1), 22→21 exp
+    Nuevos: tenMillionVisits
+  Anime Slots: 13→21 activos (+8), 13→5 exp
+    Nuevos: Update1!, BigUpdateNextWeek!, SorryForDelay2!, 5KLIKES, SORRYFORSILENCE, 12KLIKES, SORRYFORDELAY, 6KLIKES
+  Anime Souls Simulator X: 40→95 activos (+55), 62→8 exp
+    Nuevos: TITANS, DAILYREWARDS, HOLLOWPURPLE, THXFOR20K, SorryForDelay, FRUITS, ACCMANAGER, NEWMACHINE, 35KLIKES, TY25KLIKES, SIDEQUESTS, EXCHANGE, INFINITECASTLE, HAKIANDCREWS, AMULETS, CURSEDTECHNIQUES, ALIENINVASION, SORRYFORBUG, ENCHANTMENTS, 15KLIKES, RELICS, STARS, BANKAI, 40klikes, SLXDEFENSE, MINISECRETBOSSES, BYEEVENT, DUELCARDS, TAILEDBEASTS, SUNGOD, EASTER2024, PRIMORDIALS, RANKS, 45KLIKES, TITLES, KINGOFHEROES, TRANSFORMATIONS, MUSCLESKILLS, VIKINGTECHNIQUES, INFERNALS, SUMMEREVENT, SEASON5, PHYSIQUEENHANCER, MYSTERYBOXES, CREATIONSYSTEM, SEASON1, SEASON2, SOVEREIGN, ZETSUATTACK, COMMANDMENTS, 50KLIKES, THESINS, 10KLIKES, RELEASE
+  Anime Souls Simulator: 4→84 activos (+80), 109→29 exp
+    Nuevos: l3ni, UPDATE6, update7, THXGUYS2, OPENSAMU, UPDATE3, THXGUYS1, leozimgamers, 70klikes, 35klikes, update4, UPDATE3DELAY, subopen, sorryforshutdowns2, update5, 45klikes, 60KLIKES, sorryforkaido, update19, themaztershutdown, fastshutdown, 110klikes, 100KLIKES, update9, defenseveryop, shutdownoffixes, onibeautiful, 90klikes, update12, update24, update21, update18, update22, update20, heroesbug, meteorshowers, leozimbeautiful, morebuffs, update10, sorryforglobalboss, sorryguys, 50kdcmembers, update16, badaccessories, bruhheroranks, update17, 1mgroupmembers, update8, update11, update15, theshutdown, update13, update25, update14, update23, 80klikes, mathbeautiful, swordbugged, infinitesouls, Update29, Update30, craftallonmachines, update35, update34, shieldheroes, update32, heroandluckbug, Update27, battlepass3season, stupidbug, sorryforupd29delay, Update28, sorryforshields, update26, sorryforworld7, update31, surpriseshutdown, update33, mazter_upgrader, UPDATE36
+  Anime Spirits: 100→106 activos (+6), 116→110 exp
+    Nuevos: QINHUONGUPDATE, OBITUMADAROUPDATE, ANOSVOLDIGOLDFINAL, TRUEGEAR5UPDATE, KAIJO9BERSERK, 80KLIKES
+  Anime Switch: 43→49 activos (+6), 9→3 exp
+    Nuevos: 2KLIKES, RUFFYKANO2, MANJIKANO2, BPFIX, RUFFYKANO, MANJIKANO
+  Anime Swordsman: 0→1 activos (+1), 1→0 exp
+    Nuevos: Release
+  Anime Tales Simulator: 15→19 activos (+4), 4→0 exp
+    Nuevos: SUBTOKELVINGTS, Dysche, ANIMETALES, RELEASE
+  Anime Swords X: 0→15 activos (+15), 20→5 exp
+    Nuevos: BUGSFIX, Release, STANDS, UPDATE1, UPDATE3, UPDATE1FIX, Craft, 3KLIKES, UPDATEBUFF, UPDATE3FIXES, UPDATE4, GRIMOIRES, UPDATE2FIX, UPDATE3BUFFS, UPDATE4FIXES
+  Anime Tower Defense: 0→4 activos (+4), 8→4 exp
+    Nuevos: speeedy, stretchy, RELEASE, THXFORLIKES100
+  Anime Training Rng: 53→55 activos (+2), 10→8 exp
+    Nuevos: Thanksgiving, Xmas
+  Anime Verse X: 21→32 activos (+11), 10→0 exp
+    Nuevos: betterprogrammer2, it4lqlindo2, updated2, 900active2, update2, 250likes, 599active, srryshutdown, 1200active2, zaacgay2
+  Anime Universe Simulator: 6→10 activos (+4), 4→0 exp
+    Nuevos: BIZARRE, 1GRAND, QUIRKY, release
+  Anime Verse Simulator: 0→8 activos (+8), 42→34 exp
+    Nuevos: TY300LIKES, SORRYFORSHUTDOWN, UPD1, TY600LIKES, SORRYFORBUGSUPD1, Release, ty100likes, SECRETS
+  Anime Waves X: 25→27 activos (+2), 3→1 exp
+    Nuevos: updated, 3500actives
+  Are You Sure: 19→20 activos (+1), 2→2 exp
+  Ascender Incremental: 31→32 activos (+1), 9→8 exp
+    Nuevos: LAG_FIX
+  Armless Detective: 62→72 activos (+10), 21→11 exp
+    Nuevos: Release, UPDATE1, Solo, MINIUPDATE, TYFORSUPPORT, FIXES, RELICS, THANKSFOR2K, INVASIONS, THOUSANDLIKES
+  Asylum Life: 22→24 activos (+2), 49→49 exp
+  Aur: 16→25 activos (+9), 19→10 exp
+    Nuevos: ANNIVERSARYSOON, 40klikes, 10klikes, 20KLIKES, 5klikes, b41t3d, 100KLIKES!, 30klikes, 70klikes
+  Attack On Titan Vengeance: 0→12 activos (+12), 39→27 exp
+    Nuevos: SynIsPro, 35000Likes!, SubToKakFight, 7500Likes, Cannons!, AOTOVER!, FinalEpisode!, ProGamer, GoodbyeAOT!, BLOODLINES, LenaSupremacy, 9000Likes
+  Azaras Rng: 0→82 activos (+82), 120→38 exp
+    Nuevos: SorryForWishingWellBug, Division3Soon, 3000Likes, 3100Likes, 154Reactions!, LookatMyProfile!, Legacy, ShopHasOpened, 10KMembers!, moratorium, FrameZero, WeeklyQuests, DailyQuests, 2700Likes, 2800Likes, 2900Likes, Rainy, Abyss, 4KDiscoMembers, 400YTsubscribers!, Elegy, ItsMoonTime, SryForShutdown, 9KMembers!, Arbitor, 2MVisits!!, 210Reactions!, 300YTsubscribers!, AnniversaryFinalPart!!, 2600Likes, SorryForDelay, AlterGlow, AnniversaryPart5, Cataclysm, AnniversaryPart4, AprilFool, 8KRobloxMembers!, 200YTsubscribers, EvilsRising, SryForSuddenClose, AnniversaryPart3, NewRollAchievements, AnniversaryWeek2, CakeTime, HappyAnniversary!!, TyFor158Subscribers!, OVER200REACTION, TyFor232Reactions!, 3KDiscoMembers, Collaboration!!, hot, WeAreBack, 7KMembers, 2100Likes, ObsidianUpdate, 2000Likes, Halloween!, SorryForLateHalloween, SorryForCodeOnly, HalloweenEventSoon, SorryForBug4, 5000Members, Sorryforsomuchbugs, Sorryforbug1, 500ACTIVES, 800KVisits, 300ACTIVES, 400ACTIVES, 700KVisits, EpicBirthday, 650KVisits, 600K, 200ActivesAGAIN, 550KVisits, 500KVisits, SorryForLateUpdate1, 400KVisits, Anniversary, 600Likes, 300KVisits, Division1, OMEGA
+  Aura Farm Simulator: 23→25 activos (+2), 3→1 exp
+    Nuevos: 50KVISITS, 200CCU
+  Azure Latch: 39→88 activos (+49), 99→50 exp
+    Nuevos: GIMMEDINERO, AJOLLYDAYISCOMING, WINTERUPDATE2025, OOPS!, happythanksgiving, illbeatyouup, almostkuronatime, WaiterWaiterMoreOnionRings, CHOMPCHOMP!, FeelingSharky, merrychristmas2025nov, happylatehalloween2025, 11v11Comeback, RankedRelease, MoreOnionRings, JumpAllMyCells, PartTwoOfTwo, StillHalfBaked, Sorry4RandomShutdownAgain, NoMorePest, GimmeOnionRings, 11v11Preparation, ChemicalReaction, RightOnTheMoney, SleepingGenius, HEROSINSTINCT, DUO_EMOTES, PieceOfStrategy, BeautifulDestruction, TheProdigyRefreshed, PartOneOfTwo, PSChanges, CompensationForTheShutdown, sorry4rollback, MASTERYQUEST, MetaGenius!, TheGeniusOfAdaptability, RevivalPatch, ThankYouForBeingPatient, KunigamiRework!, SorryForTheBugs, SorryForTheInconvenience, ThankYouForStayingWithUs, WeAppreciateYouAll, NextUpdateSoon, KunigamiUpdate, ThanksForBeingPatient, WeeklyUpdate, YukimiyaUpdate
+  Backroom Tower Defense 2 New Era: 12→13 activos (+1), 1→0 exp
+    Nuevos: Crafting
+  Banana Tower Defense: 6→7 activos (+1), 1→0 exp
+    Nuevos: BLIZZARD
+  Basketball Legends: 59→60 activos (+1), 133→132 exp
+    Nuevos: SORRY
+  Basketball Showdown: 22→23 activos (+1), 1→1 exp
+  Basketball Stars 3: 19→38 activos (+19), 36→17 exp
+    Nuevos: 2000LIKES, 1500Likes, 4kLikes, 9Thousand, 8Thousand, 10Thousand, LeBron, RecRelease, Christmas2024, 6000Likes, ParkRelease, EffectsRelease, EmotesRelease, Halloween2024, 3500Likes, 7Thousand, 5Thousand, 3Thousand, 11Thousand
+  Bathroom Attack: 14→15 activos (+1), 4→3 exp
+    Nuevos: Delay
+  Bathroom Warriors: 0→5 activos (+5), 6→1 exp
+    Nuevos: WOW10CARDS, GIVEMETKS, 10spin, POIPOIPOI, SW2024X
+  Bathroom Tower Defense: 18→21 activos (+3), 4→1 exp
+    Nuevos: 1750Likes, 1500Likes, 1MVisits
+  Bathtub Universe: 0→1 activos (+1), 3→2 exp
+    Nuevos: Overhaul
+  Bathtub Tower Defense: 0→18 activos (+18), 40→22 exp
+    Nuevos: BiggerUpdate, ThanksForAllTheSupport, 20MVisits, Cat, GwynSpaceship, 1MVISITS, 1KLikes, Easter2024, XMASFIX, MerryChristmas, BTDRewind, 16KLikes, Valentines2024, ethanwozhere, EPS72, Verified, 10KLikes, 33MVisits
+  Be A Baddie To Prove Mom Wrong: 2→3 activos (+1), 4→3 exp
+    Nuevos: thirdfloor
+  Beaks: 10→11 activos (+1), 3→2 exp
+    Nuevos: phoenix
+  Beast Force: 0→13 activos (+13), 16→3 exp
+    Nuevos: opentesting, no9, hoshina, 10iscoming, kaijuawaken, berserk, narumi, no2wpn, beastforce2025, beastwalker, beastforce, 06d, merryxmasbeastforce
+  Bear: 0→1 activos (+1), 28→27 exp
+    Nuevos: CIRCUSARRIVAL
+  Become A Plane And Fly: 5→7 activos (+2), 2→0 exp
+    Nuevos: ThankYouForPlaying, Like10K
+  Become President To Prove Mom Wrong: 8→9 activos (+1), 1→0 exp
+    Nuevos: mom
+  Bellu Piece: 0→6 activos (+6), 6→0 exp
+    Nuevos: 10KVISITS, nkNf5dTsxX, SORRYFORTHEBUGS, 100PLAYERS, q6B9wCVM48, 100LIKES
+  Beyond Volleyball League: 4→5 activos (+1), 64→63 exp
+    Nuevos: 12kFavsBVL!
+  Better Meme: 2→3 activos (+1), 2→1 exp
+    Nuevos: RELEASE
+  Better Footballer: 0→6 activos (+6), 6→0 exp
+    Nuevos: RONALDO7, FALL24, MBAPPE757, MESSI101, NOVEMBER, BETTERFOOTBALLER1
+  Big Lifting Simulator X: 24→25 activos (+1), 1→0 exp
+    Nuevos: ROBOT
+  Biggest Cube Simulator: 0→7 activos (+7), 7→0 exp
+    Nuevos: NEWPATCH, HALLOWEEN, SPIN, UPD8, UPD7, SUMMER, CANDY
+  Bite By Night: 0→3 activos (+3), 3→0 exp
+    Nuevos: HOTFIX, QUICKFIX, SORRYGUYS
+  Block Miner Simulator: 0→35 activos (+35), 44→9 exp
+    Nuevos: update15, update28, 350kgroup, update8, update25, update23, update10, update19, update16, update6, update4, update7, update9, update24, update14, update26, update27, update2, update13, update11, update22, update3, update18, update12, update5, update17, update21, update20, update32, update31, 10kfollowers, update29, update30, update33, update34
+  Block Mayhem: 47→51 activos (+4), 91→88 exp
+    Nuevos: TooLongDidntAsk, SorryDelaysAgain, QuestsWorking
+  Blockspin: 75→102 activos (+27), 90→63 exp
+    Nuevos: 1G2JKK, PN8984, 4OKJ3Q, 75T854, 21GLJ0, CG8X5B, 182870, 17955S, 1VHY84, BU14NA, XE9V6X, 9GHJ19, 5OMI80, EQI49L, ODV5SO, 1X21TB, Y3VDI1, CJ57A1, 92DV74, 0XGS83, Z8893Y, 135S4O, VX49HE, CBE3C2, RP5TCW, C529KA, OJ7B81
+  Block Tales Tower Defense: 5→6 activos (+1), 9→8 exp
+    Nuevos: OVERHAULSOON
+  Blue Lock Rivals: 3→101 activos (+98), 335→237 exp
+    Nuevos: INSANETRAILERSOON, SORRY4DELAY!!, FIXESLATERTODAY, RINTODAY, DESTROYERMODE, SAERRY4DELAY, RINSOON, HALFBAKED, SAEREWORK, MAGICIAN, BIGTRAILERSOON, NESSTODAY, NESSNEXTWEEK, TEAMSPAIN, TEAMBRAZIL, NEWMAP, WORLDTOURNAMENTPART3, SEMIFINALS, REBALANCES, QUARTERFINALSOON, QOLUPD, NEWCHEMSOON, DEMON, SUMMERUPDATE, U20CUP, WORLDTOURNAMENT, BEARCLAW, ADDRESSME, GAGAREWORK, MASSIVEUPDATE, NELEVENT, NELTEAMSHYPE, BREAKDANCE, KIYORARELEASE, HIORIREWORK, SNOWFLAKE, NELHIORI, HIORIHYPE, MINIUPDATE, MBFORDELAY, HIORISOON, REORETURN, MASTEROFALLTRADES, REOHYPE, REOSOON, REWORKW, SAEW, WPATCH, THEJOKER, WILDCARD, KUNIGAMIW, SPEEDSTER, CHIGIRIHERE, 44PANTHER, CHIGIRISOON, NINJASPINS, OTOYAUPD, NELQUEST, NEWJERSEYS, NEWIMPACTS, METAVISION, EGOISTNOW, ISAGITODAY, NAGITHEBEST, NELNAGIW, SORRYDELAYEASTER, EggStyle, EasterYuki, ITSBACK, TIMETIME, RANKEDRETURN, NELPASS, NELLUCKY, NELSTYLESPINS, CROWFLOWCODE, CROWCODE, KARASUHYPE, NAGIEVOLUTION, ISAGIEVOLUTION, RIPGENERATIONAL, FLOW3V3, HYP3, 3V3TIME, LUNARYEAR, CODEANGRY, RAICHIHYPE, HEARTFLOW, HEARTSTYLE, VALENTINESDAY, NELFLOWSPINS, NELQUEST2, RINRIN, YENUPDATE, AFKUPDATE, NESSFLOW, RABBITPULL, ITSNESS, NESSMAGICIAN
+  Boku No: 61→67 activos (+6), 8→2 exp
+    Nuevos: cl3ss1A, th4nky0u, man1f3st, 300MVISITS, echoeyesonYT5K, mhaseason5
+  Bomb Simulator X: 6→7 activos (+1), 1→0 exp
+    Nuevos: HalloweenQuestPets
+  Booga Booga Reborn: 10→75 activos (+65), 120→55 exp
+    Nuevos: 2MVisits, BOOGASPOOKY, 69KFavorites, 15KLikes, 5000Likes, 7500Likes, SPOOKYPART2, Valentines!, 3KLikes, Quests!, 8MVisits, Ants!, 20KLikes, BOOGARERELEASE, 10MVisits, 35KLikes, 4MVisits, 7KLikes, TURKEYMAN, 30KLikes, 95KFavorites, 40KFavorites, Easter!, 25KLikes, 70KFavorites, 30MVisits, 15MVisits, 10KLikes, 1MVisits, NEWYEARS, BOOGASHUTDOWN, 100KFavorites, 20MVisits, 2KLikes, BOOGASALESFRIDAY, 85KFavorites, 50KFavorites, BoogaBooga!, 100KLikes!, 150MVisits!, HappyNewYears!, Valentines2024!, Easter2024!, Anniversary!, 80KLikes!, 300KFavorites!, 120MVisits!, 50MVisits!, 100MVisits!, 60KLikes!, 50KLikes!, 245KFavorites, MerryChristmas!, 250KFavorites, SPOOKY24, BugFest!, HappyHalloween!, 75MVisits!, anticheatfail, 200KFavorites, Pirates!, 40KLikes, 140MVisits!, Sorry!, 60MVisits!
+  Bomb Digging Simulator: 6→7 activos (+1), 5→4 exp
+    Nuevos: EXPLOSION!
+  Booth Game: 32→47 activos (+15), 22→7 exp
+    Nuevos: FrameRevamp, LateUpdate0209, Shutdown0203, Christmas2022, FixedSeats141, WinterMap, FixedBlocklist1112, 5KLikes, BugFixes0223, BistroFeature, PatrickHouse, BoothCleanUp, VCUPDATE, New10KLikes, FixedCodes123122
+  Box Tower Defense: 0→5 activos (+5), 9→4 exp
+    Nuevos: NEWYEARNEWME, Large, Obliterator, projectorrace, tysmforplaying
+  Boys Vs Girls: 3→4 activos (+1), 4→3 exp
+    Nuevos: Girls
+  Brainrot Card Battles: 36→36 activos (=), 13→20 exp
+  Brainrot Rng: 0→10 activos (+10), 10→0 exp
+    Nuevos: FIGHTING, UpdateComingSoon, 3Millionvisits, FINALLYUPDATE, 1MillionVisits, 2kLikes, 20kMembers, Update, SorryForBugs, Followed
+  Brainrot Sails: 0→1 activos (+1), 1→0 exp
+    Nuevos: 100LkiEs
+  Brainrot Tower Defense: 10→11 activos (+1), 30→29 exp
+    Nuevos: garamararamararaman
+  Brawl Stars Pet Simulator: 0→2 activos (+2), 4→2 exp
+    Nuevos: BETA, HUGE
+  Break Stuff Simulator: 0→1 activos (+1), 2→1 exp
+    Nuevos: RELEASE!
+  Bubble Champions: 7→9 activos (+2), 2→0 exp
+    Nuevos: release2, dx3m4fi
+  Bubble Gum Champions: 29→31 activos (+2), 0→0 exp
+  Bubble Gum Simulator Infinity: 54→58 activos (+4), 10→6 exp
+    Nuevos: update18, update14, update17, cornmaze
+  Buckshot: 18→18 activos (=), 5→6 exp
+  Bubble Gum Remixed: 0→27 activos (+27), 30→3 exp
+    Nuevos: bigshiny, bigspeed, bigluck, gems500mil, luckychances, summer, luckyeggs, speedy, ilikemoney, sorryforthewait, PityBoosts, SuperLuck, Fallishere, Skulls, 10k, SorryForShutdown, FallPart2, Release, MEGACODE, Harvest, FALLSPECIAL, Boosts, Angelic, 100K, Pirate, 500K, THROWBACK
+  Build A Beach Gym And Prove Bullies Wrong: 6→8 activos (+2), 3→1 exp
+    Nuevos: 100LIKES, 30KFAVS
+  Build A Gym: 0→6 activos (+6), 10→4 exp
+    Nuevos: 100LIKES, 5klikes, RELEASE, 1mvisits, 1klikes, 25KVISITS
+  Building Towers To Fly Further: 5→6 activos (+1), 2→1 exp
+    Nuevos: NEWGAME
+  Bunker Tycoon: 0→1 activos (+1), 2→1 exp
+    Nuevos: BOOSTER
+  Button Simulator Mania 2: 32→38 activos (+6), 8→2 exp
+    Nuevos: EnergyWorld, ThanksYallFor1MVisits, SorryFarmers, FarmUpdate, Japanese, DungeonUpdate!
+  Button Simulator Mania: 0→31 activos (+31), 76→45 exp
+    Nuevos: UPDATE1, SorryForMassivesShutdown, SorryForBugs, UPDATE5, Update3, 1MVISITS, RELEASE, EventWorld, UPDATE2, SorryForDelay, 100KVISITS, IHATEBUGS, UPDATE7, WWWUPDATE, LookAtMiningArea, SorryForTheInconvenience, 800KVISITS, 400KVISITS, UPDATE6, UPDATE8, 2MVISITSSOON, UPDATE9, COOKINGDEVS, LittlePatch, ANEWSTORYSTARTING, COMPETITIONEND, DEADNOOB, UPDATE10, WOWUFOUNDIT, NEWDEVS, UPDATE11
+  Cake Off: 23→24 activos (+1), 4→3 exp
+    Nuevos: basket20
+  Camper: 0→18 activos (+18), 20→2 exp
+    Nuevos: K3Y, BEACH, COCEAN, EKNIFE, EV1L, WEAREBACK, FUTURE, Karambit, SEER, FR33CHR0MA, SEASON4, GREEN, BLU3CU4LASS, LAVA, G0LD3N, MMC, CWAVES, EGUN
+  Capybara Evolution: 35→36 activos (+1), 5→4 exp
+    Nuevos: Brrrra
+  Capybara Run: 0→3 activos (+3), 4→1 exp
+    Nuevos: LIKE100, LIKEGAME, RELEASE
+  Car Repair Simulator: 6→14 activos (+8), 9→1 exp
+    Nuevos: 500Likes, Collectors!, 2500Hearts, 100kVisits, 250kPlays, 500kJoiners, Rebirth!, 1000Likes
+  Car Rental Tycoon: 4→5 activos (+1), 3→2 exp
+    Nuevos: 5KLIKES
+  Car Wash Tycoon: 4→6 activos (+2), 11→9 exp
+    Nuevos: x2week, sponge
+  Cart Ride Simulator: 10→13 activos (+3), 7→4 exp
+    Nuevos: UPDATE2, 100LIKES, 5MVISITS
+  Cat Infection: 2→4 activos (+2), 6→4 exp
+    Nuevos: KATANA, 10KFAVORITES
+  Catwalk Show: 4→8 activos (+4), 5→1 exp
+    Nuevos: Like2K, 3KLike, like5K, 8000Like
+  Chaos Theory: 0→2 activos (+2), 3→1 exp
+    Nuevos: HAPPYBIRTHDAYGLASS, SORRY
+  Chaos Town: 0→6 activos (+6), 17→11 exp
+    Nuevos: NEWYEARS2026, WINTER2025, 18K, SUMMER2024, 19K, 20K
+  Chocolate Factory Tycoon: 8→10 activos (+2), 2→0 exp
+    Nuevos: Release, River
+  Circle Clash: 5→6 activos (+1), 74→73 exp
+    Nuevos: NDJYFPR
+  Click For Ugc: 0→9 activos (+9), 14→5 exp
+    Nuevos: 5MVISITS, PETS, HAIRS, UPDATE2024, 100KVISITS, 30KLIKES, 500KVISITS, SORRY4THEBUGS, DOMINUS
+  Clicker Mining Simulator: 85→89 activos (+4), 2→0 exp
+    Nuevos: grimace, trial
+  Clicker Wars Simulator: 13→14 activos (+1), 1→1 exp
+  Clicking Masters: 11→12 activos (+1), 1→0 exp
+    Nuevos: 100likes
+  Climb And Jump Tower: 20→21 activos (+1), 15→14 exp
+    Nuevos: IRONMANT
+  Clothing Factory Tycoon: 4→11 activos (+7), 11→4 exp
+    Nuevos: 500LIKES, 1KLIKES, 250KVISITS, 50KVISITS, 100KVISITS, 5KFAVS, 1KFAVS
+  Clover City: 0→7 activos (+7), 15→8 exp
+    Nuevos: RYO, FIRE, NICE, ARRG, EMOTES, CLUBCLOVER, SUMMER
+  Coal Miner Tycoon 2: 6→7 activos (+1), 17→16 exp
+    Nuevos: 5MV1S1TS
+  Cog: 0→27 activos (+27), 62→35 exp
+    Nuevos: 20M, 15KLIKES, FELT, MOB, FUJI, 10M, 10KLIKES, 989, 9MILLION, JANUARY2026, BMC, 100KFAVORITES, HAPPYNEWYEAR, PARALLAX, 1000CCU, 40KFAVORITES, 70KFAVORITES, 80KFAVORITES, 90KFAVORITES, RENT, 60KFAVORITES, HOUSES, 50KFAVORITES, CYCLEDOUT, ROADBIKES, SIX7, NEWYEAR2026
+  Color By Number 2: 3→4 activos (+1), 1→0 exp
+    Nuevos: 800LIKES
+  Color Block: 2→5 activos (+3), 4→1 exp
+    Nuevos: like600k, like800k, like700k
+  Corrupted Crossroads: 18→21 activos (+3), 6→3 exp
+    Nuevos: welcometothecircus, 2mcorrupteds, sorryfordelayguys
+  Craft Tower Defense: 0→12 activos (+12), 12→0 exp
+    Nuevos: MAP3, NEWUPDATE, RELEASE, UPDATEONE, CHALLENGES, DESERT, JUNGLE, MODDED, SNOW, UPDATE8, NEWCHALLENGE, RAID
+  Criminal Life Tycoon: 3→5 activos (+2), 3→1 exp
+    Nuevos: 1mvisits!, training
+  Cube Eaters: 0→2 activos (+2), 5→3 exp
+    Nuevos: NATION, RELEASE
+  Crucifix Test: 0→2 activos (+2), 3→1 exp
+    Nuevos: halloween!, 1Mvisits!
+  Curse Randomizer: 5→17 activos (+12), 21→9 exp
+    Nuevos: IWASHERE, 5000LIKES, 6500LIKES, 4000LIKES, RemoveARandomCurse, 8888LIKES, 100LIKES, Spooky, 1500LIKES, HALLOWEEN, 2500LIKES, GiveMeARandomCurse
+  Cursed Sea: 43→44 activos (+1), 5→4 exp
+    Nuevos: release
+  Crystal Valley Mining Simulator: 0→3 activos (+3), 10→7 exp
+    Nuevos: Welcome, Wheel, Martteen1
+  Cursed Tank Simulator: 11→19 activos (+8), 16→8 exp
+    Nuevos: LastQNA2026, DavadMouse2, 67LOOOL, compensate, Jolly, HappyBdayHanna, HappyBdayBlu, LockedInAlien
+  Custom Car Tycoon: 0→4 activos (+4), 9→5 exp
+    Nuevos: Release, Subscribe, OutOfMoney, GameBroken
+  Dah Aim Trainer: 1→7 activos (+6), 8→2 exp
+    Nuevos: MAPUPDATE, RERELEASE!, SORRY, 1500Likes, 700K, MONEY
+  Dandys World: 2→3 activos (+1), 11→10 exp
+    Nuevos: SPOOKYSEASON
+  Dead Tales: 20→21 activos (+1), 3→2 exp
+    Nuevos: DAILYQUESTS
+  Death Ball: 74→97 activos (+23), 33→10 exp
+    Nuevos: jiro, GROWMYGARDEN, CRYSTALZ, sorrygems, ONELIFEONLY, BLUVSRD, foxuro, newyear, divine, RELEASE, spirit, thankspity, HIIBRAWL, LAUNCHDBTWO, GLOOMY, kameki, derank, launch, 100mil, mech, FIXEDISH, xmas, 3KLIKES!
+  Deadlift Simulator: 22→24 activos (+2), 9→7 exp
+    Nuevos: 50KVISITS, WINTER
+  Decide Or Die: 7→8 activos (+1), 2→1 exp
+    Nuevos: VALENTINE
+  Defenders Depot 2: 14→17 activos (+3), 6→3 exp
+    Nuevos: 10kLikes, GULLIBLE, soonTM
+  Defenders Depot: 27→34 activos (+7), 9→2 exp
+    Nuevos: minigun, redYELLOWred, followTwt, 7dFIVE!!, comingsoon, 7DM, cratesss
+  Demon Slayer Legacy: 23→27 activos (+4), 19→15 exp
+    Nuevos: GETGUDV2, DATAUPGRADE2, AUGSECONDWEEK, AUGSECONDWEEK_STATRESET
+  Demon Slayer Burning Ashes: 6→44 activos (+38), 41→3 exp
+    Nuevos: !h2023, !excitedforrevamps, !Mason500, !bossrush, !bdareset, !sorryforbug2, !10mvisits, !Robin500, !blackfridaysale, !doubleexp, !superyen, !breathingreset, !bugcompensation, !bossrush3, !yaynew2xexpcode, !happygrinding, !sorryforshutdowntwo, !sorryforwait, !guysurkindacute, !lazydevs, !bugcomp4, !doyouwannabuildasnowman, !sorry4ffa, !compforbugs, !20mcelebration, !sorryfortoji, !progressionchanges, !valentineshaorilate, !sthu, !sorryfordelay, !dataloss, !happy8th, !bigupdatesoon, !compforbugs4, !rorisgoated, !thx4survey, !tradingandafkbacksoon, !happyfourth
+  Demon Slayer Training Simulator: 0→1 activos (+1), 1→0 exp
+    Nuevos: robstar
+  Dig To Hell: 25→26 activos (+1), 1→0 exp
+    Nuevos: X3WINS
+  Dig To Win Simulator: 0→6 activos (+6), 7→1 exp
+    Nuevos: RELEASE, 500Likes, 1KLIKES, 2500LIKES, 5KLIKES, 10KLIKES
+  Digimon Digital Monsters: 0→1 activos (+1), 10→9 exp
+    Nuevos: Likes50k
+  Dinosaur Arcade: 2→12 activos (+10), 12→2 exp
+    Nuevos: ITSOUT, 10kDALIKES, 30kGROUPMEMBERS!, CHRISTMASCHAOS, 20kDALIKES, 25kDALIKES, 35KDALIKES, 2MILLIONVISITS, 35KGROUPMEMBERS, 15kDALIKES
+  Dinosaur Evolution: 7→29 activos (+22), 22→0 exp
+    Nuevos: happy2000, R6T1, X8Y9, T7U4, V3W2, 2C7F, 8K1L, 6G8J, 4E3H, Z5B1, 1P5Q, 5T2U, 3R7S, 9M4N, 1C8F, 9Z4B, 8X3Y, 7V6W, 4K2L, 2E5H, 3G9J, 5M7N
+  Dino Island Tycoon: 5→6 activos (+1), 1→0 exp
+    Nuevos: 1million
+  Dollista: 4→5 activos (+1), 3→2 exp
+    Nuevos: VALENTINESDAY
+  Drag Drive Simulator: 48→77 activos (+29), 51→22 exp
+    Nuevos: MODIFIXHALLOWEENUPDATE, HBDPAKBODONG, DELAYDIKITYAH, DRAGDRIVESIMULATOROCTOBER, JOBANDPOLICEVEHICLEUPDATE, DRAGDRIVESIMULATORSEPTEMBER, HBDADVGAMERS, DELAYDIKITGAKSI, SORRYFORDELAYMERDEKA, DDSDRAGRACETOURNAMENTREADY, DRAGDRIVESIMULATORAUGUST, HAPPY80THINDEPENDENCEDAYRI, RDIDMAPREVAMPPHASE1, SORRYFORDELAYUPDATE, DRAGDRIVESIMULATORJULY, RDIDMODIFICATIONCUSTOMPLATE, DRAGDRIVESIMULATORUPDATE, RAMADAN2025, DRAGDRIVESIMULATORV102, NEWDRAGDRIVESIMULATOR, DRAGDRIVESIMULATORV1, NEWSENTULTRACK, APRILMOPLIMITEDUPDATE, OTW5KLIKESFORNEWCODE, LETSCOMPLETEDAILYQUEST, RDIDNEWMODIFICATION, DRAGDRIVESIMULATORJUNE, RDIDMODIFICATIONUPDATE, EIDALADHA2025
+  Doodle World: 137→137 activos (=), 200→203 exp
+  Downforce Stunt Driving: 3→4 activos (+1), 14→13 exp
+    Nuevos: SPEED1000
+  Dragon Ball Online Generations: 4→5 activos (+1), 2→1 exp
+    Nuevos: THANKYOUFOR50MVISITS!
+  Dragon Ball Rng: 28→29 activos (+1), 3→2 exp
+    Nuevos: 1KMEMBERS
+  Dragon Race: 18→19 activos (+1), 6→6 exp
+  Dragon Warrior Simulator: 0→7 activos (+7), 15→8 exp
+    Nuevos: THUMB500, WELCOME, THUMB15000, THUMB5000, THUMB1000, THUMB20000, THUMB10000
+  Dragon Soul: 1→18 activos (+17), 35→18 exp
+    Nuevos: decembergodki, 125klikes, GARO, 100klikes, boostspack, 200klikes, HalloweenBeans, RADRIBBON, DragonBallsComingSoon, 160klikes, shatteredorbs, HalloweenHype, 180KLIKES, dragonsoulswhen, souls, shrimpgame, 300klikes
+  Dress To Impress: 42→57 activos (+15), 23→8 exp
+    Nuevos: CH00P1E_B4CK_AGA1N, GLINDA, ELPHABA, M0TOPRINCESSWAV, NY2025, SWEETHEART, REWARD4CLASS1C, M0T0PRINCESSWAV, FASHION, CHOOPIE10K, 4BILLION, WINTERUPDATE, THEGAMES, YEAROFTHESNAKE, HAPPYNEWYEAR
+  Dream Six: 4→5 activos (+1), 7→6 exp
+    Nuevos: 3500LIKES
+  Dress Trading: 4→5 activos (+1), 2→1 exp
+    Nuevos: like2k
+  Drill Digging Simulator: 7→9 activos (+2), 2→0 exp
+    Nuevos: Corvette, SorryForDelay
+  Drive Thru Tycoon: 3→4 activos (+1), 11→10 exp
+    Nuevos: 15milwow
+  Drive World Drifting Racing: 33→38 activos (+5), 15→10 exp
+    Nuevos: newyearnewcar, Morikawa, HAPPY4TH, cybersleigh, happy2025
+  Drone Defense: 0→14 activos (+14), 22→8 exp
+    Nuevos: CynWasHere, BuggyCodes, Ty4TenK, 2MILLION, HeartBeat, 1MILLION, MerryChristmas, Bubbles, NAWHECHEATED, FixCodes!!!, LevelRoad, 3MILLION, 4MILLION, 5MILLION
+  Dummy Defense: 28→29 activos (+1), 17→16 exp
+    Nuevos: AlphaTest
+  Dudes Battlegrounds: 19→52 activos (+33), 126→93 exp
+    Nuevos: UPD65, UPD64, UPD63, COMMUNITYEVENT, VALENTINESDAY2026, PINS, 1MGROUP, UPD61, 800KMEMBERS, 900KMEMBERS, UPD60, UPD59, APPL, 700KMEMBERS, 250MVISITZ, ADMINABUSE, 600KMEMBERS, 160KLIKES, KIMMYRELEASE, UPD57, TURKEY, THANKSGIVING_2, M1N1UPD, 2V2RANKED, 550KMEMBERS, SPOOKY, HALLOWEEN2025, UPD53, 150KLIKES, UPD52, 650KFAVS, 500KMEMBERS, 140KLIKES
+  Dummy Utmm: 0→12 activos (+12), 28→16 exp
+    Nuevos: checker69subsyay, sorry1, sorry2, sorry4, sorry3, level99sigmaevent, idk1, halloweeneventisout, idk2, idk3, lilevilvslilvergwhowins, vergsucks
+  Dungeon Rng: 60→62 activos (+2), 5→4 exp
+    Nuevos: Dungeons
+  Eat Same Color Food Challenge: 0→5 activos (+5), 5→0 exp
+    Nuevos: season, billy, farm, Duration, rainbow
+  Eat Ball Simulator: 13→16 activos (+3), 3→0 exp
+    Nuevos: 50KLIKES, 70KLIKES, SPRING
+  Eat Players Or Die: 10→13 activos (+3), 3→0 exp
+    Nuevos: 3KFAVORITES, 5KLIKES, 1MVISITS
+  Eat Blobs Simulator: 124→133 activos (+9), 34→27 exp
+    Nuevos: 7THOUSAND, ALMOSTSUMMER, H8SCHOOL, 8THOUSAND, UPD4, MOMDAY, UPD20
+  Effects Test: 6→8 activos (+2), 4→2 exp
+    Nuevos: new2update, sry4late
+  Egg Empire: 11→12 activos (+1), 2→1 exp
+    Nuevos: 175KLikes
+  Egg Farm Tycoon 2: 36→37 activos (+1), 2→1 exp
+    Nuevos: OMELETEER777
+  Egolock: 10→11 activos (+1), 1→0 exp
+    Nuevos: SORRYAGAINGUYS
+  Element Battles: 9→36 activos (+27), 32→5 exp
+    Nuevos: 8000LIKES, 6000LIKES, 1MVISITS, 10KLIKES, UPDATE1, 3MVISITS, 7000LIKES, 4MVISITS, 9000LIKES, 1000LIKES, 5000LIKES, 2MVISITS, 12KLIKES, 11KLIKES, 5MVISITS, UPDATE2, 13KLIKES, 17KLIKES, 16KLIKES, 7MVISITS, 14KLIKES, 15KLIKES, 6MVISITS, 18KLIKES, 19KLIKES, 8MVISITS, UPDATE3
+  Egoist Awakens: 44→46 activos (+2), 20→19 exp
+    Nuevos: SORRYFORBUG
+  Elemental Odyssey: 36→53 activos (+17), 23→6 exp
+    Nuevos: NewYearSlot, NewYearSpins, NewYear25, Shutdown, 3000LikesReal, SorryForTheInconvenience, EoTySpins, EoTyDrops, SorryForTheInconvenience2, EoSlot, EoTySlot, SorryForTheInconvenience3, NewLife, SpReset, EoSpins, EoDrops2, EoDrops
+  Emergency Landing: 3→9 activos (+6), 11→5 exp
+    Nuevos: THX, 100kfav, 700!, 36k, binocs, 900
+  Emerald Tappers X: 19→21 activos (+2), 3→1 exp
+    Nuevos: sorryfordelay, Cave!
+  Emote For Ugc: 0→3 activos (+3), 8→5 exp
+    Nuevos: 50KLIKES, FAVORITETHEGAME, 30KLIKES
+  Energy Simulator: 0→25 activos (+25), 25→0 exp
+    Nuevos: ENERGY2026!, 500Likes, volcano, 10KLIKES, update1, chatluck, desert, 1KLikes, lyxboost, Release, Russo, 2KLikes, 3KLikes, 7KLIKES, 100Likes, 250Likes, Gravy, thumbnail, cavern, flamingo, 35KLIKES, 15KLIKES, 25KLIKES, 40KLIKES, 30KLIKES
+  Epic Cars: 0→8 activos (+8), 18→10 exp
+    Nuevos: 1500Likes, 500Likes, SpinnyWheelss, 1KLikes, 5MILLION, 500Kvisits, 750Likes, 1MillionVisits
+  Eternal Piece: 9→12 activos (+3), 27→24 exp
+    Nuevos: sorrybutfixed, newstats, Update2
+  Evade: 19→23 activos (+4), 14→10 exp
+    Nuevos: apology, 1bill, HolidayUpdateFixEXP, HolidayUpdateFix
+  Every Second Your Neck Grows: 21→23 activos (+2), 3→1 exp
+    Nuevos: FREESHINY, GiveMeLunchMoney
+  Every Second You Get 1 Power Level: 3→4 activos (+1), 1→0 exp
+    Nuevos: OGSUPPORTERS
+  Exiled: 34→36 activos (+2), 11→11 exp
+  Faction Defense Tycoon: 11→13 activos (+2), 2→0 exp
+    Nuevos: addprestige32, maze74
+  Faires Mm2: 19→33 activos (+14), 21→7 exp
+    Nuevos: BLOOD, FADED, MIDHEAT, NEWUPDATE, MIDSHARK, BREAK, MIDSHARD, K1NG, SPOOKY, MIDLUGER, HALLOW, LA4VA, XMAS23SOON, VEN0M
+  Farm Life Simulator: 4→5 activos (+1), 7→6 exp
+    Nuevos: RELEASE
+  Fat Race Clicker: 12→14 activos (+2), 2→0 exp
+    Nuevos: P4LMS, RUST
+  Feet Simulator: 0→1 activos (+1), 1→0 exp
+    Nuevos: RELEASE
+  Fight For Ny: 45→50 activos (+5), 9→5 exp
+    Nuevos: THUGTIVITIES, ICEDOUT, BMW, ARPHAWKEYE
+  Final Tower Defense: 28→56 activos (+28), 29→1 exp
+    Nuevos: NEWLOBBYNEWLIFE, ACER200SUBS!, 200KVISITS!, SubToBlamSpotOnYoutube, 4KVISITS!, 100SERVERMEMBERS!, JJKGOATED!, TYFOR3KMEMBERS!, 2KGROUPMEMBERS!, SRRYFORDELAY, SRRYFORSHUTDOWNAGAIN, 5KVISITS!, 200SERVERMEMBERS!, IRONICALLYRIPUNDYING!, DamageTaskResetNotOP, IlluRaidIsBack, SorryForDmgTaskBug, SorryForBugIThinkIdk, TYFOR2KLIKES, SubtoIgrindGameZ, DamageTaskReset, 100KVISITS!, LeaderBoardisback!, 5KLIKES, SubToKingLuffyonYT, SorryForEvoBug!, LUCKKWASHERE, FreeUnit!
+  Fire Force Online: 22→51 activos (+29), 51→22 exp
+    Nuevos: WEEK3, DRAGONABILITY, SorryForBugzz, WEEK9, CHRISTMASPART2, Hotfixes, WEEK6, WEEK2, AdollaSoon, WEEK8, INFERNALFIXES, ADOLLAISREAL, 11MVISITS, MEDICINE, ARCADE, WEEK5, CORNATIME, AUGMENTV2, WEEK4, ProgressionFixes, WEEK1, PLAYRANKED, CHRISTMASCHEER, WEEK7, DESERTRAIDZ, WEEK11, 40KLIKES, GIFT4YOU, 45KLIKES
+  Find The Noobies Morphs: 19→20 activos (+1), 9→9 exp
+  Fireball Punching Simulator: 7→9 activos (+2), 2→0 exp
+    Nuevos: 20KFaves, 2MillionPlays
+  Fish It: 26→44 activos (+18), 33→15 exp
+    Nuevos: TOTEMREFUND, BLAMETALON, SORRY, TRAVEL, MEGA, WORMHYPE, ARMOR, SHARKSSS, FREEBIES, 100M, THEWHEEL, SORRYSPINS, WOWSPINS, MUTATE, LOST, LOBSTAH, TROPICAL, CONSOLE
+  Fishs Rng: 39→41 activos (+2), 34→32 exp
+    Nuevos: Aurora, SorryForDelay
+  Flag Battles Simulator: 1→2 activos (+1), 1→0 exp
+    Nuevos: THANKYOU3M
+  Flame Hood: 44→45 activos (+1), 4→3 exp
+    Nuevos: 7MVISITS
+  Flashlight Tag: 3→4 activos (+1), 3→2 exp
+    Nuevos: FL4SHL1GHT
+  Flashpoint Worlds Collide: 67→79 activos (+12), 55→43 exp
+    Nuevos: MerryChristmas!, Empower!, FamilyHonor!, LightTheWay!, HappyVarisAnniversary!, HappyEaster!, HappyStPatricks!, BrainPower!, HappyValentines!, YouthWellness!, MentalWellness!, HappyNewYear!
+  Floor Race: 15→17 activos (+2), 2→0 exp
+    Nuevos: 200KVISITS, 2KMEMBERS
+  Flying Simulator: 14→16 activos (+2), 4→2 exp
+    Nuevos: omer_y, FOLLOW!
+  Fly Race Clicker: 12→16 activos (+4), 4→0 exp
+    Nuevos: 1000Like, CRYSTAL, 30KLike, Bread
+  Fnaf Tower Defense: 33→34 activos (+1), 36→35 exp
+    Nuevos: SkinsGalore
+  Football Legends: 32→38 activos (+6), 39→35 exp
+    Nuevos: 100LIKES, 500LIKES, 250LIKES, freecase1, 1000LIKES, elitecase2
+  Forging Blade Simulator: 8→9 activos (+1), 1→0 exp
+    Nuevos: easter
+  Free Hatchers: 11→35 activos (+24), 31→7 exp
+    Nuevos: FirstCode, SORRYFORBUGS, 4NCIENT3GYPT, PARTYALLDAY, GLOWSTICK, FEDORA, CHINA, INDIA, NEWAIRDROP, BARBIE, SORRYFORDELAY, VIKINGS!, RAINBOWHORNS, RAINBOW, LUCKY, AQUA, EMPEROR, UGC, LIMITEDSTOCKPET, SKULL, FREEBOOST, COLONIAL, VOIDCAPE, TRADEWORLDS
+  Freeze For Ugc: 27→28 activos (+1), 2→1 exp
+    Nuevos: DEMON
+  Frontline Defense Legacy: 4→8 activos (+4), 4→0 exp
+    Nuevos: thanks1kplayers, 40KFAVORITES, 3MILLION, 1MIL_1MONTH
+  Fruit Arena: 4→15 activos (+11), 51→40 exp
+    Nuevos: WELCOMEBACK, WEAREBACKWITHUPDATES, IMISSTHEUPDATES, 33KLIKES, 13KLIKES, NEWUPDATEOMG, FREEGEMSWOW, MOREGEMSWOW, 5KLIKES, CODESARETHEBESTWOW, RELEASE
+  Fruit Seas: 69→70 activos (+1), 35→34 exp
+    Nuevos: exp1_upd10
+  Fruit Warriors: 10→13 activos (+3), 3→0 exp
+    Nuevos: ACCIDENTALSHUTDOWN, SORRYFORSHUTDOWN, 10MVISITS!
+  Fruit Tower Defense: 13→14 activos (+1), 5→4 exp
+    Nuevos: HappyHolidays
+  Garden Rng: 11→12 activos (+1), 0→0 exp
+  Generic Card Rng: 41→42 activos (+1), 2→1 exp
+    Nuevos: TempBeta
+  Gemventure: 10→12 activos (+2), 2→0 exp
+    Nuevos: FREEPALESTINE, ISNOTREAL
+  Geometry Defense: 12→16 activos (+4), 19→15 exp
+    Nuevos: thanksfor10kfavs, 3mvisits, wow500wow, gtd
+  Get Richer Every Click: 4→6 activos (+2), 4→2 exp
+    Nuevos: freesub, axel
+  Get Muscles Simulator: 0→10 activos (+10), 12→2 exp
+    Nuevos: launch250, 3ktwt, strength100, muscles2k, lift1yr, gems300, fitness10k, boost200, fireworks2024, buffsanta
+  Ghostly Manor: 1→10 activos (+9), 20→11 exp
+    Nuevos: WEREBACK, BigNumbers, SPOOKYMONTH, 4MILLION, FunkyMode, ThreeThousand, ScrapingScares, 50KFAVS, 3MILLION
+  Giga Muscle Simulator: 0→4 activos (+4), 4→0 exp
+    Nuevos: RELEASE, lift1000, gems5000, Muscle500
+  Gnome Race: 0→12 activos (+12), 13→1 exp
+    Nuevos: CODEDOG, bluetubealien, MagicUpdateX, CodeHydra, RELEASE, HUGEUPDATE2, NEWPET2290, NEWSKIN4, YT1234, YTCA1234, CODEKITTY, OPPET891
+  Goals Rng: 19→22 activos (+3), 4→1 exp
+    Nuevos: GLITCH, PIVOTAL, 500LIKES
+  Goblin Trail: 0→1 activos (+1), 1→0 exp
+    Nuevos: Release
+  Goalbound: 36→37 activos (+1), 3→3 exp
+  Golf Range Tycoon: 0→1 activos (+1), 2→1 exp
+    Nuevos: HOLEINONE
+  Golf Swing Simulator: 5→6 activos (+1), 3→2 exp
+    Nuevos: 1000LIKES
+  Goofy Tower Defense: 23→38 activos (+15), 58→43 exp
+    Nuevos: JustAverage100Subs, 3500LikesEpik, 2500LikesReal, RIPDj, Duckyyy, ThanksFor5k!, NewUi, Chad2kLikes, Epic2kLikes, ApproachingStorm, TheJ, 750LikesButFast, Late1k5Like, 1kLikesButDelayed, 4kLikesWithLittleDelay
+  Godzilla X Kong Obby: 0→6 activos (+6), 10→4 exp
+    Nuevos: Funtimes, BabyKong, Godzilla, Obby, Kong, Amazing
+  Gran Gran: 0→2 activos (+2), 3→1 exp
+    Nuevos: GRANGRAN, CHRISTMAS
+  Grand Kaizen: 4→6 activos (+2), 4→2 exp
+    Nuevos: 15kLikes!, BugFixes2
+  Griffins Destiny: 16→19 activos (+3), 5→2 exp
+    Nuevos: OCEAN, AprilFools, ICECREAM
+  Greenville: 9→10 activos (+1), 31→30 exp
+    Nuevos: LATE_VALENTINES_25
+  Grimoires Era: 112→115 activos (+3), 19→16 exp
+    Nuevos: WERESORRY, NEWUI, WINTER2024
+  Grimace Race: 15→16 activos (+1), 1→0 exp
+    Nuevos: CodeHydra
+  Grow A Tree: 0→1 activos (+1), 5→4 exp
+    Nuevos: APPLE
+  Grow A Tree Tycoon: 5→6 activos (+1), 1→0 exp
+    Nuevos: Release
+  Guess The Music: 0→1 activos (+1), 2→1 exp
+    Nuevos: 100Likes!
+  Guess It: 13→14 activos (+1), 0→0 exp
+  Gym Race: 1→3 activos (+2), 4→2 exp
+    Nuevos: 100LIKES, 1KLIKES
+  Gym Training Simulator: 0→20 activos (+20), 37→17 exp
+    Nuevos: 13KFAVS, Release, Digito, 3MVISITS, VagnerGames, DryDus, 350LIKES, 8KLIKES, 85KLIKES, RussoPlays, 65KLIKES, 12MVISITS, Vagner, 43KLIKES, Derpy, 80KLIKES, DigitoGTS, Derp, 8MVISTS, 15MVISITS
+  Gym League: 57→93 activos (+36), 40→4 exp
+    Nuevos: GLcomeback, LIGHTNINGQUEST, SORRY, Release, 1MVisits, 150MVisits, DivineMuscles, UPDATE2, FOLLOWGYMLEAGUERBLX, 20MVisits, 150KLikes, 100KActive, SORRYFORDELAY, PrisonBound, HALLOWEEN, LEAGUEOVER, BUGFIXES, WEREBACK, 5KLikes, MineRations, TRADE, HIDDENFOOD, FruitPirate, HugeUpdateSoon, DEFLATION, PUMPKING, FIRSTTRAINER, LEAGUE, CLANS, 10KLikes, PirateBugFix, SummerVibes, 1MMembers, BattlePotion, 650KLikes, BETTERTOGETHER
+  Gym Training: 0→3 activos (+3), 3→0 exp
+    Nuevos: 1KLIKES, 100LIKES, welcome
+  Handstand Simulator: 0→2 activos (+2), 2→0 exp
+    Nuevos: update1, release
+  Head Punch Simulator: 9→11 activos (+2), 1→0 exp
+    Nuevos: 5kthanks
+  Head Tap: 33→36 activos (+3), 21→18 exp
+    Nuevos: 14klikes, 11klikes, july2024
+  Hero And Villain Battlegrounds: 1→2 activos (+1), 60→59 exp
+    Nuevos: 45klikes
+  Hero Havoc: 31→46 activos (+15), 16→1 exp
+    Nuevos: SoulSlime, GamerStatus, GOODGOLD, FireCactus, Owolsoul, Wishbirthday2, Pittance, BattleRowoyale, EggSalad, Yoink, UselessOwol, FreeRobot, SickGoldBoost, OwolSword, EVENTQUARTER2
+  Heroes Awakening: 11→29 activos (+18), 18→0 exp
+    Nuevos: SubToShiverAway, SubToXenoTy, 3KLIKES, MORESPINS, NEWRAIDS, 6KLIKES, HUGEUPDATESOON, HARELEASE, UPDATESCOMING, FREESTATRESET, 1KLIKES, GROUP, ANOTHERROLL, SECRETCODE, 12KLIKES, SRRY4SHUTDOWNS, 1MVISITS, SubToBlueseff
+  Hide Or Die: 7→15 activos (+8), 10→2 exp
+    Nuevos: HALLOWEEN2024, NEWMAPSOON, POLUS, ALIEN2K, ALIENFALL, MEDUSA, CHRISTMAS2024, ALIEN1K
+  Heroic Legacy: 0→3 activos (+3), 5→2 exp
+    Nuevos: 100likes, mawzone, release!
+  Highway Legends: 32→33 activos (+1), 6→6 exp
+  High School 2: 1→8 activos (+7), 25→18 exp
+    Nuevos: GRADUATION, HOLIDAY22, FANART2023, SPRING2022, GAMINGTIME, SUNSHINEAHEAD, HIGHSEAS2022
+  Highway Syndicate: 11→13 activos (+2), 14→12 exp
+    Nuevos: CHRISTMAS2023, 15K
+  Hollow Era: 4→8 activos (+4), 48→44 exp
+    Nuevos: SWORDCOLORFIX, PHOENIX, BANKAIUPDATE, BANKAIISREAL
+  Horrors Rng: 6→7 activos (+1), 1→0 exp
+    Nuevos: Roll
+  Hots Rng: 78→82 activos (+4), 64→60 exp
+    Nuevos: 150KVisits, 400KVisits, 300KVisits, 200KVisits
+  Horse Race Simulator: 11→12 activos (+1), 1→0 exp
+    Nuevos: 12000LiKeX_EnJoyy
+  Hotdog Eating Simulator: 42→44 activos (+2), 5→3 exp
+    Nuevos: FIXED, SPOOKY
+  Hulk Simulator: 0→1 activos (+1), 11→10 exp
+    Nuevos: SecretCode
+  Ice Farm Simulator: 0→4 activos (+4), 5→1 exp
+    Nuevos: RAINYDAY3, UPDATE, 500KVISITS, ITSAFRUIT
+  Iconic Battlegrounds: 0→10 activos (+10), 10→0 exp
+    Nuevos: 1000LIKES, 500LIKES, RELEASE, 6000LIKES, 2000LIKES, GAMEFIX, 15000LIKES, 3000LIKES, WEARESORRY, 10000LIKES
+  Ijul Piece 2: 39→42 activos (+3), 39→36 exp
+    Nuevos: NewOwners, riprockfruit, Spooky
+  Inazuma Strikers: 30→30 activos (=), 51→52 exp
+  Infinite Mining Incremental: 25→26 activos (+1), 7→6 exp
+    Nuevos: IMI_DiscordVerify59351
+  Influencer Rng: 0→14 activos (+14), 14→0 exp
+    Nuevos: TY30K, TY30MEMBERS, TY100MEMBERS, UPDATE3, ITOTYTEAM1, TY20K, SPOOKYTEAM1, TY2KLIKES, TY1KLIKES, IPICKSTEAM1, ITOTYTEAM2, TY500LIKES, SQUIDGAME, WINTERTEAM1
+  Insane Button Simulator: 20→21 activos (+1), 43→42 exp
+    Nuevos: 3nd_0f_D4rk_W0rld
+  Jujutsu Shenanigans: 2→6 activos (+4), 45→41 exp
+    Nuevos: RIPBOWE, X6X31F47UN8JM1NEP, WHYEMOTEDISSAPEAR, JJS1YEAR
+  Jujutsu Legacy: 40→44 activos (+4), 15→12 exp
+    Nuevos: SorryShutdown, SorryForGiveSpecialClan, SorryForInfBugs
+  Jules Rng: 2→31 activos (+29), 51→22 exp
+    Nuevos: Evo67, mango, HALLOWEENSOON, DAWNOFNIGHT, EVO11, Reze, BugsGalore, Weekend, gp3fix, consolation, Energy, Fragrant, Fragrant2, RollGoBrr, 20MVisits2, POTATO, SWEET, CATSAREBETTERTHANDOGS, tatemcrae, mewhentypo, Red, caramelmacchiato, shakeitoff, NEWWEBSITE, 1000Reactions, rebrand, Mastermind, VALENTINES, 20MVisits
+  Jump Rope Simulator: 3→4 activos (+1), 5→4 exp
+    Nuevos: wow
+  Jump Stars: 15→16 activos (+1), 10→10 exp
+  Jupiter Florida: 83→86 activos (+3), 22→20 exp
+    Nuevos: May26, QuickFix
+  Kage Tycoon: 11→27 activos (+16), 35→19 exp
+    Nuevos: RebirthPass!, season1!, NewInsect!, 20Klikes!, LikePizza!, NewNamikaze!, TenseiMode!, beReady!, 15Klikes!, newSeason!, 1mvisits!, bigEventSoon!, newSeasonSoon!, 600Kvisits!, 25klikes, 30klikes
+  Kaiju Paradise: 19→21 activos (+2), 122→121 exp
+    Nuevos: 250TRILLION
+  Kamehameha Simulator: 11→13 activos (+2), 4→2 exp
+    Nuevos: FixedBuged, NewInviteRewards
+  Kengun Online: 5→16 activos (+11), 45→34 exp
+    Nuevos: SkillFixMoney, PatreonClanReroll5, FirstHairRerollCodeEver, PatreonClanReroll2, PatreonClanReroll1, UpdateCash, PatreonClanReroll4, UpdateReroll2, UpdateReroll1, StyleReset, PatreonClanReroll3
+  Kick Door Simulator: 19→20 activos (+1), 11→10 exp
+    Nuevos: 50MVISIT
+  Kengan: 27→39 activos (+12), 12→0 exp
+    Nuevos: bankfix, sorryforbugs, nextsdlotsofbugfixes, lastsdcode, bugfixsd, someimprovements, Shutdown1, lastsdfortoday, 5kmembs, 3k24hrs, sd1, balancingandstuff
+  Kill Monsters To Save Princess: 6→11 activos (+5), 5→0 exp
+    Nuevos: 20000like, 10000like, 1000like, 5000like, 50000like
+  Korblox Headless Hangout: 7→15 activos (+8), 19→11 exp
+    Nuevos: EASTERTIME, Code40KLikes, 70MVisits, FreeTimeEz, JESUS, Maidenless, 75MVISITS, ValentinesDay
+  Legacy Piece: 0→21 activos (+21), 92→71 exp
+    Nuevos: CODESONE, 500KVISITS, CHUCHUBLESSES, 10KLIKES, TYFORPATIENCE, Release, UPDATEONEEE, SORRYFORDELAY, UPDATEISSOON, 2MVISITS, 30KLIKESCODE, 3MVISITSCODE, 1MVISITS, 25KLIKESCODE, 20KLIKESCODE, UPDATECODE, 4MVISITSCODE, OKTHANKYOU, RESETMEPLEASE, UPDATE1, 5MVISITS
+  Legends Legacy: 8→12 activos (+4), 4→0 exp
+    Nuevos: LETGOOOOO, EXPPLEASE, MAGNETFRUITNOWAY, VISITS1M
+  Lemonade Tycoon: 4→5 activos (+1), 1→0 exp
+    Nuevos: LEMON
+  Level Piece: 0→13 activos (+13), 13→0 exp
+    Nuevos: 14KVisits766, SoloLeveling, 10KVisits123, Update3, 16KVisits933, 12KVisits566, 30KVisits167, 24KVisits132, 20KVisits000, 18KVisits122, 22KVisits111, 26KVisits154, 28KVisits100
+  Lift A Pet: 8→11 activos (+3), 3→0 exp
+    Nuevos: release, update1, update2
+  Lifting Legends Simulator: 0→2 activos (+2), 7→5 exp
+    Nuevos: TAP, RELEASE
+  Lifting Heroes: 2→3 activos (+1), 4→3 exp
+    Nuevos: xarkbestdev
+  Lost Kingdom Tycoon: 0→2 activos (+2), 14→12 exp
+    Nuevos: 7KLIKES_hv19, HALLOWEEN_12ab
+  Lucky Block Legends: 0→6 activos (+6), 8→2 exp
+    Nuevos: Release, Update3, Update2, FREE2, Valentines, Update4
+  Lucky Lockups: 0→3 activos (+3), 8→5 exp
+    Nuevos: Easter24, Lucky13, bennyharveyrip
+  Luxury Submarine Tycoon: 0→5 activos (+5), 5→0 exp
+    Nuevos: 10klikes, 5klikes, update2, submarine, update1
+  Magic Clicker: 10→11 activos (+1), 2→1 exp
+    Nuevos: cyber
+  Make Katanas And Prove Sensei Wrong: 0→2 activos (+2), 7→5 exp
+    Nuevos: JOINED, thirdfloor
+  Master Punching Simulator: 24→27 activos (+3), 4→1 exp
+    Nuevos: HAPPYHALLOWEEN, SPOOKYUPDATE, 10KMEMBERS
+  Mecha Simulator: 4→7 activos (+3), 3→0 exp
+    Nuevos: Like100, Like6, NERV30000
+  Mech Smash: 0→1 activos (+1), 2→1 exp
+    Nuevos: :code626
+  Mega Clickers: 4→8 activos (+4), 3→0 exp
+    Nuevos: SEASON_2, THX_FOR_10K, THX_FOR_35K
+  Mega Fun Obby 2: 0→1 activos (+1), 11→10 exp
+    Nuevos: finallylol
+  Midnight Chasers: 33→97 activos (+64), 159→95 exp
+    Nuevos: ThanksFor640k, ThanksFor630k, HappyNewYear!!, ThanksFor620k, ThanksFor610k, ThanksFor600k, ThanksFor590k, ThanksFor580k, ThanksFor570k, ThanksFor560k, ThanksFor550k, ThanksFor540k, ThanksFor530k, ThanksFor520k, ThanksFor510k, ThanksFor500k, ThanksFor490k, ThanksFor480k, ThanksFor470k, ThanksFor460k, ThanksFor450k, ThanksFor440k, ThanksFor430k, ThanksFor420k, ThanksFor410k, ThanksFor400k, ThanksFor390k, ThanksFor370k, ThanksFor380k, ThanksFor360k, ThanksFor350k, ThanksFor340k, ThanksFor330k, ThanksFor320k, ThanksFor310k, ThanksFor300k, ThanksFor290k, ThanksFor280k, ThanksFor260k, ThanksFor270k, ThanksFor245k, ThanksFor235k, ThanksFor230k, ThanksFor205k, ThanksFor115k, ThanksFor105k, ThanksFor120k, ThanksFor130k, ThanksFor125k, ThanksFor110k, ThanksFor195k, ThanksFor160k, ThanksFor185k, ThanksFor180k, ThanksFor200k, ThanksFor165k, ThanksFor140k, ThanksFor175k, ThanksFor135k, ThanksFor170k, ThanksFor155k, ThanksFor145k, ThanksFor190k, ThanksFor150k
+  Mineral War Tycoon: 9→10 activos (+1), 20→19 exp
+    Nuevos: Tanky
+  Mining Factory Tycoon: 16→17 activos (+1), 2→1 exp
+    Nuevos: DR0NE
+  Mma Legends: 0→19 activos (+19), 27→8 exp
+    Nuevos: 16KLIKES, WEREBACK3, MOREFIXES, HUGECODE123, 5LUCKY, TITANCODE, RELEASE, aBugBeGone, NEWMMA, CHRISTMASGIFT2, 6LuckySpins, WEREBACK2, WEREBACK1, 5KLIKES, 10KLIKES, 24KLIKES, CHRISTMASGIFT1, GLOVES1, 3KLIKES
+  Money Incremental: 42→44 activos (+2), 1→0 exp
+    Nuevos: RESTART6
+  Monster Evolution: 3→6 activos (+3), 3→0 exp
+    Nuevos: 1KMEMBERS, RELEASE, MONSTER
+  Monster Rider Simulator: 1→3 activos (+2), 2→0 exp
+    Nuevos: world2launch, world3westworld
+  Moodeng Fruit 2: 104→106 activos (+2), 2→0 exp
+    Nuevos: thx3mvisit, sjw2
+  Morph Rng: 2→3 activos (+1), 1→0 exp
+    Nuevos: 100KFAVS
+  Motoprix Racing: 0→4 activos (+4), 40→36 exp
+    Nuevos: CUSTOMIZATIONUPD, SERAPHYNISBACK, NEXTUPDATE, CUSTOMIZATIONWHEN
+  Motorush: 26→39 activos (+13), 24→11 exp
+    Nuevos: 30KLIKES, 20KLIKES, 1MVisits, NEWUPDATE, 5KLIKES, 8MVISITS, 3KLIKES, REVAMP, UPDATE, TRACK!, THEGAMES!, 17MVISITS, 10KLIKES
+  Mugen: 39→39 activos (=), 52→53 exp
+  Multiverse Battlegrounds: 2→3 activos (+1), 81→80 exp
+    Nuevos: 73LIKES
+  Multiverse Reborn: 0→4 activos (+4), 4→0 exp
+    Nuevos: PrinceOfSaiyans, ITWASME, New52FlashReborn, IAmBetter
+  Multiverse Tower Defense: 57→62 activos (+5), 104→99 exp
+    Nuevos: SLIME, _2XLUCKDELAY, _CROSSTRADERBANNED, _BANHELPY, _THXFOR300ACTIVES
+  Murder Drones Tower Defense: 0→2 activos (+2), 5→3 exp
+    Nuevos: Sorry4Delay, RELEASE
+  Murderthon: 0→4 activos (+4), 4→0 exp
+    Nuevos: Vestige, 200KVISITS, FROST, DIVIDE
+  Murder Time: 0→3 activos (+3), 5→2 exp
+    Nuevos: thebest, thumbsup, murdermayhem
+  Murim Cultivation: 0→59 activos (+59), 71→12 exp
+    Nuevos: QIFIX, Murimas2025, WELOVEICE, KENTIQ, REWRITE, Update4Delay, Update4, 21kLikes, 3kCCU, 18kLikes, Update3Delay, Update3, Freshie, Update2Delay, 2kCCU, RaceReroll1, 4kLikes, ReRelease, 200kVisits, PINGAPOLOGY, 3kLikes, 5kLikes, 5MILVISITSRACEREROLL3, Fixes2, Christmas2023RaceReroll, NPCUPDATERACEREROLL1, 5MILVISITSRACEREROLL1, 5MILVISITSAPTITUDEREROLL, RaceReroll1234, 5MILVISITSRACEREROLL2, Thanksgiving2023, NPCUPDATERACEREROLL2, NPCUPDATEAPTITUDEREROLL, Christmas2023AptitudeReroll, Thanksgiving2023RaceReroll2, 4MILVisitsAptitudeReroll, FreeAptitudeReroll1, AuraColorReroll, FreeRaceReroll1, SectUpdate, NPCUPDATERACEREROLL3, RaceReroll123, Thanksgiving2023RaceReroll, 4MILVisitsRaceReroll, HALLOWEENRACEREROLL1, Update1, ALCHEMYANDREBIRTHRACEREROLL3, ALCHEMYANDREBIRTHRACEREROLL1, 1kFollowers, REALMUPDATE1RACEREROLL3, HALLOWEENAPTITUDEREROLL, ALCHEMYANDREBIRTHRACEREROLL2, HALLOWEENRACEREROLL3, REALMUPDATE1APTITUDEREROLL, GrowingCommunity, REALMUPDATE1RACEREROLL2, HALLOWEENRACEREROLL2, REALMUPDATE1RACEREROLL1, Thanksgiving2024
+  Muscle Swim Race: 0→2 activos (+2), 2→0 exp
+    Nuevos: release, hugesecret50
+  Mushyo: 1→9 activos (+8), 8→0 exp
+    Nuevos: BIRTHDAY, christmas, easter, 1mvisits, ANIME2, ANIME, valentinesday, 3mvisits
+  My Bakery: 0→2 activos (+2), 2→0 exp
+    Nuevos: 1klove, 100likes
+  My City Tycoon: 0→8 activos (+8), 15→7 exp
+    Nuevos: Crackopgurl, crackop, disored, Scaredwalkerr, 100000visits, Disoredisspecial, Followrblxcrackop, RELEASE
+  My Hero Mania: 18→42 activos (+24), 87→63 exp
+    Nuevos: 320kday, 450kLIKES!, 360kgoal, season6, 230kcode!, epic460k, turkey22, newyearsupdate23, 420k, mhmchristmas22, the250k, easter340k, big300k, 270kREAL, 260ktime, 240kCODE, 280kLIKES, 380kCODE!, the440k, 430kcode, thank290k, 470kplus, 310kLIKES, 330kLIKES
+  My Hero Battlegrounds: 13→15 activos (+2), 2→0 exp
+    Nuevos: SORRYFORANOTHERSHUTDOWN2, Spooky
+  My Salon Tycoon: 0→1 activos (+1), 9→8 exp
+    Nuevos: XMAS
+  Mystic Magic: 9→12 activos (+3), 5→2 exp
+    Nuevos: DiabolicaIsNoSkill, HotCoeCoe, MisticMagyc
+  My Toilet: 11→15 activos (+4), 0→0 exp
+  Neon Knights: 4→5 activos (+1), 6→5 exp
+    Nuevos: IMINTHEGROUPLOL
+  New Dreams: 25→27 activos (+2), 15→13 exp
+    Nuevos: MisoBestDevByDende, malikhawktuahedthatthang
+  Nfl Universe Football: 138→139 activos (+1), 163→163 exp
+  New Seas: 0→32 activos (+32), 251→219 exp
+    Nuevos: LateWGUpdate, WheresTheUpdate, WeekendOver, JuneIstotallyworking, Cinema, NineKFavs, ServerMemberMilestone, freshieeventsoon, ValidEvent, WorkingOvertime, WorldGovSoon, AfternoonDaze, askingtomanyquestions, LikesMilestone, EarlyBird, ShotgunChanges, ServerRefreshes, fizandroshysurvivedtheblitz, MorePatches, SpearChanges, texaspete, Milestone, ohioboy, Warships, LateNightStress, SorryForSDs, THEULTIMATETROLL, KingStress, makenewseasgreatagain, SkillTreeCompensation, ThankYou, NEWSEASBACK!
+  Nightmare Defense: 0→12 activos (+12), 12→0 exp
+    Nuevos: sorryforrestart, release, patchcode2, patchcode1, alphatester1, alphatester2, happnewyear, update666, playnmclash, welcomenm, newnmcodes, spring
+  Ninja Fighting Simulator: 7→9 activos (+2), 5→3 exp
+    Nuevos: bettersorry, chaos
+  Night Sea: 0→14 activos (+14), 14→0 exp
+    Nuevos: Lucifer, X2EXPBOOST, Kio, LIKEGAMEFORCODES, Sorry4ResetData, Release, 400KVISITS, SORRY4BUG, LIKEFORMORECODES, LongBLEB, Prozyxl, 150KVISITS, PhongDev, UPDATE1
+  Ninja Cutter Simulator: 48→51 activos (+3), 6→3 exp
+    Nuevos: shuriken, update0906, oversize
+  Ninja World War: 0→3 activos (+3), 3→0 exp
+    Nuevos: uhsiuqqi, xnbcmzhz, clover
+  Noob Evolution: 0→2 activos (+2), 4→2 exp
+    Nuevos: DevHunter, Heaven
+  Noob Merge Army: 1→4 activos (+3), 3→0 exp
+    Nuevos: CRYSTALS, NOOBISH, RELEASE
+  Obby But Youre A Cube: 18→21 activos (+3), 3→0 exp
+    Nuevos: towerofcube, yellowcube, stage4arduous
+  Octopus Game: 9→17 activos (+8), 10→2 exp
+    Nuevos: FREESKINS1, UPDATESARRIVING, HEREHAVETHECODEFOR600K, REBELLION, FREEMONEY1, PREUPDATE, 500KGROUPMEMBERS, 25MVISITS
+  Obby Rng: 0→7 activos (+7), 7→0 exp
+    Nuevos: quests, 1klikes, UPD2, SEASONPASS, update, 1v1, release
+  Obito Piece: 10→15 activos (+5), 5→0 exp
+    Nuevos: SorryDelayDelayDelay, Sub2TARGamer, Sub2LIONGAMER, HappyHalloween, Sub2CoolTono
+  Omega Rune Incremental: 43→47 activos (+4), 6→2 exp
+    Nuevos: 2500Members, SorryGuys, 150Likes, 1KFaves
+  Omega Rune Incremental 2: 22→23 activos (+1), 1→0 exp
+    Nuevos: ORI2-Verify43
+  One Fruit Simulator: 142→150 activos (+8), 228→222 exp
+    Nuevos: WORLDRAIDS!, BLUELEGS, YOUTUBEBACK!!, SORRYFORDELAY, NEWTITLES, EASTERPART2
+  One Punch Hero: 24→35 activos (+11), 14→3 exp
+    Nuevos: Shutdownagainoops, ayayaya13K, tysm4tenK, 12Kuru, 14kokok, 16klikesty, newYears!, 15klikesthanks, 19kthanks, HUGECODE24KLIKES, 17kthanks
+  One Piece Grand Arena: 1→2 activos (+1), 1→0 exp
+    Nuevos: P2kEbzXZ
+  One Piece New Dreams: 25→37 activos (+12), 14→2 exp
+    Nuevos: UPDATE1, ThankYouOPND, KyteWDev, CommonScryzW, StyleReset, FreeAncestry, HeroicLouW, ENJOY, BabyCheeseW, Spectrum, SilverSavesTheDay, KyteLogsMyUpdates
+  One Punch Simulator: 0→11 activos (+11), 29→18 exp
+    Nuevos: LunarUpdate, LunarTraining, Remake, Fast, Halloween2021, FreeSkulls, TrainingPetHW, FreeBoosts, Sonic, 2xSpeedBoost, FreeGems
+  One Punch Fighters X: 0→6 activos (+6), 21→15 exp
+    Nuevos: SECRETLIVE2, 2MVISITS, GAMEPASSEVENT, UPDATE5, UPDATE6, 3MVISITS
+  One Punch Ultimate: 0→2 activos (+2), 24→22 exp
+    Nuevos: bugwave3, bugwave2
+  Overtake: 11→16 activos (+5), 5→0 exp
+    Nuevos: SRYFORBUG, 100K_VISITS, 3K_FAVORITES, 2K_FAVORITES, 50K_VISITS
+  Overhead Press Simulator: 0→1 activos (+1), 1→0 exp
+    Nuevos: RELEASE
+  Own Fnaf And Prove Mom Wrong: 1→2 activos (+1), 1→0 exp
+    Nuevos: thirdfloor
+  Pacsun Los Angeles Tycoon: 5→16 activos (+11), 13→2 exp
+    Nuevos: RICH, SUNSET, RIDE, FUNNY, WEALTHY, 15K, SUPERSTAR, BUILD, RUNNER, 18K, STAR
+  Own A Pet Tycoon: 6→9 activos (+3), 3→0 exp
+    Nuevos: NPC, THANKS, TREAT
+  Pac Man Simulator: 0→13 activos (+13), 13→0 exp
+    Nuevos: 4500Likes, 1000Likes, 300Likes, 2500Likes, 200Likes, 800Likes, 600Likes, 400Likes, LuckyPotions, 500Likes, 10000Likes, 8500Likes, 6500Likes
+  Paint Simulator: 0→10 activos (+10), 14→4 exp
+    Nuevos: UPDATE2, UPDATE5, canvas, MORECOINS, ManyCoins, UPDATE6, PAINT, NORTHPOLE, HOLIDAY, Santa
+  Panda Kung Fu Simulator: 0→1 activos (+1), 1→0 exp
+    Nuevos: 100_likeS_tHanKs
+  Paint Walls: 0→2 activos (+2), 2→0 exp
+    Nuevos: FlorizDev, RELEASE
+  Pancake Battles: 8→9 activos (+1), 1→0 exp
+    Nuevos: dx3m4fi
+  Panik Classic: 12→16 activos (+4), 5→1 exp
+    Nuevos: XMAS, RELEASE, TY10KLIKES, TY5KLIKES
+  Paradox: 0→16 activos (+16), 65→49 exp
+    Nuevos: snowbankai, firstupdate, paradoxisout, storylinefix, mbquincyinvincible, release_soon2, release_soon1, paradoxsoon, 10thapril, releasesoon, paradoxcomeback, morebugfixes, skillgemshere, sorryforwait2, sorryforwait1, anotherfreeslot
+  Path To Power: 0→9 activos (+9), 18→9 exp
+    Nuevos: LVODLKP3, PK842MYF, ZAMAISREAL, AndroidBoyz, ULTIMATEFOE, YELLOWDEMON, FUS1OND4NCEISC0MING, EVOLVEDBLUE, SUPERGOGETA
+  Party: 17→24 activos (+7), 8→1 exp
+    Nuevos: juneupdate, sweetopia, aprilupdate, funfriday, YAYUPDATE, fancyfriday, onemil
+  Peroxide: 111→111 activos (=), 147→148 exp
+  Pet Army: 0→4 activos (+4), 5→1 exp
+    Nuevos: UPD2, RELEASE, Hamburger, UPD1
+  Pet Atk Simulator: 0→7 activos (+7), 7→0 exp
+    Nuevos: 1KLIKE, HUGE, TRAIL, RELEASE, 10KLIKES, OPPET, 5KLIKE
+  Pet Duel Simulator: 5→6 activos (+1), 0→0 exp
+  Pet Malu Simulator: 0→13 activos (+13), 13→0 exp
+    Nuevos: SubToKada, SubToKlaud9ne, BaryaGang, SubToKuyaKing, Release, SubToKristianPH, SubToMcHero, SubToLazySly, SubToKenplayzTM, SubToSthreed, SubToObri, SubToBeeBuYog, SubToKriphie
+  Pet Hatchers: 11→15 activos (+4), 6→2 exp
+    Nuevos: XMAS, GOLDEN, UPDATESOON, 5KVISITS
+  Pet Racer Simulator: 24→28 activos (+4), 6→2 exp
+    Nuevos: FREEUGC, 250Likes, Digito, Sorry!
+  Pet Rift: 14→18 activos (+4), 38→34 exp
+    Nuevos: 1MILLION, 10KLIKES, 7500LIKES, 15KLIKES
+  Pet Star Simulator: 16→17 activos (+1), 2→1 exp
+    Nuevos: Update1
+  Pet Trading Card Simulator: 22→31 activos (+9), 9→0 exp
+    Nuevos: FIRST1K, LUCK200k, FOURK, BETA, EXCLUSIVE, NICE3K, DEMONSLAYER, FOUNDTWITTER, PSA10
+  Pickaxe Mining Simulator: 24→26 activos (+2), 3→1 exp
+    Nuevos: super25klikes, Valentines
+  Picnics N Plushies: 49→50 activos (+1), 1→1 exp
+  Paper Plane Simulator: 8→9 activos (+1), 1→0 exp
+    Nuevos: 10MVISITS
+  Pirates Dream: 15→19 activos (+4), 5→1 exp
+    Nuevos: RESTART, REVIVE, WEEKENDNOTIFIER, RESETFRUIT
+  Piece Rng: 59→60 activos (+1), 2→1 exp
+    Nuevos: 43KLIKES
+  Pillow Fighting Simulator: 11→12 activos (+1), 4→3 exp
+    Nuevos: NEWUPD1CODES
+  Pixel Blade: 38→61 activos (+23), 41→18 exp
+    Nuevos: 300K, 275K, 225K, 250k, SecretFudge, 175K, 200K, elias, blexor, demer, ogvexx, fudge, Rings, 150K, 30M, 125k, Update, Nightmare2, SorryForDelay, Nightmare, UpdateLog, Ancient, Potions
+  Pitch A Pet Simulator: 4→5 activos (+1), 1→0 exp
+    Nuevos: release
+  Pirates Vs Ninjas: 0→2 activos (+2), 3→1 exp
+    Nuevos: 3MILLION, DIZZY
+  Planet Clicker 2: 6→7 activos (+1), 5→4 exp
+    Nuevos: SKINS
+  Planet Destroyers: 19→20 activos (+1), 6→5 exp
+    Nuevos: angel
+  Planet Evolution Idle Clicker: 4→6 activos (+2), 2→1 exp
+    Nuevos: thanks4klikes
+  Planks: 7→8 activos (+1), 11→10 exp
+    Nuevos: 5KE
+  Play For Ugc: 24→30 activos (+6), 40→34 exp
+    Nuevos: newercode, 5kdeez, 60klikes!, 70klikes!, 65klikes!, 80klikes!
+  Plant Evolution: 19→22 activos (+3), 3→0 exp
+    Nuevos: COMEBACK, Dave, SORRY
+  Poo Race: 7→13 activos (+6), 7→1 exp
+    Nuevos: InsaneCode1, Update2, delay2, secretCODE1X, delay1, box7
+  Power Fighting Tycoon: 0→6 activos (+6), 8→2 exp
+    Nuevos: Welcome, Rebirth, Gear, Chry, Dext, JoJo
+  Power Battle Simulator: 0→5 activos (+5), 5→0 exp
+    Nuevos: UPD1, 1KLIKES, release, UPD2, UPD3
+  Possessor: 18→20 activos (+2), 2→0 exp
+    Nuevos: Possessor, NP52VJ
+  Power Slap Simulator: 3→4 activos (+1), 1→0 exp
+    Nuevos: UGCSOON
+  Power Up Soccer: 16→17 activos (+1), 3→2 exp
+    Nuevos: FOUL19XY7
+  Pressure: 8→11 activos (+3), 11→8 exp
+    Nuevos: 200M, ApologyTour, Raveyard
+  Prior Extinction: 2→15 activos (+13), 34→21 exp
+    Nuevos: Welcome26, LunarFixes!, LovelyValentinesGift2026, HallowenEggs!, JurassicUpdate, Valentine2025, GemFix, TunnelDweller, PostTV, Laacer, HotSmudge, WoofWoof, PrismaticEventFix
+  Project Blue Lock: 62→253 activos (+191), 284→93 exp
+    Nuevos: PENGUINNAGI, NAIJA, WINTERSSEAT, MOUNTAINOFHAKONE2, WINTERRIN, COLDOUTHERE2, BRRRRRR, PUZZLESHATTER, THEADAPTER, FIRSTSTRIKER, FIRSTQOL, ISAGIYOICHIDA, THANKYOUSOMUCH, CHAD, UNIT, PORTUGAL, SIUUU, GOALMACHINE, CR7, SAYNOBUTYES, WHATAORANGE, CANTSEEGUY, THEGLASSES, ONEONONE, NELYUKIMIYA, SAYNO, WOTDOYOUMEAN, SHARK, RAICHIWAICHI, COMEBACKSOON, FANUMTAX, MUSCLEMUSCLE, MITSU, MITSUBIRD, TOKI, SORRYFORDELAYS, RIZZARD, MAGICO, MIDDOFIELDA, NESSTWITTA, ALEXIS, 2NDBEST, PERFECT, SRY4DELAY, CHRISBIRD, BLONDIE, SALSAPOT, VERY4DELAY, FERNYLAZY, WHITE, LAZYPAZY, VERYNAGI, NAGIBIRD, NAGISEISHIRO, CAVACAVA, FRECKLES, PASTEL, PABLOREWORK, GLAM, KUROWURO, NO2LOL, NOIDEALOL, CRIMSONBIRD, PANTHER, REDHAIR, PINKY, GOODMORNINGGIFT, AMPRO, BUGFIXEDYEAH, SPANISHTWITTER, SPAIN, DISCOURAGE, IPHONE14, MYBADGANG, WATERBOTTLE, SORRY4IT, LADYKILLER, WORLD5SBEST, TWITTERZANTETSU, OREWAKING, THEBEAST, NELKING, KYONKYON, ZANTETSU, LIGHTNINGZAN, THUNDAA, LIGHTNINGFAST, YouWelcome, TWITTERKUNI, POWERMUSCLES, SUPAHERO, FRENCHSTRIKER, STRIKA, NOELNOA, MUNCHENBIRD, NO1, NO6, ISEEYOU, FRENCHTWEET, ACCURATE, CHARLES, NO5, AMFAST, TOOSLOW, LOKIDOKI, SPEEDBIRD, LOKIREWORK, NINJABIRD, NO4, INVISIBLE, NINJA, OTOYA, SORRY4BUG, AUGH, CROWBIRD, SHADOW, ASSASSIN, SORRYKARASU, KARASU, NEWGEN11, KAISERIMPACT!, GERMANY, EMPERORSREWORK, KAISERBIRD, GYMBRO, ORANGE, MUSCLES, HERO, WOWNOWAY, 10MILLY, FLYDAY, SUBSZ, DRIBBLER, BOOM, NELBACHIRA, RYUU, FREESPINSIES, THEDRAGON, NELSHIDOU, GLASSES, YUKITWITTER, STREETSTYLE, YUKIMIYA, THANKYOU, MILESTONE, JAPANSBEST, SAEREWORK, MAGICIAN, 1500FOLLOWERS, URWELCOME, QUARESMA, DEMONKING, NELISAGI, NELRIN, EGOISTA, OREWAEGOIST, FERNYPLS, PUZZLE, PITY, BRAZIL, FOOTBALLSENSOR, FOLLOWUSONTWITTER, BETTERTHANISAGI, COPYCAT, DEFENSEKING2, NIKOUPDATE, BAROU, 1KFOLLOWERS, REOUPDATE, TWITTERANALYST, ICYBIRD, AIKUUPDATE, SHIDOUUPDATE, NARUHAYAUPDATE, LASTLUCK, THEDANCER, WORLDCLASS, TWITTERHIORI, COLDINHERE, BIYCYCLEKICK, KINGUPDATE, DEFENSEKING, SNAKECOIL, MOREFOLLOWERS, ZLATAN, LAVINHOUUPDATE, THEKINGISHERE, RUNINBEHIND, HIORIUPDATE, CHAMELEON, COBRATERRITORY
+  Project Mugetsu: 53→328 activos (+275), 307→32 exp
+    Nuevos: IanxTach, codwithnoname, 35KLIKES, ABILITYREROLLFOUR, SORRYITSEXPENSIVE, SORRYFORSHUTDOWN, 15KLIKES, 10KLIKES, 20KLIKES, ABILITYREROLLONE, SHUTDOWNSPINS, EXPLOITFIXES, ABILITYREROLLTWO, 100KMEMBERS, ABILITYREROLLTHREE, 70KLIKES, HERESABILITYREROLLFIVE, HERESABILITYREROLLTWO, 80KLIKES, SorryForInconvenience, 60KLIKES, EXCUSETHESHUTDOWN2, HERESTHESPINS, SHUTDOWNABILITYREROLL, HERESABILITYREROLLTHREE, MoreQolAndBalances, HERESABILITYREROLLONE, SORRY4DASHUTDOWN, EASTERUPDATE, CheaperSpins, THANKSFOR200KMEMBERS, QuincyBowFixFinal, Antic1000Followers, SORRYFORPINGS, 40KLIKES, 10MVISITS, FIRSTWEEKISOVER, 50KLIKES, HERESABILITYREROLLFOUR, EXCUSETHESHUTDOWN, GAMEMODES, TradingBack2, SynCodeMakeup, 160KFAVORITES, MothersDayMastery, 235KMembers, MothersDayLegendaryOrbndGold, UPDATESOON, OneMonthLegendarySPINS, 95KLIKES, MultiBarrageFix, 160KLIKES2, OneMonthResetRace, BANKAIS, 160KLIKES1, 90KLIKES, UPDATE1RACERESET, NEWCLANS, MothersDaySpins, 28MVISTS, SorryForShutdownAgain8, UPDATE1, 85KLIKES, SorryForRaidLives, OneMonthLegendaryOrb, OneMonthREROLLAbility, 135KLIKESBOOSTS, ABILITYREROLL, SUPRISEORBS, 135KLIKESORBS, 120KLIKESSPINS, SCHRIFTS, ULQORB, 125KLIKESSPINS, 110KLIKES, SORRYFORWANDEN, 135KLIKESSPINS, BUGFIXESREROLL, EXCALIBUR, SORRYFORSOMANY, 130KLIKESORBS, 120KLIKESREROLL, SORRYFORTHEWAIT, 125KLIKESREROLL, SORRY4BUGS, 140KLIKESSPINS, ABILITYREROLLOCKEDIN, 135KLIKESREROLL, 140KLIKESREROLL, PANTERA, ULQRES, MOREBUGFIXES, MAYBEANORBFIX, 130KLIKESREROLL, MOREORBS, 125KLIKESBOOSTS, 120KLIKESORBS, 125KLIKESORBS, 130KLIKESSPINS, 130KLIKESBOOSTS, QUINCY, JUICYRETURN, ANOTHERSHUTDOWNSORRY, 120KLIKESBOOSTS, QuincyFixes, MoreXboxFixes, UPDATE2Exp, FEAR, FULLBRINGER, 150kLikes, UPDATE2Rerolls2, 140KLIKESBOOSTS, CANDICE, MINAZUKI, HONOREDONE, UPDATE2Spins2, UPDATE2MoreRerolls, UPDATE2RaceReset, ICHIMONJI, UPDATE2Spins, HARRIBEL, UPDATE2MoreRerolls2, UPDATE2MoreRaceReset, RaceResetPotionFixAgain, SEGUNDA, 140KLIKESORBS, Sorry4UpdateDelay2, AgainSorryForShutdown, UPDATE2Exp2, NOZARASHI, VIZARD, DemonPieceRelease, UPDATE2RaceReset2, SANTATERESA, UPDATE2Rerolls, LegacyPieceRelease, 2024C2, TYALL, CrispyReasonForBugs, 155KLikes1, ClanStorageFix, TheyDoneCaughtKona, 58MillionVisits, FahanSorry4Delay2, ClanStorageFix2, SorryForGiftBugAgain, TestOrbCode, GoodbyeMadarasGunbai, FirstBalanceChange, BlackButlerPublicSchoolArc, NoMoreItemStack, ClanStorage, StarrkClan, USECODESINMAINMENU, 152kLikes, FahanTwitter, TradingHubBack, TradingHubChanges, HaschwalthClan, Luppi1KFollows, GoodbyeExcalibur, FixedGiftedGamepasses, BANKER, NewRankedWeapons, CrispyTwitterWoof, SorryCountdownDelay, AightLastShutdownFrFr, SorryForItemInconvience, SorryForShutDownAgainForFixes3, 63MVisits, Sorry4ShutdownAgain3, SorryWandenandHueco, HeresForTheLostGold, Ididntshutdown, MoreBalanceChanges2, HeresSpinsPromised, NewResAbility, ShutdownSorryNeededFixes, OkayOkayLastShutdownSorry1, SorryForShutdown5000, 245KMembers, COUNTDOWNBEGINS, QUINCYMEDALLION, SorryTraders, OkayLastShutdownAgainSorry, 60MVisits2, FixesSorryForShutdownAgain2, 235kFavorites, Syn3KFollowers, 60MVisits1, BossFixesPt2, SorryForShutdown5, HadToShutdown, AfkWorldChanges, 65MVisits2, HaddaShutdownCountdownReset, 165KLikes2, HappyBirthdayFahan, 70MillionVisits2, FahanRainbowAlly, thereisnosuchthing, TradingDisabledSorry, 65MVisits1, YhwachShutdown, TY255KMembers, TypeShutdown, FinalResetForSpecificItems, YhwachSwordFix, ShutdownWasNeededSrry, NewTeamZaiZuko, ThanksForPanteraSupport, SorryShutdownCDRe, ThankYouJOSupport, 70MillionVisits1, SorryForEventIssues, YhwachStuff, SorryEventDelay2, Luppi1kSubs, SorryForBrokenThingsz, BigCode100, 165KLikes, TetriReanimatesForThe10thTime, Luppi2kTwitter, 6ix9ine, 250kMembers, ExtraCode1, LastDelaySorry, SQUIDGAMES, HONTOAPOLOGY!!, KIRISPRESENT, SAVESOULSOCIETY, 500, NEWYEARS, AIZENUPDTHISMONTH, HONTOSPRESENT, GREENLIGHT, JoinJujutsuOdyssey, TYPEDEAD, ZUKO4LIFE, ZukoZaixoz, KyokaFix, hotdog57, MUGESTURETURNS, EidMubarak, GREENIES, CommonKiotW, NEWYEARNEWPM!!, VALENTINES25, UPDATEWILLBESOON, VIDEOSATURDAY, 2025!!, PMXMAS, PMISBACK, SinfulWasHere, REDLIGHT, PMISSOBACK, PMBUGFIXES, BUGSFIXED, PMRETURNS, SORRYFORBUGS, GAMESFULLYFIXEDNOW, BUGFIXUPD, HOGSERVERS, VALENTINES, CHOPPEDSTZ, DELAYGETSU!!, COMEBACKTIME!, AGAINFETTY, WERSORRY!!, TIME2COOK, TYDEVTEAM!!, POOKIEZOOKIE, KIRIAPOLOGY!!, PM2025, PRISMBDAY!!
+  Project Xxl: 24→25 activos (+1), 3→2 exp
+    Nuevos: 50spinscode2
+  Prove Mom Wrong By Being A Famous Streamer: 0→2 activos (+2), 2→0 exp
+    Nuevos: Joined, Release
+  Psychis Battleground: 13→14 activos (+1), 5→4 exp
+    Nuevos: ChristmasUPD
+  Pull a Sword: 147→154 activos (+7), 108→102 exp
+    Nuevos: NewPotionCode248, halloweenparty2023, giftfromme1, SNOWEVENTPART3, PROFILE, SEASONXII
+  Punch Hole Simulator: 40→41 activos (+1), 3→3 exp
+  Punch League: 0→2 activos (+2), 2→0 exp
+    Nuevos: 250kvisits, Release
+  Pup Army: 5→6 activos (+1), 0→0 exp
+  Push Simulator: 22→24 activos (+2), 8→6 exp
+    Nuevos: 1MVistsO, Get5Spins!
+  Push A Car: 14→15 activos (+1), 2→1 exp
+    Nuevos: Group!
+  Racing Simulator: 4→5 activos (+1), 10→9 exp
+    Nuevos: Welcome
+  Rampant Blade Battleground: 2→3 activos (+1), 2→1 exp
+    Nuevos: HUGEUPDATE1
+  Rarity Factory Tycoon: 18→28 activos (+10), 32→22 exp
+    Nuevos: rftx, 2klikes, xmas2022, 5klikes, 1klikes, 1kmembers, spooky, refresh, 12klikes, 20klikes
+  Real Futbol 24: 5→9 activos (+4), 10→6 exp
+    Nuevos: WEEK3, 10MVISITS, 20MVISITS, WEEK1
+  Realistic Basketball: 0→4 activos (+4), 41→37 exp
+    Nuevos: SecondUpdate, FirstUpdate, Secret, Pollz
+  Realistic Car Driving: 5→8 activos (+3), 10→7 exp
+    Nuevos: 375K, 350K, 325K
+  Realms Simulator: 6→8 activos (+2), 2→0 exp
+    Nuevos: Friday!, 10klikes
+  Reaper Clicker: 11→12 activos (+1), 2→1 exp
+    Nuevos: XMASUPDATE
+  Reborn As Swordman: 28→29 activos (+1), 4→3 exp
+    Nuevos: urmom1
+  Reign Piece: 83→83 activos (=), 5→6 exp
+  Redcliff City: 0→1 activos (+1), 1→0 exp
+    Nuevos: VIP24
+  Restaurant Business: 0→12 activos (+12), 14→2 exp
+    Nuevos: FishingUpdate, 1MVisits, ParkingLot, Release, Season1, thanksgiving, winterland, xmaspart1, SantaClaus, Christmaspart2, Helicopter, Bathroom
+  Rh2 The Journey: 37→88 activos (+51), 81→31 exp
+    Nuevos: freeresetToken, thanksFor8Mil_ResetToken, happyMothersDay_RHC, thanksFor50K, freeRHC_2, freeresetToken_2, hereIsSomeRHC, wRHCfor15kLikes, iloverh2_RHC, thanksFor18Mil, happyfriday_ResetToken, thanksFor10Mil_RHC, iloverh2_ResetToken, twitterCode7K, thanksFor10Mil_ResetToken, thanksFor8Mil_RHC, w30Kmembers, hereIsAResetToken, wRHCfor5k, happyfriday_RHC, happyfriday_RHC_2, happyMLKDay_RHC, merryChristmas_RHC, newupdate_ResetToken, Halloween_Reset, Halloween_RHC, streamCode_RHC, backtoschool_Reset, randomRHC, backtoschool_RHC, SavFree_RHC, happyNewYear_Candy, newupdate2_ResetToken, happyNewYear_ResetToken, merryChristmas_Gift, newupdate3_ResetToken, merryChristmas_ResetToken, happyMLKDay_ResetToken, twitterCode_rhc5, happyNewYear_RHC, twitterCode_reset3, randomResetToken, newupdate3_RHC, twitterCode_rhc3, newupdate2_RHC, thanksgiving_rhc, twitterCode_reset4, newupdate_RHC, streamCode_reset, twitterCode_rhc4
+  Revengers Dream: 41→42 activos (+1), 68→67 exp
+    Nuevos: CHRISTMAS!
+  Ride a Cart Simulator: 3→4 activos (+1), 1→1 exp
+  Rich Company Tycoon: 0→4 activos (+4), 4→0 exp
+    Nuevos: rich20, money30, company10, freecode
+  Rider World: 65→68 activos (+3), 18→15 exp
+    Nuevos: war25, gokaired, shocker
+  Rivals: 12→37 activos (+25), 209→184 exp
+    Nuevos: TEN_BILLION_VISITS_OMG, COMMUNITY19, HAPPYRIVALSWEEN, COMMUNITY18, BESTSHOOTERGAME, COMMUNITY17, COMMUNITY16, THANKYOU_1BVISITS!, COMMUNITY5, COMMUNITY10, COMMUNITY9, COMMUNITY15, REWARD47, REWARD46, REWARD49, COMMUNITY12, COMMUNITY6, REWARD53, COMMUNITY11, COMMUNITY14, 5B_VISITS_WHATTTTTT, COMMUNITY8, COMMUNITY7, REWARD52, COMMUNITY13
+  Rng Anime Rarities: 145→150 activos (+5), 34→29 exp
+    Nuevos: 25K5FAV, 25M, 36K5FAV, 36KFAV, Update27
+  Rng Droids: 0→21 activos (+21), 22→1 exp
+    Nuevos: !Prankster, !Trick2024c, !2000Likes, !100Likes, !1400Likes, !300Likes, !World5, !NebulaDroids, !750Likes, !1200Likes, !500Likes, !200Likes, !1000Likes, !1600Likes, !World6, !RELEASE, !DailyRewards, !Treat2024, !3000Likes, !4KLikes, !300kVisits
+  Rock Mine Simulator: 11→12 activos (+1), 1→0 exp
+    Nuevos: MINER
+  Rock Fruit: 86→87 activos (+1), 144→143 exp
+    Nuevos: Armstrong
+  Rogue Sorcerer: 0→5 activos (+5), 6→1 exp
+    Nuevos: 500active!, getobroken123, sorry4spins, Kingofthestorm, 1Kactive
+  Roll For Brawlers: 9→12 activos (+3), 3→0 exp
+    Nuevos: THANKYOU, 5KLIKES, SQUID
+  Rokarate: 10→11 activos (+1), 2→1 exp
+    Nuevos: Halloween2024
+  Rojutsu Blox: 0→10 activos (+10), 77→67 exp
+    Nuevos: !RegSpin4, !RegSpin3, !PremSpin3, !PremSpin7, !PremSpin8, !RegSpin5, !RegSpin2, !RegSpin1, !PremSpin1, !PremSpin2
+  Roller Race Simulator: 20→22 activos (+2), 3→1 exp
+    Nuevos: 60KLIKES, SEASON1
+  Roller Training: 3→4 activos (+1), 1→1 exp
+  Rotube Life: 18→21 activos (+3), 4→1 exp
+    Nuevos: RELEASE, 3KLIKES, 1KLIKES
+  Royalty Kingdom 2: 9→16 activos (+7), 15→8 exp
+    Nuevos: 10KINGDOM, AFTERFOOLS, EGGSURPRISE, 10QUEENDOM, ENCHANTING, SECRET_HEART, APRILEASTERUPDT23
+  Royal Seas: 3→6 activos (+3), 58→55 exp
+    Nuevos: Immortal, Oden, CODE1
+  Ryujin: 2→26 activos (+24), 64→40 exp
+    Nuevos: oopsie!, publicreleaseisstablenow!!, Thanksfor1kinterested!, RYUJINREVIVEUPDATE!, SUMMEREVENT, NewClans, GEN2, WIPE!, newoptimizations, minipatch_24, happynewyearryujin, fixedgangs, fixedinvasions, newstances, minipatch_22, missions, achievements, trainerfights, privateservers, fightingstances, questsystem, newgeneration, likesmilestone18, happyanniversaryryujin
+  Sakura Stand: 129→133 activos (+4), 61→59 exp
+    Nuevos: Elfmage, freeRedMistPercent
+  Samurai Tycoon: 0→5 activos (+5), 30→25 exp
+    Nuevos: PETS, ONEHUNDRED, TWOFIFTY, SEVENFIFTY, RELEASE2025
+  Samurai Parallel: 0→5 activos (+5), 6→1 exp
+    Nuevos: PYRAMIDSTUDIOS, SUBSCRIBE2OGVEXX, SUMMERTEST2024, FREETRIAL2, FREETRIAL
+  Sakura Piece: 18→49 activos (+31), 32→1 exp
+    Nuevos: IAMATOMIC, UPD2Part2, Sub2EZXxZcb, ThxVisits166K, ThxVisits65K, UPD1, ThxVisits28K, UPD2Part1, FreeGem, UPD3, KJKJKJ, SorryCloseGame, SorrySorrySoryyyyyy, SubToTARGamer, ReturnCID, SubToNinesati, Thx475kVisits, BIGUPDATE, FreeFRIEREN, Thx1800Favorites, FreeGem2, THXAllPlayer, LUCKY777, UPD4, SubToDiwTV, SorryDelay, SubToDEXNoRa, NewIdle, Sub2Subaru, AddMorePower, ThxVisits180K
+  Savannah Life: 6→8 activos (+2), 16→14 exp
+    Nuevos: MUFASA, RELEASE
+  Save Brainrot: 10→11 activos (+1), 1→0 exp
+    Nuevos: 12KLIKE
+  School Of Hierarchy: 4→6 activos (+2), 4→2 exp
+    Nuevos: Fragmenting, 1MilMoney
+  School Bus Simulator 23: 24→24 activos (=), 22→23 exp
+  Sea Cleaning Simulator: 4→7 activos (+3), 3→0 exp
+    Nuevos: Ryan, Cleaner, launch
+  Seekers: 3→6 activos (+3), 4→2 exp
+    Nuevos: 2025, 4MIL
+  Shark Bite Simulator: 13→15 activos (+2), 5→3 exp
+    Nuevos: PEACE666, HOT666
+  Sheep Tycoon: 0→3 activos (+3), 4→1 exp
+    Nuevos: SheepTycoon, Update2, Beaaa
+  Ship Tower Defense Simulator: 8→12 activos (+4), 4→0 exp
+    Nuevos: WE_ARE_BACK, Magister, RebelsGoBrrrr, Bee
+  Shonen Smash: 0→2 activos (+2), 10→8 exp
+    Nuevos: RELEASE!, SHONENSMASH!
+  Shortest Answer Wins: 10→12 activos (+2), 4→2 exp
+    Nuevos: Snowflakes, 12500
+  Silly Defense: 18→20 activos (+2), 32→30 exp
+    Nuevos: sillysubnautica, MinionsRuleTheWorld
+  Shuudan: 18→20 activos (+2), 36→34 exp
+    Nuevos: FIXEDGOALKEEPER, HappyNewYears!
+  Shrek Swamp Tycoon: 12→19 activos (+7), 7→0 exp
+    Nuevos: MakingWaffles, CelebrateTheWeekend, SuperAmigo, GrandOpening, AreWeThereYet, DoTheRoar, StayUpLate
+  Silly Simon Says: 18→18 activos (=), 19→20 exp
+  Sigma Boy Simulator: 14→16 activos (+2), 1→1 exp
+  Size Legends: 4→6 activos (+2), 3→1 exp
+    Nuevos: DevFoll, Release
+  Skateman Simulator: 42→45 activos (+3), 3→0 exp
+    Nuevos: Lab, Construction, Brot
+  Skibi Toilet Fighters: 20→23 activos (+3), 5→2 exp
+    Nuevos: MASSIVEBUGFIXS, Thanksfor1kactivem, Update1
+  Skibidi Box Defense: 9→13 activos (+4), 8→4 exp
+    Nuevos: 12500_Likes, 25M_Visits_2, 15KMEMBERS, Classic
+  Skibidi Rng: 0→28 activos (+28), 55→27 exp
+    Nuevos: 4000Likes, 3250Likes, 3500Likes, 20000Members, TRADING, DUPE, LUCK, 6000LIKES, 17000Members, 10000Members, 200kVisits, DUCHESS, TYSM, EPICVISITS, EVENT, 29KMembers, ENJOY, 44KMEMBERS, UNIQUE, SPOOKY, SHORTAGE, 1MILVISITS, 800kVisits, 9000LIKES, 32500MEMBERS, JOLLY, 23000Members, 8000LIKES
+  Skillful: 29→31 activos (+2), 12→11 exp
+    Nuevos: thankyoufor30klikes
+  Skybase Tycoon: 3→7 activos (+4), 8→4 exp
+    Nuevos: Chillguy, Christmas24, Release, 1090Likes
+  Slap Away Simulator: 0→1 activos (+1), 1→0 exp
+    Nuevos: RELEASE
+  Slap Fight: 4→5 activos (+1), 2→1 exp
+    Nuevos: LIKES100
+  Slashers Arena: 9→10 activos (+1), 2→1 exp
+    Nuevos: TY800LIKES
+  Slayer Arena: 1→2 activos (+1), 3→2 exp
+    Nuevos: slayer1k
+  Slay The Runway: 6→7 activos (+1), 3→3 exp
+  Sled Simulator 2: 7→8 activos (+1), 0→0 exp
+  Slimera: 6→8 activos (+2), 2→0 exp
+    Nuevos: HappyValentines, IWuvU
+  Smash Grab Simulator: 6→7 activos (+1), 1→0 exp
+    Nuevos: 20klike
+  Smoothie Factory Tycoon: 14→15 activos (+1), 20→19 exp
+    Nuevos: 6969
+  Sneaker Rng: 0→1 activos (+1), 1→0 exp
+    Nuevos: RELEASE
+  Soccer Legends Rng: 56→58 activos (+2), 5→3 exp
+    Nuevos: 20KLIKES, UPDATE6
+  Solo Challenging Simulator: 0→23 activos (+23), 23→0 exp
+    Nuevos: uxg0v, NHT4x, ethjg, M6If5, BUjZT, mZBp4, NKySw, JuJ4E, ijlkf, WG509, a8ixZ, SM666, JUKAF, oblxi, pEpnK, dnDP3, lPd29, scjeT, tHery, mNVfx, GyoCS, X7CrL, LWgVl
+  Sorcerer Battlegrounds: 2→3 activos (+1), 3→2 exp
+    Nuevos: BUGOOOOO!713
+  Special Forces Simulator: 23→24 activos (+1), 16→15 exp
+    Nuevos: CASH
+  Speed Runner: 13→14 activos (+1), 1→0 exp
+    Nuevos: FREECOINS
+  Spellblade: 11→12 activos (+1), 4→3 exp
+    Nuevos: EHHSAK
+  Spiked: 18→25 activos (+7), 67→60 exp
+    Nuevos: RELEASE, AUTOSBUGFIXES, PSCOMMANDS, SPIKEDMAS, SRY4SHUTDOWN, SPIKEDPATCH1, 20KFAVS
+  Spirit Bomb Simulator: 0→3 activos (+3), 7→4 exp
+    Nuevos: SecretCode, Play30MinsForPet, LikeForUpdates
+  Sprunki Plus: 0→2 activos (+2), 5→3 exp
+    Nuevos: youstolemychoir, christiansprunki
+  Squid Evolution: 11→12 activos (+1), 0→0 exp
+  Squid Game X: 53→54 activos (+1), 29→29 exp
+  Stand Proud: 5→38 activos (+33), 38→5 exp
+    Nuevos: Anamaguchi, StoneExperience, NewUpdate2, ThanksFor40k, FullStackTheseNuts, Twitter10K, HotFixOne, Acloudyskye, MaintenanceIsOver, StandingProudReleasedLol, Thanksfor50kAnd10MVists, ithoughtilostyou, FixedCrateBug, WeReached2kPlayers, NextUpdateComingSoon, ScrewDataIssues, TheTrinityUpdate, SorryMobilePlayers, ICantSaveYou, Insta350Followers, TheWorldAlternativeUniverse, NewStandReworks, PurpleOverMyHead, MonstersInMyBasement, SORRYFORTHETROUBLE, YoAngelo, ListenTo_acloudyskye, NewUpdate1_5, NoWay32kLikes, WOWThanksFor1kPlayers, ThanksFor31kLikes, Mybadlol, Likes30K
+  Stands Unleashed: 26→29 activos (+3), 22→19 exp
+    Nuevos: sryfordelayz, UPDATE2, tradingyay
+  Stat Farm Incremental: 14→15 activos (+1), 1→0 exp
+    Nuevos: TwokFAVS
+  Steal An Anime: 40→55 activos (+15), 41→26 exp
+    Nuevos: MONKEY, FOLLOWSCZEVI, FOLLOWMAGE, PLZSPINZ, GIMMIESPINS2, PLZUNIT, PLZHAKI, GIMMIESPINS, EZSPINS, SORRYFORDELAY, SORRYFORSHUTDOWN, GETLUCKY, KEEPSAFE, RABBITGOD, TRADINGSOON
+  Stone Farm Simulator: 4→5 activos (+1), 1→0 exp
+    Nuevos: Gems
+  Streamer Life: 2→5 activos (+3), 6→3 exp
+    Nuevos: V25, 100KMEMBERS, V22
+  Strong Muscle Simulator 2: 6→13 activos (+7), 9→2 exp
+    Nuevos: CANDY, VOID, P3TPACKK, SUMM3RR, WINCODEN3W, TOY, M00NN
+  Strongest Anime Squad Simulator: 7→8 activos (+1), 1→0 exp
+    Nuevos: Gem600
+  Strongest Lifter Simulator: 0→4 activos (+4), 4→0 exp
+    Nuevos: HEAVEN, TOY, MUSCLE, UFO
+  Super Anime Merge: 26→60 activos (+34), 37→3 exp
+    Nuevos: 10KVISITS, Update1, 20KVisits, Release, 100LIKES, Shutdown3Fix, ShutdownFix1, Shutdown2, ReleaseNoBroken, 100FAV, Shutdown8Fix, Shutdown6Fix, Shutdown4Fix, 30KVISITS, 50KVisits, 150FAV, Shutdown5Fix, 40KVisits, Shutdown7Fix, 200LIKES, Update2, 200FAV, 90KVisits, Shutdown9Fix, 300LIKES, 80KVisits, 60KVisits, 70KVisits, Update4, Update3, 100KVisits, NewYears, 400FAVs, 400Likes
+  Super Hit Simulator: 0→3 activos (+3), 3→0 exp
+    Nuevos: NOCAP5K, NOCAP, BETA
+  Super Power Evolution Simulator: 1→3 activos (+2), 2→0 exp
+    Nuevos: Shutdown, RELEASE
+  Super Power Legends: 5→11 activos (+6), 63→57 exp
+    Nuevos: MegaPowerLegends, Tokens4Power, Ms6, 100MilQuestSoon, AGiftFromTutili, SPL2Next
+  Super Punch Simulator: 0→26 activos (+26), 27→1 exp
+    Nuevos: Space, SUSHIWI, SUMMER, 5MVisits, secretpower789, 1MVISITS, RUSSO, Update3, Skibi, RELEASE, 20klikes, update1, SECRETGEM8436, superluck, rainbow, 30klikes, DODU, 7klikes, SECRETLUCK1498, KANSHY, 4KLIKES, CREPTIEZ, freepet, ultralucky, 50KLIKES, HALLOWEEN
+  Super Skiing Race: 0→7 activos (+7), 7→0 exp
+    Nuevos: release, TCPGKO, BFHWRU, 100LiKeS_thx, 1000LiKes_500, TEPMBA, boost
+  Super Treehouse Tycoon 2: 1→2 activos (+1), 1→0 exp
+    Nuevos: ENCYCLOPEDIA
+  Superhero Academy: 9→10 activos (+1), 7→6 exp
+    Nuevos: meauras
+  Superhero Legends: 12→13 activos (+1), 3→3 exp
+  Superhuman Simulator: 15→16 activos (+1), 1→0 exp
+    Nuevos: 50KVisits
+  Supreme Bathroom Battles: 3→8 activos (+5), 8→3 exp
+    Nuevos: 5Million, GamesReturn2x, TitanCameraMan, 1MVISITS, 6Million
+  Survival Odyssey: 14→17 activos (+3), 49→46 exp
+    Nuevos: MIGRATION, Revive, Trap
+  Survive The Slasher: 25→50 activos (+25), 49→24 exp
+    Nuevos: tenunlock, 14k, 15k, Realm, strange, Nevermore, Mystic, Holiday, M3GAN, NewYear, DOORS, 47K, 45K, TyFor49k, WOO, 50K, 52K, TyFor54k, 66K, 60K, 64K, Ronald, 67K, 70K, 69K
+  Swim Race Simulator: 11→12 activos (+1), 6→5 exp
+    Nuevos: KPEJHB
+  Sword Duels: 0→7 activos (+7), 7→0 exp
+    Nuevos: 5KALLTHEWAY, NOWAY1K, RELEASE, 30KUPDATE, THXFOR20K, HOMERUN, OMG10K
+  Sword Factory Gui: 20→22 activos (+2), 5→3 exp
+    Nuevos: QOL, Update9
+  Sword Fantasy: 0→7 activos (+7), 11→4 exp
+    Nuevos: 15kfavorites, 10klikes, 7400likes, 5200likes, 6400likes, 250kvisits, 5kfavorites
+  Sword Legends Simulator: 0→3 activos (+3), 12→9 exp
+    Nuevos: FREESTRENGTH, FREEPET, FREEGEMS
+  Sword Race: 9→11 activos (+2), 2→0 exp
+    Nuevos: winter, pioneer
+  Sword Slayer: 0→9 activos (+9), 9→0 exp
+    Nuevos: resetstats1, swordslayer, resetstats, freestuff, release, updateone, parteder, marmalade, resetstats2
+  Sword Slasher: 5→6 activos (+1), 2→1 exp
+    Nuevos: omg300likes
+  Tales Of Tanorio: 0→2 activos (+2), 16→14 exp
+    Nuevos: maintenance190825, Winterfest
+  Tap For Ugc: 0→13 activos (+13), 13→0 exp
+    Nuevos: Backpack, Sword, Hair, Curly, Antlers, SPIN, Crown, FREE, Hime, nour, Y2K, Valk, summer
+  Tapping Legends Final: 16→17 activos (+1), 3→2 exp
+    Nuevos: epicgift
+  Tcg Card Shop Simulator: 11→14 activos (+3), 4→1 exp
+    Nuevos: Welcome, 5KLikes, 1MVISITS
+  Terraria Tower Defense: 4→5 activos (+1), 3→2 exp
+    Nuevos: Easter
+  Tenisu Titans: 9→10 activos (+1), 0→0 exp
+  The Ants Underground Kingdom: 0→2 activos (+2), 82→80 exp
+    Nuevos: hotpot, gdrruzav
+  The Simpsons Tower Defense: 6→7 activos (+1), 2→1 exp
+    Nuevos: youlostthegame
+  The Storage: 4→6 activos (+2), 5→3 exp
+    Nuevos: HappyHalloween, TrickOrTreat
+  The Skinwalker: 32→33 activos (+1), 4→3 exp
+    Nuevos: CHRISTMAS2024
+  The Undead Coming Armageddon: 15→16 activos (+1), 5→4 exp
+    Nuevos: SkillTree
+  Throwing Simulator: 16→31 activos (+15), 18→3 exp
+    Nuevos: HappyNewYear, ShardBoost1, CoinBoost1, Icelord, LuckyDay1, FreeEaster2022, 10500Likes, RainbowPet, Shard, GemsBoost1, Star, Sinister, DominusFire, Hydra, SONIC
+  Titan Wars Skibidi Toilet Tower Defense: 12→18 activos (+6), 6→0 exp
+    Nuevos: 709, 714, 710, 712, 713, 708
+  Titan Rng: 20→21 activos (+1), 2→1 exp
+    Nuevos: 250KVisit
+  Tix Factory Experimental: 3→6 activos (+3), 3→0 exp
+    Nuevos: THANKYOUROBLOX, FirstMillion, FREERELEASE
+  Tod: 2→3 activos (+1), 2→1 exp
+    Nuevos: KATANA
+  Toilet Battlegrounds: 6→8 activos (+2), 3→1 exp
+    Nuevos: SORRYFORRESET, 1MVISITS
+  Toilet Defense Ultra: 11→12 activos (+1), 3→2 exp
+    Nuevos: Jerma
+  Toilet Legacy Defense: 0→17 activos (+17), 20→3 exp
+    Nuevos: Ryze, Rovi23, Release, Expiration, Compensation, TLD, KeonRoot, Mortadela, SaitoBlox, Delay, Yesyan, TOILET, FIXES, PrimerPersona, UPDATE1, 20KLIKES, 800REACTIONS
+  Toilet Verse Tower Defense: 15→22 activos (+7), 7→1 exp
+    Nuevos: saitocoins, saitospins, 10klikes, saitogems, bossmode, 20klikes
+  Toilet Wars Tower Defense: 13→14 activos (+1), 1→0 exp
+    Nuevos: HAPPY4THOFJULY
+  Touchdown Simulator: 3→4 activos (+1), 3→2 exp
+    Nuevos: Bakers
+  Tower Defenders: 11→15 activos (+4), 4→0 exp
+    Nuevos: HALLOW, FRONTPAGE2021, Johnroblox, Bruh
+  Tower Defense Rng: 74→75 activos (+1), 15→14 exp
+    Nuevos: guLLiBlE
+  Tower Of God: 8→41 activos (+33), 101→68 exp
+    Nuevos: OCTOBER_CODE, TOGMERRYCHRISTMAS, TOGXIAXIA1211, COUNTDOWN3TOG, MAY_UPDATES, SECOND_ANNIVERSARY, WELCOMETOG2023, Boost_Day, TOGTHANKSGIVINGDAY11, New_Stages, Happy100M, JULY_UPDATES, JUNE_UPDATES, AUGUST_UPDATES, UPGRADES, APRIL_FOOLS, SEPTEMBER_CODE, HALLOWEEN_UPDATE, DEVNOTE1215TOG, TOGAUTUMNGIFT, NEWANCIENTCOMING, TOGSUMMERGIFT, SUNNYWAVEISCOMING, FLAMEISCOMIN, FIREWORKFESTIVALISCOMING, TOGANIMESEASON2, JUNEWITHTOG, TOGAUGUSTGIFT, MLNXTOGMGIFT, THECATISCOMING, WHO2IS2NEXT2FLAME, WINGSOFFREEDOM1UREK, TOGMAYGIFT
+  Train Trip: 12→13 activos (+1), 1→0 exp
+    Nuevos: TrainTrip
+  Toilet Tower Defense But Coins: 12→13 activos (+1), 9→8 exp
+    Nuevos: 50KMEMBERS
+  Treasure Hunt Tycoon: 6→7 activos (+1), 1→0 exp
+    Nuevos: upd08
+  Troop Army Simulator: 7→9 activos (+2), 8→6 exp
+    Nuevos: Ice, Jungle
+  Trick Or Treat: 0→1 activos (+1), 6→5 exp
+    Nuevos: 10klikes
+  Tropical House Tycoon: 0→1 activos (+1), 2→1 exp
+    Nuevos: TROPICAL
+  Tv Defense: 41→42 activos (+1), 4→3 exp
+    Nuevos: CHRISTMAS2026
+  Tug Of War Simulator: 20→23 activos (+3), 5→2 exp
+    Nuevos: release, light, 777
+  Uca: 25→44 activos (+19), 19→0 exp
+    Nuevos: 4KLIKES, 600KVISITS, SORRY4SHUTDOWN, POGCHAMP, 900KVISITS, 9KLIKES, 1MVISITS, 11KLIKES, LASTUPDATE, 12KLIKES, 7KLIKES, THANKSFORPLAYING, 10KLIKES, 800KVISITS, 6KLIKES, 8KLIKES, 700KVISITS, 13KLIKES, 5KLIKES
+  Type Soul: 5→7 activos (+2), 340→338 exp
+    Nuevos: leafyhorizoncore, thanksgivingbreakwoohoo
+  Ugc Rng: 12→14 activos (+2), 2→0 exp
+    Nuevos: Arc4, 2KLikes
+  Ugc Dont Move: 7→9 activos (+2), 132→130 exp
+    Nuevos: SnoopyisBack, Hearts
+  Ultimate Anime Simulator: 7→12 activos (+5), 7→2 exp
+    Nuevos: Discord200, Gem600, Group110, Update900, Update140
+  Ultra Clicker 2: 9→10 activos (+1), 30→29 exp
+    Nuevos: SKIBI
+  Ultra Toilet Fight: 0→7 activos (+7), 10→3 exp
+    Nuevos: ReleasePoints, 3MVISITS, 1KFOLLOWERS, SorryForThat, 30KVISITS, 4MVISITS, 8MVISITS
+  Ultra Utmm Game: 6→9 activos (+3), 7→4 exp
+    Nuevos: TyFor200KVisits, THXFOR500KVISITS, THXFOR600KVISITS
+  Undead Rising Tycoon: 0→1 activos (+1), 2→1 exp
+    Nuevos: RELEASE
+  Undertale Rng: 0→7 activos (+7), 93→86 exp
+    Nuevos: npcfix3, npcfix2, alwaysblametesters, summereventpatch, jarona, npcfix, duckhuntfix
+  Underworld Realm: 11→14 activos (+3), 5→2 exp
+    Nuevos: 100kvisits, 1Klikes, 10kvisits
+  Universal Piece: 26→41 activos (+15), 28→13 exp
+    Nuevos: MytheryBook, SorryDelayy, WorldBoss, TheHunter, sorryforshutdown, Decay, delayy, DeathScythe, Betrayer, DelayCode, NewGameMode, WAerxz_OV, WBonus, WBiboss_Family, Mecha
+  Unknown Rng: 35→37 activos (+2), 77→75 exp
+    Nuevos: ReleaseUpdate, 22KLikes
+  Unnamed Rpg Game: 0→3 activos (+3), 3→0 exp
+    Nuevos: tuna, EOSIVHNFDOS, TUTORIAL
+  Unlock Football Legends: 56→58 activos (+2), 5→3 exp
+    Nuevos: UPDATE6, 20KLIKES
+  Unordinary: 14→16 activos (+2), 2→0 exp
+    Nuevos: !500Likes, !SorryForShutdown
+  Untitled Gym Game: 15→19 activos (+4), 12→8 exp
+    Nuevos: 100KCASH, imtired, Release, THANKU10KMEMBERS
+  Untitled Boxing Game: 11→15 activos (+4), 149→145 exp
+    Nuevos: adrenaline, justtakethecash, whitecash, vexthegoat
+  Urban Moto: 0→5 activos (+5), 8→3 exp
+    Nuevos: 10KLIKES, rizzical, doodooda, CODE7K, ihearturbanmoto
+  Vehicle Legends: 0→4 activos (+4), 14→10 exp
+    Nuevos: 200MilVisits, thxforwaiting, thxfor250k, V3HICL3L3G3NDS
+  Volleyball Ascended: 21→23 activos (+2), 1→0 exp
+    Nuevos: updated
+  Vision: 0→26 activos (+26), 50→24 exp
+    Nuevos: 10KFavourites, 3MVISITS, KAIOKEN, 5000Likes, 5000CCU, UPDATEOUT, SUPERSAIYAN, 2MVisits, ANNOYINGMATCHMAKING, 15KFavourites, NEWEFFECTS, 5MVISITS, BUYPRIVATESERVER, EXCITEDFORTOURNAMENT, HALLOWEEN, GOALKEEPERLOVE, 10KLIKES, ITOSHISAE, CHRISTMAS!!!, GOAFK, ZarNoMeta, SORRYFORNOUPDATES, SAEEVENSTRONGER, HALLOWEENUPDATESOON, WHENISPART2, VISIONISBACK
+  War Age Tycoon: 10→14 activos (+4), 21→17 exp
+    Nuevos: weaponfighting, happyday, welcome, goodluck
+  Wblack Skate Simulator: 3→4 activos (+1), 1→0 exp
+    Nuevos: RELEASE
+  Water Pumping Incremental: 10→15 activos (+5), 6→1 exp
+    Nuevos: Data_Loss, F2P_Love, 250KVisits, 10_Keys, Update_3
+  Weapon Crafting Simulator: 9→12 activos (+3), 5→2 exp
+    Nuevos: Woo1200, Woo500, RELEASE
+  Weapon Mayhem: 45→61 activos (+16), 35→19 exp
+    Nuevos: 2MILLION, weebledeeblelee, oops, 3000LIKES, summer, mocha, bigoops, share, 3500LIKES, 4000LIKES, freecoins, randomizerbrawl, freerubies, astros, pog, bink
+  Weapon Masters: 17→21 activos (+4), 45→41 exp
+    Nuevos: newyears2022, season11, season8, pepe374
+  Weapon Master Vs Anime: 9→10 activos (+1), 1→0 exp
+    Nuevos: DiscordWelcom
+  Wild Rails Tower Defense: 19→20 activos (+1), 6→5 exp
+    Nuevos: Sherrif
+  Wind Slayers: 5→6 activos (+1), 0→0 exp
+  Workout Island: 21→40 activos (+19), 37→18 exp
+    Nuevos: russo, BabyNoob, Fools, BuffNoobJr, tofuu, ChillNoob, NoobieKart, Valentines, gaming_dan, iLoveWI, XMAS, jackedtiger, gravy, bicep, Turkey, workoutisland, 100M, OutageIsland, workoutpro
+  World Tower Defense: 4→5 activos (+1), 1→0 exp
+    Nuevos: twentymillionplus1k
+  Yard Sale: 13→14 activos (+1), 2→2 exp
+  Yba New Universe: 26→27 activos (+1), 51→50 exp
+    Nuevos: OneLastUpdateForALongTime
+  Your Hospital: 18→21 activos (+3), 3→1 exp
+    Nuevos: 1KLIKES, twentyfiveksales
+  Zo Samurai: 4→8 activos (+4), 23→19 exp
+    Nuevos: RMB, LMB, SHIFT, CTRL
+  Zombie Battle Tycoon: 12→14 activos (+2), 15→13 exp
+    Nuevos: 25KLIKES, 10KLIKES
+  Zombie Hunters: 12→13 activos (+1), 9→8 exp
+    Nuevos: SorryEveryone
+  Zombie Defense: 38→41 activos (+3), 45→42 exp
+    Nuevos: Celebration!, Verifiedgroup!, Halloween2024
+  Zombie Simulator: 0→1 activos (+1), 5→4 exp
+    Nuevos: HALLOWEEN
+  Zombie Tycoon: 0→19 activos (+19), 24→5 exp
+    Nuevos: PENGUINS26, BLOOMY, SANTA, SPACELAUNCH, DOZEN, MILLIONVISITS, 4KL1K3S, BAGOFLIKES, ZOMBIE, MINIBOSSES, EIGHT000, HAPPY2022, SIXTEEN1000, LOTSOFLIKES, THANKSFOR10K, 18KTHUMBS, MAPLE24, SUMMERTIME, PALMS22
+  Zoo Tycoon 2: 0→6 activos (+6), 6→0 exp
+    Nuevos: agua, hybrid, employees, firstupdate, sixklikes, gemz
+  Zombies Vs Humans: 1→2 activos (+1), 2→2 exp
