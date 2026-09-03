@@ -4,14 +4,9 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-e0f69f1a31c02a5838bb9bf2ddbddf7d/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Last Stand en Roblox",
   "metaTitle": "Códigos Anime Last Stand Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Last Stand en Roblox. 47 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-03T12:24:14.547Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Last Stand en Roblox. 37 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-03T22:04:12.178Z",
   "activeCodes": [
-    {
-      "code": "ElfReincarnation!",
-      "reward": "25 Rerolls, 10 Mythic Shards, and 100 Essence Selectors",
-      "addedDate": "2026-09-03"
-    },
     {
       "code": "MagicKnights!",
       "reward": "35 Rerolls, 25 Perfect Stat Cubes, 50 Stat Cubes",
@@ -183,6 +178,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "EXB82",
+      "reward": "10 Reroll Locks",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "BalancePatch2",
       "reward": "200 Rerolls, 20 Pearls",
       "addedDate": "2026-08-01"
@@ -191,62 +191,148 @@
       "code": "UpdateQOL82",
       "reward": "10 Premium Rerolls",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "EXB82",
-      "reward": "10 Reroll Locks",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "Sub2CodeNex77k",
-      "reward": "Recompensas (Permanent, only be used once) gratis",
-      "addedDate": "2026-09-03"
-    },
-    {
-      "code": "Sub2ZerozKinger1MilSubs",
-      "reward": "150 Emeralds (Permanent, only be used once)",
-      "addedDate": "2026-09-03"
-    },
-    {
-      "code": "Sub2KingLuffy",
-      "reward": "250 Emeralds (Permanent, only be used once)",
-      "addedDate": "2026-09-03"
-    },
-    {
-      "code": "NeelsTV",
-      "reward": "250 Emeralds (Permanent, only be used once)",
-      "addedDate": "2026-09-03"
-    },
-    {
-      "code": "Sub2Shock",
-      "reward": "150 Emeralds (Permanent, only be used once)",
-      "addedDate": "2026-09-03"
-    },
-    {
-      "code": "Sub2Noclypso176k",
-      "reward": "3 Rerolls and 250 Emeralds (Permanent, only be used once)",
-      "addedDate": "2026-09-03"
-    },
-    {
-      "code": "Sub2MayyjeeeOrCodeWontWork",
-      "reward": "Recompensas (Permanent, only be used once) gratis",
-      "addedDate": "2026-09-03"
-    },
-    {
-      "code": "D1SGUISED",
-      "reward": "Recompensas (Permanent, only be used once) gratis",
-      "addedDate": "2026-09-03"
-    },
-    {
-      "code": "Sub2BmGTormenter117onYT",
-      "reward": "Recompensas (Permanent, only be used once) gratis",
-      "addedDate": "2026-09-03"
     }
   ],
   "expiredCodes": [
     {
-      "code": "SUMMERPART2",
-      "reward": "150 Emeralds, 7 Rerolls and 250 Shells"
+      "code": "ElfReincarnation!",
+      "reward": "25 Rerolls, 10 Mythic Shards, and 100 Essence Selectors"
+    },
+    {
+      "code": "Sub2CodeNex77k",
+      "reward": "Recompensas (Permanent, only be used once) gratis"
+    },
+    {
+      "code": "Sub2ZerozKinger1MilSubs",
+      "reward": "150 Emeralds (Permanent, only be used once)"
+    },
+    {
+      "code": "Sub2KingLuffy",
+      "reward": "250 Emeralds (Permanent, only be used once)"
+    },
+    {
+      "code": "NeelsTV",
+      "reward": "250 Emeralds (Permanent, only be used once)"
+    },
+    {
+      "code": "Sub2Shock",
+      "reward": "150 Emeralds (Permanent, only be used once)"
+    },
+    {
+      "code": "Sub2Noclypso176k",
+      "reward": "3 Rerolls and 250 Emeralds (Permanent, only be used once)"
+    },
+    {
+      "code": "Sub2MayyjeeeOrCodeWontWork",
+      "reward": "Recompensas (Permanent, only be used once) gratis"
+    },
+    {
+      "code": "D1SGUISED",
+      "reward": "Recompensas (Permanent, only be used once) gratis"
+    },
+    {
+      "code": "Sub2BmGTormenter117onYT",
+      "reward": "Recompensas (Permanent, only be used once) gratis"
+    },
+    {
+      "code": "Welcome!!",
+      "reward": "15,000 Emeralds"
+    },
+    {
+      "code": "PodcastyCodeBois!",
+      "reward": "25 Rerolls"
+    },
+    {
+      "code": "BMvsPG!",
+      "reward": "10 Technique Shards and 1 Pearl"
+    },
+    {
+      "code": "PatchNiceWee!",
+      "reward": "30 Pearls, 200 Technique Shards"
+    },
+    {
+      "code": "NewBanner",
+      "reward": "20 Technique Shards"
+    },
+    {
+      "code": "ThrillerNext!",
+      "reward": "20 Rerolls"
+    },
+    {
+      "code": "TheOne",
+      "reward": "Jewels"
+    },
+    {
+      "code": "BattlepassReset!",
+      "reward": "20 Technique Shards and Code objetos"
+    },
+    {
+      "code": "SkinBanner!",
+      "reward": "25 skin tickets"
+    },
+    {
+      "code": "FreeBossBKK!",
+      "reward": "50 Rerolls"
+    },
+    {
+      "code": "TitansAreReal",
+      "reward": "25 Technique Shards and Code objetos"
+    },
+    {
+      "code": "LSwat!",
+      "reward": "35 Rerolls"
+    },
+    {
+      "code": "130klikes!",
+      "reward": "Pearl, 20 Technique Shards"
+    },
+    {
+      "code": "MoreUIReworks",
+      "reward": "Pearl, 10 Technique Shards"
+    },
+    {
+      "code": "SorryFORShutdown",
+      "reward": "Pearl, 10 Technique Shards"
+    },
+    {
+      "code": "NewSecret!",
+      "reward": "200 Jewels and 10 Rerolls"
+    },
+    {
+      "code": "TensuraSlime!",
+      "reward": "100 Jewels and 5 Rerolls"
+    },
+    {
+      "code": "UpdFIXES!",
+      "reward": "Pearl, 20 Technique Shards"
+    },
+    {
+      "code": "QUESTRESET",
+      "reward": "5 Rerolls"
+    },
+    {
+      "code": "TY1MGroup",
+      "reward": "20 Rerolls"
+    },
+    {
+      "code": "WorldHop!",
+      "reward": "Code objetos"
+    },
+    {
+      "code": "ShadowMonarch!",
+      "reward": "20 Technique Shards and Code objetos"
+    },
+    {
+      "code": "GodlyUpdate",
+      "reward": "Pearl, 10 Technique Shards"
+    },
+    {
+      "code": "Caverns!",
+      "reward": "Pearl, 15 Technique Shards"
+    },
+    {
+      "code": "SorryForShutdownAgain",
+      "reward": "Pearl, 10 Technique Shards"
     },
     {
       "code": "QOLpart2Next!",
@@ -259,18 +345,6 @@
     {
       "code": "BugsFixed!",
       "reward": "400 Jewels and 400 Candy"
-    },
-    {
-      "code": "MoreCodes!!",
-      "reward": "250 Emeralds and 5 Rerolls"
-    },
-    {
-      "code": "20FINGERS!",
-      "reward": "20 Rerolls"
-    },
-    {
-      "code": "Nomoredelay!",
-      "reward": "15 Rerolls"
     },
     {
       "code": "LevelRewards!",
@@ -293,64 +367,136 @@
       "reward": "10 Technique Shards and Code objetos"
     },
     {
-      "code": "EmeraldCode3!",
-      "reward": "10 Technique Shards and 15,000 Emeralds"
-    },
-    {
       "code": "ValentinesDayPart2",
       "reward": "15 Technique Shards, 150 Valentine's Letters and Code objetos"
+    },
+    {
+      "code": "QoLQuality!",
+      "reward": "25 Pearls, 200 Technique Shards"
+    },
+    {
+      "code": "SecretCode!",
+      "reward": "10 Technique Shards"
+    },
+    {
+      "code": "OnePieceUPD!",
+      "reward": "10 Technique Shards and Code objetos"
+    },
+    {
+      "code": "BossIGCool!",
+      "reward": "15 Rerolls"
+    },
+    {
+      "code": "ThrillerBark",
+      "reward": "1,000 Jewels and 25 Rerolls"
+    },
+    {
+      "code": "TournamentReset!",
+      "reward": "Pearls, 20 Technique Shards"
+    },
+    {
+      "code": "SUMMERPART2",
+      "reward": "150 Emeralds, 7 Rerolls and 250 Shells"
     },
     {
       "code": "TorSavedALS",
       "reward": "750 Emeralds and 10 Rerolls"
     },
     {
-      "code": "AFKCAPSULEYAY",
-      "reward": "300 Emeralds"
+      "code": "20FINGERS!",
+      "reward": "20 Rerolls"
+    },
+    {
+      "code": "MoreCodes!!",
+      "reward": "250 Emeralds and 5 Rerolls"
+    },
+    {
+      "code": "GODLIES",
+      "reward": "25 Rerolls"
+    },
+    {
+      "code": "Bugfixesgoincrazy",
+      "reward": "10 Rerolls"
+    },
+    {
+      "code": "Event!!!",
+      "reward": "50 Slime monedas and 10 Rerolls"
+    },
+    {
+      "code": "UPDTIME",
+      "reward": "25 Rerolls"
+    },
+    {
+      "code": "Spooky!",
+      "reward": "50 Candy"
+    },
+    {
+      "code": "BLEACH",
+      "reward": "15 Rerolls"
     },
     {
       "code": "KROSSJJKHAMASSA",
       "reward": "15 Rerolls"
     },
     {
-      "code": "TensuraSlime!",
-      "reward": "100 Jewels and 5 Rerolls"
+      "code": "JOJOUpdate!",
+      "reward": "25 Rerolls"
+    },
+    {
+      "code": "ZankaNoTachi",
+      "reward": "250 Jewels, 25 Rerolls and 100 Soul monedas"
     },
     {
       "code": "SorryForBugs!!",
       "reward": "400 Soul monedas"
     },
     {
-      "code": "PodcastyCodeBois!",
-      "reward": "25 Rerolls"
+      "code": "Raffle",
+      "reward": "10 Rerolls and Code objetos"
+    },
+    {
+      "code": "DBUPDPt2!",
+      "reward": "15 Rerolls"
+    },
+    {
+      "code": "NewLobby!",
+      "reward": "15 Rerolls"
     },
     {
       "code": "BossRush!",
       "reward": "350 Jewels and 20 Rerolls"
     },
     {
-      "code": "BMvsPG!",
-      "reward": "10 Technique Shards and 1 Pearl"
+      "code": "SORRYforIssues!!",
+      "reward": "200 Snowflakes and 15 Rerolls"
     },
     {
-      "code": "PatchNiceWee!",
-      "reward": "30 Pearls, 200 Technique Shards"
+      "code": "ChristmasRaid!",
+      "reward": "25 Technique Shards and 300 Snowflakes"
     },
     {
-      "code": "NewBanner",
-      "reward": "20 Technique Shards"
+      "code": "NewGlobalBoss!",
+      "reward": "20 Technique Shards and Code objetos"
     },
     {
-      "code": "LobbyFix!",
-      "reward": "50 Technique Shards And 10 Pearls"
+      "code": "NewUi!",
+      "reward": "20 Technique Shards and 400 Shards of Susanoo"
     },
     {
-      "code": "ThrillerNext!",
-      "reward": "20 Rerolls"
+      "code": "AnniDungeonRelease!",
+      "reward": "11 Technique Shards and Code objetos"
     },
     {
-      "code": "TheOne",
-      "reward": "Jewels"
+      "code": "GodlyLuffy!",
+      "reward": "30 Technique Shards and Code objetos"
+    },
+    {
+      "code": "EmeraldCode3!",
+      "reward": "10 Technique Shards and 15,000 Emeralds"
+    },
+    {
+      "code": "NewDungeon",
+      "reward": "Pearl, 10 Technique Shards"
     },
     {
       "code": "OPMUpdate",
@@ -381,24 +527,20 @@
       "reward": "500 Emeralds and 5 Rerolls"
     },
     {
-      "code": "EasterUpdate",
-      "reward": "Pearl, 12 Technique Shards"
-    },
-    {
-      "code": "DBUPDPt2!",
-      "reward": "15 Rerolls"
-    },
-    {
-      "code": "NewLobby!",
-      "reward": "15 Rerolls"
-    },
-    {
       "code": "SOLOPREPARING!",
       "reward": "500 Emeralds and 5 Rerolls"
     },
     {
+      "code": "LobbyFix!",
+      "reward": "50 Technique Shards And 10 Pearls"
+    },
+    {
       "code": "SOLOLEVELING!",
       "reward": "750 Emeralds and 10 Rerolls"
+    },
+    {
+      "code": "72LongMaint!",
+      "reward": "100 Halloween Capsules"
     },
     {
       "code": "HBDCaleB2024",
@@ -407,18 +549,6 @@
     {
       "code": "QOLUpdate2!",
       "reward": "500 Emeralds and 10 Rerolls"
-    },
-    {
-      "code": "CID!",
-      "reward": "100 Emeralds, 5 Rerolls and 50 Shells"
-    },
-    {
-      "code": "Summer2024!",
-      "reward": "200 Emeralds, 5 Rerolls and 100 Shells"
-    },
-    {
-      "code": "AnotherSecretCode!",
-      "reward": "10 Technique Shards and Code objetos"
     },
     {
       "code": "QuickRestart!",
@@ -433,8 +563,32 @@
       "reward": "50 Technique Shards, 2 Pearls"
     },
     {
+      "code": "SummerFixes!!",
+      "reward": "20 Technique Shards, 400 Red Corals, 100 Pirate Treasure, 20 Summer Bingo Stamps"
+    },
+    {
+      "code": "EasterUpdate",
+      "reward": "Pearl, 12 Technique Shards"
+    },
+    {
       "code": "RobloxWasDown!",
       "reward": "2 Pearls, 25 Technique Shards"
+    },
+    {
+      "code": "CID!",
+      "reward": "100 Emeralds, 5 Rerolls and 50 Shells"
+    },
+    {
+      "code": "Summer2024!",
+      "reward": "200 Emeralds, 5 Rerolls and 100 Shells"
+    },
+    {
+      "code": "SorryForFix!!",
+      "reward": "50 Technique Shards"
+    },
+    {
+      "code": "AFKCAPSULEYAY",
+      "reward": "300 Emeralds"
     },
     {
       "code": "ChooChoo",
@@ -443,6 +597,54 @@
     {
       "code": "2xPOINTS",
       "reward": "25 Rerolls"
+    },
+    {
+      "code": "Nomoredelay!",
+      "reward": "15 Rerolls"
+    },
+    {
+      "code": "AnotherSecretCode!",
+      "reward": "10 Technique Shards and Code objetos"
+    },
+    {
+      "code": "SryForDelay!",
+      "reward": "10 Rerolls"
+    },
+    {
+      "code": "300KLIKES!!",
+      "reward": "250 Jewels and 15 Rerolls"
+    },
+    {
+      "code": "ShinigamiVsQuincy",
+      "reward": "25 Rerolls, 100 Soul monedas and Code objetos"
+    },
+    {
+      "code": "HAIENERA",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "WORLD2ISOUT",
+      "reward": "25 Rerolls"
+    },
+    {
+      "code": "NewEraComing",
+      "reward": "25 Rerolls"
+    },
+    {
+      "code": "FollowBoss",
+      "reward": "300 Emeralds and 5 Rerolls"
+    },
+    {
+      "code": "QOLSprinkleUPD",
+      "reward": "500 Emeralds and 10 Rerolls"
+    },
+    {
+      "code": "TheBossIG4ds!",
+      "reward": "10 Rerolls And 2 Pearls"
+    },
+    {
+      "code": "NewCCURecord!",
+      "reward": "150 Technique Shards, 15 Pearls"
     },
     {
       "code": "BOBAKISBACK!",
@@ -493,12 +695,16 @@
       "reward": "25 Rerolls"
     },
     {
-      "code": "SorryForFix!!",
-      "reward": "50 Technique Shards"
+      "code": "EnchantsSoon",
+      "reward": "25 Technique Shards and Code objetos"
     },
     {
-      "code": "SryForDelay!",
-      "reward": "10 Rerolls"
+      "code": "NewUpdateKrazy!",
+      "reward": "5 Rerolls"
+    },
+    {
+      "code": "RobloxBrokeUs!",
+      "reward": "30 Rerolls and 20 Shinobi tokens"
     },
     {
       "code": "NewGodly!",
@@ -507,14 +713,6 @@
     {
       "code": "GreatWarWow!",
       "reward": "400 Shards Of Susanoo"
-    },
-    {
-      "code": "300KLIKES!!",
-      "reward": "250 Jewels and 15 Rerolls"
-    },
-    {
-      "code": "GodlyLuffy!",
-      "reward": "30 Technique Shards and Code objetos"
     },
     {
       "code": "InventoryRework!",
@@ -537,32 +735,16 @@
       "reward": "20 Technique Shards and 1 Pearl"
     },
     {
-      "code": "ShinigamiVsQuincy",
-      "reward": "25 Rerolls, 100 Soul monedas and Code objetos"
+      "code": "200KLIKES",
+      "reward": "20 Rerolls"
     },
     {
-      "code": "HAIENERA",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "72LongMaint!",
-      "reward": "100 Halloween Capsules"
+      "code": "UNSEALED",
+      "reward": "250 Jewels and 15 Rerols"
     },
     {
       "code": "UPDTTALS!",
       "reward": "150 Rerolls And 20 Pearls"
-    },
-    {
-      "code": "WORLD2ISOUT",
-      "reward": "25 Rerolls"
-    },
-    {
-      "code": "NewEraComing",
-      "reward": "25 Rerolls"
-    },
-    {
-      "code": "FollowBoss",
-      "reward": "300 Emeralds and 5 Rerolls"
     },
     {
       "code": "Breach!",
@@ -593,20 +775,16 @@
       "reward": "Pearl, 10 Technique Shards"
     },
     {
-      "code": "QOLSprinkleUPD",
-      "reward": "500 Emeralds and 10 Rerolls"
+      "code": "UpdateFIXES!!",
+      "reward": "Pearl, 15 Technique Shards"
     },
     {
-      "code": "TheBossIG4ds!",
-      "reward": "10 Rerolls And 2 Pearls"
+      "code": "EmeraldCode2!",
+      "reward": "10 Technique Shards and 15,000 Emeralds"
     },
     {
-      "code": "NewCCURecord!",
-      "reward": "150 Technique Shards, 15 Pearls"
-    },
-    {
-      "code": "EnchantsSoon",
-      "reward": "25 Technique Shards and Code objetos"
+      "code": "LateUpdSorry!",
+      "reward": "2,000 Emeralds and 20 Rerolls"
     },
     {
       "code": "NewSecretPortals",
@@ -621,28 +799,12 @@
       "reward": "500 Jewels and 10 Rerolls"
     },
     {
-      "code": "BLEACH",
-      "reward": "15 Rerolls"
-    },
-    {
       "code": "SUPPORTCRAZY",
       "reward": "20 Rerolls"
     },
     {
-      "code": "JOJOUpdate!",
-      "reward": "25 Rerolls"
-    },
-    {
-      "code": "ZankaNoTachi",
-      "reward": "250 Jewels, 25 Rerolls and 100 Soul monedas"
-    },
-    {
       "code": "JointheGram!",
       "reward": "10 Rerolls"
-    },
-    {
-      "code": "Raffle",
-      "reward": "10 Rerolls and Code objetos"
     },
     {
       "code": "NewEra!",
@@ -657,26 +819,6 @@
       "reward": "3,000 Emeralds and 20 Rerolls"
     },
     {
-      "code": "SORRYforIssues!!",
-      "reward": "200 Snowflakes and 15 Rerolls"
-    },
-    {
-      "code": "ChristmasRaid!",
-      "reward": "25 Technique Shards and 300 Snowflakes"
-    },
-    {
-      "code": "NewGlobalBoss!",
-      "reward": "20 Technique Shards and Code objetos"
-    },
-    {
-      "code": "NewUi!",
-      "reward": "20 Technique Shards and 400 Shards of Susanoo"
-    },
-    {
-      "code": "AnniDungeonRelease!",
-      "reward": "11 Technique Shards and Code objetos"
-    },
-    {
       "code": "UIRevamp!",
       "reward": "10 Technique Shards and Code objetos"
     },
@@ -689,40 +831,8 @@
       "reward": "10 Technique Shards and 15,000 Emeralds"
     },
     {
-      "code": "NewDungeon",
-      "reward": "Pearl, 10 Technique Shards"
-    },
-    {
       "code": "FireForce",
       "reward": "10 technique Shards and 1 Pearl"
-    },
-    {
-      "code": "NewUpdateKrazy!",
-      "reward": "5 Rerolls"
-    },
-    {
-      "code": "RobloxBrokeUs!",
-      "reward": "30 Rerolls and 20 Shinobi tokens"
-    },
-    {
-      "code": "200KLIKES",
-      "reward": "20 Rerolls"
-    },
-    {
-      "code": "UNSEALED",
-      "reward": "250 Jewels and 15 Rerols"
-    },
-    {
-      "code": "UpdateFIXES!!",
-      "reward": "Pearl, 15 Technique Shards"
-    },
-    {
-      "code": "EmeraldCode2!",
-      "reward": "10 Technique Shards and 15,000 Emeralds"
-    },
-    {
-      "code": "LateUpdSorry!",
-      "reward": "2,000 Emeralds and 20 Rerolls"
     },
     {
       "code": "MakeYourClan!",
@@ -737,128 +847,8 @@
       "reward": "250 Emeralds and 5 Rerolls"
     },
     {
-      "code": "BattlepassReset!",
-      "reward": "20 Technique Shards and Code objetos"
-    },
-    {
       "code": "NewHeights",
       "reward": "100 Pearls, 1000 Rerolls, Peak Player (título)"
-    },
-    {
-      "code": "SkinBanner!",
-      "reward": "25 skin tickets"
-    },
-    {
-      "code": "LSwat!",
-      "reward": "35 Rerolls"
-    },
-    {
-      "code": "NewSecret!",
-      "reward": "200 Jewels and 10 Rerolls"
-    },
-    {
-      "code": "Caverns!",
-      "reward": "Pearl, 15 Technique Shards"
-    },
-    {
-      "code": "QoLQuality!",
-      "reward": "25 Pearls, 200 Technique Shards"
-    },
-    {
-      "code": "SecretCode!",
-      "reward": "10 Technique Shards"
-    },
-    {
-      "code": "OnePieceUPD!",
-      "reward": "10 Technique Shards and Code objetos"
-    },
-    {
-      "code": "BossIGCool!",
-      "reward": "15 Rerolls"
-    },
-    {
-      "code": "ThrillerBark",
-      "reward": "1,000 Jewels and 25 Rerolls"
-    },
-    {
-      "code": "FreeBossBKK!",
-      "reward": "50 Rerolls"
-    },
-    {
-      "code": "TournamentReset!",
-      "reward": "Pearls, 20 Technique Shards"
-    },
-    {
-      "code": "TitansAreReal",
-      "reward": "25 Technique Shards and Code objetos"
-    },
-    {
-      "code": "Spooky!",
-      "reward": "50 Candy"
-    },
-    {
-      "code": "130klikes!",
-      "reward": "Pearl, 20 Technique Shards"
-    },
-    {
-      "code": "SummerFixes!!",
-      "reward": "20 Technique Shards, 400 Red Corals, 100 Pirate Treasure, 20 Summer Bingo Stamps"
-    },
-    {
-      "code": "MoreUIReworks",
-      "reward": "Pearl, 10 Technique Shards"
-    },
-    {
-      "code": "SorryFORShutdown",
-      "reward": "Pearl, 10 Technique Shards"
-    },
-    {
-      "code": "Welcome!!",
-      "reward": "15,000 Emeralds"
-    },
-    {
-      "code": "UPDTIME",
-      "reward": "25 Rerolls"
-    },
-    {
-      "code": "UpdFIXES!",
-      "reward": "Pearl, 20 Technique Shards"
-    },
-    {
-      "code": "QUESTRESET",
-      "reward": "5 Rerolls"
-    },
-    {
-      "code": "TY1MGroup",
-      "reward": "20 Rerolls"
-    },
-    {
-      "code": "WorldHop!",
-      "reward": "Code objetos"
-    },
-    {
-      "code": "ShadowMonarch!",
-      "reward": "20 Technique Shards and Code objetos"
-    },
-    {
-      "code": "GodlyUpdate",
-      "reward": "Pearl, 10 Technique Shards"
-    },
-    {
-      "code": "Event!!!",
-      "reward": "50 Slime monedas and 10 Rerolls"
-    },
-    {
-      "code": "Bugfixesgoincrazy",
-      "reward": "10 Rerolls"
-    },
-    {
-      "code": "SorryForShutdownAgain",
-      "reward": "Pearl, 10 Technique Shards"
-    },
-    {
-      "code": "GODLIES",
-      "reward": "25 Rerolls"
     },
     {
       "code": "ShhhThisIsASecret!",
