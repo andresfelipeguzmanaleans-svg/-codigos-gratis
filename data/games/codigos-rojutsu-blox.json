@@ -5,80 +5,103 @@
   "description": "Todos los códigos activos para Rojutsu Blox en Roblox",
   "metaTitle": "Códigos Rojutsu Blox Roblox (Septiembre 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Rojutsu Blox en Roblox. 10 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-02T22:14:52.213Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-09-03T12:26:02.057Z",
+  "activeCodes": [
     {
       "code": "!RegSpin4",
-      "reward": "1 Regular giro"
+      "reward": "1 Regular giro",
+      "addedDate": "2026-09-03"
     },
     {
       "code": "!RegSpin3",
-      "reward": "Regular giro"
+      "reward": "Regular giro",
+      "addedDate": "2026-09-03"
     },
     {
       "code": "!PremSpin3",
-      "reward": "Premium giro"
+      "reward": "Premium giro",
+      "addedDate": "2026-09-03"
     },
     {
       "code": "!PremSpin7",
-      "reward": "1 Premium giro"
+      "reward": "1 Premium giro",
+      "addedDate": "2026-09-03"
     },
     {
       "code": "!PremSpin8",
-      "reward": "Premium giro"
+      "reward": "Premium giro",
+      "addedDate": "2026-09-03"
     },
     {
       "code": "!RegSpin5",
-      "reward": "Regular giro"
+      "reward": "Regular giro",
+      "addedDate": "2026-09-03"
     },
     {
       "code": "!RegSpin2",
-      "reward": "Regular giro"
+      "reward": "Regular giro",
+      "addedDate": "2026-09-03"
     },
     {
       "code": "!RegSpin1",
-      "reward": "Regular giro"
+      "reward": "Regular giro",
+      "addedDate": "2026-09-03"
     },
     {
       "code": "!PremSpin1",
-      "reward": "Premium giro"
+      "reward": "Premium giro",
+      "addedDate": "2026-09-03"
     },
     {
       "code": "!PremSpin2",
-      "reward": "Premium giro"
-    },
+      "reward": "Premium giro",
+      "addedDate": "2026-09-03"
+    }
+  ],
+  "expiredCodes": [
     {
-      "code": "!BloodCurse",
-      "reward": "90 giros"
+      "code": "!1MVisits",
+      "reward": "50 giros"
     },
     {
       "code": "!Parties",
       "reward": "50 giros"
     },
     {
-      "code": "!ReKatana",
-      "reward": "10 Premium giros, 45 giros, and 1.5x XP (15 minutos)"
+      "code": "!ReBalance2",
+      "reward": "1.5x XP (30 minutos)"
+    },
+    {
+      "code": "!ReColor5",
+      "reward": "1 Random Cursed energía Colour"
+    },
+    {
+      "code": "!ReColor7",
+      "reward": "1 Random Cursed energía Colour"
     },
     {
       "code": "!ReColor3",
       "reward": "Random Cursed energía Color"
     },
     {
-      "code": "!ReBalance2",
-      "reward": "1.5x XP (30 minutos)"
+      "code": "!ReKatana",
+      "reward": "10 Premium giros, 45 giros, and 1.5x XP (15 minutos)"
     },
     {
       "code": "!ReColor2",
       "reward": "Random Cursed energía Color"
     },
     {
-      "code": "!PrestCode7",
-      "reward": "5% chance to keep your stats and gain a prestige level"
-    },
-    {
       "code": "!MobileFix1",
       "reward": "EXP Boost"
+    },
+    {
+      "code": "!Fix2",
+      "reward": "45 giros"
+    },
+    {
+      "code": "!PrestCode7",
+      "reward": "5% chance to keep your stats and gain a prestige level"
     },
     {
       "code": "!Spin2",
@@ -87,10 +110,6 @@
     {
       "code": "!EarlyAlpha",
       "reward": "Level Up"
-    },
-    {
-      "code": "!Fix2",
-      "reward": "45 giros"
     },
     {
       "code": "!PrestCode5",
@@ -103,50 +122,6 @@
     {
       "code": "!PrestCode3",
       "reward": "5% chance to keep your stats and gain a prestige level"
-    },
-    {
-      "code": "!ReColor5",
-      "reward": "1 Random Cursed energía Colour"
-    },
-    {
-      "code": "!ReColor7",
-      "reward": "1 Random Cursed energía Colour"
-    },
-    {
-      "code": "!FirstResetCode",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "!Upd3",
-      "reward": "60 giros, 2,500 Yen, 50,000 XP, and 1.5x XP (30 minutos)"
-    },
-    {
-      "code": "!20KLikes",
-      "reward": "45 giros and 200,000 XP"
-    },
-    {
-      "code": "!Prestige",
-      "reward": "60 giros"
-    },
-    {
-      "code": "!PremiumSpin1",
-      "reward": "10 Premium giros"
-    },
-    {
-      "code": "!Appreciation",
-      "reward": "Level Up"
-    },
-    {
-      "code": "!Spin1",
-      "reward": "50 giros"
-    },
-    {
-      "code": "!EXPCode1",
-      "reward": "500,000 XP"
-    },
-    {
-      "code": "!ResetCode1",
-      "reward": "Reinicio de stats"
     },
     {
       "code": "!ReColor1",
@@ -185,8 +160,8 @@
       "reward": "5% chance to keep your stats and gain a prestige level"
     },
     {
-      "code": "!1MVisits",
-      "reward": "50 giros"
+      "code": "!PremiumSpin2",
+      "reward": "15 Premium giros"
     },
     {
       "code": "!SpinCode1",
@@ -209,12 +184,32 @@
       "reward": "90 giros"
     },
     {
-      "code": "!PremiumSpin2",
-      "reward": "15 Premium giros"
+      "code": "!Spin1",
+      "reward": "50 giros"
+    },
+    {
+      "code": "!PremiumSpin1",
+      "reward": "10 Premium giros"
+    },
+    {
+      "code": "!ResetCode1",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "!BloodCurse",
+      "reward": "90 giros"
     },
     {
       "code": "!OtherFixes",
       "reward": "30 minutos of 1.5x EXP & 15 Premium giros"
+    },
+    {
+      "code": "!FirstResetCode",
+      "reward": "Redeem code to Reset stats"
+    },
+    {
+      "code": "!Upd3",
+      "reward": "60 giros, 2,500 Yen, 50,000 XP, 30 minutos of 1.5x EXP"
     },
     {
       "code": "!GiftsForAll",
@@ -225,7 +220,15 @@
       "reward": "30 giros, 5 Premium giros, 10,000 Yen"
     },
     {
+      "code": "!Prestige",
+      "reward": "60 giros"
+    },
+    {
       "code": "!Unique",
+      "reward": "45 giros"
+    },
+    {
+      "code": "!20KLikes",
       "reward": "45 giros"
     },
     {
@@ -254,6 +257,10 @@
     },
     {
       "code": "!Friends",
+      "reward": "A recompensa gratis"
+    },
+    {
+      "code": "!Appreciation",
       "reward": "A recompensa gratis"
     },
     {
@@ -315,6 +322,10 @@
     {
       "code": "!ReColor6",
       "reward": "1 Random Cursed energía Colour"
+    },
+    {
+      "code": "!EXPCode1",
+      "reward": "500,000 XP"
     }
   ],
   "howToRedeem": [

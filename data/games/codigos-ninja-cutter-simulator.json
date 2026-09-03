@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-bf2a236fdd8e29fbdce9c1eaf64a7999/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Ninja Cutter Simulator en Roblox",
   "metaTitle": "Códigos Ninja Cutter Simulator Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Ninja Cutter Simulator en Roblox. 48 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-02T22:14:27.779Z",
+  "metaDescription": "Lista actualizada de códigos para Ninja Cutter Simulator en Roblox. 51 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-03T12:25:39.690Z",
   "activeCodes": [
     {
       "code": "rebirth",
@@ -68,6 +68,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "shuriken",
+      "reward": "2x gemas Boost (30 minutos)",
+      "addedDate": "2026-09-03"
+    },
+    {
       "code": "iloveit",
       "reward": "Doble Skulls (5 minutos)",
       "addedDate": "2026-08-01"
@@ -116,6 +121,11 @@
       "code": "teleport",
       "reward": "Doble gemas (30 minutos)",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "update0906",
+      "reward": "Ignore daño (30 minutos)",
+      "addedDate": "2026-09-03"
     },
     {
       "code": "squid",
@@ -228,39 +238,32 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "15000likes",
-      "reward": "Doble Skull (30 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "christmas",
       "reward": "2x Skulls Boost (30 minutos)",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "trade",
-      "reward": "Doble gemas (30 minutos)",
+      "code": "15000likes",
+      "reward": "Doble Skull (30 minutos)",
       "addedDate": "2026-08-01"
     },
     {
       "code": "20000likes",
       "reward": "Doble Skull (30 minutos)",
       "addedDate": "2026-08-01"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "shuriken",
-      "reward": "2x gemas Boost (30 minutos)"
-    },
-    {
-      "code": "update0906",
-      "reward": "Ignore daño (30 minutos)"
     },
     {
       "code": "oversize",
-      "reward": "2x Skulls Boost (30 minutos)"
+      "reward": "2x Skulls Boost (30 minutos)",
+      "addedDate": "2026-09-03"
     },
+    {
+      "code": "trade",
+      "reward": "Doble gemas (30 minutos)",
+      "addedDate": "2026-08-01"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "2000likes",
       "reward": "2x gemas Boost (10 minutos)"

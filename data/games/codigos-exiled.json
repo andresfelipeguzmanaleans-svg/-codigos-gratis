@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-1e188d166e095c40e708fb436b910d94/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Exiled en Roblox",
   "metaTitle": "Códigos Exiled Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Exiled en Roblox. 34 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-02T22:13:43.699Z",
+  "metaDescription": "Lista actualizada de códigos para Exiled en Roblox. 36 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-03T12:24:59.523Z",
   "activeCodes": [
     {
       "code": "CHRISTMAS",
@@ -63,13 +63,18 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "5MVISITS",
+      "reward": "1,000 tokens",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "CHASINGSPARKS",
       "reward": "500 tokens",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "5MVISITS",
-      "reward": "1,000 tokens",
+      "code": "1MVISITS",
+      "reward": "2000 tokens",
       "addedDate": "2026-08-01"
     },
     {
@@ -95,6 +100,11 @@
     {
       "code": "2MVISITS",
       "reward": "2 Revive tickets",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "CHRISTMAS",
+      "reward": "1,500 Anoms",
       "addedDate": "2026-08-01"
     },
     {
@@ -128,6 +138,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "40KLIKES",
+      "reward": "500 tokens",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "80KLIKES",
       "reward": "500 tokens",
       "addedDate": "2026-08-01"
@@ -135,11 +150,6 @@
     {
       "code": "BEWITCHEDMYSTERIES",
       "reward": "500 tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "1MVISITS",
-      "reward": "2000 tokens",
       "addedDate": "2026-08-01"
     },
     {
@@ -180,10 +190,6 @@
   ],
   "expiredCodes": [
     {
-      "code": "UPDATEDELAYED",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "NEWMAPCOMING",
       "reward": "Recompensas gratis"
     },
@@ -197,14 +203,6 @@
     },
     {
       "code": "HOTELRETURN",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "EXILEDUPDATE1",
-      "reward": "2 Revive tickets"
-    },
-    {
-      "code": "30KLIKES",
       "reward": "Recompensas gratis"
     },
     {
@@ -222,6 +220,18 @@
     {
       "code": "2RELEASE",
       "reward": "Recompensa gratis"
+    },
+    {
+      "code": "EXILEDUPDATE1",
+      "reward": "2 Revive tickets"
+    },
+    {
+      "code": "30KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "UPDATEDELAYED",
+      "reward": "Recompensas gratis"
     }
   ],
   "howToRedeem": [
