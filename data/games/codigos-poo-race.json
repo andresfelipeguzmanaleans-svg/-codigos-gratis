@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-49b38775ccc09dfa7909604f6b55336b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Poo Race en Roblox",
   "metaTitle": "Códigos Poo Race Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Poo Race en Roblox. 7 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-03T22:05:44.392Z",
+  "metaDescription": "Lista actualizada de códigos para Poo Race en Roblox. 13 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-04T12:25:38.725Z",
   "activeCodes": [
     {
       "code": "RELEASE",
@@ -18,9 +18,19 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "Update2",
+      "reward": "1.5x Wins Boost (40 minutos)",
+      "addedDate": "2026-09-04"
+    },
+    {
       "code": "description",
       "reward": "1.5x Boost",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "InsaneCode1",
+      "reward": "2x Wins Boost",
+      "addedDate": "2026-09-04"
     },
     {
       "code": "boostlong",
@@ -28,9 +38,24 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "delay2",
+      "reward": "Exclusivo Variant Of A New mascota",
+      "addedDate": "2026-09-04"
+    },
+    {
+      "code": "secretCODE1X",
+      "reward": "2,500 Wins",
+      "addedDate": "2026-09-04"
+    },
+    {
       "code": "FreeBoost",
       "reward": "1.5x Boost",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "delay1",
+      "reward": "5x Wins Boost",
+      "addedDate": "2026-09-04"
     },
     {
       "code": "Nature",
@@ -41,33 +66,14 @@
       "code": "secretlol",
       "reward": "2.5K Wins",
       "addedDate": "2026-08-01"
-    }
-  ],
-  "expiredCodes": [
-    {
-      "code": "InsaneCode1",
-      "reward": "2x Wins Boost"
-    },
-    {
-      "code": "Update2",
-      "reward": "1.5x Wins Boost (40 minutos)"
-    },
-    {
-      "code": "delay2",
-      "reward": "Exclusivo Variant Of A New mascota"
-    },
-    {
-      "code": "secretCODE1X",
-      "reward": "2,500 Wins"
-    },
-    {
-      "code": "delay1",
-      "reward": "5x Wins Boost"
     },
     {
       "code": "box7",
-      "reward": "500 Wins"
-    },
+      "reward": "500 Wins",
+      "addedDate": "2026-09-04"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "IsaneCode1",
       "reward": "15-minuto Win Boost"
