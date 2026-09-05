@@ -4,13 +4,9 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-e38d77c3518f4a735d5f5a8a15271797/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Unordinary en Roblox",
   "metaTitle": "Códigos Unordinary Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Unordinary en Roblox. 16 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-04T12:26:21.518Z",
+  "metaDescription": "Lista actualizada de códigos para Unordinary en Roblox. 14 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-05T21:52:06.633Z",
   "activeCodes": [
-    {
-      "code": "!2000Likes",
-      "reward": "3 giros, XP Boost"
-    },
     {
       "code": "!AuraColorReroll2",
       "reward": "Aura Color Reroll"
@@ -20,18 +16,12 @@
       "reward": "5 giros"
     },
     {
-      "code": "!500Likes",
-      "reward": "3 giros",
-      "addedDate": "2026-09-04"
+      "code": "!2000Likes",
+      "reward": "3 giros, XP Boost"
     },
     {
       "code": "!AuraColorReroll3",
       "reward": "Aura Color Reroll"
-    },
-    {
-      "code": "!SorryForShutdown",
-      "reward": "2 giros",
-      "addedDate": "2026-09-04"
     },
     {
       "code": "!4000Likes",
@@ -74,7 +64,16 @@
       "reward": "Hair Color Reroll"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "!500Likes",
+      "reward": "3 giros"
+    },
+    {
+      "code": "!SorryForShutdown",
+      "reward": "2 giros"
+    }
+  ],
   "howToRedeem": [
     "Abre Unordinary en Roblox",
     "Busca el botón de códigos en el menú",

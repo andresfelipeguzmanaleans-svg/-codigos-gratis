@@ -4,12 +4,22 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-7a210645711d4575118be1732e48fa15/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Power Up Soccer en Roblox",
   "metaTitle": "Códigos Power Up Soccer Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Power Up Soccer en Roblox. 17 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-04T12:25:39.269Z",
+  "metaDescription": "Lista actualizada de códigos para Power Up Soccer en Roblox. 16 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-05T21:51:22.904Z",
   "activeCodes": [
+    {
+      "code": "KICKOFF1024",
+      "reward": "500 Cash",
+      "addedDate": "2026-08-01"
+    },
     {
       "code": "SPINNER",
       "reward": "Giros",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SAVE421",
+      "reward": "Frame giro",
       "addedDate": "2026-08-01"
     },
     {
@@ -18,13 +28,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "FOUL19XY7",
-      "reward": "Giros gratis",
-      "addedDate": "2026-09-04"
+      "code": "SPINNER21X",
+      "reward": "Giros",
+      "addedDate": "2026-08-01"
     },
     {
-      "code": "SAVE421",
-      "reward": "Frame giro",
+      "code": "SKILLQ17",
+      "reward": "Skill giro",
       "addedDate": "2026-08-01"
     },
     {
@@ -35,21 +45,6 @@
     {
       "code": "EMOTE",
       "reward": "Emote giro",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SKILLQ17",
-      "reward": "Skill giro",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SPINNER21X",
-      "reward": "Giros",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "KICKOFF1024",
-      "reward": "500 Cash",
       "addedDate": "2026-08-01"
     },
     {
@@ -94,6 +89,10 @@
     }
   ],
   "expiredCodes": [
+    {
+      "code": "FOUL19XY7",
+      "reward": "Giros gratis"
+    },
     {
       "code": "FOUL19XY",
       "reward": "Recompensas gratis"

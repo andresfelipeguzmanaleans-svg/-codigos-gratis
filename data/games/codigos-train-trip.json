@@ -4,26 +4,26 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-093ad35d5f855c10cf1d16c15a244fe6/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Train Trip en Roblox",
   "metaTitle": "Códigos Train Trip Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Train Trip en Roblox. 13 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-04T12:26:16.726Z",
+  "metaDescription": "Lista actualizada de códigos para Train Trip en Roblox. 12 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-05T21:52:01.324Z",
   "activeCodes": [
+    {
+      "code": "xzyqox",
+      "reward": "3 monedas",
+      "addedDate": "2026-08-01"
+    },
     {
       "code": "Vanek",
       "reward": "3 monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "WINTER",
+      "code": "SPIN",
       "reward": "10 monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "TrainTrip",
-      "reward": "Especial recompensas",
-      "addedDate": "2026-09-04"
-    },
-    {
-      "code": "SPIN",
+      "code": "WINTER",
       "reward": "10 monedas",
       "addedDate": "2026-08-01"
     },
@@ -48,11 +48,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "xzyqox",
-      "reward": "3 monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "BigUpdate",
       "reward": "20 monedas",
       "addedDate": "2026-08-01"
@@ -73,7 +68,12 @@
       "addedDate": "2026-08-01"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "TrainTrip",
+      "reward": "Especial recompensas"
+    }
+  ],
   "howToRedeem": [
     "Abre Train Trip en Roblox",
     "Busca el botón de códigos en el menú",

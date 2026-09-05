@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-23d97eeac22a089d4d4084b537177d5a/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Evade en Roblox",
   "metaTitle": "Códigos Evade Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Evade en Roblox. 23 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-04T12:24:53.247Z",
+  "metaDescription": "Lista actualizada de códigos para Evade en Roblox. 19 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-05T21:50:30.828Z",
   "activeCodes": [
     {
       "code": "isurviveddatahaul",
@@ -63,19 +63,14 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "summeroopsies",
-      "reward": "30 puntos",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "summeroopsies2",
       "reward": "50 tickets",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "apology",
-      "reward": "1000 tokens",
-      "addedDate": "2026-09-04"
+      "code": "summeroopsies",
+      "reward": "30 puntos",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "gullible",
@@ -83,28 +78,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "1bill",
-      "reward": "1B Celebration Cosmetic",
-      "addedDate": "2026-09-04"
-    },
-    {
-      "code": "HolidayUpdateFixEXP",
-      "reward": "300 XP",
-      "addedDate": "2026-09-04"
-    },
-    {
       "code": "luckyday",
       "reward": "Clover Pin",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "HolidayUpdateFix",
-      "reward": "2000 tokens",
-      "addedDate": "2026-09-04"
-    },
-    {
-      "code": "222",
-      "reward": "222 tokens",
+      "code": "thebig5",
+      "reward": "555 tokens",
       "addedDate": "2026-08-01"
     },
     {
@@ -113,36 +93,40 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "therealdeal",
-      "reward": "Bird Badge",
+      "code": "222",
+      "reward": "222 tokens",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "thebig5",
-      "reward": "555 tokens",
+      "code": "therealdeal",
+      "reward": "Bird Badge",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
+      "code": "apology",
+      "reward": "1000 tokens"
+    },
+    {
+      "code": "1bill",
+      "reward": "1B Celebration Cosmetic"
+    },
+    {
+      "code": "HolidayUpdateFixEXP",
+      "reward": "300 XP"
+    },
+    {
+      "code": "HolidayUpdateFix",
+      "reward": "2000 tokens"
+    },
+    {
+      "code": "THANKSGIVING2025",
+      "reward": "15 puntos"
+    },
+    {
       "code": "newday",
       "reward": "600 tokens"
-    },
-    {
-      "code": "HappyNewYears2026",
-      "reward": "26 puntos"
-    },
-    {
-      "code": "stpatricks2026",
-      "reward": "Puntos"
-    },
-    {
-      "code": "lunaryear",
-      "reward": "600 tokens"
-    },
-    {
-      "code": "NewYears2023",
-      "reward": "New Year Cosmetic"
     },
     {
       "code": "march1stincident",
@@ -161,8 +145,20 @@
       "reward": "600 tokens"
     },
     {
-      "code": "THANKSGIVING2025",
-      "reward": "15 puntos"
+      "code": "HappyNewYears2026",
+      "reward": "26 puntos"
+    },
+    {
+      "code": "stpatricks2026",
+      "reward": "Puntos"
+    },
+    {
+      "code": "lunaryear",
+      "reward": "600 tokens"
+    },
+    {
+      "code": "NewYears2023",
+      "reward": "New Year Cosmetic"
     }
   ],
   "howToRedeem": [

@@ -4,9 +4,13 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-435bb482e48f9f15863732b310649726/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fat Race Clicker en Roblox",
   "metaTitle": "Códigos Fat Race Clicker Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fat Race Clicker en Roblox. 14 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-04T12:24:55.152Z",
+  "metaDescription": "Lista actualizada de códigos para Fat Race Clicker en Roblox. 12 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-05T21:50:32.923Z",
   "activeCodes": [
+    {
+      "code": "ST34M",
+      "reward": "Toxic Food poción"
+    },
     {
       "code": "LuckyDay",
       "reward": "Suerte poción (2x)"
@@ -16,17 +20,7 @@
       "reward": "Boosts and pociones"
     },
     {
-      "code": "P4LMS",
-      "reward": "Boosts & recompensas (Discord exclusivo) gratis",
-      "addedDate": "2026-09-04"
-    },
-    {
-      "code": "RUST",
-      "reward": "Recompensas (Discord exclusivo!) gratis",
-      "addedDate": "2026-09-04"
-    },
-    {
-      "code": "DailyDays",
+      "code": "TRADESOON",
       "reward": "Wins poción (2x)"
     },
     {
@@ -34,16 +28,12 @@
       "reward": "Toxic Foods poción"
     },
     {
+      "code": "DailyDays",
+      "reward": "Wins poción (2x)"
+    },
+    {
       "code": "DISCOBOY",
       "reward": "Toxic Food poción"
-    },
-    {
-      "code": "ST34M",
-      "reward": "Toxic Food poción"
-    },
-    {
-      "code": "TRADESOON",
-      "reward": "Wins poción (2x)"
     },
     {
       "code": "ONSIDEKILLER",
@@ -66,7 +56,16 @@
       "reward": "Wins poción (2x)"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "P4LMS",
+      "reward": "Boosts & recompensas (Discord exclusivo) gratis"
+    },
+    {
+      "code": "RUST",
+      "reward": "Recompensas (Discord exclusivo!) gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Fat Race Clicker en Roblox",
     "Busca el botón de códigos en el menú",
