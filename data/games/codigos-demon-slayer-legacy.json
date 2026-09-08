@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-7121786543df1541883ac191ed3ff808/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Demon Slayer Legacy en Roblox",
   "metaTitle": "Códigos Demon Slayer Legacy Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Demon Slayer Legacy en Roblox. 23 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-05T21:50:20.522Z",
+  "metaDescription": "Lista actualizada de códigos para Demon Slayer Legacy en Roblox. 27 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-08T12:27:38.153Z",
   "activeCodes": [
     {
       "code": "RESETSTATS2",
@@ -18,13 +18,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "GETGUD",
-      "reward": "2x EXP 20 minutos",
-      "addedDate": "2026-08-01"
+      "code": "GETGUDV2",
+      "reward": "Recompensa desconocida",
+      "addedDate": "2026-09-08"
     },
     {
-      "code": "STATRESET",
-      "reward": "Reinicio de stats",
+      "code": "GETGUD",
+      "reward": "2x EXP 20 minutos",
       "addedDate": "2026-08-01"
     },
     {
@@ -33,9 +33,24 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "DATAUPGRADE2",
+      "reward": "Recompensa desconocida",
+      "addedDate": "2026-09-08"
+    },
+    {
       "code": "UPD_ONEPOINTFIFTEEN",
       "reward": "30 giros",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "STATRESET",
+      "reward": "Reinicio de stats",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "AUGSECONDWEEK",
+      "reward": "Recompensa desconocida",
+      "addedDate": "2026-09-08"
     },
     {
       "code": "OPTIMIZATION_ALMOSTCOMPLETE",
@@ -46,6 +61,11 @@
       "code": "FLAMEWATERBLOOD",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "AUGSECONDWEEK_STATRESET",
+      "reward": "A reinicio de stats",
+      "addedDate": "2026-09-08"
     },
     {
       "code": "MAJORDATABUGFIXFINAL",
@@ -125,28 +145,48 @@
   ],
   "expiredCodes": [
     {
-      "code": "GETGUDV2",
-      "reward": "Recompensa desconocida"
-    },
-    {
-      "code": "DATAUPGRADE2",
-      "reward": "Recompensa desconocida"
-    },
-    {
-      "code": "AUGSECONDWEEK",
-      "reward": "Recompensa desconocida"
-    },
-    {
-      "code": "AUGSECONDWEEK_STATRESET",
-      "reward": "A reinicio de stats"
-    },
-    {
-      "code": "UPCOMINGACCESSORYSHOP",
-      "reward": "Giros or Boosts gratis"
+      "code": "7KLIKESCODE",
+      "reward": "Two Times EXP Boost"
     },
     {
       "code": "BUGFIXCODESORRY!",
       "reward": "Giros gratis"
+    },
+    {
+      "code": "10KLIKESCODE",
+      "reward": "2x EXP Boost"
+    },
+    {
+      "code": "2KLIKESCODE",
+      "reward": "Giros gratis"
+    },
+    {
+      "code": "SORRYFORSOMEBUGSAFTERUPD",
+      "reward": "Giros or Boosts gratis"
+    },
+    {
+      "code": "ANOTHERBUGFIXCODE!",
+      "reward": "25 giros"
+    },
+    {
+      "code": "13KLIKESCODE",
+      "reward": "50 giros"
+    },
+    {
+      "code": "BUGFIX_moreXP",
+      "reward": "2x EXP (20 minutos)"
+    },
+    {
+      "code": "RESETYOURSTAT",
+      "reward": "Reinicio de stats"
+    },
+    {
+      "code": "TYYOUTUBERS",
+      "reward": "Two Times EXP Boost"
+    },
+    {
+      "code": "5KLIKESCODE",
+      "reward": "Two Times EXP Boost"
     },
     {
       "code": "UPCOMINGKYOGAI",
@@ -161,44 +201,8 @@
       "reward": "27 giros gratis"
     },
     {
-      "code": "2KLIKESCODE",
-      "reward": "Giros gratis"
-    },
-    {
-      "code": "10KLIKESCODE",
-      "reward": "2x EXP Boost"
-    },
-    {
-      "code": "SORRYFORSOMEBUGSAFTERUPD",
+      "code": "UPCOMINGACCESSORYSHOP",
       "reward": "Giros or Boosts gratis"
-    },
-    {
-      "code": "7KLIKESCODE",
-      "reward": "Two Times EXP Boost"
-    },
-    {
-      "code": "BUGFIX_moreXP",
-      "reward": "2x EXP (20 minutos)"
-    },
-    {
-      "code": "ANOTHERBUGFIXCODE!",
-      "reward": "25 giros"
-    },
-    {
-      "code": "13KLIKESCODE",
-      "reward": "50 giros"
-    },
-    {
-      "code": "RESETYOURSTAT",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "TYYOUTUBERS",
-      "reward": "Two Times EXP Boost"
-    },
-    {
-      "code": "5KLIKESCODE",
-      "reward": "Two Times EXP Boost"
     }
   ],
   "howToRedeem": [

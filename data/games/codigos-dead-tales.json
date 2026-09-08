@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-49f53e7322969149e5e19f4d0351e514/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Dead Tales en Roblox",
   "metaTitle": "Códigos Dead Tales Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dead Tales en Roblox. 20 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-05T21:50:18.929Z",
+  "metaDescription": "Lista actualizada de códigos para Dead Tales en Roblox. 21 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-08T12:27:37.118Z",
   "activeCodes": [
+    {
+      "code": "DAILYQUESTS",
+      "reward": "25 oro",
+      "addedDate": "2026-09-08"
+    },
     {
       "code": "25000LIKES",
       "reward": "25 oro",
@@ -14,11 +19,6 @@
     },
     {
       "code": "NEWCLASSES",
-      "reward": "50 oro",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "HORSESUPDATE",
       "reward": "50 oro",
       "addedDate": "2026-08-01"
     },
@@ -93,13 +93,18 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "5000LIKES",
-      "reward": "25 monedas",
+      "code": "HORSESUPDATE",
+      "reward": "50 oro",
       "addedDate": "2026-08-01"
     },
     {
       "code": "BOUNTYHUNTERFIX",
       "reward": "50 oro",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "5000LIKES",
+      "reward": "25 monedas",
       "addedDate": "2026-08-01"
     },
     {
@@ -109,10 +114,6 @@
     }
   ],
   "expiredCodes": [
-    {
-      "code": "DAILYQUESTS",
-      "reward": "25 oro"
-    },
     {
       "code": "Genji_Main2",
       "reward": "Recompensas gratis"

@@ -4,17 +4,12 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-a5d4f15a29141b000faa1dcaf61f88b4/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Test Your Luck en Roblox",
   "metaTitle": "Códigos Test Your Luck Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Test Your Luck en Roblox. 11 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-05T21:51:55.978Z",
+  "metaDescription": "Lista actualizada de códigos para Test Your Luck en Roblox. 12 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-08T12:29:16.634Z",
   "activeCodes": [
     {
       "code": "UPDATE5PART1",
       "reward": "1M diamantes",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BETA",
-      "reward": "5K gemas",
       "addedDate": "2026-08-01"
     },
     {
@@ -28,8 +23,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "UPDATE210",
-      "reward": "10K gemas",
+      "code": "RELEASE",
+      "reward": "25K gemas, 15K suerte",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "BETA",
+      "reward": "5K gemas",
       "addedDate": "2026-08-01"
     },
     {
@@ -38,18 +38,23 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "RELEASE",
-      "reward": "25K gemas, 15K suerte",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SORRYFORDELAY",
-      "reward": "10M diamantes, 5x suerte pociones",
+      "code": "UPDATE210",
+      "reward": "10K gemas",
       "addedDate": "2026-08-01"
     },
     {
       "code": "HERESALOTOFLUCK",
       "reward": "Suerte",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "UPDATE275",
+      "reward": "Pociones gratis",
+      "addedDate": "2026-09-08"
+    },
+    {
+      "code": "SORRYFORDELAY",
+      "reward": "10M diamantes, 5x suerte pociones",
       "addedDate": "2026-08-01"
     },
     {
@@ -64,10 +69,6 @@
     }
   ],
   "expiredCodes": [
-    {
-      "code": "UPDATE275",
-      "reward": "Pociones gratis"
-    },
     {
       "code": "SORRY",
       "reward": "Clovers And gemas"
