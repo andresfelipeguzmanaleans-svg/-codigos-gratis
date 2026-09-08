@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-2a08e18b9999fd7a5e4c8d4bd29e64d5/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Clicker Mining Simulator en Roblox",
   "metaTitle": "Códigos Clicker Mining Simulator Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Clicker Mining Simulator en Roblox. 89 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-08T12:27:31.143Z",
+  "metaDescription": "Lista actualizada de códigos para Clicker Mining Simulator en Roblox. 85 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-08T22:14:03.647Z",
   "activeCodes": [
     {
       "code": "license",
@@ -100,16 +100,12 @@
       "reward": "Boosts"
     },
     {
-      "code": "upd1",
-      "reward": "Doble Power Boost"
+      "code": "happy30k",
+      "reward": "Super suerte Boost"
     },
     {
-      "code": "upd2",
+      "code": "upd4",
       "reward": "Doble Power Boost"
-    },
-    {
-      "code": "CMS",
-      "reward": "Doble Power Boosts"
     },
     {
       "code": "lol50k",
@@ -120,7 +116,11 @@
       "reward": "Doble monedas Boost"
     },
     {
-      "code": "upd4",
+      "code": "upd1",
+      "reward": "Doble Power Boost"
+    },
+    {
+      "code": "upd2",
       "reward": "Doble Power Boost"
     },
     {
@@ -128,23 +128,19 @@
       "reward": "Super suerte Boost"
     },
     {
-      "code": "like15k",
-      "reward": "Super suerte Boost"
-    },
-    {
-      "code": "happy30k",
-      "reward": "Super suerte Boost"
+      "code": "CMS",
+      "reward": "Doble Power Boosts"
     },
     {
       "code": "sorry4delay",
       "reward": "5K diamantes, Super suerte Boost, Auto Mining Boost"
     },
     {
-      "code": "maya",
-      "reward": "Boosts"
+      "code": "like15k",
+      "reward": "Super suerte Boost"
     },
     {
-      "code": "cakecake",
+      "code": "onion",
       "reward": "Boosts"
     },
     {
@@ -172,11 +168,11 @@
       "reward": "Boosts"
     },
     {
-      "code": "swordfish",
+      "code": "maya",
       "reward": "Boosts"
     },
     {
-      "code": "onion",
+      "code": "swordfish",
       "reward": "Boosts"
     },
     {
@@ -185,6 +181,10 @@
     },
     {
       "code": "battlepass",
+      "reward": "Boosts"
+    },
+    {
+      "code": "cakecake",
       "reward": "Boosts"
     },
     {
@@ -218,11 +218,6 @@
     {
       "code": "olympus",
       "reward": "Boosts"
-    },
-    {
-      "code": "grimace",
-      "reward": "In-game recompensas gratis",
-      "addedDate": "2026-09-08"
     },
     {
       "code": "thanks",
@@ -273,10 +268,6 @@
       "reward": "Boosts"
     },
     {
-      "code": "storm",
-      "reward": "In-game recompensas gratis"
-    },
-    {
       "code": "halloween",
       "reward": "Boosts"
     },
@@ -297,8 +288,8 @@
       "reward": "Doble Power Boost"
     },
     {
-      "code": "eternal",
-      "reward": "In-game recompensas gratis"
+      "code": "abi",
+      "reward": "Boosts"
     },
     {
       "code": "magic",
@@ -309,15 +300,11 @@
       "reward": "Boosts"
     },
     {
-      "code": "puff",
-      "reward": "Boosts"
-    },
-    {
-      "code": "crystal",
-      "reward": "Boosts"
-    },
-    {
       "code": "returner",
+      "reward": "Boosts"
+    },
+    {
+      "code": "sniper",
       "reward": "Boosts"
     },
     {
@@ -325,15 +312,11 @@
       "reward": "Boosts"
     },
     {
+      "code": "crystal",
+      "reward": "Boosts"
+    },
+    {
       "code": "fest",
-      "reward": "Boosts"
-    },
-    {
-      "code": "palm",
-      "reward": "Boosts"
-    },
-    {
-      "code": "silver",
       "reward": "Boosts"
     },
     {
@@ -341,7 +324,11 @@
       "reward": "Boosts"
     },
     {
-      "code": "grass",
+      "code": "silver",
+      "reward": "Boosts"
+    },
+    {
+      "code": "palm",
       "reward": "Boosts"
     },
     {
@@ -357,17 +344,16 @@
       "reward": "Boosts"
     },
     {
+      "code": "grass",
+      "reward": "Boosts"
+    },
+    {
       "code": "eye",
       "reward": "Boosts"
     },
     {
-      "code": "sniper",
+      "code": "puff",
       "reward": "Boosts"
-    },
-    {
-      "code": "trial",
-      "reward": "In-game recompensas gratis",
-      "addedDate": "2026-09-08"
     },
     {
       "code": "sweep",
@@ -376,13 +362,18 @@
     {
       "code": "pixel",
       "reward": "Boosts"
-    },
-    {
-      "code": "abi",
-      "reward": "Boosts"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "grimace",
+      "reward": "In-game recompensas gratis"
+    },
+    {
+      "code": "trial",
+      "reward": "In-game recompensas gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Clicker Mining Simulator en Roblox",
     "Busca el botón de códigos en el menú",

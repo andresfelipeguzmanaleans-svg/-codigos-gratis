@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-73589736b44b44ddceafa40430711c9a/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fish It en Roblox",
   "metaTitle": "Códigos Fish It Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fish It en Roblox. 45 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-08T12:27:52.190Z",
+  "metaDescription": "Lista actualizada de códigos para Fish It en Roblox. 27 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-08T22:14:23.105Z",
   "activeCodes": [
     {
       "code": "ELEMENTAL26",
@@ -123,11 +123,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "TOTEMREFUND",
-      "reward": "Suerte Totem",
-      "addedDate": "2026-09-08"
-    },
-    {
       "code": "PURPLEMOON",
       "reward": "Purple Moon Bait",
       "addedDate": "2026-08-01"
@@ -146,105 +141,96 @@
       "code": "CRYSTALS",
       "reward": "2 suerte pociones",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BLAMETALON",
-      "reward": "Suerte pociones",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "SORRY",
-      "reward": "Bait",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "TRAVEL",
-      "reward": "Suerte pociones",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "MEGA",
-      "reward": "Suerte pociones",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "WORMHYPE",
-      "reward": "Rod skin",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "ARMOR",
-      "reward": "Pociones",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "SHARKSSS",
-      "reward": "Suerte pociones",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "FREEBIES",
-      "reward": "Giros",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "100M",
-      "reward": "Giro and poción",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "THEWHEEL",
-      "reward": "Giro and poción",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "SORRYSPINS",
-      "reward": "Giros",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "WOWSPINS",
-      "reward": "Giros",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "MUTATE",
-      "reward": "Mutation 1 poción",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "LOST",
-      "reward": "Suerte pociones",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "LOBSTAH",
-      "reward": "Mutation, suerte poción",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "CONSOLE",
-      "reward": "Suerte pociones",
-      "addedDate": "2026-09-08"
-    },
-    {
-      "code": "TROPICAL",
-      "reward": "Suerte pociones",
-      "addedDate": "2026-09-08"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "TOTEMREFUND",
+      "reward": "Suerte Totem"
+    },
+    {
+      "code": "BLAMETALON",
+      "reward": "Suerte pociones"
+    },
+    {
+      "code": "SORRY",
+      "reward": "Bait"
+    },
+    {
+      "code": "TRAVEL",
+      "reward": "Suerte pociones"
+    },
+    {
+      "code": "MEGA",
+      "reward": "Suerte pociones"
+    },
+    {
+      "code": "WORMHYPE",
+      "reward": "Rod skin"
+    },
+    {
+      "code": "ARMOR",
+      "reward": "Pociones"
+    },
+    {
+      "code": "SHARKSSS",
+      "reward": "Suerte pociones"
+    },
+    {
+      "code": "FREEBIES",
+      "reward": "Giros"
+    },
+    {
+      "code": "100M",
+      "reward": "Giro and poción"
+    },
+    {
+      "code": "THEWHEEL",
+      "reward": "Giro and poción"
+    },
+    {
+      "code": "SORRYSPINS",
+      "reward": "Giros"
+    },
+    {
+      "code": "WOWSPINS",
+      "reward": "Giros"
+    },
+    {
+      "code": "MUTATE",
+      "reward": "Mutation 1 poción"
+    },
+    {
+      "code": "LOST",
+      "reward": "Suerte pociones"
+    },
+    {
+      "code": "LOBSTAH",
+      "reward": "Mutation, suerte poción"
+    },
+    {
+      "code": "CONSOLE",
+      "reward": "Suerte pociones"
+    },
+    {
+      "code": "TROPICAL",
+      "reward": "Suerte pociones"
+    },
     {
       "code": "LunarNewYear",
       "reward": "Lantern skins gratis"
     },
     {
-      "code": "EGGS",
-      "reward": "Suerte pociones"
+      "code": "2M_GOAL_CC",
+      "reward": "Rod skin"
     },
     {
       "code": "BIGUPD",
       "reward": "Mutation 1 poción"
+    },
+    {
+      "code": "EGGS",
+      "reward": "Suerte pociones"
     },
     {
       "code": "HUNTING",
@@ -267,14 +253,6 @@
       "reward": "Presents"
     },
     {
-      "code": "CELEBRATE",
-      "reward": "One raro Present"
-    },
-    {
-      "code": "2M_GOAL_CC",
-      "reward": "Rod skin"
-    },
-    {
       "code": "INDO",
       "reward": "1 suerte I poción"
     },
@@ -285,6 +263,10 @@
     {
       "code": "SCALE2",
       "reward": "1 Leviathan Scale"
+    },
+    {
+      "code": "CELEBRATE",
+      "reward": "One raro Present"
     },
     {
       "code": "HAPPY2026",

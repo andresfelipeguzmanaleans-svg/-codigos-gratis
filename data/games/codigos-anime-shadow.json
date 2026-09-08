@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-5f246bf6237833a10912e4a75a563893/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Shadow en Roblox",
   "metaTitle": "Códigos Anime Shadow Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 36 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-08T12:27:06.979Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 35 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-08T22:13:38.626Z",
   "activeCodes": [
+    {
+      "code": "10KLIKES",
+      "reward": "100 tickets",
+      "addedDate": "2026-08-01"
+    },
     {
       "code": "10KACTIVES",
       "reward": "100 tickets, 2 monedas pociones, 2 daño pociones",
@@ -18,14 +23,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "10KLIKES",
-      "reward": "100 tickets",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "25KLIKES",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-09-08"
+      "code": "Release",
+      "reward": "150 tickets"
     },
     {
       "code": "GHOULUPDATE",
@@ -86,8 +85,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Release",
-      "reward": "150 tickets"
+      "code": "AURAUPDATE",
+      "reward": "90 tickets, 25 Aura Shards"
     },
     {
       "code": "XMASUPD2",
@@ -118,8 +117,8 @@
       "reward": "100 tickets, 2 Raid llaves, 2 Defense llaves"
     },
     {
-      "code": "SLAYERUPDATE",
-      "reward": "150 tickets, 1 Raid llave, 1 Defense llave"
+      "code": "SRRYXMAS2",
+      "reward": "100 tickets"
     },
     {
       "code": "TITLESUPDATE",
@@ -150,15 +149,15 @@
       "reward": "200 Passive Capsules, 200 Cursed Plasma, 2 Raid llaves"
     },
     {
-      "code": "SRRYXMAS2",
-      "reward": "100 tickets"
-    },
-    {
-      "code": "AURAUPDATE",
-      "reward": "90 tickets, 25 Aura Shards"
+      "code": "SLAYERUPDATE",
+      "reward": "150 tickets, 1 Raid llave, 1 Defense llave"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "25KLIKES",
+      "reward": "Recompensas gratis"
+    },
     {
       "code": "HunterUpdate",
       "reward": "Tickets"

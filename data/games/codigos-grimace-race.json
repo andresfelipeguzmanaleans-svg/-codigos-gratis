@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-7a70507d7ab3a1a11eae0bce8aa465ee/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Grimace Race en Roblox",
   "metaTitle": "Códigos Grimace Race Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Grimace Race en Roblox. 16 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-08T12:27:59.337Z",
+  "metaDescription": "Lista actualizada de códigos para Grimace Race en Roblox. 15 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-08T22:14:31.017Z",
   "activeCodes": [
     {
       "code": "OPCODEYT",
@@ -18,14 +18,6 @@
       "addedDate": "2026-03-23"
     },
     {
-      "code": "HUGEUPDATE2",
-      "reward": "Win poción"
-    },
-    {
-      "code": "NEWW2",
-      "reward": "Win poción"
-    },
-    {
       "code": "YTME1456",
       "reward": "UTube Bunny mascota"
     },
@@ -34,9 +26,12 @@
       "reward": "UTube Boku mascota"
     },
     {
-      "code": "CodeHydra",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-09-08"
+      "code": "HUGEUPDATE2",
+      "reward": "Win poción"
+    },
+    {
+      "code": "NEWW2",
+      "reward": "Win poción"
     },
     {
       "code": "BLUETUBEALIEN",
@@ -75,7 +70,12 @@
       "reward": "UTube Broli mascota"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "CodeHydra",
+      "reward": "Recompensas gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Grimace Race en Roblox",
     "Busca el icono de códigos en el menú",
