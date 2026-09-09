@@ -4,9 +4,24 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-3a83dda9b7af124f231411adb7224ec0/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Survival Odyssey en Roblox",
   "metaTitle": "Códigos Survival Odyssey Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Survival Odyssey en Roblox. 14 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-08T22:15:40.158Z",
+  "metaDescription": "Lista actualizada de códigos para Survival Odyssey en Roblox. 17 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-09T12:38:16.038Z",
   "activeCodes": [
+    {
+      "code": "MIGRATION",
+      "reward": "200 monedas",
+      "addedDate": "2026-09-09"
+    },
+    {
+      "code": "Revive",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-09-09"
+    },
+    {
+      "code": "Trap",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-09-09"
+    },
     {
       "code": "SMALLUPDATE",
       "reward": "Recompensas gratis",
@@ -58,41 +73,45 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "80kFavorites",
-      "reward": "1k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "Neko",
       "reward": "1k monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Sorry!",
-      "reward": "500 monedas",
+      "code": "80kFavorites",
+      "reward": "1k monedas",
       "addedDate": "2026-08-01"
     },
     {
       "code": "Refresh",
       "reward": "2.5k monedas",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Sorry!",
+      "reward": "500 monedas",
+      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "MIGRATION",
-      "reward": "200 monedas"
+      "code": "MonthlyMission",
+      "reward": "10 Mystic Feeds, 4 Master Lassos and 3 Instant Foal pociones"
     },
     {
-      "code": "Revive",
-      "reward": "Recompensas gratis"
+      "code": "LastDay",
+      "reward": "3 Daily recompensas"
     },
     {
-      "code": "Trap",
-      "reward": "Recompensas gratis"
+      "code": "Crates",
+      "reward": "1k monedas"
     },
     {
-      "code": "REVAMPPART2",
+      "code": "100kVisits",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "SORRYFORTHESHUTDOWNS!",
       "reward": "400 monedas"
     },
     {
@@ -104,16 +123,8 @@
       "reward": "2,500 monedas"
     },
     {
-      "code": "KANYEEAST2020",
-      "reward": "Recompensa gratis"
-    },
-    {
       "code": "zidiamsecret",
       "reward": "Recompensa gratis"
-    },
-    {
-      "code": "Thanksgiving",
-      "reward": "2,500 monedas"
     },
     {
       "code": "20Million",
@@ -144,32 +155,8 @@
       "reward": "1,000 monedas"
     },
     {
-      "code": "THANKSFOR50KFAVS",
-      "reward": "2,500 monedas"
-    },
-    {
-      "code": "Christmas",
-      "reward": "4k monedas"
-    },
-    {
-      "code": "CivilizationUpdate",
-      "reward": "400 monedas"
-    },
-    {
-      "code": "Crates",
-      "reward": "1k monedas"
-    },
-    {
-      "code": "SecretCode1",
-      "reward": "2,500 monedas"
-    },
-    {
       "code": "Voodoo",
       "reward": "1,500 monedas"
-    },
-    {
-      "code": "LastDay",
-      "reward": "3 Daily recompensas"
     },
     {
       "code": "SkillTree",
@@ -192,12 +179,20 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "100kVisits",
+      "code": "KANYEEAST2020",
       "reward": "Recompensa gratis"
     },
     {
-      "code": "SORRYFORTHESHUTDOWNS!",
-      "reward": "400 monedas"
+      "code": "Thanksgiving",
+      "reward": "2,500 monedas"
+    },
+    {
+      "code": "SecretCode1",
+      "reward": "2,500 monedas"
+    },
+    {
+      "code": "THANKSFOR50KFAVS",
+      "reward": "2,500 monedas"
     },
     {
       "code": "Halloween",
@@ -240,10 +235,6 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "MonthlyMission",
-      "reward": "10 Mystic Feeds, 4 Master Lassos and 3 Instant Foal pociones"
-    },
-    {
       "code": "Sorry4Crashes",
       "reward": "3,500 monedas"
     },
@@ -274,6 +265,18 @@
     {
       "code": "Mounts",
       "reward": "2,500 monedas"
+    },
+    {
+      "code": "Christmas",
+      "reward": "4k monedas"
+    },
+    {
+      "code": "CivilizationUpdate",
+      "reward": "400 monedas"
+    },
+    {
+      "code": "REVAMPPART2",
+      "reward": "400 monedas"
     }
   ],
   "howToRedeem": [

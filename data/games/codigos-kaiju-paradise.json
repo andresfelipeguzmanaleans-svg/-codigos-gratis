@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-de895d4bbe916fe654dd3656d3e2f176/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Kaiju Paradise en Roblox",
   "metaTitle": "Códigos Kaiju Paradise Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Kaiju Paradise en Roblox. 19 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-08T22:14:41.703Z",
+  "metaDescription": "Lista actualizada de códigos para Kaiju Paradise en Roblox. 21 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-09T12:37:13.905Z",
   "activeCodes": [
     {
       "code": "kaijubackon2025",
@@ -35,6 +35,16 @@
     {
       "code": "SMALLLOAN",
       "reward": "1,000 Candies",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Sigma",
+      "reward": "1 Unusual regalo",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "sundayormonday",
+      "reward": "1 Unusual regalo",
       "addedDate": "2026-08-01"
     },
     {
@@ -68,8 +78,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "sorryaboutthat",
-      "reward": "3 Strange cristales",
+      "code": "anotherboringfixes2",
+      "reward": "2 Unusual Gifts",
       "addedDate": "2026-08-01"
     },
     {
@@ -78,8 +88,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "idontlikedoingthis",
-      "reward": "1 Unusual regalo",
+      "code": "soretro",
+      "reward": "2 Linked Swords",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "sorryaboutthat",
+      "reward": "3 Strange cristales",
       "addedDate": "2026-08-01"
     },
     {
@@ -88,61 +103,24 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "soretro",
-      "reward": "2 Linked Swords",
-      "addedDate": "2026-08-01"
+      "code": "250TRILLION",
+      "reward": "3 Unusual Gifts",
+      "addedDate": "2026-09-09"
     },
     {
-      "code": "Sigma",
-      "reward": "1 Unusual regalo",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "sundayormonday",
+      "code": "idontlikedoingthis",
       "reward": "1 Unusual regalo",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "250TRILLION",
-      "reward": "3 Unusual Gifts"
-    },
-    {
       "code": "CAWFEE",
       "reward": "2 Halloween cofres"
     },
     {
-      "code": "codeforbuldiga2282",
-      "reward": "2,282 créditos"
-    },
-    {
-      "code": "anotherboringfixes",
-      "reward": "2 Unusual Gifts"
-    },
-    {
       "code": "2YEARANNIVERSARY",
       "reward": "2 Unusual Gifts"
-    },
-    {
-      "code": "SomeRandomFixYea",
-      "reward": "1 Unusual regalo"
-    },
-    {
-      "code": "CompensationNumber3",
-      "reward": "1 Unusual regalo"
-    },
-    {
-      "code": "CompensationNumber4",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "BANDITSCAM2",
-      "reward": "2 Halloween cofres"
-    },
-    {
-      "code": "LABUBUCUTELMX",
-      "reward": "Recompensas gratis"
     },
     {
       "code": "Glubby",
@@ -161,10 +139,6 @@
       "reward": "100 XP"
     },
     {
-      "code": "FREE_LAME_CODE_1",
-      "reward": "1,499"
-    },
-    {
       "code": "wedidthisalot",
       "reward": "Recompensa gratis"
     },
@@ -181,10 +155,6 @@
       "reward": "1 Unusual regalo"
     },
     {
-      "code": "IEATTABLE",
-      "reward": "1 Cataclysm Brick skin"
-    },
-    {
       "code": "FREESTUFF_10",
       "reward": "1250 créditos"
     },
@@ -197,24 +167,64 @@
       "reward": "1,499"
     },
     {
-      "code": "vinnyvinesauce",
-      "reward": "1 Unusual regalo"
-    },
-    {
-      "code": "StillSnowedIn",
-      "reward": "1 Unusual regalo"
-    },
-    {
-      "code": "LeakingBarrel",
-      "reward": "2,500"
-    },
-    {
       "code": "EVENTTESTING",
       "reward": "4K créditos"
     },
     {
       "code": "RaytraxStatFix",
       "reward": "4 Unusual Gifts"
+    },
+    {
+      "code": "anotherboringfixes",
+      "reward": "2 Unusual Gifts"
+    },
+    {
+      "code": "LABUBUCUTELMX",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "IEATTABLE",
+      "reward": "1 Cataclysm Brick skin"
+    },
+    {
+      "code": "toolazytonamecode2",
+      "reward": "2 Unusual Gifts"
+    },
+    {
+      "code": "LeakingBarrel",
+      "reward": "2,500"
+    },
+    {
+      "code": "WOWFREESTUFF_3",
+      "reward": "1250 créditos"
+    },
+    {
+      "code": "WOWFREESTUFF_8",
+      "reward": "5 créditos"
+    },
+    {
+      "code": "FREE_LAME_CODE_1",
+      "reward": "1,499"
+    },
+    {
+      "code": "peaceful",
+      "reward": "1 Linked Sword"
+    },
+    {
+      "code": "vinnyvinesauce",
+      "reward": "1 Unusual regalo"
+    },
+    {
+      "code": "ILOVEGLP",
+      "reward": "No Stated recompensa"
+    },
+    {
+      "code": "StillSnowedIn",
+      "reward": "1 Unusual regalo"
+    },
+    {
+      "code": "codeforbuldiga2282",
+      "reward": "2,282 créditos"
     },
     {
       "code": "NEARENDOF2022",
@@ -225,28 +235,8 @@
       "reward": "2 Unusual Gifts"
     },
     {
-      "code": "toolazytonamecode2",
-      "reward": "2 Unusual Gifts"
-    },
-    {
-      "code": "Dagoda",
-      "reward": "1 Unusual regalo"
-    },
-    {
       "code": "BUGFIXAGAIN",
       "reward": "3K créditos"
-    },
-    {
-      "code": "WOWMOREBUGFIXES",
-      "reward": "3K créditos"
-    },
-    {
-      "code": "WOWFREESTUFF_3",
-      "reward": "1250 créditos"
-    },
-    {
-      "code": "WOWFREESTUFF_8",
-      "reward": "5 créditos"
     },
     {
       "code": "BloodFixes",
@@ -259,10 +249,6 @@
     {
       "code": "APRIL_FOOL",
       "reward": "1 Unusual regalo"
-    },
-    {
-      "code": "peaceful",
-      "reward": "1 Linked Sword"
     },
     {
       "code": "gullible",
@@ -278,10 +264,6 @@
     },
     {
       "code": "FREESTUFF_8",
-      "reward": "1250 créditos"
-    },
-    {
-      "code": "FREESTUFF_9",
       "reward": "1250 créditos"
     },
     {
@@ -353,6 +335,14 @@
       "reward": "Some YOWS"
     },
     {
+      "code": "CompensationNumber4",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "BANDITSCAM2",
+      "reward": "2 Halloween cofres"
+    },
+    {
       "code": "3.1R",
       "reward": "Créditos gratis"
     },
@@ -363,18 +353,6 @@
     {
       "code": "uhhhiforgor",
       "reward": "2 Unusual Gifts"
-    },
-    {
-      "code": "SomeRandomFixYea2",
-      "reward": "No Stated recompensa"
-    },
-    {
-      "code": "RefreshFixesAgain",
-      "reward": "1 Unusual regalo"
-    },
-    {
-      "code": "Fridaythe13th",
-      "reward": "4000 créditos"
     },
     {
       "code": "ShutDownAgainLol",
@@ -397,8 +375,28 @@
       "reward": "1,000 Candies"
     },
     {
-      "code": "ILOVEGLP",
+      "code": "RefreshFixesAgain",
+      "reward": "1 Unusual regalo"
+    },
+    {
+      "code": "SomeRandomFixYea2",
       "reward": "No Stated recompensa"
+    },
+    {
+      "code": "Fridaythe13th",
+      "reward": "4000 créditos"
+    },
+    {
+      "code": "Dagoda",
+      "reward": "1 Unusual regalo"
+    },
+    {
+      "code": "WOWMOREBUGFIXES",
+      "reward": "3K créditos"
+    },
+    {
+      "code": "FREESTUFF_9",
+      "reward": "1250 créditos"
     },
     {
       "code": "WELCOMETO2023",
@@ -582,6 +580,14 @@
     },
     {
       "code": "SomeOpt",
+      "reward": "1 Unusual regalo"
+    },
+    {
+      "code": "SomeRandomFixYea",
+      "reward": "1 Unusual regalo"
+    },
+    {
+      "code": "CompensationNumber3",
       "reward": "1 Unusual regalo"
     },
     {
