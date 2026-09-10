@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-0d84c95f4e83a2a0905bd7b9967dbd22/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Faction Defense Tycoon en Roblox",
   "metaTitle": "Códigos Faction Defense Tycoon Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Faction Defense Tycoon en Roblox. 13 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-09T12:36:52.631Z",
+  "metaDescription": "Lista actualizada de códigos para Faction Defense Tycoon en Roblox. 11 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-10T22:08:41.474Z",
   "activeCodes": [
     {
       "code": "gzedtest122",
@@ -23,13 +23,16 @@
       "addedDate": "2026-03-14"
     },
     {
+      "code": "CASHER",
+      "reward": "80K Cash"
+    },
+    {
       "code": "FIREFLAME",
       "reward": "Fire on Arms effect"
     },
     {
-      "code": "maze74",
-      "reward": "50,000 Cash",
-      "addedDate": "2026-09-09"
+      "code": "MAZE",
+      "reward": "50K Cash"
     },
     {
       "code": "giantzedbonus",
@@ -48,24 +51,20 @@
       "reward": "4K XP"
     },
     {
-      "code": "addprestige32",
-      "reward": "Prestige Level gratis",
-      "addedDate": "2026-09-09"
-    },
-    {
       "code": "pres123",
       "reward": "Fire on Arms and 2 Prestige puntos"
-    },
-    {
-      "code": "MAZE",
-      "reward": "50K Cash"
-    },
-    {
-      "code": "CASHER",
-      "reward": "80K Cash"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "maze74",
+      "reward": "50,000 Cash"
+    },
+    {
+      "code": "addprestige32",
+      "reward": "Prestige Level gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Faction Defense Tycoon en Roblox",
     "Busca el botón de códigos en el menú",

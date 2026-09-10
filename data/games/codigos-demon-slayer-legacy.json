@@ -4,18 +4,18 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-7121786543df1541883ac191ed3ff808/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Demon Slayer Legacy en Roblox",
   "metaTitle": "Códigos Demon Slayer Legacy Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Demon Slayer Legacy en Roblox. 27 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-09T12:36:41.718Z",
+  "metaDescription": "Lista actualizada de códigos para Demon Slayer Legacy en Roblox. 23 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-10T22:08:31.878Z",
   "activeCodes": [
+    {
+      "code": "NEWBEGINNING",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
     {
       "code": "RESETSTATS2",
       "reward": "Reinicio de stats",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "DATAUPGRADE2",
-      "reward": "Recompensa desconocida",
-      "addedDate": "2026-09-09"
     },
     {
       "code": "UseCodeDessi",
@@ -23,19 +23,9 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "NEWBEGINNING",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "GETGUD",
       "reward": "2x EXP 20 minutos",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "GETGUDV2",
-      "reward": "Recompensa desconocida",
-      "addedDate": "2026-09-09"
     },
     {
       "code": "UPD_ONEPOINTFIFTEEN",
@@ -48,28 +38,18 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "AUGSECONDWEEK",
-      "reward": "Recompensa desconocida",
-      "addedDate": "2026-09-09"
-    },
-    {
-      "code": "OPTIMIZATION_ALMOSTCOMPLETE",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "FLAMEWATERBLOOD",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "AUGSECONDWEEK_STATRESET",
-      "reward": "A reinicio de stats",
-      "addedDate": "2026-09-09"
-    },
-    {
       "code": "MAJORDATABUGFIXFINAL",
       "reward": "100 giros",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "OPTIMIZATION_ALMOSTCOMPLETE",
+      "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
     {
@@ -145,16 +125,52 @@
   ],
   "expiredCodes": [
     {
+      "code": "DATAUPGRADE2",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "GETGUDV2",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "AUGSECONDWEEK",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "AUGSECONDWEEK_STATRESET",
+      "reward": "A reinicio de stats"
+    },
+    {
+      "code": "UPCOMINGACCESSORYSHOP",
+      "reward": "Giros or Boosts gratis"
+    },
+    {
+      "code": "UPCOMINGKYOGAI",
+      "reward": "25 giros"
+    },
+    {
+      "code": "3KLIKESCODE",
+      "reward": "250K Yen"
+    },
+    {
+      "code": "1KLIKESCODE",
+      "reward": "27 giros gratis"
+    },
+    {
       "code": "7KLIKESCODE",
       "reward": "Two Times EXP Boost"
     },
     {
-      "code": "BUGFIXCODESORRY!",
-      "reward": "Giros gratis"
+      "code": "BUGFIX_moreXP",
+      "reward": "2x EXP (20 minutos)"
     },
     {
       "code": "10KLIKESCODE",
       "reward": "2x EXP Boost"
+    },
+    {
+      "code": "BUGFIXCODESORRY!",
+      "reward": "Giros gratis"
     },
     {
       "code": "2KLIKESCODE",
@@ -173,10 +189,6 @@
       "reward": "50 giros"
     },
     {
-      "code": "BUGFIX_moreXP",
-      "reward": "2x EXP (20 minutos)"
-    },
-    {
       "code": "RESETYOURSTAT",
       "reward": "Reinicio de stats"
     },
@@ -187,22 +199,6 @@
     {
       "code": "5KLIKESCODE",
       "reward": "Two Times EXP Boost"
-    },
-    {
-      "code": "UPCOMINGKYOGAI",
-      "reward": "25 giros"
-    },
-    {
-      "code": "3KLIKESCODE",
-      "reward": "250K Yen"
-    },
-    {
-      "code": "1KLIKESCODE",
-      "reward": "27 giros gratis"
-    },
-    {
-      "code": "UPCOMINGACCESSORYSHOP",
-      "reward": "Giros or Boosts gratis"
     }
   ],
   "howToRedeem": [
