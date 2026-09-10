@@ -1,51 +1,40 @@
-=== RESUMEN UPDATE 2026-09-09 22:11 ===
+=== RESUMEN UPDATE 2026-09-10 12:35 ===
 
 Archivos modificados:
-  13 archivos cambiados
+  10 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4597 juegos (4597 procesados)
-Actualizados: 11 | Sin cambios: 4440
+Total: 4598 juegos (4598 procesados)
+Actualizados: 7 | Sin cambios: 4445
 No encontrado: 133 | Saltados: 13
-Códigos nuevos: 11 | Movidos a expirados: 0
-Tiempo: 173.7s | Concurrencia: 10
+Códigos nuevos: 1 | Movidos a expirados: 9
+Tiempo: 154.9s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Astral Simulator: 76→76 activos (=), 76→79 exp
-  Anime Card Battle X: 65→67 activos (+2), 6→6 exp
-    Nuevos: RERELEASE, QOLPATCH
-  Anime Power League: 78→80 activos (+2), 12→12 exp
-    Nuevos: AuraMainsSuckFrFr67, HardDrax
-  Anime Story 2: 111→114 activos (+3), 34→34 exp
-    Nuevos: BigUpdateSoon, HuntEvent, NoMoreSummer!
-  Bridge Battles: 2→2 activos (=), 10→12 exp
-  Coach A Fighter: 10→10 activos (=), 4→5 exp
-  Murder Duels: 2→2 activos (=), 21→22 exp
-  New Seas: 37→37 activos (=), 219→221 exp
-  Project Mirror Labyrinth: 46→48 activos (+2), 14→14 exp
-    Nuevos: EGORework, NetworkErrorCompensation
-  Roblox Smiles: 7→8 activos (+1), 0→0 exp
-    Nuevos: BOBRO!
-  Throw A Coin: 10→11 activos (+1), 1→1 exp
-    Nuevos: BANZAI
+  Anime Boxing Simulator: 24→23 activos (-1), 2→3 exp
+  Cat Invaders: 1→1 activos (=), 4→6 exp
+  Horse Life: 2→2 activos (=), 47→48 exp
+  Hots Rng: 83→84 activos (+1), 60→60 exp
+    Nuevos: 18MVisits
+  Kaizen: 11→11 activos (=), 127→128 exp
+  One Fruit Simulator: 150→142 activos (-8), 222→228 exp
+  Pixel Blade: 62→62 activos (=), 18→19 exp
 
 Detalle cambios:
-data/games/codigos-anime-astral-simulator.json
-data/games/codigos-anime-card-battle-x.json
-data/games/codigos-anime-power-league.json
-data/games/codigos-anime-story-2.json
-data/games/codigos-bridge-battles.json
-data/games/codigos-coach-a-fighter.json
-data/games/codigos-murder-duels.json
-data/games/codigos-new-seas.json
-data/games/codigos-project-mirror-labyrinth.json
-data/games/codigos-roblox-smiles.json
-data/games/codigos-throw-a-coin.json
+data/gameguide-urls.json
+data/games/codigos-anime-boxing-simulator.json
+data/games/codigos-cat-invaders.json
+data/games/codigos-horse-life.json
+data/games/codigos-hots-rng.json
+data/games/codigos-kaizen.json
+data/games/codigos-one-fruit-simulator.json
+data/games/codigos-pixel-blade.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-stream-a-cheese-pull.json
 
