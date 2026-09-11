@@ -4,16 +4,16 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-435bb482e48f9f15863732b310649726/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fat Race Clicker en Roblox",
   "metaTitle": "Códigos Fat Race Clicker Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fat Race Clicker en Roblox. 14 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-11T12:29:51.709Z",
+  "metaDescription": "Lista actualizada de códigos para Fat Race Clicker en Roblox. 12 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-11T22:08:49.265Z",
   "activeCodes": [
-    {
-      "code": "TRADESOON",
-      "reward": "Wins poción (2x)"
-    },
     {
       "code": "ST34M",
       "reward": "Toxic Food poción"
+    },
+    {
+      "code": "TRADESOON",
+      "reward": "Wins poción (2x)"
     },
     {
       "code": "LuckyDay",
@@ -22,11 +22,6 @@
     {
       "code": "SUN",
       "reward": "Wins poción (2x)"
-    },
-    {
-      "code": "RUST",
-      "reward": "Recompensas (Discord exclusivo!) gratis",
-      "addedDate": "2026-09-11"
     },
     {
       "code": "CYB3RPUNK",
@@ -57,16 +52,20 @@
       "reward": "Toxic Foods poción"
     },
     {
-      "code": "P4LMS",
-      "reward": "Boosts & recompensas (Discord exclusivo) gratis",
-      "addedDate": "2026-09-11"
-    },
-    {
       "code": "RELEASE",
       "reward": "Wins poción (2x)"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "RUST",
+      "reward": "Recompensas (Discord exclusivo!) gratis"
+    },
+    {
+      "code": "P4LMS",
+      "reward": "Boosts & recompensas (Discord exclusivo) gratis"
+    }
+  ],
   "howToRedeem": [
     "Abre Fat Race Clicker en Roblox",
     "Busca el botón de códigos en el menú",

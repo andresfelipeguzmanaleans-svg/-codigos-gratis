@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-bcf8eb4bb259877ba8629c50052f8941/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Bubble Champions en Roblox",
   "metaTitle": "Códigos Bubble Champions Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Bubble Champions en Roblox. 9 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-11T12:29:16.860Z",
+  "metaDescription": "Lista actualizada de códigos para Bubble Champions en Roblox. 7 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-11T22:08:16.733Z",
   "activeCodes": [
     {
       "code": "release1",
@@ -23,11 +23,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "dx3m4fi",
-      "reward": "Blue Dragon mascota",
-      "addedDate": "2026-09-11"
-    },
-    {
       "code": "1klikes",
       "reward": "Suerte poción",
       "addedDate": "2026-08-01"
@@ -43,17 +38,21 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "release2",
-      "reward": "1 suerte poción",
-      "addedDate": "2026-09-11"
-    },
-    {
       "code": "thxfor4klikes",
       "reward": "Win poción",
       "addedDate": "2026-08-01"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "dx3m4fi",
+      "reward": "Blue Dragon mascota"
+    },
+    {
+      "code": "release2",
+      "reward": "1 suerte poción"
+    }
+  ],
   "howToRedeem": [
     "Abre Bubble Champions en Roblox",
     "Busca el botón de códigos en el menú",
