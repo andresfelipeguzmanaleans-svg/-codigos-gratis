@@ -5,29 +5,25 @@
   "description": "Todos los códigos activos para Sword Legends Simulator en Roblox",
   "metaTitle": "Códigos Sword Legends Simulator Roblox (Septiembre 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Sword Legends Simulator en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-10T22:09:59.098Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-09-11T12:31:31.625Z",
+  "activeCodes": [
     {
       "code": "FREEPET",
-      "reward": "Beaver mascota"
+      "reward": "Beaver mascota",
+      "addedDate": "2026-09-11"
     },
     {
       "code": "FREESTRENGTH",
-      "reward": "1,000 fuerza"
+      "reward": "1,000 fuerza",
+      "addedDate": "2026-09-11"
     },
     {
       "code": "FREEGEMS",
-      "reward": "500 gemas"
-    },
-    {
-      "code": "likes1000",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "clanbattle",
-      "reward": "Monedas II poción"
-    },
+      "reward": "500 gemas",
+      "addedDate": "2026-09-11"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "likes2500",
       "reward": "Recompensas gratis"
@@ -45,16 +41,24 @@
       "reward": "Power II poción"
     },
     {
-      "code": "release",
-      "reward": "500 Sword fuerza"
-    },
-    {
       "code": "update2",
       "reward": "Recompensas gratis"
     },
     {
       "code": "loadouts",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "likes1000",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "release",
+      "reward": "500 Sword fuerza"
+    },
+    {
+      "code": "clanbattle",
+      "reward": "Monedas II poción"
     }
   ],
   "howToRedeem": [
