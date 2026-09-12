@@ -4,35 +4,34 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-4aa7c291d8e34dfb476e29147d5634a1/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Garden Tower Defense en Roblox",
   "metaTitle": "Códigos Garden Tower Defense Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Garden Tower Defense en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-05T21:50:39.334Z",
+  "metaDescription": "Lista actualizada de códigos para Garden Tower Defense en Roblox. 1 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-12T21:53:29.587Z",
   "activeCodes": [
     {
-      "code": "FRONTIER",
+      "code": "POTION",
       "reward": "750 Seeds",
-      "addedDate": "2026-09-05"
-    },
-    {
-      "code": "FANTASY",
-      "reward": "500 Seeds",
-      "addedDate": "2026-09-05"
+      "addedDate": "2026-09-12"
     }
   ],
   "expiredCodes": [
     {
-      "code": "STORY",
+      "code": "FRONTIER",
+      "reward": "750 Seeds"
+    },
+    {
+      "code": "FANTASY",
       "reward": "500 Seeds"
     },
     {
-      "code": "CRYOLESIA",
-      "reward": "500 Presents"
+      "code": "TOXIC",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "SANDBOX",
+      "reward": "500 Seeds"
     },
     {
       "code": "TRADE",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "EXTERMINATE",
       "reward": "500 Seeds"
     },
     {
@@ -40,12 +39,12 @@
       "reward": "500 Seeds"
     },
     {
-      "code": "CHANCE",
-      "reward": "300 Lucky Blocks"
+      "code": "SURVIVE",
+      "reward": "250 Seeds"
     },
     {
-      "code": "Enchanted",
-      "reward": "Recompensa"
+      "code": "MUSHROOM",
+      "reward": "700 Seeds"
     },
     {
       "code": "SNOW",
@@ -156,75 +155,47 @@
       "reward": "250 Easter Eggs"
     },
     {
-      "code": "NEWMAP",
-      "reward": "250 Seeds"
-    },
-    {
-      "code": "PUMPKIN",
-      "reward": "200 Candy Corns"
-    },
-    {
-      "code": "PROFILE",
+      "code": "STORY",
       "reward": "500 Seeds"
     },
     {
-      "code": "25TH",
-      "reward": "500 Presents"
-    },
-    {
-      "code": "2026",
+      "code": "SUNFLOWER",
       "reward": "500 Seeds"
     },
     {
-      "code": "IRISOFTHORNS",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "BLAZEWOOD",
-      "reward": "700 Seeds"
-    },
-    {
-      "code": "FIRE",
-      "reward": "750 Seeds"
-    },
-    {
-      "code": "SANDBOX",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "LAVA",
-      "reward": "700 Seeds"
-    },
-    {
-      "code": "LULLABLOOM",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "CREEPY",
-      "reward": "250 Candy Corns"
-    },
-    {
-      "code": "SNARE",
-      "reward": "750 Seeds"
-    },
-    {
-      "code": "WASTE",
-      "reward": "250 Seeds"
+      "code": "CHECKLIST",
+      "reward": "250 Presents"
     },
     {
       "code": "DJLeafdrop",
       "reward": "500 Seeds"
     },
     {
-      "code": "GARDEN",
-      "reward": "Recompensa"
+      "code": "SHROOM",
+      "reward": "500 Seeds"
     },
     {
-      "code": "SUMMER2",
-      "reward": "Recompensa"
+      "code": "HYDRO",
+      "reward": "500 Seeds"
     },
     {
-      "code": "Animev2",
+      "code": "RNG",
+      "reward": "250 Lucky Blocks"
+    },
+    {
+      "code": "SPOOKY",
+      "reward": "50 Candy Corns"
+    },
+    {
+      "code": "PAUSE",
+      "reward": "250 Presents"
+    },
+    {
+      "code": "FIRE",
+      "reward": "750 Seeds"
+    },
+    {
+      "code": "QUESTY",
       "reward": "500 Seeds"
     },
     {
@@ -232,23 +203,131 @@
       "reward": "750 Seeds"
     },
     {
-      "code": "SPOOKY",
-      "reward": "50 Candy Corns"
-    },
-    {
-      "code": "CARRY",
-      "reward": "750 Seeds"
-    },
-    {
-      "code": "PAUSE",
-      "reward": "250 Presents"
-    },
-    {
-      "code": "REFRESH",
+      "code": "25TH",
       "reward": "500 Presents"
     },
     {
-      "code": "MORPH",
+      "code": "BOSSRAID",
+      "reward": "700 Seeds"
+    },
+    {
+      "code": "BLINKBLOOM",
+      "reward": "350 Easter Eggs"
+    },
+    {
+      "code": "FORTUNE",
+      "reward": "300 Lucky Blocks"
+    },
+    {
+      "code": "SLIME",
+      "reward": "60 minuto doble Seeds Boost"
+    },
+    {
+      "code": "CHANCE",
+      "reward": "300 Lucky Blocks"
+    },
+    {
+      "code": "CREEPY",
+      "reward": "250 Candy Corns"
+    },
+    {
+      "code": "BUDYGUARDS",
+      "reward": "300 Lucky Blocks"
+    },
+    {
+      "code": "BlackClover",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "PVP",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "XPGTD",
+      "reward": "250 Seeds"
+    },
+    {
+      "code": "RANKED",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "GREENHOUSE",
+      "reward": "700 Seeds"
+    },
+    {
+      "code": "LOVEBURST",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "SHARDS",
+      "reward": "700 Seeds"
+    },
+    {
+      "code": "ADMINABUSE",
+      "reward": "2,500 Golden tickets"
+    },
+    {
+      "code": "HYPNOGAZE",
+      "reward": "2,500 Golden tickets"
+    },
+    {
+      "code": "PROFILE",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "SENTRY",
+      "reward": "750 Seeds"
+    },
+    {
+      "code": "SNARE",
+      "reward": "750 Seeds"
+    },
+    {
+      "code": "gtd",
+      "reward": "300 gemas"
+    },
+    {
+      "code": "MINIGAMES",
+      "reward": "350 Easter Eggs"
+    },
+    {
+      "code": "WASTE",
+      "reward": "250 Seeds"
+    },
+    {
+      "code": "SUMMER2",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "VOLCANO",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "PUMPKIN",
+      "reward": "200 Candy Corns"
+    },
+    {
+      "code": "Nuke",
+      "reward": "750 Seeds"
+    },
+    {
+      "code": "MAGIC",
+      "reward": "700 Seeds"
+    },
+    {
+      "code": "Rainbow",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "CRYOLESIA",
+      "reward": "500 Presents"
+    },
+    {
+      "code": "ROCKET",
+      "reward": "70 gemas"
+    },
+    {
+      "code": "WAVE",
       "reward": "500 Seeds"
     },
     {
@@ -260,119 +339,55 @@
       "reward": "700 Seeds"
     },
     {
-      "code": "BOSSRAID",
-      "reward": "700 Seeds"
+      "code": "Anime",
+      "reward": "600 Seeds"
     },
     {
-      "code": "SHROOM",
-      "reward": "500 Seeds"
+      "code": "GARDEN",
+      "reward": "Recompensa"
     },
     {
-      "code": "MINIGAMES",
-      "reward": "350 Easter Eggs"
+      "code": "CARRY",
+      "reward": "750 Seeds"
     },
     {
-      "code": "CLUSTERPLANT",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "FORTUNE",
-      "reward": "300 Lucky Blocks"
-    },
-    {
-      "code": "TRADER",
-      "reward": "200 Candy Corns"
-    },
-    {
-      "code": "CHECKLIST",
-      "reward": "250 Presents"
-    },
-    {
-      "code": "GREENHOUSE",
-      "reward": "700 Seeds"
-    },
-    {
-      "code": "MAGIC",
-      "reward": "700 Seeds"
-    },
-    {
-      "code": "SHARDS",
-      "reward": "700 Seeds"
+      "code": "REFRESH",
+      "reward": "500 Presents"
     },
     {
       "code": "SPACE",
       "reward": "50 gemas"
     },
     {
-      "code": "BUDYGUARDS",
-      "reward": "300 Lucky Blocks"
-    },
-    {
-      "code": "HYDRO",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "WAVE",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "BlackClover",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "PVP",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "ADMINABUSE",
-      "reward": "2,500 Golden tickets"
-    },
-    {
-      "code": "HYPNOGAZE",
-      "reward": "2,500 Golden tickets"
-    },
-    {
-      "code": "VOLCANO",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "SLIME",
-      "reward": "60 minuto doble Seeds Boost"
-    },
-    {
-      "code": "SUNFLOWER",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "SENTRY",
+      "code": "AdminHype",
       "reward": "750 Seeds"
     },
     {
-      "code": "AXOLOTL",
+      "code": "Eggplant",
       "reward": "750 Seeds"
     },
     {
-      "code": "gtd",
-      "reward": "300 gemas"
+      "code": "BLAZEWOOD",
+      "reward": "700 Seeds"
     },
     {
-      "code": "Rainbow",
+      "code": "Enchanted",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "MORPH",
       "reward": "500 Seeds"
     },
     {
-      "code": "LOVEBURST",
+      "code": "HALLOWEEN",
+      "reward": "150 Candy Corns"
+    },
+    {
+      "code": "EXTERMINATE",
       "reward": "500 Seeds"
     },
     {
-      "code": "1v1",
-      "reward": "750 Seeds"
-    },
-    {
-      "code": "ROCKET",
-      "reward": "70 gemas"
-    },
-    {
-      "code": "RANKED",
+      "code": "CLUSTERPLANT",
       "reward": "500 Seeds"
     },
     {
@@ -380,40 +395,40 @@
       "reward": "750 Seeds"
     },
     {
-      "code": "RNG",
-      "reward": "250 Lucky Blocks"
-    },
-    {
-      "code": "XPGTD",
+      "code": "NEWMAP",
       "reward": "250 Seeds"
     },
     {
-      "code": "BLINKBLOOM",
-      "reward": "350 Easter Eggs"
-    },
-    {
-      "code": "Nuke",
+      "code": "1v1",
       "reward": "750 Seeds"
     },
     {
-      "code": "AdminHype",
-      "reward": "750 Seeds"
-    },
-    {
-      "code": "QUESTY",
+      "code": "IRISOFTHORNS",
       "reward": "500 Seeds"
     },
     {
-      "code": "Anime",
-      "reward": "600 Seeds"
+      "code": "LAVA",
+      "reward": "700 Seeds"
     },
     {
-      "code": "HALLOWEEN",
-      "reward": "150 Candy Corns"
+      "code": "LULLABLOOM",
+      "reward": "500 Seeds"
     },
     {
-      "code": "Eggplant",
+      "code": "AXOLOTL",
       "reward": "750 Seeds"
+    },
+    {
+      "code": "Animev2",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "TRADER",
+      "reward": "200 Candy Corns"
+    },
+    {
+      "code": "2026",
+      "reward": "500 Seeds"
     },
     {
       "code": "SUNDIAL",
@@ -434,18 +449,6 @@
     {
       "code": "CANDYCANE",
       "reward": "400 Presents"
-    },
-    {
-      "code": "SURVIVE",
-      "reward": "250 Seeds"
-    },
-    {
-      "code": "TOXIC",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "MUSHROOM",
-      "reward": "700 Seeds"
     },
     {
       "code": "AUTOPLAY",
