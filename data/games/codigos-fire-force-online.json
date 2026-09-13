@@ -4,9 +4,14 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-544b8c1b2c431df3e296678328ff4f1c/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fire Force Online en Roblox",
   "metaTitle": "Códigos Fire Force Online Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fire Force Online en Roblox. 24 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-13T13:00:31.006Z",
+  "metaDescription": "Lista actualizada de códigos para Fire Force Online en Roblox. 25 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-13T21:59:25.787Z",
   "activeCodes": [
+    {
+      "code": "MOREFRAMES",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-09-13"
+    },
     {
       "code": "LEAKPATCHED",
       "reward": "60 Reroll tokens",
@@ -130,122 +135,6 @@
   ],
   "expiredCodes": [
     {
-      "code": "MEDICINE",
-      "reward": "80 Reroll tokens"
-    },
-    {
-      "code": "DESERTRAIDZ",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "WEEK11",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "CORNATIME",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "ADOLLAISREAL",
-      "reward": "Ability Reroll, Clan Reroll, Generations Reset, Skill Reset"
-    },
-    {
-      "code": "40KLIKES",
-      "reward": "Ability Reroll"
-    },
-    {
-      "code": "WEEK1",
-      "reward": "Ability Reroll"
-    },
-    {
-      "code": "INFERNALFIXES",
-      "reward": "30 Reroll tokens"
-    },
-    {
-      "code": "CHRISTMASCHEER",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "WEEK4",
-      "reward": "10 Reroll tokens"
-    },
-    {
-      "code": "11MVISITS",
-      "reward": "Ability Reroll"
-    },
-    {
-      "code": "GIFT4YOU",
-      "reward": "Ability Reroll"
-    },
-    {
-      "code": "ARCADE",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "WEEK7",
-      "reward": "Reroll"
-    },
-    {
-      "code": "45KLIKES",
-      "reward": "Reroll"
-    },
-    {
-      "code": "WEEK3",
-      "reward": "10 Reroll tokens"
-    },
-    {
-      "code": "DRAGONABILITY",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "AUGMENTV2",
-      "reward": "80 Reroll tokens"
-    },
-    {
-      "code": "CHRISTMASPART2",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "ProgressionFixes",
-      "reward": "Ability Reroll, Gen Reroll"
-    },
-    {
-      "code": "SorryForBugzz",
-      "reward": "30 Reroll tokens"
-    },
-    {
-      "code": "WEEK9",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "WEEK8",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "Hotfixes",
-      "reward": "Reroll"
-    },
-    {
-      "code": "WEEK6",
-      "reward": "Reroll"
-    },
-    {
-      "code": "WEEK2",
-      "reward": "Skill Reset"
-    },
-    {
-      "code": "AdollaSoon",
-      "reward": "Ability Reroll, Reset"
-    },
-    {
-      "code": "PLAYRANKED",
-      "reward": "Ability Reroll, Gen Reroll"
-    },
-    {
-      "code": "WEEK5",
-      "reward": "Reroll"
-    },
-    {
       "code": "Sorry4Bugs",
       "reward": "Ability, Generation, Clan Reroll"
     },
@@ -324,6 +213,122 @@
     {
       "code": "MOBILEISHERE",
       "reward": "Ability Reroll"
+    },
+    {
+      "code": "40KLIKES",
+      "reward": "Ability Reroll"
+    },
+    {
+      "code": "11MVISITS",
+      "reward": "Ability Reroll"
+    },
+    {
+      "code": "45KLIKES",
+      "reward": "Reroll"
+    },
+    {
+      "code": "GIFT4YOU",
+      "reward": "Ability Reroll"
+    },
+    {
+      "code": "Hotfixes",
+      "reward": "Reroll"
+    },
+    {
+      "code": "AdollaSoon",
+      "reward": "Ability Reroll, Reset"
+    },
+    {
+      "code": "WEEK1",
+      "reward": "Ability Reroll"
+    },
+    {
+      "code": "WEEK2",
+      "reward": "Skill Reset"
+    },
+    {
+      "code": "WEEK3",
+      "reward": "10 Reroll tokens"
+    },
+    {
+      "code": "WEEK4",
+      "reward": "10 Reroll tokens"
+    },
+    {
+      "code": "WEEK5",
+      "reward": "Reroll"
+    },
+    {
+      "code": "WEEK6",
+      "reward": "Reroll"
+    },
+    {
+      "code": "WEEK7",
+      "reward": "Reroll"
+    },
+    {
+      "code": "WEEK8",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "CHRISTMASCHEER",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "CHRISTMASPART2",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "WEEK9",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "CORNATIME",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "WEEK11",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "SorryForBugzz",
+      "reward": "30 Reroll tokens"
+    },
+    {
+      "code": "DESERTRAIDZ",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "DRAGONABILITY",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "ADOLLAISREAL",
+      "reward": "Ability Reroll, Clan Reroll, Generations Reset, Skill Reset"
+    },
+    {
+      "code": "ProgressionFixes",
+      "reward": "Ability Reroll, Gen Reroll"
+    },
+    {
+      "code": "PLAYRANKED",
+      "reward": "Ability Reroll, Gen Reroll"
+    },
+    {
+      "code": "INFERNALFIXES",
+      "reward": "30 Reroll tokens"
+    },
+    {
+      "code": "MEDICINE",
+      "reward": "80 Reroll tokens"
+    },
+    {
+      "code": "ARCADE",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "AUGMENTV2",
+      "reward": "80 Reroll tokens"
     },
     {
       "code": "PATCH",
