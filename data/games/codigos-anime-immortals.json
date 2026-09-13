@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-631bb37dd2a330849e3f936ae1f70a91/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Immortals en Roblox",
   "metaTitle": "Códigos Anime Immortals Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Immortals en Roblox. 21 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-12T11:50:21.718Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Immortals en Roblox. 20 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-13T12:59:39.215Z",
   "activeCodes": [
     {
       "code": "FREESTUFF",
@@ -33,12 +33,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "UPDATE9",
-      "reward": "200 gemas, 3 Orb of Potential",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "FREE",
+      "code": "FREEITEMS",
       "reward": "100 gemas, 2 Orb of Potential",
       "addedDate": "2026-08-01"
     },
@@ -83,8 +78,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "GIMME",
-      "reward": "3 legendario Orbs Of Potential",
+      "code": "UPDATE9",
+      "reward": "200 gemas, 3 Orb of Potential",
       "addedDate": "2026-08-01"
     },
     {
@@ -93,9 +88,14 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "AI20",
-      "reward": "Gemas And A Bunch Of recompensas gratis",
-      "addedDate": "2026-09-12"
+      "code": "GIMME",
+      "reward": "3 legendario Orbs Of Potential",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "FREE",
+      "reward": "100 gemas, 2 Orb of Potential",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "UPDATE12",
@@ -106,37 +106,40 @@
       "code": "UPDATE14",
       "reward": "3 legendario Orbs Of Potential And 200 gemas",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "FREEITEMS",
-      "reward": "100 gemas, 2 Orb of Potential",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "AI20",
+      "reward": "Gemas And A Bunch Of recompensas gratis"
+    },
+    {
+      "code": "VALENTINES",
+      "reward": "200 gemas and 5 Valentine tickets"
+    },
+    {
+      "code": "UPDATE",
+      "reward": "5 Orbs of Potential and 500 gemas"
+    },
+    {
+      "code": "THANKSPLAIN",
+      "reward": "3 llaves Of Potential And 100 gemas"
+    },
     {
       "code": "RELEASE",
       "reward": "Random poción Box, A legendario Orb Of Potential, And 250 raro gemas"
     },
     {
-      "code": "WOWWOW",
-      "reward": "2 legendario Orbs Of Potential And 100 gemas"
+      "code": "SMALL",
+      "reward": "2 Orbs of Potential and 250 gemas"
     },
     {
       "code": "SORRYBUG",
       "reward": "50 Evil gemas"
     },
     {
-      "code": "UPDATE4",
-      "reward": "500 gemas"
-    },
-    {
       "code": "EVENTEND",
       "reward": "200 gemas, 50 Evil gemas and 5 Valentines tickets"
-    },
-    {
-      "code": "THANKSPLAIN",
-      "reward": "3 llaves Of Potential And 100 gemas"
     },
     {
       "code": "UPDATE8",
@@ -145,10 +148,6 @@
     {
       "code": "MOREGEMS",
       "reward": "5 legendario Orbs Of Potential"
-    },
-    {
-      "code": "SMALL",
-      "reward": "2 Orbs of Potential and 250 gemas"
     },
     {
       "code": "JUSTICE2",
@@ -171,6 +170,14 @@
       "reward": "3 legendario Orbs Of Potential And 250 gemas"
     },
     {
+      "code": "UPDATE4",
+      "reward": "500 gemas"
+    },
+    {
+      "code": "WOWWOW",
+      "reward": "2 legendario Orbs Of Potential And 100 gemas"
+    },
+    {
       "code": "DELAYIMMORTALS",
       "reward": "2 legendario Orbs Of Potential And 100 gemas"
     },
@@ -185,10 +192,6 @@
     {
       "code": "LETSGO",
       "reward": "500 gemas"
-    },
-    {
-      "code": "UPDATE",
-      "reward": "5 Orbs of Potential and 500 gemas"
     },
     {
       "code": "CODEPLEASE",
@@ -225,10 +228,6 @@
     {
       "code": "UPDATE11",
       "reward": "3 legendario Orbs Of Potential"
-    },
-    {
-      "code": "VALENTINES",
-      "reward": "200 gemas and 5 Valentine tickets"
     }
   ],
   "howToRedeem": [
