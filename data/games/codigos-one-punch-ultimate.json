@@ -5,21 +5,20 @@
   "description": "Todos los códigos activos para One Punch Ultimate en Roblox",
   "metaTitle": "Códigos One Punch Ultimate Roblox (Septiembre 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para One Punch Ultimate en Roblox. 2 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-13T13:01:13.753Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-09-15T13:03:03.857Z",
+  "activeCodes": [
     {
       "code": "bugwave3",
-      "reward": "30 giros"
+      "reward": "30 giros",
+      "addedDate": "2026-09-15"
     },
     {
       "code": "bugwave2",
-      "reward": "30 giros"
-    },
-    {
-      "code": "LetsGetMoney!",
-      "reward": "Oro Buff (25 minutos)"
-    },
+      "reward": "30 giros",
+      "addedDate": "2026-09-15"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "SomeoneLetKiOut",
       "reward": "55 giros"
@@ -65,12 +64,12 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "Griddle",
-      "reward": "Doble oro (25 minutos)"
-    },
-    {
       "code": "Rah!",
       "reward": "Doble EXP (45 minutos)"
+    },
+    {
+      "code": "Griddle",
+      "reward": "Doble oro (25 minutos)"
     },
     {
       "code": "CodeRetry",
@@ -95,6 +94,10 @@
     {
       "code": "SlideGang!",
       "reward": "Doble EXP (40 minutos)"
+    },
+    {
+      "code": "LetsGetMoney!",
+      "reward": "Oro Buff (25 minutos)"
     },
     {
       "code": "BugFix2",
