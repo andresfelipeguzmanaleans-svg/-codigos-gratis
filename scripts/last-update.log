@@ -1,43 +1,81 @@
-=== RESUMEN UPDATE 2026-09-16 22:35 ===
+=== RESUMEN UPDATE 2026-09-17 12:58 ===
 
 Archivos modificados:
-  9 archivos cambiados
+  24 archivos cambiados
 
 Archivos nuevos:
-  6 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4609 juegos (4609 procesados)
-Actualizados: 6 | Sin cambios: 4458
+Actualizados: 22 | Sin cambios: 4442
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 3 | Movidos a expirados: 0
-Tiempo: 198.4s | Concurrencia: 10
+Códigos nuevos: 28 | Movidos a expirados: 0
+Tiempo: 186.6s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Capture: 105→105 activos (=), 30→33 exp
-  Anime Jackpot: 5→5 activos (=), 36→38 exp
-  Anime Stars: 33→33 activos (=), 0→1 exp
-  Demon Born: 49→49 activos (=), 4→6 exp
-  Make Soccer Players: 3→3 activos (=), 7→9 exp
-  Medieval Life: 1→4 activos (+3), 1→1 exp
-    Nuevos: 500KYAY, GETTOWORK, KNIGHTUPGRADE
+  1 Power Per Click: 6→6 activos (=), 1→7 exp
+  1 Speed Evolve: 8→10 activos (+2), 6→6 exp
+    Nuevos: 100MVisits, 200KLikes
+  A One Piece Game: 286→289 activos (+3), 190→190 exp
+    Nuevos: TheAlmighty, Sea3Soon, 20KLikes!!
+  Anime Apocalypse: 72→73 activos (+1), 10→10 exp
+    Nuevos: HOTFIXESONCEAGAIN
+  Anime Astral Simulator: 76→76 activos (=), 83→86 exp
+  Anime Capture: 105→108 activos (+3), 33→30 exp
+    Nuevos: 72kfavs, newrarity, evolutionmonster
+  Anime Stars: 33→34 activos (+1), 1→0 exp
+    Nuevos: 60KFAVORITES
+  Anime Squadron: 14→15 activos (+1), 51→51 exp
+    Nuevos: WAdminAbuse!
+  Demon Born: 49→51 activos (+2), 6→4 exp
+    Nuevos: DAILYUPDATE, DAILYUPDATE2
+  Five Nights Td 2: 139→144 activos (+5), 0→0 exp
+    Nuevos: NEWAFKPRESENT, SLUMBER, SMALLEVENTSHOP, THANKYOUFORPLAYING, UPDATE46
+  Flashpoint Worlds Collide: 80→80 activos (=), 43→44 exp
+  Grand Piece Online: 26→29 activos (+3), 287→284 exp
+    Nuevos: FREE_EXP6, FREE_Drops7, ILOVEGPO_3
+  Medieval Life: 4→4 activos (=), 1→2 exp
+  Mojave Valley: 19→19 activos (=), 16→17 exp
+  Murder Duels: 2→2 activos (=), 22→23 exp
+  Pixel Blade: 62→62 activos (=), 21→22 exp
+  Plane Crash Simulator: 5→5 activos (=), 5→6 exp
+  Project Mirror Labyrinth: 49→50 activos (+1), 14→14 exp
+    Nuevos: LastOfTheShinSquad
+  Roblox Smiles: 8→9 activos (+1), 0→0 exp
+    Nuevos: DUCKY!
+  Stream A Cheese Pull: 1→4 activos (+3), 3→0 exp
+    Nuevos: Dino, Kitty, SPEEDIE
+  The Vampire Legacies 2: 14→15 activos (+1), 39→39 exp
+    Nuevos: claws
+  Tr Legacy: 27→28 activos (+1), 7→6 exp
+    Nuevos: CRAZY80K
 
 Detalle cambios:
-data/gameguide-urls.json
+data/games/codigos-1-power-per-click.json
+data/games/codigos-1-speed-evolve.json
+data/games/codigos-a-one-piece-game.json
+data/games/codigos-anime-apocalypse.json
+data/games/codigos-anime-astral-simulator.json
 data/games/codigos-anime-capture.json
-data/games/codigos-anime-jackpot.json
+data/games/codigos-anime-squadron.json
 data/games/codigos-anime-stars.json
 data/games/codigos-demon-born.json
-data/games/codigos-make-soccer-players.json
+data/games/codigos-five-nights-td-2.json
+data/games/codigos-flashpoint-worlds-collide.json
+data/games/codigos-grand-piece-online.json
 data/games/codigos-medieval-life.json
+data/games/codigos-mojave-valley.json
+data/games/codigos-murder-duels.json
+data/games/codigos-pixel-blade.json
+data/games/codigos-plane-crash-simulator.json
+data/games/codigos-project-mirror-labyrinth.json
+data/games/codigos-roblox-smiles.json
+data/games/codigos-stream-a-cheese-pull.json
+data/games/codigos-the-vampire-legacies-2.json
+data/games/codigos-tr-legacy.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-1-fist-per-click.json
-data/games/codigos-1-speed-verity-backroom-escape.json
-data/games/codigos-1-web-swing-escape.json
-data/games/codigos-breakdoor.json
-data/games/codigos-chess-incremental.json
-data/games/codigos-collect-the-alphabet.json
 
