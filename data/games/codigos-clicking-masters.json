@@ -4,14 +4,9 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-10cf1f1193da26b85770baf03b1aeba0/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Clicking Masters en Roblox",
   "metaTitle": "Códigos Clicking Masters Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Clicking Masters en Roblox. 12 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-16T12:59:24.545Z",
+  "metaDescription": "Lista actualizada de códigos para Clicking Masters en Roblox. 11 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-17T22:34:16.233Z",
   "activeCodes": [
-    {
-      "code": "5000likes",
-      "reward": "Rebirth poción",
-      "addedDate": "2026-08-01"
-    },
     {
       "code": "10000likes",
       "reward": "Boost gratis",
@@ -23,9 +18,9 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "100likes",
-      "reward": "1 2x Clicks Boost",
-      "addedDate": "2026-09-16"
+      "code": "thanksgiving",
+      "reward": "Gemas poción",
+      "addedDate": "2026-08-01"
     },
     {
       "code": "Christmas",
@@ -33,8 +28,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "thanksgiving",
-      "reward": "Gemas poción",
+      "code": "5000likes",
+      "reward": "Rebirth poción",
       "addedDate": "2026-08-01"
     },
     {
@@ -68,7 +63,12 @@
       "addedDate": "2026-08-01"
     }
   ],
-  "expiredCodes": [],
+  "expiredCodes": [
+    {
+      "code": "100likes",
+      "reward": "1 2x Clicks Boost"
+    }
+  ],
   "howToRedeem": [
     "Abre Clicking Masters en Roblox",
     "Busca el botón de códigos en el menú",
