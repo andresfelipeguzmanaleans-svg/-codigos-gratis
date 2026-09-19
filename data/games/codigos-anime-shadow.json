@@ -4,14 +4,9 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-5f246bf6237833a10912e4a75a563893/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Shadow en Roblox",
   "metaTitle": "Códigos Anime Shadow Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 36 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-18T12:33:12.820Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 35 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-19T21:59:10.550Z",
   "activeCodes": [
-    {
-      "code": "5KLIKES",
-      "reward": "200 tickets",
-      "addedDate": "2026-08-01"
-    },
     {
       "code": "10KACTIVES",
       "reward": "100 tickets, 2 monedas pociones, 2 daño pociones",
@@ -21,6 +16,15 @@
       "code": "10KLIKES",
       "reward": "100 tickets",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "5KLIKES",
+      "reward": "200 tickets",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "BUFFBOROS",
+      "reward": "4 Dragon Ball VII, 2 Dragon Ball VI"
     },
     {
       "code": "FIXEDCODE",
@@ -65,9 +69,8 @@
       "reward": "150 tickets"
     },
     {
-      "code": "25KLIKES",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-09-18"
+      "code": "GHOULUPDATE",
+      "reward": "100 tickets, 2 Shiny pociones"
     },
     {
       "code": "QuestFix",
@@ -78,20 +81,12 @@
       "reward": "150 tickets"
     },
     {
-      "code": "GHOULUPDATE",
-      "reward": "100 tickets, 2 Shiny pociones"
-    },
-    {
       "code": "40KLIKES",
       "reward": "100 tickets, 4 Fish monedas, 3 Raid llaves"
     },
     {
-      "code": "BUFFBOROS",
-      "reward": "4 Dragon Ball VII, 2 Dragon Ball VI"
-    },
-    {
-      "code": "TITLESUPDATE",
-      "reward": "100 tickets, 1 Shiny poción"
+      "code": "FIXEDSTARS",
+      "reward": "200 Passive Capsules, 200 Cursed Plasma, 2 Raid llaves"
     },
     {
       "code": "SLAYERUPDATE",
@@ -138,12 +133,12 @@
       "reward": "100 tickets, 20 Talent Shards, 20 Gingerbread, 20 Candy Canes"
     },
     {
-      "code": "FIXEDSTARS",
-      "reward": "200 Passive Capsules, 200 Cursed Plasma, 2 Raid llaves"
-    },
-    {
       "code": "CLOVERUPDATE",
       "reward": "100 tickets, 15 Grimoire tokens"
+    },
+    {
+      "code": "TITLESUPDATE",
+      "reward": "100 tickets, 1 Shiny poción"
     },
     {
       "code": "NEYPATCH",
@@ -159,6 +154,10 @@
     }
   ],
   "expiredCodes": [
+    {
+      "code": "25KLIKES",
+      "reward": "Recompensas gratis"
+    },
     {
       "code": "HunterUpdate",
       "reward": "Tickets"
