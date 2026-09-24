@@ -1,44 +1,77 @@
-=== RESUMEN UPDATE 2026-09-23 22:38 ===
+=== RESUMEN UPDATE 2026-09-24 13:06 ===
 
 Archivos modificados:
-  12 archivos cambiados
+  21 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  1 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4616 juegos (4616 procesados)
-Actualizados: 10 | Sin cambios: 4461
+Total: 4617 juegos (4617 procesados)
+Actualizados: 20 | Sin cambios: 4452
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 3 | Movidos a expirados: 0
-Tiempo: 166.5s | Concurrencia: 10
+Códigos nuevos: 16 | Movidos a expirados: 6
+Tiempo: 165.6s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Astral Simulator: 76→76 activos (=), 100→103 exp
-  Anime Rng Defense: 8→8 activos (=), 68→69 exp
-  Clover Origins: 84→84 activos (=), 27→28 exp
-  Final Swarm: 12→12 activos (=), 5→6 exp
-  Gym League: 64→67 activos (+3), 39→39 exp
-    Nuevos: LIMITBREAKER, SCLASS, HERO
-  King Tower: 4→4 activos (=), 5→6 exp
-  Legacy Piece: 21→21 activos (=), 85→88 exp
-  Prism Runway Show: 28→28 activos (=), 1→2 exp
-  Resource Incremental: 17→17 activos (=), 15→17 exp
-  Tr Legacy: 29→29 activos (=), 6→7 exp
+  1 Fist Per Click: 1→1 activos (=), 0→8 exp
+  A One Piece Game: 291→292 activos (+1), 190→190 exp
+    Nuevos: QOLTime
+  Anime Dimensions Simulator: 49→49 activos (=), 234→233 exp
+  Anime Story 2: 119→120 activos (+1), 34→34 exp
+    Nuevos: masteryeasier
+  Beatball: 3→4 activos (+1), 1→1 exp
+    Nuevos: FUNNYBUBBLE
+  Car Dealership Tycoon: 23→23 activos (=), 272→273 exp
+  Clover Retribution: 256→257 activos (+1), 56→56 exp
+    Nuevos: !anniversarypart2soon
+  Doodle World: 139→139 activos (=), 206→207 exp
+  Elemental Dungeons: 55→55 activos (=), 20→21 exp
+  Jujutsu Legacy: 44→45 activos (+1), 12→12 exp
+    Nuevos: StarRage
+  New Seas: 39→41 activos (+2), 221→221 exp
+    Nuevos: BurntChickenSandwich, MaryGeoiseUpd
+  Prism Runway Show: 28→29 activos (+1), 2→1 exp
+    Nuevos: PANCAKEPARTY
+  Project Mirror Labyrinth: 50→51 activos (+1), 14→14 exp
+    Nuevos: SolemntLament
+  Pull a Sword: 154→154 activos (=), 104→105 exp
+  Resource Incremental: 17→19 activos (+2), 17→15 exp
+    Nuevos: superminiupdatecode, cashbug
+  Roblox Smiles: 10→11 activos (+1), 0→0 exp
+    Nuevos: KITTY!
+  Subterra: 32→33 activos (+1), 6→5 exp
+    Nuevos: UPDATE
+  Tr Legacy: 29→30 activos (+1), 7→6 exp
+    Nuevos: NOSHOT4M
+  Ultra Unfair: 17→18 activos (+1), 97→97 exp
+    Nuevos: !ContentUpdate!
+  Undertale Rng: 7→1 activos (-6), 86→93 exp
+    Nuevos: duck
 
 Detalle cambios:
-data/games/codigos-anime-astral-simulator.json
-data/games/codigos-anime-rng-defense.json
-data/games/codigos-clover-origins.json
-data/games/codigos-final-swarm.json
-data/games/codigos-gym-league.json
-data/games/codigos-king-tower.json
-data/games/codigos-legacy-piece.json
+data/games/codigos-1-fist-per-click.json
+data/games/codigos-a-one-piece-game.json
+data/games/codigos-anime-story-2.json
+data/games/codigos-beatball.json
+data/games/codigos-car-dealership-tycoon.json
+data/games/codigos-clover-retribution.json
+data/games/codigos-doodle-world.json
+data/games/codigos-elemental-dungeons.json
+data/games/codigos-jujutsu-legacy.json
+data/games/codigos-new-seas.json
 data/games/codigos-prism-runway-show.json
+data/games/codigos-project-mirror-labyrinth.json
+data/games/codigos-pull-a-sword.json
 data/games/codigos-resource-incremental.json
+data/games/codigos-roblox-smiles.json
+data/games/codigos-subterra.json
 data/games/codigos-tr-legacy.json
+data/games/codigos-ultra-unfair.json
+data/games/codigos-undertale-rng.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-anime-dimensions-simulator.json
 
