@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-c862837c7792e1e92f9cc891780ac0d5/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Capybara Evolution en Roblox",
   "metaTitle": "Códigos Capybara Evolution Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Capybara Evolution en Roblox. 36 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-22T12:59:04.934Z",
+  "metaDescription": "Lista actualizada de códigos para Capybara Evolution en Roblox. 35 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-24T22:52:56.998Z",
   "activeCodes": [
     {
       "code": "SorryForDelay",
@@ -93,6 +93,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "BunnyCrate",
+      "reward": "Golden Easter cofre",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "RB23",
       "reward": "1 Bronze cofre",
       "addedDate": "2026-08-01"
@@ -123,11 +128,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Brrrra",
-      "reward": "2 EXP pociones",
-      "addedDate": "2026-09-22"
-    },
-    {
       "code": "I2PERFECT",
       "reward": "1 XP poción",
       "addedDate": "2026-08-01"
@@ -153,27 +153,17 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "VOIDEVENT3",
+      "reward": "3 EXP pociones",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "VOID2",
       "reward": "2 Void tickets",
       "addedDate": "2026-08-01"
     },
     {
       "code": "VOID",
-      "reward": "3 EXP pociones",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BunnyCrate",
-      "reward": "Golden Easter cofre",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "VOIDEVENT3",
-      "reward": "3 EXP pociones",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "PARTY",
       "reward": "3 EXP pociones",
       "addedDate": "2026-08-01"
     },
@@ -186,9 +176,18 @@
       "code": "ZAPYBARA",
       "reward": "3 EXP pociones",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "PARTY",
+      "reward": "3 EXP pociones",
+      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "Brrrra",
+      "reward": "2 EXP pociones"
+    },
     {
       "code": "Coral1",
       "reward": "EXP pociones"

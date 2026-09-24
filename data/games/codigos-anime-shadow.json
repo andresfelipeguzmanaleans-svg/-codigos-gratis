@@ -4,17 +4,17 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-5f246bf6237833a10912e4a75a563893/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Shadow en Roblox",
   "metaTitle": "Códigos Anime Shadow Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 36 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-22T12:58:41.792Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 35 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-24T22:52:33.888Z",
   "activeCodes": [
-    {
-      "code": "10KACTIVES",
-      "reward": "100 tickets, 2 monedas pociones, 2 daño pociones",
-      "addedDate": "2026-08-01"
-    },
     {
       "code": "5KLIKES",
       "reward": "200 tickets",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "10KACTIVES",
+      "reward": "100 tickets, 2 monedas pociones, 2 daño pociones",
       "addedDate": "2026-08-01"
     },
     {
@@ -85,13 +85,12 @@
       "reward": "150 tickets"
     },
     {
-      "code": "25KLIKES",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-09-22"
+      "code": "TITLESUPDATE",
+      "reward": "100 tickets, 1 Shiny poción"
     },
     {
-      "code": "AURAUPDATE",
-      "reward": "90 tickets, 25 Aura Shards"
+      "code": "SLAYERUPDATE",
+      "reward": "150 tickets, 1 Raid llave, 1 Defense llave"
     },
     {
       "code": "NEYPATCH",
@@ -100,6 +99,10 @@
     {
       "code": "UPDATECRAFT",
       "reward": "80 tickets"
+    },
+    {
+      "code": "PATCHXMAS",
+      "reward": "100 tickets, 2.5x monedas poción, 2.5x daño poción, 2.5x Exp poción"
     },
     {
       "code": "SRRYXMAS2",
@@ -130,12 +133,8 @@
       "reward": "100 tickets, 15 Grimoire tokens"
     },
     {
-      "code": "SLAYERUPDATE",
-      "reward": "150 tickets, 1 Raid llave, 1 Defense llave"
-    },
-    {
-      "code": "PATCHXMAS",
-      "reward": "100 tickets, 2.5x monedas poción, 2.5x daño poción, 2.5x Exp poción"
+      "code": "AURAUPDATE",
+      "reward": "90 tickets, 25 Aura Shards"
     },
     {
       "code": "SRRYDELAYXMAS",
@@ -152,13 +151,13 @@
     {
       "code": "FIXEDSTARS",
       "reward": "200 Passive Capsules, 200 Cursed Plasma, 2 Raid llaves"
-    },
-    {
-      "code": "TITLESUPDATE",
-      "reward": "100 tickets, 1 Shiny poción"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "25KLIKES",
+      "reward": "Recompensas gratis"
+    },
     {
       "code": "HunterUpdate",
       "reward": "Tickets"
