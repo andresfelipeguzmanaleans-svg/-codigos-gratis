@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-bc1a60e2558e633d28821ab4f497b368/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Gym League en Roblox",
   "metaTitle": "Códigos Gym League Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Gym League en Roblox. 66 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-24T22:53:34.655Z",
+  "metaDescription": "Lista actualizada de códigos para Gym League en Roblox. 67 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-25T13:09:19.428Z",
   "activeCodes": [
     {
       "code": "LIMITBREAKER",
@@ -63,6 +63,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "update31bugfix",
+      "reward": "10 Breakfasts Of Champions, 10 Warriors Lunches, And 10 Dinners Of Legends",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "Jungle",
       "reward": "1 Banana, 3 Warriors Lunches, And 3 Dinners Of Legends",
       "addedDate": "2026-08-01"
@@ -70,11 +75,6 @@
     {
       "code": "blizzardeventfix",
       "reward": "20 Candy Canes, 20 Gingerbreads, And 20 Protein Ham",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "update31bugfix",
-      "reward": "10 Breakfasts Of Champions, 10 Warriors Lunches, And 10 Dinners Of Legends",
       "addedDate": "2026-08-01"
     },
     {
@@ -198,13 +198,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "MIDUPD",
-      "reward": "2 Mega pociones",
-      "addedDate": "2026-08-01"
+      "code": "Release",
+      "reward": "Especial recompensas",
+      "addedDate": "2026-09-25"
     },
     {
-      "code": "HolidaySeasons",
-      "reward": "100 Snowflakes, 3 Christmas pociones, 3 Gingerbread",
+      "code": "MIDUPD",
+      "reward": "2 Mega pociones",
       "addedDate": "2026-08-01"
     },
     {
@@ -213,8 +213,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "LEAGUES2",
-      "reward": "2 Mega pociones, 2 Aura Rerolls",
+      "code": "HolidaySeasons",
+      "reward": "100 Snowflakes, 3 Christmas pociones, 3 Gingerbread",
       "addedDate": "2026-08-01"
     },
     {
@@ -223,13 +223,28 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "LEAGUES2",
+      "reward": "2 Mega pociones, 2 Aura Rerolls",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SHADOWS",
+      "reward": "2 Shadow pociones",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "STARLIFT",
+      "reward": "5 dinero pociones",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "QualityOfLife",
       "reward": "3 Mega pociones",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Ancient",
-      "reward": "3 Holy Grail, 5 Power pociones",
+      "code": "10KVIEWS",
+      "reward": "5 dinero pociones",
       "addedDate": "2026-08-01"
     },
     {
@@ -278,23 +293,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "BRAINROT",
-      "reward": "3 Mega pociones, 3 Power pociones",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SOLOLEVELING",
-      "reward": "5 Raffle tickets",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "POWERLIFTING",
       "reward": "500 Barbell Bucks",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SUMMERFUN",
-      "reward": "5 Shadow pociones, 5 Cosmic pociones, 5 Summer Drinks, 5 Purple Cocktails",
       "addedDate": "2026-08-01"
     },
     {
@@ -303,8 +303,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SUMMERBODY",
-      "reward": "5 Purple Cocktails, 2 OP Summer Drinks",
+      "code": "SOLOLEVELING",
+      "reward": "5 Raffle tickets",
       "addedDate": "2026-08-01"
     },
     {
@@ -313,13 +313,23 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "FEELINGLUCKY",
-      "reward": "3 Mega pociones, 3 Power pociones, 3 Lucky pociones",
+      "code": "SUMMERBODY",
+      "reward": "5 Purple Cocktails, 2 OP Summer Drinks",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "10KVIEWS",
-      "reward": "5 dinero pociones",
+      "code": "SUMMERFUN",
+      "reward": "5 Shadow pociones, 5 Cosmic pociones, 5 Summer Drinks, 5 Purple Cocktails",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Ancient",
+      "reward": "3 Holy Grail, 5 Power pociones",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "FEELINGLUCKY",
+      "reward": "3 Mega pociones, 3 Power pociones, 3 Lucky pociones",
       "addedDate": "2026-08-01"
     },
     {
@@ -328,20 +338,15 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SHADOWS",
-      "reward": "2 Shadow pociones",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "STARLIFT",
-      "reward": "5 dinero pociones",
+      "code": "BRAINROT",
+      "reward": "3 Mega pociones, 3 Power pociones",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "Release",
-      "reward": "Especial recompensas"
+      "code": "powerlevel",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "Update30p2",
@@ -350,10 +355,6 @@
     {
       "code": "Junglegames",
       "reward": "5 Sacred Flowers And 5 Bananas"
-    },
-    {
-      "code": "powerlevel",
-      "reward": "Recompensa gratis"
     },
     {
       "code": "GLcomeback",

@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-f587ec6f17720cd05e308003996c1e2b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fruit Seas en Roblox",
   "metaTitle": "Códigos Fruit Seas Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 69 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-24T22:53:28.487Z",
+  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 70 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-25T13:09:14.173Z",
   "activeCodes": [
     {
       "code": "SafeAgain",
@@ -48,6 +48,11 @@
       "addedDate": "2026-05-25"
     },
     {
+      "code": "exp1_upd10",
+      "reward": "2x EXP",
+      "addedDate": "2026-09-25"
+    },
+    {
       "code": "2xexp2_upd10",
       "reward": "2x EXP",
       "addedDate": "2026-08-01"
@@ -83,18 +88,18 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "WBStat!",
-      "reward": "1 reinicio de stats",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "WelcomeBack!",
       "reward": "2x EXP For 1 Week",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "NEWFIXES",
-      "reward": "Doble Beli (20 minutos)",
+      "code": "WBStat!",
+      "reward": "1 reinicio de stats",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "7KLIKES",
+      "reward": "2x EXP (20 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -123,11 +128,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "7KLIKES",
-      "reward": "2x EXP (20 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "UPDATETIME",
       "reward": "2x EXP (30 minutos)",
       "addedDate": "2026-08-01"
@@ -145,6 +145,11 @@
     {
       "code": "25KMEMBERS",
       "reward": "Doble Drops (15 minutos)",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "NEWFIXES",
+      "reward": "Doble Beli (20 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -173,11 +178,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "15KLIKES",
-      "reward": "Doble Beli (20 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "25KLIKES",
       "reward": "Doble Mastery (20 minutos)",
       "addedDate": "2026-08-01"
@@ -190,6 +190,11 @@
     {
       "code": "40KLIKES",
       "reward": "Doble Mastery (20 minutos)",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "15KLIKES",
+      "reward": "Doble Beli (20 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -355,14 +360,6 @@
   ],
   "expiredCodes": [
     {
-      "code": "exp1_upd10",
-      "reward": "2x EXP"
-    },
-    {
-      "code": "Bundles!!!",
-      "reward": "2x Mastery Boost (24 horas)"
-    },
-    {
       "code": "PrayForUs",
       "reward": "Recompensa gratis"
     },
@@ -371,8 +368,24 @@
       "reward": "Unknown"
     },
     {
-      "code": "BUGFIXES",
-      "reward": "Doble Drops (15 minutos)"
+      "code": "DoughFruit",
+      "reward": "2x EXP (30 minutos)"
+    },
+    {
+      "code": "DoughSoon!",
+      "reward": "2x EXP Boost (30 minutos)"
+    },
+    {
+      "code": "FARMMM!!!",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "NewHorizons!!!",
+      "reward": "2x Drops Boost (48 horas)"
+    },
+    {
+      "code": "Statfromark",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "JahsCode!",
@@ -403,32 +416,16 @@
       "reward": "Recompensa gratis"
     },
     {
-      "code": "DoughFruit",
-      "reward": "2x EXP (30 minutos)"
-    },
-    {
-      "code": "DoughSoon!",
-      "reward": "2x EXP Boost (30 minutos)"
-    },
-    {
-      "code": "FARMMM!!!",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "NewHorizons!!!",
-      "reward": "2x Drops Boost (48 horas)"
-    },
-    {
-      "code": "Statfromark",
-      "reward": "Recompensa gratis"
+      "code": "LUCKYRACE?",
+      "reward": "Race Reroll"
     },
     {
       "code": "Lucky!",
       "reward": "2x Drop Boost (30 minutos)"
     },
     {
-      "code": "LUCKYRACE?",
-      "reward": "Race Reroll"
+      "code": "Bundles!!!",
+      "reward": "2x Mastery Boost (24 horas)"
     },
     {
       "code": "SHUTDOWN",
@@ -465,6 +462,10 @@
     {
       "code": "ResetFixed",
       "reward": "Reset Stat"
+    },
+    {
+      "code": "BUGFIXES",
+      "reward": "Doble Drops (15 minutos)"
     },
     {
       "code": "EXPPBOOSTT!",
