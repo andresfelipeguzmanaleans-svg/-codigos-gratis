@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-325ad0503c0b9b64eff7d870ec49b313/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Decide Or Die en Roblox",
   "metaTitle": "Códigos Decide Or Die Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Decide Or Die en Roblox. 8 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-25T13:08:57.387Z",
+  "metaDescription": "Lista actualizada de códigos para Decide Or Die en Roblox. 7 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-26T22:17:49.399Z",
   "activeCodes": [
     {
       "code": "SQUID",
@@ -18,23 +18,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "VALENTINE",
+      "code": "BUGFIXES",
       "reward": "Cash",
-      "addedDate": "2026-09-25"
+      "addedDate": "2026-08-01"
     },
     {
       "code": "SORRY",
       "reward": "1000 Cash",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "DOD",
-      "reward": "50 Cash",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "CLASSIC",
-      "reward": "50 Cash",
       "addedDate": "2026-08-01"
     },
     {
@@ -43,12 +33,21 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "BUGFIXES",
-      "reward": "Cash",
+      "code": "CLASSIC",
+      "reward": "50 Cash",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "DOD",
+      "reward": "50 Cash",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "VALENTINE",
+      "reward": "Cash"
+    },
     {
       "code": "VALENTINES",
       "reward": "Recompensa gratis"
