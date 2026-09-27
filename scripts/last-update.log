@@ -1,34 +1,105 @@
-=== RESUMEN UPDATE 2026-09-27 13:29 ===
+=== RESUMEN UPDATE 2026-09-27 22:46 ===
 
 Archivos modificados:
-  8 archivos cambiados
+  35 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4621 juegos (4621 procesados)
-Actualizados: 6 | Sin cambios: 4470
+Actualizados: 33 | Sin cambios: 4443
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 35 | Movidos a expirados: 0
-Tiempo: 165.6s | Concurrencia: 10
+Códigos nuevos: 55 | Movidos a expirados: 36
+Tiempo: 148.7s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Speed Keyboard Escape: 1→1 activos (=), 2→3 exp
-  A One Piece Game: 259→295 activos (+36), 222→190 exp
-    Nuevos: BoatReworkSoon!, Muken, Yokoso!, QOLTime, TheGreatRebalance, Sea3IsBack!!, TheAlmighty, Sea3Soon, 20KLikes!!, Sorry4Balancing, 10KLIKES!!, ThousandYearWar, 3kInterested, 2kInterested, 2kLikes, ReMultiverseSea, 1kActive, ReSea2, NewInventory, Accelerator!, QOLUpdate, 5KLIKES, Pregame_U8zKL, BossStudioLoyals, MochiV3NOW!, BirthdayBoss19, IceV3NOW, LoyalsCode!, BossFlame!, FlameUPD!, BossQualityUPD!!, BossStudiosNami!, YTIntervention, WeAreBack!!, WeAreReallyBack!!
-  Anime Card Clash: 92→92 activos (=), 142→147 exp
-  Grade Turbo: 2→2 activos (=), 8→9 exp
-  Undertale Arena: 5→5 activos (=), 32→33 exp
-  Young Street Ontario: 14→14 activos (=), 17→18 exp
+  1 Loot To Forge: 2→3 activos (+1), 0→0 exp
+    Nuevos: 50000CCU
+  A One Piece Game: 295→259 activos (-36), 190→225 exp
+  Animatronic Nights: 64→65 activos (+1), 2→2 exp
+    Nuevos: UPD42
+  Anime Fighters Simulator: 69→70 activos (+1), 253→253 exp
+    Nuevos: DUNGEONCITY
+  Anime Girl Rng: 91→91 activos (=), 137→139 exp
+  Anime Squadron: 17→19 activos (+2), 52→52 exp
+    Nuevos: Dragon!, Slime!
+  Arcade Basketball: 64→64 activos (=), 5→6 exp
+  Asylum Life: 23→23 activos (=), 51→52 exp
+  Bubble Gum Simulator Infinity: 54→55 activos (+1), 10→10 exp
+    Nuevos: autumnseason
+  Car Crushers 2: 53→54 activos (+1), 9→9 exp
+    Nuevos: WORLDTOUR
+  Car Dealership Tycoon: 23→23 activos (=), 273→274 exp
+  Car Zone: 133→133 activos (=), 16→17 exp
+  Catch Dragons To Defend: 4→5 activos (+1), 0→0 exp
+    Nuevos: SuperEggTime
+  Drag Drive Simulator: 48→78 activos (+30), 51→22 exp
+    Nuevos: DRAGDRIVESIMULATORSEPTEMBER26, DELAYDIKITYAH, HBDPAKBODONG, MODIFIXHALLOWEENUPDATE, DRAGDRIVESIMULATOROCTOBER, JOBANDPOLICEVEHICLEUPDATE, DRAGDRIVESIMULATORSEPTEMBER, DELAYDIKITGAKSI, HBDADVGAMERS, SORRYFORDELAYMERDEKA, DDSDRAGRACETOURNAMENTREADY, DRAGDRIVESIMULATORAUGUST, HAPPY80THINDEPENDENCEDAYRI, DRAGDRIVESIMULATORJULY, RDIDMAPREVAMPPHASE1, SORRYFORDELAYUPDATE, RDIDMODIFICATIONCUSTOMPLATE, OTW5KLIKESFORNEWCODE, DRAGDRIVESIMULATORV102, DRAGDRIVESIMULATORUPDATE, NEWDRAGDRIVESIMULATOR, NEWSENTULTRACK, DRAGDRIVESIMULATORV1, RAMADAN2025, APRILMOPLIMITEDUPDATE, EIDALADHA2025, RDIDMODIFICATIONUPDATE, RDIDNEWMODIFICATION, DRAGDRIVESIMULATORJUNE, LETSCOMPLETEDAILYQUEST
+  Dungeon Heroes: 80→80 activos (=), 15→16 exp
+  Fabled Legacy: 61→63 activos (+2), 86→86 exp
+    Nuevos: SLEEPY, DREAMS
+  Fisch: 40→40 activos (=), 102→103 exp
+  Fix It Up: 5→5 activos (=), 39→40 exp
+  Garden Tower Defense: 1→1 activos (=), 140→142 exp
+  Hots Rng: 82→87 activos (+5), 64→60 exp
+    Nuevos: Stars, 150KVisits, 200KVisits, 400KVisits, 300KVisits
+  It Girl: 21→22 activos (+1), 7→7 exp
+    Nuevos: HAPPY250M
+  Jujutsu Zero: 77→79 activos (+2), 20→20 exp
+    Nuevos: 220KLIKES, PROJECTION
+  Midnight Chasers Highway Racing: 34→35 activos (+1), 188→188 exp
+    Nuevos: ThanksFor980k
+  Midnight Chasers: 34→35 activos (+1), 159→159 exp
+    Nuevos: ThanksFor980k
+  Mini City Tycoon: 3→3 activos (=), 4→5 exp
+  Miraculous Rp: 9→9 activos (=), 88→89 exp
+  Mog Or Die: 3→4 activos (+1), 0→0 exp
+    Nuevos: freeclavegg
+  Muscle Legends: 14→14 activos (=), 11→14 exp
+  Pixel Blade: 39→39 activos (=), 50→51 exp
+  Tiktok Clicker: 5→6 activos (+1), 0→0 exp
+    Nuevos: RELEASE
+  Tr Legacy: 30→30 activos (=), 6→7 exp
+  Ultimate Tower Defense: 22→24 activos (+2), 216→216 exp
+    Nuevos: TraitRework2026v, BattlepassSeason10
+  Untitled Attack On Titan: 18→19 activos (+1), 164→164 exp
+    Nuevos: 395kLikesCode
 
 Detalle cambios:
-data/games/codigos-1-speed-keyboard-escape.json
+data/games/codigos-1-loot-to-forge.json
 data/games/codigos-a-one-piece-game.json
-data/games/codigos-anime-card-clash.json
-data/games/codigos-grade-turbo.json
-data/games/codigos-undertale-arena.json
-data/games/codigos-young-street-ontario.json
+data/games/codigos-animatronic-nights.json
+data/games/codigos-anime-fighters-simulator.json
+data/games/codigos-anime-girl-rng.json
+data/games/codigos-anime-squadron.json
+data/games/codigos-arcade-basketball.json
+data/games/codigos-asylum-life.json
+data/games/codigos-bubble-gum-simulator-infinity.json
+data/games/codigos-car-crushers-2.json
+data/games/codigos-car-dealership-tycoon.json
+data/games/codigos-car-zone.json
+data/games/codigos-catch-dragons-to-defend.json
+data/games/codigos-drag-drive-simulator.json
+data/games/codigos-dungeon-heroes.json
+data/games/codigos-fabled-legacy.json
+data/games/codigos-fisch.json
+data/games/codigos-fix-it-up.json
+data/games/codigos-garden-tower-defense.json
+data/games/codigos-hots-rng.json
+data/games/codigos-it-girl.json
+data/games/codigos-jujutsu-zero.json
+data/games/codigos-midnight-chasers-highway-racing.json
+data/games/codigos-midnight-chasers.json
+data/games/codigos-mini-city-tycoon.json
+data/games/codigos-miraculous-rp.json
+data/games/codigos-mog-or-die.json
+data/games/codigos-muscle-legends.json
+data/games/codigos-pixel-blade.json
+data/games/codigos-tiktok-clicker.json
+data/games/codigos-tr-legacy.json
+data/games/codigos-ultimate-tower-defense.json
+data/games/codigos-untitled-attack-on-titan.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
