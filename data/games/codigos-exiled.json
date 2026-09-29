@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-1e188d166e095c40e708fb436b910d94/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Exiled en Roblox",
   "metaTitle": "Códigos Exiled Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Exiled en Roblox. 36 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-29T14:30:17.959Z",
+  "metaDescription": "Lista actualizada de códigos para Exiled en Roblox. 34 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-09-29T23:19:42.350Z",
   "activeCodes": [
     {
       "code": "CHRISTMAS",
@@ -108,11 +108,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "40KLIKES",
-      "reward": "500 tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "5MVISITS",
       "reward": "1,000 tokens",
       "addedDate": "2026-08-01"
@@ -135,11 +130,6 @@
     {
       "code": "2MVISITS",
       "reward": "2 Revive tickets",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "CHRISTMAS",
-      "reward": "1,500 Anoms",
       "addedDate": "2026-08-01"
     },
     {
@@ -190,11 +180,19 @@
   ],
   "expiredCodes": [
     {
-      "code": "HOTELUPDATE",
-      "reward": "Recompensa gratis"
+      "code": "NEWMAPCOMING",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "GROUPVERIFIED",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "HOTELRETURN",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "HOTELUPDATE",
       "reward": "Recompensa gratis"
     },
     {
@@ -223,14 +221,6 @@
     },
     {
       "code": "BUGFIX",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "HOTELRETURN",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "NEWMAPCOMING",
       "reward": "Recompensas gratis"
     }
   ],
