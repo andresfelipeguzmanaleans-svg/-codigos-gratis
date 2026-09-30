@@ -1,148 +1,120 @@
-=== RESUMEN UPDATE 2026-09-30 14:31 ===
+=== RESUMEN UPDATE 2026-09-30 23:25 ===
 
 Archivos modificados:
-  53 archivos cambiados
+  44 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4622 juegos (4622 procesados)
-Actualizados: 51 | Sin cambios: 4426
+Actualizados: 42 | Sin cambios: 4435
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 103 | Movidos a expirados: 28
-Tiempo: 189.5s | Concurrencia: 10
+Códigos nuevos: 42 | Movidos a expirados: 98
+Tiempo: 197.4s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Dmg Per Revive: 4→4 activos (=), 34→35 exp
-  Anime Apocalypse: 75→75 activos (=), 12→13 exp
-  Anime Avatar Fighting: 14→14 activos (=), 7→10 exp
-  Anime Destiny: 4→0 activos (-4), 0→4 exp
-  Anime Jackpot: 12→12 activos (=), 35→38 exp
-  Anime Rng Defense: 5→5 activos (=), 72→77 exp
-  Anime Waves X: 25→27 activos (+2), 3→1 exp
-    Nuevos: 3500actives, updated
-  Basketball Showdown: 23→22 activos (-1), 1→1 exp
-  Box Tower Defense: 5→0 activos (-5), 4→9 exp
-  Brainrot Card Battles: 60→66 activos (+6), 19→19 exp
-    Nuevos: ABYSS, AWAKENING, HANAMI, KRAKEN, SAKURA, WORLD14
-  Cali Shootout: 10→9 activos (-1), 2→3 exp
-  Chocolate Factory Tycoon: 8→10 activos (+2), 2→0 exp
-    Nuevos: Release, River
-  Clicker Mining Simulator: 89→85 activos (-4), 0→2 exp
-  Clover Retribution: 260→260 activos (=), 56→57 exp
-  Command An Army: 13→13 activos (=), 2→4 exp
-  Curse Randomizer: 5→17 activos (+12), 21→9 exp
-    Nuevos: HALLOWEEN, 2500LIKES, 8888LIKES, IWASHERE, 1500LIKES, 100LIKES, GiveMeARandomCurse, RemoveARandomCurse, Spooky, 6500LIKES, 5000LIKES, 4000LIKES
-  Defeat Anime Rng: 8→8 activos (=), 16→21 exp
-  Dream Six: 4→5 activos (+1), 7→6 exp
-    Nuevos: 3500LIKES
-  Duel Warriors: 10→10 activos (=), 180→182 exp
-  Effects Test: 6→8 activos (+2), 4→2 exp
-    Nuevos: new2update, sry4late
-  Encounters Smash Battles: 6→6 activos (=), 0→3 exp
-  Fishing Chef: 5→5 activos (=), 15→18 exp
-  Five Nights Td: 154→155 activos (+1), 139→138 exp
-    Nuevos: UPDATE51
-  Geometry Defense: 12→16 activos (+4), 19→15 exp
-    Nuevos: gtd, thanksfor10kfavs, wow500wow, 3mvisits
-  Grimace Race: 15→16 activos (+1), 1→0 exp
-    Nuevos: CodeHydra
-  Grimoires Era: 112→115 activos (+3), 19→16 exp
-    Nuevos: WERESORRY, NEWUI, WINTER2024
-  Immortality Incremental: 76→76 activos (=), 7→9 exp
-  Infinite Mining Incremental: 25→26 activos (+1), 7→6 exp
-    Nuevos: IMI_DiscordVerify59351
-  Kengan: 27→39 activos (+12), 12→0 exp
-    Nuevos: bugfixsd, lastsdcode, someimprovements, bankfix, Shutdown1, lastsdfortoday, 5kmembs, 3k24hrs, sd1, balancingandstuff, sorryforbugs, nextsdlotsofbugfixes
-  Lift A Pet: 8→11 activos (+3), 3→0 exp
-    Nuevos: release, update2, update1
-  Make Katanas And Prove Sensei Wrong: 0→2 activos (+2), 7→5 exp
-    Nuevos: JOINED, thirdfloor
-  My Toilet: 15→11 activos (-4), 0→0 exp
-  My Salon Tycoon: 0→1 activos (+1), 9→8 exp
-    Nuevos: XMAS
-  Ninja Time: 181→181 activos (=), 114→116 exp
-  One Punch Ultimate: 0→2 activos (+2), 29→27 exp
-    Nuevos: bugwave3, bugwave2
-  Pac Man Simulator: 0→13 activos (+13), 13→0 exp
-    Nuevos: 400Likes, 4500Likes, 500Likes, 600Likes, 800Likes, 300Likes, 200Likes, 2500Likes, 1000Likes, LuckyPotions, 6500Likes, 8500Likes, 10000Likes
-  Party: 24→17 activos (-7), 1→8 exp
-  Rng Droids: 0→21 activos (+21), 22→1 exp
-    Nuevos: !Prankster, !500Likes, !1400Likes, !Trick2024c, !World5, !2000Likes, !1600Likes, !Treat2024, !200Likes, !RELEASE, !1200Likes, !1000Likes, !World6, !750Likes, !NebulaDroids, !100Likes, !300Likes, !DailyRewards, !4KLikes, !300kVisits, !3000Likes
-  Roll An Anime: 21→21 activos (=), 5→6 exp
-  Roller Race Simulator: 20→22 activos (+2), 3→1 exp
-    Nuevos: SEASON1, 60KLIKES
-  Special Forces Simulator: 23→24 activos (+1), 16→15 exp
-    Nuevos: CASH
-  Spin A Soccer Card: 10→10 activos (=), 41→42 exp
-  Squid Game X: 53→54 activos (+1), 29→29 exp
-  Survival Odyssey: 14→17 activos (+3), 49→46 exp
-    Nuevos: MIGRATION, Revive, Trap
-  Survive The Swarm: 2→2 activos (=), 3→4 exp
-  Tcg Card Shop Simulator: 11→14 activos (+3), 4→1 exp
-    Nuevos: Welcome, 5KLikes, 1MVISITS
-  Toilet Wars Tower Defense: 13→14 activos (+1), 1→0 exp
-    Nuevos: HAPPY4THOFJULY
-  Tug Of War Simulator: 20→23 activos (+3), 5→2 exp
-    Nuevos: release, light, 777
-  Type Soul: 7→5 activos (-2), 339→341 exp
-  Ultra Clicker 2: 9→10 activos (+1), 30→29 exp
-    Nuevos: SKIBI
-  Undertale Rng: 0→0 activos (=), 94→95 exp
+  Anime Apocalypse: 75→77 activos (+2), 13→11 exp
+    Nuevos: MajesticHotfixes, CURSEDSHIBUYA
+  Anime Astral Simulator: 76→76 activos (=), 109→112 exp
+  Anime Waves X: 27→25 activos (-2), 1→3 exp
+  Build A Zoo: 13→14 activos (+1), 44→44 exp
+    Nuevos: ZOOOPTIMIZE2026
+  Chocolate Factory Tycoon: 10→8 activos (-2), 0→2 exp
+  Coaster Operator: 0→15 activos (+15), 34→19 exp
+    Nuevos: thanksfor10mil, thanksfor12000likes, thanksfor8mil, thanksfor10000likes, easter2026, thanksfor7mil, thanksfor9000likes, cobracurse, christmas2025, thanksfor8000likes, darkroaster, thanksfor5mill, phoenixrising, redarrows, giantdrop
+  Command An Army: 13→15 activos (+2), 4→2 exp
+    Nuevos: OCTOBER3, SATURDAY
+  Create A Car: 7→8 activos (+1), 4→4 exp
+    Nuevos: REWORKS
+  Curse Randomizer: 17→5 activos (-12), 9→21 exp
+  Dream Six: 5→4 activos (-1), 6→7 exp
+  Effects Test: 8→6 activos (-2), 2→4 exp
+  Five Nights Td: 155→154 activos (-1), 138→139 exp
+  Geometry Defense: 16→12 activos (-4), 15→19 exp
+  Get Huge Simulator: 21→22 activos (+1), 19→19 exp
+    Nuevos: FallSeason
+  Grimace Race: 16→15 activos (-1), 0→1 exp
+  Grimoires Era: 115→112 activos (-3), 16→19 exp
+  Immortality Incremental: 76→78 activos (+2), 9→7 exp
+    Nuevos: WORLD8PT2, HARDTRAINING
+  Infinite Mining Incremental: 26→25 activos (-1), 6→7 exp
+  Kengan: 39→27 activos (-12), 0→12 exp
+  Lift A Pet: 11→8 activos (-3), 0→3 exp
+  Lineage Piece: 69→78 activos (+9), 6→4 exp
+    Nuevos: SORRYFORDELAYAGAINANDAGAIN, MANYREWORKTHERE, NEXTUPDPEAKTRUST, OMGCASTORICE, WOWGOKU, FIRSTPOWERSPEC, 260KLIKES, NARUTONOWAY, MCJJKOMG
+  Make Katanas And Prove Sensei Wrong: 2→0 activos (-2), 5→7 exp
+  My Salon Tycoon: 1→0 activos (-1), 8→9 exp
+  Ninja Time: 181→183 activos (+2), 116→114 exp
+    Nuevos: PartyImprovementsWhen!, AbyssModeImprovementsPlease!
+  One Punch Ultimate: 2→0 activos (-2), 27→29 exp
+  Pac Man Simulator: 13→0 activos (-13), 0→13 exp
+  Project Mirror Labyrinth: 51→52 activos (+1), 14→14 exp
+    Nuevos: BeakMeta
+  Realm Of Beasts: 3→5 activos (+2), 0→0 exp
+    Nuevos: CAM_HELP, RECODE_COMING
+  Rng Droids: 21→0 activos (-21), 1→22 exp
+  Roblox Smiles: 11→12 activos (+1), 0→0 exp
+    Nuevos: BUNNY!
+  Roll An Anime: 21→22 activos (+1), 6→5 exp
+    Nuevos: CURSED
+  Roller Race Simulator: 22→20 activos (-2), 1→3 exp
+  Special Forces Simulator: 24→23 activos (-1), 15→16 exp
+  Squid Game X: 54→53 activos (-1), 29→29 exp
+  Superstar Baseball: 39→40 activos (+1), 16→17 exp
+    Nuevos: TRADEHUB
+  Survival Odyssey: 17→14 activos (-3), 46→49 exp
+  Tcg Card Shop Simulator: 14→11 activos (-3), 1→4 exp
+  The Strongest Battlegrounds: 0→0 activos (=), 198→199 exp
+  Toilet Wars Tower Defense: 14→13 activos (-1), 0→1 exp
+  Tug Of War Simulator: 23→20 activos (-3), 2→5 exp
+  Ultra Clicker 2: 10→9 activos (-1), 29→30 exp
+  Workout Island: 21→22 activos (+1), 37→37 exp
+    Nuevos: FallSeason
 
 Detalle cambios:
-data/games/codigos-1-dmg-per-revive.json
 data/games/codigos-anime-apocalypse.json
-data/games/codigos-anime-avatar-fighting.json
-data/games/codigos-anime-destiny.json
-data/games/codigos-anime-jackpot.json
-data/games/codigos-anime-rng-defense.json
+data/games/codigos-anime-astral-simulator.json
 data/games/codigos-anime-waves-x.json
-data/games/codigos-basketball-showdown.json
-data/games/codigos-box-tower-defense.json
-data/games/codigos-brainrot-card-battles.json
-data/games/codigos-cali-shootout.json
+data/games/codigos-build-a-zoo.json
 data/games/codigos-chocolate-factory-tycoon.json
-data/games/codigos-clicker-mining-simulator.json
-data/games/codigos-clover-retribution.json
+data/games/codigos-coaster-operator.json
 data/games/codigos-command-an-army.json
+data/games/codigos-create-a-car.json
 data/games/codigos-curse-randomizer.json
-data/games/codigos-defeat-anime-rng.json
 data/games/codigos-dream-six.json
-data/games/codigos-duel-warriors.json
 data/games/codigos-effects-test.json
-data/games/codigos-encounters-smash-battles.json
-data/games/codigos-fishing-chef.json
 data/games/codigos-five-nights-td.json
 data/games/codigos-geometry-defense.json
+data/games/codigos-get-huge-simulator.json
 data/games/codigos-grimace-race.json
 data/games/codigos-grimoires-era.json
 data/games/codigos-immortality-incremental.json
 data/games/codigos-infinite-mining-incremental.json
 data/games/codigos-kengan.json
 data/games/codigos-lift-a-pet.json
+data/games/codigos-lineage-piece.json
 data/games/codigos-make-katanas-and-prove-sensei-wrong.json
 data/games/codigos-my-salon-tycoon.json
-data/games/codigos-my-toilet.json
 data/games/codigos-ninja-time.json
 data/games/codigos-one-punch-ultimate.json
 data/games/codigos-pac-man-simulator.json
-data/games/codigos-party.json
+data/games/codigos-project-mirror-labyrinth.json
+data/games/codigos-realm-of-beasts.json
 data/games/codigos-rng-droids.json
+data/games/codigos-roblox-smiles.json
 data/games/codigos-roll-an-anime.json
 data/games/codigos-roller-race-simulator.json
 data/games/codigos-special-forces-simulator.json
-data/games/codigos-spin-a-soccer-card.json
 data/games/codigos-squid-game-x.json
+data/games/codigos-superstar-baseball.json
 data/games/codigos-survival-odyssey.json
-data/games/codigos-survive-the-swarm.json
 data/games/codigos-tcg-card-shop-simulator.json
+data/games/codigos-the-strongest-battlegrounds.json
 data/games/codigos-toilet-wars-tower-defense.json
 data/games/codigos-tug-of-war-simulator.json
-data/games/codigos-type-soul.json
 data/games/codigos-ultra-clicker-2.json
-data/games/codigos-undertale-rng.json
+data/games/codigos-workout-island.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
