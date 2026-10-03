@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-23c688f0fe05759239f6e34c9ff38d66/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Type Soul en Roblox",
   "metaTitle": "Códigos Type Soul Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Type Soul en Roblox. 7 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-03T12:56:37.143Z",
+  "metaDescription": "Lista actualizada de códigos para Type Soul en Roblox. 5 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-03T22:37:26.001Z",
   "activeCodes": [
     {
       "code": "TYPEBUGILOVETYPEBUG",
@@ -31,26 +31,32 @@
       "code": "groundhakudamogsairhakuda",
       "reward": "Recompensas",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "leafyhorizoncore",
-      "reward": "Locked Shikai/Res/Volt Reroll And A Locked Clan Reroll",
-      "addedDate": "2026-10-03"
-    },
-    {
-      "code": "thanksgivingbreakwoohoo",
-      "reward": "Recompensas",
-      "addedDate": "2026-10-03"
     }
   ],
   "expiredCodes": [
     {
-      "code": "fixedoldcode",
-      "reward": "Clan Reroll, Shikai/Res/Volt Reroll"
+      "code": "leafyhorizoncore",
+      "reward": "Locked Shikai/Res/Volt Reroll And A Locked Clan Reroll"
+    },
+    {
+      "code": "thanksgivingbreakwoohoo",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "balancedbalance",
+      "reward": "Recompensa expirada"
     },
     {
       "code": "higuyscode",
       "reward": "15 Locked Clan Reroll, Ten Locked Weapon Reroll, Ten Locked Element Reroll"
+    },
+    {
+      "code": "thisisnotsigma",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "pointsplease",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "tama62121",
@@ -201,11 +207,11 @@
       "reward": "Clan Reroll"
     },
     {
-      "code": "nuova10k",
-      "reward": "Recompensa expirada"
+      "code": "fixedoldcode",
+      "reward": "Clan Reroll, Shikai/Res/Volt Reroll"
     },
     {
-      "code": "balancedbalance",
+      "code": "nuova10k",
       "reward": "Recompensa expirada"
     },
     {
@@ -521,50 +527,6 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "tamayaren",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "AllAccordingToCake",
-      "reward": "Locked Shikai/Res/Volt Reroll and Locked Clan Reroll"
-    },
-    {
-      "code": "Ichigo101010",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "cowoenuovaentvari",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "8by2typejole",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "cowoesorry",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "whereiskendoweapondude",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "theresahiddennpcsomewhere",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "soulianstreak",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "nuovaprimadon",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "badquincy",
-      "reward": "Recompensa expirada"
-    },
-    {
       "code": "nuovalovesquincy",
       "reward": "Recompensa expirada"
     },
@@ -577,8 +539,72 @@
       "reward": "Shikai/Res/Volt & Clan Reroll"
     },
     {
+      "code": "300mvisits",
+      "reward": "20 Locked Element Rerolls, 5 Locked Weapon Rerolls and 10 Locked Clan Rerolls"
+    },
+    {
+      "code": "code1",
+      "reward": "Locked Shikai/Res/Volt Reroll and Locked Clan Reroll"
+    },
+    {
+      "code": "AllAccordingToCake",
+      "reward": "Locked Shikai/Res/Volt Reroll and Locked Clan Reroll"
+    },
+    {
+      "code": "amaonetwothreefour",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "Ichigo101010",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "tamayaren",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "soulianstreak",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "8by2typejole",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "cowoenuovaentvari",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "cowoesorry",
+      "reward": "Recompensa expirada"
+    },
+    {
       "code": "3shikaireroll",
       "reward": "Shikai/Res/Volt Reroll"
+    },
+    {
+      "code": "doomaroomeneverexisted",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "whereiskendoweapondude",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "theresahiddennpcsomewhere",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "nuovaprimadon",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "cursedgearruinsfriendships",
+      "reward": "Recompensa expirada"
+    },
+    {
+      "code": "badquincy",
+      "reward": "Recompensa expirada"
     },
     {
       "code": "ddanielisevil",
@@ -609,10 +635,6 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "code1",
-      "reward": "Locked Shikai/Res/Volt Reroll and Locked Clan Reroll"
-    },
-    {
       "code": "thekiraeventparttwo",
       "reward": "Recompensas gratis"
     },
@@ -625,16 +647,8 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "amaonetwothreefour",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "breathlesspumpkle",
       "reward": "Recompensas gratis"
-    },
-    {
-      "code": "300mvisits",
-      "reward": "20 Locked Element Rerolls, 5 Locked Weapon Rerolls and 10 Locked Clan Rerolls"
     },
     {
       "code": "anextracode",
@@ -685,10 +699,6 @@
       "reward": "Recompensa expirada"
     },
     {
-      "code": "doomaroomeneverexisted",
-      "reward": "Recompensa expirada"
-    },
-    {
       "code": "cyberpoint",
       "reward": "Recompensa expirada"
     },
@@ -698,10 +708,6 @@
     },
     {
       "code": "tweakinpostupdate",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "cursedgearruinsfriendships",
       "reward": "Recompensa expirada"
     },
     {
@@ -965,14 +971,6 @@
       "reward": "Recompensa expirada"
     },
     {
-      "code": "thisisnotsigma",
-      "reward": "Recompensa expirada"
-    },
-    {
-      "code": "pointsplease",
-      "reward": "Recompensas gratis"
-    },
-    {
       "code": "NglImmaTakeANapLmk",
       "reward": "100 Locked Element Rerolls, 20 Locked Buddy tiradas, 100 Locked Weapon Rerolls, and a Locked Clothing Token"
     },
@@ -1025,11 +1023,11 @@
       "reward": "Recompensas"
     },
     {
-      "code": "halloweenpart2",
+      "code": "natelacedthespiraltwinsoulsrig",
       "reward": "Recompensas"
     },
     {
-      "code": "natelacedthespiraltwinsoulsrig",
+      "code": "halloweenpart2",
       "reward": "Recompensas"
     },
     {
@@ -1077,11 +1075,11 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "higuysupdate",
+      "code": "thankuqasward",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "thankuqasward",
+      "code": "higuysupdate",
       "reward": "Recompensas gratis"
     },
     {
@@ -1149,12 +1147,12 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "baragganintorisingswallow",
-      "reward": "Recompensas"
-    },
-    {
       "code": "vdekuglobalban",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "baragganintorisingswallow",
+      "reward": "Recompensas"
     },
     {
       "code": "jambajuice1v1",
@@ -1257,11 +1255,11 @@
       "reward": "30 Locked Element Rerolls, 20 Locked Weapon Rerolls, 20 Locked Clan Rerolls, 20 Clan Rerolls, Two Locked Blue Elixirs, And Two Locked Red Elixirs"
     },
     {
-      "code": "sozformobile",
+      "code": "tamapackageone",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "tamapackageone",
+      "code": "sozformobile",
       "reward": "Recompensas gratis"
     },
     {
@@ -1321,11 +1319,11 @@
       "reward": "Recompensas"
     },
     {
-      "code": "oopswandenexploded",
+      "code": "letsget500mmore",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "letsget500mmore",
+      "code": "oopswandenexploded",
       "reward": "Recompensas gratis"
     },
     {
