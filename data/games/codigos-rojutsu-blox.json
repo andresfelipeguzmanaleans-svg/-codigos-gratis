@@ -5,48 +5,67 @@
   "description": "Todos los códigos activos para Rojutsu Blox en Roblox",
   "metaTitle": "Códigos Rojutsu Blox Roblox (Octubre 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Rojutsu Blox en Roblox. 10 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-03T22:36:47.454Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-10-04T22:40:17.518Z",
+  "activeCodes": [
     {
       "code": "!PremSpin7",
-      "reward": "1 Premium giro"
+      "reward": "1 Premium giro",
+      "addedDate": "2026-10-04"
     },
     {
       "code": "!RegSpin4",
-      "reward": "1 Regular giro"
+      "reward": "1 Regular giro",
+      "addedDate": "2026-10-04"
     },
     {
       "code": "!RegSpin3",
-      "reward": "Regular giro"
+      "reward": "Regular giro",
+      "addedDate": "2026-10-04"
     },
     {
       "code": "!RegSpin2",
-      "reward": "Regular giro"
+      "reward": "Regular giro",
+      "addedDate": "2026-10-04"
     },
     {
       "code": "!RegSpin1",
-      "reward": "Regular giro"
+      "reward": "Regular giro",
+      "addedDate": "2026-10-04"
     },
     {
       "code": "!PremSpin1",
-      "reward": "Premium giro"
+      "reward": "Premium giro",
+      "addedDate": "2026-10-04"
     },
     {
       "code": "!PremSpin2",
-      "reward": "Premium giro"
+      "reward": "Premium giro",
+      "addedDate": "2026-10-04"
     },
     {
       "code": "!PremSpin3",
-      "reward": "Premium giro"
+      "reward": "Premium giro",
+      "addedDate": "2026-10-04"
     },
     {
       "code": "!PremSpin8",
-      "reward": "Premium giro"
+      "reward": "Premium giro",
+      "addedDate": "2026-10-04"
     },
     {
       "code": "!RegSpin5",
-      "reward": "Regular giro"
+      "reward": "Regular giro",
+      "addedDate": "2026-10-04"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "!Patches",
+      "reward": "Level Up"
+    },
+    {
+      "code": "!ReKatana",
+      "reward": "10 Premium giros, 45 giros, and 1.5x XP (15 minutos)"
     },
     {
       "code": "!PlantUpdate",
@@ -61,32 +80,12 @@
       "reward": "5% chance to keep your stats and gain a prestige level"
     },
     {
-      "code": "!ReColor4",
-      "reward": "1 Random Cursed energía Colour"
-    },
-    {
-      "code": "!OtherFixes",
-      "reward": "1.5x XP (30 minutos) and 15 Premium giros"
-    },
-    {
-      "code": "!ReKatana",
-      "reward": "10 Premium giros, 45 giros, and 1.5x XP (15 minutos)"
-    },
-    {
-      "code": "!ReBalance",
-      "reward": "100,000 XP"
-    },
-    {
       "code": "!ReColor6",
       "reward": "1 Random Cursed energía Colour"
     },
     {
       "code": "!PrestCode7",
       "reward": "5% chance to keep your stats and gain a prestige level"
-    },
-    {
-      "code": "!BloodCurse",
-      "reward": "90 giros"
     },
     {
       "code": "!Upd3",
@@ -97,44 +96,48 @@
       "reward": "5% chance to keep your stats and gain a prestige level"
     },
     {
-      "code": "!PopularPage",
-      "reward": "EXP"
+      "code": "!ReColor7",
+      "reward": "1 Random Cursed energía Colour"
     },
     {
-      "code": "!Update3",
-      "reward": "Boost"
+      "code": "!GiftsForAll",
+      "reward": "30 giros, 5 Premium giros, 10,000 Yen, and 10,000 XP"
     },
     {
-      "code": "!MileStone",
-      "reward": "Level Up"
+      "code": "!ReColor5",
+      "reward": "1 Random Cursed energía Colour"
     },
     {
-      "code": "!Friends",
-      "reward": "Level Up"
-    },
-    {
-      "code": "!Update2",
-      "reward": "Level Up"
-    },
-    {
-      "code": "!Appreciation",
-      "reward": "Level Up"
-    },
-    {
-      "code": "!TestNoJutsu",
-      "reward": "Level Up"
-    },
-    {
-      "code": "!EarlyAlpha",
-      "reward": "Level Up"
-    },
-    {
-      "code": "!ClapItUp",
-      "reward": "Level Up"
-    },
-    {
-      "code": "!1MVisits",
+      "code": "!Parties",
       "reward": "50 giros"
+    },
+    {
+      "code": "!Curtain",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "!ReColor4",
+      "reward": "1 Random Cursed energía Colour"
+    },
+    {
+      "code": "!PrestCode5",
+      "reward": "5% chance to keep your stats and gain a prestige level"
+    },
+    {
+      "code": "!ReColor8",
+      "reward": "1 Random Cursed energía Colour"
+    },
+    {
+      "code": "!ReBalance",
+      "reward": "100,000 XP"
+    },
+    {
+      "code": "!OtherFixes",
+      "reward": "1.5x XP (30 minutos) and 15 Premium giros"
+    },
+    {
+      "code": "!BloodCurse",
+      "reward": "90 giros"
     },
     {
       "code": "!Sorry",
@@ -171,38 +174,6 @@
     {
       "code": "!PremiumSpin1",
       "reward": "10 Premium giros"
-    },
-    {
-      "code": "!Patches",
-      "reward": "Level Up"
-    },
-    {
-      "code": "!ReColor7",
-      "reward": "1 Random Cursed energía Colour"
-    },
-    {
-      "code": "!GiftsForAll",
-      "reward": "30 giros, 5 Premium giros, 10,000 Yen, and 10,000 XP"
-    },
-    {
-      "code": "!ReColor5",
-      "reward": "1 Random Cursed energía Colour"
-    },
-    {
-      "code": "!Parties",
-      "reward": "50 giros"
-    },
-    {
-      "code": "!Curtain",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "!PrestCode5",
-      "reward": "5% chance to keep your stats and gain a prestige level"
-    },
-    {
-      "code": "!ReColor8",
-      "reward": "1 Random Cursed energía Colour"
     },
     {
       "code": "!PremiumSpin4",
@@ -255,6 +226,42 @@
     {
       "code": "!Unique",
       "reward": "45 giros"
+    },
+    {
+      "code": "!1MVisits",
+      "reward": "50 giros"
+    },
+    {
+      "code": "!PopularPage",
+      "reward": "A recompensa gratis"
+    },
+    {
+      "code": "!Update3",
+      "reward": "A recompensa gratis"
+    },
+    {
+      "code": "!MileStone",
+      "reward": "A recompensa gratis"
+    },
+    {
+      "code": "!Friends",
+      "reward": "A recompensa gratis"
+    },
+    {
+      "code": "!Appreciation",
+      "reward": "A recompensa gratis"
+    },
+    {
+      "code": "!TestNoJutsu",
+      "reward": "A recompensa gratis"
+    },
+    {
+      "code": "!EarlyAlpha",
+      "reward": "A recompensa gratis"
+    },
+    {
+      "code": "!ClapItUp",
+      "reward": "A recompensa gratis"
     },
     {
       "code": "!PrestCode1",
@@ -315,6 +322,10 @@
     {
       "code": "!SpinCode4",
       "reward": "90 giros"
+    },
+    {
+      "code": "!Update2",
+      "reward": "Level Up"
     }
   ],
   "howToRedeem": [
