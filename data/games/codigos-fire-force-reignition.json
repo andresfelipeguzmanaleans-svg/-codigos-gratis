@@ -3,10 +3,15 @@
   "name": "Fire Force Reignition",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-544b8c1b2c431df3e296678328ff4f1c/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fire Force Reignition en Roblox",
-  "metaTitle": "Códigos Fire Force Reignition Roblox (Septiembre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fire Force Reignition en Roblox. 25 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-09-13T21:59:25.747Z",
+  "metaTitle": "Códigos Fire Force Reignition Roblox (Octubre 2026) - Códigos Gratis",
+  "metaDescription": "Lista actualizada de códigos para Fire Force Reignition en Roblox. 26 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-06T01:04:37.457Z",
   "activeCodes": [
+    {
+      "code": "KNIGHTKING",
+      "reward": "Recompensas",
+      "addedDate": "2026-10-06"
+    },
     {
       "code": "MOREFRAMES",
       "reward": "Recompensas",
@@ -72,19 +77,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "REIGNITION",
-      "reward": "4 Ability Rerolls, 100 Reroll tokens, and 2 Generation Rerolls"
-    },
-    {
-      "code": "55KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MINORPATCH",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "MOMMY",
+      "code": "PREUPDATECODE3",
       "reward": "Recompensas gratis"
     },
     {
@@ -96,11 +89,19 @@
       "reward": "Recompensas gratis"
     },
     {
+      "code": "STEALANANIMEPLAYERS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "MINORPATCH",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "SUPERPATCH",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "PREUPDATECODE3",
+      "code": "MOMMY",
       "reward": "Recompensas gratis"
     },
     {
@@ -108,58 +109,122 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "REIGNITION2",
+      "code": "55KLIKES",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "STEALANANIMEPLAYERS",
+      "code": "REIGNITION2",
       "reward": "Recompensas gratis"
     },
     {
       "code": "MBALL",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "REIGNITION",
+      "reward": "4 Ability Rerolls, 100 Reroll tokens, and 2 Generation Rerolls"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "FFOISBACK",
+      "reward": "Ability Reroll, Gen Reroll, Clan Reroll"
+    },
     {
       "code": "DRAGONABILITY",
       "reward": "40 Reroll tokens"
     },
     {
-      "code": "INFERNALFIXES",
-      "reward": "30 Reroll tokens"
-    },
-    {
-      "code": "20KLIKES",
+      "code": "40KLIKES",
       "reward": "Ability Reroll"
     },
     {
-      "code": "PLAYRANKED",
-      "reward": "Ability Reroll, Gen Reroll"
+      "code": "45KLIKES",
+      "reward": "Reroll"
     },
     {
-      "code": "15KLIKES",
-      "reward": "Generation Reroll"
+      "code": "Sorry4Bugs",
+      "reward": "Ability, Generation, Clan Reroll"
     },
     {
-      "code": "3MILLIONVISITS",
-      "reward": "Generation Reroll"
+      "code": "AUGMENTV2",
+      "reward": "80 Reroll tokens"
     },
     {
-      "code": "WEEK1",
-      "reward": "Ability Reroll"
+      "code": "MEDICINE",
+      "reward": "80 Reroll tokens"
     },
     {
-      "code": "AdollaSoon",
-      "reward": "Ability Reroll, Reset"
+      "code": "ARCADE",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "CHRISTMASPART2",
+      "reward": "40 Reroll tokens"
     },
     {
       "code": "CHRISTMASCHEER",
       "reward": "40 Reroll tokens"
     },
     {
+      "code": "DESERTRAIDZ",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "SorryForBugzz",
+      "reward": "30 Reroll tokens"
+    },
+    {
+      "code": "WEEK11",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "CORNATIME",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "WEEK9",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "WEEK8",
+      "reward": "40 Reroll tokens"
+    },
+    {
+      "code": "WEEK7",
+      "reward": "Reroll"
+    },
+    {
+      "code": "WEEK6",
+      "reward": "Reroll"
+    },
+    {
       "code": "WEEK5",
       "reward": "Reroll"
+    },
+    {
+      "code": "INFERNALFIXES",
+      "reward": "30 Reroll tokens"
+    },
+    {
+      "code": "WEEK4",
+      "reward": "10 Reroll tokens"
+    },
+    {
+      "code": "WEEK3",
+      "reward": "10 Reroll tokens"
+    },
+    {
+      "code": "WEEK2",
+      "reward": "Skill Reset"
+    },
+    {
+      "code": "WEEK1",
+      "reward": "Ability Reroll"
+    },
+    {
+      "code": "PLAYRANKED",
+      "reward": "Ability Reroll, Gen Reroll"
     },
     {
       "code": "ProgressionFixes",
@@ -170,100 +235,12 @@
       "reward": "Ability Reroll, Clan Reroll, Generations Reset, Skill Reset"
     },
     {
-      "code": "OPPSIEDAISY",
-      "reward": "Clan Reroll"
-    },
-    {
-      "code": "30KLIKES",
-      "reward": "Ability, Gen Reroll"
-    },
-    {
-      "code": "WEEK6",
-      "reward": "Reroll"
-    },
-    {
-      "code": "40KLIKES",
-      "reward": "Ability Reroll"
-    },
-    {
-      "code": "MEDICINE",
-      "reward": "80 Reroll tokens"
-    },
-    {
-      "code": "Colors4You",
-      "reward": "Eye, Hair Color"
-    },
-    {
-      "code": "FFOISBACK",
-      "reward": "Ability Reroll, Gen Reroll, Clan Reroll"
-    },
-    {
-      "code": "MOBILEISHERE",
-      "reward": "Ability Reroll"
-    },
-    {
-      "code": "ARCADE",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "AUGMENTV2",
-      "reward": "80 Reroll tokens"
-    },
-    {
-      "code": "CHRISTMASPART2",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "DESERTRAIDZ",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "SNICKERDOODLE",
-      "reward": "Clan Reroll"
-    },
-    {
-      "code": "NILEANDKIZA",
-      "reward": "Ability Reroll"
-    },
-    {
-      "code": "5MILLIONVISITS",
-      "reward": "Reroll"
-    },
-    {
       "code": "Hotfixes",
       "reward": "Reroll"
     },
     {
-      "code": "WEEK9",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "45KLIKES",
-      "reward": "Reroll"
-    },
-    {
-      "code": "SorryForBugzz",
-      "reward": "30 Reroll tokens"
-    },
-    {
-      "code": "WEEK7",
-      "reward": "Reroll"
-    },
-    {
-      "code": "WEEK3",
-      "reward": "10 Reroll tokens"
-    },
-    {
-      "code": "WEEK11",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "WEEK8",
-      "reward": "40 Reroll tokens"
-    },
-    {
-      "code": "WEEK4",
-      "reward": "10 Reroll tokens"
+      "code": "AdollaSoon",
+      "reward": "Ability Reroll, Reset"
     },
     {
       "code": "GIFT4YOU",
@@ -274,28 +251,56 @@
       "reward": "Ability Reroll"
     },
     {
-      "code": "25KLIKES",
-      "reward": "Eye, Hair Color"
-    },
-    {
       "code": "ASHUPDATE",
       "reward": "Ability Reroll"
     },
     {
-      "code": "WEEK2",
-      "reward": "Skill Reset"
+      "code": "MOBILEISHERE",
+      "reward": "Ability Reroll"
+    },
+    {
+      "code": "NILEANDKIZA",
+      "reward": "Ability Reroll"
+    },
+    {
+      "code": "30KLIKES",
+      "reward": "Ability, Gen Reroll"
+    },
+    {
+      "code": "5MILLIONVISITS",
+      "reward": "Reroll"
+    },
+    {
+      "code": "SNICKERDOODLE",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": "25KLIKES",
+      "reward": "Eye, Hair Color"
+    },
+    {
+      "code": "OPPSIEDAISY",
+      "reward": "Clan Reroll"
+    },
+    {
+      "code": "3MILLIONVISITS",
+      "reward": "Generation Reroll"
+    },
+    {
+      "code": "20KLIKES",
+      "reward": "Ability Reroll"
+    },
+    {
+      "code": "15KLIKES",
+      "reward": "Generation Reroll"
     },
     {
       "code": "10KLIKES",
       "reward": "Ability Reroll"
     },
     {
-      "code": "Sorry4Bugs",
-      "reward": "Ability, Generation, Clan Reroll"
-    },
-    {
-      "code": "CORNATIME",
-      "reward": "40 Reroll tokens"
+      "code": "Colors4You",
+      "reward": "Eye, Hair Color"
     }
   ],
   "howToRedeem": [
