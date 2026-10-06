@@ -4,36 +4,38 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-c469c4f4049af251711cb53d5d91a57f/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Eternal Piece en Roblox",
   "metaTitle": "Códigos Eternal Piece Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Eternal Piece en Roblox. 9 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-03T22:35:35.798Z",
+  "metaDescription": "Lista actualizada de códigos para Eternal Piece en Roblox. 12 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-06T23:29:50.902Z",
   "activeCodes": [
     {
-      "code": "reset135",
-      "reward": "Reinicio de stats"
+      "code": "sorrybutfixed",
+      "reward": "Raro+ Fruit",
+      "addedDate": "2026-10-06"
     },
     {
-      "code": "stackrace",
-      "reward": "5 Race giros"
+      "code": "newstats",
+      "reward": "Redeem code to reset stats",
+      "addedDate": "2026-10-06"
     },
     {
       "code": "racesetyuh",
       "reward": "5 Race giros"
     },
     {
-      "code": "statsetyuh",
-      "reward": "Reinicio de stats"
-    },
-    {
       "code": "Update2fix",
       "reward": "2x EXP (3 horas)"
+    },
+    {
+      "code": "race135",
+      "reward": "5 Race giros"
     },
     {
       "code": "exp4hour",
       "reward": "2x EXP (4 horas)"
     },
     {
-      "code": "race135",
-      "reward": "5 Race giros"
+      "code": "reset135",
+      "reward": "Reinicio de stats"
     },
     {
       "code": "LegendaryFruit",
@@ -42,24 +44,29 @@
     {
       "code": "fishmansorry",
       "reward": "500K Beli"
+    },
+    {
+      "code": "Update2",
+      "reward": "100 race giros",
+      "addedDate": "2026-10-06"
+    },
+    {
+      "code": "stackrace",
+      "reward": "5 Race giros"
+    },
+    {
+      "code": "statsetyuh",
+      "reward": "Reinicio de stats"
     }
   ],
   "expiredCodes": [
     {
-      "code": "sorrybutfixed",
+      "code": "shutdownrace",
+      "reward": "5 Race giros"
+    },
+    {
+      "code": "Sub2KingBaka",
       "reward": "Raro+ Fruit"
-    },
-    {
-      "code": "newstats",
-      "reward": "Redeem code to reset stats"
-    },
-    {
-      "code": "Update2",
-      "reward": "100 race giros"
-    },
-    {
-      "code": "newupdate!",
-      "reward": "5 Race Rerolls"
     },
     {
       "code": "gimmerace",
@@ -78,10 +85,6 @@
       "reward": "Fruit Code"
     },
     {
-      "code": "Sub2KingBaka",
-      "reward": "Raro+ Fruit"
-    },
-    {
       "code": "gimmiestats",
       "reward": "Reinicio de stats"
     },
@@ -94,8 +97,12 @@
       "reward": "25 Race giros"
     },
     {
-      "code": "shutdownrace",
-      "reward": "5 Race giros"
+      "code": "2500LIKES",
+      "reward": "Doble dinero, 2x EXP (1 hora), or Fruit gratis"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "Reinicio de stats"
     },
     {
       "code": "xboxyuh",
@@ -104,14 +111,6 @@
     {
       "code": "shutdownexp1h",
       "reward": "2x EXP (1 hora)"
-    },
-    {
-      "code": "RELEASE",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "2500LIKES",
-      "reward": "Doble dinero, 2x EXP (1 hora), or Fruit gratis"
     },
     {
       "code": "gimmiemastery",
@@ -144,6 +143,10 @@
     {
       "code": "supaxp",
       "reward": "2x EXP (1 hora)"
+    },
+    {
+      "code": "newupdate!",
+      "reward": "5 Race Rerolls"
     },
     {
       "code": "Update2.1",
