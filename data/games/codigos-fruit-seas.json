@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-f587ec6f17720cd05e308003996c1e2b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Fruit Seas en Roblox",
   "metaTitle": "Códigos Fruit Seas Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 70 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-06T23:29:57.505Z",
+  "metaDescription": "Lista actualizada de códigos para Fruit Seas en Roblox. 69 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-07T15:00:13.003Z",
   "activeCodes": [
     {
       "code": "SafeAgain",
@@ -46,11 +46,6 @@
       "code": "AntiLag",
       "reward": "Recompensas gratis",
       "addedDate": "2026-05-25"
-    },
-    {
-      "code": "exp1_upd10",
-      "reward": "2x EXP",
-      "addedDate": "2026-10-06"
     },
     {
       "code": "2xexp2_upd10",
@@ -128,23 +123,18 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "30KLIKES",
+      "reward": "Doble Drops (15 minutos)",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "DEMONTIMING",
       "reward": "5000 Beli",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "UPDATETIME",
-      "reward": "2x EXP (30 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "NEWFIXES",
-      "reward": "Doble Beli (20 minutos)",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "30KLIKES",
-      "reward": "Doble Drops (15 minutos)",
+      "code": "7KLIKES",
+      "reward": "2x EXP (20 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -163,13 +153,18 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "UPDATETIME",
+      "reward": "2x EXP (30 minutos)",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "ITSFINALLYHERE",
       "reward": "Doble Beli (20 minutos)",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "7KLIKES",
-      "reward": "2x EXP (20 minutos)",
+      "code": "NEWFIXES",
+      "reward": "Doble Beli (20 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -200,11 +195,6 @@
     {
       "code": "SORRYFORLAG",
       "reward": "100,000 Beli",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SORRY4SHUTDOWN",
-      "reward": "Doble Drops (10 minutos)",
       "addedDate": "2026-08-01"
     },
     {
@@ -293,13 +283,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "fixes",
-      "reward": "2x EXP For Two horas",
+      "code": "SORRY4SHUTDOWN",
+      "reward": "Doble Drops (10 minutos)",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "UPDATE5!",
-      "reward": "2x Drops",
+      "code": "fixes",
+      "reward": "2x EXP For Two horas",
       "addedDate": "2026-08-01"
     },
     {
@@ -313,6 +303,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "GoFarm!",
+      "reward": "2x EXP Boost (48 horas)",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "FOLLOWJAH",
       "reward": "2x Beli",
       "addedDate": "2026-08-01"
@@ -323,18 +318,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "GoFarm!",
-      "reward": "2x EXP Boost (48 horas)",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "Sea2!",
-      "reward": "Random Fruit",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "Farm!",
-      "reward": "2x EXP For 48 horas",
+      "code": "Patch!",
+      "reward": "2x Drops Boost (24 horas)",
       "addedDate": "2026-08-01"
     },
     {
@@ -343,25 +328,43 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "Farm!",
+      "reward": "2x EXP For 48 horas",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "NEWFRUIT",
       "reward": "2x EXP",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "UPDATE5!",
+      "reward": "2x Drops",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Sea2!",
+      "reward": "Random Fruit",
       "addedDate": "2026-08-01"
     },
     {
       "code": "FruitAwakening!",
       "reward": "Doble Drop",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "Patch!",
-      "reward": "2x Drops Boost (24 horas)",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
+      "code": "exp1_upd10",
+      "reward": "2x EXP"
+    },
+    {
       "code": "BUGFIXES",
       "reward": "Doble Drops (15 minutos)"
+    },
+    {
+      "code": "LUCKYRACE?",
+      "reward": "Race Reroll"
     },
     {
       "code": "DoughFruit",
@@ -388,8 +391,16 @@
       "reward": "Random Fruit"
     },
     {
-      "code": "LUCKYRACE?",
-      "reward": "Race Reroll"
+      "code": "Imsocooked",
+      "reward": "Unknown"
+    },
+    {
+      "code": "35KLIKES",
+      "reward": "Stat Point Reset"
+    },
+    {
+      "code": "JahsCode!",
+      "reward": "Recompensa gratis"
     },
     {
       "code": "ResetFixed",
@@ -448,23 +459,11 @@
       "reward": "2x Mastery"
     },
     {
-      "code": "35KLIKES",
-      "reward": "Stat Point Reset"
-    },
-    {
-      "code": "JahsCode!",
-      "reward": "Recompensa gratis"
-    },
-    {
       "code": "PodcastCode!",
       "reward": "Race Reroll"
     },
     {
       "code": "Upd2lol",
-      "reward": "Unknown"
-    },
-    {
-      "code": "Imsocooked",
       "reward": "Unknown"
     },
     {

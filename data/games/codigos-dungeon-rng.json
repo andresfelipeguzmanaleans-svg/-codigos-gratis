@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-5fa483df831a0d7f0861495f3c957b50/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Dungeon Rng en Roblox",
   "metaTitle": "Códigos Dungeon Rng Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dungeon Rng en Roblox. 62 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-06T23:29:48.063Z",
+  "metaDescription": "Lista actualizada de códigos para Dungeon Rng en Roblox. 60 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-07T15:00:00.359Z",
   "activeCodes": [
     {
       "code": "NoPotionLag",
@@ -68,7 +68,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SixMillionVisits",
+      "code": "FiveMillionVisits",
+      "reward": "Magic poción",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "TenMillionVisits",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
@@ -78,13 +83,13 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SaintPatrick2025",
-      "reward": "One Leprechaun poción",
+      "code": "SixMillionVisits",
+      "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "FourMillionVisits",
-      "reward": "Magic poción",
+      "code": "SaintPatrick2025",
+      "reward": "One Leprechaun poción",
       "addedDate": "2026-08-01"
     },
     {
@@ -93,12 +98,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "FiveMillionVisits",
-      "reward": "Magic poción",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "TenMillionVisits",
+      "code": "FourMillionVisits",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
@@ -168,22 +168,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "NewYear2025",
-      "reward": "Magic poción",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SeventeenMillionVisits",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SoloRiftUpdate",
-      "reward": "Magic poción",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "FreeWinterRift",
+      "code": "Valentine2025",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
@@ -193,8 +178,18 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "SummerEvent",
-      "reward": "1 Super OP poción",
+      "code": "FreeWinterRift",
+      "reward": "Magic poción",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SoloRiftUpdate",
+      "reward": "Magic poción",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "TrickOrTreat",
+      "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
     {
@@ -253,17 +248,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Dungeons",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-10-06"
-    },
-    {
       "code": "TwentyEightMillionVisits",
-      "reward": "Magic poción",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "ThirtyMillionVisits",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
@@ -273,7 +258,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "TwelveMillionVisits",
+      "code": "ThirtyMillionVisits",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
@@ -303,7 +288,12 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "TrickOrTreat",
+      "code": "SummerEvent",
+      "reward": "1 Super OP poción",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "TwelveMillionVisits",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     },
@@ -313,19 +303,23 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Valentine2025",
+      "code": "NewYear2025",
       "reward": "Magic poción",
       "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "AprilFools",
-      "reward": "One April Fools poción"
+      "code": "Dungeons",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "SuperLepPlease",
       "reward": "One Super Leprechaun poción"
+    },
+    {
+      "code": "AprilFools",
+      "reward": "One April Fools poción"
     },
     {
       "code": "Sorry4Spins!",

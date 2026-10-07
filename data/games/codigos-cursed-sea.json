@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-ddd62a76e34e78c3de012f061edbde3c/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Cursed Sea en Roblox",
   "metaTitle": "Códigos Cursed Sea Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Cursed Sea en Roblox. 44 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-06T23:29:39.666Z",
+  "metaDescription": "Lista actualizada de códigos para Cursed Sea en Roblox. 43 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-07T14:59:49.025Z",
   "activeCodes": [
     {
       "code": "twitter boys",
@@ -143,16 +143,16 @@
       "addedDate": "2026-03-23"
     },
     {
-      "code": "kami",
+      "code": "shutdowns",
+      "reward": "Doble suerte"
+    },
+    {
+      "code": "fixes",
       "reward": "Race Reroll"
     },
     {
       "code": "lunarian",
       "reward": "Race Reroll"
-    },
-    {
-      "code": "sorry",
-      "reward": "2x EXP (1 hora)"
     },
     {
       "code": "tiktok",
@@ -163,9 +163,8 @@
       "reward": "Reinicio de stats"
     },
     {
-      "code": "release",
-      "reward": "2x EXP (1 hora)",
-      "addedDate": "2026-10-06"
+      "code": "cactus",
+      "reward": "Reinicio de stats"
     },
     {
       "code": "ranked",
@@ -180,19 +179,11 @@
       "reward": "2x EXP"
     },
     {
-      "code": "cactus",
-      "reward": "Reinicio de stats"
-    },
-    {
-      "code": "blackleg",
-      "reward": "Reinicio de stats"
+      "code": "sorry",
+      "reward": "2x EXP (1 hora)"
     },
     {
       "code": "hype",
-      "reward": "Race Reroll"
-    },
-    {
-      "code": "yay",
       "reward": "Race Reroll"
     },
     {
@@ -200,19 +191,27 @@
       "reward": "Doble suerte (15 minutos)"
     },
     {
-      "code": "shutdowns",
-      "reward": "Doble suerte"
+      "code": "blackleg",
+      "reward": "Reinicio de stats"
     },
     {
       "code": "oops",
       "reward": "Reinicio de stats"
     },
     {
-      "code": "fixes",
+      "code": "yay",
+      "reward": "Race Reroll"
+    },
+    {
+      "code": "kami",
       "reward": "Race Reroll"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "release",
+      "reward": "2x EXP (1 hora)"
+    },
     {
       "code": "blue bird",
       "reward": "Race Reroll"
