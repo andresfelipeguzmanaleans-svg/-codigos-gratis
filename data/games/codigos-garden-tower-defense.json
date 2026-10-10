@@ -5,17 +5,23 @@
   "description": "Todos los códigos activos para Garden Tower Defense en Roblox",
   "metaTitle": "Códigos Garden Tower Defense Roblox (Octubre 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Garden Tower Defense en Roblox. 1 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-05T16:40:13.431Z",
-  "activeCodes": [
-    {
-      "code": "POTION",
-      "reward": "750 Seeds",
-      "addedDate": "2026-09-12"
-    }
-  ],
+  "lastUpdated": "2026-10-10T23:08:22.534Z",
+  "activeCodes": [],
   "expiredCodes": [
     {
+      "code": "POTION",
+      "reward": "750 Seeds"
+    },
+    {
       "code": "STORY",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "BlackClover",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "TRADE",
       "reward": "500 Seeds"
     },
     {
@@ -167,92 +173,8 @@
       "reward": "250 Easter Eggs"
     },
     {
-      "code": "BlackClover",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "BLINKBLOOM",
-      "reward": "350 Easter Eggs"
-    },
-    {
-      "code": "SPOOKY",
-      "reward": "50 Candy Corns"
-    },
-    {
-      "code": "25TH",
-      "reward": "500 Presents"
-    },
-    {
-      "code": "BUDYGUARDS",
-      "reward": "300 Lucky Blocks"
-    },
-    {
-      "code": "PAUSE",
-      "reward": "250 Presents"
-    },
-    {
-      "code": "HYDRO",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "SUNFLOWER",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "PVP",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "CREEPY",
-      "reward": "250 Candy Corns"
-    },
-    {
-      "code": "SIGHTSTEM",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "SHROOM",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "ADMINABUSE",
-      "reward": "2,500 Golden tickets"
-    },
-    {
-      "code": "DJLeafdrop",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "TRADE",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "MINIGAMES",
-      "reward": "350 Easter Eggs"
-    },
-    {
-      "code": "SLIME",
-      "reward": "60 minuto doble Seeds Boost"
-    },
-    {
-      "code": "RNG",
-      "reward": "250 Lucky Blocks"
-    },
-    {
-      "code": "FIRE",
-      "reward": "750 Seeds"
-    },
-    {
-      "code": "SANDBOX",
-      "reward": "500 Seeds"
-    },
-    {
-      "code": "SENTRY",
-      "reward": "750 Seeds"
-    },
-    {
-      "code": "RANKED",
-      "reward": "500 Seeds"
+      "code": "gtd",
+      "reward": "300 gemas"
     },
     {
       "code": "SHARDS",
@@ -263,36 +185,112 @@
       "reward": "250 Seeds"
     },
     {
-      "code": "PROFILE",
+      "code": "SUMMER2",
+      "reward": "Recompensa"
+    },
+    {
+      "code": "SANDBOX",
       "reward": "500 Seeds"
     },
     {
-      "code": "gtd",
-      "reward": "300 gemas"
+      "code": "25TH",
+      "reward": "500 Presents"
+    },
+    {
+      "code": "MINIGAMES",
+      "reward": "350 Easter Eggs"
+    },
+    {
+      "code": "HYDRO",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "SIGHTSTEM",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "SLIME",
+      "reward": "60 minuto doble Seeds Boost"
+    },
+    {
+      "code": "PVP",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "SUNFLOWER",
+      "reward": "500 Seeds"
     },
     {
       "code": "FIGHTME",
       "reward": "750 Seeds"
     },
     {
-      "code": "GREENHOUSE",
-      "reward": "700 Seeds"
+      "code": "PAUSE",
+      "reward": "250 Presents"
+    },
+    {
+      "code": "SENTRY",
+      "reward": "750 Seeds"
+    },
+    {
+      "code": "FIRE",
+      "reward": "750 Seeds"
     },
     {
       "code": "WASTE",
       "reward": "250 Seeds"
     },
     {
-      "code": "CHANCE",
-      "reward": "300 Lucky Blocks"
+      "code": "SHROOM",
+      "reward": "500 Seeds"
     },
     {
-      "code": "SUMMER2",
-      "reward": "Recompensa"
+      "code": "CREEPY",
+      "reward": "250 Candy Corns"
     },
     {
       "code": "LOVEBURST",
       "reward": "500 Seeds"
+    },
+    {
+      "code": "RNG",
+      "reward": "250 Lucky Blocks"
+    },
+    {
+      "code": "DJLeafdrop",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "BUDYGUARDS",
+      "reward": "300 Lucky Blocks"
+    },
+    {
+      "code": "RANKED",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "BLINKBLOOM",
+      "reward": "350 Easter Eggs"
+    },
+    {
+      "code": "ADMINABUSE",
+      "reward": "2,500 Golden tickets"
+    },
+    {
+      "code": "SPOOKY",
+      "reward": "50 Candy Corns"
+    },
+    {
+      "code": "PROFILE",
+      "reward": "500 Seeds"
+    },
+    {
+      "code": "GREENHOUSE",
+      "reward": "700 Seeds"
+    },
+    {
+      "code": "CHANCE",
+      "reward": "300 Lucky Blocks"
     },
     {
       "code": "SPACE",
