@@ -4,9 +4,17 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-40b43d9a946c3e2212d61153e5308a6b/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Grand Kaizen en Roblox",
   "metaTitle": "Códigos Grand Kaizen Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Grand Kaizen en Roblox. 4 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-10T14:09:19.210Z",
+  "metaDescription": "Lista actualizada de códigos para Grand Kaizen en Roblox. 6 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-14T13:13:36.648Z",
   "activeCodes": [
+    {
+      "code": "Update1Soon!",
+      "reward": "30 Technique tiradas"
+    },
+    {
+      "code": "HappyNewYear!",
+      "reward": "Technique tiradas (Req. Level 5+)"
+    },
     {
       "code": "MobileFixes",
       "reward": "Technique tiradas (Req. Level 5+)"
@@ -16,23 +24,17 @@
       "reward": "Technique tiradas (Req. Level 5+)"
     },
     {
-      "code": "Update1Soon!",
-      "reward": "30 Technique tiradas"
-    },
-    {
-      "code": "HappyNewYear!",
-      "reward": "Technique tiradas (Req. Level 5+)"
-    }
-  ],
-  "expiredCodes": [
-    {
       "code": "15kLikes!",
-      "reward": "Technique tiradas (Req. Level 5+)"
+      "reward": "Technique tiradas (Req. Level 5+)",
+      "addedDate": "2026-10-14"
     },
     {
       "code": "BugFixes2",
-      "reward": "Technique tiradas (Req. Level 5+)"
-    },
+      "reward": "Technique tiradas (Req. Level 5+)",
+      "addedDate": "2026-10-14"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "BugFixes",
       "reward": "25 Technique tiradas (Req. Level 5+)"

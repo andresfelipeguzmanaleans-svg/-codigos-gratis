@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-23d97eeac22a089d4d4084b537177d5a/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Evade en Roblox",
   "metaTitle": "Códigos Evade Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Evade en Roblox. 19 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-10T14:09:06.426Z",
+  "metaDescription": "Lista actualizada de códigos para Evade en Roblox. 23 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-14T13:13:26.425Z",
   "activeCodes": [
     {
       "code": "isurviveddatahaul",
@@ -43,6 +43,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "900",
+      "reward": "10 puntos",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "theaftermath",
       "reward": "1,000 tokens",
       "addedDate": "2026-08-01"
@@ -58,11 +63,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "900",
-      "reward": "10 puntos",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "summeroopsies2",
       "reward": "50 tickets",
       "addedDate": "2026-08-01"
@@ -73,9 +73,19 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "apology",
+      "reward": "1000 tokens",
+      "addedDate": "2026-10-14"
+    },
+    {
       "code": "gullible",
       "reward": "30 puntos",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "1bill",
+      "reward": "1B Celebration Cosmetic",
+      "addedDate": "2026-10-14"
     },
     {
       "code": "luckyday",
@@ -83,9 +93,14 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "222",
-      "reward": "222 tokens",
-      "addedDate": "2026-08-01"
+      "code": "HolidayUpdateFixEXP",
+      "reward": "300 XP",
+      "addedDate": "2026-10-14"
+    },
+    {
+      "code": "HolidayUpdateFix",
+      "reward": "2000 tokens",
+      "addedDate": "2026-10-14"
     },
     {
       "code": "therealdeal",
@@ -101,48 +116,21 @@
       "code": "thebig5",
       "reward": "555 tokens",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "222",
+      "reward": "222 tokens",
+      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
     {
-      "code": "apology",
-      "reward": "1000 tokens"
-    },
-    {
-      "code": "1bill",
-      "reward": "1B Celebration Cosmetic"
-    },
-    {
-      "code": "HolidayUpdateFixEXP",
-      "reward": "300 XP"
-    },
-    {
-      "code": "HolidayUpdateFix",
-      "reward": "2000 tokens"
-    },
-    {
-      "code": "THANKSGIVING2025",
-      "reward": "15 puntos"
-    },
-    {
-      "code": "Evade1K",
-      "reward": "Recompensa desconocida"
-    },
-    {
-      "code": "release",
-      "reward": "Wearable Cosmetic"
-    },
-    {
-      "code": "anewday",
-      "reward": "600 tokens"
+      "code": "stpatricks2026",
+      "reward": "Puntos"
     },
     {
       "code": "HappyNewYears2026",
       "reward": "26 puntos"
-    },
-    {
-      "code": "stpatricks2026",
-      "reward": "Puntos"
     },
     {
       "code": "NewYears2023",
@@ -159,6 +147,22 @@
     {
       "code": "newday",
       "reward": "600 tokens"
+    },
+    {
+      "code": "Evade1K",
+      "reward": "Recompensa desconocida"
+    },
+    {
+      "code": "release",
+      "reward": "Wearable Cosmetic"
+    },
+    {
+      "code": "anewday",
+      "reward": "600 tokens"
+    },
+    {
+      "code": "THANKSGIVING2025",
+      "reward": "15 puntos"
     }
   ],
   "howToRedeem": [
