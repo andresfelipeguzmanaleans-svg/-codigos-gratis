@@ -5,25 +5,25 @@
   "description": "Todos los códigos activos para Lucky Lockups en Roblox",
   "metaTitle": "Códigos Lucky Lockups Roblox (Octubre 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Lucky Lockups en Roblox. 3 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-14T22:55:16.153Z",
-  "activeCodes": [],
-  "expiredCodes": [
+  "lastUpdated": "2026-10-15T13:00:51.700Z",
+  "activeCodes": [
     {
       "code": "bennyharveyrip",
-      "reward": "1,000 Cash"
-    },
-    {
-      "code": "Lucky13",
-      "reward": "2,300 Cash"
+      "reward": "1,000 Cash",
+      "addedDate": "2026-10-15"
     },
     {
       "code": "Easter24",
-      "reward": "3,500 Cash"
+      "reward": "3,500 Cash",
+      "addedDate": "2026-10-15"
     },
     {
-      "code": "aster24",
-      "reward": "$3,500 Cash"
-    },
+      "code": "Lucky13",
+      "reward": "2,300 Cash",
+      "addedDate": "2026-10-15"
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "merrylockups",
       "reward": "$1,500"
@@ -39,6 +39,10 @@
     {
       "code": "amtamspraggins",
       "reward": "$1,500"
+    },
+    {
+      "code": "aster24",
+      "reward": "$3,500 Cash"
     }
   ],
   "howToRedeem": [
