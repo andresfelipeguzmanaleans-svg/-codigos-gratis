@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-e30b2e177388f0a00cd2124870a12155/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Tv Defense en Roblox",
   "metaTitle": "Códigos Tv Defense Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Tv Defense en Roblox. 42 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-16T12:56:27.569Z",
+  "metaDescription": "Lista actualizada de códigos para Tv Defense en Roblox. 41 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-16T22:24:31.110Z",
   "activeCodes": [
     {
       "code": "EP80",
@@ -73,11 +73,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "CHRISTMAS2026",
-      "reward": "Gemas",
-      "addedDate": "2026-10-16"
-    },
-    {
       "code": "NEWYEAR2026",
       "reward": "Gemas",
       "addedDate": "2026-08-01"
@@ -108,6 +103,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "SUMMER",
+      "reward": "5 Suns",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "SONGKRANDAY",
       "reward": "500 Water Gun",
       "addedDate": "2026-08-01"
@@ -115,6 +115,11 @@
     {
       "code": "HAPPYSUMMER",
       "reward": "5 Suns",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "ROSE",
+      "reward": "500 Hearts",
       "addedDate": "2026-08-01"
     },
     {
@@ -158,11 +163,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "MERRYCHRISTMAS",
-      "reward": "500 Santa Hats",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "COMEBACK",
       "reward": "1900 dinero",
       "addedDate": "2026-08-01"
@@ -203,13 +203,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "ROSE",
-      "reward": "500 Hearts",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SUMMER",
-      "reward": "5 Suns",
+      "code": "MERRYCHRISTMAS",
+      "reward": "500 Santa Hats",
       "addedDate": "2026-08-01"
     },
     {
@@ -219,6 +214,10 @@
     }
   ],
   "expiredCodes": [
+    {
+      "code": "CHRISTMAS2026",
+      "reward": "Gemas"
+    },
     {
       "code": "EASTERDAY",
       "reward": "5 Easter Eggs"
