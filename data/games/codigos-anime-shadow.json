@@ -4,8 +4,8 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-5f246bf6237833a10912e4a75a563893/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Shadow en Roblox",
   "metaTitle": "Códigos Anime Shadow Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 35 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-15T22:48:29.441Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 36 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-16T12:54:02.458Z",
   "activeCodes": [
     {
       "code": "10KLIKES",
@@ -23,16 +23,17 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "QuestFix",
-      "reward": "150 tickets, 2 Dragon Ball VII, 1 Dragon Ball VI"
+      "code": "25KLIKES",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-10-16"
     },
     {
-      "code": "FIXEDCODE",
-      "reward": "3 Raid llaves, 2 Shiny pociones"
+      "code": "15KACTIVES",
+      "reward": "150 tickets"
     },
     {
-      "code": "40KLIKES",
-      "reward": "100 tickets, 4 Fish monedas, 3 Raid llaves"
+      "code": "KaisenDelay",
+      "reward": "7 Curse Rerolls, 2 monedas pociones, 2 daño pociones"
     },
     {
       "code": "MOBILEFIX",
@@ -42,23 +43,6 @@
       "code": "CRYCODE",
       "reward": "150 tickets, 2 monedas pociones, 2 daño pociones, 7 Curse Rerolls",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "FreeMagnet",
-      "reward": "Magnet Gamepass",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "GHOULUPDATE",
-      "reward": "100 tickets, 2 Shiny pociones"
-    },
-    {
-      "code": "15KACTIVES",
-      "reward": "150 tickets"
-    },
-    {
-      "code": "KaisenDelay",
-      "reward": "7 Curse Rerolls, 2 monedas pociones, 2 daño pociones"
     },
     {
       "code": "BUFFBOROS",
@@ -85,20 +69,41 @@
       "reward": "7 Curse Rerolls, 2 monedas pociones, 2 daño pociones"
     },
     {
+      "code": "QuestFix",
+      "reward": "150 tickets, 2 Dragon Ball VII, 1 Dragon Ball VI"
+    },
+    {
+      "code": "FIXEDCODE",
+      "reward": "3 Raid llaves, 2 Shiny pociones"
+    },
+    {
+      "code": "FreeMagnet",
+      "reward": "Magnet Gamepass",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "40KLIKES",
+      "reward": "100 tickets, 4 Fish monedas, 3 Raid llaves"
+    },
+    {
+      "code": "GHOULUPDATE",
+      "reward": "100 tickets, 2 Shiny pociones"
+    },
+    {
       "code": "NEYMARLOL",
       "reward": "10 Cursed Plasma, 10 Passive Capsule, 10 Green Essence, 10 Gray Essence, 10 Trial Shard"
     },
     {
-      "code": "SRRYDELAYXMAS",
-      "reward": "50 tickets"
+      "code": "SRRYXMAS2",
+      "reward": "100 tickets"
     },
     {
-      "code": "10MVISITS",
-      "reward": "100 tickets, 20 Talent Shards, 20 Gingerbread, 20 Candy Canes"
+      "code": "SORRYFORDELAY",
+      "reward": "150 tickets, 3 Raid llaves, 3 Defense llaves"
     },
     {
-      "code": "SLAYERUPDATE",
-      "reward": "150 tickets, 1 Raid llave, 1 Defense llave"
+      "code": "NEYPATCH",
+      "reward": "Recompensas gratis"
     },
     {
       "code": "TITLESUPDATE",
@@ -115,22 +120,6 @@
     {
       "code": "ULTSFIXED",
       "reward": "100 tickets, 2 Raid llaves, 2 Defense llaves"
-    },
-    {
-      "code": "SORRYFORDELAY",
-      "reward": "150 tickets, 3 Raid llaves, 3 Defense llaves"
-    },
-    {
-      "code": "SRRYXMAS2",
-      "reward": "100 tickets"
-    },
-    {
-      "code": "NEYPATCH",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "AURAUPDATE",
-      "reward": "90 tickets, 25 Aura Shards"
     },
     {
       "code": "UPDATECRAFT",
@@ -151,13 +140,25 @@
     {
       "code": "CLOVERUPDATE",
       "reward": "100 tickets, 15 Grimoire tokens"
+    },
+    {
+      "code": "SRRYDELAYXMAS",
+      "reward": "50 tickets"
+    },
+    {
+      "code": "10MVISITS",
+      "reward": "100 tickets, 20 Talent Shards, 20 Gingerbread, 20 Candy Canes"
+    },
+    {
+      "code": "AURAUPDATE",
+      "reward": "90 tickets, 25 Aura Shards"
+    },
+    {
+      "code": "SLAYERUPDATE",
+      "reward": "150 tickets, 1 Raid llave, 1 Defense llave"
     }
   ],
   "expiredCodes": [
-    {
-      "code": "25KLIKES",
-      "reward": "Recompensas gratis"
-    },
     {
       "code": "15KLIKES",
       "reward": "Tickets"

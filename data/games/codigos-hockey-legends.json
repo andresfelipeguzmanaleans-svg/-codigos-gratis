@@ -3,17 +3,27 @@
   "name": "Hockey Legends",
   "thumbnail": "https://tr.rbxcdn.com/180DAY-fd593da7ae571828d734631d748b801d/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Hockey Legends en Roblox",
-  "metaTitle": "Códigos Hockey Legends Roblox (Agosto 2026) - Códigos Gratis",
+  "metaTitle": "Códigos Hockey Legends Roblox (Octubre 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Hockey Legends en Roblox. 7 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-08-01T09:54:24.155Z",
+  "lastUpdated": "2026-10-16T12:55:04.520Z",
   "activeCodes": [
+    {
+      "code": "15KLIKES",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
     {
       "code": "16KLIKES",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "15KLIKES",
+      "code": "10KLIKES",
+      "reward": "In-Game recompensas gratis",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "11KLIKES",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
@@ -23,12 +33,7 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "10KLIKES",
-      "reward": "Recompensas gratis",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "11KLIKES",
+      "code": "THANKSGIVING24",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
     },
@@ -36,64 +41,19 @@
       "code": "12KLIKES",
       "reward": "Recompensas gratis",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "THANKSGIVING24",
-      "reward": "Elite case EFFECT",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
-    {
-      "code": "EASTER24",
-      "reward": "Elite Case"
-    },
-    {
-      "code": "ILOVEHOCKEY",
-      "reward": "Spring Case"
-    },
     {
       "code": "9KLIKES",
       "reward": "Recompensas gratis"
     },
     {
-      "code": "2KLIKES",
-      "reward": "2500 monedas"
-    },
-    {
-      "code": "1KLIKES",
-      "reward": "2500 monedas"
+      "code": "EASTER24",
+      "reward": "Elite Case"
     },
     {
       "code": "5KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "4KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "8KLIKES",
-      "reward": "2,500 Cash"
-    },
-    {
-      "code": "13KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "RELEASE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "7KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "6KLIKES",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "3KLIKES",
       "reward": "Recompensas gratis"
     },
     {
@@ -101,12 +61,56 @@
       "reward": "Recompensas"
     },
     {
+      "code": "8KLIKES",
+      "reward": "2,500 Cash"
+    },
+    {
+      "code": "1KLIKES",
+      "reward": "2500 monedas"
+    },
+    {
+      "code": "3KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "13KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "ILOVEHOCKEY",
+      "reward": "Spring Case"
+    },
+    {
+      "code": "2KLIKES",
+      "reward": "2500 monedas"
+    },
+    {
+      "code": "4KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "code29241",
       "reward": "Recompensas"
     },
     {
+      "code": "7KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
       "code": "14KLIKES",
       "reward": "Recompensas gratis"
+    },
+    {
+      "code": "RELEASE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "6KLIKES",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "20KLIKES",
+      "reward": "2,500 Cash"
     }
   ],
   "howToRedeem": [
