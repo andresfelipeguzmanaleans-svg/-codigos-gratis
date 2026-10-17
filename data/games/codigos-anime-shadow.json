@@ -4,23 +4,35 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-5f246bf6237833a10912e4a75a563893/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Shadow en Roblox",
   "metaTitle": "Códigos Anime Shadow Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 35 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-16T22:22:07.859Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Shadow en Roblox. 36 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-17T11:53:42.769Z",
   "activeCodes": [
-    {
-      "code": "5KLIKES",
-      "reward": "200 tickets",
-      "addedDate": "2026-08-01"
-    },
     {
       "code": "10KACTIVES",
       "reward": "100 tickets, 2 monedas pociones, 2 daño pociones",
       "addedDate": "2026-08-01"
     },
     {
+      "code": "5KLIKES",
+      "reward": "200 tickets",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "10KLIKES",
       "reward": "100 tickets",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "15KACTIVES",
+      "reward": "150 tickets"
+    },
+    {
+      "code": "MOBILEFIX",
+      "reward": "150 tickets"
+    },
+    {
+      "code": "FISHUPDATE",
+      "reward": "150 tickets, 7 Cursed Plasma, 1 monedas poción, 1 daño poción"
     },
     {
       "code": "KaisenUpdate",
@@ -36,8 +48,17 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "40KLIKES",
-      "reward": "100 tickets, 4 Fish monedas, 3 Raid llaves"
+      "code": "25KLIKES",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-10-17"
+    },
+    {
+      "code": "GHOULUPDATE",
+      "reward": "100 tickets, 2 Shiny pociones"
+    },
+    {
+      "code": "FIXEDCODE",
+      "reward": "3 Raid llaves, 2 Shiny pociones"
     },
     {
       "code": "FreeMagnet",
@@ -45,16 +66,16 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "QuestFix",
-      "reward": "150 tickets, 2 Dragon Ball VII, 1 Dragon Ball VI"
-    },
-    {
       "code": "Release",
       "reward": "150 tickets"
     },
     {
-      "code": "GHOULUPDATE",
-      "reward": "100 tickets, 2 Shiny pociones"
+      "code": "40KLIKES",
+      "reward": "100 tickets, 4 Fish monedas, 3 Raid llaves"
+    },
+    {
+      "code": "QuestFix",
+      "reward": "150 tickets, 2 Dragon Ball VII, 1 Dragon Ball VI"
     },
     {
       "code": "BUFFBOROS",
@@ -67,42 +88,6 @@
     {
       "code": "1MVISITS",
       "reward": "75 Passive tokens"
-    },
-    {
-      "code": "15KACTIVES",
-      "reward": "150 tickets"
-    },
-    {
-      "code": "FIXEDCODE",
-      "reward": "3 Raid llaves, 2 Shiny pociones"
-    },
-    {
-      "code": "MOBILEFIX",
-      "reward": "150 tickets"
-    },
-    {
-      "code": "FISHUPDATE",
-      "reward": "150 tickets, 7 Cursed Plasma, 1 monedas poción, 1 daño poción"
-    },
-    {
-      "code": "SRRYXMAS2",
-      "reward": "100 tickets"
-    },
-    {
-      "code": "SRRYDELAYXMAS",
-      "reward": "50 tickets"
-    },
-    {
-      "code": "10MVISITS",
-      "reward": "100 tickets, 20 Talent Shards, 20 Gingerbread, 20 Candy Canes"
-    },
-    {
-      "code": "CLOVERUPDATE",
-      "reward": "100 tickets, 15 Grimoire tokens"
-    },
-    {
-      "code": "NEYMARLOL",
-      "reward": "10 Cursed Plasma, 10 Passive Capsule, 10 Green Essence, 10 Gray Essence, 10 Trial Shard"
     },
     {
       "code": "SORRYFORDELAY",
@@ -129,6 +114,10 @@
       "reward": "100 tickets, 2 Raid llaves, 2 Defense llaves"
     },
     {
+      "code": "AURAUPDATE",
+      "reward": "90 tickets, 25 Aura Shards"
+    },
+    {
       "code": "UPDATECRAFT",
       "reward": "80 tickets"
     },
@@ -141,23 +130,35 @@
       "reward": "10 tickets, 2.5x monedas poción, 2.5x daño poción, 2.5x Exp poción, Shiny (XMAS) poción"
     },
     {
+      "code": "10MVISITS",
+      "reward": "100 tickets, 20 Talent Shards, 20 Gingerbread, 20 Candy Canes"
+    },
+    {
+      "code": "SRRYDELAYXMAS",
+      "reward": "50 tickets"
+    },
+    {
+      "code": "NEYMARLOL",
+      "reward": "10 Cursed Plasma, 10 Passive Capsule, 10 Green Essence, 10 Gray Essence, 10 Trial Shard"
+    },
+    {
       "code": "FIXEDSTARS",
       "reward": "200 Passive Capsules, 200 Cursed Plasma, 2 Raid llaves"
     },
     {
-      "code": "AURAUPDATE",
-      "reward": "90 tickets, 25 Aura Shards"
-    },
-    {
       "code": "SLAYERUPDATE",
       "reward": "150 tickets, 1 Raid llave, 1 Defense llave"
+    },
+    {
+      "code": "CLOVERUPDATE",
+      "reward": "100 tickets, 15 Grimoire tokens"
+    },
+    {
+      "code": "SRRYXMAS2",
+      "reward": "100 tickets"
     }
   ],
   "expiredCodes": [
-    {
-      "code": "25KLIKES",
-      "reward": "Recompensas gratis"
-    },
     {
       "code": "15KLIKES",
       "reward": "Tickets"

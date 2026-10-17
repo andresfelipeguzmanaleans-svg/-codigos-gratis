@@ -4,9 +4,24 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-3a83dda9b7af124f231411adb7224ec0/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Survival Odyssey en Roblox",
   "metaTitle": "Códigos Survival Odyssey Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Survival Odyssey en Roblox. 14 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-16T22:24:20.132Z",
+  "metaDescription": "Lista actualizada de códigos para Survival Odyssey en Roblox. 17 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-17T11:55:23.946Z",
   "activeCodes": [
+    {
+      "code": "MIGRATION",
+      "reward": "200 monedas",
+      "addedDate": "2026-10-17"
+    },
+    {
+      "code": "Revive",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-10-17"
+    },
+    {
+      "code": "Trap",
+      "reward": "Recompensas gratis",
+      "addedDate": "2026-10-17"
+    },
     {
       "code": "SMALLUPDATE",
       "reward": "Recompensas gratis",
@@ -58,70 +73,38 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Neko",
-      "reward": "1k monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "80kFavorites",
       "reward": "1k monedas",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "Refresh",
-      "reward": "2.5k monedas",
+      "code": "Neko",
+      "reward": "1k monedas",
       "addedDate": "2026-08-01"
     },
     {
       "code": "Sorry!",
       "reward": "500 monedas",
       "addedDate": "2026-08-01"
+    },
+    {
+      "code": "Refresh",
+      "reward": "2.5k monedas",
+      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
-    {
-      "code": "MIGRATION",
-      "reward": "200 monedas"
-    },
-    {
-      "code": "Revive",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "Trap",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "REVAMPPART2",
-      "reward": "400 monedas"
-    },
-    {
-      "code": "NewPlayers!",
-      "reward": "Monedas"
-    },
-    {
-      "code": "reupload",
-      "reward": "Monedas"
-    },
-    {
-      "code": "Void",
-      "reward": "Recompensa gratis"
-    },
     {
       "code": "100kVisits",
       "reward": "Recompensa gratis"
     },
     {
-      "code": "Christmas",
-      "reward": "4k monedas"
-    },
-    {
-      "code": "CivilizationUpdate",
-      "reward": "400 monedas"
-    },
-    {
       "code": "REVAMPPART1",
       "reward": "400 monedas"
+    },
+    {
+      "code": "NewPlayers!",
+      "reward": "Monedas"
     },
     {
       "code": "250kVisits",
@@ -133,6 +116,14 @@
     },
     {
       "code": "zidiamsecret",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "reupload",
+      "reward": "Monedas"
+    },
+    {
+      "code": "Void",
       "reward": "Recompensa gratis"
     },
     {
@@ -274,6 +265,18 @@
     {
       "code": "Mounts",
       "reward": "2,500 monedas"
+    },
+    {
+      "code": "Christmas",
+      "reward": "4k monedas"
+    },
+    {
+      "code": "CivilizationUpdate",
+      "reward": "400 monedas"
+    },
+    {
+      "code": "REVAMPPART2",
+      "reward": "400 monedas"
     }
   ],
   "howToRedeem": [
