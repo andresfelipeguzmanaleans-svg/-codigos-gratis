@@ -4,12 +4,22 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-d212d41e8af15865ac1f38d6845c0198/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Anime Chaos Simulator en Roblox",
   "metaTitle": "Códigos Anime Chaos Simulator Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Anime Chaos Simulator en Roblox. 15 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-17T11:53:37.488Z",
+  "metaDescription": "Lista actualizada de códigos para Anime Chaos Simulator en Roblox. 11 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-17T21:54:44.274Z",
   "activeCodes": [
     {
       "code": "THANKS2500LIKES",
       "reward": "50 Runes of Power, 10 Sword Ascension Shards",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SLAYERUPDATE",
+      "reward": "3 Sword Ascension Shards, poción",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "release",
+      "reward": "500 gemas",
       "addedDate": "2026-08-01"
     },
     {
@@ -31,36 +41,6 @@
       "code": "thanks1klikes",
       "reward": "300 Dungeon tokens, Hollow Fragment",
       "addedDate": "2026-08-01"
-    },
-    {
-      "code": "STANDS",
-      "reward": "1 Power poción and 5 flechas",
-      "addedDate": "2026-10-17"
-    },
-    {
-      "code": "release",
-      "reward": "500 gemas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BUGSFIX",
-      "reward": "X1 Power poción and x1 Dungeon poción",
-      "addedDate": "2026-10-17"
-    },
-    {
-      "code": "TRIALFIX",
-      "reward": "200 Dungeon tokens",
-      "addedDate": "2026-10-17"
-    },
-    {
-      "code": "SLAYERUPDATE",
-      "reward": "3 Sword Ascension Shards, poción",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "CURSES",
-      "reward": "5 Cursed Shards, Power poción",
-      "addedDate": "2026-10-17"
     },
     {
       "code": "HALLOWEENEVENT2",
@@ -85,12 +65,28 @@
   ],
   "expiredCodes": [
     {
-      "code": "SUBMEDTW",
-      "reward": "500 gemas and a gemas poción"
+      "code": "STANDS",
+      "reward": "1 Power poción and 5 flechas"
+    },
+    {
+      "code": "BUGSFIX",
+      "reward": "X1 Power poción and x1 Dungeon poción"
+    },
+    {
+      "code": "TRIALFIX",
+      "reward": "200 Dungeon tokens"
+    },
+    {
+      "code": "CURSES",
+      "reward": "5 Cursed Shards, Power poción"
     },
     {
       "code": "5klicks",
       "reward": "Exclusivo recompensas"
+    },
+    {
+      "code": "SUBMEDTW",
+      "reward": "500 gemas and a gemas poción"
     }
   ],
   "howToRedeem": [
