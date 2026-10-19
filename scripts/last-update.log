@@ -1,177 +1,94 @@
-=== RESUMEN UPDATE 2026-10-18 22:11 ===
+=== RESUMEN UPDATE 2026-10-19 15:13 ===
 
 Archivos modificados:
-  57 archivos cambiados
+  32 archivos cambiados
 
 Archivos nuevos:
-  25 archivos nuevos
+  0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4673 juegos (4673 procesados)
-Actualizados: 54 | Sin cambios: 4474
+Actualizados: 30 | Sin cambios: 4498
 No encontrado: 132 | Saltados: 13
-Códigos nuevos: 32 | Movidos a expirados: 78
-Tiempo: 146.9s | Concurrencia: 10
+Códigos nuevos: 177 | Movidos a expirados: 4
+Tiempo: 152.2s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Loot To Forge: 6→7 activos (+1), 0→0 exp
-    Nuevos: HALLOWEEN
-  All Star Tower Defense: 31→32 activos (+1), 320→320 exp
-    Nuevos: oopsiepoopsie
-  Anime Card Clash: 92→92 activos (=), 148→153 exp
-  Anime Card Collection: 74→76 activos (+2), 6→6 exp
-    Nuevos: Halloween, SeventyCode
-  Anime Champions Simulator: 82→79 activos (-3), 62→64 exp
-  Anime Destroyers: 38→38 activos (=), 14→15 exp
-  Anime Odyssey Simulator: 25→22 activos (-3), 1→4 exp
-  Anime Mysterious: 31→36 activos (+5), 4→0 exp
-    Nuevos: ILOVEUALLGUYS, HALLOWEENEVENT, UPDATE075, IAMATOMIC, HAPPYHALLOWEEN
-  Arm Wrestle Simulator: 160→161 activos (+1), 31→31 exp
-    Nuevos: patientzero
-  Boys Vs Girls: 4→3 activos (-1), 3→4 exp
-  Break Stuff Simulator: 1→0 activos (-1), 1→2 exp
-  Catch A Monster: 52→52 activos (=), 150→151 exp
-  Catch Dragons To Defend: 7→8 activos (+1), 2→2 exp
-    Nuevos: SpookyTime
-  Chainsaw Man Devils Heart: 28→30 activos (+2), 42→42 exp
-    Nuevos: !Code TheySeeMeAuraRerolllling, !Code TRADINGISHERE
-  Clover Time: 27→28 activos (+1), 8→8 exp
-    Nuevos: SorryForShutdown2
-  Death Ball: 82→84 activos (+2), 33→33 exp
-    Nuevos: BOONUS, TREATS
-  Drill To Earths Core: 1→2 activos (+1), 1→1 exp
-    Nuevos: TRICKORTREAT
-  Egg Farm Tycoon 2: 37→36 activos (-1), 1→2 exp
-  Elemental Magic Arena: 20→20 activos (=), 2→3 exp
-  Emote Rng: 34→35 activos (+1), 12→12 exp
-    Nuevos: JohnKun
-  Evade: 19→19 activos (=), 14→15 exp
-  Fishing Master: 13→14 activos (+1), 0→0 exp
-    Nuevos: UPDDELAY
-  Get Muscles Simulator: 10→0 activos (-10), 2→12 exp
-  Go Catch: 7→7 activos (=), 1→2 exp
-  Grand Piece Online: 29→32 activos (+3), 285→285 exp
-    Nuevos: FREE_Drops9, FREE_EXP7, ILOVEGPO_4
-  Heavyweight Fishing: 129→129 activos (=), 32→35 exp
-  Hots Rng: 89→90 activos (+1), 60→60 exp
-    Nuevos: durr
-  Ice Fishing Simulator: 19→20 activos (+1), 2→2 exp
-    Nuevos: BLOODMOON
-  Imposters And Roles: 57→57 activos (=), 8→9 exp
-  Junk Mechanics: 17→17 activos (=), 1→3 exp
-  Knife Duels: 2→2 activos (=), 9→10 exp
-  Level Piece: 13→0 activos (-13), 0→13 exp
-  Morph Rng: 3→2 activos (-1), 0→1 exp
-  Motor Legends: 40→42 activos (+2), 0→0 exp
-    Nuevos: SEASON4, UPDATE23
-  Motorush: 39→26 activos (-13), 11→24 exp
-  Mugen: 45→45 activos (=), 64→65 exp
-  Murder Mittens: 6→6 activos (=), 5→6 exp
-  Mystic Magic: 12→9 activos (-3), 2→5 exp
-  Paper Plane Simulator: 9→8 activos (-1), 0→1 exp
-  Prehistoric Farm: 3→3 activos (=), 10→14 exp
-  Realistic Car Driving: 9→6 activos (-3), 7→10 exp
-  Rivals: 21→21 activos (=), 210→211 exp
-  Samurai Parallel: 5→0 activos (-5), 1→6 exp
-  Sailor Piece: 174→177 activos (+3), 63→63 exp
-    Nuevos: THANKYOUFORWAITING, LUFFYUPDATE, GEAR5UPDATE
-  Sled Simulator 2: 8→7 activos (-1), 0→0 exp
-  Sols Rng: 16→16 activos (=), 23→24 exp
-  Super Hit Simulator: 3→0 activos (-3), 0→3 exp
-  Survive A Million Monkeys: 5→5 activos (=), 0→1 exp
-  The Vampire Legacies 2: 17→17 activos (=), 39→40 exp
-  Throwing Simulator: 31→16 activos (-15), 3→18 exp
-  Throw A Coin: 15→16 activos (+1), 1→1 exp
-    Nuevos: HALLOWEEN
-  Touchdown Simulator: 4→3 activos (-1), 2→3 exp
-  Turbo Soccer: 2→3 activos (+1), 0→0 exp
-    Nuevos: BETA
-  Wheelie District: 10→11 activos (+1), 1→1 exp
-    Nuevos: UPDATE7
+  A One Piece Game: 259→259 activos (=), 232→235 exp
+  Anime Destroyers: 38→43 activos (+5), 15→14 exp
+    Nuevos: HUNTERFIXES, BOSSRUSH3, PHANTOMTROUPE, NENMASTER, THANKYOUHUNTERS
+  Anime Dimensions: 49→49 activos (=), 241→242 exp
+  Azaras Rng: 0→11 activos (+11), 133→122 exp
+    Nuevos: TyFor500YTSubscribers!, Artemis, Forfeit, CakeTime2, HappyHalfAnniversary!!, TreasureHunt, CaveHunter, GearForge, Cave, NewMaps!, Division3
+  Blue Lock Rivals: 4→125 activos (+121), 359→238 exp
+    Nuevos: NELAIKUNEXT, ONEMOREWEEK, EPICSENDOU, ACEEATER, SENDOUNEXT, DONREVAMP, NEWMASTER, UBERSVOTE, WSNUFFY, SNUFFYUPD, UBERSCONTINUES, BUGFIXES, SNUFFYSOON, QOLNEXTWEEK!, GATEKEEPOVER, NIKOHERE, SORRYLOADING, UBERSMONTH, NIKOSOON, NELKING, EGODEFENSE, KINGNEXTWEEK, UBERSTAKEOVER, INSANETRAILERSOON, SORRY4DELAY!!, FIXESLATERTODAY, RINTODAY, DESTROYERMODE, SAERRY4DELAY, RINSOON, HALFBAKED, SAEREWORK, MAGICIAN, BIGTRAILERSOON, NESSTODAY, NESSNEXTWEEK, TEAMSPAIN, TEAMBRAZIL, NEWMAP, WORLDTOURNAMENTPART3, SEMIFINALS, REBALANCES, QUARTERFINALSOON, QOLUPD, NEWCHEMSOON, DEMON, SUMMERUPDATE, U20CUP, WORLDTOURNAMENT, BEARCLAW, ADDRESSME, GAGAREWORK, MASSIVEUPDATE, NELEVENT, NELTEAMSHYPE, BREAKDANCE, KIYORARELEASE, HIORIREWORK, SNOWFLAKE, NELHIORI, HIORIHYPE, MINIUPDATE, MBFORDELAY, HIORISOON, REORETURN, MASTEROFALLTRADES, REOHYPE, REOSOON, REWORKW, SAEW, WPATCH, THEJOKER, WILDCARD, KUNIGAMIW, SPEEDSTER, CHIGIRIHERE, 44PANTHER, CHIGIRISOON, NINJASPINS, OTOYAUPD, NELQUEST, NEWJERSEYS, NEWIMPACTS, METAVISION, EGOISTNOW, ISAGITODAY, NAGITHEBEST, NELNAGIW, SORRYDELAYEASTER, EggStyle, EasterYuki, ITSBACK, TIMETIME, RANKEDRETURN, NELPASS, NELLUCKY, NELSTYLESPINS, CROWFLOWCODE, CROWCODE, KARASUHYPE, NAGIEVOLUTION, ISAGIEVOLUTION, RIPGENERATIONAL, FLOW3V3, HYP3, 3V3TIME, LUNARYEAR, CODEANGRY, RAICHIHYPE, HEARTFLOW, HEARTSTYLE, VALENTINESDAY, NELFLOWSPINS, NELQUEST2, RINRIN, YENUPDATE, AFKUPDATE, NESSFLOW, RABBITPULL, ITSNESS, NESSMAGICIAN
+  Brainrot Evolution: 92→93 activos (+1), 16→16 exp
+    Nuevos: HALLOWEEN2026
+  Car Dealership Tycoon: 23→23 activos (=), 276→277 exp
+  Car Zone: 137→137 activos (=), 16→18 exp
+  Dead Spells: 75→77 activos (+2), 4→4 exp
+    Nuevos: OptimizationsGoHard, QOLGoesHard
+  Elemental Dungeons: 55→55 activos (=), 23→24 exp
+  Fisch: 45→45 activos (=), 103→104 exp
+  Flashpoint Worlds Collide: 74→74 activos (=), 57→58 exp
+  Hots Rng: 90→86 activos (-4), 60→64 exp
+  Imposters Roles: 57→57 activos (=), 0→1 exp
+  Medved: 5→6 activos (+1), 3→3 exp
+    Nuevos: STAR2026
+  Moto Empire: 1→1 activos (=), 6→7 exp
+  Motoprix Racing: 0→8 activos (+8), 43→36 exp
+    Nuevos: SORRYUPDATETIME, 100WATTGUITARAMPHEAD, HBDKIKURI, THIRDYBOYGWAPO, CUSTOMIZATIONUPD, SERAPHYNISBACK, NEXTUPDATE, CUSTOMIZATIONWHEN
+  Mushyo: 1→1 activos (=), 8→9 exp
+  Nfl Universe Football: 145→145 activos (=), 163→164 exp
+  New Seas: 32→33 activos (+1), 252→252 exp
+    Nuevos: DevelopmentLocked
+  Pixel Blade: 40→63 activos (+23), 55→33 exp
+    Nuevos: 300K, 275K, 225K, 250k, SecretFudge, 200K, 175K, elias, ogvexx, blexor, demer, fudge, Rings, 30M, 150K, 125k, Update, Nightmare2, UpdateLog, SorryForDelay, Ancient, Nightmare, Potions
+  Primal Pursuit: 19→19 activos (=), 17→18 exp
+  Project Baki 4: 203→203 activos (=), 21→22 exp
+  Racket Rivals: 66→66 activos (=), 38→40 exp
+  Restaurant Tycoon 3: 43→44 activos (+1), 24→23 exp
+    Nuevos: 2spooky
+  Roanoke Va: 15→15 activos (=), 41→42 exp
+  Survive Zombie Arena: 22→22 activos (=), 0→2 exp
+  Tr Legacy: 36→36 activos (=), 7→8 exp
+  Undertale Adventures Td: 8→11 activos (+3), 0→0 exp
+    Nuevos: 5KCCUREWARD, 6KCCUREWARD, PREPAREFORHALLOWEEN
+  World Zero: 34→34 activos (=), 156→157 exp
 
 Detalle cambios:
-data/gameguide-urls.json
-data/games/codigos-1-loot-to-forge.json
-data/games/codigos-all-star-tower-defense.json
-data/games/codigos-anime-card-clash.json
-data/games/codigos-anime-card-collection.json
-data/games/codigos-anime-champions-simulator.json
+data/games/codigos-a-one-piece-game.json
 data/games/codigos-anime-destroyers.json
-data/games/codigos-anime-mysterious.json
-data/games/codigos-anime-odyssey-simulator.json
-data/games/codigos-arm-wrestle-simulator.json
-data/games/codigos-boys-vs-girls.json
-data/games/codigos-break-stuff-simulator.json
-data/games/codigos-catch-a-monster.json
-data/games/codigos-catch-dragons-to-defend.json
-data/games/codigos-chainsaw-man-devils-heart.json
-data/games/codigos-clover-time.json
-data/games/codigos-death-ball.json
-data/games/codigos-drill-to-earths-core.json
-data/games/codigos-egg-farm-tycoon-2.json
-data/games/codigos-elemental-magic-arena.json
-data/games/codigos-emote-rng.json
-data/games/codigos-evade.json
-data/games/codigos-fishing-master.json
-data/games/codigos-get-muscles-simulator.json
-data/games/codigos-go-catch.json
-data/games/codigos-grand-piece-online.json
-data/games/codigos-heavyweight-fishing.json
+data/games/codigos-anime-dimensions.json
+data/games/codigos-azaras-rng.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-brainrot-evolution.json
+data/games/codigos-car-dealership-tycoon.json
+data/games/codigos-car-zone.json
+data/games/codigos-dead-spells.json
+data/games/codigos-elemental-dungeons.json
+data/games/codigos-fisch.json
+data/games/codigos-flashpoint-worlds-collide.json
 data/games/codigos-hots-rng.json
-data/games/codigos-ice-fishing-simulator.json
-data/games/codigos-imposters-and-roles.json
-data/games/codigos-junk-mechanics.json
-data/games/codigos-knife-duels.json
-data/games/codigos-level-piece.json
-data/games/codigos-morph-rng.json
-data/games/codigos-motor-legends.json
-data/games/codigos-motorush.json
-data/games/codigos-mugen.json
-data/games/codigos-murder-mittens.json
-data/games/codigos-mystic-magic.json
-data/games/codigos-paper-plane-simulator.json
-data/games/codigos-prehistoric-farm.json
-data/games/codigos-realistic-car-driving.json
-data/games/codigos-rivals.json
-data/games/codigos-sailor-piece.json
-data/games/codigos-samurai-parallel.json
-data/games/codigos-sled-simulator-2.json
-data/games/codigos-sols-rng.json
-data/games/codigos-super-hit-simulator.json
-data/games/codigos-survive-a-million-monkeys.json
-data/games/codigos-the-vampire-legacies-2.json
-data/games/codigos-throw-a-coin.json
-data/games/codigos-throwing-simulator.json
-data/games/codigos-touchdown-simulator.json
-data/games/codigos-turbo-soccer.json
-data/games/codigos-wheelie-district.json
+data/games/codigos-imposters-roles.json
+data/games/codigos-medved.json
+data/games/codigos-moto-empire.json
+data/games/codigos-motoprix-racing.json
+data/games/codigos-mushyo.json
+data/games/codigos-new-seas.json
+data/games/codigos-nfl-universe-football.json
+data/games/codigos-pixel-blade.json
+data/games/codigos-primal-pursuit.json
+data/games/codigos-project-baki-4.json
+data/games/codigos-racket-rivals.json
+data/games/codigos-restaurant-tycoon-3.json
+data/games/codigos-roanoke-va.json
+data/games/codigos-survive-zombie-arena.json
+data/games/codigos-tr-legacy.json
+data/games/codigos-undertale-adventures-td.json
+data/games/codigos-world-zero.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
-data/games/codigos-1-larp-evolution.json
-data/games/codigos-1-superpower-destruction.json
-data/games/codigos-anime-ball-duels.json
-data/games/codigos-anime-levels.json
-data/games/codigos-build-a-phone-empire.json
-data/games/codigos-country-battles.json
-data/games/codigos-drop-a-fruit.json
-data/games/codigos-escape-the-cave.json
-data/games/codigos-ghost-catchers.json
-data/games/codigos-huss-valley.json
-data/games/codigos-karinderya.json
-data/games/codigos-kontra.json
-data/games/codigos-mitosis.json
-data/games/codigos-moto-empire.json
-data/games/codigos-pets-universe.json
-data/games/codigos-race-for-eggs.json
-data/games/codigos-roblox-cat-battles.json
-data/games/codigos-roblox-nuke-a-country.json
-data/games/codigos-roll-your-height.json
-data/games/codigos-run-a-sari-sari-store.json
-data/games/codigos-smash-the-city.json
-data/games/codigos-start-your-blue-lock-career.json
-data/games/codigos-survive-the-night.json
-data/games/codigos-throttle.json
-data/games/codigos-zombie-air-force.json
 
