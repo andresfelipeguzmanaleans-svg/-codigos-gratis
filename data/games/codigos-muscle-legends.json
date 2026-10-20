@@ -5,11 +5,26 @@
   "description": "Todos los códigos activos para Muscle Legends en Roblox",
   "metaTitle": "Códigos Muscle Legends Roblox (Octubre 2026) - Códigos Gratis",
   "metaDescription": "Lista actualizada de códigos para Muscle Legends en Roblox. 14 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-12T17:11:55.011Z",
+  "lastUpdated": "2026-10-20T22:52:49.436Z",
   "activeCodes": [
     {
       "code": "MILLIONWARRIORS",
       "reward": "1500 fuerza",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "SKYAGILITY50",
+      "reward": "500 Agility",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "epicmuscle20",
+      "reward": "2000 fuerza",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "LAUNCH250",
+      "reward": "250 gemas",
       "addedDate": "2026-08-01"
     },
     {
@@ -43,21 +58,6 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "FROSTGEMS10",
-      "reward": "10000 gemas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SKYAGILITY50",
-      "reward": "500 Agility",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "epicmuscle20",
-      "reward": "2000 fuerza",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "GALAXYCRYSTAL50",
       "reward": "5000 gemas",
       "addedDate": "2026-08-01"
@@ -68,8 +68,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "LAUNCH250",
-      "reward": "250 gemas",
+      "code": "FROSTGEMS10",
+      "reward": "10000 gemas",
       "addedDate": "2026-08-01"
     },
     {
@@ -80,12 +80,16 @@
   ],
   "expiredCodes": [
     {
+      "code": "SPEED50",
+      "reward": "250 Agility"
+    },
+    {
       "code": "SKYAGILITY",
       "reward": "500 fuerza"
     },
     {
-      "code": "SPEED50",
-      "reward": "250 Agility"
+      "code": "ASCENSION",
+      "reward": "1 Enchantment giro"
     },
     {
       "code": "TRICKORTREAT",
