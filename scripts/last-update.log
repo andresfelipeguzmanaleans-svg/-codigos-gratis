@@ -1,101 +1,63 @@
-=== RESUMEN UPDATE 2026-10-21 13:23 ===
+=== RESUMEN UPDATE 2026-10-21 22:59 ===
 
 Archivos modificados:
-  42 archivos cambiados
+  23 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4673 juegos (4673 procesados)
-Actualizados: 40 | Sin cambios: 4487
-No encontrado: 133 | Saltados: 13
-Códigos nuevos: 0 | Movidos a expirados: 170
-Tiempo: 182.8s | Concurrencia: 10
+Actualizados: 21 | Sin cambios: 4507
+No encontrado: 132 | Saltados: 13
+Códigos nuevos: 0 | Movidos a expirados: 219
+Tiempo: 151.9s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Destroyers: 43→42 activos (-1), 14→15 exp
-  Anime Revolution Ultimate: 12→0 activos (-12), 2→14 exp
-  Anime Swordsman: 1→0 activos (-1), 0→1 exp
-  Aura Farm Simulator: 25→23 activos (-2), 1→3 exp
-  Big Lifting Simulator X: 25→24 activos (-1), 0→1 exp
-  Brawl Stars Pet Simulator: 2→0 activos (-2), 2→4 exp
-  Craft Tower Defense: 12→0 activos (-12), 0→12 exp
-  Cursed Tank Simulator: 19→11 activos (-8), 8→16 exp
-  Cursed Sea: 44→43 activos (-1), 4→5 exp
-  Defenders Depot: 34→27 activos (-7), 2→9 exp
-  Drive World Drifting Racing: 38→33 activos (-5), 10→15 exp
-  Eat Ball Simulator: 16→13 activos (-3), 0→3 exp
-  Eat Blobs Simulator: 133→124 activos (-9), 27→34 exp
-  Evade: 23→19 activos (-4), 11→15 exp
-  Every Second Your Neck Grows: 23→21 activos (-2), 1→3 exp
-  Flag Battles Simulator: 2→1 activos (-1), 0→1 exp
-  Gemventure: 12→10 activos (-2), 0→2 exp
-  Grow A Tree Tycoon: 6→5 activos (-1), 0→1 exp
-  Gym League: 67→66 activos (-1), 40→41 exp
-  Luxury Submarine Tycoon: 5→0 activos (-5), 0→5 exp
-  Moodeng Fruit 2: 106→104 activos (-2), 0→2 exp
-  Muscle Swim Race: 2→0 activos (-2), 0→2 exp
-  My Hero Mania: 42→18 activos (-24), 63→87 exp
-  Noob Merge Army: 4→1 activos (-3), 0→3 exp
-  Pacsun Los Angeles Tycoon: 16→5 activos (-11), 2→13 exp
-  Picnics N Plushies: 50→49 activos (-1), 1→1 exp
-  Power Battle Simulator: 5→0 activos (-5), 0→5 exp
-  Racing Simulator: 5→4 activos (-1), 9→10 exp
-  Ryujin: 6→5 activos (-1), 98→99 exp
-  School Of Hierarchy: 6→4 activos (-2), 2→4 exp
-  Silly Defense: 20→18 activos (-2), 31→33 exp
-  Steal An Anime: 55→40 activos (-15), 26→41 exp
-  Super Treehouse Tycoon 2: 2→1 activos (-1), 0→1 exp
-  Supreme Bathroom Battles: 8→3 activos (-5), 3→8 exp
-  Tales Of Tanorio: 2→0 activos (-2), 14→16 exp
-  Titan Wars Skibidi Toilet Tower Defense: 18→12 activos (-6), 0→6 exp
-  Tod: 3→2 activos (-1), 1→2 exp
-  Toilet Tower Defense But Coins: 13→12 activos (-1), 8→9 exp
-  Voxel Defenders Tower Defense: 14→10 activos (-4), 1→5 exp
-  Weapon Master Vs Anime: 10→9 activos (-1), 0→1 exp
+  Anime Ninja Simulator: 5→4 activos (-1), 2→3 exp
+  Azure Latch: 93→50 activos (-43), 55→98 exp
+  Bathroom Attack: 15→14 activos (-1), 3→4 exp
+  Bite By Night: 3→0 activos (-3), 0→3 exp
+  Block Mayhem: 51→47 activos (-4), 88→91 exp
+  Blue Lock Rivals: 125→4 activos (-121), 238→359 exp
+  Clover City: 7→0 activos (-7), 8→15 exp
+  Fruit Tower Defense: 14→13 activos (-1), 4→5 exp
+  Fruit Seas: 70→69 activos (-1), 34→35 exp
+  Jump Rope Simulator: 4→3 activos (-1), 4→5 exp
+  Mma Legends: 19→0 activos (-19), 8→27 exp
+  Omega Rune Incremental 2: 23→22 activos (-1), 0→1 exp
+  Paint Walls: 2→0 activos (-2), 0→2 exp
+  Pitch A Pet Simulator: 5→4 activos (-1), 0→1 exp
+  Pressure: 11→8 activos (-3), 8→11 exp
+  Pup Army: 6→5 activos (-1), 0→0 exp
+  Sheep Tycoon: 3→0 activos (-3), 1→4 exp
+  Shortest Answer Wins: 12→10 activos (-2), 2→4 exp
+  Stat Farm Incremental: 15→14 activos (-1), 0→1 exp
+  Tapping Legends Final: 17→16 activos (-1), 2→3 exp
+  Ugc Dont Move: 9→7 activos (-2), 130→132 exp
 
 Detalle cambios:
-data/games/codigos-anime-destroyers.json
-data/games/codigos-anime-revolution-ultimate.json
-data/games/codigos-anime-swordsman.json
-data/games/codigos-aura-farm-simulator.json
-data/games/codigos-big-lifting-simulator-x.json
-data/games/codigos-brawl-stars-pet-simulator.json
-data/games/codigos-craft-tower-defense.json
-data/games/codigos-cursed-sea.json
-data/games/codigos-cursed-tank-simulator.json
-data/games/codigos-defenders-depot.json
-data/games/codigos-drive-world-drifting-racing.json
-data/games/codigos-eat-ball-simulator.json
-data/games/codigos-eat-blobs-simulator.json
-data/games/codigos-evade.json
-data/games/codigos-every-second-your-neck-grows.json
-data/games/codigos-flag-battles-simulator.json
-data/games/codigos-gemventure.json
-data/games/codigos-grow-a-tree-tycoon.json
-data/games/codigos-gym-league.json
-data/games/codigos-luxury-submarine-tycoon.json
-data/games/codigos-moodeng-fruit-2.json
-data/games/codigos-muscle-swim-race.json
-data/games/codigos-my-hero-mania.json
-data/games/codigos-noob-merge-army.json
-data/games/codigos-pacsun-los-angeles-tycoon.json
-data/games/codigos-picnics-n-plushies.json
-data/games/codigos-power-battle-simulator.json
-data/games/codigos-racing-simulator.json
-data/games/codigos-ryujin.json
-data/games/codigos-school-of-hierarchy.json
-data/games/codigos-silly-defense.json
-data/games/codigos-steal-an-anime.json
-data/games/codigos-super-treehouse-tycoon-2.json
-data/games/codigos-supreme-bathroom-battles.json
-data/games/codigos-tales-of-tanorio.json
-data/games/codigos-titan-wars-skibidi-toilet-tower-defense.json
-data/games/codigos-tod.json
-data/games/codigos-toilet-tower-defense-but-coins.json
-data/games/codigos-voxel-defenders-tower-defense.json
-data/games/codigos-weapon-master-vs-anime.json
+data/games/codigos-anime-ninja-simulator.json
+data/games/codigos-azure-latch.json
+data/games/codigos-bathroom-attack.json
+data/games/codigos-bite-by-night.json
+data/games/codigos-block-mayhem.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-clover-city.json
+data/games/codigos-fruit-seas.json
+data/games/codigos-fruit-tower-defense.json
+data/games/codigos-jump-rope-simulator.json
+data/games/codigos-mma-legends.json
+data/games/codigos-omega-rune-incremental-2.json
+data/games/codigos-paint-walls.json
+data/games/codigos-pitch-a-pet-simulator.json
+data/games/codigos-pressure.json
+data/games/codigos-pup-army.json
+data/games/codigos-sheep-tycoon.json
+data/games/codigos-shortest-answer-wins.json
+data/games/codigos-stat-farm-incremental.json
+data/games/codigos-tapping-legends-final.json
+data/games/codigos-ugc-dont-move.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
