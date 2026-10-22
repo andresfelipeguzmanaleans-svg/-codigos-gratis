@@ -1,41 +1,27 @@
-=== RESUMEN UPDATE 2026-10-22 13:23 ===
+=== RESUMEN UPDATE 2026-10-22 22:56 ===
 
 Archivos modificados:
-  12 archivos cambiados
+  5 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4673 juegos (4673 procesados)
-Actualizados: 10 | Sin cambios: 4517
-No encontrado: 133 | Saltados: 13
-Códigos nuevos: 0 | Movidos a expirados: 27
-Tiempo: 177.5s | Concurrencia: 10
+Actualizados: 3 | Sin cambios: 4525
+No encontrado: 132 | Saltados: 13
+Códigos nuevos: 0 | Movidos a expirados: 1
+Tiempo: 150.1s | Concurrencia: 10
 
 Juegos actualizados:
-  Anime Fly Race: 16→15 activos (-1), 0→1 exp
-  Build To Survive Zombies: 2→0 activos (-2), 1→3 exp
-  Dragon Ball Rng: 29→28 activos (-1), 2→3 exp
-  Every Second You Get 1 Power Level: 4→3 activos (-1), 0→1 exp
-  Get Muscles Simulator: 10→0 activos (-10), 2→12 exp
-  Jujutsu Shenanigans: 6→2 activos (-4), 42→46 exp
-  Mega Clickers: 8→4 activos (-4), 0→3 exp
-  Mining Factory Tycoon: 17→16 activos (-1), 1→2 exp
-  Realistic Car Driving: 9→6 activos (-3), 7→10 exp
-  Spin A Kitty: 28→28 activos (=), 23→24 exp
+  Bloxstrike: 16→16 activos (=), 35→36 exp
+  Downforce Stunt Driving: 4→3 activos (-1), 13→14 exp
+  Imposters And Roles: 58→58 activos (=), 8→9 exp
 
 Detalle cambios:
-data/games/codigos-anime-fly-race.json
-data/games/codigos-build-to-survive-zombies.json
-data/games/codigos-dragon-ball-rng.json
-data/games/codigos-every-second-you-get-1-power-level.json
-data/games/codigos-get-muscles-simulator.json
-data/games/codigos-jujutsu-shenanigans.json
-data/games/codigos-mega-clickers.json
-data/games/codigos-mining-factory-tycoon.json
-data/games/codigos-realistic-car-driving.json
-data/games/codigos-spin-a-kitty.json
+data/games/codigos-bloxstrike.json
+data/games/codigos-downforce-stunt-driving.json
+data/games/codigos-imposters-and-roles.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
