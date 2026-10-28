@@ -1,151 +1,279 @@
-=== RESUMEN UPDATE 2026-10-27 23:27 ===
+=== RESUMEN UPDATE 2026-10-28 14:47 ===
 
 Archivos modificados:
-  58 archivos cambiados
+  117 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
 
 --- Actualización de códigos ---
 Total: 4694 juegos (4694 procesados)
-Actualizados: 56 | Sin cambios: 4491
-No encontrado: 134 | Saltados: 13
-Códigos nuevos: 39 | Movidos a expirados: 291
-Tiempo: 173.2s | Concurrencia: 10
+Actualizados: 115 | Sin cambios: 4434
+No encontrado: 132 | Saltados: 13
+Códigos nuevos: 44 | Movidos a expirados: 696
+Tiempo: 186.9s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Diamond Every Click: 3→0 activos (-3), 0→3 exp
-  Ai Tycoon: 2→0 activos (-2), 6→8 exp
-  Anime Advance: 25→0 activos (-25), 21→46 exp
-  Anime Adventures: 17→18 activos (+1), 74→74 exp
-    Nuevos: AACOMEBACK
-  Animal Tycoon: 6→0 activos (-6), 0→6 exp
-  Anime Attack: 14→0 activos (-14), 2→16 exp
-  Anime Breaker: 40→44 activos (+4), 22→22 exp
-    Nuevos: HALLOWEENZONE2, HOLLOW, 122KFAVORITES, 22MVISITS
-  Anime Girl Rng: 106→109 activos (+3), 139→139 exp
-    Nuevos: LIMBUSCOMPANY, Malfoid, IMFAUSTINGIT
-  Anime Impact: 10→0 activos (-10), 40→50 exp
-  Anime Ninja Simulator: 4→0 activos (-4), 3→7 exp
-  Anime Racing Clicker: 34→35 activos (+1), 29→29 exp
-    Nuevos: MOUNTS
-  Anime Slashers Simulator: 14→0 activos (-14), 0→14 exp
-  Anime Waifu Card Collection: 48→50 activos (+2), 6→6 exp
-    Nuevos: HALLOWEEN, RETRO2
-  Asylum Life: 24→25 activos (+1), 53→53 exp
-    Nuevos: SCARYRIFLE
-  Bathroom Fighting Simulator: 4→0 activos (-4), 1→5 exp
-  Brawl Rng: 9→0 activos (-9), 7→16 exp
-  Bubble Champions: 7→0 activos (-7), 2→9 exp
-  Build The Pyramid: 8→8 activos (=), 8→14 exp
-  Build The Great Wall: 4→7 activos (+3), 0→0 exp
-    Nuevos: PHOENIX, THANKYOU, HOTFIX3
-  Cameraman Race Simulator: 15→0 activos (-15), 0→15 exp
-  Create A Car: 9→10 activos (+1), 4→4 exp
-    Nuevos: BOO
-  Currency Incremental: 8→0 activos (-8), 1→9 exp
-  Demo Ville Demolition Simulator: 1→0 activos (-1), 10→11 exp
-  Elemental Clone Tycoon: 2→0 activos (-2), 0→2 exp
-  Endzone Strike: 16→0 activos (-16), 7→23 exp
-  Evry Simulator Ever: 4→0 activos (-4), 4→8 exp
-  Fisch: 45→2 activos (-43), 104→148 exp
-    Nuevos: ChapelTroubles
-  Garden Tower Defense: 0→0 activos (=), 149→151 exp
-  Go Kart Race Clicker: 7→0 activos (-7), 3→10 exp
-  Guess The Maths: 2→0 activos (-2), 0→2 exp
-  Horrors Rng: 6→0 activos (-6), 1→7 exp
-  Jump Clicker 2: 1→0 activos (-1), 0→1 exp
-  Motor Legends: 42→44 activos (+2), 0→0 exp
-    Nuevos: HALLOWEEN, UPDATE24
-  My Cafe Tycoon: 8→0 activos (-8), 3→11 exp
-  Nfl Universe Football: 146→147 activos (+1), 163→163 exp
-    Nuevos: HALLOWEEN26
-  Own Squid Game And Prove Mom Wrong: 2→0 activos (-2), 0→2 exp
-  Pet Capsules Simulator: 5→0 activos (-5), 6→11 exp
-  Pets Universe: 15→15 activos (=), 1→3 exp
-  Realm Of Beasts: 5→8 activos (+3), 0→0 exp
-    Nuevos: BLOOD_DRAGONS, HEADLESS_DRAGONMAN, HOLLOW_MASK
-  Resource Incremental: 21→23 activos (+2), 18→26 exp
-    Nuevos: ILoveTickets, Halloween
-  Restaurant Tycoon 3: 44→45 activos (+1), 24→23 exp
-    Nuevos: beast123
-  Rocket Wings Simulator: 5→0 activos (-5), 0→5 exp
-  Run A Sari Sari Store: 1→1 activos (=), 9→11 exp
-  Rung Sea: 18→0 activos (-18), 3→21 exp
-  Slime Incremental: 6→7 activos (+1), 12→12 exp
-    Nuevos: FOUNDRY
-  Slingshot Race: 9→0 activos (-9), 2→11 exp
-  Snowballer Simulator: 2→0 activos (-2), 3→5 exp
-  Soccer Goal Simulator: 1→0 activos (-1), 0→1 exp
-  Sonic Race: 4→0 activos (-4), 0→4 exp
-  Spin A Kitty: 28→29 activos (+1), 24→24 exp
+  1 Car Every Click: 4→0 activos (-4), 0→4 exp
+  1 Rocket Guns And Tanks: 13→0 activos (-13), 2→15 exp
+  Anime Apocalypse: 88→91 activos (+3), 11→11 exp
+    Nuevos: CYBERPSYCHOHOTFIX, SANDEVISTAN, CYBERPSYCHO
+  Anime Elements: 19→0 activos (-19), 11→30 exp
+  Anime Hero Simulator: 1→0 activos (-1), 23→24 exp
+  Anime Levels: 18→21 activos (+3), 3→3 exp
+    Nuevos: Halloween, Pumpkin, Cauldron
+  Anime Overload: 14→0 activos (-14), 17→31 exp
+  Anime Of Chance: 5→3 activos (-2), 2→4 exp
+  Anime Saga: 59→0 activos (-59), 8→67 exp
+  Bat Buddies: 1→0 activos (-1), 0→1 exp
+  Battle For Dream Island Again: 48→48 activos (=), 108→109 exp
+  Be A Nurse: 7→0 activos (-7), 0→7 exp
+  Better Anime: 3→0 activos (-3), 0→3 exp
+  Bloxodachi Life: 6→8 activos (+2), 7→7 exp
+    Nuevos: SPOOKYBREW, BOO
+  Blue Lock Rivals: 4→3 activos (-1), 359→363 exp
+    Nuevos: AIKUCHANGES, SKELETON, SPOOKY
+  Build A Beach Gym And Prove Bullies Wrong: 6→0 activos (-6), 3→9 exp
+  Build A Boat Simulator: 5→0 activos (-5), 2→7 exp
+  Build A Bridge Simulator: 5→5 activos (=), 3→4 exp
+  Capybara Race Simulator: 4→0 activos (-4), 0→4 exp
+  Car Dash: 2→0 activos (-2), 0→2 exp
+  Car Dealership Tycoon: 23→23 activos (=), 277→278 exp
+  Car Zone: 139→139 activos (=), 16→19 exp
+  Car Wash Tycoon: 4→2 activos (-2), 11→13 exp
+    Nuevos: sponge, x2week
+  Catch A Monster: 52→53 activos (+1), 152→154 exp
+    Nuevos: Gravitas
+  Catch And Build A Dinosaur Garden: 24→0 activos (-24), 3→27 exp
+  Chair Battle Simulator: 5→0 activos (-5), 0→5 exp
+  Clash Rng: 8→0 activos (-8), 7→15 exp
+  Clicking Universe: 5→0 activos (-5), 2→7 exp
+  Cog: 0→0 activos (=), 62→63 exp
+  Criminality: 1→1 activos (=), 43→44 exp
+  Cute Brainrot Evolution: 1→0 activos (-1), 0→1 exp
+  Dead Camp: 6→0 activos (-6), 3→9 exp
+  Deadly Delivery: 40→41 activos (+1), 12→12 exp
+    Nuevos: ONEYEAROLDDD
+  Dead Spells: 77→78 activos (+1), 4→4 exp
+    Nuevos: HappyBirthdayDecent
+  Death In The Box: 2→2 activos (=), 6→7 exp
+  Death Ball: 84→84 activos (=), 33→35 exp
+  Deep Fishing: 22→22 activos (=), 5→8 exp
+  Destroy The World: 3→0 activos (-3), 2→5 exp
+  Divine Tappers: 24→0 activos (-24), 2→26 exp
+  Dragon Ball Rng: 28→0 activos (-28), 3→31 exp
+  Escape The Cave: 5→6 activos (+1), 0→0 exp
+    Nuevos: 5MVISITS
+  Ethereal Clicker: 30→0 activos (-30), 0→30 exp
+  Fall For Brainrots: 23→25 activos (+2), 10→10 exp
+    Nuevos: HALLOWEENUPDATE, SPOOKYSEASON
+  Fart A Friend: 10→0 activos (-10), 0→10 exp
+  Fight Da Gorilla: 2→0 activos (-2), 19→21 exp
+  Final Swarm: 18→20 activos (+2), 6→6 exp
+    Nuevos: h4unt3d, latetreat
+  Find The Odd Emoji Quiz: 32→0 activos (-32), 0→32 exp
+  Gakuran: 18→19 activos (+1), 23→23 exp
+    Nuevos: PHONEDECO
+  Get Heavy Simulator: 12→0 activos (-12), 1→13 exp
+  Get Stronger Every Second: 4→0 activos (-4), 14→18 exp
+  Golf Frenzy: 4→5 activos (+1), 0→0 exp
+    Nuevos: VISITS70M
+  Grand Alfheim: 6→0 activos (-6), 19→25 exp
+  Grow A Chicken Fighter: 10→11 activos (+1), 1→1 exp
+    Nuevos: SPOOKYCHICKEN
+  Heroes Awakening: 11→0 activos (-11), 18→29 exp
+  Hunty Zombies: 21→2 activos (-19), 248→267 exp
+  I M The King Of The School: 3→0 activos (-3), 3→6 exp
+  Jujutsu Beatdown: 18→19 activos (+1), 8→8 exp
+    Nuevos: jjbv2soon
+  Jujutsu Zero: 81→82 activos (+1), 20→20 exp
     Nuevos: SPOOKY
-  Squat Simulator: 2→0 activos (-2), 4→6 exp
-  Survival Odyssey: 14→0 activos (-14), 49→63 exp
-  Toilet Fighting Simulator: 5→0 activos (-5), 7→12 exp
-  Trench Decay: 23→31 activos (+8), 0→0 exp
-    Nuevos: CHARMSOHMY, COSMETICSNEW, FINALMEDALCODE, GIVEMEMYHAND, INFODOC1500, LETSGETTHISPARTYSTARTED, WHATISMYFUTURE, REGALIAYESPLEASE
-  Untitled Rng: 13→0 activos (-13), 1→14 exp
-  Volleyball Legends: 3→3 activos (=), 339→342 exp
-    Nuevos: TOURNAMENT, CURSED, UPDATE_93
+  Junk Mechanics: 19→21 activos (+2), 1→1 exp
+    Nuevos: BOO, WEEK3
+  Kraken Game: 6→0 activos (-6), 6→12 exp
+  Level Below: 1→2 activos (+1), 21→21 exp
+    Nuevos: Halloween2026
+  Magic Blade Simulator: 20→0 activos (-20), 1→21 exp
+  Magic Tappers: 6→0 activos (-6), 0→6 exp
+  Make Anime And Get Rich: 1→0 activos (-1), 2→3 exp
+  Mini Farm: 2→0 activos (-2), 0→2 exp
+  Mini Restaurant: 2→0 activos (-2), 0→2 exp
+  Money Masters: 11→0 activos (-11), 3→14 exp
+  Motorcycle Flying Simulator: 4→0 activos (-4), 0→4 exp
+  Mugen: 45→45 activos (=), 65→69 exp
+  Muscle Throw: 4→1 activos (-3), 0→3 exp
+  Noob Idle Simulator: 2→0 activos (-2), 0→2 exp
+  Noob Slayers Simulator: 13→0 activos (-13), 2→15 exp
+  Omeni Fruits: 9→0 activos (-9), 2→11 exp
+  Ore Smelting Tycoon: 11→0 activos (-11), 2→13 exp
+  Palm Slap Friends Simulator: 12→0 activos (-12), 2→14 exp
+  Pet Evolve Simulator: 9→0 activos (-9), 0→9 exp
+  Pet Legends 2: 17→0 activos (-17), 5→22 exp
+  Pet Shelter Tycoon: 2→0 activos (-2), 0→2 exp
+  Pixel Blade: 40→42 activos (+2), 58→58 exp
+    Nuevos: SORRY4BUG, SPOOKY
+  Power Fighting Simulator: 4→0 activos (-4), 4→8 exp
+  Project Rng: 6→0 activos (-6), 1→7 exp
+  Punch Dragons Simulator: 2→0 activos (-2), 0→2 exp
+  Race Rng: 1→0 activos (-1), 1→2 exp
+  Rng Odyssey: 6→0 activos (-6), 12→18 exp
+  Roll Anime To Fight: 25→27 activos (+2), 5→5 exp
+    Nuevos: REWORKALL!, HALLOWEEN2026!
+  Row And Aura Farm: 6→0 activos (-6), 0→6 exp
+  Rpg Champions: 12→0 activos (-12), 10→22 exp
+  Save Brainrot: 10→0 activos (-10), 1→11 exp
+  Sell Sneakers And Prove Dad Wrong: 3→0 activos (-3), 0→3 exp
+  Sell Kpop Demon Hunters And Prove Mom Wrong: 1→0 activos (-1), 0→1 exp
+  Sell Makeup And Prove Mom Wrong: 2→0 activos (-2), 3→5 exp
+  Slap Legends: 3→0 activos (-3), 0→3 exp
+  Slayer Arena: 1→0 activos (-1), 3→4 exp
+  Space Simulator Reborn: 4→0 activos (-4), 3→7 exp
+  Split Or Steal Brainrot: 13→14 activos (+1), 1→1 exp
+    Nuevos: PlsExclusive
+  Start Your Blue Lock Career: 14→14 activos (=), 0→3 exp
+  Strongman Smash: 2→0 activos (-2), 1→3 exp
+  Super Car Obby: 3→0 activos (-3), 0→3 exp
+  Survive A Million Monkeys: 5→6 activos (+1), 2→2 exp
+    Nuevos: HALLOWEEN
+  Tapping Adventure: 13→0 activos (-13), 1→14 exp
+  The Skinwalker: 32→0 activos (-32), 4→36 exp
+  Timber Champions: 27→0 activos (-27), 3→30 exp
+  Toilet Defense Rng: 11→0 activos (-11), 0→11 exp
+  Trainer Battle Rng: 5→0 activos (-5), 4→9 exp
+  Train Trip: 12→0 activos (-12), 1→13 exp
+  Treasure Hunt Tycoon: 6→0 activos (-6), 1→7 exp
+  Turbo Soccer: 4→6 activos (+2), 0→0 exp
+    Nuevos: HALLOWEEN, PUMPKIN
+  Twisted: 5→0 activos (-5), 13→18 exp
+  Ultimate Fishing Simulator: 2→0 activos (-2), 1→3 exp
+  Ultimate Gym Game: 11→12 activos (+1), 5→5 exp
+    Nuevos: UltraUpdate
+  Ultimate Town Sandbox: 36→37 activos (+1), 5→5 exp
+    Nuevos: HALLOWEENEXPANDED
+  Untitled Boxing Game: 15→7 activos (-8), 149→159 exp
+    Nuevos: ragingdemon, akuma
+  Wheelie District: 11→12 activos (+1), 1→1 exp
+    Nuevos: SMOLWD
+  Young Street Ontario: 19→21 activos (+2), 19→17 exp
+    Nuevos: 120klikes, 110klikes
+  Youtube Race Simulator: 3→0 activos (-3), 0→3 exp
 
 Detalle cambios:
-data/games/codigos-1-diamond-every-click.json
-data/games/codigos-ai-tycoon.json
-data/games/codigos-animal-tycoon.json
-data/games/codigos-anime-advance.json
-data/games/codigos-anime-adventures.json
-data/games/codigos-anime-attack.json
-data/games/codigos-anime-breaker.json
-data/games/codigos-anime-girl-rng.json
-data/games/codigos-anime-impact.json
-data/games/codigos-anime-ninja-simulator.json
-data/games/codigos-anime-racing-clicker.json
-data/games/codigos-anime-slashers-simulator.json
-data/games/codigos-anime-waifu-card-collection.json
-data/games/codigos-asylum-life.json
-data/games/codigos-bathroom-fighting-simulator.json
-data/games/codigos-brawl-rng.json
-data/games/codigos-bubble-champions.json
-data/games/codigos-build-the-great-wall.json
-data/games/codigos-build-the-pyramid.json
-data/games/codigos-cameraman-race-simulator.json
-data/games/codigos-create-a-car.json
-data/games/codigos-currency-incremental.json
-data/games/codigos-demo-ville-demolition-simulator.json
-data/games/codigos-elemental-clone-tycoon.json
-data/games/codigos-endzone-strike.json
-data/games/codigos-evry-simulator-ever.json
-data/games/codigos-fisch.json
-data/games/codigos-garden-tower-defense.json
-data/games/codigos-go-kart-race-clicker.json
-data/games/codigos-guess-the-maths.json
-data/games/codigos-horrors-rng.json
-data/games/codigos-jump-clicker-2.json
-data/games/codigos-motor-legends.json
-data/games/codigos-my-cafe-tycoon.json
-data/games/codigos-nfl-universe-football.json
-data/games/codigos-own-squid-game-and-prove-mom-wrong.json
-data/games/codigos-pet-capsules-simulator.json
-data/games/codigos-pets-universe.json
-data/games/codigos-realm-of-beasts.json
-data/games/codigos-resource-incremental.json
-data/games/codigos-restaurant-tycoon-3.json
-data/games/codigos-rocket-wings-simulator.json
-data/games/codigos-run-a-sari-sari-store.json
-data/games/codigos-rung-sea.json
-data/games/codigos-slime-incremental.json
-data/games/codigos-slingshot-race.json
-data/games/codigos-snowballer-simulator.json
-data/games/codigos-soccer-goal-simulator.json
-data/games/codigos-sonic-race.json
-data/games/codigos-spin-a-kitty.json
-data/games/codigos-squat-simulator.json
-data/games/codigos-survival-odyssey.json
-data/games/codigos-toilet-fighting-simulator.json
-data/games/codigos-trench-decay.json
-data/games/codigos-untitled-rng.json
-data/games/codigos-volleyball-legends.json
+data/games/codigos-1-car-every-click.json
+data/games/codigos-1-rocket-guns-and-tanks.json
+data/games/codigos-anime-apocalypse.json
+data/games/codigos-anime-elements.json
+data/games/codigos-anime-hero-simulator.json
+data/games/codigos-anime-levels.json
+data/games/codigos-anime-of-chance.json
+data/games/codigos-anime-overload.json
+data/games/codigos-anime-saga.json
+data/games/codigos-bat-buddies.json
+data/games/codigos-battle-for-dream-island-again.json
+data/games/codigos-be-a-nurse.json
+data/games/codigos-better-anime.json
+data/games/codigos-bloxodachi-life.json
+data/games/codigos-blue-lock-rivals.json
+data/games/codigos-build-a-beach-gym-and-prove-bullies-wrong.json
+data/games/codigos-build-a-boat-simulator.json
+data/games/codigos-build-a-bridge-simulator.json
+data/games/codigos-capybara-race-simulator.json
+data/games/codigos-car-dash.json
+data/games/codigos-car-dealership-tycoon.json
+data/games/codigos-car-wash-tycoon.json
+data/games/codigos-car-zone.json
+data/games/codigos-catch-a-monster.json
+data/games/codigos-catch-and-build-a-dinosaur-garden.json
+data/games/codigos-chair-battle-simulator.json
+data/games/codigos-clash-rng.json
+data/games/codigos-clicking-universe.json
+data/games/codigos-cog.json
+data/games/codigos-criminality.json
+data/games/codigos-cute-brainrot-evolution.json
+data/games/codigos-dead-camp.json
+data/games/codigos-dead-spells.json
+data/games/codigos-deadly-delivery.json
+data/games/codigos-death-ball.json
+data/games/codigos-death-in-the-box.json
+data/games/codigos-deep-fishing.json
+data/games/codigos-destroy-the-world.json
+data/games/codigos-divine-tappers.json
+data/games/codigos-dragon-ball-rng.json
+data/games/codigos-escape-the-cave.json
+data/games/codigos-ethereal-clicker.json
+data/games/codigos-fall-for-brainrots.json
+data/games/codigos-fart-a-friend.json
+data/games/codigos-fight-da-gorilla.json
+data/games/codigos-final-swarm.json
+data/games/codigos-find-the-odd-emoji-quiz.json
+data/games/codigos-gakuran.json
+data/games/codigos-get-heavy-simulator.json
+data/games/codigos-get-stronger-every-second.json
+data/games/codigos-golf-frenzy.json
+data/games/codigos-grand-alfheim.json
+data/games/codigos-grow-a-chicken-fighter.json
+data/games/codigos-heroes-awakening.json
+data/games/codigos-hunty-zombies.json
+data/games/codigos-i-m-the-king-of-the-school.json
+data/games/codigos-jujutsu-beatdown.json
+data/games/codigos-jujutsu-zero.json
+data/games/codigos-junk-mechanics.json
+data/games/codigos-kraken-game.json
+data/games/codigos-level-below.json
+data/games/codigos-magic-blade-simulator.json
+data/games/codigos-magic-tappers.json
+data/games/codigos-make-anime-and-get-rich.json
+data/games/codigos-mini-farm.json
+data/games/codigos-mini-restaurant.json
+data/games/codigos-money-masters.json
+data/games/codigos-motorcycle-flying-simulator.json
+data/games/codigos-mugen.json
+data/games/codigos-muscle-throw.json
+data/games/codigos-noob-idle-simulator.json
+data/games/codigos-noob-slayers-simulator.json
+data/games/codigos-omeni-fruits.json
+data/games/codigos-ore-smelting-tycoon.json
+data/games/codigos-palm-slap-friends-simulator.json
+data/games/codigos-pet-evolve-simulator.json
+data/games/codigos-pet-legends-2.json
+data/games/codigos-pet-shelter-tycoon.json
+data/games/codigos-pixel-blade.json
+data/games/codigos-power-fighting-simulator.json
+data/games/codigos-project-rng.json
+data/games/codigos-punch-dragons-simulator.json
+data/games/codigos-race-rng.json
+data/games/codigos-rng-odyssey.json
+data/games/codigos-roll-anime-to-fight.json
+data/games/codigos-row-and-aura-farm.json
+data/games/codigos-rpg-champions.json
+data/games/codigos-save-brainrot.json
+data/games/codigos-sell-kpop-demon-hunters-and-prove-mom-wrong.json
+data/games/codigos-sell-makeup-and-prove-mom-wrong.json
+data/games/codigos-sell-sneakers-and-prove-dad-wrong.json
+data/games/codigos-slap-legends.json
+data/games/codigos-slayer-arena.json
+data/games/codigos-space-simulator-reborn.json
+data/games/codigos-split-or-steal-brainrot.json
+data/games/codigos-start-your-blue-lock-career.json
+data/games/codigos-strongman-smash.json
+data/games/codigos-super-car-obby.json
+data/games/codigos-survive-a-million-monkeys.json
+data/games/codigos-tapping-adventure.json
+data/games/codigos-the-skinwalker.json
+data/games/codigos-timber-champions.json
+data/games/codigos-toilet-defense-rng.json
+data/games/codigos-train-trip.json
+data/games/codigos-trainer-battle-rng.json
+data/games/codigos-treasure-hunt-tycoon.json
+data/games/codigos-turbo-soccer.json
+data/games/codigos-twisted.json
+data/games/codigos-ultimate-fishing-simulator.json
+data/games/codigos-ultimate-gym-game.json
+data/games/codigos-ultimate-town-sandbox.json
+data/games/codigos-untitled-boxing-game.json
+data/games/codigos-wheelie-district.json
+data/games/codigos-young-street-ontario.json
+data/games/codigos-youtube-race-simulator.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
