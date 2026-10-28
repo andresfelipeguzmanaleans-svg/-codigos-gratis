@@ -4,22 +4,22 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-80f183aeb5ddc1833a1959082a78d0d0/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Dudes Battlegrounds en Roblox",
   "metaTitle": "Códigos Dudes Battlegrounds Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Dudes Battlegrounds en Roblox. 26 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-03T22:35:31.411Z",
+  "metaDescription": "Lista actualizada de códigos para Dudes Battlegrounds en Roblox. 5 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-28T23:45:49.955Z",
   "activeCodes": [
     {
+      "code": "AIRDROPS",
+      "reward": "1,000 Vialites",
+      "addedDate": "2026-10-28"
+    },
+    {
+      "code": "UPD75",
+      "reward": "75 tokens",
+      "addedDate": "2026-10-28"
+    },
+    {
       "code": "400MVISITS",
-      "reward": "Recompensas",
-      "addedDate": "2026-10-03"
-    },
-    {
-      "code": "BLOODKNIGHT",
-      "reward": "Recompensas",
-      "addedDate": "2026-10-03"
-    },
-    {
-      "code": "UPD74",
-      "reward": "Recompensas",
+      "reward": "1 giro",
       "addedDate": "2026-10-03"
     },
     {
@@ -28,117 +28,476 @@
       "addedDate": "2026-09-06"
     },
     {
-      "code": "3MGROUP",
-      "reward": "1 giro",
-      "addedDate": "2026-09-06"
-    },
-    {
       "code": "MILITARYMASTERY",
       "reward": "1,000 Vialites",
       "addedDate": "2026-09-06"
-    },
-    {
-      "code": "UPD73",
-      "reward": "73 tokens",
-      "addedDate": "2026-09-06"
-    },
-    {
-      "code": "PATRIOTMASTERY",
-      "reward": "1,000 Vialites",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "UPD72",
-      "reward": "72 tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "UPD71",
-      "reward": "71 tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "SUMMERDUCKY",
-      "reward": "Giro",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "MECHADUCKY",
-      "reward": "500 Vialities",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "190KLIKES",
-      "reward": "800 Vialites",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "UPD70",
-      "reward": "70 tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "180KLIKES",
-      "reward": "800 Vialites",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "2MGROUP",
-      "reward": "1 giro",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "RANKEDREWARDS",
-      "reward": "500 Vialites",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "UPD68",
-      "reward": "68 tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "DAIRYWALLCOMBO",
-      "reward": "1 giro",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "UPD67",
-      "reward": "67 tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "DAIRYMANLAUNCH",
-      "reward": "1 giro",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "UPD66",
-      "reward": "66 tokens",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "2MFAVS",
-      "reward": "1,000 Vialites",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "300MVISITZ",
-      "reward": "1 giro",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "ADMINEVENT",
-      "reward": "1 giro",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "175KLIKES",
-      "reward": "750 Vialites",
-      "addedDate": "2026-08-01"
     }
   ],
   "expiredCodes": [
+    {
+      "code": "BLOODKNIGHT",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "UPD74",
+      "reward": "Recompensas"
+    },
+    {
+      "code": "3MGROUP",
+      "reward": "1 giro"
+    },
+    {
+      "code": "UPD73",
+      "reward": "73 tokens"
+    },
+    {
+      "code": "PATRIOTMASTERY",
+      "reward": "1,000 Vialites"
+    },
+    {
+      "code": "UPD72",
+      "reward": "72 tokens"
+    },
+    {
+      "code": "UPD71",
+      "reward": "71 tokens"
+    },
+    {
+      "code": "SUMMERDUCKY",
+      "reward": "Giro"
+    },
+    {
+      "code": "MECHADUCKY",
+      "reward": "500 Vialities"
+    },
+    {
+      "code": "190KLIKES",
+      "reward": "800 Vialites"
+    },
+    {
+      "code": "UPD70",
+      "reward": "70 tokens"
+    },
+    {
+      "code": "180KLIKES",
+      "reward": "800 Vialites"
+    },
+    {
+      "code": "2MGROUP",
+      "reward": "1 giro"
+    },
+    {
+      "code": "RANKEDREWARDS",
+      "reward": "500 Vialites"
+    },
+    {
+      "code": "UPD68",
+      "reward": "68 tokens"
+    },
+    {
+      "code": "DAIRYWALLCOMBO",
+      "reward": "1 giro"
+    },
+    {
+      "code": "UPD67",
+      "reward": "67 tokens"
+    },
+    {
+      "code": "DAIRYMANLAUNCH",
+      "reward": "1 giro"
+    },
+    {
+      "code": "UPD66",
+      "reward": "66 tokens"
+    },
+    {
+      "code": "2MFAVS",
+      "reward": "1,000 Vialites"
+    },
+    {
+      "code": "300MVISITZ",
+      "reward": "1 giro"
+    },
+    {
+      "code": "ADMINEVENT",
+      "reward": "1 giro"
+    },
+    {
+      "code": "175KLIKES",
+      "reward": "750 Vialites"
+    },
+    {
+      "code": "80MVISITS",
+      "reward": "800 Vialities"
+    },
+    {
+      "code": "50MVISITS",
+      "reward": "550 Vialites"
+    },
+    {
+      "code": "UPD47",
+      "reward": "100 Vialites"
+    },
+    {
+      "code": "VICKYRETURNS",
+      "reward": "3 Fortune Wheel giros"
+    },
+    {
+      "code": "TITLESUPD",
+      "reward": "Vialites gratis"
+    },
+    {
+      "code": "UPD42",
+      "reward": "500 Vialites"
+    },
+    {
+      "code": "EASTEREVENT",
+      "reward": "300 Vialites"
+    },
+    {
+      "code": "UPD45",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SUMMEREVENT",
+      "reward": "500 Vialites"
+    },
+    {
+      "code": "120KLIKES",
+      "reward": "200 Vialites"
+    },
+    {
+      "code": "FREESPINS",
+      "reward": "Fortune Wheel giros"
+    },
+    {
+      "code": "300KMEMBERS",
+      "reward": "600 Vialites"
+    },
+    {
+      "code": "HEART",
+      "reward": "550 Vialites"
+    },
+    {
+      "code": "30KLIKES",
+      "reward": "650 Vialites"
+    },
+    {
+      "code": "UPDATE12",
+      "reward": "DJ Groovin’ Emote"
+    },
+    {
+      "code": "CHOPPERRELEASE",
+      "reward": "Vialites gratis"
+    },
+    {
+      "code": "50KLIKEZ",
+      "reward": "Vialites gratis"
+    },
+    {
+      "code": "BOYS",
+      "reward": "In-Game recompensas gratis"
+    },
+    {
+      "code": "FANCYEMOTE",
+      "reward": "Fancy Guy Emote"
+    },
+    {
+      "code": "HALLOWEENEXTENDED",
+      "reward": "750 Vialities"
+    },
+    {
+      "code": "UPDATE23",
+      "reward": "2,300 Vialities"
+    },
+    {
+      "code": "MANYVIALITES",
+      "reward": "3,500 Vialities"
+    },
+    {
+      "code": "JOLLY",
+      "reward": "500 Vialities"
+    },
+    {
+      "code": "THUNDERFRONTRELEASE",
+      "reward": "1,500 Vialities"
+    },
+    {
+      "code": "80KLIKES",
+      "reward": "Relief Emote"
+    },
+    {
+      "code": "MINIUPDATE",
+      "reward": "750 Vialities"
+    },
+    {
+      "code": "250KMEMBERS",
+      "reward": "1,000 Vialities"
+    },
+    {
+      "code": "30MVISITZ",
+      "reward": "350 Vialities"
+    },
+    {
+      "code": "40MVISITS",
+      "reward": "450 Vialities"
+    },
+    {
+      "code": "100KFAVS",
+      "reward": "1,000 Vialities"
+    },
+    {
+      "code": "NEWMAP",
+      "reward": "500 Vialities"
+    },
+    {
+      "code": "AFKSPINS",
+      "reward": "400 Vialities"
+    },
+    {
+      "code": "STANRELEASE",
+      "reward": "500 Vialities"
+    },
+    {
+      "code": "100KLIKES",
+      "reward": "500 Vialities"
+    },
+    {
+      "code": "UPD37",
+      "reward": "370 Vialities"
+    },
+    {
+      "code": "WEBSHOOTER",
+      "reward": "1 giro"
+    },
+    {
+      "code": "SUMMERP2",
+      "reward": "500 Vialites"
+    },
+    {
+      "code": "UPD39",
+      "reward": "390 Vialities"
+    },
+    {
+      "code": "UPD40",
+      "reward": "400 Vialities"
+    },
+    {
+      "code": "UPD41",
+      "reward": "410 Vialities"
+    },
+    {
+      "code": "MINIUPDATE1",
+      "reward": "1 giros"
+    },
+    {
+      "code": "V46HYPE",
+      "reward": "1 giro"
+    },
+    {
+      "code": "SUMMER",
+      "reward": "1 giro"
+    },
+    {
+      "code": "400KMEMBERS",
+      "reward": "750 Vialities"
+    },
+    {
+      "code": "IMMORTAL",
+      "reward": "1 giro"
+    },
+    {
+      "code": "450KMEMBERS",
+      "reward": "700 Vialities"
+    },
+    {
+      "code": "130KLIKES",
+      "reward": "400 Vialites"
+    },
+    {
+      "code": "UPD26",
+      "reward": "Vialites gratis"
+    },
+    {
+      "code": "3MVISITZ",
+      "reward": "Train Pose Emote"
+    },
+    {
+      "code": "UPD51",
+      "reward": "510 Vialities"
+    },
+    {
+      "code": "200MVISITZ",
+      "reward": "500 Vialites"
+    },
+    {
+      "code": "BUGFIXES",
+      "reward": "Fortune Wheel giro"
+    },
+    {
+      "code": "UPD58",
+      "reward": "58 tokens"
+    },
+    {
+      "code": "5MVISITS",
+      "reward": "450 Vialites"
+    },
+    {
+      "code": "6MVISITS",
+      "reward": "450 Vialites"
+    },
+    {
+      "code": "UPD50",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "400KFAVS",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "100MVISITZ",
+      "reward": "Recompensa gratis"
+    },
+    {
+      "code": "50KMEMBERS",
+      "reward": "Vialites gratis"
+    },
+    {
+      "code": "10MVISITS",
+      "reward": "Bye Bye Bye Emote"
+    },
+    {
+      "code": "BYEBYEBYE",
+      "reward": "Recompensas gratis"
+    },
+    {
+      "code": "SAVECHRISTMAS",
+      "reward": "1,500 Vialities"
+    },
+    {
+      "code": "UPD29",
+      "reward": "900 Vialities"
+    },
+    {
+      "code": "MINIUPD2",
+      "reward": "450 Vialities"
+    },
+    {
+      "code": "PERFORMANCEBOOST",
+      "reward": "400 Vialities"
+    },
+    {
+      "code": "AprilFools",
+      "reward": "500 Vialities"
+    },
+    {
+      "code": "COMBATCHANGES",
+      "reward": "1 giro"
+    },
+    {
+      "code": "KILLEMOTES",
+      "reward": "1 giro"
+    },
+    {
+      "code": "UPD44",
+      "reward": "440 Vialities"
+    },
+    {
+      "code": "UPD48",
+      "reward": "480 Vialities"
+    },
+    {
+      "code": "UPD43",
+      "reward": "200 Vialites"
+    },
+    {
+      "code": "BUNNY",
+      "reward": "300 Vialites"
+    },
+    {
+      "code": "VALENTINESDAY2025",
+      "reward": "700 Vialites"
+    },
+    {
+      "code": "100KMEMBERS",
+      "reward": "1,000 Vialites"
+    },
+    {
+      "code": "150KMEMBERS",
+      "reward": "1,500 Vialites"
+    },
+    {
+      "code": "200KMEMBERS",
+      "reward": "2,000 Vialities"
+    },
+    {
+      "code": "UPD27",
+      "reward": "750 Vialities"
+    },
+    {
+      "code": "85KFAV",
+      "reward": "850 Vialities"
+    },
+    {
+      "code": "UPD30",
+      "reward": "650 Vialities"
+    },
+    {
+      "code": "DATALOSSISSUES",
+      "reward": "3 giros"
+    },
+    {
+      "code": "RANKEDPVP",
+      "reward": "450 Vialities"
+    },
+    {
+      "code": "ATRAINEMOTE",
+      "reward": "Train Pose Emote"
+    },
+    {
+      "code": "STANQUEST",
+      "reward": "2,000 Vialities"
+    },
+    {
+      "code": "VICKYRELEASE",
+      "reward": "1,750 Vialities"
+    },
+    {
+      "code": "UPD28",
+      "reward": "850 Vialities"
+    },
+    {
+      "code": "WALLCOMBOS",
+      "reward": "600 Vialities"
+    },
+    {
+      "code": "70MVISITS",
+      "reward": "500 Vialities"
+    },
+    {
+      "code": "350KMEMBERS",
+      "reward": "700 Vialities"
+    },
+    {
+      "code": "150KFAVS",
+      "reward": "1,500 Vialities"
+    },
+    {
+      "code": "BATTLEPASS",
+      "reward": "999 Vialites"
+    },
+    {
+      "code": "150MVISITZ",
+      "reward": "500 Vialities"
+    },
+    {
+      "code": "UPDATE11",
+      "reward": "650 Vialites"
+    },
+    {
+      "code": "UPD7",
+      "reward": "Recompensas gratis"
+    },
     {
       "code": "UPD65",
       "reward": "65 tokens"
@@ -160,7 +519,7 @@
       "reward": "Recompensas gratis"
     },
     {
-      "code": "PINS",
+      "code": "UPD61",
       "reward": "500 Vialites"
     },
     {
@@ -168,7 +527,7 @@
       "reward": "500 Vialites"
     },
     {
-      "code": "UPD61",
+      "code": "PINS",
       "reward": "500 Vialites"
     },
     {
@@ -204,20 +563,20 @@
       "reward": "1 giro"
     },
     {
-      "code": "600KMEMBERS",
-      "reward": "600 Vialities"
-    },
-    {
-      "code": "160KLIKES",
-      "reward": "600 Vialities"
+      "code": "UPD57",
+      "reward": "57 tokens"
     },
     {
       "code": "KIMMYRELEASE",
       "reward": "1 giro"
     },
     {
-      "code": "UPD57",
-      "reward": "57 tokens"
+      "code": "160KLIKES",
+      "reward": "600 Vialities"
+    },
+    {
+      "code": "600KMEMBERS",
+      "reward": "600 Vialities"
     },
     {
       "code": "TURKEY",
@@ -236,32 +595,28 @@
       "reward": "500 Vialites"
     },
     {
-      "code": "550KMEMBERS",
-      "reward": "550 Vialites"
+      "code": "SPOOKY",
+      "reward": "Witch Hat"
     },
     {
       "code": "HALLOWEEN2025",
       "reward": "300 Pumpkins"
     },
     {
-      "code": "SPOOKY",
-      "reward": "Witch Hat"
-    },
-    {
-      "code": "UPD53",
-      "reward": "500 Vialites"
+      "code": "550KMEMBERS",
+      "reward": "550 Vialites"
     },
     {
       "code": "150KLIKES",
       "reward": "500 Vialites"
     },
     {
-      "code": "UPD52",
-      "reward": "450 vialities"
+      "code": "UPD53",
+      "reward": "500 Vialites"
     },
     {
-      "code": "650KFAVS",
-      "reward": "650 Vialities"
+      "code": "UPD52",
+      "reward": "450 vialities"
     },
     {
       "code": "500KMEMBERS",
@@ -272,376 +627,8 @@
       "reward": "450 Vialities"
     },
     {
-      "code": "BUGFIXES",
-      "reward": "Fortune Wheel giro"
-    },
-    {
-      "code": "KILLEMOTES",
-      "reward": "1 giro"
-    },
-    {
-      "code": "120KLIKES",
-      "reward": "200 Vialites"
-    },
-    {
-      "code": "UPDATE23",
-      "reward": "2,300 Vialities"
-    },
-    {
-      "code": "UPD42",
-      "reward": "500 Vialites"
-    },
-    {
-      "code": "EASTEREVENT",
-      "reward": "300 Vialites"
-    },
-    {
-      "code": "BUNNY",
-      "reward": "300 Vialites"
-    },
-    {
-      "code": "FREESPINS",
-      "reward": "Fortune Wheel giros"
-    },
-    {
-      "code": "VICKYRETURNS",
-      "reward": "3 Fortune Wheel giros"
-    },
-    {
-      "code": "50MVISITS",
-      "reward": "550 Vialites"
-    },
-    {
-      "code": "VALENTINESDAY2025",
-      "reward": "700 Vialites"
-    },
-    {
-      "code": "HEART",
-      "reward": "550 Vialites"
-    },
-    {
-      "code": "30KLIKES",
-      "reward": "650 Vialites"
-    },
-    {
-      "code": "UPDATE12",
-      "reward": "DJ Groovin’ Emote"
-    },
-    {
-      "code": "UPD45",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "CHOPPERRELEASE",
-      "reward": "Vialites gratis"
-    },
-    {
-      "code": "TITLESUPD",
-      "reward": "Vialites gratis"
-    },
-    {
-      "code": "50KLIKEZ",
-      "reward": "Vialites gratis"
-    },
-    {
-      "code": "BOYS",
-      "reward": "In-Game recompensas gratis"
-    },
-    {
-      "code": "UPD26",
-      "reward": "Vialites gratis"
-    },
-    {
-      "code": "3MVISITZ",
-      "reward": "Train Pose Emote"
-    },
-    {
-      "code": "150MVISITZ",
-      "reward": "500 Vialities"
-    },
-    {
-      "code": "UPD51",
-      "reward": "510 Vialities"
-    },
-    {
-      "code": "200MVISITZ",
-      "reward": "500 Vialites"
-    },
-    {
-      "code": "150KFAVS",
-      "reward": "1,500 Vialities"
-    },
-    {
-      "code": "UPD58",
-      "reward": "58 tokens"
-    },
-    {
-      "code": "5MVISITS",
-      "reward": "450 Vialites"
-    },
-    {
-      "code": "6MVISITS",
-      "reward": "450 Vialites"
-    },
-    {
-      "code": "FANCYEMOTE",
-      "reward": "Fancy Guy Emote"
-    },
-    {
-      "code": "50KMEMBERS",
-      "reward": "Vialites gratis"
-    },
-    {
-      "code": "STANRELEASE",
-      "reward": "500 Vialities"
-    },
-    {
-      "code": "THUNDERFRONTRELEASE",
-      "reward": "1,500 Vialities"
-    },
-    {
-      "code": "BYEBYEBYE",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "V46HYPE",
-      "reward": "1 giro"
-    },
-    {
-      "code": "300KMEMBERS",
-      "reward": "600 Vialites"
-    },
-    {
-      "code": "UPD40",
-      "reward": "400 Vialities"
-    },
-    {
-      "code": "UPD39",
-      "reward": "390 Vialities"
-    },
-    {
-      "code": "UPD41",
-      "reward": "410 Vialities"
-    },
-    {
-      "code": "UPDATE11",
-      "reward": "650 Vialites"
-    },
-    {
-      "code": "UPD50",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "400KFAVS",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "UPD7",
-      "reward": "Recompensas gratis"
-    },
-    {
-      "code": "100MVISITZ",
-      "reward": "Recompensa gratis"
-    },
-    {
-      "code": "100KMEMBERS",
-      "reward": "1,000 Vialites"
-    },
-    {
-      "code": "ATRAINEMOTE",
-      "reward": "Train Pose Emote"
-    },
-    {
-      "code": "BATTLEPASS",
-      "reward": "999 Vialites"
-    },
-    {
-      "code": "10MVISITS",
-      "reward": "Bye Bye Bye Emote"
-    },
-    {
-      "code": "150KMEMBERS",
-      "reward": "1,500 Vialites"
-    },
-    {
-      "code": "STANQUEST",
-      "reward": "2,000 Vialities"
-    },
-    {
-      "code": "HALLOWEENEXTENDED",
-      "reward": "750 Vialities"
-    },
-    {
-      "code": "200KMEMBERS",
-      "reward": "2,000 Vialities"
-    },
-    {
-      "code": "VICKYRELEASE",
-      "reward": "1,750 Vialities"
-    },
-    {
-      "code": "MANYVIALITES",
-      "reward": "3,500 Vialities"
-    },
-    {
-      "code": "JOLLY",
-      "reward": "500 Vialities"
-    },
-    {
-      "code": "SAVECHRISTMAS",
-      "reward": "1,500 Vialities"
-    },
-    {
-      "code": "UPD27",
-      "reward": "750 Vialities"
-    },
-    {
-      "code": "UPD28",
-      "reward": "850 Vialities"
-    },
-    {
-      "code": "80KLIKES",
-      "reward": "Relief Emote"
-    },
-    {
-      "code": "UPD29",
-      "reward": "900 Vialities"
-    },
-    {
-      "code": "85KFAV",
-      "reward": "850 Vialities"
-    },
-    {
-      "code": "MINIUPDATE",
-      "reward": "750 Vialities"
-    },
-    {
-      "code": "250KMEMBERS",
-      "reward": "1,000 Vialities"
-    },
-    {
-      "code": "30MVISITZ",
-      "reward": "350 Vialities"
-    },
-    {
-      "code": "MINIUPD2",
-      "reward": "450 Vialities"
-    },
-    {
-      "code": "UPD30",
+      "code": "650KFAVS",
       "reward": "650 Vialities"
-    },
-    {
-      "code": "40MVISITS",
-      "reward": "450 Vialities"
-    },
-    {
-      "code": "100KFAVS",
-      "reward": "1,000 Vialities"
-    },
-    {
-      "code": "NEWMAP",
-      "reward": "500 Vialities"
-    },
-    {
-      "code": "PERFORMANCEBOOST",
-      "reward": "400 Vialities"
-    },
-    {
-      "code": "DATALOSSISSUES",
-      "reward": "3 giros"
-    },
-    {
-      "code": "WALLCOMBOS",
-      "reward": "600 Vialities"
-    },
-    {
-      "code": "AFKSPINS",
-      "reward": "400 Vialities"
-    },
-    {
-      "code": "AprilFools",
-      "reward": "500 Vialities"
-    },
-    {
-      "code": "RANKEDPVP",
-      "reward": "450 Vialities"
-    },
-    {
-      "code": "70MVISITS",
-      "reward": "500 Vialities"
-    },
-    {
-      "code": "100KLIKES",
-      "reward": "500 Vialities"
-    },
-    {
-      "code": "UPD37",
-      "reward": "370 Vialities"
-    },
-    {
-      "code": "COMBATCHANGES",
-      "reward": "1 giro"
-    },
-    {
-      "code": "WEBSHOOTER",
-      "reward": "1 giro"
-    },
-    {
-      "code": "350KMEMBERS",
-      "reward": "700 Vialities"
-    },
-    {
-      "code": "80MVISITS",
-      "reward": "800 Vialities"
-    },
-    {
-      "code": "MINIUPDATE1",
-      "reward": "1 giros"
-    },
-    {
-      "code": "UPD44",
-      "reward": "440 Vialities"
-    },
-    {
-      "code": "SUMMER",
-      "reward": "1 giro"
-    },
-    {
-      "code": "400KMEMBERS",
-      "reward": "750 Vialities"
-    },
-    {
-      "code": "IMMORTAL",
-      "reward": "1 giro"
-    },
-    {
-      "code": "UPD48",
-      "reward": "480 Vialities"
-    },
-    {
-      "code": "450KMEMBERS",
-      "reward": "700 Vialities"
-    },
-    {
-      "code": "130KLIKES",
-      "reward": "400 Vialites"
-    },
-    {
-      "code": "UPD47",
-      "reward": "100 Vialites"
-    },
-    {
-      "code": "SUMMERP2",
-      "reward": "500 Vialites"
-    },
-    {
-      "code": "UPD43",
-      "reward": "200 Vialites"
-    },
-    {
-      "code": "SUMMEREVENT",
-      "reward": "500 Vialites"
     }
   ],
   "howToRedeem": [
