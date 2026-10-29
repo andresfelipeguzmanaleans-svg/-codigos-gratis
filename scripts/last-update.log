@@ -1,265 +1,139 @@
-=== RESUMEN UPDATE 2026-10-29 14:53 ===
+=== RESUMEN UPDATE 2026-10-29 23:47 ===
 
 Archivos modificados:
-  111 archivos cambiados
+  55 archivos cambiados
 
 Archivos nuevos:
-  0 archivos nuevos
+  5 archivos nuevos
 
 --- Actualización de códigos ---
-Total: 4695 juegos (4695 procesados)
-Actualizados: 109 | Sin cambios: 4439
-No encontrado: 134 | Saltados: 13
-Códigos nuevos: 41 | Movidos a expirados: 914
-Tiempo: 163.9s | Concurrencia: 10
+Total: 4700 juegos (4700 procesados)
+Actualizados: 53 | Sin cambios: 4502
+No encontrado: 132 | Saltados: 13
+Códigos nuevos: 8 | Movidos a expirados: 430
+Tiempo: 169.9s | Concurrencia: 10
 
 Juegos actualizados:
-  1 Dmg Per Revive: 4→4 activos (=), 35→36 exp
-  Adventure Time Rpg: 1→2 activos (+1), 0→0 exp
-    Nuevos: FANCYFINN
-  Anime Astral Simulator: 76→76 activos (=), 136→140 exp
-  Anime Blast Simulator: 18→0 activos (-18), 2→20 exp
-  Anime Card Collection: 76→77 activos (+1), 6→6 exp
-    Nuevos: SeventyOneCode
-  Anime Chefs: 11→0 activos (-11), 3→14 exp
-  Anime Dimensions Simulator: 52→52 activos (=), 231→232 exp
-  Anime Fly Race: 15→0 activos (-15), 1→16 exp
-  Anime Fighters Simulator: 73→16 activos (-57), 253→311 exp
-    Nuevos: HALLOWED
-  Anime Immortals: 20→0 activos (-20), 30→50 exp
-  Anime Max Simulator: 27→0 activos (-27), 48→75 exp
-  Anime Raid: 21→0 activos (-21), 4→25 exp
-  Anime Warriors: 3→0 activos (-3), 25→28 exp
-  Be A Strongman: 3→0 activos (-3), 0→3 exp
-  Bell Striker Simulator: 2→0 activos (-2), 0→2 exp
-  Blob Eating Simulator: 7→0 activos (-7), 12→19 exp
-  Boxing Clicker Simulator: 10→0 activos (-10), 1→11 exp
-  Brainrot Evolution: 93→94 activos (+1), 16→16 exp
-    Nuevos: HALLOWEENFUSION
-  Bro Liberation Punch Toilet: 31→0 activos (-31), 16→47 exp
-  Build A Phone Empire: 1→6 activos (+5), 0→0 exp
-    Nuevos: FLAGSHIP, SPOOKY, LAPTOPS, WELCOME, CEO
-  Candy Kingdom Defense: 6→6 activos (=), 0→1 exp
-  Circle Clash: 5→0 activos (-5), 74→78 exp
-  Clover Retribution: 266→267 activos (+1), 58→58 exp
-    Nuevos: !evilsmight
-  Collect The Alphabet: 12→13 activos (+1), 9→9 exp
-    Nuevos: GHOST
-  Corsa Legends: 32→32 activos (=), 29→30 exp
-  Dalgona Challenge: 1→0 activos (-1), 4→5 exp
-  Dalgona Simulator: 4→0 activos (-4), 4→8 exp
-  Defeat Anime Rng: 8→8 activos (=), 35→39 exp
-  Demon Slayer Legacy: 23→0 activos (-23), 19→42 exp
-  Demon Sword Reincarnation: 5→0 activos (-5), 29→34 exp
-  Dominus Merge Tycoon: 3→0 activos (-3), 0→3 exp
-  Dragon Blox: 59→59 activos (=), 181→182 exp
-  Drill To Earths Core: 2→2 activos (=), 1→2 exp
-  Dungeon Lootr: 20→20 activos (=), 48→49 exp
-  Eat Ball Simulator: 13→8 activos (-5), 3→8 exp
-  Emergency Emden: 4→5 activos (+1), 1→1 exp
-    Nuevos: PURGENIGHT
-  Emerald Tappers X: 19→0 activos (-19), 3→22 exp
-  Energy Drink Simulator: 3→0 activos (-3), 1→4 exp
-  Fighting Legends: 8→0 activos (-8), 0→8 exp
-  Fish It: 27→2 activos (-25), 33→58 exp
-  Fitness Simulator 2: 6→0 activos (-6), 4→10 exp
-  Flappy Bird Race: 3→0 activos (-3), 10→13 exp
-  Flip Flop Simulator: 4→0 activos (-4), 0→4 exp
-  Freestyle Football: 30→36 activos (+6), 15→15 exp
-    Nuevos: SORRYFORBADGEBUG, SECONDWIND, PASSIVESREWORK, HAPPYHALLOWEEN!, FSF2SOON, BUGFIXENJOY!
-  Grow Snails: 8→0 activos (-8), 0→8 exp
-  Hex Defender: 11→0 activos (-11), 2→13 exp
-  Hollow Era: 4→0 activos (-4), 49→53 exp
-  Hots Rng: 86→87 activos (+1), 64→64 exp
-    Nuevos: Bullseye
-  Huss Valley: 5→7 activos (+2), 0→0 exp
-    Nuevos: SPOOKYSEASON, TRICKORTREAT
-  Imposters And Roles: 58→58 activos (=), 9→10 exp
-  Infinite Mining Incremental: 25→0 activos (-25), 7→32 exp
-  Jojos Bizarre Incremental: 39→41 activos (+2), 30→30 exp
-    Nuevos: SBRREWORKSOON, SURVIVEBEERUS
-  Jump Rope Simulator: 3→0 activos (-3), 5→8 exp
-  Laser Tycoon: 2→0 activos (-2), 0→2 exp
-  Lethal Tower Defense: 2→0 activos (-2), 5→7 exp
-  Log Flume Tycoon: 28→0 activos (-28), 5→33 exp
-  Mars Base Tycoon: 1→0 activos (-1), 5→6 exp
-  Mega War Tycoon: 1→0 activos (-1), 0→1 exp
-  Meme Tycoon: 8→0 activos (-8), 1→9 exp
-  Meme Tower Defense: 14→0 activos (-14), 12→26 exp
-  Merge Tower Defense: 16→17 activos (+1), 1→1 exp
-    Nuevos: teberhorndagling
-  Mine: 14→0 activos (-14), 6→20 exp
-  Morph Rng: 2→0 activos (-2), 1→3 exp
-  My Coffee Shop: 2→0 activos (-2), 0→2 exp
-  Mystery Chest Simulator: 6→0 activos (-6), 1→7 exp
-  Nightfall: 27→30 activos (+3), 1→1 exp
-    Nuevos: WEEK2, 10MIL, LOLDELAY
-  Ninja Time: 194→4 activos (-190), 115→306 exp
-    Nuevos: HalloweenEvent26!, ImmortalClan!, SpookyHalloween!
-  Noob Incremental: 41→42 activos (+1), 25→26 exp
-    Nuevos: HALLOWEENSOON
-  Open The Gate: 5→0 activos (-5), 0→5 exp
-  Palm Shores Florida: 2→0 activos (-2), 8→10 exp
-  Pillow Fighting Simulator: 11→0 activos (-11), 4→15 exp
-  Plague: 15→0 activos (-15), 4→19 exp
-  Pls Buy Me: 12→0 activos (-12), 6→18 exp
-  Princess Fighter Simulator: 11→0 activos (-11), 1→12 exp
-  Project Sonic Td: 22→0 activos (-22), 12→34 exp
-  Racket Rivals: 68→69 activos (+1), 38→38 exp
-    Nuevos: SMASH
-  Rank Simulator X: 6→0 activos (-6), 2→8 exp
-  Realms Of The Multiverse: 1→0 activos (-1), 36→37 exp
-  Rensselaer County: 10→1 activos (-9), 9→19 exp
-    Nuevos: RETUNE26
-  Ro Ghoul: 18→18 activos (=), 189→190 exp
-  Roblox Smiles: 12→13 activos (+1), 0→0 exp
-    Nuevos: TOYBLES
-  Rock Climb Simulator: 8→0 activos (-8), 0→8 exp
-  Roll Your Height: 8→9 activos (+1), 0→0 exp
-    Nuevos: FifthCode
-  Saber Simulator: 70→71 activos (+1), 48→48 exp
-    Nuevos: HAUNTEDHOUSE31
-  Sakura Piece: 18→0 activos (-18), 32→50 exp
-  Seekers: 3→0 activos (-3), 4→7 exp
-  Sell Fries: 4→7 activos (+3), 2→2 exp
-    Nuevos: 4000Members, PlsCode, FreeCandy
-  Shigaku: 7→7 activos (=), 14→15 exp
-  Ship Merge Simulator: 3→0 activos (-3), 0→3 exp
-  Shoot Race Simulator: 1→0 activos (-1), 0→1 exp
-  Sky Fall Battle Of Fallen: 8→0 activos (-8), 0→8 exp
-  Sled Simulator 2: 7→0 activos (-7), 0→7 exp
-  Slime Card Collection: 16→17 activos (+1), 4→4 exp
-    Nuevos: BOSSBATTLE
-  Squid Ding: 2→0 activos (-2), 4→6 exp
-  Squiddy Game: 8→0 activos (-8), 2→10 exp
-  Steal A Meme: 4→0 activos (-4), 2→6 exp
-  Steal N Grow A Brainrot: 3→0 activos (-3), 0→3 exp
-  Strength Clash Simulator: 3→0 activos (-3), 0→3 exp
-  Submarine Simulator: 1→0 activos (-1), 0→1 exp
-  Survive The Apocalypse: 5→5 activos (=), 21→22 exp
-  Sword Factory Beyond: 20→0 activos (-20), 0→20 exp
-  Tapper Simulator: 22→0 activos (-22), 20→42 exp
-  The Heroes Simulator: 3→0 activos (-3), 1→4 exp
-  Transform Vs Sword Simulator: 13→0 activos (-13), 1→14 exp
-  Twilights Zone: 5→6 activos (+1), 2→2 exp
-    Nuevos: HALLOW26
-  Wall Knife Simulator: 5→0 activos (-5), 3→8 exp
-  Water Pumping Incremental 2: 12→0 activos (-12), 11→23 exp
-  World Zero: 34→34 activos (=), 157→159 exp
-  Zombie Army Simulator: 16→0 activos (-16), 2→18 exp
+  1 Fly Every Second: 4→0 activos (-4), 5→9 exp
+  Against Toilets Simulator: 10→0 activos (-10), 0→10 exp
+  Anime Boxing Simulator: 23→0 activos (-23), 3→26 exp
+  Anime Fruit Simulator: 9→0 activos (-9), 35→44 exp
+  Anime Rails: 54→54 activos (=), 53→54 exp
+  Anime Rng Defense: 5→5 activos (=), 95→100 exp
+  Anime Samurai Simulator: 14→0 activos (-14), 0→14 exp
+  Anime Shadow 2: 30→0 activos (-30), 27→57 exp
+  Basketball Zero: 4→2 activos (-2), 264→268 exp
+    Nuevos: 15NINJA, NINJA
+  Bear Evolution: 1→0 activos (-1), 0→1 exp
+  Bike Race Simulator: 11→0 activos (-11), 3→14 exp
+  Brainrot Diver: 4→0 activos (-4), 0→4 exp
+  Break Brainrot Bones: 3→0 activos (-3), 0→3 exp
+  Clicker Fighting Simulator: 32→0 activos (-32), 2→34 exp
+  Climb Block Stairs: 4→0 activos (-4), 0→4 exp
+  Crystal Valley Mining Simulator: 3→0 activos (-3), 7→10 exp
+  Dodgeball Legends: 19→19 activos (=), 4→5 exp
+  Doom By Fate: 8→9 activos (+1), 2→2 exp
+    Nuevos: UPDATE!
+  Dragon Fighting Simulator: 36→0 activos (-36), 10→46 exp
+  Empire Clash: 1→1 activos (=), 1→2 exp
+  Evolve Your Spaceship: 3→0 activos (-3), 0→3 exp
+  Fart Battle Simulator: 8→0 activos (-8), 2→10 exp
+  Ghost Samurai Fighting: 5→0 activos (-5), 1→6 exp
+  Goofy Tower Defense: 23→0 activos (-23), 58→81 exp
+  Ijul Piece 2: 39→0 activos (-39), 39→78 exp
+  Jump Simulator: 8→0 activos (-8), 1→9 exp
+  Knight Save Princess Simulator: 4→0 activos (-4), 0→4 exp
+  Legacy Piece: 0→0 activos (=), 115→117 exp
+  Line To Fight: 9→0 activos (-9), 0→9 exp
+  Mart Simulator: 2→0 activos (-2), 1→3 exp
+  Massacre: 62→64 activos (+2), 47→47 exp
+    Nuevos: !code boo, !code halloweenpt2
+  Medved: 6→6 activos (=), 3→4 exp
+  Over Inflated: 4→0 activos (-4), 1→5 exp
+  Pancake Battles: 8→0 activos (-8), 1→9 exp
+  Pop It Trading: 86→86 activos (=), 56→57 exp
+  Prota Simulator: 1→0 activos (-1), 0→1 exp
+  Pull Up Legends: 12→0 activos (-12), 0→12 exp
+  Race Car Simulator: 1→0 activos (-1), 0→1 exp
+  Ride Friend Race: 8→0 activos (-8), 0→8 exp
+  Ride Race: 7→0 activos (-7), 4→11 exp
+  Rivals: 6→6 activos (=), 226→228 exp
+  Run To Win Simulator: 1→0 activos (-1), 0→1 exp
+  Shoot A Friend Simulator: 3→0 activos (-3), 0→3 exp
+  Shoot Beam Simulator: 4→0 activos (-4), 1→5 exp
+  Slayer Corps: 56→0 activos (-56), 14→70 exp
+  Slay The Runway: 6→0 activos (-6), 3→9 exp
+  Solo Showdown: 3→0 activos (-3), 2→5 exp
+  Stone Miner Simulator 3: 9→0 activos (-9), 1→10 exp
+  Strong Muscle Simulator: 4→0 activos (-4), 11→15 exp
+  Throttle: 1→1 activos (=), 0→6 exp
+  Tr Legacy: 41→42 activos (+1), 7→9 exp
+    Nuevos: REALWHEELIES
+  Upgrade Your City: 7→0 activos (-7), 1→8 exp
+  Vv Ultimatum: 15→6 activos (-9), 16→26 exp
+    Nuevos: checkmailbox, HOLLOVVEEN
 
 Detalle cambios:
-data/games/codigos-1-dmg-per-revive.json
-data/games/codigos-adventure-time-rpg.json
-data/games/codigos-anime-astral-simulator.json
-data/games/codigos-anime-blast-simulator.json
-data/games/codigos-anime-card-collection.json
-data/games/codigos-anime-chefs.json
-data/games/codigos-anime-dimensions-simulator.json
-data/games/codigos-anime-fighters-simulator.json
-data/games/codigos-anime-fly-race.json
-data/games/codigos-anime-immortals.json
-data/games/codigos-anime-max-simulator.json
-data/games/codigos-anime-raid.json
-data/games/codigos-anime-warriors.json
-data/games/codigos-be-a-strongman.json
-data/games/codigos-bell-striker-simulator.json
-data/games/codigos-blob-eating-simulator.json
-data/games/codigos-boxing-clicker-simulator.json
-data/games/codigos-brainrot-evolution.json
-data/games/codigos-bro-liberation-punch-toilet.json
-data/games/codigos-build-a-phone-empire.json
-data/games/codigos-candy-kingdom-defense.json
-data/games/codigos-circle-clash.json
-data/games/codigos-clover-retribution.json
-data/games/codigos-collect-the-alphabet.json
-data/games/codigos-corsa-legends.json
-data/games/codigos-dalgona-challenge.json
-data/games/codigos-dalgona-simulator.json
-data/games/codigos-defeat-anime-rng.json
-data/games/codigos-demon-slayer-legacy.json
-data/games/codigos-demon-sword-reincarnation.json
-data/games/codigos-dominus-merge-tycoon.json
-data/games/codigos-dragon-blox.json
-data/games/codigos-drill-to-earths-core.json
-data/games/codigos-dungeon-lootr.json
-data/games/codigos-eat-ball-simulator.json
-data/games/codigos-emerald-tappers-x.json
-data/games/codigos-emergency-emden.json
-data/games/codigos-energy-drink-simulator.json
-data/games/codigos-fighting-legends.json
-data/games/codigos-fish-it.json
-data/games/codigos-fitness-simulator-2.json
-data/games/codigos-flappy-bird-race.json
-data/games/codigos-flip-flop-simulator.json
-data/games/codigos-freestyle-football.json
-data/games/codigos-grow-snails.json
-data/games/codigos-hex-defender.json
-data/games/codigos-hollow-era.json
-data/games/codigos-hots-rng.json
-data/games/codigos-huss-valley.json
-data/games/codigos-imposters-and-roles.json
-data/games/codigos-infinite-mining-incremental.json
-data/games/codigos-jojos-bizarre-incremental.json
-data/games/codigos-jump-rope-simulator.json
-data/games/codigos-laser-tycoon.json
-data/games/codigos-lethal-tower-defense.json
-data/games/codigos-log-flume-tycoon.json
-data/games/codigos-mars-base-tycoon.json
-data/games/codigos-mega-war-tycoon.json
-data/games/codigos-meme-tower-defense.json
-data/games/codigos-meme-tycoon.json
-data/games/codigos-merge-tower-defense.json
-data/games/codigos-mine.json
-data/games/codigos-morph-rng.json
-data/games/codigos-my-coffee-shop.json
-data/games/codigos-mystery-chest-simulator.json
-data/games/codigos-nightfall.json
-data/games/codigos-ninja-time.json
-data/games/codigos-noob-incremental.json
-data/games/codigos-open-the-gate.json
-data/games/codigos-palm-shores-florida.json
-data/games/codigos-pillow-fighting-simulator.json
-data/games/codigos-plague.json
-data/games/codigos-pls-buy-me.json
-data/games/codigos-princess-fighter-simulator.json
-data/games/codigos-project-sonic-td.json
-data/games/codigos-racket-rivals.json
-data/games/codigos-rank-simulator-x.json
-data/games/codigos-realms-of-the-multiverse.json
-data/games/codigos-rensselaer-county.json
-data/games/codigos-ro-ghoul.json
-data/games/codigos-roblox-smiles.json
-data/games/codigos-rock-climb-simulator.json
-data/games/codigos-roll-your-height.json
-data/games/codigos-saber-simulator.json
-data/games/codigos-sakura-piece.json
-data/games/codigos-seekers.json
-data/games/codigos-sell-fries.json
-data/games/codigos-shigaku.json
-data/games/codigos-ship-merge-simulator.json
-data/games/codigos-shoot-race-simulator.json
-data/games/codigos-sky-fall-battle-of-fallen.json
-data/games/codigos-sled-simulator-2.json
-data/games/codigos-slime-card-collection.json
-data/games/codigos-squid-ding.json
-data/games/codigos-squiddy-game.json
-data/games/codigos-steal-a-meme.json
-data/games/codigos-steal-n-grow-a-brainrot.json
-data/games/codigos-strength-clash-simulator.json
-data/games/codigos-submarine-simulator.json
-data/games/codigos-survive-the-apocalypse.json
-data/games/codigos-sword-factory-beyond.json
-data/games/codigos-tapper-simulator.json
-data/games/codigos-the-heroes-simulator.json
-data/games/codigos-transform-vs-sword-simulator.json
-data/games/codigos-twilights-zone.json
-data/games/codigos-wall-knife-simulator.json
-data/games/codigos-water-pumping-incremental-2.json
-data/games/codigos-world-zero.json
-data/games/codigos-zombie-army-simulator.json
+data/games/codigos-1-fly-every-second.json
+data/games/codigos-against-toilets-simulator.json
+data/games/codigos-anime-boxing-simulator.json
+data/games/codigos-anime-fruit-simulator.json
+data/games/codigos-anime-rails.json
+data/games/codigos-anime-rng-defense.json
+data/games/codigos-anime-samurai-simulator.json
+data/games/codigos-anime-shadow-2.json
+data/games/codigos-basketball-zero.json
+data/games/codigos-bear-evolution.json
+data/games/codigos-bike-race-simulator.json
+data/games/codigos-brainrot-diver.json
+data/games/codigos-break-brainrot-bones.json
+data/games/codigos-clicker-fighting-simulator.json
+data/games/codigos-climb-block-stairs.json
+data/games/codigos-crystal-valley-mining-simulator.json
+data/games/codigos-dodgeball-legends.json
+data/games/codigos-doom-by-fate.json
+data/games/codigos-dragon-fighting-simulator.json
+data/games/codigos-empire-clash.json
+data/games/codigos-evolve-your-spaceship.json
+data/games/codigos-fart-battle-simulator.json
+data/games/codigos-ghost-samurai-fighting.json
+data/games/codigos-goofy-tower-defense.json
+data/games/codigos-ijul-piece-2.json
+data/games/codigos-jump-simulator.json
+data/games/codigos-knight-save-princess-simulator.json
+data/games/codigos-legacy-piece.json
+data/games/codigos-line-to-fight.json
+data/games/codigos-mart-simulator.json
+data/games/codigos-massacre.json
+data/games/codigos-medved.json
+data/games/codigos-over-inflated.json
+data/games/codigos-pancake-battles.json
+data/games/codigos-pop-it-trading.json
+data/games/codigos-prota-simulator.json
+data/games/codigos-pull-up-legends.json
+data/games/codigos-race-car-simulator.json
+data/games/codigos-ride-friend-race.json
+data/games/codigos-ride-race.json
+data/games/codigos-rivals.json
+data/games/codigos-run-to-win-simulator.json
+data/games/codigos-shoot-a-friend-simulator.json
+data/games/codigos-shoot-beam-simulator.json
+data/games/codigos-slay-the-runway.json
+data/games/codigos-slayer-corps.json
+data/games/codigos-solo-showdown.json
+data/games/codigos-stone-miner-simulator-3.json
+data/games/codigos-strong-muscle-simulator.json
+data/games/codigos-throttle.json
+data/games/codigos-tr-legacy.json
+data/games/codigos-upgrade-your-city.json
+data/games/codigos-vv-ultimatum.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
 Nuevos juegos:
+data/games/codigos-a-long-flight.json
+data/games/codigos-analog.json
+data/games/codigos-iron-soul-dungeon.json
+data/games/codigos-power-lifters.json
+data/games/codigos-ragdoll-boxing.json
 
