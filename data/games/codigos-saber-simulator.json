@@ -4,12 +4,17 @@
   "thumbnail": "https://tr.rbxcdn.com/180DAY-16d645fc00e304151203da1ebf91cceb/512/512/Image/Png/noFilter",
   "description": "Todos los códigos activos para Saber Simulator en Roblox",
   "metaTitle": "Códigos Saber Simulator Roblox (Octubre 2026) - Códigos Gratis",
-  "metaDescription": "Lista actualizada de códigos para Saber Simulator en Roblox. 70 códigos activos. Consigue recompensas gratis.",
-  "lastUpdated": "2026-10-17T21:56:29.431Z",
+  "metaDescription": "Lista actualizada de códigos para Saber Simulator en Roblox. 71 códigos activos. Consigue recompensas gratis.",
+  "lastUpdated": "2026-10-29T14:52:06.865Z",
   "activeCodes": [
     {
+      "code": "HAUNTEDHOUSE31",
+      "reward": "31 Shiny, Rainbow, and Void Charms",
+      "addedDate": "2026-10-29"
+    },
+    {
       "code": "JACKOLANTERN",
-      "reward": "Recompensas",
+      "reward": "31x Void Charms, 31x Shiny Charms, and 31x Rainbow Charms",
       "addedDate": "2026-10-17"
     },
     {
@@ -178,6 +183,11 @@
       "addedDate": "2026-08-01"
     },
     {
+      "code": "BOSS",
+      "reward": "200 monedas & 1K Crowns",
+      "addedDate": "2026-08-01"
+    },
+    {
       "code": "MIRRORRS",
       "reward": "10K fuerza",
       "addedDate": "2026-08-01"
@@ -220,11 +230,6 @@
     {
       "code": "COOKIECLIX",
       "reward": "500 monedas",
-      "addedDate": "2026-08-01"
-    },
-    {
-      "code": "BOSS",
-      "reward": "200 monedas & 1K Crowns",
       "addedDate": "2026-08-01"
     },
     {
@@ -273,18 +278,18 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "2020",
-      "reward": "10K Crowns",
-      "addedDate": "2026-08-01"
-    },
-    {
       "code": "SABER",
       "reward": "1,000 Crowns",
       "addedDate": "2026-08-01"
     },
     {
-      "code": "HENRYDEV",
-      "reward": "1K fuerza",
+      "code": "LEGEND",
+      "reward": "1K Crowns",
+      "addedDate": "2026-08-01"
+    },
+    {
+      "code": "2020",
+      "reward": "10K Crowns",
       "addedDate": "2026-08-01"
     },
     {
@@ -338,8 +343,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "LEGEND",
-      "reward": "1K Crowns",
+      "code": "WEEKEND",
+      "reward": "20K Crowns",
       "addedDate": "2026-08-01"
     },
     {
@@ -348,8 +353,8 @@
       "addedDate": "2026-08-01"
     },
     {
-      "code": "WEEKEND",
-      "reward": "20K Crowns",
+      "code": "HENRYDEV",
+      "reward": "1K fuerza",
       "addedDate": "2026-08-01"
     },
     {
@@ -360,11 +365,7 @@
   ],
   "expiredCodes": [
     {
-      "code": "ZARCO",
-      "reward": "100 Crowns"
-    },
-    {
-      "code": "HALLOWEEN",
+      "code": "XMAS",
       "reward": "500 Crowns"
     },
     {
@@ -388,6 +389,42 @@
       "reward": "50 Shiny Charms"
     },
     {
+      "code": "BOSSING",
+      "reward": "100 Shiny Charms"
+    },
+    {
+      "code": "SCYTHE",
+      "reward": "600"
+    },
+    {
+      "code": "HALLOWEEN",
+      "reward": "500 Crowns"
+    },
+    {
+      "code": "CLASH",
+      "reward": "20 Shiny Charms, 20 Rainbow Charms, and 20 Void Charms"
+    },
+    {
+      "code": "FREECHARMS",
+      "reward": "50 Shiny Charms, 50 Rainbow Charms, and 50 Void Charms"
+    },
+    {
+      "code": "CRISPY",
+      "reward": "35 Rainbow Charms"
+    },
+    {
+      "code": "JS",
+      "reward": "500 monedas"
+    },
+    {
+      "code": "ZARCO",
+      "reward": "100 Crowns"
+    },
+    {
+      "code": "VALENTINE",
+      "reward": "300 Hearts"
+    },
+    {
       "code": "CLASSIC",
       "reward": "25 Void Charms, 25 Shiny Charms, And 25 Rainbow Charms"
     },
@@ -408,64 +445,28 @@
       "reward": "31 Void Charms"
     },
     {
-      "code": "MASTER3395",
-      "reward": "1,000 Crowns"
-    },
-    {
-      "code": "REVAMP",
-      "reward": "15 Void Charms, 60 Rainbow Charms and 300 Shiny Charms"
-    },
-    {
-      "code": "JS",
-      "reward": "500 monedas"
-    },
-    {
-      "code": "XMAS",
-      "reward": "500 Crowns"
-    },
-    {
-      "code": "VALENTINE",
-      "reward": "300 Hearts"
-    },
-    {
-      "code": "500M",
-      "reward": "50 Void Charms, 500 Shiny and 50 Rainbow"
-    },
-    {
-      "code": "SUMMERPT2",
-      "reward": "50 Shiny Charms"
-    },
-    {
-      "code": "FIREWORKS",
-      "reward": "25 Rainbow Charms"
-    },
-    {
-      "code": "DIFFICULTY",
-      "reward": "25 Void Charms"
-    },
-    {
-      "code": "SUMMERPT1",
-      "reward": "50 Shiny Charms"
+      "code": "HAPPY4TH",
+      "reward": "25 Shiny Charms"
     },
     {
       "code": "DUNGEONS",
       "reward": "25 Rainbow Charms"
     },
     {
-      "code": "HAPPY4TH",
-      "reward": "25 Shiny Charms"
-    },
-    {
-      "code": "BOSSING",
-      "reward": "100 Shiny Charms"
+      "code": "SUMMERPT1",
+      "reward": "50 Shiny Charms"
     },
     {
       "code": "CHARMS",
       "reward": "Charms"
     },
     {
-      "code": "SCYTHE",
-      "reward": "600"
+      "code": "DIFFICULTY",
+      "reward": "25 Void Charms"
+    },
+    {
+      "code": "FIREWORKS",
+      "reward": "25 Rainbow Charms"
     },
     {
       "code": "ASTRO",
@@ -484,20 +485,24 @@
       "reward": "100 Shiny Charms"
     },
     {
-      "code": "CLASH",
-      "reward": "20 Shiny Charms, 20 Rainbow Charms, and 20 Void Charms"
+      "code": "SUMMERPT2",
+      "reward": "50 Shiny Charms"
     },
     {
-      "code": "FREECHARMS",
-      "reward": "50 Shiny Charms, 50 Rainbow Charms, and 50 Void Charms"
-    },
-    {
-      "code": "CRISPY",
-      "reward": "35 Rainbow Charms"
+      "code": "500M",
+      "reward": "50 Void Charms, 500 Shiny and 50 Rainbow"
     },
     {
       "code": "BEAST",
       "reward": "600 Crowns"
+    },
+    {
+      "code": "MASTER3395",
+      "reward": "1,000 Crowns"
+    },
+    {
+      "code": "REVAMP",
+      "reward": "15 Void Charms, 60 Rainbow Charms and 300 Shiny Charms"
     },
     {
       "code": "MAGIC",
