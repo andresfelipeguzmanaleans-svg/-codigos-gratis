@@ -1,7 +1,7 @@
-=== RESUMEN UPDATE 2026-11-14 14:44 ===
+=== RESUMEN UPDATE 2026-11-14 23:36 ===
 
 Archivos modificados:
-  3 archivos cambiados
+  2 archivos cambiados
 
 Archivos nuevos:
   0 archivos nuevos
@@ -11,10 +11,9 @@ Total: 4700 juegos (4700 procesados)
 Actualizados: 0 | Sin cambios: 0
 No encontrado: 4687 | Saltados: 13
 Códigos nuevos: 0 | Movidos a expirados: 0
-Tiempo: 142.5s | Concurrencia: 10
+Tiempo: 166.3s | Concurrencia: 10
 
 Detalle cambios:
-data/gameguide-urls.json
 scripts/last-update.log
 scripts/update-codes-report.log
 
